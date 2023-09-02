@@ -2,6 +2,7 @@ import json
 import xml.dom.minidom
 import inflect
 import yaml
+import time
 from collections.abc import Iterable
 
 
@@ -31,3 +32,8 @@ def json_to_xml(json_string):
 def json_to_yaml(json_string):
     yaml_string = yaml.dump(json.loads(json_string))
     return yaml_string.strip()
+
+
+def sleep(seconds: int) -> None:
+    """Sleep for a given number of seconds."""
+    time.sleep(seconds)
