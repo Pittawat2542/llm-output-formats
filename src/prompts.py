@@ -1,9 +1,8 @@
 from typing import Literal
 
+from src.constants import TASKS, FORMATS
 from src.utils import json_to_xml, json_to_yaml
 
-possible_tasks = ["story", "quest", "character", "dialogue", "enemy"]
-possible_output_formats = ["json", "xml", "yaml"]
 Task = Literal["story", "quest", "character", "dialogue", "enemy"]
 OutputFormat = Literal["json", "xml", "yaml"]
 
@@ -33,12 +32,12 @@ def generation_prompt(task: Task = "story",
 
 
 def guard_task(task: Task = "story"):
-    if task not in possible_tasks:
+    if task not in TASKS:
         raise ValueError('`task` must be either "story", "quest", "character", "dialogue", or "enemy"')
 
 
 def guard_output_format(output_format: OutputFormat = "json"):
-    if output_format not in possible_output_formats:
+    if output_format not in FORMATS:
         raise ValueError('`format` must be either "json", "xml", or "yaml"')
 
 
@@ -49,7 +48,7 @@ def get_magic_phrase(output_format: OutputFormat = "json"):
 
 
 def get_task_name(task: Task = "story"):
-    if task not in possible_tasks:
+    if task not in TASKS:
         raise ValueError('`task` must be either "story" or "quest"')
 
     if task == "story":
@@ -65,7 +64,7 @@ def get_task_name(task: Task = "story"):
 
 
 def get_task_template(task: Task = "story"):
-    if task not in possible_tasks:
+    if task not in TASKS:
         raise ValueError('`task` must be either "story" or "quest"')
 
     if task == "story":
