@@ -1,7 +1,7 @@
 import argparse
 import os
 import logging
-from datetime import datetime
+import time
 from tqdm import tqdm
 
 from src.constants import MODELS, TASKS, FORMATS
@@ -12,7 +12,7 @@ if __name__ == '__main__':
     if not os.path.exists('logs'):
         os.makedirs('logs')
     FORMAT = '[%(asctime)s] %(message)s'
-    logging.basicConfig(format=FORMAT, filename=f'logs/generation_{str(datetime.now())}.log', level=logging.INFO,
+    logging.basicConfig(format=FORMAT, filename=f'logs/generation_{time.strftime("%Y%m%d-%H%M%S")}.log', level=logging.INFO,
                         filemode='a', datefmt='%Y-%m-%d %H:%M:%S')
 
     parser = argparse.ArgumentParser(
