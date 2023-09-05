@@ -127,7 +127,7 @@ class Llama2(IModel):
             cls._instance = super(IModel, cls).__new__(cls)
             cls._instance.model = pipeline(
                 "conversational",
-                model="meta-llama/Llama-2-13b-hf",
+                model="meta-llama/Llama-2-7b-hf",
                 token=hf_auth_token,
                 temperature=0.5,
                 max_length=4096
@@ -145,13 +145,13 @@ class Llama2(IModel):
         return "Llama2"
 
 
-class StableBeluga(IModel):
+class Falcon(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
             cls._instance.model = pipeline(
                 "conversational",
-                model="stabilityai/StableBeluga-13B",
+                model="tiiuae/falcon-7b-instruct",
                 token=hf_auth_token,
                 temperature=0.5,
                 max_length=4096
@@ -163,19 +163,19 @@ class StableBeluga(IModel):
         return self.model(conversation).generated_responses[-1]
 
     def __str__(self):
-        return "StableBeluga"
+        return "Falcon"
 
     def __repr__(self):
-        return "StableBeluga"
+        return "Falcon"
 
 
-class StablePlatypus2(IModel):
+class MPT(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
             cls._instance.model = pipeline(
                 "conversational",
-                model="garage-bAInd/Stable-Platypus2-13B",
+                model="mosaicml/mpt-7b-instruct",
                 token=hf_auth_token,
                 temperature=0.5,
                 max_length=4096
@@ -187,10 +187,10 @@ class StablePlatypus2(IModel):
         return self.model(conversation).generated_responses[-1]
 
     def __str__(self):
-        return "StablePlatypus2"
+        return "MPT"
 
     def __repr__(self):
-        return "StablePlatypus2"
+        return "MPT"
 
 
 def get_model(model_name: str) -> IModel:
@@ -209,8 +209,8 @@ def get_model(model_name: str) -> IModel:
     if model_name == "llama-2":
         return Llama2()
 
-    if model_name == "stable-beluga":
-        return StableBeluga()
+    if model_name == "falcon":
+        return Falcon()
 
-    if model_name == "stable-platypus-2":
-        return StablePlatypus2()
+    if model_name == "MPT":
+        return MPT()
