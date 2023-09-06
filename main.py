@@ -12,7 +12,8 @@ if __name__ == '__main__':
     if not os.path.exists('logs'):
         os.makedirs('logs')
     FORMAT = '[%(asctime)s] %(message)s'
-    logging.basicConfig(format=FORMAT, filename=f'logs/generation_{time.strftime("%Y%m%d-%H%M%S")}.log', level=logging.INFO,
+    logging.basicConfig(format=FORMAT, filename=f'logs/generation_{time.strftime("%Y%m%d-%H%M%S")}.log',
+                        level=logging.INFO,
                         filemode='a', datefmt='%Y-%m-%d %H:%M:%S')
 
     parser = argparse.ArgumentParser(
@@ -72,7 +73,10 @@ if __name__ == '__main__':
                         response = chat_model.inference(prompt)
 
                         with open(f'outputs/{task}/{model}/{output_format}/{i + 1}.txt', 'w') as f:
-                            f.write(response)
+                            if response is None:
+                                f.write("")
+                            else:
+                                f.write(response)
 
                         logging.info(f"Finished trial {i} for {model} on {task} with {output_format}")
                 except ValueError:
