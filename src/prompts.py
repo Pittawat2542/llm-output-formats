@@ -1,10 +1,6 @@
-from typing import Literal
-
 from src.constants import TASKS, FORMATS
+from src.types import Task, OutputFormat
 from src.utils import json_to_xml, json_to_yaml
-
-Task = Literal["story", "quest", "character", "dialogue", "enemy"]
-OutputFormat = Literal["json", "xml", "yaml"]
 
 
 def generation_prompt(task: Task = "story",
@@ -16,12 +12,13 @@ def generation_prompt(task: Task = "story",
     output_template_json = get_task_template(task)
 
     output_template = None
-    if output_format == "json":
-        output_template = output_template_json
-    elif output_format == "xml":
-        output_template = json_to_xml(output_template_json)
-    elif output_format == "yaml":
-        output_template = json_to_yaml(output_template_json)
+    match output_format:
+        case "json":
+            output_template = output_template_json
+        case "xml":
+            output_template = json_to_xml(output_template_json)
+        case "yaml":
+            output_template = json_to_yaml(output_template_json)
 
     return f"""Generate a {task_name}. {get_magic_phrase(output_format)}
 
@@ -51,24 +48,26 @@ def get_task_name(task: Task = "story"):
     if task not in TASKS:
         raise ValueError('`task` must be either "story" or "quest"')
 
-    if task == "story":
-        return "game story synopsis"
-    elif task == "quest":
-        return "quest information"
-    elif task == "character":
-        return "character profile"
-    elif task == "dialogue":
-        return "dialogue"
-    elif task == "enemy":
-        return "enemy battle status"
+    match task:
+        case "story":
+            return "game story synopsis"
+        case "quest":
+            return "quest information"
+        case "character":
+            return "character profile"
+        case "dialogue":
+            return "dialogue"
+        case "enemy":
+            return "enemy battle status"
 
 
 def get_task_template(task: Task = "story"):
     if task not in TASKS:
         raise ValueError('`task` must be either "story" or "quest"')
 
-    if task == "story":
-        return '''{
+    match task:
+        case "story":
+            return '''{
     "game": {
         "title": "game title",
         "synopsis": "game story synopsis",
@@ -76,8 +75,8 @@ def get_task_template(task: Task = "story"):
         "ending": "the ending of the game"
     }
 }'''
-    elif task == "quest":
-        return '''{
+        case "quest":
+            return '''{
     "game": {
         "id": "id",
         "title": "quest title",
@@ -93,8 +92,8 @@ def get_task_template(task: Task = "story"):
         }]
     }
 }'''
-    elif task == "character":
-        return '''{
+        case "character":
+            return '''{
     "game": {
         "character": {
             "id": "id",
@@ -114,8 +113,8 @@ def get_task_template(task: Task = "story"):
         }
     }
 }'''
-    elif task == "dialogue":
-        return '''{
+        case "dialogue":
+            return '''{
     "game": {
         "dialogues": [{
             "order": "dialogue order",
@@ -124,8 +123,8 @@ def get_task_template(task: Task = "story"):
         }]
     }
 }'''
-    elif task == "enemy":
-        return '''{
+        case "enemy":
+            return '''{
     "game": {
         "enemy": {
             "id": "id",

@@ -194,23 +194,18 @@ class MPT(IModel):
 
 
 def get_model(model_name: str) -> IModel:
-    if model_name not in MODELS:
-        raise ValueError("Invalid model name.")
-
-    if model_name == "gpt-3.5-turbo":
-        return ChatGPT()
-
-    if model_name == "gpt-4":
-        return GPT4()
-
-    if model_name == "palm":
-        return PaLM()
-
-    if model_name == "llama-2":
-        return Llama2()
-
-    if model_name == "falcon":
-        return Falcon()
-
-    if model_name == "MPT":
-        return MPT()
+    match model_name:
+        case "gpt-3.5-turbo":
+            return ChatGPT()
+        case "gpt-4":
+            return GPT4()
+        case "palm":
+            return PaLM()
+        case "llama-2":
+            return Llama2()
+        case "falcon":
+            return Falcon()
+        case "MPT":
+            return MPT()
+        case _:
+            raise ValueError("Invalid model name.")
