@@ -154,7 +154,8 @@ class Falcon(IModel):
                 model="tiiuae/falcon-7b-instruct",
                 token=hf_auth_token,
                 temperature=0.5,
-                max_length=4096
+                max_length=4096,
+                trust_remote_code=True
             )
         return cls._instance
 
@@ -178,7 +179,8 @@ class MPT(IModel):
                 model="mosaicml/mpt-7b-instruct",
                 token=hf_auth_token,
                 temperature=0.5,
-                max_length=4096
+                max_length=4096,
+                trust_remote_code=True
             )
         return cls._instance
 
