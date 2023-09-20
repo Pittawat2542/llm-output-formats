@@ -45,7 +45,7 @@ class ChatGPT(IModel):
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=temperature
+                temperature=temperature,
             )
             return response.choices[0].message.content
         except openai.error.APIError as e:
@@ -80,7 +80,7 @@ class GPT4(IModel):
             response = openai.ChatCompletion.create(
                 model="gpt-4",
                 messages=[{"role": "user", "content": prompt}],
-                temperature=temperature
+                temperature=temperature,
             )
             return response.choices[0].message.content
         except openai.error.APIError as e:
@@ -131,7 +131,7 @@ class Llama2(IModel):
                 token=hf_auth_token,
                 temperature=0.5,
                 max_length=4096,
-                device_map="auto"
+                device_map="auto",
             )
         return cls._instance
 
@@ -150,13 +150,15 @@ class Falcon(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
-            cls._instance.tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b-instruct")
+            cls._instance.tokenizer = AutoTokenizer.from_pretrained(
+                "tiiuae/falcon-7b-instruct"
+            )
             cls._instance.model = pipeline(
                 "text-generation",
                 model="tiiuae/falcon-7b-instruct",
                 tokenizer=cls._instance.tokenizer,
                 trust_remote_code=True,
-                device_map="auto"
+                device_map="auto",
             )
         return cls._instance
 
@@ -168,7 +170,7 @@ class Falcon(IModel):
             num_return_sequences=1,
             eos_token_id=self._instance.tokenizer.eos_token_id,
         )
-        return sequences[-1]['generated_text'].replace(prompt, "").strip()
+        return sequences[-1]["generated_text"].replace(prompt, "").strip()
 
     def __str__(self):
         return "Falcon"
@@ -181,25 +183,28 @@ class MPT(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
-            cls._instance.tokenizer = AutoTokenizer.from_pretrained("mosaicml/mpt-7b-instruct")
+            cls._instance.tokenizer = AutoTokenizer.from_pretrained(
+                "mosaicml/mpt-7b-instruct"
+            )
             cls._instance.model = pipeline(
                 "text-generation",
                 model="mosaicml/mpt-7b-instruct",
                 tokenizer=cls._instance.tokenizer,
                 trust_remote_code=True,
-                device_map="auto"
+                device_map="auto",
             )
-        return cls._instance
+            return cls._instance
 
     def inference(self, prompt: str, temperature: float = 1):
         instruction_key = "### Instruction:"
         response_key = "### Response:"
-        intro_blurb = "Below is an instruction that describes a task. Write a response that appropriately completes the request."
+        intro_blurb = ("Below is an instruction that describes a task. Write a response that appropriately completes "
+                       "the request.")
         prompt_for_generation_format = """{intro}
-        {instruction_key}
-        {instruction}
-        {response_key}
-        """.format(
+{instruction_key}
+{instruction}
+{response_key}
+""".format(
             intro=intro_blurb,
             instruction_key=instruction_key,
             instruction="{instruction}",
@@ -216,7 +221,7 @@ class MPT(IModel):
             eos_token_id=self._instance.tokenizer.eos_token_id,
         )
 
-        return sequences[-1]['generated_text'].replace(formatted_prompt, "").strip()
+        return sequences[-1]["generated_text"].replace(formatted_prompt, "").strip()
 
     def __str__(self):
         return "MPT"
