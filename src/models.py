@@ -242,7 +242,7 @@ def get_model(model_name: str) -> IModel:
             return Llama2()
         case "falcon":
             return Falcon()
-        case "MPT":
+        case "mpt":
             return MPT()
         case _:
             raise ValueError("Invalid model name.")
