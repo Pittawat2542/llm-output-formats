@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from dotenv import load_dotenv
 import openai
 import google.generativeai as palm
-from transformers import pipeline, Conversation
+from transformers import pipeline, Conversation, AutoTokenizer
 
 from src.constants import MODELS
 from src.utils import sleep
@@ -130,7 +130,8 @@ class Llama2(IModel):
                 model="meta-llama/Llama-2-7b-hf",
                 token=hf_auth_token,
                 temperature=0.5,
-                max_length=4096
+                max_length=4096,
+                device_map="auto"
             )
         return cls._instance
 
@@ -149,18 +150,25 @@ class Falcon(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
+            cls._instance.tokenizer = AutoTokenizer.from_pretrained("tiiuae/falcon-7b-instruct")
             cls._instance.model = pipeline(
-                "conversational",
+                "text-generation",
                 model="tiiuae/falcon-7b-instruct",
-                token=hf_auth_token,
-                temperature=0.5,
-                max_length=4096
+                tokenizer=cls._instance.tokenizer,
+                trust_remote_code=True,
+                device_map="auto"
             )
         return cls._instance
 
     def inference(self, prompt: str, temperature: float = 1):
-        conversation = Conversation(prompt)
-        return self.model(conversation).generated_responses[-1]
+        sequences = pipeline(
+            prompt,
+            max_length=4096,
+            do_sample=True,
+            num_return_sequences=1,
+            eos_token_id=self._instance.tokenizer.eos_token_id,
+        )
+        return sequences[-1]['generated_text'].replace(prompt, "").strip()
 
     def __str__(self):
         return "Falcon"
@@ -173,18 +181,42 @@ class MPT(IModel):
     def __new__(cls):
         if cls._instance is None:
             cls._instance = super(IModel, cls).__new__(cls)
+            cls._instance.tokenizer = AutoTokenizer.from_pretrained("mosaicml/mpt-7b-instruct")
             cls._instance.model = pipeline(
-                "conversational",
+                "text-generation",
                 model="mosaicml/mpt-7b-instruct",
-                token=hf_auth_token,
-                temperature=0.5,
-                max_length=4096
+                tokenizer=cls._instance.tokenizer,
+                trust_remote_code=True,
+                device_map="auto"
             )
         return cls._instance
 
     def inference(self, prompt: str, temperature: float = 1):
-        conversation = Conversation(prompt)
-        return self.model(conversation).generated_responses[-1]
+        instruction_key = "### Instruction:"
+        response_key = "### Response:"
+        intro_blurb = "Below is an instruction that describes a task. Write a response that appropriately completes the request."
+        prompt_for_generation_format = """{intro}
+        {instruction_key}
+        {instruction}
+        {response_key}
+        """.format(
+            intro=intro_blurb,
+            instruction_key=instruction_key,
+            instruction="{instruction}",
+            response_key=response_key,
+        )
+
+        formatted_prompt = prompt_for_generation_format.format(instruction=prompt)
+
+        sequences = pipeline(
+            formatted_prompt,
+            max_length=4096,
+            do_sample=True,
+            num_return_sequences=1,
+            eos_token_id=self._instance.tokenizer.eos_token_id,
+        )
+
+        return sequences[-1]['generated_text'].replace(formatted_prompt, "").strip()
 
     def __str__(self):
         return "MPT"
