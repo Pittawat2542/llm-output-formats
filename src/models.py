@@ -163,7 +163,7 @@ class Falcon(IModel):
         return cls._instance
 
     def inference(self, prompt: str, temperature: float = 1):
-        sequences = pipeline(
+        sequences = self._instance.model(
             prompt,
             max_length=4096,
             do_sample=True,
@@ -213,7 +213,7 @@ class MPT(IModel):
 
         formatted_prompt = prompt_for_generation_format.format(instruction=prompt)
 
-        sequences = pipeline(
+        sequences = self._instance.model(
             formatted_prompt,
             max_length=4096,
             do_sample=True,
