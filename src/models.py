@@ -193,7 +193,7 @@ class MPT(IModel):
                 trust_remote_code=True,
                 device_map="auto",
             )
-            return cls._instance
+        return cls._instance
 
     def inference(self, prompt: str, temperature: float = 1):
         instruction_key = "### Instruction:"
