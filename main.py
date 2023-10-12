@@ -3,6 +3,9 @@ import json
 import os
 import logging
 import time
+import xml
+
+import yaml
 from tqdm import tqdm
 
 from src.constants import MODELS, TASKS, FORMATS, OUTPUT_FOLDER, PARSED_OUTPUT_FOLDER
@@ -74,7 +77,26 @@ def parsing_task():
                 for trial in tqdm(os.listdir(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}'), desc="Trial",
                                   position=3):
                     with open(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}/{trial}', 'r') as f:
-                        output = f.read()
+                        logging.info(f"Starting parsing {task} {model} {output_format} {trial}")
+                        try:
+                            output = f.read()
+                        except UnicodeDecodeError as e:
+                            logging.error(f"Error parsing {task} {model} {output_format} {trial}: {e}")
+                            with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f2:
+                                summarized_results = json.load(f2)
+
+                                summarized_results["results"].append({
+                                    "task": task,
+                                    "model": model,
+                                    "output_format": output_format,
+                                    "trial": trial,
+                                    "error": str(e)
+                                })
+
+                                f2.seek(0)
+                                f2.truncate()
+                                f2.write(json.dumps(summarized_results, indent=2))
+                            continue
 
                         try:
                             match output_format:
@@ -100,45 +122,49 @@ def parsing_task():
                                             "results": []
                                         }))
 
-                                        with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f:
-                                            summarized_results = json.load(f)
+                                with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f2:
+                                    summarized_results = json.load(f2)
 
-                                            summarized_results["results"].append({
-                                                "task": task,
-                                                "model": model,
-                                                "output_format": output_format,
-                                                "trial": trial,
-                                                "result": result
-                                            })
+                                    summarized_results["results"].append({
+                                        "task": task,
+                                        "model": model,
+                                        "output_format": output_format,
+                                        "trial": trial,
+                                        "result": result
+                                    })
 
-                                        logging.info(f"Finished parsing {task} {model} {output_format} {trial}")
-                        except Exception as e:
+                                    f2.seek(0)
+                                    f2.truncate()
+                                    f2.write(json.dumps(summarized_results, indent=2))
+
+                                logging.info(f"Finished parsing {task} {model} {output_format} {trial}")
+                        except (json.decoder.JSONDecodeError, xml.parsers.expat.ExpatError, yaml.scanner.ScannerError, yaml.parser.ParserError) as e:
                             if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json'):
                                 with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'w') as f:
                                     f.write(json.dumps({
                                         "results": []
                                     }))
 
-                                    with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f:
-                                        summarized_results = json.load(f)
+                            with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f2:
+                                summarized_results = json.load(f2)
 
-                                        summarized_results["results"].append({
-                                            "task": task,
-                                            "model": model,
-                                            "output_format": output_format,
-                                            "trial": trial,
-                                            "error": str(e)
-                                        })
+                                summarized_results["results"].append({
+                                    "task": task,
+                                    "model": model,
+                                    "output_format": output_format,
+                                    "trial": trial,
+                                    "error": str(e)
+                                })
+
+                                f2.seek(0)
+                                f2.truncate()
+                                f2.write(json.dumps(summarized_results, indent=2))
                             logging.error(f"Error parsing {task} {model} {output_format} {trial}: {e}")
 
 
 if __name__ == '__main__':
     if not os.path.exists('logs'):
         os.makedirs('logs')
-    FORMAT = '[%(asctime)s] %(message)s'
-    logging.basicConfig(format=FORMAT, filename=f'logs/generation_{time.strftime("%Y%m%d-%H%M%S")}.log',
-                        level=logging.INFO,
-                        filemode='a', datefmt='%Y-%m-%d %H:%M:%S')
 
     parser = argparse.ArgumentParser(
         prog='LLM Output Parsing Evaluation',
@@ -160,6 +186,11 @@ if __name__ == '__main__':
                         help='The trial number of the model to be evaluated.')
 
     args = parser.parse_args()
+
+    FORMAT = '[%(asctime)s] %(message)s'
+    logging.basicConfig(format=FORMAT, filename=f'logs/{args.mode}_{time.strftime("%Y%m%d-%H%M%S")}.log',
+                        level=logging.INFO,
+                        filemode='a', datefmt='%Y-%m-%d %H:%M:%S')
 
     if args.mode == "generation":
         if args.model == ['all']:
