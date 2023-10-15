@@ -138,7 +138,9 @@ def parsing_task():
                                     f2.write(json.dumps(summarized_results, indent=2))
 
                                 logging.info(f"Finished parsing {task} {model} {output_format} {trial}")
-                        except (json.decoder.JSONDecodeError, xml.parsers.expat.ExpatError, yaml.scanner.ScannerError, yaml.parser.ParserError) as e:
+                        except (json.decoder.JSONDecodeError, xml.parsers.expat.ExpatError, yaml.scanner.ScannerError,
+                                yaml.parser.ParserError, yaml.composer.ComposerError,
+                                yaml.constructor.ConstructorError) as e:
                             if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json'):
                                 with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'w') as f:
                                     f.write(json.dumps({
