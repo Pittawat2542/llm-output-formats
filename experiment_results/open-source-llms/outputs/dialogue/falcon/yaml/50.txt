@@ -1,0 +1,9 @@
+```yaml
+- order: dialogue order, text 
+  speaker:
+    name: speaker name
+  text:
+    narrative: narrative text, for example (spoken), could be dialogue, narrations, etc.
+```
+
+Each key-value pair in the code block is encapsulated in double quotes to preserve single quotes. The YAML follows the standard structure of markdown where all YAML content follows an open brace and a close brace.

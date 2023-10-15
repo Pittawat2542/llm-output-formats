@@ -1,0 +1,36 @@
+
+
+## Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Tests
+
+```shell
+$ python3 tests.py
+```
+
+## Credits
+
+This repository is based on the [Star Wars Character Creator](https://github.com/victor-lucas/star-wars-character-creator) repository.

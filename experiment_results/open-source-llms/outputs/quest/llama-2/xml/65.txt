@@ -1,0 +1,63 @@
+
+
+## Input format
+
+### Required
+
+| Field | Type | Description |
+| ------ | ----- | ----------- |
+| id | string | The id of the quest |
+| title | string | The title of the quest |
+| objective | string | The objective of the quest |
+| description | string | The description of the quest |
+| reward | string | The reward of the quest |
+| quest-giver | string | The quest giver |
+| tasks | array | An array of tasks |
+
+### Optional
+
+| Field | Type | Description |
+| ------ | ----- | ----------- |
+| location | string | The location of the quest |
+
+### Example
+
+```json
+{
+	"id": "id",
+	"title": "title",
+	"objective": "objective",
+	"description": "description",
+	"reward": "reward",
+	"quest-giver": "quest giver",
+	"tasks": [
+		{
+			"order": "order",
+			"objective": "objective",
+			"description": "description",
+			"location": "location"
+		}
+	]
+}
+```
+
+## Examples
+
+```json
+{
+	"id": "id",
+	"title": "title",
+	"objective": "objective",
+	"description": "description",
+	"reward": "reward",
+	"quest-giver": "quest giver",
+	"tasks": [
+		{
+			"order": "order",
+			"objective": "objective",
+			"description": "description",
+			"location": "location"
+		}
+	]
+}
+```

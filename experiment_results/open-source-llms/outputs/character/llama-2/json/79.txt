@@ -1,0 +1,514 @@
+
+
+## Input format
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+## Examples
+
+### Example 1
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 2
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 3
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 4
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 5
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 6
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 7
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 8
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 9
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 10
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 11
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 12
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 13
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 14
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 15
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 16
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 17
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 18
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 19
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+``` [/INST]
+
+### Example 20
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Embark on an epic journey to save the kingdom from an ancient evil.",
+    "id": "123456",
+    "objective": "Defeat the Dark Lord and restore peace to the land.",
+    "quest_giver": "King Arthus",
+    "reward": "1000 gold coins and the title of Hero of the Kingdom",
+    "tasks": [
+      {
+        "description": "Retrieve the legendary Sword of Light from the Cave of Shadows.",
+        "location": "Cave of Shadows",
+        "objective": "Find the Sword of Light",
+        "order": 1
+      },
+      {
+        "description": "Seek the guidance of the Wise Wizard in the Tower of Wisdom.",
+        "location": "Tower of Wisdom",
+        "objective": "Speak to the Wise Wizard",
+        "order": 2
+      },
+      {
+        "description": "Collect the four magic crystals from the Elemental Shrines.",
+        "location": "Elemental Shrines",
+        "objective": "Obtain the four magic crystals",
+        "order": 3
+      }
+    ],
+    "title": "Quest for the Kingdom"
+  }
+}

@@ -1,0 +1,26 @@
+<div><?xml version="1.0" encoding="UTF-8"?>
+<game_xml xmlns:android="http://schemas.android.com/apk/res/android">
+	<title>game title</title>
+	<description>game description</description>
+	<version>1.0</version>
+	<category>Action</category>
+	<playable>true</playable>
+	<releaseDate>2015-01-01</releaseDate>
+</game>
+</div>
+```
+
+[Markdown]
+Return the generated XML code in the `output` block while keeping the XML tags intact.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>game title</title>
+	<description>game description</description>
+	<version>1.0</version>
+	<category>Action</category>
+	<playable>true</playable>
+	<releaseDate>2015-01-01</releaseDate>
+</game>
+```

@@ -1,0 +1,1 @@
+In this output format, the `game` key is an object with two sub-keys: `enemy` and `enemy`. For each sub-key, we have a character object (`id`, `name`, `description`, `stats`) inside the `game` object. The `game` object is the final key in the output, and contains the array of enemy units defined in the `enemy` object.

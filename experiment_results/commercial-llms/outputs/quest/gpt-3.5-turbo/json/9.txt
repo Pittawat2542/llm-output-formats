@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "The Lost Treasure",
+        "objective": "Find the hidden treasure",
+        "description": "Embark on an adventure to find the long-lost treasure of the ancient kingdom. Solve clues, defeat enemies, and navigate through treacherous landscapes to uncover the ultimate reward.",
+        "reward": "A chest filled with gold, jewels, and ancient artifacts",
+        "quest_giver": "Captain Bartholomew",
+        "tasks": [{
+            "order": "1",
+            "objective": "Solve the riddle of the forgotten temple",
+            "description": "Travel to the ancient temple located deep in the jungle. Crack the code to enter the temple and reveal the first clue to the treasure's whereabouts.",
+            "location": "Jungle"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the guardians of the labyrinth",
+            "description": "Navigate through a labyrinth guarded by mythical creatures and traps. Survive the challenges and retrieve the second clue hidden within.",
+            "location": "Labyrinth"
+        },
+        {
+            "order": "3",
+            "objective": "Cross the treacherous river",
+            "description": "Cross a dangerous river infested with deadly creatures. Find the hidden path and safely reach the other side to uncover the third clue.",
+            "location": "River"
+        },
+        {
+            "order": "4",
+            "objective": "Conquer the mountain peak",
+            "description": "Climb the treacherous mountain and face extreme weather conditions. Reach the summit to unveil the final clue leading to the exact location of the treasure.",
+            "location": "Mountain"
+        }]
+    }
+}
+```
+```

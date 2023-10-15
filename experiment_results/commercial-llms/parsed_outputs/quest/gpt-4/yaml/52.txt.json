@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Rescue the princess captured by the cruel dragon.",
+    "id": 12345,
+    "objective": "Save Princess Lativia from Dragon's peak and bring her safely back to the castle.",
+    "quest_giver": "King Arthur",
+    "reward": "Gold, magical artifacts, and Kingdom's highest honor - Knight of the Round Table.",
+    "tasks": [
+      {
+        "description": "Find a reliable source of information about the dragon's lair.",
+        "location": "The Royal Library",
+        "objective": "Gather as much information as possibly about the Dragon's Peak.",
+        "order": 1
+      },
+      {
+        "description": "Seek assistance from the mighty sorcerer in the enchanted forest.",
+        "location": "Enchanted Forest",
+        "objective": "Acquire magical protection against dragon fire from the sorcerer.",
+        "order": 2
+      },
+      {
+        "description": "Travel to Dragon's Peak and defeat the dragon.",
+        "location": "Dragon's Peak",
+        "objective": "Defeat the dragon and rescue Princess Lativia.",
+        "order": 3
+      },
+      {
+        "description": "Return to the castle with the princess.",
+        "location": "Camelot Castle",
+        "objective": "Report to King Arthur and return his daughter.",
+        "order": 4
+      }
+    ],
+    "title": "Dragon's Peak Rescuer"
+  }
+}

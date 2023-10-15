@@ -1,0 +1,182 @@
+
+
+# Input format
+
+### Markdown
+```markdown
+### Game Title
+#### Game Synopsis
+* The beginning of the game.
+* The ending of the game.
+```
+
+### JSON
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+```
+
+### XML
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+### YAML
+```yaml
+game:
+  title: game title
+  synopsis: game story synopsis
+  beginning: the beginning of the game
+  ending: the ending of the game
+```
+
+### CSV
+```csv
+title,synopsis,beginning,ending
+game title,game story synopsis,the beginning of the game,the ending of the game
+```
+
+# Sample input
+
+### Markdown
+```markdown
+### Game Title
+#### Game Synopsis
+* The beginning of the game.
+* The ending of the game.
+```
+
+### JSON
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+```
+
+### XML
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+### YAML
+```yaml
+game:
+  title: game title
+  synopsis: game story synopsis
+  beginning: the beginning of the game
+  ending: the ending of the game
+```
+
+### CSV
+```csv
+title,synopsis,beginning,ending
+game title,game story synopsis,the beginning of the game,the ending of the game
+```
+
+# Sample output
+
+### Markdown
+```markdown
+### Game Title
+#### Game Synopsis
+* The beginning of the game.
+* The ending of the game.
+```
+
+### JSON
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+```
+
+### XML
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+### YAML
+```yaml
+game:
+  title: game title
+  synopsis: game story synopsis
+  beginning: the beginning of the game
+  ending: the ending of the game
+```
+
+### CSV
+```csv
+title,synopsis,beginning,ending
+game title,game story synopsis,the beginning of the game,the ending of the game
+```
+
+# Notes
+
+### Markdown
+
+Markdown is a simple markup language that allows you to create formatted text using a plain-text editor. It is designed to be easy to read and write, and it is widely used on the web for creating blog posts, articles, and other types of content.
+
+### JSON
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write, and it is machine-readable. JSON is commonly used for transmitting data between web applications and for storing data in databases.
+
+### XML
+
+XML (Extensible Markup Language) is a markup language that is designed to be both human-readable and machine-readable. It is often used to store data in structured formats, such as in databases or web applications.
+
+### YAML
+
+YAML (YAML Ain't Markup Language) is a human-readable data-interchange format that is similar to JSON. It is designed to be easy to read and write, and it is commonly used for transmitting data between web applications.
+
+### CSV
+
+CSV (Comma-Separated Values) is a simple text-based format that is commonly used for storing data in spreadsheets. It is easy to read and write, and it is machine-readable. CSV is often used for transmitting data between web applications and for storing data in databases.
+
+### Sample input
+
+The sample input is a simple text-based format that is commonly used for storing data in spreadsheets. It is easy to read and write, and it is machine-readable. CSV is often used for transmitting data between web applications and for storing data in databases.
+
+### Sample output
+
+The sample output is a simple text-based format that is commonly used for storing data in spreadsheets. It is easy to read and write, and it is machine-readable. CSV is often used for transmitting data between web applications and for storing data in databases.
+
+# Testing
+
+### Markdown
+
+### JSON
+
+### XML
+
+### YAML
+
+### CSV
+
+# License
+
+[MIT](LICENSE)

@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>Hi, Alice! I'm good. How about you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine, thank you. Have you seen Charlie?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>Not today, Alice. He mentioned he had an important task to finish.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Alice</speaker>
+			<text>I see. Well, we should probably start our journey without him.</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>Bob</speaker>
+			<text>Agreed. Let's not waste any more time.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

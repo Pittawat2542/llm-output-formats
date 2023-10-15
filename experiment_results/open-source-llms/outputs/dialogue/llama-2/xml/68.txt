@@ -1,0 +1,294 @@
+
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, I am Alice. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I am fine. How are you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Markdown
+```markdown
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+``` [/INST]
+
+### Example
+```markdown
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, I am Alice. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I am fine. How are you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+- [ ] Use the `dialogues` element
+- [ ] Add a `speaker` element for each speaker
+- [ ] Add a `text` element for each dialogue
+- [ ] Add a `order` element for each dialogue
+- [ ] Add a `dialogue order` element for each dialogue
+- [ ] Add a `speaker name` element for each speaker
+- [ ] Add a `dialogue or narration` element for each dialogue
+
+### Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Extra Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Extra Extra Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+
+### Extra Extra Extra Extra Extra Extra Extra Credit
+- [ ] Add an `extra` element for each dialogue
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ] Add a `dialogue order` element for each extra
+- [ ] Add a `speaker name` element for each extra
+- [ ] Add a `dialogue or narration` element for each extra
+- [ ] Add an `extra` element for each extra
+- [ ]

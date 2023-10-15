@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>Save the Kingdom</title>
+	<objective>Defeat the evil sorcerer and save the kingdom from destruction.</objective>
+	<description>The kingdom is under threat from a powerful sorcerer who has unleashed dark forces upon the land. As a brave adventurer, it is your mission to defeat the sorcerer and save the kingdom from destruction. Embark on a dangerous journey filled with battles, puzzles, and magical artifacts.</description>
+	<reward>Ancient artifact that grants the bearer unlimited power.</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ancient sword</objective>
+			<description>Legend speaks of a powerful sword hidden deep within the Enchanted Forest. Journey to the forest and search for the sword.</description>
+			<location>Enchanted Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the magical amulet</objective>
+			<description>The sorcerer has stolen a magical amulet that holds the key to his powers. Infiltrate his fortress and retrieve the amulet.</description>
+			<location>Sorcerer's Fortress</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the sorcerer in a magical duel</objective>
+			<description>Face the sorcerer in a battle of magical powers. Only by defeating him can you save the kingdom.</description>
+			<location>Sorcerer's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

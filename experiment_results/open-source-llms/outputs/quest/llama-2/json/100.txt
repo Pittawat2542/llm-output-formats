@@ -1,0 +1,578 @@
+
+
+## Input
+
+### Game
+
+| Field | Type | Required | Description |
+| ------ | ------ | ------ | ------ |
+| id | string | Yes | The unique identifier of the game |
+| title | string | Yes | The title of the game |
+| objectives | string | Yes | The objectives of the game |
+| description | string | Yes | The description of the game |
+| rewards | string | Yes | The rewards of the game |
+| quest_giver | string | Yes | The quest giver of the game |
+
+### Quest
+
+| Field | Type | Required | Description |
+| ------ | ------ | ------ | ------ |
+| order | string | Yes | The order of the quest |
+| objective | string | Yes | The objective of the quest |
+| description | string | Yes | The description of the quest |
+| location | string | Yes | The location of the quest |
+
+### Task
+
+| Field | Type | Required | Description |
+| ------ | ------ | ------ | ------ |
+| order | string | Yes | The order of the task |
+| objective | string | Yes | The objective of the task |
+| description | string | Yes | The description of the task |
+| location | string | Yes | The location of the task |
+
+## Example
+
+### Input
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ]
+    }
+}
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+## Test cases
+
+### Test case 1
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ]
+    }
+}
+```
+
+### Test case 2
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 3
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 4
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 5
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 6
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "5",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 7
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "5",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "6",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 8
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "5",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "6",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "7",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 9
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "5",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "6",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "7",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "8",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 10
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "objectives": [
+            "objective 1",
+            "objective 2"
+        ],
+        "quests": [
+            {
+                "order": "1",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "2",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "3",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "4",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "5",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "6",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "7",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "8",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "9",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            },
+            {
+                "order": "10",
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest location"
+            }
+        ]
+    }
+}
+```
+
+### Test case 11
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver

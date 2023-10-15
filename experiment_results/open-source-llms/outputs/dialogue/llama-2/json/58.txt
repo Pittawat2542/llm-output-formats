@@ -1,0 +1,70 @@
+
+
+# Input format
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+``` [/INST]
+
+# Example
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+``` [/INST]
+
+# Usage
+```
+usage: dialogue_system.py [-h] [--help] [--version] [--debug]
+                         [--log-level {DEBUG,INFO,WARN,ERROR,CRITICAL}]
+                         [--debug-log-level {DEBUG,INFO,WARN,ERROR,CRITICAL}]
+                         [--log-file {FILE}] [--debug-log-file {FILE}]
+                         [--log-format {JSON,LOG}] [--debug-log-format {JSON,LOG}]
+                         [--log-level-file {FILE}] [--debug-log-level-file {FILE}]
+                         [--log-format-file {FILE}] [--debug-log-format-file {FILE}]
+                         [--log-file-format {JSON,LOG}] [--debug-log-file-format {JSON,LOG}]
+                         [--log-level-file-format {JSON,LOG}] [--debug-log-level-file-format {JSON,LOG}]
+                         [--log-file-format-file {FILE}] [--debug-log-format-file-format {FILE}]
+                         [--log-level-file-format-file {FILE}] [--debug-log-level-file-format-file {FILE}]
+                         [--log-format-file-format {JSON,LOG}] [--debug-log-format-file-format {JSON,LOG}]
+                         [--log-level-file-format-file-format {JSON,LOG}] [--debug-log-level-file-format-file-format {JSON,LOG}]
+                         [--log-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format {FILE}]
+                         [--log-level-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format {FILE}] [--debug-log-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format {FILE}] [--debug-log-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}] [--debug-log-level-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file {FILE}]
+                         [--log-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file-format-file

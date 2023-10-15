@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A mysterious dark force has taken over the land, and your job is to find out and neutralize the source.",
+    "id": "QST001_SKL",
+    "objective": "Investigate the source of the dark force and neutralize it.",
+    "quest_giver": "Old Sage",
+    "reward": "Arcane Staff of the Enlightened",
+    "tasks": [
+      {
+        "description": "Venture through the haunting Dark Forest and reach the ominous Dark Tower.",
+        "location": "Dark Forest",
+        "objective": "Navigate through the Dark Forest",
+        "order": 1
+      },
+      {
+        "description": "Solve the riddles of the dark spirits to enter the Dark Tower.",
+        "location": "Dark Tower",
+        "objective": "Solve the riddles",
+        "order": 2
+      },
+      {
+        "description": "Defeat the shadow beast residing in the Dark Tower.",
+        "location": "Dark Tower",
+        "objective": "Fight the shadow beast",
+        "order": 3
+      }
+    ],
+    "title": "Shadows of the Dark Tower"
+  }
+}

@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "Save the Princess",
+        "objective": "Rescue the princess from the evil wizard",
+        "description": "The kingdom's princess has been kidnapped by the evil wizard. Your task is to embark on a dangerous journey, navigate through treacherous lands, defeat monsters and traps, and ultimately save the princess from captivity. Are you up for the challenge?",
+        "reward": "1,000 gold coins and the gratitude of the kingdom",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the wizard's hideout",
+            "description": "The first task is to locate the evil wizard's hideout. Gather information from the locals and unravel clues to discover the secret location where the princess is being held captive.",
+            "location": "Talk to the village folk in the nearby town of Farnsworth"
+        },
+        {
+            "order": "2",
+            "objective": "Obtain the magical sword",
+            "description": "To defeat the powerful wizard, you will need a magical sword that is hidden deep within the enchanted forest. Venture into the forest, face mystical creatures, solve puzzles, and retrieve the sword.",
+            "location": "Enchanted Forest, coordinates: 42.3456Åã N, 78.9876Åã W"
+        },
+        {
+            "order": "3",
+            "objective": "Trap the guardian dragon",
+            "description": "Before reaching the wizard's lair, you must first face a fearsome dragon guarding the entrance. The next task is to find a way to trap or subdue the dragon, allowing you to proceed further.",
+            "location": "Dragon's Cave, located at the peak of Mount Ember"
+        },
+        {
+            "order": "4",
+            "objective": "Confront and defeat the evil wizard",
+            "description": "The final and most perilous part of the quest is to confront the evil wizard himself. Use all your skills, powers, and the magical sword to overcome the wizard's dark magic and save the princess.",
+            "location": "Wizard's Lair, hidden beneath the Tower of Shadows"
+        }]
+    }
+}
+```
+```

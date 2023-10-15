@@ -1,0 +1,460 @@
+
+
+## Input format
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]
+
+### YAML
+
+```yaml
+title: game title
+synopsis: game story synopsis
+beginning: the beginning of the game
+ending: the ending of the game
+``` [/INST]
+
+### XML
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### Markdown
+
+```markdown
+[SYS] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+<</SYS>>
+
+Generate a game story synopsis. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]
+
+### JSON
+
+```json
+{
+	"title": "game title",
+	"synopsis": "game story synopsis",
+	"beginning": "the beginning of the game",
+	"ending": "the ending of the game"
+}
+``` [/INST]

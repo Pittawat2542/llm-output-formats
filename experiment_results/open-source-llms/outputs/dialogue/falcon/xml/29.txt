@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogues order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialues>
+</game>
+```
+
+Output XML:
+
+```xml
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogues order</order>
+      <speaker>speaker name</speaker>
+      <text>dialogue or narration</text>
+    </dialogue>
+  </dialogues>
+</game>
+```

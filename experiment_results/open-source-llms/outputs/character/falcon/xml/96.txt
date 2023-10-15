@@ -1,0 +1,58 @@
+<game>
+
+<character>
+    <id>id</id>
+    <first-name>first name</first-name>
+    <last-name>last name</last-name>
+    <species>species</species>
+    <age>exact age or description</age>
+    <role>role of the character</role>
+    <background>background story</background>
+    <place-of-birth>location</place-of-birth>
+    <physical-appearance>
+        <eye-color>eye color</eye-color>
+        <hair-color>hair color</hair-color>
+        <height>height in float value</height>
+        <weight>weight in float value</weight>
+    </physical-appearance>
+</character>
+```
+
+```
+<game>
+    <character>
+        <id>10</id>
+        <first-name>Robert</first-name>
+        <last-name>Hitchcock</last-name>
+        <age>32</age>
+        <species>Homo sapiens</species>
+        <role>Actor</role>
+        <background>Culham, Norfolk</background>
+        <physical-appearance>
+            <physical-appearance>
+               <eye-color>hazel</eye-color>
+               <hair-color>black</hair-color>
+               <height>1.7 metres</height>
+               <weight>63.4kg</weight>
+            </physical-appearance>
+        </physical-appearance>
+    </character>
+    <character>
+        <id>9</id>
+        <first-name>Emma</first-name>
+        <last-name>Hitchcock</last-name>
+        <age>24</age>
+        <species>Homo sapiens</species>
+        <role>Assistant</role>
+        <background>London, England</background>
+        <physical-appearance>
+            <physical-appearance>
+                <eye-color>hazel</eye-color>
+                <hair-color>black</hair-color>
+                <height>1.7 metres</height>
+                <weight>63.4kg</weight>
+            </physical-appearance>
+        </physical-appearance>
+    </character>
+</game>
+```

@@ -1,0 +1,23 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "The Lost Artifact",
+        "objective": "Retrieve the Lost Artifact from the Dragon's Lair",
+        "description": "The artifact known as the 'Heart of the Mountain' has been stolen by the Dragon of the East. Retrieve it at all costs.",
+        "reward": "5000 Gold, Dragon Slayer Armor",
+        "quest_giver": "King Bertrand",
+        "tasks": [{
+            "order": "1",
+            "objective": "Reach the Dragon's Lair",
+            "description": "Travel through the perilous Dark Forest, cross the Treacherous River, and ascend the Steep Mountain to reach the Dragon's Lair.",
+            "location": "Dragon's Lair"
+        },{
+            "order": "2",
+            "objective": "Defeat the Dragon",
+            "description": "Confront the Dragon and retrieve the Heart of the Mountain.",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```

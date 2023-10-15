@@ -1,0 +1,384 @@
+
+
+## Input format
+
+### Character profile
+
+<</INS>
+
+### Example
+
+```
+id: 1234567890
+first-name: John
+last-name: Doe
+species: human
+age: 25
+role: captain
+background: orphan
+place-of-birth: Earth
+physical-appearance:
+	physical-appearance:
+		eye-color: brown
+		hair-color: brown
+		height: 1.70
+		weight: 70
+```
+
+### Expected output
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>captain</role>
+		<background>orphan</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.70</height>
+				<weight>70</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Expected error
+
+```
+<game>
+	<character>
+		<id>1234567890</id>
+		<first

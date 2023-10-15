@@ -1,0 +1,43 @@
+<pre><code># The character is a trolloc with icy blue blue hair and ice-blue eyes
+{
+    "game": {
+        "character": {
+            "id": "trolloc",
+            "first_name": "Ravn",
+            "last_name": "Mordew",
+            "species": "Trolloc",
+            "age": "1000 Years Old",
+            "role": "Trolloc",
+            "background": "Trollocs are powerful creatures indigenous to the freezing lands of Winterfell. These majestic beings are highly intelligent, having advanced knowledge on magic and technology. Unlike other races, a trolloc has cold-resistant fur, which helps him thrive in the harsh climate of Winterfell. With his immense physical prowess, Ravn is an unstoppable force. Despite his fearsome appearance, he is a loyal friend to those who earn his trust, making him a powerful ally on any side.",
+            "last_name": "Mordew",
+            "species": "Trolloc",
+            "age": "1000 Years Old",
+            "role": "Trolloc",
+            "backgroud": "As a trolloc, Ravn lived in the frigid lands of Winterfell for centuries. Being such a resilient creature, he was able to withstand the harsh winters and survive among his pack. Though feared by some, Ravn is a powerful figure in Winterfell, ruling over the trolloc kingdoms with an iron fist.",
+            "first_name": "Ravn",
+            "height": "7 Feet Tall",
+            "weight": "1000lbs"
+           }
+}
+```
+
+<code># Output format
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "physical_appearance": {
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }
+        }
+    }
+}</code>

@@ -1,0 +1,10 @@
+<code>
+Generated output
+```xml
+{% set id = item.id %}
+{% set title = item.title %}
+{% set object = item[0].objective %}
+{% set description = item.description %}
+{% set giver = item[0].quest_giver.id %}
+{% set tasks = item.tasks %}
+```

@@ -1,0 +1,24 @@
+# Markdown code block with JSON output
+```python
+import json
+
+# enemy stats
+game.enemy["id"] = "id"
+game.enemy["name"] = "name"
+ 
+# build stats object in Python
+enemy_stats = {}
+
+for key, name in game.enemy["name"].items():
+    stats = stats[key]
+    # build stats object in Python
+    if key!= game.enemy["name"].index(name):
+        stats["hp"] = stats["hp"] + 10
+        stats["mp"] = stats["mp"] + 10
+        stats["atk"] = stats["atk"] + 10
+        stats["def"] = stats["def"] + 10
+        enemy_stats["stats"].append(stats)
+
+if key == game.enemy["index"]["id"]:
+    return json.dumps(enemy_stats, indent=4)
+```

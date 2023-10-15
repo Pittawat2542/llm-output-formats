@@ -1,0 +1,11 @@
+<p>The following output will produce valid JSON without returning the Markdown code block: </p>
+
+```
+{
+    "dialog": {
+        "order": "dialog order",
+        "speaker": "speaker name",
+        "text": "dialogue or narration"
+    }}
+}
+```

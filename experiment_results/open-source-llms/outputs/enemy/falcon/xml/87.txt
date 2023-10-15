@@ -1,0 +1,24 @@
+```xml
+<game>
+<enemy>
+	<id>enemy001</id>
+	<name>Enemy 1</name>
+	<description>this is enemy 1</description>
+</enemy>
+<enemy>
+	<id>enemy000</id>
+	<name>Enemy 2</name>
+	<description>this is enemy 2</description>
+</enemy>
+</game>
+```
+
+```xml
+<stats>
+	<hp>hp int value</hp>
+	<mp>mp int value</mp>
+	<atk>atk int value</atk>
+	<def>def int value</def>
+	<spd>spd int value</spd>
+</stats>
+```

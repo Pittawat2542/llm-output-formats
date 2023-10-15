@@ -1,0 +1,43 @@
+<p><strong>Game:</strong></p>
+
+<p><strong>Objective:</strong></p>
+
+<p>You must <strong>find a "key" that opens a <strong>locked door</strong> to <strong>advance to the next level or complete the <strong>quest</strong>.</strong></p>
+
+<p><strong>Description:</strong></p>
+
+<p>You've been sent on a secret mission to solve a <strong>strange</strong> and <strong>cryptic<strong> code.</strong> You have to open a set of <strong>vaults</strong> to reveal the code.</p>
+
+<p><strong>Reward:</strong></p>
+
+<p>Once you've decipher the code, you'll be rewarded <strong>with a secret key<strong> that can be used to unlock the <strong>vaults</strong> and complete the <strong>quest.</strong></p>
+
+<p><strong>Quest Giver:</strong></p>
+
+<p><strong>Your task is to find this "key" and open the vaults to decipher the code and complete the <strong>quest.</strong></p>
+
+<p><strong>Tasks:</strong></p>
+
+<p><strong>order</strong>: This is a number that determines the order in which the task is done.</p>
+
+<p><strong>objective</strong>: The <strong>quest objective</strong>.</p>
+
+<p><strong>descriptions</strong>: The descriptions for the <strong>tasks</strong>.</p>
+
+<p><strong>objectives.description:</strong> The description for the <strong>objective</strong>.</p>
+
+<p><strong>location:</strong>: The location where the task needs to be completed.</p>
+
+<p>"objective": {
+    "objective": {
+        "description": "The 'quest object' to be acquired by the user",
+        "location": {
+            "lat": 30 + "|-15",
+            "lng": "75 + "|-65"
+        }
+    },
+    "location": {
+        "lat": "0",
+        "lng": "0"
+    }
+}</code></pre>

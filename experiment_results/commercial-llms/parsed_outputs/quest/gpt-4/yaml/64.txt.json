@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Uncover the ancient secrets of the lost tomb",
+    "id": "Q123456",
+    "objective": "Find and retrieve the ancient artifact",
+    "quest_giver": "Archaeologist Johnson",
+    "reward": "2000 gold and unique legendary artifact",
+    "tasks": [
+      {
+        "description": "Locate the entrance of the lost tomb",
+        "location": "Mysterious Forest",
+        "objective": "Find the lost tomb",
+        "order": 1
+      },
+      {
+        "description": "Solve the riddle to unlock the tomb door",
+        "location": "Entrance of the lost tomb",
+        "objective": "Unlock the tomb door",
+        "order": 2
+      },
+      {
+        "description": "Navigate through the trap-filled interior",
+        "location": "Inside the lost tomb",
+        "objective": "Survive the traps",
+        "order": 3
+      },
+      {
+        "description": "Defeat the ancient guardian",
+        "location": "Tomb's treasure chamber",
+        "objective": "Retrieve the ancient artifact",
+        "order": 4
+      }
+    ],
+    "title": "The Secrets of the Lost Tomb"
+  }
+}

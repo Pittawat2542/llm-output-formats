@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the artifact from the ancient temple</objective>
+	<description>Your task is to overcome dangers of ancient temple and retrieve a sacred artifact that has been lost for centuries.</description>
+	<reward>3000 gold coins and mystical sword</reward>
+	<quest-giver>The village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the temple</objective>
+			<description>The temple is located deep within the enclave forest. Chart your path carefully and avoid the treacherous beasts.</description>
+			<location>Enclave Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the artifact</objective>
+			<description>The artifact is said to be kept in a secret chamber guarded by ancient warriors. You will need to defeat them, bypass the traps and secure the artifact.</description>
+			<location>Ancient Temple</location>
+		</task>
+	</tasks>
+</game>
+```

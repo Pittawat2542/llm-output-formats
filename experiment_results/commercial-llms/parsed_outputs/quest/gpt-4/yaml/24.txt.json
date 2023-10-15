@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "You have been chosen by the king to rescue the princess from the evil witch.",
+    "id": 123456,
+    "objective": "Rescue the princess.",
+    "quest_giver": "King Arthur",
+    "reward": "5000 gold coins and Knight title.",
+    "tasks": [
+      {
+        "description": "Travel to the Dark Forest.",
+        "location": "Dark Forest",
+        "objective": "Find the witch's lair.",
+        "order": 1
+      },
+      {
+        "description": "Defeat the witch's guards.",
+        "location": "Witch's Lair Entrance",
+        "objective": "Kill 10 witch guards.",
+        "order": 2
+      },
+      {
+        "description": "Rescue the princess from the witch.",
+        "location": "Witch's Lair",
+        "objective": "Defeat the witch and free the princess.",
+        "order": 3
+      }
+    ],
+    "title": "The Royal Rescue"
+  }
+}

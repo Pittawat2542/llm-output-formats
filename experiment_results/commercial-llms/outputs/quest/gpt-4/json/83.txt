@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "1123",
+        "title": "Frost Dragon Hunt",
+        "objective": "Slay the Frost Dragon",
+        "description": "Your mission is to journey through the icy peaks of the Boneweave mountains, find the Frost Dragon, and slay it. It has been raining terror on the nearby village.",
+        "reward": "5000 gold and Frostbane Armor",
+        "quest_giver": "Village Elder",
+        "tasks": [{
+            "order": "1",
+            "objective": "Climb the Boneweave mountains",
+            "description": "The journey is treacherous but you must climb the Boneweave peaks to find the Frost Dragon's lair.",
+            "location": "Boneweave mountains"
+        },{
+            "order": "2",
+            "objective": "Find the Dragon's lair",
+            "description": "It is said the lair is filled with blue ice. Search the mountain peaks until you find it.",
+            "location": "Frost Dragon's lair"
+        },{
+            "order": "3",
+            "objective": "Defeat the Frost Dragon",
+            "description": "Once you find the lair, challenge the Frost Dragon to a battle and defeat it.",
+            "location": "Frost Dragon's lair"
+        }]
+    }
+}
+```

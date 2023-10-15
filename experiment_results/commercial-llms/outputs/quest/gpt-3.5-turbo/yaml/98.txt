@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "In this quest, you will embark on a dangerous journey to retrieve a lost artifact hidden deep within a treacherous cave. Your mission is to find the artifact and bring it back to the quest giver."
+  id: "123456"
+  objective: "Retrieve the lost artifact from the cave"
+  quest_giver: "Wise old man"
+  reward: "100 gold coins"
+  tasks:
+  - description: "Explore the cave entrance"
+    location: "Cave entrance"
+    objective: "Reach the inner chamber of the cave"
+    order: 1
+  - description: "Navigate through the maze"
+    location: "Maze section of the cave"
+    objective: "Find the correct path through the maze"
+    order: 2
+  - description: "Defeat the guardian"
+    location: "Guardian's lair"
+    objective: "Defeat the powerful guardian to access the artifact"
+    order: 3
+  title: "The Lost Artifact"
+```

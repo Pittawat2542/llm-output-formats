@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "id": "123456",
+        "title": "Save the Princess",
+        "objective": "Rescue Princess Amelia from the clutches of the evil sorcerer",
+        "description": "The kingdom is in despair as the beloved Princess Amelia has been kidnapped by the evil sorcerer. The king is offering a grand reward to anyone who can save her. Can you be the hero the kingdom needs?",
+        "reward": "1000 gold coins, a legendary sword, and the title of Royal Knight",
+        "quest_giver": "King Richard",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the ancient map",
+            "description": "Locate the hidden chamber inside the castle and find the ancient map that reveals the location of the evil sorcererÅfs lair",
+            "location": "Castle"
+        },
+        {
+            "order": "2",
+            "objective": "Retrieve the enchanted key",
+            "description": "Embark on a treacherous journey through the enchanted forest to find the guardian of the key and obtain it",
+            "location": "Enchanted Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Enter the sorcerer's lair",
+            "description": "Navigate through the dangerous labyrinth beneath the mountain to reach the sorcerer's secret lair",
+            "location": "Mountain"
+        },
+        {
+            "order": "4",
+            "objective": "Defeat the evil sorcerer",
+            "description": "Engage in a fierce battle with the sorcerer and use all your skills and power to defeat him",
+            "location": "Sorcerer's Lair"
+        }]
+    }
+}
+```

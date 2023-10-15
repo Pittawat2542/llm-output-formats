@@ -1,0 +1,41 @@
+Sure, here is a sample XML dialogue:
+
+```
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Player</speaker>
+      <text>Hello!</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>NPC</speaker>
+      <text>Welcome to my humble abode.</text>
+    </dialogue>
+    <dialogue>
+      <order>3</order>
+      <speaker>Player</speaker>
+      <text>What's your name?</text>
+    </dialogue>
+    <dialogue>
+      <order>4</order>
+      <speaker>NPC</speaker>
+      <text>My name is Bob.</text>
+    </dialogue>
+    <dialogue>
+      <order>5</order>
+      <speaker>Player</speaker>
+      <text>Nice to meet you, Bob.</text>
+    </dialogue>
+    <dialogue>
+      <order>6</order>
+      <speaker>NPC</speaker>
+      <text>The pleasure is all mine.</text>
+    </dialogue>
+  </dialogues>
+</game>
+```
+
+This is just a sample, of course. You can add as many dialogues as you want, and you can change the order of the dialogues, the speaker names, and the text.

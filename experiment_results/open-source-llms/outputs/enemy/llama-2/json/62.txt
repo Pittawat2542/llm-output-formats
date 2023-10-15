@@ -1,0 +1,610 @@
+
+
+## Example
+
+### Input
+
+```
+game: {
+    enemy: {
+        id: "enemy-id",
+        name: "enemy-name",
+        description: "enemy-description",
+        stats: {
+            hp: 100,
+            mp: 100,
+            atk: 100,
+            def: 100,
+            spd: 100
+        }
+    }
+}
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Explanation
+
+The enemy's stats are given in the input.
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "enemy-id",
+            "name": "enemy-name",
+            "description": "enemy-description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,

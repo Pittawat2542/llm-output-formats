@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "The king of the land has lost his prized crown and offers a generous reward to anyone who can retrieve it. Will you embark on this adventure and become a hero?"
+  id: "123456"
+  objective: "Find the king's crown and return it to him"
+  quest_giver: "King Harold"
+  reward: "10000 gold coins"
+  tasks:
+  - description: "Travel to the enchanted forest"
+    location: "Enchanted Forest"
+    objective: "Search for any clues about the crown's whereabouts"
+    order: 1
+  - description: "Defeat the goblin chief"
+    location: "Goblin Caves"
+    objective: "Retrieve the stolen crown from the goblin chief"
+    order: 2
+  title: "The Lost Crown"
+```

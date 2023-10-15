@@ -1,0 +1,9 @@
+# Markdown syntax
+```
+game:
+  dialogues
+    speaker: speaker name
+    text: dialogue or narration
+```
+
+In this example, the dialogue code block is wrapped inside the “game” markdown code block. The “order” key is given a specific value (in this case, “dialogue order”), and within the block, the “speaker” key is used to assign a specific value (in this case, the name of the speaker). The “text” key is also assigned a value (in this example, the text within the quotation marks). The quotation marks are necessary to indicate that the text within them is YAML syntax. You can use the “text” key as the content of your markdown, while the “order” and “speaker” keys are used to define the dialogue structure.

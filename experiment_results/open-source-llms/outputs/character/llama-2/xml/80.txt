@@ -1,0 +1,677 @@
+
+
+## Input format
+
+### Questions
+
+The questions should be asked in a way that the user can answer them.
+
+### Answers
+
+The answers should be in the form of a string.
+
+### Errors
+
+If the user has answered a question incorrectly, the program should display an error message and ask the user to try again.
+
+### Example
+
+```
+<questions>
+	<question>
+		<id>id</id>
+		<question>What is your name?</question>
+		<answers>
+			<answer>
+				<id>id</id>
+				<answer>John</answer>
+			</answer>
+			<answer>
+				<id>id</id>
+				<answer>Mary</answer>
+			</answer>
+		</answers>
+	</question>
+</questions>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id>id</id>
+		<answer>Mary</answer>
+	</answer>
+</answers>
+```
+
+### Example
+
+```
+<answers>
+	<answer>
+		<id>id</id>
+		<answer>John</answer>
+	</answer>
+	<answer>
+		<id

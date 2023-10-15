@@ -1,0 +1,15 @@
+```yaml
+speaker:
+  name: speaker name
+```
+
+```yaml
+
+- order: order of game in the list
+  dialogues:
+    - key: dialogue description
+      speaker: speaker name
+      text: dialogue or narration
+```
+
+This Markdown code block generates a YAML table with the desired output format. Within the YAML, only the YAML tags are present for the 'game' and'speaker' items. The 'order' tag is not included, so its default value of 'order' is used instead. The 'dialogues' tag within the 'game' tag contains the keys for the dialogues, which are enclosed in double quotes and separated by commas. The 'key' tag is used for the dialogue name, and the'speaker' tag is specified as well. The 'text' tag contains the dialogue or narrative text.

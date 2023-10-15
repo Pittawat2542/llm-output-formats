@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Saving the Princess",
+    "objective": "Rescue Princess Rose from the clutches of the evil wizard",
+    "description": "The evil wizard has kidnapped Princess Rose and taken her to his castle. You must brave the dangers of the castle and defeat the wizard to rescue the princess.",
+    "reward": "1000 gold coins",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the key to the castle",
+        "description": "The key to the castle is hidden in the forest. Search for clues to locate it.",
+        "location": "Forest of Shadows"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the riddles of the castle",
+        "description": "The wizard has set up a series of riddles and puzzles to test the courage and wit of the adventurers. Solve them to progress further in the castle.",
+        "location": "Wizard's Castle"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the guardian monsters",
+        "description": "The wizard has placed powerful guardian monsters at different levels of the castle. Defeat them to reach Princess Rose's prison.",
+        "location": "Various levels of the castle"
+      },
+      {
+        "order": "4",
+        "objective": "Confront the evil wizard",
+        "description": "Face the ultimate challenge and defeat the evil wizard to rescue Princess Rose.",
+        "location": "Wizard's Chamber"
+      }
+    ]
+  }
+}

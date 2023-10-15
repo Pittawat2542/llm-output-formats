@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "Retrieve the Lost Crown",
+        "objective": "Find and retrieve the Crown of the Ancients",
+        "description": "Legend has it that the Crown of the Ancients possesses immense power. It was lost centuries ago in the treacherous Forbidden Forest. Your quest is to brave the dangers of the forest and retrieve the Crown.",
+        "reward": "Upon successful completion of this quest, you will be granted the Crown of the Ancients, along with a hefty sum of gold.",
+        "quest_giver": "King Xavier",
+        "tasks": [{
+            "order": "1",
+            "objective": "Speak to the Forest Oracle",
+            "description": "The Forest Oracle holds ancient knowledge about the Forbidden Forest. Seek her guidance before venturing in.",
+            "location": "Forest Temple"
+        },
+        {
+            "order": "2",
+            "objective": "Follow the Trail of the Lost",
+            "description": "The lost explorers who attempted to find the Crown left behind a series of markers. Follow the trail to their last known location.",
+            "location": "Trailhead"
+        },
+        {
+            "order": "3",
+            "objective": "Defeat the Guardian of Secrets",
+            "description": "In order to proceed, you must defeat the Guardian of Secrets who resides in a hidden chamber within the Forbidden Forest.",
+            "location": "Hidden Chamber"
+        },
+        {
+            "order": "4",
+            "objective": "Retrieve the Crown of the Ancients",
+            "description": "Once you've defeated the Guardian, you will find the Crown of the Ancients hidden within the chamber.",
+            "location": "Hidden Chamber"
+        }]
+    }
+}
+```
+```

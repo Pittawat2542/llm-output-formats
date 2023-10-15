@@ -1,0 +1,67 @@
+```
+game:
+  character:
+    age: 0
+    background: None
+    first_name: John Smith
+    id: John Smith
+    last_name: Smith
+    physical_appearance:
+      - eye_color: blue
+        hair_color: brown 
+        height: 5'8"
+        weight: 150
+      place_of_birth: Los Angeles
+    role: Warrior
+    species: Human
+```
+```
+game:
+  characters: # Markdown with YAML on the character list
+    character1:
+      age: 22
+      background: Italian American
+      first_name: Dominic
+      id: D1-3K
+      last_name: DiCicco
+      physical_appearance:
+        - eye_color: green
+        - hair_color: black
+        - height: 5'10"
+        - weight: 185
+      role: Ranger
+      species: Human
+```
+
+```
+game:
+  character:
+    age: 29
+    background: Native American
+    first_name: John
+    id: 1
+    last_name: Blackfoot
+    physical_appearance:
+      - eye_color: brown
+        hair_color: black
+        height: 6'
+        weight: 220
+      role: Warrior
+    species: Native American
+```
+```
+game:
+  characters: # Markdown with YAML on the characters list
+    - name: John
+      - age: 30
+      - background: European
+      - first_name: John
+      - id: 1
+      - last_name: Blackfoot
+      - physical_appearance:
+        - eye_color: graying hair
+        - hair_color: bald
+        - height: 6'
+        weight: 220
+      - role: Warrior
+      - species: French

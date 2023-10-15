@@ -1,0 +1,23 @@
+```markdown
+The following is an example of how to generate a character profile in Markdown by using JSON. This format assumes the character has a background story, physical appearance, and a specific role in the world. JSON is wrapped in double curly brackets, and the fields for each item are separated by spaces. This format is in JSON.strict for syntax integrity, which ensures that each field has the correct data type.
+```
+{
+    "game": {
+        "character": {
+            "id": "gameID",
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "species": "Species",
+            "age": "Game age",
+            "role": "Role in game",
+            "background": "Character background story",
+            "place_of_birth": "Place of birth",
+            "physical_appearance": [{
+                "eye_color": "Eyes color",
+                "hair_color": "Hair color",
+                "height": "Height in float value",
+                "weight": "Weight in float value"
+            }]
+        }
+    }
+}

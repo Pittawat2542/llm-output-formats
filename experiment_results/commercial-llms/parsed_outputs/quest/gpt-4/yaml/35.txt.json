@@ -1,0 +1,48 @@
+{
+  "game": {
+    "description": "Seek out the relics of an ancient civilization to unlock a hidden power",
+    "id": "quest01",
+    "objective": "Find all six relics and bring them to the sacred altar",
+    "quest_giver": "Village Elder",
+    "reward": "500 gold and the Key of Shadows",
+    "tasks": [
+      {
+        "description": "Search the Unholy Catacombs for the first relic",
+        "location": "Unholy Catacombs",
+        "objective": "Find the Relic of Shadows",
+        "order": 1
+      },
+      {
+        "description": "Explore the Whispering Forest for the second relic",
+        "location": "Whispering Forest",
+        "objective": "Find the Relic of Spirits",
+        "order": 2
+      },
+      {
+        "description": "Venture into the Crystal Caverns for the third relic",
+        "location": "Crystal Caverns",
+        "objective": "Find the Relic of Crystals",
+        "order": 3
+      },
+      {
+        "description": "Navigate the Stormy Peaks for the fourth relic",
+        "location": "Stormy Peaks",
+        "objective": "Find the Relic of Winds",
+        "order": 4
+      },
+      {
+        "description": "Plunge into the Abyssal Depths for the fifth relic",
+        "location": "Abyssal Depths",
+        "objective": "Find the Relic of Depths",
+        "order": 5
+      },
+      {
+        "description": "Trek through the Scorched Desert for the sixth relic",
+        "location": "Scorched Desert",
+        "objective": "Find the Relic of Sands",
+        "order": 6
+      }
+    ],
+    "title": "Relics of the Past"
+  }
+}

@@ -1,0 +1,44 @@
+Sure, here is an example of a dialogue in JSON format:
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": 1,
+            "speaker": "Player",
+            "text": "Hello, world!"
+        }, {
+            "order": 2,
+            "speaker": "NPC",
+            "text": "Welcome to my village! What brings you here?"
+        }, {
+            "order": 3,
+            "speaker": "Player",
+            "text": "I'm looking for someone who can help me on my quest."
+        }, {
+            "order": 4,
+            "speaker": "NPC",
+            "text": "Well, you've come to the right place! I am the wisest wizard in all the land. What can I do for you?"
+        }, {
+            "order": 5,
+            "speaker": "Player",
+            "text": "I need you to help me find a powerful artifact."
+        }, {
+            "order": 6,
+            "speaker": "NPC",
+            "text": "I know where it is. But it is guarded by a fierce dragon."
+        }, {
+            "order": 7,
+            "speaker": "Player",
+            "text": "I don't care. I need that artifact."
+        }, {
+            "order": 8,
+            "speaker": "NPC",
+            "text: "Very well. I will give you a map to the dragon's lair. But be warned, it is a dangerous journey."
+        }, {
+            "order": 9,
+            "speaker": "Player",
+            "text": "Thank you. I will not fail you."
+        }]
+    }
+}
+```

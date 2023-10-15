@@ -1,0 +1,18 @@
+```javascript
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+```html
+{
+    console.log('Output in HTML format');
+    JSON.stringify(['Game', 'dialogues','speaker', 'text'])
+}
+```

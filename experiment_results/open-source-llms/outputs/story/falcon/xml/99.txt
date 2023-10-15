@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schemaLocation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance.xsd">
+    <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance.xsd">
+        <schema:complexType name="game">
+            <schema:sequence>
+                <schema:element xsi:type="xs:string">
+                    <schema:value name="title"/>
+                </schema:element>
+                <schema:element xsi:type="xs:string">
+                    <schema:value name="synopsis"/>
+                </schema:element>
+                <schema:element xsi:type="xs:string">
+                    <schema:value name="beginning"/>
+                </schema:element>
+                <schema:element xsi:type="xs:string">
+                    <schema:value name="ending"/>
+                </schema:element>
+            </schema:sequence>
+        </schema:complexType>
+    </xsa:schema>
+</xsi:schemaLocation>
+```

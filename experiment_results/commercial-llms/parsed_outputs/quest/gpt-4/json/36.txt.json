@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Legendary Artifact",
+    "objective": "Retrieve the legendary artifact",
+    "description": "Unearth the ancient legendary artifact feared by many and considered as a myth. Embark on this journey to unveil the truth and discover its extraordinary power.",
+    "reward": "3000 Gold and Legendary Artifact Shield",
+    "quest_giver": "Ancient Sage Warthog",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Locate the Forbidden Cave",
+        "description": "The Forbidden Cave is rumored to be in the Forbidden Forest. Be careful of the dangerous creatures that reside within.",
+        "location": "Forbidden Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the Ancient Puzzle",
+        "description": "Within the cave lies an ancient puzzle that guards the legendary artifact. Solve the puzzle to proceed to the artifact's location",
+        "location": "Forbidden Cave"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the Legendary Artifact",
+        "description": "Once the puzzle is solved, the location of the Artifact will be revealed. Be ready for anything, the artifact will not be unguarded.",
+        "location": "Artifact's Hidden Room"
+      }
+    ]
+  }
+}

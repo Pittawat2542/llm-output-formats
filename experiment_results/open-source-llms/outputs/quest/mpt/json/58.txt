@@ -1,0 +1,17 @@
+```json
+----
+game:
+    Id: id
+    Title: quest title
+    Objective: quest objective
+    Description: quest description
+    Reward: quest reward
+    Quest giver: quest giver
+    Tasks:
+        -
+            Order: task order
+            Objective: task objective
+            Description: task description
+            Location: task location
+----
+```

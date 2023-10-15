@@ -1,0 +1,11 @@
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value, also can be "atk: int value" if we're not using YAML
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value

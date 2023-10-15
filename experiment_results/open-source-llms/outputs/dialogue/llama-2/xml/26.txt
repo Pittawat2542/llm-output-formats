@@ -1,0 +1,473 @@
+
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Input format
+
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Output format
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Input format
+
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Output format
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Input format
+
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Output format
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Input format
+
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Output format
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Input format
+
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Rules
+* You can't use any HTML tags or attributes.
+* You can't use any CSS.
+* You can't use any JavaScript.
+* You can't use any other code.
+* You can't use any images.
+* You can't use any other files.
+
+### Output format
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+### Examples
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>I'm fine. And you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, Bob. How are you?</text>
+		</dialogue>
+		<

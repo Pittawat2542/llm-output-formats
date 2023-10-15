@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "1234",
+        "title": "Save the Kingdom",
+        "objective": "Defeat the evil dragon and save the kingdom",
+        "description": "A ferocious dragon has been terrorizing the kingdom, burning down villages and attacking innocent people. The king is seeking a brave hero who can defeat the dragon and save the kingdom from its destruction",
+        "reward": "10000 gold coins and the gratitude of the entire kingdom",
+        "quest_giver": "King Ferdinand",
+        "tasks": [{
+            "order": "1",
+            "objective": "Get the Dragon Slayer Sword",
+            "description": "The Dragon Slayer Sword is a legendary weapon that can deal massive damage to the dragon. It is located in the hidden cave of the Dark Forest.",
+            "location": "Dark Forest"
+        },
+        {
+            "order": "2",
+            "objective": "Gather the Dragon Scales",
+            "description": "The dragon's scales are extremely valuable and can be used to craft an armor that provides protection against dragonfire. Hunt down and gather twenty dragon scales.",
+            "location": "Dragon's Lair"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the Ancient Amulet",
+            "description": "The Ancient Amulet is said to possess magic powers that can weaken the dragon. It is guarded by a group of powerful sorcerers in the ancient ruins.",
+            "location": "Ancient Ruins"
+        },
+        {
+            "order": "4",
+            "objective": "Confront the Dragon",
+            "description": "Head to the dragon's lair and confront the ferocious beast. Use the Dragon Slayer Sword, Dragon Scales Armor, and the Ancient Amulet to defeat the dragon and save the kingdom.",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "You have to find the lost diamond of the king.",
+    "id": 1,
+    "objective": "Find the lost diamond of the king.",
+    "quest_giver": "The king",
+    "reward": "You will be rewarded with a diamond.",
+    "tasks": [
+      {
+        "description": "You have to find the diamond.",
+        "location": "The castle",
+        "objective": "Find the diamond.",
+        "order": 1
+      },
+      {
+        "description": "You have to find the diamond.",
+        "location": "The castle",
+        "objective": "Find the diamond.",
+        "order": 2
+      },
+      {
+        "description": "You have to find the diamond.",
+        "location": "The castle",
+        "objective": "Find the diamond.",
+        "order": 3
+      }
+    ],
+    "title": "The lost diamond of the king."
+  }
+}

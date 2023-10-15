@@ -1,0 +1,28 @@
+# Markdown code block
+```
+{
+    character
+    {
+        "id": "id",
+        "first_name": "first name",
+        "last_name": "last name",
+        "species": "species",
+        "age": "exact age, or describe current age",
+        "role": "role of character",
+        "background": "backstory of character",
+        "place_of_birth": "place of birth",
+        "physical_appearance": [
+            [
+                "eye_color",
+                "hair_color",
+                "height"
+            ],
+            [
+                "eye_color",
+                "hair_color",
+                "weight"
+            ]
+        ]
+    }
+}
+```

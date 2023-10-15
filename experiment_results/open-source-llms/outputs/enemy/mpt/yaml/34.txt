@@ -1,0 +1,44 @@
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+
+
+----
+Enemy Battle Status
+----
+
+I will attack the enemy.
+
+The battle results will be:
+
+* Description of battle.
+
+
+## Strategy for each attack
+
+You can use one or more of the following strategies while attacking the enemy:
+
+1. Attack multiple times until the enemy is defeated
+
+2. Attack only once and make it more powerful
+
+3. Attack less frequently but each time more powerful
+
+4. Attack randomly and keep your stats high by upgrading them
+
+
+## Status
+
+You are currently on floor #1 with 500 HP and
+
+500 MP. Enemy has 1000 HP and
+
+1000 MP. The battle will start in 30 seconds.

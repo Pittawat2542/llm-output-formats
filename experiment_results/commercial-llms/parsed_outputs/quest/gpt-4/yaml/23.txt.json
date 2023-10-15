@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "In the far-off land of Zeebies, a terrible plague has stricken the town's only unicorn, Seraphina. Your objective is to find the antidote and save Seraphina.",
+    "id": "QST12345",
+    "objective": "Find the antidote and cure the unicorn.",
+    "quest_giver": "Elder Zeebok",
+    "reward": "500 gold pieces and the Amulet of Zeebo",
+    "tasks": [
+      {
+        "description": "Find the ancient manuscript in the Old Library which contains the recipe for the antidote.",
+        "location": "Old Library",
+        "objective": "Retrieve the Manuscript",
+        "order": "1"
+      },
+      {
+        "description": "Gather all the ingredients mentioned in the manuscript.",
+        "location": "Enchanted woods, Silent Caverns",
+        "objective": "Gather ingredients",
+        "order": "2"
+      },
+      {
+        "description": "Brew the antidote in the Wizened Hermit's cauldron.",
+        "location": "Wizened Hermit's Hut",
+        "objective": "Brew antidote",
+        "order": "3"
+      },
+      {
+        "description": "Administer the antidote to Seraphina.",
+        "location": "Zeebies, Unicorn Sanctuary",
+        "objective": "Cure the unicorn",
+        "order": "4"
+      }
+    ],
+    "title": "The Unicorn's Plight"
+  }
+}

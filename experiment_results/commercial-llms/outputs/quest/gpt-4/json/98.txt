@@ -1,0 +1,24 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "The Dragon Slayer",
+        "objective": "Defeat the fire-breathing dragon",
+        "description": "A fire-breathing dragon threatens the kingdom. Your mission is to defeat it and bring peace to the people.",
+        "reward": "10000 gold, Dragon Slayer Armor",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the dragon's lair",
+            "description": "Travel through the dark forest to find the hiding place of the dragon.",
+            "location": "Dark Forest"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the dragon",
+            "description": "Use your skills and the kingdom's weapons to combat and defeat the dragon.",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```

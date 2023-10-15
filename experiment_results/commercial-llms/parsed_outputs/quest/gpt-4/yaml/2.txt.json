@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Retrieve the lost artifact from the ancient ruins",
+    "id": "Q1001",
+    "objective": "Search the ancient ruins for the lost artifact and return it to Archmage Arnolf",
+    "quest_giver": "Archmage Arnolf",
+    "reward": "A powerful magic staff and 500 EXP",
+    "tasks": [
+      {
+        "description": "Find the entrance of the ancient ruins",
+        "location": "Blackwood Forest",
+        "objective": "Locate the ruins' entrance",
+        "order": 1
+      },
+      {
+        "description": "Traverse the traps and puzzles of the ancient ruins",
+        "location": "Inside the ancient ruins",
+        "objective": "Overcome the ancient trials",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the lost artifact from the heart of the ruins",
+        "location": "Ruins' secret chamber",
+        "objective": "Obtain the artifact",
+        "order": 3
+      },
+      {
+        "description": "Return the artifact to Archmage Arnolf",
+        "location": "Wizard's Tower",
+        "objective": "Hand over the artifact to Archmage",
+        "order": 4
+      }
+    ],
+    "title": "The Lost Artifact"
+  }
+}

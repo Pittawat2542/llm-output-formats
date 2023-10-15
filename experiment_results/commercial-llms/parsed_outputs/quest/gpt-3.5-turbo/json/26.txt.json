@@ -1,0 +1,42 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact",
+    "description": "The world is in danger as an ancient and powerful artifact has been stolen. Your mission is to find and retrieve the artifact before it falls into the wrong hands. Travel to different locations, solve puzzles, and defeat enemies in order to complete this quest.",
+    "reward": "Experience points, gold coins, rare item",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Talk to the village elder",
+        "description": "The village elder may have information about the artifact's whereabouts. Go and speak to him in the village located at the foot of the mountains.",
+        "location": "Village at the foot of the mountains"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve the map from the ancient temple",
+        "description": "The village elder informs you that a map to the artifact can be found in an ancient temple deep within the forest. Explore the forest, solve puzzles, and find the map in the temple.",
+        "location": "Ancient temple in the forest"
+      },
+      {
+        "order": "3",
+        "objective": "Find the hidden entrance to the underground caverns",
+        "description": "According to the map, the artifact is hidden in the underground caverns beneath the desert. Search for clues and find the hidden entrance to the caverns.",
+        "location": "Desert"
+      },
+      {
+        "order": "4",
+        "objective": "Navigate through the maze of tunnels",
+        "description": "The underground caverns are a complex maze of tunnels. Navigate through the tunnels, avoiding traps and defeating enemies, to reach the chamber where the artifact is believed to be.",
+        "location": "Underground caverns"
+      },
+      {
+        "order": "5",
+        "objective": "Retrieve the ancient artifact",
+        "description": "Finally, reach the chamber and retrieve the ancient artifact. Be prepared for any challenges or guardians that may be protecting it.",
+        "location": "Chamber in the underground caverns"
+      }
+    ]
+  }
+}

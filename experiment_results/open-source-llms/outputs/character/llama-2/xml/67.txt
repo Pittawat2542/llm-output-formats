@@ -1,0 +1,360 @@
+
+
+# Input format
+## Character information
+* **id**: A unique identifier for the character.
+* **first-name**: The first name of the character.
+* **last-name**: The last name of the character.
+* **species**: The species of the character.
+* **age**: The age of the character.
+* **role**: The role of the character.
+* **background**: The background story of the character.
+* **place-of-birth**: The location where the character was born.
+
+## Physical appearance
+* **eye-color**: The color of the character's eyes.
+* **hair-color**: The color of the character's hair.
+* **height**: The height of the character in float value.
+* **weight**: The weight of the character in float value.
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Example
+```xml
+<game>
+	<character>
+		<id>id</id>

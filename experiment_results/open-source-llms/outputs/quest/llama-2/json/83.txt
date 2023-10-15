@@ -1,0 +1,577 @@
+
+
+## Input format
+
+### Game
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+``` [/INST]
+
+### Task
+
+```json
+{
+    "order": "task order",
+    "objective": "task objective",
+    "description": "task description",
+    "location": "task location"
+}
+``` [/INST]
+
+### Quest Giver
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Objective
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Reward
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Title
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Description
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game ID
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game title
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game objective
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game reward
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game quest giver
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game objective description
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description objective
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description reward
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description quest giver
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description location tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description objective tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description reward tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description quest giver tasks
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description tasks location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description objective tasks location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description reward tasks location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Game description quest giver tasks location
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+   

@@ -1,0 +1,22 @@
+Here is an example of a JSON response for your request:
+
+```json
+{
+  "game": {
+    "enemy": {
+      "id": "id",
+      "name": "name",
+      "description": "description",
+      "stats": {
+        "hp": "hp int value",
+        "mp": "mp int value",
+        "atk": "atk int value",
+        "def": "def int value",
+        "spd": "spd int value"
+      }
+    }
+  }
+}
+```
+
+For more details on JSON formatting, please check out the JSON formatting guidelines.

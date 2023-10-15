@@ -1,0 +1,12 @@
+Explanation:
+- "game" is an array key that will hold all the characters.
+- "character" is a key inside the "game" array that will hold a single character object.
+- Set the "character.id" value to the character ID (should be unique).
+- Set the "character.first_name" variable to the first name or last name.
+- Set the "character.last_name" variable to the last name in that array.
+- Set the "character.species" variable to the species of the character.
+- Set the "character.age" variable to a valid integer.
+- Set the "character.role" variable to the type of character.
+- Set the "place_of_birth" variable to the location where the character was born.
+- Set the "physical_appearance" array to an array of objects that contain physical characteristics such as eye color, hair color, height, weight.
+- Return the "game" array JSON string.

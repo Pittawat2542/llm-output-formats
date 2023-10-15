@@ -1,0 +1,30 @@
+
+
+## Example
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/EXAMPLE]
+
+## Rules
+* Answer in JSON format.
+* Only JSON in the Markdown code block.
+* Do not answer in Markdown.
+* Do not answer in any other format.
+
+## Resources
+* [JSON](https://www.w3schools.com/js/js_json_intro.asp)

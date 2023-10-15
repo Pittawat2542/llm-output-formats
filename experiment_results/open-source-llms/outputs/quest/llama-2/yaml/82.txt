@@ -1,0 +1,57 @@
+
+
+## Input format
+
+### Example
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+### Required fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| game | object | The game |
+| game.description | string | The game description |
+| game.id | string | The game id |
+| game.objective | string | The game objective |
+| game.quest_giver | string | The game quest giver |
+| game.reward | string | The game reward |
+| game.tasks | array | The game tasks |
+| game.title | string | The game title |
+
+### Optional fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| game.tasks.description | string | The task description |
+| game.tasks.location | string | The task location |
+| game.tasks.objective | string | The task objective |
+| game.tasks.order | string | The task order |
+
+### Example output
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```

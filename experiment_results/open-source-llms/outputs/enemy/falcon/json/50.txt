@@ -1,0 +1,5 @@
+- `enemy.id`: A unique ID for the enemy to reference when calling API methods.
+- `enemy.name`: The name of the enemy.
+- `enemy.description`: Information about the enemy, including its attacks, strengths, and weaknesses.
+- `enemy.stats`: The enemy's stats, which include information such as health points, maximum power, attack speed, and defense.
+- `output` has the JSON wrapped around the `.enemy` data so that it can be easily formatted as a Markdown string.

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "In the Shadow of the Dark Tower, a mysterious entity is terrorizing the local villagers. Stop whatever it is before more lives are lost."
+  id: "457"
+  objective: "Investigate the Dark Tower and defeat the unknown entity"
+  quest_giver: "Elder Alvin"
+  reward: "Magical Amulet, 500 Gold, 2000 XP"
+  tasks:
+  - description: "Speak with Elder Alvin to gather more information about the terror."
+    location: "Frostfall Village"
+    objective: "Speak with Elder Alvin"
+    order: "1"
+  - description: "Investigate the tower's surroundings for any suspicious activities."
+    location: "Dark Tower"
+    objective: "Investigate the Dark Tower"
+    order: "2"
+  - description: "Enter the Dark Tower and confront the source of evil."
+    location: "Inside the Dark Tower"
+    objective: "Defeat the unknown entity"
+    order: "3"
+  title: "Shadow of the Dark Tower"
+```

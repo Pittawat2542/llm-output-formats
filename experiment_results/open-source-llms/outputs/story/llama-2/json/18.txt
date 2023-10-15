@@ -1,0 +1,363 @@
+
+
+## Input
+
+Input is a JSON file containing the following fields:
+
+- `title`: The game title
+- `synopsis`: The game story synopsis
+- `beginning`: The beginning of the game
+- `ending`: The ending of the game
+
+## Example
+
+The following example shows how to generate a game story synopsis.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+### Output
+
+The following is the output for the example.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+### Explanation
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+}
+```
+
+The following is the output.
+
+```json
+{
+    "game": {
+        "title": "Mario",
+        "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+        "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+        "ending": "Mario has collected all the coins and saves Princess Peach from Bowser. The end."
+    }
+}
+```
+
+The following is the explanation for the example.
+
+The following is the input.
+
+```json
+{
+    "title": "Mario",
+    "synopsis": "Mario is a plumber who saves Princess Peach from Bowser. Mario has to jump on enemies and collect coins.",
+    "beginning": "Mario is walking in the Mushroom Kingdom when he sees a Koopa Troopa. Mario jumps on the Koopa Troopa and collects a coin.",
+    "ending": "Mario has collected all the coins

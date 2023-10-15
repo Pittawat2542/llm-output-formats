@@ -1,0 +1,31 @@
+<p>Description: A quest for finding someone in the wilderness.</p>
+
+<p>Id: <code>123</code></p>
+
+<p>Objective: To find someone.</p>
+
+<p><code>quest_giver: <code>person</code></code></p>
+
+<p>Reward: <code>gold</code></p>
+
+<p><code>tasks:</code></p>
+
+<p>"Your reward for finding "<code>person</code>">
+  - description: quest location
+    location: <code>person's coordinates</code>"
+  - description: quest task
+    order: <code>quest task order(1|2|3)</code>"
+</p>
+
+<pre><code># Output in YAML format
+game:
+  description: quest description
+  id: 123
+  objective: quest objective
+  quest_giver: quest_giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      order: task order (1|2|3)
+</code></pre>

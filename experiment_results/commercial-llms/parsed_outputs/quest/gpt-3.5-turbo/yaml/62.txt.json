@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Help the village of Arkania retrieve the stolen treasure and bring the thieves to justice.",
+    "id": "quest001",
+    "objective": "Recover the stolen treasure",
+    "quest_giver": "Mayor Gertrude",
+    "reward": "500 gold coins",
+    "tasks": [
+      {
+        "description": "Talk to the village elder to gather information about the thieves.",
+        "location": "Arkania Village",
+        "objective": "Gain information about the thieves",
+        "order": 1
+      },
+      {
+        "description": "Investigate the abandoned warehouse where the thieves are rumored to hide.",
+        "location": "Warehouse District",
+        "objective": "Find clues about the thieves' whereabouts",
+        "order": 2
+      },
+      {
+        "description": "Track down the thieves and engage them in combat to recover the stolen treasure.",
+        "location": "Forest of Shadows",
+        "objective": "Defeat the thieves and recover the stolen treasure",
+        "order": 3
+      }
+    ],
+    "title": "The Stolen Treasure"
+  }
+}

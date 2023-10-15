@@ -1,0 +1,27 @@
+
+
+## Input format
+```
+game title
+game synopsis
+game story synopsis
+``` [/INST]
+
+## Sample input
+```
+The game title is "The Legend of Zelda: Breath of the Wild"
+The game synopsis is "The game begins with Link waking up from a hundred year slumber."
+The game story synopsis is "The game begins with Link waking up from a hundred year slumber. He is in the middle of a desert, and has no idea where he is. He must find his way out of the desert and find his way back to Hyrule."
+``` [/INST]
+
+## Sample output
+```
+{
+    "game": {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "synopsis": "The game begins with Link waking up from a hundred year slumber.",
+        "beginning": "The game begins with Link waking up from a hundred year slumber.",
+        "ending": "The game ends with Link defeating Ganon."
+    }
+}
+``` [/INST]

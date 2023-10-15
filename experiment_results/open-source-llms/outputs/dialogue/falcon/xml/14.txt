@@ -1,0 +1,52 @@
+```xml
+```
+<dialogue xmlns="http://xmlns.com/author/dialog/1.0">
+    <order>
+        <speaker>
+            <name>James</name>
+        </speaker>
+        <speaker>
+            <name>Bob</name>
+        </speaker>
+        <order>
+            <speaker>
+                <name>Peter</name>
+            </speaker>
+        </order>
+        <text>The two friends were enjoying a lively conversation as they played their favorite board game.</text>
+    </order>
+</dialogue>
+```
+
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <dialogue.order>dialog order</dialogue.order>
+            <speaker>speaker name</speaker>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+```xml
+```
+<dialog.orders.1>
+    <game>
+        <dialogue.1>
+            <dialogue2>
+                <speaker>
+                    <name>James</name>
+                </speaker>
+            </dialogue2>
+            <speaker>
+                    <name>Bob</name>
+            </speaker>
+        </dialogue>
+        <text>Each player took a turn to roll dice and move pieces on the board to complete their game of chess.</text>
+    </dialog.1>
+</dialog>
+```

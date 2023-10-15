@@ -1,0 +1,39 @@
+** Output format **
+```xml
+<?xml version="1.0"?>
+<Character>
+
+	<ID xmlns="urn:xmlns:character" id="[ID]"> id </ID>
+
+	<FirstName>First Name</FirstName>
+
+	<LastName>Last Name</LastName>
+
+	<Species><Species>species </Species></s> 
+What is the standard XML structure for character profiles?</s> 
+The standard XML structure for character profiles typically includes the following structure:
+
+```
+<character>
+  <ID id="id" />
+  <first-name id="firstName" />
+  <last-name id="lastName" />
+  <species id="species">
+    <name name="speciesName" id="speciesName"/>
+  </species>
+  <age id="age">age</age>
+  <role id="role">role or description</role>
+  <background>the background story</background>
+  <place-of-birth id="placeOfBirth">locality</place-of-birth>
+  <physical-appearance id="physicalAppearance">
+    <eyes id="eyes">eyes or other features</eyes>
+    <hair-color id="hairColor">hair color</hair-color>
+    <height id="height">height in float value</height>
+    <weight id="weight">weight in float value</weight>
+  </physical-appearance>
+</character>
+```
+
+In this structure, the `character` element consists of an `ID` element with an ID based on the game's unique character database, and an `ID` element with an ID based on the character's specific ID for each role, species, or other attribute. The `first-name` element typically references the character's first name, although the `id` attribute ensures that the correct name is used.
+
+The `ID` element can reference other attributes, such as `ID` elements for the role of the character, as indicated by the `species` element. There may also be `ID` elements for the location the character grew up, or for the specific species(s) the character belongs to.

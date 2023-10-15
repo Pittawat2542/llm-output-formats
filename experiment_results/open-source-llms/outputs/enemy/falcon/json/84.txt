@@ -1,0 +1,25 @@
+**Markdown code block**
+```markdown
+# Input format
+(EnemyBattle) {}
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "HP int value",
+                "mp": "MP int value",
+                "atk": "ATK int value",
+                "def": "DEF int value",
+                "spd": "SPD int value"
+            }
+        }
+    }
+}
+```
+
+In the JSON code block, the "enemy" section contains the enemy status. The "game" key is an array that holds a single enemy object. Each element in the "enemy" array is another JSON object that holds the name, description, and additional stats object. The "stats" key is another array of stats JSON objects that are common to all enemies in the list.

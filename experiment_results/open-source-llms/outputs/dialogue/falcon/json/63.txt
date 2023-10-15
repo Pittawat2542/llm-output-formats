@@ -1,0 +1,7 @@
+```m
+[
+  {"order": "dialogue order", "speaker": "speaker name", "text": "dialogue or narration"}
+]
+```
+
+The first example provides a JSON object that is wrapped in the Markdown code block. The Markdown code block contains a JSON object for the `game` element. Inside this JSON object, there is a `dialogues` array, which in turn contains another JSON object. Each JSON object represents a dialogue that contains the speaker name and the text. Finally, the entire JSON is wrapped in the Markdown code block using double curly brackets.

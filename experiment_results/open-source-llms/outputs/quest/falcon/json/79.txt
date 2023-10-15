@@ -1,0 +1,65 @@
+{
+    "game": {
+        "id": id,
+        "title": title,
+        "objective": objectable,
+        "description": description,
+        "reward": reward,
+        "quest_giver": governor,
+        "tasks": [{
+            "id": order_index,
+            "id2": other_id,
+            "id3": location_name,
+            "order_index": count,
+            "id": "taskId",
+            "objective": "task_objective",
+            "description": "task description",
+            "location": "task_location"
+        }]
+}
+
+# Input format
+```
+| # Game title                             |
+|  0  | { "game": { "id": id, "title": title, // Only extract title from Markdown code block                                  "objective": "quest objective",        "description": "quest description",       "reward": "quest reward",          "quest_giver": "quest giver",                                                               "tasks": [{ "order": "task order", "objective": "task objective", "description": "task description", "location": "task location" }]         
+|   -                                                 {                                  
+               -                                                 {                                                
+                       -
+              ```
+
+// Output
+```
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+      "id": "task order",
+      "objective": "task objective",
+      "description": "task description",
+      "location": "task location"
+    }, {
+      "id": "task2",
+      "objective": "task goal",
+      "description": "task description on task2",
+      "location": "task2 location"
+    }, {
+      "id": "order2",
+      "objective": "task_objective",
+      "description": "task description",
+      "location": "task2 location"
+    }, {
+      -": {
+        "id": "task location",
+        "objective": "task goal",
+        "description": "task description here",
+        "location": "task location"
+      }
+    }]
+  }
+}
+```

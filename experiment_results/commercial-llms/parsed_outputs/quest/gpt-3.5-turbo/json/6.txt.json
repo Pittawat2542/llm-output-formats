@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Save the Princess",
+    "objective": "Rescue the princess from the clutches of the evil dragon",
+    "description": "The kingdom's beloved princess has been kidnapped by a fearsome dragon. The king seeks a brave hero who can venture into the dragon's lair and save the princess. Are you up for the challenge?",
+    "reward": "10,000 gold coins and the princess's hand in marriage",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Acquire the legendary sword",
+        "description": "Visit the wise old wizard in the enchanted forest to obtain the legendary sword that can slay the dragon.",
+        "location": "Enchanted Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Find the dragon's lair",
+        "description": "Journey through treacherous mountains and dark caves to locate the dragon's hidden lair.",
+        "location": "Dragon's Peak"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the dragon",
+        "description": "Engage in a fierce battle with the dragon using the legendary sword and rescue the princess.",
+        "location": "Dragon's Lair"
+      }
+    ]
+  }
+}

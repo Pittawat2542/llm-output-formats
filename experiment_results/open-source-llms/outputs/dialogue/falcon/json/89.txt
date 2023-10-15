@@ -1,0 +1,12 @@
+```Markdown
+[game:
+    game:
+        dialogues:
+            - order: speaker
+            - text: "player name"
+    player:
+        - name: player name
+]
+```
+
+This will generate JSON code in the specified format, with the `dialogues` array containing a speaker's dialogue or narration and a player's name. The `game` field is also included. If there are multiple game fields, they can be listed under `[game]`.

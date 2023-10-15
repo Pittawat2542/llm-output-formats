@@ -1,0 +1,15 @@
+# Markdown code block
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker:
+        - text: -Speaker 1
+        - order: first
+        - text: -Dialogue 1
+        - speaker:
+          - text: -Speaker 2
+          - text: -Dialogue 2
+```
+
+The `speaker` field contains either a name or a placeholder. The `text` field is a Markdown syntax for adding dialogue text.

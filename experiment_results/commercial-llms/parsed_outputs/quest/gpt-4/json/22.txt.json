@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Artifact",
+    "objective": "To locate and return the lost artifact",
+    "description": "A valuable artifact has been stolen from the Royal Treasury. Your job is to locate and return it to the king.",
+    "reward": "5000 gold coins and a rare magical item",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find clues about the thief's identity",
+        "description": "Search the treasury room for any clues left about the thief's identity",
+        "location": "Royal Treasury"
+      },
+      {
+        "order": "2",
+        "objective": "Locate the thief's hideout",
+        "description": "Use the clues to find the location of the thief's hideout",
+        "location": "Unknown"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact",
+        "description": "Find and retrieve the lost artifact from the thief's hideout",
+        "location": "Thief's hideout"
+      },
+      {
+        "order": "4",
+        "objective": "Return the artifact",
+        "description": "Return the artifact to King Arthur at his castle",
+        "location": "King Arthur's Castle"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+```markdown-go
+<?xml version='1.0'?>
+
+Markdown
+| Title                      | Description       | Reward             | Quest Giver            | Tasks               |
+|--------------------------+------------------+------------------------+ Quest Giver's Lair     | Reward            | The Grand Dragon |
+|                                | Quest Giver            |                   | None            |
+| Game.xml                   | This is a sample XML | This is a sample reward. |            The game is played on a computer screen. |
+```
+When you want to return an output in XML format in Markdown, you can use HTML tags to specify the formatting. To only include the XML in the output, you can specify the tags that follow specific conventions.
+
+In this example, we have a game object using the Markdown syntax syntax. By including the ```xml``` tags in the code block, we make sure that only the XML data and not the entire Markdown code block is returned in the output.
+
+We have a single object with several key-value pairs and two levels of nested objects, the game and the quest. Inside the quest object, we have multiple tasks and rewards. You can add more tasks and rewards as needed based on the complexity of the game and the challenges faced by the player.
+
+The Quest Giver's Lair and The Grand Dragon's reward are specific types that are defined in the game and can be changed based on the game state or player's choices.
+
+When using XML tags and Markdown syntax, make sure to define the content of the XML correctly to avoid errors.

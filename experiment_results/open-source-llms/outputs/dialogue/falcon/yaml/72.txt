@@ -1,0 +1,26 @@
+YAML block:
+```yaml
+- name: Alice
+  dialogues:
+  #: dialogue description
+  speaker: Alice
+- name: Bob
+  dialogues:
+  #: dialogue description
+  speaker: Bob
+```
+Input format
+```yaml
+Alice:
+- order: dialogue order
+  dialogue:
+    order: speaker order of dialogue
+    speaker: "Alice"
+    text: The day is sunny.
+Bob:
+- order: speaker order of dialogue
+  dialogue:
+    order: speech
+    speaker: "Bob"
+    text: This is a nice speech.
+```

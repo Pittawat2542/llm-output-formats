@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "The Lost Relic",
+        "objective": "Find and retrieve the lost relic",
+        "description": "The lost relic of Granadora has been missing for centuries. Your task is to find and bring it back to the royal palace.",
+        "reward": "1000 Gold, Granadora's Seal",
+        "quest_giver": "King Lorandt",
+        "tasks": [{
+            "order": "1",
+            "objective": "Investigate the Temple of Shadows",
+            "description": "Venture into the ancient and eerie Temple of Shadows to look for clues.",
+            "location": "Temple of Shadows"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the guardian",
+            "description": "Defeat the powerful guardian of the relic. It won't give up the relic easily.",
+            "location": "Inner Sanctum of the Temple"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the relic",
+            "description": "Get the lost relic and return to King Lorandt.",
+            "location": "Royal Palace"
+        }]
+    }
+}
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "The queen's beloved cat, Mr. Whiskers, has gone missing. She is heartbroken and has offered a generous reward for her safe return."
+  id: 12345
+  objective: "Find and return Mr. Whiskers."
+  quest_giver: "Queen Isabella"
+  reward: "500 gold coins and the queen's favor"
+  tasks:
+  - description: "Investigate the royal gardens where Mr. Whiskers was last seen."
+    location: "Royal Gardens"
+    objective: "Look for any signs of Mr. Whiskers."
+    order: 1
+  - description: "Speak to the royal gardener who claimed to have seen a shady character."
+    location: "Gardener's Shed"
+    objective: "Gather information on the potential cat-napper."
+    order: 2
+  - description: "Follow the clues to the thief's hideout."
+    location: "Dark Alley"
+    objective: "Find Mr. Whiskers and bring her home safely."
+    order: 3
+  title: "The Kidnapping of Mr. Whiskers"
+```

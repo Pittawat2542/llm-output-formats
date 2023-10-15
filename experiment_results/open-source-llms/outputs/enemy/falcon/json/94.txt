@@ -1,0 +1,57 @@
+## Example usage
+```
+<p class="markdown-code-block">
+- Create a new enemy:
+<pre><code>class Enemey:
+    def __init__(self, id, name, description, stats=" {}".format(STATS_HP))[0]:
+        self.id = id
+        self.name = name
+        self.description = description
+        self.stats = stats
+        self.HP = stats["hp"]
+
+    def GetATK(self, stats):
+        return stats["atk"]
+
+    def GetDEF(self, stats) :
+        return stats["def"]
+
+Enemy1 = Enemey(1, "Enemy 1", "Enemy 1 description", stats={
+    "hp": 100,
+    "mp": 200,
+    "atk": 300,
+    "def": 500
+})
+Enemy2 = Enemey(2, "Enemy 2", "Enemy 2 description", stats={
+    "hp": 120,
+    "mp": 240,
+    "atk": 550,
+    "def": 880
+})
+
+print(Enemy1.GetHP())
+print(Enemy1.GetATK())
+print(Enemy1.GetDEF())
+print(Enemy1.GetHP())  # Output: 100
+print(Enemy1.GetATK())  # Output: 300
+print(Enemy1.GetDEF())  # Output: 500
+
+print(Enemy2.GetHP())
+print(Enemy2.GetATK())
+print(Enemy2.GetDEF())
+print(Enemy2.GetHP())  # Output: 120
+print(Enemy2.GetATK())  # Output: 240
+print(Enemy2.GetDEF())  # Output: 550
+ 
+# Additional Enemies
+Enemy3 = Enemey(3, "Enemy 3", "Enemy 3 description", stats={
+    "hp": 450,
+    "hp": 600,
+    "atk": 650
+})
+Enemy4 = Enemey(4, "Enemy 4", "Enemy 4 description", stats={
+    "hp": 720,
+    "hp": 920
+})</code></pre>
+
+<p>When the enemy is created, their individual properties are assigned to a new Enemey Python object. The HP is set according to the given value, and also assigned to a new Enemey instance. The individual properties such as ATK and DEF are assigned their respective values, and also assigned to their individual Enemey properties. The output in JSON can then be printed as desired.</p>

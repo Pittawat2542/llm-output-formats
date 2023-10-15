@@ -1,0 +1,70 @@
+
+
+## Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+## Explanation
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+## Rules
+1. Write a dialogue in the game.
+2. The dialogue should have an order number, a speaker and a text.
+3. The order number should be a string.
+4. The speaker should be a string.
+5. The text should be a string.
+6. The text should be between 1 and 100 words.
+7. The text should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content.
+8. The text should be socially unbiased and positive in nature.
+9. If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct.
+10. If you don't know the answer to a question, please don't share false information.
+11. Return output in XML format and only the XML in the Markdown code block.
+
+## Failure Conditions
+1. If the dialogue does not have an order number, a speaker and a text.
+2. If the order number is not a string.
+3. If the speaker is not a string.
+4. If the text is not a string.
+5. If the text is not between 1 and 100 words.
+6. If the text includes any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content.
+7. If the text is not socially unbiased and positive in nature.
+8. If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct.
+9. If you don't know the answer to a question, please don't share false information.
+10. If the output is not in XML format and only the XML in the Markdown code block.
+
+## Submission Format
+1. Write the code in the file `dialogue.py`.
+2. Run the code.
+3. Copy the output to the Markdown code block.
+4. Submit the Markdown file.
+
+## Judging
+1. The code will be judged on how well it follows the rules.
+2. The output will be judged on how well it follows the rules.
+
+## Scoring
+1. If the code follows the rules, it will be scored 100.
+2. If the output follows the rules, it will be scored 100.
+3. If the code does not follow the rules, it will be scored 0.
+4. If the output does not follow the rules, it will be scored 0.

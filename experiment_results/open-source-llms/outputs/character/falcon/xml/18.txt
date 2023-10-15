@@ -1,0 +1,50 @@
+XE52A<Character class="character">
+	<id>character_id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<place-of-birth>location</place-of-birth>
+	<physical-appearance>
+		<eye-color>eye color</eye-color>
+		<hair-color>hair color</hair-color>
+		<height>height in float value</height>
+		<weight>weight in float value</weight>
+		<age-specifier>age in char or float</age-specifier>
+		<gender>text or char</gender>
+		<race>text or char</race>
+		<ethnicity>text or char with race</ethnicity>
+		<character-created-date>text or char representing creation date</text>
+		<character-created-month>text or char representing creation month</text>
+		<character-created-year>text or char representing creation year</character-created-year>
+		<is-dead>text or char indicating if the character is dead</is-dead>
+		<is-alive>text or char indicating if the character is alive</is-alive>
+		<has-backstory>text or char indicating if the creation of character has a backstroy, e.g. 'born in prison'</has-backstory>
+	</character>
+</game>
+
+<xsl:stylesheet version="1.0" xsl:validate-xml="true">
+<xsl:output method="xml"/>
+</xsl:stylesheet>
+
+<?xml
+<?xml version="1.0"?>
+<game>
+    <character id="char_id">
+        <id>id</id>
+        <first-name>first name</first-name>
+        <last-name>last name</last-name>
+        <age>exact age or description</age>
+        <gender char-or="text">char or text representing gender. ex-male, female, or other.</gender>
+        <race char-or="text">char or text representing ethnic background. ex-black, white, or other.</race>
+        <ethnicity char-or="text">char or text describing ethnic diversity.</ethnicity>
+        <species char-or="text">char or text representing any and all of the animal species.</species>
+        <place-of-birth char-or="text">char or text representing place of origin, country, city, town, etc.</place-of-birth>
+        <birth-date char-or="text">char or text representing the date of birth.</birth-date>
+        <is-alive char-or="character-created-year">char or text corresponding to character being alive or dead.</is-alive>
+    </character>
+</game>
+```
+User

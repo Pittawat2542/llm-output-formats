@@ -1,0 +1,54 @@
+```javascript
+let code = {};
+let json = "";
+
+if ($(window).height() > $(".modal").offset().top){
+    code.game.character.physical_appearance = $(".modal").find("#physical_appearance").children();
+    json += code.game.character.physical_appearance;
+}
+
+if ($("iframe").contents().length > 0){
+    json += `iframe ({
+            contentWindow:'my-iframe-content',
+            src: JSON.stringify($.contents())
+        })`;
+}
+
+$(document).ready(function(){
+    json += "code executed on page load";
+    json = JSON.stringify(code);
+
+    $(function() {
+        let infos = $(this).find("#my-iframe-content").get();
+        var iframeCode = infos.html();
+
+        window.onload = function(e) {
+            iframe.contents(iframeCode).find("#in-code").loadJSON()
+               .done(function() {
+                    console.log(code);
+                });
+        }
+
+        iframe.contents(iframeCode).find("#my-iframe-content").on("load", function() {
+            var code = JSON.stringify($(window).height() > $(".modal").offset().top? $('.modal').find("[data-id='my-iframe-content']").data('id') : 'undefined');
+            var json = JSON.parse(json);
+            if (json.game && json.game.character && json.game.character.physical_appearance) {
+                if (json.game.character.physical_appearance.children().is("a")) {
+                    iframe.contents(iframeCode).find("#physical_appearance").children('br').html(json.game.character.physical_appearance.join("\n));
+                } else {
+                    console.log(code);
+                }
+            }
+
+            if (infos.height() >= ($($window).height() - (document.getElementById('my-iframe').offsetHeight)) * 0.75) {
+                code += `iframe: ($(window).height() - ($($window).offsetHeight)) &lt;img src="my-iframe-content://exact age)
+                   .data('id')
+                   .data('place_of_birth')
+                   .data('exact age or description')
+                   .data('background')
+                   .data('place';
+
+// output in Markdown format
+```
+
+This generated JSON profile contains a `character` object with `game`, `gender`, `species`, and other profile details. The `game.character.physical_appearance` data property contains an array of child JSON objects for each character's physical appearance, including height, weight, and other physical properties.

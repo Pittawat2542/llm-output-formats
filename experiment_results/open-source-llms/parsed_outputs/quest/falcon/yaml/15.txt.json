@@ -1,0 +1,11 @@
+{
+  "Explanation": [
+    "Use list formatting with a header for tasks, and list them inside `tasks`",
+    "Use anchor points for each quest",
+    "Use `|` to separate descriptions and tasks",
+    "Add `|` before tasks that are in the same level, like `- description` and `|` to indicate it",
+    "Use YAML aliases to simplify the code. For example, `title=quest title` is defined as `title:` inside the list.",
+    "Use the `description.*` block to match all descriptions, instead of `description:`",
+    "Use anchors to describe the quest name in different parts of the text, and use `title` as the anchor for questions."
+  ]
+}

@@ -1,0 +1,82 @@
+```txt
+<?xml version="1.0" encoding="UTF-8"?>
+<Enemy id="enemy1">
+	<Name>Crawling Horror</Name>
+	<Description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</Name>
+	<Stats>
+		<HP>1007</HP>
+		<MP>8</MP>
+		<ATK>9/2/1</ATK>
+		<DEF>8</DEF>
+		<SPD>8</SPD>
+	</Stats>
+</Enemy>
+```
+
+```xml
+<Enemy id="ENEMY1">
+	<Name>Crawling Horror</Name>
+	<Description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities. </Description>
+	<Stats>
+		<HP>1007</HP>
+		<MP>8</MP>
+		<SPD>8</SPD>
+		<DEF>8</DEF>
+		<ATK>9/1/1</ATK>
+		<DEF>8</DEF>
+	</Stats>
+</Enemy>
+```
+
+```xml
+<Enemy id="ENEMY2">
+	<Name>Crawling Horror</Name>
+	<Description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</Description>
+	<Stats>
+		<HP>1007</HP>
+		<MP>8</HP>
+		<MP>8</MP>
+		<DEF>8</DEF>
+		<HP>1058</HP>
+		<MP>11</PM>
+		<HP>1056</HP>
+		<HP>1076</HP>
+		<HP>1086</HP>
+		<HP>1086</HP>
+		<HP>1076</HP>
+		<HP>1096</HP>
+		<HP>9/1/2</HP>
+		<HP>9/1/1</HP>
+		<HP>9/1/2</HP>
+		<HP>9/1/3</HP>
+		<HP>7/1/1</HP>
+		<HP>8/1/3</HP>
+		<HP>6/1/1</HP>
+		<HP>9/2/1)</TP>
+		<HP>9/2/2</HP>
+		<HP>8/2/1</HP>
+		<HP>6/1/2</HP>
+		<HP>7/1/2</HP>
+		<HP>8/1/1</HP>
+		<HP>4/1/3</HP>
+		<HP>6/1/4</HP>
+		<HP>9/1/4</HP>
+		<HP>1/4/1</HP>
+		<HP>9/1/5</HP>
+		<HP>10/1/5</HP>
+		<HP>11/1/9</HP>
+		<HP>9/1/5</HP>
+		<HP>0/1/1</HP>
+		<HP>10/2/2</HP>
+		<HP>15/1/2</HP>
+		<HP>13/1/1</HP>
+		<HP>0/3/5</HP>
+		<HP>10/1/7</HP>
+		<HP>1/2/2</HP>
+		<HP>6/1/4</HP>
+		<HP>9/1/1</HP>
+		<HP>10/12/11</HP>
+		<HP>12/2/5</HP>
+		<HP>7/2/3<TAP_HP>
+</Enemy>
+```

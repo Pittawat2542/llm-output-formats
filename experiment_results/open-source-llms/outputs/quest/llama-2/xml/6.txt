@@ -1,0 +1,55 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>123456789</id>
+	<title>The quest for the golden apple</title>
+	<objective>Find the golden apple</objective>
+	<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the golden apple</objective>
+			<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+			<location>The king's castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the golden apple</objective>
+			<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+			<location>The king's castle</location>
+		</task>
+	</tasks>
+</game>
+``` [/EXAMPLE]
+
+# Expected output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>123456789</id>
+	<title>The quest for the golden apple</title>
+	<objective>Find the golden apple</objective>
+	<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the golden apple</objective>
+			<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+			<location>The king's castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the golden apple</objective>
+			<description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+			<location>The king's castle</location>
+		</task>
+	</tasks>
+</game>
+``` [/EXPECTED]

@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Retrieve the Lost Sword",
+    "objective": "Find the Lost Sword hidden in the depths of the Forbidden Forest.",
+    "description": "Long ago, a mighty sword known as 'The Blade of Perseverance' was lost in the depths of the Forbidden Forest. Legends say that this sword possesses extraordinary powers. You have been chosen to retrieve this sword and restore peace to the land.",
+    "reward": "The Blade of Perseverance",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Locate the entrance to the Forbidden Forest",
+        "description": "Ask the villagers in the nearby town for directions to the entrance of the Forbidden Forest.",
+        "location": "Town of Eldoria"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the treacherous forest",
+        "description": "Overcome various obstacles, defeat enemies, and solve puzzles to proceed deeper into the Forbidden Forest.",
+        "location": "Forbidden Forest"
+      },
+      {
+        "order": "3",
+        "objective": "Find the hidden cave",
+        "description": "Discover the concealed cave where 'The Blade of Perseverance' is rumored to be hidden.",
+        "location": "Forbidden Forest"
+      },
+      {
+        "order": "4",
+        "objective": "Retrieve the Lost Sword",
+        "description": "Enter the cave and face the challenges within to obtain 'The Blade of Perseverance'.",
+        "location": "Cave of Trials"
+      }
+    ]
+  }
+}

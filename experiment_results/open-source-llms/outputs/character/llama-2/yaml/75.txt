@@ -1,0 +1,91 @@
+
+
+## Examples
+```yaml
+game:
+  character:
+    age: 10
+    background: I was born in the year 2000
+    first_name: Aiden
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 5'11"
+      weight: 160
+    place_of_birth: Earth
+    role: hero
+    species: human
+```
+
+## Notes
+
+* The question should not be answered with a single line.
+* Please use the following format:
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+* Please do not use any HTML formatting.
+
+## Hints
+
+* You can use the [YAML](https://yaml.org/) format.
+* The question should not be answered with a single line.
+* Please use the following format:
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+* Please do not use any HTML formatting.
+
+## Solutions
+
+```yaml
+game:
+  character:
+    age: 10
+    background: I was born in the year 2000
+    first_name: Aiden
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 5'11"
+      weight: 160
+    place_of_birth: Earth
+    role: hero
+    species: human
+```

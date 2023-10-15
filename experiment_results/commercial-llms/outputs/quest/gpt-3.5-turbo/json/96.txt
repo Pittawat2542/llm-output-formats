@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "1234",
+        "title": "Save the Princess",
+        "objective": "Rescue the princess from the evil dragon",
+        "description": "The kingdom is in despair as the evil dragon has kidnapped the beloved princess. You must embark on a dangerous journey to defeat the dragon and save the princess. Are you up for the challenge?",
+        "reward": "1000 gold coins and the gratitude of the whole kingdom",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Collect the sacred sword",
+            "description": "Find and retrieve the legendary sword from the ancient ruins",
+            "location": "Ruins of Eldoria"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the Fire Elemental",
+            "description": "Confront and defeat the powerful Fire Elemental to acquire the necessary elemental essence",
+            "location": "Mount Emberfall"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the Dragon Scale",
+            "description": "Venture into the treacherous Dragon's Lair and obtain a scale from the dragon's hoard",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```

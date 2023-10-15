@@ -1,0 +1,32 @@
+Explanation:
+
+- `game`: This is a container that holds data and objects related to the character, such as `id`, `first_name`, etc.
+- `character`: This is an object that contains several properties, such as `game`, `id`, `fist_name`, etc.
+- `game.character`: This is an object that contains all the properties of the `character` object, and is meant to be used as the data source of the JSON output.
+- `game.game`: This is an object that contains all the data and objects of the game.
+- `game.item.game.game`: This is the inner property that contains the JSON object of the character.
+
+Output format:
+
+- First name of the character, in `first_name`.
+- Game ID in `id`.
+- Character age(s) in `.character`.
+- Character's current role, in `game.item.game.game.game`.
+- Character's species, as a string in `.game.item.game.game.game`.
+- Character's birthplace coordinates, in a JSON object.
+- Character's place of birth, in a JSON object.
+- Character's physical appearance, as a JSON object representing the properties of the character.
+
+Example Usage:
+
+```yaml
+character:
+  - name: John S.
+    age: 23
+    species: human
+    location: New York
+    birthplace: { lat: -73.8978, lng: 12.5576 }
+    physical_appearance:
+      - height: 5'10"
+      - weight: 170 lbs
+```

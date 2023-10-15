@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Explore the ancient ruins of Eldoria and recover the lost artifact.",
+    "id": 123456,
+    "objective": "Recover the lost artifact from the ancient ruins.",
+    "quest_giver": "Archaeologist Jones",
+    "reward": "Rare enchanted amulet",
+    "tasks": [
+      {
+        "description": "Find the entrance to the ruins",
+        "location": "Forest of Mystaria",
+        "objective": "Locate the hidden entrance to the ancient ruins in the forest.",
+        "order": 1
+      },
+      {
+        "description": "Solve the puzzles inside the ruins",
+        "location": "Eldoria Ruins",
+        "objective": "Solve the intricate puzzles to progress deeper into the ruins.",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the artifact",
+        "location": "Eldoria Chamber",
+        "objective": "Locate the chamber where the lost artifact is said to be located and retrieve it.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact of Eldoria"
+  }
+}

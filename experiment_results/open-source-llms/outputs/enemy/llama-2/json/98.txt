@@ -1,0 +1,393 @@
+
+
+## Input format
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.
+
+The `enemy` object should also contain an `stats` object. The `stats` object should contain an `hp` key and an `mp` key. The `hp` key should be an integer and the `mp` key should be an integer.
+
+The `stats` object should also contain an `atk` key and a `def` key. The `atk` key should be an integer and the `def` key should be an integer.
+
+The `stats` object should also contain an `spd` key. The `spd` key should be an integer.
+
+### Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Input format
+
+The input is an object with a single key `game`. The `game` key should contain an object with a single key `enemy`.
+
+The `enemy` object should contain an `id` key and a `name` key. The `id` key should be a string and the `name` key should be a string.

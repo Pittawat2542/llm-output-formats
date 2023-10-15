@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "1023",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact from the ruins",
+    "description": "An ancient artifact has been sighted in the old ruins to the north. It is said to hold immense mystical power. Your task is to locate this artifact and retrieve it safely",
+    "reward": "5000 Gold Coins and Legendary Sword 'Dragon's Fury'",
+    "quest_giver": "Old Sage Gilbert",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Travel to the old ruins",
+        "description": "Venture north through the treacherous Blackwood forest till you reach the abandoned ruins",
+        "location": "Old ruins to the north"
+      },
+      {
+        "order": "2",
+        "objective": "Investigate the ruins and locate the artifact",
+        "description": "Search the ancient ruins for any traces of the artifact",
+        "location": "Within the Old ruins"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact and return it to Gilbert",
+        "description": "Once you have found the artifact, retrieve it and return safely to Gilbert",
+        "location": "Old Sage Gilbert's hut"
+      }
+    ]
+  }
+}

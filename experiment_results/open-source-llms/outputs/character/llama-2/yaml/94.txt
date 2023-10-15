@@ -1,0 +1,583 @@
+
+
+## Example
+```yaml
+game:
+  character:
+    age: 35
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+## Constraints
+- The character's age must be an exact number.
+- The character's background must be a sentence.
+- The character's first name must be a sentence.
+- The character's last name must be a sentence.
+- The character's physical appearance must be an array of objects.
+- The character's physical appearance objects must have the following properties:
+  - eye_color: the color of the character's eyes
+  - hair_color: the color of the character's hair
+  - height: the character's height in feet and inches
+  - weight: the character's weight in pounds
+- The character's place of birth must be a sentence.
+- The character's role must be a sentence.
+- The character's species must be a sentence.
+
+## Examples
+```yaml
+game:
+  character:
+    age: 35
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 170
+      weight: 70
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+   

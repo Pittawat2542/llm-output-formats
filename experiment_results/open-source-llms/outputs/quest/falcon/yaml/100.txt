@@ -1,0 +1,28 @@
+<pre><code># Markdown code block
+# Output format
+# The Quest: The Player's Adventure
+# The Objective: The Goal
+# Quests: Quests that the player needs to complete in order to complete the
+# quest
+| Quest | Description |
+| ------ | ----------- |
+|   |   |
+
+| Title | Game title |
+| ------ | ----------- |
+|   |   |
+
+# Tasks: All the tasks in the quesst that the player needs to complete in order to complete the quest
+| Task | Location | Objectives | Rewards |
+| ------ | ------ | ---------- | -------- |
+
+\----------------------------\
+| Quest | Description | Objectives | Rewards | YAML\
+| -------- | ------ | ------ | --- |
+| id  | id | - | + |
+| title | Game title | - | + |
+
+| Task | Location | Objectives | Rewards | YAML\
+| -------- | ------ | ------ | --- |
+| task1-lvl | Level 1 quest | 6 objectives | 2 gold |
+| task2-lvl | Level 2 quest | 6 objectives | 3 gold |

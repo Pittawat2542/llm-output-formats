@@ -1,0 +1,538 @@
+
+
+## Sample Input
+
+```
+> [INST] <<SYS>>
+> 
+> How do I get to the nearest hospital?
+> 
+> The nearest hospital is 30 minutes away.
+> 
+> Do you know the way?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with that.
+> 
+> Do you know the way to the nearest hospital?
+> 
+> I can't help you with

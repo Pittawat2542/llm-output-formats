@@ -1,0 +1,49 @@
+
+
+# Input format
+
+The input is a Markdown file containing the dialogue.
+
+# Example
+
+```markdown
+## Dialogue 1
+
+**Speaker 1:** Hello, I'm a speaker.
+
+**Speaker 2:** Hello, I'm a speaker.
+
+**Speaker 1:** Hi.
+
+**Speaker 2:** Hi.
+```
+
+# Expected output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Speaker 1</speaker>
+			<text>Hello, I'm a speaker.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Speaker 2</speaker>
+			<text>Hello, I'm a speaker.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Speaker 1</speaker>
+			<text>Hi.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Speaker 2</speaker>
+			<text>Hi.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

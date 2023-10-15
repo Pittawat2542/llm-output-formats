@@ -1,0 +1,40 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>/5d77c/id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>/5d77c/quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>/5d77c/task location</location>
+		</task>
+	</tasks>
+</game>
+```
+</pre>

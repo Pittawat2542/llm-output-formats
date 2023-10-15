@@ -1,0 +1,25 @@
+Here is a sample dialogue in JSON format:
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": 1,
+            "speaker": "Player",
+            "text": "Hello, world!"
+        }, {
+            "order": 2,
+            "speaker": "NPC",
+            "text": "Hello to you too! How can I help you today?"
+        }]
+    }
+}
+```
+
+Here is a sample dialogue in Markdown format:
+```markdown
+# Dialogue 1
+
+Player: Hello, world!
+
+NPC: Hello to you too! How can I help you today?
+```

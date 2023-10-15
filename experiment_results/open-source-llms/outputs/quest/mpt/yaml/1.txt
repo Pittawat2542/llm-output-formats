@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+The format is as follows.
++ game: This contains the general game description, for example, the quest title.
++ description: This is the description of the completed quest. For example, the description of the quest objective.
++ id: This is the unique ID assigned to the quest in the game.
++ objective: This is the objective that the user needs to complete to finish the quest. For example, the quest objective.
++ quest_giver: This is the person who gives the quest. For example, the name of the NPC that sends the quest.
++ reward: This is the reward that is sent to the user for completing the quest. For example, the items or gold used as a reward for finishing the quest.
++ tasks: This is the list of tasks that make up the quest. Each task has a description, location, and objective. For example, the task description.
++ order: This tells the user the order in which to complete the tasks. This is useful for users to know that the tasks must be completed in the order given.
++ location: This is the location where the user needs to travel to complete the given task.
++ objective: This is the main objective of the given task. For example, the task objective.

@@ -1,0 +1,22 @@
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<pre><code>// #include the current working directory
+#include "path/to/current/path.h"
+
+// #include "xml2.h"
+void WriteXML(const wchar_t* text, int* len) {
+    std::wstring<int> data(text, len, '\0', std::wstring::back_inserter(_wdata));
+    std::wostream&lt;wchar_t&gt; writer(&amp;_wos, std::wcin);
+
+    data.append(&amp;writer, std::wostream::back_inserter(_wdata));
+};
+
+// The main function
+int main() {
+    WriteXML(L"This is the quest information." L"This is not the quest.", &amp;_wdata, L"This is not the task information.");
+    return 0;
+}</code></pre>
+```

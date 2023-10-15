@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Explore the lost ruins and find the hidden treasure."
+  id: "12345"
+  objective: "Find the treasure chest full of ancient artifacts."
+  quest_giver: "Elderly adventurer"
+  reward: "A legendary artifact and 500 gold coins"
+  tasks:
+  - description: "Navigate through the treacherous jungle"
+    location: "The Dark Forest"
+    objective: "Find the entrance to the ruins"
+    order: 1
+  - description: "Solve the puzzles inside the ruins"
+    location: "The Ancient Ruins"
+    objective: "Unlock the door to the treasure chamber"
+    order: 2
+  - description: "Battle the guardian monster"
+    location: "The Treasure Chamber"
+    objective: "Defeat the guardian and open the treasure chest"
+    order: 3
+  title: "The Lost Ruins Adventure"
+```

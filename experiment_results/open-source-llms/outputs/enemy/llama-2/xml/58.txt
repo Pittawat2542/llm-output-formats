@@ -1,0 +1,408 @@
+
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>King of the Fairies</name>
+		<description>A powerful fairy who lives in the forest. He is the king of all the fairies.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>2</id>
+		<name>Goblin</name>
+		<description>A small, green creature that lives in the forest. He is very cunning and is often found in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>3</id>
+		<name>Bandit</name>
+		<description>A bandit is a type of criminal who lives in the forest. They are known for their thievery and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>4</id>
+		<name>Skeleton</name>
+		<description>A skeleton is a type of creature that lives in the forest. They are known for their undead nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>5</id>
+		<name>Witch</name>
+		<description>A witch is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>6</id>
+		<name>Troll</name>
+		<description>A troll is a type of creature that lives in the forest. They are known for their strength and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>7</id>
+		<name>Sorcerer</name>
+		<description>A sorcerer is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>8</id>
+		<name>Demon</name>
+		<description>A demon is a type of creature that lives in the forest. They are known for their evil nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>9</id>
+		<name>Skeleton</name>
+		<description>A skeleton is a type of creature that lives in the forest. They are known for their undead nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>10</id>
+		<name>Witch</name>
+		<description>A witch is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>11</id>
+		<name>Troll</name>
+		<description>A troll is a type of creature that lives in the forest. They are known for their strength and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12</id>
+		<name>Sorcerer</name>
+		<description>A sorcerer is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>13</id>
+		<name>Demon</name>
+		<description>A demon is a type of creature that lives in the forest. They are known for their evil nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>14</id>
+		<name>Skeleton</name>
+		<description>A skeleton is a type of creature that lives in the forest. They are known for their undead nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>15</id>
+		<name>Witch</name>
+		<description>A witch is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>16</id>
+		<name>Troll</name>
+		<description>A troll is a type of creature that lives in the forest. They are known for their strength and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>17</id>
+		<name>Sorcerer</name>
+		<description>A sorcerer is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>18</id>
+		<name>Demon</name>
+		<description>A demon is a type of creature that lives in the forest. They are known for their evil nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>19</id>
+		<name>Skeleton</name>
+		<description>A skeleton is a type of creature that lives in the forest. They are known for their undead nature and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>20</id>
+		<name>Witch</name>
+		<description>A witch is a type of creature that lives in the forest. They are known for their magic and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>21</id>
+		<name>Troll</name>
+		<description>A troll is a type of creature that lives in the forest. They are known for their strength and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>22</id>
+		<name>Sorcerer</name

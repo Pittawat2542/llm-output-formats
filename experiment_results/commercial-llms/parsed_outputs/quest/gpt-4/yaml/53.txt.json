@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The ancient city has been taken over by evil forces, your quest is to defeat them and restore peace.",
+    "id": "A1234",
+    "objective": "Defeat the evil forces and free the ancient city.",
+    "quest_giver": "High Priest",
+    "reward": "Staff of Enlightenment",
+    "tasks": [
+      {
+        "description": "Navigate your way through the haunted forest to reach the ancient city.",
+        "location": "Haunted Forest",
+        "objective": "Reach the ancient city.",
+        "order": 1
+      },
+      {
+        "description": "Find the secret passage into the city.",
+        "location": "Ancient City Outskirts",
+        "objective": "Discover the secret passage.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the evil overlord and liberate the city.",
+        "location": "Ancient City Throne Room",
+        "objective": "Defeat the evil overlord.",
+        "order": 3
+      }
+    ],
+    "title": "Liberation of the Ancient City"
+  }
+}

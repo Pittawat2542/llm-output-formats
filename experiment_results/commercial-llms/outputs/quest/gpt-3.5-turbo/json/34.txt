@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "Retrieve the Sacred Amulet",
+        "objective": "Find the Sacred Amulet hidden in the ancient temple",
+        "description": "Legend has it that the Sacred Amulet possesses immense power and can bring either prosperity or destruction to the world. Your task is to locate the ancient temple where the amulet is hidden and retrieve it. However, be warned, for the temple is filled with dangerous traps and guardians that protect the amulet.",
+        "reward": "A vast amount of treasure and the admiration of the kingdom",
+        "quest_giver": "King Eldric",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Find the map to the temple",
+                "description": "The first task is to locate the hidden map that pinpoints the exact location of the ancient temple. The map is said to be hidden somewhere within the Royal Library.",
+                "location": "Royal Library"
+            },
+            {
+                "order": "2",
+                "objective": "Obtain the key to enter the temple",
+                "description": "Once you have the map, you must embark on a journey to the Forgotten Mountains where the Key of Ancients is said to be hidden. The key will grant you access to the temple.",
+                "location": "Forgotten Mountains"
+            },
+            {
+                "order": "3",
+                "objective": "Navigate through the temple and retrieve the amulet",
+                "description": "The temple is filled with treacherous traps and guardians meant to protect the Sacred Amulet. You must be cautious and clever in order to navigate through them and reach the chamber where the amulet is kept.",
+                "location": "The Ancient Temple"
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,21 @@
+Here's a full example of the quest information returned.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task order="task order">
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```

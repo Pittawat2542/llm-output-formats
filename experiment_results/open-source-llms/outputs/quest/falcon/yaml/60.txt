@@ -1,0 +1,22 @@
+# Markdown code block
+YAML.inline`
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+    title: quest title
+
+`
+<script>
+document.write(JSON.stringify(YAML.map(input, function(key, value) {
+  return `${key} = ${value}`;
+}));</script>
+```
+In the above YAML code block, the `tasks` key is an ordered list of task descriptions. Each task description is a separate key within the `tasks` mapping. To generate this query in a Markdown code block, it is recommended to include the `YAML.inline` syntax to display the YAML code as inline code. Also, ensure to specify the output format as YAML format which uses the `YAML.map` method to group key-value pairs and converts them to task and location names. The result will be shown in a table with the necessary key-value pairs.

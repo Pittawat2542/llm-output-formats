@@ -1,0 +1,31 @@
+# Generated dialogue
+
+"Hello"
+"Goodbye"
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>
+			1
+		</order>
+			<speaker>Hello
+		</speaker>
+			<text>Hello Hello! Good bye
+		</text>
+		</dialogue>
+		<dialogue>
+			<order>
+			2
+		</order>
+			<speaker>Goodbye
+		</speaker>
+			<text>Goodbye Hello! Good bye
+		</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

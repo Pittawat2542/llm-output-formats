@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "You are chosen to save the kingdom from the wrath of the evil sorcerer.",
+    "id": "AC1234",
+    "objective": "Defeat the evil sorcerer and his army.",
+    "quest_giver": "King Arthur",
+    "reward": "2000 gold coins and The Sword of Excalibur",
+    "tasks": [
+      {
+        "description": "Reach the Dark Forest.",
+        "location": "Dark Forest",
+        "objective": "Navigate through the forest without being caught by the sorcerer's spies.",
+        "order": 1
+      },
+      {
+        "description": "Find and gather the magical herbs.",
+        "location": "Enchanted Meadow",
+        "objective": "Collect all the magical herbs that will be used to strengthen your weapons.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the sorcerer's army.",
+        "location": "Death Valley",
+        "objective": "Overcome and defeat the hordes of the sorcerer's army to reach the sorcerer's castle.",
+        "order": 3
+      },
+      {
+        "description": "Confront and defeat the sorcerer.",
+        "location": "Sorcerer's Castle",
+        "objective": "Use your strength and the power of the magical herbs to defeat the evil sorcerer.",
+        "order": 4
+      }
+    ],
+    "title": "The Battle for the Kingdom"
+  }
+}

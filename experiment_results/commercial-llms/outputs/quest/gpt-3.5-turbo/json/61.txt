@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "id": "q023",
+        "title": "The Lost Artifact",
+        "objective": "Retrieve the legendary artifact",
+        "description": "A valuable artifact has been lost in the treacherous lands of Eldoria. Your task is to find and retrieve it before it falls into the wrong hands. Are you up for the challenge?",
+        "reward": "1000 gold coins",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Gather information",
+            "description": "Speak with the villagers and gather information about the location of the lost artifact.",
+            "location": "Village of Mysthorne"
+        },
+        {
+            "order": "2",
+            "objective": "Navigate the Dark Forest",
+            "description": "Find the hidden entrance to the Dark Forest and navigate through its treacherous paths to reach the ancient ruins where the artifact is rumored to be.",
+            "location": "Dark Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Solve the Puzzle",
+            "description": "Inside the ancient ruins, solve the intricate puzzle to unlock the chamber where the artifact is kept.",
+            "location": "Ancient Ruins"
+        },
+        {
+            "order": "4",
+            "objective": "Retrieve the Artifact",
+            "description": "Locate the artifact and safely retrieve it from its protected shrine.",
+            "location": "Artifact Shrine"
+        }]
+    }
+}
+```

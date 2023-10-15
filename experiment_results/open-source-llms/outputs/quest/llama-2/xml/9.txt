@@ -1,0 +1,124 @@
+
+
+## Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Input
+```markdown
+[INST] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Generate a quest information. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Test
+```markdown
+[INST] <<SYS>>
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+Generate a quest information. Return output in XML format and only the XML in the Markdown code block. XML.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,76 @@
+
+
+# Example
+
+```md
+### Quest Information
+
+[QUEST_INFO]
+
+### Quest Title
+
+[QUEST_TITLE]
+
+### Quest Objective
+
+[QUEST_OBJECTIVE]
+
+### Quest Description
+
+[QUEST_DESCRIPTION]
+
+### Quest Reward
+
+[QUEST_REWARD]
+
+### Quest Giver
+
+[QUEST_GIVER]
+
+### Tasks
+
+[TASK_LIST]
+
+### Task 1
+
+[TASK_1]
+
+### Task 2
+
+[TASK_2]
+
+### Task 3
+
+[TASK_3]
+
+### Task 4
+
+[TASK_4]
+
+### Task 5
+
+[TASK_5]
+
+[/QUEST_INFO]
+```
+
+# Expected Output
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+```

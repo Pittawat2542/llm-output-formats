@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "In the ancient land of Elysium, a powerful artifact known as the Crystal of Light has been stolen from the sacred temple. The balance of the world is at stake and the kingdom is in chaos. You have been chosen as the hero to recover the Crystal of Light and restore peace to Elysium."
+  id: "001"
+  objective: "Retrieve the Crystal of Light and return it to the sacred temple."
+  quest_giver: "The Elder of Elysium"
+  reward: "The power of the Crystal of Light and eternal gratitude of the kingdom"
+  tasks:
+  - description: "Seek advice from the wise Oracle in the Forgotten Forest."
+    location: "Forgotten Forest"
+    objective: "Speak to the Oracle and gain her guidance on how to find the Crystal of Light."
+    order: 1
+  - description: "Travel to the treacherous Dragon's Den and win the trust of the fearsome dragon."
+    location: "Dragon's Den"
+    objective: "Convince the dragon to reveal the location of the Crystal of Light."
+    order: 2
+  - description: "Navigate through the mysterious Labyrinth of Shadows and survive its deadly traps."
+    location: "Labyrinth of Shadows"
+    objective: "Find the hidden chamber that holds the Crystal of Light within the labyrinth."
+    order: 3
+  title: "The Quest for the Crystal of Light"
+```

@@ -1,0 +1,15 @@
+{
+  "Dialogue": "Return an array of YAML objects. Inside each YAML object, a speaker or other dialogue element is required, along with their dialogue text or other information.",
+  "game": {
+    "dialogues": {
+      "speaker1": {
+        "order": "first",
+        "text": "Hello!"
+      },
+      "speaker2": {
+        "order": "second",
+        "text": "Good morning!"
+      }
+    }
+  }
+}

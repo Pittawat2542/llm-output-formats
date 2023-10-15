@@ -1,0 +1,31 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "The Lost Treasure",
+        "objective": "Find the hidden treasure",
+        "description": "Embark on an exciting adventure to uncover the whereabouts of the long-lost treasure of the Pirate King. Solve riddles, overcome challenges, and navigate treacherous terrains to eventually lay your hands on the coveted treasure.",
+        "reward": "A chest full of gold and jewels",
+        "quest_giver": "Captain Redbeard",
+        "tasks": [{
+            "order": "1",
+            "objective": "Solve the first riddle",
+            "description": "Find the old oak tree with a heart-shaped mark carved on it near the waterfall",
+            "location": "Mystic Forest"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the guardian at the cave entrance",
+            "description": "The cave entrance is heavily guarded by a giant stone golem. Use your wit and combat skills to overcome the guardian",
+            "location": "Cavern of Secrets"
+        },
+        {
+            "order": "3",
+            "objective": "Decode the ancient map",
+            "description": "The ancient map holds the key to the location of the hidden treasure. Decipher the cryptic symbols and markings to uncover the next clue",
+            "location": "Dusty Archives"
+        }]
+    }
+}
+```
+```

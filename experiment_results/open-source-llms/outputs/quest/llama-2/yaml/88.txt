@@ -1,0 +1,55 @@
+
+
+### Inputs
+#### Game
+- **game_id**: The ID of the game.
+- **game_title**: The title of the game.
+- **game_description**: The description of the game.
+- **game_objective**: The objective of the game.
+- **game_quest_giver**: The quest giver of the game.
+- **game_reward**: The reward of the game.
+- **game_tasks**: The tasks of the game.
+- **game_tasks_order**: The order of the tasks.
+
+#### Quest
+- **quest_id**: The ID of the quest.
+- **quest_title**: The title of the quest.
+- **quest_description**: The description of the quest.
+- **quest_objective**: The objective of the quest.
+- **quest_giver**: The quest giver of the quest.
+- **quest_reward**: The reward of the quest.
+- **quest_tasks**: The tasks of the quest.
+- **quest_tasks_order**: The order of the tasks.
+
+### Examples
+#### Game
+```yaml
+game:
+  description: "This is a game description."
+  id: 1
+  objective: "This is a game objective."
+  quest_giver: "This is a game quest giver."
+  reward: "This is a game reward."
+  tasks:
+  - description: "This is a task description."
+    location: "This is a task location."
+    objective: "This is a task objective."
+    order: 1
+  title: "This is a game title."
+```
+
+#### Quest
+```yaml
+quest:
+  description: "This is a quest description."
+  id: 1
+  objective: "This is a quest objective."
+  quest_giver: "This is a quest quest giver."
+  reward: "This is a quest reward."
+  tasks:
+  - description: "This is a task description."
+    location: "This is a task location."
+    objective: "This is a task objective."
+    order: 1
+  title: "This is a quest title."
+```

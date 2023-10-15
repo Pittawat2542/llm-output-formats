@@ -1,0 +1,33 @@
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;enemy id="id" name="name" description="description" stats={
+"hp":{"name":"HP", "int":{"value":0}},
+"mp":{"name":"MP", "int":{"value":0}},
+"atk":{"name":"ATK", "int":{"value":0}}},
+"def":{"name":"DEF", "int":{"value":0}},
+"spd":{"name":"SPD", "int":{"value":0}}},
+"hp":{"name":"HP", "hp":{"name":"HP,"int":{"value":0}},
+"mp":{"name":"MP", "mp":{"name":"MP1,"int":{"value":1}}},
+"atk":{"name":"ATK","atk":{"name":"ATK1,"int":{"value":1}}},
+"def":{"name":"DEF","def":{"name":"DEF1","int":{"value":3}}}},
+"spd":{"name":"SPD","spd":{"name":"SPD1","int":{"value":3}}},
+"stats":{
+"hp":{
+"name":"HP",
+"hp":{"int":{"value":0}}
+},
+"mp":{
+"name":"MP",
+"mp":{"int":{"value":0}}
+},
+"atk":{
+"name":"ATK",
+"ata":{"int":{"value":1}}},
+"def":{"name":"DEF",
+"def":{"name":"DEF1","int":{"value":3}}}},
+"spd":{"name":"SPD",
+"spa":{"int":{"value":3}}},
+"hp":{
+"hp":{"name":"HP","hp":{"int":{"value":0}}}}
+}
+
+</code></pre>

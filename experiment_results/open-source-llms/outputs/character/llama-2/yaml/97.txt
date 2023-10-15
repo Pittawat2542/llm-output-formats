@@ -1,0 +1,39 @@
+
+
+# Example
+```yaml
+game:
+  character:
+    age: 18
+    background: "I was born in a small town in the middle of nowhere."
+    first_name: "Kat"
+    id: 123
+    last_name: "Carter"
+    physical_appearance:
+    - eye_color: brown
+      hair_color: black
+      height: 165
+      weight: 50
+    place_of_birth: "Townsville"
+    role: "Leader"
+    species: "Human"
+```
+
+# Solution
+```yaml
+game:
+  character:
+    age: 18
+    background: "I was born in a small town in the middle of nowhere."
+    first_name: "Kat"
+    id: 123
+    last_name: "Carter"
+    physical_appearance:
+    - eye_color: brown
+      hair_color: black
+      height: 165
+      weight: 50
+    place_of_birth: "Townsville"
+    role: "Leader"
+    species: "Human"
+```

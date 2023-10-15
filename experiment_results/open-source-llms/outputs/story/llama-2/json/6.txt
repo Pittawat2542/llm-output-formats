@@ -1,0 +1,84 @@
+
+
+## Input format
+
+### Example
+```json
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Required fields
+- `game.title` - The game title.
+- `game.synopsis` - The game story synopsis.
+- `game.beginning` - The beginning of the game.
+- `game.ending` - The ending of the game.
+
+### Optional fields
+- `game.platform` - The game platform.
+- `game.publisher` - The game publisher.
+- `game.developer` - The game developer.
+- `game.release_date` - The game release date.
+- `game.rating` - The game rating.
+- `game.genre` - The game genre.
+- `game.price` - The game price.
+- `game.duration` - The game duration.
+- `game.players` - The game players.
+- `game.language` - The game language.
+- `game.version` - The game version.
+- `game.region` - The game region.
+- `game.country` - The game country.
+- `game.region_code` - The game region code.
+- `game.subtitle` - The game subtitle.
+- `game.cover_art` - The game cover art.
+- `game.cover_art_url` - The game cover art URL.
+- `game.cover_art_source` - The game cover art source.
+- `game.cover_art_license` - The game cover art license.
+- `game.cover_art_license_url` - The game cover art license URL.
+- `game.cover_art_license_source` - The game cover art license source.
+- `game.cover_art_license_source_url` - The game cover art license source URL.
+- `game.cover_art_license_source_name` - The game cover art license source name.
+- `game.cover_art_license_source_url_name` - The game cover art license source URL name.
+- `game.cover_art_license_source_url_name_url` - The game cover art license source URL name URL.
+- `game.cover_art_license_source_name_url` - The game cover art license source name URL.
+- `game.cover_art_license_source_name_url_url` - The game cover art license source name URL URL.
+- `game.cover_art_license_source_name_url_url_url` - The game cover art license source name URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url` - The game cover art license source name URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url` - The game cover art license source name URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL URL.
+- `game.cover_art_license_source_name_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url_url

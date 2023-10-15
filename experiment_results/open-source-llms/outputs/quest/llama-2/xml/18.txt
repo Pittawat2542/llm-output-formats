@@ -1,0 +1,513 @@
+
+
+## Input format
+
+### Questions
+
+```
+<question>
+	<question-text>question text</question-text>
+	<answer>answer</answer>
+	<author>author</author>
+	<date>date</date>
+</question>
+```
+
+### Quests
+
+```
+<quest>
+	<id>quest id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</quest>
+```
+
+### Locations
+
+```
+<location>
+	<id>location id</id>
+	<name>location name</name>
+	<description>location description</description>
+	<coordinates>location coordinates</coordinates>
+	<image>location image</image>
+</location>
+```
+
+### Characters
+
+```
+<character>
+	<id>character id</id>
+	<name>character name</name>
+	<description>character description</description>
+	<image>character image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</character>
+```
+
+### Items
+
+```
+<item>
+	<id>item id</id>
+	<name>item name</name>
+	<description>item description</description>
+	<image>item image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</item>
+```
+
+### Tasks
+
+```
+<task>
+	<order>task order</order>
+	<objective>task objective</objective>
+	<description>task description</description>
+	<location>task location</location>
+</task>
+```
+
+### Quest givers
+
+```
+<quest-giver>
+	<id>quest giver id</id>
+	<name>quest giver name</name>
+	<description>quest giver description</description>
+	<image>quest giver image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</quest-giver>
+```
+
+### Locations coordinates
+
+```
+<coordinates>
+	<latitude>latitude</latitude>
+	<longitude>longitude</longitude>
+</coordinates>
+```
+
+### Locations images
+
+```
+<image>
+	<id>location image id</id>
+	<name>location image name</name>
+	<description>location image description</description>
+	<image>location image</image>
+</image>
+```
+
+### Characters images
+
+```
+<image>
+	<id>character image id</id>
+	<name>character image name</name>
+	<description>character image description</description>
+	<image>character image</image>
+</image>
+```
+
+### Items images
+
+```
+<image>
+	<id>item image id</id>
+	<name>item image name</name>
+	<description>item image description</description>
+	<image>item image</image>
+</image>
+```
+
+### Quest rewards
+
+```
+<reward>
+	<id>reward id</id>
+	<name>reward name</name>
+	<description>reward description</description>
+</reward>
+```
+
+### Questions
+
+```
+<question>
+	<question-text>question text</question-text>
+	<answer>answer</answer>
+	<author>author</author>
+	<date>date</date>
+</question>
+```
+
+### Quests
+
+```
+<quest>
+	<id>quest id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</quest>
+```
+
+### Locations
+
+```
+<location>
+	<id>location id</id>
+	<name>location name</name>
+	<description>location description</description>
+	<coordinates>location coordinates</coordinates>
+	<image>location image</image>
+</location>
+```
+
+### Characters
+
+```
+<character>
+	<id>character id</id>
+	<name>character name</name>
+	<description>character description</description>
+	<image>character image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</character>
+```
+
+### Items
+
+```
+<item>
+	<id>item id</id>
+	<name>item name</name>
+	<description>item description</description>
+	<image>item image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</item>
+```
+
+### Tasks
+
+```
+<task>
+	<order>task order</order>
+	<objective>task objective</objective>
+	<description>task description</description>
+	<location>task location</location>
+</task>
+```
+
+### Quest givers
+
+```
+<quest-giver>
+	<id>quest giver id</id>
+	<name>quest giver name</name>
+	<description>quest giver description</description>
+	<image>quest giver image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</quest-giver>
+```
+
+### Locations coordinates
+
+```
+<coordinates>
+	<latitude>latitude</latitude>
+	<longitude>longitude</longitude>
+</coordinates>
+```
+
+### Locations images
+
+```
+<image>
+	<id>location image id</id>
+	<name>location image name</name>
+	<description>location image description</description>
+	<image>location image</image>
+</image>
+```
+
+### Characters images
+
+```
+<image>
+	<id>character image id</id>
+	<name>character image name</name>
+	<description>character image description</description>
+	<image>character image</image>
+</image>
+```
+
+### Items images
+
+```
+<image>
+	<id>item image id</id>
+	<name>item image name</name>
+	<description>item image description</description>
+	<image>item image</image>
+</image>
+```
+
+### Quest rewards
+
+```
+<reward>
+	<id>reward id</id>
+	<name>reward name</name>
+	<description>reward description</description>
+</reward>
+```
+
+### Questions
+
+```
+<question>
+	<question-text>question text</question-text>
+	<answer>answer</answer>
+	<author>author</author>
+	<date>date</date>
+</question>
+```
+
+### Quests
+
+```
+<quest>
+	<id>quest id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</quest>
+```
+
+### Locations
+
+```
+<location>
+	<id>location id</id>
+	<name>location name</name>
+	<description>location description</description>
+	<coordinates>location coordinates</coordinates>
+	<image>location image</image>
+</location>
+```
+
+### Characters
+
+```
+<character>
+	<id>character id</id>
+	<name>character name</name>
+	<description>character description</description>
+	<image>character image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</character>
+```
+
+### Items
+
+```
+<item>
+	<id>item id</id>
+	<name>item name</name>
+	<description>item description</description>
+	<image>item image</image>
+	<quests>
+		<quest>
+			<id>quest id</id>
+			<title>quest title</title>
+			<objective>quest objective</objective>
+			<description>quest description</description>
+			<reward>quest reward</reward>
+			<quest-giver>quest giver</quest-giver>
+			<tasks>
+				<task>
+					<order>task order</order>
+					<objective>task objective</objective>
+					<description>task description</description>
+					<location>task location</location>
+				</task>
+			</tasks>
+		</quest>
+	</quests>
+</item>
+```
+
+### Tasks
+
+```
+<task>
+	<order>task order</order>
+	<objective>task objective</objective>
+	<description>task description</description>
+	<location>task location</location>
+</task>
+```
+
+### Quest givers
+
+```
+<quest-giver>
+	<id>quest giver id</id>
+	<name>quest giver name</name>
+	<description>quest giver description</description>
+	<

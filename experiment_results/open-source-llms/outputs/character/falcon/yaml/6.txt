@@ -1,0 +1,22 @@
+# Markdown code block
+```
+character:
+- age: "exact age or description"
+
+---
+
+- game:
+  character:
+    - background: "background story"
+    - first_name: "first name"
+    - id: "id"
+    - last_name: "last name"
+    - physical_appearance:
+      - eye_color: ""
+      - hair_color: ""
+      - height: ""
+      - weight: ""
+    species: "species"
+```
+
+YAML is a configuration/data serialization format used to markdown. You can add YAML to your Markdown documents to format your output with specific types. In addition to game:character, you can also use game:exact_age to generate age in decimal format.

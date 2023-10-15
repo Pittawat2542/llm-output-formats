@@ -1,0 +1,48 @@
+In this example, we have:
+- `<id>id</id>` id of the enemy
+- `<name>name</name>` name of the enemy
+- `<description>description</description>` description of the enemy
+- `<stats>` xml block containing the combat stats
+- `@name` is a Markdown code block that references an enemy in the XML markup
+
+The output will be in an `enemy` element within the `game` element:
+```
+<enemy id="id">
+   <name>name</name>
+   <description>description</description>
+   <stats>
+       <hp>hp int value</hp>
+       <mp>mp int value</mp>
+       <atk>atk int value</atk>
+       <def>def int value</def>
+       <spd>spd int value</spd>
+   </stats>
+</enemy>
+```
+
+```
+<?xml version="1.0"?>
+<game>
+    <entry id="id">
+        <enemy name="enemy">
+            <id>id</id>
+            <name>id</label>
+            <description>id description</description>
+            <stats>
+                <hp>hp int value</hp>
+                <mp>mp int value</mp>
+                <atk>atk int value</atk>
+                <def>def int value</def>
+                <spd>spd int value</spd>
+            </stats>
+        </enemy>
+    </entry>
+</game>
+```
+
+In this example, we have:
+- `<entry>` is a Markdown code block that refers to an enemy in the XML markup
+- `<enemy>` is an `enemy` element within the `game` element
+- `id` is a `name` element in the XML that references the `id` (a string) value in the Markdown code block
+- `'id'`, `'enemy'`, and `'id'` tags are used to denote Markdown and XML respectively
+- `|` separates the various XML elements in the code block using the `&lt;` tags

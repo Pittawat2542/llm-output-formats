@@ -1,0 +1,20 @@
+```
+### code block <<< Markdown >
+# Output format
+```python
+return  {
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+```python
+return JSON.obj({"game":{"dialogues":{"speaker": "speaker name", "text": "dialogue or narration"}}), {"order": (1,1)})
+```
+
+The first code block returns the JSON object in standard Markdown format. The second code block returns the JSON object in Pythonsc syntax, using the dict keys ('dialogues' and '{"order": (1,1) for syntax purposes.

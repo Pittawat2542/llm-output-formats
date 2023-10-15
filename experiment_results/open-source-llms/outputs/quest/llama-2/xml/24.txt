@@ -1,0 +1,98 @@
+
+
+## Input format
+
+### Quest ID
+
+The quest ID is a unique identifier for the quest.
+
+```
+<id>id</id>
+```
+
+### Quest title
+
+The quest title is the name of the quest.
+
+```
+<title>quest title</title>
+```
+
+### Quest objective
+
+The quest objective is the goal of the quest.
+
+```
+<objective>quest objective</objective>
+```
+
+### Quest description
+
+The quest description is the description of the quest.
+
+```
+<description>quest description</description>
+```
+
+### Quest reward
+
+The quest reward is the reward for completing the quest.
+
+```
+<reward>quest reward</reward>
+```
+
+### Quest giver
+
+The quest giver is the person who gives the quest.
+
+```
+<quest-giver>quest giver</quest-giver>
+```
+
+### Tasks
+
+The tasks are the tasks in the quest.
+
+```
+<tasks>
+	<task>
+		<order>task order</order>
+		<objective>task objective</objective>
+		<description>task description</description>
+		<location>task location</location>
+	</task>
+</tasks>
+```
+
+### Task order
+
+The task order is the order in which the task should be completed.
+
+```
+<order>task order</order>
+```
+
+### Task objective
+
+The task objective is the goal of the task.
+
+```
+<objective>task objective</objective>
+```
+
+### Task description
+
+The task description is the description of the task.
+
+```
+<description>task description</description>
+```
+
+### Task location
+
+The task location is the location of the task.
+
+```
+<location>task location</location>
+```

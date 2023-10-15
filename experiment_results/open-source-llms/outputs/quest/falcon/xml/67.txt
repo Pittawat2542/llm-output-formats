@@ -1,0 +1,12 @@
+# Usage
+You (the quest giver) are the only one who can complete my quest. If you complete my quest, you will receive an XML reward.
+```
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	<objective>Complete the quest</objective>
+	<description>I will test your mettle. Good luck!</description>
+	<reward>XML rewards</reward>
+	<quest-giver>Only I can complete it!</quest-giver>
+</game>
+```

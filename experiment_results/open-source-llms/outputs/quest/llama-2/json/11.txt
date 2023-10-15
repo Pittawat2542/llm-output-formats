@@ -1,0 +1,1074 @@
+
+
+## Input format
+
+The input is a Markdown code block with the following format:
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Output format
+
+The output is a JSON string in the following format:
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+```
+
+## Input examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Output examples
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+```
+
+## Output format validation
+
+The output is validated by the following regex:
+
+```regex
+^(?<game>
+    (?<id>\d+)
+    (?<title>[\w\s]+)
+    (?<objective>[\w\s]+)
+    (?<description>[\w\s]+)
+    (?<reward>[\w\s]+)
+    (?<quest_giver>[\w\s]+)
+    (?<tasks>
+        (?<order>[\w\s]+)
+        (?<objective>[\w\s]+)
+        (?<description>[\w\s]+)
+        (?<location>[\w\s]+)
+    )+
+)
+```
+
+## Input format validation
+
+The input is not validated.
+
+## Example
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```
+
+## Examples
+
+```markdown
+[INST] <<SYS>>
+```

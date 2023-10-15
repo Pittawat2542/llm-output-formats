@@ -1,0 +1,27 @@
+To return the output in JSON format only the JSON in the Markdown code block, you can use the following function:
+
+```js
+$(document).ready(function() {
+  var data = $('.markdown-container').find('p').map(function() {
+    return $(this).text().trim();
+  });
+  var jsonInfo = JSON.stringify({
+    game: {
+      id: data[0],
+      title: data[1],
+      objective: data[2],
+      description: data[3],
+      reward: data[4],
+      quest_giver: data[5],
+      tasks: data[6].map(function(obj) {
+        return JSON.stringify({
+          order: obj.order,
+          objective: obj.objective,
+          description: obj.description,
+          location: obj.location
+        });
+      })
+    });
+  alert(jsonInfo);
+});
+```

@@ -1,0 +1,43 @@
+
+
+# Input format
+
+```
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+``` [/INST]
+
+# Example
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+# Sample Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```

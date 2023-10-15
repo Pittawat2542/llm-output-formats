@@ -1,0 +1,698 @@
+
+
+## Inputs
+
+### game
+
+#### game.enemy
+
+| Name | Description | Type | Required | Default |
+| ---- | ----------- | ---- | -------- | ------- |
+| id | Enemy ID | string | yes | - |
+| name | Enemy Name | string | yes | - |
+| stats | Enemy Stats | object | yes | - |
+| stats.atk | Enemy Attack | int | yes | - |
+| stats.def | Enemy Defense | int | yes | - |
+| stats.hp | Enemy HP | int | yes | - |
+| stats.mp | Enemy MP | int | yes | - |
+| stats.spd | Enemy Speed | int | yes | - |
+
+### game.enemy.stats
+
+| Name | Description | Type | Required | Default |
+| ---- | ----------- | ---- | -------- | ------- |
+| atk | Enemy Attack | int | yes | - |
+| def | Enemy Defense | int | yes | - |
+| hp | Enemy HP | int | yes | - |
+| mp | Enemy MP | int | yes | - |
+| spd | Enemy Speed | int | yes | - |
+
+## Examples
+
+### Example 1
+
+```yaml
+game:
+  enemy:
+    id: 1
+    name: 'Bulbasaur'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 2
+
+```yaml
+game:
+  enemy:
+    id: 2
+    name: 'Venusaur'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 3
+
+```yaml
+game:
+  enemy:
+    id: 3
+    name: 'Charizard'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 4
+
+```yaml
+game:
+  enemy:
+    id: 4
+    name: 'Blastoise'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 5
+
+```yaml
+game:
+  enemy:
+    id: 5
+    name: 'Vaporeon'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 6
+
+```yaml
+game:
+  enemy:
+    id: 6
+    name: 'Jolteon'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 7
+
+```yaml
+game:
+  enemy:
+    id: 7
+    name: 'Flareon'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 8
+
+```yaml
+game:
+  enemy:
+    id: 8
+    name: 'Porygon'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 9
+
+```yaml
+game:
+  enemy:
+    id: 9
+    name: 'Aggron'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 10
+
+```yaml
+game:
+  enemy:
+    id: 10
+    name: 'Mega Aggron'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 11
+
+```yaml
+game:
+  enemy:
+    id: 11
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 12
+
+```yaml
+game:
+  enemy:
+    id: 12
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 13
+
+```yaml
+game:
+  enemy:
+    id: 13
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 14
+
+```yaml
+game:
+  enemy:
+    id: 14
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 15
+
+```yaml
+game:
+  enemy:
+    id: 15
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 16
+
+```yaml
+game:
+  enemy:
+    id: 16
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 17
+
+```yaml
+game:
+  enemy:
+    id: 17
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 18
+
+```yaml
+game:
+  enemy:
+    id: 18
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 19
+
+```yaml
+game:
+  enemy:
+    id: 19
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 20
+
+```yaml
+game:
+  enemy:
+    id: 20
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 21
+
+```yaml
+game:
+  enemy:
+    id: 21
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 22
+
+```yaml
+game:
+  enemy:
+    id: 22
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 23
+
+```yaml
+game:
+  enemy:
+    id: 23
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 24
+
+```yaml
+game:
+  enemy:
+    id: 24
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 25
+
+```yaml
+game:
+  enemy:
+    id: 25
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 26
+
+```yaml
+game:
+  enemy:
+    id: 26
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 27
+
+```yaml
+game:
+  enemy:
+    id: 27
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 28
+
+```yaml
+game:
+  enemy:
+    id: 28
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 29
+
+```yaml
+game:
+  enemy:
+    id: 29
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 30
+
+```yaml
+game:
+  enemy:
+    id: 30
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 31
+
+```yaml
+game:
+  enemy:
+    id: 31
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 32
+
+```yaml
+game:
+  enemy:
+    id: 32
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 33
+
+```yaml
+game:
+  enemy:
+    id: 33
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 34
+
+```yaml
+game:
+  enemy:
+    id: 34
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 35
+
+```yaml
+game:
+  enemy:
+    id: 35
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 36
+
+```yaml
+game:
+  enemy:
+    id: 36
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 37
+
+```yaml
+game:
+  enemy:
+    id: 37
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 38
+
+```yaml
+game:
+  enemy:
+    id: 38
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 39
+
+```yaml
+game:
+  enemy:
+    id: 39
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 40
+
+```yaml
+game:
+  enemy:
+    id: 40
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 41
+
+```yaml
+game:
+  enemy:
+    id: 41
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 42
+
+```yaml
+game:
+  enemy:
+    id: 42
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 43
+
+```yaml
+game:
+  enemy:
+    id: 43
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 44
+
+```yaml
+game:
+  enemy:
+    id: 44
+    name: 'Mega Gyarados'
+    stats:
+      atk: 40
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 60
+```
+
+### Example 45
+
+```yaml
+game:
+  enemy:
+    id: 45
+    name

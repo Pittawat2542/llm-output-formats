@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Help the villagers of Greenfield! There have been reports of a dangerous monster lurking in the forest. Your quest is to defeat the monster and bring peace back to the village.",
+    "id": "123ABC",
+    "objective": "Defeat the monster",
+    "quest_giver": "Mayor Johnson",
+    "reward": "1000 gold coins",
+    "tasks": [
+      {
+        "description": "Gather information from the villagers about the monster's whereabouts",
+        "location": "Greenfield Village",
+        "objective": "Speak to 3 villagers",
+        "order": 1
+      },
+      {
+        "description": "Search the forest for tracks and clues to locate the monster",
+        "location": "Greenfield Forest",
+        "objective": "Find 5 sets of tracks",
+        "order": 2
+      },
+      {
+        "description": "Prepare for battle by acquiring weapons and armor",
+        "location": "Blacksmith's Shop",
+        "objective": "Purchase a sword and a shield",
+        "order": 3
+      },
+      {
+        "description": "Confront and defeat the monster",
+        "location": "Monster's Lair",
+        "objective": "Defeat the monster in a battle",
+        "order": 4
+      }
+    ],
+    "title": "The Monster of Greenfield"
+  }
+}

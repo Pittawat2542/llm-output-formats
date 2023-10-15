@@ -1,0 +1,175 @@
+
+
+# Example
+
+## Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>Human</species>
+		<age>21</age>
+		<role>Doctor</role>
+		<background>John was born in London, England. He was raised by his parents. He attended medical school in London. He worked as a doctor in London for 5 years. He moved to New York City in 2012 to work as a doctor. He has been working as a doctor in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>175cm</height>
+				<weight>80kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Mary</first-name>
+		<last-name>Jones</last-name>
+		<species>Human</species>
+		<age>23</age>
+		<role>Nurse</role>
+		<background>Mary was born in London, England. She was raised by her parents. She attended medical school in London. She worked as a nurse in London for 5 years. She moved to New York City in 2012 to work as a nurse. She has been working as a nurse in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>165cm</height>
+				<weight>75kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>Human</species>
+		<age>21</age>
+		<role>Doctor</role>
+		<background>John was born in London, England. He was raised by his parents. He attended medical school in London. He worked as a doctor in London for 5 years. He moved to New York City in 2012 to work as a doctor. He has been working as a doctor in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>175cm</height>
+				<weight>80kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Mary</first-name>
+		<last-name>Jones</last-name>
+		<species>Human</species>
+		<age>23</age>
+		<role>Nurse</role>
+		<background>Mary was born in London, England. She was raised by her parents. She attended medical school in London. She worked as a nurse in London for 5 years. She moved to New York City in 2012 to work as a nurse. She has been working as a nurse in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>165cm</height>
+				<weight>75kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Test
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>Human</species>
+		<age>21</age>
+		<role>Doctor</role>
+		<background>John was born in London, England. He was raised by his parents. He attended medical school in London. He worked as a doctor in London for 5 years. He moved to New York City in 2012 to work as a doctor. He has been working as a doctor in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>175cm</height>
+				<weight>80kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Mary</first-name>
+		<last-name>Jones</last-name>
+		<species>Human</species>
+		<age>23</age>
+		<role>Nurse</role>
+		<background>Mary was born in London, England. She was raised by her parents. She attended medical school in London. She worked as a nurse in London for 5 years. She moved to New York City in 2012 to work as a nurse. She has been working as a nurse in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>165cm</height>
+				<weight>75kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+## Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>Human</species>
+		<age>21</age>
+		<role>Doctor</role>
+		<background>John was born in London, England. He was raised by his parents. He attended medical school in London. He worked as a doctor in London for 5 years. He moved to New York City in 2012 to work as a doctor. He has been working as a doctor in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>175cm</height>
+				<weight>80kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Mary</first-name>
+		<last-name>Jones</last-name>
+		<species>Human</species>
+		<age>23</age>
+		<role>Nurse</role>
+		<background>Mary was born in London, England. She was raised by her parents. She attended medical school in London. She worked as a nurse in London for 5 years. She moved to New York City in 2012 to work as a nurse. She has been working as a nurse in New York City for 5 years.</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>165cm</height>
+				<weight>75kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

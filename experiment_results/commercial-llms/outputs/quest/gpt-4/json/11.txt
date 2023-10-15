@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "id": "Q1234",
+        "title": "The Lost Artifact",
+        "objective": "Find and return the lost artifact",
+        "description": "The lost artifact of Flarris has been missing for years. Rumors have it that it's hidden in the dark caves of Morristowne. It's your task to find it and return it to its rightful place.",
+        "reward": "500 gold, Excalibur sword",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Reach Morristowne",
+            "description": "Travel to Morristowne, it is located to the east of our Kingdom.",
+            "location": "Morristowne"
+        },
+        {
+            "order": "2",
+            "objective": "Enter the dark caves",
+            "description": "Find the entrance to the dark caves, you may need to interact with the locals to find it.",
+            "location": "Dark caves of Morristowne"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the lost artifact",
+            "description": "Explore the caves and find the lost artifact. Be careful, the caves are said to be dangerous.",
+            "location": "Inside dark caves"
+        },
+        {
+            "order": "4",
+            "objective": "Return the artifact",
+            "description": "Once retrieved, return the artifact to me.",
+            "location": "Castle"
+        }]
+    }
+}
+```

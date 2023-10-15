@@ -1,0 +1,24 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "Exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+This is an example that shows a character's id, first name, last name, species, age, role, background, place of birth, physical appearance, and eye and hair color.

@@ -1,0 +1,114 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: Hello. I'm Player. My friends call me Pacman.
+  - order: 2
+    speaker: NPC
+    text: Welcome to our game. Please select an option:
+  - order: 3
+    speaker: Player
+    text: How do I play?
+  - order: 4
+    speaker: NPC
+    text: To play, you must choose an option!
+  - order: 5
+    speaker: Player
+    text: Tell me more.
+  - order: 6
+    speaker: NPC
+    text: You must choose an option!
+  - order: 7
+    speaker: Player
+    text: You are NPC, and you must explain the context to the player.
+  - order: 8
+    speaker: NPC
+    text: I'll explain the context for you.
+  - order: 9
+    speaker: Player
+    text: Why are you telling me the context?
+  - order: 10
+    speaker: NPC
+    text: I'm not sure.
+  - order: 11
+    speaker: Player
+    text: But we do need to understand the context to play the game!
+  - order: 12
+    speaker: NPC
+    text: Maybe you're right...
+  - order: 13
+    speaker: Player
+    text: Haha!
+  - order: 14
+    speaker: Player
+    text: Yes. It is important to understand the context.
+  - order: 15
+    speaker: Player
+    text: Excuse me.
+  - order: 16
+    speaker: NPC
+    text: I'm still here.
+  - order: 17
+    speaker: Player
+    text: I would like to speak with your supervisor please.
+  - order: 18
+    speaker: NPC
+    text: Alrighty, just a sec.
+  - order: 19
+    speaker: Player
+    text: I'll wait.
+  - order: 20
+    speaker: Player
+    text: Oh, hello, it's me again.
+  - order: 21
+    speaker: NPC
+    text: Oh hi Pacman!
+  - order: 22
+    speaker: Player
+    text: Hello, how are you?
+  - order: 23
+    speaker: NPC
+    text: I'm doing pretty well.
+  - order: 24
+    speaker: Player
+    text: What about you?
+  - order: 25
+    speaker: NPC
+    text: I just got done explaining context to Player, and am now available to answer any of your questions.
+  - order: 26
+    speaker: Player
+    text: Is that so?
+  - order: 27
+    speaker: NPC
+    text: Yeah, I was just about to ask if you needed any help.
+  - order: 28
+    speaker: Player
+    text: Sure. Player is looking for the most efficient way to reach the exit by moving between doors without opening doors.
+  - order: 29
+    speaker: NPC
+    text: Alrighty, I just checked in with my supervisor who approved your answer. I’ll connect you to your supervisor directly.
+  - order: 30
+    speaker: Player
+    text: Oh, I wasn't aware you had a supervisor.
+  - order: 31
+    speaker: NPC
+    text: Sure, I can connect you to the supervisor. Just follow the prompts.
+  - order: 32
+    speaker: Player
+    text: Sure, I'll follow whatever prompts you want to give me.
+  - order: 33
+    speaker: Supervisor
+    text: Hello Player, how may I help you today?
+  - order: 34
+    speaker: Player
+    text: I want to help my friend reach the exit in this maze by moving between doors without opening doors.
+  - order: 35
+    speaker: Supervisor
+    text: Oh, that sounds fun, let me tell you about this famous problem and see if you can apply it to the maze.
+  - order: 36
+    speaker: Supervisor
+    text: I think I see what you are trying to do. You are trying to solve the shortest path problem. Let me see if I can explain it to you.
+  - order: 37
+    speaker: Supervisor
+    text: Here's a funny story. An old Chinese man lived by the river. He had a dog, and one day he asked the dog to fetch water for him. The dog had been with the old man for many years, but had never been to the city before, so the dog didn't know how to get to the city. The old man didn't have enough money to give the dog as a gift to a nobleman to train it, but he loved the dog too much to let it die. Then he had an idea! He would teach the dog how to run, and use this as a distraction to get to the city and bring him back a gift to the nobleman in exchange for training the dog. He told the dog that if it ran very fast, the dog could return the next day with a gift at dinner time. The dog loved the old man and was extremely motivated to win this race. The dog quickly learned how to run, got to the

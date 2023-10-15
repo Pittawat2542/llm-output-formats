@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: "Defeat the Dragon King and save the kingdom from destruction"
+  id: "12345"
+  objective: "Retrieve the mystical artifact from the Dragon King's lair"
+  quest_giver: "King Arthur"
+  reward: "The legendary Sword of Excalibur"
+  tasks:
+  - description: "Collect information about the Dragon King's weakness"
+    location: "The Library of Magic"
+    objective: "Research ancient texts and talk to knowledgeable wizards"
+    order: 1
+  - description: "Obtain the Dragon Slayer armor"
+    location: "The Armory of the Knights"
+    objective: "Convince the armor's guardian to lend it to you"
+    order: 2
+  - description: "Navigate the treacherous maze leading to the Dragon King's lair"
+    location: "The Enchanted Forest"
+    objective: "Solve puzzles and avoid deadly traps"
+    order: 3
+  - description: "Engage in a fierce battle with the Dragon King"
+    location: "The Dragon's Lair"
+    objective: "Use the mystical artifact to weaken and defeat the Dragon King"
+    order: 4
+  title: "The Dragon King's Wrath"
+```

@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>
+			<age-in-years>20</age-in-years>
+			<age-in-words>twenty</age-in-words>
+		</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<eye-color>green</eye-color>
+			<hair-color>brown</hair-color>
+			<height>160cm</height>
+			<weight>60kg</weight>
+		</physical-appearance>
+	</character>
+</game>

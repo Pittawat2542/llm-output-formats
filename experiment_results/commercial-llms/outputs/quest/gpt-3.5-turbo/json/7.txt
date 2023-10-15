@@ -1,0 +1,43 @@
+```json
+{
+    "game": {
+        "id": "123456",
+        "title": "The Lost Treasure",
+        "objective": "Find the hidden treasure",
+        "description": "Embark on an epic adventure to find the long-lost treasure of the ancient kingdom. Solve puzzles, battle fierce monsters, and overcome deadly obstacles to reach your goal.",
+        "reward": "1000 gold coins and a legendary weapon",
+        "quest_giver": "Captain Morgan",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the ancient map",
+            "description": "Search the ruins of the old temple to locate the hidden map that leads to the treasure",
+            "location": "Temple of the Forgotten"
+        },
+        {
+            "order": "2",
+            "objective": "Decode the map clues",
+            "description": "Decipher the cryptic clues on the ancient map to unveil the location of the treasure",
+            "location": "Mysterious Library"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the enchanted key",
+            "description": "Face the guardian of the enchanted key and prove your worth to claim it",
+            "location": "Caverns of Mystery"
+        },
+        {
+            "order": "4",
+            "objective": "Navigate the treacherous maze",
+            "description": "Survive the deadly maze by making the right choices and avoiding deadly traps",
+            "location": "Labyrinth of Shadows"
+        },
+        {
+            "order": "5",
+            "objective": "Defeat the ancient dragon",
+            "description": "Confront the mighty dragon guarding the treasure and emerge victorious",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```
+```

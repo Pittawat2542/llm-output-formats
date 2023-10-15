@@ -1,0 +1,57 @@
+- enemy:
+  - description: description of the enemy
+  - id: id of the enemy
+  - name: name of the enemy
+  - stats:
+    - atk: atk of the enemy
+    - def: def of the enemy's weapon in the stats file
+    - hp: hp of the enemy
+    - mp: mp of the enemy's weapon in the stats file
+    - spd: spd of the enemy
+    stats:
+      atk: atk of the enemy weapon in the stats file
+      def: def of the enemy's weapon in the stats file
+      hp: hp of the enemy
+      mp: mp of the enemy's weapon in the stats file
+      spd: spd of the enemy
+ 
+- game:
+  1:
+    - enemy:
+      - description: description of the enemy
+      - id: id of the enemy
+      - name: name of the enemy
+      - stats:
+        - atk: atk of the enemy weapon
+        - def: def of the enemy's weapon in the stats file
+        - hp: hp of the enemy
+        - mp: mp of the enemy's weapon in the stats file
+        - spd: spd of the enemy's weapon in the stats file
+      2:
+      - enemy:
+        - name: name of the enemy
+      - enemy:
+        - id: id of the enemy
+        - name: name of the enemy
+        - stats:
+          - atk: atk of the enemy weapon
+          - def: def of the enemy's weapon in the stats file
+          - hp: hp of the enemy
+          - mp: mp of the enemy's weapon in the stats file
+          - spd: spd of the enemy's weapon in the stats file
+          hp:
+            mp: mp of the enemy's weapon in the stats file
+            spd: spd of the enemy's weapon in the stats file
+
+- game:
+  - game:
+    - id: id of the game object
+    - name: name of the game
+    - stats:
+      - - stats:
+        - atk: atk of enemy
+        - def: def of enemy's weapon in the stats file
+        - spd: spd of enemy's weapon in the stats file
+        hp: hp of the enemy
+        mp: mp of enemy's weapon in the stats file
+         spd: spd of enemy's weapon in the stats file

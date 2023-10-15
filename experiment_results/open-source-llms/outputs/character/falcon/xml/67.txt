@@ -1,0 +1,38 @@
+Explanation:
+
+- `<game>` denotes the root element of the XML.
+- `<character>` denotes the root element of the character information.
+- `<character>` should include only the XML in Markdown, while the content that should be included in a character profile (HTML, or only certain parts of it) should be inside a `div` with class "hidden".
+- Inside `<character>`, there is an optional attribute `first-name` with a default value of `${last-name} ${first-name}`. This should be changed accordingly as needed.
+- There is also an optional attribute `species` with a default value of `unknown`. This should be changed accordingly as needed.
+- `<age>exact age or description` denotes an element that can be changed according to the needs of the character. The code should be placed within a `div` with class "hidden".
+- Similarly, `<species>` and `<last-name>` can also be placed within separate `div`s with classes "hidden".
+- `<place-of-birth>...` should be placed within a `div` with class "hidden".
+- `<physical-appearance>` should be placed within a `div` with class "hidden".
+- Inside `<div>...</div>`, `<div>...</div>`, `<div>...</div>`, etc., the XML for the character profile should be placed as-is or modified as needed. 
+
+For example:
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<gender>specified gender</gender>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<gender>specified gender</gender>
+			<physical-appearance-child>
+				<gender>specified gender</gender>
+				<height>specified height</height>
+			</physical-appearance-child>
+			<weight>specified weight</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+Note: You can include any CSS classes within specific `div` tags by adding `class="` followed by the class name.

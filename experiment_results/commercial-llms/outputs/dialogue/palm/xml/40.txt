@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue order="1">
+			<speaker>Player</speaker>
+			<text>Hello, I'm looking for the nearest town.</text>
+		</dialogue>
+		<dialogue order="2">
+			<speaker>NPC</speaker>
+			<text>The nearest town is about a day's journey from here.</text>
+		</dialogue>
+		<dialogue order="3">
+			<speaker>Player</speaker>
+			<text>Thank you.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

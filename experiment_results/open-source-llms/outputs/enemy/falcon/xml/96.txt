@@ -1,0 +1,125 @@
+```vb.net
+Private Sub GameGUI()
+
+Dim GameListString() As String
+
+Private Sub Enemy_Battle_Status()
+
+Dim xmlDoc As New System.XmlDocument
+
+xmlDoc.LoadXml("<?xml version=\"1.0\"?>
+<game>
+<enemy id=\"enemy_id\">
+<id name=\"enemy_name\" description=\"enemy_description\">
+<hp>enemy_hp</hp>
+<mp>enemy_mp</mp>
+<atkg>enemy_atkg</atkg>
+<def>enemy_def</def>
+<spd>enemy_spd</spd>
+<Stats>
+</Stats>
+</game>
+
+</xmlDoc>")
+
+If xmlDoc.CompileError() Then
+	
+' Error. Handle error.
+
+xDoc = xmlDoc.GetElement("enemy")
+
+Private Sub xDoc.NodeChanged(ByVal target As System.XmlNode)
+
+Dim enemyName As String = xDoc.InnerXml.Substring(0, enemyName.Length - 1)
+
+Private Sub EnemyBattleStatus()
+
+Dim stats As New System.Diagnostics.StringWriter()
+
+stats.AutoFlush = True
+
+Private Sub xDoc.Body().InnerXml.AppendXML(stats.ToArray(), enemyName.Length - 1)
+
+' Append XML that contains enemy info
+
+End Sub
+```
+
+The enemy battle status is defined in the code-block within the `xmlDoc.LoadXml` statement. It loads the XML string and parses it to create an XmlDocument object that you can manipulate to extract the desired information.
+
+To return only the `xmlDoc` variable, wrap the XML file creation code block in an `If` statement that checks for the existence of the `Error` keyword. If an error occurs during the XML document creation, the `xDoc` variable is set to a blank string and the error message is printed.
+
+Here is an example of how to use a different `XmlNode` to read a single XML file, with a single XML section that contains enemy info:
+
+```vb.net
+Private Sub Game_Battle_Status()
+
+Dim GameListString() As String
+
+Private Sub Main_Game_Button_Click(sender As Object, e Is MouseEventArgs) Handles MainButton.Click
+    Dim xmlDoc As New System.XmlDocument()
+
+    xmlDoc.LoadXml("<?xml version=\"1.0\"?>
+    <game>
+        <enemy id=\"enemy_id\">
+            <id name=\"enemy_name\" description=\"enemy_description\">
+                <hp>hp int value</hp>
+                <mp>mp int value</mp>
+                <atk>atk int value</atk>
+                <def>def int value</def>
+                <spd>spd int value</spd>
+
+                <Stats>
+                    <Stats>
+                        <hp>enemy_hp</hp>
+                        <mp>enemy_mp</mp>
+                        <atkg>enemy_atkg</atkg>
+                        <def>enemy_def</def>
+                        <spd>enemy_spd</spd>
+                        <Stats>
+                            <Stats>
+                                <hp>enemy_hp</hp>
+                                <mp>enemy_mp</mp>
+                                <atkg>enemy_atkg</atkg>
+                                <def>enemy_def</def>
+                                <spd>enemy_spd</spd>
+                            </Stats>
+                        </Stats>
+                    </Stats>
+                </Stats>
+            </enemy>
+        </game>
+    </game>
+</xmlDoc>
+
+' Get enemy name from XML
+GameList.Add(CStr(EnemyList.FirstOrDefault(Function(g As XmlNode)
+            If g.Name = xDoc.NodeName AndAlso
+            If Enemies.Contains(CStr(g.Children(1)(".tag"))) Then
+                CStr(EnemyList.FirstOrDefault(Function(e As XmlNode)
+                    If e.Name = CStr(g.Children("enemy")) AndAlso
+                    If Enemies.Contains(CStr(e.Children(1)(".tag")) Then
+                        Enemies.Add(CStr(e.Children("enemy")))
+                    End If
+                End If
+            End If
+        )())))
+
+        If Text.ToCharArray(EnemyList).Length = CStr(CType(g.Element("enemy").Children("name").Children(), xmlNode).Text.Length) Then
+            For Each item In Enemies.Keys
+                If CStr(g.Element("name").Children("enemy").Name) = item Then
+                    Enemies.Add(CStr(g.Element("enemy").Text))
+                End If
+            Next
+
+            If Text.ToCharArray(EnemyList).Length = item + 1 Then
+                Enemies.Add("" + item)
+            else
+                Enemies.Add(item)
+            End If
+            break
+        End If
+    Next
+
+    Private Sub MainButton_Click(sender As Object, e Is MouseEventArgs) Handles MainButton.Click
+        GameListString = xDoc.NodeEval("//enemy").text()

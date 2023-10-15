@@ -1,0 +1,34 @@
+
+
+## Usage
+
+```bash
+$ inst sys
+```
+
+### Example
+
+```bash
+$ inst sys
+
+game:
+  description: The quest description
+  id: 123
+  objective: The quest objective
+  quest_giver: The quest giver
+  reward: The quest reward
+  tasks:
+    - description: The task description
+      location: The task location
+      objective: The task objective
+      order: The task order
+    - description: The task description
+      location: The task location
+      objective: The task objective
+      order: The task order
+    - description: The task description
+      location: The task location
+      objective: The task objective
+      order: The task order
+  title: The quest title
+```

@@ -1,0 +1,12 @@
+```yaml
+output:
+  markdown:
+    type: markdown
+    options:
+      renderer:
+        - render_yaml:
+            - input:
+                file: quest_info.yml
+```
+
+In the Markdown code block, replace `quest_giver`, `reward`, and `tasks` with their own respective placeholder values, and provide a YAML-compatible format for the quest_info.yml file to render into the Markdown.

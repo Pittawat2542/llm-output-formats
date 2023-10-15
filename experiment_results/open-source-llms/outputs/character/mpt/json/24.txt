@@ -1,0 +1,79 @@
+# Character profile
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+
+# Optional:
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }],
+            "stats": [
+                {
+                    "skill": "skill description",
+                    "level": "level that the skill is at"
+                }
+            ]
+        }
+    }
+}
+```
+
+# Optional
+```
+--
+```
+# Continue for three paragraphs
+
+--
+
+## Optional, continued
+
+[
+  /* The example continued here: -- */
+]
+
+## Optional
+
+```
+--
+```
+# Continue for three paragraphs
+
+--
+
+[
+  /* Continued in above paragraph. -- */
+]

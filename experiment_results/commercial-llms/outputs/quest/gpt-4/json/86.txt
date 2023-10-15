@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "748964",
+        "title": "The Cursed Treasure",
+        "objective": "Retrieve the cursed treasure from Dark Forest",
+        "description": "Venture into the dread shadows of Dark Forest, defeat lurking evils & retrieve the cursed treasure.",
+        "reward": "500 gold coins and 'Sword of the Spirit'",
+        "quest_giver": "Old Wizard Elrond",
+        "tasks": [{
+            "order": "1",
+            "objective": "Locate the entrance of Dark Forest",
+            "description": "You must find the entrance of Dark Forest. The clues are placed in the Wizard's study room.",
+            "location": "Wizard's study room"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the Feral Beasts",
+            "description": "Defend yourself against the feral beasts within the forest.",
+            "location": "Deep inside Dark Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Find and retrieve the cursed treasure",
+            "description": "The treasure is hidden within the heart of the forest in a cursed shrine.",
+            "location": "Heart of Dark Forest"
+        }]
+    }
+}
+```

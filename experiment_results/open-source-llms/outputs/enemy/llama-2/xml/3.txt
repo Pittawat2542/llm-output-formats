@@ -1,0 +1,164 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>20</hp>
+			<mp>20</mp>
+			<atk>20</atk>
+			<def>20</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+# Input
+
+## Question
+```text
+What is the enemy's name?
+```
+
+## Answer
+```text
+The enemy's name is: name
+```
+
+## Question
+```text
+What is the enemy's description?
+```
+
+## Answer
+```text
+The enemy's description is: description
+```
+
+## Question
+```text
+What is the enemy's HP?
+```
+
+## Answer
+```text
+The enemy's HP is: 20
+```
+
+## Question
+```text
+What is the enemy's MP?
+```
+
+## Answer
+```text
+The enemy's MP is: 20
+```
+
+## Question
+```text
+What is the enemy's attack?
+```
+
+## Answer
+```text
+The enemy's attack is: 20
+```
+
+## Question
+```text
+What is the enemy's defense?
+```
+
+## Answer
+```text
+The enemy's defense is: 20
+```
+
+## Question
+```text
+What is the enemy's speed?
+```
+
+## Answer
+```text
+The enemy's speed is: 20
+```
+
+# Test
+
+## Test 1
+```text
+What is the enemy's name?
+```
+
+## Answer
+```text
+The enemy's name is: name
+```
+
+## Test 2
+```text
+What is the enemy's description?
+```
+
+## Answer
+```text
+The enemy's description is: description
+```
+
+## Test 3
+```text
+What is the enemy's HP?
+```
+
+## Answer
+```text
+The enemy's HP is: 20
+```
+
+## Test 4
+```text
+What is the enemy's MP?
+```
+
+## Answer
+```text
+The enemy's MP is: 20
+```
+
+## Test 5
+```text
+What is the enemy's attack?
+```
+
+## Answer
+```text
+The enemy's attack is: 20
+```
+
+## Test 6
+```text
+What is the enemy's defense?
+```
+
+## Answer
+```text
+The enemy's defense is: 20
+```
+
+## Test 7
+```text
+What is the enemy's speed?
+```
+
+## Answer
+```text
+The enemy's speed is: 20
+```

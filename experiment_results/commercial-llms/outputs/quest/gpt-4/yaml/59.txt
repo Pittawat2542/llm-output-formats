@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "A legendary dragon has appeared causing chaos and destruction in the kingdom. The king has requested for your help."
+  id: 12345
+  objective: "Defeat the dragon and bring peace back to the kingdom."
+  quest_giver: "King Arthur"
+  reward: "5000 gold coins, a legendary sword, and a title of Dragon Slayer"
+  tasks:
+  - description: "Gather intelligence about the dragon by speaking to the local villagers."
+    location: "Kingdom's village"
+    objective: "Speak to atleast 5 villagers."
+    order: 1
+  - description: "Find and gather the 3 crystals of power which would weaken the dragon, scattered in three different caves."
+    location: "Crystal Caves"
+    objective: "Collect all 3 power crystals."
+    order: 2
+  - description: "Confront and slay the dragon in its lair atop the Dragon Mountain."
+    location: "Dragon Mountain"
+    objective: "Slay the Dragon."
+    order: 3
+  title: "The Dragon Slayer"
+```

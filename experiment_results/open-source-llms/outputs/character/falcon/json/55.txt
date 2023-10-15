@@ -1,0 +1,139 @@
+```
+{
+  game: {
+    character: {
+      id: "id",
+      first_name: "first name",
+      last_name: "last name",
+      species: "species",
+      age: "exact age or description",
+      role: "role of the character",
+      background: "background story",
+      place_of_birth: "location",
+      physical_appearance: [
+        {
+          eye_color: "eye color",
+          hair_color: "hair color",
+          height: "height in float value",
+          weight: "weight in float value"
+        }
+      ]
+    }
+  }
+}
+```
+<p>{
+    "game": {
+      "character": {
+        "id": "id",
+        "first_name": "first name",
+        "last_name": "last name",
+        "species": "species",
+        "age": "exact age or description",
+        "role": "role of the character",
+        "background": "background story",
+        "place_of_birth": "location",
+        "physical_appearance": [
+          {
+            "eye_color": "eye color",
+            "hair_color": "hair color",
+            "height": "height in float value",
+            "weight": "weight in float value"
+          }
+        ]
+      }
+    }
+  }
+
+}
+```
+
+Explanation:
+
+- To retrieve JSON data in Markdown, you can use the `[^`][]` syntax. It will generate a JSON object where `[]` is the key representing an array value. Here's an example:
+
+```
+[
+  {"species": "Species", "age": 24, "exact age": 24, "first name": "John", "last name": "Doe", "incomplete": {}, "age": {"18": 0, "19": 0, "20": 0, "21": 1, "22": 2, "23": 4, "24": 4, "25": 5, "26": 6, "27": 7, "28": 8, "29": 9, "30": 10, "31": 11, "32": 12, "33": 13, "34": 14, "35": 15, "36": 16, "37": 17, "38": 18, "39": 19, "40": 20, "41": 24, "42": 25, "43": 26, "44": 27, "45": 28, "46": 29, "47": 31, "48": 32, "49": 38, "50": 38, "51": 38, "52": 32, "53": 32, "54": 38, "55": 38, "56": 39, "57": 41, "58": 42, "59": 42, "60": 32, "61": 38, "62": 39, "63": 42, "64": 42, "65": 42, "66": 42, "67": 42, "68": 42, "69": 43, "70": 47, "72": 56, "73": 57, "74": 58, "75": 58, "76": 59, "77": 61, "78": 49, "79": 49, "80": 48, "81": 50,
+              "82": 51, "83": 50, "84": 48,
+              "85": 49, "86": 50, "87": 50, "88": 50,
+              "89": 49, "90": 45, "91": 48,
+              "92": 47, "93": 47,
+              "94": 47,
+              "95": 50],
+      "species": "Species",
+      "age": {"18": 0, "19": 0, "20": 0, "21": 1,
+              "22": 2, "23": 4,
+              "24": 4, "25": 5,
+              "26": 6,
+              "27": 7,
+              "28": 8,
+              "29": 9,
+              "30": 10,
+              "31": 11,
+              "32": 12,
+              "33": 13,
+              "34": 14,
+              "35": 15,
+              "36": 16,
+              "37": 17,
+              "38": 18,
+              "39": 19,
+              "40": 20,
+              "41": 21,
+              "42": 24,
+              "43": 26,
+              "44": 27,
+              "45": 28,
+              "46": 29,
+              "47": 31,
+              "48": 32,
+              "49": 38,
+              "50": 38,
+              "51": 38,
+              "52": 32,
+              "53": 32,
+              "54": 32,
+              "55": 32,
+              "56": 38,
+              "57": 38,
+              "58": 39,
+              "59": 39,
+              "60": 39,
+              "61": 39,
+              "62": 39,
+              "63": 39,
+              "64": 39,
+              "65": 39,
+              "66": 39,
+              "67": 47,
+              "68": 47,
+              "69": 37,
+              "70": 48,
+              "71": 51,
+              "72": 58,
+              "73": 47,
+              "74": 58,
+              "75": 58,
+              "76": 59,
+              "77": 50,
+              "78": 49,
+              "79": 49,
+              "80": 44,
+              "81": 48,
+              "82": 50,
+              "83": 50,
+              "84": 50,
+              "85": 50,
+              "86": 50,
+              "87": 50,
+              "88": 50,
+              "89": 50,
+              "90": 50,
+              "91": 50,
+              "92": 50,
+              "93": 51,
+              "94": 50]
+
+}
+```

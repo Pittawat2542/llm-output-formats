@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Find the Lost Treasure",
+    "objective": "Retrieve the lost treasure hidden in a secret cave",
+    "description": "Many years ago, a famous pirate named Captain Jack buried his treasure in a secret cave on a remote island. The map to this treasure has been lost, and now it's up to you to find it. Explore the island, solve puzzles, and uncover clues to lead you to the hidden cave where the treasure awaits.",
+    "reward": "500 gold coins",
+    "quest_giver": "Old Man Jenkins",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the first clue",
+        "description": "Speak to the tavern owner and ask about the lost treasure",
+        "location": "Tavern in the village"
+      },
+      {
+        "order": "2",
+        "objective": "Decode the riddle",
+        "description": "Decipher the riddle on the back of the ancient map",
+        "location": "Ancient Library"
+      },
+      {
+        "order": "3",
+        "objective": "Navigate through the secret cave",
+        "description": "Squeeze through narrow passages and avoid traps to reach the treasure chamber",
+        "location": "Secret Cave"
+      },
+      {
+        "order": "4",
+        "objective": "Defeat the guardian",
+        "description": "Fight the guardian of the treasure and retrieve it",
+        "location": "Treasure Chamber"
+      }
+    ]
+  }
+}

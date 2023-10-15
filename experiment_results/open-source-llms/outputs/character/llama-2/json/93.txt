@@ -1,0 +1,363 @@
+
+
+### Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Input
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Input format
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+### Input example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Test case example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Input format example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output format example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output format example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Output example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Test cases
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "41",
+            "role": "Pilot",
+            "background": "John Smith was born on the planet Earth, but moved to the planet Mars at the age of 15. He grew up in the city of Mars City, and was a part of the Mars City football team. John is a good pilot, but he is a bit of a troublemaker. He is always getting in trouble, and he is always trying to get out of it. John is a bit of a troublemaker, but he is a good pilot.",
+            "place_of_birth": "Mars City, Mars",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "brown",
+                "height": "180 cm",
+                "weight": "75 kg"
+            }]
+        }
+    }
+}
+```
+
+### Test case example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "123",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age

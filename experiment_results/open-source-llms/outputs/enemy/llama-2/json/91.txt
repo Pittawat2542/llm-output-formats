@@ -1,0 +1,93 @@
+
+
+## Inputs
+
+### `id`
+
+#### Type
+
+`string`
+
+#### Description
+
+The ID of the enemy.
+
+### `name`
+
+#### Type
+
+`string`
+
+#### Description
+
+The name of the enemy.
+
+### `description`
+
+#### Type
+
+`string`
+
+#### Description
+
+The description of the enemy.
+
+### `stats`
+
+#### Type
+
+`object`
+
+#### Description
+
+The stats of the enemy.
+
+### `stats.hp`
+
+#### Type
+
+`int`
+
+#### Description
+
+The health of the enemy.
+
+### `stats.mp`
+
+#### Type
+
+`int`
+
+#### Description
+
+The mana of the enemy.
+
+### `stats.atk`
+
+#### Type
+
+`int`
+
+#### Description
+
+The attack of the enemy.
+
+### `stats.def`
+
+#### Type
+
+`int`
+
+#### Description
+
+The defense of the enemy.
+
+### `stats.spd`
+
+#### Type
+
+`int`
+
+#### Description
+
+The speed of the enemy.

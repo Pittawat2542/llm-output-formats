@@ -1,0 +1,39 @@
+XML.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns="http://www.w3.org/2000/xmlns/w3.org/2000/xmlns:game"
+xmlns:w3="http://www.w3.org/2000/xmlns:w3" xmlns:w3c="http://www.w3.org/2000/xmlns:w3c">
+
+	<game_title>game title</game_title>
+
+	<synopsis>
+		<w3c:text xmlns:w3="http://www.w3.org/2000/xmlns:w3"
+xmlns:w3c="http://www.w3.org/2000/xmlns:w3c"
+xmlns:game="http://www.w3.org/2000/xmlns:w3c/game">
+		<w3c:text xmlns:w3="http://www.w3.org/2000/xmlns:w3"
+xmlns:w3c="http://www.w3.org/2000/xmlns:w3c"
+xmlns:xml="nl:Quartet">
+			<w3c:text xmlns="http://www.w3.org/2002/w3c-xml2">
+				<w3c:text data-dont-bind="not-a-string"><?xml version="1.0"?></w3c:text>
+				<strong>Ending:</strong><?xml version="1.0"?>
+					<w3c:text data-game-info="I am the game's creator and I will take care of any
+issues you may have!"?xml version="1.0"&gt;&lt;/w3c:text&gt;
+					<w3c:text xmlns="game" data-dont-bind="not-a-string">
+							 &lt;w3c:text data-game-info="The beginning of the game has happened!"?xml version="1.0"&gt;The beginning of the game has happened!&lt;/w3c:text&gt;
+					&lt;/w3c:text&gt;							
+					<w3c:text data-dont-bind="not-a-string"&gt;
+						&lt;?xml data-f="I'll take care of any broken objects and
+unhappy users." data-f-version="1.0"?&gt;
+						&lt;w3c:text data-game-info="I am the game's creator and I will take care of any issues you may have!"
+data-g-version="1.0"?&gt;&lt;/w3c:text&gt;							
+					&lt;/w3c:text&gt;
+				&lt;/g:text xmlns:g="text:w3"&gt;&lt;/g:text&gt;
+				&lt;!-- XML here for end of game--&gt;
+				&lt;w3c:text xmlns="http://www.w3.org/2000/xmlns:w3c/game"&gt;&lt;!-- Begin Game Code Block --&gt;&lt;/w3c:text&gt;
+		&lt;/w3c:text&gt;</w3c:text&gt;
+	&lt;!-- End Game Code Block --&gt;</w3c:text&gt;
+</xml>
+```
+
+To generate the XML, you can use a text editor or a code editor like Visual Studio Code. Some text editors even have built-in XML syntax highlighting, which makes it easier to edit and view the code. To convert the code block to XML format in XML.NET, you can use the `w3c:text` element without its `data` attribute.

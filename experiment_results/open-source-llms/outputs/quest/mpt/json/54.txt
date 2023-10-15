@@ -1,0 +1,26 @@
+Here is an example of the quest information:
+
+```json
+{
+    "game": {
+        "id": "quest ID here",
+        "title": "quest title here",
+        "objective": "quest objective here",
+        "description": "quest description here",
+        "reward": "quest reward here",
+        "quest_giver": "quest giver here",
+        "tasks": [{
+            "order": "task order here",
+            "objective": "task objective here",
+            "description": "task description here",
+            "location": "task location here"
+        }]
+    }
+}
+```
+
+Your quest information has the following JSON format:
+- A JSON object with key "game."
+- A JSON object inside the "game." object with the keys "id", "title", "objective", "description", "reward", "quest_giver", and tasks."
+- An array whose elements are JSON objects with the previous keys except for "id", which is a string.
+- JSON objects inside the "tasks." array that have the keys "order", "objective", "description", and "location."

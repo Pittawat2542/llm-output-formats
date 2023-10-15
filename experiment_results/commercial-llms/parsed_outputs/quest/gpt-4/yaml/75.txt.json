@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Help the quirky inventor complete his life's work.",
+    "id": "5FDD3A71F8C",
+    "objective": "Assist inventor Qwerty to gather the materials and tools he needs to build his invention.",
+    "quest_giver": "Qwerty, the quirky inventor",
+    "reward": "The Golden Wrench: unique item, levels up crafting skill instantly",
+    "tasks": [
+      {
+        "description": "Gather 10 Ether Ore from the Crystal Mines",
+        "location": "Crystal Mines",
+        "objective": "Collect 10 Ether Ore",
+        "order": 1
+      },
+      {
+        "description": "Acquire the Rare Hyper Spanner from Grog, the tool dealer in Triton market",
+        "location": "Triton market",
+        "objective": "Negotiate or purchase Hyper Spanner from Grog",
+        "order": 2
+      },
+      {
+        "description": "Deliver the materials to Qwerty in his workshop",
+        "location": "Qwerty's Workshop",
+        "objective": "Help Qwerty build the invention",
+        "order": 3
+      }
+    ],
+    "title": "Qwerty's Magnum Opus"
+  }
+}

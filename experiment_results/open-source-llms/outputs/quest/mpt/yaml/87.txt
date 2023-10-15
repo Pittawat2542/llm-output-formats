@@ -1,0 +1,16 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+The Markdown code block's YAML output will be surrounded with the specified tags to create a Markdown code block. If no tags are specified, the output is not in a Markdown code block.

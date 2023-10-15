@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the dungeon",
+    "description": "An ancient artifact has been stolen by evil forces and hidden deep within the dungeon. Your task is to infiltrate the dungeon, defeat the opponents and retrieve the artifact.",
+    "reward": "5000 gold and a magical sword",
+    "quest_giver": "High Priestess Althea",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Enter the dungeon",
+        "description": "Navigate through the dark corners and mystical dungeons",
+        "location": "Mystic Dungeon"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the guards",
+        "description": "Overcome the dungeon guards protecting the artifact",
+        "location": "Guard's chamber"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact",
+        "description": "Locate and retrieve the lost artifact from the altar",
+        "location": "Altar Room"
+      }
+    ]
+  }
+}

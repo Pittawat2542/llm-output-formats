@@ -1,0 +1,569 @@
+
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Quest data
+| Name | Type | Description | Required |
+| - | - | - | - |
+| game | object | Quest description | yes |
+| id | int | Quest id | no |
+| objective | string | Quest objective | yes |
+| quest_giver | object | Quest giver | yes |
+| reward | object | Quest reward | yes |
+| tasks | array | Tasks | yes |
+| tasks.description | string | Task description | yes |
+| tasks.location | string | Task location | yes |
+| tasks.objective | string | Task objective | yes |
+| tasks.order | int | Task order | yes |
+| title | string | Quest title | yes |
+
+### Quest data structure
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 2
+  title: "Quest title"
+```
+
+### Example
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task

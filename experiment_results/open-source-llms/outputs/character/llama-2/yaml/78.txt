@@ -1,0 +1,445 @@
+
+
+## Example
+
+```yaml
+game:
+  character:
+    age: 25
+    background: Adopted
+    first_name: John
+    id: 1234567890
+    last_name: Smith
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 180
+      weight: 180
+    place_of_birth: Earth
+    role: Hero
+    species: Human
+```
+
+## Explanation
+
+This is a simple example of a YAML file. The structure is as follows:
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+## Source
+
+### Created by
+
+- @SyamSarwar
+
+### Contributed to by
+
+- @SyamSarwar
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @MohamedMohamed
+- @M

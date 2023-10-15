@@ -1,0 +1,39 @@
+Sure, here is a sample dialogue in XML format:
+
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="1">
+            <speaker>Player</speaker>
+            <text>Hello, world!</text>
+        </dialogue>
+        <dialogue order="2">
+            <speaker>NPC</speaker>
+            <text>Greetings! What brings you to my humble abode?</text>
+        </dialogue>
+        <dialogue order="3">
+            <speaker>Player</speaker>
+            <text>I'm looking for a quest.</text>
+        </dialogue>
+        <dialogue order="4">
+            <speaker>NPC</speaker>
+            <text>You've come to the right place. I have a quest for you, but it's not for the faint of heart.</text>
+        </dialogue>
+        <dialogue order="5">
+            <speaker>Player</speaker>
+            <text>I'm up for the challenge.</text>
+        </dialogue>
+        <dialogue order="6">
+            <speaker>NPC</speaker>
+            <text>Very well. You must go to the top of the mountain and retrieve the magic sword that is hidden there.</text>
+        </dialogue>
+        <dialogue order="7">
+            <speaker>Player</speaker>
+            <text>I can do that.</text>
+        </dialogue>
+        <dialogue order="8">
+            <speaker>NPC</speaker>
+            <text>Good luck.</text>
+        </dialogue>
+    </dialogues>
+</game>

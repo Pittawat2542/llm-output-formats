@@ -1,0 +1,45 @@
+Example Markdown code block:
+```
+## Game Settings
+
+[Enemy Battle] - Attack on Planet Alpha
+## Enemies:
+## - Enemies Alpha "Enemy 1"
+## - Enemies Alpha "Enemy 2"
+```
+
+```
+<b>Enemy status:</b>
+<pre><code>- Enemies:
+  - Enemies Alpha "Enemy 1"
+  - Enemies Alpha "Enemy 2"
+  - Enemies Alpha "Enemy 1"
+
+Enemy 1:
+  - hp: 100 (HP)
+  - mp: 30 (MP)
+  - atk: 1 (Atk)
+  - def: 2.5
+  - spd: 0.5
+
+Enemy 2:
+  - hp: 120 (HP)
+  - mp: 40 (MP)
+  - atk: 2 (Atk)
+  - def: 2 (Def)
+  - spd: 2 (Spd)
+
+Enemy 3:
+  - hp: 80 (HP)
+  - mp: 40 (MP)
+  - atk: 1 (Atk)
+  - def: 2 (Def)
+  - spd: 1 (Spd)
+
+Enemy 2:
+  - hp: 90 (HP)
+  - mp: 35 (MP)
+  - atk: 1 (Atk)
+  - def: 3 (Def)
+  - spd: 1 (Spd)
+</code></pre>

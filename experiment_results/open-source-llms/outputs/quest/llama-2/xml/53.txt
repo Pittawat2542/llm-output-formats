@@ -1,0 +1,399 @@
+
+
+# Input format
+
+<</SYS>>
+
+# Examples
+
+## Example 1
+
+```xml
+<game>
+	<id>1</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 2
+
+```xml
+<game>
+	<id>2</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 3
+
+```xml
+<game>
+	<id>3</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 4
+
+```xml
+<game>
+	<id>4</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 5
+
+```xml
+<game>
+	<id>5</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 6
+
+```xml
+<game>
+	<id>6</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 7
+
+```xml
+<game>
+	<id>7</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 8
+
+```xml
+<game>
+	<id>8</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 9
+
+```xml
+<game>
+	<id>9</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 10
+
+```xml
+<game>
+	<id>10</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 11
+
+```xml
+<game>
+	<id>11</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 12
+
+```xml
+<game>
+	<id>12</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 13
+
+```xml
+<game>
+	<id>13</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 14
+
+```xml
+<game>
+	<id>14</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Example 15
+
+```xml
+<game>
+	<id>15</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>

@@ -1,0 +1,125 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Hints
+- [Character Creation](https://starwars.fandom.com/wiki/Character_Creation)
+- [Character Creation - Wookieepedia](https://starwars.fandom.com/wiki/Character_Creation/Wookieepedia)
+- [Character Creation - Wookieepedia](https://starwars.fandom.com/wiki/Character_Creation/Wookieepedia)
+
+# Submitting Incomplete Solutions
+It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+
+# Test Driven Development
+
+## Test Cases
+
+```py
+# Tests for the solution to the problem.
+def test_first_name():
+    """
+    Tests that the first name is returned.
+    """
+    first_name = "first name"
+    assert first_name == "first name"
+
+def test_last_name():
+    """
+    Tests that the last name is returned.
+    """
+    last_name = "last name"
+    assert last_name == "last name"
+
+def test_species():
+    """
+    Tests that the species is returned.
+    """
+    species = "species"
+    assert species == "species"
+
+def test_age():
+    """
+    Tests that the age is returned.
+    """
+    age = 20
+    assert age == 20
+
+def test_role():
+    """
+    Tests that the role is returned.
+    """
+    role = "role"
+    assert role == "role"
+
+def test_background():
+    """
+    Tests that the background is returned.
+    """
+    background = "background"
+    assert background == "background"
+
+def test_place_of_birth():
+    """
+    Tests that the place of birth is returned.
+    """
+    place_of_birth = "place of birth"
+    assert place_of_birth == "place of birth"
+
+def test_physical_appearance_eye_color():
+    """
+    Tests that the eye color is returned.
+    """
+    eye_color = "eye color"
+    assert eye_color == "eye color"
+
+def test_physical_appearance_hair_color():
+    """
+    Tests that the hair color is returned.
+    """
+    hair_color = "hair color"
+    assert hair_color == "hair color"
+
+def test_physical_appearance_height():
+    """
+    Tests that the height is returned.
+    """
+    height = 1.78
+    assert height == 1.78
+
+def test_physical_appearance_weight():
+    """
+    Tests that the weight is returned.
+    """
+    weight = 75.0
+    assert weight == 75.0
+```
+
+## Heroku Deployment
+https://heroku.com/deploy?template=https://github.com/kamalsharma2001/character-creation-exercise
+
+# About
+
+You can see my other projects on [Github](https://github.com/kamalsharma2001).

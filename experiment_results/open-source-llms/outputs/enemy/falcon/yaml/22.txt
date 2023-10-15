@@ -1,0 +1,18 @@
+# Game Rules
+1. Enemies start in a position based on spawn locations.
+2. Enemies may each take their turn before the player after the player takes his.
+3. Each round, the player can only see one enemy at a time.
+4. When hit, each enemy takes damage equal to their current HP value.
+```yaml
+battle:
+  game: 1
+  each_round:
+    enemy: 1
+    each_round_time: 15
+    game__rules:
+      :
+        game_rule_2:
+        game_rule_3:
+        game_rule_4:
+  - rules = {"game-keywords":{"name":"spawns", "each_round":{"game__rules":{"rules":[]}}}}
+```

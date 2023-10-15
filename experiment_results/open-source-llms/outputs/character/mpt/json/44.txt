@@ -1,0 +1,45 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "chris",
+            "first_name": "Chris",
+            "last_name": "McKinnon",
+            "species": "Human",
+            "age": "45",
+            "role": "Player",
+            "background": "Lives in London, is an avid gamer and has a young son named Mark who is 10. Worked at a large software company for most of his career and is currently self-employed as a consultant. His son Mark is his life and he could not be more proud of him.",
+            "place_of_birth": "United Kingdom",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6.2",
+                "weight": "78"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "Mark",
+            "first_name": "Mark",
+            "last_name": "McKinnon",
+            "species": "Human",
+            "age": "10",
+            "role": "player",
+            "background": "Lives with dad Chris and likes to play video games in his spare time.",
+            "place_of_birth": "London",
+            "physical_appearance": [{
+                "eye_color": "blue",
+                "hair_color": "brown",
+                "height": "5.7",
+                "weight": "65"
+            }]
+        }
+    }
+}
+```

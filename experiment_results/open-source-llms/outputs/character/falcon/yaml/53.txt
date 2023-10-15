@@ -1,0 +1,9 @@
+```yaml
+character:
+  alias: alias of the character
+  description: Description
+
+## Only the YAML in the character object goes here. Any additional YAML is not necessary.
+```
+
+In the Markdown code block, we only define the YAML format and the character object. Any additional YAML in the character object will not be necessary as it is only used to define the attributes of the character.

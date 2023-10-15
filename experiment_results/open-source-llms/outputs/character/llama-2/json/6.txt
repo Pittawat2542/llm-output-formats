@@ -1,0 +1,131 @@
+
+
+## Input format
+
+### Character
+
+| Field name | Type | Required | Description |
+| --- | --- | --- | --- |
+| game | string | yes | The name of the game. |
+| character | string | yes | The name of the character. |
+| first_name | string | yes | The first name of the character. |
+| last_name | string | yes | The last name of the character. |
+| species | string | yes | The species of the character. |
+| age | string | no | The age of the character. |
+| role | string | no | The role of the character. |
+| background | string | no | The background story of the character. |
+| place_of_birth | string | no | The location of the character. |
+| physically_appearance | array | no | The physical appearance of the character. |
+| eye_color | string | no | The eye color of the character. |
+| hair_color | string | no | The hair color of the character. |
+| height | float | no | The height of the character. |
+| weight | float | no | The weight of the character. |
+
+### Physical appearance
+
+| Field name | Type | Required | Description |
+| --- | --- | --- | --- |
+| eye_color | string | no | The eye color of the character. |
+| hair_color | string | no | The hair color of the character. |
+| height | float | no | The height of the character. |
+| weight | float | no | The weight of the character. |
+
+### Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+### Expected output
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+### Example response
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```

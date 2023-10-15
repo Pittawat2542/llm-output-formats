@@ -1,0 +1,28 @@
+```yaml
+character:
+  game:
+    character:
+      name: name
+      age: age (years)
+      background: bio
+      first_name: first name
+      id: id
+      last_name: last name
+      physical_appearance:
+        - eye_color: eye color
+        - hair_color: hair color
+        - height: height in float value
+        - weight: weight in float value
+    powers:
+      powers:
+        powers.power1: power 1
+      other_powers: other powers
+```
+
+<strong>Output:</strong>
+```yaml
+character: game:
+  name: John
+  age: 30
+  background: Born and raised in a small town, John has a strong sense of home and family. He was trained in a local dojo to become an expert in swordsmanship. His physical appearance is that of a rugged and seasoned warrior. He has a kind heart and a love of children. His home and hobbies are fishing and crafting.
+```

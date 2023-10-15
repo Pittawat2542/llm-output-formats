@@ -1,0 +1,9 @@
+Explanation:
+
+- The XML code is enclosed in angle brackets and indented correctly so that it can be read by a valid XML parser.
+- The `id` element represents the character's unique identifier.
+- Any element inside the `character` element is a character property, such as `first-name`, `last-name`, `species`, and `age`.
+- Optional attributes can be added to the `character` element, after their corresponding properties. These include `name`, `birthday`, `full-name`, `place-of-birth`, `physical-appearance`, `species`, `gender`, and `race`.
+- The `id` and other mandatory attributes are case-insensitive, so use the same casing for the attribute name as the matching element name.
+- The `id` element also encapsulates the properties of that specific character with the same naming convention.
+- Attribute values are indented and properly quoted, which is important to maintain the formatting of your XML code.

@@ -1,0 +1,21 @@
+```
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks":
+```
+```
+{
+  "order": "task order",
+  "objective": "task objective",
+  "description": "task description",
+  "location": "task location"
+}
+```
+
+The quest's ID, title, objective, description, reward, quest giver, and tasks are all included in the JSON code block. The output is a valid JSON file that can be consumed and parsed by most programming languages.

@@ -1,0 +1,458 @@
+
+
+### Input format
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+### Examples
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+### Errors
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+``` [/INST]
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>

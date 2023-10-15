@@ -1,0 +1,128 @@
+## The following is an example JSON file content.
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "Character ID",
+            "first_name": "Character Name",
+            "last_name": "Character Last Name",
+            "species": "Species",
+            "age": "Character Age",
+            "role": "Character Role",
+            "background": "Character Background Story",
+            "place_of_birth": "Character Place of Birth",
+            "physical_appearance": [{
+                "eye_color": "Character Eye Color",
+                "hair_color": "Character Hair Color",
+                "height": "Character Height",
+                "weight": "Character Weight"
+            }]
+        }
+    }
+}
+```
+
+Output in JSON format:
+
+{{<json>}}
+{
+    "game": {
+        "character": {
+            "id": "Character ID",
+            "first_name": "Character Name",
+            "last_name": "Character Last Name",
+            "species": "Species",
+            "age": "Character Age",
+            "role": "Character Role",
+            "background": "Character Background Story",
+            "place_of_birth": "Character Place of Birth",
+            "physical_appearance": [
+                {
+                    "eye_color": "Character Eye Color",
+                    "hair_color": "Character Hair Color",
+                    "height": "height in float value",
+                    "weight": "weight in float value"
+                }
+            ]
+        }
+    }
+}
+```
+
+Output in the Markdown code block:
+
+```md
+## Output format
+```
+
+The following is a Markdown code block that can generate a character profile. The syntax used to generate JSON in the example above can be used to generate JSON in the Markdown code block. The key to parse the JSON and generate JSON format in the Markdown code block is `json`.
+
+In the Markdown code block, we are parsing the JSON and using double curly braces (`{}`) to output the JSON array.
+
+```md
+# Output format
+
+Example JSON file content
+{"game":{"character":{"id":{"first_name":{"last_name":{"species":"Species",
+                             age:"exact age or description",
+                             role:"role of the character",
+                             place_of_birth:"location"},
+                             height:"height in float value",
+                             weight:"weight in float value"}}.}}
+
+# Output format
+
+Output in JSON format
+{
+    "game": {
+        "character": {
+            "id": "character_id",
+            "first_name": "character_name",
+            "last_name": "character_last_name",
+            "species": "Species",
+            "age": "Character Age",
+            "role": "Character Role",
+            "place_of_birth": "Character Place of Birth",
+            "physical_appearance": [
+                {"eye_color": "character.eye_color",
+                            "hair_color": "character.hair_color",
+                            "height": "character.height",
+                            "weight": "character.weight"}
+            ]
+        }
+    }
+}
+
+
+Example JSON file content
+{"game":{"character":{"id":{"first_name":{"last_name":{"species":"Species",
+         age:"exact age or description",
+         role:"role of the character",
+         place_of_birth:"location"},
+         height:"height in float value",
+         weight:"weight in float value"}}.}}
+
+# Output format
+
+Output in JSON format
+{
+  "game": {
+    "character": {
+      "id": "character_id",
+      "first_name": "character_name",
+      "last_name": "character_last_name",
+      "species": "Species",
+      "age": "Character Age",
+      "role": "Character Role",
+      "place_of_birth": "Character Place of Birth",
+      "physical_appearance": [
+        {"eye_color": "character.eye_color",
+          "hair_color": "character.hair_color",
+          "height": "character.height",
+          "width": "charactername.width"}
+      ]
+    }
+  }
+}
+```

@@ -1,0 +1,22 @@
+[dialogues]
+
+```xml
+<dialogues>
+	<dialogue>
+		<!-- text here -->
+	</dialogue>
+</dialogues>
+```
+Output:
+```xml
+<?xml version="1.0"?>
+<game>
+<dialouge>
+	<dialoguis>
+		<order>dialogue order</order>
+		<speaker>speaker name</speaker>
+		<text>dialogue or narration</text>
+	</dialoguiss>
+</dialouge>
+</game>
+```

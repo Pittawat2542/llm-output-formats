@@ -1,0 +1,60 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy 1</name>
+		<description>Description 1</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Enemy 2</name>
+		<description>Description 2</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+# Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy 1</name>
+		<description>Description 1</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+# Usage
+```bash
+$ python3 example.py
+```
+
+# Author
+
+[@Ryuu_](https://github.com/Ryuu_)

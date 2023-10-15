@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "Embark on a dangerous journey to retrieve the ancient artifact of power.",
+    "id": "001",
+    "objective": "Find the hidden cave and retrieve the artifact",
+    "quest_giver": "Elder Virelia",
+    "reward": "The artifact of power",
+    "tasks": [
+      {
+        "description": "Collect 5 mystical crystals",
+        "location": "Crystal Forest",
+        "objective": "Find and gather the crystals",
+        "order": 1
+      },
+      {
+        "description": "Defeat the guardian of the cave",
+        "location": "Ancient Cave",
+        "objective": "Defeat the powerful guardian to retrieve the artifact",
+        "order": 2
+      }
+    ],
+    "title": "The Quest for the Artifact of Power"
+  }
+}

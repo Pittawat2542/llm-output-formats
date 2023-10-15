@@ -1,0 +1,25 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: Hey, can you help me with something?
+  - order: 2
+    speaker: NPC
+    text: Sure, what do you need help with?
+  - order: 3
+    speaker: Player
+    text: I'm looking for a lost treasure in this forest.
+  - order: 4
+    speaker: NPC
+    text: Oh, I've heard rumors about that treasure. It's said to be hidden deep within a cave.
+  - order: 5
+    speaker: Player
+    text: Do you know where the cave is?
+  - order: 6
+    speaker: NPC
+    text: Yes, it's located at the base of the tallest mountain in the forest.
+  - order: 7
+    speaker: Player
+    text: Thank you! I'll go check it out right away.
+```

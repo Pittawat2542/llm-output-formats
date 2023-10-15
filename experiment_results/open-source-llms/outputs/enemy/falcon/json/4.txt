@@ -1,0 +1,1 @@
+This example output will contain a key-value pair for each enemy in the game, with the "game" key being the parent key of the current enemy and all keys representing stat blocks. The "enemy" key is a string in the markdown that represents the name of the enemy. The values are parsed JSON that can be added to stat blocks to generate information about the enemy.

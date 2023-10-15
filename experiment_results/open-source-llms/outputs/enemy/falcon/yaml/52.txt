@@ -1,0 +1,20 @@
+In this example, we have two enemies with unique names, stats, and descriptions. YAML is used to present data in a structured and semi-formatted way, while Markdown is used to display text without formatting. YAML is used to represent complex data structures in a human-readable format. To use YAML, each key contains one or more child keys, which are marked by a YAML tag. In this case, we use "description", "id", "name", "stats", "hp", "hp", "mp", and "spd" to represent the contents of the enemy. The "enemy" key is the top-level key and represents all the listed enemy objects, along with their individual properties.
+```
+# Example of the generated output by running this Markdown in a YAML formater
+- Output format:
+```
+# Output of the enemy battle
+
+---
+game:
+  enemy:
+    - name: Ancient Dragon
+      id: 1
+      name: Ancient Dragon
+      stats:
+        atk: 20
+        def: 8
+        hp: 400
+        mp: 100
+        spd: 32
+      description: Ancient Dragons are fearsome creatures, with immense size and strength. Their large mouth filled with sharp teeth and fiery breath can easily take out enemies with a single swipe. These creatures can grow up to 50 feet tall and 20 feet wide, with a metallic-like hide that can withstand almost any kind of physical assault. Ancient Dragons are also known for their incredible intelligence and cunning, as they are able to master advanced technologies and use them effectively to their advantage. Despite their immense size, they may actually be relatively easy to defeat with the right approach. This is because their movements are slow and their defenses are not stellar. Their large sizes also make them relatively slow, with little to no speed or stamina. Overall, an Ancient Dragon can be a formidable prospect if not approached in a smart, careful manner.

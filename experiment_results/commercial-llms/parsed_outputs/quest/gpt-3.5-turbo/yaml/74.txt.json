@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "As a brave adventurer, your quest is to retrieve the ancient artifact hidden deep within the forbidden dungeon.",
+    "id": "001",
+    "objective": "Retrieve the ancient artifact",
+    "quest_giver": "Elder Mason",
+    "reward": "500 gold coins",
+    "tasks": [
+      {
+        "description": "Find the entrance to the forbidden dungeon",
+        "location": "Lost Forest",
+        "objective": "Discover the hidden path leading to the dungeon entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the labyrinth of corridors",
+        "location": "Forbidden Dungeon",
+        "objective": "Make your way through the treacherous corridors to reach the artifact chamber",
+        "order": 2
+      },
+      {
+        "description": "Defeat the guardian monster",
+        "location": "Artifact Chamber",
+        "objective": "Defeat the fearsome guardian to reach the artifact",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Ancient Artifact"
+  }
+}

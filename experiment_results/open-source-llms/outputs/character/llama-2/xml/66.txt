@@ -1,0 +1,359 @@
+
+
+# Input format
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Example
+
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Sample output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Markdown format
+```markdown
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Sample output
+
+```markdown
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Solution
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import xml.etree.ElementTree as ET
+
+
+def main():
+    xml_str = '''<game>
+				<character>
+					<id>id</id>
+					<first-name>first name</first-name>
+					<last-name>last name</last-name>
+					<species>species</species>
+					<age>exact age or description</age>
+					<role>role of the character</role>
+					<background>background story</background>
+					<place-of-birth>location</place-of-birth>
+					<physical-appearance>
+						<physical-appearance>
+							<eye-color>eye color</eye-color>
+							<hair-color>hair color</hair-color>
+							<height>height in float value</height>
+							<weight>weight in float value</weight>
+						</physical-appearance>
+					</physical-appearance>
+				</character>
+			</game>'''
+    tree = ET.fromstring(xml_str)
+    for node in tree.iter('character'):
+        print('id:', node.attrib['id'])
+        print('first-name:', node.attrib['first-name'])
+        print('last-name:', node.attrib['last-name'])
+        print('species:', node.attrib['species'])
+        print('age:', node.attrib['age'])
+        print('role:', node.attrib['role'])
+        print('background:', node.attrib['background'])
+        print('place-of-birth:', node.attrib['place-of-birth'])
+        print('physical-appearance:')
+        for node_child in node.iter('physical-appearance'):
+            print('  eye-color:', node_child.attrib['eye-color'])
+            print('  hair-color:', node_child.attrib['hair-color'])
+            print('  height:', node_child.attrib['height'])
+            print('  weight:', node_child.attrib['weight'])
+
+
+if __name__ == '__main__':
+    main()
+```
+
+# Output
+
+```markdown
+id: id
+first-name: first name
+last-name: last name
+species: species
+age: exact age or description
+role: role of the character
+background: background story
+place-of-birth: location
+physical-appearance:
+  eye-color: eye color
+  hair-color: hair color
+  height: height in float value
+  weight: weight in float value
+```
+
+# Solution
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import xml.etree.ElementTree as ET
+
+
+def main():
+    xml_str = '''<game>
+				<character>
+					<id>id</id>
+					<first-name>first name</first-name>
+					<last-name>last name</last-name>
+					<species>species</species>
+					<age>exact age or description</age>
+					<role>role of the character</role>
+					<background>background story</background>
+					<place-of-birth>location</place-of-birth>
+					<physical-appearance>
+						<physical-appearance>
+							<eye-color>eye color</eye-color>
+							<hair-color>hair color</hair-color>
+							<height>height in float value</height>
+							<weight>weight in float value</weight>
+						</physical-appearance>
+					</physical-appearance>
+				</character>
+			</game>'''
+    tree = ET.fromstring(xml_str)
+    for node in tree.iter('character'):
+        print('id:', node.attrib['id'])
+        print('first-name:', node.attrib['first-name'])
+        print('last-name:', node.attrib['last-name'])
+        print('species:', node.attrib['species'])
+        print('age:', node.attrib['age'])
+        print('role:', node.attrib['role'])
+        print('background:', node.attrib['background'])
+        print('place-of-birth:', node.attrib['place-of-birth'])
+        print('physical-appearance:')
+        for node_child in node.iter('physical-appearance'):
+            print('  eye-color:', node_child.attrib['eye-color'])
+            print('  hair-color:', node_child.attrib['hair-color'])
+            print('  height:', node_child.attrib['height'])
+            print('  weight:', node_child.attrib['weight'])
+
+
+if __name__ == '__main__':
+    main()
+```
+
+# Output
+
+```markdown
+id: id
+first-name: first name
+last-name: last name
+species: species
+age: exact age or description
+role: role of the character
+background: background story
+place-of-birth: location
+physical-appearance:
+  eye-color: eye color
+  hair-color: hair color
+  height: height in float value
+  weight: weight in float value
+```
+
+# Solution
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import xml.etree.ElementTree as ET
+
+
+def main():
+    xml_str = '''<game>
+				<character>
+					<id>id</id>
+					<first-name>first name</first-name>
+					<last-name>last name</last-name>
+					<species>species</species>
+					<age>exact age or description</age>
+					<role>role of the character</role>
+					<background>background story</background>
+					<place-of-birth>location</place-of-birth>
+					<physical-appearance>
+						<physical-appearance>
+							<eye-color>eye color</eye-color>
+							<hair-color>hair color</hair-color>
+							<height>height in float value</height>
+							<weight>weight in float value</weight>
+						</physical-appearance>
+					</physical-appearance>
+				</character>
+			</game>'''
+    tree = ET.fromstring(xml_str)
+    for node in tree.iter('character'):
+        print('id:', node.attrib['id'])
+        print('first-name:', node.attrib['first-name'])
+        print('last-name:', node.attrib['last-name'])
+        print('species:', node.attrib['species'])
+        print('age:', node.attrib['age'])
+        print('role:', node.attrib['role'])
+        print('background:', node.attrib['background'])
+        print('place-of-birth:', node.attrib['place-of-birth'])
+        print('physical-appearance:')
+        for node_child in node.iter('physical-appearance'):
+            print('  eye-color:', node_child.attrib['eye-color'])
+            print('  hair-color:', node_child.attrib['hair-color'])
+            print('  height:', node_child.attrib['height'])
+            print('  weight:', node_child.attrib['weight'])
+
+
+if __name__ == '__main__':
+    main()
+```
+
+# Output
+
+```markdown
+id: id
+first-name: first name
+last-name: last name
+species: species
+age: exact age or description
+role: role of the character
+background: background story
+place-of-birth: location
+physical-appearance:
+  eye-color: eye color
+  hair-color: hair color
+  height: height in float value
+  weight: weight in float value
+```
+
+# Solution
+
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import xml.etree.ElementTree as ET
+
+
+def main():
+    xml_str = '''<game>
+				<character>
+					<id>id</id>
+					<first-name>first name</first-name>
+					<last-name>last name</last-name>
+					<species>species</species>
+					<age>exact age or description</age>
+					<role>role of the character</role>
+					<background>background story</background>
+					<place-of-birth>location</place-of-birth>
+					<physical-appearance>
+						<physical-appearance>
+		

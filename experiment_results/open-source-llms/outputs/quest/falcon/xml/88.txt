@@ -1,0 +1,35 @@
+```
+<!-- Markdown code block -->
+```
+<pre><code># Quest information - Return output in XML format for only query xml
+# quest title
+# Quest objective
+# Quest description
+# Quest reward
+# Quest giver
+# Task order
+# Task objective
+# Task description
+# Task location
+# Reward
+```
+```
+<!-- XML output -->
+<game>
+	<id>id</id>
+	<title>quest_title</title>
+	<objective>qust_objective</objective>
+	<description>qust_description</description>
+	<reward>quest_reward</reward>
+	<quest_giver>quest_giver</quest_giver>
+	<qust_giver>quest_giver</qust_giver>
+	<tasks>
+		<task class="qust">
+			<order>qust_order</order>
+			<objective>qust_objective</objective>
+			<description>qust_description</description>
+			<location>qust_location</location>
+		</task>
+	</tasks>
+</game>
+```

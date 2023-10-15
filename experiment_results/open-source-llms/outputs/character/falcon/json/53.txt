@@ -1,0 +1,24 @@
+## Returned JSON code (only in Markdown)
+```json
+{
+    "@type": "Person",
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": 32,
+            "role": "villian",
+            "background": {
+                "place_of_birth": "Birthplace"
+            },
+            "physical_appearance": {
+                "eye_color": "Green",
+                "hair_color": "Black",
+                "height": 180,
+                "weight": 75
+            }
+        });
+}
+```

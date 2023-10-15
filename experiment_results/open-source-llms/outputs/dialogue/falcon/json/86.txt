@@ -1,0 +1,20 @@
+```javascript
+const dialogues = [{
+    "order": "dialogue order",
+    "speaker": "speaker name",
+    "text": "dialogue or narration"
+}];
+
+console.log(JSON.stringify(dialogues.map(p => p.game)));
+
+```
+<pre><code>{
+  "game": {
+    "dialogues": [{
+      "order": "dialogue order",
+      "speaker": "speaker name",
+      "text": "dialogue or narration"
+    }]
+  }
+}
+</code></pre>

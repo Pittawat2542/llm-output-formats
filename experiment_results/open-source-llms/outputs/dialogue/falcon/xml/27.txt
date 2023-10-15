@@ -1,0 +1,36 @@
+[Game output]
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order> <!-- Return only the XML in the Markdown code block -->
+			<speaker>John</speaker>
+			<text>John dialogue text</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order> <!-- Return only the XML in the Markdown code block -->
+			<speaker>Mary</speaker>
+			<text>Mary dialogue text</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order> <!-- Return only the XML in the Markdown code block -->
+			<speaker>John</speaker>
+			<text>John dialogue text</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order> <!-- Return only the XML in the Markdown code block -->
+			<speaker>Mary</speaker>
+			<text>Mary dialogue text</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

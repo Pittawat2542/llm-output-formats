@@ -1,0 +1,25 @@
+In addition to the `game` key, each child key can be replaced with the corresponding property for each task.
+
+The `id` key can be modified to the ID of a specific task. Also, change the `objective` key to the quest objective (e.g. `"quest_giver" -> "quest giver").
+
+The `objective` key can be replaced by the ID of an objective for each child key.
+
+The `location` key can be replaced by the location of each child task.
+
+A single task with multiple child tasks can also be created by wrapping it in an array and adding the `tasks` and `objective` keys.
+
+```markdown
+{
+    // Game information and tasks
+    "game": {
+        "id": "game-details",
+        "title": "Game details",
+        "objective": "#quest-objective",
+        "description": "This is the description of the game",
+        "reward": "Quest reward",
+        "quest_giver": "task-giver"
+    }
+}
+```
+
+In this example, the `game.location` key has an array of child tasks that each have their own individual `tasks` object and `objective` properties.

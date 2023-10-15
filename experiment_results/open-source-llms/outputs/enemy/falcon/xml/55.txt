@@ -1,0 +1,12 @@
+<pre><code>
+&lt;enemy 
+  action="start" 
+  id="id" 
+  name="name" 
+  description="description" 
+  stats="hp mp atk def spd" 
+  stats-xml="stats"
+/&gt;
+</code></pre>
+
+The "return" statement only outputs the XML, which includes the enemy and status elements. The "ids=" and "playerName" attributes of the enemy are nested within the "enemy" element. The "id" attribute specifies the enemy id, while the "action" attribute specifies the enemy's behavior. The "id" attribute for the "enemy" element also matches the enemy id to ensure consistent selection. The "name" attribute of the enemy specifies its name as it appears on the map. The "description" attribute of the enemy contains a description of the enemy. The "enemy" element contains only these six elements, but you can add any child elements as needed for better organization.

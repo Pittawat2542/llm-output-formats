@@ -1,0 +1,15 @@
+```markdown
+# Output in Markdown
+<#if markdown>
+<gfg><b>Character:</b></b><br>
+    <#assign id="character.id" value=>id></#assign>
+    <#assign id="character.first-name" value=>first name></#assign>
+    <#assign id="character.last-name" value=>last name></#assign>
+    <#assign id="character.species" value="species"></#assign>
+    <#assign id="character.age" value="exact age or description"></#assign>
+    <#assign id="character.role" value="role of the character"></#assign>
+    <#assign id="character.background" value="background story"></#assign>
+    <#assign id="character.place-of-birth" value="location"></#assign>
+    <#assign id="character.physical-appearance" value="physcial-appearance"></#assign>
+</gfg>
+```

@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: Retrieve the ancient scroll from the Forbidden Tower
+  id: Q101
+  objective: Recover the ancient scroll and deliver it to the Alchemist
+  quest_giver: Alchemist Rael
+  reward: 200 Gold Coins and a Potion of Wisdom
+  tasks:
+  - description: Visit Alchemist Rael
+    location: The town of Rivendale
+    objective: Receive the quest from Alchemist Rael
+    order: 1
+  - description: Defeat the Goblins guarding the tower
+    location: The forests leading to the Forbidden Tower
+    objective: Eliminate Goblin interference
+    order: 2  
+  - description: Retrieve the ancient scroll from the tower's topmost floor
+    location: The Forbidden Tower
+    objective: Collect the scroll
+    order: 3
+  - description: Return the scroll to Alchemist Rael
+    location: The town of Rivendale
+    objective: Deliver the scroll to Alchemist Rael
+    order: 4
+  title: The Scroll of Wisdom
+```

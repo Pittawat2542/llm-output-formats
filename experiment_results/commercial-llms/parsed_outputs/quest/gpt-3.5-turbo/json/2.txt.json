@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Retrieve the legendary treasure of Eldoria and return it to the king",
+    "description": "Many years ago, when the kingdom of Eldoria was flourishing, a priceless treasure was stolen from the royal vault. Ever since, the kingdom has been in decline. Now, the king seeks a capable adventurer to retrieve the lost treasure and bring glory back to Eldoria.",
+    "reward": "A chest full of rare gems, gold coins, and a title of honor",
+    "quest_giver": "King Eldor",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Acquire the ancient map from the wise sage",
+        "description": "Find the wise sage who lives on the outskirts of Eldoria and convince him to share the location of the secret cave where the treasure is rumored to be hidden.",
+        "location": "The outskirts of Eldoria"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the perilous Dark Forest",
+        "description": "Embark on a journey through the treacherous Dark Forest, avoiding dangerous creatures and solving puzzles along the way. The treasure cave is said to be deep within the heart of the forest.",
+        "location": "Dark Forest"
+      },
+      {
+        "order": "3",
+        "objective": "Solve the riddles in the treasure cave",
+        "description": "Once you reach the treasure cave, you will encounter a series of riddles that guards the treasure. Solve the riddles to proceed deeper into the cave.",
+        "location": "Treasure Cave"
+      },
+      {
+        "order": "4",
+        "objective": "Face the ancient guardian and retrieve the treasure",
+        "description": "At the heart of the treasure cave, a fearsome ancient guardian awaits. Defeat the guardian and retrieve the long-lost treasure.",
+        "location": "Treasure Cave"
+      }
+    ]
+  }
+}

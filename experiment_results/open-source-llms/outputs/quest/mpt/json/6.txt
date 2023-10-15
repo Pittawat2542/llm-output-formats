@@ -1,0 +1,16 @@
+<div style={'background-color': '#ffe2b8', 'color': '#4e6a58', 'font-size': 24, 'padding': 10}><b>[game]</b>
+<br><br>/game/id : id
+/game/title : quest title
+/game/objective : quest objective
+/game/description : quest description
+/game/reward : quest reward
+/game/quest_giver : quest giver
+/game/tasks
+
+[/game/tasks] :
+
+/game/tasks/0
+/game/tasks/0/order : task order
+/game/tasks/0/objective : task objective
+/game/tasks/0/description : task description
+/game/tasks/0/location : task location

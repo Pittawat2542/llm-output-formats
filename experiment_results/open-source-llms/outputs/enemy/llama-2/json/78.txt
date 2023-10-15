@@ -1,0 +1,127 @@
+
+
+## Inputs
+
+### game
+
+#### enemy
+
+##### id
+
+Required. The id of the enemy.
+
+##### name
+
+Required. The name of the enemy.
+
+##### description
+
+Required. The description of the enemy.
+
+##### stats
+
+Required. The stats of the enemy.
+
+##### hp
+
+Required. The health points of the enemy.
+
+##### mp
+
+Required. The magic points of the enemy.
+
+##### atk
+
+Required. The attack points of the enemy.
+
+##### def
+
+Required. The defense points of the enemy.
+
+##### spd
+
+Required. The speed points of the enemy.
+
+### game
+
+#### enemy
+
+##### id
+
+Required. The id of the enemy.
+
+##### name
+
+Required. The name of the enemy.
+
+##### description
+
+Required. The description of the enemy.
+
+##### stats
+
+Required. The stats of the enemy.
+
+##### hp
+
+Required. The health points of the enemy.
+
+##### mp
+
+Required. The magic points of the enemy.
+
+##### atk
+
+Required. The attack points of the enemy.
+
+##### def
+
+Required. The defense points of the enemy.
+
+##### spd
+
+Required. The speed points of the enemy.
+
+## Example
+
+### Input
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```

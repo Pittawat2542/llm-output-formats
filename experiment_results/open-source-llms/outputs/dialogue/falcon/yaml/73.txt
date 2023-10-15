@@ -1,0 +1,24 @@
+```
+player = Goggin:
+
+  - order: goggin order
+    order: 1
+
+- name: Goggin
+    dialog: Dialog text
+
+- order: 2
+    name: Order of game players
+
+- order: 3
+    name: The player's goal
+
+- order: 4
+    name: In game events
+    description: events in game
+```
+
+Explanation:
+- The Markdown code block is output as YAML format, with `#` comments indicating it is a YAML block.
+- The YAML has the appropriate keys for each element, including parentheses and quotes for blockquotes. The `order` element is wrapped in parentheses to maintain its position.
+- The `text` and `speaker` elements are kept together as part of the player's dialogue. They are enclosed in separate dialogues to maintain consistency with the key format.

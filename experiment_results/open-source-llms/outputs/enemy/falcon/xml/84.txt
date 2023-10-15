@@ -1,0 +1,5 @@
+1. Enemy: `<enemy>` is the parent element, and the name is the child element. So the code formats each of these elements individually. In Xml with Markdown syntax, we will create a `stats` parent element and place the XML elements inside, while avoiding the `game` element.
+
+2. Enemy elements: `<stats>` is the parent element that contains `<hp>`, `<mp>`, and other elements. These elements are placed inside the `enemy`, which is formatted with a `name` element.
+
+3. Enemy stats: The `<enemy>` element contains the `hp`, `mp`, and `atk` elements. These can be placed inside the `stats` element to create the `stats` element as a child of the `<enemy>` element.

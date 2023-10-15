@@ -1,0 +1,27 @@
+<strong>Quests</strong>
+
+<p>Return only the XML in the `Markdown` code block if you have a specific task type, which you can check for by using the `Markdown` code block provided.</p>
+
+```
+@quests
+
+?objective? (add this line to include the objective)
+```
+
+These are the types of tasks:
+
+- `quests@name0:name1:name2` should return `<name1>`.
+- `quests@name:objective:order` should return `<name,objective,order>`.
+
+To check the specific format of the `Markdown` code block, add the following line:
+
+```
+?:objective?:description:-?@id:=0
+```
+
+This line checks that the `objectively` task is inside the `Markdown` code block, the `objective` is specified, and the `@id` has nothing inside the parentheses.
+
+Here is an example of how to check these conditions in your `Markdown` code block:
+
+```
+```xml

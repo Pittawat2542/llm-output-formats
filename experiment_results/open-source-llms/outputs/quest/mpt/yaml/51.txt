@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+#### What the format does specify:
+* game - a parent container element that has a description, id, objective, quest_giver, reward
+* tasks - contains all quest tasks
+  - description - task description;
+  - location - task location;
+  - objective - task objective;
+  - order - task order

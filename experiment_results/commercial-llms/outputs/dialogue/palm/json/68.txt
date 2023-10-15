@@ -1,0 +1,20 @@
+Sure, here is a sample dialogue in JSON format:
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": 1,
+            "speaker": "Player",
+            "text": "Hello, there! I am looking for a way to the next level."
+        }, {
+            "order": 2,
+            "speaker": "NPC",
+            "text": "You need to find the key to the door. It is hidden somewhere in the dungeon."
+        }, {
+            "order": 3,
+            "speaker": "Player",
+            "text": "Thank you for your help! I will keep searching."
+        }]
+    }
+}
+```

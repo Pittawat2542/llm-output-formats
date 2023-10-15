@@ -1,0 +1,16 @@
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+```yaml
+speak:
+```yaml
+- message_text: dialogue text
+```
+
+Explanation:
+
+  - The code block generates Markdown to output YAML using list items. The `# Output format` syntax block creates a table with the `game` and `dialogues` keys specifying that this is an table within a table. The `order` key specifies the order in which the speakers appeared in the dialogue. The `speaker` key specifies the name of the speaker. Lastly, all content in the `dialogue` and `text` keys are wrapped in Markdown syntax using YAML to render them as table rows.

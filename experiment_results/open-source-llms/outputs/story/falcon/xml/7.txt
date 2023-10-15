@@ -1,0 +1,18 @@
+# Story synopsis markup
+```xml
+<!-- Game story synopsis marked up in Markdown syntax, with -->
+<!-- the entire synopsis in a <synopsis> element. -->
+<!-- Note: The <synopsis> element can contain multiple lines. -->
+<!-- The elements in the <synopsis> are wrapped in triple quotes. -->
+<!-- The @xml attribute in the <synopsis> is set to indicate -->
+<!-- that the text wrapped in the parentheses is XML. -->
+<!-- @xml attribute only applies to the child elements. -->
+<!-- Here, the <synopsis> element is the "wrapper" for -->
+<!-- the child element "game". -->
+<synopsis>
+<h1>The Beginning</h1>
+<p>"Title of your game here"</p>
+<h1>The Ending</h1>
+<p>The main events of your story at the end of the game.</p>
+</synopsis>
+```

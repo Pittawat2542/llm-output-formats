@@ -1,0 +1,14 @@
+```html
+<?xml version="1.0" encoding="UTF-8"?>
+<Xml>
+	<Xml>
+		<Dialogue>
+			<Order>Dialogue Order</Order>
+			<Speaker>Speaker Name</Speaker>
+			<Narrative>Dialogue or Naration</Narrative>
+		</Dialogue>
+	</Xml>
+</Xml>
+```
+
+Explanation: The output provides only the `<game>` and `<dialogues>` tags from the Markdown input, which contain the dialogue and the text elements. The `order` tag is converted to a string so it can be used as an attribute for the `<game>` tag.

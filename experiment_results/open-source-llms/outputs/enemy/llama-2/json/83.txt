@@ -1,0 +1,39 @@
+
+
+## Example
+```bash
+$ node enemy-status.js
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "Raiden",
+            "description": "Raiden is a ninja who is skilled in the art of ninjutsu.",
+            "stats": {
+                "hp": "100",
+                "mp": "100",
+                "atk": "100",
+                "def": "100",
+                "spd": "100"
+            }
+        }
+    }
+}
+``` [/EX]
+
+## Requirements
+* [node](https://nodejs.org/en/)
+* [yarn](https://yarnpkg.com/en/)
+
+## Installation
+```bash
+$ yarn
+```
+
+## Usage
+```bash
+$ node enemy-status.js
+```
+
+## License
+[MIT](LICENSE)

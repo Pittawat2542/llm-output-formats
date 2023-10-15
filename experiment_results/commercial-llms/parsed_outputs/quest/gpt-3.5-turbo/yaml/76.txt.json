@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Retrieve the Sacred Amulet of Power that was stolen from the Temple of Eternal Light.",
+    "id": "123456",
+    "objective": "Find the thief and recover the stolen amulet.",
+    "quest_giver": "High Priestess Aria",
+    "reward": "The chosen one will be blessed with great power and receive the title of 'Savior of the Light'.",
+    "tasks": [
+      {
+        "description": "Investigate the nearby village for any suspicious activity.",
+        "location": "Village of Eldora",
+        "objective": "Gather information about any strangers who arrived recently.",
+        "order": 1
+      },
+      {
+        "description": "Search the ancient ruins for hidden clues about the thief's whereabouts.",
+        "location": "Ruins of Eternity",
+        "objective": "Locate ancient tablets that may hold information about the stolen amulet.",
+        "order": 2
+      },
+      {
+        "description": "Track down the notorious bandit, Giovanni, known for stealing precious artifacts.",
+        "location": "Bandit's Hideout",
+        "objective": "Confront Giovanni and demand the return of the stolen amulet.",
+        "order": 3
+      },
+      {
+        "description": "Defeat the guardian of the Temple of Eternal Light and retrieve the amulet.",
+        "location": "Temple of Eternal Light",
+        "objective": "Overcome the trials and challenges to reach the sacred amulet.",
+        "order": 4
+      }
+    ],
+    "title": "The Quest for the Sacred Amulet"
+  }
+}

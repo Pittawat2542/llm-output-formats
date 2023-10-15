@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Embark on a daring adventure as you explore the ancient ruins of El Dorado in search of the legendary golden treasure.",
+    "id": "34f28a",
+    "objective": "Retrieve the golden treasure and bring it back safely to civilization.",
+    "quest_giver": "Elderly Explorer",
+    "reward": "10,000 gold coins and a rare artifact",
+    "tasks": [
+      {
+        "description": "Decode the map found in the explorer's journal",
+        "location": "Library of Alexandria",
+        "objective": "Find the hidden message on the map",
+        "order": 1
+      },
+      {
+        "description": "Travel to the Amazon Rainforest",
+        "location": "South America",
+        "objective": "Locate the entrance to the ruins",
+        "order": 2
+      },
+      {
+        "description": "Navigate through treacherous traps and solve puzzles",
+        "location": "Ancient Ruins of El Dorado",
+        "objective": "Make your way to the heart of the ruins",
+        "order": 3
+      },
+      {
+        "description": "Face off against the Guardian of the Golden Treasure",
+        "location": "Chamber of Secrets",
+        "objective": "Defeat the guardian and claim the treasure",
+        "order": 4
+      }
+    ],
+    "title": "The Quest for El Dorado"
+  }
+}

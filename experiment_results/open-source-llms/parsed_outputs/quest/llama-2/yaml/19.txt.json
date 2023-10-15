@@ -1,0 +1,80 @@
+{
+  "game": {
+    "description": "quest description",
+    "id": "id",
+    "objective": "quest objective",
+    "quest_giver": "quest giver",
+    "reward": "quest reward",
+    "tasks": [
+      {
+        "description": "task description",
+        "location": "task location",
+        "objective": "task objective",
+        "order": "task order"
+      }
+    ],
+    "title": "quest title"
+  },
+  "quest": {
+    "description": "quest description",
+    "id": "id",
+    "objective": "quest objective",
+    "quest_giver": "quest giver",
+    "reward": "quest reward",
+    "tasks": [
+      {
+        "description": "task description",
+        "location": "task location",
+        "objective": "task objective",
+        "order": "task order"
+      }
+    ],
+    "title": "quest title"
+  },
+  "task": {
+    "description": "task description",
+    "location": "task location",
+    "objective": "task objective",
+    "order": "task order"
+  },
+  "quest_giver": {
+    "description": "quest giver description",
+    "id": "id",
+    "location": "quest giver location",
+    "name": "quest giver name",
+    "title": "quest giver title"
+  },
+  "reward": {
+    "description": "reward description",
+    "id": "id",
+    "location": "reward location",
+    "name": "reward name",
+    "title": "reward title"
+  },
+  "objective": {
+    "description": "objective description",
+    "id": "id",
+    "location": "objective location",
+    "name": "objective name",
+    "title": "objective title"
+  },
+  "location": {
+    "description": "location description",
+    "id": "id",
+    "name": "location name",
+    "title": "location title"
+  },
+  "description": {
+    "description": "description description",
+    "id": "id",
+    "location": "description location",
+    "name": "description name",
+    "title": "description title"
+  },
+  "title": {
+    "description": "title description",
+    "id": "id",
+    "name": "title name",
+    "title": "title title"
+  }
+}

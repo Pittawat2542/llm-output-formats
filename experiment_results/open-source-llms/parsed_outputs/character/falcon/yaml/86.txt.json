@@ -1,0 +1,55 @@
+{
+  "In this case, the <code>YAML</code> should include the following fields": [
+    {
+      "<code>age</code>": "exact age or age range, e.g. \"15\""
+    },
+    {
+      "<code>background</code>": "background story or origin, in Markdown format."
+    },
+    {
+      "<code>first_name</code>": "first name"
+    },
+    {
+      "<code>id</code>": "id if used"
+    },
+    {
+      "<code>last_name</code>": "last name"
+    },
+    {
+      "<code>physical_appearance</code>": "physical appearance, e.g. eye color, hair color, height, weight"
+    },
+    {
+      "<code>place_of_birth</code>": "location of birth"
+    },
+    {
+      "<code>role</code>": "role of the character"
+    },
+    {
+      "<code>species</code>": "species or other classification of the character"
+    }
+  ],
+  "Example output": null,
+  "game": {
+    "character": {
+      "age": 15,
+      "background": {
+        "origin": "The character was born in a small town by the coast.",
+        "id": "marktwain"
+      },
+      "first_name": "Mark Twain",
+      "id": "twain",
+      "last_name": "Twain",
+      "physical_appearance": {
+        "eye_color": "blue",
+        "hair_color": "brown",
+        "height": "5'4",
+        "weight": "120 lbs"
+      },
+      "place_of_birth": {
+        "location": "Alton, Missouri"
+      },
+      "role": "author",
+      "species": "writer"
+    }
+  }
+}

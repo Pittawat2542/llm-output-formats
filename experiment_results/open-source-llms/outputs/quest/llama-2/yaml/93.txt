@@ -1,0 +1,498 @@
+
+
+## Example
+```yaml
+game:
+  description: A quest to find the missing cats
+  id: 123
+  objective: Find the missing cats
+  quest_giver: The mayor
+  reward: 1000 gold
+  tasks:
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 1
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 2
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 3
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 4
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 5
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 6
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 7
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 8
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 9
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 10
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 11
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 12
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 13
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 14
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 15
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 16
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 17
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 18
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 19
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 20
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 21
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 22
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 23
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 24
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 25
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 26
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 27
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 28
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 29
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 30
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 31
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 32
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 33
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 34
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 35
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 36
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 37
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 38
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 39
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 40
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 41
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 42
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 43
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 44
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 45
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 46
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 47
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 48
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 49
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 50
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 51
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 52
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 53
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 54
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 55
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 56
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 57
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 58
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 59
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 60
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 61
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 62
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 63
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 64
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 65
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 66
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 67
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 68
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 69
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 70
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 71
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 72
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 73
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 74
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 75
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 76
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 77
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 78
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 79
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 80
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 81
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 82
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 83
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 84
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 85
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 86
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 87
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 88
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 89
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 90
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 91
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 92
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 93
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 94
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 95
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 96
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 97
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 98
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 99
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 100
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 101
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 102
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 103
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 104
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 105
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 106
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 107
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 108
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 109
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 110
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 111
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 112
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 113
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 114
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 115
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 116
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 117
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 118
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 119
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 120
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats
+    order: 121
+  - description: Find the missing cats
+    location: Town
+    objective: Find the missing cats

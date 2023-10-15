@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: a quest description
+  id: this should be a unique GUID
+  objective: a quest objective
+  quest_giver:
+  - This should be the name of a character, or NPC
+    the quest can be completed
+    This should be the name of a character, or NPC
+    the quest can be completed
+  reward: a quest reward item
+  tasks:
+  - description: a task description
+    location: a location name or location description
+    objective: a task objective, this should be something the player can aim to achieve
+    order: a number or index. This should be to order this task so it will be the first task listed. 0 is the default.
+  title: a quest title
+```

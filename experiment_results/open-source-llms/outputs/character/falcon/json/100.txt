@@ -1,0 +1,39 @@
+<form method="POST">
+<h2>Character Profile</h2>
+<h5>ID: <input type="text" name="id"></h5>
+<input type="hidden" name="id[]" value="id"></input>
+
+<h5>First Name: <input type="text" name="first_name"></h5>
+<input type="hidden" name="first_name[]" value="first_name"></input>
+
+<h5>Last Name: <input type="text" name="last_name"></h5>
+<input type="hidden" name="last_name[]" value="last_name">
+
+<h5>Species: <input type="text" name="species"></h5>
+<input type="hidden" name="species[]" value="species"></input>
+
+<h5>Age: <input type="text" name="age"></h5>
+<input type="hidden" name="age[]" value="age"></input>
+
+<h5>Role: <input type="text" name="role"></h5>
+<input type="hidden" name="role[]" value="role"></input>
+
+<h5>Background: <input type="text" name="background"></h5>
+<input type="hidden" name="background[]" value="background"></input>
+
+<h5>Place of Birth: <input type="text" name="place_of_birth"></h5>
+<input type="hidden" name="place_of_birth[]" value="place_of_birth"></input>
+
+<h5>Physical Appearance: <input type="text" name="physical_appearance"></h5>
+<input type="hidden" name="physical_appearance[]" value="physical_appearance"></input>
+
+function returnJson(){
+    let jval = JSON.parse(document.getElementByName("id").value);
+    let jgame = jval.game.character;
+    let jage = jgame.game.place_of_birth;
+    return {
+        game: jgame,
+        age: jage
+    };
+}
+```

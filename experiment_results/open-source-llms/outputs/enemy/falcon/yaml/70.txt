@@ -1,0 +1,11 @@
+# Output Markdown
+YAML::YAML.load("enemy.yaml") # parse YAML and generate Markdown YAML for each enemy.
+
+<h2>Output format</h2>
+<pre><code># Output format 
+Enemy Stats                            HP   ATK    HP    SPD
+---------------------------------------------- -------- --------- -------- ------
+Enemy Description                 | |   | |  
+=============================       | |   | | |
+| | |                             | |   | | |
+</code></pre>

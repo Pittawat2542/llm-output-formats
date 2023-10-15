@@ -1,0 +1,299 @@
+
+
+## Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Explanation
+
+### Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation
+
+### Instructions
+
+#### Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+#### Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation
+
+#### Instructions
+
+##### Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+##### Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+##### Explanation
+
+#### Instructions
+
+##### Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+##### Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+##### Explanation
+
+#### Instructions
+
+##### Input
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find Merlin</objective>
+			<description>Merlin is a magician and a prophet. He is also the guardian of the Holy Grail. Find him and ask him where the Grail is hidden.</description>
+			<location>Camelot</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Grail</objective>
+			<description>The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+			<location>England</location>
+		</task>
+	</tasks>
+</game>
+```
+
+##### Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Holy Grail</title>
+	<objective>Find the Holy Grail</objective>
+	<description>The Holy Grail is a cup that Jesus used at the Last Supper. It was taken to England by the Knights of the Round Table. The Grail is said to be able to heal any wound or disease. The Grail is hidden somewhere in England. Find it and return it to Camelot.</description>
+	<reward>The Holy Grail</reward>

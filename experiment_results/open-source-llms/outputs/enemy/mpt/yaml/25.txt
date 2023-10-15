@@ -1,0 +1,15 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+Description, ID, and name are unique identifiers. It's recommended to store these somewhere. Atk, def, hp, mp, and spd should be unique, too. It’s rare that they’re the same, so it’s common to look them up.

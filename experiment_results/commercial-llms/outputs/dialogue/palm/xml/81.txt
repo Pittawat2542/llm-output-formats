@@ -1,0 +1,29 @@
+Sure, here is a dialogue in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Player</speaker>
+      <text>Hello, world!</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>NPC</speaker>
+      <text>Greetings, traveler. What brings you to our humble village?</text>
+    </dialogue>
+    <dialogue>
+      <order>3</order>
+      <speaker>Player</speaker>
+      <text>I'm on a quest to find the lost treasure of the ancients.</text>
+    </dialogue>
+    <dialogue>
+      <order>4</order>
+      <speaker>NPC</speaker>
+      <text>Ah, that is a dangerous quest indeed. But I wish you luck.</text>
+    </dialogue>
+  </dialogues>
+</game>
+```

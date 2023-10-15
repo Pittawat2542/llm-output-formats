@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Assist the king in preventing an impending invasion.",
+    "id": "Q1234",
+    "objective": "Aid the kingdom against potential enemies.",
+    "quest_giver": "King Arnulf",
+    "reward": "5000 gold pieces and royal armor",
+    "tasks": [
+      {
+        "description": "Gather information about the unknown forces from the western forest.",
+        "location": "Western Forest",
+        "objective": "Find clues about the enemy forces.",
+        "order": 1
+      },
+      {
+        "description": "Bring allied forces from the adjoining kingdom.",
+        "location": "Eastern Kingdom",
+        "objective": "Negotiate with the eastern sovereign.",
+        "order": 2
+      },
+      {
+        "description": "Lead the allied forces against the invaders.",
+        "location": "King's Battlefield",
+        "objective": "Defeat the enemy forces.",
+        "order": 3
+      }
+    ],
+    "title": "The Invasion Diplomacy"
+  }
+}

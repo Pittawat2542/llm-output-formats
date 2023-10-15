@@ -1,0 +1,30 @@
+{
+  "game": {
+    "title": "The Lost Artifact",
+    "id": 123456,
+    "description": "Embark on a thrilling adventure to find the mysterious lost artifact that holds unimaginable power.",
+    "quest_giver": "Captain Arden",
+    "reward": "Ancient artifact, 1000 gold coins",
+    "objective": "Locate the hidden temple and retrieve the artifact",
+    "tasks": [
+      {
+        "description": "Gather information from the local villagers",
+        "location": "Village of Eldoria",
+        "objective": "Speak with the village elder",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous Forest of Shadows",
+        "location": "Forest of Shadows",
+        "objective": "Find the ancient map",
+        "order": 2
+      },
+      {
+        "description": "Solve the riddles in the Temple of Trials",
+        "location": "Temple of Trials",
+        "objective": "Pass the trials to reach the artifact",
+        "order": 3
+      }
+    ]
+  }
+}

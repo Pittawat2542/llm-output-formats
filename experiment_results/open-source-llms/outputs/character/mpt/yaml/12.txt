@@ -1,0 +1,44 @@
+Here is an example YAML character profile:
+```yaml
+game:
+  character:
+  - age: 27 years old
+    background: Studied computer science and became a self-taught software engineer and then grew into the tech industry as a whole.
+    first_name: Chris
+    id: c6dfaeddddddde11e913b1eb8bb77c
+    last_name: Tsiolkas
+    physical_appearance:
+    - hair_color: light brown
+      eye_color: green
+      height: 5 feet 11 inches
+      weight: 175 pounds
+    place_of_birth: Athens, Greece
+    role: Founder of a game studio that is acquired by Activision for $1.5 billion
+    species: Human
+
+game:
+  character:
+  - age: 42 years old
+    background:
+    first_name: John
+    id: f9e2b3b7ff1b5ba0b9d77b9dacd9
+    last_name: Salinger
+    physical_appearance:
+    - eye_color: blue
+      hair_color: grey
+      height: 5 feet 8 inches
+      weight: 135 pounds
+    place_of_birth: New York City, NY
+    role: Author
+    species: Human
+```
+This format will give an example of how to use two different game systems, a game which stores character information in a dictionary and a game which stores character information in a YAML file.
+
+The key difference in these characters would then be the following:
+ - John Salinger (Game System 1) will have information such as `eye_color` and `hair_color` but Chris Tsiolkas (Game System 2) will not, because they are not attributes that Chris has; they simply describe John Salinger.
+
+Game System 1 has an id for each character, which Game System 2 does not.
+
+Game System 1 may have a different last name which only contains the characters. Game System 2 may have a different first name and different physical attributes, such as height, weight, etc.
+
+The only consistent attribute between the two systems would be the age of the character.

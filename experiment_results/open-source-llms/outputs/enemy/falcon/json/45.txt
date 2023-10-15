@@ -1,0 +1,47 @@
+# Markdown code block
+```js
+// Code block to calculate enemy stats
+enemy = [
+    {"id": "1", "name": "John", "description": "John", "stats": {"hp": "100-200hp", "mp": 500-800mp, "atk": "1-3atts", "def": 120-150def, "spd": 1.5-2.5spd}},
+    {"id": "2", "name": "Mike", "description": "Mike", "stats": {"hp": 200-400hp, "mp": 600-800mp, "atk": 6-8ats, "def": 120-120def, "spd": 1-1.5spd}}
+];
+
+// Markdown code block to generate the JSON output
+// Output format:
+// return a JSON string of the enemy battle status.
+// In Markdown, replace `{game}` with `{enemy}` to define the container
+// and `{enemy}` with `{enemy.id}]` for each enemy.
+```
+
+Output:
+
+```
+{
+  "enemy": {
+    "1": {
+      "id": "1",
+      "name": "John",
+      "description": "John",
+      "stats": {
+        "hp": "100-200hp",
+        "mp": 500-800mp,
+        "atk": "1-3atts",
+        "def": 120-150def,
+        "spd": 1.5-2.5spd
+      }
+    },
+    "2": {
+      "id": "2",
+      "name": "Mike",
+      "description": "Mike",
+      "stats": {
+        "hp": 200-400hp,
+        "mp": 600-800mp,
+        "atk": 6-8ats,
+        "def": 120-120def,
+        "spd": 1-1.5spd
+      }
+    }
+  }
+}
+```

@@ -1,0 +1,63 @@
+<pre><code># Output in XML format
+<!-- Markdown code block -->
+```xml
+```
+<!-- Quest in code block -->
+|id|title|objective|description|reward|questgiver|objectives|order&gt;
+|----|---|------|-----------|---------|--&gt;|--&gt;--&gt;|--&gt;--&gt;|--&gt;--&gt;|
+|1   |quest title|--&gt;\n|quest giver|--&gt;|-&gt;|--&gt;|-&gt;-&gt;|
+|1   ||quest title||\n||quest giver|||-&gt;||-&gt;||-&gt;-&gt;||
+|1   +1     ||quest title+1||\n+;|quest giver||+1|+1+1|-&gt;+1+4;|+-4+1+1;+
+|1       -1     ||quest title-1||\n+|quest giver||&lt;|*|-2*3-*5.5|*||
+|1       |task 1||task 1||*;;task 1||*|
+|1       +1     |task 1+1||task 1+2;;task 1+2 +1;+
+|1       -1     ||task 1 +1||task 1-1;;task 1-1 +1;+||
+|1      +2     |task 2||task 2 +1||task 2 +2;||
+|1      +2 +2||task 2 +2+1||task 2+2 +2;+|||
+```
+```
+```xml
+```
+```xml
+```
+```xml
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+``
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+``` 
+```xml
+```
+|id|title|objective|description|reward|questgiver|objectives|order&gt;
+|----|---|------|-----------|---------|--&gt;|--&gt;--&gt;|--&gt;--&gt;|
+|1   |quest title&lt;/p&gt;&lt;-&gt;--&gt;|&lt;p&gt;&lt;p&gt;&lt;p&gt;&lt;p&gt;&lt:&gt;-|
+|1   ||task 1||*;;task 1||*|*|*||*||*|*||
+|1   +1     ||task 1+1||*||task 1/4||* |---|: |*| *:|+++-*|:-|
+|1|-|-||*-|-||-||-|-;|:*|*::-;:*|:[:|:|
+|1   +1     ||task 1+1||*|::*-|::|::|:::||:;:|:;
+|1|-||:*;:||:;:-|:::|:-;:::||.::|:;;;||:* |.* ||::*
+|1||::;|:' ':'||:||:|:||' ;:' ; ||' +;';: ":"||'" |)||::"` -"` |||
+|1   -1    ||task 2-1||*||task 2-*;;task 2-1+1;;.||.*||;:|:;
+|1   +1             ||task 2+1||2;||::||:;|:||-||: +;:
+|1   +1               ||task 2+1 +1||:|:||;|;::|:|: +||:|:
+|1|-||||||||||||||||||||:||:||:||:...:|...:
+
+In this quest, you must take the quest giver and collect a reward. You can take certain items from them and they will grant you various powers. The quest giver is the person that gives you the quest and the reward. They may also ask you questions which you need to answer correctly. You also need to take the quest items and quest areas to complete the quest successfully.

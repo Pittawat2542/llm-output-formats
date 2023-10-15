@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, can you help me with something?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>Of course, what do you need?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm lost and I can't find my way back to the village. Can you give me directions?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Sure, just follow the path behind that hill and you'll reach the village.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>Thank you so much!</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```

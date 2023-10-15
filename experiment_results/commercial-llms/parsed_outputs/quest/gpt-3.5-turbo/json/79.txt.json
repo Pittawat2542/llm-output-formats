@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Save the Princess",
+    "objective": "Rescue Princess Peach from Bowser's castle",
+    "description": "Princess Peach has been captured by Bowser and is being held captive in his castle. It's up to you to save her and bring her back safely to the Mushroom Kingdom.",
+    "reward": "1000 gold coins",
+    "quest_giver": "Toad",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the key to Bowser's castle",
+        "description": "The key to Bowser's castle is hidden deep in the underground tunnels. Explore and search for clues to find it.",
+        "location": "Underground tunnels"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the guards at the castle gates",
+        "description": "Bowser's castle is heavily guarded. You'll need to defeat the guards at the castle gates to gain entry.",
+        "location": "Bowser's castle gates"
+      },
+      {
+        "order": "3",
+        "objective": "Navigate through the castle and reach Princess Peach's prison",
+        "description": "Bowser's castle is a maze with traps and enemies lurking at every corner. Use your skills to navigate through it and reach Princess Peach's prison.",
+        "location": "Bowser's castle"
+      },
+      {
+        "order": "4",
+        "objective": "Confront Bowser and rescue Princess Peach",
+        "description": "After overcoming all the obstacles, you'll finally confront Bowser himself. Defeat him and rescue Princess Peach to complete the quest.",
+        "location": "Bowser's throne room"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<!-- Example of an XML format for an 'alarm clock' dialogue -->
+		<dialogue>
+			<order>6am</order>
+			<speaker>Alex</speaker>
+			<text>Wake up and smell the coffee!</text>
+		</dialogue>
+		<dialogue>
+			<order>8am</order>
+			<speaker>Kate</speaker>
+			<text>Time to get up and start the day!</text>
+		</dialogue>
+		<dialogue>
+			<order>10am</order>
+			<speaker>Mark</speaker>
+			<text>Breakfast time!</text>
+		</dialogue>
+		<audio src="snooze.mp3"></audio>
+	</dialogues>
+</game>
+```
+
+Output in XML format, only the `dialogues` tag with the `speaker` and `text` tags
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue order="6">
+			<speaker>Mark</speaker>
+			<text>You should get some sleep.</text>
+		</dialogue>
+		<audio src="snooze.mp3"></audio>
+		<dialogue order="8">
+			<speaker>Kate</speaker>
+			<text>Time to get up and start the day.</text>
+		</dialogue>
+		<audio src="snooze.mp3"></audio>
+		<dialogue order="10">
+			<speaker>Alex</speaker>
+			<text>Wake up and smell the coffee!</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,216 @@
+
+
+## Input format
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+``` [/INST]
+
+## Example
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+``` [/INST]
+
+## Rules
+* You must return a JSON object
+* You must return a JSON object with a `game` property
+* You must return a JSON object with a `game.dialogues` property
+* You must return a JSON object with a `game.dialogues` property with an array of objects
+* Each object in the `game.dialogues` array must have a `order`, `speaker`, and `text` property
+* Each object in the `game.dialogues` array must have a `order` property
+* Each object in the `game.dialogues` array must have a `speaker` property
+* Each object in the `game.dialogues` array must have a `text` property
+* Each object in the `game.dialogues` array must have a `text` property with a string value
+* Each object in the `game.dialogues` array must have a `text` property with a string value
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `game.dialogues` array must be in order of the `order` property
+* The `

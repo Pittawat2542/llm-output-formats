@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Embark on a thrilling adventure to solve the mysteries of the ancient kingdom.",
+    "id": 101,
+    "objective": "Uncover the whereabouts of the long lost kingdom's treasure.",
+    "quest_giver": "Warlock Crivus",
+    "reward": "2000 gold coins and a mystic artifact",
+    "tasks": [
+      {
+        "description": "Find the hidden entrance to the treasure vault.",
+        "location": "Moonlit falls",
+        "objective": "Unearth the hidden entrance tracing the map",
+        "order": 1
+      },
+      {
+        "description": "Solve the puzzle to unlock the vault",
+        "location": "Inside the hidden vault",
+        "objective": "Solve the three part riddle engraved on the wall",
+        "order": 2
+      },
+      {
+        "description": "Secure the treasure and make your way out",
+        "location": "Inside the vault",
+        "objective": "Grab the treasure and exit the vault without triggering the traps",
+        "order": 3
+      }
+    ],
+    "title": "Treasures of the Ancient Kingdom"
+  }
+}

@@ -1,0 +1,27 @@
+```
+{
+    "game": {
+        "character": {
+            "id": 1234,
+            "first_name": "Abigail",
+            "last_name": "Harrison",
+            "species": "human",
+            "age": 22,
+            "exact_age": 22,
+            "role": "merchant",
+            "background": "Abigail came from a wealthy family that owned a shop in the market",
+            "place_of_birth": {
+                "city": "York",
+                "country": "England",
+                "state_or_province": "Yorkshire"
+            },
+            "physical_appearance": {{physical_appearance|default({eye_color=eye_color,[hair_color=hair_color,[height=height,weight=weight]})}|dict|default)}",
+            "height": 6ft,
+            "weight": 70lbs
+        }
+    }
+}
+``` 
+
+JSON.Parse("{\"game\":{\"character\":{\"id\":\"id\",\"first_name\":\"first_name\",\"last_name\":\"last name\",\"species\":\"species\",\"age\":\"exact age or description\",\"role\":\"role of the character\",\"background\":\"background story\",\"place_of_birth\":\"location\",\"physical_appearance\":{"\"eye_color\":\"eye color\",\"hair_color\":\"hair color\",\"height\":\"height in float value\",\"weight\":\"weight in float value\"}"").
+```

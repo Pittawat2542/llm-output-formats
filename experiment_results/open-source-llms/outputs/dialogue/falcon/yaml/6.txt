@@ -1,0 +1,12 @@
+# Markdown code block
+- name: player1
+  object: object1
+  dialogues:
+    - name: dialogue1
+      speaker: player1
+      text: "Hello, player1! Are you ready to play the game?"
+```
+
+In the Markdown code block, we use the YAML format by using the "dialogue" tag to define the speaker and the text. In our example, we have used the YAML directive "order" to set the order of the dialogue within the "game" section.</s> 
+How would adding more speakers into the "dialogue" tag affect the YAML format?</s> 
+Adding more speakers into the "dialogue" tag would continue to affect the YAML format as you would need to match the correct name with each speaker in your YAML code block. Adding more speakers to your conversations could increase or decrease the order of their dialogue depending on the specific context of the game. Therefore, it can be challenging to keep the dialogues organized when adding more people to the cast. However, by using Markdown codes and keeping each speakers dialogue in separate blocks, the organization should be relatively easy to maintain.

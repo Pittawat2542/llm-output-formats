@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "q1",
+        "title": "Collecting Lost Artifacts",
+        "objective": "Retrieve the lost artifacts from the ancient ruins",
+        "description": "Long ago, a group of powerful artifacts was hidden in the depths of ancient ruins. It is said that these artifacts possess immense power and should never fall into the wrong hands. However, they have been lost for centuries. Now, an important quest has been issued to retrieve these precious artifacts and ensure they are kept safe. Are you up for the challenge?",
+        "reward": "As a reward for completing this quest, you will receive a legendary weapon and a significant amount of experience points.",
+        "quest_giver": "Elder Soren",
+        "tasks": [{
+            "order": "Task 1",
+            "objective": "Find the entrance to the ancient ruins",
+            "description": "Explore the surrounding areas and gather information to locate the hidden entrance to the ancient ruins.",
+            "location": "Search the forests near the mountains"
+        },{
+            "order": "Task 2",
+            "objective": "Navigate through the treacherous traps and puzzles inside the ruins",
+            "description": "The ancient ruins are filled with dangerous traps and complex puzzles. Navigate through them cautiously to progress further.",
+            "location": "Inside the ancient ruins"
+        },{
+            "order": "Task 3",
+            "objective": "Defeat the guardians and retrieve the lost artifacts",
+            "description": "As you delve deeper into the ruins, powerful guardians will stand in your way. Defeat them and retrieve the lost artifacts from their chambers.",
+            "location": "Chambers within the ancient ruins"
+        }]
+    }
+}
+```

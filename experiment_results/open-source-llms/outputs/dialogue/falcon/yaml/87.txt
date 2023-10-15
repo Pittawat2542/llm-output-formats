@@ -1,0 +1,10 @@
+# Markdown code block
+```
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: [speaker name]
+    text:![text of dialogue or narration](path/to/image.png)
+```
+
+This will return the dialogues as YAML and only the text of any images included in the Markdown code block.

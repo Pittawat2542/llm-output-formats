@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "Defeat the Dragon",
+        "objective": "Defeat the dragon and save the kingdom",
+        "description": "A fearsome dragon has emerged from its lair and is wreaking havoc on the kingdom. The king has called upon you, the bravest adventurer, to defeat the dragon and save the kingdom.",
+        "reward": "1000 gold coins and a legendary sword",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Obtain the Dragon Slayer's Chestplate",
+            "description": "To stand a chance against the dragon, you must first obtain the Dragon Slayer's Chestplate. Legend has it that it is hidden in the Ancient Cave of Mysteries.",
+            "location": "Ancient Cave of Mysteries"
+        },
+        {
+            "order": "2",
+            "objective": "Retrieve the Lost Sword of Kings",
+            "description": "The Lost Sword of Kings is said to possess immense power against dragons. It is believed to be hidden deep within the Forbidden Forest.",
+            "location": "Forbidden Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Locate the Dragon's Lair",
+            "description": "You must find the dragon's lair to confront it. Local villagers have reported sightings of the dragon near the Mountain Peak.",
+            "location": "Mountain Peak"
+        },
+        {
+            "order": "4",
+            "objective": "Defeat the Dragon",
+            "description": "Equip yourself with the Dragon Slayer's Chestplate and the Lost Sword of Kings. Enter the dragon's lair and engage it in an epic battle. Use all your skills and strength to defeat the dragon.",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```

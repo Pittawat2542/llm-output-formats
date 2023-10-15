@@ -1,0 +1,47 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>12345</id>
+  <title>The Lost Artifact</title>
+  <objective>Find the ancient artifact hidden in the enchanted forest.</objective>
+  <description>
+    The Lost Artifact is an ancient relic that possesses immense power. Legends say that it grants the one who possesses it the ability to control the elements. Your task is to venture into the enchanted forest, overcome its challenges, and retrieve the artifact before it falls into the wrong hands.
+  </description>
+  <reward>600 gold coins and the Power of the Elements</reward>
+  <quest-giver>The Wise Elder</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Find the entrance to the enchanted forest.</objective>
+      <description>
+        The enchanted forest is well-hidden, and its entrance is known to only a few. Seek the guidance of the old hermit who resides near the river to discover the secret path into the forest.
+      </description>
+      <location>Near the river</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Retrieve the ancient key from the Guardian Tree.</objective>
+      <description>
+        The Guardian Tree protects the entrance to the inner sanctum of the enchanted forest. Defeat the tree's minions and solve its riddles to obtain the ancient key that unlocks the path forward.
+      </description>
+      <location>The heart of the enchanted forest</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Face the trials of the four elemental guardians.</objective>
+      <description>
+        To reach the artifact, you must prove your worth by facing the trials set by the four elemental guardians. Overcome their tests of strength, wit, and courage, and you shall be granted passage to the chamber where the artifact resides.
+      </description>
+      <location>The Elemental Chamber</location>
+    </task>
+    <task>
+      <order>4</order>
+      <objective>Retrieve the Lost Artifact.</objective>
+      <description>
+        The Lost Artifact is hidden deep within the chamber of the forest's heart. Use the knowledge gained from the trials to navigate the treacherous maze and claim the artifact as your own.
+      </description>
+      <location>The Chamber of the Forest's Heart</location>
+    </task>
+  </tasks>
+</game>
+```

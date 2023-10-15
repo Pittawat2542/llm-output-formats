@@ -1,0 +1,7 @@
+```python
+import json
+
+player = {"dialogues": {"order": "dialogue order", "speaker": "speaker name", "text": "dialogue or narration"}}
+json_player = json.dumps(player)
+print(json_player)
+```

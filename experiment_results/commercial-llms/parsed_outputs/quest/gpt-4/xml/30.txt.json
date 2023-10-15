@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Artifact",
+    "objective": "Find the artifact and return it to the village elder",
+    "description": "You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.",
+    "reward": "5000 gold, Elder's blessing",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Cross the orc territory",
+          "description": "You need to sneak through the orc territory without being noticed.",
+          "location": "Green Bone Orc Territory"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the temple puzzle",
+          "description": "Once in the temple, you need to solve a series of puzzles to uncover the artifact",
+          "location": "Hidden Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Return the artifact",
+          "description": "Bring the artifact back to the village elder to complete your quest.",
+          "location": "Village"
+        }
+      ]
+    }
+  }
+}

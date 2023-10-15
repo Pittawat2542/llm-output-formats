@@ -1,0 +1,14 @@
+```python
+import json
+
+# Get status of enemy
+enemy_id = input("Enemy ID: ")
+enemy_name = input("Enemy name: ")
+
+enemy_status = open(f"{enemy_name}.json").read()
+
+if enemy_status.startswith('{"}'):
+    return enemy_status
+```
+
+In this battle, we first start with the enemy being identified by the `enemy_id` input. Then, we need to read their JSON status file. If the JSON starts with an opening object in quotes (like `{"id": "id", "name": "name", "description": "description", etc.}) that means the JSON object is invalid or malformed. If it correctly matches the format, we can return the enemy's status as JSON to the user.

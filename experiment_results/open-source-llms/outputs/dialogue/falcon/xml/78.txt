@@ -1,0 +1,16 @@
+This will generate the following output:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+<dialogues>
+<dialogue>
+<order>dialogue order</order>
+<speaker>speaker name</speaker>
+<text>dialogue or narration</text>
+</dialogue>
+</dialogues>
+</game>
+```
+
+The only XML in the Markdown code block is for the game element.

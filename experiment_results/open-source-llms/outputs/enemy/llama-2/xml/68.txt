@@ -1,0 +1,72 @@
+
+
+## Inputs
+
+### Enemy
+
+| Parameter | Type | Required | Default | Description |
+| -------- | ---- | -------- | ------- | ----------- |
+| id | string | Yes | - | The ID of the enemy. |
+| name | string | Yes | - | The name of the enemy. |
+| description | string | Yes | - | The description of the enemy. |
+| stats | object | Yes | - | The stats of the enemy. |
+
+### Stats
+
+| Parameter | Type | Required | Default | Description |
+| -------- | ---- | -------- | ------- | ----------- |
+| hp | int | Yes | - | The HP of the enemy. |
+| mp | int | Yes | - | The MP of the enemy. |
+| atk | int | Yes | - | The attack of the enemy. |
+| def | int | Yes | - | The defense of the enemy. |
+| spd | int | Yes | - | The speed of the enemy. |
+
+## Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Test
+
+```bash
+$ npm run test
+```
+
+## License
+
+MIT

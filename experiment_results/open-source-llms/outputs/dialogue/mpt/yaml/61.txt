@@ -1,0 +1,41 @@
+# Output format
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Agent 0077
+    text: |
+      The war was devastating. The Federation suffered terrible losses.
+      Our forces were pushed back to the colony planets. The resistance is
+      fragile.
+  - order: 1
+    speaker: Rydian
+    text: |
+      I'm sorry I can't help you. I'm not authorized to give you that
+      information.
+  - order: 1
+    speaker: Agent 0077
+    text: |
+      I want that dossier.
+  - order: 1
+    speaker: Rydian
+    text: |
+      I don't have it anymore. I'm sorry.
+  - order: 2
+    speaker: Agent 0077
+    text: |
+      I know you have it.
+  - order: 2
+    speaker: Rydian
+    text: |
+      I don't. I returned the top secret material to the Federation archives.
+      I couldn't bear to keep it.
+  - order: 3
+    speaker: Agent 0077
+    text: |
+      When?
+  - order: 3
+    speaker: Rydian
+    text: |
+      The day after the destruction of

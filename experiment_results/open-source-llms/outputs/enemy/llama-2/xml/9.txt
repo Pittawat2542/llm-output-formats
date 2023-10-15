@@ -1,0 +1,111 @@
+
+
+# Input format
+
+## Battle
+```xml
+<battle>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+	<player>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</player>
+</battle>
+```
+
+## Player
+```xml
+<player>
+	<id>id</id>
+	<name>name</name>
+	<description>description</description>
+	<stats>
+		<hp>hp int value</hp>
+		<mp>mp int value</mp>
+		<atk>atk int value</atk>
+		<def>def int value</def>
+		<spd>spd int value</spd>
+	</stats>
+</player>
+```
+
+# Example
+
+```xml
+<battle>
+	<enemy>
+		<id>enemy_id</id>
+		<name>enemy_name</name>
+		<description>enemy_description</description>
+		<stats>
+			<hp>enemy_hp</hp>
+			<mp>enemy_mp</mp>
+			<atk>enemy_atk</atk>
+			<def>enemy_def</def>
+			<spd>enemy_spd</spd>
+		</stats>
+	</enemy>
+	<player>
+		<id>player_id</id>
+		<name>player_name</name>
+		<description>player_description</description>
+		<stats>
+			<hp>player_hp</hp>
+			<mp>player_mp</mp>
+			<atk>player_atk</atk>
+			<def>player_def</def>
+			<spd>player_spd</spd>
+		</stats>
+	</player>
+</battle>
+```
+
+## Output
+
+```xml
+<game>
+	<enemy>
+		<id>enemy_id</id>
+		<name>enemy_name</name>
+		<description>enemy_description</description>
+		<stats>
+			<hp>enemy_hp</hp>
+			<mp>enemy_mp</mp>
+			<atk>enemy_atk</atk>
+			<def>enemy_def</def>
+			<spd>enemy_spd</spd>
+		</stats>
+	</enemy>
+	<player>
+		<id>player_id</id>
+		<name>player_name</name>
+		<description>player_description</description>
+		<stats>
+			<hp>player_hp</hp>
+			<mp>player_mp</mp>
+			<atk>player_atk</atk>
+			<def>player_def</def>
+			<spd>player_spd</spd>
+		</stats>
+	</player>
+</game>
+```

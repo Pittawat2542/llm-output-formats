@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "1001",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure of King Arthur",
+    "description": "Legend has it that King Arthur's treasure was lost after his demise. Your task is to find this great trove of wealth and honor.",
+    "reward": "5000 gold and Excalibur",
+    "quest_giver": "Merlin",
+    "tasks": [
+      {
+        "order": "first",
+        "objective": "Locate the ancient map",
+        "description": "You need to find the ancient map that holds the location of King Arthur's treasure. It is believed to be in the Forbidden Forest.",
+        "location": "Forbidden Forest"
+      },
+      {
+        "order": "second",
+        "objective": "Solve the puzzle",
+        "description": "The map holds a puzzle that reveals the true location of the treasure. Use all your brainpower to solve it.",
+        "location": "At your convenience"
+      },
+      {
+        "order": "third",
+        "objective": "Defeat the guardian",
+        "description": "The treasure is guarded by a powerful entity. Be prepared to fight a formidable foe!",
+        "location": "Underground cavern"
+      },
+      {
+        "order": "fourth",
+        "objective": "Retrieve the treasure",
+        "description": "Once the guardian is defeated, the treasure is yours to claim!",
+        "location": "Underground cavern"
+      }
+    ]
+  }
+}

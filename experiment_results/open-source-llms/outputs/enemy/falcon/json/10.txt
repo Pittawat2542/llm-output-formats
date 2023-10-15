@@ -1,0 +1,24 @@
+<p>Enemy 1</p>
+
+<p><div class="snippet" data-lang="js" data-hide="false" data-console="true" data-babel="false">
+<code>
+# Output format
+# JSON.
+
+const enemy1Ref = database.get("enemy", 1);
+const enemy1Markdown = enemy1Ref.getJSON({transform: "json"});
+
+console.log("Enemy 1 JSON", JSON.stringify(enemy1Markdown));
+</code>
+</div>
+
+<code>
+# Output format
+# JSON
+
+const enemy2Ref = database.get("enemy", 2);
+const enemy2Markdown = enemy);
+</code>
+</div>
+</code>
+```

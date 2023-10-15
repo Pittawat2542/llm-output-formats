@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Amulet",
+    "objective": "Retrieve the ancient amulet from the depths of the Forbidden Temple.",
+    "description": "Legend has it that an ancient amulet with unimaginable power lies hidden deep within the Forbidden Temple.\n\t\tMany have tried to find it but none have succeeded. Are you brave enough to take up this quest and\n\t\tventure into the treacherous temple? The fate of the world may rest in your hands!",
+    "reward": "Ancient Amulet of Power",
+    "quest-giver": "Master Sage",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain the Temple Key",
+          "description": "The Forbidden Temple is sealed off from the outside world. To gain entry, you must find the\n\t\t\t\tTemple Key. It is said to be hidden somewhere in the Enchanted Forest. Search for clues and\n\t\t\t\tbeware of the magical creatures that inhabit the forest!",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the Temple's Chambers",
+          "description": "Once you have obtained the Temple Key, make your way to the entrance of the Forbidden Temple.\n\t\t\t\tThe temple is known for its complex chambers filled with traps and puzzles. Use your wit and\n\t\t\t\tskills to navigate through the treacherous paths and reach the inner sanctum.",
+          "location": "Forbidden Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Guardian Beast",
+          "description": "As you approach the inner sanctum, a fearsome Guardian Beast stands in your way. This creature\n\t\t\t\tis fiercely protective of the amulet and will not let anyone pass without a fight. Prepare yourself\n\t\t\t\tfor a challenging battle against the Guardian Beast and prove your worth to claim the amulet.",
+          "location": "Inner Sanctum"
+        }
+      ]
+    }
+  }
+}

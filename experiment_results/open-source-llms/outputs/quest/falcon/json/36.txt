@@ -1,0 +1,6 @@
+# Marks
+- `.```: Start of line below the markdown code.
+- `{` starts Markdown code in the JSON.
+- ``.` ends Markdown code in the JSON.
+
+JSON.stringify() the output of your Markdown code block and return it JSON-encoded.

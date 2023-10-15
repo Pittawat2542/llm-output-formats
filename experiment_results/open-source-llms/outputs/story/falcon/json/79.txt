@@ -1,0 +1,10 @@
+# Markdown story syntax
+- Each markdown line should begin with double asterisks (
+**).
+- If there is any additional text, such as paragraphs, it should be after the double asterisks.
+- For tables and lists, wrap them with double asterisks or a JSON syntax appropriate for the data type.
+- JSON data should be enclosed within $json or a JSON syntax, if necessary.
+- When using strings, enclose them within quotes. If there are more than one string, wrap them within a "blockquote" by adding a ## before and after.
+- Code snippets may be enclosed within $<code>if (code block)</code> tags for better readability.
+- For lists, wrap each item with double asterisks to create a bullet.
+- When using tables, wrap them within a "table" tags. If there are more than one table, wrap them within a "table" tags with the rows number defined in the markdown syntax.

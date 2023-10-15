@@ -1,0 +1,26 @@
+```txt
+id	first-name	last-name	species	age	role
+id 	john			john	18			human
+```
+
+```xml
+<data>
+    <character>
+        <id>id</id>
+        <first-name>first name</first-name>
+        <last-name>last name</last-name>
+        <age>exact age or description</age>
+        <role>human</role>
+        <background>human species</background>
+        <place-of-birth>human hometown</place-of-birth>
+        <physical-appearance>
+            <physical-appearance>
+                <eye-color>human color</eye-color>
+                <hair-color>human color</hair-color>
+                <height>human height in feet</height>
+                <weight>human weight in pounds</weight>
+            </physical-appearance>
+        </physical-appearance>
+    </character>
+</data>
+```

@@ -1,0 +1,25 @@
+<character>
+    <id>id</id>
+    <first-name>first name</first-name>
+    <last-name>last name</last-name>
+    <species>species</species>
+    <age>age or description</age>
+    <role>character role</role>
+    <background>background story</background>
+</character>
+```
+
+# example usage
+To use your character profile, include the following Markdown code in a post or a page:
+
+```
+<my-character>
+    <id>id</id>
+    <first-name>first name</first-name>
+    <last-name>last name</last-name>
+    <species>species</species>
+    <age>exact age or description</age>
+    <role>character role</role>
+    <background>background story</background>
+</my-character>
+```

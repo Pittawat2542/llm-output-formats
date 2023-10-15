@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: The kingdom of Acalia is under attack. Brave man, you must hold the front against the bloodthirsty beasts.
+  id: QST_1234
+  objective: Defeat the monsters terrorizing Acalia and bring peace to the Kingdom.
+  quest_giver: King Asthon 
+  reward: 1000 gold coins and The Sword of Valour
+  tasks:
+  - description: Collect necessary items and gear.
+    location: Royal Armory
+    objective: Acquire Armor set and Health potions
+    order: 1
+  - description: Reach the front line.
+    location: The Northern Gate
+    objective: Join the King's Knights at the Northern Gate.
+    order: 2
+  - description: Battle the monsters.
+    location: Valley of the North 
+    objective: Eliminate at least 20 monsters
+    order: 3
+  title: Fall of the Beasts          
+```

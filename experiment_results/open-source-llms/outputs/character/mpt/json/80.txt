@@ -1,0 +1,49 @@
+Here's a sample character profile for a fictional individual called Jane Miller:
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "test_cid",
+            "first_name": "Jane",
+            "last_name": "Miller",
+            "species": "human",
+            "age": "20",
+            "role": "Student",
+            "background": "Graduated high school",
+            "place_of_birth": "Earth",
+            "physical_appearance": [{
+                "eye_color": "brown",
+                "hair_color": "blonde",
+                "height": "163cm",
+                "weight": "57kg"
+            }]
+        }
+    }
+}
+```
+
+Here's a sample character profile for a fictional robot called LRR-1:
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "test_cid",
+            "first_name": "RRRRRRRRRR1",
+            "last_name": "LRR-1",
+            "species": "robot",
+            "age": "40",
+            "role": "Maintenance",
+            "background": "Rebuild from scratch",
+            "place_of_birth": "Factory",
+            "physical_appearance": [{
+                "eye_color": "Red",
+                "hair_color": "Silver",
+                "height": "1.66m",
+                "weight": "65kg"
+            }]
+        }
+    }
+}
+```

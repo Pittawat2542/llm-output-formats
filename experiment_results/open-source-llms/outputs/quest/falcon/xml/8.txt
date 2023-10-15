@@ -1,0 +1,34 @@
+### Example usage and output in Markdown format
+```markdown
+---
+id: quest id
+title: quest title
+objective: quest objective
+description: quest description
+reward: quest reward
+quest-giver: quest giver
+tasks:
+	- task name
+```
+
+<pre><code>--
+# Output format
+--
+
+# Output
+## Returns only the XML in the Markdown code block.
+```xml
+## Output format
+--
+* * * <#= this.objective.xml?> [&lt;?# => this.objective[0].xml?>] * 
+## This is the description in markdown formatting.
+: &lt;?# => this.description[1..-^]&lt;?#?> * 
+--
+--
+<?#
+<objective>
+<#= this.objective[1] | xml?>
+</objective>
+<#= this.description | xml?>
+</objective>
+</?#>

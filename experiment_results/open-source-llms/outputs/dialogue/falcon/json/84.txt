@@ -1,0 +1,6 @@
+In this example, we use `{"game":{
+        "dialogues":[
+            {"order": "dialogue order", "speaker": "speaker name", "text": "dialogue or narration"}
+        ]}` to specify a JSON data format with a `dialogues` array containing an object with a `order` property, a `speaker` property, and a `text` property.
+
+To access the JSON data, we use `{output=json object in Markdown}` syntax where `output=json object in Markdown`.

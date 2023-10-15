@@ -1,0 +1,11 @@
+YAML output:
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+      - text: dialogue or narration
+```
+
+Explanation: The `order` key has been converted to a Markdown syntax for easier readability. Similarly, `speaker` and `text` are nested within dialogue tags.

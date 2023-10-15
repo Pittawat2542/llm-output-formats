@@ -1,0 +1,13 @@
+# Markdown code block (optional), which is only generated if `additionalGameObject` is a valid object in the story
+<object id="additionalGameObject">
+	<position>0 0 100 100100</position>
+	<color>1A1A1A0</color>
+	<image x:source="images/gameObject.png"/>
+</object>
+
+<!-- gameObject definition -->
+<GameObject x:type="msx2.GameGameObject">
+	<GameObject.GameObjectClass>a class</GameObject.GameObjectClass>
+	<GameObject.GameObjectClassFlags>O = open all, N = new, F = force load, A = auto load, I = initialized, S = shutdown</GameObject.GameObjectClassFlags>
+</GameObject>
+```

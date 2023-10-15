@@ -1,0 +1,3 @@
+<p>The enemy list is listed inside an XML tags `enemy`, `id`, `name`, `description`, etc. The `hp` tag is optional but useful to indicate the enemy's health points which are displayed next to the creature in the game interface.</p>
+
+The `mp` tag indicates their maximum mana points and is used to limit the usage of spells or attacks. The `atk` tag indicates their melee attack strength and is used to represent their current attack value. The `def` tag indicates their defence strength and is used to represent their defence value. The `spd` tag is used to indicate their speed and determines the creature's speed during movement. Overall, the enemy list has a specific structure needed to be parsed and understood by the code.</p>

@@ -1,0 +1,41 @@
+In this example, the `"first_name": "first name"`, `"last_name": "last name"`, `"species": "species"`, `"age": "exact age or description"`, and `"place_of_birth": "location"` properties are nested inside the `"game": `{` property. Inside that property, you can have multiple JSON properties, as there are no restrictions on the depth of the nested JSON.
+
+The output would be:
+
+```
+{
+  "game": {
+    "character": {
+      "id": "id",
+      "first_name": "first name",
+      "last_name": "last name",
+      "species": "species",
+      "age": "exact age or description",
+      "role": "role of the character",
+      "background": "background story",
+      "place_of_birth": {"
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+      }},
+      "physical_appearance": [
+        {
+          "eye_color": "eye color",
+          "hair_color": "hair color",
+          "height": "height in float value",
+          "weight": "weight in float value"
+        },
+        {
+          "eye_color": "other eye color",
+          "hair_color": "other hair color",
+          "height": "other height in float value",
+          "weight": "other weight in float value"
+        }
+      ]
+    }
+  }
+}
+```
+
+Note that the JSON format is not always necessary for creating human-like characters if you only have limited properties.

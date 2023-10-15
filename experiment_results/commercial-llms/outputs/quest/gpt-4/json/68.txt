@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "1234",
+        "title": "The Forgotten Artifact",
+        "objective": "Retrive the Forgotten Artifact from Ancient Ruins",
+        "description": "Legend tells of an ancient artifact that possesses sea controlling powers. The artifact was supposedly hidden in these ruins. Your task is to retrieve it.",
+        "reward": "5000 Gold coins and Triton's Trident",
+        "quest_giver": "Old Sailor",
+        "tasks": [{
+            "order": "1",
+            "objective": "Navigate the Labyrinth",
+            "description": "To reach the Artifact, first you must navigate through the perilous labyrinth filled with deadly traps and puzzles.",
+            "location": "Entrance of Ancient Ruins"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the Guardian",
+            "description": "Guarding the artifact is a powerful ancient being. You must defeat it in combat to proceed.",
+            "location": "Deepest Chamber of Ancient Ruins"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the Artifact",
+            "description": "With the guardian defeated, you can now retrieve the Artifact. Handle it with care.",
+            "location": "Artifact's Pedestal in Ancient Ruins"
+        }]
+    }
+}
+```

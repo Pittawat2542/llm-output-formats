@@ -1,0 +1,29 @@
+Sure, here is an example of a dialogue in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Player</speaker>
+      <text>Hello, world!</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>NPC</speaker>
+      <text>Greetings, traveler. What brings you to my humble village?</text>
+    </dialogue>
+    <dialogue>
+      <order>3</order>
+      <speaker>Player</speaker>
+      <text>I'm on a quest to find the legendary Sword of Power.</text>
+    </dialogue>
+    <dialogue>
+      <order>4</order>
+      <speaker>NPC</speaker>
+      <text>A noble quest indeed. I wish you luck on your journey.</text>
+    </dialogue>
+  </dialogues>
+</game>
+```

@@ -1,0 +1,489 @@
+
+
+## Input format
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Rules
+
+1. The input is a list of questions.
+2. Each question is a string.
+3. Each question starts with "question:" followed by a question.
+4. Each question is followed by a newline.
+5. Each question ends with a newline.
+6. The input is terminated by a newline.
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the synopsis of the game?"
+
+"question": "What is the beginning of the game?"
+
+"question": "What is the ending of the game?"
+```
+
+### Sample Output
+
+```
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Test cases
+
+| Test Case | Input | Output |
+| -------- | ----- | ------ |
+| Test 1   | "question": "What is the title of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 2   | "question": "What is the synopsis of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 3   | "question": "What is the beginning of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 4   | "question": "What is the ending of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+
+### Test data
+
+[Test data](./test_data/inst.txt)
+
+### Explanation
+
+The input is a list of questions.
+
+Each question is a string.
+
+Each question starts with "question:" followed by a question.
+
+Each question is followed by a newline.
+
+Each question ends with a newline.
+
+The input is terminated by a newline.
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the synopsis of the game?"
+
+"question": "What is the beginning of the game?"
+
+"question": "What is the ending of the game?"
+```
+
+### Sample Output
+
+```
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Test cases
+
+| Test Case | Input | Output |
+| -------- | ----- | ------ |
+| Test 1   | "question": "What is the title of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 2   | "question": "What is the synopsis of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 3   | "question": "What is the beginning of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 4   | "question": "What is the ending of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+
+### Test data
+
+[Test data](./test_data/inst.txt)
+
+### Explanation
+
+The input is a list of questions.
+
+Each question is a string.
+
+Each question starts with "question:" followed by a question.
+
+Each question is followed by a newline.
+
+Each question ends with a newline.
+
+The input is terminated by a newline.
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the synopsis of the game?"
+
+"question": "What is the beginning of the game?"
+
+"question": "What is the ending of the game?"
+```
+
+### Sample Output
+
+```
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Test cases
+
+| Test Case | Input | Output |
+| -------- | ----- | ------ |
+| Test 1   | "question": "What is the title of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 2   | "question": "What is the synopsis of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 3   | "question": "What is the beginning of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 4   | "question": "What is the ending of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+
+### Test data
+
+[Test data](./test_data/inst.txt)
+
+### Explanation
+
+The input is a list of questions.
+
+Each question is a string.
+
+Each question starts with "question:" followed by a question.
+
+Each question is followed by a newline.
+
+Each question ends with a newline.
+
+The input is terminated by a newline.
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the synopsis of the game?"
+
+"question": "What is the beginning of the game?"
+
+"question": "What is the ending of the game?"
+```
+
+### Sample Output
+
+```
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Test cases
+
+| Test Case | Input | Output |
+| -------- | ----- | ------ |
+| Test 1   | "question": "What is the title of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 2   | "question": "What is the synopsis of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 3   | "question": "What is the beginning of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 4   | "question": "What is the ending of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+
+### Test data
+
+[Test data](./test_data/inst.txt)
+
+### Explanation
+
+The input is a list of questions.
+
+Each question is a string.
+
+Each question starts with "question:" followed by a question.
+
+Each question is followed by a newline.
+
+Each question ends with a newline.
+
+The input is terminated by a newline.
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the synopsis of the game?"
+
+"question": "What is the beginning of the game?"
+
+"question": "What is the ending of the game?"
+```
+
+### Sample Output
+
+```
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+### Test cases
+
+| Test Case | Input | Output |
+| -------- | ----- | ------ |
+| Test 1   | "question": "What is the title of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 2   | "question": "What is the synopsis of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 3   | "question": "What is the beginning of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+| Test 4   | "question": "What is the ending of the game?" | { "game": { "title": "game title", "synopsis": "game story synopsis", "beginning": "the beginning of the game", "ending": "the ending of the game" } } |
+
+### Test data
+
+[Test data](./test_data/inst.txt)
+
+### Explanation
+
+The input is a list of questions.
+
+Each question is a string.
+
+Each question starts with "question:" followed by a question.
+
+Each question is followed by a newline.
+
+Each question ends with a newline.
+
+The input is terminated by a newline.
+
+### Examples
+
+#### Example 1
+
+```
+"question": "What is the title of the game?"
+```
+
+#### Example 2
+
+```
+"question": "What is the synopsis of the game?"
+```
+
+#### Example 3
+
+```
+"question": "What is the beginning of the game?"
+```
+
+#### Example 4
+
+```
+"question": "What is the ending of the game?"
+```
+
+### Constraints
+
+1. The input contains 1 to 10 questions.
+2. Each question is at most 50 characters long.
+3. The input contains no empty lines.
+4. The input contains no more than 100 characters.
+5. The input contains no more than 100 lines.
+6. The input contains no more than 100 words.
+
+### Sample Input
+
+```
+"question": "What is the title of the game?"
+
+"question": "What is the

@@ -1,0 +1,13 @@
+- Quest information:
+   - Game description (title)
+   - Game id (id)
+   - Game objective (objective)
+   - Quest giver (quest_giver)
+   - Locations and objectives (tasks)
+
+  - Descriptions:
+   - Each task has its own description
+   - Quest rewards go in the "reward" object, as a YAML list
+
+- Rewards:
+   - Reward IDs go as separate values (quest_givers) in the "reward" object

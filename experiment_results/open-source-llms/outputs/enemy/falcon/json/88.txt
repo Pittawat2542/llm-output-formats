@@ -1,0 +1,49 @@
+# Rebuild HTML
+```
+<html>
+<head>
+  <title>Enemy Battle Info</title>
+</head>
+<body>
+<h3>Enemy Battle Status</h3>
+
+<ul>
+  <li>Fighting Enemy <b>enemy1</b>.</li>
+  <li>Fighting Enemy <b>enemy2</b>.</li>
+</ul>
+
+<script>
+// Get a reference to the HTML, DOM, and JavaScript.
+var doc = window.document;
+var enemylist = doc.querySelector('.game a img').parentElement;
+var status = enemylist.childNodes[0];
+var json = [status];
+
+JSON.parse(JSON.stringify(JSON.stringify(json)));
+var stats_list = json[JSON.JSON_UNESCAPED_UNINDENT];
+var stats = stats_list.splice(args.atk + 1, 13);
+
+JSON.stringify(stats);
+console.log(JSON.stringify(json[JSON.GARAGE_SHOWN]));
+
+// Enemylist with position and size in console.
+var list = doc.querySelector('.hgj');
+console.log(list.style.color);
+console.log(list.style.backgroundColor);
+console.log(list.style.flex);
+console.log(list.style.textAlign);
+
+list.addEventListener('mouseover', function() {
+  list.style.display = 'grid';
+});
+
+list.addEventListener('mouseout', function() {
+  list.style.display = 'none';
+});
+
+</script>
+```
+
+## Example usage:
+
+- In Firefox and Safari, use `console.log` or `console.error` to output the HTML to Terminal, which can be used to extract the JSON.

@@ -1,0 +1,17 @@
+```
+Your enemy is:
+
+```<enemy id="id">
+	<name>name</name>
+	<description>description</description>
+	<stats>
+		<hp>hp int value</hp>
+		<mp>mp int value</mp>
+		<atk>atk int value</atk>
+		<def>def int value</def>
+		<spd>spd int value</spd>
+	</stats>
+</enemy>
+``` 
+
+In XML format, the entire enemy can be enclosed inside a `<game>` tag with a specified `enemy` tag. Inside the `enemy` tag, define the `id` attribute as the `id` value of the enemy, `name` the `name` of the enemy, and `description` its `description`. Inside the `stats` tag, define the `hp` attribute as `hp int value`, `mp` as `mp int value`, `atk` as `atk int value`, `def` as `def int value`. Finally, `spd` the `spd` tag is not directly supported in the stats tag, but it is expected to represent the `spd` tag inside the enemy definition.

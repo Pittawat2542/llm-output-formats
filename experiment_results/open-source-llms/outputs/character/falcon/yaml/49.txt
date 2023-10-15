@@ -1,0 +1,15 @@
+# Input format
+```yaml
+character:
+- age: the character's age
+- background: short bio of the character
+- first_name: the character's first name
+- id: an unique identifier for the character
+- last_name: last name
+- physical_appearance: attributes specific to the character
+- eye_color: eye color
+- hair_color: hair color
+- height: height in cm
+- weight: weight in kg
+- role: role of the character
+- species: species of the character

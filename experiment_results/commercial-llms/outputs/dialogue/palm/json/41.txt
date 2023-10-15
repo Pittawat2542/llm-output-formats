@@ -1,0 +1,38 @@
+```json
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": 1,
+        "speaker": "Player",
+        "text": "Hello, world!"
+      },
+      {
+        "order": 2,
+        "speaker": "NPC",
+        "text": "Greetings, traveler. What brings you to my humble village?"
+      },
+      {
+        "order": 3,
+        "speaker": "Player",
+        "text": "I'm looking for a quest. Do you have any work for me?"
+      },
+      {
+        "order": 4,
+        "speaker": "NPC",
+        "text": "As a matter of fact, I do. There's a group of goblins terrorizing the nearby village. Would you be willing to help us drive them out?"
+      },
+      {
+        "order": 5,
+        "speaker": "Player",
+        "text": "Of course! I'll be happy to help."
+      },
+      {
+        "order": 6,
+        "speaker": "NPC",
+        "text: "Thank you, kind stranger. You will be rewarded for your bravery."
+      }
+    ]
+  }
+}
+```

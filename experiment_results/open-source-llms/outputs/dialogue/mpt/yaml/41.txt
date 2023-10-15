@@ -1,0 +1,11 @@
+Here is an example game of “The Game.” The “dialogues” field lists the order in which the game’s “dialogues” or “narration” appear:
+
+game:
+  dialogues:
+  - order: "This is a dialogue." 
+    speaker: "The Speaker." 
+    text: "Here is an example conversation, and this is what a dialogue looks like. I have written it as a block of text, so it is easy to copy and paste for your conversation. It may feel unnatural to type the text out on keyboard, so you can use speech recognition to speak aloud instead." 
+  - order: "This is a narration." 
+    speaker: "The Speaker." 
+    text: "This is a narration, which tells a story or expresses an opinion. A narration should feel “told,” in the sense of an author describing a scene to a reader. It can be in first or third person, and the narrator can reflect on the action or react to the situation."
+```

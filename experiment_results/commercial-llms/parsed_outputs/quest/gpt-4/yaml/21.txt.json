@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The kingdom is under threat and needs a fearless hero to save it.",
+    "id": "00108",
+    "objective": "To save the kingdom from the threat of powerful monsters.",
+    "quest_giver": "King Arthur",
+    "reward": "The legendary Excalibur sword and 5000 gold coins.",
+    "tasks": [
+      {
+        "description": "Fight and defeat the dragon terrorizing the village.",
+        "location": "Dragon's Lair, North of the castle.",
+        "objective": "Slay the dragon.",
+        "order": 1
+      },
+      {
+        "description": "Find the witch in the dark forest, she will provide a magic potion.",
+        "location": "Dark Forest, West of the castle.",
+        "objective": "Obtain the magic potion.",
+        "order": 2
+      },
+      {
+        "description": "Use the potion to break the curse placed on the kingdom.",
+        "location": "Castle Throne Room.",
+        "objective": "Use the magic potion.",
+        "order": 3
+      }
+    ],
+    "title": "Save the Kingdom"
+  }
+}

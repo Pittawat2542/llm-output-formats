@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: This quest will lead the hero to the old ruins, fighting enemies and revealing secrets along the way.
+  id: 12345
+  objective: Uncover the truths held in the ancient ruins and return safely.
+  quest_giver: Mysterious Old Man in the Village Tavern
+  reward: 2000 gold and a unique artifact
+  tasks:
+  - description: Travel to the ancient ruins located in the Whispering Woods.
+    location: Whispering Woods
+    objective: Reach the ancient ruins
+    order: 1
+  - description: Defeat the guardian of the ruins.
+    location: Ancient Ruins
+    objective: Defeat the guardian
+    order: 2
+  - description: Find the ancient inscription within the ruins.
+    location: Ancient Ruins
+    objective: Locate and read the ancient inscription
+    order: 3
+  - description: Safely return to the old man with the information.
+    location: Village Tavern
+    objective: Return to the quest giver
+    order: 4
+  title: Secrets of the Ancient Ruins
+```

@@ -1,0 +1,15 @@
+XML Formatting
+
+1. Indent using spaces or tabs.
+2. Add line breaks using the <br> tag.
+3. Use "<synopsis>" and "</synopsis>" tags to indicate a synopsis.
+
+Example:
+```xml
+<xmlns:game="http://example.com/game">
+    <game:title>game title</game:title>
+    <game:synopsis>game story synopsis</game:synopsis>
+    <game:beginning>the beginning of the game</game:beginning>
+    <game:ending>the ending of the game</game:ending>
+</game>
+```

@@ -1,0 +1,293 @@
+
+
+### Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Explanation
+
+The XML structure is pretty straightforward. Each character is a separate element, with a `character` element as the root.
+
+The `id` element is a unique identifier for the character. It should be a number, but you can also use letters.
+
+The `first-name` and `last-name` elements are the character's first and last names.
+
+The `species` element is the character's species.
+
+The `age` element is the character's age, expressed in years.
+
+The `role` element is the character's role in the story.
+
+The `background` element is the character's background story.
+
+The `place-of-birth` element is the character's place of birth.
+
+The `physical-appearance` element is a child element of the `character` element. It contains a `physical-appearance` element, which contains the character's physical appearance.
+
+The `physical-appearance` element contains the character's eye color, hair color, height, and weight.
+
+### Test cases
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>

@@ -1,0 +1,80 @@
+
+
+## Example
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+## Tests
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Run tests
+
+```
+$ yarn test
+```
+
+### Run tests in watch mode
+
+```
+$ yarn test:watch
+```
+
+### Run tests in coverage mode
+
+```
+$ yarn test:coverage
+```
+
+### Run tests in coverage mode with watch mode
+
+```
+$ yarn test:coverage:watch
+```
+
+### Run tests in coverage mode with watch mode and open browser
+
+```
+$ yarn test:coverage:watch:open
+```
+
+### Run tests in coverage mode with watch mode and open browser with port
+
+```
+$ yarn test:coverage:watch:open:port
+```
+
+### Run tests in coverage mode with watch mode and open browser with port and live reload
+
+```
+$ yarn test:coverage:watch:open:port:live
+```
+
+### Run tests in coverage mode with watch mode and open browser with port and live reload and open browser with port and live reload
+
+```
+$ yarn test:coverage:watch:open:port:live:open:port:live
+```
+
+### Run tests in coverage mode with watch mode and open browser with port and live reload and open browser with port and live reload and open browser with port and live reload
+
+```
+$ yarn test:coverage:watch:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live
+```
+
+### Run tests in coverage mode with watch mode and open browser with port and live reload and open browser with port and live reload and open browser with port and live reload and open browser with port and live reload and open browser with port and live reload
+
+```
+$ yarn test:coverage:watch:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:live:open:port:

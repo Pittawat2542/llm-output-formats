@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "123",
+        "title": "Retrieve the Lost Artifact",
+        "objective": "Find and retrieve the ancient artifact hidden deep within the forgotten ruins.",
+        "description": "Legend has it that an ancient artifact with immense power lies hidden within the Forgotten Ruins. Many adventurers have tried to find it, but none have succeeded. Are you brave enough to take on this challenge?",
+        "reward": "The artifact's power is said to grant unimaginable riches and power.",
+        "quest_giver": "Elder Fargrim",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the entrance to the Forgotten Ruins",
+            "description": "Search in the forest near the old stone bridge that leads to the mountains.",
+            "location": "Forest near the old stone bridge"
+        },
+        {
+            "order": "2",
+            "objective": "Navigate through the traps and puzzles in the ruins",
+            "description": "Beware of collapsing floors and hidden doors. Solve riddles and puzzles to progress deeper into the ruins.",
+            "location": "Inside the Forgotten Ruins"
+        },
+        {
+            "order": "3",
+            "objective": "Locate the chamber where the artifact is hidden",
+            "description": "Follow the ancient inscriptions on the walls that guide you towards the chamber. Be mindful of the guardian that protects it.",
+            "location": "Deep within the Forgotten Ruins"
+        },
+        {
+            "order": "4",
+            "objective": "Retrieve the Lost Artifact",
+            "description": "Once in the chamber, carefully remove the artifact from its pedestal. Be cautious, for it is said that touching the artifact without proper precaution may trigger a curse.",
+            "location": "Chamber of the Lost Artifact"
+        }]
+    }
+}
+```
+```

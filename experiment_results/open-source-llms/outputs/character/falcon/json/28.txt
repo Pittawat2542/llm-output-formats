@@ -1,0 +1,21 @@
+```
+game.character.character
+{
+    id: id,
+    first_name: first_name,
+    last_name: last_name,
+    species: species,
+    age: exactage in years,
+    role: role of character,
+    background: backstory,
+    place_of_birth: location,
+    physical_appearance: [
+        {
+            eye_color: eye_color in whitespace string,
+            hair_color: hair_color in whitepace string,
+            height: float(weight/0.7) in float value,
+            weight: weight in 0.5f
+          ]
+    ]
+}
+```

@@ -1,0 +1,15 @@
+```python
+quest_formatted_json = generate_quest_formatted_json("Your query here...")
+
+if "objective" in "your.quast.information":
+    task_name = "your.task.name"
+    task_title = quest_formatted_json["game"]["objective"]["description"]
+    task_description = quest_formatted_json["game"]["objective"]["description"]
+else:
+    task_name = "Your main quest"
+    task_title = "Your main quest title"
+    task_description = "Your main quest description"
+
+print(f"{task_name}: {task_title}")```
+
+This will produce a JSON output that includes only the "game.objective.description" property in the Markdown code block.

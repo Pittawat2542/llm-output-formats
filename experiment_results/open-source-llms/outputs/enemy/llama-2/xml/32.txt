@@ -1,0 +1,118 @@
+
+
+## Input format
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Examples
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Dark Magician</name>
+		<description>A magician of the dark forces. It uses magic to attack. It has a strong defense, but its attack power is weak. It is a weak enemy.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>100</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Output examples
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Dark Magician</name>
+		<description>A magician of the dark forces. It uses magic to attack. It has a strong defense, but its attack power is weak. It is a weak enemy.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>100</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Help
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Dark Magician</name>
+		<description>A magician of the dark forces. It uses magic to attack. It has a strong defense, but its attack power is weak. It is a weak enemy.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>100</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Tests
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Dark Magician</name>
+		<description>A magician of the dark forces. It uses magic to attack. It has a strong defense, but its attack power is weak. It is a weak enemy.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>100</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Test output
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Dark Magician</name>
+		<description>A magician of the dark forces. It uses magic to attack. It has a strong defense, but its attack power is weak. It is a weak enemy.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>100</def>
+			<spd>20</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

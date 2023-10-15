@@ -1,0 +1,12 @@
+```markdown
+Quest Information:
+- `game.id`: Unique identifier for the quest.
+- `game.title`: Quest title.
+- `game.objective`: What the quest is about.
+- `game.description`: Detailed description of the quest.
+- `game.reward`: Quest reward (optional).
+- `game.quest_giver`: Information about the quest giver.
+- `game.tasks`: An array of task objects. Each task contains an order and an objective, but no description.
+- `game.tasks.objective`: Task objective (only)
+- `game.tasks.description`: Task description (only).
+- `game.location`: Quest location (only).

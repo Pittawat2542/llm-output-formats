@@ -1,0 +1,31 @@
+```
+<game>
+	<enemy name="X">
+		<id>X</id>
+		<name>X description</name>
+		<stats>
+			<hp>X_hp int value</hp>
+			<mp>X_mp int value</mp>
+			<atk>X atk int value</atk>
+			<def>X_def int value</def>
+			<spd>X speed int value</spd>
+		</stats>
+	</enemy>
+</game>
+
+The enemy can be created from the following code:
+```
+<enemy name='my_name_enemy'>
+   <id id='my_enemy_id' name='my_name'>
+         <stats>
+             <hp>hp int value</hp>
+             <mp>mp int value</mp>
+             <atk>atk int value</atk>
+             <def>def int value</def>
+                     <spd>spd int value</spd>
+             </stats>
+     </enemy>
+</enemy> 
+```
+
+The main output XML will be generated with the name attribute replaced by the enemy name, and the `hp`, `mp`, `atk`, `def`, and `spd` attributes changed to match those of the specified enemy.

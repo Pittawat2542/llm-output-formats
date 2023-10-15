@@ -1,0 +1,5 @@
+The quest information in the quest.liquid code block should have the following structure:
+- Output the `<objective>` tag as the quest's objective.
+- Output the `<description>` tag as the quest's description.
+- Output the `<reward>` tag only if necessary. Only `<reward>` tag with a tag of `<quest-reward>` should be used.
+- Output the `<location>` tag as the quest's location. If the quest consists of multiple locations, they should be wrapped in a single `<location>` tag.

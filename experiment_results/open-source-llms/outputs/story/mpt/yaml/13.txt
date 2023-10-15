@@ -1,0 +1,10 @@
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: the game story synopsis
+  title: the game title
+```
+Note that the returned yaml is valid YAML so we include the trailing newline that would otherwise be included if the output were returned as Markdown.
+
+This format is specific for game story synopsis. For synopses about other types of stories, simply do not specify the "game" item, and the defaults will apply.

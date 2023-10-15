@@ -1,0 +1,68 @@
+Character:
+```yaml
+game:
+  character:
+    name: name
+    physical_appearance:
+      - eye_color: "<color-code>".default(default_color)
+      - hair_color: "<color-code>".default(default_color)
+      - height: <numeric-value>
+      - weight: <numeric-value>
+```
+
+Character's age:
+```yaml
+game:
+  character:
+    age: <numeric-value>
+```
+
+Character's birthplace:
+```yaml
+game:
+  character:
+    place_of_birth: <character_spec_spec>
+```
+
+Character's game title:
+```yaml
+game:
+  character:
+    name: <character_spec_spec>
+```
+
+Character's species:
+```yaml
+game:
+  character:
+    name: <character_spec_spec>
+    species: <character species>
+```
+
+Character's physical appearance:
+```yaml
+game:
+  character:
+    name: <character_spec_spec>
+    # physical_appearance:
+    - eye_color: "<numeric-code>".default(default_color)
+    - hair_color: "<numeric-code>".default(default_color)
+    - height: <numeric-code>
+    - weight: <numeric-code>
+```
+
+Markdown Code Block YAML
+```yaml
+char:
+    name: <name>
+    physical_appearance:
+      eye_color: <color_code>
+      hair_color: <color_code>
+      height: <numeric-code>
+      weight: <numeric-code>
+    place_of_birth: <place_of_birth>
+    role: <role>
+    species: <species>
+```
+
+This generates a character profile YAML with a name, physical appearance, and occupation. The color codes can be set according to the user's preferences.

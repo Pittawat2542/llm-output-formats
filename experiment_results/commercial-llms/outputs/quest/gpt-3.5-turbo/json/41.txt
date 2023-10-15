@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "id": "123",
+        "title": "Rescue the Princess",
+        "objective": "Save the princess from the evil dragon",
+        "description": "The kingdom's beloved princess has been kidnapped by a fearsome dragon and is being held captive in its lair. The king is offering a generous reward to anyone who can rescue her.",
+        "reward": "1000 gold coins",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Obtain a powerful weapon",
+            "description": "To defeat the dragon, you'll need a weapon capable of piercing its scales. Find the legendary Sword of Dragonslaying hidden in the enchanted forest.",
+            "location": "Enchanted Forest"
+        },
+        {
+            "order": "2",
+            "objective": "Retrieve a magic potion",
+            "description": "The dragon's fiery breath is its deadliest weapon. Obtain a magic potion that grants temporary fire resistance from the alchemist in the village.",
+            "location": "Village Alchemist"
+        },
+        {
+            "order": "3",
+            "objective": "Sneak into the dragon's lair",
+            "description": "Infiltrate the dragon's lair without alerting it to your presence. Use stealth and cunning to navigate the treacherous tunnels and chambers.",
+            "location": "Dragon's Lair"
+        },
+        {
+            "order": "4",
+            "objective": "Defeat the dragon and rescue the princess",
+            "description": "Engage the dragon in an epic battle to the death. Use your acquired weapon and potion to overcome its defenses. Once defeated, safely bring the princess back to the king.",
+            "location": "Dragon's Lair"
+        }]
+    }
+}
+```

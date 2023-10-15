@@ -1,0 +1,23 @@
+```
+enemy = "id"
+name = "name"
+description = "description"
+hp = 100
+mp = 100
+atk = 100
+def = 100
+spd = 100
+```
+
+# Code block
+```
+<enemy name="{enemy}">
+    <stats>
+        <hp>{hp}</hp>
+        <mp>{mp}</mp>
+        <atk>{atk}</atk>
+        <def>{def}</def>
+        <spd>{spd}</spd>
+    </stats>
+</enemy>
+```

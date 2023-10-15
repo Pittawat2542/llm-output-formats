@@ -1,0 +1,20 @@
+```xml
+<game>
+	<enemy id="12">
+		<id>id</id>
+		<name>name</name>
+		<description>name description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+        <hp>0</hp> <mp>1000 -400 -1</mp>
+        <atk>250>1 -2</atk>
+		<def>1:1</def> <hp>8</hp> <mp>11,000>14,000 -400 -1</mp>
+		<hp>-3>1 -2</hp> <mp>8,000</mp> <mp>13,000 >9,000</h>
+	</enemy>
+</game>
+```

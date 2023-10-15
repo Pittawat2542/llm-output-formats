@@ -1,0 +1,892 @@
+
+
+## Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Boss</name>
+		<description>The Boss is a powerful enemy with high HP and MP. It has a very high attack and defense.</description>
+		<stats>
+			<hp>200</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>20</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Miniboss</name>
+		<description>The Miniboss is a powerful enemy with high HP and MP. It has a very high attack and defense.</description>
+		<stats>
+			<hp>150</hp>
+			<mp>100</mp>
+			<atk>15</atk>
+			<def>15</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+## Requirements
+
+* [Markdown](https://www.markdownguide.org/)
+
+## Usage
+
+```shell
+$ markdown-to-xml <file>
+```
+
+### Example
+
+```shell
+$ markdown-to-xml example.md
+```
+
+### Output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Boss</name>
+		<description>The Boss is a powerful enemy with high HP and MP. It has a very high attack and defense.</description>
+		<stats>
+			<hp>200</hp>
+			<mp>100</mp>
+			<atk>20</atk>
+			<def>20</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Miniboss</name>
+		<description>The Miniboss is a powerful enemy with high HP and MP. It has a very high attack and defense.</description>
+		<stats>
+			<hp>150</hp>
+			<mp>100</mp>
+			<atk>15</atk>
+			<def>15</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Options
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Options
+
+```shell
+--help                Show this message and exit.
+--version             Show the version and exit.
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml example.md
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-to-xml --version
+```
+
+### Examples
+
+```shell
+$ markdown-to-xml --help
+```
+
+```shell
+$ markdown-

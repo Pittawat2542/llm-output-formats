@@ -1,0 +1,5 @@
+- `# Output format` is a Markdown comment that defines the output format of the game story synopsis.
+- `game title` is the beginning of the game title that is enclosed in double quotes. This will be extracted as the "title" attribute of the game object later.
+- `<synopsis>game story synopsis</synopsis>` is a Markdown code block that is enclosed within a pair of triple quotes. It will be automatically inserted into the "synopsis" attribute of the game object.
+- `<beginning>the beginning of the game</beginning>` is the start of the game object.
+- `<ending>the ending of the game</ending>` is the end of the game object.

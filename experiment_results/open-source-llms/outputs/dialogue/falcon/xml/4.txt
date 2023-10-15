@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+Output:
+```
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue> 
+</dialogues>
+</game>
+```
+
+Note: Make sure to include the "game" tag at the top of the Markdown code block to indicate that it is an XML dialogue.

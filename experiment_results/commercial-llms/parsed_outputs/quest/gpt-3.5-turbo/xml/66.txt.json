@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Defeat the Dragon",
+    "objective": "Defeat the dragon and save the kingdom",
+    "description": "There is a menacing dragon terrorizing the kingdom. You have been chosen as the hero who will venture into its lair and slay the beast to save the kingdom from destruction.",
+    "reward": "An enchanted sword and a chest full of gold",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Collect the dragon's scale",
+          "description": "Your first task is to collect a scale from the dragon. This will prove that you have faced the beast and survived.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the ancient artifact",
+          "description": "The ancient artifact is hidden in a secret chamber deep within the dragon's lair. Find it and bring it back to the kingdom.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+The battle stats are:
+
+Game:
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": 110,
+                "mp": 150,
+                "atk": 80,
+                "def": 30,
+                "spd": 200
+            }
+        }
+    }
+}
+```

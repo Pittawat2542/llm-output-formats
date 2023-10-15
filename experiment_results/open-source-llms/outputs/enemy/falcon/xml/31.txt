@@ -1,0 +1,14 @@
+## Example Markdown code block
+```
+# Markdown code block
+The enemy has 100 hp.
+
+<![CDATA[
+    <enemy id="enemy">
+        <name>The enemy</name>
+        <description>A description of the enemy</description>
+    </enemy>
+]]></enemy>
+```
+
+The XML in the Markdown code block is within the square brackets, and is represented by the name "enemy". However, only the HTML and properties inside are returned in the XML output. If you remove or modify the properties, some text may be missing from the XML.

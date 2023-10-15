@@ -1,0 +1,20 @@
+```{r}
+play_quests(
+  game = example_game(),
+  objective = "Complete the quest"
+)
+```
+Output:
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "Quest title",
+        "objective": "Complete quest objective",
+        "location": "quest location"
+    },
+    "tasks": [
+        "{%= game |> toJSON("order",.id) %}"
+    ]
+}
+```

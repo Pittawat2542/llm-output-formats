@@ -1,0 +1,6 @@
+# Details in Markdown
+Quest Title: YAML title
+
+Quests can be broken down into a list of objectives in Markdown to make them easy to parse. To only display YAML in the Markdown format, the YAML block is surrounded by double backticks, without spaces, and comments are set to extend from the same line as the block. Task names are in header-case (i.e. Quest Giver). Tasks are ordered numerically, starting from 1, so they are listed in the correct order if a duplicate name occurs.
+
+The YAML title (# game) and description (# id, objectives, reward) are displayed by themselves in separate Markdown format blocks. The tasks following the YAML title are in the "description" section of the YAML without headings, but are numerically ordered, starting from 1, according to the tasks list in the header.

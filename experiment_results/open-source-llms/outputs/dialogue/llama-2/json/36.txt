@@ -1,0 +1,914 @@
+
+
+## Input
+
+### Example
+
+```markdown
+# Input format
+
+[SYS]
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe. Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+
+If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+[/SYS]
+
+[QUESTION]
+
+How many people are in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+There are over 7.8 billion people in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest continent?
+
+[/QUESTION]
+
+[ANSWER]
+
+Asia is the largest continent.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Canada?
+
+[/QUESTION]
+
+[ANSWER]
+
+Ottawa is the capital of Canada.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United States?
+
+[/QUESTION]
+
+[ANSWER]
+
+Washington, D.C. is the capital of the United States.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Europe?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in Europe.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of France?
+
+[/QUESTION]
+
+[ANSWER]
+
+Paris is the capital of France.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United Kingdom?
+
+[/QUESTION]
+
+[ANSWER]
+
+London is the capital of the United Kingdom.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in South America?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brazil is the largest country in South America.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Brazil?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brasilia is the capital of Brazil.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Africa?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algeria is the largest country in Africa.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Algeria?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algiers is the capital of Algeria.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Oceania?
+
+[/QUESTION]
+
+[ANSWER]
+
+Australia is the largest country in Oceania.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Australia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Canberra is the capital of Australia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Russia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Moscow is the capital of Russia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Canada?
+
+[/QUESTION]
+
+[ANSWER]
+
+Ottawa is the capital of Canada.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest continent?
+
+[/QUESTION]
+
+[ANSWER]
+
+Asia is the largest continent.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of China?
+
+[/QUESTION]
+
+[ANSWER]
+
+Beijing is the capital of China.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of India?
+
+[/QUESTION]
+
+[ANSWER]
+
+New Delhi is the capital of India.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Japan?
+
+[/QUESTION]
+
+[ANSWER]
+
+Tokyo is the capital of Japan.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United States?
+
+[/QUESTION]
+
+[ANSWER]
+
+Washington, D.C. is the capital of the United States.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Europe?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in Europe.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Russia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Moscow is the capital of Russia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United Kingdom?
+
+[/QUESTION]
+
+[ANSWER]
+
+London is the capital of the United Kingdom.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in South America?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brazil is the largest country in South America.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Brazil?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brasilia is the capital of Brazil.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Africa?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algeria is the largest country in Africa.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Algeria?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algiers is the capital of Algeria.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Oceania?
+
+[/QUESTION]
+
+[ANSWER]
+
+Australia is the largest country in Oceania.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Australia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Canberra is the capital of Australia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Russia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Moscow is the capital of Russia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Canada?
+
+[/QUESTION]
+
+[ANSWER]
+
+Ottawa is the capital of Canada.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest continent?
+
+[/QUESTION]
+
+[ANSWER]
+
+Asia is the largest continent.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of China?
+
+[/QUESTION]
+
+[ANSWER]
+
+Beijing is the capital of China.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of India?
+
+[/QUESTION]
+
+[ANSWER]
+
+New Delhi is the capital of India.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Japan?
+
+[/QUESTION]
+
+[ANSWER]
+
+Tokyo is the capital of Japan.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United States?
+
+[/QUESTION]
+
+[ANSWER]
+
+Washington, D.C. is the capital of the United States.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Europe?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in Europe.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United Kingdom?
+
+[/QUESTION]
+
+[ANSWER]
+
+London is the capital of the United Kingdom.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in South America?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brazil is the largest country in South America.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Brazil?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brasilia is the capital of Brazil.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Africa?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algeria is the largest country in Africa.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Algeria?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algiers is the capital of Algeria.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Oceania?
+
+[/QUESTION]
+
+[ANSWER]
+
+Australia is the largest country in Oceania.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Australia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Canberra is the capital of Australia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Russia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Moscow is the capital of Russia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Canada?
+
+[/QUESTION]
+
+[ANSWER]
+
+Ottawa is the capital of Canada.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest continent?
+
+[/QUESTION]
+
+[ANSWER]
+
+Asia is the largest continent.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of China?
+
+[/QUESTION]
+
+[ANSWER]
+
+Beijing is the capital of China.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of India?
+
+[/QUESTION]
+
+[ANSWER]
+
+New Delhi is the capital of India.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Japan?
+
+[/QUESTION]
+
+[ANSWER]
+
+Tokyo is the capital of Japan.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United States?
+
+[/QUESTION]
+
+[ANSWER]
+
+Washington, D.C. is the capital of the United States.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Europe?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in Europe.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United Kingdom?
+
+[/QUESTION]
+
+[ANSWER]
+
+London is the capital of the United Kingdom.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in South America?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brazil is the largest country in South America.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Brazil?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brasilia is the capital of Brazil.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Africa?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algeria is the largest country in Africa.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Algeria?
+
+[/QUESTION]
+
+[ANSWER]
+
+Algiers is the capital of Algeria.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Oceania?
+
+[/QUESTION]
+
+[ANSWER]
+
+Australia is the largest country in Oceania.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Australia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Canberra is the capital of Australia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in the world?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in the world.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Russia?
+
+[/QUESTION]
+
+[ANSWER]
+
+Moscow is the capital of Russia.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Canada?
+
+[/QUESTION]
+
+[ANSWER]
+
+Ottawa is the capital of Canada.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest continent?
+
+[/QUESTION]
+
+[ANSWER]
+
+Asia is the largest continent.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of China?
+
+[/QUESTION]
+
+[ANSWER]
+
+Beijing is the capital of China.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of India?
+
+[/QUESTION]
+
+[ANSWER]
+
+New Delhi is the capital of India.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Japan?
+
+[/QUESTION]
+
+[ANSWER]
+
+Tokyo is the capital of Japan.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United States?
+
+[/QUESTION]
+
+[ANSWER]
+
+Washington, D.C. is the capital of the United States.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in Europe?
+
+[/QUESTION]
+
+[ANSWER]
+
+Russia is the largest country in Europe.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of the United Kingdom?
+
+[/QUESTION]
+
+[ANSWER]
+
+London is the capital of the United Kingdom.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the largest country in South America?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brazil is the largest country in South America.
+
+[/ANSWER]
+
+[QUESTION]
+
+What is the capital of Brazil?
+
+[/QUESTION]
+
+[ANSWER]
+
+Brasilia is the capital of Brazil

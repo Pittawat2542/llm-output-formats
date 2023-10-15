@@ -1,0 +1,52 @@
+{
+  "game": {
+    "character": {
+      "id": "id",
+      "first_name": {
+        "value": "first name",
+        "type": "string"
+      },
+      "last_name": {
+        "value": "last name",
+        "type": "string"
+      },
+      "species": {
+        "value": "species",
+        "type": "string"
+      },
+      "age": {
+        "value": "exact age or description",
+        "type": "string",
+        "format": "MMMM Do YYYY"
+      },
+      "role": {
+        "value": "role of the character",
+        "type": "string"
+      },
+      "place_of_birth": {
+        "value": "location",
+        "format": "MMMM D, YYYY, MM"
+      },
+      "physical_appearance": [
+        {
+          "eye_color": {
+            "value": "eye color",
+            "format": "MMMM D, YYYY, MM"
+          },
+          "hair_color": {
+            "value": "hair color",
+            "format": "MMMM D, YYYY, MM"
+          },
+          "height": {
+            "value": "height in float value",
+            "format": "MMMM D, YYYY, MM"
+          },
+          "weight": {
+            "value": "weight in float value",
+            "format": "MMMM D, YYYY, MM"
+          }
+        }
+      ]
+    }
+  }
+}

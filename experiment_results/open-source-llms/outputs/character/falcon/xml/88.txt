@@ -1,0 +1,4 @@
+In the XML format, the character's details are wrapped in a "game" element along with its child "character" element. The "character" element is further structured in a few nested "character" elements. The format of each child element and its XML tags are as per the Markdown. For example, the "first-name" tag has a Markdown format of:
+```
+<p>First name</p>
+```

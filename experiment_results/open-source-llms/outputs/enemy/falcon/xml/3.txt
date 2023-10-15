@@ -1,0 +1,35 @@
+### Usage example
+
+```
+<game>
+    <enemy id="id">
+        <name>name</name>
+        <description>description</description>
+        <stats>
+            <hp>hp value</hp>
+            <mp value</mp>
+            <atk>atk value</atk>
+            <def value</def>
+            <spd value</spd>
+        </stats>
+    </enemy>
+</game>
+``` 
+
+Output XML content: 
+```xml
+<?xml version="1.0"?>
+<game>
+   <enemy id="id">
+      <name>name</name>
+      <description>description</description>
+      <stats>
+          <hp>hp value</hp>
+          <mp>mp value</mp>
+          <atk>atk value</atk>
+          <def>def value</def>
+          <spd>spd value</spd>
+      </stats>
+   </enemy>
+</game>
+```

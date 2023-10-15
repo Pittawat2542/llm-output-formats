@@ -1,0 +1,17 @@
+```yaml
+game:
+  player: id
+    description: description
+    name: name
+    stats:
+      strength: strength string
+      hit_crit: hit_crit string
+      dodge: dodge string
+    enemy:
+      - name : Enemy name
+        description : description
+      - description: description
+      - stats:
+          attack: atk hp mp spd
+
+```

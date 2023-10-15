@@ -1,0 +1,16 @@
+- `game` is the top scope for this Markdown code block and defines the output format. It is followed by `dialogues`.
+- Within `dialogues`, `order` is used to define the sequence of dialogue components (e.g. `1` for speaker one and `2` for speaker two).
+- Within `order`, `speaker` is a string representing one of the speakers in the dialogue.
+- Within `speaker`, `name` is a string representing the name of the speaker.
+- Within `text`, add your input and output YAML for each component.
+
+In the example, `game.dialogues.order.1.speaker.name` represents the component order of Speaker One. The input and output YAML for this component include the following:
+
+```yaml
+1: # Input
+  - component1: Input text
+  - component2: Input text
+
+2: # Output
+  - component2: Output text
+```

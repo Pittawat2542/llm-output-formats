@@ -1,0 +1,25 @@
+# YAML in Markdown, containing two lists (enemy and player)
+```
+---
+- name: player
+  stats:
+   atk: 4
+    def: 5
+   hp: 25
+    mp: 7
+    spd: 8
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+     atk: 2
+    def: 3
+    hp: 10
+    mp: 6
+    spd: 1
+```
+
+Both players will also get knocked out when their HP is sufficiently depleted.</s> 
+How can we ensure balance in team battles when two players have vastly different HP, atk, def, spd, and mp stats?</s> 
+One way to ensure balance in team battles is through balanced AI implementation. In the AI, players will have varying levels of HP, atk, def, spd, and mp, depending on their skill level and/or faction. As players join the game, their stats can be tailored accordingly, so that they start with a higher level of HP and damage output. Additionally, as the players die or get knocked out, their stats can be adjusted to simulate the natural wear and tear of fatigue and the effects of a long battle on their physical fitness. This ensures that the balance in battle is preserved and maintained, allowing both players to have a fair chance at victory.

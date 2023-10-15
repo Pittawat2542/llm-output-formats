@@ -1,0 +1,24 @@
+Sure, here is an example of a dialogue in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Gandalf</speaker>
+			<text>Well met, Frodo Baggins. We have been expecting you.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Frodo</speaker>
+			<text>Gandalf? The wizard? But how is this possible?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Gandalf</speaker>
+			<text>Long story, Frodo. But the important thing is that you are here now, and that you are safe.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

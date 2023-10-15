@@ -1,0 +1,410 @@
+
+
+# Examples
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 1</name>
+		<description>The first boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 2</name>
+		<description>The second boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 3</name>
+		<description>The third boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 4</name>
+		<description>The fourth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 5</name>
+		<description>The fifth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 6</name>
+		<description>The sixth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 7</name>
+		<description>The seventh boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 8</name>
+		<description>The eighth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 9</name>
+		<description>The ninth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 10</name>
+		<description>The tenth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 11</name>
+		<description>The eleventh boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 12</name>
+		<description>The twelfth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 13</name>
+		<description>The thirteenth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 14</name>
+		<description>The fourteenth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 15</name>
+		<description>The fifteenth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 16</name>
+		<description>The sixteenth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 17</name>
+		<description>The seventeenth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 18</name>
+		<description>The eighteenth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 19</name>
+		<description>The nineteenth boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 20</name>
+		<description>The twentieth boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 21</name>
+		<description>The twenty-first boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 22</name>
+		<description>The twenty-second boss of the game</description>
+		<stats>
+			<hp>10000</hp>
+			<mp>1000</mp>
+			<atk>2000</atk>
+			<def>1000</def>
+			<spd>200</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>Boss 23</name>
+		<description>The twenty-third boss of the game</description>
+		<stats>
+			<hp>20000</hp>
+			<mp>1000</mp>
+			<

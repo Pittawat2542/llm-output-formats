@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "Defeat the Dragon"
+  id: 123456
+  objective: "Retrieve the Dragon's treasure"
+  quest_giver: "King Arthur"
+  reward: "1000 gold coins"
+  tasks:
+  - description: "Find the Dragon's lair"
+    location: "Mountains of Doom"
+    objective: "Locate the entrance to the lair"
+    order: 1
+  - description: "Slay the Dragon"
+    location: "Dragon's lair"
+    objective: "Defeat the Dragon"
+    order: 2
+  title: "Dragon's Quest"
+```

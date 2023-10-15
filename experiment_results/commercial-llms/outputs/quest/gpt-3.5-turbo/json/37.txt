@@ -1,0 +1,39 @@
+```json
+{
+    "game": {
+        "id": "Q123",
+        "title": "The Lost Sword",
+        "objective": "Retrieve the ancient lost sword",
+        "description": "In a time long forgotten, an ancient sword was lost deep within the depths of a treacherous dungeon. It is said that whoever wields this sword will gain immeasurable power. Your quest is to bravely venture into the dungeon, face deadly monsters and cunning traps, and retrieve the lost sword.",
+        "reward": "The one who successfully recovers the sword shall be granted unparalleled strength and the admiration of all.",
+        "quest_giver": "Elder Gaardan",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Find the dungeon entrance",
+                "description": "The dungeon entrance is hidden somewhere in the woods to the east of the village. Seek the old oak tree with a carved symbol of a sword to locate it.",
+                "location": "Woods to the east of the village"
+            },
+            {
+                "order": "2",
+                "objective": "Navigate through the dungeon",
+                "description": "The dungeon is filled with winding corridors, deadly traps, and fearsome monsters. Use your wit, agility, and courage to overcome these challenges.",
+                "location": "Ancient dungeon"
+            },
+            {
+                "order": "3",
+                "objective": "Retrieve the lost sword",
+                "description": "At the heart of the dungeon lies the chamber where the lost sword awaits. Be cautious, for it may be guarded by a formidable enemy.",
+                "location": "Chamber of the lost sword"
+            },
+            {
+                "order": "4",
+                "objective": "Return the sword to Elder Gaardan",
+                "description": "Once you have obtained the lost sword, make your way back to the village and present it to Elder Gaardan.",
+                "location": "Village"
+            }
+        ]
+    }
+}
+```
+```

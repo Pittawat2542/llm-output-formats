@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "123456789",
+    "title": "The Lost Amulet",
+    "objective": "Retrieve the ancient amulet from the depths of the forgotten temple.",
+    "description": "Legend speaks of a powerful amulet hidden within a long-forgotten temple. Many adventurers have attempted to retrieve it but none have succeeded. Will you be the one to reclaim the lost artifact?",
+    "reward": "The amulet bestows great power upon its possessor.",
+    "quest_giver": "Elder Orlan",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the forgotten temple.",
+        "description": "According to the ancient texts, the entrance to the temple is hidden within the dense jungle. Search for any signs or clues that may lead you to it.",
+        "location": "Jungle of Mysteries"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the treacherous traps within the temple.",
+        "description": "Beware of deadly traps set by the temple's guardians. Use caution and your wit to overcome them.",
+        "location": "Forgotten Temple"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the ancient guardian and retrieve the amulet.",
+        "description": "Deep within the temple lies the ancient guardian. Overcome its powerful defenses and claim the amulet as your own.",
+        "location": "Chamber of the Guardian"
+      }
+    ]
+  }
+}

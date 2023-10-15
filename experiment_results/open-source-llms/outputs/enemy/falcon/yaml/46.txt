@@ -1,0 +1,51 @@
+```
+enemy:
+  description: "enemy description"
+  id: 1
+  name: "enemy name"
+  stats:
+    atk: 5
+    def: 2
+    hp: 80
+    mp: 5
+    spd: 2
+```
+```
+game:
+  ally:
+    description: description
+    id: id
+    name: ally name
+    stats:
+      atk: 5
+      def: 2
+      hp: 80
+      mp: 5
+      spd: 2
+```
+```
+enemy:
+  description: "enemy description"
+  id: 2
+  name: "enemy name"
+  stats:
+    atk: -2
+    def: -5
+    mp: -5
+    spd: -2
+```
+```
+game:
+  ally:
+    description: description
+    id: id
+    name: ally name
+    stats:
+      atk: -5
+      atk: -5
+      hp: 100
+      mp: -5
+      spd: 2
+```
+
+All enemy battles should follow this format, with a game defined for each enemy and two stat blocks at the end for the ally and enemy descriptions. Replace the description, id, name, stats, atk, def, hp, mp, spd, and atk fields accordingly to match the enemy and ally descriptions. Each YAML block represents a battle that takes place between one enemy and the ally.

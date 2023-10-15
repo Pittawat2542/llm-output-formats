@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>Dragon Slayer</title>
+	<objective>Save the kingdom by slaying the dragon</objective>
+	<description>The kingdom is in danger. A dragon has taken up residence in the nearby mountains and is terrorizing the people. You must put an end to this chaos by slaying the dragon.</description>
+	<reward>5000 gold and the Dragon Slayer's Sword</reward>
+	<quest-giver>Queen Isabella</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Dragon's Lair</objective>
+			<description>The people of the kingdom have seen the dragon flying to and from the mountains. Search the range and find its lair.</description>
+			<location>Mountain Range</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Slay the Dragon</objective>
+			<description>Once you find the lair, the real challenge begins. Defeat the dragon and bring back its head as proof of its demise.</description>
+			<location>Dragon's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

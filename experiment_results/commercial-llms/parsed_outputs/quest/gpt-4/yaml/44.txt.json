@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Explore the ancient ruins and solve its mysteries.",
+    "id": 1,
+    "objective": "Solve the mysteries surrounding the ancient ruins.",
+    "quest_giver": "The Village Elder",
+    "reward": "200 gold coins and a mystical artifact",
+    "tasks": [
+      {
+        "description": "Search for the hidden entrance to the ruins.",
+        "location": "Northern Woods",
+        "objective": "Find the entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate the traps and puzzles within the ruins.",
+        "location": "Inside the Ancient Ruins",
+        "objective": "Solve the puzzle",
+        "order": 2
+      },
+      {
+        "description": "Confront the guardian of the ruins.",
+        "location": "Inner Sanctum of the Ruins",
+        "objective": "Defeat the guardian",
+        "order": 3
+      }
+    ],
+    "title": "Mystery of the Ancient Ruins"
+  }
+}

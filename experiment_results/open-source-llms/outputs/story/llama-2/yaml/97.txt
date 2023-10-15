@@ -1,0 +1,889 @@
+
+
+## Input format
+
+### Example
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Required fields
+* `game`
+  * `beginning`
+  * `ending`
+  * `synopsis`
+  * `title`
+
+### Optional fields
+* `characters`
+* `challenges`
+* `description`
+* `location`
+* `objectives`
+* `outcome`
+* `protagonist`
+* `stakes`
+* `theme`
+* `time`
+
+### Examples
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+```
+
+### Valid values
+* `beginning`
+  * `the beginning of the game`
+  * `the end of the game`
+* `challenges`
+  * `challenge`
+  * `challenge`
+* `characters`
+  * `character`
+  * `character`
+* `description`
+  * `description`
+  * `description`
+* `ending`
+  * `the end of the game`
+  * `the beginning of the game`
+* `location`
+  * `location`
+  * `location`
+* `objectives`
+  * `objective`
+  * `objective`
+* `outcome`
+  * `outcome`
+  * `outcome`
+* `protagonist`
+  * `protagonist`
+  * `protagonist`
+* `stakes`
+  * `stakes`
+  * `stakes`
+* `synopsis`
+  * `game story synopsis`
+  * `game story synopsis`
+* `theme`
+  * `theme`
+  * `theme`
+* `time`
+  * `time`
+  * `time`
+* `title`
+  * `game title`
+  * `game title`
+
+### Invalid values
+* `beginning`
+  * `the end of the game`
+  * `the beginning of the game`
+* `challenges`
+  * `challenge`
+  * `challenge`
+* `characters`
+  * `character`
+  * `character`
+* `description`
+  * `description`
+  * `description`
+* `ending`
+  * `the end of the game`
+  * `the beginning of the game`
+* `location`
+  * `location`
+  * `location`
+* `objectives`
+  * `objective`
+  * `objective`
+* `outcome`
+  * `outcome`
+  * `outcome`
+* `protagonist`
+  * `protagonist`
+  * `protagonist`
+* `stakes`
+  * `stakes`
+  * `stakes`
+* `synopsis`
+  * `game story synopsis`
+  * `game story synopsis`
+* `theme`
+  * `theme`
+  * `theme`
+* `time`
+  * `time`
+  * `time`
+* `title`
+  * `game title`
+  * `game title`
+
+### Valid values for `theme`
+* `adventure`
+* `comedy`
+* `drama`
+* `fantasy`
+* `horror`
+* `romance`
+* `science_fiction`
+* `thriller`
+
+### Invalid values for `theme`
+* `adventure`
+* `comedy`
+* `drama`
+* `fantasy`
+* `horror`
+* `romance`
+* `science_fiction`
+* `thriller`
+
+### Valid values for `time`
+* `future`
+* `past`
+* `present`
+
+### Invalid values for `time`
+* `future`
+* `past`
+* `present`
+
+### Valid values for `beginning`
+* `the beginning of the game`
+* `the end of the game`
+
+### Invalid values for `beginning`
+* `the beginning of the game`
+* `the end of the game`
+
+### Valid values for `ending`
+* `the beginning of the game`
+* `the end of the game`
+
+### Invalid values for `ending`
+* `the beginning of the game`
+* `the end of the game`
+
+### Valid values for `challenges`
+* `challenge`
+* `challenge`
+
+### Invalid values for `challenges`
+* `challenge`
+* `challenge`
+
+### Valid values for `objectives`
+* `objective`
+* `objective`
+
+### Invalid values for `objectives`
+* `objective`
+* `objective`
+
+### Valid values for `outcome`
+* `outcome`
+* `outcome`
+
+### Invalid values for `outcome`
+* `outcome`
+* `outcome`
+
+### Valid values for `characters`
+* `character`
+* `character`
+
+### Invalid values for `characters`
+* `character`
+* `character`
+
+### Valid values for `protagonist`
+* `protagonist`
+* `protagonist`
+
+### Invalid values for `protagonist`
+* `protagonist`
+* `protagonist`
+
+### Valid values for `stakes`
+* `stakes`
+* `stakes`
+
+### Invalid values for `stakes`
+* `stakes`
+* `stakes`
+
+### Valid values for `description`
+* `description`
+* `description`
+
+### Invalid values for `description`
+* `description`
+* `description`
+
+### Valid values for `location`
+* `location`
+* `location`
+
+### Invalid values for `location`
+* `location`
+* `location`
+
+### Valid values for `title`
+* `game title`
+* `game title`
+
+### Invalid values for `title`
+* `game title`
+* `game title`
+
+### Valid values for `theme`
+* `theme`
+* `theme`
+
+### Invalid values for `theme`
+* `theme`
+* `theme`
+
+### Valid values for `time`
+* `time`
+* `time`
+
+### Invalid values for `time`
+* `time`
+* `time`
+
+### Example
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Output
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+```
+
+### Validate
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Invalid
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Examples
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Validate
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Invalid
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Examples
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Validate
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Invalid
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Examples
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes:
+    - stakes
+    - stakes
+
+  theme:
+    - theme
+    - theme
+
+  time:
+    - time
+    - time
+
+```
+
+### Validate
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+    - character
+    - character
+
+  challenges:
+    - challenge
+    - challenge
+
+  description:
+    - description
+    - description
+
+  location:
+    - location
+    - location
+
+  objectives:
+    - objective
+    - objective
+
+  outcome:
+    - outcome
+    - outcome
+
+  protagonist:
+    - protagonist
+    - protagonist
+
+  stakes

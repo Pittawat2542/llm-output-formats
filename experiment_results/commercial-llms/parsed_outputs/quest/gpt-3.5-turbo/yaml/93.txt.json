@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Find the Lost Treasure",
+    "id": 1,
+    "objective": "Retrieve the ancient artifact from the hidden temple",
+    "quest_giver": "Captain James",
+    "reward": "1000 gold coins and a rare artifact",
+    "tasks": [
+      {
+        "description": "Obtain the map to the hidden temple",
+        "location": "The Old Library",
+        "objective": "Search the library for clues about the map's whereabouts",
+        "order": 1
+      },
+      {
+        "description": "Travel to the Jungle Ruins",
+        "location": "The Jungle",
+        "objective": "Navigate through the dangerous jungle and reach the ruins",
+        "order": 2
+      },
+      {
+        "description": "Solve the puzzles in the temple",
+        "location": "The Hidden Temple",
+        "objective": "Figure out the ancient mechanisms and retrieve the artifact",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Lost Treasure"
+  }
+}

@@ -1,0 +1,12 @@
+```xml
+<?xml version="1.0"?>
+<game xmlns="http://xmlns.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xmlns.com/sax/ns1/game.xsd">
+	
+<ns2:dialogue>
+	<ns2:order xmlns="http://xmlns.com/sax/ns1/dialogues">
+		<ns2:speaker xmlns="http://xmlns.com/sax/ns1/ns2"><![CDATA[speaker name]]></ns2:speaker>
+		<ns2:text xmlns="http://xmlns.com/sax/ns1/text"/></ns2:text>
+	</ns2:order>
+	... and so on
+</ns2:dialogue>
+```

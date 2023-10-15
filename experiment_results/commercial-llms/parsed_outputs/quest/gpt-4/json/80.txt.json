@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the lost artifact",
+    "description": "Rumors tell of a long-lost artifact hidden deep within the Cursed Forest. Seek the artifact, but beware of traps and lurking enemies.",
+    "reward": "2000 gold and Legendary Sword 'Excalibur'",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Enter the Cursed Forest",
+        "description": "Travel to the east side of the kingdom and find the entrance to the Cursed Forest.",
+        "location": "East of Kingdom"
+      },
+      {
+        "order": "2",
+        "objective": "Find the artifact",
+        "description": "Navigate through the forest, avoid or defeat enemies, and locate the artifact. It said to be guarded by a vicious creature.",
+        "location": "Cursed Forest"
+      },
+      {
+        "order": "3",
+        "objective": "Return the artifact to King Arthur",
+        "description": "Once you retrieve the artifact, bring it back to King Arthur to complete the quest.",
+        "location": "Kingdom's Castle"
+      }
+    ]
+  }
+}

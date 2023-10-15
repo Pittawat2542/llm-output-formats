@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Find the Golden Sword of Destiny and bring it back to the Wise Wizard.",
+    "id": 12345,
+    "objective": "Retrieve the Golden Sword of Destiny",
+    "quest_giver": "Wise Wizard",
+    "reward": "Experience points and a bag of gold",
+    "tasks": [
+      {
+        "description": "Explore the Enchanted Forest",
+        "location": "Enchanted Forest",
+        "objective": "Find the hidden cave",
+        "order": 1
+      },
+      {
+        "description": "Solve the Riddle of the Sphinx",
+        "location": "Sphinx's Lair",
+        "objective": "Answer the riddle correctly",
+        "order": 2
+      },
+      {
+        "description": "Defeat the Fire Dragon",
+        "location": "Dragon's Den",
+        "objective": "Defend yourself and obtain the sword",
+        "order": 3
+      }
+    ],
+    "title": "The Golden Sword of Destiny"
+  }
+}

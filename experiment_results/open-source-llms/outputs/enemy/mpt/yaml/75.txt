@@ -1,0 +1,25 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+Assistant summary:
+The enemy has the following attributes:
+
+-   id: ID
+-   name: Name
+-   description: Description
+-   atk: Attack
+-   def: Defense
+-   hp: HP
+-   mp: MP
+-   spd: Speed

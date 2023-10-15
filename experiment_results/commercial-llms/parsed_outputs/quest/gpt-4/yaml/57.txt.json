@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Find the ancient artifact hidden deep within the dragon's lair.",
+    "id": 1,
+    "objective": "Retrieve ancient artifact",
+    "quest_giver": "Wise Old Man",
+    "reward": "5000 gold, +1000 XP, unique sword - Dragon Slayer",
+    "tasks": [
+      {
+        "description": "Travel to the edge of the Kingdom to find the entrance to the dragon's lair.",
+        "location": "Dragon's Lair Entrance",
+        "objective": "Find Entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous tunnels of the dragon's lair.",
+        "location": "Dragon's Lair - Inner Chambers",
+        "objective": "Navigate tunnels",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the ancient artifact without waking the dragon.",
+        "location": "Dragon's Lair - Dragon's Nest",
+        "objective": "Retrieve artifact",
+        "order": 3
+      }
+    ],
+    "title": "The Dragon's Treasure"
+  }
+}

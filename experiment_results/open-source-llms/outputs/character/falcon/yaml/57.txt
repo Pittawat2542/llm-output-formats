@@ -1,0 +1,15 @@
+# YAML output
+age: 30
+background: Born in a small town, the character has a strong connection to the land and a long history of protecting it.
+first_name: John
+id: 0123456789
+last_name: Doe
+physical_appearance:
+  - eye_color: green
+  - hair_color: brown
+  - height: 6'9"
+  - weight: 220 lbs (100 kg)
+
+See: - [Roleplaying Guide](https://dnd-stuff.com/roleplaying-guide/) - [TTS Voices](https://www.curlyshirtheart.com/) - [Voice Actors Guild](https://www.voicactorsguild.com/) - [Twitch](https://www.twitch.tv/)
+```
+Output should be in the correct YAML format, with only the YAML marked with `#`, except where the YAML is nested within a Markdown block, which should be enclosed in ` " ` and ` #` tags depending on usage.

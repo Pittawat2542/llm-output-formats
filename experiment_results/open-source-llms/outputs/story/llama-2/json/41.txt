@@ -1,0 +1,507 @@
+
+
+## Input format
+
+### Input format 1
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title"
+}
+```
+
+### Input format 2
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis"
+}
+```
+
+### Input format 3
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game"
+}
+```
+
+### Input format 4
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name"
+}
+```
+
+### Input format 5
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number"
+}
+```
+
+### Input format 6
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year"
+}
+```
+
+### Input format 7
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating"
+}
+```
+
+### Input format 8
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform"
+}
+```
+
+### Input format 9
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre"
+}
+```
+
+### Input format 10
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name"
+}
+```
+
+### Input format 11
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date"
+}
+```
+
+### Input format 12
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name"
+}
+```
+
+### Input format 13
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description"
+}
+```
+
+### Input format 14
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL"
+}
+```
+
+### Input format 15
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL"
+}
+```
+
+### Input format 16
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age"
+}
+```
+
+### Input format 17
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"]
+}
+```
+
+### Input format 18
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"]
+}
+```
+
+### Input format 19
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"]
+}
+```
+
+### Input format 20
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"]
+}
+```
+
+### Input format 21
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer": "developer name",
+    "description": "description",
+    "cover": "cover image URL",
+    "gameplay": "gameplay description",
+    "trailer": "trailer URL",
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"],
+    "players": "number of players",
+    "min_age": "minimum age",
+    "tags": ["tag1", "tag2"]
+}
+```
+
+### Input format 22
+
+A JSON object with a `title` property.
+
+```json
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "author": "author name",
+    "version": "version number",
+    "year": "year",
+    "rating": "rating",
+    "platform": "platform",
+    "genre": "genre",
+    "publisher": "publisher name",
+    "release_date": "release date",
+    "developer":

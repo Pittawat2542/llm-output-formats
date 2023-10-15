@@ -1,0 +1,981 @@
+
+
+## Input format
+
+The input is a Markdown file with the following format:
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+## Examples
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+### Input
+
+```markdown
+[SYS]
+
+[/SYS]
+
+[INST]
+
+[/INST]
+```
+
+### Output
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+
+##

@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "QST12345",
+        "title": "The Lost Artifact",
+        "objective": "Retrieve the Ancient Artifact from the Forbidden Dungeon",
+        "description": "A mystical artifact of great power has been lost in the depths of the Forbidden Dungeon. Your mission, should you choose to accept it, is to delve into the dungeon, locate the artifact, and bring it back safely.",
+        "reward": "5000 Gold, Experience Points, Unique Item 'Crown of Ages'",
+        "quest_giver": "Archmage Zephyrus",
+        "tasks": [{
+            "order": "1",
+            "objective": "Enter the Forbidden Dungeon",
+            "description": "Find the entrance to the Forbidden Dungeon located in the Dark Forest and venture inside.",
+            "location": "Dark Forest"
+        },
+        {
+            "order": "2",
+            "objective": "Locate the Ancient Artifact",
+            "description": "Search the Forbidden Dungeon and retrieve the Ancient Artifact.",
+            "location": "Forbidden Dungeon"
+        },
+        {
+            "order": "3",
+            "objective": "Return to Archmage Zephyrus",
+            "description": "Return to Archmage Zephyrus with the Ancient Artifact.",
+            "location": "Mage Tower"
+        }]
+    }
+}
+```

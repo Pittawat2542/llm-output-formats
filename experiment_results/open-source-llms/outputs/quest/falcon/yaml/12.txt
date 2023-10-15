@@ -1,0 +1,23 @@
+In the above quest information, we will have a YAML section within the YAML code blocks to specify the input, output, and description of the quest. We are using the "YAML.io" extension to generate the output in YAML format. 
+
+The output format for YAML will contain key/value pairs with the values wrapped in quotes. You can customize the fields and labels as needed. 
+Let's look at the specific fields/labels in the above quest code block: 
+- "game": contains the game description.
+- "game.id": the ID of the game.
+- "game.objective": the objective of the game.
+- "game.quest_giver": the name of the quest giver.
+- "game.reward": the reward of the quest.
+- "game[0].location": the location of the quest.
+- "game[0].objective": the objective of the quest.
+- "game.tasks": a list of tasks required to complete the quest.
+- "game.title": the name of the quest. 
+
+The "id" field represents the ID of the quest, while the "objective" field represents the description of the quest. The "level" field represents the level of the quest, and is optional. 
+
+The "tasks" field represents the list of tasks required to complete the quest. 
+
+The "game" field represents the name of the game. 
+
+The "game.description" field represents a description of the game. 
+
+The "reward" field represents the reward of the quest. Finally, the "id" field represents the ID of the quest, and is optional.

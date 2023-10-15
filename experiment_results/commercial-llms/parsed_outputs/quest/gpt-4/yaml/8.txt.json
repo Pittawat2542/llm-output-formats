@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Help the villagers restore their stolen sacred statue!",
+    "id": 1001,
+    "objective": "Retrieve the stolen statue from the goblin hideout and return it to the church.",
+    "quest_giver": "Brother Tadhg, a priest in the village church",
+    "reward": "Elixir of Health, 200 gold, Blessing from the villagers",
+    "tasks": [
+      {
+        "description": "Speak to Brother Tadgh in the village church for more information about the statue.",
+        "location": "Village Church",
+        "objective": "Speak to Brother Tadhg",
+        "order": 1
+      },
+      {
+        "description": "Gather the necessary weapons and supplies from the village blacksmith.",
+        "location": "Village Blacksmith",
+        "objective": "Equip yourself",
+        "order": 2
+      },
+      {
+        "description": "Travel to the goblin hideout located in the nearby forest and retrieve the statue.",
+        "location": "Goblin Hideout",
+        "objective": "Retrieve the statue",
+        "order": 3
+      },
+      {
+        "description": "Return to the village and place the statue back in the church.",
+        "location": "Village Church",
+        "objective": "Return the statue",
+        "order": 4
+      }
+    ],
+    "title": "The Stolen Sacred Statue"
+  }
+}

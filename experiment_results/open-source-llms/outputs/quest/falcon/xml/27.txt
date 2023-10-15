@@ -1,0 +1,26 @@
+<!-- Markdown code block -->
+<p><strong><code>Tasks</code></strong></p>
+<pre><code>     - The <code>&lt;tasks&gt;</code> tag is used to define the structure of the quest's tasks. <code>objective</code>, <code>description</code>, and <code>location</code> are specific tags within the <code>&lt;tasks&gt;</code> tag that can contain their own sub-task(s) and their respective sub-quest objectives, descriptions, and location.
+</code></pre>
+<p><strong><code>Title</code></strong></p>
+<pre><code>      The <code>&lt;title&gt;</code> tag is used to define the title of the quest.
+</code></pre>
+<p><strong><code>Giver</code></strong></p>
+<pre><code>      The <code>&lt;quest-giver&gt;</code> tag identifies the individual who will be providing information on the quest or completing a particular task for the player.
+</code></pre>
+<!-- XML.Net -->
+<pre><code>      System.Xml.StringWriter(XmlReaderWriter(doc));
+ 
+   // Define the structure of the quest's tasks and sub-tasks
+   Task task = XClass_Create(XClass.TASK, 0, 0);
+ 
+   // Define the task description
+   Text text = XClass_Create(XClass.TEXT, task.GetTagFromTaskXElement("description", 0));
+   text.Add(new XClass_XmlXmlWriter("<task name='task1'><text>(task1 text)</text></task>"));
+   task.Add(text);
+   
+   Text text = XClass_Create(XClass.TEXT, task.GetTagFromTaskXElement("description", task.FindTask.Count - 1));
+   text.Add(new XClass_XmlXmlWriter("<task name='task2'><text>(task2 text)</text></task></query.xsd>
+
+-XDocument:
+</p>

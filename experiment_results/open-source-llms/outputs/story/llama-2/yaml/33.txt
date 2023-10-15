@@ -1,0 +1,43 @@
+
+
+## Input
+
+```yaml
+game:
+  title: game title
+  synopsis: game story synopsis
+  beginning: the beginning of the game
+  ending: the ending of the game
+``` [/INST]
+
+## Examples
+
+```yaml
+game:
+  title: "The Game"
+  synopsis: "The game is about a boy who has to save the world from an evil enemy."
+  beginning: "The game begins with the boy waking up in his bedroom."
+  ending: "The game ends with the boy saving the world from the evil enemy."
+```
+
+## Notes
+
+This is a game story synopsis generator. It takes in a game story and generates a synopsis.
+
+## Installation
+
+To install this package, run the following command in your terminal:
+
+```bash
+npm install game-story-synopsis-generator
+```
+
+## Usage
+
+```bash
+npm run generate
+```
+
+## License
+
+MIT © [Davey Winder](https://github.com/daveywinder)

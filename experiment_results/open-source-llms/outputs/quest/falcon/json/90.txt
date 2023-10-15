@@ -1,0 +1,40 @@
+<strong>Markdown code block:</strong>
+```yaml
+# Output format
+- This is an example quest description.
+- # This is a task.
+- When completing tasks, make sure you are on an even map.
+```
+
+Output in JSON format:
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "Quest Title",
+        "objective": "Quest Objective",
+        "description": "Quest Description",
+        "reward": "Ququest Reward",
+        "quest_giver": "Quest Giver",
+        "tasks": [{
+            "order": "Task Order",
+            "objective": "Task Objective",
+            "description": "Task Description",
+            "location": "Task Location"
+        }],
+        "objectives": [{
+            "order": "Objective Order",
+            "objective": "Objective Objective",
+            "description": "Objective Description",
+            "location": "Objectivce Location"
+        }],
+        "rewards": [{
+            "order": "Reward Order",
+            "reward": "Reward Objective",
+            "description": "Reward Description",
+            "location": "Reward Location"
+        }]
+    ]
+}
+```

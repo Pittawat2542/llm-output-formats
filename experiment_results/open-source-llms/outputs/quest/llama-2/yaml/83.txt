@@ -1,0 +1,21 @@
+
+
+## Example
+```yaml
+game:
+  description: "In this quest, you will learn how to use the command line."
+  id: "CLI"
+  objective: "Learn how to use the command line."
+  quest_giver: "The instructor"
+  reward: "You will be able to use the command line."
+  tasks:
+  - description: "Learn how to use the command line."
+    location: "The classroom"
+    objective: "Learn how to use the command line."
+    order: 1
+  - description: "Learn how to use the command line."
+    location: "The classroom"
+    objective: "Learn how to use the command line."
+    order: 2
+  title: "Learn how to use the command line."
+```

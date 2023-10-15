@@ -1,0 +1,286 @@
+
+
+# Input format
+
+* The input is a Markdown code block.
+* The input should be a single Markdown code block.
+
+# Example
+
+```md
+# Title
+
+The story of the game.
+
+## Synopsis
+
+This is the synopsis of the game.
+
+## Beginning
+
+The beginning of the game.
+
+## Ending
+
+The ending of the game.
+```
+
+# Expected output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>Title</title>
+	<synopsis>The story of the game.</synopsis>
+	<beginning>The beginning of the game.</beginning>
+	<ending>The ending of the game.</ending>
+</game>
+```
+
+# Hints
+
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate the output.
+* You can use the Markdown code block to generate

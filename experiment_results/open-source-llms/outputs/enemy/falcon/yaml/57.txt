@@ -1,0 +1,84 @@
+<Pre><code>enemy:
+  description: Your enemy description
+  id: 1 (replace id with enemy id)
+  name: Your enemy name
+  stats:
+    atk: 10 (replace atk with enemy attack count)
+    def: 1 (replace def with enemy defense count)
+    hp: 500 (replace hp with enemy health count)
+    mp: 0 (replace mp with enemy magic power count)
+    spd: 0 (replace spd with enemy speed count) 
+    attack: 10 (replace att with enemy attack type)
+    damage: 1 (replace dmg with enemy damage count)
+    magic_level: 0
+    // other properties/buffs/debuffs
+enemy:
+  name: # name of enemy
+  stats:
+    - description: description
+      attack: 10
+      def: 1
+      hp: 500
+      mp: 0
+      spd: 0
+      atk: 10
+      damage: 1
+      dmg: 1
+      mp: 0
+      spd: 1
+    - name: # name of ability or spell
+      description: description
+      spell: # name of the spell
+      stats:
+        - description: description
+          def: 1
+          hp: 0
+          mp: 0
+        - atk: 1
+          mp: 0
+          hp: 0
+          mp: 0
+          dmg: 1
+          spd: 1
+            mp: 1
+            spd: 1
+            // other properties/spell/debuff
+            stats:
+              - description: description
+              - atk: 1
+              - mp: 100%
+            stats:
+              - description: description
+              - atk: 1
+              - mp: 100%
+            stats:
+              - description: description
+              - atk: 1
+              - mp: 100%
+            atk:
+              - description: "attacks"
+            mp:
+              - description: "magic power"
+            def:
+              - description: "defense count"
+            spd:
+              - description: "speed count"
+            atk:
+              - description: "attack count"
+            def:
+              - description: "defense count"
+            stats:
+              - description: description
+              - atk: -1
+              - mp: -1
+              - hp: -1
+              - mp: 0
+              - spd: 0
+              stats:
+                - description: description
+                - atk: 3
+                - mp: 80%
+                - hp: 0
+</code></pre>
+
+In this example, replace the relevant portions of the text with your enemy descriptions and configurations.

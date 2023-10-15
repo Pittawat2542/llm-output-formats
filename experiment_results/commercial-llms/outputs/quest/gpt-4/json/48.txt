@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "Q123456",
+        "title": "The Lost Relic",
+        "objective": "Retrieve the lost relic from the old temple",
+        "description": "The village elder has noticed the relic missing from the temple. He believes that the bandits who were prowling around the village last week might have stolen it. Your objective is to infiltrate the bandit's lair, retrieve the relic and return it to the elder.",
+        "reward": "500 gold coins, 100 XP",
+        "quest_giver": "Village Elder",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the bandit's lair",
+            "description": "Locate the lair of the bandits that are suspected to have stolen the relic. It is rumored to be hidden in the mountains.",
+            "location": "Mountain range to the north"
+        }, {
+            "order": "2",
+            "objective": "Retrieve the relic",
+            "description": "Sneak into the lair, locate and retrieve the lost relic. Be sure to avoid detection by the bandits.",
+            "location": "Bandit's Lair"
+        }, {
+            "order": "3",
+            "objective": "Return the relic",
+            "description": "Return the relic to the village elder. He will be waiting for you at the village.",
+            "location": "Village"
+        }]
+    }
+}
+```

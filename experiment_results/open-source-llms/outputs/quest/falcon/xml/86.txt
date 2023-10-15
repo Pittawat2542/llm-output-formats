@@ -1,0 +1,26 @@
+For the quest ` id=101 title=Get Lucky reward=gold objective=find a lucky 4-leaf clover`, the output in XML format would be:
+
+```
+<?xml version="1.0"?>
+<game>
+	<id>101</id>
+	<title>Get Lucky</title>
+	<objective>find a lucky 4-leaf clover</objective>
+	<reward>gold</reward>
+	<quest-giver>some guy, id=100</quest-giver>
+	<tasks>
+		<task>
+			<order>2</order>
+			<objective>cheat</objective>
+			<description>some description</description>
+		</task>
+		<task>
+			<order>1</order>
+			<objective>find a 4-leaf clover</objective>
+			<description>some description</description>
+		</task>
+	</tasks>
+</game>
+```</s> 
+What other types of information can be outputted in XML format from Quests in C#?</s> 
+Quests in C# can output a variety of information such as character names, quest goals, difficulty levels, and rewards. Other quest-specific information that can be outputted include quest completion dates, quest object types, and quest reward types. It is also possible to output quest object names and types in addition to the quest and reward information.

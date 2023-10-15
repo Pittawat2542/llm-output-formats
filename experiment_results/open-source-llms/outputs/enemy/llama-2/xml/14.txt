@@ -1,0 +1,96 @@
+
+
+## Input
+
+### Parameters
+
+| Name | Type | Required | Description |
+| ---- | ---- | -------- | ----------- |
+| id | string | true | Enemy ID |
+| name | string | true | Enemy name |
+| description | string | true | Enemy description |
+| stats | object | true | Enemy stats |
+| stats.hp | int | true | Enemy HP |
+| stats.mp | int | true | Enemy MP |
+| stats.atk | int | true | Enemy attack |
+| stats.def | int | true | Enemy defense |
+| stats.spd | int | true | Enemy speed |
+
+### Example
+
+```json
+{
+	"id": "id",
+	"name": "name",
+	"description": "description",
+	"stats": {
+		"hp": 100,
+		"mp": 100,
+		"atk": 100,
+		"def": 100,
+		"spd": 100
+	}
+}
+```
+
+## Output
+
+### Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```

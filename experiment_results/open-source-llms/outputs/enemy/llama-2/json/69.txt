@@ -1,0 +1,56 @@
+
+
+# Input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+
+# Usage
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# Example
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# Explanation
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# Notes
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# Tests
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# License
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]
+
+# Author
+```bash
+$ python3 enemy_battle_status.py -i input.json -o output.json
+``` [/INST]

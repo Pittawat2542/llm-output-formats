@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a daring adventure to find the long-lost treasure of Captain Blackbeard.",
+    "reward": "A chest full of gold coins",
+    "quest_giver": "Captain Redbeard",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Obtain a map to the treasure",
+        "description": "Visit the old lighthouse and convince the keeper to share his secret map.",
+        "location": "Lighthouse Island"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the riddle",
+        "description": "Solve a series of challenging riddles hidden within the map to reveal the exact location of the treasure.",
+        "location": "Mysterious Cave"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the guardians",
+        "description": "Fight off a group of fierce pirates guarding the treasure chest.",
+        "location": "Treasure Island"
+      }
+    ]
+  }
+}

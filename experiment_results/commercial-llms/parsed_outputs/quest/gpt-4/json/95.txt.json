@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Dragon's Lair",
+    "objective": "Defeat the fire-breathing dragon",
+    "description": "A terrifying dragon has taken over the mines. Proceed discreetly, defeat the dragon and bring peace back to the village.",
+    "reward": "5000 gold and Dragon Slayer sword",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the dragon's lair",
+        "description": "Locate the entrance to the mine and find your way to the dragon's lair. Beware of the dragon's minions.",
+        "location": "Abandoned Mine"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the dragon",
+        "description": "Combat the menacing dragon. Save your potions and use the environment to your advantage.",
+        "location": "Dragon's Lair"
+      },
+      {
+        "order": "3",
+        "objective": "Return to the village",
+        "description": "Return to the village elder and claim your reward.",
+        "location": "Village"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Embark on a dangerous journey to retrieve the ancient artifact that holds the power to save the realm from eternal darkness."
+  id: "QST001"
+  objective: "Recover the Lost Relic"
+  quest_giver: "King Arthas"
+  reward: "1000 gold, Legendary Sword"
+  tasks:
+  - description: "Find the entrance to the Forgotten Cave"
+    location: "Mystic Forest"
+    objective: "Discover the hidden path leading to the cave"
+    order: 1
+  - description: "Defeat the guardians protecting the relic"
+    location: "Forgotten Cave"
+    objective: "Defeat the enchanted golems and retrieve the relic"
+    order: 2
+  - description: "Return the relic to King Arthas"
+    location: "Castle Armore"
+    objective: "Present the relic to King Arthas and secure the realm's future"
+    order: 3
+  title: "The Quest for the Lost Relic"
+```

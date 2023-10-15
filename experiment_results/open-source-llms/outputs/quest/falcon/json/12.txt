@@ -1,0 +1,19 @@
+```{r}
+- Find the quest information (excluding Markdown) in the provided file
+- Extract the "game" information and return it as JSON
+```
+
+```{r ggplot2, js, jupyter}
+library(ggplot2)
+
+# Read the quest from a text file in JSON format
+game <- read_json("quest.json")
+
+# Extract the key information from the quest and create a ggplot for visualization
+ggplot(game$game, aes(x=order, y=objective, z=description, fill=tasks$obj.key)) + 
+  geom_legend() + 
+  scale_fill_alpha(vmin=0, vmax=4)
+
+# Convert the ggplot into JSON format and return only the Markdown
+print(JSON.stringify(game))
+```

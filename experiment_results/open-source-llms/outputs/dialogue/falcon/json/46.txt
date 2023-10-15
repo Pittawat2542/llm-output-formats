@@ -1,0 +1,12 @@
+```
+{
+  "game": {
+    "dialogues": parse.object.map(function(dialogue) {
+      return {
+        "order": dialogue.order,
+        "speaker": dialogue.speaker,
+        "text": dialogue.text
+      }
+    })
+}
+```

@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "QST-001",
+        "title": "The Lost Artifact",
+        "objective": "Recover the lost artifact of Azeroth",
+        "description": "An ancient artifact has been stolen by unknown forces. The city of Stormwind has entrusted you to retrieve it. Travel to the designated area and bring back the artifact.",
+        "reward": "5000 gold, 'Dawnbreaker' Legendary Sword, 12000 XP",
+        "quest_giver": "King Varian Wrynn",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the informant in Stormwind",
+            "description": "Track down the informant located in the Blue Recluse Tavern. He contains valuable information regarding the artifact's location.",
+            "location": "Blue Recluse Tavern, Stormwind"
+        }, 
+        {
+            "order": "2",
+            "objective": "Travel to the reported artifact's location",
+            "description": "Proceed to the coordinates provided by the informant. Be on your guard for any hostile entities.",
+            "location": "Blackrock Mountain"
+        }, 
+        {
+            "order": "3",
+            "objective": "Retrieve the artifact",
+            "description": "Retrieve the artifact from within the heart of Blackrock Mountain. The artifact will be heavily guarded. Proceed with caution.",
+            "location": "Heart of Blackrock Mountain"
+        }]
+    }
+}
+```

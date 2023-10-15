@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "Retrieve the Lost Artifact",
+    "objective": "Find and retrieve the lost artifact from the haunted castle",
+    "description": "Long ago, a powerful artifact was stolen from our kingdom. It is said that the artifact holds immense magical powers. The castle, where it was kept, has been abandoned for centuries and believed to be haunted. Your quest is to enter the castle, face the dangers within, and retrieve the lost artifact. Be cautious, for the castle is filled with traps and fearsome creatures. Will you be the one to bring back our long-lost treasure and restore peace to the kingdom?",
+    "reward": "3000 gold coins, enchanted sword",
+    "quest_giver": "King Varian",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the key to the castle gate",
+        "description": "The castle gate is locked and you will need to find the key to gain entry",
+        "location": "Forest of Shadows"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the castle's labyrinthine halls",
+        "description": "The castle is known for its complex maze of corridors. Make your way through without getting lost",
+        "location": "Haunted Castle"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the guardian of the artifact",
+        "description": "A powerful guardian protects the lost artifact. Prepare for a fierce battle",
+        "location": "Artifact Chamber"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Embark on a perilous journey through the enchanted forest",
+    "id": "12345",
+    "objective": "Find the lost artifact and return it to its rightful place",
+    "quest_giver": "Old Mage",
+    "reward": "1000 gold coins",
+    "tasks": [
+      {
+        "description": "Search for clues near the river",
+        "location": "Riverbank",
+        "objective": "Find a mysterious map",
+        "order": 1
+      },
+      {
+        "description": "Explore the ancient ruins",
+        "location": "Ruins of Eldoria",
+        "objective": "Retrieve the key of the forgotten temple",
+        "order": 2
+      },
+      {
+        "description": "Brave the treacherous mountain path",
+        "location": "Mount Thunderpeak",
+        "objective": "Conquer the guardian beast",
+        "order": 3
+      },
+      {
+        "description": "Navigate through the enchanted labyrinth",
+        "location": "Enchanted Labyrinth",
+        "objective": "Solve the riddles and find the artifact",
+        "order": 4
+      }
+    ],
+    "title": "The Quest for the Lost Artifact"
+  }
+}

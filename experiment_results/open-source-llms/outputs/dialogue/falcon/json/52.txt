@@ -1,0 +1,52 @@
+```
+# Markdown syntax
+```
+> Generate a dialogue. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+```
+> Generate a dialogue. Return the Markdown code block wrapped in JSON format. JSON.
+```Markdown
+> `<script>
+return generateDialog()
+</script>`. Only the JSON in the Markdown code block is included.
+```
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```
+```
+Generate a dialogue. Return Markdown code block wrapped in JSON format. JSON.
+```    
+> `<script>
+alert("Welcome!");
+return generateDialog()
+</script>`. The enclosed JSON is only included in the Markdown code block and is placed within quotation marks.
+```
+```
+# JSON
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```

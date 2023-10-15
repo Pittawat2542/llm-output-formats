@@ -1,0 +1,18 @@
+# YAML
+
+```yaml
+game:
+  beginning:
+    description: how the game begins and any setup needed.
+
+# Ending:
+story:
+  description: the end of the game and the consequences and rewards for the hero
+  title: game title
+  endings:
+    - consequences: true
+    - reward: true
+
+# Story synopsis:
+your story goes here
+```

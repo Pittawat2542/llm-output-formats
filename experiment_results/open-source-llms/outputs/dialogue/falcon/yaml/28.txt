@@ -1,0 +1,14 @@
+Generated output:
+
+```yaml
+game:
+  dialogues:
+  - order: Dialogue order
+    speaker: Speaker name
+    text: Dialogue or narration
+    onscreen: True
+    duration: [hours] # Optional, but can help ensure a more structured output
+    description: "" # Optional, but good YAML practice to describe a feature or function
+```
+
+In the above example, we've included an optional `onscreen` key with `True` value to indicate if the game is being broadcast or performed live. We've also included a `duration` key with a `hours` type and empty value to indicate the duration of the game, but you can include other units or types if needed.

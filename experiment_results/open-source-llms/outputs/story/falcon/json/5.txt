@@ -1,0 +1,12 @@
+```javascript
+// Return this message outside the setTimeout function,
+// so that the output is immediate in the event viewer
+return JSON.stringify({"game": {"title": "game title","synopsis": "game story synopsis","beginning": {"start": "0.5","duration": 250},"ending": {"finish": "final time point".concat(25)}});
+
+// The length of the output being returned
+const myGame = document.querySelector('#myGame');
+
+// Append the JSON to the element after initializing
+myGame.innerHTML = myGame.innerHTML;
+}
+```

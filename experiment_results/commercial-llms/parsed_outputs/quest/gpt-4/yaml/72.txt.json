@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "You have been contacted by a mysterious character who has given you a quest of utmost importance. This quest will take you on a journey through dangerous lands and deadly encounters.",
+    "id": 12345,
+    "objective": "Find the hidden Mystical Gem located somewhere in the kingdom and return it to the rightful owner, the Queen.",
+    "quest_giver": "Mysterious Stranger",
+    "reward": "A Knight's title, with 5000 gold coins and a magical sword",
+    "tasks": [
+      {
+        "description": "Guide your way through the Forest of Shadows, a hauntingly dark and dangerous place filled with malicious creatures.",
+        "location": "Forest of Shadows",
+        "objective": "Find the map hidden in the heart of the forest which will lead you to the location of the Mystical Gem.",
+        "order": 1
+      },
+      {
+        "description": "Using the map, locate the Mystical Gem in the Cave of Wonders. Overcome the traps and challenges within.",
+        "location": "Cave of Wonders",
+        "objective": "Retrieve the Mystical Gem.",
+        "order": 2
+      },
+      {
+        "description": "Return the Mystical Gem to the Queen in her palace. Beware of assassins who might want to steal the gem.",
+        "location": "Royal Palace",
+        "objective": "Give the Mystical Gem to the Queen.",
+        "order": 3
+      }
+    ],
+    "title": "Quest for the Mystical Gem"
+  }
+}

@@ -1,0 +1,9 @@
+# Markdown code block
+- **game** section
+- Character description
+- Fields in the character profile
+  - exact age or description in title of field
+  - first, last, family names in bullet points
+  - id should be used if there is a character in the system as an entity
+  - last, first, eye, hair, and height in a paragraph format, as attributes in the YAML
+  - place_of_birth and weight should be in YAML format, and in paragraph format within a separate `char.place_of_birth` and `char.weight` section, respectively.

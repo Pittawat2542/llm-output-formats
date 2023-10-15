@@ -1,0 +1,15 @@
+Each key in "game" is an object with a corresponding key "title", "synopsis", "beginning", and "ending".
+
+# Returned output in JSON format.
+```json
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+You can play around with different keys inside the "data" object to customize it for your specific game title and story synopsis.

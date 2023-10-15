@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q1001",
+    "title": "The Great Heist",
+    "objective": "Steal the Orb of Divinity",
+    "description": "The Thieves Guild needs a clever and brave individual to infiltrate the royal castle and steal the Orb of Divinity.",
+    "reward": "5000 gold coins and Unseen Cloak",
+    "quest_giver": "Jareth, Leader of the Thieves Guild",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Reach the Royal Castle",
+        "description": "Navigate your way to the royal castle located in the heart of the kingdom.",
+        "location": "Royal Castle"
+      },
+      {
+        "order": "2",
+        "objective": "Find the Orb of Divinity",
+        "description": "The Orb is said to be kept in the castle's underground vault. Search for a way to reach it.",
+        "location": "Castle's Underground Vault"
+      },
+      {
+        "order": "3",
+        "objective": "Escape from the Royal Castle",
+        "description": "Once you have the Orb, you need to find a way to escape without getting caught.",
+        "location": "Royal Castle"
+      }
+    ]
+  }
+}

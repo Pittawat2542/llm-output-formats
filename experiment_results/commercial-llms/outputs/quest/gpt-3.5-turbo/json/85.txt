@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "1234",
+        "title": "The Forgotten Temple",
+        "objective": "Retrieve the ancient artifact",
+        "description": "Legend says that deep within the heart of the jungle lies the Forgotten Temple, which holds a powerful artifact that can grant immense power to its possessor. You are tasked with the mission to navigate through the treacherous jungle, face dangerous creatures, and overcome challenging puzzles to retrieve the ancient artifact.",
+        "reward": "The ancient artifact grants immense power to its possessor and is said to fulfill any one wish.",
+        "quest_giver": "Elder Anthara",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the entrance to the jungle",
+            "description": "The entrance to the jungle is hidden behind a waterfall. Head towards the northern side of the village and follow the sound of rushing water.",
+            "location": "Behind the waterfall at the northern side of the village"
+        },
+        {
+            "order": "2",
+            "objective": "Defeat the guardian serpent",
+            "description": "Deep within the jungle, a giant serpent guards the entrance to the Forgotten Temple. You must defeat it to gain access to the temple.",
+            "location": "Inside the heart of the jungle"
+        },
+        {
+            "order": "3",
+            "objective": "Solve the ancient puzzles",
+            "description": "Within the Forgotten Temple, there are ancient puzzles that need to be solved in order to progress further. Use your wit and observation skills to decipher the clues and unlock the path to the artifact.",
+            "location": "Inside the Forgotten Temple"
+        }]
+    }
+}
+```

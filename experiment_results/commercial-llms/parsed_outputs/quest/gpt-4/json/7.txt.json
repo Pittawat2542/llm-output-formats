@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the Serpent's Cave",
+    "description": "An ancient artifact was stolen by a group of thieves and hidden in the Serpent's Cave. Your mission is to retrieve this artifact without alarming the serpents.",
+    "reward": "500 Gold coins and a magical sword",
+    "quest_giver": "High Priest Elnor",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the location of the Serpent's Cave",
+        "description": "Investigate the thief's lair and find out the exact location of the Serpent's Cave.",
+        "location": "South Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Get into the Serpent's Cave",
+        "description": "Use your skills to sneak into the Serpent's Cave without alerting the serpents.",
+        "location": "Serpent's Cave"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact",
+        "description": "Search for the artifact without being noticed by the serpents.",
+        "location": "Serpent's Cave"
+      }
+    ]
+  }
+}

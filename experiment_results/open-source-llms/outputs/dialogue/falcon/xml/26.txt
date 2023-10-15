@@ -1,0 +1,23 @@
+<language-specific-output>
+```xml
+<?xml version="1.0"?>
+<input>
+</input>
+<output-message />
+```
+```xml
+<xmlns="urn:nano" xmlns:xsi="http://www.w3.org/2001/XMLSchema-Instance" xsi:schemaLocation="urn:nano nansi">
+
+	<nano:root>
+		<nx:person>
+			<nx:name>John Smith</nx:name>
+		</nx:person>
+
+		<nx:person>
+			<nx:name>Jane Doe</nx:name>
+		</nx:person>
+		<!-- and so on for each person in order -->
+	</nano:root>
+
+</xml>
+```

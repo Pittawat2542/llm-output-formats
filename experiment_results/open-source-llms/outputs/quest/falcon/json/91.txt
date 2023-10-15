@@ -1,0 +1,3 @@
+</s> 
+What is the format of the "quest" object within the JSON code? Are there any additional properties or fields included in the JSON data?</s> 
+The "quest" object in the JSON consists of four properties: id, title, objective, and reward. The id property is required, with a string of digits unique to each quest in the adventure. The title, objectice, and goal of the quest. The quest reward is also required, and can be given to players upon completion of the quest. Additional fields can be added depending on the type of quest and its requirements. For example, if it is a crafting goal or if it requires an item, those extra information can be added as properties.

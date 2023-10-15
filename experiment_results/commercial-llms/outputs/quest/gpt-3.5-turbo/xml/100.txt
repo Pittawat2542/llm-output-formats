@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Sword</title>
+	<objective>Find the lost sword and return it to the king</objective>
+	<description>A powerful sword, said to have the ability to bring great fortune and prosperity, has been lost in the Forest of Shadows. The king has offered a generous reward for its return. Can you find the lost sword and bring it back to the king?</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Meet the wizard in the village</objective>
+			<description>The wizard in the village possesses knowledge about the location of the lost sword. Go to the village and find the wizard to learn more about the quest.</description>
+			<location>Village of Eldor</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the map from the ancient temple</objective>
+			<description>The wizard tells you that an ancient map, hidden in a temple, holds the key to finding the lost sword. Journey to the temple and retrieve the map.</description>
+			<location>Temple of Serenity</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Explore the Forest of Shadows</objective>
+			<description>Using the map, navigate through the treacherous Forest of Shadows to uncover the location of the lost sword.</description>
+			<location>Forest of Shadows</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Defeat the guardian monster</objective>
+			<description>The lost sword is guarded by a fearsome monster. Defeat the monster to claim the sword.</description>
+			<location>Monster's Lair</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the sword to King Arthur</objective>
+			<description>Return the lost sword to King Arthur in the royal palace and claim your reward.</description>
+			<location>Royal Palace</location>
+		</task>
+	</tasks>
+</game>
+```

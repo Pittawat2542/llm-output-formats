@@ -1,0 +1,12 @@
+<div class="snippet" data-lang="xml" data-hide="false" data-console="true" data-babel="false">
+<code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;script&gt;
+return $('.dialogues').outerHTML;
+&lt;/script&gt;
+&lt;!-- Output in XML format --&gt;
+</code>
+</div>
+
+This example returns the XML content directly within XML tags with a single dialogue tag. Only the XML content inside the tags is serialized.

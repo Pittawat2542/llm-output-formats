@@ -1,0 +1,372 @@
+
+
+## Input format
+
+### Character profile
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INS]
+
+### Character details
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<place-of-birth>location</place-of-birth>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no place-of-birth)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no background)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no role)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no species)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no age)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<role>role of the character</role>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no role)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no species)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no height)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+``` [/INS]
+
+### Character details (no weight)
+```xml
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height

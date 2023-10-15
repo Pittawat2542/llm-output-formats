@@ -1,0 +1,41 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": "1",
+        "speaker": "Player",
+        "text": "Hello, how can I help you today?"
+      },
+      {
+        "order": "2",
+        "speaker": "NPC",
+        "text": "I'm looking for a book called 'The Great Gatsby'. Do you have it in stock?"
+      },
+      {
+        "order": "3",
+        "speaker": "Player",
+        "text": "Yes, we do have 'The Great Gatsby' in stock. Would you like a hardcover or paperback?"
+      },
+      {
+        "order": "4",
+        "speaker": "NPC",
+        "text": "I prefer paperback. How much does it cost?"
+      },
+      {
+        "order": "5",
+        "speaker": "Player",
+        "text": "The paperback edition is $10.99."
+      },
+      {
+        "order": "6",
+        "speaker": "NPC",
+        "text": "Great! I'll take one."
+      },
+      {
+        "order": "7",
+        "speaker": "Player",
+        "text": "Alright, let me ring that up for you."
+      }
+    ]
+  }
+}

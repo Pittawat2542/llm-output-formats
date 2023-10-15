@@ -1,0 +1,43 @@
+```json
+{
+    "game": {
+        "id": "123",
+        "title": "Retrieve the Lost Artifact",
+        "objective": "Find the ancient artifact and bring it back to the village",
+        "description": "The village of Eldor has suffered from a series of misfortunes lately. The village elder believes that the cause of these troubles is the loss of an ancient artifact that has protected the village for centuries. Your objective is to venture into the treacherous Enchanted Forest, locate the lost artifact, and bring it back to the village to restore peace and prosperity.",
+        "reward": "A legendary weapon and a large sum of gold",
+        "quest_giver": "Elder Garen",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the entrance to the Enchanted Forest",
+            "description": "Travel to the outskirts of the village and follow the old stone path that leads into the Enchanted Forest. Be cautious, for many dangers await you within its mystical boundaries.",
+            "location": "Outskirts of Eldor village"
+        },
+        {
+            "order": "2",
+            "objective": "Discover the ancient ruins",
+            "description": "Navigate through the dense forest until you reach a clearing with ancient ruins. Search for any clues or artifacts that can lead you to the lost artifact.",
+            "location": "Enchanted Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Find the hidden chamber",
+            "description": "Explore the ruins and locate the hidden chamber where the artifact is believed to be kept. Be prepared to solve puzzles and overcome traps to reach your goal.",
+            "location": "Ancient Ruins"
+        },
+        {
+            "order": "4",
+            "objective": "Retrieve the lost artifact",
+            "description": "Once you have reached the hidden chamber, retrieve the lost artifact. Use caution, for the artifact may be guarded by powerful creatures or cursed objects.",
+            "location": "Hidden Chamber"
+        },
+        {
+            "order": "5",
+            "objective": "Return the artifact to Elder Garen",
+            "description": "Make your way back to the village of Eldor with the lost artifact. Return it to Elder Garen to restore peace and prosperity to the village.",
+            "location": "Eldor village"
+        }]
+    }
+}
+```
+```

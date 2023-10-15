@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Sword",
+    "objective": "Retrieve the ancient sword from the forgotten ruins",
+    "description": "The ancient sword, said to possess immense power, has been lost for centuries. You have been tasked with finding it and returning it to its rightful place. Journey to the forgotten ruins and unravel the mysteries that lie within.",
+    "reward": "The ancient sword, gold coins, and a rare artifact",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the forgotten ruins",
+        "description": "Search for hidden clues and ancient writings that will guide you to the entrance of the forgotten ruins.",
+        "location": "Mystic Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the traps and puzzles",
+        "description": "Once inside the ruins, beware of deadly traps and solve intricate puzzles to reach the chamber where the sword is believed to be kept.",
+        "location": "Forgotten Ruins"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the ancient sword",
+        "description": "Battle your way past ancient guardians and reach the chamber where the sword is held. Use all your skills to defeat the powerful guardians and claim the ancient sword.",
+        "location": "Chamber of the Sword"
+      },
+      {
+        "order": "4",
+        "objective": "Return the ancient sword",
+        "description": "Once you have obtained the ancient sword, make the perilous journey back to King Arthur's castle and return the sword to its rightful place.",
+        "location": "King Arthur's Castle"
+      }
+    ]
+  }
+}

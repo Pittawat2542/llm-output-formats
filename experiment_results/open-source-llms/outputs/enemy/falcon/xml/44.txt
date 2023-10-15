@@ -1,0 +1,31 @@
+<b>In-game status</b>
+
+The enemy status is returned in a standard format with its own XML markup. 
+
+The health, mana, attack, and defense are defined as xml elements with the associated data. 
+
+Note: It is recommended to use the `xml:space=""preserve"` attribute to preserve the formatting style while using the Markdown code block. 
+
+To include enemy status in a Markdown code block, simply add the following tags:
+
+```cpp
+<hr>
+<p><code># Output format
+```xml
+```cpp
+# Output format
+```cpp
+```
+<enemy>
+  <id>id</id>
+  <name>name</name>
+  <description>description</description>
+  <stats>
+    &lt;hp&gt;hp&lt;/hp&gt;
+    &lt;mp&gt;mp&lt;/mp&gt;
+    &lt;atk&gt;atk&lt;/atk&gt;
+    &lt;def&gt;def&lt;/def&gt;
+    &lt;spd&gt;spd&lt;/spd&gt;
+  </stats>
+</enemy>
+```

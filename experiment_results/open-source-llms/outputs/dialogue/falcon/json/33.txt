@@ -1,0 +1,12 @@
+```html
+Game
+
+<button id="order">Toggle dialogue order</button>
+
+<div id="dialogue">
+    <h2 id="header">{text}</h2>
+    <text>{text}</text>
+</div>
+```
+
+Please note that the JSON output format assumes that there are no nested levels. If nested levels are required, they should be handled manually.

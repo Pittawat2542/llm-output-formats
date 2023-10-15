@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Dragon Slayer",
+    "objective": "Defeat the Mighty Dragon",
+    "description": "The village has been under the terror of a mighty dragon. Your mission is to slay the dragon and bring peace to the village",
+    "reward": "3000 Gold Coins and the Dragon's Pearl",
+    "quest_giver": "Elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the dragon's lair",
+        "description": "Use your map and find the dragon's lair located in the Dark Forest",
+        "location": "Dark Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Eliminate the dragon's guards",
+        "description": "Before confronting the dragon, you must first eliminate his guards. Be cautious as they are dangerous",
+        "location": "Dragon's Lair Entrance"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the Mighty Dragon",
+        "description": "Once you have cleared the guards, proceed to defeat the dragon. Good luck!",
+        "location": "Dragon's Lair"
+      }
+    ]
+  }
+}

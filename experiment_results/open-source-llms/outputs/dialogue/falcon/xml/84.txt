@@ -1,0 +1,15 @@
+XML.
+<r>
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+</r> : Generating the Markdown code block
+
+By using the `r` tag instead of `r XML`, we are telling the formatting engine (in this case, Markdown) to output the text in an XML format, without including the XML tags.

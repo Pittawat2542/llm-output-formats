@@ -1,0 +1,76 @@
+
+
+### Usage
+```
+$ python3 enemy_status.py
+```
+
+### Example
+```
+$ python3 enemy_status.py
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy Name</name>
+		<description>Enemy description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Note
+The XML format is not case sensitive.
+
+### Examples
+```
+$ python3 enemy_status.py
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy Name</name>
+		<description>Enemy description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+
+$ python3 enemy_status.py -i 1
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy Name</name>
+		<description>Enemy description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+### Help
+```
+$ python3 enemy_status.py -h
+usage: enemy_status.py [-h] [-i ID]
+
+Generate a enemy battle status. Return output in XML format and only the XML in the
+Markdown code block. XML.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i ID, --id ID        ID of enemy
+```

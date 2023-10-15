@@ -1,0 +1,17 @@
+```
+# In-game data
+# This command should not be used in non-playable settings
+questobjective = "quest objective"
+questgiver = "quest giver"
+# In-game tasks
+
+questobjective = questobjective.split(" ")
+# The description of these commands is optional and may vary.
+location = questgiver
+location = "Carp"
+# A list of required objects to bring for crafting of recipes.
+rewards = "This command requires the object 'A' or 'B'."
+location += "\nCarp is located in {location}."
+```
+
+This quest is about searching for a secret location in the woods. The location is the command that you are entering, and it is a short string with one character that should start with a letter and have a maximum length of two characters. The description of your quest is optional, but you can include some details or use some creativity to make it more engaging for your players.

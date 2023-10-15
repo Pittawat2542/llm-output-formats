@@ -1,0 +1,8 @@
+# Markdown Usage
+<blockquote>
+    The information contained in the format can be used for a variety of purposes, which will vary depending on the individual's needs or the use case of the application.
+</blockquote>
+
+Output formatting tip:
+- If there are nested quests, they will be represented using the `tasks` property as a JSON object that contains another JSON object. 
+- The `objective` property is an example of a property that can be nested inside an object or string. To access the nested property, use the syntax `{property_name:property_value}`.

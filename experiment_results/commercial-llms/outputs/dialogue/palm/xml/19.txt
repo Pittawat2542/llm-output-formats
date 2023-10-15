@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, there!</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>Greetings, traveler! What brings you to my humble abode?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm on a quest to find the legendary sword, Excalibur.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Ah, the Sword of Kings! A dangerous quest indeed. But I wish you luck on your journey.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

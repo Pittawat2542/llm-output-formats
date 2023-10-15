@@ -1,0 +1,22 @@
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+In the enemy battle status, the character's name, description, stats (HP, MP, ATK, DEF, SPD) and id are all shown.
+
+In this example, the id and name of the enemy is the enemy's ID and the enemy's name. Atk, DEF, Spd and HP are the attack, defense and speed, and the HP of the enemy character.

@@ -1,0 +1,25 @@
+```Markdown
+game:
+  enemy:
+    description: description
+    id: id
+    name: npc
+    -
+      atk: 5
+      def: 10
+      hp: 150
+      mp: 25
+      spd: 10
+    stats:
+      atk: 3
+      def: 20
+      hp: 600
+      mp: 1000
+      stats:
+        atk:
+          -
+            stats:
+              atk: 4
+              mp: 8
+              spd: 2
+```

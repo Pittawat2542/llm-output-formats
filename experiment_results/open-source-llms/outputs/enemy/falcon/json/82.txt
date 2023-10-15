@@ -1,0 +1,10 @@
+- `id`: The unique identifier of the enemy
+- `name`: A string value or a Markdown code block for generating a name for the enemy
+- `description`: It will be replaced by the text inside the `code` block
+- `stats`: A JSON-wrapped dictionary with the enemy's attributes as keys and values. In this case, it's a dictionary that looks like:
+  - `hp`: An integer representing the enemy's maximum hit points
+  - `mp`: An integer representing maximum magic points of the enemy
+  - `atk`: An integer representing the enemy's attack power
+  - `def`: An integer representing the enemy's defense value
+  - `spd`: An integer representing the enemy's speed
+```

@@ -1,0 +1,123 @@
+
+
+# Input format
+```markdown
+<title>game title</title>
+<synopsis>game story synopsis</synopsis>
+<beginning>the beginning of the game</beginning>
+<ending>the ending of the game</ending>
+``` [/INST]
+
+# Rules
+1. The title and synopsis must be present.
+2. The synopsis must be at least 25 words.
+3. The synopsis must be at most 100 words.
+4. The synopsis must be coherent.
+5. The synopsis must be a story.
+6. The synopsis must be in the past tense.
+7. The synopsis must be in the third person.
+8. The synopsis must be in the present tense.
+9. The synopsis must be in the first person.
+10. The synopsis must be a story.
+11. The synopsis must be in the past tense.
+12. The synopsis must be in the third person.
+13. The synopsis must be in the present tense.
+14. The synopsis must be in the first person.
+15. The synopsis must be a story.
+16. The synopsis must be in the past tense.
+17. The synopsis must be in the third person.
+18. The synopsis must be in the present tense.
+19. The synopsis must be in the first person.
+20. The synopsis must be a story.
+21. The synopsis must be in the past tense.
+22. The synopsis must be in the third person.
+23. The synopsis must be in the present tense.
+24. The synopsis must be in the first person.
+25. The synopsis must be a story.
+26. The synopsis must be in the past tense.
+27. The synopsis must be in the third person.
+28. The synopsis must be in the present tense.
+29. The synopsis must be in the first person.
+30. The synopsis must be a story.
+31. The synopsis must be in the past tense.
+32. The synopsis must be in the third person.
+33. The synopsis must be in the present tense.
+34. The synopsis must be in the first person.
+35. The synopsis must be a story.
+36. The synopsis must be in the past tense.
+37. The synopsis must be in the third person.
+38. The synopsis must be in the present tense.
+39. The synopsis must be in the first person.
+40. The synopsis must be a story.
+41. The synopsis must be in the past tense.
+42. The synopsis must be in the third person.
+43. The synopsis must be in the present tense.
+44. The synopsis must be in the first person.
+45. The synopsis must be a story.
+46. The synopsis must be in the past tense.
+47. The synopsis must be in the third person.
+48. The synopsis must be in the present tense.
+49. The synopsis must be in the first person.
+50. The synopsis must be a story.
+51. The synopsis must be in the past tense.
+52. The synopsis must be in the third person.
+53. The synopsis must be in the present tense.
+54. The synopsis must be in the first person.
+55. The synopsis must be a story.
+56. The synopsis must be in the past tense.
+57. The synopsis must be in the third person.
+58. The synopsis must be in the present tense.
+59. The synopsis must be in the first person.
+60. The synopsis must be a story.
+61. The synopsis must be in the past tense.
+62. The synopsis must be in the third person.
+63. The synopsis must be in the present tense.
+64. The synopsis must be in the first person.
+65. The synopsis must be a story.
+66. The synopsis must be in the past tense.
+67. The synopsis must be in the third person.
+68. The synopsis must be in the present tense.
+69. The synopsis must be in the first person.
+70. The synopsis must be a story.
+71. The synopsis must be in the past tense.
+72. The synopsis must be in the third person.
+73. The synopsis must be in the present tense.
+74. The synopsis must be in the first person.
+75. The synopsis must be a story.
+76. The synopsis must be in the past tense.
+77. The synopsis must be in the third person.
+78. The synopsis must be in the present tense.
+79. The synopsis must be in the first person.
+80. The synopsis must be a story.
+81. The synopsis must be in the past tense.
+82. The synopsis must be in the third person.
+83. The synopsis must be in the present tense.
+84. The synopsis must be in the first person.
+85. The synopsis must be a story.
+86. The synopsis must be in the past tense.
+87. The synopsis must be in the third person.
+88. The synopsis must be in the present tense.
+89. The synopsis must be in the first person.
+90. The synopsis must be a story.
+91. The synopsis must be in the past tense.
+92. The synopsis must be in the third person.
+93. The synopsis must be in the present tense.
+94. The synopsis must be in the first person.
+95. The synopsis must be a story.
+96. The synopsis must be in the past tense.
+97. The synopsis must be in the third person.
+98. The synopsis must be in the present tense.
+99. The synopsis must be in the first person.
+100. The synopsis must be a story.
+``` [/INST]
+
+# Output
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+``` [/INST]

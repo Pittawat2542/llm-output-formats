@@ -1,0 +1,28 @@
+```
+The __output__ format can be automatically generated from Markdown code blocks by using inline `json` output in Jekyll. Just wrap your desired output text with triple backticks like so:
+
+```
+[[Output format]] 
+This is the output.</[[Output format]] 
+Here is the JSON!```
+```
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": "task order",
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}</code></pre>
+
+This will generate a JSON object, and each output text will be enclosed in triple backticks to be inserted in the Markdown code block.

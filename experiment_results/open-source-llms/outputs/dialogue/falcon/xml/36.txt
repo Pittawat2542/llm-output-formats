@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue name="MarkdownDialogue">
+			<order>MarkdownDialogue order</order>
+			<speaker>MarkdownSpeaker name</speaker>
+			<text>MarkdownDialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+Output:
+```
+<?xml version="2001.1.8">
+<game><dialogues>
+    <dialogue name="MarkdownDialogue"><order>Dialogue Markdown order</order><speaker><speaker><text>MarkdownDialogue or narration</text></speaker></speaker></Speaker><text><text text="</text></text></text></text></text></text></text></text></text></text></text></text></text></text>
+    </dialogue>
+</game>
+``` 
+
+The output in XML format only includes the XML in the MarkdownDialogue tag.

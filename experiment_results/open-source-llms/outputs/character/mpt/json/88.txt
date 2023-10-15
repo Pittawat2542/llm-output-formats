@@ -1,0 +1,47 @@
+Below is a sample profile generated for a character.
+
+# Character profile
+```JSON
+{
+    "game": {
+        "character": {
+            "id": "G0XB1",
+            "first_name": "Alex",
+            "last_name": "Erickson",
+            "species": "Human",
+            "age": "20",
+            "role": "Main",
+            "background": "Born on Earth, she was one of five children, her parents were very protective of her from a young age, she doesn't know why.  At 16 she joined the military and was trained to become a highly skilled pilot.  At 18 years old she left Earth to join the fleet.  She meets Zac and he begins to teach her all he knows about the fleet including piloting the D20."
+           ,"place_of_birth": "Earth"
+           ,"physical_appearance": {
+                "eye_color": "Blue",
+                "hair_color": "Blonde",
+                "height": "5'7",
+                "weight": "120"
+            }
+        }
+    }
+}
+```
+
+## Game: Game context (i.e. game setup)
+```json
+ "game": {
+    "character": {
+		"id": "12345",
+		"first_name": "Alex",
+		"last_name": "Erickson",
+		"species": "Human",
+		"age": "20",
+		"role": "Main",
+		"background": "Born on Earth, she was one of five children, her parents were very protective of her from a young age, she doesn't know why.  At 16 she joined the military and was trained to become a highly skilled pilot.  At 18 years old she left Earth to join the fleet.  She meets Zac and he begins to teach her all he knows about the fleet including piloting the D20."
+	,"place_of_birth": "Earth"
+	,"physical_appearance": {
+		"eye_color": "Blue",
+		"hair_color": "Blonde",
+		"height": "5'7",
+		"weight": "120"
+	}
+    }
+}
+```

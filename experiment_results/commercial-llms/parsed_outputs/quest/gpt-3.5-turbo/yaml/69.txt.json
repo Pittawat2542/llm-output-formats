@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Journey through the Enchanted Forest",
+    "id": "23456",
+    "objective": "Collect 10 magical crystals",
+    "quest_giver": "Elder Wizard",
+    "reward": "1000 gold coins",
+    "tasks": [
+      {
+        "description": "Find the entrance to the forest",
+        "location": "Mystic Village",
+        "objective": "Locate the hidden path",
+        "order": 1
+      },
+      {
+        "description": "Defeat the guardian of the ancient tree",
+        "location": "Forest Grove",
+        "objective": "Retrieve a crystal from its lair",
+        "order": 2
+      },
+      {
+        "description": "Solve the riddles at the Magic Fountain",
+        "location": "Fairy Garden",
+        "objective": "Drink from the enchanted waters",
+        "order": 3
+      }
+    ],
+    "title": "The Crystal Quest"
+  }
+}

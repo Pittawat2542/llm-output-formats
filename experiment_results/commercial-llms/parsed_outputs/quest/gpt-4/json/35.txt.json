@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "QST1234",
+    "title": "The Lost Artifact",
+    "objective": "Find the lost artifact of Vallenwood",
+    "description": "The mayor of Vallenwood has tasked you with finding the lost artifact that has brought prosperity and luck to the villagers. It was taken by the notorious Thief of Shadows and it is believed to be hidden somewhere in the Shadows Den.",
+    "reward": "5000 gold and Artifact Seeker title",
+    "quest_giver": "Mayor of Vallenwood",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the Shadows Den",
+        "description": "Look for the hidden cave near the Old Oak, it is known to be the hiding spot of the Thief of Shadows.",
+        "location": "Old Oak in Vallenwood"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve the artifact",
+        "description": "Overcome the traps and puzzles of the Shadows Den to find and retrieve the lost artifact.",
+        "location": "Shadows Den"
+      }
+    ]
+  }
+}

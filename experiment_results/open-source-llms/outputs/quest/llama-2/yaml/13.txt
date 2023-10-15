@@ -1,0 +1,66 @@
+
+
+## Example
+
+```yaml
+game:
+  description: A quest to find the lost city of Atlantis.
+  id: 1
+  objective: Find the lost city of Atlantis.
+  quest_giver: Professor Jones
+  reward: 100 gold
+  tasks:
+  - description: Find the lost city of Atlantis.
+    location: The lost city of Atlantis.
+    objective: Find the lost city of Atlantis.
+    order: 1
+  - description: Find the lost city of Atlantis.
+    location: The lost city of Atlantis.
+    objective: Find the lost city of Atlantis.
+    order: 2
+  - description: Find the lost city of Atlantis.
+    location: The lost city of Atlantis.
+    objective: Find the lost city of Atlantis.
+    order: 3
+  - description: Find the lost city of Atlantis.
+    location: The lost city of Atlantis.
+    objective: Find the lost city of Atlantis.
+    order: 4
+  title: Atlantis Quest
+```
+
+## Input
+
+### Markdown
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+### YAML
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```

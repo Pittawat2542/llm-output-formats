@@ -1,0 +1,37 @@
+```xml
+<enemy id="enemy">
+	 <id>id</id>
+	 <name>name</name>
+	 <description>description</description>
+	 <hp>hp int value</hp>
+	 <mp>mp int value</mp>
+	 <atk>atk int value</atk>
+	 <def>def int value</def>
+	 <spd>spd int value</spd>
+</enemy>
+
+<xml>
+  <enemy id="enemy"
+	      name="name"
+	      description="description">
+     <hp>hp int value</hp>
+     <atk>atk int value</atk>
+     <def>def int value</def>
+     <spd>spd int value</spd>
+  </enemy>
+</xml>
+```
+
+Explanation:
+
+- `<enemy>` tag specifies an XML block which contains an `html` tag.
+- `<enemy id="enemy">` specifies that the `enemy` tag is enclosed within a parent `enemy` tag.
+- `<name>name</name>` tag contains the `name` text content.
+- `<description>description</description>` tag contains the `<html>` tag, which can contain any HTML content you want. Replace `description` tag with the name of your `<html>` tag.
+- `<hp>hp int value</hp>` tag contains a `html` tag that represents a single HTML cell with content set to an `hp` text node.
+- `<MP>mp int value</mp>` tag contains an HTML `<mp>` tag which represents a single HTML cell with content set to an `mp` text node.
+- `<ATK>atk int value</ATK>` tag contains an HTML `<ATK>` tag which represents a single HTML cell with content set to an `Atk` text node.
+- `<SPD>spd int value</SPD>` tag contains an HTML `<SPD>` tag which represents a single HTML cell with content set to an `spd` text node.
+- `<Def>def int value</Def>` tag contains an HTML `<Def>` tag, which represents a `Def` text node.
+- `
+- `</xml>` tag indicates that the XML is complete and the file is ready to be processed.

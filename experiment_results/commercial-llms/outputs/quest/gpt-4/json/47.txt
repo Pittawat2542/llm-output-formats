@@ -1,0 +1,26 @@
+```json
+{
+    "game": {
+        "id": "123",
+        "title": "The Dragon's Lair",
+        "objective": "Defeat the mighty Black Dragon",
+        "description": "A mythical Black Dragon has been terrorizing the kingdom. King Aelas has decreed that whoever can slay the beast would be rewarded with abundant riches",
+        "reward": "5000 gold coins and a castle",
+        "quest_giver": "King Aelas",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Find the dragon's lair",
+                "description": "The dragon's lair is said to be located at the Cursed Mountain. An ancient map that leads to it is believed to be in the possession of the old witch in Feral Woods",
+                "location": "Feral Woods"
+            },
+            {
+                "order": "2",
+                "objective": "Slay the Black Dragon",
+                "description": "Once the dragon is found, it must be slain. This will be no easy task - the dragon is invulnerable to all but the most ancient of weapons",
+                "location": "Cursed Mountain"
+            }
+        ]
+    }
+}
+```

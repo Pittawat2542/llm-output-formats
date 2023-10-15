@@ -1,0 +1,22 @@
+Here is the status of the enemy from the game example:
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+The enemy has 50% HP, 50% MP, 15 Attack, 15 Defense and 10 Speed.

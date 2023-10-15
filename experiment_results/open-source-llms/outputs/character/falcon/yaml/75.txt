@@ -1,0 +1,9 @@
+# Markdown code block
+Game:
+  character: |
+    Age: Exact age or description
+    BackgroundStory: |
+      - # Add additional details here
+      - - Character's birthplace or the location they were bred at. Inherit the place_of_birth if provided for any other character attributes.
+      - - Description of the character's parents or parents lineage. - Inherit the parent_species if provided.
+      - - The traits the character inherited from his or her ancestors. - Inherit the race_species if a character's race is different.

@@ -1,0 +1,81 @@
+
+
+## Examples
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+```
+
+## Inputs
+
+| Name | Type | Required | Description |
+| :--- | :--- | :---: | :--- |
+| game | `string` | Yes | The game id |
+| title | `string` | Yes | The quest title |
+| objective | `string` | Yes | The quest objective |
+| description | `string` | Yes | The quest description |
+| reward | `string` | Yes | The quest reward |
+| quest_giver | `string` | Yes | The quest giver |
+| tasks | `array` | Yes | The quest tasks |
+
+### game
+
+The game id.
+
+### title
+
+The quest title.
+
+### objective
+
+The quest objective.
+
+### description
+
+The quest description.
+
+### reward
+
+The quest reward.
+
+### quest_giver
+
+The quest giver.
+
+### tasks
+
+The quest tasks.
+
+### task
+
+The quest task.
+
+### order
+
+The task order.
+
+### objective
+
+The task objective.
+
+### description
+
+The task description.
+
+### location
+
+The task location.

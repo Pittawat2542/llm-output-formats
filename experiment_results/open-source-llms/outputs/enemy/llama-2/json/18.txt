@@ -1,0 +1,43 @@
+
+
+# Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "100",
+                "mp": "100",
+                "atk": "100",
+                "def": "100",
+                "spd": "100"
+            }
+        }
+    }
+}
+```
+
+# Input format
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/EXAMPLE]

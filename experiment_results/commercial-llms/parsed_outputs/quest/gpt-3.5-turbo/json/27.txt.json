@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the ancient treasure hidden in the mysterious island",
+    "description": "Embark on an epic adventure to search for the legendary treasure hidden on a remote island. Solve puzzles, defeat dangerous creatures, and overcome obstacles to unveil the secret of the lost treasure.",
+    "reward": "A chest full of gold and precious gems",
+    "quest_giver": "Captain Jacko",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Get a map from the old wise man",
+        "description": "Visit the old wise man in the village and convince him to share his secret map, which leads to the hidden island.",
+        "location": "Village of Elders"
+      },
+      {
+        "order": "2",
+        "objective": "Cross the treacherous sea",
+        "description": "Obtain a reliable boat and sail through dangerous waters to reach the remote island where the treasure is believed to be.",
+        "location": "Port of Seastorm"
+      },
+      {
+        "order": "3",
+        "objective": "Solve the riddles of the ancient ruins",
+        "description": "Explore the ancient ruins on the island and solve the perplexing riddles to gain access to the inner chamber where the treasure is rumored to lie.",
+        "location": "Island of Mysteries"
+      },
+      {
+        "order": "4",
+        "objective": "Defeat the guardian of the treasure",
+        "description": "Face the fearsome guardian creature that protects the treasure and prove your worthiness to possess the ancient riches.",
+        "location": "Chamber of Trials"
+      }
+    ]
+  }
+}

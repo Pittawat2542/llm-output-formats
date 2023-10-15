@@ -1,0 +1,362 @@
+
+
+## Example
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Tests
+```
+[INST] <<TEST>>
+```
+
+### Test 1
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 2
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 3
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 4
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 5
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 6
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 7
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 8
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 9
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 10
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 11
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 12
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 13
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 14
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 15
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 16
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Test 17
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ultimate treasure</objective>
+			<description>Go to the end of the world and get the ultimate treasure.</description>
+			<location>The end of the world</location

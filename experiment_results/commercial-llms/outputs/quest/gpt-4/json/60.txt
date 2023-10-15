@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "The Lost Artifact",
+        "objective": "Recover the ancient artifact from the ruins",
+        "description": "An ancient artifact has been lost in the degenerated Blue Obsidian ruins. Your mission is to enter the ruins, navigate its jeering traps and find the missing artifact.",
+        "reward": "5000 Gold, Artifact's Knowledge",
+        "quest_giver": "Venerable Sage Alden",
+        "tasks": [{
+            "order": "1",
+            "objective": "Get to the Blue Obsidian Ruins",
+            "description": "Travel to the east of the Kingdom until you reach the Blue Obsidian ruins.",
+            "location": "Blue Obsidian Ruins"
+        },
+        {
+            "order": "2",
+            "objective": "Navigate the traps",
+            "description": "Use your wit to go through the ancient traps in the ruins.",
+            "location": "Blue Obsidian Ruins"
+        },
+        {
+            "order": "3",
+            "objective": "Find and retrieve the artifact",
+            "description": "Search for the lost artifact in the deepest chamber of the ruins and take it.",
+            "location": "Deepest Chamber, Blue Obsidian Ruins"
+        }]
+    }
+}
+```

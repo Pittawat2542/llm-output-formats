@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "The Lost Sword",
+        "objective": "Retrieve the legendary sword from the ancient ruins",
+        "description": "A long-lost sword has been discovered in the depths of the ancient ruins. Legends say that this sword possesses incredible power, but it is guarded by treacherous traps and fearsome monsters. Only the bravest and most skilled adventurers can hope to retrieve it. Will you be the one?",
+        "reward": "The sword grants its wielder immense strength and unlocks hidden abilities.",
+        "quest_giver": "Vulcan the Wise",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the entrance to the ancient ruins",
+            "description": "Vulcan has marked the map with a possible location of the entrance. Investigate and explore the area to find it.",
+            "location": "Woodland Mountains"
+        },
+        {
+            "order": "2",
+            "objective": "Survive the traps and puzzles inside the ruins",
+            "description": "The ancient ruins are filled with all kinds of hidden traps and puzzles. Use your wits and skills to overcome them and safely reach the sword.",
+            "location": "Ancient Ruins"
+        },
+        {
+            "order": "3",
+            "objective": "Defeat the Guardian of the Sword",
+            "description": "The legendary sword is guarded by a powerful monster known as the Guardian. Face it in battle and prove your worth to claim the ancient treasure.",
+            "location": "Chamber of the Guardian"
+        }]
+    }
+}
+```

@@ -1,0 +1,28 @@
+```javascript
+var json = {
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+};
+```
+
+Output:
+
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+    
+}
+```
+
+[Game with a single dialogue per player.](https://i.imgur.com/vCfq8f4.png)

@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Sword",
+    "objective": "Retrieve the ancient lost sword and bring it back to the king.",
+    "description": "Long ago, a powerful sword known as the 'Blade of Kings' was lost in the depths of a treacherous dungeon. Legends speak of its incredible powers and the great fortune it brings to its wielder. The king has called upon brave adventurers to find the lost sword and restore it to its rightful place in the royal treasury. Are you up for the challenge?",
+    "reward": "10,000 gold coins and a legendary artifact",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the dungeon",
+        "description": "Search the nearby village for clues on the whereabouts of the hidden entrance to the dungeon.",
+        "location": "Village of Eldoria"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate the treacherous dungeon",
+        "description": "Use caution to avoid traps and defeat the dangerous creatures lurking within the dungeon's depths.",
+        "location": "The Cursed Dungeon"
+      },
+      {
+        "order": "3",
+        "objective": "Locate the lost sword",
+        "description": "Explore the various chambers of the dungeon and solve puzzles to locate the ancient lost sword.",
+        "location": "Chamber of the Blade"
+      },
+      {
+        "order": "4",
+        "objective": "Return the sword to the king",
+        "description": "Make your way back to the king's castle and present him with the retrieved sword.",
+        "location": "King's Castle"
+      }
+    ]
+  }
+}

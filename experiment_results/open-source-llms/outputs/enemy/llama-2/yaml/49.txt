@@ -1,0 +1,688 @@
+
+
+## Inputs
+
+### game
+
+* `game` (required)
+  * `enemy` (required)
+    * `description` (required)
+    * `id` (required)
+    * `name` (required)
+    * `stats` (required)
+      * `atk` (required)
+      * `def` (required)
+      * `hp` (required)
+      * `mp` (required)
+      * `spd` (required)
+
+### game.enemy
+
+* `game.enemy` (required)
+  * `description` (required)
+  * `id` (required)
+  * `name` (required)
+  * `stats` (required)
+    * `atk` (required)
+    * `def` (required)
+    * `hp` (required)
+    * `mp` (required)
+    * `spd` (required)
+
+### game.enemy.stats
+
+* `game.enemy.stats` (required)
+  * `atk` (required)
+  * `def` (required)
+  * `hp` (required)
+  * `mp` (required)
+  * `spd` (required)
+
+### game.enemy.stats.atk
+
+* `game.enemy.stats.atk` (required)
+  * `int` (required)
+
+### game.enemy.stats.def
+
+* `game.enemy.stats.def` (required)
+  * `int` (required)
+
+### game.enemy.stats.hp
+
+* `game.enemy.stats.hp` (required)
+  * `int` (required)
+
+### game.enemy.stats.mp
+
+* `game.enemy.stats.mp` (required)
+  * `int` (required)
+
+### game.enemy.stats.spd
+
+* `game.enemy.stats.spd` (required)
+  * `int` (required)
+
+### game.enemy.name
+
+* `game.enemy.name` (required)
+  * `string` (required)
+
+### game.enemy.description
+
+* `game.enemy.description` (required)
+  * `string` (required)
+
+### game.id
+
+* `game.id` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)
+  * `string` (required)
+
+### game.name
+
+* `game.name` (required)

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a journey to find the long-lost treasure buried deep within the mysterious island. Solve riddles, overcome obstacles, and face dangerous creatures to claim the bounty!",
+    "reward": "1000 gold pieces",
+    "quest-giver": "Captain Redbeard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the ancient map",
+          "description": "Explore the ancient cave to locate the hidden map that reveals the treasure's location.",
+          "location": "The Cave of Secrets"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the lost key",
+          "description": "Travel to the abandoned castle and retrieve the key to unlock the treasure chamber.",
+          "location": "The Forgotten Castle"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardian beast",
+          "description": "Battle against the ferocious guardian beast to gain access to the treasure.",
+          "location": "The Chamber of the Beast"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Markdown code block with YAML syntax
+class MyClass {
+  prop1: string
+  prop2: int
+  dialogues(Order = "1", Speaker = "example", Text = "Test YAML syntax.")
+}
+
+# Output
+---+    
+# MyClass
+  prop1: example
+  prop2: 1
+  dialogues:
+    Order: 1
+    Speaker: ${Speaker: example}
+    Text: Test YAML syntax.
+
+```

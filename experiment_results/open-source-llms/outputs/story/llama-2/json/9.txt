@@ -1,0 +1,685 @@
+
+
+## Example
+
+```json
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+## Input format
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Input example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test example
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "text"
+        }
+    ]
+}
+```
+
+## Test cases
+
+```json
+{
+    "questions": [
+        {
+            "question": "What is the title of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the synopsis of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the beginning of the game?",
+            "type": "text"
+        },
+        {
+            "question": "What is the ending of the game?",
+            "type": "

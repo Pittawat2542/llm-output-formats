@@ -1,0 +1,33 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "The Dragon's Lair",
+        "objective": "Defeat the dragon and retrieve the treasure",
+        "description": "A powerful dragon has taken over a nearby cave and is terrorizing the villagers. Your quest is to defeat the dragon and retrieve the stolen treasures. Are you brave enough to face the challenge?",
+        "reward": "1000 gold coins and a magical sword",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the cave entrance",
+            "description": "Explore the woods to locate the hidden entrance to the dragon's lair.",
+            "location": "The Enchanted Forest"
+        },{
+            "order": "2",
+            "objective": "Gather supplies",
+            "description": "Collect potions, weapons, and armor before confronting the dragon.",
+            "location": "The Village Market"
+        },{
+            "order": "3",
+            "objective": "Defeat the dragon",
+            "description": "Use your weapons and skills to defeat the dragon in battle.",
+            "location": "The Dragon's Lair"
+        },{
+            "order": "4",
+            "objective": "Retrieve the treasure",
+            "description": "Search the cave for the stolen treasures and bring them back to King Arthur.",
+            "location": "The Dragon's Lair"
+        }]
+    }
+}
+```

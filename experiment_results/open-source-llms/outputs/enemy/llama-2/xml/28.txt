@@ -1,0 +1,72 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy 1</name>
+		<description>Enemy 1 description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Enemy 2</name>
+		<description>Enemy 2 description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+# Input
+
+### Battle status
+
+```xml
+<?xml version="1.0"?>
+<battle>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</battle>
+```
+
+# Usage
+
+```sh
+$ inst generate-enemy-status
+```

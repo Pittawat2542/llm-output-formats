@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "In the land of old, a precious artifact has been stolen. Take it upon yourself to recover the artifact and restore peace in the kingdom.",
+    "id": "001",
+    "objective": "Recover the stolen artifact and return it to the king.",
+    "quest_giver": "King Ragnar",
+    "reward": "5000 gold pieces and a rare magical item",
+    "tasks": [
+      {
+        "description": "Travel to the Dragon's Den",
+        "location": "Dragon's Den",
+        "objective": "Investigate the area for clues about the artifact.",
+        "order": 1
+      },
+      {
+        "description": "Clear the cave of enemies",
+        "location": "Dragon's Den",
+        "objective": "Defeat all enemies in the cave to ensure a safe investigation.",
+        "order": 2
+      },
+      {
+        "description": "Find and retrieve the artifact.",
+        "location": "Unknown",
+        "objective": "Search for the artifact within the Dragon's Den and retrieve it.",
+        "order": 3
+      }
+    ],
+    "title": "The Stolen Artifact"
+  }
+}

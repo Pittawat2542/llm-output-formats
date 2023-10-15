@@ -1,0 +1,171 @@
+
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Explanation
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Inputs
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Outputs
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Usage
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Sample Output
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+
+# Author
+
+[@Gabriel](https://github.com/Gabriel-Jesus)
+
+# License
+
+[MIT](LICENSE)

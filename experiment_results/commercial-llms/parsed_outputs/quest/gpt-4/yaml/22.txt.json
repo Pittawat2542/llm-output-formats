@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "The people of Mill Town are under threat by dark forces. You need to help them to prevent disaster.",
+    "id": 123456789,
+    "objective": "Save the people of Mill Town by dealing with the dark forces.",
+    "quest_giver": "Mayor Tom",
+    "reward": "1500 gold and Legendary Sword of Light",
+    "tasks": [
+      {
+        "description": "Investigate the forest near Mill Town for signs of dark forces.",
+        "location": "Dark Forest",
+        "objective": "Find and defeat 10 Dark Spirits",
+        "order": 1
+      },
+      {
+        "description": "Find the source of darkness in the forest.",
+        "location": "Forest's End",
+        "objective": "Defeat the Forest Witch",
+        "order": 2
+      }
+    ],
+    "title": "Chaos in Mill Town"
+  }
+}

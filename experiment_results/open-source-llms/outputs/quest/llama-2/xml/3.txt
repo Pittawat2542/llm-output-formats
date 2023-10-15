@@ -1,0 +1,470 @@
+
+
+## Input format
+
+### Questions
+
+```
+<QUESTION>
+	<question>
+		<question-type>
+			<type>
+				<name>question type</name>
+				<description>question type description</description>
+			</type>
+		</question-type>
+		<answer>
+			<answer-type>
+				<type>
+					<name>answer type</name>
+					<description>answer type description</description>
+				</type>
+			</answer-type>
+			<answer>
+				<answer-type>
+					<type>
+						<name>answer type</name>
+						<description>answer type description</description>
+					</type>
+				</answer-type>
+			</answer>
+		</answer>
+	</question>
+</QUESTION>
+```
+
+### Quest
+
+```
+<QUESTION>
+	<question>
+		<question-type>
+			<type>
+				<name>question type</name>
+				<description>question type description</description>
+			</type>
+		</question-type>
+		<answer>
+			<answer-type>
+				<type>
+					<name>answer type</name>
+					<description>answer type description</description>
+				</type>
+			</answer-type>
+			<answer>
+				<answer-type>
+					<type>
+						<name>answer type</name>
+						<description>answer type description</description>
+					</type>
+				</answer-type>
+			</answer>
+		</answer>
+	</question>
+</QUESTION>
+```
+
+### Quest-giver
+
+```
+<QUESTION>
+	<question>
+		<question-type>
+			<type>
+				<name>question type</name>
+				<description>question type description</description>
+			</type>
+		</question-type>
+		<answer>
+			<answer-type>
+				<type>
+					<name>answer type</name>
+					<description>answer type description</description>
+				</type>
+			</answer-type>
+			<answer>
+				<answer-type>
+					<type>
+						<name>answer type</name>
+						<description>answer type description</description>
+					</type>
+				</answer-type>
+			</answer>
+		</answer>
+	</question>
+</QUESTION>
+```
+
+### Tasks
+
+```
+<QUESTION>
+	<question>
+		<question-type>
+			<type>
+				<name>question type</name>
+				<description>question type description</description>
+			</type>
+		</question-type>
+		<answer>
+			<answer-type>
+				<type>
+					<name>answer type</name>
+					<description>answer type description</description>
+				</type>
+			</answer-type>
+			<answer>
+				<answer-type>
+					<type>
+						<name>answer type</name>
+						<description>answer type description</description>
+					</type>
+				</answer-type>
+			</answer>
+		</answer>
+	</question>
+</QUESTION>
+```
+
+### Rewards
+
+```
+<QUESTION>
+	<question>
+		<question-type>
+			<type>
+				<name>question type</name>
+				<description>question type description</description>
+			</type>
+		</question-type>
+		<answer>
+			<answer-type>
+				<type>
+					<name>answer type</name>
+					<description>answer type description</description>
+				</type>
+			</answer-type>
+			<answer>
+				<answer-type>
+					<type>
+						<name>answer type</name>
+						<description>answer type description</description>
+					</type>
+				</answer-type>
+			</answer>
+		</answer>
+	</question>
+</QUESTION>
+```
+
+### Game
+
+```
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Output
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+``` [/INST]
+
+## Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Examples
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id

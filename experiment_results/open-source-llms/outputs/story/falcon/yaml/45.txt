@@ -1,0 +1,15 @@
+<!-- Beginning of the game -->
+### Markdown code block
+- Begin here
+- If you're using tags in your Markdown, define them here
+- Use the code block syntax by enclosing sections in YAML triple-quotes
+- If using tables, enclose the table inside triple-quotes and use double-quotes for table sections
+- To embed YAML code, set the `YAMLLink` option to `JSON`
+
+Example of a code block:
+- `#if` the code follows the same logic as a triple-quoted section
+- `if` condition
+- `then` section within the code block
+- `endif` section within the code block
+- `else` if condition
+- `endif` if condition

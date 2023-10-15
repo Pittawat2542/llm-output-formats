@@ -1,0 +1,40 @@
+# YAML code block
+Enemy stats:
+  stats:
+    atk: 11
+    def: 11
+    hp: 11
+    mp: 11
+    spd: 11
+    stats:
+      atk: 21
+      def: 21
+      hp: 21
+      mp: 21
+      spd: 21
+
+# Description
+[Enemy] 
+Game: 
+    description: "Void description"
+    name: "Void name"
+    stats: 
+      atk: 11 
+      hp: 11 
+      mp: 11 
+      spd: 11
+    game:
+      id: 11
+      name: "Vampire"
+      stat:
+        atk: 11 
+        hp: 110
+        mp: 110
+        spd: 110
+    stats: 
+       atk: 21 
+       hp: 21 
+       mp: 21 
+       spd: 21
+
+```

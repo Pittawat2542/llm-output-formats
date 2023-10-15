@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A mysterious voice from the forest has been calling out to the villagers every midnight, causing fear and unrest. The voice is believed to belong to a legendary beast that was once vanquished but seems to have returned.",
+    "id": "QST1234",
+    "objective": "Find the source of the voice and defeat the beast if it has indeed returned.",
+    "quest_giver": "Elder Morrin",
+    "reward": "Beast-Slayer's Sword, 2000 gold coins",
+    "tasks": [
+      {
+        "description": "Follow the voice into the heart of the forest.",
+        "location": "Mistwood Forest",
+        "objective": "Reach the heart of the forest.",
+        "order": 1
+      },
+      {
+        "description": "Investigate the area for signs of the beast.",
+        "location": "Heart of Mistwood Forest",
+        "objective": "Find traces of the beast.",
+        "order": 2
+      },
+      {
+        "description": "If the beast has indeed returned, confront it and defeat it.",
+        "location": "Heart of Mistwood Forest",
+        "objective": "Defeat the Beast.",
+        "order": 3
+      }
+    ],
+    "title": "The Beast of Mistwood"
+  }
+}

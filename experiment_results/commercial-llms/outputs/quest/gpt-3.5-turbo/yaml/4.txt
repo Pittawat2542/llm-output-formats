@@ -1,0 +1,30 @@
+```yaml
+game:
+  description: "Retrieve the stolen artifact from the ancient temple and return it to the village elder."
+  id: "quest001"
+  objective: "Find the stolen artifact"
+  quest_giver: "Elder Greybeard"
+  reward: "1000 gold coins"
+  tasks:
+    - description: "Investigate the temple entrance"
+      location: "Temple of Lost Souls"
+      objective: "Search for any clues about the artifact's location"
+      order: 1
+    - description: "Solve the riddle of the Guardian Statues"
+      location: "Temple of Lost Souls"
+      objective: "Discover the secret passage to the inner chambers"
+      order: 2
+    - description: "Navigate the labyrinthine corridors"
+      location: "Temple of Lost Souls"
+      objective: "Reach the upper level where the artifact is rumored to be"
+      order: 3
+    - description: "Defeat the ancient guardian"
+      location: "Chamber of the Lost Guardian"
+      objective: "Recover the stolen artifact from the guardian's possession"
+      order: 4
+    - description: "Return the artifact to Elder Greybeard"
+      location: "Village Elder's Hut"
+      objective: "Complete the quest by delivering the artifact to the quest giver"
+      order: 5
+  title: "The Lost Artifact"
+```

@@ -1,0 +1,27 @@
+Here is an example of a character profile:
+
+#Output
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "ID",
+            "first_name": "FIRST",
+            "last_name": "LAST",
+            "species": "SPECIES",
+            "age": "AGE",
+            "role": "ROLE",
+            "background": "BACKGROUND",
+            "place_of_birth": "BIRTHPLACE",
+            "physical_appearance": [
+                {
+                    "eye_color": "GREEN",
+                    "hair_color": "BROWN",
+                    "height": "1.55",
+                    "weight": "71"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+```yaml
+game:
+  description: "Embark on a treacherous journey to recover the lost artifact of Zephyr. Navigate through dangerous territories, face formidable foes, and solve puzzling riddles on your way to becoming a legendary hero."
+  id: "qst123"
+  objective: "Recover the artifact of Zephyr"
+  quest_giver: "Elder Torell"
+  reward: "Ancient relic, 500 gold coins"
+  tasks:
+    - description: "Find the old abandoned temple"
+      location: "Deep within the Forest of Shadows"
+      objective: "Discover the hidden entrance"
+      order: 1
+    - description: "Retrieve the key from the Guardian's Lair"
+      location: "Mount Thunderpeak"
+      objective: "Defeat the Guardian and take the key"
+      order: 2
+    - description: "Solve the riddles in the Chamber of Secrets"
+      location: "Mystic Caverns"
+      objective: "Decode the ancient riddles and open the sacred door"
+      order: 3
+    - description: "Reach the Altar of Elements"
+      location: "Valley of Whispers"
+      objective: "Activate the ancient portals to the Altar"
+      order: 4
+    - description: "Face the ancient Elemental Guardians"
+      location: "The Altar of Elements"
+      objective: "Defeat the guardians and claim the artifact"
+      order: 5
+  title: "The Lost Artifact of Zephyr"
+```

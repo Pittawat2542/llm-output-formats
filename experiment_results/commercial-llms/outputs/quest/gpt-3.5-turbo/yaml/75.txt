@@ -1,0 +1,26 @@
+```yaml
+game:
+  id: 1
+  title: "The Lost Artifact"
+  description: "As a brave adventurer, your mission is to find the long-lost artifact hidden deep in the ancient ruins of Zantria. Legend has it that whoever possesses this artifact will gain unimaginable power. Are you up for the challenge?"
+  quest_giver: "Elder Durin"
+  objective: "Retrieve the lost artifact"
+  reward: "A bag of gold coins and eternal glory"
+  tasks:
+    - description: "Find the entrance to the ruins"
+      location: "Mystic Forest"
+      objective: "Locate the hidden entrance to the ancient ruins of Zantria"
+      order: 1
+    - description: "Navigate through the labyrinth"
+      location: "The Ruins of Zantria"
+      objective: "Navigate through the treacherous labyrinth and avoid the traps"
+      order: 2
+    - description: "Solve the riddles"
+      location: "The Chamber of Secrets"
+      objective: "Decode the ancient riddles to access the inner sanctum"
+      order: 3
+    - description: "Find the Lost Artifact"
+      location: "The Inner Sanctum"
+      objective: "Search for the long-lost artifact and retrieve it"
+      order: 4
+```

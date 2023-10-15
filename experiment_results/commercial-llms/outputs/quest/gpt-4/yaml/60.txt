@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "Your mission is to find the lost orb of Pharaon, hidden deep within the cursed pyramid."
+  id: 123456
+  objective: "Locate and return the lost orb."
+  quest_giver: "The village elder, Hamou"
+  reward: "5000 gold coins and the sacred blade of Osiris."
+  tasks:
+  - description: "Venture into the heart of the desert to find the hidden pyramid."
+    location: "Giza Desert"
+    objective: "Find the Pyramid."
+    order: 1
+  - description: "Overcome the traps and monsters within the pyramid to find the orb."
+    location: "The cursed pyramid of Pharaon"
+    objective: "Retrieve the orb."
+    order: 2
+  title: "The Lost Orb of Pharaon"
+```

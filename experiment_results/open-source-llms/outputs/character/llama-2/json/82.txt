@@ -1,0 +1,393 @@
+
+
+### Example
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+
+### Expected Input
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+
+### Expected Output
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+
+### Rules
+- Use the following format for the JSON.
+- If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct.
+- If you don't know the answer to a question, please don't share false information.
+- Use the following format for the Markdown code block.
+
+### Tests
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character": {
+            "id": "123456789",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "35",
+            "role": "Main Character",
+            "background": "John was born in a small town in the south. His parents were farmers, and John grew up working the land. He was always a hard worker, and he was determined to make something of himself.",
+            "place_of_birth": "Small Town, USA",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "6'2",
+                "weight": "180 lbs"
+            }]
+        }
+    }
+}
+```
+```json
+{
+    "game": {
+        "character

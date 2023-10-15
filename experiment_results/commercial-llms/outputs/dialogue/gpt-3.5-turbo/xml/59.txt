@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hey, how are you doing?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm good, thanks for asking. How about you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm great too. I wanted to ask if you'd like to go on an adventure with me?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Sure, that sounds exciting! I'd love to join you.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

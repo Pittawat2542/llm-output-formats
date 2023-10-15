@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Visit the ancient ruins and retrieve the lost artifact hidden within.
+  id: 12345
+  objective: Find the lost artifact
+  quest_giver: Elder Alistair
+  reward: 1000 gold coins
+  tasks:
+  - description: Locate the entrance to the ruins
+    location: Forest of Eternia
+    objective: Find the hidden path leading to the ruins
+    order: 1
+  - description: Navigate through the maze-like corridors
+    location: Ancient Ruins
+    objective: Solve the puzzles and traps to progress deeper into the ruins
+    order: 2
+  - description: Confront the guardian protecting the artifact
+    location: Inner Chamber
+    objective: Defeat the guardian and claim the lost artifact
+    order: 3
+  title: The Lost Artifact
+```

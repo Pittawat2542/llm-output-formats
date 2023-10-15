@@ -1,0 +1,33 @@
+Sure! You can use this format for the JSON output:
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+
+Game dialogue/narration:
+
+The dialogue output will generate as nested arrays in the JSON format. The dialogue may have multiple speakers. In this example, both the "Doctor" and "Amy" are the speakers of the game dialogue in the following:
+
+"Doctor": "Welcome. My name is Doctor Who. I've seen several episodes of Doctor Who and know quite a bit about the Doctor and his adventures. Let me tell you a little bit about who I am and what I do."
+"Amy": "Hi Doctor. It's been awhile since we talked."
+"Doctor": "It has been. I've been working very hard on my research."
+
+In a more simple format, one can also use a single line of JSON:
+
+```json
+{
+    "game": {
+        "dialogues": [
+            {
+                "order": "dialogue order",
+                "speaker": "speaker name",
+                "text": "dialogue or narration"
+            }]
+    }
+}
+```

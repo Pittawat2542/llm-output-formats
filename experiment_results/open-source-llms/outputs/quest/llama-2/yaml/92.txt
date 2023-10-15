@@ -1,0 +1,21 @@
+
+
+# Example
+```yaml
+game:
+  description: The game description
+  id: 1
+  objective: The game objective
+  quest_giver: The quest giver
+  reward: The reward
+  tasks:
+    - description: The task description
+      location: The task location
+      objective: The task objective
+      order: 1
+    - description: The task description
+      location: The task location
+      objective: The task objective
+      order: 2
+  title: The quest title
+```

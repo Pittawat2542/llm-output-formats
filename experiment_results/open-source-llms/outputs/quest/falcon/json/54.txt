@@ -1,0 +1,19 @@
+# Markdown
+```
+### Quest Information ###
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest giver": "quest giver",
+        "_Tasks":[
+            "Order tasks", // in-game description goes in here!
+            "Example Task",
+            "Loot Task", // in-game description goes in here!
+        ]
+    }
+}
+```

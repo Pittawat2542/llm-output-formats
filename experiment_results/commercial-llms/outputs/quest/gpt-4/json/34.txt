@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "The Dragon's Den",
+        "objective": "Defeat the dragon of Kyro Mountain",
+        "description": "In the depth of Kyro Mountain lives an ancient dragon that has been terrorizing the nearby villages. Your aim is to go into the dragon's den and defeat it to bring peace to the villages.",
+        "reward": "5000 gold coins and rare dragon skin armor",
+        "quest_giver": "Headmaster of Warrior Guild",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Reach Kyro Mountain",
+                "description": "Journey to Kyro Mountain located towards the East of your current location",
+                "location": "Kyro Mountain"
+            },
+            {
+                "order": "2",
+                "objective": "Enter Dragon's Den",
+                "description": "Locate the entrance to the dragon's den which is at the peak of the mountain",
+                "location": "Peak of Kyro Mountain"
+            },
+            {
+                "order": "3",
+                "objective": "Defeat the Dragon",
+                "description": "Expected to be a tough battle, make sure you are ready",
+                "location": "Dragon's Den"
+            }
+        ]
+    }
+}
+```

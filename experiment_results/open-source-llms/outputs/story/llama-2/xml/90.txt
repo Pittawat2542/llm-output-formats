@@ -1,0 +1,664 @@
+
+
+## Input format
+```
+Title: <game title>
+Synopsis: <game story synopsis>
+Beginning: <game beginning>
+Ending: <game ending>
+```
+
+## Examples
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+
+## Rules
+* The game title must be a string.
+* The game story synopsis must be a string.
+* The game beginning must be a string.
+* The game ending must be a string.
+
+## Test cases
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Synopsis: game story synopsis
+Beginning: the beginning of the game
+Ending: the ending of the game
+```
+```
+Title: game title
+Syn

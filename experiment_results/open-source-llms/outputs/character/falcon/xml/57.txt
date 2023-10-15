@@ -1,0 +1,4 @@
+In the XML code above, the character attributes are enclosed in angle brackets and separated by commas. They are also separated by double quotes. After each character attribute, there is a space followed by two forward slashes for attributes in the second level.
+
+Below the character tag is a `game` tag that describes the game this character is in. It contains the `id`, a `first-name`, and a `last-name` tag, which are separated by spaces. The `character` tag is in the same format.
+All inner tags within the `character` tag are written as XML element tags. The inner `character` tags contain each character's attributes.

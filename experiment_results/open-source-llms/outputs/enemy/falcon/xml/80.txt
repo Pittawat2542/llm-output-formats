@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Enemy>
+	<Id>id</Id>
+	<Name>name</Name>
+	<Descr>description</Descr>
+	<Stats>
+		<HP>hp int value</HP>
+		<MP>mp int value</MP>
+		<ATK>atk int value</ATK>
+		<DEF>def int value</DEF>
+		<SPD>spd int value</SPD>
+		<BONUS>
+            <type int value="0">Bonus Type</type>
+            <bonus int value="0">Bonus BonusType</bonus>
+        </BONUS>
+    </Stats>
+</Enemy>
+
+<Enemy>
+   <EnemyId>id</EnemyId>
+   <EnemyName>Name</EnemyName>
+</Enemy>
+```

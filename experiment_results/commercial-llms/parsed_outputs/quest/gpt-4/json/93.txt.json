@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Qu001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the ancient ruins",
+    "description": "A powerful artifact has been stolen from the village. Your task is to retrieve it from the ancient ruins protects by monstrous creatures",
+    "reward": "500 gold coins and a rare magic item",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Slay the monstrous creatures",
+        "description": "The creatures protecting the ruins are aggressive and strong. Slay them to lessen the defense of the ruins",
+        "location": "The Ancient Ruins"
+      },
+      {
+        "order": "2",
+        "objective": "Find the hidden path to the artifact",
+        "description": "There is a hidden path that leads to the place where artifact is kept. Find the path",
+        "location": "Inside the Ancient Ruins"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact",
+        "description": "Once you find the path, retrieve the artifact. Be careful, it might be a trap",
+        "location": "The Hidden Chamber in Ruins"
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+# Quest Giver
+```javascript
+var quest = {
+    "id": "questId",
+    "title": "Quest Title",
+    "objective": "task objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "tasks": [],
+    "quest_giver": "quest_giver"
+};
+
+$.getJSON(object.questId, function(data) {
+    json(data);
+});
+
+// task_order.js
+var tasks = [];
+
+var taskObj = {
+    order: 1,
+    objective: "task objective",
+    description: "task description",
+    location: "@quest_giver.location"
+};
+$.map($(taskObj, function(o) {
+    $.each(tasks, function(key, index) {
+        $.extend({
+            id: taskObj.order,
+            title: tasks[index].title,
+            objective: taskObj.objective
+        });
+        tasks[index].objective = taskObj.objective;
+        tasks[index].description = taskObj.description;
+        tasks[index].location = "@" + taskObject.location;
+    });
+});
+
+$.map($(tasks.push(), function(task) {
+    return json(task);
+});
+
+$.mapObject("id", $.map({
+    id: function(id) {
+        return task.id;
+    }
+}, tasks));
+
+// output
+console.log($.map("id", tasks));
+```

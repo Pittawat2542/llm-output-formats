@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "123",
+        "title": "The Lost Artifact",
+        "objective": "Find the ancient artifact",
+        "description": "Ancient tales speak of a powerful artifact hidden deep within the treacherous Forbidden Forest. The artifact is said to possess the power to grant immortality and bring immense wisdom. Many have ventured into the forest in search of it, but none have returned. The time has come for a brave adventurer to embark on this perilous quest and retrieve the artifact.",
+        "reward": "A legendary enchanted sword",
+        "quest_giver": "Wise Old Sage",
+        "tasks": [{
+            "order": "1",
+            "objective": "Gather information",
+            "description": "Visit the local village and speak to its inhabitants to gather rumors and tales about the Forbidden Forest. Some may know of hidden paths or ancient maps to aid you in your quest.",
+            "location": "Village of Eldoria"
+        },
+        {
+            "order": "2",
+            "objective": "Obtain a magical amulet",
+            "description": "In order to safely traverse the treacherous forest, you'll need a magical amulet that provides protection from its dark enchantments. Seek the Hermit of the Hidden Grove, a wise mage who possesses such an amulet.",
+            "location": "Hidden Grove"
+        },
+        {
+            "order": "3",
+            "objective": "Navigate the Forbidden Forest",
+            "description": "Brave the dangers of the Forbidden Forest. The forest is filled with cunning traps, deadly creatures, and enchantments aimed to confuse and misdirect. Use the information gathered and the magical amulet to find your way to the artifact's supposed location.",
+            "location": "Forbidden Forest"
+        },
+        {
+            "order": "4",
+            "objective": "Recover the artifact",
+            "description": "Locate the hidden chamber deep within the heart of the Forbidden Forest. It is rumored that the artifact is safeguarded by a powerful guardian. Use your skills and wit to outsmart the guardian and claim the artifact.",
+            "location": "Chamber of the Lost Artifact"
+        }]
+    }
+}
+```
+```

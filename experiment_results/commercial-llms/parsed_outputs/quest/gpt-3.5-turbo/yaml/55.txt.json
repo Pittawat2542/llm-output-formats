@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Defeat the Evil Dragon and save the kingdom",
+    "id": "123456",
+    "objective": "Defeat the Evil Dragon",
+    "quest_giver": "King Arthur",
+    "reward": "1000 gold coins, a legendary sword, and the title of Dragon Slayer",
+    "tasks": [
+      {
+        "description": "Gather information about the Evil Dragon",
+        "location": "Dragon's Lair",
+        "objective": "Speak to the local villagers and gather information about the Evil Dragon's weaknesses",
+        "order": 1
+      },
+      {
+        "description": "Retrieve the ancient Dragon Slayer sword",
+        "location": "Cave of the Wise Hermit",
+        "objective": "Find the hidden entrance to the cave and convince the hermit to give you the Dragon Slayer sword",
+        "order": 2
+      },
+      {
+        "description": "Prepare for the battle",
+        "location": "Blacksmith's Forge",
+        "objective": "Craft powerful armor and weapons to enhance your combat abilities",
+        "order": 3
+      },
+      {
+        "description": "Face the Evil Dragon in combat",
+        "location": "Evil Dragon's Lair",
+        "objective": "Engage in a fierce battle with the Evil Dragon and emerge victorious",
+        "order": 4
+      }
+    ],
+    "title": "The Dragon Slayer"
+  }
+}

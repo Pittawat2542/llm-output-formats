@@ -1,0 +1,19 @@
+```json
+{
+   "game": {
+      "dialogue": [{
+         "dialogues": [{
+           "order": "dialogue order",�
+           "speaker": {
+               "name": "speaker name"
+            },
+           "text": "dialogue or narration"
+         }
+      }
+     }]
+}
+``` 
+
+In the first example, we wrapped the JSON in a backticks (`) to create a formatted JSON. Since the JSON is inside curly braces (`{}`), we can't return it directly. However, we can escape the JSON from the Markdown code block using a template string and JSON.stringify() to create a formatted JSON output in the terminal. 
+
+In the second example, we use the JSON property to format the key using backticks inside the JSON. Since the JSON is also inside curly braces, we can't return it directly.

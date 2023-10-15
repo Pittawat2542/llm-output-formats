@@ -1,0 +1,36 @@
+{
+  "game": {
+    "description": "Retrieve the lost artifact from the ancient temple and return it to the quest giver",
+    "id": "123456",
+    "objective": "Find the artifact and bring it back safely",
+    "quest_giver": "Elder Magus",
+    "reward": "1000 gold coins and a powerful enchanted amulet",
+    "tasks": [
+      {
+        "description": "Explore the jungle to locate the entrance of the ancient temple",
+        "location": "Jungle of Mysteries",
+        "objective": "Find the hidden entrance to the temple",
+        "order": 1
+      },
+      {
+        "description": "Solve the puzzles inside the temple to reach the artifact chamber",
+        "location": "Ancient Temple",
+        "objective": "Solve the puzzles and traps to get to the artifact chamber",
+        "order": 2
+      },
+      {
+        "description": "Defeat the guardian monster and retrieve the lost artifact",
+        "location": "Artifact Chamber",
+        "objective": "Defeat the guardian and retrieve the artifact",
+        "order": 3
+      },
+      {
+        "description": "Escape the collapsing temple and return to the quest giver",
+        "location": "Ancient Temple",
+        "objective": "Escape the collapsing temple and return with the artifact",
+        "order": 4
+      }
+    ],
+    "title": "The Lost Artifact"
+  }
+}

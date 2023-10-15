@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "The Lost Treasure",
+        "objective": "Find the hidden treasure",
+        "description": "A legendary treasure is said to be hidden deep within the cursed forest. Brave adventurers are needed to find and retrieve it.",
+        "reward": "1000 gold coins",
+        "quest_giver": "Captain Blackbeard",
+        "tasks": [{
+            "order": "1",
+            "objective": "Find the Old Map",
+            "description": "Locate the old map that will lead you to the treasure.",
+            "location": "Blackbeard's Tavern"
+        },
+        {
+            "order": "2",
+            "objective": "Solve the Riddles",
+            "description": "Solve a series of riddles to uncover the path to the hidden treasure.",
+            "location": "Enchanted Forest"
+        },
+        {
+            "order": "3",
+            "objective": "Defeat the Guardian",
+            "description": "Battle the fierce Guardian of the Treasure to claim the loot.",
+            "location": "Treasure Chamber"
+        }]
+    }
+}
+```

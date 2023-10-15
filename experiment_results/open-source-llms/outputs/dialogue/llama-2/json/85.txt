@@ -1,0 +1,29 @@
+
+
+# Example
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+const markdownIt = require('markdown-it');
+const md = markdownIt();
+
+const input = fs.readFileSync(path.resolve(__dirname, './input.md'), 'utf8');
+
+const output = md.render(input);
+
+console.log(output);
+```
+
+# Output
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }
+}
+```

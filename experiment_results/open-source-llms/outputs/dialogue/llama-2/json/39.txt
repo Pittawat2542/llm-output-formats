@@ -1,0 +1,79 @@
+
+
+## Input format
+
+The input is a JSON file with a `game` object, which contains a `dialogues` array.
+
+The `dialogues` array is a JSON array of objects, each with the following properties:
+
+- `order`: a number representing the order of the dialogue in the game.
+- `speaker`: the name of the speaker.
+- `text`: a string of text.
+
+## Example
+
+```json
+{
+  "game": {
+    "dialogues": [{
+      "order": 1,
+      "speaker": "John",
+      "text": "Hello, how are you?"
+    }, {
+      "order": 2,
+      "speaker": "Sarah",
+      "text": "I'm fine, how are you?"
+    }, {
+      "order": 3,
+      "speaker": "John",
+      "text": "I'm good, thanks for asking."
+    }, {
+      "order": 4,
+      "speaker": "Sarah",
+      "text": "It's nice to know you care."
+    }, {
+      "order": 5,
+      "speaker": "John",
+      "text": "I'm glad you feel that way."
+    }, {
+      "order": 6,
+      "speaker": "Sarah",
+      "text": "I'm glad you're happy."
+    }, {
+      "order": 7,
+      "speaker": "John",
+      "text": "I'm happy too."
+    }, {
+      "order": 8,
+      "speaker": "Sarah",
+      "text": "Let's go for a walk."
+    }, {
+      "order": 9,
+      "speaker": "John",
+      "text": "Sounds good."
+    }]
+  }
+}
+```
+
+## Explanation
+
+In the above example, the dialogues are in the order they appear in the game.
+
+## Rules
+
+- Do not return an empty dialogue.
+- Do not return a dialogue with a `speaker` that is not a `name`.
+- Do not return a dialogue with a `speaker` that is not in the `game`.
+- Do not return a dialogue with a `speaker` that is not in the `game` with the same `order`.
+- Do not return a dialogue with a `speaker` that is not in the `game` with the same `order` and `speaker`.
+- Do not return a dialogue with a `speaker` that is not in the `game` with the same `order` and `text`.
+- Do not return a dialogue with a `speaker` that is not in the `game` with the same `order`, `speaker`, and `text`.
+
+## Tests
+
+The tests are in the `tests` directory.
+
+## License
+
+MIT

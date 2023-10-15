@@ -1,0 +1,10 @@
+In this Markdown code block, we have created a JSON output with a nested structure representing a game object. The "game" key contains keys for the game's title, synopsis, and beginning. The object is also contained within the "game" key, which should follow the "synopsis" key. These keys should be wrapped in curly braces and follow a single-level JSON object structure, without any spaces between keys and values.
+
+```
+{
+    "title": "game title",
+    "synopsis": "game story synopsis",
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game"
+}
+```

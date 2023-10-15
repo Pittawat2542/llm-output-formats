@@ -1,0 +1,20 @@
+As an AI language model, I don't have the ability to generate output in JSON format as it requires computer programming. However, here's a sample response that you can use as an example:
+
+```
+{
+  "game": {
+    "id": "id",
+    "name": "name",
+    "description": "description",
+    "stats": {
+      "hp": "hp int value",
+      "mp": "mp int value",
+      "atk": "atk int value",
+      "def": "def int value",
+      "spd": "spd int value"
+    }
+  }
+}
+```
+
+The enemy's "name" and "description" statuses are included within the "game" object's "enemy" properties as JSON. The "stats" object itself is an array with properties that display the enemy's attack, defense, speed, and HP values. You can update these values as needed according to the enemy's behavior.

@@ -1,0 +1,489 @@
+
+
+### Examples
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+### Inputs
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| first_name | string | yes | First name of the character. |
+| last_name | string | yes | Last name of the character. |
+| species | string | yes | Species of the character. |
+| age | string | yes | Age of the character. |
+| role | string | yes | Role of the character. |
+| background | string | yes | Background story of the character. |
+| place_of_birth | string | yes | Location of the character. |
+| physical_appearance | array | yes | Physical appearance of the character. |
+| eye_color | string | yes | Eye color of the character. |
+| hair_color | string | yes | Hair color of the character. |
+| height | string | yes | Height of the character. |
+| weight | string | yes | Weight of the character. |
+
+### Outputs
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| game | object | yes | Game object. |
+| character | object | yes | Character object. |
+
+### Tests
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test case 2
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+        "eye_color": "eye color",
+        "hair_color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+    }]
+}
+```
+
+### Test cases
+
+| Test case | Test case description |
+| :--- | :--- |
+| [1] | Test case 1 |
+| [2] | Test case 2 |
+
+### Test case 1
+
+```json
+{
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+   

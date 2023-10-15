@@ -1,0 +1,26 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "character ID",
+            "first_name": "First name",
+            "last_name": "Last name",
+            "species": "Species",
+            "age": "Character's exact age or a description of their age.",
+            "role": "Role of the character",
+            "background": "Background story",
+            "place_of_birth": "Location",
+            "physical_appearance": [
+                {
+                    "eye_color": "Eye color",
+                    "hair_color": "Hair color",
+                    "height": "Character's height in float value",
+                    "weight": "Character's weight in float value"
+                }
+            ]
+        }
+    }
+}
+```
+
+The "game" section contains the top-level data, and the "character" section contains a description of the character in the game. The "character" section requires a character's unique ID, first name, last name, species, age, role, background, place of birth and a description of their physical appearance. The "physical appearance" section requires a description of character's eye color, hair color, height and weight.

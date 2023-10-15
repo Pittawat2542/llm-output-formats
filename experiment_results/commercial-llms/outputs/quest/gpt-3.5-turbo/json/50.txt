@@ -1,0 +1,39 @@
+```json
+{
+    "game": {
+        "id": "12345",
+        "title": "The Lost Treasure",
+        "objective": "Find the hidden treasure",
+        "description": "Embark on a thrilling adventure to uncover the long-lost treasure of the ancient civilization. Solve puzzles, overcome obstacles, and explore mysterious locations as you follow the clues that will lead you to the treasure's whereabouts.",
+        "reward": "A chest full of gold coins and valuable artifacts",
+        "quest_giver": "Captain Blake",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Find the ancient map",
+                "description": "Head to the crypt in the abandoned graveyard and search for the hidden map that holds the key to the treasure.",
+                "location": "Abandoned graveyard"
+            },
+            {
+                "order": "2",
+                "objective": "Retrieve the key from the enchanted forest",
+                "description": "Navigate through the dense forest and outwit the magical creatures to obtain the key that unlocks the treasure chamber.",
+                "location": "Enchanted forest"
+            },
+            {
+                "order": "3",
+                "objective": "Solve the riddles in the ancient temple",
+                "description": "Enter the ancient temple and decipher the cryptic riddles to access the final location of the treasure.",
+                "location": "Ancient temple"
+            },
+            {
+                "order": "4",
+                "objective": "Find the hidden treasure chest",
+                "description": "Follow the clues to the secret island and locate the hidden treasure chest buried deep in the sand.",
+                "location": "Secret island"
+            }
+        ]
+    }
+}
+```
+```

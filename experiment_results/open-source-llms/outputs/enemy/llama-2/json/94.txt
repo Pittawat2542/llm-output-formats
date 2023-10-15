@@ -1,0 +1,578 @@
+
+
+## Usage
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+## Examples
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+## Arguments
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+## Options
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --id
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --name
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --description
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --stats
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --game
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --help-long
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-long
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help-help-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help-help-help-help-help
+```
+Generate a enemy battle status. Return output in JSON format and only the JSON in the Markdown code block. JSON.
+
+# Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+``` [/INST]
+```
+
+### --version-short-help-long-help-help-help-help-help-help-

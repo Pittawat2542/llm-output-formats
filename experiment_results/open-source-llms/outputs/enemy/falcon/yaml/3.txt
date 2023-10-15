@@ -1,0 +1,11 @@
+In this example, we describe the enemy using specific YAML tags. The `enemy` tag will display the name of the enemy, and the `game` tag will specify the YAML file. Inside this YAML file, we've defined the enemy using tags to specify how the game should display the enemy. 
+
+For example, the `enemy` tag will display as `game.enemy` in the generated output. 
+
+The `stats` tag is where we specify the statistics for the enemy, such as the `atk` attribute and how many times it can hit in a turn. We've also defined an array to store the enemy's statistics. In the example, this array is named `stats`. 
+
+The `name` tag is used to specify the name of the enemy, which will be displayed when the enemy is selected. 
+
+We've also defined a `hp`, `def`, `mp`, and `spd` tag inside the enemy's YAML. These tags are used to specify the numbers for each statistic. For example, `hp` is the maximum health point value when the game is first loaded. 
+
+Finally, we've closed the output using the `game` tag to specify that this is the end of the enemy information.

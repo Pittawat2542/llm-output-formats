@@ -1,0 +1,307 @@
+
+
+### Examples
+
+#### [Example 1]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+#### [Example 2]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+#### [Example 3]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Input format
+
+#### [Example 1]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+#### [Example 2]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+#### [Example 3]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Output format
+
+#### [Example 1]
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+#### [Example 2]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+#### [Example 3]
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Sample input
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Sample output
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Sample input
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Sample output
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Sample input
+
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+    - eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+### Sample output
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

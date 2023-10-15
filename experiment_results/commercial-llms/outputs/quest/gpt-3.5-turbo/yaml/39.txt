@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Retrieve the sacred artifact to save the kingdom."
+  id: "123456"
+  objective: "Find the hidden temple and retrieve the artifact."
+  quest_giver: "King Arthur"
+  reward: "1000 gold coins and a legendary sword"
+  tasks:
+    - description: "Find the key to the temple entrance"
+      location: "The Forest of Enchantment"
+      objective: "Locate the magical key hidden in a tree"
+      order: 1
+    - description: "Solve the riddle to open the temple gate"
+      location: "The Whispering Valley"
+      objective: "Decipher the ancient riddle to open the gate"
+      order: 2
+    - description: "Defeat the guardian monster inside the temple"
+      location: "The Temple of Eternal Wisdom"
+      objective: "Defeat the fearsome dragon guarding the artifact"
+      order: 3
+  title: "The Quest for the Sacred Artifact"
+```

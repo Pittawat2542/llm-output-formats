@@ -1,0 +1,21 @@
+XML.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Speaker Name</speaker>
+			<text>Dialogue text or narration</text>
+		</dialogue>
+	</dialues>
+</game>
+```
+
+By using the text node `xml:space:preserve`, and only rendering the XML in the Markdown code block, the output of the above Markdown code will be:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?><?xml:space:preserve?><game><dialogues><?xml:space:preserve?><?xml:space:preserve?><dialogue><?xml:space:preserve?><order><text>dialogue order</text></order><speaker>Speaker Name</speaker><text>dialogue text or narration</text></speaker></order></dialogue><?xml:space:preserve?></dialogue></?xml:space:preserve></game></dialogues></game></database
+
+There is no output available to generate.

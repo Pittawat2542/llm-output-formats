@@ -1,0 +1,32 @@
+
+
+## Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Ash</name>
+		<description>Ash is a Pokémon trainer and the rival of the player in Pokémon Red and Blue.</description>
+		<stats>
+			<hp>50</hp>
+			<mp>50</mp>
+			<atk>50</atk>
+			<def>50</def>
+			<spd>50</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Brock</name>
+		<description>Brock is a Pokémon trainer and the Gym Leader of the Kanto Gym in Pokémon Red and Blue.</description>
+		<stats>
+			<hp>50</hp>
+			<mp>50</mp>
+			<atk>50</atk>
+			<def>50</def>
+			<spd>50</spd>
+		</stats>
+	</enemy>
+</game>
+```

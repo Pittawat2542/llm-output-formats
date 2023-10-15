@@ -1,0 +1,314 @@
+
+
+# Input format
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>3</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>4</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>5</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>6</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>7</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>8</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>9</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>10</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>11</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in 1987. He is a doctor. He lives in London. He has brown eyes and brown hair. He is 6'4" and 200 lbs.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'4"</height>
+				<weight>200 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+``` [/INST]
+
+# Example
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>12</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>Jane Doe was born in 1987. She is a doctor. She lives in London. She has brown eyes and brown hair. She is 6'4" and 200

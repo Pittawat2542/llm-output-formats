@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "QST239",
+        "title": "The Lost Artifact",
+        "objective": "Retrieve the ancient artifact from the Forbidden Temple",
+        "description": "The artifact known as the Eye of Draconis has been stolen by unknown thieves. Your task is to infiltrate the Forbidden Temple, defeat the guards, and retrieve the artifact safely.",
+        "reward": "5000 gold, +150 reputation, Legendary Sword 'Dragon's Teeth'",
+        "quest_giver": "King Arthur",
+        "tasks": [{
+            "order": "1",
+            "objective": "Defeat the temple guards",
+            "description": "The entrance of the Forbidden Temple is guarded by powerful warriors. You need to defeat them to gain entry into the temple.",
+            "location": "Forbidden Temple"
+        }, {
+            "order": "2",
+            "objective": "Solve the temple's puzzles",
+            "description": "The temple is known for its complex and dangerous puzzles. Solve them to proceed further into the temple.",
+            "location": "Forbidden Temple"
+        }, {
+            "order": "3",
+            "objective": "Retrieve the Eye of Draconis",
+            "description": "Locate the artifact and retrieve it, but be careful - it is said to be heavily guarded.",
+            "location": "Forbidden Temple"
+        }]
+    }
+}
+```

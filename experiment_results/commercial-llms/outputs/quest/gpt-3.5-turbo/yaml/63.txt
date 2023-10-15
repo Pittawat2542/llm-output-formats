@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "In the land of Zoria, a powerful dragon has been terrorizing the kingdom. The King has announced a quest to find the Dragon's Lair and slay the beast. Are you brave enough to take on this epic quest?"
+  id: "123456"
+  objective: "Find the Dragon's Lair and slay the dragon"
+  quest_giver: "King Arthur"
+  reward: "1000 gold coins and the title of Dragon Slayer"
+  tasks:
+  - description: "Gather information about the dragon's whereabouts"
+    location: "Town square"
+    objective: "Speak with the villagers and gather any information about the dragon's sightings"
+    order: 1
+  - description: "Search for the cave entrance"
+    location: "Mystic Forest"
+    objective: "Explore the forest and find the hidden cave entrance"
+    order: 2
+  - description: "Defeat the dragon"
+    location: "Dragon's Lair"
+    objective: "Engage in a fierce battle with the dragon and defeat it"
+    order: 3
+  title: "The Dragon Slayer"
+```

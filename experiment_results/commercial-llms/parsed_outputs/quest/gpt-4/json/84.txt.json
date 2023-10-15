@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q0001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact from the Cursed Temple",
+    "description": "Legend tells about an ancient artifact hidden within the Cursed Temple. Your objective is to enter the temple, locate the artifact, and bring it back.",
+    "reward": "1000 gold coins and 'Hero of the Land' title",
+    "quest_giver": "Archmage Elandor",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Enter the Cursed Temple",
+        "description": "Find the entrance of the Cursed Temple located in the Eldritch Forest.",
+        "location": "Eldritch Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Locate the Artifact",
+        "description": "Search the temple, solve its riddles and locate the hidden artifact.",
+        "location": "Cursed Temple"
+      },
+      {
+        "order": "3",
+        "objective": "Return to Archmage Elandor",
+        "description": "After successful retrieval, return to Archmage Elandor and deliver the artifact.",
+        "location": "Mage's Tower"
+      }
+    ]
+  }
+}

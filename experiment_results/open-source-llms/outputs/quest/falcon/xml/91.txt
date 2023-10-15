@@ -1,0 +1,50 @@
+```
+<?xml version="1.0" encoding="UTF-8"?>
+	<game xmlns="http://docx.w3.org/2006/svg">
+		<id>game id</id>
+		<title>quest title</title>
+		<objective>quast objective</objective>
+		<description>quast description</description>
+		<reward>quest reward</reward>
+		<quest-giver>quest giver</qastion>
+		<!--Add new Quastion elements here.-->
+		<tasks>
+				<!--Add new tasks elements here.-->
+			</tasks>
+		</game>
+	</svg>
+```
+
+<!--[Start of Quastion elements]-->
+<pre class="task" id="0">
+<objective>0</objective>
+<description>How to start the game</description>
+<quest-giver>quest giver</quest-giver>
+</pre>
+<pre class="task" id="1">
+<objective>1</objective>
+<description>Quastion 1: What is this game?</description>
+<quest-giver>quest giver</quest-giver>
+</pre>
+<pre class="task" id="2">
+<objective>2</objective>
+<description>Quastion 2: Do you have a map?</description>
+<quest-giver>quest giver</quest-giver>
+</pre>
+<pre class="task" id="3">
+<objective>3</objective>
+<description>Quastion 3: What do you think about mooks?</description>
+<quest-giver>quest giver</quest-giver>
+</pre>
+<pre class="task" id="4">
+<objective>4</objective>
+<description>Quastion 4: What do you want to accomplish in this game?</description>
+<quest-giver>quest giver</quest-giver>
+</pre>
+<pre class="task" id="5">
+<objective>5</objective>
+<description>Quastion 5: Are you ready to proceed?</description>
+<quastion-giver>&lt;/quastion-giver&gt;</quastion-giver&gt;</pre>
+<!--End of Quastion elements]--&gt;
+
+</svg>

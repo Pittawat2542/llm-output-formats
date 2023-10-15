@@ -1,0 +1,39 @@
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+
+# Example output
+```yaml
+game:
+  character:
+    age: 11
+    background: ""
+    first_name: ""
+    id: "a4b4-3e0f-d28d-8b62-f8daf8d7dfdd"
+    last_name: "Test Person"
+    physical_appearance:
+    - eye_color: green
+      hair_color: black
+      height: 170
+      weight: 49
+    place_of_birth: "earth"
+    role: ""
+    species: ""
+```
+
+### Context
+The "character" in Game.Character represents a fictional character from a game. This allows for many characters across games to share the same data without using a hard-coded id.
+
+Background info adds context to a character profile, and for games, this is usually a good way to add fun lore or game/game-world story elements to the character profile. This data is always welcome and encouraged.

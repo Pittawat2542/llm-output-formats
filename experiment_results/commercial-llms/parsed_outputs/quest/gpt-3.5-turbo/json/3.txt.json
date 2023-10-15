@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Save the Princess",
+    "objective": "Rescue the princess from the evil wizard",
+    "description": "The princess has been kidnapped by an evil wizard and is being held captive in his castle. You must embark on a dangerous quest to save her.",
+    "reward": "The gratitude of the kingdom and a bag of gold",
+    "quest_giver": "King Richard",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Collect the key to the castle",
+        "description": "The wizard has hidden the key somewhere in the enchanted forest. You must search for it and retrieve it.",
+        "location": "Enchanted Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the guardian of the castle",
+        "description": "There is a fearsome creature guarding the entrance to the castle. You must defeat it in order to gain access.",
+        "location": "Castle Entrance"
+      },
+      {
+        "order": "3",
+        "objective": "Rescue the princess",
+        "description": "Navigate through the castle and find the cell where the princess is being held captive. Set her free and make sure she is safe.",
+        "location": "Castle Dungeons"
+      }
+    ]
+  }
+}

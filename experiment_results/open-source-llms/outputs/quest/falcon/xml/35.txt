@@ -1,0 +1,31 @@
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			1. Task #1
+			2. Task #2
+			3. Task #3
+			4. Task #4
+			5. Task #5
+		</task>
+	</tasks>
+</game>
+```
+
+To extract the XML from the Markdown code block, you can use a combination of a text processing language and a command-line utility like `pandoc`. Here is an example of how to do this using `pandoc` in Linux or MacOS:
+
+1. Copy the Markdown code block containing the XML into a text editor.
+2. Save the file with a `.md` file extension.
+3. Open Terminal or command prompt.
+4. Navigate to the directory where your Markdown file is located.
+5. Type `pandoc -s -w -o -` to replace `.` with a dot as the placeholder.
+6. Enter the file extension after the `-s` flag to specify the format that you want to convert the Markdown to. For example, `-s markdown-code` would output the code in markdown syntax.
+7. Enter the path of your file that you want to convert. For example, `~/Documents/My_Project/my_file.md` is the path to a file named `my_file.md` in the Documents folder of your project.
+8. Once the conversion is complete, the output will be displayed in the terminal or command prompt. The XML will be surrounded with quotes, since it contains spaces and needs to be formatted as such.
+9. This text can be extracted using `quoted` function in your editor.

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "ABC123",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a great adventure to find the lost treasure of the ancient civilization. Follow the clues left behind and overcome challenges to uncover the riches.",
+    "reward": "1000 gold coins",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Read the treasure map",
+          "description": "Decode the ancient symbols and decipher the location of the treasure map hidden in the old library.",
+          "location": "Old Library"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the key",
+          "description": "Travel to the haunted cemetery and retrieve the key to the secret chamber where the treasure is kept.",
+          "location": "Haunted Cemetery"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardian",
+          "description": "Battle against the powerful guardian of the treasure to gain access to the secret chamber and claim the riches.",
+          "location": "Secret Chamber"
+        }
+      ]
+    }
+  }
+}

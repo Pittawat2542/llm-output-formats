@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Amulet",
+    "objective": "Find the lost amulet in the ancient ruins",
+    "description": "Legend says that there is an ancient amulet hidden deep within the ruins. Many adventurers have tried to find it, but none have succeeded. Can you uncover the secrets of the ancient ruins and retrieve the lost amulet?",
+    "reward": "1000 gold coins",
+    "quest_giver": "Elder Karkus",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the ancient ruins",
+        "description": "Speak to the villagers and gather information about the location and dangers of the ancient ruins.",
+        "location": "Village of Eldoria"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate through the treacherous forest",
+        "description": "Make your way through the dense forest that surrounds the ancient ruins. Watch out for wild creatures and hidden traps.",
+        "location": "Forest of Shadows"
+      },
+      {
+        "order": "3",
+        "objective": "Solve the riddles of the ancient ruins",
+        "description": "The ancient ruins are filled with riddles and puzzles. Use your wit and knowledge to solve them and unlock the path to the lost amulet.",
+        "location": "Ancient Ruins"
+      },
+      {
+        "order": "4",
+        "objective": "Defeat the guardian of the amulet",
+        "description": "The lost amulet is guarded by a powerful ancient creature. Prepare for a fierce battle and prove yourself worthy of the amulet.",
+        "location": "Chamber of the Guardian"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<p>The enemy has:</p>
+<pre><code>- id: 1 description: name: - name: name - name: name
+- id: 2 description: name: - name: name - name
+- id: 3 description: name: - name: name
+</code></pre>
+
+```
+<pre><code>| id | name | stats | spd | atk | mp |
+    | 1  | name  | -  | -  | - | - | mp |
+    | 2  | name  | -  | 9  | hp | 9 | mp | mp |
+    | 3  | name  | -  | 14 | 10 | 11 | mp | mp | mp |
+</code></pre>
+
+The above example will return an XML format of an enemy battle in a Markdown code block, with only the relevant data being exposed. The `atk`, `mp`, `hp`, `def`, and `spd` attributes are only exposed, while the `surname` and `name` attributes are not exposed.

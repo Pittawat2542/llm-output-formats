@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Rescue the Princess",
+    "objective": "Find and rescue the kidnapped princess",
+    "description": "The princess was kidnapped by the evil wizard. She could be in any of his hideouts across the kingdom. Her rescue is of utmost importance.",
+    "reward": "5000 gold and a royal award",
+    "quest_giver": "King Rupert",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find information about the wizard's hideouts",
+        "description": "The royal spies have found clues scattered across the kingdom. Locate these clues to find the hideouts.",
+        "location": "Royal Library"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the guards defending the hideouts",
+        "description": "The hideouts will be heavily guarded. Overcome these guards to enter the hideouts.",
+        "location": "Wizard's Hideouts"
+      },
+      {
+        "order": "3",
+        "objective": "Rescue the princess and return safely",
+        "description": "Find the princess in one of the hideouts and bring her back to the palace safely. Beware of traps and the wizard himself.",
+        "location": "Wizard's Hideouts"
+      }
+    ]
+  }
+}

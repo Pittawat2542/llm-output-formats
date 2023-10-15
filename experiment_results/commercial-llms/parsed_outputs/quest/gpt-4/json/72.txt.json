@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "Q-123",
+    "title": "The Lurking Beast",
+    "objective": "Eliminate the dreadful beast haunting the village",
+    "description": "A dreadful beast haunts the peaceful village of Klindenvale at night, endangering the villagers. Your task is to slay the beast and restore peace to the village.",
+    "reward": "5000 gold coins and a legendary sword 'Slayer'",
+    "quest_giver": "Village Elder Grover",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Locate the beast's lair in the forest",
+        "description": "The beast hides during the day in a cave deep within the Forest of Shadows. Locate the cave without drawing attention.",
+        "location": "Forest of Shadows"
+      },
+      {
+        "order": "2",
+        "objective": "Slay the beast",
+        "description": "Engage in battle with the beast and end its reign of terror. Be prepared for a tough fight!",
+        "location": "Beast's Lair"
+      }
+    ]
+  }
+}

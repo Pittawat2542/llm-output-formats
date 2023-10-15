@@ -1,0 +1,20 @@
+# Markdown code block
+enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk:
+      atk: int value
+    def:
+      def: int value
+    hp:
+      hp: int value
+    mp:
+    mp: int value
+    spd:
+      spd: int value
+
+```
+
+You can use Jekyll or Github Pages to output the YAML in this format. Just copy and paste this code block into your Jekyll or Github Pages YAML header file, and remove the comments, especially the `# markdown code block` and `# Output format` ones. This way, any Markdown in the YAML will be recognized as the `enemy` object and replace any content that matches your own custom output structure.

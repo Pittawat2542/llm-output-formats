@@ -1,0 +1,25 @@
+
+
+## Inputs
+
+### game
+
+#### game.enemy
+
+- **id**: string
+- **name**: string
+- **description**: string
+- **stats**: object
+  - **hp**: int
+  - **mp**: int
+  - **atk**: int
+  - **def**: int
+  - **spd**: int
+
+### game.enemy.stats
+
+- **hp**: int
+- **mp**: int
+- **atk**: int
+- **def**: int
+- **spd**: int

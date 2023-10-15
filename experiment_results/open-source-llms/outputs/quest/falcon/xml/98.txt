@@ -1,0 +1,33 @@
+* Replace `id`, `title`, `objective`, `description`, `reward`, `quest-giver`, and `tasks` with the appropriate values.
+
+```
+<!DOCTYPE markdown>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Output in XML format and only the XML in the Markdown code block</title>
+  </head>
+  <body>
+    <h1>Quest Information</h1>
+    <p><strong>Output Format:</strong></p>
+    <pre><code>   &lt;?xml version="1.0"?&gt;
+    &lt;game&gt;
+      &lt;id&gt;id&lt;/id&gt;
+      &lt;title&gt;quest title&lt;/title&gt;
+      &lt;objective&gt;quest objective&lt;/objective&gt;
+      &lt;description&gt;quest description&lt;/description&gt;
+      &lt;reward&gt;quest reward&lt;/reward&gt;
+      &lt;quest-giver&gt;quest giver&lt;/quest-giver&gt;
+      &lt;tasks&gt;
+        &lt;task&gt;
+          &lt;order&gt;task order&lt;/order&gt;
+          &lt;objective&gt;task objective&lt;/objective&gt;
+          &lt;description&gt;task description&lt;/description&gt;
+        &lt;/task&gt;
+      &lt;/tasks&gt;
+    &lt;/game&gt;
+  </code></pre>
+    <div><?xml version="1.0"?&gt;</div>
+  </body>
+</html>
+```

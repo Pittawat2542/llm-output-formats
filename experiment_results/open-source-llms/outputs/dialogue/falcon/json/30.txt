@@ -1,0 +1,25 @@
+```
+{
+    "game": {
+        "dialogues": [
+            {
+                "order": "dialogue order",
+                "speaker": {"name": "speaker name"},
+                "text": {
+                    "order": "dialogue order",
+                    "spker": "spker name"
+                }
+            }{
+                "game": {
+                    "spker": {"name": "speaker name"},
+                    "order": "dialgue order",
+                    "text": {"speaker": "spker name"},
+                    "dialogues": [{"order": "dialogues or narrations first", "text": {"speaker": "speaker's name"}}]
+                },
+                "order": "n",
+                "or": {"spker": {"name": "speaker name"}}
+            }
+        ]
+    }
+}
+```

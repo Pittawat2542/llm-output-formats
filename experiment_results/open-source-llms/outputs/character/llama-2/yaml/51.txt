@@ -1,0 +1,39 @@
+
+
+### Example
+```yaml
+game:
+  character:
+    age: 32
+    background: "Grew up on the streets of New York"
+    first_name: "Jim"
+    id: 2001
+    last_name: "Smith"
+    physical_appearance:
+    - eye_color: "Brown"
+      hair_color: "Brown"
+      height: 180
+      weight: 175
+    place_of_birth: "New York"
+    role: "Hero"
+    species: "Human"
+```
+
+### Solution
+```yaml
+game:
+  character:
+    age: 32
+    background: "Grew up on the streets of New York"
+    first_name: "Jim"
+    id: 2001
+    last_name: "Smith"
+    physical_appearance:
+    - eye_color: "Brown"
+      hair_color: "Brown"
+      height: 180
+      weight: 175
+    place_of_birth: "New York"
+    role: "Hero"
+    species: "Human"
+```

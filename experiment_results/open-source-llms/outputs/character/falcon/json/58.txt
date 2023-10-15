@@ -1,0 +1,28 @@
+Code block:
+```
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "my_eye_color",
+                "hair_color": "my_hair_color",
+                "height": "my_height" if height is defined, else "?" height,
+                "weight": "my_weight" if weight is defined, else "?" weight,
+                "gender": ("?" gender, if defined),
+                "species": ("?" species if species is defined, leave out if unknown),
+                "mood": (optional mood string),
+                "languages": ([...], use if statements for each language to display their respective options),
+                "allegiance": "loyalty to any group, if specified. Can be null and a placeholder if unknown. Optional unless otherwise specified."
+            }]
+        }
+    }
+}
+```

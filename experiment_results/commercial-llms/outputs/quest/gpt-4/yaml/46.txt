@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Your mission is to rescue the princess trapped in the enchanted forest"
+  id: "001"
+  objective: "Rescue Princess"
+  quest_giver: "King Arthur"
+  reward: "500 golds, Excalibur sword"
+  tasks:
+  - description: "Find the map to reach that forest"
+    location: "Old Merlin's Cave"
+    objective: "Obtain Enchanted Map"
+    order: "1"
+  - description: "Defeat the guarding dragon"
+    location: "Entrance of the Enchanted forest"
+    objective: "Defeat Dragon"
+    order: "2" 
+  - description: "Rescue the princess"
+    location: "Deep inside the Enchanted forest"
+    objective: "Rescue Princess"
+    order: "3"
+  title: "The Princess Rescue"
+```

@@ -1,0 +1,24 @@
+```python
+# input.markdown file
+name = "game_story_synopsis.md"
+text = """
+# Output format
+- title: "game title"
+- synopsis: "game story synopsis"
+- beginning: the beginning of the game
+- ending: the ending of the game
+- more information - see also:
+# output
+"""
+
+return f"""<{name}}
+```
+
+To convert Markdown into JavaScript code format, you can follow the steps below:
+
+1. Remove any comments before and after the content of the text block.
+2. Convert each line starting with the name followed by a dot (.), which represents the text on that line. These lines can be wrapped in the <code>span</code> tag so they become enclosed in tags.
+3. Remove any spaces and newlines between tags, and wrap any tags or lines exceeding 200 characters in the class ".markdown-ignore".
+4. Remove the ":" before and after the closing bracket of any multi-line blocks (e.g. @example).
+5. Use the <code>backtick</code> and <code>backtick2</code> commands to create tags around specific text and attributes, respectively.
+6. Convert the final result output to JSON format and remove the "JSON" text using string trimming in JavaScript.

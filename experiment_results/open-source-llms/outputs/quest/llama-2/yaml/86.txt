@@ -1,0 +1,26 @@
+
+
+## Example
+
+```yaml
+game:
+  description: A quest for the ages
+  id: 1
+  objective: To win the game
+  quest_giver: The King
+  reward: The crown
+  tasks:
+  - description: To find the sword
+    location: The forest
+    objective: To find the sword
+    order: 1
+  - description: To find the armor
+    location: The castle
+    objective: To find the armor
+    order: 2
+  - description: To find the helmet
+    location: The desert
+    objective: To find the helmet
+    order: 3
+  title: The Quest for the Crown
+```

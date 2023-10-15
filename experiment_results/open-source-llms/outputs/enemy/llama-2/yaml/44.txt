@@ -1,0 +1,799 @@
+
+
+## Input format
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+## Example
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+## Rules
+
+- You must use the [YAML](https://yaml.org/) format.
+- You must return the output in YAML format.
+- The output must be in the format specified above.
+- The input format is optional.
+- You can return any valid YAML.
+
+## Submissions
+
+Your submission should be a [Markdown](https://guides.github.com/features/mastering-markdown/) file.
+
+## Tests
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Expected Output
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+
+### Tests
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```

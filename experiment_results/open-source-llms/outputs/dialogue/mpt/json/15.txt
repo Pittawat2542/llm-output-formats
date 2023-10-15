@@ -1,0 +1,25 @@
+A dialogue would consist of a set of conversational questions and answers. For example:
+```json
+{"game": {
+    "dialogues": [{
+        "order": "0",
+        "speaker": "Jerry",
+        "text": "Hello, Bob. How's it going? Welcome to our new house. I have to admit, it's a bit overwhelming, with all this junk. Here's an empty box. Would you mind getting rid of it for me?",
+        "answers": [{
+            "answer": "Sure!",
+            "speaker": "Bob"
+        }, {
+            "answer": "No problem!",
+            "speaker": "Bob"
+        }]
+    }, {
+        "order": "1",
+        "speaker": "Bob",
+        "text": "Sure, I'll get it",
+        "answers": [{
+            "answer": "Here you go.",
+            "speaker": "Bob"
+        }]
+    }]
+}}
+```

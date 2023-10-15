@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "7431",
+    "title": "The Dragon's Bounty",
+    "objective": "Defeat the Dragon",
+    "description": "A powerful dragon is ravaging the kingdom. It's your task to slay this beast and restore peace.",
+    "reward": "Knight's Sword and 5000 gold coins",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the dragon's lair",
+        "description": "Travel to the deadly forest and locate the dragon's lair.",
+        "location": "Deadly Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the dragon",
+        "description": "Engage and defeat the Dragon.",
+        "location": "Dragon's lair"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+
+
+## Input format
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+## Example
+
+```yaml
+game:
+  character:
+    age: 21
+    background: 
+    - "Grew up in a small town"
+    first_name: "Jon"
+    id: 123
+    last_name: "Snow"
+    physical_appearance:
+    - eye_color: "Blue"
+      hair_color: "Brown"
+      height: 183
+      weight: 180
+    place_of_birth: "Winterfell"
+    role: "King"
+    species: "Human"
+```
+
+## Explanation
+
+```yaml
+game:
+  character:
+    age: 21
+    background: 
+    - "Grew up in a small town"
+    first_name: "Jon"
+    id: 123
+    last_name: "Snow"
+    physical_appearance:
+    - eye_color: "Blue"
+      hair_color: "Brown"
+      height: 183
+      weight: 180
+    place_of_birth: "Winterfell"
+    role: "King"
+    species: "Human"
+```
+
+## Solution
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

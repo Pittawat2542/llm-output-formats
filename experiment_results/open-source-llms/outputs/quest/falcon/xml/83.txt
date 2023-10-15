@@ -1,0 +1,29 @@
+Tasks:
+
+<table>
+<thead>
+	<tr>
+		<th>Task</th>
+		<th>Obj</th>
+		<th>Desc</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>return</td>
+		<td>This is a task</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>return</td>
+		<td>This is another task</td>
+	</tr>
+</tbody>
+</table>
+``` 
+
+Quest Giver: `:quest-giver name`
+Reward: `:reward description`
+Task Order: `:<task order 1...n>```
+Task Objectives: `:objective<objective text>`

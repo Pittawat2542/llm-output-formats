@@ -1,0 +1,27 @@
+In the output format, we will use an “id” field to store names of all your enemies and their statistics fields and use the “name” field in the “game” tag. This format may serve to be more human-readable, more informative, and easier to scan through. <br>
+<game>
+	<enemy>
+		<id>id1</id>
+		<name>name 1</name>
+		<description>description</description>
+		<stats>
+			<hp>999</hp>
+			<mp>999</mp>
+			<atk>999</atk>
+			<def>999</def>
+			<spd>999</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>id2</id>
+		<name>name 2</name>
+		<description>description</description>
+		<stats>
+			<hp>999</hp>
+			<mp>999</mp>
+			<atk>999</atk>
+			<def>999</def>
+			<spd>999</spd>
+		</stats>
+	</enemy>
+</game>

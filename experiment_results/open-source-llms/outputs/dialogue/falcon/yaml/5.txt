@@ -1,0 +1,22 @@
+<span class="snippet-code-highlight">
+<pre class="snippet-code-snippet">
+# Example
+# Output format
+# | speaker | text |
+# | --------- | ------ |
+# | ------ | -------- |
+# | example one | This is example one. |
+# |  example two | This is example two. |
+game = {
+  dialogues = {
+    speaker = "Speaker One",
+    text = "This is Speaker One's dialogue.",
+    order = "dialogue order",
+    text = "This is Speaker One's dialogue or narration."
+  }
+}
+</pre>
+```
+In this YAML, we have a list of `YAML` objects named `dialogues`, where each dialogue is an `Order` object with a `speaker` property, a `text` property, and an `order` property that determines the order of the dialogue. The `text` property is a string representing the dialogue or narration, which is enclosed in speech marks to mark a pause for each speaker or sentence (`|`).
+
+We nest a set of `YAML` objects in the `game` object, where each object represents a group of dialogues that are related to the same topic, such as a series of events in a game. Inside each dialogue, we define the `speaker`, the text, and the order of the dialogue.

@@ -1,0 +1,29 @@
+<pre><code>{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "spc": "species code",
+            "age": "age as an integer",
+            "role": "role of the character",
+            "background": "exact background story",
+            "place_of_birth": "location",
+            "physical_appearance": [
+                {
+                    "eye_color": "brown",
+                    "hair_color": "red",
+                    "height": "5ft 4",
+                    "weight": "90lb"
+                },
+                {
+                    "eye_color": "green",
+                    "hair_color": "golden",
+                    "height": "6ft 4",
+                    "weight": "120lb"
+                }]
+            ]
+        }
+    }
+}
+</code></pre>

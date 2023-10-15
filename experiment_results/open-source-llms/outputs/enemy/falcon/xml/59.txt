@@ -1,0 +1,39 @@
+```python
+import xml.etree.ElementTree as ET
+
+# Reading the XML file
+xml_file = open('enemy.xml')
+root = ET.fromstring(xml_file.read())
+
+# Querying the XML status
+enemy_name = root.find('enemy/name').text
+enemy_hp = int(root.find('enemy/hp'))
+enemy_mp = int(root.find('enemy/mp'))
+def_spd = int(root.find('enemy/spd'))
+
+# Printing the data
+print(f"<enemy>{enemy_name}</enemy>" \
+		       f"hp: {enemy_hp} mp: {enemy_mp} atk: {def_spd} " \
+		       f"spd: {enemy_def} atkspd: {attack_spd}", newline = 2 * len(text))
+````
+```
+```xml
+<game>
+   <enemy id="id">
+        <name>name</name>
+   </enemy>
+   <enemy id="name">
+        <stats>
+            <hptrain>hp int value</hptrain>
+            <mptrain>mp int value</mptrain>
+            <ativestrain>ath ctrl value</ativestrain>
+            <attackcstrain>attack ctrl value</attackctrain>
+            <defuncta>a d ctr value</defuncta>
+            <damagecstrain>damage ctrl var value</damagectrain>
+            <defensecstrain>def ctrl var value</defensectrain>
+            <healthcstrain>health ctrl var value</healthctrain>
+            <attackcstrain>attck ctrl var value</attckctrain>
+        </stats>
+    </enemy>
+</game>
+```

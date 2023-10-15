@@ -1,0 +1,21 @@
+To mark the JSON output in the Markdown code block, you can use a `span` tag.
+
+```html
+<pre><
+# Output format
+
+<span data-lang="json">
+
+  {
+    "game": {
+      "dialogues": [{
+        "order": "dialogue order",
+        "speaker": "speaker name",
+        "text": "dialogue or narration"
+      }]
+    }
+  }
+</span>
+```
+
+In this example, the `span` tag with the `data-lang` attribute set to `json` is used to mark the inner JSON. The inner JSON will only be in JSON format and wrapped in the `span`.

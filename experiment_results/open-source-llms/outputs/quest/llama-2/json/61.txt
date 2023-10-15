@@ -1,0 +1,550 @@
+
+
+## Input
+
+### Game
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| id | String | Yes | Game ID |
+| title | String | Yes | Game title |
+| objective | String | Yes | Game objective |
+| description | String | Yes | Game description |
+| reward | String | Yes | Game reward |
+| quest_giver | String | Yes | Game quest giver |
+
+### Quest
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| game_id | String | Yes | Game ID |
+| title | String | Yes | Quest title |
+| objective | String | Yes | Quest objective |
+| description | String | Yes | Quest description |
+| reward | String | Yes | Quest reward |
+| quest_giver | String | Yes | Quest giver |
+
+### Task
+
+| Name | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| order | Number | Yes | Task order |
+| objective | String | Yes | Task objective |
+| description | String | Yes | Task description |
+| location | String | Yes | Task location |
+
+## Examples
+
+### Example 1
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    }
+}
+```
+
+### Example 2
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 3
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 4
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 5
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 6
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 5,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 7
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 5,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 6,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 8
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 5,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 6,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 7,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 9
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 5,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 6,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 7,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 8,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            }
+        ]
+    }
+}
+```
+
+### Example 10
+
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver"
+    },
+    "quest": {
+        "game_id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 2,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 3,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 4,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 5,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 6,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 7,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 8,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+            },
+            {
+                "order": 9,
+                "objective": "task objective",
+                "description": "task description",
+                "location": "task location"
+           

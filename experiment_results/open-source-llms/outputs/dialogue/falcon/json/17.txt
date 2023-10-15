@@ -1,0 +1,24 @@
+```
+{
+    "game": {
+        "dialogues": [
+            {"order": "dialogue order", "speaker": "speaker name", "text": "dialogue or narration"}
+        ]
+    }
+}
+
+```  
+The output will be:
+```
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": "dialogue order",
+        "speaker": "speaker name",
+        "text": "dialogue or narration"
+      }
+    ]
+  }
+}
+```

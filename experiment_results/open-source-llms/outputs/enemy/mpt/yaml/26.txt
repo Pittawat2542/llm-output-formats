@@ -1,0 +1,15 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+The id of the enemy is id, The name of the enemy is name, The attacker of the enemy is self. The defence of the enemy is def, The health of the enemy is hp, The magic power of the enemy is mp, The speed of the enemy is spd.

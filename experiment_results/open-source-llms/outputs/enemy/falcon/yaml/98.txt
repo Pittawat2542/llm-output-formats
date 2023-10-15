@@ -1,0 +1,14 @@
+# YAML in Markdown
+enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk: 1 integer (default 1)
+    def: 5 integer (default 5)
+    hp: 10 integer (default 10)
+    mp: 2 integer (default 2)
+    spd: 6 integer (default 6)
+```
+
+In the example YAML code block, the command `stats` is used to define the stats for the enemy, including atk, def, hp, mp, and spd. The name attribute is optional and only needs to be provided if the enemy has one. All other attributes are optional, and only need to be provided if the enemy has one.

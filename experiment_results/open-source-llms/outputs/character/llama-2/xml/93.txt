@@ -1,0 +1,73 @@
+
+
+# Input format
+```markdown
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<place-of-birth>location</place-of-birth>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+```
+
+# Examples
+
+```markdown
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<place-of-birth>location</place-of-birth>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+```
+
+# Usage
+
+```markdown
+<character>
+	<id>id</id>
+	<first-name>first name</first-name>
+	<last-name>last name</last-name>
+	<species>species</species>
+	<age>exact age or description</age>
+	<role>role of the character</role>
+	<background>background story</background>
+	<place-of-birth>location</place-of-birth>
+	<physical-appearance>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</physical-appearance>
+</character>
+```
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit/)

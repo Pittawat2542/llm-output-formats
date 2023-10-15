@@ -1,0 +1,15 @@
+# Markdown code block
+# Enemy battle status
+```
+game:
+  enemy:
+    description: A description of the enemy
+    stats:
+      atk: atk=1 (attacking player)
+      def: def=1 (defending player)
+      hp: hp=1 (HP to the enemy)
+      mp: mp=1 (MP usage to the enemy)
+    atk: atk=1 (attacking player)
+    hp: hp=1 (HP to the enemy)
+    mp: mp=1 (MP usage to the enemy) 
+```

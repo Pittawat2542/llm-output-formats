@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Embark on a perilous journey to the deadly Fire Mountain. Confront foes, solve puzzles, and uncover ancient secrets. 
+  id: Q1002
+  objective: Retrieve the mystical Firestone located deep within the chambers of Fire Mountain.
+  quest_giver: Elder Kaliburn 
+  reward: Legendary Sword of Flames and 1500 Gold Coins.
+  tasks:
+  - description: Enter the Forbidden Forest to find the secret passage to Fire Mountain.
+    location: Forbidden Forest
+    objective: Uncover the ancient stone map hidden within the forest caves.
+    order: Task 1
+  - description: Traverse through the fiery labyrinth of Fire Mountain.
+    location: Fire Mountain
+    objective: Find a safe path through the labyrinth preventing access to the Firestone.
+    order: Task 2
+  - description: Defeat the Firelord and retrieve the Firestone.
+    location: Fire Mountain Summit.
+    objective: Slay the fiery beast guarding the Firestone and return with the legendary gem.
+    order: Task 3
+  title: The Firestone Quest
+```

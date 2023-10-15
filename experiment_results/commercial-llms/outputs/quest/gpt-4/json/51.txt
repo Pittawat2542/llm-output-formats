@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "1234",
+        "title": "The Lost Artifact",
+        "objective": "Recover the ancient artifact from the forgotten temple",
+        "description": "Deep in the forgotten temple lies a powerful artifact. Many have tried to recover it, but none have returned. ItÅfs now your turn to prove your bravery and skill.",
+        "reward": "5000 gold, Exotic Weapon",
+        "quest_giver": "Elder Matthias",
+        "tasks": [{
+            "order": "1",
+            "objective": "Reach the forgotten temple",
+            "description": "Travel through the haunted forest and reach the entrance of the temple.",
+            "location": "Haunted Forest"
+        },{
+            "order": "2",
+            "objective": "Overcome the trials of the temple",
+            "description": "Survive the trials of the temple: defeat the ancient guardians and solve the templeÅfs puzzles.",
+            "location": "Inside the Forgotten Temple"
+        },{
+            "order": "3",
+            "objective": "Retrieve the artifact",
+            "description": "Find the artifact in the innermost area of the temple and retrieve it. Be prepared for a heavy resistance.",
+            "location": "TempleÅfs Inner Sanctum"
+        }]
+    }
+}
+```

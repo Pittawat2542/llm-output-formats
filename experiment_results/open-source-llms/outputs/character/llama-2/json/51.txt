@@ -1,0 +1,328 @@
+
+
+## Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Input
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Rules
+
+- The input is a JSON object.
+- The input is a valid JSON object.
+- The input has a `game` property.
+- The input has a `character` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has a `eye_color` property.
+- The input has a `hair_color` property.
+- The input has a `height` property.
+- The input has a `weight` property.
+- The input has a `id` property.
+- The input has a `first_name` property.
+- The input has a `last_name` property.
+- The input has a `species` property.
+- The input has a `age` property.
+- The input has a `role` property.
+- The input has a `background` property.
+- The input has a `place_of_birth` property.
+- The input has a `physical_appearance` property.
+- The input has

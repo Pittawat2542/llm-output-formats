@@ -1,0 +1,11 @@
+# Markdown code block
+The dialogue can be replaced with a YAML block that contains a single "game" object, which contains a "dialogue" object with "speaker" and "text" keys. The speakers can be specified using double backslashes ("").
+```
+>  
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: User
+    - key: text
+      text: "I heard that we needed to hurry up."
+```

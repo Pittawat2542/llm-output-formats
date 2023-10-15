@@ -1,0 +1,42 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact and return it to the museum",
+    "description": "A valuable and ancient artifact has been stolen from the local museum. Your task is to track down the artifact and return it to its rightful place. Be prepared for dangerous encounters and challenging puzzles along the way.",
+    "reward": "A handsome sum of gold coins and eternal fame",
+    "quest_giver": "Professor Harrison",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information from the townsfolk",
+        "description": "Speak to the locals and gather information about the stolen artifact. Ask around the market, tavern, and city hall.",
+        "location": "Town"
+      },
+      {
+        "order": "2",
+        "objective": "Examine the crime scene",
+        "description": "Investigate the museum thoroughly to find any clues left behind by the thief. Look for fingerprints, footprints, or any other evidence that might help in identifying the culprit.",
+        "location": "Museum"
+      },
+      {
+        "order": "3",
+        "objective": "Follow the trail",
+        "description": "Follow the trail of the thief's escape. Search for any signs or hints that might lead you to the whereabouts of the stolen artifact.",
+        "location": "Forest"
+      },
+      {
+        "order": "4",
+        "objective": "Confront the thief",
+        "description": "Track down the thief to a hidden hideout. Prepare for a confrontation and retrieve the stolen artifact.",
+        "location": "Cave"
+      },
+      {
+        "order": "5",
+        "objective": "Return the artifact to the museum",
+        "description": "Return the ancient artifact to the museum curator and receive your well-deserved reward.",
+        "location": "Museum"
+      }
+    ]
+  }
+}

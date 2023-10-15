@@ -1,0 +1,484 @@
+
+
+# Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+# Input
+
+The input will be a single string containing a JSON string.
+
+# Constraints
+
+The input will be a single string containing a JSON string.
+
+# Output
+
+The output will be a single string containing a JSON string.
+
+# Examples
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "Smith",
+            "species": "Human",
+            "age": "30",
+            "role": "Captain",
+            "background": "He was born in the 1990s and has a lot of experience.",
+            "place_of_birth": "New York City, United States",
+            "physical_appearance": [{
+                "eye_color": "Blue",
+                "hair_color": "Brown",
+                "height": "180 cm",
+                "weight": "80 kg"
+            }]
+        }
+    }
+}
+```
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "1",
+            "first_name":

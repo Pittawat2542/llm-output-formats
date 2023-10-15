@@ -1,0 +1,31 @@
+```
+return `<!DOCTYPE html>
+<html>
+<div id="character">
+	<h2>{{ `Char.first_name`|e.html ->>`Char.first_name`
+</h2>
+<h2>{{ `Char.last_name`|e.html ->>`Char.last_name`
+</h2>
+<h2>{{ `Char.species`|e.html ->>`Char.species`
+</h2>
+<h2>{{ `Char.age`|e.html ->>`Char.age`
+</h2>
+<h2>{{ `Char.role`|e.html ->>`Char.role`
+</h2>
+<h2>{{ `Char.birthplace`|e.html ->>`Char.birthplace`
+</h2>
+<h2>{{ `Char.appearance`|e.html ->>`Char.appearance`
+</h2>
+<h2>{{ `Char.physical_appearance.species`|e.html ->>`Char.physical_appearance.species`
+}</h2>
+
+<div id="fname"></div>
+<div id="lname"></div>
+```
+```
+{{ `Char.species`|e.html ->>`Char.species`
+"""
+```
+```xml
+{{ `Char.species.characters`|e.html ->>`Char.species.characters`
+```

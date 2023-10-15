@@ -1,0 +1,44 @@
+
+
+## Usage
+```shell
+$ python3 enemy_status.py
+```
+
+## Example
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: "enemy id"
+    name: "enemy name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 50
+```
+
+## Output
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: "enemy id"
+    name: "enemy name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 50
+```
+
+## Requirements
+* Python 3.7.0
+* Pip 20.0.2
+* YAML 3.13
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

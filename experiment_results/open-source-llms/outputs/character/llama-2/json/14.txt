@@ -1,0 +1,301 @@
+
+
+## Example
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Tests
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Inputs
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Outputs
+
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+
+## Run
+
+```sh
+$ sls run
+```
+
+## Tests
+
+```sh
+$ sls test
+```
+
+## Code Style
+
+```sh
+$ sls code-style
+```
+
+## Lint
+
+```sh
+$ sls lint
+```
+
+## Deploy
+
+```sh
+$ sls deploy
+```
+
+## Code Coverage
+
+```sh
+$ sls code-coverage
+```
+
+## Code Coverage Report
+
+```sh
+$ sls code-coverage-report
+```
+
+## Unit Tests
+
+```sh
+$ sls unit-tests
+```
+
+## Unit Test Report
+
+```sh
+$ sls unit-tests-report
+```
+
+## Integration Tests
+
+```sh
+$ sls integration-tests
+```
+
+## Integration Test Report
+
+```sh
+$ sls integration-tests-report
+```
+
+## E2E Tests
+
+```sh
+$ sls e2e-tests
+```
+
+## E2E Test Report
+
+```sh
+$ sls e2e-tests-report
+```
+
+## Documentation
+
+```sh
+$ sls docs
+```
+
+## Generate API Documentation
+
+```sh
+$ sls docs-api
+```
+
+## Generate API Documentation Report
+
+```sh
+$ sls docs-api-report
+```
+
+## Generate API Reference Documentation
+
+```sh
+$ sls docs-reference
+```
+
+## Generate API Reference Documentation Report
+
+```sh
+$ sls docs-reference-report
+```
+
+## Generate Docs Report
+
+```sh
+$ sls docs-report
+```
+
+## Generate Docs Report API
+
+```sh
+$ sls docs-report-api
+```
+
+## Generate Docs Report API Report
+
+```sh
+$ sls docs-report-api-report
+```
+
+## Generate Docs Report Reference
+
+```sh
+$ sls docs-report-reference
+```
+
+## Generate Docs Report Reference Report
+
+```sh
+$ sls docs-report-reference-report
+```
+
+## Generate Docs Report Reference API
+
+```sh
+$ sls docs-report-reference-api
+```
+
+## Generate Docs Report Reference API Report
+
+```sh
+$ sls docs-report-reference-api-report
+```
+
+## Generate Docs Report Reference API Report API
+
+```sh
+$ sls docs-report-reference-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report
+
+```sh
+$ sls docs-report-reference-api-report-api-report
+```
+
+## Generate Docs Report Reference API Report API Report API
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report API Report
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api-report
+```
+
+## Generate Docs Report Reference API Report API Report API Report API
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report API Report API Report API
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api-report-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report API Report API Report API Report API Report
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api-report-api-report-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report API Report API Report API Report API Report API Report API Report API Report
+
+```sh
+$ sls docs-report-reference-api-report-api-report-api-report-api-report-api-report-api-report-api-report-api
+```
+
+## Generate Docs Report Reference API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API Report API

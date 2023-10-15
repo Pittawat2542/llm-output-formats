@@ -1,0 +1,603 @@
+
+
+## Inputs
+
+### Game
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest description |
+| id | String | Quest ID |
+| objective | String | Quest objective |
+| quest_giver | String | Quest giver |
+| reward | String | Quest reward |
+| tasks | Array | Array of tasks |
+| title | String | Quest title |
+
+### Task
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Task description |
+| location | String | Task location |
+| objective | String | Task objective |
+| order | Number | Task order |
+
+### Quest Giver
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| name | String | Quest giver name |
+| title | String | Quest giver title |
+
+### Quest
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| name | String | Quest name |
+| title | String | Quest title |
+
+### Quest Reward
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest reward description |
+| title | String | Quest reward title |
+
+### Quest Task
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest task description |
+| location | String | Quest task location |
+| objective | String | Quest task objective |
+| order | Number | Quest task order |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+| title | String | Quest title title |
+
+### Task Description
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Task description |
+
+### Task Location
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Task location description |
+
+### Task Objective
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Task objective description |
+
+### Task Order
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | Number | Task order description |
+
+### Quest Description
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest description |
+
+### Quest ID
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest ID |
+
+### Quest Objective
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest objective |
+
+### Quest Reward
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest reward description |
+
+### Quest Task
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest task description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Quest Title
+
+| Parameter | Type | Description |
+| -------- | -------- | -------- |
+| description | String | Quest title description |
+
+### Qu

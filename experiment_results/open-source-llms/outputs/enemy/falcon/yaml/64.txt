@@ -1,0 +1,17 @@
+```
+# In-game stats
+
+"game":
+  "enemy":
+    "name": "Enemy"
+```
+```
+name: Enemy
+atk: 120
+def: 80
+hp: 150
+mp: 100
+spd: 25
+```
+
+In this example, we first define the enemy status inside the game YAML file by wrapping it with the "enemy" key. Then, the stats for the enemy are wrapped with the "enemy" key inside their specific YAML code blocks. We use the "stats" key inside these code blocks to define the enemy's atk, def, mp, spd, and any other stats.

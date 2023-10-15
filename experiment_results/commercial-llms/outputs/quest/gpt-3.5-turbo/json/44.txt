@@ -1,0 +1,37 @@
+```json
+{
+    "game": {
+        "id": "1",
+        "title": "The Lost Key",
+        "objective": "Find the lost key",
+        "description": "The ancient key of the forgotten kingdom has been lost. Your mission is to explore the mysterious dungeons and retrieve the key before it falls into the wrong hands.",
+        "reward": "500 gold coins and a powerful artifact",
+        "quest_giver": "Elder Amanra",
+        "tasks": [{
+            "order": "1",
+            "objective": "Talk to the elder",
+            "description": "Find and talk to Elder Amanra in the village to learn more about the lost key.",
+            "location": "Village of Elysium"
+        },
+        {
+            "order": "2",
+            "objective": "Search for clues in the dungeons",
+            "description": "Explore the dangerous dungeons nearby in search of any clues or information about the lost key.",
+            "location": "Mystic Caverns"
+        },
+        {
+            "order": "3",
+            "objective": "Defeat the guardian",
+            "description": "Face and defeat the ancient guardian who protects the key, using all your skills and powers.",
+            "location": "Chamber of Secrets"
+        },
+        {
+            "order": "4",
+            "objective": "Retrieve the lost key",
+            "description": "Retrieve the lost key from the depths of the Chamber of Secrets and return it to Elder Amanra.",
+            "location": "Chamber of Secrets"
+        }]
+    }
+}
+```
+```

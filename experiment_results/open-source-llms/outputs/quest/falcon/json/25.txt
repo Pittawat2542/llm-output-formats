@@ -1,0 +1,56 @@
+---
+Name: quest information
+Description: Return quest information in JSON format and output only the JSON in the Markdown code block.
+Author: Quest
+Date: August 2022
+
+Quest Objective: Find the lost relic.
+
+Description: The relic has been lost and it’s up to each hero to find it. Explore the kingdom and find the one who can bring it back.
+
+Tasks:
+1. Exploring the castle (1 point for entering the room)
+2. Hiding out in the shadow of a cliff (2 points for staying hidden for at least 2 minutes)
+3. Listening at a hidden door (3 points for hearing whispers coming from behind it)
+
+Objectives:
+- Find the lost relic
+- Keep the relic hidden for as long as it takes to complete the quest
+- Find the object that triggered the quest
+
+Reward: The hero who brings the relic back will be rewarded with 5 gold coins and a magical item.
+
+Quest Tasks:
+
+Name | Objectives
+---------
+Game | Return to the game
+(5 points) | (1 point)
+quest | (...)
+reward | (2 points) | {
+  "name": "my reward",
+  "objective": "reward object",
+  "value": {
+    "name": "my reward item",
+    "cost": "1 gold coin"
+  }
+}
+
+Name | Objectives
+-------------
+quest | Find the object that triggered the quest
+(5 points) | {
+  "x": {
+    "name": "explore quest location x",
+    "id": "x"
+  },
+  "y": {
+    "name": "x y location"
+  }
+}
+
+Name | Objectives
+------------
+(25 points) | Infiltrate the guard tower x in 2 minutes and steal the relic from the guard's body x
+(0 points) | Hide in the room x before entering x
+```

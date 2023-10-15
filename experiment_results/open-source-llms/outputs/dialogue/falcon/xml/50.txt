@@ -1,0 +1,23 @@
+**Output (XML format)**
+```
+<?xml version="1.0"?>
+<xmlinfo xmlns="http://www.w3.org/XML/1999/XOM/doc/x1.0" xmlns="http://www.w3.org/XML/1999/XOM/w3c">
+	<w3c:document>
+		<xmlt:root>
+			<w3c:complexType>
+				<w3c:simpleType>dialogues</w3c:simpleType>
+				<w3c:simpleType>dialogue</w3c:simpleType>
+				<w3c:simpleType>text</w3c:simpleType>
+				<w3c:complexType>game</w3c:complexType>
+				<w3c:complexType>dialogues</w3c:complexType>
+				<w3c:complexType>dialogue</w3c:complexType>
+				<w3c:complexType>text</w3c:complexType>
+				<w3c:complexType>order</w3c:complexType>
+			</w3c:document>
+		</xmlt:root>
+	</xmlinfo>
+</xmlinfo>
+```
+
+```xml
+This code generates XML output with the output enclosed in angle brackets, which will only output the XML and not the Markdown code block enclosed with `````.

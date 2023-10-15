@@ -1,0 +1,75 @@
+When the above code block is rendered, a character can be created like this:
+
+```
+# Markdown Code block
+class Character {
+    id = "";
+    first-name = "";
+    last-name = "";
+    species = "unknown";
+    age = 0;
+    role = "";
+    background = "";
+    place-of-birth = "";
+    physical-appearance = "";
+
+    constructor() {}
+
+    renderCharacter() {
+        this.id = parseFloat(this.id);
+        this.first-name = parseFloat(this.first-name);
+        this.last-name = parseFloat(this.last-name);
+        this.species = parseFloat(this.species);
+        this.age = parseFloat(this.age);
+        this.role = parseFloat(this.role);
+        this.background = parseFloat(this.background);
+        this.place-of-birth = parseFloat(this.place-of-birth);
+        this.physical-appearance = parseFloat(this.physical-appearance);
+    }
+}
+
+class Game {
+    id = 0;
+    first-name = "";
+    last-name = "";
+    species = "";
+    age = 0;
+    role = "";
+    background = "";
+    place-of-birth = "";
+    physical-appearance = "";
+
+    constructor() { }
+
+    renderGame() {
+        XML.fromString(this.xml)
+           .find("<character>")
+           .each(function() {
+                new Character() {
+                    renderCharacter();
+                    this.id = Math.floor(this.id);
+                    this.first-name = this.first-name.charCodeAt(0) - 'A';
+                    this.last-name = this.last-name.charCodeAt(0) - 'A';
+                    this.species = this.species.charCodeAt(0) - 'A';
+                    this.age = parseFloat(this.age);
+                    this.role = parseFloat(this.role);
+                    this.background = this.background.charCodeAt(0) - 'A';
+                    this.place-of-birth = this.place-of-birth.charCodeAt(0) - 'A';
+                    this.physical-appearance = this.physical-appearance.charCodeAt(0) - 'A';
+                };
+                this.spawnGameObject = function() {
+                    var character = this;
+                    if (this.type!== "character") {
+                        return;
+                    }
+                    this.xml.lastElementChild = character.render();
+                    character.renderCharacter();
+                    this.renderGameObject();
+                };
+                this.spawnGameObject();
+            });
+    }
+}
+```
+
+You can modify the XML syntax and the character class as per your requirements.

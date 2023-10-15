@@ -1,0 +1,906 @@
+
+
+## Input format
+
+### Quest information
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward",
+        "quest_giver": "quest giver",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description",
+            "location": "task location"
+        }]
+    }
+}
+``` [/INST]
+
+### Quest location
+```json
+{
+    "location": "location"
+}
+``` [/INST]
+
+### Quest giver
+```json
+{
+    "quest_giver": "quest giver"
+}
+``` [/INST]
+
+### Quest objective
+```json
+{
+    "objective": "quest objective"
+}
+``` [/INST]
+
+### Quest description
+```json
+{
+    "description": "quest description"
+}
+``` [/INST]
+
+### Quest reward
+```json
+{
+    "reward": "quest reward"
+}
+``` [/INST]
+
+### Task objective
+```json
+{
+    "objective": "task objective"
+}
+``` [/INST]
+
+### Task description
+```json
+{
+    "description": "task description"
+}
+``` [/INST]
+
+### Task location
+```json
+{
+    "location": "task location"
+}
+``` [/INST]
+
+### Task order
+```json
+{
+    "order": "task order"
+}
+``` [/INST]
+
+### Task giver
+```json
+{
+    "quest_giver": "quest giver"
+}
+``` [/INST]
+
+### Quest title
+```json
+{
+    "title": "quest title"
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {
+        "objective": "game objective"
+    }
+}
+``` [/INST]
+
+### Game location
+```json
+{
+    "game": {
+        "location": "game location"
+    }
+}
+``` [/INST]
+
+### Game ID
+```json
+{
+    "game": {
+        "id": "game ID"
+    }
+}
+``` [/INST]
+
+### Game title
+```json
+{
+    "game": {
+        "title": "game title"
+    }
+}
+``` [/INST]
+
+### Game description
+```json
+{
+    "game": {
+        "description": "game description"
+    }
+}
+``` [/INST]
+
+### Game reward
+```json
+{
+    "game": {
+        "reward": "game reward"
+    }
+}
+``` [/INST]
+
+### Game objective
+```json
+{
+    "game": {

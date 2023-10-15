@@ -1,0 +1,13 @@
+# Markdown code block
+<pre><code>Game enemy:
+    id: id
+    name: name
+    stats:
+      atk: atk
+      def: def
+      hp: hp
+      mp: mp
+      spd: spd
+</code></pre>
+
+<p>In this example, only the YAML in the "# Enemy: " and "# Stats: " sections will be used as the enemy names.</p>

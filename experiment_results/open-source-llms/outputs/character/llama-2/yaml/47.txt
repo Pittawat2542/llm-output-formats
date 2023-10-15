@@ -1,0 +1,231 @@
+
+
+## Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: 'I was born on a planet with no water and no food.'
+    first_name: 'Joe'
+    id: 1
+    last_name: 'Jones'
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 6'0"
+      weight: 180
+    place_of_birth: Earth
+    role: Captain
+    species: Human
+```
+
+## Accepted Inputs
+
+### Character Profile
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: 'I was born on a planet with no water and no food.'
+    first_name: 'Joe'
+    id: 1
+    last_name: 'Jones'
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 6'0"
+      weight: 180
+    place_of_birth: Earth
+    role: Captain
+    species: Human
+```
+
+## Expected Outputs
+
+### Character Profile
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: 'I was born on a planet with no water and no food.'
+    first_name: 'Joe'
+    id: 1
+    last_name: 'Jones'
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 6'0"
+      weight: 180
+    place_of_birth: Earth
+    role: Captain
+    species: Human
+```
+
+## Accepted Outputs
+
+### Character Profile
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: 'I was born on a planet with no water and no food.'
+    first_name: 'Joe'
+    id: 1
+    last_name: 'Jones'
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 6'0"
+      weight: 180
+    place_of_birth: Earth
+    role: Captain
+    species: Human
+```
+
+## Expected Errors
+
+### Character Profile
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+## Accepted Errors
+
+### Character Profile
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+### Examples
+
+```yaml
+game:
+  character:
+    age: 25
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

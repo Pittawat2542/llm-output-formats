@@ -1,0 +1,28 @@
+<pre><code>{
+    &lt;div key="dialogues"&gt;
+    &lt;ul&gt;
+    &lt;% dialogue.game.dialogues[*].order %&gt;
+    &lt;li&gt;
+    &lt;a href="#" data-order="1" data-speaker="my name"&gt;&lt;% dialogue.game.title %&gt;&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;!-- Repeat all the necessary fields --&gt;
+    &lt;% dialogue.key.html %&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
+}</code></pre>
+
+Output:
+
+```json
+{
+    "game": {
+        "dialogues": {
+            "order": 1,
+            "speaker": "my name",
+            "title": "Game Title",
+            "dialogue": {
+                "html": "<% dialogue.key.html %>"
+            }
+        }
+    }
+}</code></pre>

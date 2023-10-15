@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "dialogues": [
+            {
+                "order": 1,
+                "speaker": "Player",
+                "text": "Hello, I'm the player."
+            },
+            {
+                "order": 2,
+                "speaker": "NPC",
+                "text": "Hello, I'm the non-player character. What can I do for you?"
+            },
+            {
+                "order": 3,
+                "speaker": "Player",
+                "text": "I'm looking for the exit."
+            },
+            {
+                "order": 4,
+                "speaker": "NPC",
+                "text": "The exit is to the north."
+            }
+        ]
+    }
+}
+```

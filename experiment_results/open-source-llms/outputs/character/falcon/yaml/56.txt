@@ -1,0 +1,18 @@
+```
+character_name: 
+  app_name: character_name
+  age: <age or age range>
+  background: <rpg or story explanation>
+  first_name: <first name>
+  id: <id number<
+  last_name: <family name>
+  physical_appearance:
+    - eye_color: eye color
+    - hair_color: hair color
+    - height: height in float value
+    - weight: weight in float value
+
+- name: <name of current character>
+```
+
+Replace the `<age or age range>` with the precise age of the character. `<rpg or story explanation>` can be used if the character has a specific role or backstory within the narrative. `<name of current character>` is the name specified in the character profile that can be used to reference the character. For example, if the character's first name is John in the 2020 role-playing game, the character should be written: "John".

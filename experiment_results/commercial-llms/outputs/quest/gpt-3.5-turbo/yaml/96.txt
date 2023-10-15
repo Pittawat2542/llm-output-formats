@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Journey through the Forbidden Forest"
+  id: "12345"
+  objective: "Find the legendary golden amulet"
+  quest_giver: "Elderly wizard"
+  reward: "10,000 gold coins"
+  tasks:
+    - description: "Collect ingredients for a potion"
+      location: "Herb garden"
+      objective: "Gather 10 rare herbs"
+      order: 1
+    - description: "Solve riddles in the enchanted cave"
+      location: "Enchanted cave"
+      objective: "Answer 3 riddles correctly"
+      order: 2
+    - description: "Defeat the guardian of the golden amulet"
+      location: "Inner sanctum"
+      objective: "Vanquish the monster and claim the amulet"
+      order: 3
+  title: "The Golden Amulet Quest"
+```

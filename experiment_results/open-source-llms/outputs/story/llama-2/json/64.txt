@@ -1,0 +1,85 @@
+
+
+## Examples
+```
+# Example 1
+
+[INST] <<SYS>>
+
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+
+# Example 2
+
+[INST] <<SYS>>
+
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+
+# Example 3
+
+[INST] <<SYS>>
+
+{
+    "game": {
+        "title": "game title",
+        "synopsis": "game story synopsis",
+        "beginning": "the beginning of the game",
+        "ending": "the ending of the game"
+    }
+}
+```
+
+## Inputs
+### Game title
+
+Type: `string`
+
+### Game synopsis
+
+Type: `string`
+
+### Game beginning
+
+Type: `string`
+
+### Game ending
+
+Type: `string`
+
+## Outputs
+### Game
+
+Type: `object`
+
+### Game title
+
+Type: `string`
+
+### Game synopsis
+
+Type: `string`
+
+### Game beginning
+
+Type: `string`
+
+### Game ending
+
+Type: `string`
+
+### Game story synopsis
+
+Type: `string`

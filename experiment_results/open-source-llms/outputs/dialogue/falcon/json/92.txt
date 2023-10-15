@@ -1,0 +1,18 @@
+| Property | Value |
+|---------|-------|
+| game      | Array |
+| dialogues   | Object |
+| dialue order | string |
+
+
+The Markdown code block should be enclosed inside JSON tags, like this:
+
+```
+{"game":
+    {"dialogues":
+        {"order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }}
+}
+```

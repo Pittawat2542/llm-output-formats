@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0"?>
+<markdown>
+
+# Output format
+```
+<game>
+	<dialogues>
+		<dialogue>
+			<order>[order of the dialogue, e.g. first or second]</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>[order of the dialogue, e.g. first or second]</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+Note: The return format is just a suggestion and can be adapted according to individual HTML and Markdown syntax standards.

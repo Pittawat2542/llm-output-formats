@@ -1,0 +1,647 @@
+
+
+## Example
+### Input
+```
+game:
+    enemy:
+        id: 1
+        name: "enemy name"
+        description: "enemy description"
+        stats:
+            hp: 10
+            mp: 20
+            atk: 30
+            def: 40
+            spd: 50
+```
+
+### Output
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Example output
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example output format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input
+```
+game:
+    enemy:
+        id: 1
+        name: "enemy name"
+        description: "enemy description"
+        stats:
+            hp: 10
+            mp: 20
+            atk: 30
+            def: 40
+            spd: 50
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50
+            }
+        }
+    }
+}
+```
+
+### Example input format
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "enemy name",
+            "description": "enemy description",
+            "stats": {
+                "hp": 10,
+                "mp": 20,
+                "atk": 30,
+                "def": 40,
+                "spd": 50

@@ -1,0 +1,21 @@
+```yaml
+game:
+  description: "Your journey begins when the kingdom of Zenithia is in turmoil. You need to restore the peace by finding the lost treasure of the Azure Dragon."
+  id: "quest001"
+  objective: "Find and return the lost treasure of the Azure Dragon."
+  quest_giver: "King Ardeth of Zenithia"
+  reward: 
+    gold: 5000
+    item: "Sword of Light"
+    experience: 10000
+  tasks:
+  - description: "Retrieve the map of the Azure Dragon's temple from the Sage Hermit."
+    location: "Hermit's hut, Whispering Forest"
+    objective: "Find the Sage Hermit and get the map."
+    order: 1
+  - description: "Defeat the guardians of the Azure Dragon's temple and acquire the lost treasure."
+    location: "Azure Dragon's temple, Crystal Mountains"
+    objective: "Defeat the guardians and get the treasure."
+    order: 2
+  title: "The Lost Treasure of the Azure Dragon"
+```

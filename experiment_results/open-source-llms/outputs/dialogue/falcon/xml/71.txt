@@ -1,0 +1,27 @@
+### Example usage
+
+```xml
+<p>Return output in XML format only. The Markdown code block is:</p>
+
+```xml
+<dialogues>
+    <dialogue>
+        <order>dialog order</order>
+        <speaker>speaker name</speaker>
+        <text>dialogue text</text>
+    </dialogue>
+</dialogues>
+```
+
+```
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue text</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,26 @@
+```yaml
+# game: describes the source of game/character data
+game:
+  character:
+    age: 34
+    background: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac diam nec ante varius malesuada. In mollis risus ut nulla placerat tempor facilisis laoreet. Maecenas erat enim, eleifend eu erat convallis, pretium pellentesque risus. Donec quam mi, hendrerit et molestie vitae, commodo at nunc. Quisque semper mauris ut dolor consequat tempus. Aliquam et est sit amet ipsum rutrum mollis nec eu sapien. Suspendisse luctus dolor vel lorem sollicitudin volutpat. Phasellus sodales urna vitae arcu pretium rhoncus.  
+    first_name: Alex
+    id: 123456
+    last_name: Jones
+    physical_appearance:
+    - height: 5'9
+      weight: 140
+      eye_color: blue
+      hair_color: black
+    place_of_birth: Washington, DC, USA
+    role: protagonist
+    species: human
+- eye_color: blue
+  hair_color: black
+  height: 5'9
+  weight: 150
+  place_of_birth: Washington, DC, USA
+  role: antagonist
+  species: human
+```

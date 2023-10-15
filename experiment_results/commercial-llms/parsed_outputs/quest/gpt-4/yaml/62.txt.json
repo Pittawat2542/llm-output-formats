@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "Retrieving the ancient stone of Azeroth from the Dragon's Den",
+    "id": 90,
+    "objective": "Retrieve the ancient stone of Azeroth and return it to the grand wizard",
+    "quest_giver": "Grand Wizard Argoth",
+    "reward": "5000 gold and Staff of Wisdom",
+    "tasks": [
+      {
+        "description": "Navigate through the forbidden forest to reach the Dragon's Den",
+        "location": "Forbidden Forest",
+        "objective": "Reach the Dragon's Den",
+        "order": 1
+      },
+      {
+        "description": "Defeat the Dragon guarding the ancient stone of Azeroth",
+        "location": "Dragon's Den",
+        "objective": "Retrieve the ancient stone of Azeroth",
+        "order": 2
+      }
+    ],
+    "title": "The Prophecy of Azeroth"
+  }
+}

@@ -1,0 +1,496 @@
+
+
+## Input format
+
+```
+<</SYS>>
+```
+
+## Output format
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+## Example
+
+```
+<</SYS>>
+```
+
+## Tests
+
+```bash
+$ pytest
+```
+
+### Code style
+
+This project uses [black](https://github.com/psf/black) for code style.
+
+### Test coverage
+
+This project uses [pytest-cov](https://github.com/pytest-dev/pytest-cov) for test coverage.
+
+### Code quality
+
+This project uses [mypy](https://github.com/python/mypy) for code quality.
+
+### Linting
+
+This project uses [pylint](https://github.com/PyCQA/pylint) for linting.
+
+### Security
+
+This project uses [bandit](https://github.com/bandit-py/bandit) for security.
+
+### Type checking
+
+This project uses [pylint](https://github.com/PyCQA/pylint) for type checking.
+
+### Unit tests
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for unit tests.
+
+### Integration tests
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for integration tests.
+
+### End to end tests
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for end to end tests.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com/pytest-dev/pytest) for testing.
+
+### Testing
+
+This project uses [pytest](https://github.com

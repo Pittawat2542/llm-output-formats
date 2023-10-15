@@ -1,0 +1,26 @@
+Character:
+```
+{
+    "id": "id",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [
+        [
+            "eye_color": "eyecolor",
+            "hair_color": "haircolor",
+            "height": height,
+            "weight": weight
+        ]
+    ]
+}
+```
+
+Example usage:
+```
+<pre class="lang-Markdown prettyprint-override"><code>This is sample markdown with JSON formatting to define a character.</code></pre>
+```

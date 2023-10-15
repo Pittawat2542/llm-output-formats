@@ -1,0 +1,18 @@
+```yaml
+speaker:
+  - name: character name
+```
+
+In-game dialogue code block:
+
+```python
+# Example dialogue
+return """
+speaker:
+    name: character name
+
+"""
+# Additional outputs
+```
+
+In this example, we are using a Markdown syntax to create YAML output in the specified format. The `game` section is where we define the YAML categories and the corresponding categories for in-game dialogue elements. Note that the `order` attribute in the `dialogue` category allows us to determine the order in which the elements appear in-game. We also specify the attributes of each in-game element using the `speaker` and `text` categories. The text `dialogues` can be replaced with your desired dialogue format. You can use this YAML format to generate game dialogs programmatically.

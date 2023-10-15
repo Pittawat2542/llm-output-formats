@@ -1,0 +1,15 @@
+```JSON
+{
+   "game": {
+      "dialogues": [
+         {
+           "order": "dialogue order",
+           "speaker": "speaker name",
+           "text": "dialogue or narration"
+         }
+      ]
+   }
+}
+```
+
+The `{game.dialogues []` syntax within brackets ensures that all dialogue arrays in the `JSON` are nested inside each other, allowing for the output to be wrapped in the desired result.

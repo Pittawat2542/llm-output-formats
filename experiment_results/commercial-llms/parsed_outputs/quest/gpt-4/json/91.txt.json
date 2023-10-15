@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact from the Cursed Tomb",
+    "description": "The ancient artifact is said to possess great power and must be retrieved from the Cursed Tomb before it falls into the wrong hands",
+    "reward": "500 Gold, Legendary Sword",
+    "quest_giver": "Archmage Elidor",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance of the Cursed Tomb",
+        "description": "Use the ancient map to find the entrance of the Cursed Tomb located deep within the Forest of Shadows",
+        "location": "Forest of Shadows"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat the tomb guardians",
+        "description": "You must defeat the tomb guardians to reach the inner chamber where the artifact is kept",
+        "location": "Cursed Tomb"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the ancient artifact",
+        "description": "Once the guardians are defeated, retrieve the artifact from the inner chamber",
+        "location": "Cursed Tomb - Inner Chamber"
+      }
+    ]
+  }
+}

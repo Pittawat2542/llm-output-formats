@@ -1,0 +1,23 @@
+# JSON in Markdown
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [
+                {"id": "eyes_color", "value": "eye color"},
+                {"id": "eyes_color", "value": "hair color"},
+                {"id": "height", "value": "height_in{float_value}"},
+                {"id": "weight", "value": "weight_in{float_value}"}
+            ]
+        }
+    }
+}
+```

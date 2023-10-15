@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Defeat the Evil Sorcerer and rescue the captured villagers.",
+    "id": 123456,
+    "objective": "Rescue the captured villagers from the Evil Sorcerer's lair.",
+    "quest_giver": "Elder Mage",
+    "reward": "+500 experience points, Enchanted Staff",
+    "tasks": [
+      {
+        "description": "Find the entrance to the Evil Sorcerer's lair.",
+        "location": "Dark Forest",
+        "objective": "Locate the secret entrance to the lair.",
+        "order": 1
+      },
+      {
+        "description": "Defeat the guards protecting the captives.",
+        "location": "Evil Sorcerer's Lair",
+        "objective": "Defeat all guards and free the captured villagers.",
+        "order": 2
+      },
+      {
+        "description": "Confront and defeat the Evil Sorcerer.",
+        "location": "Inner Sanctum",
+        "objective": "Engage in a final battle with the Evil Sorcerer and rescue the villagers.",
+        "order": 3
+      }
+    ],
+    "title": "The Sorcerer's Rescue"
+  }
+}

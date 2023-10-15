@@ -1,0 +1,25 @@
+{
+  "YAML code block": null,
+  "game": {
+    "character": {
+      "age__exact__1": 1.45,
+      "background__story": "a story goes here",
+      "first_name__exact__": "A unique first name that sounds important",
+      "id__exact__": "a unique ID",
+      "last_name__exact__": "A name that sounds like a last name",
+      "physical_appearance__exact__": [
+        "eye_color__exact__color!%22%22%22%25",
+        "hair_color__exact__color!%22%22%22%22%22%22%2B",
+        "weight__exact__pound_weight!%25"
+      ],
+      "place_of_birth__exact__": {
+        "location__exact__": {
+          "lat__exact__": "-90%25",
+          "lon__exact__": "75%25"
+        }
+      },
+      "role__exact__": "A description of the role in the story",
+      "species__exact__": "A physical manifestation of a character's species, such as wings or a tail"
+    }
+  }
+}

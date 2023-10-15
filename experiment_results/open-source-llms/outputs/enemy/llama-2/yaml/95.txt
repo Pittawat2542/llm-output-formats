@@ -1,0 +1,32 @@
+
+
+# Example
+```yaml
+game:
+  enemy:
+    description: The enemy's description.
+    id: 1
+    name: The enemy's name.
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+``` [/EXAMPLE]
+
+# Usage
+```bash
+$ python3 <file.py>
+``` [/USAGE]
+
+# Tests
+```bash
+$ python3 test.py
+``` [/TESTS]
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+# Author
+[@kamikazekid](https://github.com/kamikazekid)

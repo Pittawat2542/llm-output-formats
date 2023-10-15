@@ -1,0 +1,65 @@
+
+
+## Input
+
+### Parameters
+
+| Parameter | Type | Required | Description |
+| :--- | :--- | :--- | :--- |
+| id | String | Required | Enemy ID |
+| name | String | Required | Enemy name |
+| description | String | Optional | Enemy description |
+| stats | Object | Optional | Enemy stats |
+| stats.hp | Number | Required | Enemy HP |
+| stats.mp | Number | Required | Enemy MP |
+| stats.atk | Number | Required | Enemy ATK |
+| stats.def | Number | Required | Enemy DEF |
+| stats.spd | Number | Required | Enemy SPD |
+
+### Example
+
+```json
+{
+    "id": "id",
+    "name": "name",
+    "description": "description",
+    "stats": {
+        "hp": 100,
+        "mp": 100,
+        "atk": 100,
+        "def": 100,
+        "spd": 100
+    }
+}
+```
+
+## Example
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": 100,
+                "mp": 100,
+                "atk": 100,
+                "def": 100,
+                "spd": 100
+            }
+        }
+    }
+}
+```
+
+## Tests
+
+```bash
+npm test
+```
+
+## License
+
+MIT © [Nick Pettit](https://github.com/nickpettit)

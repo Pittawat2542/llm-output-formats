@@ -1,0 +1,849 @@
+
+
+## Input format
+
+### Game
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Tasks
+
+```json
+{
+    "order": "task order",
+    "objective": "task objective",
+    "description": "task description",
+    "location": "task location"
+}
+``` [/INST]
+
+### Location
+
+```json
+{
+    "name": "location name",
+    "coordinates": "location coordinates"
+}
+``` [/INST]
+
+### Coordinates
+
+```json
+{
+    "latitude": "latitude",
+    "longitude": "longitude"
+}
+``` [/INST]
+
+### Latitude
+
+```json
+"latitude"
+``` [/INST]
+
+### Longitude
+
+```json
+"longitude"
+``` [/INST]
+
+### Objective
+
+```json
+"objective"
+``` [/INST]
+
+### Description
+
+```json
+"description"
+``` [/INST]
+
+### Reward
+
+```json
+"quest reward"
+``` [/INST]
+
+### Quest Giver
+
+```json
+"quest giver"
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "question",
+    "answer": "answer"
+}
+``` [/INST]
+
+### Question
+
+```json
+"question"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Rules
+
+```json
+{
+    "rules": [{
+        "rule": "rule",
+        "answer": "answer"
+    }]
+}
+``` [/INST]
+
+### Rule
+
+```json
+"rule"
+``` [/INST]
+
+### Answer
+
+```json
+"answer"
+``` [/INST]
+
+### Quest
+
+```json
+{
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest_giver": "quest giver",
+    "tasks": [{
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+    }]
+}
+``` [/INST]
+
+### Question
+
+```json
+{
+    "question": "

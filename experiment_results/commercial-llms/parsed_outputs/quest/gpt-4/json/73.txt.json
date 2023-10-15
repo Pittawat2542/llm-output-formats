@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the ancient ruins",
+    "description": "An ancient artifact has been lost in a ruin located in the north. Your task is to explore the ruin and bring back the artifact.",
+    "reward": "2000 gold coins and a legendary weapon",
+    "quest_giver": "Ancient Wise Man",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the ancient ruin",
+        "description": "The ancient ruin is located in the north, past the forest and the mountains.",
+        "location": "Northern Ruins"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve the lost artifact",
+        "description": "The artifact is believed to be located in the central chamber of the ruins, protected by traps and guardians.",
+        "location": "Central Chamber, Northern Ruins"
+      }
+    ]
+  }
+}

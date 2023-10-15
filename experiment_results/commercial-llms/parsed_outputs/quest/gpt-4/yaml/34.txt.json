@@ -1,0 +1,18 @@
+{
+  "game": {
+    "description": "Find the lost artifact in the dangerous forest. Beware of creatures along the way.",
+    "id": "Q1",
+    "objective": "Retrieve the lost artifact and return it to the village elder.",
+    "quest_giver": "Village Elder",
+    "reward": "500 gold coins and a mystic talisman",
+    "tasks": [
+      {
+        "description": "Travel to the dangerous forest to locate the lost artifact.",
+        "location": "The Dangerous Forest",
+        "objective": "Locate and retrieve lost artifact",
+        "order": "1"
+      }
+    ],
+    "title": "The Lost Artifact Quest"
+  }
+}

@@ -1,0 +1,36 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [{
+                "eye_color": "eye color",
+                "hair_color": "hair color",
+                "height": "height in float value",
+                "weight": "weight in float value"
+            }]
+        }
+    }
+}
+```
+### Explanation
+This method will be useful for you to create multiple character profiles which are needed for different games.
+
+First I would need your game information to store in the object and it includes the following items:
+* game.character - This object includes all character details that you would like to store.
+* game.character.id - This is the unique id which can be anything based on your needs. It will be useful to uniquely identify your character within your game platform.
+* game.character.first_name - name of the user in the game
+* game.character.last_name - name of the user in the game
+* game.character.species - type of the character, for example, human, robot, monster, etc.
+* game.character.age - age of the user
+* game.character.role - role of the character in the game, for example, gamer, user, soldier, etc. 
+* game.character.background - story of the character from the start of the game  
+* game.character.place_of_birth - location where the character is born 
+* game.character.physical_appearance - it is the array of attributes that stores information of appearance of the character, for example, eye color, hair color, height, weight and gender

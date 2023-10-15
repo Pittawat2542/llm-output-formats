@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Embark on a perilous journey to retrieve the ancient artifact from the depths of the forgotten temple."
+  id: "9723"
+  objective: "Collect the hidden artifact"
+  quest_giver: "Wise old wizard"
+  reward: "Mystical powers and riches beyond imagination"
+  tasks:
+  - description: "Find the entrance to the temple"
+    location: "Mystic Forest"
+    objective: "Locate the hidden cave in the forest"
+    order: 1
+  - description: "Solve the riddles inside the temple"
+    location: "Forgotten Temple"
+    objective: "Uncover the answers to the ancient riddles"
+    order: 2
+  - description: "Fight the guardian of the artifact"
+    location: "Deep Chamber"
+    objective: "Defeat the powerful guardian protecting the artifact"
+    order: 3
+  title: "The Lost Artifact"
+```

@@ -1,0 +1,5 @@
+If your Markdown code contains YAML blocks, they are output in YAML format, and the YAML is surrounded with four spaces. If the YAML exists in a span, then it will be wrapped with `y`:
+
+- `y title` sets title as `title`
+- `q description` sets description of quest as `description`
+- `r giver` sets quest giver as `giver`

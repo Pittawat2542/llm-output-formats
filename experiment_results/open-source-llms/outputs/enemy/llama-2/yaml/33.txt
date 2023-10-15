@@ -1,0 +1,700 @@
+
+
+## Example
+
+```yaml
+game:
+  enemy:
+    description: "This is a description."
+    id: 1
+    name: "Enemy 1"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+
+```yaml
+tests:
+  - name: "Test 1"
+    input: "This is a test."
+    expected:
+      game:
+        enemy:
+          description: "This is a test."
+          id: 1
+          name: "Enemy 1"
+          stats:
+            atk: 100
+            def: 100
+            hp: 100
+            mp: 100
+            spd: 100
+```
+
+## Inputs
+
+```yaml
+inputs:
+  - name: "Input 1"
+    description: "This is an input."
+    type: string
+    default: "This is a default value."
+```
+
+## Outputs
+
+```yaml
+outputs:
+  - name: "Output 1"
+    description: "This is an output."
+    type: string
+    default: "This is a default value."
+```
+
+## Tests
+

@@ -1,0 +1,31 @@
+```javascript
+function returnJsonOutput(name, output) {
+    console.log(JSON.stringify({
+        dialogues: [{
+            "order": "dialogue order",
+            "speaker": "speaker name",
+            "text": "dialogue or narration"
+        }]
+    }));
+}
+
+// Example usage
+return returnJsonOutput("Player 1", JSON.parse(yourOutput));
+```
+
+Output:
+
+```
+{
+  "game": {
+    "speaker": "Player 1",
+    "dialouges": [
+      {
+         "order": "dialogue order",
+         "speaker": "Player 1",
+         "text": "The second dialogue"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,19 @@
+The output in XML format only includes the `<game>` tag and the sub-`<dialogues>` tag, containing the `<dialogue>` sub-tag and the nested `<order>` tag.
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<speaker>speaker name</speaker>
+			<order>dialogue order</order>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

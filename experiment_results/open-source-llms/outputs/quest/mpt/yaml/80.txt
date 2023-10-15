@@ -1,0 +1,18 @@
+```yaml
+quest:
+  description: quest description
+  game:
+  - descriptions: []
+  id: id
+  quest_giver: quest giver
+  reward: quest reward
+  title: quest title
+  tasks:
+  - description: task description
+  - description: ""
+    location: task location
+    objective: task objective
+    order: task order
+  tasks:
+  - descriptions: []
+```

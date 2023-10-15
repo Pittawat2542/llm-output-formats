@@ -1,0 +1,30 @@
+<pre><code>{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "",
+            "role": "role of the character",
+            "background": "",
+            "place_of_birth": "",
+            "physical_appearance": [
+                {
+                    "eye_color": "blue eyes",
+                    "hair_color": "brown hair",
+                    "height": 6,
+                    "weight": 50
+                },
+                {
+                    "eye_color": "green eyes",
+                    "hair_color": "red hair",
+                    "height": 7,
+                    "weight": 60
+                }
+            ]
+        }
+    }
+}
+```
+(Output format is used to match JSON structure and format, return only the JSON values in Markdown using code blocks.)

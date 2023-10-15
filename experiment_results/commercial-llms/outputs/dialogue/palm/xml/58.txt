@@ -1,0 +1,39 @@
+Sure, here is a dialogue in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, world!</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>Greetings, traveler. What brings you to my humble village?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I am on a quest to find the legendary sword, Excalibur.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Ah, yes, Excalibur. A powerful weapon indeed. But beware, it is said that only the truest of hearts can wield it.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>I am confident in my abilities. Thank you for your warning.</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>NPC</speaker>
+			<text>Very well. I wish you luck on your quest.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

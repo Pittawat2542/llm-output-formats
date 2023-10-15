@@ -1,0 +1,19 @@
+OK, I'll try:
+
+# Output format
+
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp</hp>
+			<mp>mp</mp>
+			<atk>atk</atk>
+			<def>def</def>
+			<spd>spd</spd>
+		</stats>
+	</enemy>
+</game>

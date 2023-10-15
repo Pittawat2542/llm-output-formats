@@ -1,0 +1,42 @@
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+### Assumptions:
+- The battle status is defined as a JSON object in a object called "game" inside a JSON object called "enemy"
+- The enemy object has some stats that can be listed, like the health and mana of the enemy, the weapon(s) the enemy is wielding, what the enemy's description says, and more.
+- The status only includes the "enemy" object.
+- The JSON has this format:
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```

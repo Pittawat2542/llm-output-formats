@@ -1,0 +1,16 @@
+# Markdown code block
+```
+id = 'id'
+first_name = 'first name'
+last_name = 'last name'
+species ='species'
+age = '{age} years old', '{age_str} years old (exact age)'
+place_of_birth = 'Hometown, State/Province'
+physical_appearance = {
+	'eyes': eye_color_str,
+	' hair': hair_color_str,
+	'height': height_str,
+	'weight': weight_str
+}
+Markdown.transform(backticks ='-> ', string.format = '%>%')
+```

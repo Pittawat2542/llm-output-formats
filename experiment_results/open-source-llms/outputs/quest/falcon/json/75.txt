@@ -1,0 +1,48 @@
+__JSON__
+
+{
+    "data": [
+        {
+            "id": "id",
+            "title": "quest title",
+            "objective": "quest objective",
+            "description": "quest description",
+            "reward": "quest reward",
+            "quest_giver": {
+                "id": "id",
+                "title": "quest giver",
+                "location": {
+                    "id": "location"
+                },
+                "tasks": [
+                    {
+                        "id": "1",
+                        "title": "Task 1",
+                        "objective": "Task: Complete X objectives",
+                        "description": "Task: Enter a specific location name",
+                        "location": "X location",
+                        "reward": "Some reward"
+                    },
+                    {
+                        "id": "2",
+                        "title": "Task 2",
+                        "objective": "Task: Complete Y objectives",
+                        "description": "Task: Enter a specific location name",
+                        "location": {
+                            "X location": {
+                                "title": "Some task",
+                                "objective": "some task",
+                                "description": "There are a few tasks for you to complete before completing this quest",
+                                "location": {
+                                    "id": "location"
+                                }
+                            }
+                        },
+                        "reward": "A bigger reward"
+                    }
+                ]
+            ]
+        }
+    ]
+}
+```

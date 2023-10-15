@@ -1,0 +1,22 @@
+```
+{
+  "character": {
+    "id": "id",
+    "first_name": "first name",
+    "last_name": "last name",
+    "species": "species",
+    "age": "exact age or description",
+    "role": "role of the character",
+    "background": "background story",
+    "place_of_birth": "location",
+    "physical_appearance": [{
+      "eye_color": "eye color",
+      "hair_color": "hair color",
+      "height": "height in float value",
+      "weight": "weight in float value"
+    }]
+  }
+}
+```
+
+In this example, we have included a single character's profile within a JSON structure, with a Markdown block containing the character's properties and their JSON representation in curly brackets and hyphens. The JSON data is in `json` format with an empty `game` object before the character object, and a nested `character` object. The key names in the JSON data are shown in the `character` object (e.g. `age`), while the first level properties are wrapped in keyframes `first_name` through `last_name`. The `species` property has a nested property `species` to reflect different species. Finally, the top level properties are `game.character` followed by individual properties (`id`, `first_name`, `last_name`, etc.) that have properties (`id`, `first_name`, `last_name`), and each property has a nested `character` object.

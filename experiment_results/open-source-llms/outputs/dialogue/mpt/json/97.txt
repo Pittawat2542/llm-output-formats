@@ -1,0 +1,5 @@
+The following is an example of generating a set of dialogues for the game text "The old woman walks alone through the forest. With quick steps she moves through the leaves and undergrowth, intent on her journey. The young man follows closely behind. She does not see him, but when she has nearly reached the clearing, he suddenly appears and steps in front of her. He is smiling broadly as he holds out a box to her. In it are a dozen beautiful roses of perfect red". This dialogue is intended for a user-input environment to generate the text. 
+
+This dialogue can be converted to be read aloud by converting the JSON to Markdown, adding the relevant formatting (e.g., emoji) and reading it aloud, as in:
+
+The old woman walks alone through the forest.  With quick steps she moves through the leaves and undergrowth, intent on her journey.  The young man follows closely behind.  She does not see him, but when she has nearly reached the clearing, he suddenly appears and steps in front of her.  He is smiling broadly as he holds out a box to her.  In it are a dozen beautiful roses of perfect red.

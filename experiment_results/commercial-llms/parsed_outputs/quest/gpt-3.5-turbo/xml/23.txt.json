@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Key",
+    "objective": "Find the key to unlock the secret door",
+    "description": "Explore the hidden chambers and solve puzzles to find the lost key that will unlock the secret door.",
+    "reward": "500 gold coins",
+    "quest-giver": "Master Wizard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the first hidden chamber",
+          "description": "Investigate the library to uncover the hidden entrance to the first chamber.",
+          "location": "Library"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the ancient scroll",
+          "description": "In the first chamber, there is an ancient scroll that holds vital clues. Retrieve it from the pedestal.",
+          "location": "First Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Decode the riddle",
+          "description": "Use the ancient scroll to decipher the riddle that will lead you to the secret door.",
+          "location": "Secret Chamber"
+        },
+        {
+          "order": "4",
+          "objective": "Unlock the secret door",
+          "description": "Find the key hidden in the hidden stash inside the Secret Chamber and use it to unlock the secret door.",
+          "location": "Secret Chamber"
+        }
+      ]
+    }
+  }
+}

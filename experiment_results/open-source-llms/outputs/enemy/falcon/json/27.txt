@@ -1,0 +1,11 @@
+```markdown
+# The object
+Enemy {
+    id     'id'
+    name  'name'
+    description '{description}'
+    stats &lt;stats> {"hp": "hp int value", "mp": "mp int value", "atk": "atk int value", "def": "def int value", "spd": "spd int value"}
+}
+```
+
+The ```{}}``` syntax inside the Markdown code block is called "markdown-fenced code block."

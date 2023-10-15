@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Your duty is to free the kingdom from the evil mage.
+  id: SQ2345
+  objective: Destroy the evil mage and restore peace and order.
+  quest_giver: King Arthur
+  reward: 5000 gold and Legendary Sword of Might
+  tasks:
+  - description: Seek information about the mage from the Old Wizard at the Forest.
+    location: Deep Forest
+    objective: Speak to the Old Wizard
+    order: 1
+  - description: Collect the three sacred artifacts needed to weaken the mage.
+    location: Sacred Mountains, Cursed Cave, Enchanted Island
+    objective: Retrieve three sacred artifacts
+    order: 2
+  - description: Use the artifacts to confront the evil mage in his lair.
+    location: Dark Tower
+    objective: Kill the evil mage
+    order: 3
+  title: The Battle Against the Dark Tower
+```

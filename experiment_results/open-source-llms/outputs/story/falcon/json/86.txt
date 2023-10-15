@@ -1,0 +1,7 @@
+# Markdown Code Block (optional)
+```
+* game title
+
+With the above code, the game title will be output as the first key in the `{game}` object. The synopsis will be output as a nested key called `{synopsis`. Additionally, `beginning` and `ending` can be used as separate keys under the `game` object. 
+
+Return this snippet in JSON format. Any key that you can create a property with in Python (using an object) will be supported by the JSON.

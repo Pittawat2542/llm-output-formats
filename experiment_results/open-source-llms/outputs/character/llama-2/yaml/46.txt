@@ -1,0 +1,520 @@
+
+
+## Examples
+
+```yaml
+game:
+  character:
+    age: 20
+    background: orphan
+    first_name: John
+    id: 23
+    last_name: Doe
+    physical_appearance:
+    - eye_color: brown
+      hair_color: brown
+      height: 1.7
+      weight: 70
+    place_of_birth: Earth
+    role: engineer
+    species: human
+```
+
+## Constraints
+
+- The game object must be a string.
+- The character object must be a string.
+- The game object must have a character object.
+- The character object must have a game object.
+- The character object must have a background object.
+- The character object must have a first_name object.
+- The character object must have a last_name object.
+- The character object must have a physical_appearance object.
+- The character object must have a place_of_birth object.
+- The character object must have a role object.
+- The character object must have a species object.
+- The game object must have a character object.
+- The game object must have a background object.
+- The game object must have a first_name object.
+- The game object must have a last_name object.
+- The game object must have a physical_appearance object.
+- The game object must have a place_of_birth object.
+- The game object must have a role object.
+- The game object must have a species object.
+- The background object must have a game object.
+- The background object must have a character object.
+- The background object must have a first_name object.
+- The background object must have a last_name object.
+- The background object must have a physical_appearance object.
+- The background object must have a place_of_birth object.
+- The background object must have a role object.
+- The background object must have a species object.
+- The first_name object must have a game object.
+- The first_name object must have a character object.
+- The first_name object must have a background object.
+- The first_name object must have a last_name object.
+- The first_name object must have a physical_appearance object.
+- The first_name object must have a place_of_birth object.
+- The first_name object must have a role object.
+- The first_name object must have a species object.
+- The last_name object must have a game object.
+- The last_name object must have a character object.
+- The last_name object must have a background object.
+- The last_name object must have a first_name object.
+- The last_name object must have a physical_appearance object.
+- The last_name object must have a place_of_birth object.
+- The last_name object must have a role object.
+- The last_name object must have a species object.
+- The physical_appearance object must have a game object.
+- The physical_appearance object must have a character object.
+- The physical_appearance object must have a background object.
+- The physical_appearance object must have a first_name object.
+- The physical_appearance object must have a last_name object.
+- The physical_appearance object must have a place_of_birth object.
+- The physical_appearance object must have a role object.
+- The physical_appearance object must have a species object.
+- The place_of_birth object must have a game object.
+- The place_of_birth object must have a character object.
+- The place_of_birth object must have a background object.
+- The place_of_birth object must have a first_name object.
+- The place_of_birth object must have a last_name object.
+- The place_of_birth object must have a physical_appearance object.
+- The place_of_birth object must have a role object.
+- The place_of_birth object must have a species object.
+- The role object must have a game object.
+- The role object must have a character object.
+- The role object must have a background object.
+- The role object must have a first_name object.
+- The role object must have a last_name object.
+- The role object must have a physical_appearance object.
+- The role object must have a place_of_birth object.
+- The role object must have a species object.
+- The species object must have a game object.
+- The species object must have a character object.
+- The species object must have a background object.
+- The species object must have a first_name object.
+- The species object must have a last_name object.
+- The species object must have a physical_appearance object.
+- The species object must have a place_of_birth object.
+- The species object must have a role object.
+```
+
+## Tests
+
+```yaml
+tests:
+  - test:
+      description: Test if the game object is a string.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The game object must be a string."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object is a string.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must be a string."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the game object has a character object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The game object must have a character object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a game object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a game object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a background object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a background object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a first_name object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a first_name object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a last_name object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a last_name object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a physical_appearance object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a physical_appearance object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a place_of_birth object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a place_of_birth object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a role object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have a role object."
+      status: failure
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has a species object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 

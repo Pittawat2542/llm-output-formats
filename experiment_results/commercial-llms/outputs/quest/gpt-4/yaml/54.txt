@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: Your mission, should you choose to accept it, is to infiltrate the enemy castle and retrieve the stolen crown.
+  id: 001
+  objective: Retrieve the stolen crown from the enemy castle
+  quest_giver: The King
+  reward: 2000 gold coins, 500 XP
+  tasks:
+  - description: Travel to the enemy castle while avoiding enemy patrols
+    location: Enemy Territory
+    objective: Arrive at the enemy castle
+    order: 1
+  - description: Infiltrate the enemy castle quietly to avoid raising the alarm
+    location: Enemy Castle
+    objective: Enter the castle
+    order: 2
+  - description: Find and retrieve the stolen crown
+    location: Inside the castle
+    objective: Retrieve the crown
+    order: 3
+  - description: Escape the castle and return to your homeland with the crown
+    location: Enemy Castle to Home Kingdom
+    objective: Deliver the crown to the king
+    order: 4
+  title: The Stolen Crown
+```

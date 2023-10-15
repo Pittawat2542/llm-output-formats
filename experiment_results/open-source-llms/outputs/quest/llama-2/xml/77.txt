@@ -1,0 +1,52 @@
+
+
+## Example
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The quest of the century</title>
+	<objective>Find the treasure</objective>
+	<description>The treasure is hidden somewhere in the world. Find it!</description>
+	<reward>500000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the treasure</objective>
+			<description>Find the treasure!</description>
+			<location>Somewhere in the world</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the treasure</objective>
+			<description>Find the treasure!</description>
+			<location>Somewhere in the world</location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Requirements
+
+- [Python 3.6](https://www.python.org/downloads/release/python-360/)
+- [PyQt5](https://pypi.org/project/PyQt5/)
+
+## Installation
+
+```bash
+git clone https://github.com/sir-gabriel/Quest-Generator
+cd Quest-Generator
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python3 quest_generator.py
+```
+
+## License
+
+MIT

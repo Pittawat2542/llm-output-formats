@@ -1,0 +1,3 @@
+The quest information is in the Markdown format with the XML tags surrounding the text. The quest id, title, objective, description, and reward are placed within the respective XML tags, excluding the closing tag. The tasks that are not within the main game entity have their own tags and XML, wrapped inside additional games tags.
+
+Only the content within the markdown code block is returned as output in XML format, excluding the Markdown tags and white spaces.

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QST123",
+    "title": "Shadows of the Past",
+    "objective": "Unearth the secrets of the ancient civilization",
+    "description": "Embark on an adventure through forgotten ruins, solving puzzles and defeat ancient guardians to unlock the secrets of a long lost civilization.",
+    "reward": "The Ancient Artifact: A powerful object with unknown abilities",
+    "quest_giver": "Sage Orrin",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the ancient map",
+        "description": "The map that leads to the ancient ruins is believed to be kept in the old library tower. Find it.",
+        "location": "Old Library Tower"
+      },
+      {
+        "order": "2",
+        "objective": "Locate the ruins",
+        "description": "Use the ancient map to find the location of the forgotten ruins.",
+        "location": "Unknown"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the guardians",
+        "description": "The ruins are guarded by powerful beings created by the ancient civilization. Defeat them to gain access to the ruins.",
+        "location": "Ancient Ruins"
+      }
+    ]
+  }
+}

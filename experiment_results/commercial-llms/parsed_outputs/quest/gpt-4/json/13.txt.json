@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "1234-5678-9012",
+    "title": "Ancient Mystery",
+    "objective": "Unravel the secrets of the ancient ruins",
+    "description": "Deep within the heart of the forest lies the ancient ruins untouched by man for centuries. It is said to entail an enigma for the chosen one to solve. Could you be the chosen one?",
+    "reward": "Legendary Sword of Power",
+    "quest_giver": "Elder Maelis",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Obtain the cryptic map from the Old Library",
+        "description": "The old library is known to house tomes of ancient civilizations. Seek the cryptic map hidden inside one such book.",
+        "location": "Old Library"
+      },
+      {
+        "order": "2",
+        "objective": "Find and enter the hidden pathway in the forest",
+        "description": "Using the cryptic map, hunt down the hidden pathway leading to the heart of the forest, where lies the entrance to the ancient ruins.",
+        "location": "Heart of the Forest"
+      },
+      {
+        "order": "3",
+        "objective": "Solve the riddle in the Central Chamber",
+        "description": "Inside the ancient ruins, seek the Central Chamber and solve the enigma that has puzzled mankind for centuries.",
+        "location": "Central Chamber"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Save the kingdom from the tyranny of an evil king.",
+    "id": 1234,
+    "objective": "Overthrow the evil king and restore peace in the kingdom.",
+    "quest_giver": "The wise old man",
+    "reward": "Sword of Valour and 5000 gold coins",
+    "tasks": [
+      {
+        "description": "Find the map of the secret tunnel leading to the king's castle.",
+        "location": "Old haunted tree in the forbidden forest.",
+        "objective": "Locate and retrieve the map.",
+        "order": 1
+      },
+      {
+        "description": "Get the invisibility cloak from the Goblin King.",
+        "location": "The Goblin Kingdom.",
+        "objective": "Trade the Golden Apple for the invisibility cloak with the Goblin King.",
+        "order": 2
+      },
+      {
+        "description": "Infiltrate the castle using the invisibility cloak and map.",
+        "location": "Evil King's Castle.",
+        "objective": "Get to the king's chambers unnoticed and confront him.",
+        "order": 3
+      }
+    ],
+    "title": "Quest to Save the Kingdom"
+  }
+}

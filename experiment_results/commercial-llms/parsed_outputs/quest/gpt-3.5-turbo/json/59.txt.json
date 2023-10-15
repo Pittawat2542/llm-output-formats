@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Sword",
+    "objective": "Retrieve the ancient sword",
+    "description": "In the dark depths of the Forbidden Forest, an ancient sword has been lost for centuries. Legends say that this sword has immense power and whoever wields it becomes invincible. You have been chosen to embark on a quest to retrieve the sword and bring peace back to the realm. Are you brave enough to face the dangers and challenges that lie ahead?",
+    "reward": "The Sword of Light + 1000 gold coins",
+    "quest_giver": "Elder Argus",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the cave entrance",
+        "description": "Start your journey by finding the hidden cave entrance in the heart of the Forbidden Forest.",
+        "location": "Forbidden Forest"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the riddles of the guardians",
+        "description": "Once you find the cave, you will encounter two guardians who will test your intelligence and wit. Solve their riddles to proceed.",
+        "location": "Guardian's Cave"
+      },
+      {
+        "order": "3",
+        "objective": "Navigate through the labyrinth",
+        "description": "The cave is filled with a treacherous labyrinth. Use your senses to navigate and avoid traps.",
+        "location": "Forbidden Cave Labyrinth"
+      },
+      {
+        "order": "4",
+        "objective": "Face the Dragon Knight",
+        "description": "Deep within the cave, you will face the mighty Dragon Knight. Defeat him to claim the ancient sword.",
+        "location": "Hall of Dragon Knight"
+      }
+    ]
+  }
+}

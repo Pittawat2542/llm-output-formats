@@ -1,0 +1,39 @@
+Sure, here is a dialogue in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Player</speaker>
+      <text>Hello!</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>NPC</speaker>
+      <text>Greetings! What brings you to my humble abode?</text>
+    </dialogue>
+    <dialogue>
+      <order>3</order>
+      <speaker>Player</speaker>
+      <text>I'm looking for a quest. Do you have any for me?</text>
+    </dialogue>
+    <dialogue>
+      <order>4</order>
+      <speaker>NPC</speaker>
+      <text>As a matter of fact, I do. There's a group of goblins terrorizing the village to the north. Could you go and slay them?</text>
+    </dialogue>
+    <dialogue>
+      <order>5</order>
+      <speaker>Player</speaker>
+      <text>I'll do it!</text>
+    </dialogue>
+    <dialogue>
+      <order>6</order>
+      <speaker>NPC</speaker>
+      <text>Thank you! I knew I could count on you. Here is a map of the area where the goblins are located.</text>
+    </dialogue>
+  </dialogues>
+</game>
+```

@@ -1,0 +1,24 @@
+<pre><code>enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk: atk int value
+    def: def int value
+    hp: hp int value
+    mp: mp int value
+    spd: spd int value
+</code></pre>
+
+<p><strong>Returned YAML output:</strong></p>
+<pre><code>enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk: atk = 5
+    def: 5
+    hp: 300
+    mp: 100
+    spd: 120
+</code></pre>

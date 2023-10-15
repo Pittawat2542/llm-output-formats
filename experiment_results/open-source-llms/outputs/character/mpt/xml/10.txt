@@ -1,0 +1,40 @@
+Sure, here is the generated XML for character:
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>32</age>
+		<role>role of the character</role>
+		<background>Background story!</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>ey</eye-color>
+				<hair-color>hair</hair-color>
+				<height>168.93</height>
+				<weight>88.11</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+This character has the following attributes:
+- ID of the character (id)
+- First Name of the character, along with a description (first-name)
+- Last Name of the character (last-name)
+- Species of the character (species)
+- Describes age of the character in specific age units (age)
+- Provides a role, or function, the character serves (role)
+- A background story regarding the character (background)
+- Birthplace of the character (place-of-birth)
+- Describes characteristics of the character's appearance (physical-appearance)
+- Eye Color of the character (eye-color)
+- Hair Color of the character (hair-color)
+- Height of the character in a specific unit, with length measurement (height)
+- Weight of the character (weight)

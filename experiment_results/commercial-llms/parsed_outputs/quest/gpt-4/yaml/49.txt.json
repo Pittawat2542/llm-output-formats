@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Help the village elder retrieve the sacred artifact",
+    "id": "q123",
+    "objective": "Retrieve the sacred artifact and return it to the village elder",
+    "quest_giver": "Village Elder",
+    "reward": "500 gold coins and a magical talisman",
+    "tasks": [
+      {
+        "description": "Arrive at the haunted forest",
+        "location": "Haunted forest",
+        "objective": "Find the pathway leading to the cursed tomb",
+        "order": 1
+      },
+      {
+        "description": "Enter the cursed tomb",
+        "location": "Cursed tomb",
+        "objective": "Search the tomb for the sacred artifact",
+        "order": 2
+      },
+      {
+        "description": "Return to the village",
+        "location": "Village",
+        "objective": "Return the artifact to the village elder",
+        "order": 3
+      }
+    ],
+    "title": "The Sacred Artifact Quest"
+  }
+}

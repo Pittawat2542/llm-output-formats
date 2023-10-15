@@ -1,0 +1,553 @@
+
+
+## Usage
+
+```bash
+$ python3 main.py
+```
+
+## Examples
+
+### Example 1
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 2
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 3
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 4
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 5
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 6
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 7
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 8
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 9
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 10
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 11
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 12
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 13
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 14
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 15
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 16
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 17
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 18
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 19
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 20
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 21
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 22
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 23
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 24
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 25
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  title: "The lost sword"
+```
+
+### Example 26
+
+```yaml
+game:
+  description: "A quest to find the lost sword"
+  id: 1
+  objective: "Find the lost sword"
+  quest_giver: "King"
+  reward: "Gold"
+  tasks:
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1
+  - description: "Find the lost sword"
+    location: "The castle"
+    objective: "Find the lost sword"
+    order: 1

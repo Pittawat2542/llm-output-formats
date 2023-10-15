@@ -1,0 +1,7 @@
+# Markdown code block
+```
+The quest information consists of three parts:
+
+1. Game Information: the description of the quest and a potential title.
+2. Quest Information: the details of the quest, including the objective, giver, reward, tasks, location, objectives, and order.
+3. YAML Output: the YAML representation of the quest information, with any YAML inside quest-specific tags prefixed with "game." It is recommended to keep the YAML for each quest separately defined to enhance readability.

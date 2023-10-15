@@ -1,0 +1,27 @@
+$(document).ready(function() {
+  var enemyDiv = $(document).find('#enemy').clone();
+  enemyDiv.appendTo('#content');
+  
+  var json = enemyDiv.html();
+  console.log(json);
+});
+``` 
+
+Output:
+{
+  "game": {
+    "enemy": {
+      "id": "1",
+      "name": "Example Enemy",
+      "description": "Example description of this enemy",
+      "status": {
+        "hp": "1000",
+        "mp": "1000"
+      },
+      "atk": "100",
+      "def": "100",
+      "spd": "100"
+    }
+  }
+}
+```

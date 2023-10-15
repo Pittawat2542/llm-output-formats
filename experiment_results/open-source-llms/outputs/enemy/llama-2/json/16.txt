@@ -1,0 +1,616 @@
+
+
+## Examples
+
+### Example 1
+
+```
+[INST] <<SYS>>
+
+# Example 1
+
+game:
+  enemy:
+    id: 1
+    name: "Enemy 1"
+    description: "This is the description of Enemy 1."
+    stats:
+      hp: 100
+      mp: 100
+      atk: 100
+      def: 100
+      spd: 100
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "Enemy 1",
+            "description": "This is the description of Enemy 1.",
+            "stats": {
+                "hp": "100",
+                "mp": "100",
+                "atk": "100",
+                "def": "100",
+                "spd": "100"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 2
+
+```
+[INST] <<SYS>>
+
+# Example 2
+
+game:
+  enemy:
+    id: 2
+    name: "Enemy 2"
+    description: "This is the description of Enemy 2."
+    stats:
+      hp: 200
+      mp: 200
+      atk: 200
+      def: 200
+      spd: 200
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "2",
+            "name": "Enemy 2",
+            "description": "This is the description of Enemy 2.",
+            "stats": {
+                "hp": "200",
+                "mp": "200",
+                "atk": "200",
+                "def": "200",
+                "spd": "200"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 3
+
+```
+[INST] <<SYS>>
+
+# Example 3
+
+game:
+  enemy:
+    id: 3
+    name: "Enemy 3"
+    description: "This is the description of Enemy 3."
+    stats:
+      hp: 300
+      mp: 300
+      atk: 300
+      def: 300
+      spd: 300
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "3",
+            "name": "Enemy 3",
+            "description": "This is the description of Enemy 3.",
+            "stats": {
+                "hp": "300",
+                "mp": "300",
+                "atk": "300",
+                "def": "300",
+                "spd": "300"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 4
+
+```
+[INST] <<SYS>>
+
+# Example 4
+
+game:
+  enemy:
+    id: 4
+    name: "Enemy 4"
+    description: "This is the description of Enemy 4."
+    stats:
+      hp: 400
+      mp: 400
+      atk: 400
+      def: 400
+      spd: 400
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "4",
+            "name": "Enemy 4",
+            "description": "This is the description of Enemy 4.",
+            "stats": {
+                "hp": "400",
+                "mp": "400",
+                "atk": "400",
+                "def": "400",
+                "spd": "400"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 5
+
+```
+[INST] <<SYS>>
+
+# Example 5
+
+game:
+  enemy:
+    id: 5
+    name: "Enemy 5"
+    description: "This is the description of Enemy 5."
+    stats:
+      hp: 500
+      mp: 500
+      atk: 500
+      def: 500
+      spd: 500
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "5",
+            "name": "Enemy 5",
+            "description": "This is the description of Enemy 5.",
+            "stats": {
+                "hp": "500",
+                "mp": "500",
+                "atk": "500",
+                "def": "500",
+                "spd": "500"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 6
+
+```
+[INST] <<SYS>>
+
+# Example 6
+
+game:
+  enemy:
+    id: 6
+    name: "Enemy 6"
+    description: "This is the description of Enemy 6."
+    stats:
+      hp: 600
+      mp: 600
+      atk: 600
+      def: 600
+      spd: 600
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "6",
+            "name": "Enemy 6",
+            "description": "This is the description of Enemy 6.",
+            "stats": {
+                "hp": "600",
+                "mp": "600",
+                "atk": "600",
+                "def": "600",
+                "spd": "600"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 7
+
+```
+[INST] <<SYS>>
+
+# Example 7
+
+game:
+  enemy:
+    id: 7
+    name: "Enemy 7"
+    description: "This is the description of Enemy 7."
+    stats:
+      hp: 700
+      mp: 700
+      atk: 700
+      def: 700
+      spd: 700
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "7",
+            "name": "Enemy 7",
+            "description": "This is the description of Enemy 7.",
+            "stats": {
+                "hp": "700",
+                "mp": "700",
+                "atk": "700",
+                "def": "700",
+                "spd": "700"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 8
+
+```
+[INST] <<SYS>>
+
+# Example 8
+
+game:
+  enemy:
+    id: 8
+    name: "Enemy 8"
+    description: "This is the description of Enemy 8."
+    stats:
+      hp: 800
+      mp: 800
+      atk: 800
+      def: 800
+      spd: 800
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "8",
+            "name": "Enemy 8",
+            "description": "This is the description of Enemy 8.",
+            "stats": {
+                "hp": "800",
+                "mp": "800",
+                "atk": "800",
+                "def": "800",
+                "spd": "800"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 9
+
+```
+[INST] <<SYS>>
+
+# Example 9
+
+game:
+  enemy:
+    id: 9
+    name: "Enemy 9"
+    description: "This is the description of Enemy 9."
+    stats:
+      hp: 900
+      mp: 900
+      atk: 900
+      def: 900
+      spd: 900
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "9",
+            "name": "Enemy 9",
+            "description": "This is the description of Enemy 9.",
+            "stats": {
+                "hp": "900",
+                "mp": "900",
+                "atk": "900",
+                "def": "900",
+                "spd": "900"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 10
+
+```
+[INST] <<SYS>>
+
+# Example 10
+
+game:
+  enemy:
+    id: 10
+    name: "Enemy 10"
+    description: "This is the description of Enemy 10."
+    stats:
+      hp: 1000
+      mp: 1000
+      atk: 1000
+      def: 1000
+      spd: 1000
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "10",
+            "name": "Enemy 10",
+            "description": "This is the description of Enemy 10.",
+            "stats": {
+                "hp": "1000",
+                "mp": "1000",
+                "atk": "1000",
+                "def": "1000",
+                "spd": "1000"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 11
+
+```
+[INST] <<SYS>>
+
+# Example 11
+
+game:
+  enemy:
+    id: 11
+    name: "Enemy 11"
+    description: "This is the description of Enemy 11."
+    stats:
+      hp: 1100
+      mp: 1100
+      atk: 1100
+      def: 1100
+      spd: 1100
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "11",
+            "name": "Enemy 11",
+            "description": "This is the description of Enemy 11.",
+            "stats": {
+                "hp": "1100",
+                "mp": "1100",
+                "atk": "1100",
+                "def": "1100",
+                "spd": "1100"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 12
+
+```
+[INST] <<SYS>>
+
+# Example 12
+
+game:
+  enemy:
+    id: 12
+    name: "Enemy 12"
+    description: "This is the description of Enemy 12."
+    stats:
+      hp: 1200
+      mp: 1200
+      atk: 1200
+      def: 1200
+      spd: 1200
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "12",
+            "name": "Enemy 12",
+            "description": "This is the description of Enemy 12.",
+            "stats": {
+                "hp": "1200",
+                "mp": "1200",
+                "atk": "1200",
+                "def": "1200",
+                "spd": "1200"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 13
+
+```
+[INST] <<SYS>>
+
+# Example 13
+
+game:
+  enemy:
+    id: 13
+    name: "Enemy 13"
+    description: "This is the description of Enemy 13."
+    stats:
+      hp: 1300
+      mp: 1300
+      atk: 1300
+      def: 1300
+      spd: 1300
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "13",
+            "name": "Enemy 13",
+            "description": "This is the description of Enemy 13.",
+            "stats": {
+                "hp": "1300",
+                "mp": "1300",
+                "atk": "1300",
+                "def": "1300",
+                "spd": "1300"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 14
+
+```
+[INST] <<SYS>>
+
+# Example 14
+
+game:
+  enemy:
+    id: 14
+    name: "Enemy 14"
+    description: "This is the description of Enemy 14."
+    stats:
+      hp: 1400
+      mp: 1400
+      atk: 1400
+      def: 1400
+      spd: 1400
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "14",
+            "name": "Enemy 14",
+            "description": "This is the description of Enemy 14.",
+            "stats": {
+                "hp": "1400",
+                "mp": "1400",
+                "atk": "1400",
+                "def": "1400",
+                "spd": "1400"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 15
+
+```
+[INST] <<SYS>>
+
+# Example 15
+
+game:
+  enemy:
+    id: 15
+    name: "Enemy 15"
+    description: "This is the description of Enemy 15."
+    stats:
+      hp: 1500
+      mp: 1500
+      atk: 1500
+      def: 1500
+      spd: 1500
+
+# Output format
+{
+    "game": {
+        "enemy": {
+            "id": "15",
+            "name": "Enemy 15",
+            "description": "This is the description of Enemy 15.",
+            "stats": {
+                "hp": "1500",
+                "mp": "1500",
+                "atk": "1500",
+                "def": "1500",
+                "spd": "1500"
+            }
+        }
+    }
+}
+
+[/SYS]
+```
+
+### Example 16
+
+```
+[INST] <<SYS>>
+
+# Example 16
+
+game:
+  enemy:
+    id: 16
+    name: "Enemy 16"
+    description:

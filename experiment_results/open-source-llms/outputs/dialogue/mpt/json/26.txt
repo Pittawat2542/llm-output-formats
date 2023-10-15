@@ -1,0 +1,40 @@
+Here is a script to generate a conversation between two characters. You can choose between a full dialogue with up to 4 sentences, or two sentences for narration. You can also specify a character name to be used in narration. 
+This script returns a JSON output structure with dialogues and narration grouped by a `game` object. Each `game` object contains a list of dialogues or narration. Each dialogue or narration is structured as an object with properties for `order` (order within the full game or narration) and `speaker` (who is speaking in this dialogue/narration). The `text` property is the dialogue/narration itself.
+ 
+Here are some examples:
+ 
+```json
+[{
+    "game": {
+        "dialogues": [{
+            "order": "0",
+            "speaker": "A",
+            "text": "Hello, how are you"
+        }, {
+            "order": "1",
+            "speaker": "B",
+            "text": "Hello, I am ok"
+        }, {
+            "order": "2",
+            "speaker": "A",
+            "text": "Great, let's play a game"
+        }]
+    }
+}, {
+    "game": {
+        "dialogues": [{
+            "order": "0",
+            "speaker": "A",
+            "text": "Would you like to play a game?"
+        }, {
+            "order": "1",
+            "speaker": "B",
+            "text": "I would love too!"
+        }, {
+            "order": "2",
+            "speaker": "A",
+            "text": "Let's try playing Rock-Paper-Scissors!"
+        }]
+    }
+}
+```

@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "HQ001",
+    "title": "The Lost Sword",
+    "objective": "Find and return the lost sword of King Arthur.",
+    "description": "The legendary sword of King Arthur has been stolen and hidden somewhere. Your mission is to locate and return it to the king.",
+    "reward": "5000 gold and 'Knight' title",
+    "quest_giver": "King Arthur",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Talk to the local blacksmith.",
+        "description": "The blacksmith might have more information about the sword. He was the last person seen with it.",
+        "location": "Blacksmith's forge"
+      },
+      {
+        "order": "2",
+        "objective": "Search the Dark Forest.",
+        "description": "The Dark Forest is the last known location of the stolen sword.",
+        "location": "Dark Forest"
+      }
+    ]
+  }
+}

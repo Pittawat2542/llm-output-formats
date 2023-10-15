@@ -1,0 +1,47 @@
+```xsd
+<?xml version="1.0"?>
+<characters xmlns="http://www.oasis.org/namespaces/xmlns:characters/definitions/1.0"?>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>age or description</age>
+		<role>character's role</role>
+		<background>character's background information</background>
+		<place-of-birth>character's birthplace</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>exact eye color abbreviation</eye-color>
+				<hair-color>exact hair color abbreviation for ex. blonde, brunette, etc.</hair-color>
+				<height>exact height in meters</height>
+				<weight>exact weight in kilograms</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</characters>
+```
+
+<p>Output the exact XML structure:</p>
+
+```xml
+&lt;characters xmlns:characters="urn:oasis:namespaces:characters:1.0">
+  &lt;character 
+    id="id" 
+    first-name="first name" 
+    last-name="last name" 
+    species="species" 
+    age="age or description" 
+    role="character role" 
+    birthplace="location" 
+    place-of-birth="place of birth" 
+    physical-appearance="character information">
+    &lt;physical-appearance>
+      &lt;eye-color&gt;exact eye color abbreviation&lt;/eye-color&gt;
+      &lt;hair-color&gt;exact hair color abbreviation for ex. blonde, brunette etc.&lt;/hair-color&gt;
+      &lt;height&gt;exact height in meters&lt;/height&gt;
+      &lt;weight&gt;exact weight in kilograms&lt;/weight&gt;
+    &lt;/physical-appearance&gt;
+  &lt;/character&gt;
+&lt;/characters&gt;
+```

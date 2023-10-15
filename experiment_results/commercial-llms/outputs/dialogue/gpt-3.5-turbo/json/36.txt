@@ -1,0 +1,38 @@
+```json
+{
+    "game": {
+        "dialogues": [
+            {
+                "order": "dialogue order",
+                "speaker": "speaker name",
+                "text": "dialogue or narration"
+            },
+            {
+                "order": "1",
+                "speaker": "Player",
+                "text": "Hey, do you want to play a game?"
+            },
+            {
+                "order": "2",
+                "speaker": "NPC",
+                "text": "Sure, what game do you have in mind?"
+            },
+            {
+                "order": "3",
+                "speaker": "Player",
+                "text": "How about a game of chess?"
+            },
+            {
+                "order": "4",
+                "speaker": "NPC",
+                "text": "I'm not really good at chess, but I'll give it a try."
+            },
+            {
+                "order": "5",
+                "speaker": "Player",
+                "text": "Great! Let's set up the chessboard."
+            }
+        ]
+    }
+}
+```

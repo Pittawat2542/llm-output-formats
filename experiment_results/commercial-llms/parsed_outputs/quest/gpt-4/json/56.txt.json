@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Bounty Hunter's Calling",
+    "objective": "Defeat the notorious rogue, Kargath Bladefist",
+    "description": "A rogue orc named Kargath Bladefist has been terrorizing the lands. Take on the challenge, prove your worth and defeat him",
+    "reward": "5000 Gold and 'Blade of Valor'",
+    "quest_giver": "General Brandon",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Locate Kargath's Hideout",
+        "description": "Explore the Whispering Woods and find the entrance to Kargath's hideout.",
+        "location": "Whispering Woods"
+      },
+      {
+        "order": "2",
+        "objective": "Defeat Kargath Bladefist",
+        "description": "Engage in a battle with Kargath and defeat him.",
+        "location": "Kargath's Hideout"
+      }
+    ]
+  }
+}

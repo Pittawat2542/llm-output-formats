@@ -1,0 +1,16 @@
+```yaml
+title:
+  text: game title
+```
+
+```yaml
+ending:
+  text: game's ending
+```
+
+```yaml
+beginning:
+  text: game's beginning
+```
+
+The YAML format was used to structure the game's story narrative. The file is marked as a YAML file with formatting, indentation, and YAML tags to ensure readability. The `title` field is marked as the main title of the file, while the `ending` field is marked as a section containing the game's ending in a specific narrative structure. Additionally, for each section, the `key` and `description` fields were used to label each block.

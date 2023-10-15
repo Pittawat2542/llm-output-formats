@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: "Embark on a treacherous journey to retrieve the lost artifact"
+  id: "123456789"
+  objective: "Find the legendary artifact hidden deep within the Forbidden Forest"
+  quest_giver: "Elder Hargrave"
+  reward: "A magical amulet of protection and 1000 gold coins"
+  tasks:
+  - description: "Collect 5 rare flowers from the meadow"
+    location: "Meadow of Serenity"
+    objective: "Find and pick the rare flowers"
+    order: 1
+  - description: "Solve the ancient riddle at the gates of the Forgotten Temple"
+    location: "Forgotten Temple"
+    objective: "Decipher the riddle and open the gates"
+    order: 2
+  - description: "Defeat the fierce guardian creature in the Caverns of Darkness"
+    location: "Caverns of Darkness"
+    objective: "Defeat the guardian using your wit and strength"
+    order: 3
+  - description: "Navigate through the Enchanted Maze and reach the hidden clearing"
+    location: "Enchanted Maze"
+    objective: "Find your way through the maze to the clearing"
+    order: 4
+  title: "The Quest for the Lost Artifact"
+```

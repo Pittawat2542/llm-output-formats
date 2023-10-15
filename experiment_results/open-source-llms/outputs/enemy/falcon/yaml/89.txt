@@ -1,0 +1,17 @@
+# Markdown only output
+<span>enemy</span>
+<span>
+  <b>name</b>
+  1 | "name" | "name of the unit"
+  <b>id</b> | "unit id" | "identification of the enemy"
+  <b>atk</b> | "attacking unit id" | "attacking unit attack value"
+  <b>def</b> | "defending unit id" | "defending unit defense value"
+  <b>hp</b> | "life pool" | "life pool of the enemy"
+  <b>mp</b> | "movement points" | "movement points of the enemy"
+  <b>spd</b> | "speed of the enemy"
+  <b>hp_hp">hp_hp_</b> | "hp-hp relationship"
+  <b>spd_spd">spd_spd_</b> | "spd-spd relationship"
+</span>
+```
+
+In the above example, we have used a Markdown syntax to specify enemy battle status. The YAML syntax is enclosed within YAML blocks, and you can replace YAML blocks with your own YAML format. The output should be in JSON or XML format with only the YAML in the Markdown tags.

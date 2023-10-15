@@ -1,0 +1,40 @@
+
+
+# Example
+```
+[/INST]
+
+[INST] <<SYS>>
+
+[/INST]
+```
+
+# Example Output
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+# Tests
+
+```sh
+$ npm test
+```
+
+# LICENSE
+
+[MIT](LICENSE)

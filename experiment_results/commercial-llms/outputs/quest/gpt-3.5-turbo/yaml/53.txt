@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Complete tasks and defeat enemies to save the kingdom from destruction."
+  id: "123456"
+  objective: "Retrieve the magical artifact and bring it to the quest giver."
+  quest_giver: "King Arthur"
+  reward: "A legendary sword and a bag of gold coins."
+  tasks:
+    - description: "Collect 10 rare herbs from the enchanted forest."
+      location: "Enchanted Forest"
+      objective: "Find and gather the rare herbs."
+      order: 1
+    - description: "Defeat the mighty dragon guarding the treasure."
+      location: "Dragon's Lair"
+      objective: "Slay the dragon and retrieve the magical artifact."
+      order: 2
+    - description: "Deliver the magical artifact to the kingdom's wizard."
+      location: "Kingdom's Wizard Tower"
+      objective: "Hand over the magical artifact to the wizard."
+      order: 3
+  title: "The Quest for the Magical Artifact"
+```

@@ -1,0 +1,16 @@
+<pre class="lang-js prettyprint-override"><code>{
+    "game": {
+        "id": "id",
+        "title": "id / name"
+        "objective": "objective / name",
+        "description": "id / name description - more details",
+        "reward": "reward id / name",
+        "quest_giver": "giver id / name",
+        "tasks": [{
+            "order": "task order",
+            "objective": "task objective",
+            "description": "task description - more details"
+        }]
+    }
+}
+</code></pre>

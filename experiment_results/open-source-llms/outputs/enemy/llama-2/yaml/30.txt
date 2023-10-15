@@ -1,0 +1,99 @@
+
+
+# Example
+
+## Input
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+## Output
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+# Tests
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+# Expected output
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+# Tests
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+# Expected output
+
+```yaml
+game:
+  enemy:
+    description: "A description of the enemy"
+    id: "enemy-id"
+    name: "Enemy name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```

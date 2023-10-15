@@ -1,0 +1,10 @@
+Explanation:
+
+1. The game section is mandatory and should be the first child of the class.
+2. It is possible for more than one enemy to have the same description, name or HP value.
+3. `stats()` should be a child of `game` or `enemy`
+4. `att(stat)` should be the name of the attack that the enemy has.
+5. `def(stat)` should be the name of the defense that the enemy can use against an attack.
+6. `hp(stat)` should be a negative integer for HP value or positive for HP value of the enemy.
+7. `mp(stat)` should be a value similar to HP, but negative to represent the amount of morale the enemy has.
+8. `spd(stat)` should be a positive integer for speed value.

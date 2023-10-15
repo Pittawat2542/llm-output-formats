@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Embark on a perilous adventure and save the kingdom from impending doom."
+  id: 12345
+  objective: "Defeat the evil sorcerer and retrieve the sacred artifact."
+  quest_giver: "King Arthur"
+  reward: "Eternal glory and a chest filled with gold"
+  tasks:
+  - description: "Locate the hidden cave in the Bloodthorn Forest."
+    location: "Bloodthorn Forest"
+    objective: "Find clues to the sorcerer's hiding place."
+    order: 1
+  - description: "Solve the riddles at the entrance of the enchanted castle."
+    location: "Enchanted Castle"
+    objective: "Gain entry to the inner chambers of the castle."
+    order: 2
+  - description: "Confront the sorcerer in a formidable battle."
+    location: "Sorcerer's Lair"
+    objective: "Defeat the sorcerer and retrieve the sacred artifact."
+    order: 3
+  title: "The Quest of the Sacred Artifact"
+```

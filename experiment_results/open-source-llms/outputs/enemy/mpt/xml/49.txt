@@ -1,0 +1,20 @@
+Here's an example of the output format for generating an enemy battle status. In this example, the HP, MP, ATK, DEF, and SPD would be numbers corresponding to the health, mp, attack, defense, and speed of the enemy.
+
+# Output format
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</game>
+```

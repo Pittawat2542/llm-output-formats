@@ -1,0 +1,29 @@
+# Markdown Code block
+game:
+  - beginning: the beginning of the game
+  - ending: the ending of the game
+  - synopsis: game story synopsis
+  - title: game title
+
+## Example of a YAML file using Markdown syntax (can be used for multiple paragraphs)
+## YAML is a markup language designed to make structuring of structured data easy.
+## It is easy to read and write, and it uses
+## * for a bullet point
+## ~ text enclosed in double~titles
+## - markdown tag for a block quote
+## > tags to start code blocks
+
+# Example using Markdown syntax to highlight a block of code
+# This would allow you to add syntax highlighting to your paragraphs.
+## - Markdown code block with title.
+-.title.
+- | bullet list - bullet points within a list.
+- ~ text enclosed in `.markdown` tags.
+- ### code block for a div.
+- | # `this text can be highlighted if it's part of a code block` & should be highlighted to make it clear that it's part of a code block
+- | - bold text that can be highlighted for syntax.
+- | ```. markdown code block can be used inside of each `YAML` block.
+- | This content would be enclosed in a `.yaml` code block.
+- - -.yaml code block can be used inside of each `YAML` block.
+
+##

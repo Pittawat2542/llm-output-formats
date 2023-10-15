@@ -1,0 +1,624 @@
+
+
+## Input
+
+### Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+## Output
+
+### Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom JSON
+
+```json
+{
+  "game": {
+    "beginning": "the beginning of the game",
+    "ending": "the ending of the game",
+    "synopsis": "game story synopsis",
+    "title": "game title"
+  }
+}
+```
+
+### Custom YAML
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Custom XML
+
+```xml
+<game>
+  <beginning>the beginning of the game</beginning>
+  <ending>the ending of the game</ending>
+  <synopsis>game story synopsis</synopsis>
+  <title>game title</title>
+</game>
+```
+
+### Custom CSV
+
+```csv
+beginning,ending,synopsis,title
+the beginning of the game,the ending of the game,game story synopsis,game title
+```
+
+### Custom Other
+
+```
+<</SYS>>
+
+The beginning of the game is the start of the story. The ending of the game is the end of the story. The synopsis is the story of the game. The title is the name of the game.
+```
+
+### Custom Markdown
+
+```
+<

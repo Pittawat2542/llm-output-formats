@@ -1,0 +1,63 @@
+```json
+{
+    "game": {
+        "dialogues": [{
+            "order": 1,
+            "speaker": "Player",
+            "text": "player dialogue"
+        }, {
+            "order": 3,
+            "speaker": "Computer",
+            "text": "computer dialogue"
+        }, {
+            "order": 4,
+            "speaker": "Player",
+            "text": "player dialogue"
+        }, {
+            "order": 5,
+            "speaker": "Computer",
+            "text": "computer dialogue"
+        }],
+        
+        "story": {
+            "parts": [{
+                "act": 1,
+                "scene": 3.2,
+                "lines": [{
+                    "speaker": "player",
+                    "text": "player dialogue"
+                }, {
+                    "speaker": "computer",
+                    "text": "computer dialogue"
+                }]
+            }, {
+                "act": 2,
+                "scene": 4,
+                "lines": [{
+                    "speaker": "player",
+                    "text": "player dialogue"
+                }, {
+                    "speaker": "computer",
+                    "text": "computer dialogue"
+                }],
+                "text": "scene text",
+                "type": "scene"
+            }, {
+                "act": 3,
+                "scene": 4,
+                "lines": [{
+                    "speaker": "player",
+                    "text": "player dialogue"
+                }, {
+                    "speaker": "computer",
+                    "text": "computer dialogue"
+                }],
+                "text": "scene text",
+                "type": "scene"
+            }]
+        }
+    }
+}
+```
+
+[Back to top]

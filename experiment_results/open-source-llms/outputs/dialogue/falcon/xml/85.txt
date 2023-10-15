@@ -1,0 +1,41 @@
+XML markup:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<game>
+	<dialogues>
+		<dialog>
+			<order>dialog order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialog>
+	</dialogues>
+</game>
+``` 
+
+Text content:
+
+```html
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialog>
+		<order>order in dialog</order>
+		<speaker>speaker name</speaker>
+		<text>dialogue or narration</text>
+	</dialog>
+</game>
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+<game>
+	<dialog>
+		<order>dialog order</order>
+		<speaker>speaker name</speaker>
+		<text>dialogue or narration</text>
+	</dialog>
+</game>
+</xml>
+```

@@ -1,0 +1,32 @@
+
+
+# Example
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "1",
+            "name": "Golden",
+            "description": "Golden is a golden enemy.",
+            "stats": {
+                "hp": "100",
+                "mp": "100",
+                "atk": "100",
+                "def": "100",
+                "spd": "100"
+            }
+        }
+    }
+}
+``` [/EXAMPLE]
+
+# Usage
+```
+$ python3 game.py
+```
+
+# Author
+[Aaron M. Denton](https://github.com/AaronMDenton)
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)

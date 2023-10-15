@@ -1,0 +1,33 @@
+```json
+{
+    "enemy": {
+        "id": "id",
+        "name": "name",
+        "description": "description",
+        "stats": {
+            "hp": "hp int value",
+            "mp": "mp int value",
+            "atk": "atk int value",
+            "def": "def int value",
+            "spd": "spd int value"
+        }
+    }
+}
+```
+Output:
+```
+{
+  "enemy": {
+    "id": "id",
+    "name": "name",
+    "description": "description",
+    "stats": {
+      "hp": "hp: 50",
+      "mp": "mp: 20",
+      "atk": "atk: 30",
+      "def": "def: 30",
+      "spd": "spd: 20"
+    }
+  }
+}
+```

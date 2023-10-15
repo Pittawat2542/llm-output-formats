@@ -1,0 +1,23 @@
+##
+Output:
+
+```json
+{
+    "game": {
+        "enemy" : {
+            "id": "id",
+            "name": "name",
+            "description": "description",
+            "stats": {
+                "hp": "hp int value",
+                "mp": "mp int value",
+                "atk": "atk int value",
+                "def": "def int value",
+                "spd": "spd int value"
+            }
+        }
+    }
+}
+```
+
+Each row corresponds to the JSON in the JSON. The `enemy` key represents the name of the enemy. Within the `enemy` object, each key represents an attribute of the enemy (e.g., `atk` for attack) and its corresponding value is in the JSON.

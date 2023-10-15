@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: "In a distant land, a fearsome dragon has been terrorizing the villagers. The king is offering a grand reward to anyone brave enough to slay the dragon and bring peace to the kingdom. Will you accept the quest?"
+  id: dragon_slayer
+  objective: "Defeat the dragon and bring peace to the kingdom"
+  quest_giver: "King Arthur"
+  reward: "1000 gold coins, a magical sword, and the title of Dragon Slayer"
+  tasks:
+    - description: "Locate the dragon's lair"
+      location: "Mount Doom"
+      objective: "Find the dragon's lair and gather information about its weakness"
+      order: 1
+    - description: "Retrieve the magical sword"
+      location: "Enchanted Forest"
+      objective: "Retrieve the legendary sword, forged by the mythical blacksmith"
+      order: 2
+    - description: "Prepare for battle"
+      location: "King's Armory"
+      objective: "Obtain the necessary armor and supplies for the battle"
+      order: 3
+    - description: "Confront and defeat the dragon"
+      location: "Dragon's Lair"
+      objective: "Engage in a fierce battle with the dragon and use its weakness to defeat it"
+      order: 4
+  title: "The Dragon Slayer"
+```
