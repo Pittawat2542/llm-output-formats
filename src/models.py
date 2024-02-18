@@ -1,16 +1,17 @@
 import os
 from abc import ABC, abstractmethod
-from dotenv import load_dotenv
-import openai
+
 import google.generativeai as palm
+import openai
+from openai import Client
+from dotenv import load_dotenv
 from transformers import pipeline, Conversation, AutoTokenizer
 
-from src.constants import MODELS
 from src.utils import sleep
 
 # Initialize API keys
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai_client = Client()
 palm.configure(api_key=os.getenv("PALM_API_KEY"))
 hf_auth_token = os.getenv("HF_AUTH_TOKEN")
 
@@ -42,25 +43,25 @@ class IModel(ABC):
 class ChatGPT(IModel):
     def inference(self, prompt: str, temperature: float = 1):
         try:
-            response = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+            response = openai_client.chat.completions.create(
+                model="gpt-3.5-turbo-0613",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temperature,
             )
             return response.choices[0].message.content
-        except openai.error.APIError as e:
-            print(f"OpenAI API returned an API Error: {e}")
-            sleep(3)
-            return self.inference(prompt)
-        except openai.error.Timeout as e:
-            print(f"OpenAI API request timed out: {e}")
-            sleep(3)
-            return self.inference(prompt)
-        except openai.error.APIConnectionError as e:
+        except openai.APIConnectionError as e:
             print(f"OpenAI API request failed to connect: {e}")
             sleep(3)
             return self.inference(prompt)
-        except openai.error.RateLimitError as e:
+        except openai.APIError as e:
+            print(f"OpenAI API returned an API Error: {e}")
+            sleep(3)
+            return self.inference(prompt)
+        except openai.Timeout as e:
+            print(f"OpenAI API request timed out: {e}")
+            sleep(3)
+            return self.inference(prompt)
+        except openai.RateLimitError as e:
             print(f"OpenAI API request exceeded rate limit: {e}")
             sleep(5)
             return self.inference(prompt)
@@ -77,25 +78,25 @@ class ChatGPT(IModel):
 class GPT4(IModel):
     def inference(self, prompt: str, temperature: float = 1):
         try:
-            response = openai.ChatCompletion.create(
-                model="gpt-4",
+            response = openai_client.chat.completions.create(
+                model="gpt-4-0613",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=temperature,
             )
             return response.choices[0].message.content
-        except openai.error.APIError as e:
-            print(f"OpenAI API returned an API Error: {e}")
-            sleep(3)
-            return self.inference(prompt)
-        except openai.error.Timeout as e:
-            print(f"OpenAI API request timed out: {e}")
-            sleep(3)
-            return self.inference(prompt)
-        except openai.error.APIConnectionError as e:
+        except openai.APIConnectionError as e:
             print(f"OpenAI API request failed to connect: {e}")
             sleep(3)
             return self.inference(prompt)
-        except openai.error.RateLimitError as e:
+        except openai.APIError as e:
+            print(f"OpenAI API returned an API Error: {e}")
+            sleep(3)
+            return self.inference(prompt)
+        except openai.Timeout as e:
+            print(f"OpenAI API request timed out: {e}")
+            sleep(3)
+            return self.inference(prompt)
+        except openai.RateLimitError as e:
             print(f"OpenAI API request exceeded rate limit: {e}")
             sleep(5)
             return self.inference(prompt)
@@ -119,6 +120,20 @@ class PaLM(IModel):
 
     def __repr__(self):
         return "PaLM"
+
+
+class GeminiPro(IModel):
+    def inference(self, prompt: str, temperature: float = 1):
+        model = palm.GenerativeModel('gemini-pro')
+        chat = model.start_chat()
+        response = chat.send_message(prompt, generation_config=palm.types.GenerationConfig(temperature=temperature))
+        return response.text
+
+    def __str__(self):
+        return "GeminiPro"
+
+    def __repr__(self):
+        return "GeminiPro"
 
 
 class Llama2(IModel):
@@ -238,6 +253,8 @@ def get_model(model_name: str) -> IModel:
             return GPT4()
         case "palm":
             return PaLM()
+        case "gemini-pro":
+            return GeminiPro()
         case "llama-2":
             return Llama2()
         case "falcon":

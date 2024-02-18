@@ -1,11 +1,12 @@
 import argparse
 import json
-import os
 import logging
+import os
 import time
 import xml
 
 import yaml
+from google.generativeai.types.generation_types import StopCandidateException
 from tqdm import tqdm
 
 from src.constants import MODELS, TASKS, FORMATS, OUTPUT_FOLDER, PARSED_OUTPUT_FOLDER
@@ -52,7 +53,7 @@ def generation_task(models: list[str], tasks: Task, output_formats: OutputFormat
                                 f.write(response)
 
                         logging.info(f"Finished trial {i} for {model} on {task} with {output_format}")
-                except ValueError as e:
+                except (ValueError, StopCandidateException) as e:
                     print(f"Unexpected error: {e}")
                     continue
 
@@ -62,25 +63,35 @@ def parsing_task():
         os.makedirs(PARSED_OUTPUT_FOLDER)
 
     logging.info("Starting parsing")
-    for task in tqdm(os.listdir(OUTPUT_FOLDER), desc="Task", position=0):
+    for task in tqdm([o for o in os.listdir(OUTPUT_FOLDER) if os.path.isdir(os.path.join(OUTPUT_FOLDER, o))],
+                     desc="Task", position=0):
         if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/{task}'):
             os.makedirs(f'{PARSED_OUTPUT_FOLDER}/{task}')
 
-        for model in tqdm(os.listdir(f'{OUTPUT_FOLDER}/{task}'), desc="Model", position=1):
+        for model in tqdm([o for o in os.listdir(f'{OUTPUT_FOLDER}/{task}') if
+                           os.path.isdir(os.path.join(f'{OUTPUT_FOLDER}/{task}', o))], desc="Model", position=1):
             if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/{task}/{model}'):
                 os.makedirs(f'{PARSED_OUTPUT_FOLDER}/{task}/{model}')
 
-            for output_format in tqdm(os.listdir(f'{OUTPUT_FOLDER}/{task}/{model}'), desc="Format", position=2):
+            for output_format in tqdm([o for o in os.listdir(f'{OUTPUT_FOLDER}/{task}/{model}') if
+                                       os.path.isdir(os.path.join(f'{OUTPUT_FOLDER}/{task}/{model}', o))],
+                                      desc="Format", position=2):
                 if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/{task}/{model}/{output_format}'):
                     os.makedirs(f'{PARSED_OUTPUT_FOLDER}/{task}/{model}/{output_format}')
 
-                for trial in tqdm(os.listdir(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}'), desc="Trial",
+                for trial in tqdm([o for o in os.listdir(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}') if
+                                   os.path.isfile(os.path.join(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}', o))],
+                                  desc="Trial",
                                   position=3):
                     with open(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}/{trial}', 'r') as f:
                         logging.info(f"Starting parsing {task} {model} {output_format} {trial}")
                         try:
                             output = f.read()
-                        except UnicodeDecodeError as e:
+                        except UnicodeDecodeError:
+                            with open(f'{OUTPUT_FOLDER}/{task}/{model}/{output_format}/{trial}', "r",
+                                      encoding="ISO-8859-1") as f3:
+                                output = f3.read()
+                        except Exception as e:
                             logging.error(f"Error parsing {task} {model} {output_format} {trial}: {e}")
                             with open(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json', 'r+') as f2:
                                 summarized_results = json.load(f2)
@@ -138,7 +149,8 @@ def parsing_task():
                                     f2.write(json.dumps(summarized_results, indent=2))
 
                                 logging.info(f"Finished parsing {task} {model} {output_format} {trial}")
-                        except (json.decoder.JSONDecodeError, xml.parsers.expat.ExpatError, yaml.scanner.ScannerError,
+                        except (ValueError, TypeError, json.decoder.JSONDecodeError, xml.parsers.expat.ExpatError,
+                                yaml.scanner.ScannerError, yaml.reader.ReaderError,
                                 yaml.parser.ParserError, yaml.composer.ComposerError,
                                 yaml.constructor.ConstructorError) as e:
                             if not os.path.exists(f'{PARSED_OUTPUT_FOLDER}/summarized_results.json'):
