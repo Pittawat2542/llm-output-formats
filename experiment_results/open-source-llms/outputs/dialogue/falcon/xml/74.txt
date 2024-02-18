@@ -1,5 +1,0 @@
-| "order" : <code>dialogue order in the XML markup</code>  
-| "speaker" : <code>speaker name</code>  
-| "text" : <code>&lt;text containing dialogue or narration&gt;</code>
-
-The &lt;dialogues&gt; tag represents the start of the dialogue section and should have the same "order" tag as the &lt;game&gt; tag. Inside the &lt;game&gt; tag, place the &lt;dialogues&gt; tag when it is time to define the dialogue section. The "text" element inside the &lt;dialogues&gt; tag contains the dialogue or narration. Simply replace "text" with the appropriate element name or value. Finally, the &lt;/game&gt; tag represents the end of the dialogue section.

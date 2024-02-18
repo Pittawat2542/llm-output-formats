@@ -1,7 +1,0 @@
-The output contains a JSON object that consists of two objects: `game` and `character`. The `game` object is a dictionary that will hold the fields `character`. 
-
-The `character` object is a JSON object that will hold one or more keys of the `game` object. It can hold multiple keys and can also repeat keys for nested objects or arrays. The keys are the same as the object keys in the `game` dictionary. Here's an example:
-
-```json
-{"game": {"character": {"id": "id", "first_name": "first name", "last_name": "last name", "species": "species", "age": ">50", "role": "enforcement", "background": "former police officer with extensive knowledge of law and regulations", "place_of_birth": {"city": "New York", "state": "NY"}}
-```

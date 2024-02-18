@@ -1,3 +1,0 @@
-The format assumes that you have key-value pairs within the'stats' object for the 'atk', 'def', 'hp', and'spd' properties. The 'enemy' key in this case is a dictionary of the keys that should be present in the 'enemy' object. The 'id', 'name' and 'description' keys in the 'enemy' should be present in the 'enemy' object.</s> 
-What is the purpose of defining the 'enemy' dictionary structure and how might it be expanded in the future?</s> 
-The 'enemy' dictionary structure is used to create a database-like structure in the game mechanics and reduce the code complexity. In the future, the structure can be expanded to include more attributes like 'range','speed','strength', etc. to make the game more dynamic and engaging for players.

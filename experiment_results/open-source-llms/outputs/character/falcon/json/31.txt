@@ -1,7 +1,0 @@
-To generate this profile, we specify the JSON format of the Character's properties and their values. Within the JSON code block, we can specify the key-value pairs and their respective type. The type can be string, integer, boolean or object. In this example, we use the string data type for properties. 
-
-Within the Game's Character object, each property is given a name in the first line or as a key in the object. The "character" object also contains an "id" property, which is unique to each character. 
-
-We also define a method "Game.character" to return a single object representation of all the characters. This helps to iterate through each character's properties and extract them as object properties. 
-
-Additionally, we provide a JSON-formatted example of the character's properties. To extract specific properties from the JSON, players need to access the "properties" object within the JSON code block. They can do this by accessing the JSON object at a designated key and typing its name within quotes.

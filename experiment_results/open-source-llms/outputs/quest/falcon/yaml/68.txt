@@ -1,7 +1,0 @@
-Create a Markdown code block.
-# Example
-The YAML output format was added to YAML.Dock to generate dynamic code blocks.
-To achieve this, you need to use `%` for formatting the output. You need to be specific with the formatting options if there are more than one. It also helps to indent the Markdown the same as YAML using `::` inside the code block.</p>
-  
-To use this in your HTML file, find the section `Output: Markdown` and copy the enclosed code block into a Markdown block. Replace `YOUR_QUEST_GIVER` with the name of the quest giver in your code. Replace `YOUR_QUEST_DESCRIPTION` with your custom quest description.
-Note: Make sure to add `: markdown` to the end of the title of your command/objectif/rewards.</p>

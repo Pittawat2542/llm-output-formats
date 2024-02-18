@@ -1,9 +1,0 @@
-<p>Enemy has been slain!</p>
-```
-
-It looks like it doesn't match the provided output format.
-You can try wrapping your XML outputs in a `<p>tag` with the appropriate indentation to display them in Markdown. Here's an example:</p>
-
-<pre><code>&lt;p&gt;Enemy has been slain!&lt;/p&gt;</code></pre>
-
-This will display your XML output as an "error report". Note the usage of the `&lt;` tags for the `id`, `name`, and `description` tags.

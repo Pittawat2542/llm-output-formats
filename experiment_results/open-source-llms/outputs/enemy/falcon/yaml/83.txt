@@ -1,3 +1,0 @@
-We're using the "Markdown YAML" tag to display the YAML output. The "game" tag is not needed since it was already used in the "enemy" tag. The "enemy" tag is enclosed inside a "game" tag which has the "__name__" attribute as "game". 
-
-For each enemy, we need to specify the game name and set it to the appropriate markdown code block. For example, "Mordor" and "__name__". The "__name__" block will be displayed without any specific attribution.

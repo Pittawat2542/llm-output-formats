@@ -1,6 +1,0 @@
-```python
-import yaml
-
-# Return YAML in Markdown format
-output = yaml.load_string(yaml.dump(quests.format_info(), indent="  "))
-```

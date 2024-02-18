@@ -1,6 +1,0 @@
-In this example, replace `id` with the `id` of the enemy and `hp` with the `hp` of the enemy. Only the `enemy` element, `id`, `name`, and `description` elements should be nested in the `stats` element.
-The `mp` element should contain `mp` int and `atk` int values, with a `hpint` that can either be empty (`hp` tag!= `mp` tag), or has the same value as `hp`. 
-
-`hpint` should be inside `scps` tag.
-Each element should have a unique `attr` name and it should have the same tag.
-In this case, it is the `enemy` tag.

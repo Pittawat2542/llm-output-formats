@@ -1,8 +1,0 @@
-- name: example
-    type: example
-    content:
-      ~YAML:
-        game: |
-          if (name == 'John') print "Hello, John!"
-          else return "Good evening, $name!"
-```

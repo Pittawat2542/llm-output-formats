@@ -1,7 +1,0 @@
-${(dict -r)
- | map(JSON.stringify)
- | escape=JSON.stringify
-}
-```
-
-In this example, we create a JSON object from the text within the code block and map it to JSON.stringify in order to escape any escape sequences used in the JSON.stringify output. This will only return the JSON string in the output box. The `${(dict -r) | map(JSON.stringify)` syntax ensures that each key is escaped before outputting it in JSON.string format.

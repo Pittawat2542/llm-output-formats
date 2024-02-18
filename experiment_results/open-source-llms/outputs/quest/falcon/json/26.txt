@@ -1,1 +1,0 @@
-The game object is keyed for each task and objective to keep the structure of the JSON consistent. You can only include the `id`, `objective`, `description`, and `reward` properties. Any other properties will produce an error and be filtered.

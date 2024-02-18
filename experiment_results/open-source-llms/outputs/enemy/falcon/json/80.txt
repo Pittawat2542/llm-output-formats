@@ -1,6 +1,0 @@
-Explanation:
-
-- "enemy": creates a new object within the "game" object and sets its name to an unquoted string value.
-- Enemies can have different stats such as HP, MP, atk, def, and spd.
-- Each stat can have their own set of possible values.
-- When displaying stats, specify their respective names for the keys, and store the int values in the "stats" objects.

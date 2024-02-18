@@ -1,7 +1,0 @@
-In this markdown code block, the following information is formatted in JSON syntax:
-
-- `game`: A nested JSON object containing two properties: `title` (string) and `synopsis` (string). Inside `synopsis`, each subsequent key represents a separate property of the object.
-
-- `game.title` (string) is the name of the game
-
-- `game.synopsis` (string) is the synopsis of the game. The key "beginning" contains a nested JSON object with a property `title` (string) representing the beginning of the game, and a property `duration` (number) indicating the amount of time gameplay lasts. A nested JSON object `ending` with a property `duration` is also included, representing the end of the game.

@@ -1,9 +1,0 @@
-```python
-import json
-
-quest_info = 'Return output in JSON format and only the JSON in the Markdown code block. JSON.'
-json_response = json.loads(quest_info)
-print(json_response['game']['objective'])
-```
-
-This outputs: "quest title"

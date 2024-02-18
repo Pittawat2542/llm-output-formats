@@ -1,7 +1,0 @@
-| YAML |> markdown-lint |> yamlify |> yaml-fill |
-
-<p>If you're using an older version of markdown-lint, you can use the following command instead:</p>
-<pre><code>if markdown#version is true
-markdown#defaultmarkdown`
-</code></pre>
-<p>With this, you should be able to produce the desired output format.</p>

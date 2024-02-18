@@ -1,6 +1,0 @@
-```
-### example of how to use JSON to create enemy names in a game - this code should allow any user to enter a JSON object (or another compatible structure) to create an enemy in their game.
-```
-Each key in the JSON is the name of the desired enemy, and each value is the different properties that make up the specific enemy. For example, you could create a `name` key and include a `HP` int value. The JSON can be used in scripts or code to specify the type of enemy the user has selected. Each `key` in the JSON can be used as a value to set the game's `data.enemy` object, making the code simple and concise.
-
-Please note that the `hp`, `mp`, `atk`, `def`, and `spd` key names are valid and common properties of enemies in many RPGs, and are commonly used to create a wide range of enemy types. If the code block is used for a game that allows users to input their own enemy names, the properties on those keys will be variable by default.

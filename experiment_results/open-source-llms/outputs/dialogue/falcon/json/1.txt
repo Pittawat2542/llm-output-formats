@@ -1,8 +1,0 @@
-```
-{
-    // This is not valid JSON syntax, so remove it.
-}
-
-```
-
-This creates a JSON object with one key named 'game' and one key named 'dialogues'. Within the 'dialogues' key, another key named 'order' specifies the ordering of the dialogue elements within the array. Within the 'text' key, a string represents the dialogue or narrative itself. This JSON object can then be easily parsed into a valid JSON object by a Python JSON library, such as 'json.loads().'

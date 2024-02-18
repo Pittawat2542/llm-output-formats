@@ -1,4 +1,0 @@
-- `game`: a JSON object containing a `dialogues` array. Each dialogue has a `text` key with the text value being the content of the dialogue.
-- `order`: an optional array that indicates the order of the dialogues in the stream.
-- `speaker`: an optional object that represents the speaker of the dialogue. The key is the name of the player, and optional keys can be used to represent other information (such as their costume and position).
-- `text`: the key has a free form string that can repeat multiple times in the same dialogue. Each repetition represents a separate piece of dialogue text (excluding the player's name).
