@@ -4630,17 +4630,14 @@ quest,falcon,xml,28.txt,empty_response,No XML content found
 quest,falcon,xml,29.txt,incorrect_syntax,"mismatched tag: line 20, column 6"
 quest,falcon,xml,3.txt,empty_response,No XML content found
 quest,falcon,xml,30.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
-quest,falcon,xml,31.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,32.txt,empty_response,No XML content found
 quest,falcon,xml,33.txt,empty_response,No XML content found
 quest,falcon,xml,34.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 0"
-quest,falcon,xml,35.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,36.txt,key_completeness,"The key 'reward' is missing., The key 'quest_giver' is missing., The key 'tasks' is missing."
 quest,falcon,xml,37.txt,empty_response,No XML content found
 quest,falcon,xml,38.txt,empty_response,No XML content found
 quest,falcon,xml,39.txt,incorrect_syntax,"not well-formed (invalid token): line 10, column 9"
 quest,falcon,xml,4.txt,key_completeness,"The key 'quest_giver' is missing., The key 'tasks' is missing."
-quest,falcon,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,41.txt,empty_response,No XML content found
 quest,falcon,xml,42.txt,empty_response,No XML content found
 quest,falcon,xml,43.txt,incorrect_syntax,"junk after document element: line 1, column 26"
@@ -4648,7 +4645,6 @@ quest,falcon,xml,44.txt,empty_response,No XML content found
 quest,falcon,xml,45.txt,incorrect_syntax,"syntax error: line 1, column 0"
 quest,falcon,xml,46.txt,empty_response,No XML content found
 quest,falcon,xml,47.txt,empty_response,No XML content found
-quest,falcon,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,49.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 0"
 quest,falcon,xml,5.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 0"
 quest,falcon,xml,50.txt,incorrect_syntax,"syntax error: line 1, column 0"
@@ -4663,13 +4659,12 @@ quest,falcon,xml,58.txt,empty_response,No XML content found
 quest,falcon,xml,59.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,falcon,xml,6.txt,empty_response,No XML content found
 quest,falcon,xml,60.txt,incorrect_syntax,"syntax error: line 1, column 0"
-quest,falcon,xml,61.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,62.txt,empty_response,No XML content found
 quest,falcon,xml,63.txt,incorrect_syntax,"junk after document element: line 2, column 0"
 quest,falcon,xml,64.txt,incorrect_syntax,"not well-formed (invalid token): line 5, column 15"
 quest,falcon,xml,65.txt,incorrect_syntax,"syntax error: line 1, column 0"
 quest,falcon,xml,66.txt,empty_response,No XML content found
-quest,falcon,xml,67.txt,key_completeness,"The key 'quest_giver' is missing., The key 'tasks' is missing."
+quest,falcon,xml,67.txt,key_completeness,The key 'tasks' is missing.
 quest,falcon,xml,68.txt,incorrect_syntax,"mismatched tag: line 20, column 31"
 quest,falcon,xml,69.txt,empty_response,No XML content found
 quest,falcon,xml,7.txt,empty_response,No XML content found
@@ -4677,7 +4672,6 @@ quest,falcon,xml,70.txt,incorrect_syntax,"not well-formed (invalid token): line 
 quest,falcon,xml,71.txt,incorrect_syntax,"not well-formed (invalid token): line 41, column 0"
 quest,falcon,xml,72.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 0"
 quest,falcon,xml,73.txt,empty_response,No XML content found
-quest,falcon,xml,74.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,75.txt,empty_response,No XML content found
 quest,falcon,xml,76.txt,empty_response,No XML content found
 quest,falcon,xml,77.txt,empty_response,No XML content found
@@ -4688,9 +4682,8 @@ quest,falcon,xml,80.txt,incorrect_syntax,"not well-formed (invalid token): line 
 quest,falcon,xml,81.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
 quest,falcon,xml,82.txt,empty_response,No XML content found
 quest,falcon,xml,83.txt,empty_response,No XML content found
-quest,falcon,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,85.txt,empty_response,No XML content found
-quest,falcon,xml,86.txt,key_completeness,"The key 'description' is missing., The key 'quest_giver' is missing."
+quest,falcon,xml,86.txt,key_completeness,The key 'description' is missing.
 quest,falcon,xml,87.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
 quest,falcon,xml,88.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 0"
 quest,falcon,xml,89.txt,empty_response,No XML content found
@@ -4701,7 +4694,6 @@ quest,falcon,xml,92.txt,empty_response,No XML content found
 quest,falcon,xml,93.txt,key_completeness,"The key 'description' is missing., The key 'reward' is missing., The key 'quest_giver' is missing., The key 'tasks' is missing."
 quest,falcon,xml,94.txt,empty_response,No XML content found
 quest,falcon,xml,95.txt,empty_response,No XML content found
-quest,falcon,xml,96.txt,key_completeness,The key 'quest_giver' is missing.
 quest,falcon,xml,97.txt,incorrect_syntax,"syntax error: line 1, column 0"
 quest,falcon,xml,98.txt,incorrect_syntax,"mismatched tag: line 6, column 4"
 quest,falcon,xml,99.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 0"
@@ -4908,105 +4900,8 @@ expected <block end>, but found '-'
     ^"
 quest,gemini-pro,json,10.txt,empty_response,Expecting property name enclosed in double quotes: line 14 column 13 (char 672)
 quest,gemini-pro,json,24.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,1.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,10.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,100.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,11.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,12.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,13.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,14.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,15.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,16.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,17.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,18.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,19.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,2.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,20.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,21.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,22.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,23.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,24.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,25.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,26.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gemini-pro,xml,27.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,28.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,29.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,3.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,30.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,31.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,32.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,33.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,34.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,35.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,36.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,37.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,38.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,39.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,4.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,41.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,42.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,43.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,44.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,45.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,46.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,47.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,49.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,5.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,50.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,51.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,52.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,53.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gemini-pro,xml,54.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,55.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,56.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,57.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,58.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,59.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,6.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,60.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,61.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,62.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,63.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,64.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,65.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,66.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,67.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,68.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,69.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,7.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,70.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,71.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,72.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,74.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,75.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,76.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,77.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,78.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,79.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,8.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,80.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,81.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,82.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,83.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,85.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,86.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,87.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,88.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,89.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,9.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,90.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,91.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,92.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,93.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,94.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,95.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,96.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,97.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,98.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gemini-pro,xml,99.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gemini-pro,yaml,16.txt,empty_response,No YAML content found
 quest,gemini-pro,yaml,23.txt,empty_response,No YAML content found
 quest,gemini-pro,yaml,24.txt,incorrect_syntax,"mapping values are not allowed here
@@ -5091,105 +4986,18 @@ quest,gpt-3.5-turbo,json,9.txt,empty_response,Extra data: line 35 column 1 (char
 quest,gpt-3.5-turbo,json,93.txt,empty_response,Extra data: line 37 column 1 (char 1925)
 quest,gpt-3.5-turbo,json,97.txt,empty_response,Extra data: line 37 column 1 (char 2282)
 quest,gpt-3.5-turbo,xml,1.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
-quest,gpt-3.5-turbo,xml,10.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,100.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,11.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,12.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,13.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,14.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,15.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,16.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,17.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,18.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,19.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,2.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 0"
-quest,gpt-3.5-turbo,xml,20.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,21.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,22.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,23.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,24.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,25.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,26.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,27.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,28.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 0"
-quest,gpt-3.5-turbo,xml,29.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,3.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,30.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 0"
-quest,gpt-3.5-turbo,xml,31.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,32.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,33.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,34.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,35.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,36.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,37.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,38.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,39.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,4.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,41.txt,incorrect_syntax,"not well-formed (invalid token): line 36, column 0"
-quest,gpt-3.5-turbo,xml,42.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,43.txt,incorrect_syntax,"not well-formed (invalid token): line 36, column 0"
-quest,gpt-3.5-turbo,xml,44.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,45.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,46.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,47.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,49.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,5.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,50.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 0"
-quest,gpt-3.5-turbo,xml,51.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,52.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,53.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,54.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,55.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,56.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,57.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,58.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,59.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,6.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,60.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,61.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,62.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,63.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,64.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,65.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,66.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,67.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 0"
-quest,gpt-3.5-turbo,xml,68.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,69.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,7.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,70.txt,incorrect_syntax,"not well-formed (invalid token): line 36, column 0"
-quest,gpt-3.5-turbo,xml,71.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,72.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,73.txt,incorrect_syntax,"not well-formed (invalid token): line 36, column 0"
-quest,gpt-3.5-turbo,xml,74.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,75.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,76.txt,incorrect_syntax,"not well-formed (invalid token): line 42, column 0"
-quest,gpt-3.5-turbo,xml,77.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,78.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,79.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,8.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,80.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,81.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,82.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,83.txt,incorrect_syntax,"not well-formed (invalid token): line 42, column 0"
-quest,gpt-3.5-turbo,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,85.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,86.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,87.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,88.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,89.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,9.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,90.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,91.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,92.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,93.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,94.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,xml,95.txt,incorrect_syntax,"not well-formed (invalid token): line 42, column 0"
-quest,gpt-3.5-turbo,xml,96.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,97.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,98.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-3.5-turbo,xml,99.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-3.5-turbo,yaml,41.txt,incorrect_syntax,"while scanning for the next token
 found character '`' that cannot start any token
   in ""<unicode string>"", line 21, column 1:
@@ -5225,106 +5033,7 @@ found character '`' that cannot start any token
   in ""<unicode string>"", line 21, column 1:
     ```
     ^"
-quest,gpt-4,xml,1.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,10.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,100.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,11.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,12.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,13.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,14.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,15.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,16.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,17.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,18.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,19.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,2.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,20.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,21.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,22.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,23.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,24.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,25.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,26.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,27.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,28.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,29.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,3.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,30.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,31.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,32.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,33.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,34.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,35.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,36.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,37.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,38.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,39.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,4.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,41.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,42.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,43.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,44.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,45.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,46.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,47.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,49.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,5.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,50.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,51.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,52.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,53.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,54.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,55.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,56.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,57.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,58.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,59.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,6.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,60.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,61.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,62.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-4,xml,63.txt,empty_response,No XML content found
-quest,gpt-4,xml,64.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,65.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,66.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,67.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,68.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,69.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,7.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,70.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,71.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,72.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,73.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,74.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,75.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,76.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,77.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,78.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,79.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,8.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,80.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,81.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,82.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,83.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,85.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,86.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,87.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,88.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,89.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,9.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,90.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,91.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,92.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,93.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,94.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,95.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,96.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,97.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,98.txt,key_completeness,The key 'quest_giver' is missing.
-quest,gpt-4,xml,99.txt,key_completeness,The key 'quest_giver' is missing.
 quest,gpt-4,yaml,11.txt,incorrect_syntax,"while parsing a block mapping
   in ""<unicode string>"", line 2, column 3:
       description: Save the kidnapped  ... 
@@ -5469,26 +5178,21 @@ quest,llama-2,xml,21.txt,incorrect_syntax,"not well-formed (invalid token): line
 quest,llama-2,xml,22.txt,incorrect_syntax,"not well-formed (invalid token): line 9, column 0"
 quest,llama-2,xml,23.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,24.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 0"
-quest,llama-2,xml,25.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,26.txt,empty_response,No XML content found
 quest,llama-2,xml,27.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,28.txt,incorrect_syntax,"not well-formed (invalid token): line 54, column 0"
 quest,llama-2,xml,29.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 0"
 quest,llama-2,xml,3.txt,incorrect_syntax,"not well-formed (invalid token): line 27, column 0"
-quest,llama-2,xml,30.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,31.txt,incorrect_syntax,"not well-formed (invalid token): line 48, column 0"
 quest,llama-2,xml,32.txt,empty_response,No XML content found
-quest,llama-2,xml,33.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,34.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,35.txt,empty_response,No XML content found
 quest,llama-2,xml,36.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
 quest,llama-2,xml,37.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,38.txt,empty_response,No XML content found
-quest,llama-2,xml,39.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,4.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,40.txt,empty_response,No XML content found
 quest,llama-2,xml,41.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
-quest,llama-2,xml,42.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,43.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,44.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,45.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
@@ -5505,9 +5209,7 @@ quest,llama-2,xml,54.txt,incorrect_syntax,"not well-formed (invalid token): line
 quest,llama-2,xml,55.txt,empty_response,No XML content found
 quest,llama-2,xml,56.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
 quest,llama-2,xml,57.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
-quest,llama-2,xml,58.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,59.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
-quest,llama-2,xml,6.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,60.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,61.txt,incorrect_syntax,"not well-formed (invalid token): line 29, column 0"
 quest,llama-2,xml,62.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 0"
@@ -5520,7 +5222,6 @@ quest,llama-2,xml,68.txt,incorrect_syntax,"not well-formed (invalid token): line
 quest,llama-2,xml,69.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
 quest,llama-2,xml,7.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,70.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
-quest,llama-2,xml,71.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,72.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,73.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
 quest,llama-2,xml,74.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
@@ -5534,13 +5235,10 @@ quest,llama-2,xml,80.txt,incorrect_syntax,"not well-formed (invalid token): line
 quest,llama-2,xml,81.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,82.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,83.txt,incorrect_syntax,"mismatched tag: line 5, column 2"
-quest,llama-2,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,85.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,86.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
 quest,llama-2,xml,87.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,88.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
-quest,llama-2,xml,89.txt,key_completeness,The key 'quest_giver' is missing.
-quest,llama-2,xml,9.txt,key_completeness,The key 'quest_giver' is missing.
 quest,llama-2,xml,90.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 0"
 quest,llama-2,xml,91.txt,incorrect_syntax,"not well-formed (invalid token): line 17, column 0"
 quest,llama-2,xml,92.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 1"
@@ -5986,106 +5684,49 @@ quest,mpt,json,88.txt,empty_response,Extra data: line 17 column 1 (char 428)
 quest,mpt,json,89.txt,empty_response,No JSON content found
 quest,mpt,json,91.txt,key_completeness,The key 'tasks' is missing.
 quest,mpt,json,94.txt,empty_response,No JSON content found
-quest,mpt,xml,1.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,10.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,100.txt,empty_response,No XML content found
 quest,mpt,xml,11.txt,key_completeness,The key 'game' is missing.
-quest,mpt,xml,12.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,13.txt,empty_response,No XML content found
-quest,mpt,xml,14.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,15.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,16.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,17.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,18.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,19.txt,empty_response,No XML content found
 quest,mpt,xml,2.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
-quest,mpt,xml,20.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,21.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 37"
 quest,mpt,xml,22.txt,empty_response,No XML content found
 quest,mpt,xml,23.txt,empty_response,No XML content found
 quest,mpt,xml,24.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
-quest,mpt,xml,25.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,26.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
 quest,mpt,xml,27.txt,empty_response,No XML content found
-quest,mpt,xml,28.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,29.txt,empty_response,No XML content found
-quest,mpt,xml,3.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,30.txt,empty_response,No XML content found
-quest,mpt,xml,31.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,32.txt,empty_response,No XML content found
-quest,mpt,xml,33.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,34.txt,empty_response,No XML content found
 quest,mpt,xml,35.txt,empty_response,No XML content found
-quest,mpt,xml,36.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,37.txt,empty_response,No XML content found
-quest,mpt,xml,38.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,39.txt,incorrect_syntax,"syntax error: line 1, column 0"
-quest,mpt,xml,4.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,41.txt,empty_response,No XML content found
 quest,mpt,xml,42.txt,empty_response,No XML content found
-quest,mpt,xml,43.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,44.txt,empty_response,No XML content found
-quest,mpt,xml,45.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,46.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,47.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,49.txt,empty_response,No XML content found
 quest,mpt,xml,5.txt,empty_response,No XML content found
-quest,mpt,xml,50.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,51.txt,empty_response,No XML content found
-quest,mpt,xml,52.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,53.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,54.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,55.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,56.txt,empty_response,No XML content found
-quest,mpt,xml,57.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,58.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,59.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,6.txt,incorrect_syntax,"XML or text declaration not at start of entity: line 2, column 0"
 quest,mpt,xml,60.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
-quest,mpt,xml,61.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,62.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,63.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,64.txt,empty_response,No XML content found
-quest,mpt,xml,65.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,66.txt,empty_response,No XML content found
-quest,mpt,xml,67.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,68.txt,empty_response,No XML content found
 quest,mpt,xml,69.txt,empty_response,No XML content found
-quest,mpt,xml,7.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,70.txt,empty_response,No XML content found
 quest,mpt,xml,71.txt,empty_response,No XML content found
-quest,mpt,xml,72.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,73.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,74.txt,empty_response,No XML content found
-quest,mpt,xml,75.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,76.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,77.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,78.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,79.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,8.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,80.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,81.txt,empty_response,No XML content found
-quest,mpt,xml,82.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,83.txt,empty_response,No XML content found
-quest,mpt,xml,84.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,85.txt,empty_response,No XML content found
-quest,mpt,xml,86.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,87.txt,empty_response,No XML content found
 quest,mpt,xml,88.txt,empty_response,No XML content found
-quest,mpt,xml,89.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,9.txt,empty_response,No XML content found
 quest,mpt,xml,90.txt,empty_response,No XML content found
 quest,mpt,xml,91.txt,incorrect_syntax,"XML or text declaration not at start of entity: line 2, column 0"
-quest,mpt,xml,92.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,93.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,94.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,95.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,xml,96.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 1"
-quest,mpt,xml,97.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,98.txt,key_completeness,The key 'quest_giver' is missing.
-quest,mpt,xml,99.txt,key_completeness,The key 'quest_giver' is missing.
 quest,mpt,yaml,10.txt,empty_response,No YAML content found
 quest,mpt,yaml,11.txt,empty_response,No YAML content found
 quest,mpt,yaml,13.txt,empty_response,No YAML content found

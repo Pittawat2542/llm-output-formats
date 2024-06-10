@@ -138,7 +138,7 @@ def error_analysis(output_folder_path: Path):
                             })
                             continue
                         for key in templates[task.name]:
-                            if key not in result:
+                            if key not in result and key.replace("_", "-") not in result:
                                 error_categories["key_completeness"].append({
                                     "task": task.name,
                                     "model": model.name,
@@ -161,7 +161,7 @@ def error_analysis(output_folder_path: Path):
                                             "error_message": f"The key '{key}' is not a dictionary."
                                         })
                                         break
-                                    if sub_key not in result[key]:
+                                    if sub_key not in result[key] and sub_key.replace("_", "-") not in result[key]:
                                         error_categories["key_completeness"].append({
                                             "task": task.name,
                                             "model": model.name,
