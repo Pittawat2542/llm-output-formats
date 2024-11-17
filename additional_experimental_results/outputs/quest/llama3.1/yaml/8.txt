@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: Retrieve a powerful artifact from the ancient ruins.
+  id: 001
+  objective: Return the artifact to the village elder.
+  quest_giver: Thorne, the village elder
+  reward: 100 gold pieces and a magical amulet
+  tasks:
+  - description: Find the entrance to the ancient ruins.
+    location: The old forest, northwest of the village
+    objective: Locate the hidden passage
+    order: 1
+  - description: Retrieve the artifact from the treasure chamber.
+    location: The inner sanctum of the ruins
+    objective: Collect the powerful relic
+    order: 2
+  title: The Lost Relic
+```

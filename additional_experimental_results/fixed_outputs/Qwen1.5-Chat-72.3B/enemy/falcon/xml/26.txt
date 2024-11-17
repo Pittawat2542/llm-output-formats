@@ -1,0 +1,19 @@
+The original XML is missing the opening `<game>` tag and has an extra closing `</stats>` tag. Here's the corrected XML with a new enemy example:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>BossDragon</name>
+		<description>A fierce dragon that guards the treasure.</description>
+		<stats>
+			<hp>200</hp>
+			<mp>50</mp>
+			<atk>30</atk>
+			<def>20</def>
+			<spd>15</spd>
+		</stats>
+	</enemy>
+</game>
+```

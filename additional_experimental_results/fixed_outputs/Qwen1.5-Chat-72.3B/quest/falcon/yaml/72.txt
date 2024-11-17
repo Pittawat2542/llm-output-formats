@@ -1,0 +1,33 @@
+```yaml
+game:
+  id: unique_id
+  title: quest title
+  objective: quest objective
+  reward:
+    title: quest reward
+    money: 0
+    experience: 0
+  quest_giver: quest giver
+  tasks:
+    - description: first task description
+      order: 1
+      location: first task location
+      objective: first task objective
+
+    - description: second task description
+      order: 2
+      location: second task location
+      objective: second task objective
+
+    - description: third task description
+      order: 3
+      location: third task location
+      objective: third task objective
+```
+In the fixed YAML data, I've corrected the following issues:
+
+1. Added the missing keys `id`, `title`, `objective`, `reward`, and `quest_giver` as per the error message.
+2. Changed `objectives` to a single `objective` field since it appears to be a singular value.
+3. Changed `rewards` to `reward` and nested its contents under the key `reward`.
+4. Renamed `first task`, `second task`, and `third task` in the `tasks` section to have a consistent structure with their respective descriptions, objectives, and locations.
+5. Added an `order` field for each task to maintain the order of tasks.

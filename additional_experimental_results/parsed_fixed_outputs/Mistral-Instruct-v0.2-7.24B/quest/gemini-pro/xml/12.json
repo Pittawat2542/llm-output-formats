@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Dragon's Hoard",
+    "objective": "Defeat the dragon and claim its hoard of gold.",
+    "description": "A fearsome dragon has been terrorizing the countryside, and its hoard of gold is said to be immense. The king has put out a call for heroes to slay the dragon and claim its treasure.",
+    "reward": "The dragon's hoard of gold and the title of Dragon Slayer.",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the dragon's lair.",
+          "description": "The dragon's lair is located in the mountains to the north. It is a dangerous journey, but the reward is worth the risk.",
+          "location": "The mountains to the north"
+        },
+        {
+          "order": "2",
+          "objective": "Fight the dragon.",
+          "description": "The dragon is a powerful creature, but you must defeat it to claim its hoard of gold.",
+          "location": "The dragon's lair"
+        },
+        {
+          "order": "3",
+          "objective": "Claim the dragon's hoard of gold.",
+          "description": "Once you have defeated the dragon, you can claim its hoard of gold. The gold is located in a chamber deep within the dragon's lair.",
+          "location": "The dragon's lair"
+        }
+      ]
+    }
+  }
+}

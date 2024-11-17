@@ -1,0 +1,18 @@
+The issue is that the root of the YAML structure should be a dictionary, but there's no key-value pair at the beginning. Let's fix it by adding an empty dictionary as the root.
+
+Corrected YAML:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```
+```

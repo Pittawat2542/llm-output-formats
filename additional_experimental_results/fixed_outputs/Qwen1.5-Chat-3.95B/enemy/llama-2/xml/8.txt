@@ -1,0 +1,17 @@
+Error: incorrect_syntax: not well-formed (invalid token): line 1, column 0
+```xml
+$ python3 enemy_status.py -i 1
+<game>
+	<enemy>
+			<id>1</id>
+			<name>Enemy Name</name>
+			<description>Enemy description</description>
+			<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>

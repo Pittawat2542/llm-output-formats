@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Missing Dog</title>
+	<objective>Find the missing dog and return it to its owner.</objective>
+	<description>A local farmer's dog has gone missing. The farmer is worried sick and has asked you to help find it.</description>
+	<reward>The farmer will give you a reward of 100 gold if you find his dog.</reward>
+	<quest-giver>Farmer John</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Talk to the farmer and get more information about the missing dog.</objective>
+				<description>Visit Farmer John at his farm to gather more information about the dog's disappearance. He may be able to give you some clues about where the dog might be.</description>
+				<location>John's Farm</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Search the area around the farm for any signs of the missing dog.</objective>
+				<description>Look for footprints, fur, or other evidence that may indicate the dog's whereabouts.</description>
+				<location>Farm Vicinity</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Ask around the village to see if anyone has seen the missing dog.</objective>
+				<description>Talk to the villagers and inquire about the missing dog. They might have seen the dog or have heard something about its disappearance.</description>
+				<location>Village</location>
+			</task>
+			<task>
+				<order>4</order>
+				<objective>Follow the clues to find the missing dog.</objective>
+				<description>Use the information you've gathered to locate the missing dog. It could be hiding somewhere nearby or have wandered off farther away.</description>
+				<location>Various</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>Return the dog to the farmer.</objective>
+				<description>Once you've found the missing dog, take it back to Farmer John. He'll be overjoyed to see his beloved pet again.</description>
+				<location>John's Farm</location>
+			</task>
+	</tasks>
+</game>
+```

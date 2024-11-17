@@ -1,0 +1,132 @@
+```html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+
+  <body>
+  
+    <h1>Welcome to our website about Django Templates.</h1>
+    
+    <p>This template will allow you to learn the basics of using Django Templates for Game Development. You'll get hands-on exercises to help you apply what you've learned, and then you'll be able to create your own custom game with Django!</p>
+
+  </body>
+</html>
+```
+```python
+# Sample code
+from django import template
+
+register = template.Library()
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+```
+```html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+
+  <body>
+
+{% welcome %}
+</body>
+```
+```python
+# Sample code
+from django import template
+
+register = template.Library()
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+</body>
+```
+```python 
+# Sample code
+from django import template
+
+register = template.Library()
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+</body>
+```
+```python 
+# Sample code
+from django import template
+
+register = template.Library()
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+</body>
+```
+## Output:
+### Response:
+```html 
+<!DOctype html>
+<lang="en">
+Welcome to our website about Django Templates. This template will allow you to learn the basics of using Django Templates for Game Development. You'll get hands-on exercises to help you apply what you've learned, and then you'll be able to create your own custom game with Django!
+
+
+### Solution: 
+```python
+from django import template
+
+register = template.Library()
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+</body>
+
+
+# Sample code
+from django import template
+
+register = template.Library()
+
+
+@register.simple_tag
+def welcome():
+    return "<h1>Welcome to our website about Django Templates.</h1>"
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+</body>
+
+
+```
+## Output:
+

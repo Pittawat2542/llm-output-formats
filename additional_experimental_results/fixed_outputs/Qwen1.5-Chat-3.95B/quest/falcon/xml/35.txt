@@ -1,0 +1,44 @@
+XML:
+```xml
+<?xml version="1.0" encoding="utf-8" xmlns="http://www.game.com/2019/GameXML">
+    <game>
+        <id>id</id>
+        <title>quest title</title>
+        <objective>quest objective</objective>
+        <description>quest description</description>
+        <reward>quest reward</reward>
+        <tasks>
+            <task>
+                <order>1. Task #1</order>
+                <objective>Task #1</objective>
+                <description>Description #1</description>
+                <location>Task #1 location</location>
+            </task>
+            <task>
+                <order>2. Task #2</order>
+                <objective>Task #2</objective>
+                <description>Description #2</description>
+                <location>Task #2 location</location>
+            </task>
+            <task>
+                <order>3. Task #3</order>
+                <objective>Task #3</objective>
+                <description>Description #3</description>
+                <location>Task #3 location</location>
+            </task>
+            <task>
+                <order>4. Task #4</order>
+                <objective>Task #4</objective>
+                <description>Description #4</description>
+                <location>Task #4 location</location>
+            </task>
+            <task>
+                <order>5. Task #5</order>
+                <objective>Task #5</objective>
+                <description>Description #5</description>
+                <location>Task #5 location</location>
+            </task>
+        </tasks>
+    </game>
+</xml>
+```

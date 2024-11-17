@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "Find the missing cat.",
+    "id": 1,
+    "objective": "Find the missing cat.",
+    "quest_giver": "The mayor of the town.",
+    "reward": "A reward.",
+    "tasks": [
+      {
+        "description": "Search for clues in the town square.",
+        "location": "The town square.",
+        "objective": "Look for signs of the missing cat.",
+        "order": 1
+      },
+      {
+        "description": "Ask around at local houses and businesses.",
+        "location": "Various locations.",
+        "objective": "Gather information about the cat's whereabouts.",
+        "order": 2
+      }
+    ],
+    "title": "Find the Missing Cat Quest"
+  }
+}

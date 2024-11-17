@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: Investigate the strange occurrences in the abandoned mine and put an end to whatever evil is stirring within.
+  id: 001
+  objective: Put a stop to the darkness spreading from the old mine.
+  quest_giver: Gorm, the gruff but fair-minded town mayor.
+  reward: A set of common adventurer's tools and 50 gold pieces.
+  tasks:
+  - description: Explore the north tunnel until you find the source of the disturbance.
+    location: The North Tunnel in the Abandoned Mine
+    objective: Find the source of the strange noises.
+    order: First
+  - description: Defeat the goblin leader, Biter, and free the enslaved dwarves.
+    location: Biter's Lair, Deep within the mine
+    objective: Put an end to Biter's evil plans.
+    order: Second
+  title: "The Darkness in the Mine"
+```

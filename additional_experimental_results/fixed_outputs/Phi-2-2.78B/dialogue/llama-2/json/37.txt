@@ -1,0 +1,20 @@
+```python
+import json 
+
+json_data = """
+[
+  {
+    "order": "dialogue order",
+    "speaker": "speaker name",
+   "text": "dialogue or narration"
+  }
+]
+"""
+
+def fix(data):
+    fixed_data = json.loads(data)
+    return fixed_data
+print (fix(json_data)) # {'game': {'dialogues': [{'order': 'dialogue order', 'speaker': 'speaker name', 'text': 'dialogue or narration'}]}}
+```
+
+

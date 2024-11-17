@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy id="EN01">
+        <name>Elemental Wyrm</name>
+        <description>A powerful dragon with control over elements</description>
+        <stats>
+            <hp value="200">Max HP (200)</hp>
+            <mp value="50">Max MP (50)</mp>
+            <atk value="150">ATK (150)</atk>
+            <def value="100">DEF (100)</def>
+            <spd value="80">SPD (80)</spd>
+        </stats>
+        <stats>
+            <hp_min>120</hp_min>
+            <xp_min>300</xp_min>
+            <mp_min>35</mp_min>
+            <weaponSkill>Elemental Strike</weaponSkill>
+            <weaponLevel>6</weaponLevel>
+            <elementalCharge>80% of MP</elementalCharge>
+        </stats>
+    </enemy>
+</game>
+```

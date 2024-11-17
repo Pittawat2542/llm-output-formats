@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "Embark on a journey to explore treacherous lands and uncover the lost artifact to prove your worthiness.",
+    "reward": "1000 gold coins and legendary equipment",
+    "quest-giver": "Gilbert the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Ruins of Eldoria",
+          "description": "You must reach the ancient ruins in the heart of the forest to begin your search.",
+          "location": "Ruins of Eldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian Beast",
+          "description": "A powerful beast guards the artifact. Conquer it to proceed.",
+          "location": "Ruins of Eldoria"
+        }
+      ]
+    }
+  }
+}

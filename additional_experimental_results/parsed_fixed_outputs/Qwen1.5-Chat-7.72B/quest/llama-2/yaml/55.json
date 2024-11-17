@@ -1,0 +1,23 @@
+{
+  "game": {
+    "description": "The quest description.",
+    "id": 1,
+    "objective": "The quest objective.",
+    "quest_giver": "The quest giver",
+    "reward": "The quest reward",
+    "tasks": [
+      {
+        "description": "The task description",
+        "location": "The task location",
+        "objective": "The task objective",
+        "order": "The task order"
+      },
+      {
+        "description": "The second task description",
+        "location": "The second task location",
+        "objective": "The second task objective",
+        "order": "The second task order"
+      }
+    ]
+  }
+}

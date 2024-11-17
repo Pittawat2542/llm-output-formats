@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Secret Quest",
+    "objective": "Find the hidden treasure",
+    "description": "You have been told of a secret quest to find a hidden treasure deep within the forest. Speak with the old hermit for more information.",
+    "reward": "A chest full of gold and jewels",
+    "quest-giver": "The old hermit",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information from the townspeople about the treasure location",
+          "description": "Visit each of the villagers in the nearby town and ask them for any information they might have about the treasure or its location. Be sure to be polite and respectful in your interactions with them.",
+          "location": "The local tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the map from the library",
+          "description": "Make your way to the town library and locate the ancient map that will lead you to the treasure. Be careful, as the library is known to be a quiet place and any noise you make may alert the librarian.",
+          "location": "The town library"
+        },
+        {
+          "order": "3",
+          "objective": "Find the treasure",
+          "description": "Follow the map to the location of the treasure and be prepared for any challenges that may come your way. Remember, the treasure is well guarded and you will need all of your skills and courage to claim it.",
+          "location": "Deep within the forest"
+        }
+      ]
+    }
+  }
+}

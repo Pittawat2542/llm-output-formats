@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hey, how's it going?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>Not too bad, thanks. How about you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm doing alright. Just trying to figure out this XML formatting for a game.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Oh, I see. XML can be a bit tricky at first, but once you get the hang of it, it's quite powerful.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>Yeah, I'm starting to get the hang of it. Thanks for the advice.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

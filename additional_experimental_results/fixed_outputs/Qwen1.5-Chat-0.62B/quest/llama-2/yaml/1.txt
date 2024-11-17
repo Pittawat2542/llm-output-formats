@@ -1,0 +1,36 @@
+The YAML code for the problem is correct. Here is a sample output in Markdown format and only the YAML in the Markdown code block:
+```
+# Input format
+game:
+  description: A simple quest
+  id: 1
+  objective: Find the lost key.
+  quest_giver: The king
+  reward: A golden key
+  tasks:
+   - description: Task description
+    location: task location
+    objective: Task objective
+    order: task order
+  title: Quest title
+```
+
+Output:
+
+```
+# Input format
+game:
+  description: A simple quest
+  id: 1
+  objective: Find the lost key.
+  quest_giver: The king
+  reward: A golden key
+  tasks:
+   - description: Task description
+    location: task location
+    objective: Task objective
+    order: task order
+  title: Quest title
+```
+
+# Output in Markdown format

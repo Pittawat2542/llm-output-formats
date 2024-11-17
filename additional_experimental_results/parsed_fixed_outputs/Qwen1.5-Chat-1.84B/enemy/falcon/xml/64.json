@@ -1,0 +1,86 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "1",
+        "name": "Enemy",
+        "description": "description",
+        "stats": {
+          "hp": "10",
+          "mp": "10",
+          "atk": "10",
+          "def": "5",
+          "spd": "10"
+        }
+      },
+      {
+        "@id": "2",
+        "id": "15",
+        "name": "Nerd",
+        "description": "description",
+        "stats": {
+          "hp": [
+            "10",
+            "6"
+          ],
+          "mp": [
+            "15",
+            "12"
+          ],
+          "atk": "1d"
+        }
+      },
+      {
+        "@id": "3",
+        "id": "20",
+        "name": "Mace",
+        "description": "description",
+        "stats": {
+          "hp": [
+            "5",
+            "6"
+          ],
+          "mp": [
+            "15",
+            "3d"
+          ],
+          "atk": "1d"
+        }
+      },
+      {
+        "@id": "4",
+        "id": "50",
+        "name": "Zapper",
+        "description": "description",
+        "stats": {
+          "hp": [
+            "15",
+            "10"
+          ],
+          "mp": [
+            "20",
+            "10"
+          ],
+          "atk": "2d"
+        }
+      },
+      {
+        "@id": "5",
+        "id": "5",
+        "name": "Zapper",
+        "description": "description",
+        "stats": {
+          "hp": [
+            "10",
+            "5"
+          ],
+          "mp": [
+            "10",
+            "6"
+          ],
+          "atk": "2d"
+        }
+      }
+    ]
+  }
+}

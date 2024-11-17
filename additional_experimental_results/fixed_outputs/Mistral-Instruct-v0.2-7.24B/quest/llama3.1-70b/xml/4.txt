@@ -1,0 +1,39 @@
+ ```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the Lost City of Eldarath.</objective>
+	<description>Rumors have been circulating about a hidden city deep in the forest, filled with treasures and artifacts. Your quest is to retrieve an ancient relic rumored to be hidden within the city's walls.</description>
+	<reward>1000 Gold Pieces, The Amulet of Light</reward>
+	<quest-giver>King Thorold Ironfist</quest-giver>
+	<tasks>
+		<task key="game.task.Q001.T001">
+			<order>1</order>
+			<objective>Gather information about the Lost City's location.</objective>
+			<description>Talk to the local villagers and gather information about the city's whereabouts. They might know something that can aid you on your quest.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task key="game.task.Q001.T002">
+			<order>2</order>
+			<objective>Retrieve a map of the forest, highlighting the path to the Lost City.</objective>
+			<description>A local cartographer has been known to create maps of the surrounding areas. Visit him and see if he can provide you with a map that will aid your journey.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task key="game.task.Q001.T003">
+			<order>3</order>
+			<objective>Navigate through the treacherous forest and reach the Lost City.</objective>
+			<description>Use the information gathered from the villagers and the map to navigate through the forest. Be cautious, as rumors of dark creatures and treacherous terrain have been known to plague adventurers who dare to venture into these woods.</description>
+			<location>Eldarath Forest</location>
+		</task>
+		<task key="game.task.Q001.T004">
+			<order>4</order>
+			<objective>Retrieve the ancient artifact from the Lost City's temple.</objective>
+			<description>Finally, after overcoming the challenges of the forest and reaching the city, you must face whatever dangers lie within the temple to retrieve the ancient relic. Be brave and resourceful, as this will be your greatest challenge yet.</description>
+			<location>The Lost City of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```
+
+In order to fix the issue, I added a `key` attribute for each task with a value that includes `"game.task."` followed by an identifier for the game, quest, and task number. This allows for easier identification of specific tasks within the game data.

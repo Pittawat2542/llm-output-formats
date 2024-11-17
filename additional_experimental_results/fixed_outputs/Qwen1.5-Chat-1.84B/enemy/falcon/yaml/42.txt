@@ -1,0 +1,74 @@
+Here's the corrected YAML data:
+```yaml
+game:
+  enemies:
+    - description: description
+      id: 1
+      name: dragon
+        atk: 2
+        def: 1
+        hp: 200
+        mp: 80
+        spd: 3
+    - description: description
+      id: 2
+      name: fairy
+        atk: 4
+        def: 0
+        hp: 150
+        mp: 60
+       spd: 2
+  hero:
+    description: description
+    id: 3
+    name: knight
+      atk: 7
+      def: 2
+      hp: 400
+      mp: 24
+      spd: 4
+```
+
+In the corrected YAML data, the `game` mapping has been updated to include two enemy objects with different properties:
+
+1. `enemy` object:
+   - `description`: description of the enemy (e.g., "dragon")
+   - `id`: unique identifier for the enemy (e.g., 1)
+   - `name`: name of the enemy (e.g., "dragon")
+   - `atk`: attack strength in units per second
+   - `def`: defense strength in units per second
+   - `hp`: hit points in units
+   - `mp`: maximum health points
+   - `spd`: speed
+
+2. `hero` object:
+   - `description`: description of the hero (e.g., "knight")
+   - `id`: unique identifier for the hero (e.g., 3)
+   - `name`: name of the hero (e.g., "knight")
+   - `atk`: attack strength in units per second
+   - `def`: defense strength in units per second
+   - `hp`: hit points in units
+   - `mp`: maximum health points
+   - `spd`: speed
+
+The new values for the `enemy` object are:
+- `description`: "description"
+- `id`: 1
+- `name`: "dragon"
+- `atk`: 2
+- `def`: 1
+- `hp`: 200
+- `mp`: 80
+- `spd`: 3
+
+And the new values for the `hero` object are:
+- `description`: "description"
+- `id`: 3
+- `name`: "knight"
+- `atk`: 7
+- `def`: 2
+- `hp`: 400
+- `mp`: 24
+- `spd`: 4
+
+The YAML data now reflects the correct syntax and values for the game's enemy and hero objects.

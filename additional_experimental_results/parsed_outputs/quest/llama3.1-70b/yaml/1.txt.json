@@ -1,0 +1,37 @@
+{
+  "game": {
+    "description": "Retrieve a rare artifact from an ancient ruin deep within the nearby forest.",
+    "id": "Q001",
+    "objective": "Acquire the artifact and return it to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "items": [
+        "Healing Potion (x2)",
+        "Small Shield"
+      ]
+    },
+    "tasks": [
+      {
+        "description": "Speak with the local historian to learn about the ruin's location.",
+        "location": "Village Library",
+        "objective": "Gather information about the ancient ruin.",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the forest and reach the entrance of the ruin.",
+        "location": "Ancient Ruin Entrance",
+        "objective": "Find the entrance of the ruin.",
+        "order": 2
+      },
+      {
+        "description": "Explore the ruin, avoiding traps and fighting off creatures to reach the artifact chamber.",
+        "location": "Ancient Ruin Artifact Chamber",
+        "objective": "Obtain the rare artifact.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact of Eldarath"
+  }
+}

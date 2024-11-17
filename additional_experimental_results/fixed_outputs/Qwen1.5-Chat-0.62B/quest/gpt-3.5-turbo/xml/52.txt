@@ -1,0 +1,205 @@
+XML data corrected:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 objective>Find the lost treasure hidden in a mysterious island.</objective>
+	description>In a land of myths and legends, there is a treasure that has been lost for centuries. Many adventurers have tried to find it, but none have succeeded. As a brave hero, you have been entrusted with the task to find this treasure and bring it back to its rightful place. Are you up for the challenge?
+</description>
+<reward>Ancient artifacts, gold, and eternal fame.</ reward>
+<quest-giver>Captain Morgan</quest-giver>
+<tasks>
+		<task>
+			<order>1</order>
+		 Objective: Obtain a map to the hidden island.</objective>
+		 Objective: Visit the old sailor in the tavern and persuade him to give you the map.
+		 Objective: Provide you with the map for the search on the lost treasure.
+		</task>
+		<task>
+			<order>2</order>
+		 Objective: Build a strong crew for the journey.</objective>
+		 Objective: Gather a crew of skilled sailors and loyal companions to join you in the adventure.
+		 Objective: Provide them with the necessary tools and equipment to navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.
+		</task>
+		<task>
+			<order>3</order>
+		 Objective: Survive the treacherous sea voyage.</objective>
+		 Objective: Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.
+		 Objective: Provide them with the necessary survival skills and knowledge to survive the journey and find the treasure.
+		</task>
+		<task>
+			<order>4</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the treasure.
+		</task>
+		<task>
+			<order>5</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the treasure.
+		</task>
+		<task>
+			<order>6</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the treasure.
+		</task>
+		<task>
+			<order>7</order>
+		 Objective: Discover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and discover the secret of the island.
+		</task>
+	</tasks>
+	<奖励>Ancient artifacts, gold, and eternal fame.</奖励>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+		 Objective: Obtain a map to the hidden island.</objective>
+		 Objective: Visit the old sailor in the tavern and persuade him to give you the map.
+		 Objective: Provide you with the map for the search on the lost treasure.
+		</task>
+		<task>
+			<order>2</order>
+		 Objective: Build a strong crew for the journey.</ objective>
+		 Objective: Gather a crew of skilled sailors and loyal companions to join you in the adventure.
+		 Objective: Provide them with the necessary tools and equipment to navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.
+		</task>
+		<task>
+			<order>3</order>
+		 Objective: Survive the treacherous sea voyage.</objective>
+		 Objective: Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.
+		 Objective: Provide them with the necessary survival skills and knowledge to survive the journey and find the treasure.
+		</task>
+		<task>
+			<order>4</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the secret of the island.
+		</task>
+		<task>
+			<order>5</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the secret of the island.
+		</task>
+		<task>
+			<order>6</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and find the secret of the island.
+		</task>
+		<task>
+			<order>7</order>
+		 Objective: Discover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and discover the secret of the island.
+		</task>
+		<task>
+			<order>8</order>
+		 Objective: Discover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and discover the secret of the island.
+		</task>
+		<任务>
+			<order>9</order>
+		 Objective: Uncover the secrets of the island and find the treasure.</objective>
+		 Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+		 Objective: Provide them with the necessary tools and knowledge to navigate through the island and discover the secret of the island.
+		</task>
+	</tasks>
+</奖励>
+```
+Output in Markdown code block:
+
+```
+Quest Title
+Objective
+Description
+Rewards
+Quest Giver
+Tasks
+
+<order>1</order>
+Objective: Obtain a map to the hidden island.
+Objective: Visit the old sailor in the tavern and persuade him to give you the map.
+
+<order>2</order>
+Objective: Build a strong crew for the journey.
+Objective: Gather a crew of skilled sailors and loyal companions to join you in the adventure.
+
+<order>3</order>
+Objective: Survive the treacherous sea voyage.
+Objective: Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.
+
+<order>4</order>
+Objective: Uncover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>5</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>6</order>
+Objective: Uncover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>7</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>8</order>
+Objective: Uncover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>9</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>10</order>
+Objective: Uncover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>11</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>12</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>13</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>14</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>15</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>16</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>17</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>18</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>19</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+
+<order>20</order>
+Objective: Discover the secrets of the island and find the treasure.
+Objective: Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.
+```
+```

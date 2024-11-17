@@ -1,0 +1,46 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Missing Shipment</title>
+	<objective>Find the missing shipment of weapons.</objective>
+	<description>A shipment of weapons has gone missing en route to the local militia. The quest-giver asks you to investigate and find the missing shipment.</description>
+	<reward>A new weapon and a sum of gold.</reward>
+	<quest-giver>Captain Garrison</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to the quest-giver to get more information.</objective>
+			<description>Visit Captain Garrison at the militia headquarters and talk to him about the missing shipment.</description>
+			<location>Militia Headquarters</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Investigate the warehouse where the shipment was last seen.</objective>
+			<description>Head to the warehouse where the shipment was last seen and look for clues.</description>
+			<location>Warehouse District</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Track down the bandits who attacked the shipment.</objective>
+			<description>Follow the clues to find the bandits' hideout and defeat them.</description>
+			<location>Bandit Hideout</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the missing shipment from the bandits.</objective>
+			<description>Once you have defeated the bandits, search their hideout for the missing shipment.</description>
+			<location>Bandit Hideout</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the shipment to Captain Garrison.</objective>
+			<description>Take the missing shipment back to Captain Garrison at the militia headquarters.</description>
+			<location>Militia Headquarters</location>
+		</task>
+	</tasks>
+</game>
+```
+
+

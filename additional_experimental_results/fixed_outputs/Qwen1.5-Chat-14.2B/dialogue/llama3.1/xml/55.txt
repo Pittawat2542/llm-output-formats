@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, what's your name?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm John.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>Nice to meet you, John. What's this place called?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>This is the village of Willowdale.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>I've heard rumors of a dark forest nearby. Is that true?</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>NPC</speaker>
+			<text>Yes, the Darkwood Forest lies just east of here.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

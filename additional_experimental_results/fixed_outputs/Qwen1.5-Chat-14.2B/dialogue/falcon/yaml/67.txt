@@ -1,0 +1,11 @@
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: "John"
+      text: Welcome to the game. Have a great time!
+    - order: 2
+      speaker: "Jane"
+      text: That sounds nice. Have fun with that!
+```
+The issue was with an extra set of curly braces `{}` after the `text` key in the second dialogue. I have removed them, and now the YAML is correct and formatted as expected.

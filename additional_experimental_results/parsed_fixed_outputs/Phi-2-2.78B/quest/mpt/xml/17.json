@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "john",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "complete quest objective",
+          "description": "complete quest description",
+          "location": "village"
+        },
+        {
+          "order": "2",
+          "objective": "find the key",
+          "description": "find the key to unlock door and continue on quest",
+          "location": "castle"
+        },
+        {
+          "order": "3",
+          "objective": "decrypt message",
+          "description": "decrypt a message from the quest giver to find next clue",
+          "location": "secret room"
+        }
+      ]
+    }
+  }
+}

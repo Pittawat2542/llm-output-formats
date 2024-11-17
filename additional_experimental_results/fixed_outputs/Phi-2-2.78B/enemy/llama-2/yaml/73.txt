@@ -1,0 +1,27 @@
+
+```python
+from typing import List, Tuple
+import random
+
+class Enemy():
+
+    def __init__(self, name:str, description: str):
+        self.name = name
+        self.description = description
+        self.id = str(random.randint(100000,999999)) # Unique id for each enemy object
+        self.stats = {'atk': 0, 'def': 0, 'hp': 100, 'mp': 100, 'spd': 100}
+
+    def __str__(self):
+        return f"Enemy: {self.name}, ID: {self.id}"
+
+    def __repr__(self):
+        return self.__str__()
+
+    def level_up(self, stats: Tuple[int]) -> None:
+        for i in range(len(stats)):
+            setattr(self, f"stat_{i}", getattr(self, f"stat_{i}")) + stats[i]
+
+    # Calculate damage based on attacker's attack stat and enemy's defense stat
+    def calculate_damage(self, attacker: Enemy) -> int:
+        return max(1, self.stats['atk'] - attacker.stats['def'])
+```

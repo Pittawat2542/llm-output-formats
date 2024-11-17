@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<game>
+    <title>Super Mario Bros.</title>
+    <synopsis>The player controls Mario and his brother Luigi as they travel through the Mushroom Kingdom to save Princess Toadstool from the evil Bowser.</synopsis>
+    <beginning>A game titled "Super Mario Bros." begins with Mario and Luigi exploring the Mushroom Kingdom. The brothers are on a quest to save Princess Toadstool from Bowser, who is threatening to destroy their home.</beginning>
+    <ending>Bowser's forces have taken over the Mushroom Kingdom, and the princess is trapped in a castle deep within the woods. It's up to Mario and Luigi to rescue her and defeat Bowser once and for all.</endings>
+</game>
+
+## Example usage
+```yaml
+title: Super Mario Bros.
+synopsis: The player controls Mario and his brother Luigi as they travel through the Mushroom Kingdom to save Princess Toadstool from the evil Bowser.
+
+beginning: A game titled "Super Mario Bros." begins with Mario and Luigi exploring the Mushroom Kingdom. The brothers are on a quest to save Princess Toadstool from Bowser, who is threatening to destroy their home.
+ending: Bowser's forces have taken over the Mushroom Kingdom, and the princess is trapped in a castle deep within the woods. It's up to Mario and Luigi to rescue her and defeat Bowser once and for all.
+
+```xml
+<game>
+    <title>Super Mario Bros.</title>
+    <synopsis>The player controls Mario and his brother Luigi as they travel through the Mushroom Kingdom to save Princess Toadstool from the evil Bowser.</synopsis>
+    <beginning>A game titled "Super Mario Bros." begins with Mario and Luigi exploring the Mushroom Kingdom. The brothers are on a quest to save Princess Toadstool from Bowser, who is threatening to destroy their home.
+    ending>Bowser's forces have taken over the Mushroom Kingdom, and the princess is trapped in a castle deep within the woods. It's up to Mario and Luigi to rescue her and defeat Bowser once and for all.</endings>
+</game>
+```

@@ -1,0 +1,10 @@
+Invalid XML syntax. The data is not well-formed (malformed token). Please provide a new message and the correct data in XML format. XML code should be sent between ```xml and ```.
+```xml
+<!xml version="1.0" xml:namespace="http://www.w3.org/2000/2000/xmlns:w3c game xmlns="http://www.w3.org/2000/w3c/game" data-game-info="I am the game's creator and I will take care of any issues you may have!"?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game has happened!</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```

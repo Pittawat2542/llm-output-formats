@@ -1,0 +1,73 @@
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Example Quest</title>
+	 objective>Collect 100 flowers</objective>
+	description>Find flowers scattered around the woods</description>
+	 reward>Get rewarded with a beautiful bouquet</reward>
+	quest-giver>Bert the Explorer's Guild
+</game>
+
+New values:
+- quest-giver: Bert the Explorer's Guild
+- tasks: []
+- reward: []
+
+Output in Markdown format:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>Example Quest</title>
+	objective>Collect 100 flowers</ objective>
+	description>Find flowers scattered around the woods
+	reward>Get rewarded with a beautiful bouquet
+	quest-giver:Bert the Explorer's Guild
+
+	 quests:
+	| Order | Objective | Description |
+	--- | --- | --- |
+	1 | Gather 10 flowers of one type | Gather 10 flower scattered around the woods |
+	2 | Gather 20 flowers of one type and 5 flowers of another type | Gather 20 flowers of one type and 5 flowers of another type |
+
+</game>
+```
+Code block:
+```python
+import xargs
+
+# Generate and return the Markdown in XML format using xargs
+output.xml = "<?xml version='1.0'"?>
+<game>
+	<title>Example Quest</title>
+	objective>Collect 100 flowers
+	description>Find flowers scattered around the woods
+	 reward>Get rewarded with a beautiful bouquet
+	quest-giver:Bert the Explorer's Guild
+
+	 quests:
+	| Order | Objective | Description |
+	--- | --- | --- |
+	1 | Gather 10 flowers of one type | Gather 10 flower scattered around the woods |
+	2 | Gather 20 flowers of one type and 5 flowers of another type | Gather 20 flowers of one type and 5 flowers of another type |
+
+</game>
+```
+Markdown code block:
+```html
+<?xml version="1.0" ?>
+<game>
+	<title>Example Quest</title>
+	objective>Collect 100 flowers
+	description>Find flowers scattered around the woods
+	 reward>Get rewarded with a beautiful bouquet
+	quest-giver:Bert the Explorer's Guild
+
+	 quests:
+	| Order | Objective | Description |
+	--- | --- | --- |
+	1 | Gather 10 flowers of one type | Gather 10 flower scattered around the woods |
+	2 | Gather 20 flowers of one type and 5 flowers of another type | Gather 20 flowers of one type and 5 flowers of another type |
+
+</game>
+```

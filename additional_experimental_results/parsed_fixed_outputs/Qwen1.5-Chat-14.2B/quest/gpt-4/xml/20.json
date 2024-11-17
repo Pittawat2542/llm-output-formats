@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q14720",
+    "title": "The Dragon's Lair",
+    "objective": "Defeat the fearsome dragon in his lair",
+    "description": "You have been tasked with navigating through the treacherous mountain path teeming with hostile creatures, into the dragon's lair to slay him and end his tyranny.",
+    "reward": "The legendary Dragon Slayer's sword and 5000 gold coins",
+    "quest-giver": "The village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the Dragon's mountain",
+          "description": "Travel to the Dragon's mountain while surviving attacks from predatory animals",
+          "location": "The Dragon's Mountain"
+        },
+        {
+          "order": "2",
+          "objective": "Slay the Dragon",
+          "description": "Fight and defeat the dragon in his lair",
+          "location": "The Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>2345</id>
+    <title>Dragon's Challenge</title>
+    <objective>Defeat the Dragon of Mount peaks to save the village.</objective>
+    <description>The brave knights of Highmountain seek your help in vanquishing the dread dragon that has taken hold of their home.</description>
+    <reward>150 gold coins, a magical shield, and the honor of the Dragon Slayer</reward>
+    <quest-giver>Highmountain King</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather intelligence on dragon's weaknesses.</objective>
+            <description>Talk to the wise elder in Highmountain and learn about the dragon's vulnerable spots.</description>
+            <location>Highmountain Castle</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Craft a dragon-ending artifact.</objective>
+            <description>Use the gathered information to forge an enchanted weapon that can defeat the dragon.</description>
+            <location>Artisan's Workshop</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Assault the dragon's lair.</objective>
+            <description>Scale the mountain and face the dragon in its lair, hidden among the caverns.</description>
+            <location>Dragon's Ledge</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Defeat the Dragon of the Peaks.</objective>
+            <description>Use your prepared weapon to vanquish the dragon and save the land.</description>
+            <location>Dragon's Ledge</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Report back to Highmountain.</objective>
+            <description>Return to Highmountain and share your triumph with the villagers.</description>
+            <location>Highmountain Castle</location>
+        </task>
+    </tasks>
+</game>
+```

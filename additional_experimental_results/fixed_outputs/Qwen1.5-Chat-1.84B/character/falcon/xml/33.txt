@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<game>
+	<character>
+			<id id="id">id</id>
+			<first-name first-name-value="first name" last-name-value="last name" species-species-value="species" age-exact-age-value="exact age or description" role-character-role-value="role of the character here"><div><img src="/images/character avatar.gif" alt="character image"><br>
+          	</div>
+          	<div><strong>Physical Appearance</strong><br>
+            Height (<float value="ft / in")><br>
+            Weight (<weight value="lbs / lbs.ex").<br><br>
+            	<img src="/images/character description.gif" alt="describe yourself image"><br>
+          	</div>
+          	<div><strong>Background Story</strong><br>
+            Background story (optional, provide a brief summary or description)<br>
+          </div>
+        	/<div>
+        	<div><strong>Place of Birth</strong><br>
+            Location (optional, provide the location where the character was born)<br>
+          </div>
+        	/<div>
+        	<div><strong>Physical Appearance Description</strong><br>
+            Describe the physical appearance of the character in detail (<img src="/images/character description.gif" alt="describe yourself image"><br>
+          	</div>
+          	</div>
+        	</div>
+       </character>
+</game>
+```
+The fixed XML data includes the following values:
+- `id` attribute with a value of "id"
+- `<first-name>` and `<last-name>` attributes with values of "first name" and "last name", respectively
+- `<species-species-value>` attribute with a value of "species"
+- `<age-exact-age-value>` attribute with a value of "exact age or description"
+- `<role-character-role-value>` attribute with a value of "role of the character here"
+- A new `<div>` element to display the background story
+- A new `<div>` element to display the place of birth
+
+The original XML data remains unchanged as it only contains the game information and is not related to any specific XML structure.

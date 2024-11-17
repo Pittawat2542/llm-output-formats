@@ -1,0 +1,12 @@
+Error: YAML syntax error
+  in "<unicode string>", line 4, column 65:
+      ... summary of the events of the game:
+                          ^
+    YAML:
+```yaml
+game:
+  beginning: the first event of the game
+  ending: the last event of the game
+  synopsis: the following is a summary of the events of the game:
+  title: the name of the game
+```

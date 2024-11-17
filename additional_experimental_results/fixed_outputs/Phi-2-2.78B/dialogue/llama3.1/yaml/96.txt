@@ -1,0 +1,97 @@
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: 'I am in a dark room. I need to find the door.'
+  - order: 2
+    speaker: Guard
+    text: 
+      - text: Who are you? How did you get here?'
+  - order: 3
+    speaker: Player
+    text: 
+      - text: My name is Eryndor Thorne. I was brought here against my will.'
+  - order: 4
+    speaker: Guard
+    text: 
+      - text: You're a prisoner, then. You'll be staying with us for a while.'
+```
+
+Exercise 3: Write a YAML file called `inventory.yaml` that defines the following items and their quantities:
+- sword: 1
+- shield: 1
+- potion: 5
+- ring: 2
+
+Use a context manager to write the YAML data to a file named `inventory.txt`. If there is an error writing to the file, print the error message and continue executing the program.
+
+```yaml
+# Solution to Exercise 3: Inventory Management with Context Managers
+from contextlib import ExitStack
+import yaml
+
+
+with ExitStack() as stack:
+    fh = stack.enter_context(open("inventory.txt", "w"))
+    try:
+        data = {"sword": 1, "shield": 1, "potion": 5, "ring": 2}
+        yaml.dump(data, fh)
+    except Exception as e:
+        print(f"Error writing to file: {e}")
+```
+
+Exercise 4: Write a Python script that reads the `inventory.txt` file created in Exercise 3 and calculates the total value of all items by their price (assume each item has a price tag). Use list comprehension to iterate over the YAML data loaded from the file. The prices are as follows:
+- sword: 100 gold coins
+- shield: 50 gold coins
+- potion: 20 gold coins
+- ring: 500 gold coins
+
+Print the total value of all items in the inventory.
+
+```python
+# Solution to Exercise 4: Calculating Total Value of Inventory with List Comprehensions
+from contextlib import ExitStack
+import yaml
+
+
+with ExitStack() as stack:
+    fh = stack.enter_context(open("inventory.txt", "r"))
+    try:
+        data = yaml.load(fh, Loader=yaml.FullLoader)
+        prices = {"sword": 100, "shield": 50, "potion": 20, "ring": 500}
+
+        total_value = sum([prices[item] * count for item, count in data.items()])
+    except Exception as e:
+        print(f"Error reading from file: {e}")
+
+    print(f"Total value of inventory: ${total_value:,}")
+```
+
+Exercise 5: Write a Python script that reads the `inventory.txt` file created in Exercise 3 and removes all items with a quantity less than 2. Use list comprehension to iterate over the YAML data loaded from the file. Then, write the updated data back to the same file.
+
+```python
+# Solution to Exercise 5: Updating Inventory by Removing Low-Quantity Items with List Comprehensions
+from contextlib import ExitStack
+import yaml
+
+
+with ExitStack() as stack:
+    fh = stack.enter_context(open("inventory.txt", "r"))
+    try:
+        data = yaml.load(fh, Loader=yaml.FullLoader)
+
+        updated_items = {item: count for item, count in data.items() if count >= 2}
+    except Exception as e:
+        print(f"Error reading from file: {e}")
+
+    with open("inventory.txt", "w") as fh:
+        yaml.dump(updated_items, fh)
+```

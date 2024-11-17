@@ -1,0 +1,27 @@
+{
+  "game": {
+    "description": "Retrieve the ancient Scroll of Eldarath from the long-abandoned Elven Ruins.",
+    "id": 1,
+    "objective": "Return the Scroll to High Elf Queen, Calanthir.",
+    "quest_giver": "Eryndor Thorne, a wise old Elf who dwells in the human settlement of Oakwood.",
+    "reward": [
+      "A magical amulet granting the wearer resistance to fire-based attacks",
+      "100 gold pieces"
+    ],
+    "tasks": [
+      {
+        "description": "Journey to the Elven Ruins, navigating through the treacherous Misty Mountains.",
+        "location": "The Misty Mountains",
+        "objective": "Survive the perilous journey and reach the entrance of the Elven Ruins.",
+        "order": 1
+      },
+      {
+        "description": "Within the ruins, retrieve the Scroll of Eldarath from a pedestal guarded by a powerful undead sorceress.",
+        "location": "Elven Ruins",
+        "objective": "Defeat the undead sorceress using your combat skills and return with the scroll.",
+        "order": 2
+      }
+    ],
+    "title": "The Lost Scroll of Eldarath"
+  }
+}

@@ -1,0 +1,63 @@
+1. If `speaker = 'Bob'` then output the following for each dialogue
+  - order: 1
+    - speaker: Bob
+      text: "I have no idea what you are talking about."
+2. If `speaker = 'Jane'` then output the following for each dialogue
+  - order: 2
+    - speaker: Jane
+      text: "I have no idea what you are talking about."
+3. Output a header line in YAML format at the beginning of the file
+```
+
+### Example 15
+
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 2
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 3
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 4
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 5
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 6
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 7
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 8
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 9
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 10
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 11
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 12
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 13
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+  - order: 14
+   speaker: Bob
+   text: "I have no idea what you are talking about."
+  - order: 15
+   speaker: Jane
+   text: "I have no idea what you are talking about."
+```

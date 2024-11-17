@@ -1,0 +1,31 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" xmlns="http://www.w3.org/2015/XML#">
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	<Objective>Recover the lost artifact</Objective>
+	<Description>Your mission is to travel to the Icewind Dale and recover the lost artifact rumored to be hidden in the depths of Ice Cave.</description>
+	<Reward>5000 gold coins and an epic weapon</ Reward>
+	<Quest-Giver>King Arthur</Quest-Giver>
+	<Tasks>
+		<Task>
+			<Order>1</Order>
+			Objective>Travel to Icewind Dale</Objective>
+			Description>Equip yourself with warm clothing and necessary equipment to survive the harsh cold of Icewind Dale.</description>
+			<Location>Castle's stable</Location>
+		</Task>
+		<Task>
+			\Order>2</Order>
+			Objective>Enter the Ice Cave</Objective>
+			Description>Beware of the Ice Trolls guarding the entrance of the cave. You may need to defeat them to enter the cave.</description>
+			<Location>Icewind Dale</Location>
+		</Task>
+		<Task>
+			<Order>3</Order>
+			Objective>Find and recover the Lost artifact</Objective>
+			Description>Use the map given by the king to navigate through the cave and find the artifact. Expect resistance from the creatures lurking within.</description>
+			<Location>Ice Cave</Location>
+		</Task>
+</game>
+```

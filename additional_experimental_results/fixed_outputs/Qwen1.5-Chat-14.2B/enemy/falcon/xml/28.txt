@@ -1,0 +1,18 @@
+The provided XML data is not well-formed due to the presence of HTML elements and a non-XML root element. Here's the corrected version:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy id="id" name="name" description="description">
+    <stats>
+      <hp>hp int value</hp>
+      <mp>mp int value</mp>
+      <atk>atk int value</atk>
+      <def>def int value</def>
+      <spd>spd int value</spd>
+    </stats>
+  </enemy>
+</game>
+```
+
+I've removed the HTML elements and adjusted the structure to a valid XML format for a game with an enemy element. If you need to provide new values, replace `id`, `name`, `description`, and the integer values with the respective data.

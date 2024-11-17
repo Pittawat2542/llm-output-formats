@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Tome Retrieval",
+    "objective": "Obtain the ancient tome from a castle in the mountains.",
+    "description": "You are on a quest to find and retrieve an ancient tome from a castle located somewhere in the mountain range. Once you have it, return the tome to the quest giver.",
+    "reward": "Reward: 100 gold pieces",
+    "quest-giver": "The Wise Sage",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate to the castle in the mountains.",
+          "description": "You must locate and enter the castle where the ancient tome is believed to be hidden.",
+          "location": "Mountains, near the Castle of Eldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Find and obtain the ancient tome.",
+          "description": "Once inside the castle, search for the ancient tome and secure it for your return journey.",
+          "location": "Castle of Eldoria, library or secret chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Return to the quest giver with the tome.",
+          "description": "Safely make your way back and deliver the ancient tome to The Wise Sage.",
+          "location": "The Wise Sage's Hut, near the castle"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure on Skull Island</objective>
+	<description>You have received a map that leads to a lost treasure hidden deep within Skull Island. Embark on an epic adventure to find the treasure and claim it as your own.</description>
+	<reward>A chest full of gold doubloons</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach Skull Island</objective>
+			<description>Sail towards Skull Island through treacherous waters and avoid dangers along the way.</description>
+			<location>The open sea</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore Skull Island</objective>
+			<description>Search the island for clues and solve puzzles to uncover the exact location of the treasure.</description>
+			<location>Skull Island</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the Island Guardians</objective>
+			<description>Battle powerful guardians protecting the treasure. Use your skills and strategy to overcome them.</description>
+			<location>Inner chamber of the treasure cave</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the treasure</objective>
+			<description>Locate the hidden chamber and retrieve the treasure. Beware of traps and obstacles on your way back.</description>
+			<location>Treasure chamber</location>
+		</task>
+	</tasks>
+</game>
+```
+

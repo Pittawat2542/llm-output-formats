@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "NewQuestTitle",
+    "objective": "Complete the Temple Adventure",
+    "description": "Find the ancient artifact and return it to the village elder.",
+    "reward": "100 gold coins and a rare magical amulet",
+    "quest-giver": "Old Smith",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Explore the east side of the forest",
+        "description": "Follow the marked path until you reach a fork.",
+        "location": "East Fork Trail"
+      }
+    }
+  }
+}

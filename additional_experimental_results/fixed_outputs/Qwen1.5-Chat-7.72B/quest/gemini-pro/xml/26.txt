@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Elusive Shipment</title>
+    <objective>Recover the stolen weapons for the local militia.</objective>
+    <description>A significant arms shipment went missing, and Captain Garrison is seeking your assistance to locate and return it.</description>
+    <reward>��金奖励和新型武器装备一套</reward>
+    <quest-giver>Captain Riddley</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Talk to Captain Riddley about the stolen shipment at the militia headquarters.</objective>
+            <description>Visit Captain Riddley's office and exchange information on the missing weapons.</description>
+            <location>Militia Headquarters</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Examine the warehouse for any signs of tampering or clues.</objective>
+            <description>Head to the warehouse where the shipment was last seen and investigate thoroughly.</description>
+            <location>Warehouse District</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Track down the rumored bandits involved in the theft.</objective>
+            <description>Follow leads and gather evidence before confronting them at their hideout.</description>
+            <location>Bandit Camp</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Rescue the stolen shipment from the bandits' lair.</objective>
+            <description>Once you find and defeat the bandits, retrieve the weapons from their hideout.</description>
+            <location>Bandit Hideout</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return the recovered shipment to Captain Riddley at the militia headquarters.</objective>
+            <description>Deliver the recovered goods back to their original destination.</description>
+            <location>Militia Headquarters</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,17 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456789</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task id="1" order="1" objective="task objective" description="task description" location="task location"/>
+			<task id="2" order="2" objective="task objective" description="task description" location="task location"/>
+	</tasks>
+</game>
+```
+The XML data has been fixed by correcting the syntax, adding a `id` attribute to each `<task>` element, and using lowercase letters for identifiers. The new values for task `id` are 1 and 2, and the order of tasks is 1, 2, and so on. Additionally, I have added the `location` attribute to the `<task>` elements to specify the location where each task is located.

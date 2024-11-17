@@ -1,0 +1,23 @@
+XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns="http://www.dave.com/vocab">
+  <dialogues>
+    <DialogueOrder>
+      <order>1</order>
+      <Speaker>Player</Speaker>
+      <Text>Hey, how are you doing?</text>
+    </DialogueOrder>
+    <DialogueOrder>
+      <order>2</order>
+      <Speaker>NPC</Speaker>
+      <Text>I'm doing great too!</text>
+    </DialogueOrder>
+    <DialogueOrder>
+      <order>3</order>
+      <Speaker>Player</Speaker>
+      <Text>I'm doing great too!</text>
+    </DialogueOrder>
+  </dialogues>
+</game>
+```

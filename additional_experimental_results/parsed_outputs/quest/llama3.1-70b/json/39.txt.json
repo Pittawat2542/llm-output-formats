@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarado",
+    "objective": "Find the ancient artifact hidden within the Lost City of Eldarado.",
+    "description": "Legend has it that the Lost City of Eldarado holds an ancient artifact with immense power. Your quest is to find this artifact and bring it back to civilization.",
+    "reward": "1000 gold coins, a magical amulet, and a boost in reputation.",
+    "quest_giver": "Professor Thaddeus Wystan",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Explore the Jungle of Whispers",
+        "description": "Venture into the dense jungle to search for clues leading to the Lost City.",
+        "location": "Jungle of Whispers"
+      },
+      {
+        "order": 2,
+        "objective": "Decipher the ancient map",
+        "description": "Use your knowledge and skills to decipher the cryptic map found in the ruins of an old temple.",
+        "location": "Old Temple Ruins"
+      },
+      {
+        "order": 3,
+        "objective": "Solve the Puzzle of the Ancients",
+        "description": "Solve a series of puzzles to unlock the entrance to the Lost City.",
+        "location": "Lost City Entrance"
+      }
+    ]
+  }
+}

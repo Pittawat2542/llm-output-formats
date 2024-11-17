@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient artifact from the Lost Temple",
+    "description": "Seek out the fabled temple deep within the Heartwood Forest, where the Moon Goddess once walked among mortals.",
+    "reward": "Golden Idol x5, 1000 gold pieces",
+    "quest_giver": "High Priestess Eliana",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the temple's location",
+        "description": "Speak with the village elder to learn the secrets of the Lost Temple",
+        "location": "Heartwood Village, Elder's Hut"
+      },
+      {
+        "order": "2",
+        "objective": "Reach the Lost Temple",
+        "description": "Navigate through the treacherous Heartwood Forest and find the temple entrance",
+        "location": "Lost Temple Entrance"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the ancient artifact",
+        "description": "Solve the ancient puzzle to unlock the artifact chamber",
+        "location": "Artifact Chamber, Lost Temple"
+      }
+    ]
+  }
+}

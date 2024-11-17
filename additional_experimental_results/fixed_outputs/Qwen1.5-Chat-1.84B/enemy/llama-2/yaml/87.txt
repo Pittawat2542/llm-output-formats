@@ -1,0 +1,26 @@
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 15
+      hp: 75
+      mp: 50
+     spd: 40
+
+yaml:
+```yaml
+ game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      -atk: 10
+        def: 15
+        -hp: 75
+          mp: 50
+        -spd: 40
+```

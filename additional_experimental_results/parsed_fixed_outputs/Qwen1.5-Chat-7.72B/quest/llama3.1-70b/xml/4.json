@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath",
+    "description": "Quest description: Rumors have been circulating about a hidden city deep in the forest, filled with treasures and artifacts. Your quest is to find and recover an ancient relic said to be concealed within the city's walls.",
+    "reward": "1000 Gold Pieces, The Amulet of Light",
+    "quest-giver": "King Thorold Ironfist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost City's location.",
+          "description": "Talk to Oakwood Village residents for clues on the city's whereabouts.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Acquire a map of the forest leading to the Lost City.",
+          "description": "Inquire with the local cartographer for a detailed map to navigate through the woods.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "3",
+          "objective": "Pass through the Eldarath Forest and reach the Lost City.",
+          "description": "Follow the map and be cautious of potential dangers.",
+          "location": "Eldarath Forest"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the ancient artifact from the city's temple.",
+          "description": "Battle any guardians or overcome obstacles to claim the relic inside the temple.",
+          "location": "The Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

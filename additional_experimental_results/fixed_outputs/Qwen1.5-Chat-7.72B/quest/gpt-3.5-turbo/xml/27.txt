@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>5678</id>
+	<title>The Quest for the Lost Crown</title>
+	<objective>Recover the crown and restore peace to the kingdom</objective>
+	<description>In this adventure, you must discover the crown's whereabouts, solve puzzles, defeat enemies, and overcome challenges. Success brings the honor of 'Justicar' and a cache of gold coins.</description>
+	<reward>Reward: Title of 'Justicar' and a hoard of gold coins</reward>
+	<quest-giver>Queen Guinevere</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Meet the Enchanted Guardian at the Spring Temple</objective>
+			<description>Begin your quest by visiting the Spring Temple. There, you'll find the Enchanted Guardian who will guide you to the next clue for finding the Old Wise Man.</description>
+			<location>Spring Temple</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Acquire the Moonstone from the Caves of Moonlight</objective>
+			<description>The Key of Shadows can be found hidden within the Caves of Moonlight. Be prepared to overcome the lunar creatures that guard it.</location>
+			<location>Caves of Moonlight</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Enter the Crypt of Prophecy</objective>
+			<description>The crypt holds many traps and minions. Use your stealth to navigate through and locate the chamber where the crown awaits.</description>
+			<location>Crypt of Prophecy</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Battle the Dark Sorceress in the Crystal Castle</objective>
+			<description>The final challenge is to confront the sorcerer in her stronghold, the Crystal Castle. Defeat her to claim your prize.</description>
+			<location>Crystal Castle</location>
+		</task>
+	</tasks>
+</game>
+```

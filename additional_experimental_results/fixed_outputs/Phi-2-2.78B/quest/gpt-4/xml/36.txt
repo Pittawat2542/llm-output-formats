@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q1</id>
+	<title>Lost Artifact</title>
+	<objective>Retrieve the ancient artifact from the forgotten temple</objective>
+	<description>You have been chosen to venture into the forgotten temple and retrieve an ancient and powerful artifact rumored to have went missing centuries ago. Beware, the temple is full of deadly traps and fearsome guardians.</description>
+	<reward>5000 Gold and The Eternal Blade</reward>
+	<quest-giver>The Mysterious Old Man</quest-giver>
+	<tasks>
+		<task>
+			<order>Task 1</order>
+			<objective>Find the forgotten temple</objective>
+			<description>Refer to the old map provided by the quest giver and locate the entrance to the temple.</description>
+			<location>Deep in the Heart Woods</location>
+		</task>
+		<task>
+			<order>Task 2</order>
+			<objective>Solve the riddle of the stone door</objective>
+			<description>Crack the riddle embedded on the stone door to gain access into the temple's interior.</description>
+			<location>The Temple Entrance</location>
+		</task>
+		<task>
+			<order>Task 3</order>
+			<objective>Retrieve the lost artifact</objective>
+			<description>Overcome the temple guards and traps to reach the inner sanctum and secure the artifact.</description>
+			<location>Temple Inner Sanctum</location>
+		</task>
+	</tasks>
+</game>
+

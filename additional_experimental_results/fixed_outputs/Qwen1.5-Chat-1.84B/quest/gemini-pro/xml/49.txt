@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>The Dragon's Hoard</title>
+    <objective>The retrieval of the Dragon Heart from the Dragon's Lair.</objective>
+    <description>A vile dragon has stolen the Dragon Heart, a powerful artifact that controls the weather. You must retrieve it and return it to its rightful place.</description>
+    <reward>The Dragon Heart and a set of Dragon Armor.</reward>
+    <quest-giver>The wise old wizard, Merlin.</quest-giver>
+    <tasks>
+        <!-- Task 1: Find the Dragon's Lair -->
+        <task order="1" objective="Find the Dragon's Lair">
+            <description>The lair is located in the treacherous Dragon's Peaks.</description>
+            <location>Dragon's Peaks</location>
+        </task>
+
+        <!-- Task 2: Defeat the dragon and retrieve the Dragon Heart -->
+        <task order="2" objective="Defeat the dragon and retrieve the Dragon Heart">
+            <description>The dragon is a fierce and powerful creature. Be prepared for a challenging battle.</description>
+            <location>Dragon's Lair</location>
+            <difficulty>medium</difficulty>
+        </task>
+
+        <!-- Task 3: Return the Dragon Heart to Merlin -->
+        <task order="3" objective="Return the Dragon Heart to Merlin">
+            <description>Return the Dragon Heart to Merlin at his tower in the Misty Forest.</description>
+            <location>Merlin's Tower</location>
+            <reward>The Dragon Heart and a set of Dragon Armor.</reward>
+        </task>
+    </tasks>
+</game>
+
+```

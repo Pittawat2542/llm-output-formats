@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Player</speaker>
+			<text>Hello! How are you today?</text>
+			<prompt>How are you doing today?</prompt>
+			<response>Good, thank you. How about you?</response>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm good, thank you. How about you?</text>
+			<prompt>I'm doing great. What's new with you?</prompt>
+			<response>I'm working on some new projects.</response>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>Hello! How are you today?</text>
+			<prompt>What's your plan for the weekend?</prompt>
+			<response>Spending time with family and enjoying some good food.</response>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>I'm not really planning anything this weekend. Just working on a project or two.</prompt>
+			<response>No plans for the weekend, just focusing on work and personal projects.</response>
+		</dialogue>
+	</dialogues>
+</game>
+```

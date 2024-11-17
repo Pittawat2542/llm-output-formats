@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Find the ancient artifact hidden within the ruins of Eldarath.</objective>
+	<description>Rumors have been circulating about a long-lost city deep in the heart of the mystical forest. The locals speak of an ancient artifact with immense power, capable of healing the ailing land. Your quest is to brave the unknown dangers and retrieve this relic.</description>
+	<reward>1000 gold coins, +5 reputation points</reward>
+	<quest-giver>Eira Shadowglow, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the Lost City of Eldarath from the local villagers.</objective>
+			<description>Talk to the locals and gather any information you can find about the city's location, its layout, and potential dangers that lie within.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the mystical forest to reach the entrance of the Lost City.</objective>
+			<description>Beware of the treacherous paths and fending off wild beasts that roam the forest. Your goal is to find a safe passage to the city's gates.</description>
+			<location>Mystical Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Infiltrate the Lost City and retrieve the ancient artifact.</objective>
+			<description>Sneak past traps, avoid deadly creatures, and solve puzzles to reach the heart of the city where the artifact awaits. Be prepared for a final showdown with the guardian of the relic.</description>
+			<location>Lost City of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```

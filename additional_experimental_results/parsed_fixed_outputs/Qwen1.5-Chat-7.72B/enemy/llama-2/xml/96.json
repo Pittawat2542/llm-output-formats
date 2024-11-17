@@ -1,0 +1,42 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "1",
+        "name": "The Big Bad Wolf",
+        "description": "A wolf who is a threat to the village.",
+        "stats": {
+          "hp": "100",
+          "mp": "100",
+          "atk": "100",
+          "def": "100",
+          "spd": "100"
+        }
+      },
+      {
+        "id": "2",
+        "name": "The Three Little Pigs",
+        "description": "The three pigs who have been living in the village.",
+        "stats": {
+          "hp": "100",
+          "mp": "100",
+          "atk": "100",
+          "def": "100",
+          "spd": "100"
+        }
+      },
+      {
+        "id": "3",
+        "name": "The Little Red Riding Hood",
+        "description": "A girl who has been living in the village.",
+        "stats": {
+          "hp": "100",
+          "mp": "100",
+          "atk": "100",
+          "def": "100",
+          "spd": "100"
+        }
+      }
+    ]
+  }
+}

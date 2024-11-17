@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "G001",
+        "title": "The Lost Temple",
+        "objective": "Find the ancient artifact hidden within the temple",
+        "description": "Rumors have been circulating about a lost temple deep in the jungle, containing an artifact with immense power. Many adventurers before you have attempted to find it, but none have returned.",
+        "reward": "1000 gold pieces and a magical amulet",
+        "quest_giver": "The Village Elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Reach the jungle entrance",
+                "description": "Make your way through the dense forest to reach the entrance of the jungle.",
+                "location": "Jungle Entrance (0,0)"
+            },
+            {
+                "order": 2,
+                "objective": "Find the hidden path",
+                "description": "Search for a hidden path that leads deep into the jungle. Be cautious of wild beasts and rival treasure hunters.",
+                "location": "Hidden Path (-200,-150)"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the artifact",
+                "description": "Enter the temple, avoid deadly traps, and retrieve the ancient artifact. Prepare for a final showdown with the temple's guardian.",
+                "location": "Lost Temple (-500,-300)"
+            }
+        ]
+    }
+}
+```

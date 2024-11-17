@@ -1,0 +1,133 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	bjective>Find the artifact and return it to the village elder</objective>
+	<description>You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.</description>
+	<reward>5000 gold, Elder's blessing</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+			<task>
+			<order>1</order>
+			 objective>Cross the orc territory</objective>
+			 Objective: Find the lost artifact
+			 Location: Green Bone Orc Territory
+			 Description: You need to sneak through the orc territory without being noticed.
+			 Role: Redundant
+			<task>
+				<order>2</order>
+			 objective:Bend the temple</objective>
+			 Objective: Solve the temple puzzle
+			 Location: Hidden Temple
+			 Description: Once in the temple, you need to solve a series of puzzles to uncover the artifact.
+			 Role: Redundant
+			<task>
+				<order>3</order>
+			 objective>Return the artifact</objective>
+			 Objective: Bring the artifact back to the village elder to complete your quest.</objectives>
+			 Location: Village
+			 Description: You have successfully completed your quest and returned the lost artifact.
+			 Reward: 1000 gold, Elder's blessing
+			<task>
+				<order>4</order>
+			 objective: Repeat the puzzle</objective>
+			 Objective: Return to the village elder
+			 Location: Green Bone Orc Territory
+			 Description: You have successfully completed your quest and returned the lost artifact.
+			 Reward: 1000 gold, Elder's blessing
+			</task>
+		</tasks>
+	</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	bjective>Find the artifact and return it to the village elder</objective>
+	<description>You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.</description>
+	<reward>5000 gold, Elder's blessing</ reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective:Cross the orc territory</objective>
+			 Objective: Find the lost artifact
+			 Location: Green Bone Orc Territory
+			 Description: You need to sneak through the orc territory without being noticed.
+			 Role: Redundant
+			<task>
+				<order>2</order>
+			 objective:Bend the temple</objective>
+			 Objective: Solve the temple puzzle
+			 Location: Hidden Temple
+			 Description: Once in the temple, you need to solve a series of puzzles to uncover the artifact.
+			 Role: Redundant
+			<task>
+				<order>3</order>
+			 Objective>Return the artifact</objective>
+			 Objective: Bring the artifact back to the village elder to complete your quest.</objectives>
+			 Location: Village
+			 Description: You have successfully completed your quest and returned the lost artifact.
+			 Reward: 1000 gold, Elder's blessing
+			<task>
+				<order>4</order>
+			 objective: Repeat the puzzle</objective>
+			 Objective: Return to the village elder
+			 Location: Green Bone Orc Territory
+			 Description: You have successfully completed your quest and returned the lost artifact.
+			 Reward: 1000 gold, Elder's blessing
+			</task>
+		</tasks>
+	</game>
+```
+New values if needed:
+```xml
+<任务>
+	<order>1</order>
+	 Objective>Cross the orc territory</objective>
+	 Objective: Find the lost artifact
+	 Location: Green Bone Orc Territory
+	 Description: You need to sneak through the orc territory without being noticed.
+	 Role: Redundant
+</task>
+```
+Output in Markdown code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	bjective>Find the artifact and return it to the village elder</objective>
+	<description>You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.</description>
+	<reward>5000 gold, Elder's blessing</ reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+		 Objective:Cross the orc territory</objective>
+		 Objective: Find the lost artifact
+		 Location: Green Bone Orc Territory
+		 Description: You need to sneak through the orc territory without being noticed.
+		 Role: Redundant
+		</task>
+		<task>
+			<order>2</order>
+		Objective:Bend the temple</objective>
+		 Objective: Solve the temple puzzle
+		 Location: Hidden Temple
+		 Description: Once in the temple, you need to solve a series of puzzles to uncover the artifact.
+		 Role: Redundant
+		</task>
+		<task>
+			<order>3</order>
+		Objective>Return the artifact</objective>
+		 Objective: Bring the artifact back to the village elder to complete your quest.</objectives>
+		 Location: Village
+		 Description: You have successfully completed your quest and returned the lost artifact.
+		 Reward: 1000 gold, Elder's blessing
+		</task>
+	</tasks>
+</game>
+```

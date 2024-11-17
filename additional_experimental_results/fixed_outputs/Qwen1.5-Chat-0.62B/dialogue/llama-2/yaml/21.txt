@@ -1,0 +1,51 @@
+Here's the corrected YAML data:
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: Speaker name
+    text: dialogue or narration
+    order: 1
+    answer: Answerer
+    text: 'Hello, I am Talker. I have a question for you.' if order == 2
+    text: 'Hello, I am Answerer. I can help you with that.' if order == 3
+    text: 'What is your name?' if order == 4
+    answer: 'My name is Answerer.' if order == 5
+    text: 'What is your favorite color?' if order == 6
+    answer: 'My favorite color is blue.' if order == 7
+    text: 'What is your favorite food?' if order == 8
+    answer: 'My favorite food is pizza.' if order == 9
+    text: 'What is your favorite animal?' if order == 10
+    answer: 'My favorite animal is a dog.' if order == 11
+    text: 'What is your favorite hobby?' if order == 12
+    answer: 'My favorite hobby is playing video games.' if order == 13
+    text: 'What is your favorite sport?' if order == 14
+    answer: 'My favorite sport is baseball.' if order == 15
+    text: 'What is your favorite season?' if order == 16
+    answer: 'My favorite season is summer.' if order == 17
+    text: 'What is your favorite movie?' if order == 18
+    answer: 'My favorite movie is Star Wars.' if order == 19
+    text: 'What is your favorite TV show?' if order == 20
+    answer: 'My favorite TV show is The Office.' if order == 21
+    text: 'What is your favorite book?' if order == 22
+    answer: 'My favorite book is The Lord of the Rings.' if order == 23
+    text: 'What is your favorite video game?' if order == 24
+    answer: 'My favorite video game is Minecraft.' if order == 25
+    text: 'What is your favorite animal?' if order == 26
+    answer: 'My favorite animal is a dog.' if order == 27
+    text: 'What is your favorite hobby?' if order == 28
+    answer: 'My favorite hobby is playing video games.' if order == 29
+    text: 'What is your favorite sport?' if order == 30
+    answer: 'My favorite sport is baseball.' if order == 31
+    text: 'What is your favorite season?' if order == 32
+    answer: 'My favorite season is summer.' if order == 33
+    text: 'What is your favorite movie?' if order == 34
+    answer: 'My favorite movie is Star Wars.' if order == 35
+    text: 'What is your favorite TV show?' if order == 36
+    answer: 'My favorite TV show is The Office.' if order == 37
+    text: 'What is your favorite book?' if order == 38
+    answer: 'My favorite book is The Lord of the Rings.' if order == 39
+    text: 'What is your favorite video game?' if order == 40
+    answer: 'My favorite video game is Minecraft.' if order == 41
+    text: 'What is your favorite animal?' if order == 42
+    answer: 'My favorite animal is a dog.' if order == 43

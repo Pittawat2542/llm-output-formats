@@ -1,0 +1,54 @@
+game:
+  dialogues:
+    order: 1
+    speaker: Player
+    text: | dialogue or narration
+    - 
+      I'm looking for the hidden temple. Do you know where it is?
+    - order: 2
+    speaker: Guide
+    text: | Ah, you're searching for the ancient temple. It's located on a remote island. But be warned, many have attempted to find it but never returned.
+    - order: 3
+    speaker: Player
+    text: | That doesn't deter me. How do I get to the island?
+    - order: 4
+    speaker: Guide
+    text: | You'll need a boat and a map. The map can be found in the nearby village.
+     -
+    - 
+    - 
+    - order: 5
+    speaker: Player
+    text: | And how do I get past the traps inside the temple?
+    - order: 6
+    speaker: Guide
+    text: | That' s the best part. The ancient civilization that built it left behind a series of puzzles. Solve them and you'll gain access to the treasure room.
+    
+# YAML output in Markdown code block
+```
+game:
+  dialogues:
+    order: 1
+    speaker: Player
+    text: | dialogue or narration
+    - 
+      I' m looking for the hidden temple. Do you know where it is?
+    - order: 2
+    speaker: Guide
+    text: | Ah, you're searching for the ancient temple. It's located on a remote island. But be warned, many have attempted to find it but never returned.
+    - order: 3
+    speaker: Player
+    text: | That doesn' t deter me. How do I get to the island?
+    - order: 4
+    speaker: Guide
+    text: | You'll need a boat and a map. The map can be found in the nearby village.
+     -
+    - 
+    - 
+    - order: 5
+    speaker: Player
+    text: | And how do I get past the traps inside the temple?
+    - order: 6
+    speaker: Guide
+    text: | That' s the best part. The ancient civilization that built it left behind a series of puzzles. Solve them and you' ll gain access to the treasure room.
+```

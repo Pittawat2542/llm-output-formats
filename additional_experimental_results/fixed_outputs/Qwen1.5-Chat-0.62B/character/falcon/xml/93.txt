@@ -1,0 +1,74 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>id</id>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>John Doe</first_name><last_name>Jane Smith</last_name><species>Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+New values for the attributes `first-name`, `last-name`, and `species`.
+Output in Markdown format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species>Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+Only the `first-name`, `last-name`, and `species` attributes are being returned in the output.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species:Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species:Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species:Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species:Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>My Character Profile</title>
+			<person:</person>
+			<person:<first_name>Jane Doe</first_name><last_name>Jane Smith</last_name><species:Dog</species><age>30</age><role>Observer</role><background>Dog Training</background>
+	</character>
+</game>
+```

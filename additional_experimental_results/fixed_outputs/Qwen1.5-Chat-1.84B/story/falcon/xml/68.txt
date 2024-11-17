@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="game.xsd">
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>The Beginning of the Game</beginning>
+	<ending>The End of the Game</endning>
+</game>
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>The game's beginning</beginning>
+	<ending>The game's ending</ending>
+</game>
+```

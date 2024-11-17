@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>In this quest, you will embark on a thrilling adventure to find the long lost treasure of the ancient civilization. Along the way, you will encounter numerous challenges and solve puzzles to unravel the secrets of the treasure's location.</description>
+    <reward>Ancient artifact and a bag of gold coins</reward>
+    <quest-giver>Captain Jack</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the ancient map</objective>
+            <description>Travel to the Ancient Ruins and explore the tombs to uncover the ancient map that leads to the treasure.</description>
+            <location>Ancient Ruins</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Retrieve the key from the hidden chamber</objective>
+            <description>Navigate through a treacherous Cave System and solve a puzzle to access the chamber where the key is hidden.</description>
+            <location>Cave System, Puzzle Chamber</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Solve the riddles in the Treasure Chamber</objective>
+            <description>Face the series of challenging riddles to unlock the treasure room.</description>
+            <location>Treasure Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

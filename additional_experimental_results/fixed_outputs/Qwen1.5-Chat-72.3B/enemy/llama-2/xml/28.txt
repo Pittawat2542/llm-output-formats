@@ -1,0 +1,29 @@
+```xml
+<?xml version="1.0" ?>
+<battle>
+	<enemy>
+		<id>1</id>
+		<name>Goblin</name>
+		<description>A small, mischievous creature.</description>
+		<stats>
+			<hp>15</hp>
+			<mp>5</mp>
+			<atk>3</atk>
+			<def>1</def>
+			<spd>4</spd>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Orc</name>
+		<description>A powerful and aggressive warrior.</description>
+		<stats>
+			<hp>30</hp>
+			<mp>10</mp>
+			<atk>6</atk>
+			<def>2</def>
+			<spd>5</spd>
+		</stats>
+	</enemy>
+</battle>
+```

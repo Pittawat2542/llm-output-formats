@@ -1,0 +1,47 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Missing Scholar</title>
+	<objective>Find the missing scholar, Professor Aldous, in the Ruins of Oldoria.</objective>
+	<description>Professor Aldous, a renowned scholar from the University of Arcania, has gone missing while conducting research in the Ruins of Oldoria. Players must venture into the ruins, uncover clues, and face treacherous challenges to find the missing professor.</description>
+	<reward>
+		<experience>1000</experience>
+		<gold>500</gold>
+		<item>Professor Aldous's Journal</item>
+	</reward>
+	<quest-giver>Headmaster Orin</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate Professor Aldous's Lost Compass.</objective>
+			<description>Head to the Ruins of Oldoria and search the ruins for Professor Aldous's Lost Compass. This device may contain clues to his current location.</description>
+			<location>Ruins of Oldoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Seek information at the Sacred Library.</objective>
+			<description>Travel to the Sacred Library in Silverglen and consult with the Wise Archivist. She may have knowledge or documents that shed light on Professor Aldous's disappearance.</description>
+			<location>Sacred Library, Silverglen</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Survey the Ancient Observatory.</objective>
+			<description>Make your way to the Ancient Observatory northwest of the Ruins of Oldoria. Investigate the facilities and search for any clues that may link to Professor Aldous.</description>
+			<location>Ancient Observatory</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the Paradox Crystal.</objective>
+			<description>Within the depths of the Ancient Observatory lies the Paradox Crystal. Recover it, as it may hold a key piece of information needed to find Professor Aldous.</description>
+			<location>Ancient Observatory</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Rescue Professor Aldous.</objective>
+			<description>With the Paradox Crystal in hand, head to the Dark Portal in the Ruins of Oldoria. Use the crystal to unlock the portal and confront the shadowy figures behind Professor Aldous's disappearance.</description>
+			<location>Dark Portal, Ruins of Oldoria</location>
+		</task>
+	</tasks>
+</game>
+```

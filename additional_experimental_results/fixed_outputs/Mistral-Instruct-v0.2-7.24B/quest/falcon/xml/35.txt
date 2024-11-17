@@ -1,0 +1,43 @@
+
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objectative>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>Name of the quest giver</quest-giver> <!-- Added 'Name of the quest giver' -->
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Task #1 objective</objective>
+			<description>Task #1 description</description>
+			<location>Task #1 location</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Task #2 objective</objective>
+			<description>Task #2 description</description>
+			<location>Task #2 location</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Task #3 objective</objective>
+			<description>Task #3 description</description>
+			<location>Task #3 location</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Task #4 objective</objective>
+			<description>Task #4 description</description>
+			<location>Task #4 location</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Task #5 objective</objective>
+			<description>Task #5 description</description>
+			<location>Task #5 location</location>
+		</task>
+	</tasks>
+</game>
+```

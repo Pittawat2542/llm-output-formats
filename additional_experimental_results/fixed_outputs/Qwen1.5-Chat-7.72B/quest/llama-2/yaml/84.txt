@@ -1,0 +1,18 @@
+The YAML code provided in the original message is actually correct and does not contain any syntax errors. It's a complete valid YAML file for defining a quest with game details.
+
+Since there's no issue to fix, here's the YAML in a code block:
+
+```yaml
+game:
+  description: quest description
+  id: 24
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+
+```xml
+<w3c:text data-game-info="I am the game's creator and I will take care of any issues you may have!"&gt;&lt;/w3c:text&gt;
+<w3c:text xmlns="game" data-dont-bind="not-a-string">	
+    <w3c:text data-game-info="The beginning of the game has happened!"&gt;The beginning of the game has happened!&lt;/w3c:text>&lt;w3c:text data-dont-bind="not-a-string"&gt;
+        <g:text xmlns:g="text:w3c" data-g-version="1.0">I'll take care of any broken objects and unhappy users.</g:text>
+    </w3c:text>&lt;/w3c:text>
+</w3c:text>
+
+<w3c:text xmlns="http://www.w3.org/2000/xmlns:w3c/game"&gt;&lt;!-- Begin Game Code Block --&gt;&lt;/w3c:text&gt;
+</xml>
+```

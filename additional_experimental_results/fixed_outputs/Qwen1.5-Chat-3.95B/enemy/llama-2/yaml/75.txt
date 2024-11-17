@@ -1,0 +1,14 @@
+This is a YAML string with error in syntax. The original message is provided between ```yaml and ```. The correct YAML data needs to be reformatted and provided again as part of the code block. YAML format:
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```

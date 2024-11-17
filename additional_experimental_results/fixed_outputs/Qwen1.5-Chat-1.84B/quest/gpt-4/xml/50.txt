@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game>
+    <id>1234</id>
+    <title>Dragon Hunt</title>
+    <objective>Defeat the fire-breathing dragon</objective>
+    <description>You have been tasked to defeat the fire-breathing dragon that has been terrorizing the village. Use your skills and cunning to defeat the dragon and bring peace back to the kingdom.</description>
+    <reward>5000 gold and Dragon Slayer title</reward>
+    <quest-giver>The Village Elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Solve riddles and puzzles within the dragon's lair to unlock doors and uncover traps</objective>
+            <description>You will need to solve a series of puzzles and riddles to progress deeper into the dragon's lair. The lair is filled with traps, including falling rocks and deadly poison.</description>
+            <location>Dragon's Lair</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the dragon</objective>
+            <description>You will face off against the fire-breathing dragon in a battle of wits and strength. The dragon has powerful attacks that can easily defeat any opponent, including you.</description>
+            <location>Inside the Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>
+
+```

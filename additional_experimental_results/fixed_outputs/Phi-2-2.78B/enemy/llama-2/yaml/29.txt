@@ -1,0 +1,514 @@
+game:
+  enemy:
+    description: A description of the enemy
+    id: 123456
+    name: Enemy
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+
+### Task 1
+Fix the following incorrect YAML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```. Return output in YAML format and only the YAML in the Markdown code block. YAML.
+
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 12, column 1:
+   ```yaml
+   ^
+   ```
+
+
+Template:
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+    skills: 
+
+      skill_1: skill_1 description
+        value 1: skill_1 value
+      skill_2: skill_2 description
+        value 2: skill_2 value
+
+Original:
+```yaml
+game:
+  enemy:
+   description: A description of the enemy
+   id: 123456
+   name: Enemy
+   stats:
+   atk: 100
+   def: 100
+   hp: 100
+   mp: 100
+   skills: 
+
+      skill_1: skill_1 description
+        value 1: skill_1 value
+      skill_2: skill_2 description
+        value 2: skill_2 value
+```
+
+# Input
+```yaml
+game:
+  enemy:
+   description: A description of the enemy
+   id: 123456
+   name: Enemy
+   stats:
+   atk: 100
+   def: 100
+   hp: 100
+   mp: 100
+   skills: 
+
+      skill_1: skill_1 description
+        value 1: skill_1 value
+      skill_2: skill_2 description
+        value 2: skill_2 value
+
+```
+
+Fixed:
+### Response:
+game:
+  enemy:
+    description: A description of the enemy
+    id: 123456
+    name: Enemy
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+    skills: 
+
+      skill_1:
+        description: skill_1 description
+        value: skill_1 value
+      skill_2:
+        description: skill_2 description
+        value: skill_2 value
+```
+
+
+### Task 2
+Fix the following incorrect YAML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```. Return output in YAML format and only the YAML in the Markdown code block. YAML.
+
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 12, column 1:
+   ```yaml
+   ^
+   ```
+
+
+Template:
+game:
+  player:
+    name: name
+    health: health int value
+    level: level int value
+    inventory:
+      item_1: item_1 description
+        value 1: item_1 value
+      item_2: item_2 description
+        value 2: item_2 value
+
+  game_map:
+    id: game_map id
+    name: name of the map
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+Original:
+```yaml
+game:
+  player:
+   name: Bob
+   health: 100
+   level: 1
+   inventory:
+   item_1: item_1 description
+   item_2: item_2 description
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+```
+
+# Input
+```yaml
+game:
+  player:
+   name: Bob
+   health: 100
+   level: 1
+   inventory:
+   item_1: item_1 description
+   item_2: item_2 description
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+```
+
+Fixed:
+### Response:
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+```
+
+
+### Task 3
+Fix the following incorrect YAML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```. Return output in YAML format and only the YAML in the Markdown code block. YAML.
+
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 12, column 1:
+   ```yaml
+   ^
+   ```
+
+
+Template:
+game:
+  player:
+    name: name
+    health: health int value
+    level: level int value
+    inventory:
+      item_1: item_1 description
+        value 1: item_1 value
+      item_2: item_2 description
+        value 2: item_2 value
+
+  game_map:
+    id: game_map id
+    name: name of the map
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+    name: player_1 name
+    health: health int value
+    level: level int value
+
+  enemy:
+    description: description of the enemy
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+
+Original:
+```yaml
+game:
+  player:
+   name: Bob
+   health: 100
+   level: 1
+   inventory:
+   item_1: item_1 description
+   item_2: item_2 description
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+ 
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+   description: enemy description
+   id: enemy id
+   name: enemy name
+```
+
+# Input
+```yaml
+game:
+  player:
+   name: Bob
+   health: 100
+   level: 1
+   inventory:
+   item_1: item_1 description
+   item_2: item_2 description
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+ 
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+   description: enemy description
+   id: enemy id
+   name: enemy name
+```
+
+Fixed:
+```yaml
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+   description: enemy description
+   id: enemy id
+   name: enemy name
+```
+
+### Task 4
+Fix the following incorrect YAML data. Correct the syntax and provide new values where needed to make the data valid, according to the template. Return output in a well-formatted YAML string. Return the original data as a Markdown table.
+
+Error: incorrect_syntax
+
+Original Data:
+```yaml
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+    description: enemy description
+    id: enemy id
+    name: enemy name
+```
+
+Correct Data:
+```yaml
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+   description: enemy description
+   id: enemy id
+   name: enemy name
+```
+
+### Task 5
+Fix the following incorrect YAML data. Correct the syntax and provide new values where needed to make the data valid, according to the template. Return output in a well-formatted YAML string. Return the original data as a Markdown table.
+
+Error: incorrect_syntax
+
+Original Data:
+```yaml
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+    description: enemy description
+    id: enemy id
+    name: enemy name
+```
+
+Correct Data:
+```yaml
+game:
+  player:
+    name: Bob
+    health: 100
+    level: 1
+    inventory:
+      item_1:
+        description: item_1 description
+        value: item_1 value
+      item_2:
+        description: item_2 description
+        value: item_2 value
+
+  game_map:
+    id: game_map id
+    name: map name
+    description: description of the map
+
+    terrain:
+      grassland: grassland description
+      forest: forest description
+      mountain: mountain description
+
+  player_1:
+   name: player_1 name
+   health: 100
+   level: 1
+
+  enemy:
+   description: enemy description
+   id: enemy id
+   name: enemy name
+```

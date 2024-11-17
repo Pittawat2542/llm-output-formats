@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Lost Sword</title>
+	<objective>Find the legendary sword and bring it back to the kingdom</objective>
+	<description>In the ancient kingdom of Aradia, a powerful sword known as the Blade of Destiny has been lost for centuries. It is said that whoever possesses this sword will have the power to defeat any enemy and bring peace to the land. The king has offered a handsome reward to anyone who can find and return the sword to the royal treasure vault.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>King Arion</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Visit the old wise man</objective>
+			<description>According to ancient tales, the old wise man who resides in the deepest part of the enchanted forest holds important information about the location of the Blade of Destiny. Seek his guidance and unravel the mysteries of the lost sword.</description>
+			<location>Enchanted Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the 4 elemental crystals</objective>
+			<description>To unlock the path to the Blade of Destiny, you must gather the 4 elemental crystals scattered across the kingdom. Each crystal holds immense power and is guarded by powerful guardians. Defeat these guardians and retrieve the crystals.</description>
+			<location>Various locations across the kingdom</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Enter the Forbidden Cave</objective>
+			<description>Legend speaks of a hidden cave where the entrance to the Blade of Destiny lies. This Forbidden Cave is dangerous and filled with traps. Only the bravest and most skilled adventurers can navigate its treacherous corridors. Find the entrance and conquer the challenges within.</description>
+			<location>Near the mountains in the northern region</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the Blade of Destiny</objective>
+			<description>Deep within the heart of the Forbidden Cave, the Blade of Destiny awaits its rightful owner. It is said that the sword is guarded by a fearsome dragon. Defeat the dragon and claim the legendary sword as your own.</description>
+			<location>Forbidden Cave</location>
+		</task>
+	</tasks>
+</game>
+```

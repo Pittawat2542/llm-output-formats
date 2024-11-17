@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id id="id">id</id>
+		<first-name>First Name</first-name>
+		<last-name>Last Name</last-name>
+		<species>Species</species>
+		<age>Age</age>
+		<role>Role of the character</role>
+		<background>Background information</background>
+		<place-of-birth>Location</place-of-birth>
+		<physical-appearance>
+			<eye-color>Eyes color</eye-color>
+			<hair-color>Hair color</hair-color>
+			<height>Height in float value</height>
+			<weight>Weight in float value</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+The original XML was missing the closing tag for `<id>` and had an extra `<physical-appearance>` opening tag. I fixed these issues, added the required `id` attribute to the `<id>` element, and removed the unnecessary duplication in the `<physical-appearance>` section. Now the XML is syntactically correct according to the provided template.

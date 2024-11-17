@@ -1,0 +1,50 @@
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+```
+```python
+import re 
+from typing import Tuple, List
+
+def fix_yaml(raw_data):
+    """
+    This function takes the raw YAML data and fixes any syntax errors. 
+
+    Parameters:
+        raw_data (str): The unformatted raw YAML data.
+
+    Returns:
+        List[Tuple[str, str]]: A list of tuples with corrected syntax and new values if needed.
+    """
+
+    corrected = [] # List to store the correct YAML lines
+    dialogues_order = "dialogue order"
+    speaker = "speaker name" 
+    text = "dialogue or narration"
+
+    # Split data into lines and iterate through each line
+    lines = raw_data.split('\n')
+    for line in lines:
+        # Check for syntax errors
+        if re.match(r'^> .*', line): # Check if the first character is an arrow
+            line = f"{dialogues_order}: {speaker}\n" + line[1:]
+        elif re.match(r'^#.*', line): # Check for a comment
+            continue
+        else: 
+            line = f"{text}:\n" + line
+
+        corrected.append(line)
+
+    return corrected
+```
+
+### Example:
+```python
+raw_data = '> This is a Markdown code block. YAML output only please.<\nYAML'
+print(fix_yaml(raw_data)) # Output [('dialogue order: speaker name', 'This is a Markdown code block'), ('dialogue or narration', 'YAML')]
+```
+
+

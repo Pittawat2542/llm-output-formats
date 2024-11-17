@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "Complete the Ancient Temple",
+    "description": "Uncover hidden artifacts and solve riddles",
+    "reward": "Gold and a powerful artifact",
+    "quest-giver": "Experienced Herbalist",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Find the First Puzzle Stone",
+          "description": "Consult the herbals at the entrance for clues",
+          "location": "Cave Entrance West"
+        },
+        {
+          "@order": "2",
+          "objective": "Deliver the Stone to the Temple Guardian",
+          "description": "No time to lose, the gate is closing!",
+          "location": "Temple Courtyard East"
+        }
+      ]
+    }
+  }
+}

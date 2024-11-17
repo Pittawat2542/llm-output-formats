@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A mysterious legend speaks of an artifact buried deep within forgotten ruins. Uncover its secrets and bring it back to the village elder.</description>
+	<reward>1000 gold coins and a rare magical scroll</reward>
+	<quest-giver>Grimward, the Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the ruins</objective>
+			<description>Consult the old maps in the library to find the coordinates of the ruins.</description>
+			<location>Library of Eldervale</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Enter the ruins safely</objective>
+			<description>Beware of traps and guards as you enter the ruins. Use your skills to navigate undetected.</description>
+			<location>Ruins of Arkanith</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the artifact</objective>
+			<description>Search the deepest chamber of the ruins for the artifact.</description>
+			<location>The Heart of Arkanith</location>
+		</task>
+	</tasks>
+</game>
+```
+In the fixed XML, I have added values for the `id` element and completed the missing `quest-giver` element. Additionally, I corrected the closing tag for the `<task>` element (missing a forward slash) and closed the `<tasks>` element properly. The content of the elements has been provided as placeholders to demonstrate a complete XML structure.

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<game>
+	<id>1234</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet and return it to the quest giver</objective>
+	<description>In a distant land, there is a legend of a powerful amulet said to grant its wearer immense power. However, it has been lost for centuries. The current ruler of the land is searching for brave adventurers who can retrieve the lost amulet and return it to her. Will you be the one to find it?</description>
+	<reward>Ancient artifact + 1000 gold coins</reward>
+	<quest-giver>Queen Regalia</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Investigate the abandoned temple</objective>
+				<description>Rumors speak of an abandoned temple deep in the forest where the amulet might be hidden. Begin your quest by exploring this mysterious place.</description>
+			<location>The Forest of Shadows</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Find the key to the inner chamber</objective>
+				<description>The inner chamber of the temple is locked, and you need to find a special key to access it. Search the surrounding area for any clues or hidden compartments that might hold the key.</description>
+			<location>The Temple Grounds</location>
+			<task>
+				<order>3</order>
+				<objective>Defeat the guardians of the amulet</objective>
+				<description>Legend has it that the amulet is guarded by powerful creatures. To claim it, you must defeat these guardians in a battle of strength and skill.</description>
+			<location>The Inner Chamber</location>
+			</task>
+		<tasks>
+	</game>
+
+```xml
+The fixed XML data with corrected syntax and new values:
+```xml
+<game>
+	<id>1234</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet and return it to the quest giver</objective>
+	<description>In a distant land, there is a legend of a powerful amulet said to grant its wearer immense power. However, it has been lost for centuries. The current ruler of the land is searching for brave adventurers who can retrieve the lost amulet and return it to her. Will you be the one to find it?</description>
+	<reward>Ancient artifact + 1000 gold coins</reward>
+	<quest-giver>Queen Regalia</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Investigate the abandoned temple</objective>
+				<description>Rumors speak of an abandoned temple deep in the forest where the amulet might be hidden. Begin your quest by exploring this mysterious place.</description>
+			<location>The Forest of Shadows</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Find the key to the inner chamber</objective>
+				<description>The inner chamber of the temple is locked, and you need to find a special key to access it. Search the surrounding area for any clues or hidden compartments that might hold the key.</description>
+			<location>The Temple Grounds</location>
+			<task>
+				<order>3</order>
+				<objective>Defeat the guardians of the amulet</objective>
+				<description>Legend has it that the amulet is guarded by powerful creatures. To claim it, you must defeat these guardians in a battle of strength and skill.</description>
+			<location>The Inner Chamber</location>
+			</task>
+		<tasks>
+			<task>
+				<order>4</order>
+				<objective>Complete the amulet's quest</objective>
+				<description>The final challenge involves facing the amulet itself. Travel to a remote location and retrieve a magical amulet that will grant you unparalleled power. The amulet is said to be cursed, but if you can defeat its guardian and claim it, you'll have proven your bravery and dedication to the quest.</description>
+			<location>The Lost Temple</location>
+			<task>
+				<order>5</order>
+				<objective>Examine the amulet's curse</objective>
+				<description>You need to decipher the curse that protects the amulet from anyone who takes it. This involves unraveling its mysteries and uncovering hidden secrets within the temple.</description>
+			<location>The Temple Ruins</location>
+			<task>
+				<order>6</order>
+				<objective>Confront the guardian of the amulet</objective>
+				<description>With the curse in hand, you must confront the powerful guardian that protects the amulet. Use your skills and strategy to defeat them and claim the amulet.</description>
+			<location>The Amulet's Chamber</location>
+			<task>
+				<order>7</order>
+				<objective>Return the amulet to Queen Regalia</objective>
+				<description>Celebrate your victory with a grand presentation of the amulet to Queen Regalia. She will be grateful for your bravery and dedication, and you'll earn the reward of 2000 gold coins.</description>
+			<location>The Castle Courtyard</location>
+			</task>
+			<task>
+				<order>8</order>
+				<objective>Assist Queen Regalia with her duties</objective>
+				<description>The amulet has been imbued with magical powers, but it also brings immense responsibility. Use your skills and expertise to assist Queen Regalia in her duties as the ruler of the land.</description>
+			<location>The Queen's Palace</location>
+			</task>
+		<tasks>
+	</game>
+```

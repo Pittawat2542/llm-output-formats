@@ -1,0 +1,69 @@
+The original XML data had a syntax error because it was missing the closing `</task>` tag for each task in the `<tasks>` section. I have corrected the issue, and here's the fixed XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective 1</objective>
+			<description>task description 1</description>
+			<location>task location 1</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>task objective 2</objective>
+			<description>task description 2</description>
+			<location>task location 2</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>task objective 3</objective>
+			<description>task description 3</description>
+			<location>task location 3</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>task objective 4</objective>
+			<description>task description 4</description>
+			<location>task location 4</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>task objective 5</objective>
+			<description>task description 5</description>
+			<location>task location 5</location>
+		</task>
+		<task>
+			<order>6</order>
+			<objective>task objective 6</objective>
+			<description>task description 6</description>
+			<location>task location 6</location>
+		</task>
+		<task>
+			<order>7</order>
+			<objective>task objective 7</objective>
+			<description>task description 7</description>
+			<location>task location 7</location>
+		</task>
+		<task>
+			<order>8</order>
+			<objective>task objective 8</objective>
+			<description>task description 8</description>
+			<location>task location 8</location>
+		</task>
+		<task>
+			<order>9</order>
+			<objective>task objective 9</objective>
+			<description>task description 9</description>
+			<location>task location 9</location>
+		</task>
+	</tasks>
+</game>
+```

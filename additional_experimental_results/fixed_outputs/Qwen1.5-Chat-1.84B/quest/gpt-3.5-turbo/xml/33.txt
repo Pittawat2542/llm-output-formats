@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<game>
+	<id>456</id>
+	<title>Riddles and Enigmas</title>
+	<objective>A quest to decipher ancient riddles and unlock hidden chambers, leading to the discovery of a legendary artifact.</objective>
+	<description>The ancient artifacts of our world are not just precious objects but symbols of wisdom and knowledge. A powerful artifact once held by a long-forgotten civilization was lost in the depths of an unknown temple. It is said that the artifact contains answers to some of the most complex riddles ever solved, and its discovery could unlock secrets and unlock the path to enlightenment.</description>
+	<reward>Lion's Eye Gemstone</reward>
+	<quest-giver>Dr. Jane Doe</quest-giver>
+	<tasks>
+			<task>
+				order>2</order>
+			<objective>Dig into the temple's ruins</objective>
+			<description>Search for ancient clues, decipher riddles, and uncover secret passages in the temple's ruins to locate the lion's eye gemstone.</description>
+			<location>Temple chambers</location>
+			</task>
+	</tasks>
+		```xml
+game {
+  <id>789</id>
+  <title>The Enigma of the Oracle</title>
+  <objective>Unlocking the ancient secrets of a mythical oracle</objective>
+  <description>A powerful artifact once held by a secret society was lost in the depths of an unknown library. The artifact is said to contain the key to unlocking the secrets of a mythical oracle, and its discovery could bring long-awaited answers to some of the most profound questions about our universe.</description>
+  <reward>Dragon's Eye Crystal</reward>
+  <quest-giver>Jane Smith</quest-giver>
+  <tasks>
+    <task>
+      <order>3</order>
+      <objective>Interact with the oracle</objective>
+      <description>Confront the mysterious Oracle of the Ages and learn the secrets hidden within its ancient texts. Use your wit and wisdom to decipher the Oracle's riddles, unlock hidden chambers, and solve a series of complex puzzles.</description>
+      <location>Oracle's Library</location>
+    </task>
+  </tasks>
+}
+```
+
+XML:
+```xml
+<game>
+	<id>123456789</id>
+	<title>Riddles and Enigmas</title>
+	<objective>A quest to decipher ancient riddles and unlock hidden chambers, leading to the discovery of a legendary artifact.</objective>
+	<description>The ancient artifacts of our world are not just precious objects but symbols of wisdom and knowledge. A powerful artifact once held by a long-forgotten civilization was lost in the depths of an unknown temple. It is said that the artifact contains answers to some of the most complex riddles ever solved, and its discovery could unlock secrets and unlock the path to enlightenment.</description>
+	<reward>Lion's Eye Gemstone</reward>
+	<quest-giver>Dr. Jane Doe</quest-giver>
+	<tasks>
+		<task>
+			order>2</order>
+			<objective>Dig into the temple's ruins</objective>
+			"description>Search for ancient clues, decipher riddles, and uncover secret passages in the temple's ruins to locate the lion's eye gemstone.</description>
+		<location>Temple chambers</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Interact with the oracle</objective>
+			"description>Confront the mysterious Oracle of the Ages and learn the secrets hidden within its ancient texts. Use your wit and wisdom to decipher the Oracle's riddles, unlock hidden chambers, and solve a series of complex puzzles.</description>
+		<location>Oracle's Library</location>
+		</task>
+	</tasks>
+</game>
+```

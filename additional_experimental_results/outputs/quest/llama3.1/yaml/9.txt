@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the stolen ancient scroll from the bandits who have been terrorizing travelers on the Golden Road.
+  id: qr_01
+  objective: Retrieve the stolen scroll and return it to the local historian, Eryndor Thorne.
+  quest_giver: Eryndor Thorne
+  reward: 100 gold pieces and a magical amulet granting resistance to cold damage
+  tasks:
+  - description: Travel to the Golden Road and speak with the bandit leader, Grimgold Ironfist.
+    location: Golden Road, near the old windmill
+    objective: Learn about the stolen scroll and gain access to the bandits' hideout.
+    order: 1
+  - description: Infiltrate the bandits' hideout and locate the stolen scroll.
+    location: Bandits' Hideout, in a nearby cave system
+    objective: Obtain the stolen scroll without alerting the bandits.
+    order: 2
+  - description: Return to Eryndor Thorne with the recovered scroll.
+    location: Historian's Quarters, in the town of Willowdale
+    objective: Complete the quest and receive your reward.
+    order: 3
+  title: The Stolen Scroll
+```

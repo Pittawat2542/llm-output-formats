@@ -1,0 +1,24 @@
+Invalid YAML syntax error. Corrected syntax and new values provided in YAML format:
+```yaml
+{
+  "game": {
+    "character": {
+      "age": 25,
+      "background": "story of birth",
+      "first_name": "John",
+      "last_name": "Doe",
+      "id": "John Doe",
+      "last_name": "John Doe",
+      "physical_appearance": {
+        "eye_color": "green",
+        "hair_color": "brown",
+        "height": 1.8 meters (7 feet),
+        "weight": 75 kg (165 lbs)
+      },
+      "place_of_birth": "Greenhill, Earth (Alpha Proxima b)",
+      "role": "Civilian",
+      "species": "Human"
+    }
+  }
+}
+```

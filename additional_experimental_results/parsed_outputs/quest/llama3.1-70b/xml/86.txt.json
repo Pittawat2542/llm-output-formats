@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the ancient artifact in the lost city of Zerzura.",
+    "description": "Rumors have been circulating about a powerful artifact hidden deep within the lost city of Zerzura. Many have attempted to find it but none have returned. The city is said to be cursed, and the journey will be treacherous. Are you brave enough to take on this challenge?",
+    "reward": "Golden Amulet of Zerzura (+10 strength, +5 agility)",
+    "quest-giver": "Professor Orion",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city from local villagers.",
+          "description": "Talk to the villagers in the nearby town and gather as much information as you can about the location of the lost city and what dangers lie within.",
+          "location": "Nearby Town"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the treacherous jungle to reach the lost city.",
+          "description": "The journey will be long and arduous, but with the right gear and knowledge, you should be able to make it. Keep an eye out for deadly traps and fierce predators.",
+          "location": "Jungle"
+        },
+        {
+          "order": "3",
+          "objective": "Explore the lost city and find the ancient artifact.",
+          "description": "Be cautious as you explore the ruins, for there may be hidden dangers and puzzles to solve. The artifact is said to be hidden deep within the temple at the heart of the city.",
+          "location": "Lost City"
+        }
+      ]
+    }
+  }
+}

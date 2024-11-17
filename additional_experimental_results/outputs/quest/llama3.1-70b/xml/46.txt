@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QR001</id>
+  <title>The Lost City of Eldarath</title>
+  <objective>Find the ancient artifact in the Lost City of Eldarath.</objective>
+  <description>Rumors have been circulating about a powerful artifact hidden deep within the Lost City of Eldarath. The city is said to be filled with treacherous traps and terrifying creatures, but the reward is worth the risk.</description>
+  <reward>1000 gold pieces, a magical amulet granting resistance to darkness</reward>
+  <quest-giver>Thoric Stonebeard, the village elder</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the Lost City of Eldarath.</objective>
+      <description>Talk to the villagers and gather any information you can find about the lost city. Look for clues in the local library or talk to travelers who have been in the area.</description>
+      <location>Greenhaven Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Explore the ancient ruins and find the entrance to the Lost City.</objective>
+      <description>Use the information you gathered to locate the ancient ruins. Be careful, as the ruins are said to be filled with deadly traps and puzzles.</description>
+      <location>Ancient Ruins of Eldarath</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieve the artifact from the heart of the Lost City.</objective>
+      <description>Make your way through the treacherous tunnels and chambers of the lost city. Fight off fearsome creatures and overcome deadly obstacles to reach the artifact.</description>
+      <location>The Heart of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

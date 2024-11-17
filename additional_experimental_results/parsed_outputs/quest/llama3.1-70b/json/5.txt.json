@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "ElderScrollsOnline001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact hidden within the lost city",
+    "description": "Rumors have been circulating about a long-abandoned city deep in the heart of the forest, where an ancient artifact lies hidden. The locals are too afraid to venture near, but brave adventurers might just find fortune and glory within its walls.",
+    "reward": "1000 gold, +5 reputation with the Guild of Explorers",
+    "quest_giver": "Eira Shadowglow",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Speak to Eira Shadowglow at the local tavern",
+        "description": "Gather information about the lost city from Eira, a seasoned explorer with knowledge of the forest's hidden paths.",
+        "location": "The Rusty Goblet Tavern"
+      },
+      {
+        "order": 2,
+        "objective": "Find the entrance to the lost city",
+        "description": "Search for the hidden entrance to the lost city, said to be concealed behind a nearby waterfall.",
+        "location": "Waterfall Cave (Northeast of The Rusty Goblet Tavern)"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the ancient artifact",
+        "description": "Venture deep into the heart of the lost city and retrieve the ancient artifact, said to be guarded by powerful traps and fearsome creatures.",
+        "location": "Eldarath's Central Chamber"
+      }
+    ]
+  }
+}

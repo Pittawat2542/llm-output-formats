@@ -1,0 +1,20 @@
+{
+  "game": {
+    "title": "quests",
+    "description": "This is a list of quests.",
+    "tasks": {
+      "task": {
+        "name": {
+          "@id": "0",
+          "#text": "objective"
+        },
+        "description": {
+          "@description": "- ?@id:=0"
+        },
+        "objective": "task objective",
+        "order": "task order"
+      }
+    },
+    "quest-giver": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "@name": "enemy1",
+        "id": "id1",
+        "name": "name1",
+        "description": "description1",
+        "stats": {
+          "hp": "45",
+          "mp": "22",
+          "atk": "45",
+          "def": "45",
+          "spd": "45"
+        }
+      },
+      {
+        "@name": "enemy2",
+        "id": "id2",
+        "name": "name2",
+        "description": "description2",
+        "stats": {
+          "hp": "22",
+          "mp": "45",
+          "atk": "45",
+          "def": "45",
+          "spd": "45"
+        }
+      }
+    ]
+  }
+}

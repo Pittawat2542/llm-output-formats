@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: 1
+    name: name
+    stats:
+      atk: int value # Added "int" to indicate the type of value
+      def: int value
+      hp: int value
+      mp: int value
+      spd: int value
+```

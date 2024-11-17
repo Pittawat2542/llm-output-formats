@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</reward>
+	<quest-giver King Arthur</quest-giver> <!-- Fixed missing closing quote -->
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather weapons</objective>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			<location>Blacksmith's forge</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Head to the dragon's lair</objective>
+			<description>Travel into the mountains towards the East to find the dragon's lair</description>
+			<location>Mountains in the East</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Slay the dragon</objective>
+			<description>Engage in battle with the dragon and bring back its heart as proof</description>
+			<location>Dragon's lair</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,24 @@
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+   text: dialogue or narration
+
+Original:
+```yaml
+game:
+  dialogues:
+  - order: 1
+   speaker: John
+   text: Good morning, Amelia, beautiful weather today?
+  - order: 2
+   speaker: Amelia
+   text: Indeed, John. Perfect for our expedition.
+  - order: 3
+   speaker: John
+   text: Couldn't agree more. Letfs hope we find that treasure today.
+  - order: 4
+   speaker: Amelia
+   text: Hope so, John. Remember, the team relies on us.
+
+```

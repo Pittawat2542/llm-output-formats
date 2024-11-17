@@ -1,0 +1,15 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>Dialog order</order>
+			<speaker>Speaker name</speaker>
+			<text>Dialogue or narration text</text>
+		</dialogue>
+		<!-- Other dialogues and text here -->
+	</dialogues>
+</game>
+```
+
+The original XML had a missing closing tag for the `<dialogue>` element and an extra closing tag for the `<dialogues>` element. I've fixed these issues and also removed the unformatted "Other dialogues and text here" comment, as it should be properly formatted if there are more elements. If you need actual content in place of that comment, please provide the details.

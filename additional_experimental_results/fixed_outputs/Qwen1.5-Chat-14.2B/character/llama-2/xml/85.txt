@@ -1,0 +1,25 @@
+Here's the corrected XML data with proper syntax:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>id</id>
+        <first-name>first name</first-name>
+        <last-name>last name</last-name>
+        <species>species</species>
+        <age>exact age or description</age>
+        <role role_type="character_role">role of the character</role>
+        <background>background story</background>
+        <place-of-birth location="location">location</place-of-birth>
+        <physical-appearance>
+            <eye-color>eye color</eye-color>
+            <hair-color>hair color</hair-color>
+            <height units="cm">height in float value</height>
+            <weight units="kg">weight in float value</weight>
+        </physical-appearance>
+    </character>
+</game>
+```
+
+I've added `encoding="UTF-8"` to the XML declaration, fixed the closing `</physical-appearance>` tag, and changed `<role>` to `<role role_type="character_role">` to provide a more descriptive attribute for clarity. Also, I've included `units="cm"` and `units="kg"` attributes for the `<height>` and `<weight>` elements respectively to specify their units.

@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character id="1">
+        <first-name>Cia</first-name>
+        <last-name>Bazura</last-name>
+        <species>human</species>
+        <age>18 years old</age>
+        <role>protagonist</role>
+        <background story="A mysterious agent from a hidden organization"></background-story>
+        <place-of-birth>Unknown City</place-of-birth>
+        <physical-appearance>
+            <eye-color>green</eye-color>
+            <hair-color>blonde</hair-color>
+            <height>5.7</height> <!-- changed to float value without 'in' -->
+            <weight>58.6</weight> <!-- same, already in kg -->
+        </physical-appearance>
+    </character>
+</game>
+```

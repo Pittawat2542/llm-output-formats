@@ -1,0 +1,28 @@
+{
+  "game": {
+    "enemy": {
+      "id": "enemy_id",
+      "name": "enemy_name",
+      "description": "enemy_description",
+      "stats": {
+        "hp": "enemy_hp int value",
+        "mp": "enemy_mp int value",
+        "atk": "enemy_atk int value",
+        "def": "enemy_def int value",
+        "spd": "enemy_spd int value"
+      }
+    },
+    "player": {
+      "id": "player_id",
+      "name": "player_name",
+      "description": "player_description",
+      "stats": {
+        "hp": "player_hp int value",
+        "mp": "player_mp int value",
+        "atk": "player_atk int value",
+        "def": "player_def int value",
+        "spd": "player_spd int value"
+      }
+    }
+  }
+}

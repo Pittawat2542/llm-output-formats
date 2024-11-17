@@ -1,0 +1,568 @@
+The correct syntax for the XML data is as follows:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>Bobo</name>
+			<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+				atk>atk int value</atk>
+				def>def int value</def>
+				spd>spd int value</spd>
+			/stats>
+	<enemy>
+	</game>
+</game>
+```
+The new values that need to be added include the ID of the enemy, its name, description, stats, HP, MP,atk, def, and speed.
+```python
+xml = """
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+			<id>1</id>
+			<name>Bobo</name>
+			<stats>
+				hp int value
+			MP int value
+			atk int value
+			(def int value)
+			spd int value
+			/stats>
+		Enemy>
+	</game>
+</game>
+"""
+
+new_enemy_id = 1
+new_name = "Bobo"
+new_stats = [90, 30, 45, 23, 70]
+new_def = 23
+new_speed = 7
+
+g = """
+< enemy>
+	<id>1</id>
+	<name>Bobo</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>1</id>
+	<name>Bobo</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>1</id>
+	<name>Bobo</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+g = """
+< enemy>
+	<id>2</id>
+	<name>Fang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>2</id>
+	<name>Fang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>2</id>
+	<name>Fang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		 stats>
+	</敌人>
+"""
+
+g = """
+< enemy>
+	<id>3</id>
+	<name>Tang</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>3</id>
+	<name>Tang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>3</id>
+	<name>Tang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>3</id>
+	<name>Tang</name>
+	<stats>
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>4</id>
+	<name>Spike</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>4</id>
+	<name>Spike</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>4</id>
+	<name>Spike</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>5</id>
+	<name>Crash</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>5</id>
+	<name>Crash</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>5</id>
+	<name>Crash</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>6</id>
+	<name>Shark</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>6</id>
+	<name>Shark</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>6</id>
+	<name>Shark</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>7</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>7</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>7</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>8</id>
+	<name>Deaf</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>8</id>
+	<name>Deaf</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>8</id>
+	<name>Deaf</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		 stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>9</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>9</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>10</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>10</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>11</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>11</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		 stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>12</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>12</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>13</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g = """
+< enemy>
+	<id>13</id>
+	<name>Tiger</name>
+	<stats>
+			hp int value
+		MP int value
+		atk int value
+		(def int value)
+		ň speed value
+		stats>
+	</敌人>
+"""
+
+new_enemy_stats = [new_hp, new_mp, new_atk, new_def, new_speed]
+g

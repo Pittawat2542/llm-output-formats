@@ -1,0 +1,21 @@
+The problem with the XML data is that the key 'quest_giver' is missing. The correct syntax for adding this attribute to a game object is:
+
+```xml
+<game>
+	<title>Quest title</title>
+	<objective>
+	quest objective
+	<description>Quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+			<order>task order</order>
+			OBJECTive>quest objective</objective>
+			<description>Task description</description>
+			地上>location</location>
+			</task>
+		</tasks>
+	</game>
+```
+Now that the key 'quest_giver' is correctly added, you should be able to正常的 execute the game object.

@@ -1,0 +1,85 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the ancient artifact from the Forbidden Temple</objective>
+	<description>Legend speaks of a powerful artifact hidden deep within the Forbidden Temple. Brave adventurers are needed to embark on a perilous journey to recover this priceless treasure.</description>
+	<reward>Ancient artifact of unimaginable power</reward>
+	<quest-giver>High Priestess Seraphina</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>FIND THE ENTRANCE TO THE FORBIDDEN TEMPLE</objective>
+				<description>Inquire with the local villagers about the rumored location of the temple.</description>
+			<location>Eldoria Village</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Obtain THE KEY TO THE FORBIDDEN TEMPLE</objective>
+				<description>Slay the guardian monster that possesses the key and retrieve it.</description>
+			<location>Dark Forest</location>
+			<task>
+				<order>3</order>
+				<objective>Navigate the treacherous traps within the temple</objective>
+				<description>Be careful of the hidden traps and solve the ancient riddles to progress deeper into the temple.</description>
+			<location>Forbidden Temple</location>
+			<task>
+				<order>4</order>
+				<objective>FIGHT THE ANCIENT GOLDER AND RECEIVE THE ARTIFACT</objective>
+				<description>Battle the powerful ancient guardian and claim the artifact for your own.</description>
+			<location>Chamber of the Guardian</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>CLOSE THE CHAMBER OF THE GOLDER</objective>
+				<description>Unlock the chamber to reveal the artifact hidden within.</description>
+			<location>The Chamber of the Guardian</location>
+			</task>
+	<tasks>
+	</tasks>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the ancient artifact from the Forbidden Temple</objective>
+	<description>Legend speaks of a powerful artifact hidden deep within the Forbidden Temple. Brave adventurers are needed to embark on a perilous journey to recover this priceless treasure.</description>
+	<reward>Ancient artifact of unimaginable power</reward>
+	<quest-giver>High Priestess Seraphina</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>FIND THE ENTRANCE TO THE FORBIDDEN TEMPLE</objective>
+				<description>Inquire with the local villagers about the rumored location of the temple.</description>
+			<location>Eldoria Village</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Obtain THE KEY TO THE FORBIDDEN TEMPLE</objective>
+				<description>Slay the guardian monster that possesses the key and retrieve it.</description>
+			<location>Dark Forest</location>
+			<task>
+				<order>3</order>
+				<objective>Navigate the treacherous traps within the temple</objective>
+				<description>Be careful of the hidden traps and solve the ancient riddles to progress deeper into the temple.</description>
+			<location>Forbidden Temple</location>
+			<task>
+				<order>4</order>
+				<objective>FIGHT THE ANCIENT GOLDER AND RECEIVE THE ARTIFACT</objective>
+				<description>Battle the powerful ancient guardian and claim the artifact for your own.</description>
+			<location>The Chamber of the Guardian</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>CLOSE THE CHAMBER OF THE GOLDER</objective>
+				<description>Unlock the chamber to reveal the artifact hidden within.</description>
+			<location>The Chamber of the Guardian</location>
+			</task>
+	</tasks>
+</game>
+```

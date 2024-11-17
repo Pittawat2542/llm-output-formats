@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role role="role of the character">Role of the Character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height value="float_value">Height in Float Value</height>
+			<weight value="float_value">Weight in Float Value</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+The original XML data had an incorrect closing tag for `<physical-appearance>` and a missing attribute in the `<height>` and `<weight>` elements. I fixed those issues, added a `encoding` attribute to the root `<xml>` element, and formatted the `<role>` element with a `role` attribute. Now it's well-formed and valid XML syntax.

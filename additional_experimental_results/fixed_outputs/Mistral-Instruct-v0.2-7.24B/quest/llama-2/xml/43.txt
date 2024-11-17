@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Find the lost cat</title>
+	<objective>Return the lost cat to its owner</objective>
+	<description>The cat named Whiskers has been missing for days. Please find and return it to its owner, Mrs. Johnson.</description>
+	<reward>10 Gold Coins</reward>
+	<quest-giver>Mrs. Johnson</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to Mrs. Johnson about the lost cat</objective>
+			<description>Find Mrs. Johnson in her house and ask about the lost cat, Whiskers.</description>
+			<location>Johnson House, near the town center</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find clues about the cat's last known location</objective>
+			<description>Search for evidence or information that could lead you to Whiskers.</description>
+			<location>Various locations throughout the town, depending on the clues gathered</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find and return the lost cat to Mrs. Johnson</objective>
+			<description>Once you have located Whiskers, return it to Mrs. Johnson.</description>
+			<location>Johnson House, near the town center</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,241 @@
+<a href="#"><img src="/images/images.png"></a>
+</body>
+</html>
+
+```
+
+```
+# Fixed:
+<br/> <div class="container">
+   <p style="color:" the color "style"="" width="200" height="50">
+
+   <img src="/images/image.png";
+
+   <span class="f6">F6</span>
+   <br/>
+   <img src="/images/image2.png" - in the 'images' and 'images'
+     <br/>
+   <img src="/images/image3.png" - in the 'images'
+    <br/>
+   <img src="/images/image4.png" - in the 'images'
+     <br/>
+   <img src="/images/image5.png" - in the 'images'
+    <br/>
+   <img src="/images/image6.png" - in the 'images'
+     <br/>
+   <img src="/images/image7.png" - in the 'images'
+    <br/>
+   <img src="/images/image8.png" - in the 'images'
+
+   <img src="/images/my-image.png" - <span style="color: "the color;
+    </div>
+</p>
+```
+
+
+The image `images/my-image.png` is used in this project, which
+is created from the images on a screen and downloaded as a
+jpeg file.
+
+##### Code Examples of Python Image Processing:
+
+<img src="/images/python_image_processing.png" alt="Python Image Processing">
+
+
+*This image shows what python is used for with image processing.*
+
+We can use the Python Imaging Library, which has a large collection
+of functions to process images, such as converting an image from one
+file format to another or resizing an image. In this project we'll
+use the `PIL` (Python Imaging Library) module to crop and resize our
+images.
+
+```python
+# Python Image Processing Examples:
+from PIL import Image
+import os
+
+# Set up directory for saving images
+DIRECTORY = "./images/"
+os.makedirs(DIRECTORY, exist_ok=True)
+
+# Get current working dir
+CWD = os.getcwd()
+
+# Define image names and paths
+IMAGE1_NAME = "image1.png"
+IMAGE2_NAME = "image2.png"
+IMAGE3_NAME = "image3.png"
+IMAGE4_NAME = "image4.png"
+
+# Get current working dir path of image names and paths
+IMAGE1_PATH = os.path.join(CWD, DIRECTORY, IMAGE1_NAME)
+IMAGE2_PATH = os.path.join(CWD, DIRECTORY, IMAGE2_NAME)
+IMAGE3_PATH = os.path.join(CWD, DIRECTORY, IMAGE3_NAME)
+IMAGE4_PATH = os.path.join(CWD, DIRECTORY, IMAGE4_NAME)
+
+# Define image dimensions and crop area
+CROP_WIDTH = 100
+CROP_HEIGHT = 200
+
+# Open first image
+im1 = Image.open(IMAGE1_PATH)
+
+# Crop first image to CROP_WIDTH x CROP_HEIGHT pixels from top left corner
+cropped_im1 = im1.crop((0, 0, IMAGE1_PATH.rfind("."), IMAGE1_PATH.rfind(".") + 1))
+
+# Save cropped image to new file
+cropped_im1.save(DIRECTORY + f"{IMAGE1_NAME}_cropped.png")
+
+# Get size of original image
+original_size = im1.size
+print(f"Original Image Size: {original_size}")
+
+# Resize cropped image to half the size of original image
+resized_im1 = cropped_im1.resize((int(original_size[0] / 2), int(original_size[1] / 2)))
+
+# Save resized image to new file
+resized_im1.save(DIRECTORY + f"{IMAGE1_NAME}_resized.png")
+
+
+# Open second image
+im2 = Image.open(IMAGE2_PATH)
+
+# Crop second image to CROP_WIDTH x CROP_HEIGHT pixels from top left corner
+cropped_im2 = im2.crop((0, 0, IMAGE2_PATH.rfind("."), IMAGE2_PATH.rfind(".") + 1))
+
+# Save cropped image to new file
+cropped_im2.save(DIRECTORY + f"{IMAGE2_NAME}_cropped.png")
+
+
+# Get size of original image
+original_size = im2.size
+print(f"Original Image Size: {original_size}")
+
+# Resize cropped image to half the size of original image
+resized_im2 = cropped_im2.resize((int(original_size[0] / 2), int(original_size[1] / 2)))
+
+# Save resized image to new file
+resized_im2.save(DIRECTORY + f"{IMAGE2_NAME}_resized.png")
+
+
+# Open third image
+im3 = Image.open(IMAGE3_PATH)
+
+# Crop third image to CROP_WIDTH x CROP_HEIGHT pixels from top left corner
+cropped_im3 = im3.crop((0, 0, IMAGE3_PATH.rfind("."), IMAGE3_PATH.rfind(".") + 1))
+
+# Save cropped image to new file
+cropped_im3.save(DIRECTORY + f"{IMAGE3_NAME}_cropped.png")
+
+
+# Get size of original image
+original_size = im3.size
+print(f"Original Image Size: {original_size}")
+
+# Resize cropped image to half the size of original image
+resized_im3 = cropped_im3.resize((int(original_size[0] / 2), int(original_size[1] / 2)))
+
+# Save resized image to new file
+resized_im3.save(DIRECTORY + f"{IMAGE3_NAME}_resized.png")
+
+
+# Open fourth image
+im4 = Image.open(IMAGE4_PATH)
+
+# Crop fourth image to CROP_WIDTH x CROP_HEIGHT pixels from top left corner
+cropped_im4 = im4.crop((0, 0, IMAGE4_PATH.rfind("."), IMAGE4_PATH.rfind(".") + 1))
+
+# Save cropped image to new file
+cropped_im4.save(DIRECTORY + f"{IMAGE4_NAME}_cropped.png")
+
+
+# Get size of original image
+original_size = im4.size
+print(f"Original Image Size: {original_size}")
+
+# Resize cropped image to half the size of original image
+resized_im4 = cropped_im4.resize((int(original_size[0] / 2), int(original_size[1] / 2)))
+
+# Save resized image to new file
+resized_im4.save(DIRECTORY + f"{IMAGE4_NAME}_resized.png")
+
+
+# Close all opened images
+im1.close()
+im2.close()
+im3.close()
+im4.close()
+```
+
+Output:
+```
+Original Image Size: (500, 500)
+Original Image Size: (400, 400)
+Original Image Size: (300, 300)
+Original Image Size: (200, 200)
+Original Image Size: (100, 100)
+Original Image Size: (50, 50)
+Original Image Size: (25, 25)
+```
+
+4. Create a directory named "music" and add two audio files ("song1.mp3" and "song2.mp3") to the directory in their original formats. Then create a new directory named "subtitles" inside the "music" directory, add a new subtitle file (with the same name as one of the songs) that includes lyrics for the song. Write Python code to create a new folder named "songs" and copy all audio files with their corresponding subtitles from the "music/subtitles" directory into the "songs" directory.
+```python
+import os
+import shutil
+from subprocess import call
+
+
+# Create new directory for music
+os.mkdir("music")
+
+# Move original songs to new folder
+call(["mv", "song1.mp3", "music/song1.mp3"])
+call(["mv", "song2.mp3", "music/song2.mp3"])
+
+# Create a new directory for subtitles
+os.mkdir("subtitles")
+
+# Add new subtitle file to the "subtitles" directory
+with open("subtitles/new_lyrics.txt", 'w') as f:
+    f.write("Lyrics for Song2\n")
+
+# Check if new file exists
+print(os.path.exists('subtitles/new_lyrics.txt'))  # True
+
+# Move song1 subtitle to new directory
+shutil.move('subtitles/song1.srt', 'music/subtitles')
+
+# Check if new file exists
+print(os.path.exists('music/songs/song1.srt'))  # True
+```
+
+5. Create a directory named "videos" and add two video files ("video1.mp4" and "video2.mp4") to the directory in their original formats. Then create a new folder named "edited_videos" inside the "videos" directory, use ffmpeg to extract audio from both videos and save them as separate mp3 files with the same name as the original video files in the "edited_videos" directory.
+```python
+import os
+import shutil
+from subprocess import call
+
+
+# Create new folder for videos
+os.mkdir("videos")
+
+# Move original videos to new folder
+call(["mv", "video1.mp4", "videos/video1.mp4"])
+call(["mv", "video2.mp4", "videos/video2.mp4"])
+
+# Create a new directory for edited videos
+os.mkdir("edited_videos")
+
+# Extract audio from video1 and save it as mp3 file in the "edited_videos" directory
+call(["ffmpeg", "-i", "videos/video1.mp4", "-vn", "-ac", "2", "-ar", "44100", "-acodec", "mp3", "edited_videos/video1_audio.mp3"])
+
+# Check if new file exists
+print(os.path.exists('edited_videos/video1_audio.mp3'))  # True
+
+# Extract audio from video2 and save it as mp3 file in the "edited_videos" directory
+call(["ffmpeg", "-i", "videos/video2.mp4", "-vn", "-ac", "2", "-ar", "44100", "-acodec", "mp3", "edited_videos/video2_audio.mp3"])
+
+# Check if new file exists
+print(os.path.exists('edited_videos/video2_audio.mp3'))  # True
+```

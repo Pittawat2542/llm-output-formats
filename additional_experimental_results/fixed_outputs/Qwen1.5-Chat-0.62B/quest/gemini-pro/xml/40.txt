@@ -1,0 +1,110 @@
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<id>1</id>
+	<title>Riddles of the Solstice Tree</title>
+	<objective>Solve the riddles of the Solstice Tree and unlock its ancient secrets.</objective>
+	<description>In the heart of the ancient forest lies a majestic Solstice Tree. Legend says that its bark holds riddles and clues to a hidden treasure. Your task is to decipher the riddles and unlock the secrets of the tree.</description>
+	<reward>The ancient treasure hidden beneath the Solstice Tree, said to possess magical powers.</ reward>
+	<quest-giver>Elder of the forest</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Seek out the Solstice Tree located in the heart of the enchanted forest.</object>
+			.objective>Climb the tree and reach its base for further exploration.</objective>
+			 Objective>Unlock the ancient secrets behind the riddles.</objective>
+			<task>
+				<order>2</order>
+			 objective>Examine the tree's bark closely, searching for any clues or hidden symbols.</objective>
+			 Objective>Climb to the top of the tree and examine its bark. Look for patterns, symbols, or engravings that may hold the answers to the riddles.</objective>
+			 Objective>Unlock the secrets behind the riddles.</objective>
+			<task>
+				<order>3</order>
+			 objective>Gather ancient artifacts and components scattered throughout the world, which may hold clues to solving the riddles.</objective>
+			 Objective>Climb to the base of the tree and examine its artifacts. Look for the ancient books, scrolls, and artifacts that might shed light on the riddles behind the trees.</objectives>
+			 Objective>Explore the library and研究所 the contents of the ancient artifacts to uncover more secrets about the Solstice Tree.</objective>
+			<task>
+				<order>4</order>
+			 objective>Gather ancient texts and speak with scholars to gain insight into the history and mysteries of the Solstice Tree.</objective>
+			 Objective>Climb to the base of the tree and consult ancient texts. Converse with historians and researchers who may possess valuable information.</objectives>
+			 Objective>Libraries of the Arcane Order</objective>
+			<task>
+				<order>5</order>
+			 objective>Gather ancient artifacts and components scattered throughout the world, which may hold clues to solving the riddles.</objective>
+			 Objective>Climb to the base of the tree and examine its artifacts. Look for the ancient artifacts that could shed light on the riddles behind the trees.</objectives>
+			 Objective>Explore the collection of ancient artifacts and decipher the riddles to unlock the secrets behind the Solstice Tree.</objectives>
+			<task>
+				<order>6</order>
+			 objective>Return to the base of the tree with the gathered artifacts and solve the riddles to unlock its secrets.</objective>
+			 Objective>Order the artifacts in order according to their sequence, activating the ancient mechanism behind the tree's ancient mechanism.</objectives>
+			 Objective>Base of the Solstice Tree</objective>
+			<task>
+				<order>7</order>
+			 objective>Return to the base of the tree and activate its ancient mechanism.</objective>
+			 Objective>Enter the forest, and you will unlock a hidden treasure that holds magical power.</objective>
+			<任务>
+				<order>8</order>
+			 objective>Discover the ancient secrets behind the Solstice Tree, and use it to unlock your own hidden treasure.</objective>
+			<task>
+				<order>9</order>
+			 objective>Unlock a powerful artifact that holds magical power. Use it to fulfill your愿望.</objectives>
+			<task>
+				<order>10</order>
+			 objective>Find the ancient treasures in the forest, and use them to unlock your own hidden treasure.</objectives>
+			</task>
+	</tasks>
+</game>
+
+```
+Output: 
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Riddles of the Solstice Tree</title>
+	<objective>Solve the riddles of the Solstice Tree and unlock its ancient secrets.</objective>
+	<description>In the heart of the ancient forest lies a majestic Solstice Tree. Legend says that its bark holds riddles and clues to a hidden treasure. Your task is to decipher the riddles and unlock the secrets of the tree.</description>
+	<reward>The ancient treasure hidden beneath the Solstice Tree, said to possess magical powers.</ reward>
+	<quest-giver>Elder of the forest</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Seek out the Solstice Tree located in the heart of the enchanted forest.</object>
+			.objective>Climb the tree and reach its base for further exploration.</object>
+			 Objective>Unlock the ancient secrets behind the riddles.</objective>
+			<task>
+				<order>2</order>
+			 objective>Examine the tree's bark closely, searching for any clues or hidden symbols.</object>
+			 Objective>Climb to the top of the tree and examine its bark. Look for patterns, symbols, or engravings that may hold the answers to the riddles.</objective>
+			 Objective>Unlock the secrets behind the riddles.</objective>
+			<task>
+				<order>3</order>
+			 objective>Gather ancient artifacts and components scattered throughout the world, which may hold clues to solving the riddles.</objective>
+			 Objective>Climb to the base of the tree and examine its artifacts. Look for the ancient books, scrolls, and artifacts that might shed light on the riddles behind the trees.</objectives>
+			 Objective>Explore the library and研究所 the contents of the ancient artifacts to uncover more secrets about the Solstice Tree.</objective>
+			<task>
+				<order>4</order>
+			 objective>Gather ancient texts and speak with scholars to gain insight into the history and mysteries of the Solstice Tree.</objective>
+			 Objective>Climb to the base of the tree and consult ancient texts. Converse with historians and researchers who may possess valuable information.</objectives>
+			 Objective>Libraries of the Arcane Order</objective>
+			<task>
+				<order>5</order>
+			 objective>Gather ancient artifacts and components scattered throughout the world, which may hold clues to solving the riddles.</objective>
+			 Objective>Climb to the base of the tree and examine its artifacts. Look for the ancient artifacts that could shed light on the riddles behind the trees.</objectives>
+			Objective>Explore the collection of ancient artifacts and decipher the riddles to unlock the secrets behind the Solstice Tree.</objectives>
+			<task>
+				<order>6</order>
+			 objective>Return to the base of the tree with the gathered artifacts and solve the riddles to unlock its secrets.</objective>
+			 Objective>Order the artifacts in order according to their sequence, activating the ancient mechanism behind the tree's ancient mechanism.</objectives>
+			Objective>Base of the Solstice Tree</objective>
+			<task>
+				<order>7</order>
+			 objective>Return to the base of the tree and activate its ancient mechanism.</objective>
+			 Objective>Enter the forest, and you will unlock a hidden treasure that holds magical power.</objective>
+			 Objective>Discover the ancient secrets behind the Solstice Tree, and use it to unlock your own hidden treasure.</objective>
+			<task>
+				<order>8</order>
+			 objective>Unlock a powerful artifact that holds magical power. Use it to fulfill your愿望.</objectives>
+			 Objective>
+```

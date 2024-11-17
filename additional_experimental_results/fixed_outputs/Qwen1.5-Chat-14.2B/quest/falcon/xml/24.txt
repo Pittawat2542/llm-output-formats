@@ -1,0 +1,34 @@
+Here is the corrected XML data with the template structure applied and the original content added as values:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title Quest for Progress and Experience</title>
+	<objective>
+		Complete quests for progress, defeat enemies for experience, level up to earn rewards, and discover new areas or quests.
+	</objective>
+	<description>
+		Embark on an epic adventure where your actions will shape the course of the game. Along the way, you'll encounter various challenges that require skill and determination.
+	</description>
+	<reward>
+		Quest rewards include weapons, armor, gems, consumables, as well as opportunities to trade with NPCs for even better loot.
+	</reward>
+	<quest-giver>
+		NPCs such as the Quest Master or Town Guard
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Defeat the Lava Golem at the entrance of the Lava Caves</objective>
+			<description>A fiery challenge awaits you. Conquer this beast to gain access to deeper areas.</description>
+			<location>The Lava Caves Entrance</location>
+		</task>
+
+		<!-- Add more task elements as needed -->
+
+	</tasks>
+</game>
+```
+
+I've added the necessary structure, fixed indentation, and provided values for `id`, `title`, `quest-giver`, and included a basic `task` element. If you have additional tasks or want to modify other elements, please provide that information.

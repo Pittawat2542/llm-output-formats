@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Scepter",
+    "objective": "Find the missing King's Scepter.",
+    "description": "The King's Scepter has been stolen and the kingdom is in chaos. Find the missing scepter and return it to the King.",
+    "reward": "The King's favor, a bag of gold, and the title of \"Savior of the Kingdom\".",
+    "quest-giver": "The Queen",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the Royal Archivist.",
+          "description": "The Royal Archivist has historical records related to the theft. Talk to her to start your investigation.",
+          "location": "The Royal Library"
+        },
+        {
+          "order": "2",
+          "objective": "Examine the broken crown for clues.",
+          "description": "The stolen scepter might be connected to a broken crown. Search the castle for it.",
+          "location": "The King's Chamber"
+        }
+      ]
+    }
+  }
+}

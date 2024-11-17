@@ -1,0 +1,58 @@
+<details><summary>Click to close</summary>
+
+# Solution: 
+
+```python
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
+
+# define XML string with incorrect syntax
+xml_string = '''<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>'''
+# parse the XML string into a DOM object
+tree = ET.fromstring(xml_string)
+# iterate over each character element in the game root
+for character in tree.findall('character'):
+    # check if the character has a name attribute
+    if 'first-name' not in character.attrib:
+        # create a new first name element and append it to the character
+        new_first = ET.Element('first-name')
+        character.append(new_first)
+        new_first.text = 'John Doe'
+    if 'last-name' not in character.attrib:
+        # create a new last name element and append it to the character
+        new_last = ET.Element('last-name')
+        character.append(new_last)
+        new_last.text = 'Doe'
+    if 'species' not in character.attrib:
+        # create a new species element and append it to the character
+        new_species = ET.Element('species')
+        character.append(new_species)
+        new_species.text = 'Human'
+# print the corrected XML string
+print(ET.tostring(tree, encoding='utf-8').decode())
+```
+
+
+</details>
+
+

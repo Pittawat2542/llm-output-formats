@@ -1,0 +1,24 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>
+		<name>quest giver name</name>
+		<location>quest giver location</location>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+To fix the error, we need to add a `<name></name>` and `<location></location>` tag inside the `<quest-giver>` tag. This will give the quest giver an identity and location in the game world.

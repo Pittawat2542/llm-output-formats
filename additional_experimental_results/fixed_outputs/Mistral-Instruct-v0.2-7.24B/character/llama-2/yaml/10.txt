@@ -1,0 +1,85 @@
+{
+  "game": {
+    "character": {
+      "age": 21,
+      "background": [
+        "I was born in a small town in the United States",
+        "I grew up in a small town in the United States",
+        "I went to school in a small town in the US"
+      ],
+      "first_name": "John",
+      "id": 1234567890,
+      "last_name": ": Smith",
+      "physical_appearance": [
+        {
+          "eye_color": "brown",
+          "hair_color": "brown",
+          "height": 160.0,
+          "weight": 786.4532,
+        },
+      ],
+      "place_of_birth": "United States"
+    }
+```
+
+* `game` object contains a child element called `character` with the following properties:
+  * age: integer (21)
+  * background: array of strings, describing the character's upbringing
+  * first_name: string ("John")
+  * id: string ("1234567890")
+  * last_name: string ("Smith")
+  * physical_appearance: nested array or single object representing character's height and weight (see example for proper formatting)
+    * eye_color: string ("brown")
+    * hair_color: string ("brown")
+    * height: float (160.0)
+    * weight: float (786.4532) or single object containing "height": float and "weight": float for convenience
+  * place_of_birth: string ("United States")
+* Note that the provided example is not formatted correctly, it should be in the following format to ensure proper JSON serialization:
+```javascript
+// Example
+{
+  "game": {
+    "character": {
+      "age": 21,
+      "background": [
+        "I was born in a small town in the United States",
+        "I grew up there",
+        "I went to school there"
+      ],
+      "first_name": "John",
+      "id": "1234567890",
+      "last_name": ": Smith",
+      "physical_appearance": {
+        "eye_color": "brown",
+          "hair_color": "brown",
+          "height": 160.0,
+          "weight": 786.4532
+      },
+      "place_of_birth": "United States"
+    }
+  }
+```
+
+* Example with a nested object for convenience:
+```json
+{
+  "game": {
+    "character": {
+      "age": 21,
+      "background": [
+        "I was born in a small town in the United States",
+        "I grew up there",
+        "I went to school there"
+      ],
+      "first_name": "John",
+      "id": "1234567890",
+      "last_name": ": Smith",
+      "physical_appearance": {
+        "height": 160.0,
+        "weight": 786.4532
+      },
+      "eye_color": "brown",
+      "hair_color": "brown"
+    }
+  }
+```

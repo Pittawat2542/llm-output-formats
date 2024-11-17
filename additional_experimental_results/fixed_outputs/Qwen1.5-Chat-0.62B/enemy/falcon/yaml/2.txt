@@ -1,0 +1,28 @@
+Here is the corrected YAML data:
+```yaml
+ enemies:
+  -敌_name: enemy
+  - description: enemy description
+  - id: enemy_id
+  - name: enemy_name
+  - atk: atk int value
+  - def: def int value
+  - hp: hp int value
+  - mp: mp int value
+  - spd: spd int value
+```
+The syntax has been corrected in the YAML data. The new values for ` enemies` include `-敌_name: enemy`, `-description: enemy description`, and `-id: enemy_id`. If there are no errors in the YAML data, the output is:
+```yaml
+game:
+  enemy:
+    description: description
+    id: enemy_id
+    name: enemy_name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+This is in YAML format and includes the Markdown code block containing the original message. The output is the correct YAML data with new values added to it.

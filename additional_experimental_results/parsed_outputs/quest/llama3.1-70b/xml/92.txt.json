@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the Lost Temple.",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the jungle, where an ancient civilization once worshiped their gods. The temple is said to contain a powerful artifact that could change the course of history. Your task is to retrieve this artifact and bring it back to the village elder.",
+    "reward": "1000 gold pieces, +50 reputation with the village",
+    "quest-giver": "Village Elder Thorne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost Temple's location.",
+          "description": "Talk to the villagers and gather information about the temple's whereabouts. You may need to offer them some gold or other incentives in exchange for their knowledge.",
+          "location": "Village of Oakwood"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the jungle and reach the Lost Temple.",
+          "description": "Use your wits and survival skills to navigate through the dense jungle. Be careful not to get lost or ambushed by wild beasts.",
+          "location": "Jungle of Shadows"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact from the temple.",
+          "description": "Explore the temple, avoiding deadly traps and battling fierce creatures. The artifact is said to be hidden in a sacred chamber deep within the temple.",
+          "location": "LST Temple - Sacred Chamber"
+        }
+      ]
+    }
+  }
+}

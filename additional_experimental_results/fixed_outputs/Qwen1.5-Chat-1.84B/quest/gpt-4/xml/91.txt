@@ -1,0 +1,16 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+  <!ENTITY quest_completeness SYSTEM "questCompleteness.xml">
+]>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest_giver">
+  <tasks>
+    <!-- Task list remains the same -->
+  </tasks>
+</game>
+
+<quest-completeness xml:lang="en">
+  <key>quest_giver</key>
+  <value>Quest giver</value>
+</quest-completeness>
+```

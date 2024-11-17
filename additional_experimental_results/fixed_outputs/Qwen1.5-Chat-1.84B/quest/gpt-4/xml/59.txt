@@ -1,0 +1,52 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>Save the Village</title>
+    <objective>Save the village from the monster attack.</objective>
+    <description>The village is under attack by a monstrous beast. The player is tasked with fighting off the beast and saving the inhabitants of the village.</description>
+    <reward>500 gold and a legendary sword</reward>
+    <quest-giver>Old Man Jenkins</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the village</objective>
+            <description>The player needs to travel to the village, which is located deep in the forest.</description>
+            <location>Forest Village</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Fight the beast</objective>
+            <description>The player needs to fight and defeat the beast attacking the village.</description>
+            <location>Village center</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>Save the Village</title>
+    <objective>Save the village from the monster attack.</objective>
+    <description>The village is under attack by a monstrous beast. The player is tasked with fighting off the beast and saving the inhabitants of the village.</description>
+    <reward>500 gold and a legendary sword</reward>
+    <quest-giver>Old Man Jenkins</quest-giver>
+    <tasks>
+        <task id="1">
+            <order>1</order>
+            <objective>Reach the village</objective>
+            <description>The player needs to travel to the village, which is located deep in the forest.</description>
+            <location>Forest Village</location>
+        </task>
+        <task id="2">
+            <order>2</order>
+            <objective>Fight the beast</objective>
+            <description>The player needs to fight and defeat the beast attacking the village.</description>
+            <location>Village center</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Dragon Slayer",
+    "objective": "Slay the dragon terrorizing the village.",
+    "description": "The village of Greenfield is under attack by a fearsome dragon. The villagers have turned to the brave adventurers to slay the beast and save their village.",
+    "reward": "100 gold, a magic sword, and the title of Dragon Slayer",
+    "quest-giver": "Mayor of Greenfield",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the dragon.",
+          "description": "Talk to the villagers and gather information about the dragon's lair, its habits, and its weaknesses.",
+          "location": "Greenfield"
+        },
+        {
+          "order": "2",
+          "objective": "Craft a dragon-slaying weapon.",
+          "description": "Use the information gathered in Task 1 to craft a weapon that is effective against dragons.",
+          "location": "Blacksmith's Shop"
+        },
+        {
+          "order": "3",
+          "objective": "Travel to the dragon's lair.",
+          "description": "Travel to the dragon's lair, located in the nearby mountains.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the dragon.",
+          "description": "Use the dragon-slaying weapon to defeat the dragon.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "5",
+          "objective": "Return to Greenfield.",
+          "description": "Return to Greenfield and report your success to the villagers.",
+          "location": "Greenfield"
+        }
+      ]
+    }
+  }
+}

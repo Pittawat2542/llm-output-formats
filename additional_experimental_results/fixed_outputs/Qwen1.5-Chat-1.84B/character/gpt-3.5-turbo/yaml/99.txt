@@ -1,0 +1,48 @@
+Game:
+  character:
+    age: 25
+    background: Background story of a young warrior raised in a small village, John Smith, who discovered his passion for adventure and exploration. He trained as a warrior from a young age and ventured out into the world to test his skills and seek out thrilling quests.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+     - eye_color: Blue
+      hair_color: Brown
+      height: 6.0
+      weight: 180.0
+    place_of_birth: Villageville
+    role: Warrior
+    species: Human
+  traits:
+    adventurous:Driven by a desire to explore the world and uncover new mysteries.
+    skilled: Proficient in combat techniques and able to take on any challenge with ease.
+    loyal: Adapts quickly to changing situations and is fiercely protective of those he cares about.
+  relationships:
+    family: John has a close relationship with his mother, who raised him after his father's death. His sister, Sarah, is also an important figure in his life and often accompanies him on his adventures.
+
+```yaml
+game:
+  character:
+    age: 25
+    background: Background story of a young warrior raised in a small village, John Smith, who discovered his passion for adventure and exploration. He trained as a warrior from a young age and ventured out into the world to test his skills and seek out thrilling quests.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+     - eye_color: Blue
+      hair_color: Brown
+      height: 6.0
+      weight: 180.0
+    place_of_birth: Villageville
+    role: Warrior
+    species: Human
+  traits:
+    adventurous:Driven by a desire to explore the world and uncover new mysteries.
+    skilled: Proficient in combat techniques and able to take on any challenge with ease.
+    loyal: Adapts quickly to changing situations and is fiercely protective of those he cares about.
+  relationships:
+    family:
+      - mother: John's mother raised him after his father's death. She taught him the ways of the village and instilled a sense of responsibility in him.
+      - sister: Sarah, John's sister, is also an important figure in his life. They often accompany John on his adventures together.
+
+```

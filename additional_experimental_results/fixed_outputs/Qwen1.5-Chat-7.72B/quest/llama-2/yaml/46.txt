@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: QuestGiver
+  reward: Gold or Treasure
+  tasks:
+   - description: Complete the task at Inn
+     location: Inn
+     objective: Deliver item to quest receiver
+     order: 1
+   - description: Explore Forest for clues
+     location: Forest
+     objective: Find hidden chest
+     order: 2
+   - description: Talk to Old Sage in Village
+     location: Village
+     objective: Seek guidance from wise one
+     order: 3
+  title: Quest to the Inn and Back
+```

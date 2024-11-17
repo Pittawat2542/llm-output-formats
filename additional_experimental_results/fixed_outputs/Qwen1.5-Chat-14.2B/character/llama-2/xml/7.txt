@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>id</id>
+        <first-name>First Name</first-name> <!-- Added capitalization for consistency -->
+        <last-name>Last Name</last-name> <!-- Added capitalization for consistency -->
+        <species>Species</species>
+        <age>Exact Age or Description</age>
+        <role>Role of the Character</role>
+        <background>Background Story</background>
+        <place-of-birth>Location</place-of-birth>
+        <physical-appearance>
+            <eye-color>Eye Color</eye-color> <!-- Added capitalization for consistency -->
+            <hair-color>Hair Color</hair-color> <!-- Added capitalization for consistency -->
+            <height>1.75</height> <!-- Fixed closing float value -->
+            <weight>68.0</weight> <!-- Fixed closing float value -->
+        </physical-appearance>
+    </character>
+</game>
+```

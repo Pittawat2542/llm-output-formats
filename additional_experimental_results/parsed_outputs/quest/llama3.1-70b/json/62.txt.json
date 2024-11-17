@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarado",
+    "objective": "Find the ancient city of Eldarado and retrieve the Golden Chalice.",
+    "description": "Rumors have been circulating about a lost city deep in the jungle, filled with treasures beyond imagination. The Golden Chalice, said to grant immense power to its possessor, is hidden within the city's ruins. Brave adventurers are needed to navigate the treacherous jungle and uncover the secrets of Eldarado.",
+    "reward": "1000 gold pieces, the Golden Chalice, and a magical amulet granting +10% strength",
+    "quest_giver": "Professor Thaddeus Wystan",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about Eldarado's location from local villagers.",
+        "description": "Speak to the locals in the nearby village and gather any information they may have about the lost city. Be careful, as some of them might be tight-lipped or even hostile towards outsiders.",
+        "location": "Village of Ravenshire"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map leading to Eldarado from an ancient ruin.",
+        "description": "Venture into the ancient ruin located on the outskirts of the village and find a map that supposedly leads to Eldarado. Be prepared for traps, puzzles, and fierce creatures guarding the treasure.",
+        "location": "Ancient Ruin of Krael"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate through the treacherous jungle and reach the entrance of Eldarado.",
+        "description": "Using the map from the ancient ruin, navigate through the dense jungle and avoid deadly creatures. The journey will be long and arduous, but the reward is worth it.",
+        "location": "Eldarado Jungle"
+      },
+      {
+        "order": 4,
+        "objective": "Explore Eldarado's ruins, find the Golden Chalice, and escape.",
+        "description": "Once inside the lost city, navigate through its ancient halls and chambers to find the Golden Chalice. However, be warned: you are not alone in this quest, and other treasure hunters might be hot on your heels.",
+        "location": "Eldarado Ruins"
+      }
+    ]
+  }
+}

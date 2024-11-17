@@ -1,0 +1,35 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "xlsx:dialogues": {
+      "@xmlns:xlsx": "http://schemas.openxmlformats.org/officeDocumentSchema",
+      "dialogue": [
+        {
+          "order": "dialogue order",
+          "speaker": "speaker name",
+          "text": {
+            "xlswriter:text": {
+              "@xmlns:xlswriter": "http://openxmlformats.org/schemas/2003/officeDocumentWriter",
+              "#text": "Content Text"
+            }
+          }
+        },
+        {
+          "order": "Dialogue 1",
+          "speaker": "Speaker 1",
+          "text": "Dialogue 1"
+        },
+        {
+          "order": "Dialogue 2",
+          "speaker": "Speaker 2",
+          "text": "Dialogue 2"
+        },
+        {
+          "order": "Dialogue 3",
+          "speaker": "Speaker 3",
+          "text": "Dialogue 3"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+game:
+  dialogues:
+   - order: 1
+     speaker: player
+     text: "Hello, how are you?"
+   - order: 2
+     speaker: NPC
+     text: "I'm very well, it's a pleasure to meet you."
+    new_speaker: NPC
+    text: "Greetings, my name is [NPC's Name], and I am pleased to meet you."

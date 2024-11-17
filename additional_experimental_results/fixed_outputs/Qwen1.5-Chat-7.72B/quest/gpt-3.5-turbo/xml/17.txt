@@ -1,0 +1,36 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>The Quest for the Golden Relic</title>
+    <objective>Discover the ancient artifact in the Lost Temple of Atlantis</objective>
+    <description>You have been tasked by Archeologist Williams to uncover the relic. Your journey will lead you through treacherous seas and hidden caves.</description>
+    <reward>A rare gemstone worth a fortune</reward>
+    <quest-giver>Archaeologist Williams</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Set sail for Atlantis</objective>
+            <description>Follow the map and navigate through the stormy waters of the Atlantic Ocean.</description>
+            <location>The Strait of Poseidon</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Uncover Temple Ruins</objective>
+            <description>Explore the submerged temple's ruins and decipher its cryptic markings.</description>
+            <location>Submerged ruins off Atlantis</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Overcome Sea Serpents</objective>
+            <description Beware of sea creatures guarding the entrance, solve their riddles to proceed.</description>
+            <location>Sea Serpent Gateway</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Enter the Temple and Find Relic</objective>
+            <description>Search the inner chamber for the artifact and avoid traps on your way.</description>
+            <location>The Inner Chamber of the Temple</location>
+        </task>
+    </tasks>
+</game>
+```

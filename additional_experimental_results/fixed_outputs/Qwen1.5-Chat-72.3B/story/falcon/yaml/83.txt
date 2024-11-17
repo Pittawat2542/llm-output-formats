@@ -1,0 +1,17 @@
+```yaml
+game:
+  beginning:
+    description: how the game begins and any setup needed.
+  
+  ending:
+    description: the end of the game and the consequences and rewards for the hero
+  
+  synopsis: game story synopsis
+  title: game title
+
+story:
+  endings:
+    - consequences: true
+    - reward: true
+```
+The original YAML data had incorrect structure and missing colons. I've fixed the syntax by organizing it into the correct format according to the template provided. The "ending" section was moved under "game" and the "title" was corrected to its proper location. The "# Story synopsis:" comment was removed since its content was replaced with a direct value for "synopsis".

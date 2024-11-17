@@ -1,0 +1,17 @@
+```yaml
+game:
+  enemy:
+    - description: Infiltrator enemies with their HP
+      id: infiltrator
+      name: Infiltrator
+      stats:
+        atk: 0
+        def: 0
+        hp:
+          Enforcer: 7
+          Sentinal: 5
+        mp: 0
+        spd: 0
+
+```
+The original YAML was attempting to use a table-like format, which is not valid YAML. I've corrected the syntax by converting it into a YAML list with nested dictionaries. The "hp" values are now associated with specific enemy types under the "hp" key in the stats section.

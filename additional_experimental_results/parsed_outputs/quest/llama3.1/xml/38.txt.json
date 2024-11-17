@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the lost city of Zenith and retrieve a powerful artifact.",
+    "description": "The city has been hidden for centuries, and it's said to contain ancient relics that hold the secrets of the past. You must navigate through treacherous jungles and overcome obstacles to reach the heart of the city.",
+    "reward": "50 gold coins, a map that reveals hidden locations, and a magical amulet",
+    "quest-giver": "Ranger Althea at the local tavern",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to Ranger Althea for more information about the lost city.",
+          "description": "She's been on several expeditions to Zenith and has valuable knowledge about its location and dangers.",
+          "location": "The local tavern in town center."
+        },
+        {
+          "order": "2",
+          "objective": "Cross the treacherous Jungle of Whispers, avoiding deadly traps and creatures.",
+          "description": "You'll need to use your wits and skills to navigate through the jungle without falling prey to its dangers.",
+          "location": "Jungle of Whispers, 5 miles north of town center."
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve a ancient scroll from the Heart of Zenith temple.",
+          "description": "The scroll holds the key to unlocking the secrets of the city. Be careful, as you'll need to face off against fierce guardians and puzzles to claim it.",
+          "location": "Heart of Zenith temple, within the lost city."
+        }
+      ]
+    }
+  }
+}

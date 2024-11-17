@@ -1,0 +1,48 @@
+The correct syntax for the given XML data is as follows:
+```
+<?xml version="1.0"?> <game>
+	<id>id</id>
+	<title>quest title</title>
+	bjective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+			 Objective: quest objective
+				Description: quest description
+			locations: <location><location></location>
+			</task>
+		</tasks>
+	</game>
+</游戏>
+```
+
+The new values are included in the `tasks` element:
+
+  * `<task>`: an HTML element that represents a task.
+  * `<order>`: an HTML element that specifies the order of the task.
+
+The output code block should look like this:
+```xml
+<?xml version="1.0"?> <game>
+	<id>id</id>
+	<title>quest title</title>
+	bjective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+			 Objective: quest objective
+				Description: quest description
+			locations: <location><location></location>
+			</task>
+		</tasks>
+	</game>
+</game>
+```
+
+This will output an XML file with the specified data structure and format.

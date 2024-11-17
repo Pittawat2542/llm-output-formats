@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <character id="id">
+    <first-name>Last name</first-name>
+    <last-name>Surname</last-name>
+    <species>species</species>
+    <age>exact age or description</age>
+    <role>character.role</role>
+    <background>background story</background>
+    <place-of-birth location="location"></place-of-birth>
+    <physical-appearance>
+      <eye-color>eye color</eye-color>
+      <hair-color>hair color</hair-color>
+      <height units="cm">height in float value</height>
+      <weight units="kg">weight in float value</weight>
+    </physical-appearance>
+  </character>
+</game>
+```
+I have made the following corrections:
+1. Removed `<!DOCTYPE characterReport>` as it's not needed in this context.
+2. Added `"UTF-8"` to the XML version attribute for encoding consistency.
+3. Fixed the syntax error around `<place-of-birth>`, removed the style attribute and added `location` inside `<place-of-birth>`.
+4. Added `units="cm"` and `units="kg"` attributes to `<height>` and `<weight>` respectively, to specify the units of measurement.

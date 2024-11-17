@@ -1,0 +1,22 @@
+Game YAML data with corrected syntax and new values provided:
+
+```yaml
+game:
+  description: quest description
+  id: 1234567890abcdefg
+  objectives:
+    first objective: quest objective_1
+    second objective: quest objectiv_2
+  rewards:
+    title: quest reward_1
+    money: 1000
+    experience: 500
+  tasks:
+    first task: task description_1
+    second task: task description_2
+    third task: task description_3
+    fourth task: task description_4
+  title: quest title
+```
+
+Note that the `id` key was missing in the original YAML data, and it is now included with a value of "1234567890abcdefg". The new values for the `id`, `objectives`, `rewards`, and `tasks` keys are provided as separate lists under the corresponding `game` object. In this case, each objective has been assigned an ID (e.g., "quest objective_1", "quest objectiv_2"), while each reward has a title (e.g., "quest reward_1", "quest reward_2") and a monetary value (e.g., "1000" for "quest reward_1", "500" for "quest reward_2"). The `tasks` list lists the descriptions, locations, objectives, order, and titles of four separate tasks. Each task has been assigned a unique ID, description, location, objective, and order number (e.g., "task description_1", "task description_2", etc.).

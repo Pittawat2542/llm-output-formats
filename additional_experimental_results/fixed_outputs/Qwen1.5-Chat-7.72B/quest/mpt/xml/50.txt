@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Revised quest objective</objective>
+    <description>Updated quest description</description>
+    <reward>Gold and Experience</reward>
+    <quest-giver>Old Man Johnson</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Trail</objective>
+            <description>Follow the marked path through the woods</description>
+            <location>North Woods</location>
+        </task>
+    </tasks>
+</game>
+```

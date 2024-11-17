@@ -1,0 +1,30 @@
+```xml
+<game>
+    <id>ID_12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the Lost Artifact from the Ancient Ruins</objective>
+    <description>According to legend, a powerful artifact was hidden within the Ancient Ruins. Many have tried to find it, but none has returned. It is your mission to retrieve the artifact and return it to its rightful place. Be wary, though, for the ruins are said to be cursed.</description>
+    <reward>5000 gold pieces, Artifact's Blessing</reward>
+    <quest-giver>Old Sage Amara</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the Ancient Ruins</objective>
+            <description>Travel east from the village and follow the Stone Pillars. They will lead you to the entrance of the Ancient Ruins.</description>
+            <location>Ancient Ruins Entrance</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Enter the Ancient Ruins and find the Lost Artifact</objective>
+            <description>Make your way through the Ancient Ruins, avoiding traps and solving puzzles to reach the chamber where the Lost Artifact is kept.</description>
+            <location>Ancient Ruins Inner Chambers</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return the Lost Artifact to Old Sage Amara</objective>
+            <description>With the Lost Artifact in your possession, return to the village and present it to Old Sage Amara.</description>
+            <location>Village</location>
+        </task>
+    </tasks>
+</game>
+```

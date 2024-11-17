@@ -1,0 +1,19 @@
+The correct XML data is as follows:
+
+```xml
+<!DOCTYPE html> 
+<html> 
+<div id="character"> 
+	<h2>{{ `Char.first_name`|e.html ->>`Char.first_name</h2> 
+	<h2>{{ `Char.last_name`|e.html ->>`Char.last_name</h2> 
+	<h2>{{ `Char.species`|e.html ->>`Char.species</h2> 
+	<h2>{{ `Char.age`|e. html ->>> {{ `Age}`|e. html }}</h2> 
+	<h2>{{ `Role`|e.html ->>> {{ `Role}`|e. html }}</h2> 
+	<h2>{{ `Birthplace`|e.html ->>> {{ `Birthplace}`|e. html }}</h2> 
+	<h2>{{ `Appearance`|e.html ->>> {{ `Appearance}`|e. html }}</h2> 
+	<h2>{{ `Physical_appearance种族`|e.html ->>> {{ `Physical_appearance种族`|e. html }}</h2> 
+</div> 
+</div>
+```
+
+The syntax is correct, and the new values are provided in the code block. If there is nothing wrong, only output in XML format and only the XML in the Markdown code block.

@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Dragon Seer",
+    "objective": "Seek and consult the Ancient Dragon",
+    "description": "In order to ward off the impending disaster, you must consult the Ancient Dragon. However, the dragon resides at the peak of the treacherous Frostspire Mountain. Braving the hostile elements isn't enough, you will also have to overcome creatures and riddles along your journey.",
+    "reward": "Dragon's Blessing artifact",
+    "quest-giver": "Eldriwis the Seer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Scale the Frostspire Mountain",
+          "description": "Bypass the ice pillars and defeat Ice Elemental to reach the peak.",
+          "location": "Frostspire Mountain, Peak"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the Ice Riddle",
+          "description": "Present the riddle's answer to the guardian at the Frozen Gates.",
+          "location": "Frozen Gates"
+        }
+      ]
+    }
+  }
+}

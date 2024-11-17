@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="game.xsd">
+	<dialogues>
+		<dialogue order="dialogue order">
+			<title>Ordered in a specific way</title>
+			
+			<speaker>Speaker_name</speaker>
+			<prompt>Dialogue or narration</prompt>
+			<text>The dialogue or narration is ordered in a specific way.</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+```xml
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="game.xsd">
+	<dialogues>
+		<dialogue order="dialogue order">
+			<title>Ordered in a specific way</title>
+			
+			<speaker>Speaker_name</speaker>
+			<prompt>Dialogue or narration</prompt>
+			<text>The dialogue or narration is ordered in a specific way.</text>
+		</dialogue>
+	</dialogues>
+
+	<dialogue order="dialogue number">
+		<title>Dialogue number 1</title>
+		
+		<speaker>Speaker_name</speaker>
+		<prompt>Dialogue or narration</prompt>
+		<text>The dialogue is numbered in a specific way.</text>
+	</dialogue>
+
+	<dialogue order="dialogue number">
+		<title>Dialogue number 2</title>
+		
+		<speaker>Speaker_name</speaker>
+		<prompt>Dialogue or narration</prompt>
+		<text>The dialogue is numbered in a specific way.</text>
+	</dialogue>
+
+	<dialogue order="dialogue number">
+		<title>Dialogue number 3</title>
+		
+		<speaker>Speaker_name</speaker>
+		<prompt>Dialogue or narration</prompt>
+		<text>The dialogue is numbered in a specific way.</text>
+	</dialogue>
+</game>

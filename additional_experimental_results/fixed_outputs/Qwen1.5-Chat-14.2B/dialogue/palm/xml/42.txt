@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, there!</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>Greetings, traveler. What brings you to my humble village?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm on a quest to find the legendary sword Excalibur.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Ah, yes, Excalibur. A powerful weapon, indeed. But it is said to be guarded by a fierce dragon.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>I'm not afraid of dragons.</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>NPC</speaker>
+			<text>Very well. I wish you luck on your quest.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

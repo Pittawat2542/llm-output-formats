@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "A mysterious map leads you to an abandoned city, where you must discover the lost artifact and return it to the village elder.",
+    "reward": "1000 gold coins and a legendary weapon",
+    "quest-giver": "Grimstone, the Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Abandoned City",
+          "description": "Make your way through the forest and enter the ruins to begin your search.",
+          "location": "The Ruins of Eldervale"
+        },
+        {
+          "order": "2",
+          "objective": "Search for Clues",
+          "description": "Explore the ruins for any clues that might lead to the artifact's location.",
+          "location": "The Library of Ancients"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Guardian",
+          "description": "A powerful guardian protects the artifact. Conquer it to claim the treasure.",
+          "location": "The Chamber of Secrets"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the entrance to the lost city and retrieve a powerful artifact.",
+    "description": "The ancient city of Eldarath was said to be filled with treasures and knowledge. However, it has been lost for centuries and its location is now forgotten. Your mission is to find the entrance to the city and retrieve a powerful artifact that lies within.",
+    "reward": "A magical amulet granting +10 strength and a map leading to another lost city.",
+    "quest-giver": "Ranger Eryndor Thorne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the location of Eldarath from the local villagers.",
+          "description": "Speak with the villagers and gather any information they may have about the lost city. They may know of a hidden entrance or a clue to its location.",
+          "location": "The village of Willowdale"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the nearby ruins and find any clues that may lead to Eldarath.",
+          "description": "Search the nearby ruins for any artifacts or inscriptions that may give a hint about the location of Eldarath. Be cautious, as the ruins are said to be filled with traps and treasures.",
+          "location": "The ancient ruin of Zorvath"
+        },
+        {
+          "order": "3",
+          "objective": "Find the hidden entrance to Eldarath.",
+          "description": "Using the information gathered from the villagers and the clues found in the ruins, locate the hidden entrance to Eldarath. Be prepared for a treacherous journey as you navigate through the lost city.",
+          "location": "The entrance to Eldarath"
+        }
+      ]
+    }
+  }
+}

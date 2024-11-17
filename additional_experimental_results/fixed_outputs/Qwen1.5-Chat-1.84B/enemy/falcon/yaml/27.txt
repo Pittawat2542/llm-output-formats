@@ -1,0 +1,25 @@
+game:
+  enemy:
+    description: Description of the enemy.
+    id: ID
+    name: Name of the enemy.
+    stats:
+      attack: Atk integer value
+      defense: Def integer value
+      health: HP integer value
+      mana: Mana integer value
+      speed: Speed integer value
+
+```yaml
+game:
+  enemy:
+    description: Description of the enemy.
+    id: ID
+    name: Name of the enemy.
+    stats:
+      attack: Atk integer value
+      defense: Def integer value
+      health: HP integer value
+      mana: Mana integer value
+      speed: Speed integer value
+```

@@ -1,0 +1,16 @@
+```yaml
+game:
+  # YAML fixes:
+
+  id: 1
+  # Added a lowercase 'id' property to match the expected type in YAML
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: "Find the lost sword"
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```

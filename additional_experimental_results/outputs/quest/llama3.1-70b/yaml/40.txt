@@ -1,0 +1,27 @@
+```yaml
+game:
+  description: Retrieve a powerful artifact from the long-abandoned ruins of an ancient castle.
+  id: QST001
+  objective: Bring back the fabled Sword of Light to the village elder.
+  quest_giver: Village Elder
+  reward: 
+    experience: 1000
+    gold: 500
+    items:
+      - potion_of_healing
+      - sword_of_light
+  tasks:
+  - description: Explore the entrance hall and gather information about the layout of the castle.
+    location: Castle Entrance Hall
+    objective: Talk to the old knight guarding the entrance.
+    order: 1
+  - description: Find the library where the ancient texts about the Sword of Light are stored.
+    location: Castle Library
+    objective: Search through the shelves and find the relevant scrolls.
+    order: 2
+  - description: Locate the throne room where the sword is supposedly displayed.
+    location: Castle Throne Room
+    objective: Retrieve the Sword of Light from its pedestal.
+    order: 3
+  title: The Quest for the Sword of Light
+```

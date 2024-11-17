@@ -1,0 +1,27 @@
+#### **Input**: 
+Corrected XML data is provided below. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+### **Output**:
+The corrected XML data is provided below. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+

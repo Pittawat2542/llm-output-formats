@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Crown",
+    "objective": "Retrieve the lost crown of the king.",
+    "description": "The king's crown was stolen by a group of bandits. The king has offered a reward for its return.",
+    "reward": "1000 gold and the king's favor.",
+    "quest-giver": "King",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the bandits' hideout.",
+          "description": "The bandits are hiding in a cave in the mountains.",
+          "location": "Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the bandits and retrieve the crown.",
+          "description": "The bandits are a tough group, so be prepared for a fight.",
+          "location": "Bandit Hideout"
+        },
+        {
+          "order": "3",
+          "objective": "Return the crown to the king.",
+          "description": "Once you have the crown, return it to the king in the castle.",
+          "location": "Castle"
+        }
+      ]
+    }
+  }
+}

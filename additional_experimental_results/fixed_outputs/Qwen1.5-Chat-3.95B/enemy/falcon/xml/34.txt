@@ -1,0 +1,31 @@
+No issues, here's the XML:
+```xml
+<?xml version="1.0" encoding="UTF-8" xmlns="http://www.game.com">
+	<game>
+		<enemy>
+			<id id="id">name</name>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				<hp int value="hp") (mp int value) (atk int value (def int value)) (spd int value)</hp>
+				<mp int value="mp") (def int value) (def int value)</mp>
+				<atk>atk int value</atk>) (def int value) (def int value)</def>
+				<def int value="def int value") (def int value) (def int value)</def>
+				<spd int value="spd int value") (def int value) (def int value)</def>
+			</enemy>
+				<hp>hp</hp>
+				<mp>mp</mp>
+				<atk>atk</atk>) (def int value) (def int value)</def>
+				<def>def int value</def>
+				<spd>spd int value</spd>)
+			<stats>
+				<hp>hp int value</hp>
+				<mp>mp int value</mp>
+				<atk>atk int value</atk>) (def int value) (def int value)</def>
+				<def>def int value</def>
+				<spd>spd int value</spd>)
+			</enemy>
+		</enemy>
+	</game>
+</xml>
+``

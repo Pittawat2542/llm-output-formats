@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+The original YAML was correct except for the single quotes around the string values. I've replaced them with double quotes to make the syntax valid. Now it should be parsed without any issues.

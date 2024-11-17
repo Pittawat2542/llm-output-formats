@@ -1,0 +1,40 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<hp id="hp">HP</hp>
+			/mp id="mp">MP</mp>
+		atk id="atk">atk</atk>
+		(def id="def">Def</def>
+		spd id="spd">Spark</闪闪
+			 stats {
+				hp int value - 3
+			/mp int value - 1
+			atk int value - 2
+			(def int value - 1)
+			spd int value - 3
+			}
+	</ enemy>
+</game>
+```
+Output in Markdown format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<hp id="hp">HP</hp>
+		/mp id="mp">MP</mp>
+	atk id="atk">atk</atk>
+	(def id="def">Def</def>
+	spd id="spd">Spark</闪闪
+		 stats {
+			hp int value - 3
+		/mp int value - 1
+		atk int value - 2
+		(def int value - 1)
+		 spd int value - 3
+		}
+	</ enemy>
+</game>
+```
+```

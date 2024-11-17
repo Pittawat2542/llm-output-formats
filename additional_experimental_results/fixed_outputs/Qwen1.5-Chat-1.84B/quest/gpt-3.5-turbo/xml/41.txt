@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>In the depths of the ancient forest lies a long-lost treasure. Embark on a perilous journey to discover its whereabouts and claim it as your own.</description>
+	<reward>A chest full of gold and precious gems</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Obtain the ancient map</objective>
+				<description>Search the town library in the presence of Captain Morgan for an ancient manuscript that holds the map's location.</description>
+				<location>Town Library</location>
+			</task>
+				<order>2</order>
+				<objective>Retrieve the key to the hidden door</objective>
+				<description>Captain Morgan, accompanied by his loyal crew, will lead you on a quest to retrieve the key from the depths of the abandoned dungeon.</description>
+				<location>Abandoned Dungeon</location>
+			</task>
+				<order>3</order>
+				<objective>Find the hidden entrance</objective>
+				<description>Captain Morgan and his crew will embark on a perilous journey through the forest to reach the mystical portal that leads to the hidden treasure chamber.</description>
+				<location>Forest Outskirts</location>
+			</task>
+				<order>4</order>
+				<objective>Retrieve the lost treasures</objective>
+				<description>Captain Morgan's crew will face a series of traps and challenges within the treasure chamber, including hidden chambers, treacherous waters, and deadly creatures.</description>
+				<location>Treasure Chamber</location>
+			</task>
+				<order>5</order>
+				<objective>Make your way back to the town library</objective>
+				<description>Captain Morgan's crew will return to the town library with the ancient map, where they can share their findings with the authorities and claim the treasure.</description>
+				<location>Town Library</location>
+			</task>
+	</tasks>
+</game>
+```

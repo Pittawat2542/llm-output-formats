@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234567890",
+    "title": "The Great Adventure",
+    "objective": "Complete the Temple of Wisdom",
+    "description": "Save the ancient artifact and defeat the evil sorcerer",
+    "reward": "Gold, experience points, and a magical amulet",
+    "quest-giver": "Old\u6d51\u6c8c\u8001\u4eba",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the hidden entrance to the temple",
+          "description": "Search for clues in the nearby forest",
+          "location": "East Forest, near the old oak tree"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the goblin guarding the entrance",
+          "description": "Be careful; they attack in groups",
+          "location": "Goblin Hollow, by the crossroads"
+        }
+      ]
+    }
+  }
+}

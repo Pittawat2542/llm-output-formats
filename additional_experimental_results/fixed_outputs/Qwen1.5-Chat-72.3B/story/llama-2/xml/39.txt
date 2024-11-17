@@ -1,0 +1,11 @@
+There seems to be an extra space before the opening `<game>` tag, which is causing the XML to be invalid. Removing this space will fix the issue.
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```

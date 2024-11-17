@@ -1,0 +1,243 @@
+---
+{
+    "success": true,
+    "statusCode": 200,
+    "body": "{\"message\": \"Game is saved successfully!\", \"gameData\": {...}",
+}
+```
+
+
+```yaml
+- name: Create a new game
+  steps: [
+    {
+      name: "Get game data from YAML file"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: "docker run -it --rm docker://mycontainer/game-server python game.py && env_file=env.yml && docker exec -it --rm -t mycontainer/game-server python game.py"
+      }
+    },
+    {
+      name: "Save game data to YAML file"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"docker exec -it --rm mycontainer/game-server python game.py && env_file=env.yml"
+      }
+    },
+  ]
+```
+
+
+### Example 3: Use of Environment Variables in Ansible Playbooks to Interact with Cloud Resources
+In this example, we will use environment variables to interact with cloud resources through an Ansible playbook that deploys a Docker container on Kubernetes.
+
+```yaml
+- name: Deploy a Docker container on Kubernetes using environment variables
+  become: true
+  tasks: [
+    {
+      name: "Create Kubernetes cluster"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"kubectl create -f kubernetes.yaml"
+      }
+    },
+    {
+      name: "Create a deployment on Kubernetes using environment variables"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"kubectl create deployment my-deployment --image=nginx:latest --replicas=3 --env={'MY_ENV': 'testing'}"
+      }
+    },
+  ]
+```
+
+
+### Example 4: Use of Ansible Playbooks for Automated Configuration and Deployment of Cloud Resources
+In this example, we will use an Ansible playbook to automate the configuration and deployment of multiple cloud resources.
+
+```yaml
+- name: Configure and deploy AWS EC2 instances
+  become: true
+  tasks: [
+    {
+      name: "Create a security group on EC2"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"aws ec2 create-security-group --group-name my-sg --description 'Security Group for my instances' --vpc-ids vpc-1234567890abcdef0"
+      }
+    },
+    {
+      name: "Create an EC2 instance and add it to the security group"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"aws ec2 run-instances --image-id ami-0c55b159cbfafe1f0 --instance-type t2.micro --security-groups my-sg --key-name my-key --tags {'Name': 'My Instance'}"
+      }
+    },
+  ]
+```
+
+
+### Example 5: Use of Ansible Playbooks for Automated Network Configuration and Deployment
+In this example, we will use an Ansible playbook to automate the configuration and deployment of a network topology.
+
+```yaml
+- name: Configure and deploy Cisco router using Netconf
+  become: true
+  tasks: [
+    {
+      name: "Connect to router via SSH"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"ssh -i my-key-file cisco/iosxr/0123456789abcdef.txt < (hostname|ip)"
+      }
+    },
+    {
+      name: "Configure router using YAML file"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"ios-config -e 'set system name My Router' < (hostname|ip)"
+      }
+    },
+  ]
+```
+
+
+## Exercises
+1. Use the `requests` module to download a CSV file from an API and save it as a YAML file using Ansible playbook steps.
+2. Use the `os` module in Python to navigate through directory structures and create a new directory with Ansible playbook steps.
+3. Use the `boto3` module to interact with AWS S3 buckets, add data, and delete files using Ansible playbooks.
+4. Use environment variables in Ansible playbook steps to configure and deploy a Docker container on Google Cloud Platform (GCP).
+5. Use Ansible playbook steps to automate the deployment of multiple instances of a microservice on Kubernetes. 
+
+### Exercise 1 Solution:
+```yaml
+- name: Download CSV file from an API and save as YAML file using Ansible playbooks steps
+  become: true
+  tasks: [
+    {
+      name: "Download a CSV file"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"curl https://api.example.com/data.csv -o data.csv"
+      }
+    },
+    {
+      name: "Save CSV file as YAML file using Ansible playbook steps"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"ansible-playbook data.yaml --no-deps"
+      }
+    },
+  ]
+```
+
+
+### Exercise 2 Solution:
+```yaml
+- name: Create a new directory using Ansible playbook steps
+  become: true
+  tasks: [
+    {
+      name: "Create a new directory"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"mkdir mynewdirectory && cd mynewdirectory"
+      }
+    },
+  ]
+```
+
+
+### Exercise 3 Solution:
+```yaml
+- name: Interact with S3 buckets using Ansible playbook steps and AWS boto3
+  become: true
+  tasks: [
+    {
+      name: "Create an S3 bucket"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"aws s3api create-bucket --bucket mybucket --region us-east-1 > /dev/null && echo 'Created new S3 bucket' && cd /var/www/"
+      }
+    },
+    {
+      name: "Upload data to S3 bucket"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"aws s3 cp /path/to/data.csv mybucket/data.csv && echo 'Data uploaded successfully' && cd /var/www/"
+      }
+    },
+  ]
+```
+
+
+### Exercise 4 Solution:
+```yaml
+- name: Configure and deploy Docker container on Google Cloud Platform (GCP) using Ansible playbooks
+  become: true
+  tasks: [
+    {
+      name: "Create a new GCP project"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"gcloud config set project myproject && gcloud compute instances create my-instance-1 --zone us-central1-a --machine-type n1-standard-1"
+      }
+    },
+    {
+      name: "Configure Docker image using YAML file"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"curl https://raw.githubusercontent.com/example/docker-image.yaml -o docker_image.yaml && ansible-playbook DockerConfig.yaml --no-deps && echo 'Configuration loaded successfully' && cd /var/www/"
+      }
+    },
+  ]
+```
+
+
+### Exercise 5 Solution:
+```yaml
+- name: Deploy multiple instances of a microservice on Kubernetes using Ansible playbooks
+  become: true
+  tasks: [
+    {
+      name: "Create a new Kubernetes cluster"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"kubectl create -f kubernetes.yaml && echo 'Cluster created successfully' && cd /var/www/"
+      }
+    },
+    {
+      name: "Create a new microservice deployment"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"kubectl apply -f kubernetes.yaml && echo 'Deployment created successfully' && cd /var/www/"
+      }
+    },
+    {
+      name: "Create a new microservice service in the deployment"
+      runas: {
+        user: "myusername",
+        password: "mypassword",
+        command: f"kubectl expose deployment-<deployment> --type=LoadBalancer & > /var/log/nginx/access.log && echo 'Service created successfully' && cd /var/www/"
+      }
+    },
+  ]
+```

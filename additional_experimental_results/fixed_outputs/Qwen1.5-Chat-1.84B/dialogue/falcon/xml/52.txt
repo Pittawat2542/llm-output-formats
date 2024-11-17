@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<game>
+   <-dialogues>
+     <dialogue>
+      	<order>dialogue order</order>
+      	<Speaker>speaker name</Speaker>
+      	<Text>dialogue or narration</Text>
+     </dialogue>
+     <dialogue>
+      	<order>dialogue order</order>
+      	<Speaker>speaker name</Speaker>
+      	<Text>dialogue or narration</Text>
+     </dialogue>
+   </-dialogues>
+</game>
+
+```xml
+<game>
+   <Dialogues>
+     <DialogueOrder>dialogue order</DialogueOrder>
+     <Speaker>speaker name</Speaker>
+    <Text>dialogue or narration</Text>
+   </Dialogues>
+</game>

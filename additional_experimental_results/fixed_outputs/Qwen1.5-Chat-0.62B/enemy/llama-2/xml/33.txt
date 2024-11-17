@@ -1,0 +1,131 @@
+Here is the corrected XML data:
+
+```
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+  <id>1</id>
+  <name>Enemy 1</name>
+  <description>Description 1</description>
+  <stats>
+    <hp>100</hp>
+    <mp>100</mp>
+    <atk>100</atk>
+    <def>100</def>
+    <spd>100</ yapt>
+  </stats>
+  <enemy>
+    <id>2</id>
+    <name>Enemy 2</name>
+    <description>Description 2</description>
+    <stats>
+      <hp>100</hp>
+      <mp>100</mp>
+      <atk>100</atk>
+      <def>100</def>
+      <spd>100</ yapt>
+    </stats>
+    <enemy>
+      <id>3</id>
+      <name>Enemy 3</name>
+      <description>Description 3</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        <spd>100</ yapt>
+      </stats>
+    </enemy>
+    <enemy>
+      <id>4</id>
+      <name>Enemy 4</name>
+      <description>Description 4</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        < wsp>100</ wsp>
+      </stats>
+    </enemy>
+    <enemy>
+      <id>5</id>
+      <name>Enemy 5</name>
+      <description>Description 5</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        < wsp>100</ wsp>
+      </stats>
+    </enemy>
+  </game>
+]
+```
+
+The syntax error was caused by the missing closing parenthesis in line 76 of the original XML code. The corrected code corrects this issue and provides new values for the `hp`, `mp`, `atk`, `def`, and ` wsp` attributes.
+Here is the Markdown code block with the corrected data:
+
+```
+<!DOCTYPE game [
+  <id>1</id>
+  <name>Enemy 1</name>
+  <description>Description 1</description>
+  <stats>
+    <hp>100</hp>
+    <mp>100</mp>
+    <atk>100</atk>
+    <def>100</def>
+    < wsp>100</ wsp>
+  </stats>
+  <enemy>
+    <id>2</id>
+    <name>Enemy 2</name>
+    <description>Description 2</description>
+    <stats>
+      <hp>100</hp>
+      <mp>100</mp>
+      <atk>100</atk>
+      <def>100</def>
+      < wsp>100</ wsp>
+    </stats>
+    <enemy>
+      <id>3</id>
+      <name>Enemy 3</name>
+      <description>Description 3</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        < wsp>100</ wsp>
+      </stats>
+    </enemy>
+    <enemy>
+      <id>4</id>
+      <name>Enemy 4</name>
+      <description>Description 4</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        < wsp>100</ wsp>
+      </stats>
+    </enemy>
+    <enemy>
+      <id>5</id>
+      <name>Enemy 5</name>
+      <description>Description 5</description>
+      <stats>
+        <hp>100</hp>
+        <mp>100</mp>
+        <atk>100</atk>
+        <def>100</def>
+        < wsp>100</ wsp>
+      </stats>
+    </enemy>
+  </game>
+]
+```

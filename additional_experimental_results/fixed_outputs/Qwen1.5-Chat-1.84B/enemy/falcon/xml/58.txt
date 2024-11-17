@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id id="id">id</id>
+			<name name="name">
+				<description description="description">
+					<stats>
+						hp <int value="hp int value"/>
+						mp <int value="mp int value"/>
+						atk <int value="atk int value"/>
+						def <int value="def int value"/>
+						spd <int value="spd int value"/>
+					</stats>
+				</description>
+			</name>
+			<description description="description">
+				<stats>
+					hp <int value="hp int value"/>
+					mp <int value="mp int value"/>
+					atk <int value="atk int value"/>
+					def <int value="def int value"/>
+					spd <int value="spd int value"/>
+				</stats>
+			</description>
+		<enemy>
+	</enemy>
+</game>
+
+```

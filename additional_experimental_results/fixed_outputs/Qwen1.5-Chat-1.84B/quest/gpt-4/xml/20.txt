@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>The Dragon's Lair</title>
+	<objective>Defeat the fearsome dragon in his lair</objective>
+	<description>You have been tasked with navigating through the treacherous mountain path teeming with hostile creatures, into the dragon's lair to slay him and end his tyranny.</description>
+	<reward>The legendary Dragon Slayer's sword and 5000 gold coins</reward>
+	<quest-giver>The village elder</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Reach the Dragon's mountain</objective>
+			<description>Travel to the Dragon's mountain while surviving attacks from predatory animals</description>
+			<location>The Dragon's Mountain</location>
+			</task>
+				<order>2</order>
+			<objective>Slay the Dragon</objective>
+				<description>Fight and defeat the dragon in his lair</description>
+			<location>The Dragon's Lair</location>
+			</task>
+				<order>3</order>
+			<objective>Climb up the mountain</objective>
+			<description>Acclimatize to the high altitude and navigate through the treacherous terrain</description>
+			<location>The Dragon's Mountain</location>
+			</task>
+		<task>
+				<order>4</order>
+			<objective>Find the dragon's lair</objective>
+			<description>Enter the dragon's lair and confront him directly in a deadly battle</description>
+			<location>The Dragon's Lair</location>
+			</task>
+				<order>5</order>
+			<objective>Defeat the dragon</objective>
+			<description>Rid himself of the dragon's deadly breath and slay him in his lair</description>
+			<location>The Dragon's Lair</location>
+			</task>
+			</tasks>
+	</tasks>
+</game>
+```

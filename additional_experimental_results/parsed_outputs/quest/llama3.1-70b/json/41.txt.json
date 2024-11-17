@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact hidden in the Lost City of Eldarath.",
+    "description": "Legend has it that the city holds the key to unlocking unimaginable power. The people of the land are suffering, and only by retrieving this artifact can balance be restored.",
+    "reward": "The Amulet of Light and 1000 gold pieces",
+    "quest_giver": "King Arin the Wise",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the Lost City from the local townspeople",
+        "description": "Speak with the villagers in the nearby town of Willowdale to learn more about the city's location and any potential dangers.",
+        "location": "Willowdale Town Square"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve a map that leads to the Lost City from the treasure hunter, Ralthor",
+        "description": "Meet with Ralthor in his mansion on the outskirts of town and convince him to part with the map.",
+        "location": "Ralthor's Mansion"
+      },
+      {
+        "order": "3",
+        "objective": "Navigate through the treacherous forest that surrounds the Lost City",
+        "description": "Use your wits and courage to overcome obstacles and enemies as you make your way through the dark forest.",
+        "location": "Dark Forest of Shadows"
+      },
+      {
+        "order": "4",
+        "objective": "Discover and retrieve the ancient artifact from within the Lost City",
+        "description": "Explore the ruins, solve puzzles, and defeat any guardians to claim the artifact.",
+        "location": "Lost City of Eldarath"
+      }
+    ]
+  }
+}

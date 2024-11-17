@@ -1,0 +1,22 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+New values:
+- `dialogue_order`: "narration"
+- `speaker_name`: "John Doe"
+- `dialogue_text`: "Narration"

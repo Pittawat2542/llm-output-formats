@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the end of the game</ending>
+</game>
+```
+
+### Example 46
+
+
+```
+```xml
+<template>
+	<?xml version="1.0" ?>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+		}
+	</script>
+	<?xml version="1.0" ?>
+</template>
+```
+
+### Example 47
+
+
+```
+```xml
+<game>
+	<title>game title</title>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</game>
+```
+
+### Example 48
+
+
+```
+```xml
+<template>
+	<?xml version="1.0" ?>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</template>
+```
+
+### Example 49
+
+
+```xml
+<game>
+	<title>game title</title>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</game>
+```
+
+### Example 50
+
+
+```xml
+<template>
+	<?xml version="1.0" ?>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</template>
+```
+
+### Example 51
+
+
+```xml
+<game>
+	<title>game title</title>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</game>
+```
+
+### Example 52
+
+
+```xml
+<template>
+	<?xml version="1.0" ?>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</template>
+```
+
+### Example 53
+
+
+```xml
+<template>
+	<?xml version="1.0" ?>
+	<script language="javascript">
+		function playGame() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "game.xml", true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = JSON.stringify(xhr.responseText);
+				}
+			};
+			xhr.send();
+			var data = JSON.parse(xhr.responseText);
+			document.getElementById("score").innerHTML = data.score;
+		}
+	</script>
+	<?xml version="1.0" ?>
+</template>
+```
+
+### Example 54

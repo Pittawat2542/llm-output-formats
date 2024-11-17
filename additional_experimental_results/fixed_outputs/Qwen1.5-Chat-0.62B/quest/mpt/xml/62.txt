@@ -1,0 +1,249 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>Quest objective</Objective>
+	 Description>Quest description</Description>
+	 Reward>Quest reward</ Reward>
+	 Quest-giver>Quest giver</Quest-giver>
+	 Tasks:
+		<task>
+		Order: Task order
+		Objective: Task objective
+		Description: Task description
+		 Location: Task location
+		</task>
+	</game>
+```
+This corrects the syntax and provides new values for the key 'quest_giver', 'tasks' and 'objective'. The output is now in XML format and includes only the data provided in the Markdown code block. The original message is provided between ```xml and ```.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective: Quest objective
+	 Description: Quest description
+	 Reward: Quest reward
+	 Quest-giver: Quest giver
+	 Tasks:
+		<task>
+		Order: Task order
+		Objective: Task objective
+		Description: Task description
+		 Location: Task location
+		</task>
+	</game>
+```
+```yaml
+---
+- id: 1234567890abcdefg
+- title: Quest Title
+- objective: Quest Objective
+- description: Quest Description
+- reward: Quest Reward
+- quest-giver: Quest giver
+- tasks:
+  - task: Task Order
+    order: Task order
+    objective: Task objective
+    description: Task description
+    location: Task location
+
+任务1:
+order: Task Order
+objective: Task objective
+description: Task description
+location: Task location
+```
+```yaml
+---
+- id: 234567890abcdefg
+- title: Quest Title
+- Objective: Quest Objective
+- description: Quest Description
+- reward: Quest Reward
+- quest-giver: Quest giver
+- tasks:
+  - task: Task Order
+    order: Task order
+    objective: Task objective
+    description: Task description
+    location: Task location
+
+任务2:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+
+任务3:
+order: Task Order
+objective: Task objective
+description: Task description
+location: Task location
+```
+```yaml
+---
+- id: 4567890abcdefg
+- title: Quest Title
+- Objective: Quest Objective
+- description: Quest Description
+- reward: Quest Reward
+- quest-giver: Quest giver
+- tasks:
+  - task: Task Order
+    order: Task order
+    objective: Task objective
+    description: Task description
+    location: Task location
+
+任务4:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+
+任务5:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+
+任务6:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+
+任务7:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+
+任务8:
+order: Task Order
+objective: Task Objective
+description: Task description
+location: Task location
+```
+```yaml
+---
+- id: 1234567890abcdefg
+- title: Quest Title
+- objective: Quest Objective
+- description: Quest Description
+- reward: Quest Reward
+- quest-giver: Quest giver
+- tasks:
+    - task: Task Order
+      order: Task order
+      objective: Task objective
+      description: Task description
+      location: Task location
+    - task: Task Order
+      order: Task order
+      objectives: [Objective1, Objective2]
+      description: Task description
+      location: Task location
+    - task: Task Order
+      order: Task order
+      objective: [Objective3, Objective4]
+      description: Task description
+      location: Task location
+
+Objectives:
+  - Objective1
+    description: Quest description forObjective 1
+      location: Task location
+  - Objective2
+    description: Quest description forObjective 2
+      location: Task location
+  - Objective3
+    description: Quest description forObjective 3
+      location: Task location
+
+Objectives:
+  - Objective4
+    description: Quest description forObjective 4
+      location: Task location
+```
+```yaml
+---
+- id: 1234567890abcdefg
+- title: Quest Title
+- objective: Quest Objective
+- description: Quest Description
+- reward: Quest Reward
+- quest-giver: Quest giver
+- tasks:
+    - task: Task Order
+      order: Task order
+      objectives: [Objective1, Objective2]
+      description: Task description
+      location: Task location
+
+任务1:
+order: Task Order
+objective: Task objective
+description: Quest description forObjective 1
+      location: Task location
+    - task: Task Order
+      order: Task order
+      objectives: [Objective3, Objective4]
+      description: Task description
+      location: Task location
+
+任务2:
+order: Task Order
+objective: Task objective
+description: Quest description forObjective 2
+      location: Task location
+    - task: Task Order
+      order: Task order
+      objectives: [Objective1, Objective2]
+      description: Task description
+      location: Task location
+
+任务3:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 3
+      location: Task location
+
+任务4:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 4
+      location: Task location
+
+任务5:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 5
+      location: Task location
+
+任务6:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 6
+      location: Task location
+
+任务7:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 7
+      location: Task location
+
+任务8:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 8
+      location: Task location
+
+任务9:
+order: Task Order
+objective: Task objective
+description: Quest description for Objective 9
+      location: Task location

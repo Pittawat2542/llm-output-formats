@@ -1,0 +1,40 @@
+```yaml
+game:
+  character:
+    age: "23"
+    background: "I'm an alien from planet Pteros."
+    first_name: Sam
+    id: "a32d0c9"
+    last_name: "Winchester"
+    physical_appearance:
+     - eye_color: green
+      hair_color: blonde
+      height: 5' 8"  # Added a floating point number for height
+      weight: 130 lbs  # Added a floating point number for weight
+    place_of_birth: Epping Forest
+    role: "Assistant to the Doctor and Amy Pond"
+    species: "Race of Gallifreyan"  # Changed the "Species" field to "Race of Gallifreyan"
+
+    description:
+      - Description of physical appearance goes here
+
+# Character Description
+Age: 23
+Background: "I'm an alien from planet Pteros."
+First Name: Sam
+ID: "a32d0c9"
+Last Name: Winchester
+Physical Appearance:
+
+  * Eye Color: green
+  * Hair Color: blonde
+  * Height: 5' 8" (fetched from the physical appearance field)
+  * Weight: 130 lbs (fetched from the physical appearance field)
+
+Place of Birth: Epping Forest
+Role: "Assistant to the Doctor and Amy Pond"
+Species: "Race of Gallifreyan"  # Changed the "Species" field to "Race of Gallifreyan"
+
+Description:
+- Description of physical appearance goes here
+```

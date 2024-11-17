@@ -1,0 +1,37 @@
+```yaml
+game:
+  description: 'Find the missing gems to restore peace in the kingdom'
+  id: 'KingdomGems001'
+  objective:
+    - Name: Retrieve All Four Gems
+      Values:
+        - Sapphire
+        - Emerald
+        - Ruby
+        - Amethyst
+  quest_giver: King Alder
+  reward:
+    - Type: Gold
+      Amount: 1000
+    - Type: Badge
+      Name: Gem Finder
+  tasks:
+  - description: 'Find the Sapphire gem in the Northern Caves'
+    location: Northern Caves
+    objective: Retrieve Sapphire Gem
+    order: 1
+  - description: 'Find the Emerald gem in the Forbidden Forest'
+    location: Forbidden Forest
+    objective: Retrieve Emerald Gem
+    order: 2
+  - description: 'Find the Ruby gem in Dragon's Mountain'
+    location: Dragon's Mountain
+    objective: Retrieve Ruby Gem
+    order: 3
+  - description: 'Find the Amethyst gem in the Underwater Ruins'
+    location: Underwater Ruins
+    objective: Retrieve Amethyst Gem
+    order: 4
+  title: 'Quest: The Kingdom\'s Gems'
+
+```

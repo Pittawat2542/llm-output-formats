@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath.",
+    "description": "Rumors have surfaced about a long-abandoned city deep in the heart of the mystical forest. Legends say that this city, known as Eldarath, holds an artifact of immense power and wisdom. Many adventurers before you have attempted to find it but never returned. Will you be the one to finally claim it?",
+    "reward": "Upon completion, you will receive 1000 gold coins, a boost in reputation among your peers, and access to exclusive items only available through this quest.",
+    "quest-giver": "Elder Arin of the Woodland Council",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about Eldarath's location from local scholars and villagers.",
+          "description": "Talk to the locals in Willowdale Village. Some might have heard tales or know stories passed down through generations that could help pinpoint the location of Eldarath.",
+          "location": "Willowdale Village"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the mystical forest to reach the entrance of Eldarath.",
+          "description": "Once you have a general idea where Eldarath might be, head into the mystical forest. Be cautious as the path is treacherous and filled with magical creatures and puzzles that must be solved to continue your journey.",
+          "location": "Mystical Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Explore Eldarath, avoid its traps, and find the artifact.",
+          "description": "After reaching the Lost City, explore carefully. The city is ancient and filled with deadly traps set to protect the artifact from would-be thieves. Use your wits and skills to overcome these obstacles and reach the artifact before it's too late.",
+          "location": "Lost City of Eldarath"
+        },
+        {
+          "order": "4",
+          "objective": "Return the artifact to Elder Arin in Willowdale Village.",
+          "description": "Once you have the artifact, begin your journey back. Be on high alert as news of your possession might attract unwanted attention from dark forces seeking to claim it for themselves. Return safely to Elder Arin and hand over the artifact to complete the quest.",
+          "location": "Willowdale Village"
+        }
+      ]
+    }
+  }
+}

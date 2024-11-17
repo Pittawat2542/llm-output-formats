@@ -1,0 +1,43 @@
+To fix the incorrect syntax, you need to add a closing tag `</` around the opening tag `< enemy>`. Here is the corrected code:
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<!-- Add a closing tag here -->
+			<description>description</description>
+			<!-- Add more attributes and values -->
+			<stats>
+			<hp>hp int value</hp>
+				mp>mp int value</mp>
+				atk>atk int value</atk>
+				def>def int value</def>
+				spd>spd int value</纺
+			<//stats>
+	</enemy>
+</game>
+```
+
+Now the code looks correct and the XML is in Markdown format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<!-- Add a closing tag here -->
+			<description>description</description>
+			<!-- Add more attributes and values -->
+			<stats>
+				hp: 50
+			mp: 70
+			atk: 80
+			(def: 90)
+			纺: 100
+			</stats>
+	</ enemy>
+</game>
+```
+
+In this example, there is an error in the line 16 of the code. The closing tag should be `</` to fix the syntax and ensure that the XML data is well-formed.

@@ -1,0 +1,50 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				order>dialogue order</order>
+				speaker>speaker name</Speaker>
+				text>dialogue or narration</text>
+			</dialogue>
+		</dialogues>
+	</game>
+</xml>
+```
+
+### Example
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				speak order:dialogue order</order>
+				text:dialogue or narration</text>
+			</dialogue>
+		</dialogues>
+	</game>
+```
+
+### Example
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			speak speaker order:dialogue order</order>
+			text:dialogue or narration</text>
+			</dialogues>
+		</dialogues>
+	</game>
+```
+
+### Example
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			speak speaker order:dialogue order</order>
+			text:dialogue or narration
+			</dialogues>
+		</dialogues>
+	</game>
+```

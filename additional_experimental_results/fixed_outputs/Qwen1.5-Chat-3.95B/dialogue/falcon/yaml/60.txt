@@ -1,0 +1,16 @@
+The YAML data needs to be structured properly and include a `game` object with `dialogues` array. Here is the correct syntax:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+Here is the updated YAML content in YAML format:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+``

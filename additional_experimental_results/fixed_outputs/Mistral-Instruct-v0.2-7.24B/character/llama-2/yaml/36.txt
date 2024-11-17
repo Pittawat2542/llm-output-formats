@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: "Eighteen"
+    background: The character is a high school student.
+    first_name: John
+    id: 1
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: black
+      height: 6.0
+      weight: 145.0
+    place_of_birth: Chicago
+    role: student
+    species: human
+```
+In the original YAML, there were no issues found, but to maintain consistency with the provided template and to follow YAML conventions for string values, I added double quotes around the string value "Eighteen" for the age property.

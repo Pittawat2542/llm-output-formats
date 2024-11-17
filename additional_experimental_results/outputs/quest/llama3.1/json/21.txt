@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "Q001",
+        "title": "The Missing Heirloom",
+        "objective": "Retrieve the stolen family heirloom from the mischievous raccoons.",
+        "description": "Your grandmother's favorite necklace has been pilfered by a group of sneaky raccoons. She is heartbroken and needs you to retrieve it for her.",
+        "reward": "A Golden Acorn, which grants +10% experience points in Herbology.",
+        "quest_giver": "Grandma Whiskers",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Locate the raccoons' hideout",
+                "description": "Find the entrance to the raccoons' underground lair. It's hidden behind a waterfall in the Whispering Woods.",
+                "location": "Whispering Woods, near the Old Oak Tree"
+            },
+            {
+                "order": 2,
+                "objective": "Retrieve the necklace",
+                "description": "Confront the ring leader of the raccoons and retrieve your grandmother's heirloom. Be prepared for a fight!",
+                "location": "The Raccoon Hideout, Deep within Whispering Woods"
+            },
+            {
+                "order": 3,
+                "objective": "Return the necklace to Grandma Whiskers",
+                "description": "Bring the recovered necklace back to your grandmother and receive your reward.",
+                "location": "Grandma's Cottage, in the Heartwood Village"
+            }
+        ]
+    }
+}
+```

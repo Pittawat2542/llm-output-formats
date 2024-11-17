@@ -1,0 +1,38 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>A Perilous Journey</title>
+	<objective>Retrieve the stolen artifact from the dragon's lair.</objective>
+	<description>A local village has been terrorized by a dragon that has stolen a powerful artifact. The villagers have enlisted the player to retrieve it.</description>
+	<reward>A large sum of gold and the gratitude of the villagers.</reward>
+	<quest-giver>Elder Brendon</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the dragon's lair.</objective>
+			<description>The dragon's lair is located in the mountains to the north.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the dragon.</objective>
+			<description>The dragon is a powerful creature, so be prepared for a difficult fight.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the stolen artifact.</objective>
+			<description>Once the dragon is defeated, search its lair for the stolen artifact.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the artifact to the villagers.</objective>
+			<description>Once you have retrieved the artifact, return it to the villagers.</description>
+			<location>Village</location>
+		</task>
+	</tasks>
+</game>
+```

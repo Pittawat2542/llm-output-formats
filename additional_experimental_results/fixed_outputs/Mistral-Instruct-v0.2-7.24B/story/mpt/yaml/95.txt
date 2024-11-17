@@ -1,0 +1,10 @@
+```yaml
+game:
+  title: Tutorial Game
+  beginning: the beginning of the game
+  ending: "no game: the ending of the game" # Change to string or dictionary format
+  synopsis: game story synopsis
+
+```
+
+Explanation: Incorrect usage of mapping values inside a scalar value. Corrected it by changing the `ending` key to a string for the original value or dictionary if a new value is given.

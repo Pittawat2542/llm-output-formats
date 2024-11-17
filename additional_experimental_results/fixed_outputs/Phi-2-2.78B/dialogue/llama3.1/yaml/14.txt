@@ -1,0 +1,32 @@
+ ```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+
+```
+```python
+import yaml
+
+def fix_incorrect_syntax(data):
+    try:
+        # Parse the YAML string and print the result
+        parsed = yaml.safe_load(data)
+        print(parsed)
+    except yaml.YAMLError as error:
+        # If there is an error, raise an exception with the error message
+        raise Exception(error)
+
+try:
+    # Define the input YAML string with incorrect syntax
+    input_yaml = """game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: 'You are in a dark room. There is a door to your left, right, and forward.'
+  - order: 2
+    speaker: Guard
+    text: 
+        Halt! Who goes there?'
+  - order: 

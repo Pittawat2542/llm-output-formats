@@ -1,0 +1,49 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<!-- Add new values for the order and speaker -->
+			<dialogue>
+				<!-- Add new values for the text -->
+			</dialogue>
+			<!-- Add new values for the order -->
+			<dialogue>
+				<!-- Add new values for the speaker -->
+			</dialogue>
+		</dialogues>
+	</game>
+</xml>
+```
+
+The corrected syntax is:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<!-- Add new values for the order -->
+			<dialogue>
+				<!-- Add new values for the speaker -->
+			</dialogue>
+			<!-- Add new values for the text -->
+			<dialogue>
+				<!-- Add new values for the order -->
+			</dialogue>
+		</dialogues>
+	</game>
+</xml>
+```
+
+The new values added in the `order` and speaker variables are:
+
+```
+<dialogue>
+	<order>dialogue order</order>
+	<speaker>Speaker name</speaker>
+</dialogue>
+
+<dialogue>
+	<title>Dialog or narration</title>
+	<person>Person name</person>
+</dialogue>
+```

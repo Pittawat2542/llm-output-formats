@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Dragon's Defeat",
+    "objective": "Defeat the dragon terrorizing the village",
+    "description": "The village has been under the shadow of a fierce dragon for weeks. Help them by defeating the dragon and bringing peace back.",
+    "reward": "500 gold coins and the Dragon Slayer's Sword",
+    "quest-giver": "Elderman Tao",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the dragon's lair",
+          "description": "Locate the dragon's lair and find a safe way to approach it",
+          "location": "Whispering Hill"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon",
+          "description": "Confront the dragon and slay it",
+          "location": "Dragon's lair"
+        }
+      ]
+    }
+  }
+}

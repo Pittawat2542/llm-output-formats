@@ -1,0 +1,33 @@
+The correct XML data is given in the provided Markdown code block. The original message between ```xml and ``` is provided between ```xml and ```.
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				order>dialogue order</order>
+				speaker>speaker name</ Speaker>
+				text>dialogue or narration</text>
+			.dialogue>
+		.dialogues>
+	</game>
+</game>
+```
+
+The output in XML format is:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			speaker>speaker name</ speaker>
+			text>dialogue or narration</text>
+			<dialogue>
+		-dialogues>
+	</game>
+</game>
+```
+
+This is the correct XML data.

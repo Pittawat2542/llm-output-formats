@@ -1,0 +1,39 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>QST-123</id>
+    <title>Return of the Lost Amulet</title>
+    <objective>Recover the lost Amulet of Power from the depths of the Ancient Ruins.</objective>
+    <description>The Amulet of Power, a legendary artifact, has been stolen and is now hidden deep within the Ancient Ruins. Recover it and return it to the Archmage of the Arcane Order, Alderon.</description>
+    <reward>Amulet of Power (Legendary Artifact), 10,000 Gold, 10,000 Experience Points</reward>
+    <quest-giver>Archmage Alderon</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Locate the Entrance to the Ancient Ruins.</objective>
+            <description>Uncover the entrance's mystery by examining local legends. The location is at Ruins of Oldhaven.</description>
+            <location>Ruins of Oldhaven</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Clear the Path to the Lost Amulet.</objective>
+            <description>Defeat creatures and overcome traps to reach the entrance. Location: Ancient Ruins - Entrance.</description>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Solve the Puzzle of the Ancient Guardians.</objective>
+            <description>Solve the riddle at the Inner Sanctum to bypass guardians. Location: Ancient Ruins - Inner Sanctum.</description>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Retrieve the Lost Amulet.</objective>
+            <description>Carefully retrieve the amulet from the Vault of Power, guarded by powerful enchantments. Location: Ancient Ruins - Vault of Power.</description>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return the Lost Amulet to Archmage Alderon.</objective>
+            <description>Deliver the amulet to the Arcane Sanctum, where you'll receive your reward and witness its restoration. Location: Arcane Sanctum.</description>
+        </task>
+    </tasks>
+</game>
+```

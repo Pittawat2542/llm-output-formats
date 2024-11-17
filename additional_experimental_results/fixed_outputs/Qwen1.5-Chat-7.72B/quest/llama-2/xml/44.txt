@@ -1,0 +1,24 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete objectives in the forest</objective>
+    <description>Find and defeat the ancient dragon to receive the reward.</description>
+    <reward>Gold, experience points, and a rare item</reward>
+    <quest-giver>Local blacksmith</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Collect 10 wooden logs</objective>
+            <description>Go to the northwestern edge of the forest</description>
+            <location>Forest Clearing N</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Skip stones across the river</objective>
+            <description>Test your aim at the river's east bank</description>
+            <location>River East Bank</location>
+        </task>
+    </tasks>
+</game>
+```

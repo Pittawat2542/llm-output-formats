@@ -1,0 +1,25 @@
+Here is a generated quest information in YAML format:
+
+```yaml
+game:
+  description: The village of Oakwood is plagued by a group of bandits who have taken over the old windmill on the outskirts of town. They have been stealing food and supplies from the villagers, leaving many without.
+  id: QST001
+  objective: Help the villagers of Oakwood by clearing out the bandits from the old windmill.
+  quest_giver: Thorne, the village elder
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    items:
+      - healing_potion
+      - leather_armor
+  tasks:
+  - description: Gather information about the bandits' movements and numbers.
+    location: Oakwood Village Inn
+    objective: Talk to the villagers and gather information.
+    order: 1
+  - description: Infiltrate the old windmill and take out the bandit leader.
+    location: Old Windmill
+    objective: Defeat Grimgar Ironfist, the bandit leader.
+    order: 2
+  title: "Cleaning Out the Windmill"
+```

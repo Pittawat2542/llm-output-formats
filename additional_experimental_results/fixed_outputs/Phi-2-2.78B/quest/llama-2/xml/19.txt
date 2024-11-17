@@ -1,0 +1,150 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456789</id>
+	<title>The quest of the red dragon</title>
+	<objective>You must defeat the red dragon</objective>
+	<description>You must defeat the red dragon</description>
+	<reward>10000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>You must defeat the red dragon</objective>
+			<description>You must defeat the red dragon</description>
+			<location>The red dragon's cave</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>You must defeat the red dragon</objective>
+			<description>You must defeat the red dragon</description>
+			<location>The red dragon's cave</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>You must defeat the red dragon</objective>
+			<description>You must defeat the red dragon</description>
+			<location>The red dragon's cave</location>
+		</task>
+	</tasks>
+</game>
+``` [/FIX]
+
+### Task 1:
+
+Write a function called `clean_xml` that takes in an XML string and returns the cleaned up version. The input string may contain errors like missing tags, invalid syntax or incorrect values. 
+
+
+### Idea for solution:
+
+1. Parse the input string as an xml document using an ElementTree object.
+2. Traverse through each element in the tree and clean it up by adding missing tags, correcting value types or removing invalid data.
+3. Return a new XML string with all the cleaned elements.
+
+
+### Solution:
+```python
+import xml.etree.ElementTree as ET
+from typing import List
+
+
+def clean_xml(input_string: str) -> str:
+    """Clean up an XML document by adding missing tags, correcting value types or removing invalid data."""
+    tree = ET.XML(input_string)  # Parse the input string as an xml document using ElementTree object
+    root = tree.getroot()
+
+    for child in root:
+        if child.text and not child.tail:
+            child.tail = "\n"
+        elif child.tail:
+            child.text = ""  # remove any trailing whitespace
+        if isinstance(child, ET.Comment):
+            child.tag = "comment"
+
+    for child in root:
+        child_string = ET.tostring(child, encoding='unicode', method="xml")
+        new_node = ET.fromstring(child_string)
+        if new_node.tag is None:
+            continue
+        elif new_node.tag == "comment":
+            continue
+        else:
+            root.remove(child)
+
+    return ET.tostring(root, encoding='unicode', method="xml")  # Return a new XML string with all the cleaned elements
+```
+
+### Task 2:
+
+Write a function called `filter_by_value` that takes in an XML document and a value to filter by and returns a new XML document with only the elements that have the specified value.
+
+
+### Idea for solution:
+
+1. Parse the input string as an xml document using an ElementTree object.
+2. Traverse through each element in the tree and check if its attribute matches the value passed to the function.
+3. If it does, add that element to a new list of nodes.
+4. Create a new XML string from the list of nodes and return it.
+
+
+### Solution:
+```python
+import xml.etree.ElementTree as ET
+from typing import List
+
+
+def filter_by_value(input_string: str, attribute_name: str, value: str) -> str:
+    """Filter an XML document by a specific attribute and return the new filtered document."""
+    tree = ET.XML(input_string)  # Parse the input string as an xml document using ElementTree object
+    root = tree.getroot()
+
+    filtered_elements = []
+    for child in root:
+        if getattr(child, attribute_name) == value:
+            filtered_elements.append(child)
+
+    return ET.tostring(ET.ElementTree(element=filtered_elements).getroot())  # Create and return a new XML string with the filtered elements
+```
+
+### Task 3:
+
+Write a function called `add_task` that takes in an XML document, adds a task to it, then returns the updated document.
+
+
+### Idea for solution:
+
+1. Parse the input string as an xml document using an ElementTree object.
+2. Traverse through each element in the tree and check if it is already a list of tasks.
+3. If it isn't, add an `<task>` tag to the tree with the appropriate attributes.
+4. Create a new XML string from the modified elements and return it.
+
+
+### Solution:
+```python
+import xml.etree.ElementTree as ET
+from typing import List
+
+
+def add_task(input_string: str, order: int, objective: str, description: str, location: str) -> str:
+    """Add a task to an existing XML document and return the updated document."""
+    tree = ET.XML(input_string)  # Parse the input string as an xml document using ElementTree object
+    root = tree.getroot()
+
+    for child in root:
+        if not isinstance(child, list):
+            continue
+        task_list = child
+
+    new_node = ET.Element("task")
+    new_node.set('order', str(order))
+    new_node.set('objective', objective)
+    new_node.set('description', description)
+    new_node.set('location', location)
+
+    for task in task_list:
+        task.append(new_node)
+
+    return ET.tostring(root, encoding='unicode', method="xml")  # Return a new XML string with all the tasks added
+```
+
+

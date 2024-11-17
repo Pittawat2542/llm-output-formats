@@ -1,0 +1,43 @@
+XML:
+```xml
+<?xml version="1.0" ?> 
+<game 
+	id="id"
+	title="quest title"
+	objective="quest objective"
+>Description="quest description")
+	Reward="quest reward">
+	<Quest-Giver> quest giver</quest-giver>
+	<Tasks>
+		<Task>
+			<Order>task order</Order>
+			<Objective> task objective</Objective>
+			Description=" task description"
+				Location=" task location"
+			</Task>
+		<Task
+			.Order> 2 </Order>
+			Objective=" travel to the dragon's lair."
+			Description=" The dragon's lair is located in the mountains to the north. It is a dangerous journey, but the reward is worth the risk."
+				Location="The mountains to the north"
+			</Task>
+		<Task
+			.Order> 3 </Order>
+			Objective=" fight the dragon."
+			Description=" The dragon is a powerful creature, but you must defeat it to claim its hoard of gold." 
+				Location="The dragon's lair"
+			</Task>
+		<Task
+			.Order> 4 </Order>
+			Objective=" claim the dragon's hoard of gold."
+			Description=" Once you have defeated the dragon, you can claim its hoard of gold. The gold is located in a chamber deep within the dragon's lair." 
+				Location="The dragon's lair"
+			</Task>
+		<Task
+			.Order> 5 </Order>
+			Objective=" report to the king." 
+			Description=" After you have defeated the dragon, you can report to the king. The gold is located in a chamber deep within the dragon's lair." 
+				Location="The dragon's lair"
+			</Task>
+	</Tasks> 
+</game>

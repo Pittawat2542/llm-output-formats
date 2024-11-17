@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": {
+      "@name": "NPC Name",
+      "location": {
+        "@x": "0",
+        "@y": "0",
+        "@z": "0"
+      }
+    },
+    "tasks": {
+      "task": {
+        "@id": "1",
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": {
+          "@x": "0",
+          "@y": "0",
+          "@z": "0"
+        }
+      }
+    }
+  }
+}

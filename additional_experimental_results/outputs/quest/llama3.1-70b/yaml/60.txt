@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the dark sorcerer, Xarath.
+  id: QST001
+  objective: Defeat Xarath and claim the Sword of Light.
+  quest_giver: Sir Edward, the king's advisor
+  reward: 
+    experience: 1000
+    gold: 500
+    items: [Sword of Light, Shield of Courage]
+  tasks:
+  - description: Meet with Sir Edward to receive the quest briefing.
+    location: Castle Throne Room
+    objective: Receive quest briefing from Sir Edward
+    order: 1
+  - description: Journey to Xarath's lair and defeat his minions.
+    location: Dark Forest
+    objective: Defeat 10 dark cultists
+    order: 2
+  - description: Face off against Xarath in an epic battle.
+    location: Xarath's Lair
+    objective: Defeat Xarath
+    order: 3
+  title: The Quest for the Sword of Light
+```

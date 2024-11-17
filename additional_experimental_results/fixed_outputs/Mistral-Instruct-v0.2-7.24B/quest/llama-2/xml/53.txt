@@ -1,0 +1,26 @@
+```xml
+<game>
+	<id>15</id>
+	<title>Quest of the Lost King</title>
+	<objective>Find the lost king</objective>
+	<description>The king has gone missing and you must find him.</description>
+	<reward>100 gold</reward>
+	<quest-giver>King of the land</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the king</objective>
+			<description>The king has gone missing and you must find him.</description>
+			<location>The forest</location>
+		</task>
+	</tasks>
+</game>
+```
+### Explanation:
+The problem with the original XML was that the second task had the same location as the first task. To fix this issue, we changed the location of the second task to "The forest" in the corrected example above. This ensures that each task has a unique location and the XML is well-formed.

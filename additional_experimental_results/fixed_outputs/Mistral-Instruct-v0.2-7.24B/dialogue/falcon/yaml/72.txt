@@ -1,0 +1,17 @@
+
+```yaml
+Alice:
+  dialogues:
+  - order: dialogue order
+    dialogue:
+      order: 1
+      speaker: Alice
+      text: The day is sunny.
+Bob:
+  dialogues:
+  - order: speaker order of dialogue
+    dialogue:
+      order: 2
+      speaker: Bob
+      text: This is a nice speech.
+```

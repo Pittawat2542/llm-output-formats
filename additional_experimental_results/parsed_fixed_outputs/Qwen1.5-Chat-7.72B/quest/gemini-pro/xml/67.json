@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "2345",
+    "title": "Conquer the Dark Wyrm",
+    "objective": "Defeat the Dark Wyrm, the source of the evil in Shadowmont.",
+    "description": "The village of Shadowmont has been plagued by a malevolent force in the form of the Dark Wyrm. Its dark magic terrorizes the locals and disrupts the balance of nature. You are tasked with vanquishing this creature to restore peace.",
+    "reward": "A powerful artifact, a magical potion, and the gratitude of the villagers.",
+    "quest-giver": "Eldrin, the wise wizard in Shadowmont.",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Acquire a magical shield from Eldrin.",
+          "description": "Visit Eldrin and ask him for his special magical shield. It will be essential for facing off against the Dark Wyrm's dark powers.",
+          "location": "Shadowmont Wizard Tower"
+        },
+        {
+          "order": "2",
+          "objective": "Research the creature's weaknesses.",
+          "description": "Examine ancient tomes in the library and seek counsel from Eldrin. Uncover the Dark Wyrm's vulnerable spots to exploit during combat.",
+          "location": "Shadowmont Library"
+        },
+        {
+          "order": "3",
+          "objective": "Travel to the Dark Wyrm's lair.",
+          "description": "The lair is hidden deep within a cursed forest, south of Shadowmont. Be cautious and prepared for dark magic.",
+          "location": "Cursed Forest"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the Dark Wyrm and restore peace.",
+          "description": "Battle the Dark Wyrm with your shield and the knowledge you gained. Success will bring an end to its reign of terror.",
+          "location": "Dark Wyrm's Lair"
+        },
+        {
+          "order": "5",
+          "objective": "Return to Shadowmont and claim your reward.",
+          "description": "Deliver the Dark Wyrm's defeated body to Eldrin, and he will reward you with the artifact and a new chapter in the village's history.",
+          "location": "Shadowmont Village Hall"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Retrieve the ancient Scepter of Light from the long-abandoned Eldar Ruins"
+  id: 001
+  objective: Defeat the darkness that threatens to engulf the land
+  quest_giver: High Priestess Elara
+  reward: +10 Light Resistance, Scepter of Light
+  tasks:
+  - description: "Speak with the enigmatic Sage, Kael, in the town of Willowdale"
+    location: Town of Willowdale, near the local tavern
+    objective: Gather information about the Eldar Ruins
+    order: 1
+  - description: "Explore the ancient Eldar Ruins, navigating treacherous traps and puzzles"
+    location: Eldar Ruins, hidden deep within a mystical forest
+    objective: Retrieve the Scepter of Light from its pedestal
+    order: 2
+  - description: "Return to High Priestess Elara with the Scepter of Light"
+    location: Temple of Light, located near the town of Willowdale
+    objective: Complete the quest and receive your reward
+    order: 3
+  title: The Lost Scepter of Light
+```

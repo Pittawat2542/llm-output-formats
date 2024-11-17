@@ -1,0 +1,35 @@
+Corrected XML data:
+```xml
+Your enemy is:
+
+<enemy id="id">
+    <name>name</name>
+    <description>description</description>
+    <stats>
+        <hp>40</hp>
+        <mp>15</mp>
+        <atk>12</atk>
+        <def>3</def>
+        <spd>18</ spd>
+    </stats>
+</enemy>
+
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy id="id">
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>40</hp>
+			<mp>15</mp>
+			<atk>12</atk>
+			<def>3</def>
+			<spd>18</ spd>
+		</stats>
+	</enemy>
+
+</game>
+```

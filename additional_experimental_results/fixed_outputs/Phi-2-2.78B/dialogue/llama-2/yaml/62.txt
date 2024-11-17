@@ -1,0 +1,138 @@
+
+## Exercises
+
+1. Modify the example code for multiple dialogue options to add a new option that triggers an error message when selected by the user.
+
+```python
+from typing import List, Dict
+
+dialogues = [
+    {"id": 1, "text": "Hello"},
+    {"id": 2, "text": "What do you want?"},
+    {"id": 3, "options": ["Order", "Help"]},
+    {"id": 4, "options": {"order": 1, "help": 2}},
+    {"id": 5, "text": "Okay"},
+    {"id": 6, "text": "Thank you"}
+]
+
+def handle_dialogue(message):
+    if message["type"] == "text":
+        for d in dialogues:
+            if d["id"] == int(message["data"].get("text")):
+                return {"text": d["text"]}
+
+    elif message["type"] == "select":
+        options = []
+        selected_option = None
+        for i, option in enumerate([1, 2]):
+            options.append({"id": i+1, "label": f"Option {option}"})
+            options[i]["value"] = message["data"].get("select", i+1)
+
+        if selected_option:
+            return {"text": f"You already selected option {selected_option['label']}."}
+
+        # check if any options trigger error
+        for d in dialogues:
+            if d.get("options") and d["options"].get("order") == int(message["data"]["select"]):
+                return {"text": "Error", "error": "Order option is currently not available."}
+
+        selected_option = options[int(message["data"]["select"])-1]
+        if selected_option:
+            return {"text": f"You selected {selected_option['label']}. Thank you.", "options": [{"id": 1, "value": 3}, {"id": 2, "value": 4}]}
+    elif message["type"] == "error":
+        return {"text": "Sorry, I don't understand.", "options": [{"id": 1, "label": "Order"}, {"id": 2, "label": "Help"}]}
+
+
+```
+
+2. Create a new dialogue option that triggers a sub-dialogue with two speakers who have different responses to the user's input.
+
+```python
+from typing import Dict
+
+sub_dialogues = [
+    {
+        "id": 1,
+        "text": "What do you want?",
+        "options": ["Order", "Help"],
+        "outcomes": {
+            1: {"id": 2, "text": "I need help with my homework."},
+            2: {"id": 3, "text": "Okay, I'll help you."}
+        }
+    },
+    {
+        "id": 2,
+        "text": "What do you mean?",
+        "options": ["No, I want something else.", "Sorry, I'm not sure what you're asking for."],
+        "outcomes": {
+            1: {"id": 4, "text": "Okay, what can I get for you?"},
+            2: {"id": 5, "text": "I don't know what I want yet."}
+        }
+    }
+]
+
+def handle_sub_dialogue(message):
+    if message["type"]:
+        options = {
+            1: {"id": 2, "text": "I need help with my homework."},
+            2: {"id": 3, "text": "Okay, I'll help you."}},
+
+    if response == 1:
+        dialogues.append({"id": 6, "text": "You want to order?"})
+```
+
+3. Modify the code for multiple dialogue options to allow the user to repeat a sub-dialogue by selecting an option again that triggers the same sub-dialogue.
+
+```python
+from typing import List
+
+
+
+def handle_sub_dialogue(message):
+    if message["type":]:
+        options = {
+            1: {"id": 2, "text": "I want to order a drink."},
+            2: {"id": 3, "text": "I'm here. Thank you."}
+        return {"text": "Sorry, I don't know what you're asking for.", "options": [{"id": 1, "label": "No, I can't help you.","}, {{"id": 2, "label": 'Order',',},}}}
+```
+
+4. Create a new dialogue option that triggers an error message when the user selects it.
+
+```python
+from typing import List
+
+
+def handle_sub_dialogue(message):
+    if message["type":]:
+        options = {
+            1: {"id": 2, "text": "I want to order a drink."},
+            2: {"id": 3, "text": "You're here. Thank you."}
+        return {"text": "Sorry, I can't help you.", "options": [{"id": 1, "label": "No","},]}
+```
+
+5. Add a new dialogue option that triggers a sub-dialogue with two speakers who have different responses to the user's input. 
+
+### Solution:
+
+```python
+from typing import List
+
+
+def handle_sub_dialogue(message):
+    if message["type":]:
+        options = {
+            1: {"id": 2, "text": "I want a drink."},
+            2: {"id": 3, "text": "You're here. Thank you."}
+        return {"text": "No", "options": [{"id": 1, "label": 'No',}}}
+```
+
+### Solution: 
+
+1.
+
+### Response:
+
+4.
+
+5.
+

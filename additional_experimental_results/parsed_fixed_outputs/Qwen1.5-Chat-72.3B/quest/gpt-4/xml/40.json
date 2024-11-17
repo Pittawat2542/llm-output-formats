@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST101",
+    "title": "Dragon's Desolation",
+    "objective": "Defeat the mighty Dragon",
+    "description": "The Dragon has ravaged the nearby village. Your mission is to track down and defeat the Dragon.",
+    "reward": "5000 gold coins and Legendary Dragon Slayer Sword",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find clues about Dragon's location",
+          "description": "Search the destroyed village and nearby forest for any clues leading to Dragon's location.",
+          "location": "Village Alfres"
+        },
+        {
+          "order": "2",
+          "objective": "Track down the Dragon",
+          "description": "Use the clues collected to track down and locate the Dragon.",
+          "location": "Misty Mountains"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Dragon",
+          "description": "Fight and defeat the Dragon to bring peace to the village.",
+          "location": "Dragon's Den, Misty Mountains"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure Quest",
+    "objective": "Find the Captain's treasure and outsmart the island's guardians",
+    "description": "Embark on a perilous journey with quest giver, Captain Morgan. Your mission is to locate the map in the ancient temple and proceed to the hidden island. Success brings 1000 gold coins and a mystical artifact.",
+    "reward": "1000 gold coins, rare artifact",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Uncover the map's location in the temple's hidden chamber",
+        "description": "Watch out for traps and mythical creatures as you seek the map. Follow its clues to guide you towards the treasure.",
+        "location": "Abandoned temple, hidden chamber"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+Template: 
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+     风电:风电 int value
+
+```yaml
+|敌 | Description | Id | Name | Stats | 
+|--------|-----------|-----|---------|--------| 
+| Enemy1 | Description | id1 | name1 | atk: 10, def: 20, hp: 60, mp: 1,风电: 1 |
+| Enemy2 | Description | id2 | name2 | atk: 20, def: 20, hp: 60, mp: 2,风电: 1 | 
+| Enemy3 | Description | id3 | name3 | atk: 40, def: 40, hp: 80, mp: 1,风电: 1 |

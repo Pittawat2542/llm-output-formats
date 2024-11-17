@@ -1,0 +1,73 @@
+
+```yaml
+game:
+  dialogues:
+  - order: 10
+    speaker: A
+    text: A: Hello, B!
+    text: B: Hello, A!
+    narration: A: I have to go now.
+    narration: B: I have to go now.
+    text: A: What are you doing here?
+    text: B: I came to see you.
+    text: A: Why?
+    text: B: I just wanted to say hi.
+    text: A: I see.
+    text: B: I have to go now.
+    text: A: Okay.
+```
+
+### Explanation:
+
+To fix the incorrect YAML data, we need to remove the duplicate `text` keys for speaker B under the same dialogue block and replace them with `narration` keys instead. This will ensure that we have only one key-value pair per property (speaker or narration) within each dialogue block.
+
+Therefore, the corrected YAML data would look like this:
+
+```yaml
+game:
+  dialogues:
+  - order: 10
+    speaker: A
+    text: A: Hello, B!
+    narration: A: I have to go now.
+    text: B: Hello, A!
+    narration: B: I have to go now.
+    text: A: What are you doing here?
+    text: B: I came to see you.
+    text: A: Why?
+    text: B: I just wanted to say hi.
+    text: A: I see.
+    text: B: Okay.
+```
+
+However, if the intention is to have different dialogues for each speaker and a separate narration for both speakers, then it would be better to create two separate dialogue blocks - one for each speaker's dialogue and another for the shared narration. This way, we can maintain the proper structure of YAML data with unique keys for each property (speaker or text or narration).
+
+So, the corrected YAML data would look like this:
+
+```yaml
+game:
+  dialogues:
+  - order: 10
+    speaker: A
+    text:
+      - A: Hello, B!
+        Why: I just wanted to say hi.
+        What: I came to see you.
+        See: I see.
+        Okay: Okay.
+
+  - order: 10
+    speaker: B
+    text:
+      - B: Hello, A!
+        Hi: I have to go now.
+        Go: I have to go now.
+        See_you: I came to see you.
+        Why_hi: I just wanted to say hi.
+        I_see: I see.
+        Okay: Okay.
+
+  narration:
+    speaker: A: I have to go now.
+    speaker: B: I have to go now.
+```

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Treasure Hunt",
+    "objective": "Find the hidden treasure",
+    "description": "You have been tasked to find a hidden treasure that is believed to be in the Lost Forest",
+    "reward": "5000 Gold Coins",
+    "quest-giver": "Old Man Jenkins",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Get the map from Old Man Jenkins",
+          "description": "Old Man Jenkins has a map that will guide you to the treasure. He is located at the town centre",
+          "location": "Town Centre"
+        },
+        {
+          "order": "2",
+          "objective": "Reach the entrance of Lost Forest",
+          "description": "Use the map to reach the forest. Be careful of wild animals!",
+          "location": "Lost Forest Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Find the hidden treasure",
+          "description": "The treasure is believed to be located near a big red tree somewhere deep in the forest.",
+          "location": "Lost Forest"
+        }
+      ]
+    }
+  }
+}

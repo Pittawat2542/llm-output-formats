@@ -1,0 +1,16 @@
+The YAML data provided is already correct. There were no syntax issues mentioned, and the code block you posted seems to be a valid YAML structure. Here's the fixed YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```

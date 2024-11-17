@@ -1,0 +1,21 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "dialogues": {
+      "dialogue": [
+        {
+          "@xsi:type": "Dialogue",
+          "order": "1",
+          "speaker": "name",
+          "text": "content of conversation"
+        },
+        {
+          "@xsi:type": "Dialogue",
+          "order": "2",
+          "speaker": "name",
+          "text": "content of conversation"
+        }
+      ]
+    }
+  }
+}

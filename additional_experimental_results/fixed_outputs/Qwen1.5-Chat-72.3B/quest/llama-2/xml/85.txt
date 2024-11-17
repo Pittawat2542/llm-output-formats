@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>You've heard rumors that the lost artifact is hidden in a forgotten ruin deep in the jungle. Your quest is to locate it and bring it back to the village elder.</description>
+	<reward>100 gold coins and the respect of the villagers</reward>
+	<quest-giver>Guru Nadir</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>Talk to the ancient tree in the heart of the jungle for directions.</description>
+			<location>Jungle Heart</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the cryptic inscription on the ruins' door</objective>
+			<description>Solve the riddle to unlock the entrance.</description>
+			<location>Ruins Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,51 @@
+{
+  "game": {
+    "character": {
+      "title": "Player",
+      "select": {
+        "@id": "player-select",
+        "option": [
+          {
+            "@value": "Student",
+            "#text": "Student"
+          },
+          {
+            "@value": "Teacher",
+            "#text": "Teacher"
+          }
+        ]
+      },
+      "section": {
+        "@class": "player-section",
+        "table": {
+          "tr": [
+            {
+              "th": [
+                "Name",
+                "Age",
+                "Gender",
+                "Role"
+              ]
+            },
+            {
+              "td": [
+                "Samantha",
+                "24",
+                "Female",
+                "Student"
+              ]
+            },
+            {
+              "td": [
+                "Anderson",
+                "24",
+                "Male",
+                "Teacher"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

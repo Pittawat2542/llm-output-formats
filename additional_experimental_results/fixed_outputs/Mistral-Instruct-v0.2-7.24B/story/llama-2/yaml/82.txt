@@ -1,0 +1,72 @@
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+```vbnet
+Dim yamlData As String = """
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+"""
+
+Console.WriteLine(YamlDotNet.SafeYaml.Load(yamlData))
+```
+
+```vbnet
+Dim yamlString As String = """
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+"""
+
+Dim deserializer As New YamlDotNet.Serialization.Deserializer()
+Dim document As Object = deserializer.Deserialize(New StringReader(yamlString))
+Console.WriteLine(document)
+```
+
+```vbnet
+Imports Newtonsoft.Json.Linq
+
+Dim yamlData As String = """
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+"""
+
+Dim jsonData As JObject = JObject.Parse(YamlDotNet.Serialization.Deserialize(Of String)(yamlData, Nothing))
+Console.WriteLine(jsonData)
+```
+
+```vbnet
+Imports Microsoft.VisualStudio.TestTools.UnitTesting
+Imports Newtonsoft.Json.Linq
+
+<TestClass>
+Public Class Test
+
+    <TestMethod>
+    Public Sub Test1()
+        Dim yamlData As String = """
+            game:
+              beginning: the beginning of the game
+              ending: the ending of the game
+              synopsis: game story synopsis
+              title: game title
+          """
+
+        Dim jsonData As JObject = JObject.Parse(YamlDotNet.Serialization.Deserialize(Of String)(yamlData, Nothing))
+        Assert.AreEqual("game title", jsonData.Property("title").Value)
+    End Sub
+
+End Class
+```

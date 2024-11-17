@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Uncover the secrets of the ancient city of Eldarath.</objective>
+	<description>Rumors have been circulating about a lost city deep within the nearby forest, filled with treasures and artifacts from a long-forgotten civilization. Your mission is to explore the ruins, gather as much information as possible, and return with any valuable relics you may find.</description>
+	<reward>A magical amulet granting resistance to dark magic, 1000 gold pieces, and a boost in reputation among the city's inhabitants.</reward>
+	<quest-giver>Thorold Silvermist, a renowned archaeologist and historian.</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the entrance of the lost city.</objective>
+			<description>Make your way through the forest, following the map provided by Thorold Silvermist. Be cautious of wild beasts and potential traps set by ancient guardians.</description>
+			<location>The heart of the nearby forest.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the ancient texts within the city's central library.</objective>
+			<description>Navigate through the ruins, avoiding deadly traps and puzzles. Once you reach the central library, study the ancient texts to uncover clues about the city's downfall and potential treasures.</description>
+			<location>The central library of Eldarath.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve a powerful artifact from the depths of the city's dungeon.</objective>
+			<description>Venture into the treacherous dungeon, fighting off fearsome creatures and overcoming obstacles. Retrieve the artifact, said to grant immense power to its wielder.</description>
+			<location>The dungeons beneath Eldarath.</location>
+		</task>
+	</tasks>
+</game>
+```

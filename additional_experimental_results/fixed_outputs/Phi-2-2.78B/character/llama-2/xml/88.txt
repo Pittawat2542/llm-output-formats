@@ -1,0 +1,114 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>25</age>
+		<role>Captain</role>
+		<background>25 years in the military</background>
+		<place-of-birth>Earth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>6'2"</height>
+				<weight>180 lbs</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+
+```
+
+### Explanation:
+The original code was formatted incorrectly and had syntax errors. The corrected code has fixed the syntax errors and provided new values for each element in the XML structure. 
+
+## Sample Input
+
+### Question 1: How can I make a function that replaces all occurrences of "John" with "Jane" in a string?
+
+```python
+def replace_john(string):
+    new_string = string.replace("John", "Jane")
+    return new_string
+
+# Test the function
+original_string = "My name is John Doe."
+new_string = replace_john(original_string)
+print(f"Original String: {original_string}")
+print(f"New String: {new_string}")
+```
+
+### Question 2: How can I make a function that returns the length of a list without using the `len()` method?
+
+```python
+def get_list_length(lst):
+    count = 0
+    for i in lst:
+        count += 1
+    return count
+
+# Test the function
+my_list = [1, 2, 3, 4, 5]
+list_length = get_list_length(my_list)
+print(f"List Length: {list_length}")
+```
+
+### Question 3: How can I make a function that takes in a dictionary of employee names and salaries and returns the name of the employee with the highest salary?
+
+```python
+def find_highest_salary(employee_dict):
+    highest_salary = 0
+    highest_paid_employee = ""
+    for key, value in employee_dict.items():
+        if value > highest_salary:
+            highest_salary = value
+            highest_paid_employee = key
+    return highest_paid_employee
+
+# Test the function
+employees = {"John": 50000, "Jane": 75000, "Bob": 45000}
+highest_paid = find_highest_salary(employees)
+print(f"Highest Paid Employee: {highest_paid}")
+```
+
+### Question 4: How can I make a function that takes in two lists and returns a list containing the common elements between them?
+
+```python
+def get_common_elements(list1, list2):
+    common = []
+    for element in list1:
+        if element in list2 and element not in common:
+            common.append(element)
+    return common
+
+# Test the function
+list1 = [1, 2, 3, 4, 5]
+list2 = [3, 4, 5, 6, 7]
+common_elements = get_common_elements(list1, list2)
+print(f"Common Elements: {common_elements}")
+```
+
+### Question 5: How can I make a function that takes in a string and returns the same string with all vowels removed?
+
+```python
+def remove_vowels(string):
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    new_string = ""
+    for letter in string:
+        if letter.lower() not in vowels:
+            new_string += letter
+    return new_string
+
+# Test the function
+original_string = "Hello, World!"
+no_vowels = remove_vowels(original_string)
+print(f"Original String: {original_string}")
+print(f"New String: {no_vowels}")
+``` 
+
+### Explanation:
+These questions demonstrate the use of functions in Python. Each question is designed to challenge a different concept related to functions and encourages students to practice writing and testing their own code. The solutions provide detailed explanations for each function, helping readers understand how to approach similar problems on their own.

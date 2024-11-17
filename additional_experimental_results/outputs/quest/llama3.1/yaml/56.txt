@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the dark sorcerer's lair.
+  id: Q001
+  objective: Defeat the dark sorcerer and claim the sword.
+  quest_giver: Eriol, the village elder
+  reward: +10 Strength and a magical shield
+  tasks:
+    - description: Navigate through the dark forest without getting detected by the sorcerer's minions.
+      location: Dark Forest, north of the village
+      objective: Reach the edge of the forest undetected
+      order: 1
+    - description: Infiltrate the sorcerer's lair and steal his spellbook.
+      location: Sorcerer's Lair, inside the dark forest
+      objective: Obtain the spellbook without triggering any traps or alarms
+      order: 2
+    - description: Engage in combat with the dark sorcerer and defeat him.
+      location: Sorcerer's Lair, inside the dark forest
+      objective: Defeat the sorcerer and shatter his staff
+      order: 3
+  title: The Sword of Light
+```

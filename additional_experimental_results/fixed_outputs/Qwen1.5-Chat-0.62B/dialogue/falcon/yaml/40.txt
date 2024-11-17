@@ -1,0 +1,13 @@
+```
+# Markdown code block
+Howdy, world! This is my first post on my new blog. I can't wait to share all the exciting projects I've been working on lately. Stay subscribed for upcoming updates!
+```
+
+The correct YAML data should be:
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+```

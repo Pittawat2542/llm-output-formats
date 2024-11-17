@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Temple's Quest",
+    "objective": "Uncover the Temple's Secrets and Obtain Ancient Treasures",
+    "description": "A challenging adventure awaits you in The Lost Temple's Quest. Seek the guidance of the Wise Elder as you navigate through treacherous traps, overcome guardians, and unravel the temple's ancient mysteries. Your rewards shall be a legendary artifact and ample wealth upon completion.",
+    "reward": "Success: Legendary Artifact + Wealth",
+    "quest-giver": "The Wise Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Track the Jungle Footprints",
+          "description": "Your first task is to find the trail left by previous explorers in the Jungle of Enigma. Use your observation skills and solve the riddles they have left behind.",
+          "location": "Jungle of Enigma"
+        },
+        {
+          "order": "2",
+          "objective": "Unlock the Temple's Gate with the Ancestral Cipher",
+          "description": "Once located, decipher the ancient cipher to open the main entrance. Your next challenge awaits at Main Entrance of the Temple.",
+          "location": "Main Entrance of the Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Find the Crystal Key in the Shadow Room",
+          "description": "The Shadow Room is guarded by traps and a fierce guardian. Your agility and problem-solving skills will be put to the test.",
+          "location": "Shadow Room"
+        },
+        {
+          "order": "4",
+          "objective": "Solve the Temple's Riddle of Prophecy",
+          "description": "The riddle's solution holds the key to the treasure chamber. Master your knowledge of history and mythology.",
+          "location": "Chamber of Prophecies"
+        },
+        {
+          "order": "5",
+          "objective": "Defeat the Guardian Serpent in the Treasure Chamber",
+          "description": "The final challenge awaits you in the heart of the temple. Beware, for the serpent is a force to be reckoned with.",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

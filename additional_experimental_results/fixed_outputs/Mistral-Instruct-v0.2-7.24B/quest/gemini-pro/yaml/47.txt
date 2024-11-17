@@ -1,0 +1,16 @@
+```yaml
+game:
+  description: >-
+    Quest to find the lost amulet of the ancient king
+  id: questId
+  objective: Locate and retrieve the lost amulet
+  quest_giver: Archmage Xylo
+  reward: Book of magic secrets
+  tasks:
+  - description: >-
+      Search in the ancient ruins for clues
+    location: Ruins of Eldoria
+    objective: Find the first clue
+    order: 1
+  title: The Lost Amulet
+```

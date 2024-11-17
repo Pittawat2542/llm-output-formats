@@ -1,0 +1,36 @@
+Game:
+  Character:
+    Age: 25
+    Background: Story of Birth
+    First_Name: John
+    Last_Name: Doe
+    Id: John Doe
+    Last_Name: John Doe
+    Physical_Appearance:
+      - Eye_color: Green
+        Hair_color: Brown
+        Height: 1.8 meters (7 feet)
+        Weight: 75 kg (165 lbs)
+      Place_of_Birth: Greenhill, Earth (Alpha Proxima b)
+      Role: Civilian
+      Species: Human
+
+## YAML Output
+```yaml
+game:
+  character:
+    age: 25
+    background: story of birth
+    first_name: John
+    last_name: Doe
+    id: John Doe
+    last_name: John Doe
+    physical_appearance:
+      - eye_color: green
+        hair_color: brown
+        height: 1.8 meters (7 feet)
+        weight: 75 kg (165 lbs)
+      place_of_birth: Greenhill, Earth (Alpha Proxima b)
+      role: Civilian
+      species: Human
+```

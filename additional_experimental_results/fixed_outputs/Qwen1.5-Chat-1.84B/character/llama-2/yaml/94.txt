@@ -1,0 +1,34 @@
+```yaml
+game:
+  character:
+    age: 25
+    background:
+      - description: A former soldier who has lost his way.
+        eye_color: blue
+        hair_color: brown
+        height: 170
+        weight: 70
+      - description: A veteran with a tragic past.
+        eye_color: gray
+        hair_color: silver
+        height: 6'5"
+        weight: 250 lbs
+      - description: A lone survivor in a post-apocalyptic world.
+        eye_color: green
+        hair_color: dark blonde
+        height: 180 cm
+        weight: 70 kg
+      - description: An archaeologist searching for lost artifacts.
+        eye_color: blue
+        hair_color: brown
+        height: 6'2"
+        weight: 300 lbs
+      - description: A former Marine turned professional surfer who now lives a solitary life.
+        eye_color: green
+        hair_color: dark blonde
+        height: 175 cm
+        weight: 80 kg
+    role:
+      - name: John Smith
+        species: Human
+```

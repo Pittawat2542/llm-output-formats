@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Retrieve the Legendary Sword",
+    "objective": "Roger needs you to retrieve a legendary sword from the Caves of Wonder.",
+    "description": "A mighty warrior named Roger has sent word that his sword, forged by the finest blacksmiths in the land, has been stolen. He asks for your help in retrieving it, and promises great rewards if you can succeed where others have failed.",
+    "reward": "1 Gold Coin",
+    "quest-giver": "Roger, the mighty warrior",
+    "tasks": {
+      "task": [
+        {
+          "order": "1st",
+          "objective": "Meet with the thief in the Caves of Wonder.",
+          "description": "Travel to the entrance of the Caves of Wonder and speak to the thief who stole Roger's sword. Convince them to return the sword, or retrieve it by force if necessary.",
+          "location": "Caves of Wonder"
+        },
+        {
+          "order": "2nd",
+          "objective": "Return the sword to Roger.",
+          "description": "Bring the legendary sword back to Roger, who is waiting anxiously in his castle. He will reward you with gold and treasure for your bravery.",
+          "location": "Roger's Castle"
+        }
+      ]
+    }
+  }
+}

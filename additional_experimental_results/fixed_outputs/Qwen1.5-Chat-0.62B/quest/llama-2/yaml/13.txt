@@ -1,0 +1,39 @@
+The provided YAML data has several issues. One of the main issues is the incorrect syntax, which causes an error when scanning for the next token. Additionally, there are several missing values in the `tasks` array.
+
+To fix these issues and provide new values, we can use a YAML parser to parse the input YAML data. Here's an example code block that uses the `yaml` library:
+
+```
+import yaml
+
+# Parse input YAML data
+input_data = '''
+game:
+  description: Quest description
+  id: 1
+  objective: Quest objective
+  quest_giver: Professor Jones
+  reward: 100 gold
+  tasks:
+    - description: Task description
+      location: Task location
+      objective: Task objective
+      order: Task order
+    - description: Task description
+      location: Task location
+      objective: Task objective
+      order: Task order
+    - description: Task description
+      location: Task location
+      objective: Task objective
+      order: Task order
+  title: Quest title
+'''
+
+# Parse input YAML data and extract new values
+new_data = yaml.safe_load(input_data)
+
+# Print updated JSON data
+print(new_data)
+```
+
+This code will parse the provided YAML data and extract the new values for `tasks`, `description`, and `objective`. We can then print out the updated JSON data using the `yaml` library's `safe_load()` function.

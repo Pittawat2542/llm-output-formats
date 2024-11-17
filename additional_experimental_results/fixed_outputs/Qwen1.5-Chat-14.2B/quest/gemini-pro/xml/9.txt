@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet of the ancient king.</objective>
+	<description>The amulet was lost many years ago in a battle between the ancient king and a powerful sorcerer. It is said that the amulet contains great power, and whoever possesses it will be granted untold wealth and power.</description>
+	<reward>The amulet itself, as well as a large sum of gold.</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ancient ruins of the king's palace.</objective>
+			<description>The ruins are located deep in the forest, and are said to be haunted by the ghosts of the ancient king and his soldiers.</description>
+			<location>The forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the secret entrance to the king's tomb.</objective>
+			<description>The entrance to the tomb is hidden somewhere within the ruins. It is said to be guarded by a powerful creature.</description>
+			<location>The ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the creature guarding the tomb.</objective>
+			<description>The creature is a powerful monster that will stop at nothing to protect the tomb.</description>
+			<location>The tomb</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the amulet.</objective>
+			<description>The amulet is located somewhere within the tomb.</description>
+			<location>The tomb</location>
+		</task>
+	</tasks>
+</game>
+```

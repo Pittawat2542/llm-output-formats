@@ -1,0 +1,76 @@
+Here's the corrected YAML data with the required syntax:
+```
+game:
+  character:
+    age: 23
+    background: "I'm an alien from planet Pteros.".
+    first_name: Sam
+    id: a32d0c9
+    last_name: Winchester
+    physical_appearance:
+      - Eye Color: green
+        hair_color: blonde
+        height: 5' 8'
+        weight: 130 lbs
+    place_of_birth: Epping Forest
+    role: "Assistant to the Doctor and Amy Pond"
+    species: "Race of Gallifreyan"
+
+Original:
+```yaml
+game:
+  character:
+    age: "23"
+    background: "I'm an alien from planet Pteros.".
+    first_name: Sam
+    id: a32d0c9
+    last_name: Winchester
+    physical Appearance: 
+      - Eye Color: green
+        hair_color: blonde
+        height: 5' 8'
+        weight: 130 lbs
+    place_of_birth: Epping Forest
+    role: "Assistant to the Doctor and Amy Pond"
+    species: "Race of Gallifreyan"
+
+## Alternate output
+```markdown
+# Character Name
+Age: 23
+Background: "I'm an alien from planet Pteros.".
+First Name: Sam
+ID: a32d0c9
+Last Name: Winchester
+Physical Appearance: 
+- Eye Color: green
+        hair_color: blonde
+        height: 5' 8'
+        weight: 130 lbs
+    place_of_birth: Epping Forest
+    role: "Assistant to the Doctor and Amy Pond"
+    species: "Race of Gallifreyan"
+
+## alternate output
+```
+Alternatively, return a string with the appropriate Markdown and only this YAML in the Markdown code block.
+```markdown
+# Character Name
+Age: 23
+Background: "I'm an alien from planet Pteros.".
+First Name: Sam
+ID: a32d0c9
+Last Name: Winchester
+Physical Appearance: 
+- Eye Color: green
+        hair_color: blonde
+        height: 5' 8'
+        weight: 130 lbs
+    place_of_birth: Epping Forest
+    role: "Assistant to the Doctor and Amy Pond"
+    species: "Race of Gallifreyan"
+
+## Alternate output
+```markdown
+```
+This YAML is correct and will not cause any errors in your code.

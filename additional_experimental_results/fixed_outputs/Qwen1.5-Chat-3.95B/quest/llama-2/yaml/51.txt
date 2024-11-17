@@ -1,0 +1,15 @@
+The original message has syntax issues in YAML syntax. The YAML data is incorrect and needs to be corrected. In order to fix the issue, you need to provide new values for the properties of the game object. Here's a sample YAML with the correct syntax:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```

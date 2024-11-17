@@ -1,0 +1,19 @@
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete the temple</objective>
+    <description>Uncover the ancient artifact and deliver it to the wise elder</description>
+    <reward>Gold coins and experience points</reward>
+    <quest-giver>Elara the Sage</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the entrance to the temple</objective>
+            <description>Search for a map near the village entrance</description>
+            <location>Temple of Serpents, West side of Town</location>
+        </task>
+    </tasks>
+</game>
+```

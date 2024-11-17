@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>id_value</id>
+    <title>quest_title_value</title>
+    <objective>quest_objective_value</objective>
+    <description>quest_description_value</description>
+    <reward>quest_reward_value</reward>
+    <quest-giver>quest_giver_value</quest-giver>
+    <tasks>
+        <task>
+            <order>task_order_value</order>
+            <objective>task_objective_value</objective>
+            <description>task_description_value</description>
+            <location>task_location_value</location>
+        </task>
+    </tasks>
+</game>
+```
+I added the missing closing `</quest-giver>` tag, changed the attribute values to new placeholder values (you can replace them with actual values), and specified the encoding as "UTF-8" which is a common practice. If there's no issue with the keys, this should be the correct XML format.

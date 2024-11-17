@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Great Adventure</title>
+	<objective>Find the lost treasure of ancient civilization</objective>
+	<description>You are on a quest to explore ruins, solve puzzles, and uncover the hidden treasure that has been lost for centuries. Gather clues and face challenges along the way.</description>
+	<reward>1000 gold coins and eternal glory</reward>
+	<quest-giver>Archaeologist Emily Thompson</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ancient ruins</objective>
+			<description>You have heard rumors of a hidden entrance in the dense forest. Search for markers or symbols that might lead you to it.</description>
+			<location>Forest clearing near the riverbank</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the riddle at the temple gates</objective>
+			<description>A puzzle must be solved to unlock the temple gates. The riddle reads: "I have keys but never lock, I have space but never hold. What am I?"</description>
+			<location>Temple ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Recover the three pieces of the artifact</objective>
+			<description>The treasure is guarded by a magical seal that requires three broken pieces to be reunited. Find them within the temple chambers.</description>
+			<location>Temple chambers A, B, and C</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Activate the teleportation portal</objective>
+			<description>The final piece of the treasure is hidden in a secret chamber. Once all pieces are in place, a portal to that chamber will open.</description>
+			<location>Central altar within the temple</location>
+		</task>
+	</tasks>
+</game>
+```

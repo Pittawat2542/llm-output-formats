@@ -1,0 +1,28 @@
+{
+  "game": {
+    "enemy": {
+      "id": "enemy_id",
+      "name": "enemy_name",
+      "description": "enemy_description",
+      "stats": {
+        "hp": "50",
+        "mp": "30",
+        "atk": "100",
+        "def": "50",
+        "spd": "70"
+      }
+    },
+    "player": {
+      "id": "player_id",
+      "name": "player_name",
+      "description": "player_description",
+      "stats": {
+        "hp": "80",
+        "mp": "40",
+        "atk": "75",
+        "def": "60",
+        "spd": "85"
+      }
+    }
+  }
+}

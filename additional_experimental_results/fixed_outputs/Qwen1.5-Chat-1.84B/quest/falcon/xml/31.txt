@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game id="id">
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </tasks>
+</game>
+```
+New values:
+- `id` (integer): 1
+- `title` (string): "Quest Title"
+- `objective` (string): "Quest Objective"
+- `description` (string): "Quest Description"
+- `reward` (string): "Quest Reward"
+- `quest-giver` (string): "Quest Giver"
+- `<task>` (list of elements): Each task has an order, objective, description, and location element
+  - Order (string): The order in which the task should be completed
+  - Objective (string): The specific goal or outcome of the task
+  - Description (string): A brief summary of what the task aims to achieve
+  - Location (string): The location where the task will take place, such as a cave, dungeon, or laboratory.

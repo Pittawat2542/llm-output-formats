@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>Retrieve the Ancient Artifact</title>
+	<objective>Recover the ancient artifact from the ruins of the lost city.</objective>
+	<description>Many years ago, a powerful artifact was hidden within the ruins of a long-lost city. The artifact is said to possess incredible powers, and its discovery could change the course of history. You have been tasked with finding and retrieving the artifact before it falls into the wrong hands.</description>
+	<reward>Ancient Amulet of Power</reward>
+	<quest-giver>Professor Haroldson</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the lost city</objective>
+			<description>Explore the surrounding area, gather clues, and decipher ancient texts to find the hidden entrance to the lost city.</description>
+			<location>Jungle outskirts</location>
+		</task>
+	</tasks>
+</game>
+```

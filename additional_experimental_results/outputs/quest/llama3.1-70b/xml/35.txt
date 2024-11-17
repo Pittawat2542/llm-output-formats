@@ -1,0 +1,33 @@
+Here is the quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QST001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Find and retrieve the ancient artifact from the Lost Temple of Eldarath.</objective>
+	<description>Rumors have been circulating about a lost temple deep in the heart of the mystical forest, where an ancient artifact is said to be hidden. The artifact is rumored to grant immense power and wisdom to its possessor.</description>
+	<reward>10,000 gold coins, a magical amulet granting resistance to elemental attacks</reward>
+	<quest-giver>Thorold Ironfist, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the lost temple from the local villagers.</objective>
+			<description>Talk to the villagers and gather information about the location and layout of the lost temple.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve a map fragment from the ancient ruins in the nearby hills.</objective>
+			<description>Explore the ancient ruins and retrieve a map fragment that will lead you to the lost temple.</description>
+			<location>Ancient Ruins of Eldarath</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate through the mystical forest to reach the lost temple.</objective>
+			<description>Use your wits and skills to navigate through the treacherous terrain and avoid deadly creatures to reach the lost temple.</description>
+			<location>Mystical Forest of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```

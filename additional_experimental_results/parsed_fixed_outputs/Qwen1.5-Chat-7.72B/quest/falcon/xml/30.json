@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234567890",
+    "title": "Quest for the Ancient Amulet",
+    "objective": "Find the Amulet and defeat the Dragon at Mount Eternity",
+    "description": "Uncover the hidden treasure by solving riddles in the forest and facing the treacherous goblin tribe.",
+    "reward": "Golden Amulet, 100 gold coins, and a rare magical potion",
+    "quest-giver": "Old Sage at the Village Inn",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Deliver the enchanted scroll to the goblin chieftain",
+          "description": "Follow the path marked by the tree with three leaves and avoid the traps",
+          "location": "Goblin Camp, north of the forest boundary"
+        },
+        {
+          "@order": "2",
+          "objective": "Retrieve the key from the chest in the cave",
+          "description": "Climb to the top of Mount Eternity and find the hidden niche with the key",
+          "location": "Cave entrance, near the base of the mountain"
+        }
+      ]
+    }
+  }
+}

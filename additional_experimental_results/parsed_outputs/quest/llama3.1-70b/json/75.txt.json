@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City",
+    "objective": "Find the ancient artifact in the lost city of Eldarath",
+    "description": "Legend has it that the lost city of Eldarath holds the secrets of our ancestors. The city is said to be hidden deep within the mystical forest, guarded by fearsome creatures and treacherous terrain.",
+    "reward": "1000 gold coins, a magical amulet, and a boost in reputation",
+    "quest_giver": "King Thorold",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from the local villagers",
+        "description": "Talk to the villagers in the nearby town of Willowdale and gather as much information as possible about the lost city.",
+        "location": "Willowdale"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map that supposedly leads to the lost city",
+        "description": "Break into the bandit camp and steal the map from their leader, Grimgar Ironfist.",
+        "location": "Bandit Camp"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate through the mystical forest and reach the entrance of the lost city",
+        "description": "Use the map to navigate through the treacherous terrain and avoid deadly traps and fearsome creatures.",
+        "location": "Mystical Forest"
+      },
+      {
+        "order": 4,
+        "objective": "Retrieve the ancient artifact from the heart of the lost city",
+        "description": "Solve puzzles, overcome obstacles, and face your greatest fears to reach the artifact.",
+        "location": "Lost City of Eldarath"
+      }
+    ]
+  }
+}

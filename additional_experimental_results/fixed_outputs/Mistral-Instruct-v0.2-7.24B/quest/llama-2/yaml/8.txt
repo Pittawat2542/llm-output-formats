@@ -1,0 +1,25 @@
+
+```yaml
+game:
+  description: "This is a quest"
+  id: 1
+  objective: "Kill the dragon"
+  quest_giver: "The king"
+  reward: "Gold"
+  tasks:
+  - description: "Kill the dragon"
+    location: "The forest"
+    objective: "Kill the dragon"
+    order: 1
+  - description: "Find the dragon"
+    location: "The cave"
+    objective: "Find the dragon"
+    order: 2
+  - description: "Talk to the dragon"
+    location: "The mountain"
+    objective: "Talk to the dragon"
+    order: 3
+  title: "Dragon slayer"
+```
+
+## Note: This YAML file appears to be correct and does not contain any syntax errors.

@@ -1,0 +1,417 @@
+
+## Instruction:
+Create a dictionary of dictionaries. The outer key is the name and the inner value are values. Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "John": {
+        "Age": 30,
+        "Country of Origin": "US",
+        "Profession": "Software Engineer",
+        "Education": "Graduate Degree"
+    },
+    "Mary": {
+        "Age": 35,
+        "Country of Origin": "UK",
+        "Profession": "Data Analyst",
+        "Education": "Undergraduate Degree"
+    }
+}
+```
+Output:
+```python
+{
+  "John": {
+      "Age": 30,
+      "Country of Origin": "US",
+      "Profession": "Software Engineer",
+      "Education": "Graduate Degree"
+  },
+  "Mary": {
+      "Age": 35,
+      "Country of Origin": "UK",
+      "Profession": "Data Analyst",
+      "Education": "Undergraduate Degree"
+  }
+}
+```
+
+### Example output
+```yaml
+data:
+  John:
+    Age: 30
+    Country of Origin: US
+    Profession: Software Engineer
+    Education: Graduate Degree
+
+  Mary:
+    Age: 35
+    Country of Origin: UK
+    Profession: Data Analyst
+    Education: Undergraduate Degree
+```
+### Required fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| data | object | A dictionary with names as keys and dictionaries as values |
+
+### Optional fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+```yaml
+data:
+  John:
+    Age: 30
+    Country of Origin: US
+    Profession: Software Engineer
+    Education: Graduate Degree
+
+  Mary:
+    Age: 35
+    Country of Origin: UK
+    Profession: Data Analyst
+    Education: Undergraduate Degree
+```
+
+### Example output
+```yaml
+data:
+  John:
+    Age: 30
+    Country of Origin: US
+    Profession: Software Engineer
+    Education: Graduate Degree
+
+  Mary:
+    Age: 35
+    Country of Origin: UK
+    Profession: Data Analyst
+    Education: Undergraduate Degree
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```python
+{
+  'Task 1': 60,
+  'Task 2': 120,
+  'Task 3': 30,
+  'Task 4': 90
+}
+```
+
+### Example output
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+### Required fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| data | object | A dictionary with task names as keys and time taken (in minutes) as values |
+
+### Optional fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary of dictionaries. The outer key is the name and the inner value are values. Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "John": {
+        "Age": 30,
+        "Country of Origin": "US",
+        "Profession": "Software Engineer",
+        "Education": "Graduate Degree"
+    },
+    "Mary": {
+        "Age": 35,
+        "Country of Origin": "UK",
+        "Profession": "Data Analyst",
+        "Education": "Undergraduate Degree"
+    }
+}
+```
+Output:
+```python
+{
+  "John": {
+      "Age": 30,
+      "Country of Origin": "US",
+      "Profession": "Software Engineer",
+      "Education": "Graduate Degree"
+  },
+  "Mary": {
+      "Age": 35,
+      "Country of Origin": "UK",
+      "Profession": "Data Analyst",
+      "Education": "Undergraduate Degree"
+  }
+}
+```
+
+### Example output
+```yaml
+data:
+  John:
+    Age: 30
+    Country of Origin: US
+    Profession: Software Engineer
+    Education: Graduate Degree
+
+  Mary:
+    Age: 35
+    Country of Origin: UK
+    Profession: Data Analyst
+    Education: Undergraduate Degree
+```
+### Required fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| data | object | A dictionary with names as keys and dictionaries as values |
+
+### Optional fields
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+```yaml
+data:
+  John:
+    Age: 30
+    Country of Origin: US
+    Profession: Software Engineer
+    Education: Graduate Degree
+
+  Mary:
+    Age: 35
+    Country of Origin: UK
+    Profession: Data Analyst
+    Education: Undergraduate Degree
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```python
+{
+  'Task 1': 60,
+  'Task 2': 120
+  'Task 3': 30
+  'Task 4': 90
+}
+```
+
+### Example output
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  Task 1: 60
+  Task 2: 120
+  Task 3: 30
+  Task 4: 90
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  - Task 1: 60
+    Time: 10 minutes
+  - Task 2: 120
+    Time: 20 minutes
+  - Task 3: 30
+    Time: 5 minutes
+  - Task 4: 90
+    Time: 15 minutes
+```
+
+### Response:
+## Instruction:
+Create a dictionary. Each key has an integer value. Each value is another dictionary, whose keys are the names of the tasks and values are integers representing the time taken to complete each task (in minutes). Return it as a YAML string, but also add this information to your Markdown file (between ```<code></code>```. Use the code block syntax.
+
+Example input:
+```python
+data = {
+    "Task 1": 60,
+    "Task 2": 120,
+    "Task 3": 30,
+    "Task 4": 90
+}
+```
+Output:
+```yaml
+data:
+  - Task 1: 60
+    Time: 10 minutes
+  - Task 2: 120
+    Time: 20 minutes
+  - Task 3: 30
+    Time: 5 minutes
+  - Task 4: 90
+    Time: 15 minutes
+```
+

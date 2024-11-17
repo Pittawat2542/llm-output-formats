@@ -1,0 +1,11 @@
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: player1
+      text: "This is a do or die situation."
+    - order: 2
+      speaker: narrator
+      text: "Player 1 has to act fast to avoid an imminent crisis."
+```
+I fixed the syntax errors and restructured the YAML data according to the template provided. I assigned numerical values for `order` as it's expected in the template, and I assigned the correct `speaker` value for each dialogue entry.

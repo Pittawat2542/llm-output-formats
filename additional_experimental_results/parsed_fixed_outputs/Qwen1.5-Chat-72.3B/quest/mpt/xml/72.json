@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "Legend says the artifact has incredible power. Locate it and bring it back to the quest giver.",
+    "reward": "1000 gold coins and a rare magic scroll",
+    "quest-giver": "Gnarled Oracle",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the Ruins of Eldrith",
+          "description": "Search the ancient ruins for any clues leading to the artifact's location.",
+          "location": "Ruins of Eldrith"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian Spirit",
+          "description": "A powerful spirit guards the artifact. Defeat it to claim the artifact.",
+          "location": "Spirit's Lair, within the ruins"
+        }
+      ]
+    }
+  }
+}

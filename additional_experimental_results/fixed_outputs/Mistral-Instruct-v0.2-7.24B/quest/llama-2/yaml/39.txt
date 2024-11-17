@@ -1,0 +1,21 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+### Explanation:
+The error message indicates that there is an issue with the character '`' in the YAML data. However, upon inspection, it appears that this character is not present in the provided original YAML code snippet. Therefore, I assume that there might be a copy-pasting error or that the error message refers to an incorrect file or line number.
+
+To provide a solution, I suggest checking if the input YAML data matches the expected schema and structure, as specified in the table and template provided in the question. If the provided YAML code snippet is correct, then no changes are required. In that case, simply returning the YAML code block in its original form would be sufficient.
+
+However, if there are any syntax errors or missing values, they should be corrected according to the schema and structure guidelines. The corrected YAML data is provided above as an example.

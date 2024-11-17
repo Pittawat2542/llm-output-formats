@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the ancient artifact</objective>
+	<description>
+	   In a forgotten temple deep in the jungle lies the legendary artifact that holds immense power. Your quest is to find the temple, make your way through its treacherous traps, and retrieve the artifact before it falls into the wrong hands.</description>
+	<reward>Ancient artifact grants special abilities</reward>
+	<quest-giver>High Priestess Isabella</quest-giver>
+	<tasks>
+	  <task>
+	    <order>1</order>
+	    <objective>Find the Temple of Eternal Wisdom</objective>
+	    <description>
+	      The temple is said to be hidden somewhere in the heart of the jungle. Consult the ancient scrolls and follow the clues to discover its exact location.</description>
+	    </objective>
+	    <location>Jungle of Mysteries</location>
+	  </task>
+	  <task>
+	    <order>2</order>
+	    <objective>Navigate through the Temple's traps</objective>
+	    <description>
+	      The temple is filled with cunning traps and deadly puzzles. Solve them to advance further and avoid getting trapped forever.</description>
+	    </objective>
+	    <location>Temple of Eternal Wisdom</location>
+	  </task>
+	  <task>
+	    <order>3</order>
+	    <objective>Retrieve the artifact</objective>
+	    <description>
+	      The artifact is protected by ancient guardians. Defeat them and claim the artifact as your own. Be warned, they won't go down without a fight.</description>
+	    </objective>
+	    <location>Temple of Eternal Wisdom - Inner Chamber</location>
+	  </task>
+	</tasks>
+</game>
+

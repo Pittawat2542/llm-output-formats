@@ -1,0 +1,74 @@
+
+Error: incorrect_syntax: no element found: line 8, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>complete objective 1</objective>
+			<description>Complete Objective 1</description>
+			<location>room 1</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>complete objective 2</objective>
+			<description>Complete Objective 2</description>
+			<location>room 2</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>complete objective 3</objective>
+			<description>Complete Objective 3</description>
+			<location>room 3</location>
+		</task>
+	</tasks>
+</game>
+"""
+
+
+def fix_xml(data: str):
+    """Fixes the syntax of the given XML data.
+
+    Args:
+        data (str): The data to be fixed.
+
+    Returns:
+        str: Returns a string with the corrected data.
+    """
+    from re import sub, MULTILINE
+    fix_list = [
+        # Replace newlines
+        ("\n", ""),
+        # Replace linebreaks within quotes
+        (r"\"(\\.|[^"])*?\"", r'\\1'),
+        # Remove tags inside of quote marks
+        (r"\".*?\">", ''),
+        # Fix incomplete tag
+        (r"<([^/]+)/(.*?)>", '<\g<1>\g<2></\g<1>>'),
+        # Replace incorrect xml
+        ("invalid xml", "invalid_xml")
+    ]
+
+    for regex, replacement in fix_list:
+        data = sub(regex, replacement, data, flags=MULTILINE)
+    return data
+
+
+def main():
+    print(fix_xml(ERROR))
+    print()
+    print(fix_xml(TEMPLATE))
+    print()
+    print(fix_xml(FIXED))
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to the village elder.",
+    "description": "You've heard rumors that the lost artifact is hidden somewhere in the nearby ruins. The village elder has asked you to retrieve it to bring back prosperity to their people.",
+    "reward": "100 gold coins and a legendary weapon",
+    "quest-giver": "Gilbert, the Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the ruins to find any clues about the artifact's location.",
+          "description": "You need to thoroughly search the ancient ruins for any hints or symbols that might lead you to the artifact.",
+          "location": "Ruins of Eldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian of the Temple.",
+          "description": "A powerful guardian protects the temple where the artifact is believed to be kept. You must overcome this challenge to proceed.",
+          "location": "Inner Chambers of the Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact and return it to Gilbert.",
+          "description": "Once you have found the artifact, carefully collect it and bring it back to the village elder for your reward.",
+          "location": "Village of Eldoria"
+        }
+      ]
+    }
+  }
+}

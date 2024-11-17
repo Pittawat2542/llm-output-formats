@@ -1,0 +1,26 @@
+{
+  "game": {
+    "character": {
+      "id": "1",
+      "first-name": "John",
+      "last-name": "Doe",
+      "species": "Human",
+      "age": "25",
+      "role": "Captain",
+      "background": "25 years in the military",
+      "place-of-birth": "Earth",
+      "physical-appearance": {
+        "eye-color": "Brown",
+        "hair-color": "Blonde",
+        "height": {
+          "@units": "inches",
+          "#text": "6'2\""
+        },
+        "weight": {
+          "@units": "pounds",
+          "#text": "180 lbs"
+        }
+      }
+    }
+  }
+}

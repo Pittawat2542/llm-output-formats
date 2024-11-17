@@ -1,0 +1,19 @@
+{
+  "game": {
+    "@xmlns": "https://example.com/game",
+    "id": "1",
+    "title": "Example Quest Title",
+    "objective": "Example quest objective",
+    "description": "Example quest description",
+    "reward": "Example quest reward",
+    "quest-giver": "Example quest giver",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "This is the first task objective",
+        "description": "This is a description of the first task",
+        "location": "The location of the first task"
+      }
+    }
+  }
+}

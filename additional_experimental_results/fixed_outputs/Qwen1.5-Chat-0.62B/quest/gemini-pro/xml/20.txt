@@ -1,0 +1,27 @@
+The incorrect XML data provided is not corrected. The correct XML data is:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Rats in the Cellar</title>
+	bjective>Exterminate the rats in the cellar of the abandoned house.</objective>
+	<description>The local villagers have been complaining about the rats in the cellar of the abandoned house. They have asked you to get rid of them.</description>
+	<reward>100 gold pieces</reward>
+	<quest-giver市长 Abigail</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective能找到 the entrance to the cellar.</objective>
+				<description>The entry to the cellar is hidden behind a loose stone in the foundation of the house.</description>
+			地上有几只老鼠，小心不要惹恼它们。</description>
+			<title>Score: 2</title>
+			<order>2</order>
+			objective>Kill the rats in the cellar.</objective>
+			<description>The rats are very aggressive. Be careful, they can be dangerous.</description>
+		地上有几只老鼠，小心不要惹恼它们。地上有一块石头隐藏着入口。
+		</task>
+		<title>Score: 3</title>
+		<order>2</order>
+			objectiveReturn to Mayor Abigail and collect your reward.</objective>
+			<description>Once you have killed all the rats, return to Mayor Abigail's house. 
+```

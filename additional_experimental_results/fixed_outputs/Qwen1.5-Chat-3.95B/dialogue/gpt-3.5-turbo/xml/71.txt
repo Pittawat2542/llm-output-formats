@@ -1,0 +1,24 @@
+XML:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+			<dialogue id="1">
+				<order>1</order>
+				<speaker>NPC</speaker>
+				<text>I'm good, thanks for asking. How about you?</text>
+			<_dialogue id="2">
+				<order>2</order>
+				<speaker>Player</speaker>
+				<text>Hey, how are you doing?</text>
+			<_dialogue id="3">
+				<order>3</order>
+				<speaker>NPC</speaker>
+				<text>I'm doing great too.</text>
+			<_dialogue id="4">
+				<order>4</order>
+				<speaker>Player</speaker>
+				<text>That's wonderful to hear!</text>
+			</dialogues>
+</game>
+```

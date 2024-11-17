@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the ancient artifact</objective>
+    <description>Your mission is to penetrate the fortress of the enemy, overcome their guards, and retrieve the ancient artifact that has been lost for centuries.</description>
+    <reward>5000 gold and a magical sword</reward>
+    <quest-giver>The Great Wizard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gain entry to the fortress</objective>
+            <description>To gain entry, search for the hidden entrance in the Enchanted Forest.</description>
+            <location>EnchantedForest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat fortress guards</objective>
+            <description>Prepare yourself for a fierce battle at the Fortress Gates.</description>
+            <location>FortressGates</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find and retrieve the artifact</objective>
+            <description>The artifact is said to be in a secret room deep within. Complete this challenge at the Fortress Dungeon.</description>
+            <location>FortressDungeon</location>
+        </task>
+    </tasks>
+</game>
+```

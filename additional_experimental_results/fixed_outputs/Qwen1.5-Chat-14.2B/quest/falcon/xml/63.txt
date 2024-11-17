@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <id>quest_id</id>
+  <title lang="en">Your Quest Title</title>
+  <objective lang="en">Enter your quest objective here</objective>
+  <description lang="en">Enter your quest description here</description>
+  <reward>Enter your quest reward here</reward>
+  <quest-giver lang="en">Quest Giver Name</quest-giver>
+  <tasks lang="en">
+    <task order="1">
+      <objective lang="en">Enter your desired task objective here</objective>
+      <description lang="en">Enter your desired task description here</description>
+      <location>Task Location</location>
+    </task>
+  </tasks>
+</game>
+```

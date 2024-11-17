@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>A powerful and mysterious energy is emanating from an ancient lost temple deep in the jungle. The temple's ancient artifact has been stolen, and it must be retrieved to prevent its power being misused.</description>
+	<reward>1000 gold coins, +50 experience points</reward>
+	<quest-giver>Ranger Edric</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost temple's entrance</objective>
+			<description>The entrance to the lost temple is hidden behind a waterfall. You will need to navigate through the jungle to find it.</description>
+			<location>Jungle, near the waterfall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the ancient artifact</objective>
+			<description>The ancient artifact is located in a chamber deep within the lost temple. Be careful, as traps and guardians protect it.</description>
+			<location>Lost Temple, Chamber of the Ancient Artifact</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return to Ranger Edric</objective>
+			<description>Once you have retrieved the artifact, return it to Ranger Edric in the village.</description>
+			<location>Village, near the river</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,31 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "enemy",
+      "@name": "enemy",
+      "description": "Description of the enemy.",
+      "stats": {
+        "hp": {
+          "@value": "800",
+          "#text": "Health Points (HP)"
+        },
+        "mp": {
+          "@value": "150",
+          "#text": "Magic Points (MP)"
+        },
+        "atk": {
+          "@value": "25",
+          "#text": "Attack"
+        },
+        "def": {
+          "@value": "some integer value",
+          "#text": "Defense"
+        },
+        "spd": {
+          "@value": "20",
+          "#text": "Speed"
+        }
+      }
+    }
+  }
+}

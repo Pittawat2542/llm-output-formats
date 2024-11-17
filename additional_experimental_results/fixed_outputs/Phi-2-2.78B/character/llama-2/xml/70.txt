@@ -1,0 +1,27 @@
+
+**XML:**
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>1234567890</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>35</age>
+		<role>Scientist</role>
+		<background>He is a scientist and wants to help the world.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>blue</eye-color>
+				<hair-color>brown</hair-color>
+				<height>180 cm</height>
+				<weight>75 kg</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+

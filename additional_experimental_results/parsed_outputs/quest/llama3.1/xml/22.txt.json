@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Raise the temple's ancient stone slab to reveal its hidden treasure.",
+    "description": "A mysterious temple has been discovered deep in the forest, and the only way to gain access is by raising the ancient stone slab. Retrieve the required items from various locations around the village to unlock the temple's entrance.",
+    "reward": "100 gold coins and a magical amulet",
+    "quest-giver": "Maria the Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Collect three rare herbs growing in the forest.",
+          "description": "The herbs can be found near the old oak tree. Be cautious of wild beasts and beware of the treacherous terrain.",
+          "location": "The Old Oak Tree, Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Fetch a vial of water from the nearby river.",
+          "description": "Beware of the strong currents and slippery rocks. Bring back the vial to continue your quest.",
+          "location": "The River, Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Raise the stone slab in the temple using a combination lock.",
+          "description": "Combine the collected herbs and water to unlock the stone slab. Use your wits to solve the puzzle and raise the slab.",
+          "location": "The Lost Temple"
+        }
+      ]
+    }
+  }
+}

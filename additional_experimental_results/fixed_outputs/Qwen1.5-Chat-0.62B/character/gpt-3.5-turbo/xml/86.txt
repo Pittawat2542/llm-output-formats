@@ -1,0 +1,49 @@
+```
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<!-- corrected syntax -->
+			<id>id</id>
+			<title>Character Name</title>
+			第一部-name>First Name</第一部-name>
+			lastName>Last Name</lastName>
+			Species>Species</species>
+			Age>Age</Age>
+			Role>Role of Character</Role>
+			Behindings>Background Story</Background>
+			Place-of-Birth>New York City</ Place-of-Birth>
+		 physical-appearance>
+				Physical Appearance>
+					Eye Color>Brown</Eye Color>
+					Hair ColorBlack</HairColor>
+					Height 6.0
+				Weight 180.5
+				</PhysicalAppearance>
+		 </Physical-appearance>
+		</character>
+</game>
+```
+Output in Markdown format:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>Character Name</title>
+			第一部-name>First Name</第一部-name>
+			lastName>Last Name</lastName>
+			Species>Species</species>
+			Age>Age</Age>
+			Role>Role of Character</Role>
+			Behindings>Background Story
+			Place-of-Birth>New York City
+		 physical-appearance>
+				Physical Appearance>
+					Eye Color>Brown</Eye Color>
+					Hair ColorBlack</HairColor>
+					Height 6.0
+				 Weight 180.5
+				</PhysicalAppearance>
+		 </ Physical-appearance>
+		</character>
+</game>
+```

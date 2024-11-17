@@ -1,0 +1,15 @@
+The YAML data provided is correctly formatted. Here's the corrected YAML in a code block:
+
+```yaml
+game:
+  enemy:
+    description: "This is a description."
+    id: "2" (new value, changed from "1")
+    name: "Enemy 1"
+    stats:
+      atk: 200
+      def: 150
+      hp: 150
+      mp: 100
+      spd: 120
+```

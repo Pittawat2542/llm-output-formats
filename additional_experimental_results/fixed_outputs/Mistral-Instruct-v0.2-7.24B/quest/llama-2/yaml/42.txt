@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: "Quest description"
+  id: ID
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: INT
+  title: "Quest title"
+```
+
+### Explanation:
+The YAML data provided was missing the required keys for the `id` and `order` fields. In addition, the `description` and `location` keys in the tasks section were not enclosed in quotes, but since they are strings, they should be. Lastly, the variable names used in the original message were not correctly reflected in the YAML data, so I replaced `ID` and `INT` with placeholders for the actual values.

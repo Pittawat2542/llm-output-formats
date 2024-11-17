@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>EN001</id>
+        <name>Goblin</name>
+        <description>A small, agile enemy with low MP and high defense.</description>
+        <stats>
+            <hp>25</hp>
+            <mp>10</mp>
+            <atk>5</atk>
+            <def>15</def>
+            <spd>20</spd>
+        </stats>
+    </enemy>
+</game>
+```

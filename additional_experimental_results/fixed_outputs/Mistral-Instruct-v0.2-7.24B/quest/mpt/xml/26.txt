@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>A Test Quest</title>
+	<objective>Defeat the troll in the woods</objective>
+	<description>The villagers are being terrorized by a troll. Go to the woods and defeat it.</description>
+	<reward>25 gold pieces</reward>
+	<quest-giver>Bob, the blacksmith</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the woods</objective>
+			<description>The woods are located north of the village.</description>
+			<location>North of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the troll</objective>
+			<description>Use your weapons to defeat the troll. Be careful, it's strong!</description>
+			<location>Deep in the woods</location>
+		</task>
+	</tasks>
+</game>
+```

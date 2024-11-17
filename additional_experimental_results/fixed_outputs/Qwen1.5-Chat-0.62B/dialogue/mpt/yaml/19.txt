@@ -1,0 +1,25 @@
+The correct YAML data is:
+```
+game:
+  dialogues:
+   - order: dialogue order
+     speaker: player name
+     text: "Hey there, how are you?" and "I'm very well, it's a pleasure to meet you."
+```
+
+Here is the output in Markdown format:
+```markdown
+# Game
+
+# Dialogues
+
+## Order 1
+player: Player
+text: "Hey there, how are you?"
+
+## Order 2
+ NPC: NPC
+text: "I'm very well, it's a pleasure to meet you."
+
+```
+This code will output the correct YAML data in Markdown format.

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The quest for the magic stone",
+    "objective": "Find the magic stone",
+    "description": "You are on a quest to find the magic stone",
+    "reward": "100 gold",
+    "quest-giver": "The king",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the magic stone",
+          "description": "You have to find the magic stone",
+          "location": "In the castle"
+        },
+        {
+          "order": "2",
+          "objective": "Deliver the stone to the princess",
+          "description": "Bring the stone to the princess at the royal gardens",
+          "location": "Royal Gardens"
+        },
+        {
+          "order": "3",
+          "objective": "Prove your worth by solving a riddle",
+          "description": "Solve the riddle challenge at the magic mirror in the tower",
+          "location": "Tower Magic Mirror"
+        }
+      ]
+    }
+  }
+}

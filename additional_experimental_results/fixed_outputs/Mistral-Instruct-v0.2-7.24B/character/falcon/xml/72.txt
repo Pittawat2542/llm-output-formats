@@ -1,0 +1,41 @@
+```xml
+<game>
+	<character id="John">
+		<first-name>Alex</first-name>
+		<last-name>Doe</last-name>
+		<species>person</species>
+		<age>25</age>
+		<place-of-birth>USA</place-of-birth>
+		<physical-appearance>
+			<eye-color>brown</eye-color>
+			<hair-color>brown</hair-color>
+			<height>6'0"</height>
+			<weight>150 lbs</weight>
+		</physical-appearance>
+		<position>center position in basketball team</position>
+		<play-byplay>Person in blue shirt with blue eye glasses</play-byplay>
+		<characters>
+			<character id="John">
+				<first-name>Alex</first-name>
+				<last-name>Doe</last-name>
+				<species>person</species>
+				<age>25</age>
+				<place-of-birth>USA</place-of-birth>
+				<physical-appearance>
+					<eye-color>brown</eye-color>
+					<hair-color>brown</hair-color>
+					<height>6'0"</height>
+					<weight>150 lbs</weight>
+				</physical-appearance>
+			</character>
+		</characters>
+	</character>
+	<character id="Jahnik">
+		<first-name>Alex</first-name>
+		<last-name>Doe</last-name>
+		<species>person</species>
+		<age>25</age>
+		<place-of-birth>USA</place-of-birth>
+	</character>
+</game>
+```

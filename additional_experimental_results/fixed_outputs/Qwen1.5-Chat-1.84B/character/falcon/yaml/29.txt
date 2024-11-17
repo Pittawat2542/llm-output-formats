@@ -1,0 +1,38 @@
+Game YAML corrected with correct syntax and values as per the given template:
+```yaml
+game:
+  characters:
+    character1:
+      age: 35
+      background: African American
+      first_name: Michael
+      id: M1-2Q
+      last_name: Jackson
+      physical_appearance:
+         - eye_color: brown
+          hair_color: black
+          height: 6'1"
+          weight: 290
+      role: Warrior
+      species: Human
+    character2:
+      age: 32
+      background: Native American
+      first_name: Sarah
+      id: S2-5D
+      last_name: White
+      physical_appearance:
+         - eye_color: green
+          hair_color: black
+          height: 5'7"
+          weight: 160
+      role: Rogue
+      species: Human
+```
+
+
+Note: 
+- In the template, the YAML blocks are enclosed in double quotes and separated by commas.
+- The `game` block contains a list of `characters`, each with fields for `age`, `background`, `first_name`, `id`, `last_name`, `physical_appearance`, `role`, and `species`. 
+- In each character's `physical_appearance` field, the values are represented in YAML as key-value pairs. For example, `"eye_color": "brown"` represents that the character has brown eyes.
+- The YAML blocks are not enclosed within double quotes but can be used independently to create multiple character objects with the same properties.

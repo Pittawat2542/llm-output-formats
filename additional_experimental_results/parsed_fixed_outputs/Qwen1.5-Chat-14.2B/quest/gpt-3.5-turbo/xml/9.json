@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Amulet",
+    "objective": "Find the lost amulet and return it to the quest giver",
+    "description": "Long ago, a powerful amulet was lost in the depths of the Forbidden Forest. Many have tried to find it, but none have succeeded. The quest giver, a wise old wizard named Wizard Gandalf, is seeking a brave adventurer to retrieve the amulet. Will you be the one to finally find it?",
+    "reward": "Ancient knowledge and a magic artifact",
+    "quest-giver": "Wizard Gandalf",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Forbidden Forest",
+          "description": "The Forbidden Forest is a dark and dangerous place filled with mythical creatures. Be cautious as you make your way through the dense foliage and avoid getting lost.",
+          "location": "Near the village entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Find the ancient ruins",
+          "description": "According to folklore, the amulet was last seen in a hidden chamber deep within the ancient ruins of an abandoned castle. Explore the ruins and search for any clues leading to the amulet's whereabouts.",
+          "location": "In the heart of the Forbidden Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardian creature",
+          "description": "The amulet is protected by a powerful guardian creature. Use all your skills and wit to defeat it and claim the amulet as your own.",
+          "location": "At the center of the ancient ruins"
+        },
+        {
+          "order": "4",
+          "objective": "Return the amulet to Wizard Gandalf",
+          "description": "After retrieving the amulet, return it to Wizard Gandalf's tower in the village so that he can use its power for the greater good. Be careful not to be swayed by its immense power as it can corrupt the weak-hearted.",
+          "location": "Wizard Gandalf's tower"
+        }
+      ]
+    }
+  }
+}

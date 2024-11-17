@@ -1,0 +1,31 @@
+The YAML data you provided is correct. Here's the corrected code:
+```
+game:
+  enemy:
+    description: description
+    id: "id"
+    name: "name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+     spd: 100
+```
+
+The output should look like this:
+```yaml
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+     spd: 100
+```
+
+No issues were found with the syntax.

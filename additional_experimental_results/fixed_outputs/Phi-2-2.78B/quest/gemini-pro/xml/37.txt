@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Dragon's Hoard</title>
+	<objective>Retrieve the dragon's hoard from its lair.</objective>
+	<description>A fearsome dragon has been terrorizing the land, and the king has called upon you to slay it and retrieve its hoard. The dragon's lair is a dangerous place, full of traps and monsters, but the reward is worth the risk.</description>
+	<reward>A share of the dragon's hoard, including gold, gems, and rare artifacts.</reward>
+	<quest-giver>King Oberon</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Dragon's Lair.</objective>
+			<description>The dragon's lair is located in the mountains to the north. It is a long and dangerous journey, but you must be careful not to lose your way.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the dragon.</objective>
+			<description>The dragon is a powerful creature, and it will not be easy to defeat. You must be prepared to use all of your skills and abilities to survive.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the dragon's hoard.</objective>
+			<description>Once you have defeated the dragon, you must search its lair for its hoard. The hoard is well-hidden, so you must be careful not to miss anything.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to King Oberon with the dragon's hoard.</objective>
+			<description>Once you have retrieved the dragon's hoard, you must return to King Oberon and give it to him. He will be grateful for your help, and he will reward you handsomely.</description>
+			<location>King Oberon's Castle</location>
+		</task>
+	</tasks>
+</game>
+

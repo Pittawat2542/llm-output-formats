@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to the village elder.</objective>
+	<description>You've heard rumors that the lost artifact is hidden deep in the jungle. The village elder has tasked you with its recovery to bring prosperity back to their people.</description>
+	<reward>1000 gold coins and a place of honor in the village</reward>
+	<quest-giver>Village Elder, named Mithran</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak with the ancient oracle for clues</objective>
+			<description>The oracle is said to reside in a hidden temple. Seek her wisdom to locate the artifact.</description>
+			<location>Oracle's Temple, marked by a waterfall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian of the Jungle</objective>
+			<description>The guardian protects the entrance to where the artifact is hidden. You must defeat it to proceed.</description>
+			<location>Heart of the Jungle, near a giant tree</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the artifact from its pedestal</objective>
+			<description>The artifact is on a pedestal in a chamber deep within the ancient ruins. Be careful not to trigger any traps.</description>
+			<location>Ancient Ruins, behind three secret doors</location>
+		</task>
+	</tasks>
+</game>
+```

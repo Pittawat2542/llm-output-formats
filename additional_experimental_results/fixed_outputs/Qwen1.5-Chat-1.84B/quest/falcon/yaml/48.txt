@@ -1,0 +1,102 @@
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - name: Task 1
+     location: Location A
+     objective: Objective 1
+     order: Order 1
+
+   - name: Task 2
+     location: Location B
+     objective: Objective 2
+     order: Order 2
+
+   - name: Task 3
+     location: Location C
+     objective: Objective 3
+     order: Order 3
+
+   - name: Task 4
+     location: Location D
+     objective: Objective 4
+     order: Order 4
+
+   - name: Task 5
+     location: Location E
+     objective: Objective 5
+     order: Order 5
+
+   # Task 6 is a custom version of task 3 with a different description and duration.
+   - name: Custom Task 6
+     description: This task involves more complex logic and may take several hours to complete. * * * * * * * * *
+     y: 12 hours
+
+   # Task 7 is a reference to the custom version of task 4, but with additional requirements.
+   - name: Custom Task 7
+     description: This task requires additional materials and may require multiple trips to the store. * * * * * * *
+     y: 5 days
+
+   - name: Custom Task 8
+     description: This task involves collaboration with other team members and may take longer to complete than individual tasks.
+     y: 6 weeks
+
+    # Task 9 is a reference to Task 1, but with different objectives and requirements.
+    - name: Task 9
+       description: This quest focuses on solving a puzzle related to historical events. * * *
+       y: 3 days
+
+   # Task 10 is an additional requirement for the custom version of task 7, involving multiple research trips and analysis.
+     y: 2 weeks
+  
+
+# YAML block syntax without the `# `
+#  for YAML.
+My Quest
+- name: My Quest
+  description: | This is an example of YAML formatted text. I'm working on creating quests.
+    - *This is a mapping value. It can contain key-value pairs, which are separated by commas and can have multiple values. In this case, the keys represent the task names and values represent their locations and objectives. The `title` key has a single value of "My Quest", while the `description` key contains a list of sub-tasks with separate descriptions and durations.
+    - I want to add new functionality like this.
+# Tasks
+- name: Task 1
+  description: |
+    Description of task 1. * This is a YAML task description. The location may be different for each task, depending on the specific requirements of the quest.
+
+# Task 2
+  description: *
+    Description of task 2. * This is a YAML task description. The objective can vary depending on the context and the needs of the quest.
+
+# Task 3
+  description: *
+    Description of task 3. * This is a YAML task description. The location may be different for each task, depending on the specific requirements of the quest.
+
+# Task 4
+  description: *
+    Description of task 4. * This is a YAML task description. The objective can vary depending on the context and the needs of the quest.
+
+# Task 5
+  description: *
+    Description of task 5. * This is a YAML task description. The location may be different for each task, depending on the specific requirements of the quest.
+
+# Task 6
+  description: | This task involves more complex logic and may take several hours to complete. * * * * * *
+  y: 12 hours
+
+# Task 7
+  description: | This task requires additional materials and may require multiple trips to the store. * * * * * *
+  y: 5 days
+
+# Task 8
+  description: |
+    Description of task 8. * This is a YAML task description. The collaboration may involve working with other team members or researching historical events, which can take longer than individual tasks.
+
+# Task 9
+  description: | This quest focuses on solving a puzzle related to historical events. * *
+  y: 3 days
+
+# Task 10
+  description: | This quest involves additional requirements for the custom version of task 7, involving multiple research trips and analysis.
+  y: 2 weeks

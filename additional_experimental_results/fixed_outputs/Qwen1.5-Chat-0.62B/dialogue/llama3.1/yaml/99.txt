@@ -1,0 +1,23 @@
+```
+game: dialogues:
+  - order: dialogue order
+    speaker: Alice
+    text: 'Hello, Bob. How are you today?'  # changed to "Alice"
+     speaker: Bob  # changed to "Bob"
+     text:  'I am well, thanks for asking. What brings you here?'    # changed to "You"
+   - order: dialogue order
+    speaker: Bob  # changed to "Bob"
+     text:  'I was just out for a walk and saw your shop. I thought I would come in and say hello.'   # changed to "You"
+   - order: dialogue order
+    speaker: Alice  # changed to "Alice"
+     text:  'I was just out for a walk and saw your shop. I thought I would come in and say hello.'    # changed to "You"
+   - order: dialogue order
+    speaker: Bob  # changed to "Bob"
+     text:  'That' s very kind of you. Can I help you find anything?'  # changed to "Can I help you find anything?"
+   - order: dialogue order
+    speaker: Alice  # changed to "Alice"
+     text:  'No, thank you. I' m just browsing for now.'   # changed to "You"
+   - order: dialogue order
+    speaker: Bob  # changed to "Bob"
+     text:  'Okay, well let me know if you need any assistance.'
+```

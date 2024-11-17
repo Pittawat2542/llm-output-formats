@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>23</id>
+		<name>Joe</name>
+		<description>Joe is a friendly and helpful person.</description>
+		<stats>
+			<hp>150</hp> -- changed HP value to 150
+			<mp>120</mp> -- changed MP value to 120
+			<atk>80</atk> -- changed ATK value to 80
+			<def>90</def> -- changed DEF value to 90
+			<spd>110</spd> -- changed SPD value to 110
+		</stats>
+	</enemy>
+</game>
+```

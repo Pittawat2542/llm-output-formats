@@ -1,0 +1,21 @@
+ YAML in Markdown format:
+```yaml
+character:
+  - age: exact age or description
+
+---
+
+- game:
+  character:
+     - background: "background story"
+     - first_name: "first name"
+     - id: "id"
+     - last_name: "last name"
+     - physical_appearance:
+       - eye_color: "" (eye color)
+       - hair_color: "" (hair color)
+       - height: "" (height in float value)
+       - weight: "" (weight in float value)
+    species: "species"
+
+```

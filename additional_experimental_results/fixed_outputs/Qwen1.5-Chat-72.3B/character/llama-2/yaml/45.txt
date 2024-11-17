@@ -1,0 +1,19 @@
+All examples provided have the correct YAML syntax. Here's one example:
+
+```yaml
+game:
+  character:
+    age: 15
+    background: A young teenager who is new to the school and has no friends.
+    first_name: Sam
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+      - eye_color: blue
+        hair_color: brown
+        height: 5' 10"
+        weight: 130 lbs
+    place_of_birth: New York
+    role: Student
+    species: Human
+```

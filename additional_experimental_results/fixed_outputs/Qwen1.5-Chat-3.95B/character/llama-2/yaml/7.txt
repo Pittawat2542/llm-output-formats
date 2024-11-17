@@ -1,0 +1,9 @@
+Invalid YAML syntax. The original message needs to be reformatted according to the provided template. Please provide a new YAML file in Markdown format and only the YAML code block will be returned. YAML:
+```yaml
+Error: incorrect_syntax: while scanning for the next token
+found character `'` that cannot start any token
+  in "<unicode string>", line 16, column 1:
+     ```
+     ^
+
+Template:

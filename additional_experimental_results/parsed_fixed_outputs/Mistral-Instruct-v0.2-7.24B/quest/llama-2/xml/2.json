@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient artifact in the ruins of the lost temple.",
+    "description": "Long ago, there was a great civilization that worshiped the sun. However, they vanished without a trace, leaving behind only their magnificent temple. Rumors have it that within this temple lies an ancient artifact of immense power. You have been tasked with finding it.",
+    "reward": "100 gold",
+    "quest-giver": "Elder Zoltar",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to Elder Zoltar and accept the quest.",
+          "description": "You must first speak to Elder Zoltar, who will provide you with more information about the lost temple and the artifact.",
+          "location": "Village center"
+        },
+        {
+          "order": "2",
+          "objective": "Gather information about the temple's location.",
+          "description": "There are rumors that the temple is located deep in the jungle, but no one knows for sure. You must gather as much information as you can from the locals before setting out on your journey.",
+          "location": "Village library"
+        },
+        {
+          "order": "3",
+          "objective": "Prepare for the journey.",
+          "description": "The jungle is a dangerous place, filled with all kinds of creatures. Make sure you are well-equipped before setting out on your quest.",
+          "location": "Village armorer"
+        },
+        {
+          "order": "4",
+          "objective": "Find the lost temple.",
+          "description": "Using the information you have gathered, navigate through the jungle and find the lost temple.",
+          "location": "Jungle"
+        },
+        {
+          "order": "5",
+          "objective": "Retrieve the ancient artifact.",
+          "description": "Once you have reached the temple, find the ancient artifact and bring it back to Elder Zoltar.",
+          "location": "Lost Temple"
+        }
+      ]
+    }
+  }
+}

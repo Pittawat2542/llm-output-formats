@@ -1,0 +1,34 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: "This is a Markdown code block. YAML output only please."
+  - order: 2
+    speaker: GameMaster
+    text: >
+      YAML
+      ----
+      {
+        "output": {
+          "game": {
+            "dialogues": [
+              {
+                "order": 1,
+                "speaker": "Player",
+                "text": "This is a Markdown code block. YAML output only please."
+              },
+              {
+                "order": 2,
+                "speaker": "GameMaster",
+                "text": |-
+                  YAML
+                  ----
+                  game:
+                    dialogues: []
+              }
+            ]
+          }
+        }
+      }
+```

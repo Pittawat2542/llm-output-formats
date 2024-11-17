@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>You've heard rumors that the lost artifact is hidden within an abandoned ruin deep in the jungle. Your quest is to find it and bring it back to the village elder.</description>
+	<reward>100 gold coins and fame</reward>
+	<quest-giver>Guru NPCs</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You must explore the jungle until you find the overgrown entrance to the ancient ruins.</description>
+			<location>Jungle clearing near a waterfall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective> Solve the puzzle at the entrance</objective>
+			<description>A riddle or puzzle must be solved to unlock the entrance to the ruins.</description>
+			<location>Ruins' entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective> Retrieve the artifact from the heart of the ruins</objective>
+			<description>The artifact is said to be in a chamber deep within the ruins, guarded by ancient traps and dangers.</description>
+			<location>Inner sanctum of the ruins</location>
+		</task>
+	</tasks>
+</game>
+```

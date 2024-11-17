@@ -1,0 +1,27 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>solving puzzle 1</objective>
+			<description>find the right answer to solve first puzzle</description>
+			<location>hallway A</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>solving puzzle 2</objective>
+			<description>find the correct path in the maze and avoid traps</description>
+			<location>maze</location>
+		</task>
+	</tasks>
+</game>
+
+

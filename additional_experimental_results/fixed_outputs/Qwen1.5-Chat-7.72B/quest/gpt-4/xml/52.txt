@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>587</id>
+    <title>The Lost Artifact</title>
+    <objective>Recover the ancient artifact and bring it back to the guild.</objective>
+    <description>The ancient artifact has been lost for centuries. A recent tip suggests its location within the dark depths of the treacherous 'Caverns of the Forgotten'. Your task is to retrieve this artifact and return it safely back to the guild.</description>
+    <reward>500 gold coins and a unique magical item.</reward>
+    <quest-giver>Guild Master Alaric</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the 'Caverns of the Forgotten'</objective>
+            <description>You need to travel to the 'Caverns of the Forgotten'. This place contains numerous traps and monsters, so be prepared. Find the entrance to the caverns in the Dense Forest region.</description>
+            <location>Dense Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Retrieve the Lost Artifact</objective>
+            <description>Enter the caverns and navigate through its deadly mazes. Find the altar where the artifact lies and retrieve it. Expect resistance from the cavern's nefarious residents.</description>
+            <location>Caverns of the Forgotten</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to Guild Master Alaric</objective>
+            <description>Once you have the artifact, exit the caverns and return to Guild Master Alaric in the city. Show him the artifact to receive your reward.</description>
+            <location>City of the Guild</location>
+        </task>
+    </tasks>
+</game>
+```

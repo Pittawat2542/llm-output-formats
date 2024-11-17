@@ -1,0 +1,33 @@
+Here is a generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QST001</id>
+  <title>The Lost City of Eldarath</title>
+  <objective>Retrieve the ancient artifact from the ruins of Eldarath</objective>
+  <description>Rumors have been circulating about a powerful artifact hidden deep within the lost city of Eldarath. The city is said to be cursed, but the reward is worth the risk.</description>
+  <reward>1000 gold pieces and a magical amulet granting resistance to poison</reward>
+  <quest-giver>Thoric Stonebeard, dwarf elder</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the lost city from local travelers and scholars</objective>
+      <description>Speak with travelers and scholars in the nearby towns to gather information about Eldarath's location and potential dangers.</description>
+      <location>Town of Willowdale</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Infiltrate the ruins of Eldarath and navigate its treacherous paths</objective>
+      <description>Make your way through the jungle and enter the ancient city, avoiding deadly traps and creatures.</description>
+      <location>Ruins of Eldarath</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieve the artifact from the central temple</objective>
+      <description>Face your greatest challenge yet as you navigate the treacherous central temple and claim the ancient artifact.</description>
+      <location>Central Temple of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

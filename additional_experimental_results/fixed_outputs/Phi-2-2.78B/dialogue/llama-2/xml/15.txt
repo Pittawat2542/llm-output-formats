@@ -1,0 +1,26 @@
+- The text of the game dialogue is fixed by defining a variable `text`. 
+
+```python
+text = "I'm fine, how are you?"
+```
+### Response:
+- The number of responses generated with random numbers can be increased or decreased based on the requirement. For example, if we want to increase it from 10 to 20 responses, then we will modify the `order` variable accordingly in the list comprehension as shown below: 
+
+```python
+[dialogue for dialogue in game_data['dialogues'] if dialogue['order'] == order]
+
+# Modify this line of code to generate 20 random number responses instead of 10. 
+
+[dialogue for dialogue in game_data['dialogues'] if dialogue['order'] == order and dialogue['text'].startswith(random.randint(1, 100))]
+```
+### Response:
+- The order of the dialogues can also be fixed using the `order` variable. For example, to change it from 1 to 10, we will modify the list comprehension as shown below: 
+
+```python
+[dialogue for dialogue in game_data['dialogues'] if dialogue['order'] == order]
+
+# Modify this line of code to generate dialogues with order between 5 and 15. 
+
+[dialogue for dialogue in game_data['dialogues'] if dialogue['order'].between(5,15)]
+```
+

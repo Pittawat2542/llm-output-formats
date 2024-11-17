@@ -1,0 +1,71 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+    <!ENTITY quest_giver SYSTEM "quest_giver.xml">
+] >
+<game id="id">
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <!-- Added the missing value for quest-giver -->
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+        <!-- Add more tasks if needed -->
+    </tasks>
+</game>
+```
+In the fixed XML data, I added a new attribute `quest-giver` with an empty value `<quest-giver>` to represent the missing key 'quest_giver'. The rest of the XML elements and attributes remain unchanged. Now, the corrected XML data is:
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+    <!ENTITY quest_giver SYSTEM "quest_giver.xml">
+] >
+<game id="id">
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <!-- Added the missing value for quest-giver -->
+    <quest-giver></quest-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+        <!-- Add more tasks if needed -->
+    </tasks>
+</game>
+```
+The output in XML format with only the XML elements and attributes between ```xml and ``` is:
+```xml
+<game id="id">
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <!-- Added the missing value for quest-giver -->
+    <quest-giver></quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>task objective 1</objective>
+            <description>task description 1</description>
+            <location>task location 1</location>
+        </task>
+        <!-- Add more tasks if needed -->
+    </tasks>
+</game>
+```
+The `<game>` element now contains a single task element with the following attributes:
+- `order` attribute: `1`
+- `objective` attribute: `task objective 1`
+- `description` attribute: `task description 1`
+- `location` attribute: `task location 1`

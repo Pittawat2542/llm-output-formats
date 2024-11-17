@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Hero's Journey</title>
+	<objective>Save the kingdom from an evil sorcerer.</objective>
+	<description>In this epic adventure, you must travel to distant lands, gather allies, and defeat the sorcerer's minions before confronting the dark lord himself.</description>
+	<reward>100 gold coins and the title 'Savior of the Kingdom'</reward>
+	<quest-giver>King Arcturus</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather intelligence about the sorcerer's lair.</objective>
+			<description>Speak to the wise old hermit in the forest for information.</description>
+			<location>Hermit's Hut</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the enchanted sword from the Dragon's Cave.</objective>
+			<description>Battle the dragon and reclaim the sword to defeat the sorcerer.</description>
+			<location>Dragon's Cave</location>
+		</task>
+	</tasks>
+</game>
+```

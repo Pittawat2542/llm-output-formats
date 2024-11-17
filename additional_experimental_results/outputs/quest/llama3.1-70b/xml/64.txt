@@ -1,0 +1,33 @@
+Here is a quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Find the legendary artifact hidden within the ancient temple.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple deep in the jungle, said to contain an artifact of great power. Many adventurers have attempted to find it before, but none have returned. The quest giver, a local expert on ancient civilizations, has provided you with a map that supposedly leads to the temple's entrance.</description>
+	<reward>Golden Amulet (+10 Strength), 1000 Gold Coins</reward>
+	<quest-giver>Professor Elena Vasquez</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's layout and traps.</objective>
+			<description>Speak with the locals in the nearby village to gather information about the temple. They may have heard stories or rumors that could aid you in your quest.</description>
+			<location>San Pedro Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the jungle and reach the temple's entrance.</objective>
+			<description>Use the map provided by Professor Vasquez to navigate through the dense jungle. Be cautious of wild animals and natural hazards.</description>
+			<location>Jungle Path, Temple Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Explore the temple and find the artifact.</objective>
+			<description>Be prepared to face traps, puzzles, and ancient guardians as you explore the temple. The artifact is said to be hidden in a chamber deep within the temple's depths.</description>
+			<location>The Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

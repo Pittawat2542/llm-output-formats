@@ -1,0 +1,24 @@
+```yaml
+game:
+  description: "Save the kidnapped princess from the clutches of the powerful dragon."
+  id: QST123456
+  objective: "Rescue Princess Liza from Dragon Lair"
+  quest_giver: Old Wise Man
+  reward:
+    - "500 gold coins"
+    - "Powerful enchanted sword"
+  tasks:
+    - description: "Find clues in the Forest of Shadows about the dragon's lair"
+      location: Forest of Shadows
+      objective: "Find dragon lair's location"
+      order: 1
+    - description: "Defeat the goblin guards in the mountains"
+      location: Cobblestone Mountain
+      objective: "Defeat goblin guards"
+      order: 2
+    - description: "Rescue Princess Liza from the dragon's lair"
+      location: Dragon's Lair
+      objective: "Save Princess Liza"
+      order: 3
+  title: 'The Dragon\'s Captive'
+```

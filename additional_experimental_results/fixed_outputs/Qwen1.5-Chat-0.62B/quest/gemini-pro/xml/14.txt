@@ -1,0 +1,54 @@
+XML data:
+```xml
+<game>
+	<id>1</id>
+	<title>Treasure Hunt</title>
+	 Objective: Find the lost treasure hidden on Skull Island.
+	 Description: You have been hired by a wealthy merchant to find the lost treasure of Captain Blackheart. The treasure is said to be hidden on Skull Island, a remote and dangerous place. You will need to brave the perils of the island and find the treasure before someone else does.
+	 Reward: 1000 gold, a ship, and a crew.
+	 Quest-Giver: Jack Whitebeard
+	 Tasks:
+	<task>
+	<order>1</order>
+	 Objective: Find the map to Skull Island.
+	 Description: The map to Skull Island is said to be hidden in the old tavern in Port Royal. You will need to find the tavern and search for the map.
+	<location>Port Royal</location>
+	<task>
+	<order>2</order>
+	 Objective: Travel to Skull Island.
+	 Description: Once you have the map, you will need to travel to Skull Island. You can hire a ship or build your own. Be prepared for a treacherous journey.
+	经验值: 10
+	 Location: Skull Island
+</game>
+```
+Corrected syntax:
+```xml
+<game>
+	<id>1</id>
+	<title>Treasure Hunt</title>
+	 Objective: Find the lost treasure hidden on Skull Island.
+	 Description: You have been hired by a wealthy merchant to find the lost treasure of Captain Blackheart. The treasure is said to be hidden on Skull Island, a remote and dangerous place. You will need to brave the perils of the island and find the treasure before someone else does.
+	 Reward: 1000 gold, a ship, and a crew.
+	 Quest-Giver: Jack Whitebeard
+	 Tasks:
+	<task>
+	<order>1</order>
+	 Objective: Find the map to Skull Island.
+	 Description: The map to Skull Island is said to be hidden in the old tavern in Port Royal. You will need to find the tavern and search for the map.
+	经验值: 10
+	 Location: Skull Island
+</game>
+```
+New values:
+```
+<任务>
+	<order>2</order>
+	 Objective: Travel to Skull Island.
+	 Description: Once you have the map, you will need to travel to Skull Island. You can hire a ship or build your own. Be prepared for a treacherous journey.
+经验值: 10
+	 Location: Skull Island
+</task>
+```
+Markdown code block:
+```markdown
+```

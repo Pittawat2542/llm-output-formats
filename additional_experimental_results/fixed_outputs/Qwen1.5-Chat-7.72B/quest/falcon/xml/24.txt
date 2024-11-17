@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>quest_id123</id>
+    <title>Quests of Adventure</title>
+    <objective>Explore the realm, defeat monsters, and aid the local villagers for rewards</objective>
+    <description>Embark on a series of quests to uncover hidden treasures, upgrade your skills, and forge alliances with fellow adventurers.</description>
+    <reward>
+        <questReward>
+            <item>Quest Reward: Rare sword</item>
+            <exchange>NPC Reward Exchange: Enchanted amulet</item>
+        </questReward>
+    </reward>
+    <quest-giver>Master Aldric</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Defeat the Bandit Chief in Eastern Forest</objective>
+            <description>Track down the rogue and secure the stolen goods at the nearby山寨.</description>
+            <location>Eastern Forest</location>
+        </task>
+        <!-- Add more tasks as needed -->
+    </tasks>
+</game>
+```

@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "101",
+    "title": "The Missing Princess",
+    "objective": "Find the lost princess of the kingdom.",
+    "description": "The princess of the kingdom has gone missing and the king has hired your party to find her. She was last seen leaving the castle for a walk in the forest.",
+    "reward": "10,000 gold, a new weapon or armor, and the gratitude of the kingdom.",
+    "quest-giver": "King Bartholomew",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to Lord Harrington for more information about the princess's disappearance.",
+          "description": "Lord Harrington is the king's most trusted advisor and he may know more about the princess's disappearance.",
+          "location": "King's chamber"
+        },
+        {
+          "order": "2",
+          "objective": "Search the forest for any clues.",
+          "description": "The princess was last seen in the forest. Search the area carefully.",
+          "location": "Forest north of the castle"
+        },
+        {
+          "order": "3",
+          "objective": "If found, follow clues to locate and rescue the princess.",
+          "description": "If you find her, bring her back to the castle as quickly as possible.",
+          "location": "Cave or castle dungeon (if found)"
+        },
+        {
+          "order": "4",
+          "objective": "Return the princess to the castle safely.",
+          "description": "Ensure the princess's safe return to the castle's courtyard.",
+          "location": "Castle courtyard"
+        }
+      ]
+    }
+  }
+}

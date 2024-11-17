@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Great Quest</title>
+	<objective>Find the lost artifact and return it to the temple.</objective>
+	<description>In a land forgotten by time, embark on an epic journey to retrieve the mystical artifact that holds the key to saving your village.</description>
+	<reward>100 gold coins and eternal fame</reward>
+	<quest-giver>Guru Yogi</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the ancient ruins</objective>
+			<description>Search the overgrown ruins for any clues leading to the artifact's location.</description>
+			<location Ruins of Eldoria></location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian</objective>
+			<description>A powerful creature guards the artifact. Conquer it to claim the prize.</description>
+			<location Cave of the Guardian></location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the artifact</objective>
+			<description>With the artifact in hand, return it to Guru Yogi at the temple.</description>
+			<location Temple of Light></location>
+		</task>
+	</tasks>
+</game>
+```

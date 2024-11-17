@@ -1,0 +1,113 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			{
+				order: "task order",
+			 Objective: "task objective",
+				Descrition: "task description"
+			}
+		}
+	</game>
+```
+
+The corrected syntax and new values are as follows:
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	objective>quest objective</objective>
+	description>quest description</description>
+	 reward>quest reward</reward>
+	quest-giver>quest giver</quest-giver>
+	tasks {
+		order: "task order",
+	 Objective: "task objective",
+		Descrition: "task description"
+	}
+</game>
+```
+
+The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block. XML:
+```markdown
+### Output
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>quest objective</objective>
+	Description>quest description
+	 reward>quest reward</reward>
+	Quest-giver>quest giver</ Quest-giver>
+	Tasks {
+		order: "task order",
+	 Objective: "task objective",
+		Descrition: "task description"
+	}
+</game>
+
+```
+
+## Example
+```json
+{
+	"id": "id", 
+	"title": "quest title",
+	"objective": "quest objective",
+	"description": "quest description",
+	"reward": "quest reward",
+	"quest-giver": "quest giver",
+	"tasks": [ 
+		 {
+				order: "task order", 
+			 Objective: "task objective",
+				Descrition: "任务 description"
+			}
+	 ]
+}
+```
+
+### Input
+```json
+{
+	"id": "id", 
+	"title": "quest title",
+	"objective": "quest objective",
+	"description": "quest description",
+	"reward": "quest reward",
+	"quest-giver": "quest giver",
+	"tasks": [ 
+		 {
+				order: "task order", 
+			 Objective: "task objective",
+				Descrition: "任务 description"
+			}
+	 ]
+}
+```
+
+### Output
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>quest objective</objective>
+	Description>quest description
+	 reward>quest reward
+	Quest-giver>quest giver
+	Tasks {
+		order: "task order",
+	 Objective: "task objective",
+		Descrition: "任务 description"
+	}
+</game>
+
+```
+In the example provided, there are no missing elements and syntax errors. The output is a valid XML document with the specified information.

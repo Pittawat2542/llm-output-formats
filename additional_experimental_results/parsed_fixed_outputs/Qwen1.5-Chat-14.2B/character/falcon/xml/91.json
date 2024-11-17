@@ -1,0 +1,26 @@
+{
+  "game": {
+    "character": {
+      "@id": "456",
+      "first-name": "John",
+      "last-name": "Doe",
+      "species": "Human",
+      "age": "30",
+      "role": "Engineer",
+      "background": "Engineer by trade, John Doe had moved from his native town of Hailsham to London, UK in pursuit of better opportunities. He found them in the bustling city centers of London, working with some of the biggest companies in the industry.",
+      "place-of-birth": "Hailsham, England",
+      "physical-appearance": {
+        "eye-color": "green",
+        "hair-color": "brown",
+        "height": {
+          "@units": "inches",
+          "#text": "5'6\""
+        },
+        "weight": {
+          "@units": "pounds",
+          "#text": "140"
+        }
+      }
+    }
+  }
+}

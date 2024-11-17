@@ -1,0 +1,16 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+    <enemy id="id" name="name">
+        <description>description</description>
+        <stats>
+            <hp integer value="hp int value"/>
+            <mp integer value="mp int value"/>
+            <atk integer value="atk int value"/>
+            <def integer value="def int value"/>
+            <spd integer value="spd int value"/>
+        </stats>
+    </enemy>
+</game>
+```

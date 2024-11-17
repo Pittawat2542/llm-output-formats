@@ -1,0 +1,19 @@
+The YAML syntax in the provided code block is correct. It's already in the desired format with front matter (the `---`). Here's the corrected YAML without any changes:
+
+```yaml
+---
+game:
+  enemy:
+    description:
+      en: The enemy is a ferocious beast
+      es: La bestia enemiga es ferocísima
+    id: 1
+    name: Beast
+    stats:
+      def: 7
+      atk: 5
+      spd: 1
+      hp: 15
+      mp: 20
+---
+```

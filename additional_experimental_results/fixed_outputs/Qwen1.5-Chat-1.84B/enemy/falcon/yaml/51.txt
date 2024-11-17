@@ -1,0 +1,17 @@
+```yaml
+game:
+  enemy:
+    type: string | "spd" | "atk" | "def"
+    id: string | id
+    name: string | name
+    stats:
+      atk: int | float | string | int | float
+      def: int | float | string | int | float
+      hp: int | float | string | int | float
+      mp: int | float | string | int | float
+      spd: int | float | string | int | float
+  game_end:
+    description: end of game
+    id: string | id
+  winner: string
+```

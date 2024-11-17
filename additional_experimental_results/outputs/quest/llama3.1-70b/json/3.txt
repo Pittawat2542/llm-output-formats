@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "SQ001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost Temple of Eldarath.",
+    "description": "Rumors have been circulating about a long-abandoned temple hidden deep within the mystical forest of Elvendom. The temple is said to contain an ancient relic with immense magical power, and many are seeking to claim it for themselves. You must navigate the treacherous terrain and overcome the trials that lie within to retrieve this artifact.",
+    "reward": "The Amulet of Eldarath (grants +10% magic resistance) and 1000 gold pieces",
+    "quest_giver": "Eriol, the wise old sage",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Reach the entrance of the Lost Temple of Eldarath.",
+        "description": "Travel through the mystical forest of Elvendom and find the hidden path leading to the temple entrance.",
+        "location": "Mystical Forest of Elvendom, near the ancient standing stones"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the trial of shadows.",
+        "description": "Navigate through a maze of illusions and overcome the dark creatures lurking within.",
+        "location": "Inside the Lost Temple of Eldarath, chamber of shadows"
+      },
+      {
+        "order": "3",
+        "objective": "Claim the ancient artifact.",
+        "description": "Face the guardian of the temple and defeat it in combat to claim the artifact.",
+        "location": "Inside the Lost Temple of Eldarath, treasure chamber"
+      }
+    ]
+  }
+}
+```

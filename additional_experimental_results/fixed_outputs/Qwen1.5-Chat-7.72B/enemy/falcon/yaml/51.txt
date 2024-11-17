@@ -1,0 +1,16 @@
+Here is the corrected YAML data with proper syntax and new values for `stats.atk`, `stats.def`, and `hp`:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100   # Added a value for 'atk'
+      def: 50    # Added a value for 'def'
+      hp: 300   # Added a value for 'hp'
+      mp: 100   # Existing 'mp' value remains the same
+      spd: 80    # Existing 'spd' value remains the same
+```
+The YAML is now correctly formatted and all missing values have been added.

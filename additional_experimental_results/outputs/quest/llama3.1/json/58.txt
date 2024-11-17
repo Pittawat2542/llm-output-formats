@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "G001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifacts from the lost temple.",
+    "description": "The temple has been hidden for centuries, and the artifacts within hold the secrets of a long-lost civilization. Find them before they fall into the wrong hands.",
+    "reward": "10 gold coins, 100 experience points",
+    "quest_giver": "Gorvoth, the village elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the lost temple",
+        "description": "The temple is hidden deep in the nearby forest. Look for the ancient stone path that leads to it.",
+        "location": "Forest of Elvendom, north of the village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve the Golden Idol",
+        "description": "Inside the temple, you'll find a chamber filled with treasure. Find the golden idol on top of the pedestal.",
+        "location": "The Lost Temple, Chamber of Gold"
+      },
+      {
+        "order": 3,
+        "objective": "Return to Gorvoth with the Golden Idol",
+        "description": "Once you have the idol, return it to Gorvoth in the village. He'll be waiting for you.",
+        "location": "Village of Oakwood"
+      }
+    ]
+  }
+}
+```

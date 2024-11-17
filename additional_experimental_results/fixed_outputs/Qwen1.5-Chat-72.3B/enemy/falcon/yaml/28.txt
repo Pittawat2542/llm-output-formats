@@ -1,0 +1,15 @@
+The original YAML data seems to be missing the `enemy` key which is present in the template. Here's the fixed version:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```

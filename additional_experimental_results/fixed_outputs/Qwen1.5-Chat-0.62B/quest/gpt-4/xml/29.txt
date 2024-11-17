@@ -1,0 +1,112 @@
+Here is the corrected XML data:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>36587</id>
+	<title>Rescue the Lost Princess</title>
+	 objective>Save the princess from the haunted castle</objective>
+	description>The King's only daughter, the princess has been captured by the evil that resides in the haunted castle. Rescue her and you shall be greatly rewarded.</description>
+	reward>500 Gold and Knight Title</reward>
+	quest-giver>King Roland</quest-giver>
+	tasks>
+			<task>
+				<order>1</order>
+			 Objective: Defeat the guards at the castle entrance</objective>
+				Description: Overcome the castle guards who are enchanted by dark magic. Be cautious!</description>
+			location> haunted Castle Entrance</location>
+			<task>
+				<order>2</order>
+			 Objective: Find and Unlock the secret passage</objective>
+				Description:A hidden passage leads to the princess's room. Find and open it.</description>
+			location> haunted Castle Hallway</location>
+			<task>
+				<order>3</order>
+			 Objective: Rescue the Princess</objective>
+				Description:Find the princess in her room and escort her safely back to the king.</description>
+			(location>Princess's Room in Haunted Castle</location>
+			<task>
+				<order>4</order>
+			 Objective: Find the key to the secret passage</objective>
+				Description: The key to the secret passage leads to a hidden room filled with valuable items that will help save the princess.</description>
+			(location>Secret Passage</location>
+			<task>
+				<order>5</order>
+			 Objective: Head back to the castle and present the key to King Roland:</objective>
+			.location> Castle entrance</location>
+			<task>
+				<order>6</order>
+			 Objective: Use the key to open the castle's door and escape:</objective>
+			(location> Castle entrance</location>
+			<task>
+				<order>7</order>
+			 Objective: Head back to the king's palace and present the key to King Roland:</objective>
+			.location> Palace entrance</location>
+			<task>
+				<order>8</order>
+			 Objective: Return the princess to her room:</objective>
+			(location>公主's room in Haunted Castle</location>
+			</task>
+	</tasks>
+
+</game>
+```
+
+Now, here is the code block with Markdown formatting:
+
+``` markdown
+<?xml version="1.0" ?>
+<game>
+	<id>36587</id>
+	<title>Rescue the Lost Princess</title>
+	objective>Save the princess from the haunted castle</objective>
+	description>The King's only daughter, the princess has been captured by the evil that resides in the haunted castle. Rescue her and you shall be greatly rewarded.</description>
+	reward>500 Gold and Knight Title</reward>
+	quest-giver>King Roland
+	tasks:
+		<task>
+			<order>1</order>
+		 Objective: Defeat the guards at the castle entrance
+			Description: Overcome the castle guards who are enchanted by dark magic. Be cautious!
+		</task>
+		<task>
+			<order>2</order>
+		 Objective: Find and Unlock the secret passage
+			Description:A hidden passage leads to the princess's room. Find and open it.
+		</task>
+		<task>
+			<order>3</order>
+		 Objective: Rescue the Princess
+			Description: Find the princess in her room and escort her safely back to the king.
+		</task>
+		<task>
+			<order>4</order>
+		 Objective: Find the key to the secret passage
+			Description: The key to the secret passage leads to a hidden room filled with valuable items that will help save the princess.
+		</task>
+		<task>
+			<order>5</order>
+		 Objective: Head back to the castle and present the key to King Roland:</objective>
+		.location: Castle entrance
+		</task>
+		<task>
+			<order>6</order>
+		 Objective: Use the key to open the castle's door and escape:
+			 location: Castle entrance
+		</task>
+		<task>
+			<order>7</order>
+		 Objective: Head back to the king's palace and present the key to King Roland:
+			 location: Palace entrance
+		</task>
+		<task>
+			<order>8</order>
+		 Objective: Return the princess to her room:
+			 location:公主's room in Haunted Castle
+		</task>
+	</tasks>
+
+</game>
+```
+
+Note: The original message is provided between ```xml and ```, while here, it is placed within a code block.

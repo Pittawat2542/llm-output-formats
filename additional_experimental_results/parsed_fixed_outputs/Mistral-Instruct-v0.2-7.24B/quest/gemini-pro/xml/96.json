@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Sword",
+    "objective": "Retrieve the missing sword from the Goblin King",
+    "description": "The king's sword has been stolen by the Goblin King, and the king has asked you to retrieve it.",
+    "reward": "The king's favor and a new sword",
+    "quest-giver": "King Oberon",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Goblin Caves",
+          "description": "The Goblin Caves are located in the Misty Mountains, just north of the village.",
+          "location": "Misty Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Goblin King",
+          "description": "The Goblin King is a powerful warrior, so be prepared for a tough fight.",
+          "location": "Goblin Caves"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the missing sword",
+          "description": "Once you have defeated the Goblin King, search his throne room for the missing sword.",
+          "location": "Goblin Caves"
+        },
+        {
+          "order": "4",
+          "objective": "Return the sword to King Oberon",
+          "description": "Once you have retrieved the sword, return it to King Oberon in the castle.",
+          "location": "Castle"
+        }
+      ]
+    }
+  }
+}

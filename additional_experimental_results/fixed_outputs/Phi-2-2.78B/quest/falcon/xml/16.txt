@@ -1,0 +1,23 @@
+# Input { input.txt }
+id=task0
+title=My Quest
+objective=object1
+description=The task is a test.
+reward=revenue
+quest_giver=someguy
+
+# Output { quest.xml }
+<game>
+    <id>id</id>
+    <title>My Quest</title>
+    <objective>object1</objective>
+    <description>My quest is a test.</description>
+   <reward>revenue</reward>
+   <quest-giver>someguy</quest-giver>
+   <order>0</order>
+   <location>some location</location>
+   <objectives_in_tasks>
+   	 <objectives>My Object List</objectives>
+   </objectives>
+</game>
+

@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "Elder Scrolls V: Skyrim - Quest 001",
+    "title": "The Dragonborn Comes",
+    "objective": "Investigate the dragon attack on Helgen and escape from the Imperial Legion's clutches.",
+    "description": "You are a prisoner, awaiting your execution. However, before that can happen, a dragon appears, and chaos erupts. You must navigate through the carnage and find a way to escape.",
+    "reward": "Dragonstone, 100 gold pieces",
+    "quest_giver": "Hadvar or Ralof",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Talk to Hadvar or Ralof about the dragon attack.",
+        "description": "Speak with your fellow prisoner who has information about what's happening outside the walls of Helgen.",
+        "location": "Helgen Keep"
+      },
+      {
+        "order": "2",
+        "objective": "Find a way out of Helgen Keep.",
+        "description": "Look for an opportunity to escape from the Imperial Legion's custody.",
+        "location": "Helgen Keep, Tower"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+ ```xml
+<game>
+  <character>
+    <id>CH001</id>
+    <first-name>Eira</first-name>
+    <last-name>Shadowglow</last-name>
+    <species><type name="HALF-ELF"/></species>
+    <age>250 years old (appears to be mid-30s)</age>
+    <role>Rogue/Assassin</role>
+    <background>Eira was born in a small village on the edge of a vast forest, where she was trained by her elven mother in the art of stealth and deception. She later honed her skills as an assassin in a prestigious guild.</background>
+    <place-of-birth><location>Elvanar Forest, Silverleaf Village</location></place-of-birth>
+    <physical-appearance>
+      <physical-appearance>
+        <eye-color>Emerald Green</eye-color>
+        <hair-color>DARK BROWN WITH SUBTLE RED HIGHLIGHTS</hair-color>
+        <height>5.8</height>
+        <weight>120.5</weight>
+      </physical-appearance>
+    </physical-appearance>
+  </character>
+</game>
+```
+
+Corrected the syntax error by enclosing the HALF-ELF text in a type tag and wrapping the physical-appearance tag with another physical-appearance tag.

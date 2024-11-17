@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game id="1">
+  <title>Treasure Hunt</title>
+  <objective>Find the lost treasure hidden on Skull Island.</objective>
+  <description>You have been hired by a wealthy merchant to find the lost treasure of Captain Blackheart. The treasure is said to be hidden on Skull Island, a remote and dangerous place. You will need to brave the perils of the island and find the treasure before someone else does.</description>
+  <reward>1000 gold, a ship, and a crew.</reward>
+  <quest-giver Jack Whitebeard</quest-giver>
+  <tasks>
+    <task order="1">
+      <objective>Find the map to Skull Island.</objective>
+      <description>The map to Skull Island is said to be hidden in the old tavern in Port Royal. You will need to find the tavern and search for the map.</description>
+      <location>Port Royal</location>
+    </task>
+    <task order="2">
+      <objective>Travel to Skull Island.</objective>
+      <description>Once you have the map, you will need to travel to Skull Island. You can hire a ship or build your own. Be prepared for a treacherous journey.</description>
+      <location>Skull Island</location>
+    </task>
+    <task order="3">
+      <objective>Find the lost treasure.</objective>
+      <description>The treasure is said to be hidden in a cave at the center of the island. You will need to fight your way through pirates and wild animals to get to the treasure.</description>
+      <location>Skull Island</location>
+    </task>
+  </tasks>
+</game>

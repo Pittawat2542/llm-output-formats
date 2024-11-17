@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>123ABC</id>
+    <title>Dragon Slayer</title>
+    <objective>Save the kingdom by slaying the dragon</objective>
+    <description>You must travel across the mystical lands, overcome numerous challenges to reach the Dragon's lair and slay the dragon to save the kingdom.</description>
+    <reward>The legendary Sword of Power</reward>
+    <quest-giver>The old King</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the dragon's lair</objective>
+            <description>Get information about the dragon's lair from the old sage in the hidden forest.</description>
+            <location>Hidden Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Obtain the dragon slayer armour</objective>
+            <description>Trade with the dwarf blacksmith in the mountain for the dragon slayer armour.</description>
+            <location>Mountain</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Slay the dragon</objective>
+            <description>Travel to the dragon's lair and defeat the dragon to save the kingdom.</description>
+            <location>Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,49 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>35</age>
+		<role>hero</role>
+		<background>Orphaned as a baby, John was raised by wolves in the forest.</background>
+		<place-of-birth>Wolf Forest</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>green</eye-color>
+				<hair-color>blonde</hair-color>
+				<height>1.85</height>
+				<weight>75.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+### Response:
+The original XML data is already well-formed and does not contain any syntax errors, so no changes are needed. Here's the XML data for reference:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

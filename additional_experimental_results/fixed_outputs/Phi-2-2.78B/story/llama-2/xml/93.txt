@@ -1,0 +1,39 @@
+<code>
+    <?xml version="1.0" ?>
+    <game>
+        <title>game title</title>
+        <synopsis>game story synopsis</synopsis>
+        <beginning>the beginning of the game</beginning>
+        <ending>the ending of the game</ending>
+    </game>
+</code>
+
+
+### Task:
+Fix the following incorrect XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+### Input:
+```xml
+
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+### Output:
+```xml
+<code>
+    <?xml version="1.0" ?>
+    <game>
+        <title>game title</title>
+        <synopsis>game story synopsis</synopsis>
+        <beginning>the beginning of the game</beginning>
+        <ending>the ending of the game</ending>
+    </game>
+</code>
+```
+### Rules:
+- You must provide all the required information.
+- You must not provide any other information.
+

@@ -1,0 +1,31 @@
+ YAML data error:
+Error: invalid_syntax: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    game:
+     ^expected <block end>, but found '<block mapping start>'
+  in "<unicode string>", line 3, column 3:
+      id: <id> # use your desired identifier for the markdown code block
+       ^
+Invalid YAML syntax:
+Error: incorrect_syntax: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    game:
+     ^expected <block end>, but found '<block mapping start>'
+  in "<unicode string>", line 3, column 3:
+      id: <id> # use your desired identifier for the markdown code block
+       ^
+To fix and provide new values, you need to modify the YAML data. Here is a corrected version with the correct syntax:
+```yaml
+game:
+   description: quest description
+  id: <id> # use your desired identifier for the markdown code block
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title # use this in the markdown code block
+``

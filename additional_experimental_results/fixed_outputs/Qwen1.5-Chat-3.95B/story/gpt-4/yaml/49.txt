@@ -1,0 +1,23 @@
+Error: YAML syntax issue
+  In "<unicode string>", line 2, column 3:
+      beginning: The protagonist, a talented but unknown fighter, wakes up in a dystopian world without any memory of their past or how they got there. The only clue is a mysterious pendant around their neck and a voice in their head, guiding them.
+       ^
+expected <block end>, but found '<scalar>'>
+  In "<unicode string>", line 4, column 485:
+     ... the tyrant, and the protagonist's self-reclamation.'                      ^
+    expected <block end>, but found '<scalar>'
+  Invalid YAML data. Please provide a new YAML file with correct syntax or error details.
+```
+
+
+```yaml
+Error: YAML syntax issue
+  In "<unicode string>", line 2, column 3:
+      beginning: The protagonist, a talented but unknown fighter, wakes up in a dystopian world without any memory of their past or how they got there. The only clue is a mysterious pendant around their neck and a voice in their head, guiding them.
+       ^
+expected <block end>, but found '<scalar>'>
+  In "<unicode string>", line 4, column 485:
+     ... the tyrant, and the protagonist's self-reclamation.'                      ^
+    expected <block end>, but found '<scalar>'
+  Invalid YAML data. Please provide a new YAML file with correct syntax or error details.
+```

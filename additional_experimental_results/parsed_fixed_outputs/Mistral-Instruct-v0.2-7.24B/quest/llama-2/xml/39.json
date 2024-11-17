@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Quest for the Golden Apple",
+    "objective": "Find the Golden Apple and bring it to the king",
+    "description": "Find the Golden Apple in the forest and bring it to the king. He will reward you with a bag of gold and a magical cloak that will make you invisible.",
+    "reward": "100 gold coins and a magical cloak",
+    "quest-giver": "King",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Golden Apple in the forest",
+          "description": "Search for the elusive Golden Apple hidden deep within the forest.",
+          "location": "Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Bring the Golden Apple to the king",
+          "description": "Present the Golden Apple to King, ensuring it is not damaged in transport.",
+          "location": "King's palace"
+        }
+      ]
+    }
+  }
+}

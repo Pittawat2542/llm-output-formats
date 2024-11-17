@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+	<f3f:Menu xmlns:f3f="http://www.gta4mod.com/xmlns:f3f">
+		<f3f:selected>selected</f3f:selected>
+		<f3f:Layout>
+			<!-- game.xml -->
+			<f3f:Dialog>
+				<f3f:Order>
+					<!-- Missing closing tags here -->
+				</f3f:Order>
+			</f3f:Dialog>
+		</f3f:Layout>
+	</f3f:Menu>
+</game>
+```

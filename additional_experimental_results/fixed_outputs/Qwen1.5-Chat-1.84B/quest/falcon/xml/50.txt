@@ -1,0 +1,33 @@
+Corrected XML data:
+
+```xml
+<game>
+	<id>1</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<track>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</track>
+	</tasks>
+</game>
+```
+
+New values:
+
+1. `id`: `1`
+2. `title`: "Quest Title"
+3. `objective`: "Quest Objective"
+4. `description`: "Quest Description"
+5. `reward`: "Quest Reward"
+6. `quest-giver`: "Quest Giver"
+7. `order`: "Task Order"
+8. `objective`: "Task Objective"
+9. `description`: "Task Description"
+10. `location`: "Task Location"

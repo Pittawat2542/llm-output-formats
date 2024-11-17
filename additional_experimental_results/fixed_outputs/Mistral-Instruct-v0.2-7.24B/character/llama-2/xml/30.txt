@@ -1,0 +1,67 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>001</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>25</age>
+		<role>Warrior</role>
+		<background>Orphaned at a young age, John grew up on the streets of a war-torn city. He learned to fight for survival and joined the army to protect his people.</background>
+		<place-of-birth>Ruined City</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>185.3</height>
+				<weight>82.6</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Example 13
+
+```markdown
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>002</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Elf</species>
+		<age>500</age>
+		<role>Sorcerer</role>
+		<background>Born in the mystic forest of Eldoria, Jane was raised by wise elders who taught her the secrets of magic. She has protected her people for centuries.</background>
+		<place-of-birth>Eldoria Forest</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>Silver</hair-color>
+				<height>165.2</height>
+				<weight>45.3</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>id_25</id>
+        <name>cobalt</name>
+        <description>cobalt is a powerful enemy with high HP and MP values, capable of dealing significant damage to players.</description>
+        <stats>
+            <hp>100</hp>
+            <mp>100</mp>
+            <atk>150</atk>
+            <def>150</def>
+            <spd>150</spd>
+        </stats>
+    </enemy>
+</game>
+```
+
+The XML data has been fixed, and the updated values are:
+- `<name>cobalt` - The name of the enemy.
+- `<description>cobalt is a powerful enemy with high HP and MP values, capable of dealing significant damage to players.` - The description of the enemy.

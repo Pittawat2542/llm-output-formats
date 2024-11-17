@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>quest_001</id>
+    <title>The Missing Prince</title>
+    <objective>Find the missing prince who vanished from his castle.</objective>
+    <description>Prince Edric of Highgarden vanished without a trace from his castle overnight. His family is distraught, and rumors circulate about an unknown villain's plot or a supernatural curse. Uncover the truth and restore the prince to safety.</description>
+    <reward>A rare relic of the ancient kingdom, a token of the royal family's gratitude, and 1000 gold coins.</reward>
+    <quest-giver>Lord Edgar Harroway, Castellan of Highgarden</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather testimonies from castle servants and guards.</objective>
+            <description>Investigate the castle's staff and security to uncover any unusual activity or clues that may have contributed to the prince's disappearance. Search Prince Edric's chambers for further insights.</description>
+            <location>Highgarden Castle, Prince Edric's Chambers</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>探查附近的村庄以获取线索。</objective>
+            <description>Visit Oakbridge Town's taverns and markets to listen for gossip or leads about the prince. Talk to travelers and merchants who frequent Highgarden.</description>
+            <location>Oakbridge Town, The Rusty Tankard Inn</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>探索城堡外的旧矿井。</objective>
+            <description>Explore the old mine; it's said to have a hidden passage. Be cautious as you search for any signs of the prince or potential threats.</description>
+            <location>Old Harrow Mine, Hidden Passage</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>面对嫌疑人或营救被俘的王子。</objective>
+            <description>Depending on your findings, confront the suspected villain or devise a plan to rescue the prince if he is in their hands. Be prepared for any situation.</description>
+            <location>废弃望塔，潜伏地点（具体情况未明）</location>
+        </task>
+    </tasks>
+</game>
+```

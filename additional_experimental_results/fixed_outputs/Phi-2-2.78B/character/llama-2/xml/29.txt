@@ -1,0 +1,99 @@
+```python
+class Error(Exception):
+    """Base class for other exceptions"""
+    def __init__(self, message="", *args):
+        """Constructor; sets the exception message"""
+        super().__init__(message, *args)
+
+
+class IncorrectSyntaxError(Error):
+    """Raised when an error occurs in parsing XML data"""
+    pass
+
+
+class XML:
+
+	def __init__(self, game_data):
+		# Parse the XML data and store it as a Python object
+		try:
+			import xml.etree.ElementTree as ET
+
+			root = ET.fromstring(game_data)
+			self._gameData = root
+		except ImportError as e:
+			print(f"{e}: Unable to import the ElementTree module")
+			raise IncorrectSyntaxError("The ElementTree module is needed for parsing XML data")
+
+	def getGameData(self):
+		"""Returns game data as a Python object"""
+		return self._gameData
+
+
+class Character:
+
+	def __init__(self, id, first_name, last_name, species, age, role, background, place_of_birth, physical_appearance):
+		# Create instance variables for the character's information
+		self.id = id
+		self.first_name = first_name
+		self.last_name = last_name
+		self.species = species
+		self.age = age
+		self.role = role
+		self.background = background
+		self.place_of_birth = place_of_birth
+		self.physical_appearance = physical_appearance
+
+	def __str__(self):
+		# Return a formatted string of the character's information
+		return f"{self.first_name} {self.last_name}, {self.species}"
+
+
+class Game:
+
+	def __init__(self, game_data=None):
+		if not game_data:
+			game_data = XML("<game><character><id>1</id><first-name>John</first-name><last-name>Doe</last-name></character></game>")
+
+		# Parse the XML data and store it as a Python object
+		try:
+			import xml.etree.ElementTree as ET
+
+			root = ET.fromstring(game_data)
+			self._characters = []
+
+			for character in root.findall('/character'):
+				id = character.get('id')
+				first_name = character.get('first-name')
+				last_name = character.get('last-name')
+				species = character.get('species')
+				age = character.get('age') or 'exact age'
+				role = character.get('role')
+				background = character.get('background')
+				place_of_birth = character.get('place-of-birth')
+				physical_appearance = []
+
+				for physical_attribute in character.findall('.//physical-appearance'):
+					eye_color = physical_attribute.get('eye-color')
+					hair_color = physical_attribute.get('hair-color')
+					height = float(physical_attribute.get('height'))
+					weight = float(physical_attribute.get('weight'))
+
+					appearance = f"{eye_color} eye color, {hair_color} hair color, {height}, {weight}"
+					physical_appearance.append(appearance)
+
+				self._characters.append(Character(id=id, first_name=first_name, last_name=last_name, species=species, age=age, role=role, background=background, place_of_birth=place_of_birth, physical_appearance=' '.join(physical_appearance)))
+		except ImportError as e:
+			print(f"{e}: Unable to import the ElementTree module")
+			raise IncorrectSyntaxError("The ElementTree module is needed for parsing XML data")
+
+	def getGameCharacters(self):
+		"""Returns the characters in the game as a Python object"""
+		return self._characters
+
+
+game_data = XML("<game><character><id>1</id><first-name>John</first-name><last-name>Doe</last-name></character></game>")
+print(game_data)
+myGame = Game(game_data)
+print(myGame.getGameCharacters())
+
+

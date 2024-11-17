@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "q_a436d78",
+    "title": "Rat Problem",
+    "objective": "Exterminate the rats in the Tavern's basement.",
+    "description": "The tavern owner is having a rat problem in the basement. He has asked you to deal with them.",
+    "reward": "500 gold and 10 Tavern Reputation",
+    "quest-giver": "Tavern owner",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Tavern's basement.",
+          "description": "The tavern's basement is located behind the bar.",
+          "location": "Tavern basement"
+        },
+        {
+          "order": "2",
+          "objective": "Kill 10 rats.",
+          "description": "Use any weapon to kill the rats in the basement.",
+          "location": "Tavern basement"
+        },
+        {
+          "order": "3",
+          "objective": "Report back to the Tavern owner.",
+          "description": "After completing the rats, inform the tavern owner of your success.",
+          "location": "Tavern"
+        }
+      ]
+    }
+  }
+}

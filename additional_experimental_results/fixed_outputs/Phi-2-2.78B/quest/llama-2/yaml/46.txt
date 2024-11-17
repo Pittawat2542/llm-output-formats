@@ -1,0 +1,33 @@
+{
+  "games": [
+    ...
+    {
+      "id": 1,
+      "description": "A quest to get a quest reward",
+      "objective": "Get quest reward",
+      "quest_giver": "Someone",
+      "reward": "A quest reward",
+      "tasks": [
+        ...
+        {
+          "order": 1,
+          "description": "Get a quest reward",
+          "location": "Somewhere",
+          "objective": "Get quest reward"
+        },
+        {
+          "order": 2,
+          "description": "Get a quest reward",
+          "location": "Somewhere",
+          "objective": "Get quest reward"
+        }
+      ],
+      "title": "A quest to get a quest reward"
+    },
+    ...
+  ]
+}
+
+
+```
+

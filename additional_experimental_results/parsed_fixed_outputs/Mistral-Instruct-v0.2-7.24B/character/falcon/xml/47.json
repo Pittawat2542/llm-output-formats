@@ -1,0 +1,22 @@
+{
+  "game": {
+    "character": {
+      "id": "id",
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "species",
+      "age": "exact age in integer value or description",
+      "role": "character role in string value",
+      "background": "background story in string value",
+      "place-of-birth": "location",
+      "physical-appearance": {
+        "physical-appearance": {
+          "eye-color": "exact eye color in string value (e.g., blue, brown)",
+          "hair-color": "hair color in string value (e.g., black, blonde)",
+          "height": "height in float value (e.g., 1.85 for 6 feet 0 inches)",
+          "weight": "weight in float value (e.g., 70.3 for 155 lbs)"
+        }
+      }
+    }
+  }
+}

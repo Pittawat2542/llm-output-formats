@@ -1,0 +1,46 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>enemy1</id>
+		<name>enemy 1</name>
+		<description />
+		<stats>
+			<hp>50</hp>
+			<mp>20</mp>
+			<atk>0</atk>
+			<def>0</def>
+			<spd>0</spd>
+		</stats>
+		<xp>7</xp>
+	</enemy>
+
+	<enemy>
+		<id>enemy2</id>
+		<name>enemy 2</name>
+		<description />
+		<stats>
+			<hp>25</hp>
+			<mp>10</mp>
+			<atk>4</atk>
+			<def>4</def>
+			<spd>0</spd>
+		</stats>
+		<xp>8</xp>
+	</enemy>
+
+	<enemy>
+		<id>enemy3</id>
+		<name>enemy 3</name>
+		<description />
+		<stats>
+			<hp>0</hp>
+			<mp>0</mp>
+			<atk>25</atk>
+			<def>4</def>
+			<spd>0</spd>
+		</stats>
+		<xp>0</xp>
+	</enemy>
+</game>
+```

@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": "Quest001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom from the mischievous raccoon clan.",
+    "description": "A precious family treasure has been pilfered by a group of thieving raccoons. Your task is to infiltrate their den and retrieve it before they can sell it on the black market.",
+    "reward": {
+      "gold": 100,
+      "experience": 200
+    },
+    "quest_giver": "The Town Elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the raccoon clan's den location",
+        "description": "Speak with the local squirrel who has been watching the raccoons to learn their hideout location.",
+        "location": "The Squirrel's Tree"
+      },
+      {
+        "order": 2,
+        "objective": "Infiltrate the raccoon den and retrieve the stolen heirloom",
+        "description": "Stealthily enter the raccoon den at night, avoiding detection by their guards. Retrieve the heirloom from its hiding place.",
+        "location": "The Raccoon's Den"
+      },
+      {
+        "order": 3,
+        "objective": "Return the stolen heirloom to the Town Elder",
+        "description": "Return the recovered family treasure to the Town Elder in the town square, completing your quest.",
+        "location": "The Town Square"
+      }
+    ]
+  }
+}

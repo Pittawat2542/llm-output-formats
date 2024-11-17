@@ -1,0 +1,33 @@
+Here is the generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QST001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the Lost Temple of Eldarath</objective>
+	<description>Rumors have been circulating about a long-abandoned temple deep in the heart of the mystical forest, where an ancient civilization once thrived. The temple is said to hold the secrets of Eldarath, and many have attempted to find it but never returned. You've received a cryptic map that supposedly leads to the temple, and you're determined to uncover its secrets.</description>
+	<reward>1000 Gold Pieces, a magical amulet granting +10 Intelligence</reward>
+	<quest-giver>Thorold Ironfist, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location from local travelers and villagers</objective>
+			<description>Talk to travelers and villagers in the nearby towns and villages, gathering as much information as possible about the temple's location and any potential dangers that lie within.</description>
+			<location>Greenhaven Village, Oakwood Tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the mystical forest to reach the temple entrance</objective>
+			<description>Use your wits and your map to navigate through the treacherous paths of the mystical forest, avoiding deadly creatures and obstacles along the way.</description>
+			<location>Mystical Forest, near the ancient ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient artifact from within the temple</objective>
+			<description>Explore the ancient temple, solving puzzles and avoiding deadly traps to reach the inner sanctum where the artifact is said to be hidden.</description>
+			<location>Lost Temple of Eldarath, inner sanctum</location>
+		</task>
+	</tasks>
+</game>
+```

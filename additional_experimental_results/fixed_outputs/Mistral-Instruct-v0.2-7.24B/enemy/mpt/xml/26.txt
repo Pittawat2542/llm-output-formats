@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name><name></name> <!-- added opening tag for name --></name>
+		<description>This is the enemy named <name>. id is the ID of this enemy. They have <hp> health points, <mp> Mana Points, <atk> attack points, <def> defense points, <spd> speed points.</description> <!-- added description tag -->
+		<stats>
+			<hp><hp int value></hp>
+			<mp><mp int value></mp>
+			<atk><atk int value></atk>
+			<def><def int value></def>
+			<spd><spd int value></spd>
+		</stats>
+	</enemy>
+</game>
+```

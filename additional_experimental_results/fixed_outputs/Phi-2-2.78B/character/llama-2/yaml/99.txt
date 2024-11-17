@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+
+import yaml
+import re
+
+# Read game configuration file
+with open("game.yml", "r") as fp:
+    config = yaml.safe_load(fp)
+
+# Extract character information from YAML data
+character = config["character"]
+name = character["first_name"] + character["last_name"].capitalize()
+age = character["age"]
+background = character["background"]
+physical_appearance = character.get("physical_appearance", {})
+place_of_birth = physical_appearance.pop("place_of_birth", None)
+species = physical_appearance.pop("species", "human")
+
+
+# Write game configuration file with corrected data
+with open("game.yml", "w") as fp:
+    fp.write(f"---\n")
+    fp.write(f"title: My Game\n")
+    fp.write(f"description: A space adventure game.\n")
+    fp.write(f"author: {name}\n")
+    fp.write(f"version: 1.0.0\n")
+    fp.write("---\n")
+    for key, value in config.items():
+        if isinstance(value, dict):
+            data = ""
+            for item in value.values():
+                if isinstance(item, list):
+                    data += f"{key}: {', '.join([str(i) for i in item])}\n"
+                else:
+                    data += f"{key}: {value}\n"
+            fp.write(f"- [{key}]({data})\n")
+        elif isinstance(value, str):
+            fp.write(f'- "{key}" = "{value}"\n')
+    if place_of_birth:
+        # Write game configuration file with corrected data
+        with open("game.yml", "w") as fp:
+            fp.write(f"---\n")
+            fp.write(f"title: My Game\n")
+            fp.write(f"description: A space adventure game.\n")
+            fp.write(f"author: {name}\n")
+            fp.write(f"version: 1.0.0\n---\n")
+    for key, value in config.items():
+        if isinstance(value, dict):
+            # Write game configuration file with corrected data
+            with open("game.yml", "w") as fp:
+                fp.write(f"---\n"
+                f"title: My Game\n"
+                f"description: A space adventure game.\n"
+                f"author: {name}\n"
+                f"version: 1.0.0\n---\n")
+        if isinstance(value, str):
+            fp.write(f'-" "{key}" = "{value}"'
+```
+

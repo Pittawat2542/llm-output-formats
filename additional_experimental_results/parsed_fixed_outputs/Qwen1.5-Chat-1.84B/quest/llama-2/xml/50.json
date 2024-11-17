@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "Quest Title",
+    "objective": "Objective",
+    "description": "Description",
+    "reward": "Reward",
+    "quest-giver": "Giver",
+    "tasks": {
+      "TASK": [
+        {
+          "Order": "Order",
+          "Objective": "Objective",
+          "Description": "Description",
+          "Location": "Location"
+        },
+        {
+          "Order": "Task 2",
+          "Objective": "Objective",
+          "Description": "Description",
+          "Location": "Location 2"
+        },
+        {
+          "Order": "Task 3",
+          "Objective": "Objective",
+          "Description": "Description",
+          "Location": "Location 3"
+        },
+        {
+          "Order": "Task 4",
+          "Objective": "Objective",
+          "Description": "Description",
+          "location": "Location 4"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "quest1",
+    "title": "Lost Explorer",
+    "objective": "Find the lost explorer and bring him back to camp.",
+    "description": "The explorer went missing during a solo expedition in the nearby forest. You need to find him before nightfall.",
+    "reward": "10 gold pieces and a map fragment",
+    "quest_giver": "The village elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Search the eastern part of the forest",
+        "description": "Look for signs of the explorer's passage in the dense woods.",
+        "location": "Eastern Forest"
+      },
+      {
+        "order": 2,
+        "objective": "Follow the river north",
+        "description": "The explorer might have followed the river to find water or escape danger.",
+        "location": "River Delta"
+      },
+      {
+        "order": 3,
+        "objective": "Climb the hill with the ancient ruins",
+        "description": "The explorer was last seen near an old ruin. Be cautious, as the structure might be unstable.",
+        "location": "Ancient Hill Ruins"
+      }
+    ]
+  }
+}
+```

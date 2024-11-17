@@ -1,0 +1,66 @@
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+"""
+
+
+import yaml
+
+
+def fix_yaml(data, template):
+  """ Fix YAML data. """
+  # if no changes are needed return the template without modifications
+  if data == template:
+    return data
+
+  output = {}
+  with open(template) as fp:
+    try:
+      template_yaml = yaml.load(fp, Loader=yaml.FullLoader)
+      data_yaml = yaml.load(data, Loader=yaml.FullLoader)
+      if template_yaml['game'] != data_yaml['game']:
+        raise ValueError("Template and Data are different")
+
+      output = template_yaml
+    except Exception as e:
+      raise Exception(e)
+  with open("new_file.yaml", "w") as fp:
+    fp.write(yaml.dump(data, Dumper=yaml.SafeDumper))
+
+  return output
+
+
+def test():
+  template = """game:
+  enemy:
+   description: description
+   id: id
+   name: name
+   stats:
+   atk: atk int value
+   def: def int value
+   hp: hp int value
+   mp: mp int value
+   spd: spd int value"""
+  data = """game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value"""
+
+  output = fix_yaml(data, template)
+  print(output)

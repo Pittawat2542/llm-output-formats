@@ -1,0 +1,24 @@
+
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+### End of Examples. The following input is for real code execution. Do not use it as an example.
+
+```python
+def parse_xml(input):
+    try:
+        xml = minidom.parseString(input)
+        return xml.toprettyxml()
+    except:
+        return "Error: incorrect_syntax: syntax error: line 1, column 0"
+
+input = '[<<SYS>>\n<game>\n	<title>game title</title>\n	<synopsis>game story synopsis</synopsis>\n	<beginning>the beginning of the game</beginning>\n	<ending>the ending of the game</ending>\n</game>\n]'
+output = parse_xml(input)
+print(output)
+```

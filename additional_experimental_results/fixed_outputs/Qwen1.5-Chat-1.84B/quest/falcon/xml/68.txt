@@ -1,0 +1,28 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="quest giver" tasks>
+  <task order="task order" objective="task objective" description="task description" location="task location">
+    <icon src="icon.jpg" alt="Quest icon"/>
+  </task>
+  <!-- Add more task items as needed -->
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest_giver>quest giver</quest_giver>
+  <tasks>
+    <task id="1" order="1" objective="Objective 1" description="Task 1 Description" location="Location 1">
+      <icon src="icon.jpg" alt="Quest icon"/>
+    </task>
+    <!-- Add more task items as needed -->
+  </tasks>
+</game>
+```

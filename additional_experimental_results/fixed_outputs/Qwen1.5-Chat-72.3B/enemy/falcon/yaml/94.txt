@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    location: enemylocation   # Fixed the syntax and provided a new value for 'location'
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```

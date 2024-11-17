@@ -1,0 +1,17 @@
+```yaml
+# Enemy battle status section
+
+game:
+  enemy:
+    description: Invasions - the foe has arrived!
+    id: "NPC123"
+    name: "NPC123"
+    stats:
+      atk: 10
+      def: 100
+      hp: 100 # Remove the unnecessary comma before 'hp'
+      mp: some_integer_value # Replace with a specific integer value if needed
+    hp: 80 
+    mp: 20 
+    spd: 1
+```

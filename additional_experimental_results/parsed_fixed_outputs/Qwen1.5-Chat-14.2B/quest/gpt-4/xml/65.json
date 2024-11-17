@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Dragon's Last Breath",
+    "objective": "Defeat the mighty dragon",
+    "description": "Fear has gripped the land as a mighty dragon from the north has descended upon us. Your task is to rid us of the beast and bring peace to our kingdom. Remember, the beast is not to be underestimated!",
+    "reward": "10,000 gold and the Sword of Azeroth",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather the necessary materials for your journey",
+          "description": "Before you square off against the dragon, gather the necessary provisions and materials. Be sure you are ready to face the beast.",
+          "location": "Kingdom's market place"
+        },
+        {
+          "order": "2",
+          "objective": "Fight off the dragon's minions",
+          "description": "The dragon has its minions guarding the path to its lair. You need to fight and defeat them to proceed further in your quest.",
+          "location": "Enroute dragon's lair"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the mighty dragon",
+          "description": "After defeating the minions, your final task awaits \u2013 facing off against the mighty dragon. Stay strong and defeat it to bring peace to our kingdom.",
+          "location": "Dragon's lair"
+        }
+      ]
+    }
+  }
+}

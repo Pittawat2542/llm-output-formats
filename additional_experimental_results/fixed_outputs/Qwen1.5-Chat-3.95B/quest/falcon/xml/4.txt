@@ -1,0 +1,29 @@
+<?xml version="1.0" xmlns="http://www.game.com/">
+<game>
+    <id>id</id>
+    <title>Quests: Your Character's Past</title>
+    <objective>Discover your character's past</objective>
+    <description>You have a memory of past events that have changed your life, but you don't know which event will be the most important.</description>
+    <reward>Quests: Your Character's Past</reward>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the first event</objective>
+            <description>Find a memory of the first event that has changed your life.</description>
+            <location>1st event location</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Discover the second event</objective>
+            <description>Find a memory of the second event that has changed your life.</description>
+            <location>2nd event location</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Discover the third event</objective>
+            <description>Find a memory of the third event that has changed your life.</description>
+            <location>3rd event location</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City</title>
+	<objective>Find the lost city of Zenith and retrieve an ancient artifact.</objective>
+	<description>Legend has it that the city of Zenith holds a powerful artifact, but it is hidden deep within the jungle. Your mission is to find the entrance to the city and retrieve the artifact before it falls into the wrong hands.</description>
+	<reward>500 gold pieces and a magical amulet</reward>
+	<quest-giver>Gorvoth the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Meet with Gorvoth in the town of Willowdale to receive further instructions.</objective>
+			<description>Gather information from the townspeople and learn more about the location of Zenith.</description>
+			<location>Willowdale</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the treacherous jungle terrain to reach the entrance to Zenith.</objective>
+			<description>Use your map and compass to avoid deadly traps and hidden pitfalls.</description>
+			<location>Jungle of Thorns</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient artifact from within the lost city.</objective>
+			<description>Solve puzzles and overcome obstacles to reach the artifact before time runs out.</description>
+			<location>Lost City of Zenith</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to Gorvoth with the artifact and receive your reward.</objective>
+			<description>Be cautious, as rival treasure hunters may try to steal the artifact from you.</description>
+			<location>Willowdale</location>
+		</task>
+	</tasks>
+</game>
+```

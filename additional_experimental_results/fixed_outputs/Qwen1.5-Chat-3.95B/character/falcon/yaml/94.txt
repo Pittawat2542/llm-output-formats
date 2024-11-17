@@ -1,0 +1,16 @@
+YAML:
+```yaml
+character:
+  name:
+    id: a unique character ID
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: a unique character ID
+    last_name: last name
+    physical_appearance:
+      eye_color: eye color `(e. g. `eye_color: green`)`
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+```

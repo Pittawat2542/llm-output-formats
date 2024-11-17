@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "name of quest giver",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "task objective 1",
+          "description": "task description 1",
+          "location": "task location 1"
+        },
+        {
+          "order": "2",
+          "objective": "task objective 2",
+          "description": "task description 2",
+          "location": "task location 2"
+        },
+        {
+          "order": "3",
+          "objective": "task objective 3",
+          "description": "task description 3",
+          "location": "task location 3"
+        }
+      ]
+    },
+    "#text": "%%Add name of quest giver here%%%"
+  }
+}

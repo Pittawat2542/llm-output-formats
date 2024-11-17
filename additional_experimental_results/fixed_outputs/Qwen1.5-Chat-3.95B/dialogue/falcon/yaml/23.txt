@@ -1,0 +1,8 @@
+Invalid YAML syntax. The original message is provided between ```yaml and ```.
+```yaml
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 4, column 1:
+     ```
+     ^
+``

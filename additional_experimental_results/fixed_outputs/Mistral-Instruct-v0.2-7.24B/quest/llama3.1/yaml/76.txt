@@ -1,0 +1,31 @@
+ ```yaml
+game:
+  description: Explore the long-abandoned mine on the outskirts of town, uncover its secrets and put an end to whatever evil lurks within.
+  id: Q1
+  objective: Uncover the source of strange noises emanating from the old mine.
+  quest_giver:
+    name: Grizelda Ironfist
+    occupation: local blacksmith and concerned citizen
+  reward:
+    items: [100 gold pieces, {note: {content: "a cryptic message"}}}]
+  tasks:
+  - description: Investigate the entrance to the mine for any signs of recent use or disturbance
+    location:
+      name: The old mine's entrance
+      coordinates: [43.72 N, 119.45 W]
+    objective: Determine if anyone has entered the mine recently
+    order: 1
+  - description: Venture deeper into the mine and search for any signs of mineral deposits or hidden rooms
+    location:
+      name: Deeper levels of the mine
+      coordinates: [43.72 N, 119.45 W]
+    objective: Find a vein of precious ore to secure funding for further exploration
+    order: 2
+  - description: Confront and defeat whatever evil force is terrorizing the town from within the mine
+    location:
+      name: The heart of the mine
+      coordinates: [43.74 N, 119.42 W]
+    objective: Put an end to the source of the strange noises and disturbances
+    order: 3
+  title: "The Cursed Mine"
+```

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "67890",
+    "title": "Save the Kingdom from the Dark Lord",
+    "objective": "Vanquish the dark lord and restore peace to the realm",
+    "description": "The kingdom is beleaguered by an evil sorcerer, whose malevolent forces threaten everything. As a valiant hero, your quest is to vanquish him and bring prosperity back. Embark on a perilous adventure teeming with challenges, riddles, and enchanted artifacts.",
+    "reward": "True Heart of the Ancients, granting eternal wisdom",
+    "quest-giver": "Queen Guinevere",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Uncover the hidden treasure map in the Forbidden Castle",
+          "description": "Courageously explore the Forbidden Castle and decipher the ancient riddle to find the map.",
+          "location": "Forbidden Castle"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the Gauntlet of Shadow, a powerful safeguard",
+          "description": "The sorcerer has placed the Gauntlet in his high-security tower. Navigate through traps to claim it.",
+          "location": "Sorcerer's Tower"
+        },
+        {
+          "order": "3",
+          "objective": "Battle the Dark Lord's henchman at the Shadow Peak",
+          "description": "The dark lord's most trusted servant guards the path to his lair. Defeat him and pave the way for the final showdown.",
+          "location": "Shadow Peak"
+        }
+      ]
+    }
+  }
+}

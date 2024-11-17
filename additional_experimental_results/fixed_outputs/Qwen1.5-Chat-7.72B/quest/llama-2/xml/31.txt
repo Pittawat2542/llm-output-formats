@@ -1,0 +1,29 @@
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>2345</id>
+    <title>Quest for the Golden Key</title>
+    <objective>Unlock the ancient chamber</objective>
+    <description>Find and defeat the dragon to enter the hidden chamber.</description>
+    <reward>Excalibur, the legendary sword</reward>
+    <quest-giver>Granny Wise</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Collect map from village elder</objective>
+            <description>Ask for directions in the village center</description>
+            <location>The Village Center</location>
+        </task>
+        <!-- Corrected tasks, removed extra 'task' tags -->
+        <task order="2">
+            <objective>Climb the mountain to find cave entrance</objective>
+            <description>Beware of treacherous paths and guard dogs</description>
+            <location>Mountain Pass</location>
+        </task>
+        <task order="3">
+            <objective>Search for hidden treasure map in cave</objective>
+            <description>Follow the inscription on a stone wall</description>
+            <location>Cave of Secrets</location>
+        </task>
+    </tasks>
+</game>
+```

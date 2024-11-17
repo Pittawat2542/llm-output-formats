@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <dialogues>
+        <dialogue order="1">
+            <speaker>Character A</speaker>
+            <text>Narration 1</text>
+        </dialogue>
+        
+        <dialogue order="2">
+            <speaker>Character B</speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+        
+        <!-- Add missing closing tag for the last dialogue -->
+        <dialogue order="3">
+            <speaker>Character C</speaker>
+            <text>Narration 2</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

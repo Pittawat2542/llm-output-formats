@@ -1,0 +1,17 @@
+The issue with the original YAML was a stray `</INST>` tag that was not part of the syntax. Removing that, the corrected YAML would be:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+And here it is in a code block:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```

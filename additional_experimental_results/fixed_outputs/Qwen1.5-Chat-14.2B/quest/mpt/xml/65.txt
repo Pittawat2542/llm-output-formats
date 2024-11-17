@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id_value</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver_name</quest-giver>
+	<tasks>
+		<task>
+			<order task_order</order>
+			<objective task_objective</objective>
+			<description task_description</description>
+			<location task_location</location>
+		</task>
+	</tasks>
+</game>
+```
+In the fixed XML, I have added the missing attribute `encoding="UTF-8"` to the XML declaration. Also, provided default values for some elements like `<id>id_value</id>` and added the closing tags for `<title>`, `<objective>`, `<description>`, and `<reward>`. Please replace the placeholders with actual values as needed.

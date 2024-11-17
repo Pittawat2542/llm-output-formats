@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "quest giver",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "complete the quest",
+          "description": "find the enchanted sword",
+          "location": "forest of the lost kingdom"
+        },
+        {
+          "order": "2",
+          "objective": "talk to the wise wizard",
+          "description": "recruit a companion for the quest",
+          "location": "wizard tower in the mountains"
+        }
+      ]
+    }
+  }
+}

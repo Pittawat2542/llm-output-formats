@@ -1,0 +1,18 @@
+```yaml
+game: Eldevin
+character:
+    age: 34
+    background: A noblewoman from Eldevin's capital city, Silverlight. She is the last survivor of her family, which was killed in a raid by a rival noble family. She is now the sole heir to her family's fortune and has sworn to avenge her family's death and restore her family's honor.
+    first_name: Anya
+    id: 234SD23SDF
+    last_name: Estellion
+    middle_name: 
+    eye_color: silver
+    hair_color: black
+    height: 5.8
+    weight: 124
+    place_of_birth: Silverlight
+    role: playable protagonist
+    species: human
+```
+The issue was the incorrect indentation of the `hair_color` line. It has been corrected and aligned with the other values under `physical_appearance`. The `middle_name` value is also correctly set as an empty value.

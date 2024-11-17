@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Artifacts Quest",
+    "objective": "Find and Return the Ancient Artefacts",
+    "description": "You must find, return, and fulfill the quest for the artifacts of the lost kingdom:",
+    "reward": "500 Gold, +50 XP, and a Sacred Amulet",
+    "quest-giver": "Ancient Keeper",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Find the Ancient Sword at Earth's Scion",
+          "description": "Travel to Earth's Scion to locate the ancient sword.",
+          "location": "Earth's Scion"
+        },
+        {
+          "@order": "2",
+          "objective": "Retrieve the Mystic Shield from Abyssal Expanse",
+          "description": "Battle Abyssal Expanse for the Mystic Shield.",
+          "location": "Abyssal Expanse"
+        },
+        {
+          "@order": "3",
+          "objective": "Rescue the Time's Orb at Sky's Crown",
+          "description": "Celestial Beast guards Sky's Crown - rescue the Time's Orb.",
+          "location": "Sky's Crown"
+        }
+      ]
+    }
+  }
+}

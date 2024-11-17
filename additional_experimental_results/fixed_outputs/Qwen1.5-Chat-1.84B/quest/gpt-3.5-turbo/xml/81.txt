@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<game id="123">
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>In this quest, you will set on an adventure to find the lost treasure of the ancient civilization. Your objective is to solve puzzles, overcome obstacles, and follow clues to reach the ultimate goal. Are you ready to uncover the secrets of the past?</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain Jack</quest-giver>
+	<tasks>
+			<task order="1" objective="Obtain a map from the old library">
+				<location>Enchanted Forest</location>
+				<description>Your first task is to visit the ancient library located in the enchanted forest. Search for the hidden room where the map to the treasure is said to be kept. But be careful, the library is guarded by ancient spirits.</description>
+		 </task>
+			<task order="2">
+				<objective>Complete a challenging puzzle</objective>
+				<location>Jungle Temple</location>
+		 </task>
+			<task order="3">
+				<objective>Climb a steep mountain peak</objective>
+				<location>Mountain Top</location>
+		 </task>
+			<task order="4">
+				<objective>Find the hidden cave entrance</objective>
+				<location>Cave Entrance</location>
+		 </task>
+			<task order="5">
+				<objective>Explore the underground ruins of an ancient city</objective>
+				<location>Ruins of Ancient City</location>
+		 </task>
+			<task order="6">
+				<objective>Retrieve a magical artifact from a hidden location</objective>
+				<location>Mysterious Tower</location>
+		 </task>
+			<task order="7">
+				<objective>Discover the secret passage leading to the treasure chamber</objective>
+				<location>Secret Passage</location>
+		 </task>
+			<task order="8">
+				<objective>Interact with rare creatures and collect rare artifacts</objective>
+				<location>Rare Creatures Area</location>
+		 </task>
+			<task order="9">
+				<objective>Complete a final challenge to unlock the treasure room</objective>
+				<location>Treasure Room</location>
+		 </task>
+			<task order="10" objective="Obtain the treasure from the treasure chamber">
+				<location>Treasure Chamber</location>
+				<description>Your ultimate goal is to collect all the artifacts and treasures that have been scattered throughout the quest. Use your skills, knowledge, and wit to overcome any obstacles and find the key to unlock the treasure room.</description>
+		 </task>
+		</tasks>
+</game>
+```

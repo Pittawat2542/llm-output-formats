@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>200</id>
+    <title>The Ancient Ritual</title>
+    <objective>Uncover the ancient ritual hidden within the ruins of the lost city of Aethel.</objective>
+    <description>The Elders of Aethel have tasked you with uncovering the ancient ritual. Legends speak of a powerful artifact hidden there, said to hold the key to unlocking untold secrets and unimaginable power. Are you up to the challenge?</description>
+    <reward>The artifact of Aethel, a relic of immense power and knowledge.</reward>
+    <quest-giver>The Elders of Aethel</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the lost city of Aethel.</objective>
+            <description>Aethel lies forgotten in the heart of the Cursed Woods. Its ruins, reclaimed by nature, guard the secrets of the ancients. Find it and proceed to the next task.</description>
+            <location>Cursed Woods</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the hidden entrance to the Forgotten Temple.</objective>
+            <description>In the Lost City of Aethel, you'll uncover a hidden entrance guarded by nature's mysteries. Solve the puzzles there to proceed.</description>
+            <location>Lost City of Aethel</location>
+        </task>
+        <!-- Rest of the tasks have been removed for brevity, but they follow the same structure -->
+    </tasks>
+</game>
+```

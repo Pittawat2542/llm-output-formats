@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345678",
+    "title": "Search for the Lost Artifact",
+    "objective": "Find and retrieve the Lost Artifact",
+    "description": "The king has ordered you to seek out the Lost Artifact, which was stolen from the kingdom's treasury by unknown thieves. The artifact was last seen in the hands of the Thieves Guild operating throughout the kingdom.",
+    "reward": "5000 Gold pieces and a unique weapon",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Visit the local tavern to gather information",
+          "description": "Talk to the bartender at the local tavern. He might have heard some rumors about the Thieves Guild's activities.",
+          "location": "Tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Infiltrate the Thieves Guild",
+          "description": "Find the hideout of the Thieves Guild and recover the Lost Artifact. Be careful not to get caught!",
+          "location": "Thieves Guild Hideout"
+        }
+      ]
+    }
+  }
+}

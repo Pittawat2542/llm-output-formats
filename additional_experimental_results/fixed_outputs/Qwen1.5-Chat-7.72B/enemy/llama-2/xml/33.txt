@@ -1,0 +1,40 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <enemy>
+        <id>7</id>
+        <name>Enemy 7</name>
+        <description>Description 7</description>
+        <stats>
+            <hp>200</hp>
+            <mp>200</mp>
+            <atk>150</atk>
+            <def>120</def>
+            <spd>130</spd>
+        </stats>
+    <enemy>
+        <id>8</id>
+        <name>Enemy 8</name>
+        <description>Description 8</description>
+        <stats>
+            <hp>250</hp>
+            <mp>300</mp>
+            <atk>175</atk>
+            <def>140</def>
+            <spd>145</spd>
+        </stats>
+    <!-- Additional enemies added here -->
+    <enemy>
+        <id>9</id>
+        <name>Enemy 9</name>
+        <description>Description 9</description>
+        <stats>
+            <hp>300</hp>
+            <mp>350</mp>
+            <atk>200</atk>
+            <def>160</def>
+            <spd>155</spd>
+        </stats>
+    </enemy>
+</game>
+```

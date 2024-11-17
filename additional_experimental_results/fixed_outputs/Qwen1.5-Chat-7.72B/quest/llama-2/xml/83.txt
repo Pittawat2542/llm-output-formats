@@ -1,0 +1,29 @@
+The XML code appears to be correct, with no syntax errors. Here's the XML as requested, presented in a code block:
+
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+			<reward>task reward</reward>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+			<reward>task reward</reward>
+		</task>
+	</tasks>
+</game>
+```

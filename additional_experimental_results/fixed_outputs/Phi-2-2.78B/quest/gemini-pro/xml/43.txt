@@ -1,0 +1,89 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Echoes of the Lost City</title>
+	<objective>Find the lost city of Atlantis and uncover its hidden secrets.</objective>
+	<description>Legends speak of a hidden underwater city full of ancient artifacts and treasures. Embark on a journey to discover the truth behind these tales and uncover the secrets of Atlantis.</description>
+	<reward>The Lost City's Treasures (unique artifacts, wealth, knowledge).</reward>
+	<quest-giver>Professor Avelina Croft</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Decipher the ancient manuscript and locate the lost city's coordinates.</objective>
+			<description>Professor Croft has entrusted you with an ancient manuscript believed to hold clues to Atlantis' location. Decipher the symbols and unravel the secrets it holds.</description>
+			<location>Hidden Library of the Ancient Order, Willowbrook.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Assemble a team of skilled adventurers for the expedition.</objective>
+			<description>Gather a diverse group of individuals with expertise in archaeology, diving, navigation, and combat. Each member's unique skills will be essential in overcoming the challenges that lie ahead.</description>
+			<location>Adventurer's Guild, Windfall.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Acquire the necessary equipment and supplies for the journey.</objective>
+			<description>Secure diving gear, underwater navigation devices, and specialized equipment for exploring ancient ruins. Prepare for the challenges of the deep sea and uncharted territories.</description>
+			<location>Technocraft Emporium, Sandhaven.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Navigate treacherous waters and locate the lost city.</objective>
+			<description>Embark on a perilous voyage across the vast ocean. Utilize your navigational skills and advanced technology to find the hidden underwater entrance to Atlantis.</description>
+			<location>Uncharted Waters, Deep Ocean.</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Explore the ruins of Atlantis and unravel its mysteries.</objective>
+			<description>Dive into the depths and explore the remnants of a once-great civilization. Discover hidden chambers, decipher ancient texts, and uncover the secrets that lie within.</description>
+			<location>Atlantis, Underwater Ruins.</location>
+		</task>
+		<task>
+			<order>6</order>
+			<objective>Recover the Lost Artifact of Power and return it to its rightful place.</objective>
+			<description>Legends speak of an artifact of immense power hidden within the depths of Atlantis. Retrieve this ancient relic and restore it to its rightful place, bringing balance to the world.</description>
+			<location>Heart of Atlantis, Central Chamber.</location>
+		</task>
+		<task>
+			<order>7</order>
+			<objective>Find the missing member of the team and bring them back to shore.</objective>
+			<description>The expedition has been going well, but one of your team members is missing. Use your skills and resources to locate and rescue them before it's too late.</description>
+			<location>Atlantis, Underwater Ruins.</location>
+		</task>
+		<task>
+			<order>8</order>
+			<objective>Uncover the ancient temple and retrieve the powerful artifact hidden within.">
+			<description>The final challenge awaits you inside the ancient temple of Atlantis. Solve the puzzles, navigate the traps, and claim the ultimate prize.</description>
+			<location>Atlantis, Underwater Ruins.</location>
+		</task>
+		<task>
+			<order>9</order>
+			<objective>Return to shore safely with the artifact in hand.">
+			<description>The expedition has been a success. Return to shore and deliver the artifact to Professor Croft, who will reward you for your bravery and skill.</description>
+			<location>Atlantis, Underwater Ruins</location>
+		</task>
+		<task>
+			<order>10</order>
+			<objective>Enjoy a well-deserved rest and celebration of victory with the team and Professor Croft.">
+			<description>Congratulations on completing your quest! Enjoy the fruits of your labor and celebrate your success.</description>
+			<location></location>
+		</task>
+	</tasks>
+</game>  OUTPUT: This is a great start to an XML document that describes a quest for treasure in the Lost City of Atlantis. To make it even more challenging, you can add some additional tasks such as decoding ancient symbols or solving riddles along the way. You could also add obstacles like underwater currents or dangerous sea creatures that the team must overcome.
+To create this XML data using Python code, you can use libraries like `xml.etree.ElementTree` and `xml.dom.minidom`. Here is an example of how to parse the XML document and extract the necessary information:
+```python
+import xml.etree.ElementTree as ET
+# Parse the XML document
+tree = ET.parse('quest_for_treasure.xml')
+root = tree.getroot()
+# Extract the task order
+task_order = root.findall('.//task/order[@name="1"]')[0].text
+print("Task Order:", task_order)
+# Extract the objective of each task
+for i, task in enumerate(root.iter('task')):
+    order = task.find('.//order[@name="{}"]'.format(i+1))
+    if order is not None:
+        obj = task.find('.//objective').text
+        print("Task {}: Objective - {}".format(i+1, obj))
+```
+This code will output the task order and objective of each task in the XML document. You can modify the XML file to add or remove tasks as needed.

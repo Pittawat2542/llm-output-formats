@@ -1,0 +1,21 @@
+```yaml
+game:
+  description: "Quest to find the lost treasure"
+  id: "1234"
+  objective: "Recover the ancient artifact"
+  quest_giver: "Captain Roberts"
+  reward: "A map to the treasure chest"
+  tasks:
+    - description: "Search the jungle ruins"
+      location: "Old City Ruins"
+      objective: "Uncover the first clue"
+      order: 1
+    - description: "Follow the rickety bridge"
+      location: "Swampy Marsh"
+      objective: "Cross to the other side"
+      order: 2
+    - title: "Decode the ancient scroll"
+      location: "Archaeologist's Cabin"
+      objective: "Translate the clue"
+      order: 3
+```

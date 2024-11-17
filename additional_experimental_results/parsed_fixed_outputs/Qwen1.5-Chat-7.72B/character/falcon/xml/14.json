@@ -1,0 +1,58 @@
+{
+  "character": {
+    "id": {
+      "@id": "1234567890",
+      "#text": "id1234567890"
+    },
+    "first-name": {
+      "@firstName": "John Doe",
+      "#text": "First Name"
+    },
+    "last-name": {
+      "@lastName": "Doe",
+      "#text": "Last Name"
+    },
+    "species": {
+      "@speciesID": "Human",
+      "name": {
+        "@name": "Human",
+        "#text": "Human"
+      }
+    },
+    "age": {
+      "@age": "35",
+      "#text": "Thirty-Five Years Old"
+    },
+    "role": {
+      "@role": "Protagonist",
+      "#text": "Main Character"
+    },
+    "background": {
+      "@background": "Born in New York City",
+      "#text": "Background Story"
+    },
+    "place-of-birth": {
+      "@placeOfBirth": "New York",
+      "#text": "New York City"
+    },
+    "physical-appearance": {
+      "@physicalAppearanceId": "1",
+      "eyes": {
+        "@eyesColor": "Blue",
+        "#text": "Blue Eyes"
+      },
+      "hair-color": {
+        "@hairColor": "Brown",
+        "#text": "Brown Hair"
+      },
+      "height": {
+        "@height": "180.5",
+        "#text": "6'2\" inches"
+      },
+      "weight": {
+        "@weight": "75.3",
+        "#text": "166 lbs."
+      }
+    }
+  }
+}

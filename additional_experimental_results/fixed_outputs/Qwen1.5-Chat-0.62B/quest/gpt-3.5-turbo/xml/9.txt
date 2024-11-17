@@ -1,0 +1,69 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>2</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet and return it to the quest giver</objective>
+	<description>Long ago, a powerful amulet was lost in the depths of the Forbidden Forest. Many have tried to find it, but none have succeeded. The quest giver, a wise old wizard, is seeking a brave adventurer to retrieve the amulet. Will you be the one to finally find it?</description>
+	<reward>Ancient knowledge and a magic artifact</reward>
+	<quest-giver>Wizard Gandalf</quest-giver>
+	<tasks>
+			<task>
+			<order>1</order>
+				objective>Enter the Forbidden Forest</objective>
+				<description>The Forbidden Forest is a dark and dangerous place filled with mythical creatures. Be cautious as you make your way through the dense foliage and avoid getting lost.</description>
+			经验值>200 XP</经验值>
+			<location>Enter the Forbidden Forest</location>
+			<task>
+				<order>2</order>
+			 objective>Find the ancient ruins</objective>
+				<description>According to folklore, the amulet was last seen in a hidden chamber deep within the abandoned castle. Explore the ruins and search for any clues leading to the amulet's whereabouts.</description>
+			经验值>100 XP</经验值>
+			经验值>150 XP</经验值>
+			经验值>200 XP</经验值>
+			<task>
+				<order>3</order>
+			 objective>Defeat the guardian creature</objective>
+				<description>The amulet is protected by a powerful guardian creature. Use all your skills and wit to defeat it and claim the amulet as your own.</description>
+			经验值>150 XP</经验值>
+			经验值>200 XP</经验值>
+			经验值>300 XP</经验值>
+			<task>
+				<order>4</order>
+			 objective>Return the amulet to Wizard Gandalf</objective>
+				<description>After retrieving the amulet, return it to Wizard Gandalf so that he can use its power for the greater good. Be careful not to be swayed by its immense power as it can corrupt the weak-hearted.</description>
+			经验值>200 XP</经验值>
+			经验值>300 XP</经验值>
+			<task>
+				<order>5</order>
+			 objective>Find the lost amulet</ objective>
+				<description>As you search for the lost amulet, it may become lost. Use your magical senses to locate it and retrieve it from the quest giver's repository.</description>
+			经验值>200 XP</经验值>
+			<task>
+				<order>6</order>
+			 objective>Return the lost amulet to Wizard Gandalf</object>
+				<description>After retrieving the amulet, return it to Wizard Gandalf so that he can use its power for the greater good. Be careful not to be swayed by its immense power as it can corrupt the weak-hearted.</description>
+			经验值>300 XP</经验值>
+			<task>
+				<order>7</order>
+			 objective>Use the lost amulet</object>
+				<description>The lost amulet is now in your possession. Use it to help you retrieve other valuable items from the quest giver's repository.</description>
+			经验值>100 XP</经验值>
+			<task>
+				<order>8</order>
+			 objective>Use the lost amulet for a short period of time to gain experience.</object>
+			经验值>50 XP</经验值>
+			经验值>100 XP</经验值>
+			经验值>200 XP</经验值>
+			<task>
+				<order>9</order>
+			 objective>Use the lost amulet to help you retrieve other valuable items from the quest giver's repository.</description>
+			经验值>50 XP</经验值>
+			经验值>100 XP</经验值>
+			经验值>200 XP</经验值>
+			<task>
+				<order>10</order>
+			 objective>Use the lost amulet to gain an advantage over other quest givers.</object>
+			经验值>50 XP</经验值>
+			经验值>100经验
+```

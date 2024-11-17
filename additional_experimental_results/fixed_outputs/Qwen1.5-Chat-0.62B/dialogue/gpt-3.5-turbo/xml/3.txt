@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<!-- Add new values here -->
+		</dialogues>
+</game>
+```
+Output in Markdown code:
+```markdown
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Corrected XML Data</title>
+  </head>
+  <body>
+    <game>
+      <dialogues>
+        <!-- Add new values here -->
+      </dialogues>
+    </game>
+  </body>
+</html>
+```
+The original message was provided between `<game>` and `<dialogues>`, which were not properly nested. The corrected code now correctly nestles the `dialogues` element within the `<game>` element, so that it appears in the correct location at the end of the XML document.

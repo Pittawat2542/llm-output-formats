@@ -1,0 +1,39 @@
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: alice
+      text: I'm Alice!
+    - order: dialogue order
+      speaker: bob
+      text: Hello Bob!
+    - order: dialogue order
+      speaker: charlie
+      text: Hi Charles!
+
+```yaml
+game:
+  dialogues:
+    - speaker: alice
+      order: dialogue order
+      text: I'm Alice!
+    - speaker: bob
+      order: dialogue order
+      text: Hello Bob!
+    - speaker: charlie
+      order: dialogue order
+      text: Hi Charles!
+
+```markdown
+game:
+  dialogues:
+    - speaker: alice
+      order: dialogue_order
+      text: I'm Alice!
+    - speaker: bob
+      order: dialogue_order
+      text: Hello Bob!
+    - speaker: charlie
+      order: dialogue_order
+      text: Hi Charles!
+
+```

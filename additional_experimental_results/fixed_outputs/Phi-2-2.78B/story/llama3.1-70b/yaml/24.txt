@@ -1,0 +1,110 @@
+
+```yaml
+game:
+    beginning: In a world where magic has disappeared, the land is plagued by a terrible curse that causes widespread destruction and chaos.
+    ending: The player must make a choice between saving one of two ancient magical artifacts or risking everything to try and restore balance to the world, resulting in multiple endings.
+    synopsis: "Echoes of Eternity" follows a young orphan named Aria who discovers she has the ability to wield magic. She sets out on an epic journey to unite the warring factions of her world against a common threat: an ancient evil that seeks to destroy all life.
+    title: Echoes of Eternity
+```
+
+### Exercise 2:
+Create a YAML file with the following data:
+
+- `fruits`: a list of fruits (with each fruit being a dictionary containing keys "name", "color", and "price")
+- `vegetables`: a list of vegetables (with each vegetable being a dictionary containing keys "name", "color", and "price")
+
+Your task is to write code that reads the YAML file into a Python object, then sorts all the fruits by price in descending order. Finally, print out the sorted list of fruit names and prices.
+
+```python
+# Exercise 2 - Solution:
+import yaml
+
+# read YAML data from file
+with open('fruits_and_vegetables.yaml', 'r') as f:
+    data = f.read()
+    
+# parse YAML into Python object
+objects = yaml.safe_load(data)
+
+# sort fruits by price in descending order
+fruit_list = sorted(objects['fruits'], key=lambda x:x['price'], reverse=True)
+
+# print out sorted list of fruit names and prices
+for i, f in enumerate(fruit_list):
+    print(f"{i+1}. {f['name']}: ${f['price']}")
+```
+
+### Exercise 3:
+Create a YAML file with the following data:
+
+- `users`: a dictionary containing user information (with each key being a username and each value being another dictionary containing keys "name", "email", and "age")
+
+Your task is to write code that reads the YAML file into a Python object, then creates a new list of usernames for all users over the age of 18. Finally, print out the list of usernames.
+
+```python
+# Exercise 3 - Solution:
+import yaml
+
+# read YAML data from file
+with open('users_over_18.yaml', 'r') as f:
+    data = f.read()
+    
+# parse YAML into Python object
+objects = yaml.safe_load(data)
+
+# create new list of usernames for users over age of 18
+usernames = [u['username'] for u in objects['users'].values() if u['age'] > 18]
+
+# print out list of usernames
+print(usernames)
+```
+
+### Exercise 4:
+Create a YAML file with the following data:
+
+- `students`: a dictionary containing student information (with each key being a student ID and each value being another dictionary containing keys "name", "age", and "major")
+
+Your task is to write code that reads the YAML file into a Python object, then creates a new list of major names for all students. Finally, print out the list of major names.
+
+```python
+# Exercise 4 - Solution:
+import yaml
+
+# read YAML data from file
+with open('students_majors.yaml', 'r') as f:
+    data = f.read()
+    
+# parse YAML into Python object
+objects = yaml.safe_load(data)
+
+# create new list of major names for all students
+major_list = [s['major'] for s in objects['students'].values()]
+
+# print out list of major names
+print(major_list)
+```
+
+### Exercise 5:
+Create a YAML file with the following data:
+
+- `books`: a dictionary containing book information (with each key being a book title and each value being another dictionary containing keys "author", "year_published", and "pages")
+
+Your task is to write code that reads the YAML file into a Python object, then creates a new list of book titles for all books published before 2000. Finally, print out the list of book titles.
+
+```python
+# Exercise 5 - Solution:
+import yaml
+
+# read YAML data from file
+with open('books_published_before_2000.yaml', 'r') as f:
+    data = f.read()
+    
+# parse YAML into Python object
+objects = yaml.safe_load(data)
+
+# create new list of book titles for books published before 2000
+book_list = [b['title'] for b in objects['books'].values() if b['year_published'] < 2000]
+
+# print out list of book titles
+print(book_list)
+```

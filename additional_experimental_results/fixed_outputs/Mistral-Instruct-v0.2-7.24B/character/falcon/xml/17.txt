@@ -1,0 +1,31 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>123456</id>
+		<first-name>Samantha</first-name>
+		<last-name>Anderson</last-name>
+		<species>Human</species>
+		<age>Twenty-four years old</age>
+		<role>Student</role>
+		<background>Small town in Missouri</background>
+		<place-of-birth>
+			<city>St. Louis</city>
+			<state>Missouri</state>
+		</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>1.68m</height> -- height in meters for consistency with weight
+				<weight>54.5 kg</weight> -- weight in kilograms for consistency with height
+			</physical-appearance>
+		</physical-appearance>
+		<key_completeness>Complete</key_completeness> -- Added to ensure the character is complete
+	</character>
+	<!-- Added game tag to root node -->
+	<game>
+	</game>
+</game>
+```

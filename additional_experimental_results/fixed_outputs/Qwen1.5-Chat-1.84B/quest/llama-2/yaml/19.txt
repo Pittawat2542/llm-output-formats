@@ -1,0 +1,122 @@
+Corrected YAML data:
+```
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward:
+    - description: quest reward
+      id: id1
+      location: quest reward location
+      name: quest reward name
+      title: quest reward title
+
+tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+
+quest:
+  id: quest1
+  title: Quest Title 1
+  description: quest description for quest1
+  objective: quest objective for quest1
+  quest_giver: quest giver1
+  reward:
+    - description: quest reward for quest1
+      id: id2
+      location: quest reward location for quest1
+      name: quest reward name for quest1
+      title: quest reward title for quest1
+
+tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+
+quest_giver:
+  id: quest2
+  name: Quest Giver 2
+  title: Quest Giver Title 2
+  location: quest giver location 2
+  description: quest giver description for quest2
+  reward:
+    - description: quest reward for quest2
+      id: id3
+      location: quest reward location for quest2
+      name: quest reward name for quest2
+      title: quest reward title for quest2
+
+tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+
+quest_giver:
+  id: quest3
+  name: Quest Giver 3
+  title: Quest Giver Title 3
+  location: quest giver location 3
+  description: quest giver description for quest3
+  reward:
+    - description: quest reward for quest3
+      id: id4
+      location: quest reward location for quest3
+      name: quest reward name for quest3
+      title: quest reward title for quest3
+
+tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+
+quest_giver:
+  id: quest4
+  name: Quest Giver 4
+  title: Quest Giver Title 4
+  location: quest giver location 4
+  description: quest giver description for quest4
+  reward:
+    - description: quest reward for quest4
+      id: id5
+      location: quest reward location for quest4
+      name: quest reward name for quest4
+      title: quest reward title for quest4
+```

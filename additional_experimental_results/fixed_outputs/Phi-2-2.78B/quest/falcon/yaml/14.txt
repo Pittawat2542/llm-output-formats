@@ -1,0 +1,14 @@
+game:
+  description: quest description
+  id: name
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - id: task_id
+    title: task title
+    location: task location
+    objective: task objective
+```
+### Explanation: 
+The YAML was incorrectly parsed and we fixed the syntax errors. We also changed "name" to "id".

@@ -1,0 +1,29 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	BEGINING "the beginning of the game"
+	 ENDING "the ending of the game"
+</game>
+```
+
+The correct syntax for this XML data is as follows:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	BEGINING "the beginning of the game"
+	 ENDING "the ending of the game"
+</game>
+```
+
+Here are new values that need to be provided if needed:
+
+- `<synopsis>`: "game story synopsis"
+- `<beginning>`: "the beginning of the game"
+- `<ending>`: "the ending of the game"
+
+The original message is provided between ```xml and ```.

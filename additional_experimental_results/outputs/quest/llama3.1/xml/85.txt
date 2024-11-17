@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q001</id>
+    <title>The Missing Heirloom</title>
+    <objective>Retrieve the stolen family heirloom from the nefarious thief.</objective>
+    <description>A precious gemstone has been stolen from your family's ancestral home, and it's up to you to get it back. Investigate the scene of the crime, gather clues, and track down the thief to recover the loot.</description>
+    <reward>100 gold coins and a rare gemstone</reward>
+    <quest-giver>Grimbold Ironfist</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Investigate the scene of the crime at the ancestral home.</objective>
+            <description>Search the area for any clues or witnesses who may have seen the thief. Look for suspicious characters or objects that could be connected to the theft.</description>
+            <location>Ancestral Home, Study Room</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Interview suspects at the local tavern.</objective>
+            <description>Talk to patrons and gather information about any suspicious activities or individuals that may have been involved in the theft. Be prepared to use your persuasion skills to get people to open up.</description>
+            <location>The Red Griffin Tavern, Common Room</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Confront the thief and retrieve the stolen heirloom.</objective>
+            <description>Track down the thief and engage in combat if necessary. Use your wits and reflexes to outmaneuver them and recover the stolen gemstone.</description>
+            <location>The Thieves' Guild, Outer District</location>
+        </task>
+    </tasks>
+</game>
+```

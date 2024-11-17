@@ -1,0 +1,23 @@
+{
+  "game": {
+    "description": "Quest Description for the Adventure",
+    "id": "12345678-90ABCDEF-DCBA-1234-567890123456",
+    "objective": "Complete the quest to save the kingdom",
+    "quest_giver": "The Wise Oracle",
+    "reward": "Valuable treasure and bragging rights",
+    "tasks": [
+      {
+        "description": "Examine the ancient statue by the\u6d77\u8fb9",
+        "location": "St. Ives Harbour",
+        "objective": "Uncover the hidden clue",
+        "order": 1
+      },
+      {
+        "title": "Deliver the amulet to the castle",
+        "description": "Secure the artifact and deliver it to its rightful place",
+        "location": "Castle Town",
+        "order": 3
+      }
+    ]
+  }
+}

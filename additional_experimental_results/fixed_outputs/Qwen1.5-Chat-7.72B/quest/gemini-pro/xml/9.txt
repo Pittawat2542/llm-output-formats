@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Quest for the Lost Amulet</title>
+    <objective>Uncover the hidden amulet and prove your worth to the ancient king.</objective>
+    <description>A quest of adventure and power, the amulet's discovery holds great riches and knowledge.</description>
+    <reward>Upon completion, you shall receive the amulet along with a chest filled with gold coins.</reward>
+    <quest-giver>The Wise Archaeologist</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Trace the ancient texts in the royal library for clues.</objective>
+            <description>A hidden passage may lead to the palace's entrance. Beware of magical traps.</description>
+            <location>The royal library, Forest Annex</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Uncover the map to the tomb's location in the archives.</objective>
+            <description>The entrance is likely marked by an old tapestry. Look for a hidden room.</description>
+            <location>Archives, East Wing</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the guardian snake guarding the entrance.</objective>
+            <description>A test of courage and stealth is required to pass this challenge.</description>
+            <location>The guarded path, near the snake grove</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Enter the tomb and find the amulet within its chambers.</objective>
+            <description>Use your wit to navigate the maze and avoid traps on your way.</description>
+            <location>Tomb chamber, marked with a mysterious symbol</location>
+        </task>
+    </tasks>
+</game>
+```

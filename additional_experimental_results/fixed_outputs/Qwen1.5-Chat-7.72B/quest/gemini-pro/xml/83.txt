@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>Defeat the Evil Lich</title>
+    <objective>Slay the Evil Lich and bring peace to the kingdom.</objective>
+    <description>The Evil Lich has been terrorizing the kingdom for years, and it's up to you to stop him. Travel to his lair, defeat his minions, and face him in a final showdown.</description>
+    <reward>A powerful magical artifact and the gratitude of the kingdom.</reward>
+    <quest-giver>Queen Elara</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the Lich's Lair</objective>
+            <description>Ascend the ancient mountain pass, avoiding the cursed forest on your way. Beware of the treacherous ice traps.</description>
+            <location>Cursed Forest, then Ancient Mountain Pass</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the Lich's Minions</objective>
+            <description>Once you reach the frozen chambers, defeat the Lich's ice golem and his undead retainers. Beware of their icy attacks.</description>
+            <location>Frozen Chambers within Lich's Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Confront the Evil Lich</objective>
+            <description>The final battle awaits at the heart of the lair. Beware of the Lich's dark magic and his powerful staff.</description>
+            <location>Heart of the Lich's Lair</location>
+        </task>
+    </tasks>
+</game>
+```

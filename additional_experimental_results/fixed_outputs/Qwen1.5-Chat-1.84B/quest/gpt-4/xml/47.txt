@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game id="1">
+  <title>Search for the Lost Artifact</title>
+  <objective>Find and retrieve the ancient artifact</objective>
+  <description>You have been hired by a renowned historian to retrieve an ancient artifact rumored to be hidden in the uncharted wild lands.</description>
+  <reward>100 gold coins and the historian's gratitude</reward>
+  <quest-giver>Renowned Historian</quest-giver>
+  <tasks>
+    <task order="1">
+      <objective>Travel to the wild lands</objective>
+      <description>Maintain a safe distance from any hostile creatures or dangerous terrain. Be prepared for harsh conditions and unpredictable weather.</description>
+      <location>Wild Lands</location>
+    </task>
+    <task order="2">
+      <objective>Search for the artifact</objective>
+      <description>Follow the clues left by the artifact's previous inhabitants to locate its hidden location. Keep an eye out for traps, puzzles, and hidden dangers.</description>
+      <location>Rumored location</location>
+    </task>
+    <task order="3">
+      <objective>Return the artifact</objective>
+      <description>Carry out the retrieval process carefully, avoiding any damage to the artifact or causing unnecessary trouble. Be prepared for unexpected obstacles, such as locked doors, narrow passages, or hidden traps.</description>
+      <location>Hometown</location>
+    </task>
+  </tasks>
+</game>

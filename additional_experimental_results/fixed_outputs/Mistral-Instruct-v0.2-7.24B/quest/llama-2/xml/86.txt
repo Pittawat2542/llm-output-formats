@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Golden Sword Quest</title>
+	<objective>Retrieve the Golden Sword from the Dragon's Lair</objective>
+	<description>The kingdom is under attack by a fearsome dragon. The only weapon that can defeat it is the legendary Golden Sword, hidden deep within its lair. Seek out the bravest adventurer to embark on this quest.</description>
+	<reward>Golden Sword and 1000 gold coins</reward>
+	<quest-giver>King Alfred</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the wise sage for clues about the location of the Dragon's Lair</objective>
+			<description>The wise sage, located in the village square, can provide valuable information about the Dragon's Lair. Listen carefully and make a note of his cryptic hints.</description>
+			<location>Village Square</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the entrance to the Dragon's Lair</objective>
+			<description>Based on the sage's hints, search for the hidden entrance to the Dragon's Lair. It is said to be located deep within a dark forest, near an ancient stone bridge.</description>
+			<location>Dark Forest near Ancient Stone Bridge</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the dragon and retrieve the Golden Sword</objective>
+			<description>Once inside the lair, face the fearsome dragon and defeat it in combat to claim the legendary Golden Sword.</description>
+			<location>Dragon's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

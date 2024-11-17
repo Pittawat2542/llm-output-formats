@@ -1,0 +1,8 @@
+The original YAML data contains an error in the syntax. The `dialogue` string should be enclosed within double quotation marks (````yaml````) and the `structure` field should be defined using YAML code format. Here is a corrected version:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```Instructions on how to fix the original YAML data so that it can be used again in a given context.

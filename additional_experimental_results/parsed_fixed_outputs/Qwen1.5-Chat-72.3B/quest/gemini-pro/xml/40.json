@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Riddles of the Solstice Tree",
+    "objective": "Solve the riddles of the Solstice Tree and unlock its ancient secrets.",
+    "description": "In the heart of the ancient forest lies a majestic Solstice Tree. Legend says that its bark holds riddles and clues to a hidden treasure. Your task is to decipher the riddles and unlock the secrets of the tree.",
+    "reward": "The ancient treasure hidden beneath the Solstice Tree, said to possess magical powers.",
+    "quest-giver": "Elder of the forest",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Seek out the Solstice Tree located in the heart of the enchanted forest.",
+          "description": "Embark on a journey to find the mystical Solstice Tree. Follow ancient maps and seek guidance from the wise creatures of the woods.",
+          "location": "Enchanted forest, near the Crystal \u043e\u0437\u0435\u0440\u043e."
+        },
+        {
+          "order": "2",
+          "objective": "Examine the tree's bark closely, searching for any clues or hidden symbols.",
+          "description": "Once you reach the Solstice Tree, carefully inspect its ancient bark. Look for patterns, symbols, or engravings that may hold the answers to the riddles.",
+          "location": "Base of the Solstice Tree"
+        },
+        {
+          "order": "3",
+          "objective": "Consult ancient texts and speak with scholars to gain insight into the history and mysteries of the Solstice Tree.",
+          "description": "Seek out libraries and archives to uncover hidden knowledge about the Solstice Tree. Converse with historians and researchers who may possess valuable information.",
+          "location": "Library of the Arcane Order"
+        },
+        {
+          "order": "4",
+          "objective": "Gather ancient artifacts and components scattered throughout the world, which may hold clues to solving the riddles.",
+          "description": "Journey to distant lands and ruins to seek artifacts, parchments, and fragments that might shed light on the riddles of the Solstice Tree.",
+          "location": "Scattered ruins across the realm"
+        },
+        {
+          "order": "5",
+          "objective": "Return to the Solstice Tree with the gathered artifacts and decipher the riddles to unlock its secrets.",
+          "description": "Once you have collected all the artifacts and solved the riddles, return to the Solstice Tree. Arrange the artifacts in the correct sequence to activate the tree's ancient mechanism.",
+          "location": "Base of the Solstice Tree"
+        }
+      ]
+    }
+  }
+}

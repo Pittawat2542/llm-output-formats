@@ -1,0 +1,19 @@
+The XML data is correct and should be returned in the Markdown code block. Here's the updated code:
+```xml
+<?xml version="1.0"?> 
+<game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <Quest-giver>quest giver</Quest-giver>
+  <tasks>
+    <task order="order">task order</order>
+    <objective>objective</objective>
+    <description>description</description>
+    <location>location</location>
+  </tasks>
+</game>
+```
+This updated code correctly structure the XML data and includes new values if needed.

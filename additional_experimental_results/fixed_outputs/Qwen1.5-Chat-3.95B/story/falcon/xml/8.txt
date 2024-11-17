@@ -1,0 +1,23 @@
+Invalid XML data. The syntax is incorrect and requires new values to be provided. Please provide a new message in the XML format with the corrected data. Here is an example:
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>
+			<p>The synopsis of the game.</p>
+	</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+XML code block:
+```xml
+<?xml version="1.0" ?> 
+<game>
+   <title>game title</title>
+   <synopsis>
+      <p>The synopsis of the game.</p> 
+   </synopsis>
+   <beginning>the beginning of the game</beginning>
+   <ending>the ending of the game</ending>
+</game>
+```

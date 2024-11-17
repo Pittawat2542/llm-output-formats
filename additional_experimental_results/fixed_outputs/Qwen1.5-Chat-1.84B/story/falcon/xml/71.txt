@@ -1,0 +1,20 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>The King's Quest</title>
+	<synopsis>A brave knight sets out on a quest to defeat an evil dragon and restore peace to the kingdom.</synopsis>
+	<beginning>A young adventurer sets out on his journey, seeking knowledge and adventure in a world overrun by darkness.</beginning>
+	<ending>The dragon has taken over the kingdom and turned its once-beautiful lands into chaos. The brave knight must use all of his skills and wits to defeat the dragon and save the kingdom.</endings>
+</game>
+```
+Output:
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>The King's Quest</title>
+	<synopsis>A brave knight sets out on a quest to defeat an evil dragon and restore peace to the kingdom.</synopsis>
+	<beginning>A young adventurer sets out on his journey, seeking knowledge and adventure in a world overrun by darkness.</beginning>
+	<ending>The dragon has taken over the kingdom and turned its once-beautiful lands into chaos. A brave knight must use all of his skills and wits to defeat the dragon and save the kingdom.</endings>
+</game>
+```

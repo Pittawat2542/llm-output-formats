@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "Retrieve the ancient artifact from the long-abandoned dwarven fortress, hidden deep within the mystical forest."
+  id: Q1
+  objective: Retrieve the Starlight Crystal
+  quest_giver: Thorne, the traveling merchant
+  reward: A set of enchanted daggers and a map leading to a secret treasure
+  tasks:
+    - description: "Navigate through the treacherous paths of the mystical forest without triggering any of its deadly traps."
+      location: The entrance of the mystical forest
+      objective: Survive the forest's dangers
+      order: 1
+    - description: "Solve the ancient riddle that unlocks the door to the dwarven fortress's inner sanctum."
+      location: Inside the dwarven fortress, near the entrance hall
+      objective: Unlock the inner sanctum
+      order: 2
+    - description: "Face off against the fearsome guardian of the Starlight Crystal and claim your prize."
+      location: The inner sanctum of the dwarven fortress
+      objective: Defeat the guardian
+      order: 3
+  title: "The Lost Relic"
+```

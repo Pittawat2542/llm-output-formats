@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>67890</id>
+    <title>The Quest to Save the Kingdom</title>
+    <objective>Rescue the公主 and restore peace to the kingdom</objective>
+    <description>Conquer the Dragon's Tower, rescue Princess Amara, and prove your bravery to the King.</description>
+    <reward>1000 gold coins, Royal Crown</reward>
+    <quest-giver>King's Councilor</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to Dragon's Tower</objective>
+            <description> Equip yourself and set out to the tower located North of Forestdale. Beware of the guardian dragon on your way.</description>
+            <location>Dragon's Tower</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat Dragon and Rescue Princess</objective>
+            <description Engage in a fierce battle, defeat the dragon and rescue Princess from its lair. Prepare for a long journey back.</description>
+            <location>Dragon's Tower Interior</location>
+        </task>
+    </tasks>
+</game>
+```

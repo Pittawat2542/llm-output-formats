@@ -1,0 +1,23 @@
+```yaml
+game:
+  description: "Retrieve the lost scroll of Eldarath, a powerful ancient text containing forbidden knowledge."
+  id: Q001
+  objective: "Retrieve the lost scroll from the long-abandoned library in the Caves of the Ancients"
+  quest_giver: Eilif Stonefist, the Dwarf Cleric
+  reward:
+    experience_points: 5000
+    gold_pieces: 2000
+    items:
+      - name: "Eldarath's Scroll"
+        description: "A ancient text containing forbidden knowledge."
+  tasks:
+    - description: "Navigate through the treacherous Caves of the Ancients to reach the library."
+      location: "Caves of the Ancients, The Lost Temple level"
+      objective: "Locate the entrance to the library"
+      order: 1
+    - description: "Retrieve the scroll from the ancient pedestal in the library without triggering traps or alarms."
+      location: "Library of the Ancients, central chamber"
+      objective: "Obtain the scroll"
+      order: 2
+title: "The Quest for Eldarath's Scroll"
+```

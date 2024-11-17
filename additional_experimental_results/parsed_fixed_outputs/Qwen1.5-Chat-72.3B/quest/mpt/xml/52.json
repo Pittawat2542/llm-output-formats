@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to quest giver.",
+    "description": "You've heard rumors that the lost artifact is hidden deep in the ruins of an old temple. It's time to set out on your adventure!",
+    "reward": "1000 gold coins and a legendary weapon",
+    "quest-giver": "NPC - Guardian of the Temple",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Locate the entrance to the temple",
+        "description": "You need to explore the dense jungle to find the hidden entrance to the old temple.",
+        "location": "Jungle of Mystery"
+      }
+    }
+  }
+}

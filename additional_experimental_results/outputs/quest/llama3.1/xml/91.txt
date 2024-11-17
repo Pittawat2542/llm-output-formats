@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>q001</id>
+  <title>The Lost Temple</title>
+  <objective>Retrieve the ancient temple's artifact and bring it back to the village.</objective>
+  <description>A long-abandoned temple has been discovered in the nearby jungle, said to contain an ancient relic. The villagers are eager to possess this relic, which is rumored to grant immense power.</description>
+  <reward>100 gold pieces</reward>
+  <quest-giver>Mayor Thompson</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Find the hidden entrance to the temple.</objective>
+      <description>The entrance to the temple is well-hidden. You'll need to search the jungle carefully to find it.</description>
+      <location>Jungle Ruins</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Navigate through the temple's maze-like tunnels.</objective>
+      <description>The tunnels within the temple are treacherous. You'll need to be cautious not to get lost or trapped.</description>
+      <location>Temple Tunnels</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieve the artifact from the temple's inner sanctum.</objective>
+      <description>The artifact is heavily guarded. You'll need to defeat the guardians and overcome any obstacles in your path.</description>
+      <location>Inner Sanctum</location>
+    </task>
+  </tasks>
+</game>
+```

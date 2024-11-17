@@ -1,0 +1,21 @@
+```yaml
+game:
+  synopsis: game story synopsis
+  title: game title
+```
+
+Output in Markdown format:
+```
+As the evil necromancer Lord Va ... 
+^
+could not find expected ':' 
+  in "<unicode string>", line 4, column 1:
+    "As the evil necromancer Lord Va ... 
+     ^
+could not find expected ':' 
+  in "<unicode string>", line 8, column 57:
+      ... Leona lived happily ever after." 
+                                          ^
+This victory not only saved the world, but also earned him the admiration of the king. The king rewarded him with a great prize: the hand of his own daughter, the beautiful Princess Leona.
+Sir Arthur and Princess Leona lived happily ever after."
+```

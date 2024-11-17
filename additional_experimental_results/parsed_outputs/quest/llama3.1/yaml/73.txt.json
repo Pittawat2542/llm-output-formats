@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the lost artifact from the ancient ruin.",
+    "id": "QR001",
+    "objective": "Retrieve the Golden Chalice, an ancient relic of great power.",
+    "quest_giver": "Gorvoth, the village elder.",
+    "reward": "A magical amulet granting resistance to fire and a chest containing 100 gold pieces.",
+    "tasks": [
+      {
+        "description": "Travel to the ancient ruin located in the nearby forest.",
+        "location": "The Dark Forest",
+        "objective": "Gather information about the ruin's layout and any potential dangers.",
+        "order": 1
+      },
+      {
+        "description": "Navigate the treacherous tunnels of the ruin, avoiding traps and monsters.",
+        "location": "The Ancient Ruin",
+        "objective": "Find the chamber containing the Golden Chalice.",
+        "order": 2
+      },
+      {
+        "description": "Obtain the Golden Chalice from its pedestal and return to Gorvoth.",
+        "location": "The Chamber of the Golden Chalice",
+        "objective": "Bring back the artifact.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact of Light"
+  }
+}

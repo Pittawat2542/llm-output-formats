@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>13</id>
+	<title>The quest of the dragon</title>
+	<objective>Kill the dragon</objective>
+	<description>You need to kill the dragon in order to get the reward</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the dragon's lair</objective>
+			<description>You need to find the dragon's lair in order to confront it</description>
+			<location>In the mountains</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Kill the dragon</objective>
+			<description>You need to kill the dragon in order to get the reward</description>
+			<location>In the dragon's lair</location>
+		</task>
+	</tasks>
+</game>
+```

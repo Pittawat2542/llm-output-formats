@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>The Lost City of Eldarath</title>
+    <objective>Explore the ancient ruins and find the legendary artifact.</objective>
+    <description>Legend has it that deep within the Lost City of Eldarath lies a powerful artifact, rumored to grant unimaginable power. The city is said to be cursed, filled with treacherous traps and terrifying creatures. Can you brave the unknown dangers and retrieve the artifact?</description>
+    <reward>A golden amulet granting resistance to fire and ice.</reward>
+    <quest-giver>Thorgrim Stonebeard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the entrance of the Lost City of Eldarath.</objective>
+            <description>Make your way through the dense jungle and climb the ancient stone steps to reach the entrance of the Lost City of Eldarath. Be cautious, as the trek can be treacherous.</description>
+            <location>The Heart of the Jungle</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Navigate through the traps and puzzles within the city's ancient temple.</objective>
+            <description>Use your wits to overcome deadly traps and solve complex puzzles, all while avoiding the city's twisted creatures. Stay alert, as one misstep can be fatal.</description>
+            <location>The Ancient Temple</location>
+        </task>
+    </tasks>
+</game>
+```

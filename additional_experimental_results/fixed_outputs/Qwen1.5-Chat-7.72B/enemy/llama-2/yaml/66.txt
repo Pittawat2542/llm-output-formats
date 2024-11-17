@@ -1,0 +1,16 @@
+Here's the corrected YAML data with proper syntax and new values if needed:
+
+```yaml
+game:
+  enemy:
+    description: "敌人描述"
+    id: "enemy_id"
+    name: "敌人名称"
+    stats:
+      atk: 200
+      def: 150
+      hp: 300
+      mp: 100
+      spd: 120
+```
+In this example, I've replaced the missing values (e.g., `description`, `id`, and `stats` keys) with appropriate values. The new values are integers for stats (`atk`, `def`, `hp`, `mp`, and `spd`).

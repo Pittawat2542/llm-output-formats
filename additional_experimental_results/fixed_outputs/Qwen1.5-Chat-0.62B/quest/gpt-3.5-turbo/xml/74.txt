@@ -1,0 +1,147 @@
+```xml
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the long-lost treasure of the ancient civilization.</description>
+	<reward>1000 gold coins</ reward>
+	<quest-giver>Captain Roberts</quest-giver>
+	<tasks>
+			<task>
+				<order>3</order>
+			<objective>Navigate through the treacherous jungle</objective>
+			<description>Make your way through the dangerous jungle filled with deadly creatures and hidden traps to reach the hidden treasure cave.</description>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+					<li>Captain Roberts</li>
+				</化学品>
+			<task>
+				<order>1</order>
+			<objective>Obtain a treasure map</objective>
+				<li>Antiquity</li>
+				<li>Jungle</li>
+				<li>Gold coins</li>
+				<li>Captain Roberts</li>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+					<li>Captain Roberts</li>
+				</化学品>
+			<task>
+				<order>2</order>
+			<objective>Decode the treasure map</objective>
+				<li>Antiquity</li>
+				<li>Jungle</li>
+				<li>Gold coins</li>
+				<li>Captain Roberts</li>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+					<li>Captain Roberts</li>
+				</化学品>
+			<task>
+				<order>3</order>
+			<objective>Navigate through the treacherous jungle</objective>
+				<li>Antiquity</li>
+				<li>Jungle</li>
+				<li>Gold coins</li>
+				<li>Captain Roberts</li>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+					<li>Captain Roberts</li>
+				</化学品>
+			<task>
+				<order>4</order>
+			<objective>Discover the treasure</objective>
+				<li>Antiquity</li>
+				<li>Jungle</li>
+				<li>Gold coins</li>
+				<li>Captain Roberts</li>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+					<li>Captain Roberts</li>
+				</化学品>
+			<task>
+				<order>5</order>
+			bjective>Explore the ancient cave and locate the long-lost treasure of the civilization.</objective>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+				</化学品>
+			<task>
+				<order>6</order>
+			bjective>Discover the hidden treasure</Objective>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+				</化学品>
+			<task>
+				<order>7</order>
+			bjective>Connect with the ancient civilization</objective>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+				</化学品>
+			<task>
+				<order>8</order>
+			bjective>Take down the lost treasure</ Objective>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+				</化学品>
+			<task>
+				<order>9</order>
+			bjective>Release the hidden treasure</Objective>
+			化学品>
+					<li>Antiquity</li>
+					<li>Jungle</li>
+					<li>Gold coins</li>
+				</化学品>
+			</task>
+		</ tasks>
+		<quest-giver>Captain Roberts</quest-giver>
+		<results>
+			<tr>
+				<title>Quest Reward</title>
+				<description>One thousand gold coins!</description>
+			</tr>
+			<tr>
+				<title>Quest Giver</title>
+				<description>Captain Roberts has returned the lost treasure.</description>
+			</tr>
+		</results>
+	</game>
+```
+```xml
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	/objective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the long-lost treasure of the ancient civilization.</description>
+	<reward>1000 gold coins</ reward>
+	<quest-giver>Captain Roberts</quest-giver>
+	<results>
+			<tr>
+				<title>Quest Reward</title>
+				<description>One thousand gold coins!</description>
+			</tr>
+			<tr>
+				<title>Quest Giver</title>
+				<description>Captain Roberts has returned the lost treasure.</description>
+			</tr>
+		</results>
+	</game>
+```
+```

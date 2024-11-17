@@ -1,0 +1,15 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy id="id" name="name" description="description">
+    <stats>
+      <hp>hp int value</hp>
+      <mp>mp int value</mp>
+      <atk>atk int value</atk>
+      <def>def int value</def>
+      <spd>spd int value</spd>
+    </stats>
+  </enemy>
+</game>
+```
+The fixed XML data corrects the syntax by closing the `<enemy>` tag, adding attribute values for `id`, `name`, and `description`, and fixing indentation for better readability. The Markdown code block is now in proper XML format.

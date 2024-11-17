@@ -1,0 +1,20 @@
+```yaml
+game:
+  dialogues:
+   - order: 10
+    speaker: A
+    text: A: Hello, B!
+    text: B: Hello, A!
+    text: A: What are you doing here?
+    text: B: I came to see you.
+    text: A: Why?
+    text: B: I just wanted to say hi.
+    text: A: I see.
+    text: B: I have to go now.
+    text: A: Okay.
+    narration:
+      - "A: Reflecting on the moment, I bid goodbye."
+      - "B: Agreeing, we part ways with a smile."
+    text: A: Goodbye, B. Take care!
+    text: B: You too, A. See you soon.
+```

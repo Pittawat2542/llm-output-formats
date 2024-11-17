@@ -1,0 +1,42 @@
+{
+  "enemy": {
+    "type": "spd",
+    "or": [
+      {
+        "type": "atk"
+      },
+      {
+        "type": "def"
+      }
+    ],
+    "id": "id",
+    "name": "name",
+    "stats": {
+      "atk": {
+        "value": {
+          "value1": "atk1 int value"
+        }
+      },
+      "def": {
+        "value": {
+          "value2": "def2 int value"
+        }
+      },
+      "hp": {
+        "value": {
+          "value3": "hp3 int value"
+        }
+      },
+      "mp": {
+        "value": {
+          "value4": "mp4 int value"
+        }
+      },
+      "spd": {
+        "value": {
+          "value5": "spd5 int value"
+        }
+      }
+    }
+  }
+}

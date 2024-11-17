@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>01</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the ancient ruins.</objective>
+	<description>Queen Aerin has ordered the retrieval of a lost artifact, which is believed to be in the forgotten ancient ruins. It is said that the artifact holds immense power and could be a great help to your kingdom.</description>
+	<reward>2000 gold coins and Knight title</reward>
+	<quest-giver>Queen Aerin</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Secure the Map</objective>
+			<description>Find and secure the ancient map, which reveals the location of the ancient ruins.</description>
+			<location>Kingdom's Library</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the Ruins</objective>
+			<description>Follow the ancient map to locate and explore the ancient ruins.</description>
+			<location>Ancient Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrive the Artifact</objective>
+			<description>Overcome the traps and challenges in the ruins to retrieve the lost artifact.</description>
+			<location>Ancient Ruins Inner Chamber</location>
+		</task>
+	</tasks>
+</game>
+

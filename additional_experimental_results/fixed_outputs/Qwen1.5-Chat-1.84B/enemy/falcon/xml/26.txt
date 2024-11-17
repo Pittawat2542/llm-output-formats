@@ -1,0 +1,24 @@
+Corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				hp integer value
+				mp integer value
+				atk integer value
+				def integer value
+				spd integer value
+			<stats>
+	<enemy>  
+</game>
+```
+New values:
+- `<hp>`: The HP (Hit Points) of the enemy.
+- `<mp>`: The MP (Max Hit Points) of the enemy.
+- `<atk>`: The Attack Power (ATK) of the enemy.
+- `<def>`: The Defense Power (DEF) of the enemy.
+- `<spd>`: The Speed (SPD) of the enemy.

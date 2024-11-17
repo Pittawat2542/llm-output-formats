@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Raise the ancient temple and claim its treasures.</objective>
+	<description>The city of Eldarath was lost to the sands of time, but rumors speak of a hidden temple deep within the dunes. Retrieve the artifacts necessary to awaken the long-lost city.</description>
+	<reward>1000 gold pieces, +10 experience points</reward>
+	<quest-giver>Gorvoth, the wise wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Ride to the nearby town and speak with the local elder.</objective>
+			<description>The elder may possess knowledge of the temple's location or be able to provide a map.</description>
+			<location>Town of Azsar</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the nearby desert and search for signs of the lost city.</objective>
+			<description>The sun can be unforgiving, so bring plenty of water and a map. Look for any anomalies in the sand or structures that may indicate the city's location.</description>
+			<location>Dunes of Aridos</location>
+		</task>
+	</tasks>
+</game>
+```

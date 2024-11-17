@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "EQ001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient scrolls in the Lost City of Eldarath",
+    "description": "Rumors have been circulating about a lost city deep within the nearby forest, filled with ancient artifacts and treasures. The locals are too afraid to venture there, but they speak of a hidden entrance somewhere in the forest.",
+    "reward": "1000 gold pieces and a magical amulet",
+    "quest_giver": "Thorne, the local historian",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from the locals",
+        "description": "Talk to the villagers and gather as much information as possible about the Lost City of Eldarath.",
+        "location": "Greenhaven Village"
+      },
+      {
+        "order": 2,
+        "objective": "Find the hidden entrance to the Lost City",
+        "description": "Search the nearby forest for any signs or markings that might lead you to the entrance.",
+        "location": "Eldarath Forest"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate the ancient traps and puzzles within the city",
+        "description": "Use your wits and reflexes to overcome the deadly traps and puzzles that guard the ancient scrolls.",
+        "location": "Lost City of Eldarath"
+      }
+    ]
+  }
+}

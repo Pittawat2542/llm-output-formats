@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>Retrieve the Ancient Scroll</title>
+	<objective> Retrieve an ancient scroll from the long-abandoned ruins of Eldrador.</objective>
+	<description>The village elder has received a vision that the ancient scroll, hidden within the ruins of Eldrador, holds the secrets to a powerful magical ritual. However, the ruins are treacherous and filled with deadly traps and creatures.</description>
+	<reward>1,000 gold pieces and the gratitude of the village elder</reward>
+	<quest-giver>Village Elder Eriol</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective> Navigate through the entrance tunnel without triggering any traps.</objective>
+			<description>The entrance tunnel is guarded by a pressure plate that will trigger a poison dart trap if stepped on. Find an alternative route to navigate through this section undetected.</description>
+			<location>Eldrador Entrance Tunnel</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective> Defeat the pack of goblins occupying the central chamber.</objective>
+			<description>The goblin pack is known to be vicious and aggressive. Use stealth and strategy to take them out without alerting any other creatures in the ruins.</description>
+			<location>Eldrador Central Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective> Retrieve the ancient scroll from the pedestal without triggering the magical wards.</objective>
+			<description>The scroll is protected by a series of magical wards that will trigger if anyone attempts to take it. Find a way to disable or bypass these wards.</description>
+			<location>Eldrador Ancient Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

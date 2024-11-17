@@ -1,0 +1,15 @@
+```xml
+<enemy>
+  <ID id="id">
+    <NAME name="name"></NAME>
+    <DESCRIPTION description="description"></DESCRIPTION>
+    <stats>
+      <HP hp int value="hp int value"></HP>
+      <MP mp int value="mp int value"></MP>
+      <ATK attack int value="attack int value"></ATK> <!-- add atk column here --><ATK attack int value="attack int value"></ATK>
+      <DEF defense int value="def int value"></DEF>
+      <SPD speed int value="speed int value"></SPD>
+    </stats>
+</enemy>
+
+```

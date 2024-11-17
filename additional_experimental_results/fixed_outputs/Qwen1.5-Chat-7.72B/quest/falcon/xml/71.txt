@@ -1,0 +1,33 @@
+```xml
+<game>
+	<id>001</id>
+	<title>Example Quest</title>
+	<objective>Craft 20 Potions</objective>
+	<description>Find and mix potion ingredients in designated locations</description>
+	<reward>Receive a rare potion as a reward</reward>
+	<quest-giver>Alchemist's Guild</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective>Mix 5 ingredient A from the eastern forest</objective>
+			<description>Locate and gather 5 ingredients A near the eastern entrance to the forest</description>
+			<location>East Forest Edge</location>
+		</task>
+		<task order="2">
+			<objective>Gather 10 potion herbs from the west meadow</objective>
+			<description>Crawl west and collect 10 herbs at West Meadow</description>
+			<location>West Meadow</location>
+		</task>
+		<task order="3">
+			<objective>Make 5 potions of type B with any herb</objective>
+			<description>Create 5 potions using any herb found, including type B at the alchemy guild</description>
+			<location>Alchemist's Guild</location>
+		</task>
+		<group id="farmer">
+			<objective>Gather 50 seasonal flowers for potion-making</objective>
+			<description>Farmers' Field - Check with the farmer for specific flower types</description>
+			<location>Farmers' Field</location>
+		</group>
+	</tasks>
+</game>
+```
+The XML has been corrected with new task objectives, rewards, quest giver, and updated descriptions. The order attribute is used for each task and group tasks have been added as `<task>` instead of separate `<group>` elements.

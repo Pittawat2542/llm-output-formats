@@ -1,0 +1,28 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>35</age>
+		<role>Warrior</role>
+		<background>Orphaned at a young age, John was taken in by a local tribe and raised as one of their own. He has grown to become their strongest warrior.</background>
+		<place-of-birth>Forest of Whispers</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.85</height>
+				<weight>90</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Explanation:
+
+The XML data provided was missing the `encoding="UTF-8"` attribute in the XML declaration, which could lead to character encoding issues. The `<physical-appearance>` tag was defined twice, so it was removed and nested within the existing one instead. The content inside each tag was also filled out with valid values for the given example.

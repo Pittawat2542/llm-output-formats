@@ -1,0 +1,34 @@
+The YAML data has a syntax issue. The second `| enemylocation |` line should be placed after the first `|`. Therefore, the corrected YAML data would be:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      wd: wd int value
+```
+
+The new values for `atk`, `def`, and `hp` are:
+
+```yaml
+| enemylocation | description | atk | def |
+|敌location | description | 20   | 15    |
+|敌location | description | 30   | 24    |
+| enemylocation | description | 35   | 26    |
+```
+
+The Markdown code block is now:
+```yaml
+| enemylocation | description | atk | def |
+|敌location | description | 20   | 15    |
+|敌location | description | 30   | 24    |
+|敌location | description | 35   | 26    |
+```
+
+The YAML data is now in Markdown format and only includes the new values for `atk`, `def`, and `hp`.

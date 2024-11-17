@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the lost family heirloom, a golden locket.",
+    "description": "The player's grandmother has asked for their help in finding her beloved golden locket, which has gone missing. The player must search the house and surrounding areas to find it.",
+    "reward": "100 gold coins and the gratitude of the player's grandmother",
+    "quest-giver": "Grandmother",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search the living room for clues.",
+          "description": "Look around the living room and see if you can find any hints about where the locket might be.",
+          "location": "The player's home, living room"
+        },
+        {
+          "order": "2",
+          "objective": "Check the garden for any signs of the locket.",
+          "description": "Search the garden and see if you can find any clues or hints about where the locket might be hidden.",
+          "location": "The player's home, garden"
+        },
+        {
+          "order": "3",
+          "objective": "Ask the family members if they have seen anything.",
+          "description": "Talk to the other family members and see if any of them have seen or heard anything about the missing locket.",
+          "location": "The player's home, various rooms"
+        }
+      ]
+    }
+  }
+}

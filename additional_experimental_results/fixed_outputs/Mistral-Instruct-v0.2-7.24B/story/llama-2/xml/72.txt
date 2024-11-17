@@ -1,0 +1,13 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+### Explanation:
+
+The input data contains an incorrect opening XML declaration tag. It should be `<?xml version="1.0" ?>`, not `<</SYS>>`. Therefore, to fix this syntax error, we simply replace the incorrect tag with the correct one. We don't need to make any changes to the values in the XML document since they were not affected by this error.

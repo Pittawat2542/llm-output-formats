@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?> 
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>New Quest Objective</objective>
+    <description>Updated Quest Description</description>
+    <reward>Gold Bar</reward>
+    <quest-giver>Old Sage</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track the Enchanted Tree</objective>
+            <description>Follow the map to the东方 forest.</description>
+            <location>Forest Path</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,51 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": 1,
+        "speaker": "Player",
+        "text": "component1"
+      },
+      {
+        "order": 1,
+        "speaker": "NPC_name",
+        "text": "component2\nWhat would you like to say?"
+      },
+      {
+        "order": 2,
+        "speaker": "Player",
+        "text": {
+          "input": "Component2"
+        }
+      },
+      {
+        "order": 2,
+        "speaker": "NPC_name",
+        "text": "component3"
+      },
+      {
+        "order": 3,
+        "speaker": "NPC_name",
+        "text": "component4"
+      }
+    ]
+  },
+  "1": {
+    "game.dialogues[0].speaker": "Player",
+    "game.dialogues[0].text": "component1"
+  },
+  "2": {
+    "game.dialogues[1].speaker": "NPC_name",
+    "game.dialogues[1].text": "component2\nWhat would you like to say?"
+  },
+  "3": {
+    "game.dialogues[2].speaker": "Player",
+    "game.dialogues[2].text": {
+      "input": "Component2"
+    }
+  },
+  "4": {
+    "game.dialogues[3].speaker": "NPC_name",
+    "game.dialogues[3].text": "component3"
+  }
+}

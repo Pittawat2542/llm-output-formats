@@ -1,0 +1,27 @@
+XML data with correct syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+Output in Markdown code block:
+```python
+<?xml version="1.0" ?>
+<html>
+<head>
+	<title>Game</title>
+</head>
+<body>
+	<h1>Game Title</h1>
+	<p>This is a game about <span class="dialogue">dialogue</span>.</p>
+</body>
+</html>
+```

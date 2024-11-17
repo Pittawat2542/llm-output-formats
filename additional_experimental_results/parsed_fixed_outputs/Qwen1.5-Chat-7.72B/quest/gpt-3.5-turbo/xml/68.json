@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Treasure Quest",
+    "objective": "Find the hidden treasure of Captain Jack's adventures",
+    "description": "A challenging quest for seekers: follow clues, unravel puzzles, and overcome obstacles to find the long-lost chest. Beware of dangers and outsmart the enemies you'll encounter along the way!",
+    "reward": "Certificates of bravery and a hoard of precious artifacts",
+    "quest-giver": "Captain Jack",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Decipher the pirate's treasure map",
+          "description": "Unriddle the cryptic symbols on this map to reveal the next clue. The Map Room awaits your deciphering skills.",
+          "location": "The Map Room"
+        },
+        {
+          "order": "2",
+          "objective": "Unlock the secret chest with the ancient key",
+          "description": "A hidden chamber holds the key to access the treasure. Explore the ruins and uncover its location for the key.",
+          "location": "The Ancient Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Prove your worth to the pirate's ghost guard",
+          "description": "The guardians of the treasure room have a challenge in store. Face their trials and earn their approval for access.",
+          "location": "The Guardian's Chamber"
+        },
+        {
+          "order": "4",
+          "objective": "Rediscover Captain Jack's treasure trove",
+          "description": "Claim your reward by exploring the treasure room, but be ready to outsmart any traps that stand in your way.",
+          "location": "The Treasure Room"
+        }
+      ]
+    }
+  }
+}

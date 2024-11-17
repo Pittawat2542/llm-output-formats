@@ -1,0 +1,22 @@
+{
+  "game": {
+    "description": "quest description",
+    "id": "quest_id",
+    "objective": "quest objective",
+    "quest_giver": "NPC_Name",
+    "reward": "gold, items",
+    "tasks": [
+      {
+        "description": "task description",
+        "location": "task_location",
+        "objective": "complete_task",
+        "order": 1,
+        "details": [
+          "subtask1_description",
+          "subtask2_action"
+        ]
+      }
+    ]
+  },
+  "title": "Quest Title"
+}

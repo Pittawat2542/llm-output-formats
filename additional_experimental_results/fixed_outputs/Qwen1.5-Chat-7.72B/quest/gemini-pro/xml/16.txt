@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>003</id>
+    <title>Ancient Relic</title>
+    <objective>Retrieve the ancient relic from the forgotten temple.</objective>
+    <description>Centuries ago, a powerful relic was hidden away in a forgotten temple, lost to time. The artifact is said to possess immense power, and you must retrieve it before it falls into the wrong hands.</description>
+    <reward>A reward of gold and a powerful artifact.</reward>
+    <quest-giver>Archaeologist</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the forgotten temple.</objective>
+            <description>The temple is located deep in the heart of the jungle, shrouded in mystery and danger.</description>
+            <location>Jungle</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the hidden entrance to the temple.</objective>
+            <description>Once you reach the temple, you must find the hidden entrance, concealed by ancient vines and crumbling stone.</description>
+            <location>Temple Entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Navigate the treacherous temple.</objective>
+            <description>Inside the temple, you will encounter traps, puzzles, and guardians protecting the relic.</description>
+            <location>Temple Interior</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Retrieve the ancient relic.</objective>
+            <description>Finally, you will reach the sanctum where the relic is hidden. Be prepared for a final challenge.</description>
+            <location>Sanctum</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return to the archaeologist with the relic.</objective>
+            <description>Once you have the relic, return to the archaeologist's camp for verification and reward.</description>
+            <location>Archaeologist's Camp</location>
+        </task>
+    </tasks>
+</game>
+```

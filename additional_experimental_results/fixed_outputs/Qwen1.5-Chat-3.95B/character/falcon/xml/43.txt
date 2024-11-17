@@ -1,0 +1,23 @@
+No problem. Here's the corrected XML:
+```xml
+{
+    game {
+        character {
+            id id
+            first-name first_name
+            last-name last_name
+            species species
+            age exact age or description
+            role role of the character
+            background background story
+            place-of-birth location
+            physical-appearance {
+                eye-color eye color
+                hair-color hair color
+                height height in float value
+                weight weight in float value
+            }
+        }
+    }
+}
+```

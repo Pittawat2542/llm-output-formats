@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Update quest objective: Achieve a treasure chest</objective>
+    <description>Help the local smith find the lost family heirloom</description>
+    <reward>100 gold coins</reward>
+    <quest-giver>Local Elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Delivery to Market Square</objective>
+            <description>Meet at the market square at dawn</description>
+            <location>Market Square</location>
+        </task>
+    </tasks>
+</game>
+```

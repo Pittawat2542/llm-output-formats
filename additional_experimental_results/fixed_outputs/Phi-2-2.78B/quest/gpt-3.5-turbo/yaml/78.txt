@@ -1,0 +1,20 @@
+game:
+  description: quest description
+  id: '123456' # Fix this
+  objective: quest objective
+  quest_giver: 'King Arthus' # Fix this
+  reward: ['The Lost Sword of the Ancients', 500] # Fix this
+  tasks:
+  - description: task description
+   location: [45, 78]
+   objective: task objective
+   order: 1
+  - description: task description
+   location: [55, 90]
+   objective: task objective
+   order: 2
+  - description: task description
+   location: [60, 75]
+   objective: task objective
+   order: 3
+

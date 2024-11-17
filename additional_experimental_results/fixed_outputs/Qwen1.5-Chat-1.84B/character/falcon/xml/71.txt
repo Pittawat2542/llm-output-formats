@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<game>
+	<character id="id_1" first-name="first_name_1" last-name="last_name_1" species="species_1" age="age_1" role="role_1" background="background_story_1" place-of-birth="location_1" physical-appearance>
+		Physical Appearance:
+			Eye Color: <color value="#FF0000">black</color>
+			Hair Color: <color value="#FFA500">blonde</color>
+			Height: <height value="180cm">6'3"</height>
+			Weight: <weight value="75kg">23 lbs</weight>
+	</physical-appearance>
+
+	Character Details:
+		ID: <id>id_1</id>
+		First Name: <first-name>first_name_1</first-name>
+		Last Name: <last-name>last_name_1</last-name>
+		Species: <species>species_1</species>
+		Age: <age>age_1</age>
+		Role: <role>role_1</role>
+	_Background: <background story_1>
+			Location: <location_1>
+				Description: <description>Background story for this character.</description>
+			</location>
+		</background>
+		Personality Traits: <personality traits>
+			Romantic: <romantic>true</romantic>
+			Selfish: <selfish>false</selfish>
+			Cautious: <cautious>true</cautious>
+			Energetic: <energetic>true</energetic>
+		</personality traits>
+	</character>
+</game>

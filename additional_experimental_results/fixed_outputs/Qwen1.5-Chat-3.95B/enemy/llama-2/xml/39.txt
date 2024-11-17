@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns="http://www.game.com/">
+    <enemy id="id" name="name" description="description">
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+</game>
+```

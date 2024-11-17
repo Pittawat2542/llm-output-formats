@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact and bring it back to the village elder.",
+    "description": "Rumors have been circulating about a hidden city deep within the nearby forest, where an ancient civilization once thrived. The village elder has received a cryptic message that suggests the lost city holds the key to unlocking a powerful artifact. Your quest is to find this artifact and bring it back to the village.",
+    "reward": "1000 gold pieces and a magical amulet granting resistance to fire",
+    "quest-giver": "Village Elder Thorgrim",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city from the village's elderly residents.",
+          "description": "Talk to the villagers and gather stories about the lost city. They may have valuable insights or clues that will aid you in your quest.",
+          "location": "Village of Brindlemark"
+        },
+        {
+          "order": "2",
+          "objective": "Find the hidden entrance to the lost city.",
+          "description": "Search the nearby forest for a hidden entrance to the lost city. Be wary of deadly traps and ferocious creatures that guard the ancient ruins.",
+          "location": "Forest of Eldarath"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact from the heart of the lost city.",
+          "description": "Navigate the treacherous tunnels and chambers of the lost city, avoiding deadly traps and battling fearsome creatures. The artifact lies at the very center of the ruins, guarded by a powerful entity.",
+          "location": "Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

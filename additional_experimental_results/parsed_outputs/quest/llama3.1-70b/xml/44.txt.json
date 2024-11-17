@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient scroll from the ruins of Eldarath.",
+    "description": "Ancient lore speaks of a powerful scroll hidden deep within the lost city of Eldarath. The scroll is said to hold the secrets of the long-lost magic of the Eldarians. Brave adventurers, seek out the ruins and claim the scroll for the people of Eridoria!",
+    "reward": "1000 gold pieces, 500 experience points, and a magical amulet granting resistance to fire.",
+    "quest-giver": "Eryndor Thorne, Sage of the Ancients",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the entrance of the lost city.",
+          "description": "Brave the treacherous mountain paths and avoid deadly traps to reach the grand entrance of Eldarath.",
+          "location": "The Mountains of Mor'Dhul, near the ancient stone marker \"Eldarath's Gate\""
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the ancient ruins and avoid deadly traps.",
+          "description": "Carefully navigate the crumbling structures, avoiding deadly traps set by the Eldarians to protect their treasures.",
+          "location": "The Lost City of Eldarath, central district"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient scroll from the treasure chamber.",
+          "description": "Use all your wits and skills to overcome the final challenge: claiming the ancient scroll from the treasure chamber of Eldarath.",
+          "location": "The Treasure Chamber, Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

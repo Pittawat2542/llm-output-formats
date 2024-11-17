@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123456789</id>
+	<title>The Lost Treasure of El Dorado</title>
+	<objective>Find the legendary city of gold, El Dorado.</objective>
+	<description>Rumor has it that a great treasure awaits in the heart of the Amazon rainforest. Gather your supplies and set out on this adventure to uncover the lost treasure!</description>
+	<reward>Gold coins, precious gems, and legendary artifacts.</reward>
+	<quest-giver>Don Juan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain a map to El Dorado from the local library.</objective>
+			<description>The map is rumored to be in an old, dusty book located deep within the library.</description>
+			<location>Main Street</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Gather supplies for the journey.</objective>
+			<description>You'll need food, water, a tent, and a machete to clear the dense jungle.</description>
+			<location>General Store</location>
+		</task>
+	</tasks>
+</game>
+```

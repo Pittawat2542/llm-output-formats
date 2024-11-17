@@ -1,0 +1,39 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>101</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the cave.</objective>
+	<description>Embark on a thrilling adventure to retrieve the lost artifact. Legends say it possesses immense power and could change the course of history. Can you uncover its secrets?</description>
+	<reward>Ancient artifact + 1000 gold coins</reward>
+	<quest-giver>
+		<name>Master Explorer Johnson</name>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the village elder</objective>
+			<description>The village elder has information about the location of the hidden cave. Approach him and gather the necessary details.</description>
+			<location>Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Obtain a lantern</objective>
+			<description>The cave is rumored to be pitch black. You need a reliable light source to navigate through its treacherous tunnels. Find a lantern from the local merchant in town.</description>
+			<location>Town</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Brave the dangers of the cave</objective>
+			<description>Enter the cave and face various obstacles, dangerous creatures, and puzzles. Be prepared for anything that comes your way!</description>
+			<location>Cave Entrance</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Discover the hidden chamber</objective>
+			<description>Navigate deeper into the cave and locate the secret chamber where the artifact is said to be kept. Carefully unravel its mysteries and retrieve the artifact.</description>
+			<location>Secret Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

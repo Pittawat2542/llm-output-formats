@@ -1,0 +1,36 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors of a lost artifact buried deep within an abandoned ruin. Your quest is to navigate the treacherous terrain, solve puzzles, and find the artifact before it falls into the wrong hands.</description>
+	<reward>1000 experience points and a legendary weapon</reward>
+	<quest-giver>Gilderan the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You need to discover the hidden entrance to the ancient ruins, marked by a specific symbol on a large boulder.</description>
+			<location>The forest west of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the puzzle at the entrance</objective>
+			<description>You must decode the runes inscribed on the door to unlock the entrance. The answer lies in the nearby waterfall.</description>
+			<location>Ruins' entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate the maze</objective>
+			<description>The ruins are a labyrinth of corridors and chambers. You must find your way to the heart of the ruin without getting lost or encountering dangers.</description>
+			<location>Ruins' interior</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Defeat the guardian</objective>
+			<description>A powerful creature guards the artifact. You must defeat it to claim the treasure.</description>
+			<location>The chamber of the artifact</location>
+		</task>
+	</tasks>
+</game>
+```

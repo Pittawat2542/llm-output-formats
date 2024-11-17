@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "EQ001",
+        "title": "The Lost Temple of Eldarath",
+        "objective": "Retrieve the ancient scroll from the depths of the Lost Temple of Eldarath.",
+        "description": "Rumors have been circulating about a long-lost temple deep within the forest, containing an ancient scroll with powerful knowledge. The village elder has tasked you with retrieving this scroll to aid in the village's prosperity.",
+        "reward": "1000 gold pieces and the blessing of the village elder",
+        "quest_giver": "Village Elder Thorne",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the temple's location",
+                "description": "Speak to the villagers and gather any information you can about the location of the Lost Temple of Eldarath.",
+                "location": "Village of Oakwood"
+            },
+            {
+                "order": 2,
+                "objective": "Retrieve the ancient scroll",
+                "description": "Venture into the forest, locate the temple, and retrieve the ancient scroll. Be cautious of traps and hostile creatures.",
+                "location": "Lost Temple of Eldarath (Deep within the Oakwood Forest)"
+            },
+            {
+                "order": 3,
+                "objective": "Return to Village Elder Thorne",
+                "description": "Bring the ancient scroll back to Village Elder Thorne to claim your reward and complete the quest.",
+                "location": "Village of Oakwood"
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the ancient relic from the ruins of a long-lost city.</objective>
+	<description>A legendary artifact has been hidden deep within the ruins of an ancient civilization. The relic is said to hold immense power, but it's guarded by treacherous terrain and fearsome creatures.</description>
+	<reward>1000 gold coins, increased reputation among the archaeological community</reward>
+	<quest-giver>Professor Maria Rodriguez</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the lost city's location.</objective>
+			<description>Talk to local villagers and gather rumors about the ancient city's whereabouts.</description>
+			<location>The Village of Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the ruins and find the entrance to the artifact chamber.</objective>
+			<description>Brave the dangers of the ancient city, avoiding deadly traps and fending off hostile creatures.</description>
+			<location>The Ruins of Eldarath</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Ransom the artifact from a rival expedition.</objective>
+			<description>Negotiate with or defeat the leader of a rival archaeological team to claim the relic for yourself.</description>
+			<location>The Rival Expedition's Campsite</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>Courageous Quest: Defeat the Dragon</title>
+    <objective>Coverge the dragon's scale and retrieve the ancient artifact to save the kingdom</objective>
+    <description>A formidable dragon has been posing a threat to our land. You, the brave hero, must confront it and bring peace back. Your journey begins here.</description>
+    <reward>Excalibur, the legendary sword, and a hoard of treasure</reward>
+    <quest-giver>Queen Guinevere</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Capture Dragon's Scale</objective>
+            <description>Prove your worth by acquiring the dragon's scale. It will be a crucial step in defeating it.</description>
+            <location>Dragon's Lair, Western Edge</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Discover Hidden Artifact</objective>
+            <description>The artifact is concealed deep within the lair. Seek it out and return with its ancient wisdom.</description>
+            <location>Dragon's Treasure Map, Royal Archives</location>
+        </task>
+    </tasks>
+</game>
+```

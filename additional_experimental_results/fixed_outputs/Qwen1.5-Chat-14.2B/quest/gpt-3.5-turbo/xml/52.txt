@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure hidden in a mysterious island.</objective>
+	<description>In a land of myths and legends, there is a treasure that has been lost for centuries. Many adventurers have tried to find it, but none have succeeded. As a brave hero, you have been entrusted with the task to find this treasure and bring it back to its rightful place. Are you up for the challenge?</description>
+	<reward>Ancient artifacts, gold, and eternal fame.</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain a map to the hidden island.</objective>
+			<description>Visit the old sailor in the tavern and persuade him to give you the map.</description>
+			<location>Blackbeard's Tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Build a strong crew for the journey.</objective>
+			<description>Gather a crew of skilled sailors and loyal companions to join you in the adventure.</description>
+			<location>Port Royal</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Survive the treacherous sea voyage.</objective>
+			<description>Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.</description>
+			<location>The Caribbean Sea</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Uncover the secrets of the island and find the treasure.</objective>
+			<description>Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.</description>
+			<location>The Mysterious Island</location>
+		</task>
+	</tasks>
+</game>
+```

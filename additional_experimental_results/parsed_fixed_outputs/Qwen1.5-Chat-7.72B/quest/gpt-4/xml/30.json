@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "456",
+    "title": "The Valiant Quest",
+    "objective": "Conquer the Dragon's lair and deliver its scales to the High Mage",
+    "description": "Uncover the dragon's curse and prove your bravery by retrieving its scales from Mount Evershade. Beware of the treacherous paths and powerful magic\u6cbf\u8def\u6311\u6218.",
+    "reward": "10,000 gold, Dragon's Scale Charm",
+    "quest-giver": "High Mage",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Escape the mountain's perimeter",
+          "description": "Steal the dragon's attention by creating a diversion near its lair.",
+          "location": "Mount Evershade Edge"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian dragon",
+          "description": "Confront and defeat the fierce guarding dragon to gain access to the cave.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Collect dragon scales",
+          "description": "Carefully extract the dragon's scales from its lair and avoid any traps.",
+          "location": "Dragon's Den"
+        },
+        {
+          "order": "4",
+          "objective": "Deliver to the High Mage",
+          "description": "Return the scaled to the mage's tower and complete your quest.",
+          "location": "High Mage Tower"
+        }
+      ]
+    }
+  }
+}

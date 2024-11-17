@@ -1,0 +1,30 @@
+
+```xml
+<game>
+	<roster>
+		<character id="id">
+			<first-name>first name</first-name>
+			<last-name>last name</last-name>
+			<species>species</species>
+			<age>exact age or description</age>
+			<role>character name here</role>
+			<physical-appearance>
+				<height><float>ft / in</height>
+				<weight><weight>lbs / lbs.ex</weight>
+				<image>
+					<img src="/images/character avatar.gif" alt="character image"/>
+				</image>
+				<description-image>
+					<img src="/images/character description.gif" alt="describe yourself image"/>
+				</description-image>
+			</physical-appearance>
+		</character>
+	</roster>
+</game>
+```
+
+Changes made:
+- Changed `<roster>` to `<game>` and added the root element `<game>` to wrap around everything.
+- Removed unnecessary `<div>` tags inside `<character>`.
+- Added new elements `<image>`, `<height>` and `<weight>` inside `<physical-appearance>`.
+- Moved the character image and describe yourself image into their own separate elements: `<image>` for the avatar, and `<description-image>` for the describe yourself image.

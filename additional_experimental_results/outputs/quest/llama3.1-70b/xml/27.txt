@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QR001</id>
+  <title>The Lost Temple</title>
+  <objective>Find the ancient temple and retrieve the Golden Idol</objective>
+  <description>Rumors have been circulating about a lost temple deep in the jungle, where an ancient civilization once worshipped their gods. The temple is said to contain a Golden Idol with immense power and value.</description>
+  <reward>1000 gold coins and increased reputation among the village elders</reward>
+  <quest-giver>Elder Kanaq, Village Elder of Oakwood</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the temple's location from the village locals</objective>
+      <description>Talk to the villagers and gather any information you can find about the lost temple. Be careful, some may be unwilling to share their knowledge.</description>
+      <location>Oakwood Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Navigate through the jungle to reach the temple entrance</objective>
+      <description>Use your survival skills and navigate through the dense jungle. Be prepared for any dangers that may lurk within.</description>
+      <location>Jungle, north of Oakwood Village</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieve the Golden Idol from the temple's inner sanctum</objective>
+      <description>Explore the ancient temple and retrieve the Golden Idol. Be prepared for traps and puzzles that guard the treasure.</description>
+      <location>The Lost Temple, deep in the jungle</location>
+    </task>
+  </tasks>
+</game>
+```

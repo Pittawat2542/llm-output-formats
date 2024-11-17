@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The villagers have been plagued by a series of strange occurrences, and it's up to you to uncover the source of their troubles. Rumor has it that an ancient artifact lies hidden within the long-abandoned Temple of the Moon Goddess.",
+    "reward": "10 gold pieces, 500 experience points, and a blessing from the village elder",
+    "quest_giver": "Eilif Stonefist, Village Elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Explore the Temple's Entrance",
+        "description": "Make your way through the jungle to reach the temple entrance. Be cautious of traps and wildlife.",
+        "location": "Jungle of Echoes, near the clearing with the ancient tree"
+      },
+      {
+        "order": 2,
+        "objective": "Navigate the Temple's Maze",
+        "description": "Use your wits to navigate the treacherous maze within the temple. Avoid falling into the pitfalls!",
+        "location": "Temple of the Moon Goddess, maze area"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the Artifact",
+        "description": "Face off against the temple's dark guardian to claim the artifact. Prepare for a fierce battle!",
+        "location": "Temple of the Moon Goddess, treasure chamber"
+      }
+    ]
+  }
+}

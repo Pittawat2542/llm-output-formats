@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>{{ item.id }}</id>
+	<title>{{ item.title }}</title>
+	<objective>{{ item[0].objective }}</objective>
+	<description>{{ item.description }}</description>
+	<reward>{{ item.reward }}</reward>
+	<quest-giver>
+		<id>{{ item[0].quest_giver.id }}</id>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>{{ tasks[0].order }}</order>
+			<objective>{{ tasks[0].objective }}</objective>
+			<description>{{ tasks[0].description }}</description>
+			<location>{{ tasks[0].location }}</location>
+		</task>
+	</tasks>
+</game>
+```

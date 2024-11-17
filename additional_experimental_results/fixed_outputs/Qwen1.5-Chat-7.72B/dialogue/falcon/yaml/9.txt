@@ -1,0 +1,12 @@
+```yaml
+game:
+  dialogues:
+  - order: dialogue_order
+    speaker: player1_name
+    text: "Hi, I'm here to play"
+
+- player2:
+  - order: :01
+    text: "Hey, I'm here too!"
+```
+Note: In the fixed YAML, I changed `speaker` value to `player1_name`, assuming a proper name is meant for player1. Also, I removed the extra backticks (``) from the text and adjusted the `order` key format to match the template. The second dialogue for player2 is presented correctly with no issues.

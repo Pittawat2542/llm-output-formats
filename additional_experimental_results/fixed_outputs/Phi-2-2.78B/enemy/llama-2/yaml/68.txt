@@ -1,0 +1,7 @@
+import yaml 
+with open('game.yml') as file: 
+    data = yaml.safe_load(file) 
+    print(data) 
+# {'level': 1, 'score': 100} 
+```
+

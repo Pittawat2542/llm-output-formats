@@ -1,0 +1,31 @@
+Here is the corrected XML data:
+```xml
+<game>
+  <id>QST0012</id>
+  <title>Dragon's Lair</title>
+  <objective>Defeat the Dragon in the lair north of the Black Mountain.</objective>
+  <description>You have been chosen to defeat the legendary Dragon that has been terrorising the settlers near the Black Mountain. Gather your forces, prepare for a battle and journey north to the Dragon's lair. Pure courage and strength are required to achieve victory. Are you ready?</description>
+  <reward>5000 Gold Coins and 'Champion of the North' title</reward>
+  <quest-giver>King Artus</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather forces</objective>
+      <description>Recruit soldiers from around the kingdom for the upcoming battle.</description>
+      <location>White Haven</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Prepare for battle</objective>
+      <description>Collect weapons, armor and battle supplies from the royal armory.</description>
+      <location>Royal Armory</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Travel to the Dragon's lair</objective>
+      <description>Journey north towards the harshest climates to the Dragon's lair. Stay alert as the dragon could attack anytime.</description>
+      <location>Dragon's Lair</location>
+    </task>
+  </tasks>
+</game>
+```

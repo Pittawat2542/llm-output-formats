@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Example YAML Configuration File",
+    "hosts": "my_vpc_instances",
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "example"
+        },
+        "annotations": {
+          "name": "yaml-configuration"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "example-container",
+            "image": "nginx"
+          }
+        ]
+      }
+    }
+  }
+]

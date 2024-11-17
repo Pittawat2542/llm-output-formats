@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Amulet",
+    "objective": "Retrieve the ancient amulet",
+    "description": "In this quest, you must embark on a perilous journey to find the lost amulet of power. The amulet is said to possess incredible abilities that can tip the balance of the world. However, it has been hidden deep within a dangerous, monster-infested labyrinth. It's up to you to navigate through treacherous traps, defeat fearsome creatures, and ultimately retrieve the amulet.",
+    "reward": "Upon successful completion of the quest, you will be granted the amulet's power and be known as the savior of the realm. In addition, you will receive a grand sum of gold and rare artifacts.",
+    "quest-giver": "High Mage Alarion",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the labyrinth",
+          "description": "The entrance to the labyrinth is said to be hidden within an ancient temple located deep in the forest. You must search for clues and navigate through dense foliage to uncover its whereabouts.",
+          "location": "Forest of Shadows"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the key to unlock the labyrinth gate",
+          "description": "The key to the labyrinth gate is rumored to be held by the guardian dragon of the mountain. You must brave the dangers of the fiery volcano and defeat the dragon to acquire the key.",
+          "location": "Volcano of Flames"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate through the labyrinth's deadly traps",
+          "description": "The labyrinth is filled with a myriad of deadly traps, including spikes, poison darts, and collapsing floors. Use your wit and agility to overcome these obstacles and proceed deeper into the labyrinth.",
+          "location": "The Labyrinth"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the ancient guardian protecting the amulet",
+          "description": "The amulet is guarded by a powerful ancient creature known as the Guardian of Secrets. You must engage in a fierce battle and defeat this formidable foe to claim the amulet as your own.",
+          "location": "Chamber of Secrets"
+        }
+      ]
+    }
+  }
+}

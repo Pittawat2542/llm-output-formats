@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: "Your age or a description, e.g. '25 years old'"
+    background: "A story about your background"
+    first_name: ""
+    last_name: ""
+    physical_appearance:
+      - eye_color: ""
+      - hair_color: ""
+      - height: ""
+      - weight: ""
+    place_of_birth: ""
+    role: ""
+    species: ""
+
+# The original template had some extra lines that were not needed. I removed them and added default empty values for each key.
+```

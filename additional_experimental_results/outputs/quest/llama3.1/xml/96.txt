@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q001</id>
+    <title>The Lost City</title>
+    <objective>Retrieve the ancient artifact from the lost city.</objective>
+    <description>Legend has it that a powerful artifact lies hidden within the lost city, and only those who dare to venture in can claim its power. Brave adventurer, will you answer the call?</description>
+    <reward>500 gold, +10 strength, and a magical amulet</reward>
+    <quest-giver>Gorvoth, the village elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Speak with Gorvoth to gather information about the lost city.</objective>
+            <description>Gather any useful intel from Gorvoth before setting out on your quest.</description>
+            <location>Village of Brindlemark</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Navigate through the jungle to reach the lost city.</objective>
+            <description>Be cautious of treacherous terrain and hostile creatures as you make your way through the dense jungle.</description>
+            <location>Jungle of Eldrador</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Retrieve the ancient artifact from within the lost city.</objective>
+            <description>Beware of deadly traps and guardians as you search for the artifact.</description>
+            <location>Lost City of Zerzura</location>
+        </task>
+    </tasks>
+</game>
+```

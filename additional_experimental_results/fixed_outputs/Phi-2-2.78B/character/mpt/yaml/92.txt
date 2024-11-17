@@ -1,0 +1,23 @@
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+      - eye_color: blue
+      - hair_color: black
+      - height: 5'9
+      - weight: 150
+      - place_of_birth: Washington, DC, USA
+      - role: protagonist
+      - species: human
+- eye_color: blue
+  hair_color: black
+  height: 5'9
+  weight: 150
+  place_of_birth: Washington, DC, USA
+  role: antagonist
+  species: human
+

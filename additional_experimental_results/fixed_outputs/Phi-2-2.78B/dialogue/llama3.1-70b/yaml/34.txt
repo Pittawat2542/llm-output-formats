@@ -1,0 +1,72 @@
+
+game:
+dialogues:
+- order: dialogue order
+  speaker: speaker name
+  text: dialogue or narration
+
+Original:
+game:
+  dialogues:
+  - order: 1
+    speaker: Narrator
+    text: Welcome to the land of Eldoria, a mystical realm of wonder and magic.
+  - order: 2
+    speaker: Eryndor Thorne
+    text: I've been traveling these woods for hours. I hope I'm close to finding the ancient ruins.
+  - order: 3
+    speaker: Lila Moonwhisper
+    text: Ah, a traveler! We don't often get strangers here. What brings you to our neck of the woods?
+```
+```python
+# Solution:
+import yaml
+
+
+def fix_yaml(data):
+    try:
+        # Load data into Python dictionary
+        obj = yaml.safe_load(data)
+        
+        # Check if there is a "game" key
+        if 'game' not in obj:
+            return data
+        
+        # Create game dictionary
+        game = {}
+        game['dialogues'] = []
+        
+        # Parse dialogues and add to game dictionary
+        for dialogue in obj['game']['dialogues']:
+            order = int(dialogue.get('order', 1))
+            speaker = dialogue.get('speaker') or 'Narrator'
+            text = dialogue.get('text') or ''
+            
+            # Check if order is valid and add to game dictionary
+            if not isinstance(order, int) or order <= 0:
+                continue
+            game['dialogues'].append({'order': order, 'speaker': speaker, 'text': text})
+        return data
+    except yaml.YAMLError as exc:
+        print(f"YAML error on line {exc.problem_mark[0]}: {exc.problem}")
+
+
+data = '''
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: Narrator
+    text: Welcome to the land of Eldoria, a mystical realm of wonder and magic.
+    
+    order: 2
+    speaker: Eryndor Thorne
+    text: I've been traveling these woods for hours. I hope I'm close to finding the ancient ruins.
+
+    order: 3
+    speaker: Lila Moonwhisper
+    text: Ah, a traveler! We don't often get strangers here. What brings you to our neck of the woods?'''
+
+print(fix_yaml(data))
+```
+
+

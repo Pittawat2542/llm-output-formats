@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	objective>quest objective</objective>
+	description>quest description</description>
+	reward>quest reward</reward>
+	Quest giver>Quest giver</Quest giver>
+	Tasks:
+			<task>
+				<order>1</order>
+			 Objective>Objective objective</Objective>
+				Descitation>Description</Description>
+			.location>Location location</location>
+			<task>
+		<title>Quest task title</title>
+	 Objective>Objective objective</Objective>
+		Descitation>Description</Description>
+			的位置>Location location</location>
+			<task>
+		<title>Quest quest</title>
+	 Objective>Objective objective</Objective>
+		Descitation>Description</Description>
+			的位置>Location location</location>
+	</tasks>
+</game>
+```
+New values: 
+- Quest giver (Quest giver)
+- Task order (Task order)

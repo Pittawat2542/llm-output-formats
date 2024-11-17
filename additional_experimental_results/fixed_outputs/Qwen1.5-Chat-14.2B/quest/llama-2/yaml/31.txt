@@ -1,0 +1,18 @@
+The original YAML data was correct, except for the indentation of the `tasks` list which should be indented under the `game` key. Here is the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```
+
+If you meant to add more required or optional fields, please provide the necessary details.

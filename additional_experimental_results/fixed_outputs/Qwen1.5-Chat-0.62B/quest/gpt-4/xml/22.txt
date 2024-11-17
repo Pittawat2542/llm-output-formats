@@ -1,0 +1,222 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0"?>
+
+<game>
+	<id>12345</id>
+	<title>Dragon's Return</title>
+	<objective>Defeat the awakened dragon and save the kingdom</objective>
+	<description>Long ago, a dragon was sealed away by the ancestors. Now, it has returned and is causing destruction across the kingdom. You are tasked to defeat it and restore peace.</description>
+	<reward>10000 gold and 'Dragon's Slayer' title</reward>
+	<quest-giver>King Leoric</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Collect the 'Dragon's Bane' sword from the Ancient Ruins</objective>
+				<description>The first task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.</description>
+			<location>Ancient Ruins</location>
+			<task>
+				<order>2</order>
+			 objective>Defeat the dragon</objective>
+				<description>With the ' Dragon's Bane', confront and defeat the dragon.</description>
+			经验值:Avalanche, 10, 5, 3, 1
+			<task>
+				<order>3</order>
+			 objective>Defeat the dragon with the 'Dragon's Slayer' title</objective>
+				<description>The second task is to defeat the dragon and save the kingdom.</description>
+			经验值:Avalanche, 20, 5, 1, 1
+			<task>
+				<order>4</order>
+			 objective>Collect the 'Dragon's Bane' sword from the Ancient Ruins</objective>
+				<description>The third task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.</description>
+			经验值:Avalanche, 30, 1, 5, 1
+			</task>
+			<task>
+				<order>5</order>
+			 objective>Collect the 'Dragon's Bane' sword from the Ancient Ruins</objective>
+				<description>The fourth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.</description>
+			经验值:Avalanche, 40, 1, 2, 5
+			<task>
+				<order>6</order>
+			 objective>Collect the 'Dragon's Bane' sword from the Ancient Ruins</objective>
+				<description>The fifth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.</description>
+			经验值:Avalanche, 50, 1, 2, 3
+			</task>
+			<task>
+				<order>7</order>
+			 objective>Defeat the dragon with the 'Dragon's Slayer' title and retrieve the 'Dragon's Bane' sword</objective>
+			经验值:Avalanche, 60, 1, 2, 5
+			</task>
+			<task>
+				<order>8</order>
+			 objective>Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom</objective>
+			经验值:Avalanche, 70, 1, 2, 3
+			</task>
+			<task>
+				<order>9</order>
+			 objective>Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom</objective>
+			经验值:Avalanche, 80, 1, 2, 3
+			</task>
+			<task>
+				<order>10</order>
+			 objective>Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom</objective>
+			经验值:Avalanche, 90, 1, 2, 5
+			</task>
+		</tasks>
+	</game>
+```
+
+Here is the Markdown code block for the XML data:
+```xml
+<?xml version="1.0"?>
+
+<game>
+	<id>12345</id>
+	<title>Dragon's Return</title>
+	 Objective: Defeat the awakened dragon and save the kingdom
+	 Description: Long ago, a dragon was sealed away by the ancestors. Now, it has returned and is causing destruction across the kingdom. You are tasked to defeat it and restore peace.
+	 Reward: 10000 gold and 'Dragon's Slayer' title
+	 Quest-Giver: King Leoric
+	 Tasks:
+    <task>
+        <order>1</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The first task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 10, 5, 3, 1
+    </task>
+    <task>
+        <order>2</order>
+        Objective: Defeat the dragon
+        Description: With the 'Dragon's Bane', confront and defeat the dragon.
+       经验值:Avalanche, 20, 5, 1, 1
+    </task>
+    <task>
+        <order>3</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title
+        Description: The second task is to defeat the dragon and save the kingdom.
+       经验值:Avalanche, 20, 5, 1, 1
+    </task>
+    <task>
+        <order>4</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The third task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 30, 1, 5, 1
+    </task>
+    <task>
+        <order>5</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The fourth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 30, 1, 2, 5
+    </task>
+    <task>
+        <order>6</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The fifth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 50, 1, 2, 3
+    </task>
+    <task>
+        <order>7</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and retrieve the 'Dragon's Bane' sword
+       经验值:Avalanche, 60, 1, 2, 5
+    </task>
+    <task>
+        <order>8</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 70, 1, 2, 3
+    </task>
+    <task>
+        <order>9</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 80, 1, 2, 3
+    </task>
+    <task>
+        <order>10</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 90, 1, 2, 5
+    </task>
+    <task>
+        <order>11</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 100, 1, 2, 3
+    </task>
+</game>
+```
+
+The output of the code block is:
+```xml
+<game>
+	<id>12345</id>
+	<title>Dragon's Return</title>
+	 Objective: Defeat the awakened dragon and save the kingdom
+	 Description: Long ago, a dragon was sealed away by the ancestors. Now, it has returned and is causing destruction across the kingdom. You are tasked to defeat it and restore peace.
+	 Reward: 10000 gold and 'Dragon's Slayer' title
+	 Quest-Giver: King Leoric
+	 Tasks:
+    <task>
+        <order>1</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The first task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 10, 5, 3, 1
+    </task>
+    <task>
+        <order>2</order>
+        Objective: Defeat the dragon
+        Description: With the 'Dragon's Bane', confront and defeat the dragon.
+       经验值:Avalanche, 20, 5, 1, 1
+    </task>
+    <task>
+        <order>3</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title
+        Description: The second task is to defeat the dragon and save the kingdom.
+       经验值:Avalanche, 20, 5, 1, 1
+    </task>
+    <task>
+        <order>4</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The third task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 30, 1, 5, 1
+    </task>
+    <task>
+        <order>5</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The fourth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 30, 1, 2, 5
+    </task>
+    <task>
+        <order>6</order>
+        Objective: Collect the 'Dragon's Bane' sword from the Ancient Ruins
+        Description: The fifth task is to retrieve the 'Dragon's Bane' sword, the only weapon that can harm the dragon.
+       经验值:Avalanche, 50, 1, 2, 3
+    </task>
+    <task>
+        <order>7</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and retrieve the 'Dragon's Bane' sword
+       经验值:Avalanche, 60, 1, 2, 5
+    </task>
+    <task>
+        <order>8</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 70, 1, 2, 3
+    </task>
+    <task>
+        <order>9</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 80, 1, 2, 3
+    </task>
+    <task>
+        <order>10</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 90, 1, 2, 5
+    </task>
+    <task>
+        <order>11</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 100, 1, 2, 3
+    </task>
+    <task>
+        <order>12</order>
+        Objective: Defeat the dragon with the 'Dragon's Slayer' title and defeat the dragon and save the kingdom
+       经验值:Avalanche, 90, 1, 2, 5
+    </task>
+</game>
+```

@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>53</id>
+	<title>Ancient Mysteries</title>
+	<objective>Uncover the secrets of an ancient artifact.</objective>
+	<description>The Book of Ancients is rumoured to hold great power and knowledge. It is hidden somewhere in the ancient ruins of Alaranth. Find the book and bring it back to the Order of the Arcane.</description>
+	<reward>Book of Ancients, +500 XP, +200 gold</reward>
+	<quest-giver xmlns:ns1="urn:missing_namespace">Master Braemore of the Order of the Arcane</quest-giver>
+	<tasks>
+		<task xmlns:ns1="urn:missing_namespace">
+			<order>1</order>
+			<objective>Find the ancient ruins of Alaranth.</objective>
+			<description>Travel to the ancient ruins of Alaranth located in the northern mountains.</description>
+			<location xmlns:ns1="urn:missing_namespace">Ancient Ruins of Alaranth</location>
+		</task>
+		<task xmlns:ns1="urn:missing_namespace">
+			<order>2</order>
+			<objective>Search for clues leading to the Book of Ancients.</objective>
+			<description>Look for any ancient texts or artifacts that may mention the book's whereabouts.</description>
+			<location xmlns:ns1="urn:missing_namespace">Ancient Ruins of Alaranth</location>
+		</task>
+		<task xmlns:ns1="urn:missing_namespace">
+			<order>3</order>
+			<objective>Defeat the guardians protecting the Book of Ancients.</objective>
+			<description>The book is guarded by powerful creatures. Be prepared for a fight.</description>
+			<location xmlns:ns1="urn:missing_namespace">Vault in Ancient Ruins of Alaranth</location>
+		</task>
+		<task xmlns:ns1="urn:missing_namespace">
+			<order>4</order>
+			<objective>Retrieve the Book of Ancients.</objective>
+			<description>Find the book and take it safely back to Master Braemore.</description>
+			<location xmlns:ns1="urn:missing_namespace">Vault in Ancient Ruins of Alaranth</location>
+		</task>
+	</tasks>
+</game>
+```
+I added a missing `xmlns:ns1="urn:missing_namespace"` attribute to the `<quest-giver>` element, which was suggested as the root cause of the error. Other elements that were already correctly defined did not require any changes.

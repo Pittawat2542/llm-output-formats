@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	 Objective: Retrieve the lost artifact from Ice Cave.
+	 Description: Quest to recover the lost artifact rumored to be hidden in the depths of Ice Cave.
+	 Reward: 50,000 gold coins and an epic weapon.
+	 Quest-giver: King Arthur
+	 Tasks:
+		 <task>
+				<order>1</order>
+			 Objective: Travel to Icewind Dale.
+			 Description: Equip yourself with warm clothing and necessary equipment to survive the harsh cold of Icewind Dale. You may need to defeat them to enter the cave.
+			omyLocation: Castle's stable
+		 </task>
+		 <task>
+				<order>2</order>
+			 Objective: Enter the Ice Cave.
+			 Description: Beware of the Ice Trolls guarding the entrance of the cave. You may need to defeat them to enter the cave.
+			omyLocation: Icewind Dale
+		 </task>
+		 <task>
+				<order>3</order>
+			 Objective: Find and recover the Lost Artifact.
+			 Description: Use the map given by the king to navigate through the cave and find the artifact. Expect resistance from the creatures lurking within.
+			omyLocation: Ice Cave
+		 </task>
+		}
+		<game>
+		</game>
+</template>

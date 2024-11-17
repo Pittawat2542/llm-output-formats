@@ -1,0 +1,243 @@
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>John Doe</first-name>
+			last-name>Doe Smith</last-name>
+			species>Human</species>
+			age>25 years old</age>
+			role>Pilot</role>
+			background>
+				place-of-birth>New York City</place-of-birth>
+			实体经济 appearance:
+					eye_color="Blue"
+					hair_color="Black"
+					height=1.80m
+				 weight=80kg
+				physical-appearance: 
+					eye_color="Brown"
+					hair_color="Brown"
+					height=1.96m
+				(weight=95kg
+			role：“ pilot” 
+		</character>
+	</game>
+```
+
+### Example 14
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Jane Smith</first-name>
+			last-name>Doe Brown</last-name>
+		职业技能: Engineer, Developer
+			age:23 years old
+			role：“engineer”
+			background:
+			place-of-birth：“硅谷”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+					body_color="White"
+				一手_color="Green"
+			实体经济 appearance:
+					body_color="Blue"
+					body_color="Blue"
+					body_color="Black"
+			实体经济 appearance: 
+					body_color="Red"
+				一只手_color="Black"
+					body_color="Brown"
+				一只手_color="Green"
+			role：“developer”
+		</character>
+	</game>
+```
+
+### Example 15
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Tom Brown</first-name>
+			last-name>Doe Johnson</last-name>
+		职业技能: Developer, Engineer
+			age:25 years old
+			role：“developer”
+			background:
+			place-of-birth：“New York City”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+				的身体_color="White"
+				一手_color="Green"
+			实体经济 appearance: 
+				-body_color="Blue"
+					body_color="Blue"
+					body_color="Black"
+					body_color="Red"
+				一只手_color="Black"
+					body_color="Brown"
+				一只手_color="Green"
+			role：“engineer”
+		</character>
+	</game>
+```
+
+### Example 16
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Jane Smith</first-name>
+			last-name>Doe Brown</last-name>
+		职业技能: Developer, Engineer
+			age:25 years old
+			role：“engineer”
+			background:
+			place-of-birth：“硅谷”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+				的身体_color="White"
+				一手_color="Green"
+			实体经济 appearance: 
+					body_color="Blue"
+					body_color="Blue"
+					body_color="Black"
+					body_color="Red"
+				一只手_color="Black"
+				-body_color="Brown"
+				一只手_color="Green"
+			role：“developer”
+		</character>
+	</game>
+```
+
+### Example 17
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Jane Smith</first-name>
+			last name>Doe Brown</last-name>
+		职业技能: Developer, Engineer
+			age:25 years old
+			role：“engineer”
+			background:
+			place-of-birth：“硅谷”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+				的身体_color="White"
+				一手_color="Green"
+			实体经济 appearance: 
+				-body_color="Blue"
+					body_color="Blue"
+					body_color="Black"
+					body_color="Red"
+				一只手_color="Black"
+					body_color="Brown"
+				一只手_color="Green"
+			role：“developer”
+		</character>
+	</game>
+```
+
+### Example 18
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Jane Smith</first-name>
+			last name>Doe Brown</last-name>
+		职业技能: Developer, Engineer
+			age:25 years old
+			role：“engineer”
+			background:
+			place-of-birth：“硅谷”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+				的身体_color="White"
+				一手_color="Green"
+			实体经济 appearance: 
+				 body_color="Blue"
+					body_color="Blue"
+					body颜色="Black"
+				身体_color="Red"
+				一只手_color="Black"
+					body_color="Brown"
+				一只手_color="Green"
+			role：“developer”
+		</character>
+	</game>
+```
+
+### Example 19
+
+```xml
+<?xml version="1.0""?>
+<game>
+	<character>
+			<id>name</id>
+			<first-name>Jane Smith</first-name>
+			last name>Doe Brown</last-name>
+		职业技能: Developer, Engineer
+			age:25 years old
+			role：“engineer”
+			background:
+			 place-of-birth：“硅谷”
+			实体经济 appearance:
+					body_color="Blue"
+					glasses_color="Black"
+					hands_color="Brown"
+			实体经济 appearance:
+					body_color="Yellow"
+				一只手_color="Red"
+				的身体颜色="White"
+				一手_color="Green"
+			实体经济 appearance: 
+				 body_color="Blue"
+				身体_color="Blue"
+					body_color="Black"
+					body_color="Red"
+				一只手_color="Black"
+					body_color="Brown"
+				一只手_color="Green"
+			role：“developer”
+		</character>
+	</game>
+```

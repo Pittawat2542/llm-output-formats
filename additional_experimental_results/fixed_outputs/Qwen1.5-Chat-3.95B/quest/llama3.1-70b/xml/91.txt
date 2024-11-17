@@ -1,0 +1,32 @@
+```xml
+
+<?xml version="1.0"  ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient scroll from the depths of the temple</objective>
+	<description>A powerful artifact has been stolen from our kingdom, and we have reason to believe it's hidden within the long-abandoned Temple of Eldarath. Brave adventurers are needed to explore the treacherous ruins and retrieve the lost treasure.</description>
+	<reward>500 gold pieces and a magical amulet granting  +10% intelligence</reward>
+	<quest-giver>Gorvoth, the Royal Advisor</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Navigate through the temple' s entrance hall without triggering any traps</objective>
+				<description>Avoid deadly darts and spiked floors as you make your way deeper into the temple. Keep an ear out for hidden mechanisms and a keen eye on pressure plates.</description>
+				<location>Temple Entrance Hall</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective> Solve the mirror puzzle to unlock the door to the inner sanctum</objective>
+				<description>Use your wits and cunning to redirect beams of light onto pressure plates, unlocking the path forward. Be cautious not to get caught in the laser-like beams!</description>
+				<location>Mirror Room</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective> Retrieve the ancient scroll from the pedestal in the heart of the temple</objective>
+				<description> Claim your prize and uncover the secrets within. But beware: the temple' s dark magic may try to snatch it away from you!</description>
+				<location.Inner Sanctum</location>
+			</task>
+		</tasks>
+	</game>
+```

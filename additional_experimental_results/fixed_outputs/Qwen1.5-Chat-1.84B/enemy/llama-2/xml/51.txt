@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>1234567890</id>
+			<name>Fantastic Enemy</name>
+			<description>The most fearsome enemy in the game!</description>
+			stats>
+				hp 150
+				mp 150
+			atk 150
+				def 150
+				spd 150
+			<stats>
+	</enemy>  
+</game>
+
+## Examples
+
+```xml
+Fixed Game:
+<game>
+    <enemy>
+        <id>1234567890</id>
+        <name>Fantastic Enemy</name>
+        <description>The most fearsome enemy in the game!</description>
+        stats>
+            <hp>150</hp>
+            <mp>150</mp>
+            <atk>150</atk>
+            <def>150</def>
+            <spd>150</spd>
+        </stats>
+    </enemy>
+</game>
+```

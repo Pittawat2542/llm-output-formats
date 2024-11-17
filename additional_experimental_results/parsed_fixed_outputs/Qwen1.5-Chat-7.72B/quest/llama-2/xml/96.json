@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "quest_id123",
+    "title": "Adventure Quest",
+    "objective": "Complete the Forest Exploration",
+    "description": "A quest to gather rare mushrooms in the Green Glade",
+    "reward": "100 gold coins and a magical amulet",
+    "quest-giver": "Old Oak\u7cbe\u7075\u738b",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Find the marked tree near the Spring Stream",
+        "description": "Follow the tracks to the clearing",
+        "location": "Green Glade, east of the spring"
+      }
+    }
+  }
+}

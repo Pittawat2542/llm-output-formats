@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "EQ001",
+        "title": "The Lost Temple of the Moon Goddess",
+        "objective": "Retrieve the ancient artifact hidden within the temple.",
+        "description": "Legend has it that the Moon Goddess hid a powerful artifact deep within her lost temple. The artifact is said to grant immense power and wisdom to whoever claims it. However, the temple is rumored to be cursed, and many have attempted but never returned. Will you be the one to succeed?",
+        "reward": "1000 gold coins, a magical amulet granting +10% intelligence, and the blessing of the Moon Goddess.",
+        "quest_giver": "High Priestess Elara",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Explore the entrance of the lost temple.",
+                "description": "Enter the lost temple through its grand entrance. Be cautious, as rumors of ancient traps and puzzles await.",
+                "location": "Lost Temple Entrance (35.42, -23.56)"
+            },
+            {
+                "order": 2,
+                "objective": "Solve the first trial of the elements.",
+                "description": "Use your knowledge of the elements to solve a puzzle that will unlock the path forward.",
+                "location": "Lost Temple Chamber of Elements (35.22, -23.46)"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the ancient artifact.",
+                "description": "Once you have solved all trials and made your way to the heart of the temple, retrieve the ancient artifact and claim its power for yourself.",
+                "location": "Lost Temple Chamber of the Moon Goddess (35.15, -23.41)"
+            }
+        ]
+    }
+}
+```

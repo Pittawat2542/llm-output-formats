@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the dungeon.",
+    "description": "Rumor has it that a powerful artifact is buried deep within the forgotten dungeons. Retrieve it and bring glory to our kingdom.",
+    "reward": "1000 gold coins and legendary title",
+    "quest-giver": "King Arcturus",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Dungeon of Forgotten Heroes",
+          "description": "Make your way through the entrance to the dungeon located in the eastern forest.",
+          "location": "Eastern Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian of the Artifact",
+          "description": "In the heart of the dungeon, a powerful guardian protects the artifact. Conquer it to claim the treasure.",
+          "location": "Dungeon Heart"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "I-1",
+        "name": "Warrior",
+        "description": "A muscular warrior with a black robe and a battle axe",
+        "stats": {
+          "hp": "100",
+          "mp": "0",
+          "atk": "21",
+          "def": "30",
+          "spd": "19"
+        }
+      },
+      {
+        "id": "I-2",
+        "name": "Priest",
+        "description": "A robed figure standing with hands crossed and a burning flame in one hand",
+        "stats": {
+          "hp": "0",
+          "mp": "20",
+          "atk": "50",
+          "def": "5",
+          "spd": "7"
+        }
+      },
+      {
+        "id": "I-3",
+        "name": "Elf",
+        "description": "A graceful elf with a bow and a long curved dagger",
+        "stats": {
+          "hp": "70",
+          "mp": "60",
+          "atk": "25",
+          "def": "25",
+          "spd": "40"
+        }
+      },
+      {
+        "id": "S-1",
+        "name": "Snake",
+        "description": "A large green snake standing in the center of the room with a crown of golden scales",
+        "stats": {
+          "hp": "140",
+          "mp": "0",
+          "atk": "30",
+          "def": "32",
+          "spd": "16"
+        }
+      },
+      {
+        "id": "S-2",
+        "name": "Skeleton",
+        "description": "A humanoid skeleton wearing a tattered cloak with bones",
+        "stats": {
+          "hp": "60",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      },
+      {
+        "id": "S-3",
+        "name": "Berserk",
+        "description": "A muscular warrior that appears completely unhinged and attacks with a massive club",
+        "stats": {
+          "hp": "80",
+          "mp": "0",
+          "atk": "45",
+          "def": "4",
+          "spd": "32"
+        }
+      },
+      {
+        "id": "S-4",
+        "name": "Maelstrom",
+        "description": "A giant creature made of sea serpents wrapped around itself to form a large island that sits in the middle of the room",
+        "stats": {
+          "hp": "0",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      },
+      {
+        "id": "S-5",
+        "name": "Undead",
+        "description": "A rotting corpse with a dark skull and red eyes, with a large dagger at its belt",
+        "stats": {
+          "hp": "40",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      },
+      {
+        "id": "C-1",
+        "name": "Archer",
+        "description": "A nimble elf with excellent aim wearing a feathered hood",
+        "stats": {
+          "hp": "0",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      },
+      {
+        "id": "C-2",
+        "name": "Dwarf",
+        "description": "A short, stout dwarf wearing a suit of thick chainmail and a red cape",
+        "stats": {
+          "hp": "40",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      },
+      {
+        "id": "C-3",
+        "name": "Centaur",
+        "description": "A giant horse-like centaur standing at 10 feet tall, wearing a red helm with a spear attached",
+        "stats": {
+          "hp": "350",
+          "mp": "0",
+          "atk": "0",
+          "def": "0",
+          "spd": "0"
+        }
+      }
+    ]
+  }
+}

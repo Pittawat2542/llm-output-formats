@@ -1,0 +1,35 @@
+# game.yml
+# Title: Game
+# Description: This is a game
+# Objectives: Objective 1, Objective 2
+# Characters: Character Name 
+# Quest: Quest Details
+# Rewards: Reward Details
+# Tasks: Task Details
+
+
+---
+- id: Game
+  title: Title of the Game
+  description: Description of the Game
+  objectives:
+    - objective1
+    - objective2
+  characters:
+    - Character Name 
+  quest:
+    - quest_name
+      task_details:
+        location: location_of_task_location
+        objective: objective_of_the_task
+      reward: reward_amount
+  rewards:
+    - reward1
+    - reward2
+  tasks:
+    - task_description
+      location: location_of_task_location
+      objective: objective_of_the_task
+      order: order_of_tasks
+```
+

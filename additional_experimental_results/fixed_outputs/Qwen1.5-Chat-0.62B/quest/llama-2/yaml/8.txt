@@ -1,0 +1,55 @@
+Here's the corrected YAML data with new values:
+```
+game:
+  description: "This is a quest"
+  id: 1
+  objective: "Kill the dragon"
+  quest_giver: "The king"
+  reward: "Gold"
+  tasks:
+   - description: " Kill the dragon"
+    location: "The forest"
+    objective: "Kill the dragon"
+    order: 1
+   - description: "Find the dragon"
+    location: "The cave"
+    objective: "Find the dragon"
+    order: 2
+   - description: "Talk to the dragon"
+    location: "The mountain"
+    objective: "Talk to the dragon"
+    order: 3
+  title: "Dragon slayer" # Added 'title'
+```
+**Explanation**
+
+- `id: 1`: A unique identifier for each quest.
+- `objective: "Kill the dragon"`: The specific objective of the quest.
+- `quest_giver: "The king"`: The person who will complete the quest.
+- `reward: "Gold"`: The reward that the quest will give to the winner.
+- `tasks`: A list of tasks that the user will have to complete in order to complete the quest. Each task has a location, objective, and order.
+
+**Output**
+
+```
+game:
+  description: "This is a quest"
+  id: 1
+  objective: "Kill the dragon"
+  quest_giver: "The king"
+  reward: "Gold"
+  tasks:
+   - description: " Kill the dragon"
+    location: "The forest"
+    objective: "Kill the dragon"
+    order: 1
+   - description: "Find the dragon"
+    location: "The cave"
+    objective: "Find the dragon"
+    order: 2
+   - description: "Talk to the dragon"
+    location: "The mountain"
+    objective: "Talk to the dragon"
+    order: 3
+  title: "Dragon slayer" # Added 'title'
+```

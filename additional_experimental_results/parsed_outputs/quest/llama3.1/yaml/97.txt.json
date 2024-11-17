@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the lost artifact from the ancient ruins on the other side of the forest.",
+    "id": "Q001",
+    "objective": "Retrieve the Starlight Crystal, a powerful artifact that has been lost for centuries.",
+    "quest_giver": "Eriol, the village elder",
+    "reward": "100 gold coins and the gratitude of the villagers",
+    "tasks": [
+      {
+        "description": "Explore the ancient ruins and search for any clues about the Starlight Crystal's location.",
+        "location": "The Ancient Ruins (marked on your map)",
+        "objective": "Find a hint about the crystal's whereabouts",
+        "order": 1
+      },
+      {
+        "description": "Speak to the forest spirit, who is said to possess knowledge of the crystal's location.",
+        "location": "The Heart Tree in the center of the forest",
+        "objective": "Get information from the forest spirit",
+        "order": 2
+      },
+      {
+        "description": "Return to Eriol with the Starlight Crystal and claim your reward.",
+        "location": "Village square",
+        "objective": "Hand over the crystal",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact"
+  }
+}

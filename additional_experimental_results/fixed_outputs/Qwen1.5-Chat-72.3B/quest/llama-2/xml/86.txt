@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the forgotten temple.</objective>
+	<description>You've heard rumors of a lost artifact hidden within an abandoned temple deep in the jungle. Your quest is to navigate through treacherous terrain, solve puzzles, and overcome challenges to find and bring back the artifact.</description>
+	<reward>1000 gold coins and legendary称号</reward>
+	<quest-giver>Guru of Ancient Knowledge</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the forgotten temple</objective>
+			<description>You must explore the jungle and discover the hidden entrance among the ruins.</description>
+			<location>Jungle Ruins</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the riddle at the temple's gate</objective>
+			<description>A riddle guards the entrance, and you must answer it correctly to proceed.</description>
+			<location>Temple Gates</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the key to the artifact chamber</objective>
+			<description>The key is hidden somewhere within the temple. Search carefully and avoid traps.</description>
+			<location>Temple Interior</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the ancient artifact</objective>
+			<description>Once you have the key, enter the artifact chamber and claim the lost treasure.</description>
+			<location>Artifact Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

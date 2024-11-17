@@ -1,0 +1,17 @@
+All the provided examples seem to have correct syntax. However, if you want to remove the potential issue with the single quote (`'`) that was mentioned in the error message and replace it with a double quote (`"`), you can do so for string values. Here's the corrected YAML data:
+
+```yaml
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+I've made the changes to the strings only, as other values don't require quotes. If there were no issues with single quotes in your original examples and you just need a formatted version with double quotes, this is it. If not, the original data is correct too.

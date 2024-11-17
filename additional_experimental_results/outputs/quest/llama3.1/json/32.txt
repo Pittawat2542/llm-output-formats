@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "q001",
+        "title": "The Missing Heirloom",
+        "objective": "Find the lost family heirloom, a golden locket.",
+        "description": "Lady Harcourt's favorite golden locket has gone missing. She believes it was stolen during last night's dinner party. You must find the thief and return the locket to its rightful owner.",
+        "reward": "100 gold coins and Lady Harcourt's gratitude",
+        "quest_giver": "Lady Harcourt",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Investigate the dinner party guests",
+                "description": "Talk to the guests who attended last night's dinner party to see if they noticed anything suspicious.",
+                "location": "The Grand Manor, guest rooms"
+            },
+            {
+                "order": 2,
+                "objective": "Search the manor for clues",
+                "description": "Search the manor from top to bottom for any signs of the locket's whereabouts.",
+                "location": "The Grand Manor, ground floor and attic"
+            },
+            {
+                "order": 3,
+                "objective": "Confront the thief",
+                "description": "Once you have gathered enough information, confront the guest you believe is responsible for stealing the locket.",
+                "location": "The Grand Manor, garden"
+            }
+        ]
+    }
+}
+```

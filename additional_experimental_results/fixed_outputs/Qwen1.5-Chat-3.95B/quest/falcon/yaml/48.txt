@@ -1,0 +1,26 @@
+```yaml
+# Markdown code block
+# Use YAML block syntax without the `# `
+#  for YAML. YAML.
+My Quest
+- title: My Quest
+  description: | {
+     * *This is an example of YAML formatted text.* **
+    I'm working on creating quests.
+   - I want to do something like this.
+
+   # Tasks
+    do:
+      name: A YAML task name.
+      
+       | A YAML task description.
+       | This task may take some time. * * minutes are a duration of time. * * * hours. * * * * * * * * * * 
+      y: 9 minutes
+    
+     # Tasks
+    do:
+      name: A YAML task name
+    description: This task may take more than 2 hours.
+  
+   | description of work task
+```

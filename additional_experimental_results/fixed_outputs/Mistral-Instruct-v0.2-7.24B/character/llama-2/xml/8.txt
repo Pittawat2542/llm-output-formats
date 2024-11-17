@@ -1,0 +1,157 @@
+<game>
+	<characters>
+		<character>
+			<id>ID_1</id>
+			<first-name>John</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>30</age>
+			<role>Antagonist</role>
+			<background>John was born in a small town, he always felt like an outcast due to his appearance. He grew up to be a bitter and revengeful man.</background>
+			<place-of-birth>Small Town, USA</place-of-birth>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>183</height>
+				<weight>79.5</weight>
+			</physical-appearance>
+		</character>
+		<character>
+			<id>ID_2</id>
+			<first-name>Jane</first-name>
+			<last-name>Doe</last-name>
+			<species>Elf</species>
+			<age>200</age>
+			<role>Protagonist</role>
+			<background>Jane was born in the enchanted forest, she always felt like a part of nature. She grew up to be a wise and kind woman.</background>
+			<place-of-birth>Enchanted Forest</place-of-birth>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>None</hair-color>
+				<height>150</height>
+				<weight>34.2</weight>
+			</physical-appearance>
+		</character>
+	</characters>
+```
+
+Correction:
+### Response:
+<game>
+	<characters>
+		<character>
+			<id>ID_1</id>
+			<first-name>John</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>30</age>
+			<role>Antagonist</role>
+			<background>John was born in a small town, he always felt like an outcast due to his appearance. He grew up to be a bitter and revengeful man.</background>
+			<place-of-birth><city>Small Town, USA</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>183</height>
+				<weight>79.5</weight>
+			</physical-appearance>
+		</character>
+		<character>
+			<id>ID_2</id>
+			<first-name>Jane</first-name>
+			<last-name>Doe</last-name>
+			<species>Elf</species>
+			<age>200</age>
+			<role>Protagonist</role>
+			<background>Jane was born in the enchanted forest, she always felt like a part of nature. She grew up to be a wise and kind woman.</background>
+			<place-of-birth><city>Enchanted Forest</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>None</hair-color>
+				<height>150</height>
+				<weight>34.2</weight>
+			</physical-appearance>
+		</character>
+	</characters>
+### Request:
+#### GET /game/characters
+```
+
+
+Fixed:
+### Response:
+<game>
+	<characters>
+		<character>
+			<id>ID_1</id>
+			<first-name>John</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>30</age>
+			<role>Antagonist</role>
+			<background>John was born in a small town, he always felt like an outcast due to his appearance. He grew up to be a bitter and revengeful man.</background>
+			<place-of-birth><city>Small Town, USA</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>183</height>
+				<weight>79.5</weight>
+			</physical-appearance>
+		</character>
+		<character>
+			<id>ID_2</id>
+			<first-name>Jane</first-name>
+			<last-name>Doe</last-name>
+			<species>Elf</species>
+			<age>200</age>
+			<role>Protagonist</role>
+			<background>Jane was born in the enchanted forest, she always felt like a part of nature. She grew up to be a wise and kind woman.</background>
+			<place-of-birth><city>Enchanted Forest</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>None</hair-color>
+				<height>150</height>
+				<weight>34.2</weight>
+			</physical-appearance>
+		</character>
+	</characters>
+```
+
+Correction:
+### Response:
+<game>
+	<characters>
+		<character>
+			<id>ID_1</id>
+			<first-name>John</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>30</age>
+			<role>Antagonist</role>
+			<background>John was born in a small town, he always felt like an outcast due to his appearance. He grew up to be a bitter and revengeful man.</background>
+			<place-of-birth><city>Small Town, USA</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Blonde</hair-color>
+				<height>183</height>
+				<weight>79.5</weight>
+			</physical-appearance>
+		</character>
+		<character>
+			<id>ID_2</id>
+			<first-name>Jane</first-name>
+			<last-name>Doe</last-name>
+			<species>Elf</species>
+			<age>200</age>
+			<role>Protagonist</role>
+			<background>Jane was born in the enchanted forest, she always felt like a part of nature. She grew up to be a wise and kind woman.</background>
+			<place-of-birth><city>Enchanted Forest</city></place-of-birth>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>None</hair-color>
+				<height>150</height>
+				<weight>34.2</weight>
+			</physical-appearance>
+		</character>
+	</characters>
+### Request:
+#### GET /game/characters

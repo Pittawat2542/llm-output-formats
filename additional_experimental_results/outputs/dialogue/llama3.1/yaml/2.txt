@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: "Hello, I'm on a quest to save the kingdom from the dragon. What shall we do?"
+  - order: 2
+    speaker: Game Master
+    text: "As you enter the dark forest, you notice three paths before you. Which one will you choose?"
+  - order: 3
+    speaker: Player
+    text: "I'll take the path on the left. What do I see?"
+  - order: 4
+    speaker: Game Master
+    text: "You see a clearing with a beautiful castle in the center. But as you approach, a knight blocks your way."
+  - order: 5
+    speaker: Player
+    text: "What does the knight say?"
+  - order: 6
+    speaker: Game Master
+    text: "'Halt, traveler!' the knight exclaims. 'You're not welcome here. Turn back while you still can.'"
+```

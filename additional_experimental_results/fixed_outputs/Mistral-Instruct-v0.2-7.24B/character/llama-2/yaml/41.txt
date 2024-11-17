@@ -1,0 +1,160 @@
+```json
+{
+  "data": {
+    "character": {
+      "age": 20,
+      "background": "The character is a veteran of the war.",
+      "first_name": "John",
+      "id": "0123456789",
+      "last_name": null,
+      "physical_appearance": [
+        {
+          "eye_color": "blue",
+          "hair_color": "blonde",
+          "height": 1.8,
+          "weight": 80
+        }
+      ],
+      "place_of_birth": "New York",
+      "role": "The character is a veteran of the war.",
+      "species": "human"
+    }
+  },
+  "status": 200
+}
+```
+
+### Request:
+```vbnet
+GET /characters/1 HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+User-Agent: PostmanRuntime/7.29.0
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+postman-token: 8d94c8ba-c1a5-4f6e-b7ea-4c38ed69ac01
+```
+### Response:
+```json
+{
+  "data": {
+    "character": {
+      "age": 20,
+      "background": "The character is a veteran of the war.",
+      "first_name": "John",
+      "id": "0123456789",
+      "last_name": null,
+      "physical_appearance": [
+        {
+          "eye_color": "blue",
+          "hair_color": "blonde",
+          "height": 1.8,
+          "weight": 80
+        }
+      ],
+      "place_of_birth": "New York",
+      "role": "The character is a veteran of the war.",
+      "species": "human"
+    }
+  },
+  "status": 200
+}
+```
+### Error:
+```vbnet
+{
+  "errors": [
+    {
+      "message": "last_name field is required",
+      "location": "body",
+      "parameter": "character"
+    }
+  ],
+  "status": 422
+}
+```
+### Request:
+```vbnet
+GET /characters/1 HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+User-Agent: PostmanRuntime/7.29.0
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+postman-token: 8d94c8ba-c1a5-4f6e-b7ea-4c38ed69ac01
+```
+### Error:
+```json
+{
+  "errors": [
+    {
+      "message": "last_name field is required",
+      "location": "body",
+      "parameter": "character"
+    }
+  ],
+  "status": 422
+}
+```
+### Response:
+```json
+{
+  "data": {
+    "character": {
+      "age": 20,
+      "background": "The character is a veteran of the war.",
+      "first_name": "John",
+      "id": "0123456789",
+      "last_name": "Doe",
+      "physical_appearance": [
+        {
+          "eye_color": "blue",
+          "hair_color": "blonde",
+          "height": 1.8,
+          "weight": 80
+        }
+      ],
+      "place_of_birth": "New York",
+      "role": "The character is a veteran of the war.",
+      "species": "human"
+    }
+  },
+  "status": 200
+}
+```
+### Request:
+```vbnet
+GET /characters/1 HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+User-Agent: PostmanRuntime/7.29.0
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+postman-token: 8d94c8ba-c1a5-4f6e-b7ea-4c38ed69ac01
+```
+### Response:
+```json
+{
+  "data": {
+    "character": {
+      "age": 20,
+      "background": "The character is a veteran of the war.",
+      "first_name": "John",
+      "id": "0123456789",
+      "last_name": "Doe",
+      "physical_appearance": [
+        {
+          "eye_color": "blue",
+          "hair_color": "blonde",
+          "height": 1.8,
+          "weight": 80
+        }
+      ],
+      "place_of_birth": "New York",
+      "role": "The character is a veteran of the war.",
+      "species": "human"
+    }
+  },
+  "status": 200
+}
+```

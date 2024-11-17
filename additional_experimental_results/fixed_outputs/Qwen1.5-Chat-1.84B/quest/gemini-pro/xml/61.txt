@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<game>
+	<id>quest-01</id>
+	<title>Missing Artefact</title>
+	<objective>Retrieve the lost artefact from the depths of the ancient ruins.</objective>
+	<description>The Order of the Rose has called upon your aid. A precious artefact, known as the Eye of Serenity, has vanished from their headquarters. Legends speak of a forgotten underground temple where the artefact might lie hidden. Recover it before it falls into the wrong hands.</description>
+	<reward>The Order's gratitude, experience, and a valuable piece of equipment.</reward>
+	<quest-giver>Commander Elara of the Order of the Rose.</quest-giver>
+	<tasks>
+		5 <!-- Task 1 --> <task>
+			<order>1</order>
+			<objective>Locate the hidden entrance to the ancient ruins.</objective>
+			<description>Seek out the ruins of an old civilization, said to be hidden deep within the Shadowwood Forest. There, find the secret passage that leads into the depths of the forgotten temple.</description>
+			<location>Shadowwood Forest.</location>
+		</task> <!-- Task 2 --> <task>
+			<order>2</order>
+			<objective>Navigate the treacherous passageways of the ruins.</objective>
+			<description>Once inside the ruins, proceed with caution. Traps and crumbling structures await those who dare to venture further. Find the path that leads to the chamber where the artefact is said to be kept.</description>
+			<location>Depths of the Ancient Ruins.</location>
+		</task> <!-- Task 3 --> <task>
+			<order>3</order>
+			<objective>Confront the guardian of the lost artefact.</objective>
+			<description>As you approach the chamber, prepare for a confrontation. A formidable guardian, sworn to protect the artefact, stands ready to challenge any who seek to claim it. Engage in battle and prove your worth.</description>
+			<location>Chamber of the Lost Artefact.</location>
+		</task> <!-- Task 4 --> <task>
+			<order>4</order>
+			<objective>Retrieve the Eye of Serenity.</objective>
+			<description>Once the guardian is defeated, locate the Eye of Serenity. It may be cunningly hidden or guarded by intricate mechanisms. Recover it with care and prepare to return to the order.</description>
+			<location>Chamber of the Lost Artefact.</location>
+		</task> <!-- Task 5 --> <task>
+			<order>5</order>
+			<objective>Return the artefact to the Order of the Rose.</objective>
+			<description>With the artefact in your possession, make your way back to the headquarters of the order. Commander Elara awaits your return, eager to receive the recovered treasure and express her gratitude.</description>
+			<location>Order of the Rose Headquarters.</location>
+		</task>
+	</tasks>
+</game>
+
+```

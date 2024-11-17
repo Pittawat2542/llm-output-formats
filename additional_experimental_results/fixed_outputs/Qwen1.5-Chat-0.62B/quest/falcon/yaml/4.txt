@@ -1,0 +1,17 @@
+Here's the corrected YAML data:
+```
+game:
+  description: Quest description
+  id: id
+  objective: Quest objective
+  location: Quest location
+  reward: Quest reward
+  tasks:
+   - description: Task description
+    location: Task location
+    objective: Task objective
+    order: Task order
+    title: Quest title
+```
+
+The syntax is correct and the values are properly defined. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```.

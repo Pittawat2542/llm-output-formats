@@ -1,0 +1,24 @@
+The XML data is correct, and there are no syntax errors or problems.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345678</id>
+	<title>Search for the Lost Artifact</title>
+	 objective>Find and retrieve the Lost Artifact</objective>
+	 description>The king has ordered you to seek out the Lost Artifact, which was stolen from the kingdom's treasury by unknown thieves. The artifact was last seen in the hands of the Thieves Guild operating throughout the kingdom.</description>
+	 reward>5000 Gold pieces and a unique weapon</reward>
+	quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<title>Visit the local tavern to gather information</title>
+	 Objective>Talk to the bartender at the local tavern. He might have heard some rumors about the Thieves Guild's activities.</title>
+	 Objective>Infiltrate the Thieves Guild</objective>
+	 Objective> recover the Lost Artifact</Objective>
+	 Objective>Be careful not to get caught!</title>
+	任务>
+		<title>Collect information from the local tavern and gather evidence to assist in finding the Lost Artifact</title>
+	 Objective>Talk to the bartender about the location of the Thieves Guild's hideout.</title>
+	 Objective>Return the lost artifact to the King's possession</Objective>
+	 Objective>Find a way to secure the lost artifact</objective>
+	 Objective>Explain the loss of the Lost Artifact and how it relates to the king's desire to find it.</title>
+</game>
+```

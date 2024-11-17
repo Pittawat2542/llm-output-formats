@@ -1,0 +1,19 @@
+Here's the corrected YAML data:
+```
+# Output formatting
+| column |
+| __init__ | 
+| name | John Doe
+| age | 30
+| first_name | John
+| last_name | Doe
+| physical_appearance: 
+      eye_color: blue # or any other valid values
+      hair_color: brown # or any other valid values
+      height: 5.10 # or any valid height option
+      weight: 200 # or any valid weight option
+    place_of_birth: Seattle, WA # specify location
+    role:
+        profession: Game Developer
+    species: Human # or any other valid species
+```

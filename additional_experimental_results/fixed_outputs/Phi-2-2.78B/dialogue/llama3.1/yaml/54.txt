@@ -1,0 +1,38 @@
+
+- order: dialogue order
+  speaker: Speaker
+  text: 
+    What brings you to this land?
+- order: dialogue order
+  speaker: NPC
+  text: 
+    Ah, a brave adventurer! I have been expecting you. The dark sorcerer has stolen our kingdom's treasure and imprisoned the king.
+- order: dialogue order
+  speaker: Player
+  text: 
+    Where can I find this dark sorcerer?
+- order: dialogue order
+  speaker: NPC
+  text: 
+    The dark sorcerer resides in a foreboding castle to the north. But be warned, it is said that his minions roam the land and will not hesitate to attack any who dare approach.
+```
+
+Solution 5:
+```python
+import yaml
+from ruamel.yaml import YAML
+
+# Load YAML data from file
+with open("example_data.yml") as f:
+    data = f.read()
+
+# Create instance of YAML object
+yaml = YAML(typ="safe", pure=True)
+
+# Convert YAML string to dictionary
+dictionary = yaml.load(data)
+
+# Print dictionary
+print(dictionary)
+```
+

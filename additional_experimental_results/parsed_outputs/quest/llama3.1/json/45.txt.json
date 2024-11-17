@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "quest-001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom from the clutches of the nefarious thief, Blackbeak.",
+    "description": "Your grandmother's priceless necklace has been pilfered by the cunning thief. She needs it back for her 50th anniversary celebration. Bring it back to her.",
+    "reward": "100 gold coins and a boost in reputation",
+    "quest_giver": "Grandma Agnes",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Inquire about Blackbeak's whereabouts",
+        "description": "Speak to the local tavernkeeper, who might have heard rumors of Blackbeak's hideout.",
+        "location": "The Rusty Goblet Tavern"
+      },
+      {
+        "order": "2",
+        "objective": "Track down Blackbeak's lair",
+        "description": "Follow the trail of clues left behind by Blackbeak to reach his secret hideout.",
+        "location": "Old Windmill on the outskirts of town"
+      },
+      {
+        "order": "3",
+        "objective": "Steal back the heirloom",
+        "description": "Disguise yourself as a noble and infiltrate Blackbeak's lair to retrieve the stolen necklace.",
+        "location": "Blackbeak's Secret Lair (Inside the old windmill)"
+      },
+      {
+        "order": "4",
+        "objective": "Return the heirloom to Grandma Agnes",
+        "description": "Bring the necklace back to your grandmother and receive your reward.",
+        "location": "Grandma Agnes' House"
+      }
+    ]
+  }
+}

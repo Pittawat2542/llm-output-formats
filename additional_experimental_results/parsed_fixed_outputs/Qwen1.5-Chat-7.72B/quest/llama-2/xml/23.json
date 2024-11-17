@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "NewQuestTitle",
+    "objective": "Complete objectives for the treasure hunt",
+    "description": "A journey to find a lost artifact",
+    "reward": "Gold coins and a rare artifact",
+    "quest-giver": "Local Guide",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Follow the map to the first stone marker",
+        "description": "Look for the big oak tree on the left side of the river",
+        "location": "Southwest corner of the village"
+      }
+    }
+  }
+}

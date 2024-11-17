@@ -1,0 +1,26 @@
+
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>
+		<name>quest giver name</name>
+		<location>quest giver location</location>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation:
+
+We need to add the missing 'name' and 'location' elements inside the 'quest-giver' tag, as it is an empty tag currently. We also provide new values for them if needed.

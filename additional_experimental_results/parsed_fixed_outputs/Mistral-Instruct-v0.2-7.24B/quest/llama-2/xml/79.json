@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure in Elvenwood Forest.",
+    "description": "The ancient map leads to a fortune beyond imagination. But beware, the forest is guarded by elven sentinels who will not let you pass without a challenge.",
+    "reward": "Gold: 500, Experience: 100",
+    "quest-giver": "Gildor Inglorion, Elrond's Herald",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to Gildor Inglorion in Rivendell.",
+          "description": "Find Gildor Inglorion in Rivendell and listen carefully to his instructions.",
+          "location": "Rivendell"
+        },
+        {
+          "order": "2",
+          "objective": "Find the Old Elven Map.",
+          "description": "Search for the Old Elven Map in Rivendell Library.",
+          "location": "Rivendell Library"
+        },
+        {
+          "order": "3",
+          "objective": "Deliver the map to Gildor Inglorion.",
+          "description": "Return to Gildor Inglorion with the Old Elven Map and receive further instructions.",
+          "location": "Rivendell"
+        },
+        {
+          "order": "4",
+          "objective": "Find the Treasure Chest in Elvenwood Forest.",
+          "description": "Follow the clues on the map to find the treasure chest in Elvenwood Forest.",
+          "location": "Elvenwood Forest"
+        }
+      ]
+    }
+  }
+}

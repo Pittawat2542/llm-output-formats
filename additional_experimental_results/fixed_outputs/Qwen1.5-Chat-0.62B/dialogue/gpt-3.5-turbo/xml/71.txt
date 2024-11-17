@@ -1,0 +1,31 @@
+XML data fixed:
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				speaker>Speaker name</speaker>
+				text>dialogue or narration</text>
+			-dialogue>
+				<order>2</order>
+				Speaker>NPC</speaker>
+				text>I'm good, thanks for asking. How about you?</text>
+			 Dialogue>
+				<order>3</order>
+				 Speaker>Player</speaker>
+				text>I'm doing great too.</text>
+			Dialogue>
+				<order>4</order>
+				Speaker>NPC</ speaker>
+				text"That's wonderful to hear!</text>
+			 Dialogue>
+			<dialogue>
+				<order>1</order>
+				 Speaker>Player</speaker>
+				text>Hello, how are you doing?</text>
+			</dialogue>
+	</dialogues>
+</game>
+```
+The `Order` element is missing in the second dialogue. The correct syntax should be `order` as it should be used to indicate the order of the dialogues.

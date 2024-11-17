@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quests: Unraveling the Mystery",
+    "objective": "Uncover your lost identity's origins",
+    "description": "You received a cryptic message about a crucial event from a mysterious figure. Your quest is to find this figure and unravel their clue.",
+    "reward": "100 gold coins",
+    "quest-giver": "Old Sage at the Forest\u8fb9\u7f18",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Find the ancient oak tree by the river",
+          "description": "Follow the markers left by the sage.",
+          "location": "Northwest of the village"
+        },
+        {
+          "@order": "2",
+          "objective": "Collect 3 enchanted mushrooms at night",
+          "description": "Watch for glowing patches in the forest.",
+          "location": "\u6771\u5357\u65b9\u5c71\u811a"
+        }
+      ]
+    }
+  }
+}

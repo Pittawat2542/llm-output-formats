@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game xmlns="https://example.com/game">
+    <id>1</id>
+    <title>Example Quest Title</title>
+    <objective>Example quest objective</objective>
+    <description>Example quest description</description>
+    <reward>Example quest reward</reward>
+    <quest-giver>Example Character Name</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete Example Task</objective>
+            <description>Follow the marker at the forest edge</description>
+            <location>Forest边缘</location>
+        </task>
+    </tasks>
+</game>
+```

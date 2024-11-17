@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <enemy>
+        <id>1</id>
+        <name>Enemy 1</name>
+        <description>Description 1</description>
+        <stats>
+            <hp>100</hp>
+            <mp>100</mp>
+            <atk>100</atk>
+            <def>100</def>
+            <spd>100</spd>
+        </stats>
+    </enemy>
+</game>
+```
+I've fixed the syntax by adding an `encoding="UTF-8"` attribute to the XML declaration, removed the extra `</stats>` closing tag, and adjusted the indentation for better readability. Now it is a valid XML document.

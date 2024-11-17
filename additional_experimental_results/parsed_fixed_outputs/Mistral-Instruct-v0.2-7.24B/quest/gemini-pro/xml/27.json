@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Find the Lost Treasure",
+    "objective": "Find the lost treasure of the ancient Aztecs.",
+    "description": "The lost treasure of the ancient Aztecs is said to be hidden in a secret location in the mountains. You must find it and bring it back to the village.",
+    "reward": "The treasure is worth a lot of gold and jewels.",
+    "quest-giver": "The village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the secret location.",
+          "description": "The entrance to the secret location is hidden in a cave. You must find it and open it.",
+          "location": "The mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardians of the treasure.",
+          "description": "The treasure is protected by powerful guardians. You must defeat them in order to claim it.",
+          "location": "The secret location"
+        },
+        {
+          "order": "3",
+          "objective": "Find the treasure and bring it back to the village.",
+          "description": "Once you have defeated the guardians, you must find the treasure and bring it back to the village.",
+          "location": "The secret location"
+        }
+      ]
+    }
+  }
+}

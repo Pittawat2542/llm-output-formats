@@ -1,0 +1,18 @@
+ YAML error: incorrect_syntax:
+  in "<unicode string>", line 3, column 3:
+     - name: "Alice"       ^ expected <block end>, but found '-'  in "<unicode string>", line 4, column 3:
+       - text: I'm Alice!       ^
+Invalid YAML data. YAML syntax is incorrect. YAML data needs to be corrected and provided with new values. YAML output will not return any value or content. YAML error cannot be resolved without additional information.
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: "John"
+    text: I'm Alice!
+
+- name: "Bob"
+   - text: Hello Bob!
+
+- name: "Charlie"
+   - text: Hi Charles!
+``

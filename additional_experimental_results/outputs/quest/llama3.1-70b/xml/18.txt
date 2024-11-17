@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Explore the ancient temple and retrieve a powerful artifact.</objective>
+	<description>Rumors have been circulating about an ancient temple deep in the jungle, said to contain powerful artifacts from a lost civilization. Your mission is to explore the temple, navigate its deadly traps, and retrieve one of these artifacts for further study.</description>
+	<reward>Experience points: 1000; Gold coins: 500</reward>
+	<quest-giver>Professor Maria Rodriguez</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the temple.</objective>
+			<description>The entrance is said to be hidden behind a waterfall. Be careful of any wildlife and rival treasure hunters.</description>
+			<location>Jungle, near the old ruins.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the temple's first chamber.</objective>
+			<description>This room is filled with deadly traps and puzzles. Solve them to unlock the door to the next chamber.</description>
+			<location>Temple, first chamber.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Rerieve the artifact from the treasure room.</objective>
+			<description>The treasure room is filled with precious artifacts and gold. However, it's also heavily guarded by traps and magical wards.</description>
+			<location>Temple, treasure room.</location>
+		</task>
+	</tasks>
+</game>
+```

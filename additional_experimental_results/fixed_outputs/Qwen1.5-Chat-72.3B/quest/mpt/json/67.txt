@@ -1,0 +1,22 @@
+The original JSON data is an array containing a single object. To fix the issue with key_completeness, we need to remove the square brackets so that the root of the result is a dictionary instead of an array. Here's the corrected JSON:
+
+```json
+{
+     "game": {
+         "id": "id",
+         "title": "quest title",
+         "objective": "quest objective",
+         "description": "quest description",
+         "reward": "quest reward",
+         "quest_giver": "quest giver",
+         "tasks": [
+             {
+                 "order": "task order",
+                 "objective": "task objective",
+                 "description": "task description",
+                 "location": "task location"
+             }
+         ]
+     }
+}
+```

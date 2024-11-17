@@ -1,0 +1,20 @@
+```xml
+<game>
+	<id>1234567890</id>
+	<title>A Quest for the Ultimate Treasure</title>
+	<objective>Find the ultimate treasure</objective>
+	<description>A quest to find the ultimate treasure.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Find the ultimate treasure</objective>
+				<description>Go to the end of the world and get the ultimate treasure.</description>
+				<location>The end of the world</location>
+			</task>
+		</tasks>
+</game>
+```
+
+The issue in the original XML data was that the `</task>` closing tag had a typo (`<\task>` instead of `</task>`) and the `</tasks>` closing tag was missing. I've corrected these errors in the provided fixed XML data.

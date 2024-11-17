@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game>
+	<id id="id">id</id>
+	<first-name first-name="first name">
+		<last-name last-name="last name"
+			inherits from other first names</last-name>
+		<species species="species name">
+		<age exact age or description/>
+			role role-of-the-character>
+			<background background-story>
+				<location location />
+			</background>
+			<place-of-birth place-of-birth>
+			<physical-appearance physical-appearance>
+				<eye-color eye-color>
+					hair-color hair-color
+					height height in float value
+					weight weight in float value
+				<//physical-appearance>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+
+```

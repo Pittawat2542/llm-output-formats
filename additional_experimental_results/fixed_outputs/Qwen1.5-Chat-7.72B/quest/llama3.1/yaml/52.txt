@@ -1,0 +1,23 @@
+```yaml
+game:
+  description: "Explore the abandoned mine and retrieve a valuable mineral sample"
+  id: Q1
+  objective: Retrieve a mineral sample from the abandoned mine
+  quest_giver: "Mayor of Silverbrook"
+  reward: "100 gold pieces and a map leading to a secret underground cave"
+  title: "Abandoned Mine Quest"
+  tasks:
+    - description: "Find the entrance to the abandoned mine in the nearby mountains"
+      location: "North Mountains"
+      objective: "Locate the entrance to the mine"
+      order: 1
+    - description: "Navigate through the treacherous tunnels and avoid dangers"
+      location: "Abandoned Mine Tunnels"
+      objective: "Reach the heart of the mine for the Starstone sample"
+      order: 2
+    - description: "Collect a sample of the rare 'Starstone' mineral from the mine's core"
+      location: "Mine Core Chamber"
+      objective: "Retrieve and prepare for escape"
+      order: 3
+```
+The original YAML was corrected by adding the missing `title` key with a value. The rest of the structure is valid and does not require further changes.

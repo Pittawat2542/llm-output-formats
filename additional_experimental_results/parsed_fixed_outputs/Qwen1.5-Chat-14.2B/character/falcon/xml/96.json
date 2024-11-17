@@ -1,0 +1,48 @@
+{
+  "game": {
+    "character": [
+      {
+        "id": "10",
+        "first-name": "Robert",
+        "last-name": "Hitchcock",
+        "age": "32",
+        "species": "Homo sapiens",
+        "role": "Actor",
+        "background": "Culham, Norfolk",
+        "physical-appearance": {
+          "eye-color": "hazel",
+          "hair-color": "black",
+          "height": {
+            "@units": "metres",
+            "#text": "1.7"
+          },
+          "weight": {
+            "@units": "kilograms",
+            "#text": "63.4"
+          }
+        }
+      },
+      {
+        "id": "9",
+        "first-name": "Emma",
+        "last-name": "Hitchcock",
+        "age": "24",
+        "species": "Homo sapiens",
+        "role": "Assistant",
+        "background": "London, England",
+        "physical-appearance": {
+          "eye-color": "hazel",
+          "hair-color": "black",
+          "height": {
+            "@units": "metres",
+            "#text": "1.7"
+          },
+          "weight": {
+            "@units": "kilograms",
+            "#text": "63.4"
+          }
+        }
+      }
+    ]
+  }
+}

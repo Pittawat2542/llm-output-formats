@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "G001",
+        "title": "The Lost Temple",
+        "objective": "Retrieve the ancient artifact from the lost temple.",
+        "description": "The local village has been plagued by a series of mysterious disappearances. The villagers believe that the lost temple, hidden deep in the jungle, holds the key to their problem. Your quest is to retrieve the ancient artifact and put an end to the evil that lurks within.",
+        "reward": "2000 gold pieces and the gratitude of the village",
+        "quest_giver": "Gorvoth, the village elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Navigate through the jungle and find the entrance to the lost temple",
+                "description": "Make your way through the dense foliage and avoid any hostile creatures. Once you reach the entrance, a massive stone door with intricate carvings will block your path.",
+                "location": "Jungle of Wonders"
+            },
+            {
+                "order": 2,
+                "objective": "Solve the ancient puzzle to open the stone door",
+                "description": "Study the carvings on the door and find the correct sequence to open it. The villagers have provided you with a cryptic poem that may hold the key.",
+                "location": "Lost Temple Entrance"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the ancient artifact from the treasure chamber",
+                "description": "Once inside, navigate through the treacherous traps and puzzles to reach the treasure chamber. The artifact will be protected by a powerful magical seal.",
+                "location": "Treasure Chamber"
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,73 @@
+### Quest Information
+
+| Game | Description | ID | Objective | Quest Giver | Reward | Tasks |
+| --- | --- | --- | --- | --- | --- | --- |
+| game | quest description | id | quest objective | quest giver | quest reward | tasks |
+
+## Quest Information
+| Game | Description | ID | Objective | Quest Giver | Reward | Tasks |
+| --- | --- | --- | --- | --- | --- | --- |
+| game | quest description | id | quest objective | quest giver | quest reward | tasks |
+
+### Fixed Data
+
+Here's the corrected YAML data with new values added:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+
+# Examples
+| Quest Information |
+| --- |
+| game | quest description |
+| id | id |
+| objective | quest objective |
+| quest_giver | quest giver |
+| reward | quest reward |
+| tasks |
+| - description: task description |
+    location: task location |
+    objective: task objective |
+    order: task order |
+  title: quest title |
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+
+# Examples
+| Quest Information |
+| --- |
+| game | quest description |
+| id | id |
+| objective | quest objective |
+| quest_giver | quest giver |
+| reward | quest reward |
+| tasks |
+| - description: task description |
+    location: task location |
+    objective: task objective |
+    order: task order |
+  title: quest title
+
+```

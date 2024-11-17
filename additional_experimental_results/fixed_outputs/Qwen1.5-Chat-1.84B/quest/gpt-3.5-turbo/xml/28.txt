@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<game>
+    <id>1234567890</id>
+    <title>The Lost Treasure</title>
+    <objective>FIND THE hidden treasure</objective>
+    <description>Embark on a thrilling adventure to locate the lost treasure of the ancient kingdom. Solve puzzles, overcome challenges, and navigate through treacherous paths to claim your reward.</description>
+    <reward>100 gold coins</reward>
+    <quest-giver>Captain Redbeard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>FIND THE MAP</objective>
+            <description>Search the secret library in the abandoned castle to find the ancient map leading to the treasure.</description>
+            <location>Abandoned Castle</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>RETRIEVE THE KEY</objective>
+            <description>Journey through the treacherous swamp to retrieve the enchanted key hidden in the heart of the forbidden forest.</description>
+            <location>Forbidden Forest</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>UNLOCK THE GATE</objective>
+            <description>Use the key to unlock the ancient gate guarding the entrance to the underground cavern where the treasure awaits.</description>
+            <location>Underground Cavern</location>
+        </task>
+    </tasks>
+</game>
+```

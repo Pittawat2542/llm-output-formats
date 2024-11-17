@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Save the Princess</title>
+	<objective>Rescue the kidnapped princess from the dragon</objective>
+	<description>The dragon has taken our beloved princess. Travel through treacherous terrains, solve challenging puzzles, and finally, defeat the dragon to save our princess.</description>
+	<reward>Kingdom's Gratitude Shard + 3000 gold coins</reward>
+	<quest-giver>King Leopold</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Old Sword</objective>
+			<description>Search in the Old Forest to find the legendary sword that once defeated a dragon</description>
+			<location>Old Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Shadow Guards</objective>
+			<description>Traverse the Dangerous Mountains and defeat the Shadow Guards protecting the dragon</description>
+			<location>Dangerous Mountains</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Rescue the Princess</objective>
+			<description>Enter the Dragon's Cave, defeat the dragon and rescue the princess</description>
+			<location>Dragon's Cave</location>
+		</task>
+	</tasks>
+</game>
+

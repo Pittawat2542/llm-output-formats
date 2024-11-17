@@ -1,0 +1,41 @@
+The issue with the provided YAML data is that an extra leading zero in the character's `id` value was causing the syntax error. Here is the corrected YAML:
+
+```yaml
+game:
+  character:
+    age: 15
+    background: "She's an orphan from the streets of New York."
+    first_name: "Mary"
+    id: "000000000000000000000000"
+    last_name: "Jones"
+    physical_appearance:
+      - eye_color: "brown"
+        hair_color: "black"
+        height: 5.2
+        weight: 110 lbs
+    place_of_birth: "New York"
+    role: "Sidekick"
+    species: "Human"
+```
+
+The `height` value was also formatted as a float, so I removed the single quote around it.
+
+Here's the YAML in code block format:
+
+```yaml
+game:
+  character:
+    age: 15
+    background: "She's an orphan from the streets of New York."
+    first_name: "Mary"
+    id: "0000000000000000"
+    last_name: "Jones"
+    physical_appearance:
+      - eye_color: brown
+        hair_color: black
+        height: 5.2
+        weight: 110 lbs
+    place_of_birth: "New York"
+    role: "Sidekick"
+    species: Human
+```

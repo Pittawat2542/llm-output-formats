@@ -1,0 +1,33 @@
+The incorrect XML data is missing the `quest-giver` element. The correct code block for the updated XML would look like this:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QST_002</id>
+	<title>The Lost Artifact</title>
+	 Objective: Retrieve the ancient artifact from the forgotten Tomb.</objective>
+	 Description: Archaeologist Dr. Liam has asked you to retrieve a precious artifact from the Cursed Tomb. It won't be easy, as the tomb is filled with traps and undead guardians. Be careful!</description>
+	 Reward: 500 gold pieces and Mystery Scroll
+	 Quest-giver: Dr. Liam
+	 <tasks>
+		 <task>
+			 <order>1</order>
+			 Objective: Travel to the遗忘 Tomb</objective>
+			 Description: Find the exact location of the遗忘 Tomb following the map provided by Dr. Liam.
+			 Location: Northern Forest
+		 </task>
+		 <task>
+			 <order>2</order>
+			 Objective: Overcome the tomb's Challenges</objective>
+			 Description: Overcome various traps and defeat the undead guardians to proceed further into the tomb.
+			 Challenges:面临的 traps include traps that have specific objectives, obstacles that need to be overcome, and enemies that are located within the tomb. Dr. Liam has provided detailed instructions on how to overcome each challenge.
+		 </task>
+		 <task>
+			 <order>3</order>
+			 Objective: Retrieve the Artifact</objective>
+			 Description: The artifact is likely to be placed in a special chamber inside the tomb. Find it and bring it back to Dr. Liam.
+			 Location: An Ancient Chamber
+		 </task>
+		</tasks>
+</game>
+```
+The `quest-giver` element should now appear correctly with the updated values, such as "Dr. Liam".

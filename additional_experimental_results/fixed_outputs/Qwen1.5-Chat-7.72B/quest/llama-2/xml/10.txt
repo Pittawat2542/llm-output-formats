@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete the Temple</objective>
+    <description>Solve the riddle to find the hidden treasure</description>
+    <reward>Gold coins and a rare artifact</reward>
+    <quest-giver>Old Wise Man</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Examine the stone monument</objective>
+            <description>Follow the clues engraved on it</description>
+            <location>East Village Ruins</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,24 @@
+{
+  "game": {
+    "dialogues": {
+      "dialogue": [
+        {
+          "order": "dialogue order",
+          "speaker": "Speaker name 1",
+          "text": "Narration for game 1"
+        },
+        {
+          "order": "dialogue order 2",
+          "speaker": "Speaker name 2",
+          "text": "Dialogue for quest 1"
+        },
+        {
+          "@game": "Game 3",
+          "order": "dialogue order 3",
+          "speaker": "Speaker name 3",
+          "text": "Additional narration for Game 3"
+        }
+      ]
+    }
+  }
+}

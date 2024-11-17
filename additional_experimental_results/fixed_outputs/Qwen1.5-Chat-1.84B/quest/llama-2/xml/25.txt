@@ -1,0 +1,70 @@
+Corrected XML data:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The quest for the magic stone</title>
+	<objective>Find the magic stone</objective>
+	<description>You are on a quest to find the magic stone</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<trick>
+			<order>1</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the castle</location>
+		</task>
+		<trick>
+			<order>2</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the castle</location>
+		</task>
+		<trick>
+			<order>3</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the forest</location>
+		</task>
+	</tasks>
+</game>
+
+```
+Output in XML format:
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>123456</id>
+	<title>The quest for the magic stone</title>
+	<objective>Find the magic stone</objective>
+	<description>You are on a quest to find the magic stone</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<trick>
+			<order>1</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the castle</location>
+			<reward>100 gold</reward>
+		</task>
+		<trick>
+			<order>2</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the castle</location>
+			<reward>100 gold</reward>
+		</task>
+		<trick>
+			<order>3</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the forest</location>
+			<reward>100 gold</reward>
+		</task>
+	</tasks>
+</game>
+```

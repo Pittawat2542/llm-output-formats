@@ -1,0 +1,21 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure of El Dorado</title>
+	<objective>Find the legendary lost city of gold, El Dorado.</objective>
+	<description>Rumors say that El Dorado is located deep in the Amazon Rainforest. Many have sought its treasure but none have returned. Will you be the one to uncover its secrets?</description>
+	<reward>The Lost Treasure of El Dorado and the respect of your fellow adventurers.</reward>
+	<quest-giver>Old Man Jenkins, the local historian in the town square.</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak with Old Man Jenkins about the legend of El Dorado.</objective>
+			<description>Find Old Man Jenkins in the town square and ask him about the lost city. He may give you some valuable clues or even a map.</description>
+			<location>Town Square</location>
+		</task>
+		<!-- Add more tasks here -->
+	</tasks>
+</game>
+```

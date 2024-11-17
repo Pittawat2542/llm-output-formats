@@ -1,0 +1,85 @@
+Original code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	-objective>Find the hidden treasure of the ancient civilization.</objective>
+	.description>Embark on an epic quest to find the lost treasure of the ancient civilization. Follow the clues and brave the dangers that await you in this exciting adventure.</description>
+	reward>1000 gold coins</ reward>
+	quest-giver>Captain Roberts</quest-giver>
+	/tasks>
+			<task>
+				order>1</order>
+			 Objective>Decode the ancient map</objective>
+				description>Use your knowledge of ancient languages to decode the mysterious map that marks the location of the treasure.</description>
+			地上>The old library in the city</location>
+			-task>
+		</tasks>
+</game>
+
+```
+Corrected code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure of the ancient civilization.</objective>
+	Description>Embark on an epic quest to find the lost treasure of the ancient civilization. Follow the clues and brave the dangers that await you in this exciting adventure.</description>
+	reward>1000 gold coins</ reward>
+	Quest-giver>Captain Roberts</Quest-giver>
+	/tasks>
+			<task>
+				order>1</order>
+			 Objective>Decode the ancient map</objective>
+				description>Use your knowledge of ancient languages to decode the mysterious map that marks the location of the treasure.</description>
+			地上>The old library in the city</location>
+			-task>
+		</tasks>
+</game>
+
+```
+New values for key_completeness: The key 'quest_giver' should be filled in with the correct value.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure of the ancient civilization.</objective>
+	Description>Embark on an epic quest to find the lost treasure of the ancient civilization. Follow the clues and brave the dangers that await you in this exciting adventure.</description>
+	 reward>1000 gold coins</ reward>
+	Quest-giver>Captain Roberts</Quest-giver>
+	/tasks>
+			<task>
+				order>1</order>
+			 Objective>Decode the ancient map</objective>
+				description>Use your knowledge of ancient languages to decode the mysterious map that marks the location of the treasure.</description>
+			地上>The old library in the city</location>
+			-task>
+		</tasks>
+</game>
+
+```
+Code block in Markdown:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure of the ancient civilization.</objective>
+	Description>Embark on an epic quest to find the lost treasure of the ancient civilization. Follow the clues and brave the dangers that await you in this exciting adventure.
+	 reward>1000 gold coins
+	Quest-giver>Captain Roberts
+	/tasks>
+			<task>
+				order>1</order>
+			 Objective>Decode the ancient map</objective>
+				description>Use your knowledge of ancient languages to decode the mysterious map that marks the location of the treasure.
+			地上>The old library in the city
+			-task>
+		</tasks>
+</game>
+
+```
+Original message provided between ```xml and ```:
+```xml
+<p>This is a test message.</p>
+```

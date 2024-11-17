@@ -1,0 +1,74 @@
+```xml
+<game>
+	<enemy>
+			<id> enemy_id</id>
+			name> enemy_name</name>
+			description> enemy_description</description>
+			stats>
+				hp: 100HP
+			/mp: 20MP
+			atk: 3atk
+			(def: 4def)
+			spd: 5csv
+			</stats>
+		</enemy>
+	</game>
+
+```
+New values:
+```xml
+< enemy>
+	<id>id</id>
+	<name>name</name>
+	<description> enemy_description</description>
+		stats>
+			hp: 100HP
+		/mp: 20MP
+		atk: 3atk
+		(def: 4def)
+		spd: 5csv
+			hp: 120HP
+		/mp: 25MP
+		atk: 4atk
+		(def: 6def)
+		 MSPd: 8csv
+	</enemy>
+```
+Output in Markdown format:
+```html
+<game>
+	< enemy>
+		<hp>100 HP</hp>
+		mp>20 MP
+		atk>3atk
+	(def: 4def)
+	OSPd: 5 csv
+	<hp>120 HP</hp>
+	/mp>25 MP
+	atk>4atk
+	(def: 6def)
+	 MSPd: 8 csv
+	</ enemy>
+
+</game>
+
+```
+Output in Markdown format:
+```html
+<game>
+	< enemy>
+		<hp>120 HP</hp>
+		mp>25 MP
+		atk>4atk
+	(def: 6def)
+	OSPd: 5 csv
+	<hp>120HP</hp>
+	/mp>25 MP
+	atk>4atk
+	(def: 6def)
+	 MSPd: 8 csv
+	</ enemy>
+
+</game>
+
+```

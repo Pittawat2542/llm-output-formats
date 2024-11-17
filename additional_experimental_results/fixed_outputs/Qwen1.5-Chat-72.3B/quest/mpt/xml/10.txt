@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that a valuable artifact is buried within an old ruin. Your quest is to locate it and bring it back to the village elder.</description>
+	<reward>1000 gold coins and fame</reward>
+	<quest-giver>Gilthorn the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ruins</objective>
+			<description>Make your way to the abandoned ruin located west of the forest.</description>
+			<location Ruins West of the Forest></location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the ruins</objective>
+			<description>Carefully search the ruins for any clues to the artifact's location.</description>
+			<location>The Heart of the Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian</objective>
+			<description>A powerful guardian protects the artifact. You must overcome it to claim your prize.</description>
+			<location>Guardian's Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

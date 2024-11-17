@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>A powerful temple has been discovered deep in the jungle, and rumors suggest that it holds an ancient relic with immense power. Your mission is to retrieve this relic and bring it back to civilization.</description>
+	<reward>1000 gold, +10 reputation</reward>
+	<quest-giver>Gorvoth, the wise old wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the temple entrance</objective>
+			<description>The temple is hidden deep in the jungle. You must navigate through the dense foliage to reach it.</description>
+			<location>Jungle, 3 miles north of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the ancient puzzle</objective>
+			<description>The temple entrance is blocked by a complex puzzle. You must figure out how to solve it in order to proceed.</description>
+			<location>Temple Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient artifact</objective>
+			<description>The relic is located within the temple. You must navigate through its treacherous traps and puzzles to reach it.</description>
+			<location>Temple Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

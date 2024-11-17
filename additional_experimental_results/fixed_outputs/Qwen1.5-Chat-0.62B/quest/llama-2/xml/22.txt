@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	Objective>Quest Objective</Objective>
+	Description>Quest Description</Description>
+	奖励>Quest Reward</奖励>
+	Recipient>Recipient</Recipient>
+	Objects>
+		<object>
+			<name>Object 1</name>
+			<description>Description of Object 1</description>
+			<location>Location of Object 1</location>
+		</object>
+		<object>
+			<name>Object 2</name>
+			<description>Description of Object 2</description>
+			<location>Location of Object 2</location>
+		</object>
+	</objects>
+</game>
+```

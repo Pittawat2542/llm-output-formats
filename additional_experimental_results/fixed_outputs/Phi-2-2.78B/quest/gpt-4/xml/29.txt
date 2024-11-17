@@ -1,0 +1,80 @@
+
+## Solution: 
+
+#### Step 1: Initialize data structure
+
+First, we will initialize an empty dictionary called `data`. This is where we will store our game information.
+
+```python
+data = {}
+```
+
+#### Step 2: Add game title and objective to the data
+
+Next, we will add the game title and objective as key-value pairs in the data.
+
+```python
+data['title'] = 'Rescue the Lost Princess'
+data['objective'] = 'Save the princess from the haunted castle'
+```
+
+#### Step 3: Add description to the data
+
+We will add a new key-value pair for game description.
+
+```python
+data['description'] = """The King's only daughter, the princess has been captured by the evils that reside in the haunted castle. Rescue her and you shall be greatly rewarded."""
+```
+#### Step 4: Add reward to the data
+
+We will add a new key-value pair for game reward.
+
+```python
+data['reward'] = '500 Gold and Knight Title'
+```
+
+#### Step 5: Add quest giver to the data
+
+Next, we will add a new key-value pair for quest giver.
+
+```python
+data['quest_giver'] = 'King Roland'
+```
+
+#### Step 6: Create tasks and add them to the data
+
+Finally, we will create a list of tasks and add them as key-value pairs in the data. Each task should be represented by another dictionary with keys 'order', 'objective', 'description', and 'location'.
+
+```python
+tasks = [{'order': 1, 'objective': 'Defeat the guards at the castle entrance', 
+          'description': 'Overcome the castle guards who are enchanted by dark magic. Be cautious!',
+          'location': 'Haunted Castle Entrance'},
+         {'order': 2, 'objective': 'Find and Unlock the secret passage', 
+          'description': "A hidden passage leads to the princess's room. Find and open it.",
+          'location': 'Haunted Castle Hallway'},
+         {'order': 3, 'objective': 'Rescue the Princess', 
+          'description': 'Find the princess in her room and escort her safely back to the king.',
+          'location': 'Princess\'s Room in Haunted Castle'}]
+data['tasks'] = tasks
+```
+
+#### Step 7: Convert data to XML format
+
+Now that we have all our game information in the `data` dictionary, we can convert it to XML format and return it.
+
+```python
+xml_data = f"""<?xml version="1.0"?>
+<game>
+	<id>36587</id>
+	{data['title']}
+	<objective>{data['objective']}</objective>
+	{data['description']}
+	<reward>{data['reward']}</reward>
+	<quest-giver>{data['quest_giver']}</quest-giver>
+	<tasks>
+		{'\n'.join([f'''<task order="{i+1}" objective="{task["objective"]}" description="{task["description"]}" location="{task["location"]}" />''' for i, task in enumerate(data['tasks'])])}
+	</tasks>
+</game>"""
+return xml_data
+```
+

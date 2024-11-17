@@ -1,0 +1,73 @@
+The key 'quest_giver' is missing.
+Template: <game>
+	<title>The Lost Crown</title>
+	<objective>Recover the lost crown of the kingdom</objective>
+	<description>In this quest, you must embark on a journey to find the lost crown of the kingdom. The crown was stolen by an evil sorcerer and hidden in a secret location. You must solve puzzles, defeat enemies, and overcome challenges to retrieve the crown and restore peace to the land.</description>
+	<reward>Upon successful completion of the quest, you will be rewarded with the title of "皇家 protector" and a bag of gold coins.</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+			<task>
+				order:1
+			objective:Find the Old Wise Man
+				d Objective: Your first task is to locate the Old Wise Man who knows the whereabouts of the hidden crown. He resides in a cave deep within the enchanted forest. Speak to him and gain his trust to learn more about the crown's location.
+			仙境: Enchanted Forest
+			<task>
+				order:2
+			.objective:Retrieve the Key of Shadows
+				d Objective: In order to unlock the entrance to the secret location, you need the Key of Shadows. This key is kept by a powerful wizard residing in the Tower of Shadows. You must journey to the tower, defeat the wizard, and retrieve the key.
+			仙境: Tower of Shadows
+			<task>
+				order:3
+			.objective:Enter the Hidden Crypt
+				d Objective: With the Key of Shadows in hand, you can now enter the hidden crypt where the crown is believed to be hidden. The crypt is guarded by ancient traps and fierce monsters. Use your wits and skills to overcome these obstacles and reach the chamber where the crown is kept.
+			仙境: Hidden Crypt
+			<task>
+				order:4
+			.objective>Defeat the Evil Sorcerer</objective
+				d Objective: In the final showdown, you must confront the evil sorcerer who stole the crown. He will use dark magic to try and defeat you, but with the crown in your possession, your power will be augmented. Engage in a fierce battle and emerge as the victorious hero.
+			仙境: Tower of Shadows
+			<task>
+				order:5
+			.objective>Defeat the Sorcerer</objective
+				d Objective: The sorcerer uses his dark magic to try to destroy the kingdom, but with the key in your possession, you will be able to defeat him without it.
+			仙境: Kingdom
+			<task>
+				order:6
+			 objective: Rest of the quest: Retrieve the Key of Shadows and defeat the Evil Sorcerer</objective>
+				d Objective: After defeating the sorcerer, you must retrieve the Key of Shadows and use it to defeat the evil sorcerer once again. Once the key is found, you will be able to defeat the sorcerer and restore peace to the land.
+			仙境: Kingdom
+			<task>
+				order:7
+			.objective>Final battle</objective>
+				d Objective: In the final showdown, the kingdom is still locked in its evil ways. You must use your wits and skills to defeat the sorcerer once again and retrieve the Key of Shadows.
+			仙境: Kingdom
+			<task>
+				order:8
+			.objective: Defeat the Sorcerer</objective>
+				d Objective: You have defeated the sorcerer, but the kingdom is still in its evil ways. The key to defeating it will be found in the Hidden Crypt and retrieved by your wits.
+			仙境: Kingdom
+			<task>
+				order:9
+			.objective>Rest of the quest</ objective>
+				d Objective: After defeating the sorcerer, you must rest and recover from your battle. You will be able to return to the Lost Crown of the kingdom.
+			仙境: Lost Crown of the kingdom
+			<task>
+				order:10
+			.objective>Retrieve the Key of Shadows</objective>
+				d Objective: Once you have completed the quest, you must retrieve the Key of Shadows and use it to defeat the evil sorcerer once again. Once the key is found, you will be able to defeat the sorcerer and restore peace to the land.
+			仙境: Kingdom
+			<task>
+				order:11
+			.objective>Final battle</objective>
+				d Objective: In the final showdown, the kingdom is still locked in its evil ways. You must use your wits and skills to defeat the sorcerer once again and retrieve the Key of Shadows.
+			仙境: Kingdom
+			<task>
+				order:12
+			.objective>Defeat the Sorcerer</objective>
+				d Objective: You have defeated the sorcerer, but the kingdom is still in its evil ways. The key to defeating it will be found in the Hidden Crypt and retrieved by your wits.
+			仙境: Kingdom
+			<task>
+				order:13
+			.objective>Rest of the quest</ objective>
+				d Objective: After defeating the sorcerer, you must rest and recover from your battle. You will be able to return to the Lost Crown of the kingdom.
+			仙境: Lost Crown of the kingdom

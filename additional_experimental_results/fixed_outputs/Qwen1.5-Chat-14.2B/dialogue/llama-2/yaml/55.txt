@@ -1,0 +1,9 @@
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+     speaker: speaker name
+     text: dialogue or narration
+```
+
+The issue was that the indentation for `text` key was incorrect, causing a syntax error. I have corrected it by adding two spaces to align with the previous keys in the list.

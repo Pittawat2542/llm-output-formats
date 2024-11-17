@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the ancient artifact</objective>
+    <description>Find the hidden treasure in the forest and deliver it to the village elder.</description>
+    <reward>Gold coins and a rare magical artifact</reward>
+    <quest-giver>Old Smith</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Search for the old map</objective>
+            <description>Follow the clues in the old oak tree near the village entrance</description>
+            <location>Oak Tree, Village Entrance</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,33 @@
+Here is the generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>Q1234</id>
+  <title>The Lost City of Eldarath</title>
+  <objective>Retrieve the ancient artifact from the ruins of Eldarath</objective>
+  <description>Rumors have been circulating about a powerful artifact hidden within the lost city of Eldarath. The artifact is said to grant immense power and knowledge to its possessor. Your quest is to navigate through the treacherous jungle, overcome deadly traps, and retrieve the artifact before it falls into the wrong hands.</description>
+  <reward>500 gold coins, a magical amulet, and a boost in reputation</reward>
+  <quest-giver>Thorgrim Stonebeard, the village elder</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the lost city from local villagers</objective>
+      <description>Speak to the villagers in Oakwood and gather as much information as possible about the location and layout of the lost city.</description>
+      <location>Oakwood Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Navigate through the jungle to reach the ruins of Eldarath</objective>
+      <description>Make your way through the dense jungle, avoiding deadly creatures and obstacles along the way.</description>
+      <location>Eldarath Jungle</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Overcome traps and puzzles to reach the artifact chamber</objective>
+      <description>Solve complex puzzles and overcome deadly traps to reach the chamber where the artifact is hidden.</description>
+      <location>Eldarath Ruins</location>
+    </task>
+  </tasks>
+</game>
+```

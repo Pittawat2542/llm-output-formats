@@ -1,0 +1,27 @@
+Here is a generated quest information in YAML format:
+
+```yaml
+game:
+  description: "Retrieve the legendary Sword of Light from the ancient ruins of Eldarath, said to be able to vanquish any darkness."
+  id: QST001
+  objective: Retrieve the Sword of Light
+  quest_giver: High Priestess Elara
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item: "Sword of Light (Legendary)"
+  tasks:
+  - description: "Gather information about the ancient ruins from the village elder."
+    location: Village of Brindlemark
+    objective: Gather information
+    order: 1
+  - description: "Explore the ancient ruins and find the entrance to the sword's resting place."
+    location: Ancient Ruins of Eldarath
+    objective: Find the entrance
+    order: 2
+  - description: "Solve the puzzles and trials to reach the Sword of Light."
+    location: Inner Sanctum of Eldarath
+    objective: Solve the puzzles and trials
+    order: 3
+  title: "The Quest for the Sword of Light"
+```

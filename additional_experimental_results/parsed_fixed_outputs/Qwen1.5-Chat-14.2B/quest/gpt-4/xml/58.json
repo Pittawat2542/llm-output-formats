@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact",
+    "description": "The ancient artifact has been stolen from the museum. It's your job to find and return it.",
+    "reward": "5000 gold coins and a powerful magical ring",
+    "quest-giver": "Professor Archibald",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the museum",
+          "description": "Go to the museum and gather as many clues as you can about the theft.",
+          "location": "Grand Museum"
+        },
+        {
+          "order": "2",
+          "objective": "Find the bandits' hideout",
+          "description": "Follow the clues to locate the bandits' hideout where the artifact might be kept.",
+          "location": "Darkwood Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact",
+          "description": "Confront the bandits and retrieve the stolen artifact.",
+          "location": "Bandit Hideout"
+        }
+      ]
+    }
+  }
+}

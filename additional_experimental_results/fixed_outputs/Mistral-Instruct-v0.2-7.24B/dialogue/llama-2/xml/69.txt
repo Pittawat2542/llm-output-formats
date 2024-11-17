@@ -1,0 +1,102 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello there, I'm new to this game.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC1</speaker>
+			<text>Welcome traveler! What brings you here?</text>
+		</dialogue>
+		<dialogue order="3">
+			<speaker>Player</speaker>
+			<text>I heard there are treasures hidden around here.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC1</speaker>
+			<text>Ah, the legendary treasure! I'd be happy to help you find it. Follow me.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+```
+
+---
+
+Error: incorrect_syntax: not well-formed (invalid token): line 9, column 56
+
+Template:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+Original:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello there, I'm new to this game.</text>
+		</dialogue>
+		<dialogue order="2">
+			<speaker>NPC</speaker>
+			<text>Welcome traveler! What brings you here?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I heard there are treasures hidden around here.</text>
+		</dialogue>
+		<dialogue order="4">
+			<speaker>NPC</speaker>
+			<text>Ah, the legendary treasure! I'd be happy to help you find it. Follow me.</text>
+		</dialogue>
+		<dialogue order="5"
+		</dialogue>
+</game>
+```
+
+### Response:
+
+```xml
+Fixed:
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello there, I'm new to this game.</text>
+		</dialogue>
+		<dialogue order="2">
+			<speaker>NPC</speaker>
+			<text>Welcome traveler! What brings you here?</text>
+		</dialogue>
+		<dialogue order="3">
+			<speaker>Player</speaker>
+			<text>I heard there are treasures hidden around here.</text>
+		</dialogue>
+		<dialogue order="4">
+			<speaker>NPC</speaker>
+			<text>Ah, the legendary treasure! I'd be happy to help you find it. Follow me.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

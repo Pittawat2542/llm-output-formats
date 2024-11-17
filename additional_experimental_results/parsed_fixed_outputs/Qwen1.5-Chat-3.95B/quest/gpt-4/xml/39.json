@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Artifacts",
+    "Objective": "Find and return all the lost artifacts.",
+    "Description": "You are tasked to find all the lost artifacts of the once powerful kingdom that had been lost in time. These artifacts hold immense power and their recovery is crucial.",
+    "Reward": "500 Gold, +50 XP, and a Sacred Amulet",
+    "Quest-Giver": "Ancient Keeper",
+    "Tasks": {
+      "Task": [
+        {
+          "Order": "1",
+          "Objective": "Find the Ancient Sword.",
+          "Description": "Travel to Earth's Scion, a land where an ancient sword awaits.",
+          "Location": "Earth's Scion"
+        },
+        {
+          "Order": "2",
+          "Objective": "Retrieve the Mystic Shield.",
+          "Description": "Brave the deadly abyss of Abyssal Expanse to retrieve the Mystic Shield.",
+          "Location": "Abyssal Expanse"
+        }
+      ]
+    }
+  }
+}

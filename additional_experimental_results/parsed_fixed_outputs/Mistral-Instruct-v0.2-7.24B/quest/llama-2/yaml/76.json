@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The quest is about the game",
+    "id": 1,
+    "objective": "Find the treasure",
+    "quest_giver": "The king",
+    "reward": "The treasure",
+    "tasks": [
+      {
+        "description": "Find the treasure",
+        "location": "In the castle",
+        "objective": "Find the treasure",
+        "order": 1
+      },
+      {
+        "description": "Find the first part of the treasure\n",
+        "location": "In the castle",
+        "objective": "Find the first part of the treasure",
+        "order": 2
+      },
+      {
+        "description": "Find the second part of the treasure\n",
+        "location": "In the castle",
+        "objective": "Find the second part of the treasure",
+        "order": 3
+      }
+    ],
+    "title": "The treasure hunt"
+  }
+}

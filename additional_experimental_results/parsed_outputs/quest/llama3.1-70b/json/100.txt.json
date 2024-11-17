@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient artifact hidden within the Lost Temple",
+    "description": "Legend has it that the Lost Temple holds the secrets of a long-lost civilization. The artifact is said to grant immense power and wisdom.",
+    "reward": "1000 gold, +10 reputation with the Archaeologists' Guild",
+    "quest_giver": "Professor Elara, renowned archaeologist",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the Lost Temple's location",
+        "description": "Speak to the locals and gather rumors about the temple's whereabouts.",
+        "location": "Willowdale Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map of the temple's layout",
+        "description": "Infiltrate the rival treasure hunter's camp and steal their map.",
+        "location": "Riverview Campsite"
+      },
+      {
+        "order": 3,
+        "objective": "Unlock the temple's entrance",
+        "description": "Solve a series of ancient puzzles to unlock the temple door.",
+        "location": "Lost Temple Entrance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Sword of Light",
+    "objective": "Retrieve the lost sword from the ancient ruins and bring it back to the village elder.",
+    "description": "The village elder has asked for your help in retrieving a powerful sword that was lost during a previous expedition. The sword is said to be hidden deep within the ancient ruins, guarded by traps and fearsome creatures.",
+    "reward": "200 gold coins, 10 experience points",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate the ancient ruins and find the entrance to the sword's chamber.",
+          "description": "The entrance to the sword's chamber is hidden behind a secret door. You will need to use your wits to figure out how to open it.",
+          "location": "Ancient Ruins: Entrance Hall"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the pressure plate puzzle to unlock the door to the sword's chamber.",
+          "description": "The pressure plates are triggered by stepping on them in a specific sequence. You will need to observe the symbols etched into the walls and figure out the correct sequence.",
+          "location": "Ancient Ruins: Sword Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the lost sword from its pedestal and bring it back to the village elder.",
+          "description": "The sword is enchanted with magical properties that will aid you in your future endeavors. Be careful not to trigger any traps while retrieving the sword.",
+          "location": "Ancient Ruins: Sword Chamber"
+        }
+      ]
+    }
+  }
+}

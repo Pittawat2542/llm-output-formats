@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>Save the Princess</title>
+	<objective>Rescue the princess from the villain's fortress</objective>
+	<description>The princess has been kidnapped by the evil villain and taken to his heavily guarded fortress. Your mission is to infiltrate the fortress, defeat any guards in your way, and rescue the princess</description>
+	<reward>1000 gold coins and the gratitude of the king</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Sneak into the fortress</objective>
+			<description>You must find a way to sneak into the fortress, avoiding the guards and any traps that might be set up</description>
+			<location>The fortress entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guards</objective>
+			<description>Once inside the fortress, you will encounter guards that you must defeat in order to progress further</description>
+			<location>The guard room</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the princess</objective>
+			<description>Navigate through the fortress to locate the princess who will be held captive in a secret chamber</description>
+			<location>The secret chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Escape with the princess</objective>
+			<description>Successfully escape the fortress with the rescued princess, making sure to avoid any pursuing guards or traps</description>
+			<location>The fortress exit</location>
+		</task>
+	</tasks>
+</game>
+```
+

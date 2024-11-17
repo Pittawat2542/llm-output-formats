@@ -1,0 +1,35 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	objective>Quest Objective</objective>
+	description>Quest Description</description>
+	 reward>Quest Reward</reward>
+	quest-giver>Quest giver</quest-giver>
+	<ul>
+		<li><order>Task Order</order></li>
+		<li><objective>Task Objective</objective></li>
+		<li><description>Task Description</description></li>
+		<li><location>Task Location</location></li>
+		<li><reward>Quest Reward</reward></li>
+	</ul>
+</game>
+```
+Output in Markdown format:
+```xml
+<?xml version="1.0" ?>
+<game>
+<title>Quest Title</title>
+objective>Quest Objective</objective>
+description>Quest Description</description>
+ reward>Quest Reward</reward>
+quest-giver>Quest giver</quest-giver>
+<ul>
+	<li><order>Task Order</order></li>
+	<li><objective>Task Objective</objective></li>
+	<li><description>Task Description</description></li>
+	<li><location>Task Location</location></li>
+	<li><reward>Quest Reward</reward></li>
+</ul>
+```
+In the Markdown code block, I have provided the new values for `quest_giver`, `tasks`, and `order`.

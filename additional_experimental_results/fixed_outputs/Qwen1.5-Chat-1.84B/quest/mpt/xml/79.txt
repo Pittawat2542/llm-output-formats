@@ -1,0 +1,70 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+    <id id="id">123456</id>
+    <title>Quest Title</title>
+    <objective questObjective="Complete Quest with All Items">
+        <description>A challenging quest to gather all items and complete it.</description>
+    </objective>
+    <description>Description of the quest.</description>
+    <reward reward="Reward for Completing Quest"></reward>
+    <quest-giver questGiver="Quest giver name">
+        <name>Quest Giver Name</name>
+    </quest-giver>
+    <tasks>
+        <task taskOrder="1">
+            <objective objective="Collect item 1"/>
+            <description>Find and collect item 1.</description>
+            <location location="Item 1 Location"></location>
+        </task>
+        <task taskOrder="2">
+            <objective objective="Collect item 2"/>
+            <description>Find and collect item 2.</description>
+            <location location="Item 2 Location"></location>
+        </task>
+        <!-- Add more tasks as needed -->
+    </tasks>
+</game>
+
+```
+New values:
+- `id`: The game ID (123456)
+- `title`: The quest title
+- `objective`: The objective of the quest, which is "Complete Quest with All Items"
+- `description`: A brief description of the quest
+- `reward`: A reward for completing the quest
+- `quest-giver`: The name and location of the quest giver
+- `tasks`: A list of tasks, including:
+    - Task 1: Collect item 1 (order: 1, objective: Collect item 1, description: Find and collect item 1, location: Item 1 Location)
+    - Task 2: Collect item 2 (order: 2, objective: Collect item 2, description: Find and collect item 2, location: Item 2 Location)
+
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+    <id id="123456">123456</id>
+    <title>Quest Title</title>
+    <objective questObjective="Complete Quest with All Items">
+        <description>A challenging quest to gather all items and complete it.</description>
+    </objective>
+    <description>Description of the quest.</description>
+    <reward reward="Reward for Completing Quest"></reward>
+    <quest-giver questGiver="Quest giver name">
+        <name>Quest Giver Name</name>
+    </quest-giver>
+    <tasks>
+        <task taskOrder="1">
+            <objective objective="Collect item 1"/>
+            <description>Find and collect item 1.</description>
+            <location location="Item 1 Location"></location>
+        </task>
+        <task taskOrder="2">
+            <objective objective="Collect item 2"/>
+            <description>Find and collect item 2.</description>
+            <location location="Item 2 Location"></location>
+        </task>
+        <!-- Add more tasks as needed -->
+    </tasks>
+</game>
+```

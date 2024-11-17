@@ -1,0 +1,37 @@
+{
+  "game": {
+    "description": "Defeat the dark sorcerer Xarath and retrieve the powerful Sceptre of Light.",
+    "id": 1234,
+    "objective": "Defeat Xarath and obtain the sceptre.",
+    "quest_giver": "Eryndor Thorne, the wizard",
+    "reward": {
+      "gold": 1000,
+      "experience": 5000,
+      "items": [
+        "Sceptre of Light",
+        "Ring of Protection"
+      ]
+    },
+    "tasks": [
+      {
+        "description": "Investigate the dark sorcerer's lair and gather information about Xarath's weaknesses.",
+        "location": "The Dark Tower, Xarath's Lair (40.5N, 20.2W)",
+        "objective": "Gather information",
+        "order": 1
+      },
+      {
+        "description": "Defeat Xarath's minions and prepare for the final battle.",
+        "location": "The Dark Tower, Outer Courtyard (40.4N, 20.3W)",
+        "objective": "Prepare for the final battle",
+        "order": 2
+      },
+      {
+        "description": "Engage in combat with Xarath and defeat him using his weaknesses.",
+        "location": "The Dark Tower, Inner Sanctum (40.5N, 20.2W)",
+        "objective": "Defeat Xarath",
+        "order": 3
+      }
+    ],
+    "title": "The Sceptre of Light Quest"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact.",
+    "description": "In a forgotten temple deep in the jungle, an elusive artifact is said to be hidden. Uncover its location and bring it back to the quest giver.",
+    "reward": "1000 gold coins and a legendary weapon blueprint",
+    "quest-giver": "Guru Nadir",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the temple",
+          "description": "You must find the hidden entrance among the dense vegetation. Speak with local villagers for clues.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Decipher the temple's ancient language",
+          "description": "The artifact is guarded by puzzles written in an ancient script. Translate the text to proceed.",
+          "location": "Inner Temple Chamber"
+        }
+      ]
+    }
+  }
+}

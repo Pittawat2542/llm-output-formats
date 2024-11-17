@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Forbidden Temple",
+    "objective": "Solve the mysteries of the ancient temple",
+    "description": "In this quest, you will embark on a journey to explore the forbidden temple. Legends say that the temple holds ancient treasures and powerful artifacts. However, it is also filled with dangerous traps and powerful guardians. Your objective is to solve the mysteries of the temple, overcome the challenges, and retrieve the treasures.",
+    "reward": "Upon completing the quest, you will be rewarded with a legendary weapon and a substantial amount of gold.",
+    "quest-giver": "The Wise Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Entrance of the Temple",
+          "description": "Your first task is to find the hidden entrance of the temple. It is said to be concealed somewhere in the dense jungle. Use your keen observation skills and follow the clues left behind by previous explorers.",
+          "location": "Jungle of Mysteries"
+        },
+        {
+          "order": "2",
+          "objective": "Unlock the Temple Gate",
+          "description": "Once you have found the entrance, your next task is to unlock the ancient gate blocking your way into the main chamber of the temple. Solve the intricate puzzle to reveal the mechanism that opens the gate.",
+          "location": "Main Entrance of the Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Crystal Key",
+          "description": "Inside the temple, you will find the Crystal Key, which is required to unlock the inner chambers where the treasures are held. Beware of the traps and guardians guarding the key. Only the brave and clever can overcome these obstacles.",
+          "location": "Hall of Traps"
+        },
+        {
+          "order": "4",
+          "objective": "Solve the Riddle of the Ancients",
+          "description": "As you reach the inner chambers, you will encounter a cryptic riddle. Solve the riddle to reveal the location of the legendary treasures. The riddle requires you to have extensive knowledge of ancient history and mythology.",
+          "location": "Chamber of Riddles"
+        },
+        {
+          "order": "5",
+          "objective": "Defeat the Guardian Beast",
+          "description": "The final challenge awaits you in the treasure chamber. A powerful Guardian Beast protects the legendary treasures. Use all your combat skills and strategic thinking to defeat the beast and claim the rewards.",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

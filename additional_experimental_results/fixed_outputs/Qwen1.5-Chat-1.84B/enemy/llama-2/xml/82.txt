@@ -1,0 +1,23 @@
+```xml
+<game>
+	<enemy>
+			<id>1</id>
+			<label>Boss</label>
+			<name>Boss</name>
+			<description>Boss</description>
+			<stats>
+				<hp>1000</hp>
+				<mp>1000</mp>
+				<atk>1000</atk>
+				<def>1000</def>
+				<spd>1000</spd>
+			<stats>
+				<hp int value="1000"/>
+				<mp int value="1000"/>
+				<atk int value="1000"/>
+				<def int value="1000"/>
+				<spd int value="1000"/>
+		</stats>
+	</enemy>
+</game>
+```

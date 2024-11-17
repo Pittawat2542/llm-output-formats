@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve a valuable artifact from the lost city of Zerzura.
+  id: Q001
+  objective: Retrieve the Golden Chalice and return it to the Order's headquarters.
+  quest_giver: Rami, the enigmatic archaeologist
+  reward: 1000 gold pieces, +10 reputation with the Order
+  tasks:
+  - description: Explore the ancient ruins of Zerzura
+    location: The Lost City of Zerzura (x=1234, y=-5678)
+    objective: Locate the entrance to the chalice's resting place
+    order: 1
+  - description: Navigate the treacherous Temple of the Moon Goddess
+    location: Temple of the Moon Goddess (x=9012, y=3456)
+    objective: Defeat the temple's guardian and retrieve a key
+    order: 2
+  - description: Solve the puzzle of the Golden Chalice
+    location: The Chamber of the Golden Chalice (x=1234, y=-5678)
+    objective: Acquire the Golden Chalice
+    order: 3
+  title: "The Quest for the Golden Chalice"
+```

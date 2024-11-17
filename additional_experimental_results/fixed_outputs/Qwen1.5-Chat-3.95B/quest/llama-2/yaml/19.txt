@@ -1,0 +1,15 @@
+Invalid YAML data. The syntax and values need to be corrected. Please provide the YAML in Markdown format and only the YAML in the Markdown code block.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```

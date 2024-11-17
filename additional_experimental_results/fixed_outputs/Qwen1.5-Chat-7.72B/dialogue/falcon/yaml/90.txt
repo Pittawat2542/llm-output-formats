@@ -1,0 +1,8 @@
+```yaml
+game:
+  dialogues:
+  - order: dialogue_order
+    speaker: speaker_name
+    text: dialogue_or_narration
+```
+The YAML code block has been corrected. The `-` indicator for a new entry in the list was removed, as each item should be on a separate line with its own key-value pair. Additionally, I combined the two incorrect keys "order" and "order of the conversations" into a single key called "order."

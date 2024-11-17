@@ -1,0 +1,49 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1234</id>
+    <title>The Lost Treasure Quest</title>
+    <objective>Find and return the legendary treasure to Captain Benjamin.</objective>
+    <description>In the jungle's heart, a journey awaits you to uncover the hidden treasure. Your reward: artifacts and a portion of its value.</description>
+    <reward>Ancient artifacts, treasure share, and honor.</reward>
+    <quest-giver>Captain Benjamin</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Meet Captain Benjamin at the Camp</objective>
+            <description>Head to the Treasure Hunter's Camp by the jungle edge.</description>
+            <location>Treasure Hunter's Camp</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Acquire the map at the Hidden Cave</objective>
+            <description>Discover the cave and retrieve the treasure map.</location>
+            <location>Hidden Cave</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Navigate the Jungle's Challenges</objective>
+            <description>Overcome jungle obstacles on your way to the Secret Temple.</location>
+            <location>Jungle</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Uncover the Secret Temple's Secrets</objective>
+            <description>Find and solve temple riddles at the entrance.</location>
+            <location>Secret Temple</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Discover the Treasure in the Temple</objective>
+            <description>Search the temple chambers for the lost treasure.</location>
+            <location>Secret Temple</location>
+        </task>
+        <task>
+            <order>6</order>
+            <objective>Return the Treasure to Captain Benjamin</objective>
+            <description>Deliver the treasure back to the camp.</location>
+            <location>Treasure Hunter's Camp</location>
+        </task>
+    </tasks>
+</game>
+```

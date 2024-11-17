@@ -1,0 +1,41 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact and bring it back to Magdalena</objective>
+	<description>In a small village located deep in the mountains, a powerful artifact has been stolen. The village elder, Magdalena, seeks a brave adventurer to retrieve the artifact and restore peace to the village. The artifact is said to be hidden in a treacherous cave system. Are you up for the challenge?</description>
+	<reward>200 gold coins and a rare legendary item</reward>
+	<quest-giver>
+		<name>Magdalena</name>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the entrance to the cave system</objective>
+			<description>The entrance to the cave system is rumored to be near a tall oak tree. Search the forest for the tree and locate the hidden entrance.</description>
+			<location>Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Survive the traps and monsters in the caves</objective>
+			<description>The cave system is filled with traps, puzzles, and dangerous creatures. Proceed with caution and use your wit and skills to overcome the challenges.</description>
+			<location>Cave System</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Locate the sacred chamber and retrieve the artifact</objective>
+			<description>Deep within the cave system lies the sacred chamber where the artifact is kept. Explore the tunnels and chambers until you find the chamber and retrieve the artifact.</description>
+			<location>Sacred Chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the artifact to Magdalena</objective>
+			<description>Once you have the artifact, make your way back to the village and return it to Magdalena. She will reward you generously for your efforts.</description>
+			<location>Village</location>
+		</task>
+	</tasks>
+</game>
+```
+The 'quest-giver' tag was missing its content, so I added a new tag 'name' with the quest giver's name inside it.

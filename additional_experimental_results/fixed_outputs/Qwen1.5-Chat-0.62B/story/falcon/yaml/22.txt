@@ -1,0 +1,18 @@
+The issue with the YAML data is that there are multiple YAML codes blocks in it. We can fix this by removing one of the YAML codes blocks. Here's the corrected YAML data:
+```
+title:
+  - name: the title
+  - synopsis: game story synopsis
+- title: the title
+  - description: A brief description of the game.
+``` 
+This fixed the issue with the YAML data, and we can now return it in a code block. Here's the updated code:
+```yaml
+title:
+  - name: the title
+  - synopsis: game story synopsis
+- title: the title
+  - description: A brief description of the game.
+```
+
+The output in Markdown format is now "Game Title".

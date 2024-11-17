@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Sword of Justice</title>
+	<objective>Retrive the legendary sword from the ancient ruins.</objective>
+	<description>A powerful sword has been lost for centuries, and its retrieval is crucial to restoring balance to the land. The sword is hidden within an ancient ruin, guarded by treacherous traps and puzzles.</description>
+	<reward>10 experience points, 5 gold coins</reward>
+	<quest-giver>Eryndor Thorne</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the ancient ruin entrance</objective>
+			<description>The ancient ruin lies hidden within a dense jungle. Navigate through the treacherous terrain to reach the entrance.</description>
+			<location>Jungle of Shadows, near the river</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the pressure plate puzzle</objective>
+			<description>A series of pressure plates must be triggered in a specific order to unlock the next chamber. Observe the intricate carvings on the walls for clues.</description>
+			<location>Antechamber of the ancient ruin</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian of the sword</objective>
+			<description>A fearsome creature guards the sword. Defeat it using a combination of stealth and combat skills.</description>
+			<location>Inner sanctum of the ancient ruin</location>
+		</task>
+	</tasks>
+</game>
+```

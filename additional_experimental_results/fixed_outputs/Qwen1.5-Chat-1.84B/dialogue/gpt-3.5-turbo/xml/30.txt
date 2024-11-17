@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue 1</order>
+            <speaker Player</speaker>
+            <text>Hey, how are you?</text>
+        </dialogue>
+        <dialogue>
+            <order>dialogue 2</order>
+            <speaker NPC</speaker>
+            <text>I'm good, thanks for asking. And you?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+New values:
+- `dialogue order` has been changed to `dialogue 1`.
+- `speaker name` has been added to the first dialogue and replaced with `Player`.
+- `dialogue or narration` has been removed from the second dialogue.
+- The number of `<dialogue>` elements in the game now matches the count of `<order>` elements, i.e., there are two dialogue elements.

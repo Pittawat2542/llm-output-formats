@@ -1,0 +1,13 @@
+```yaml
+game:
+  dialogues:
+   - 
+      order: 1
+      speaker: "John"
+      text: Welcome to the game. Have a great time!
+   - 
+      order: 2
+      speaker: "Jane"
+      text: That sounds nice. Have fun with that!
+```
+The issue was an extra set of indented `dialogues` which should be replaced by individual dialogue entries. I've corrected the syntax and provided appropriate order values for each dialogue entry.

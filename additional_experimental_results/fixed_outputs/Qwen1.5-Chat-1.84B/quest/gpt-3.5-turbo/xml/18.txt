@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>67890123456</id>
+	<title>The Lost Sword</title>
+	<objective>Retrieve the legendary sword from the ancient ruins</objective>
+	<description>A long time ago, a powerful sword was hidden in the ancient ruins of a lost civilization. The sword is said to possess immense power, capable of bringing either salvation or destruction to the world. Your task is to find and retrieve the sword before it falls into the wrong hands.</description>
+	<reward>Ancient Sword of Power</reward>
+	<quest-giver>Elder Alistair</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Infiltrate the ancient ruins</objective>
+				"description>The ancient ruins are guarded by various traps and monsters. You must find a way to bypass the obstacles and safely enter the ruins.</description>
+			<location>Ancient Forest</location>
+			<trigger>
+				<description>Enter the locked chamber at the base of the ancient ruins.</description>
+			</trigger>
+			<task>
+				<order>2</order>
+			<objective>Decipher the ancient writings</objective>
+				"description>Inside the ruins, you will come across inscriptions and writings in a forgotten language. Use your knowledge and skills to decipher the writings and uncover clues about the sword's location.</description>
+			<location>Ancient Library</location>
+			<trigger>
+				<description>Find the ancient journal hidden beneath a stone slab inside the library.</description>
+			</trigger>
+			<task>
+				<order>3</order>
+			<objective>Defeat the guardian of the sword</objective>
+				"description>The sword is guarded by a powerful ancient creature, awakened by your presence. Engage in a fierce battle and prove your worth to claim the sword as your own.</description>
+			<location>Chamber of the Ancients</location>
+			<trigger>
+				<description>Use your sword to defeat the guardian and open the door to the chamber containing the sword.</description>
+			</trigger>
+			<task>
+				<order>4</order>
+			<objective>Find the hidden treasure inside the chamber</objective>
+				"description>Inside the chamber, you will find a chest filled with precious gems and coins. Use your skills to open the chest and claim the sword as your reward.</description>
+			<location>Chest of Treasure</location>
+			<trigger>
+				<description>Find the map leading to the location of the ancient ruins.</description>
+			</trigger>
+			<task>
+				<order>5</order>
+			<objective>Make your way back to the starting point and retrieve the sword</objective>
+				"description>Use your knowledge, skills, and cunning to navigate the treacherous terrain and reach the ancient ruins. Return with the sword to retrieve it from Alistair.</description>
+			<location>Final Destination</location>
+			<trigger>
+				<description>Alistair awaits you at the entrance of the chamber, where he will present the sword as a gift.</description>
+			</trigger>
+	</tasks>
+</game>
+```

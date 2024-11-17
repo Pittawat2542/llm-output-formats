@@ -1,0 +1,66 @@
+Here is the corrected XML data:
+```
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 objective>Find the hidden treasure</objective>
+	 description>In the depths of the ancient forest lies a long-lost treasure. Embark on a perilous journey to discover its whereabouts and claim it as your own.</description>
+	 reward>A chest full of gold and precious gems
+	quest-giver>Captain Morgan
+	tasks>
+			<task>
+				<order>1</order>
+			Objective>Obtain the ancient map</objective>
+				Descrition: Search the library in the town for an ancient manuscript that holds the map's location.
+			location: Town Library
+			<task>
+				<order>2</order>
+			 Objective>Retrieve the key to the hidden door</objective>
+				Descrition: Head to the depths of the abandoned dungeon and defeat the guardian to obtain the key.
+				door: Abandoned Dungeon
+			<task>
+				<order>3</order>
+			 Objective>Find the hidden entrance</objective>
+				Descrition: Explore the outskirts of the forest to find the mystical portal that leads to the hidden treasure chamber.
+			当前位置: Forest Outskirts
+			<task>
+				<order>4</order>
+			 Objective>Retrieve the lost treasures</objective>
+				Descrition: Overcome the traps and challenges within the treasure chamber to claim the long-lost treasures.</div>
+	</tasks>
+</game>
+```
+The `<id>` tag has been removed since it is no longer needed. The `<title>` tag now contains the actual title of the game. The `objective` tag specifies the objective that the player will face, and the `description` tag provides a summary of the objective. The `reward` tag represents the reward that the player can claim when they complete the objectives.
+The `quest-giver` tag is now replaced with the `quest-giver` variable which stores the name of the quest giver. The `tasks` tag has been added to provide a list of tasks that the player will have to complete in order to achieve the objectives.
+The corrected code block looks like this:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 objective>Find the hidden treasure</objective>
+	 description>In the depths of the ancient forest lies a long-lost treasure. Embark on a perilous journey to discover its whereabouts and claim it as your own.</description>
+	 reward>A chest full of gold and precious gems
+	quest-giver>Captain Morgan
+	tasks>
+			<task>
+				<order>1</order>
+			 Objective>Obtain the ancient map</objective>
+				Descrition: Search the library in the town for an ancient manuscript that holds the map's location.
+			.location: Town Library
+			<task>
+				<order>2</order>
+			 Objective>Retrieve the key to the hidden door</objective>
+				Descrition: Head to the depths of the abandoned dungeon and defeat the guardian to obtain the key.
+				door: Abandoned Dungeon
+			<task>
+				<order>3</order>
+			 Objective>Find the hidden entrance</objective>
+				Descrition: Explore the outskirts of the forest to find the mystical portal that leads to the hidden treasure chamber.
+			当前位置: Forest Outskirts
+			<task>
+				<order>4</order>
+			 Objective>Retrieve the lost treasures</objective>
+				Descrition: Overcome the traps and challenges within the treasure chamber to claim the long-lost treasures.</div>
+	</tasks>
+</game>
+```

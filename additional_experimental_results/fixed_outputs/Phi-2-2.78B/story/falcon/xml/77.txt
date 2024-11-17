@@ -1,0 +1,23 @@
+
+## XML Data
+
+<game>
+	<title>game title</title>
+	<synopsis>
+		<beginning><![CDATA[introduction]]></beginning>
+		<ending><![CDATA[final]]></ending>
+	</synopsis>
+</game>
+
+
+### Markdown:
+```Markdown
+# XML Data
+
+## Game Data 
+- Title: game title
+- Synopsis: 
+  - Beginning: <![CDATA[introduction]]>
+  - Ending: <![CDATA[final]]>
+```
+

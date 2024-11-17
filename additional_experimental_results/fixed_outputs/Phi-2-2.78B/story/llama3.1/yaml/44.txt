@@ -1,0 +1,45 @@
+ ```yaml
+game:
+  beginning: in a post-apocalyptic world where humans have disappeared
+  ending: in a desolate landscape, players must navigate through to uncover the mysteries behind humanity's extinction
+  synopsis: rise of the robots is a narrative-driven game that explores themes of humanity's impact on the environment and technology. 
+  title: rise of the robots
+```
+
+
+```python
+import yaml
+from typing import Dict, Optional, Union
+
+def fix_yaml(data: str) -> Optional[Union[Dict, str]]:
+    try:
+        output = None
+        parsed_dict = yaml.safe_load(data)
+        for key in parsed_dict:
+            if isinstance(parsed_dict[key], str):
+                parsed_dict[key] += "\n"
+        output = yaml.dump(parsed_dict, default_flow_style=False)
+    except yaml.scanner.ScannerError as e:
+        if "while parsing a block mapping" in str(e):
+            raise ValueError("Incorrect syntax while parsing YAML.")
+        else:
+            output = None
+
+    return output
+
+
+data = """game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: 
+  title:"""
+
+try:
+    fixed_yaml = fix_yaml(data)
+except ValueError as e:
+    print("An error occurred while fixing YAML data.")
+else:
+    if fixed_yaml is not None:
+        print(f"Fixed YAML Data:\n{fixed_yaml}")
+```
+

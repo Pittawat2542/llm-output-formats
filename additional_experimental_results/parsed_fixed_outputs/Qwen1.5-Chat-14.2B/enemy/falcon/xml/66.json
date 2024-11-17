@@ -1,0 +1,54 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "ID1",
+        "name": "Wolverine",
+        "description": "An aggressive and relentless mutant.",
+        "stats": {
+          "hp": "500",
+          "mp": "200",
+          "atk": "100",
+          "def": "80",
+          "spd": "60"
+        }
+      },
+      {
+        "id": "ID2",
+        "name": "Iron Man",
+        "description": "A billionaire industrialist turned superhero.",
+        "stats": {
+          "hp": "700",
+          "mp": "350",
+          "atk": "120",
+          "def": "90",
+          "spd": "100"
+        }
+      },
+      {
+        "id": "ID3",
+        "name": "Green Arrow",
+        "description": "A skilled archer and vigilante.",
+        "stats": {
+          "hp": "650",
+          "mp": "250",
+          "atk": "95",
+          "def": "75",
+          "spd": "80"
+        }
+      },
+      {
+        "id": "ID4",
+        "name": "Captain America",
+        "description": "A super soldier with an unwavering commitment to justice.",
+        "stats": {
+          "hp": "800",
+          "mp": "300",
+          "atk": "110",
+          "def": "95",
+          "spd": "90"
+        }
+      }
+    ]
+  }
+}

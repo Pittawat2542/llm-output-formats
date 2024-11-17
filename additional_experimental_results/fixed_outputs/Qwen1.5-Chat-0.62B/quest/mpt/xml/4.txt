@@ -1,0 +1,40 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 objective="quest objective"
+	 description="quest description"
+	 reward="quest reward"
+	 giver="quest giver"
+	 tasks:
+		 <task>
+			 <order>task order</order>
+			 Objective="objective"
+			 Description="description"
+			 Location="location"
+		 </task>
+		</game>
+</xml>
+```
+
+Output in Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>quest title</title>
+	 objective="quest objective"
+	 description="quest description"
+	 reward="quest reward"
+	 giver="quest giver"
+	 tasks:
+
+		 <task>
+			 <order>task order</order>
+			 Objective="objective"
+			 Description="description"
+			 Location="location"
+		 </task>
+		</game>
+</xml>
+```

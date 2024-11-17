@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "You've heard rumors that the lost artifact is hidden within a forgotten ruin deep in the jungle. Your quest is to find it and bring it back.",
+    "reward": "1000 gold coins and fame",
+    "quest-giver": "Gilbert the Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the ruins",
+          "description": "Talk to villagers and search for any clues that might lead you to the ruins.",
+          "location": "The Village of Eldrin"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the ruins",
+          "description": "Navigate the treacherous jungle and find a way into the ruins.",
+          "location": "Jungle Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Find the artifact",
+          "description": "Explore the ruins and uncover the hidden artifact.",
+          "location": "Ruins Heart Chamber"
+        }
+      ]
+    }
+  }
+}

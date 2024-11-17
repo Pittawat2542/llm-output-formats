@@ -1,0 +1,27 @@
+Here is the correct XML data with all keys and values filled in.
+
+```xml
+<?xml version="1.0" ?>
+<game xmlns="https://example.com/game">
+	<id>2</id>
+	<title>Another Example Quest Title</title>
+	<objective>Another example quest objective</objective>
+	<description>Another example quest description</description>
+	<reward>Another example quest reward</reward>
+	<quest-giver>Example quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Example task objective</objective>
+			<description>Another example task description</description>
+			<location>Example task location</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Task 2 objective</objective>
+			<description>Another example task description</description>
+			<location>Another example task location</location>
+		</task>
+	</tasks>
+</game>
+

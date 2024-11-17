@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Raise the ancient temple of Sel\u00fbne from the depths of the forest and reactivate its magical energies.",
+    "description": "A long-abandoned temple dedicated to the moon goddess Sel\u00fbne lies hidden deep within the Whispering Woods. The once-majestic structure, now reclaimed by nature, holds secrets and treasures beyond imagination. A local druid, Elara Moonwhisper, has had a vision of its resurgence and believes it's time to restore the temple to its former glory.",
+    "reward": "Access to Sel\u00fbne's Blessing: Increased magic resistance; Magical Amulet granting +2 Wisdom (Insight)",
+    "quest-giver": "Elara Moonwhisper",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather three ancient artifacts from the ruins of the old town: The Tome of Luminous Knowledge, Sel\u00fbne's Tear (a pearl), and a piece of the Moonlit Chalice.",
+          "description": "The remnants of an old town on the forest's edge hold crucial artifacts necessary for the temple's revival. Be cautious as other treasure hunters might also be after these relics.",
+          "location": "Ruins of Oakwood Town"
+        },
+        {
+          "order": "2",
+          "objective": "Confront the dark entity corrupting the heart of the Whispering Woods, preventing the temple's revival.",
+          "description": "A malevolent force has taken hold within the forest, poisoning its ancient magic and obstructing the path to the lost temple. Defeat this darkness to pave the way for the temple's rebirth.",
+          "location": "Heart of the Whispering Woods"
+        },
+        {
+          "order": "3",
+          "objective": "Perform a ritual with the gathered artifacts at the ancient site of the Lost Temple of Sel\u00fbne to raise it from its slumber.",
+          "description": "With the forest's corruption lifted and the artifacts in hand, proceed to where the moon shines brightest on a clear night within the Whispering Woods. There lies the site of the forgotten temple. Elara will guide you through the ritual to awaken Sel\u00fbne's ancient power.",
+          "location": "Ancient Temple Site"
+        }
+      ]
+    }
+  }
+}

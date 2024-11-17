@@ -1,0 +1,80 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Dragon's Treasure</title>
+	/objective>Retrieve the Dragon's Treasure</objective>
+	<description>You will set out on a perilous journey to the Dragon's Lair. Your objective is to retrieve the treasure that the Dragon has been hoarding for years. Beware, the Dragon is very protective of its treasure.</description>
+	<reward>5000 Gold and a Dragon Scale Shield</ reward>
+	<quest-giver>Mazog The Wise</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			objective>Reach the Dragon's Lair</objective>
+				<description>Travel through the treacherous mountain pass to reach the Dragon's Lair.</description>
+				color="red"
+			建筑材料="stone"
+			.location="Dragon's Lair, Mount Everest"
+			</task>
+			<task>
+				<order>2</order>
+			 Objective>Retrieve the Dragon's Treasure</objective>
+				<description>Once you have reached the lair, you must retrieve the treasure without waking the dragon.</description>
+			建筑材料="gold"
+			.location="Inside Dragon's Lair"
+			</task>
+			<task>
+				<order>3</order>
+			 Objective>Release the Dragon from his prison</objective>
+				<description>Once the dragon is released, it will return to its hiding place.</description>
+			建筑材料="stone"
+			 location="Dragon's Lair, Mount Everest"
+			</task>
+	</tasks>
+	<Quest-giver>Mazog The Wise</quest-giver>
+	<objects>
+		<object>
+			<name>Key 1: Quest Giver</name>
+			<description>
+				Quest Giver is responsible for providing the quest. To complete the quest, the quest giver must retrieve the quest "Quest Giver".
+			</description>
+		</object>
+	</objects>
+</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Treasure</title>
+	 Objective: Retrieve the Dragon's Treasure</Objective>
+	 Description: You will set out on a perilous journey to the Dragon's Lair. Your objective is to retrieve the treasure that the Dragon has been hoarding for years. Beware, the Dragon is very protective of its treasure.
+	 Reward: 5000 Gold and a Dragon Scale Shield
+	 Quest-giver: Mazog The Wise
+	 Tasks:
+		- Reach the Dragon's Lair
+		- Retrieve the Dragon's Treasure
+		- Release the Dragon from his prison
+</game>
+```
+New values if needed:
+- Quest Giver: Mazog The Wise
+- Rewards: 5000 Gold and a Dragon Scale Shield
+- Quest-giver: Mazog The Wise
+
+Output in Markdown code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Treasure</title>
+	 Objective: Retrieve the Dragon's Treasure
+	 Description: You will set out on a perilous journey to the Dragon's Lair. Your objective is to retrieve the treasure that the Dragon has been hoarding for years. Beware, the Dragon is very protective of its treasure.
+	 Reward: 5000 Gold and a Dragon Scale Shield
+	 Quest-giver: Mazog The Wise
+	 Tasks:
+		- Reach the Dragon's Lair
+		- Retrieve the Dragon's Treasure
+		- Release the Dragon from his prison
+</game>
+```

@@ -1,0 +1,30 @@
+Here's the correct XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<!-- Add new values here -->
+			<!-- Add new values here -->
+			<!-- Add new values here -->
+		</敌>
+	</game>
+```
+
+To add new values to the ` enemies` array, simply add them to the appropriate cell in the XML. You can also remove existing values by removing them from the corresponding cell in the XML.
+
+Here's the updated code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<!-- Add new values here -->
+			<!-- Add new values here -->
+			<!-- Add new values here -->
+		</敌>
+	</game>
+
+```

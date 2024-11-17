@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Sword",
+    "objective": "Find the lost sword and return it to King Arthur",
+    "description": "A powerful sword, said to have the ability to bring great fortune and prosperity, has been lost in the Forest of Shadows. The king, King Arthur himself, has offered a generous reward for its return. Can you find the lost sword and bring it back to him?",
+    "reward": "1000 gold coins",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Meet the wizard in the village",
+          "description": "The wizard in the village possesses knowledge about the location of the lost sword. Go to the village and find the wizard to learn more about the quest.",
+          "location": "Village of Eldor"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the map from the ancient temple",
+          "description": "The wizard tells you that an ancient map, hidden in a temple, holds the key to finding the lost sword. Journey to the temple and retrieve the map.",
+          "location": "Temple of Serenity"
+        },
+        {
+          "order": "3",
+          "objective": "Explore the Forest of Shadows",
+          "description": "Using the map, navigate through the treacherous Forest of Shadows to uncover the location of the lost sword.",
+          "location": "Forest of Shadows"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the guardian monster",
+          "description": "The lost sword is guarded by a fearsome monster. Defeat the monster to claim the sword.",
+          "location": "Monster's Lair"
+        },
+        {
+          "order": "5",
+          "objective": "Return the sword to King Arthur",
+          "description": "Return the lost sword to King Arthur in the royal palace and claim your reward.",
+          "location": "Royal Palace"
+        }
+      ]
+    }
+  }
+}

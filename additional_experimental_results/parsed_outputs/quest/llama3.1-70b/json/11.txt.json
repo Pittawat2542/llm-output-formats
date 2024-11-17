@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QT001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scroll hidden within the lost temple.",
+    "description": "Legend has it that the lost temple holds an ancient scroll containing powerful knowledge. Many have attempted to find it, but none have succeeded. The moon goddess's followers believe you are the chosen one to retrieve this sacred text.",
+    "reward": "A blessing from the moon goddess granting increased mana regeneration and a unique magical staff.",
+    "quest_giver": "High Priestess Elara",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Speak with High Priestess Elara at the Moon Goddess' Sanctuary to learn more about the lost temple's location.",
+        "description": "Meet High Priestess Elara in the grand hall of the sanctuary, where she will reveal a cryptic map and an ancient prophecy pointing towards the lost temple.",
+        "location": "Moon Goddess' Sanctuary"
+      },
+      {
+        "order": 2,
+        "objective": "Decipher the ancient runes etched into the temple's entrance to gain access.",
+        "description": "Examine the temple's exterior to find a series of weathered stones containing an ancient language. Use knowledge or magical skills to decipher the message, unlocking the doors to the lost temple.",
+        "location": "Entrance of the Lost Temple"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate through the deadly traps set within the heart of the temple.",
+        "description": "Braving the booby-trapped halls and chambers, use your wits or specialized skills to overcome obstacles such as poison darts, falling stones, and magical wards.",
+        "location": "Interior Chambers of the Lost Temple"
+      }
+    ]
+  }
+}

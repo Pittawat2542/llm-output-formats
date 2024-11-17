@@ -1,0 +1,67 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    title: quest title
+```
+
+# Input format
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    title: quest title
+``` [
+
+# Input format
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    title: quest title
+```
+
+# Explanation:
+
+The YAML data provided in the input was missing a pair of indentations before the `tasks:` key. Additionally, the tasks list should be written as a mapping with two keys (`title` and an anonymous mapping with the task details).
+
+To fix the issue, we added the required indentations to the `tasks:` key and updated the tasks list to use the expected format.
+```yaml
+# Corrected YAML:
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    title: quest title
+```

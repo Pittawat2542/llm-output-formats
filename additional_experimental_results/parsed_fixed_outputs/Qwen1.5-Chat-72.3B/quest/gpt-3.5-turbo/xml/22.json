@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "In this quest, you will embark on an exciting adventure to find the legendary lost treasure. Many have tried and failed, but it's up to you to uncover its secrets. Are you ready?",
+    "reward": "10,000 gold coins",
+    "quest-giver": "Captain Blackbeard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain a treasure map from the old lighthouse",
+          "description": "Your first task is to navigate your way to the old lighthouse. There, you will find an old sailor who possesses a map that can guide you to the treasure's location.",
+          "location": "The old lighthouse on Blackbeard Island"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the key from the sunken ship",
+          "description": "The second task requires you to dive into the depths of the ocean and locate the sunken ship. Inside, you will find a key that is crucial to unlocking the treasure's chamber.",
+          "location": "The depths of the ocean near Blackbeard Island"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the riddle to enter the treasure's chamber",
+          "description": "Once you have the key, you must decipher a riddle that will grant you access to the treasure's chamber. Use your wit and intellect to solve this ancient puzzle.",
+          "location": "The entrance to the treasure's chamber"
+        }
+      ]
+    }
+  }
+}

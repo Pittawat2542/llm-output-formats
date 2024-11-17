@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Explore the ancient ruins and retrieve the legendary Sword of Light.
+  id: Q001
+  objective: Retrieve the Sword of Light to save the kingdom from darkness.
+  quest_giver: The Wizard Zorvath
+  reward: A magical amulet granting increased strength and agility
+  tasks:
+  - description: Navigate through the treacherous jungle and find the entrance to the ancient ruins.
+    location: The Heart of the Jungle
+    objective: Reach the entrance without triggering any traps or encountering hostile creatures.
+    order: 1
+  - description: Solve the puzzles inside the ancient temple to unlock the door to the sword chamber.
+    location: The Ancient Temple
+    objective: Unlock the door within 30 minutes without using any outside resources.
+    order: 2
+  - description: Defeat the guardian of the Sword of Light in combat.
+    location: The Sword Chamber
+    objective: Defeat the guardian without taking any damage from its attacks.
+    order: 3
+  title: Retrieving the Sword of Light
+```

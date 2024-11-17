@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>456789</id>
+    <title>The Quest for the Golden Star</title>
+    <objective>Find and return the Golden Star to fulfill the prophecy</objective>
+    <description>A mystical journey awaits you to recover the lost star from the celestial mountaintop. Successfully complete this quest and earn the honored title of Guardian of the Stars.</description>
+    <reward>Celestial artifacts and eternal glory</reward>
+    <quest-giver>Star Guide</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Explore the Shimmering Glades</objective>
+            <description>Traverse through the shimmering meadows, avoid magical creatures, and locate the entrance to the Celestial Caves</description>
+            <location>Southwest of the Moonlit Lake</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Capture the Golden Star</objective>
+            <description>Battle the guardian guardians and solve a celestial riddle to obtain the Golden Star</description>
+            <location>Above the Celestial Summit</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to the Quest Giver</objective>
+            <description>Convey your findings to the Star Guide at the Village of Stars</description>
+            <location>The Village of Stars</location>
+        </task>
+    </tasks>
+</game>
+```

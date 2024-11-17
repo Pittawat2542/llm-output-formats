@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Retrieve the ancient map from the lost city and bring it back to the village elder.",
+    "description": "The village elder has received a vision that the ancient map is hidden in the lost city. The map is said to contain information on a powerful artifact.",
+    "reward": "1000 gold, 200 experience points",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the lost city",
+          "description": "The journey will be treacherous, but with your bravery and wit, you should be able to reach the city safely.",
+          "location": "The Jungle of Wonders"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the ancient map from the lost city temple",
+          "description": "Beware of traps and puzzles that guard the temple. You will need all your wits about you to retrieve the map.",
+          "location": "The Temple of the Moon Goddess"
+        },
+        {
+          "order": "3",
+          "objective": "Return to the village elder with the ancient map",
+          "description": "A simple task, but one that must be done carefully. The villagers will be counting on you.",
+          "location": "The Village of Brindlemark"
+        }
+      ]
+    }
+  }
+}

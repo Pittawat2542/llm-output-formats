@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Quest to retrieve a magical artifact for the village elder.",
+    "id": "123456789",
+    "objective": "Retrieve the magical artifact hidden in the ancient ruins.",
+    "quest_giver": "Village elder",
+    "reward": "500 gold coins and a powerful enchanted amulet",
+    "tasks": [
+      {
+        "description": "Find the ancient ruins entrance",
+        "location": "Deep in the enchanted forest",
+        "objective": "Locate the hidden entrance to the ancient ruins",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the maze inside the ruins",
+        "location": "Labyrinth within the ancient ruins",
+        "objective": "Solve puzzles and find the correct path through the maze",
+        "order": 2
+      },
+      {
+        "description": "Defeat the guardian of the artifact",
+        "location": "Inner chamber of the ancient ruins",
+        "objective": "Defeat the formidable guardian and claim the magical artifact",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Ancient Artifact"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The quest to find the lost treasure of the dragon.",
+    "id": 1,
+    "objective": "Find the lost treasure of the dragon.",
+    "quest_giver": "The king",
+    "reward": "A huge amount of gold.",
+    "tasks": [
+      {
+        "description": "Search for clues in the castle.",
+        "location": "The castle",
+        "objective": "Uncover the treasure's whereabouts.",
+        "order": 1
+      },
+      {
+        "description": "Visit the dragon's lair.",
+        "location": "Dragon's Lair",
+        "objective": "Confront the dragon and retrieve the treasure.",
+        "order": 2
+      },
+      {
+        "description": "Deliver the treasure to the king.",
+        "location": "The capital",
+        "objective": "Present the treasure as a symbol of your success.",
+        "order": 3
+      }
+    ],
+    "title": "Quest for the Lost Dragon's Treasure"
+  }
+}

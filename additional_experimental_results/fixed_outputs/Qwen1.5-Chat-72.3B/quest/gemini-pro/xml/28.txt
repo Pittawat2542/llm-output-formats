@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Aquarius's Tears</title>
+	<objective>Retrieve the sacred tears of the water goddess, Aquarius.</objective>
+	<description>The village of Aquaria is in dire need of water. The only hope is to retrieve the sacred tears of Aquarius, the water goddess, from the Fountain of Tears in the Cursed Forest.</description>
+	<reward>A magical rainstorm that will fill the village's reservoir, securing the water supply for generations to come.</reward>
+	<quest-giver>Mayor of Aquaria</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Cursed Forest</objective>
+			<description>The Fountain of Tears is heavily guarded by magical creatures, so be prepared for danger.</description>
+			<location>Edge of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the sacred tears</objective>
+			<description>Find a bowl to collect Aquarius's tears and bring it back carefully. Do not let it touch the ground.</description>
+			<location>Fountain of Tears</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the tears to the mayor</objective>
+			<description>Bring Aquarius's tears to the mayor of Aquaria. They will know best how to restore the village's water supply.</description>
+			<location>Aquaria Village</location>
+		</task>
+	</tasks>
+</game>
+```

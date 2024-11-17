@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "2345",
+    "title": "The Forbidden Temple Quest",
+    "objective": "Retrieve the Amulet of Ancency from the ancient temple.",
+    "description": "A perilous quest awaits you: uncover the secrets of an abandoned temple and obtain the mystical Amulet. Many have tried, but few have returned unscathed.",
+    "reward": "Upon success, the Amulet grants you riches and a high level boost.",
+    "quest-giver": "Valiant Archaeologist",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Detect the temple's location in the ancient scrolls.",
+          "description": "Locate the hidden entrance within the Library of Elders, where the scrolls hold the clues to the temple's whereabouts.",
+          "location": "Library of Elders"
+        },
+        {
+          "@order": "2",
+          "objective": "Overcome the guardian beast in the forest.",
+          "description": "Clear the path by defeating the fierce creature guarding the entrance. It's said to be a powerful draconic wyrm.",
+          "location": "Dragon's Den"
+        },
+        {
+          "@order": "3",
+          "objective": "Enter and navigate the temple's traps.",
+          "description": "Beware the traps that guard the chambers, and uncover their secrets to reach the hidden chamber.",
+          "location": "Temple of Shadows"
+        },
+        {
+          "@order": "4",
+          "objective": "Seize the Amulet from the inner sanctum.",
+          "description": "The Amulet lies at the heart of the temple; defeat the guardian and claim your prize.",
+          "location": "Amulet Chamber"
+        },
+        {
+          "@order": "5",
+          "objective": "Return the Amulet to the archaeologist.",
+          "description": "Deliver the Amulet back to its rightful owner for a well-deserved reward.",
+          "location": "Archaeologist's Workshop"
+        }
+      ]
+    }
+  }
+}

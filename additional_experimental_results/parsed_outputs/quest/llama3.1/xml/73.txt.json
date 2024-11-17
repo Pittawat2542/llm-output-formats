@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Missing Heirloom",
+    "objective": "Find the lost family heirloom, a golden locket.",
+    "description": "It's been passed down through generations, and now it's gone missing. We need someone brave to retrieve it from the old mansion on the hill.",
+    "reward": "100 gold coins and the gratitude of the family",
+    "quest-giver": "Lady Victoria",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search the mansion's main hall for clues.",
+          "description": "Look for any signs of a struggle or hidden compartments. Be careful, the mansion is said to be haunted.",
+          "location": "The old mansion on the hill"
+        },
+        {
+          "order": "2",
+          "objective": "Speak with the butler about the locket's last whereabouts.",
+          "description": "He may have some information about where the locket was seen last. Be polite and respectful, as he is a bit of a stickler for etiquette.",
+          "location": "The mansion's kitchen"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the locket from the hidden room.",
+          "description": "The butler will give you a key to access the hidden room. Inside, you'll find the locket and a note explaining why it was taken.",
+          "location": "The hidden room in the mansion"
+        }
+      ]
+    }
+  }
+}

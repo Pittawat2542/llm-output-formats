@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>id</id>
+        <first-name>First Name</first-name>
+        <last-name>Last Name</last-name>
+        <species>Species</species>
+        <age>Exact Age or Description</age>
+        <role>Role of the Character</role>
+        <background>Background Story</background>
+        <place-of-birth(Location)>location</place-of-birth>
+        <physical-appearance>
+            <eye-color>Eye Color</eye-color>
+            <hair-color>Hair Color</hair-color>
+            <height units="cm">50.0</height>
+            <weight units="kg">70.0</weight>
+        </physical-appearance>
+    </character>
+</game>
+```
+The original XML had incorrect syntax due to the missing closing `>` for the `<physical-appearance>` tag and an extra `/` before the closing `</physical-appearance>`. I've fixed these issues, added attribute quotes to `<place-of-birth>`, specified encoding as UTF-8, and formatted the values with proper capitalization.

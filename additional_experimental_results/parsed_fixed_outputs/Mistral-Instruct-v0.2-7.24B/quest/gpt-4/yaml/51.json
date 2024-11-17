@@ -1,0 +1,33 @@
+{
+  "game": {
+    "description": "Help the villagers of Mystwood recover their lost belongings from the rogue trolls.\n",
+    "id": "Q12345",
+    "objective": "Retrieve the lost belongings of the villagers from the cave of the trolls. Show them that the inhabitants of Mystwood are not to be trifled with.\n",
+    "quest_giver": "Elden",
+    "reward": {
+      "gold": 500,
+      "item": "Mystic Sword of Elden"
+    },
+    "tasks": [
+      {
+        "description": "Explore the forest and find the hidden cave of the trolls.\n",
+        "location": "Duskwood Forest",
+        "objective": "Locate the troll cave.\n",
+        "order": 1
+      },
+      {
+        "description": "Recover the townsfolk's belongings without alerting the trolls.\n",
+        "location": "Troll Cave",
+        "objective": "Retrieve lost items.\n",
+        "order": 2
+      },
+      {
+        "description": "Return to Elden with the recovered belongings.\n",
+        "location": "Mystwood Village",
+        "objective": "Return the items to Elden.\n",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Belongings of Mystwood"
+  }
+}

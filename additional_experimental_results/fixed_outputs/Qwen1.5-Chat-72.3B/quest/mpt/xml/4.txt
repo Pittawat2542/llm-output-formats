@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to its rightful place.</objective>
+	<description>You've heard rumors that the lost artifact is hidden deep within a forgotten temple. Locate it and bring it back to the quest giver.</description>
+	<reward>1000 gold coins and legendary title</reward>
+	<quest-giver>NPC_GuruOfAncients</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the forgotten temple.</objective>
+			<description>A local elder claims to have a map leading to the temple's entrance. Speak with them and obtain the map.</description>
+			<location>Village of Elders</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the temple and find the artifact.</objective>
+			<description>Be cautious, the temple is said to be guarded by ancient traps and mystical creatures.</description>
+			<location>Forgotten Temple</location>
+		</task>
+	</tasks>
+</game>
+```

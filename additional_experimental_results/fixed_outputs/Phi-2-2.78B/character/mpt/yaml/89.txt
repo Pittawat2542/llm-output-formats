@@ -1,0 +1,57 @@
+game:
+  character:
+    age: 23
+   background: I'm an alien from planet Pteros.
+   first_name: Sam
+   id: a32d0c9
+   last_name: Winchester
+   physical_appearance:
+   - eye_color: green
+   - hair_color: blonde
+   - height: 5' 8"
+   - weight: 130
+   place_of_birth: Epping Forest
+   role: Assistant to the Doctor and Amy Pond
+   species: Race of Gallifreyan
+```
+
+## Alternate output
+```markdown
+# Character Name
+Age: 23
+Background: I'm an alien from planet Pteros.
+First Name: Sam
+ID: "a32d0c9"
+Last Name: Winchester
+Physical Appearance:
+- Eye Color: green
+- Hair Color: blonde
+- Height: 5' 8"
+- Weight: 130
+Place of Birth: Epping Forest
+Role: Assistant to the Doctor and Amy Pond
+Species: Race of Gallifreyan
+```
+
+
+### Solution:
+
+game = "I'm an alien from planet Pteros."
+character_name = "Sam"
+age = 23
+background = game
+first_name = character_name
+id = "a32d0c9"
+last_name = "Winchester"
+physical_appearance = [
+    {
+        'eye_color': 'green',
+        'hair_color': 'blonde',
+        'height': 5.8,
+        'weight': 130.5
+    },
+]
+place_of_birth = "Epping Forest"
+role = "Assistant to the Doctor and Amy Pond"
+species = 'Race of Gallifreyan'
+

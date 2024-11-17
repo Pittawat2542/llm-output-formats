@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>Retrieve the Lost Scroll</title>
+	<objective>Reward the village elder with a rare scroll from a long-abandoned ruin.</objective>
+	<description>The village elder has asked for your assistance in retrieving an ancient scroll that is said to be hidden within the ruins of a nearby castle. The scroll contains powerful knowledge and will bring great wisdom to the village.</description>
+	<reward>200 gold, +20 reputation with the village</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the entrance to the castle ruin</objective>
+			<description>The ancient castle lies in ruins, and the entrance is hidden behind a waterfall. You must navigate through the dense forest and find the waterfall.</description>
+			<location>Dense Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Ride through the entrance and into the castle ruin</objective>
+			<description>The entrance is behind a large boulder, hidden by foliage. You must push the boulder to reveal the entrance.</description>
+			<location>Castle Ruin Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find and retrieve the scroll</objective>
+			<description>The scroll is located in a chamber deep within the castle. You must navigate through treacherous traps and puzzles to reach it.</description>
+			<location>Castle Ruin Chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the scroll to the village elder</objective>
+			<description>The village elder awaits your return with the scroll. You must bring it back to them in person.</description>
+			<location>Village Elder's Hut</location>
+		</task>
+	</tasks>
+</game>
+```

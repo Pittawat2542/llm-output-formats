@@ -1,0 +1,62 @@
+Error: key_completeness: The key 'quest_giver' is missing.
+Invalid XML data. Corrected syntax and new values needed.
+```xml
+<?xml version="1.0" xmlns="http://www.w3.org/2019/https-Schema-gaming">
+<game>
+	<id>001</id>
+	<title>The Lost Artifact</title>
+	<objective>Recover the lost artifact of Eldoran</objective>
+	<description>The ancient artifact of Eldoran has been stolen by the dark elves. Your mission is to venture into their territory and recover the artifact.</description>
+	<reward>500 gold coins and a special magic item</reward>
+	<quest-giver>High Priest Eldareth</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>Infiltrate the dark elven tower</objective>
+				<description>You must find a way to infiltrate the guarded tower of the dark elves.</description>
+				<location>Dark Elven Tower</location>
+			<-task>
+			<task>
+				<order>2</order>
+				objective>Recover the artifact</objective>
+				<description>The artifact is located at the top of the tower, guarded by the elf sorceress.</description>
+				<location>Dark Elven Tower top</location>
+		<-task>
+		<task>
+				<order>3</order>
+				objective>Return the artifact to Eldareth</objective>
+				<description>Once you have the artifact, escape the tower and return to Eldarf in the temple.</description>
+				<location>Eldora Temple</location>
+		<-task>
+		<tasks><!-- -->
+<?xml version="1.0" xmlns="http://www.w3.org/2019/https-Schema-gaming">
+<game>
+	<id>001</id>
+	<title>The Lost Artifact</title>
+	<objective>Recover the lost artifact of Eldoran</objective>
+	<description>The ancient artifact of Eldoran has been stolen by the dark elves. Your mission is to venture into their territory and recover the artifact.</description>
+	<reward>500 gold coins and a special magic item</reward>
+	<quest-giver>High Priest Eldareth</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>Infiltrate the dark elven tower</objective>
+				<description>You must find a way to infiltrate the guarded tower of the dark elves.</description>
+				<location>Dark Elven Tower</location>
+			<-task>
+			<task>
+				<order>2</order>
+				objective>Recover the artifact</objective>
+				<description>The artifact is located at the top of the tower, guarded by the elf sorceress.</description>
+				<location>Dark Elven Tower top</location>
+		<-task>
+			<task>
+				<order>3</order>
+				objective>Return the artifact to Eldoras</objective>
+				<description>Once you have the artifact, escape the tower and return to Eldoras in the temple.</description>
+				<location>Eldora Temple</location>
+		<-task>
+	<tasks>
+</game>
+</game>
+```

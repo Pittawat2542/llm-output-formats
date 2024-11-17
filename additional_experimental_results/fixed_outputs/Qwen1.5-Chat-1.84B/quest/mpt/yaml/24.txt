@@ -1,0 +1,51 @@
+Here is the corrected YAML data with new values:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - task_description: task description
+     location: task_location
+     objective: task_objective
+     order: task_order
+  title: quest_title
+
+tasks:
+- task_description: task description
+  location: task_location
+  objective: task_objective
+  order: task_order
+``` 
+
+Updated values:
+
+1. `description` field to `task_description`: The correct field for the "description" in the tasks section.
+2. `location` field to `task_location`: Changed `"task"` to `"task_location"` as it is a common name for locations.
+3. `objective` field to `task_objective`: Updated `objective` to `task_objective`.
+4. `order` field to `task_order`: The correct order of the tasks in the list.
+
+Output in YAML format:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - task_description: task description
+      location: task_location
+      objective: task_objective
+      order: task_order
+  title: quest_title
+
+tasks:
+- task_description: task description
+  location: task_location
+  objective: task_objective
+  order: task_order
+```

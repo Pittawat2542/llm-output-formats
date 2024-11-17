@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+			<id>id</id>
+			first-name>First Name</first-name>
+			last-name>Last Name</last-name>
+			species>Species</species>
+			age>Exactly age or description</age>
+			role>Role of the character</role>
+			background>Background Story</background>
+			place-of-birth>Location</place-of-birth>
+			physical-appearance>
+				< physical-appearance>
+					EyeColor>Eye Color</EyeColor>
+					HairColor>Hair Color</HairColor>
+				 Height>Height in Float Value</Height>
+				体重>Weight in Float Value</Weight>
+				/Physical-appearance>
+			</role>
+			Background>
+				background Story
+			Place-of-Birth>
+				Location
+			Physical Appearances>
+				eyeColor>Eye Color</EyeColor>
+				HairColor>Hair Color</HairColor>
+			 height>Height in Float Value</height>
+			体重>Weight in Float Value</Weight>
+			</role>
+		</character>
+</game>
+```

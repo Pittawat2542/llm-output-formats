@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <id>example_id</id>
+  <title>Example Quest</title>
+  <objective>This is a quest objective.</objective>
+  <description>A quest description that provides context for the adventure.</description>
+  <reward>Reward for completing the quest</reward>
+  <quest-giver Quest_Giver_Name="NPC_Giver"></quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Task 1 Objective</objective>
+      <description>This is a description of Task 1.</description>
+      <location>Location of Task 1</location>
+    </task>
+    <!-- Add more tasks if needed -->
+  </tasks>
+</game>
+```

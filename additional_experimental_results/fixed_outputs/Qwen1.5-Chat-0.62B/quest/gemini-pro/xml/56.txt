@@ -1,0 +1,45 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Restoring the Ancient Relic</title>
+	 OBJECTive>Embark on a perilous journey to retrieve a long-lost relic and restore it.</objective>
+	 description>Legends speak of the Ancient Relic, a powerful artifact hidden in the depths of the old forest. You have been recruited by the royal wizard, Archmage Azaron, to seek out this relic and restore its power.</description>
+	 reward>Arcane Amulet, granting increased magic resistance and mana regeneration.</reward>
+	quest-giver>Archmage Azaron, found at the Wizard's Tower located in the royal castle grounds.</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			OBJECTive>Find the hidden entrance to the ancient forest, believed to be near the Elven Enclave.</objective>
+				description>Seek wisdom from the enigmatic Elven Oracle residing in the Elven Enclave. They may have knowledge about the forgotten path to the forest.</description>
+			<location>Ancient Forest, located north of the Silverwood River.</location>
+			<task>
+			<task>
+				<order>2</order>
+			OBJECTive>Traverse the dangerous forest, battling ancient creatures and solving puzzles to discover the resting place of the relic.</objective>
+				description>Venture through treacherous terrains and face cunning riddles left behind by the long-forgotten guardians of the forest.</description>
+			<location>Ancient Forest, accessed via the portal in the ancient ruins.</location>
+			<task>
+			<task>
+				<order>3</order>
+			OBJECTive>Retrieve the Ancient Relic from its pedestal, overcoming any guardians or traps that protect it.</objective>
+				description Approach the relic with caution, for it may contain residual enchantments or traps meant to safeguard its secrets.</description>
+			经验值>100</经验值>
+			<task>
+				<order>4</order>
+			OBJECTive>Return the relic to Archmage Azaron at the Wizard's Tower, allowing him to restore its magnificent power.</objective>
+				descriptionConvey the Ancient Relic safely to the Arch mage, who possesses the arcane knowledge to unlock its true potential.</description>
+			经验值>150</经验值>
+			<task>
+				<order>5</order>
+			OBJECTive>Remove any remaining enchantments or traps on the relic and return it to the wizard's Tower for further analysis.</objective>
+			经验值>200</经验值>
+			<task>
+				<order>6</order>
+			 OBJECTive>Return the relic to its original location, where it can be used in future adventures.</ objective>
+			经验值>350</经验值>
+			<title>Quest: Quest for the Elven Oracle</title>
+		</tasks>
+	</game>
+```
+Note: The correct syntax is provided after the code.

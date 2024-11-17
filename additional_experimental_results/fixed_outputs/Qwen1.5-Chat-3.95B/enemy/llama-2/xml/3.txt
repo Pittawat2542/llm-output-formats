@@ -1,0 +1,30 @@
+<!-- Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0 -->
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+			<hp>20</hp>
+				<mp>20</mp>
+				<atk>20</atk>
+				<def>20</def>
+				<spd>20</spd>
+		</stats>
+	</enemy># Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+```xml
+
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				hp>20</hp>
+				<mp>20</mp>
+				<atk>20</atk>
+				<def>20</def>
+				<spd>20</spd>
+		</stats>
+	</enemy>
+```

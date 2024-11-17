@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>The lost temple is said to contain an ancient artifact of great power. Retrieving it will grant you a significant boost in reputation and gold.</description>
+	<reward>1000 gold, +10 reputation</reward>
+	<quest-giver>High Priestess Eliana</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location.</objective>
+			<description>Speak to local villagers and gather any information they may have about the lost temple's whereabouts.</description>
+			<location>The village of Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the temple and find the artifact.</objective>
+			<description>Make your way through the temple, solving puzzles and fighting off traps to reach the artifact.</description>
+			<location>The lost temple</location>
+		</task>
+	</tasks>
+</game>
+```

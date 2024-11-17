@@ -1,0 +1,35 @@
+Here is the corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	objective>Quest Objective</objective>
+	description>Quest Description</description>
+	reward>Quest Reward</reward>
+	quest-giver>Quest giver</quest-giver>
+	<ul>
+		<li><order>Task Order</order></li>
+		<li><objective>Task Objective</objective></li>
+		<li><description>Task Description</description></li>
+		<li><location>Task Location</location></li>
+	</ul>
+</game>
+```
+
+Here is the Markdown code for the corrected XML data:
+```python
+# Corrected XML Data with New Values
+
+## Title: Quest Title
+## Objective: Quest Objective
+## Description: Quest Description
+## Reward: Quest Reward
+## Quest-Giver: Quest giver
+## Tasks:
+  - Task Order:
+    - Objective: Task Objective
+    - Description: Task Description
+    - Location: Task Location
+
+## Original XML Data
+```

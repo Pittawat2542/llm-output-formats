@@ -1,0 +1,23 @@
+Invalid YAML syntax. The original message contains special characters and cannot be rendered without any changes. Here is the problem:
+Error: incorrect_syntax: unacceptable character #x0081: special characters are not allowed
+  in "<unicode string>", position 418
+To fix this, please provide a new YAML text with valid syntax and the corrected content in YAML format. The original message should be reformatted as follows:
+```yaml
+game:
+  dialogues:
+   - order: 1
+    speaker: Alice
+    text: Where are we going, Bob?
+   - order: 2
+    speaker: Bob
+    text: We're heading to the old mine.
+   - order: 3
+    speaker: Alice
+    text: But isn't it dangerous?
+   - order: 4
+    speaker: Bob
+    text: Yes, it's a bit risky. But don't worry, I'll protect you.
+   - order: 5
+    speaker: Narrator
+    text: At that moment, they both felt a chilly wind pass byâ€c
+Note that the original message is provided between ```yaml and ``` and should be updated accordingly.

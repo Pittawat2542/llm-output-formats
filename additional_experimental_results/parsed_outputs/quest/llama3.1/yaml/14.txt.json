@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient Scroll of Eldarath, hidden within the ruins of the long-lost city of Zerzura.",
+    "id": 1234,
+    "objective": "Retrieve the Scroll",
+    "quest_giver": "Gorvoth, the Sage",
+    "reward": "A +3 Magical Amulet and 1000 gold pieces",
+    "tasks": [
+      {
+        "description": "Find the entrance to Zerzura's ruins.",
+        "location": "The local tavern, 'The Red Griffin'",
+        "objective": "Gather information about the entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous sandworm tunnels.",
+        "location": "Zerzura's ruins",
+        "objective": "Reach the inner sanctum where the scroll is kept",
+        "order": 2
+      },
+      {
+        "description": "Solve the ancient puzzle to access the scroll.",
+        "location": "Inner sanctum, Zerzura's ruins",
+        "objective": "Acquire the Scroll of Eldarath",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Scroll of Eldarath"
+  }
+}

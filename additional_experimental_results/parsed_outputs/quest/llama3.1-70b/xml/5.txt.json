@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the ancient artifact in the lost city of Zerzura.",
+    "description": "Rumors have been circulating about a lost city deep in the desert, filled with treasures and artifacts. The city is said to be hidden behind a series of treacherous sand dunes and deadly creatures. Your quest is to find the ancient artifact and bring it back to the village elder.",
+    "reward": "1000 gold pieces and a magical amulet",
+    "quest-giver": "Village Elder Akua",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city from local traders and travelers.",
+          "description": "Visit the local market and gather as much information as possible about the lost city. Talk to traders, travelers, and anyone who might have heard rumors or legends about Zerzura.",
+          "location": "Village of Sahra"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the sand dunes to reach the lost city.",
+          "description": "Use your knowledge and skills to navigate through the treacherous sand dunes. Be careful of deadly creatures and harsh weather conditions.",
+          "location": "The Desert of Zahran"
+        },
+        {
+          "order": "3",
+          "objective": "Explore the lost city and find the ancient artifact.",
+          "description": "Use your skills and equipment to explore the lost city. Avoid deadly traps and fight off any creatures that might be guarding the artifact.",
+          "location": "The Lost City of Zerzura"
+        }
+      ]
+    }
+  }
+}

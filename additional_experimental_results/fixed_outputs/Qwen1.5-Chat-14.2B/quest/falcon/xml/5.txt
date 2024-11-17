@@ -1,0 +1,28 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title Quest - A Beginner's Guide</title>
+	<objective>A quest to start your journey</objective>
+	<description>Welcome to the world of quests! Your goal is...</description>
+	<reward>50 gold, a beginner's sword, and experience points</reward>
+	<quest-giver>Guild Master</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Lost Key in the Old Temple</objective>
+			<location>The Ancient Temple, Forest Region</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Deliver a Message to the Village Elder</objective>
+			<location>Harper's Village, Southern Border</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Cleanse the Wounded Beast in the Enchanted Forest</objective>
+			<location>The Enchanted Forest, Northern Region</location>
+		</task>
+	</tasks>
+</game>
+```

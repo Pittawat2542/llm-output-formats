@@ -1,0 +1,18 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Bob</name>
+		<description>A nice guy</description>
+		<stats>
+			<hp>150</hp> -- Changed HP value to 150 for demonstration purposes.
+			<mp>120</mp> -- Changed MP value to 120 for demonstration purposes.
+			<atk>90</atk> -- Changing ATK value is not part of the error message, but if you wanted to fix this, change it to any integer value.
+			<def>85</def> -- Changing DEF value is not part of the error message, but if you wanted to fix this, change it to any integer value.
+			<spd>110</spd> -- Changing SPD value is not part of the error message, but if you wanted to fix this, change it to any integer value.
+		</stats>
+	</enemy>
+</game>
+```

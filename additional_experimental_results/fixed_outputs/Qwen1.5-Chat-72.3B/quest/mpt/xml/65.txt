@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>Embark on a journey to recover the lost artifact that holds immense power, hidden within the forgotten ruins deep in the jungle.</description>
+	<reward>1000 gold coins and a legendary weapon</reward>
+	<quest-giver>Arinthea, the Wise Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information from the village elders</objective>
+			<description>Visit nearby villages and speak with their elders to uncover any clues about the artifact's location.</description>
+			<location>Village of Eldervale</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the Jungle Ruins</objective>
+			<description> Navigate through treacherous jungle paths to reach the ancient ruins and search for the artifact.</description>
+			<location>Ruins of Zephyrion</location>
+		</task>
+	</tasks>
+</game>
+```

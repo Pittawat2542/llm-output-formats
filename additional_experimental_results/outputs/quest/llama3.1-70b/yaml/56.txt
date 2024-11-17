@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the Dark Castle and bring it back to the Village Elder.
+  id: QST001
+  objective: Retrieve the Sword of Light
+  quest_giver: Village Elder
+  reward: 1000 gold, increased reputation with the village
+  tasks:
+  - description: Gather information about the Dark Castle's layout and guards.
+    location: Village Tavern
+    objective: Gather information
+    order: 1
+  - description: Infiltrate the Dark Castle by disguising yourself as a guard.
+    location: Dark Castle Entrance
+    objective: Infiltrate the castle
+    order: 2
+  - description: Find and retrieve the Sword of Light from the throne room.
+    location: Dark Castle Throne Room
+    objective: Retrieve the sword
+    order: 3
+  - description: Escape the Dark Castle without being detected.
+    location: Dark Castle Entrance
+    objective: Escape the castle
+    order: 4
+  title: The Quest for the Sword of Light
+```

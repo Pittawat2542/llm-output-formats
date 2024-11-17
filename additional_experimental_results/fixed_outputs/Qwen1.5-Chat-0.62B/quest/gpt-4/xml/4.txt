@@ -1,0 +1,57 @@
+The key 'quest_giver' is missing. 
+Template: 
+<?xml version="1.0" ?> 
+<game>
+	<id>1234</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the ancient ruins</objective>
+	<description>The ancient ruins located in the forest is believed to hold a lost artifact of great power. The adventurers are tasked with retrieving the artifact.</description>
+	<reward>5000 gold, Rare equipment, Experience points</ reward>
+	<quest-giver>Old Sage Elrond</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Travel to the ancient ruins</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<description>The adventurer must travel to the ancient ruins which is deep within the forest.</description>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+			<task>
+				<order>2</order>
+			<objective>Find the lost artifact</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+			<task>
+				<order>3</order>
+			objective>Return the artifact to Old Sage Elrond</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+			<task>
+				<order>4</order>
+			objective>Find the lost artifact</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+			<task>
+				<order>5</order>
+			objective>Return the artifact back to Elrond's palace</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+			<task>
+				<order>6</order>
+			objective>Return to the village and report the findings</objective>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+				<div class=" quest-giver">Quest: Quest for the Lost Artifact</div>
+			</task>
+	</tasks>
+</game>
+
+```
+```

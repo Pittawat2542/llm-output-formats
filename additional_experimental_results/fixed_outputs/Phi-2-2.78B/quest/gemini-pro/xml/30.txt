@@ -1,0 +1,23 @@
+```xml
+<game id="1">
+	<title title="The Missing Amulet">
+	<objective objective="Find the lost amulet of Elvenking." description="The Amulet of Elvenking is a priceless heirloom stolen by the renegade dark elf wizard Zordrax. Find and return the amulet to the Elvenking to restore balance to the forest." reward reward="Elvenking's Favor, 1000 gold, Ancient Elven Sword">
+	<quest-giver quest_giver="Elvenking">
+		<tasks>
+			<task order="1">
+				<objective objective="Talk to the forest ranger." description="Seek out the forest ranger, Erebos, and inquire about the whereabouts of the amulet. He may have some leads to help you begin your search." location location="Ranger's Cabin, Northern Forest"/>
+			</task>
+			<task order="2">
+				<objective objective="Find the ruins of the ancient temple." description="From the forest ranger, you learned that the amulet was last seen in the ruins of an ancient temple deep in the forest. Locate and explore these ruins." location location="Ancient Temple Ruins, Eastern Forest"/>
+			</task>
+			<task order="3">
+				<objective objective="Defeat the guardian of the temple." description="Upon reaching the temple, you encounter a fearsome guardian tasked with protecting the amulet. Engage in battle and defeat this guardian to claim the amulet." location location="Ancient Temple Interior, Eastern Forest"/>
+			</task>
+			<task order="4">
+				<objective objective="Return the amulet to the Elvenking." description="With the amulet in hand, make your way back to Elvenking's Court and present him with the recovered artifact. Receive your reward and bask in the glory of saving the forest." location location="Elvenking's Court, Elven Forest"/>
+			</task>
+		</tasks>
+	</quest-giver>
+</game>
+```
+

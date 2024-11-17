@@ -1,0 +1,9 @@
+game:
+  beginning: A young adventurer re ... 
+  ending: He Quest for the Lost Artifact is an epic adventure game where 
+  synopsis: "The Quest for the Lost Artifact" is an epic adventure game where players embark on a perilous quest to find a legendary artifact. Along the way, they will encounter dangerous creatures, solve intricate puzzles, and form alliances with peculiar characters. The choices made by the player will shape their character's destiny and ultimately decide the fate of Elysium.
+  title: The Quest for the Lost Artifact
+
+### Explanation:
+The `yaml` data contains two errors in syntax. In the first error, there is a missing closing ')' before 'beginning' key-value pair. In the second error, there is an unexpected '<scalar>' character after the last value of the beginning key-value pair instead of the expected '\n'. The correct YAML data should be:
+

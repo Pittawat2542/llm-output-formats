@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "200",
+    "title": "The Ancient Ritual",
+    "objective": "Uncover the ancient ritual hidden within the ruins of the lost city of Aethel.",
+    "description": "The Elders of Aethel have tasked you with uncovering the ancient ritual hidden within the ruins of the lost city. Legends speak of a powerful artifact hidden there, said to hold the key to unlocking untold secrets and unimaginable power. Are you up to the challenge?",
+    "reward": "The artifact of Aethel, a relic of immense power and knowledge.",
+    "quest-giver": "Elders of Aethel",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the lost city of Aethel.",
+          "description": "Aethel lies forgotten in the heart of the Cursed Woods. Its ruins, reclaimed by nature, guard the secrets of the ancients. Find it, and you take the first step towards your goal.",
+          "location": "Cursed Woods"
+        },
+        {
+          "order": "2",
+          "objective": "Find the hidden entrance to the Forgotten Temple.",
+          "description": "Within the ruins of Aethel, there lies a hidden entrance, cloaked by overgrown vines and shattered stones. This is the gateway to the Forgotten Temple, where the ancient ritual awaits.",
+          "location": "Lost City of Aethel"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the elemental puzzles to unlock the path forward.",
+          "description": "The Forgotten Temple is guarded by elemental puzzles, each representing the forces of nature. Fire, water, earth, and air; solve their riddles to open the path to the ritual chamber.",
+          "location": "Forgotten Temple"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the guardian of the artifact.",
+          "description": "As you enter the ritual chamber, you'll face the guardian of the artifact\u2014a creature born from the depths of Aethel's secrets. Defeat it to claim the prize.",
+          "location": "Ritual Chamber"
+        },
+        {
+          "order": "5",
+          "objective": "Retrieve the artifact of Aethel and present it to the Elders.",
+          "description": "With the guardian vanquished, take the artifact of Aethel and return to the Elders. Their wisdom and knowledge will help you unlock its secrets and uncover the untold power within.",
+          "location": "Elder's Council"
+        }
+      ]
+    }
+  }
+}

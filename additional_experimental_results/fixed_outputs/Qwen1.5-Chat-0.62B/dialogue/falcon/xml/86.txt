@@ -1,0 +1,35 @@
+```xml
+<?xml version="1.0"?>
+<game>
+   <dialogues>
+     <dialogue>
+       <order>dialogue order</order>
+       <speaker>Speaker name</speaker>
+       <text>dialogue or narration</text>
+     <dialogue>
+     </dialogue>
+     <!-- add new dialogue or conversation options -->
+  </game>
+</game>
+```
+Note: The following code has been modified to include a new `dialogues` element and a new `order` attribute for each `dialogue`. You can adjust the values as per your requirements.
+```xml
+<?xml version="1.0"?>
+<game>
+   <dialogues>
+     <!-- add new dialogue or conversation options -->
+    </dialogues>
+</game>
+```
+The output format has been changed to a Markdown code block with only the `game` element and its child elements (`dialogues`). The output should be:
+```yaml
+# Output format
+---
+# Game Overview
+## Game Description
+## Game Objectives
+## Game Mechanics
+## Game Progressions
+## Game Experiences
+```
+Note: The markdown code is provided without a specific message, so you can copy and paste the content into an email or document.

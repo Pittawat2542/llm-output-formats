@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "EQ_001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom from the bandits.",
+    "description": "Lady Regina's prized possession, a golden locket passed down through generations, has been pilfered by a group of nefarious bandits. They have taken refuge in an abandoned mine on the outskirts of town.",
+    "reward": "1000 gold coins and a magical amulet",
+    "quest_giver": "Lady Regina Pembroke",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the bandits' hideout",
+        "description": "Speak to the locals at the town's tavern to gather intel on the bandits' whereabouts.",
+        "location": "The Red Griffin Tavern"
+      },
+      {
+        "order": 2,
+        "objective": "Infiltrate the abandoned mine",
+        "description": "Sneak into the abandoned mine, avoiding detection by the bandits. Find and retrieve the stolen locket.",
+        "location": "Abandoned Mine on the outskirts of town"
+      },
+      {
+        "order": 3,
+        "objective": "Return the locket to Lady Regina",
+        "description": "Bring the recovered locket back to Lady Regina at her mansion in the city.",
+        "location": "Pembroke Manor"
+      }
+    ]
+  }
+}

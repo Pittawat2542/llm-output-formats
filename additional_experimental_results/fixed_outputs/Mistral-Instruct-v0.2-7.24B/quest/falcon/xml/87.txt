@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>Example Title</title>
+	<objective>Find the treasure</objective>
+	<description>Example Description</description>
+	<reward>Example Reward</reward>
+	<quest-giver>Example Quest Giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Kill the goblin chief</objective>
+			<description>The goblin chief is terrorizing the village. You must eliminate him to complete this task.</description>
+			<location>Goblin Camp</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the magical amulet</objective>
+			<description>The magical amulet is located in the ancient ruins. Be careful, as they are filled with traps and dangerous creatures.</description>
+			<location>Ancient Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

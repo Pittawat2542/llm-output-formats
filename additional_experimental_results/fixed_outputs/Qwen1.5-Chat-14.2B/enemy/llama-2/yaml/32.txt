@@ -1,0 +1,16 @@
+The original YAML is already correct. Here's the fixed version:
+
+```yaml
+game:
+  battle:
+    enemy:
+      description: "This is a description"
+      id: "enemy_id"
+      name: "enemy_name"
+      stats:
+        atk: 10
+        def: 10
+        hp: 10
+        mp: 10
+        spd: 10
+```

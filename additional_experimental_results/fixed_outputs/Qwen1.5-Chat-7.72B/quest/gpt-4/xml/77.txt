@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>QST1234</id>
+    <title>The Lost Sword</title>
+    <objective>Find and retrieve the legendary sword</objective>
+    <description>Traverse treacherous terrain and overcome mighty foes to find the forgotten sword of the ancients. Your journey will be perilous, but the reward will be worthwhile.</description>
+    <reward>5000 gold coins and the legendary sword</reward>
+    <quest-giver>Old Hermit</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Figure out the location of the sword</objective>
+            <description>Seek wisdom from ancient texts and decipher the cryptic clues to determine the location of the sword.</description>
+            <location>Ancient Library</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the guardian of the sword</objective>
+            <description>Prepare for battle against the ancient guardian who protects the sword. Only the brave and worthy can defeat him.</description>
+            <location>Crystal Caves</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Bring the sword to the Old Hermit</objective>
+            <description>Once you have claimed the sword, bring it back to the Old Hermit for final validation and to collect your reward.</description>
+            <location>Old Hermit’s Hut</location>
+        </task>
+    </tasks>
+</game>
+```

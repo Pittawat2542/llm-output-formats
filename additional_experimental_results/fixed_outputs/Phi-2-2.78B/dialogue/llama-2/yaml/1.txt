@@ -1,0 +1,49 @@
+
+# Game
+## Dialogues
+### Dialogue Order
+Speaker: Speaker Name
+Text: Dialogue or Narration 
+"""
+
+
+def fix_yaml(yaml):
+    game = {}
+    game['dialogues'] = []
+
+    for i in yaml.split('\n'):
+        if not i.startswith("#"):
+            continue
+        else:
+            i = i[1:]  # Remove the # character at start of line
+        line_list = i.split()
+        if len(line_list) == 0 or line_list[0] in ['game', 'dialogues']:
+            pass
+        elif line_list[0] == 'dialogues':
+            for j in range(1, len(line_list)):
+                try:
+                    key = line_list[j][:-2]  # Remove the ":" character at end of key name
+                    value = line_list[j + 1].split(":")[-1]
+                    game['dialogues'].append({key.capitalize(): value})
+                except IndexError:
+                    pass
+        else:
+            print("Error: incorrect_syntax: while scanning for the next token")
+            print("found character '`' that cannot start any token")
+            print(f"while scanning for the next token\nfound character '{line_list[0][0]}' in \"{i}\", line {len(yaml.split('\n'))}, column {len(line_list)}:\n  ```{yaml}```")
+            print("^")
+        pass
+
+    return game
+
+
+def main():
+    input = fix_yaml(raw_input())
+    for key in input:
+        if isinstance(input[key], list):
+            for i in range(len(input[key])):
+                input[key][i] = f"{key}: {input[key][i]} "
+    print("\n".join([f"# {k}", *v, "\n"] for k, v in input.items()))
+
+
+main()

@@ -1,0 +1,13 @@
+```yaml
+game:
+  character:
+    age: bold(age) or "age in years" or "age in years and months"
+    physical_appearance:
+      eye_color: bold(eye_color)
+      hair_color: hair_color
+      height: bold(height) in float value
+      weight: 'weight in float value (bold)'  # single quoted to avoid error and add parentheses for the description
+    place_of_birth: location
+    role: bold(role)
+    species: bold(species)
+```

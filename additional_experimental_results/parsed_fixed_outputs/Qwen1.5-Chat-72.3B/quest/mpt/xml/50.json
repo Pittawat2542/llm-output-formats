@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "Search through the ancient ruins to locate and retrieve the lost artifact. Beware of traps and guardians!",
+    "reward": "1000 gold coins and a legendary weapon blueprint",
+    "quest-giver": "Gilderus the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the ruins",
+          "description": "Locate the entrance to the ancient ruins and enter safely.",
+          "location": "Ruins of Eldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian",
+          "description": "You must defeat the guardian protecting the artifact to proceed.",
+          "location": "The Chamber of Relics"
+        }
+      ]
+    }
+  }
+}

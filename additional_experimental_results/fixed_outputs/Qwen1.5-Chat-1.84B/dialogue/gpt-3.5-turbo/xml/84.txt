@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+            <speaker>Player</speaker>
+            <text>Hello, can you help me with this puzzle?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Guide</speaker>
+            <text>Sure, what seems to be the problem?</text>
+        </dialogue>
+        <dialogue>
+            <order>3</order>
+            <speaker>Player</speaker>
+            <text>I'm stuck on this riddle. It says: "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?"</text>
+        </dialogue>
+        <dialogue>
+            <order>4</order>
+            <speaker>Guide</speaker>
+            <text>The answer is an echo. The sound waves create the illusion of speech even though an echo itself does not physically speak. It doesn't have a body but it becomes alive when it reflects off surfaces.</text>
+        </dialogue>
+        <dialogue>
+            <order>5</order>
+            <speaker>Player</speaker>
+            <text>Ah, I see! Thanks for the help!</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

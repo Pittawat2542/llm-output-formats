@@ -1,0 +1,22 @@
+The YAML data is correct and only the YAML code block is required. Return output in YAML format and only the YAML code block.
+YAML:
+```yaml
+# Example character profile
+name: John Doe
+age: 42
+birthplace: London, England
+occupation: Astronaut
+game:
+  character:
+    age: >-42
+    first_name: ~John
+    last_name: ~Doe
+    physical_appearance:
+    - eye_color: ~~eye
+      hair_color: ~~hair
+      height: ~~height
+      weight: ~~weight
+    place_of_birth: ~~place
+    role: ^astronaut
+    species: species
+```

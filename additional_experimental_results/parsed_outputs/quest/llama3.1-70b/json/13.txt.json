@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple of the Ancients",
+    "objective": "Explore the long-abandoned temple and retrieve the ancient artifact.",
+    "description": "Rumors have been circulating about a hidden temple deep in the jungle, containing an ancient relic with immense power. Brave adventurers are needed to explore the treacherous ruins and bring back the treasure.",
+    "reward": "1000 gold pieces and a magical amulet",
+    "quest_giver": "Professor Thaddeus Wystan, renowned archaeologist",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the temple's location",
+        "description": "Speak to locals and gather rumors about the temple's whereabouts.",
+        "location": "Jungle Village"
+      },
+      {
+        "order": 2,
+        "objective": "Clear the temple entrance of traps and debris",
+        "description": "Use your skills to disable deadly traps and clear a path into the temple.",
+        "location": "Temple Entrance"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the ancient artifact from the inner sanctum",
+        "description": "Navigate treacherous puzzles and defeat powerful guardians to claim the relic.",
+        "location": "Inner Sanctum"
+      }
+    ]
+  }
+}

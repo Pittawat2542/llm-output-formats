@@ -1,0 +1,22 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:noNamespaceSchemaLocation": "game.xsd",
+    "character": {
+      "@id": "id",
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "species",
+      "age": "age in years or months",
+      "role": "role of the character",
+      "background": "background story",
+      "place-of-birth": "location",
+      "physical-appearance": {
+        "eye-color": "eye color",
+        "hair-color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+      }
+    }
+  }
+}

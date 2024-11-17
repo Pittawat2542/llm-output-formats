@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://example.com/game.xsd">
+    <id>IDQ12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrive the lost artifact from the ancient ruins</objective>
+    <description>In this quest, you will venture into the old and dangerous ancient ruins and retrieve the lost artifact, which is said to possess mysterious power. Beware of the lurking dangers!</description>
+    <reward>5000 gold coins and Excalibur sword</reward>
+    <quest-giver>The village elder</quest-giver>
+    <tasks>
+        <task order="1" objective="Find the location of the ancient ruins" description="Use the old map provided by the village elder to locate the ancient ruins" location="The Great Forest">
+            <!-- Task details here -->
+        </task>
+        <task order="2" objective="Retrieve the lost artifact" description="The artifact is said to be located in the heart of the ruins. Be prepared to face traps and monsters" location="Ancient ruins">
+            <!-- Task details here -->
+        </task>
+    </tasks>
+</game>
+```

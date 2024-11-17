@@ -1,0 +1,29 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>Quest Title Update</title>
+    <objective>Complete Quest Objective</objective>
+    <description>
+        Quest description:
+        &lt;br&gt;
+        - Task 1: Describe task 1
+        &lt;br&gt;
+        + Task 1+1: Additional objective with order 2
+        &lt;br&gt;
+        - Task 1-1: Corrected objective with order 1
+    </description>
+    <reward>300 Gold</reward>
+    <quest-giver>Quest Master Johnson</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Task 1 Objective</objective>
+            <description>Task 1 description</description>
+            <location>Forest Clearing</location>
+        </task>
+        <task order="2" id="1+1">
+            <objective>Task 1+1: Task 1, additional objective</objective>
+        </task>
+    </tasks>
+</game>
+```

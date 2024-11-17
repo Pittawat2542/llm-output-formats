@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve a rare herb from the ancient forest.",
+    "id": "Q001",
+    "objective": "Collect 10 pieces of the Moonpetal herb.",
+    "quest_giver": "Eira, the Healer",
+    "reward": "500 gold pieces and a +1 potion of healing",
+    "tasks": [
+      {
+        "description": "Find the entrance to the ancient forest.",
+        "location": "The old oak tree in the center of the village.",
+        "objective": "Identify the correct path into the forest.",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the forest to find the Moonpetal herb.",
+        "location": "A cave system deep within the forest.",
+        "objective": "Collect 5 pieces of the herb from the cave's surface.",
+        "order": 2
+      },
+      {
+        "description": "Return the collected herbs to Eira for verification.",
+        "location": "The village healer's hut.",
+        "objective": "Confirm the correct number and type of herbs with Eira.",
+        "order": 3
+      }
+    ],
+    "title": "Moonpetal Quest"
+  }
+}

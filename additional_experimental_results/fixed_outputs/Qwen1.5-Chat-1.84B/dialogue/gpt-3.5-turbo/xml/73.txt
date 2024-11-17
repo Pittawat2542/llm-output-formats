@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue 1</order>
+			<speaker>Player</speaker>
+			<text>Hello there! How are you?</text>
+			<dialogue-text>
+				<personal greeting from the player to the NPC>
+					Hello,
+					How are you today? I hope everything is going well for you.
+				</personal-greeting>
+			</dialogue-text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue 2</order>
+			<speaker>NPC</speaker>
+			<text>I'm doing great, thank you. How about you?</text>
+			<dialogue-text>
+				<personal greeting from the NPC to the player>
+					Hello,
+					I'm also doing well. Thank you for asking me how things are going. I've been working on some projects lately,
+				</personal-greeting>
+			</dialogue-text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue 3</order>
+			<speaker>Player</speaker>
+			<text>I'm good too. What have you been up to?</text>
+			<dialogue-text>
+				<personal greeting from the player to the NPC>
+					Oh, not much. Just working on some new games and trying out different mechanics.
+				</personal-greeting>
+			</dialogue-text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue 4</order>
+			<speaker>NPC</speaker>
+			<text>I'm still working on some projects, but I've been taking a break from them for the past few days. How about you?</text>
+			<dialogue-text>
+				<personal greeting from the NPC to the player>
+					I hear that, actually. It's been quite busy with work and personal projects lately,
+				</personal-greeting>
+			</dialogue-text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,19 @@
+Here is the corrected XML data. I removed the unnecessary nested `<physical-appearance>` tags and added closing tags for `height` and `weight` elements:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character id="id" first-name="first name" last-name="last name" species="species" age="exact age or description" role="role of the character">
+        <background>background story</background>
+        <place-of-birth>location</place-of-birth>
+        <physical-appearance>
+            <eye-color>eye color</eye-color>
+            <hair-color>hair color</hair-color>
+            <height unit="ft">height in float value</height>
+            <weight unit="lbs">weight in float value</weight>
+        </physical-appearance>
+    </character>
+</game>
+```
+
+The `<roster>` and `<div>` tags were not part of the original template, so I removed them. The corrected XML above uses the provided structure with minimal adjustments.

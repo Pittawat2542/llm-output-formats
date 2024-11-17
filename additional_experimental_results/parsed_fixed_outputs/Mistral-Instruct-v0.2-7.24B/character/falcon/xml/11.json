@@ -1,0 +1,24 @@
+{
+  "character": {
+    "id": "123",
+    "first-name": "John",
+    "last-name": "Doe",
+    "species": "human",
+    "age": "30",
+    "role": "astronaut",
+    "background": {
+      "text": "background story",
+      "image": {
+        "@source": "image1.jpg"
+      }
+    },
+    "place-of-birth": "Earth",
+    "physical-appearance": {
+      "physical-appearance": {
+        "image": {
+          "@source": "character.jpg"
+        }
+      }
+    }
+  }
+}

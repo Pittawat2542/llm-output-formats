@@ -1,0 +1,41 @@
+game:
+
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    - title: quest title
+
+### Code:
+```python
+# Importing the required library
+import yaml
+
+def fix_yaml(text):
+  
+  # Splitting the YAML string into a list of lines
+  lines = text.split('\n')
+  
+  # Initializing an empty dictionary to store the data
+  game_data = {}
+
+  for line in lines:
+    if not line or line.startswith('---'):
+      continue
+    
+    key, value = line.split(':', maxsplit=1)
+    value = yaml.safe_load(value)
+    game_data[key] = value
+
+  return game_data
+```
+### Solution:
+This function takes a YAML string as input and returns a dictionary containing the data from the YAML file. The code is simple and uses the `yaml` library to parse the YAML file. If there are any syntax errors, the function raises an exception.
+

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>In search of a legendary artifact, you must explore the treacherous ruins and overcome its challenges to uncover its secrets.</description>
+	<reward>1000 experience points and a rare magical item</reward>
+	<quest-giver>Guru Zara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Ruins of Eldarath</objective>
+			<description>Make your way through the dense forest and find the entrance to the ruins.</description>
+			<location>Forest of Eldarath</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian Statue</objective>
+			<description>A protective statue guards the artifact. You must defeat it to proceed.</description>
+			<location>Ruins of Eldarath, Inner Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the Puzzle of Light</objective>
+			<description>Align the ancient mirrors in the chamber to unlock the artifact's resting place.</description>
+			<location>Ruins of Eldarath, Final Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

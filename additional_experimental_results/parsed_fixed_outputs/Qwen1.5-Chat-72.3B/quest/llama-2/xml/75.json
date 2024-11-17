@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to the village elder.",
+    "description": "You've heard rumors of an artifact hidden deep in the ruins of a long-lost civilization. The village elder believes it holds great power and needs it to protect their people from an impending threat.",
+    "reward": "100 gold coins and the gratitude of the village",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the ruins",
+          "description": "You must find the coordinates or landmarks that lead to the ancient ruins where the artifact is believed to be hidden.",
+          "location": "The Old Library in the Capital City"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the ruins safely",
+          "description": "Watch out for traps and avoid any danger while entering the ruins to search for the artifact.",
+          "location": "The Ruins of Zirath"
+        },
+        {
+          "order": "3",
+          "objective": "Find and retrieve the artifact",
+          "description": "The artifact is said to be in a chamber deep within the ruins. Look for clues and solve any puzzles that stand in your way.",
+          "location": "The Heart of the Ruins"
+        }
+      ]
+    }
+  }
+}

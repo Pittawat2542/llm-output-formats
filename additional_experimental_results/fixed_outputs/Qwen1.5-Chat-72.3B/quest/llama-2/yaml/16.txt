@@ -1,0 +1,16 @@
+All examples provided are correct YAML data. Here is one of them repeated as requested:
+
+```yaml
+game:
+  description: quest description
+  id: 123
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+  title: quest title
+```

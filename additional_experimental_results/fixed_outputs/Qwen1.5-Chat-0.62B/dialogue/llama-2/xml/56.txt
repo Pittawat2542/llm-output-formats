@@ -1,0 +1,15 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<!-- New dialogue order -->
+			<dialogue order="order1">
+				<person name="John Smith</person>
+				<person age="30"></person>
+				<person occupation="Software Engineer"/>
+			</dialogue>
+			<!-- New dialogue speaker -->
+			<dialogue speaker="Jane Doe">
+				<person name="Jane Smith"
+```

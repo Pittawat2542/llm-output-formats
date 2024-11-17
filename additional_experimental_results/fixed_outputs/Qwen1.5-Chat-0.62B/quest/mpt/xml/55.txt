@@ -1,0 +1,55 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest objective
+	Description: Quest description
+	Reward: Quest reward
+	Giver: Quest giver
+
+	<Tasks>
+		<Task Order="task order">
+			 Objective: Task objective
+			 Description: Task description
+			 Location: Task location
+		</Task>
+
+		<Task Order="task order">
+			 Objective: Task objective
+			 Description: Task description
+			 Location: Task location
+		</Task>
+	</Tasks>
+</game>
+```
+New values required:
+
+* `Quest_giver`: Replace with the value of the `quest-giver` element, if it does not exist.
+* ` Quest_giver`: Replace with the value of the `quest-giver` element, if it does not exist.
+
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest objective
+	Description: Quest description
+	Reward: Quest reward
+	Giver: Quest giver
+
+	<Tasks>
+		<Task Order="task order">
+			 Objective: Task objective
+			 Description: Task description
+			 Location: Task location
+		</Task>
+
+		<Task Order="task order">
+			 Objective: Task objective
+			 Description: Task description
+			 Location: Task location
+		</Task>
+	</Tasks>
+</game>
+```

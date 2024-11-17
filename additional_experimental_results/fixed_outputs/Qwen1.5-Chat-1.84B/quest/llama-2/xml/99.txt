@@ -1,0 +1,34 @@
+XML data fixed:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<training-task>
+			<order>training-task order</order>
+			<objective>training-task objective</objective>
+			<description>training-task description</description>
+			<location>training-task location</location>
+		</training-task>
+		<quest-task>
+			<order>quest-task order</order>
+			<objective>quest-task objective</objective>
+			<description>quest-task description</description>
+			<location>quest-task location</location>
+		</quest-task>
+		<reward-giver>
+			<name>reward-giver name</name>
+			<reward-value>reward-value</reward-value>
+		</reward-giver>
+		<quest-giver>
+			<name>quest-giver2</name>
+			<reward-value>reward-value2</reward-value2>
+		</quest-giver>
+	</tasks>
+</game>
+```

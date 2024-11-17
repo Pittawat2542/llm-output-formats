@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player Character</speaker>
+			<text>Welcome to the land of Eldoria, a mystical realm of wonder and danger.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC: The Wise Old Man</speaker>
+			<text>Greetings traveler, I sense that you are not from these lands. What brings you to Eldoria?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player Character</speaker>
+			<text>I'm on a quest to find the legendary Sword of Light, said to be able to vanquish any darkness.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC: The Wise Old Man</speaker>
+			<text>A perilous journey indeed. But I sense that you have the heart of a true hero. Take this map, it will lead you to the sword.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

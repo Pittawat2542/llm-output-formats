@@ -1,0 +1,28 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "Complete tasks to earn the golden sword",
+    "description": "A challenging quest to defeat the dragon at Mount Everest",
+    "reward": "Experienced adventurer's reward chest",
+    "quest-giver": "wise wizard",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "order": "1",
+          "objective": "Find the ancient map in the forest",
+          "description": "Follow the trail marked by oak trees",
+          "location": "Forest East edge"
+        },
+        {
+          "@order": "2",
+          "order": "2",
+          "objective": "Defeat the goblin guard at the castle entrance",
+          "description": "Use your stealth to avoid detection",
+          "location": "Castle Gate"
+        }
+      ]
+    }
+  }
+}

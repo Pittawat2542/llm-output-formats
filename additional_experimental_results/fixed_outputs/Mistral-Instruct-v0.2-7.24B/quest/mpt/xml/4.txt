@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>
+		<name>Character Name</name>
+		<location>Location of Character</location>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+Replace `Character Name` and `Location of Character` with the actual quest giver's name and location.

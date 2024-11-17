@@ -1,0 +1,19 @@
+{
+  "game": {
+    "@xmlns": "https://example.com/game",
+    "id": "1",
+    "title": "Example Quest Title",
+    "objective": "Example quest objective",
+    "description": "Example quest description",
+    "reward": "Example quest reward",
+    "quest-giver": "Example Character Name",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Complete Example Task",
+        "description": "Follow the marker at the forest edge",
+        "location": "Forest\u8fb9\u7f18"
+      }
+    }
+  }
+}

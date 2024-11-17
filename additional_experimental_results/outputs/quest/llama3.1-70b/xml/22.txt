@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>QST001</id>
+    <title>The Lost City</title>
+    <objective>Explore the ancient ruins and uncover the secrets of the lost city.</objective>
+    <description>Rumors have been circulating about a hidden city deep in the jungle, filled with treasures and artifacts beyond your wildest dreams. Your quest is to explore the ancient ruins, overcome challenges, and uncover the secrets of the lost city.</description>
+    <reward>1000 gold coins, a map that reveals a new location, and increased reputation among the local population</reward>
+    <quest-giver>A mysterious old man who lives on the outskirts of the village</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather supplies from the nearby market</objective>
+            <description>Purchase food, water, and a map that will aid you in your journey.</description>
+            <location>Village Market</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Journey through the jungle to reach the ancient ruins</objective>
+            <description>Be cautious of wild beasts and harsh weather conditions as you make your way deeper into the jungle.</description>
+            <location>Jungle Trail</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Explore the ancient ruins and uncover the secrets of the lost city</objective>
+            <description>Be prepared to face challenges, puzzles, and unexpected surprises as you delve deeper into the ruins.</description>
+            <location>Ancient Ruins</location>
+        </task>
+    </tasks>
+</game>
+```

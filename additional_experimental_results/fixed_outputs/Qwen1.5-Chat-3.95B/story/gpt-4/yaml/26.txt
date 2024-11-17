@@ -1,0 +1,7 @@
+Invalid YAML data. Syntax and values need to be corrected. Return the YAML with the error messages as a code block and only the YAML in Markdown format. YAML:
+```yaml
+Error: invalid_syntax: mapping values are not allowed here
+  in "<unicode string>", line 5, column 14:
+      title: Lyra: The Rise of Eldoria's Wizard
+                  ^
+```

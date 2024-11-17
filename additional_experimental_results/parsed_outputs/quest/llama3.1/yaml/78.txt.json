@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the ancient ruins.",
+    "id": "Q001",
+    "objective": "Retrieve the Sword and return it to the village elder.",
+    "quest_giver": "Eilif Stonebeard, Village Elder",
+    "reward": "The Sword of Light and 1000 gold pieces",
+    "tasks": [
+      {
+        "description": "Speak with the village elder about the Sword's location.",
+        "location": "Village Square",
+        "objective": "Gather information from Eilif.",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the ancient ruin's treacherous traps.",
+        "location": "Ancient Ruins",
+        "objective": "Find a way to disable the deadly mechanisms.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the guardians of the sword and retrieve it.",
+        "location": "Inner Sanctum",
+        "objective": "Obtain the Sword of Light.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

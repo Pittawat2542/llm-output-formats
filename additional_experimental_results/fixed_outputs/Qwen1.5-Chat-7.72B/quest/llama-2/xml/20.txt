@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Example Quest Title</title>
+    <objective>Complete the Temple</objective>
+    <description>A journey to find the ancient artifact</description>
+    <reward>Gold and a rare sword</reward>
+    <quest-giver>Old Wizard</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Uncover the first puzzle</objective>
+            <description>Follow the map marked by stones</description>
+            <location>Forest East</location>
+        </task>
+    </tasks>
+</game>
+```

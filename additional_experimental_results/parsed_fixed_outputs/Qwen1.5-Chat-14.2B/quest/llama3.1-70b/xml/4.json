@@ -1,0 +1,38 @@
+{
+  "game": {
+    "@id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath.",
+    "description": "Rumors have been circulating about a hidden city deep in the forest, filled with treasures and artifacts. Your quest is to retrieve an ancient relic rumored to be hidden within the city's walls.",
+    "reward": "1000 Gold Pieces, The Amulet of Light",
+    "quest-giver": "King Thorold Ironfist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost City's location.",
+          "description": "Talk to the local villagers and gather information about the city's whereabouts. They might know something that can aid you on your quest.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve a map of the forest, highlighting the path to the Lost City.",
+          "description": "A local cartographer has been known to create maps of the surrounding areas. Visit him and see if he can provide you with a map that will aid your journey.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate through the treacherous forest and reach the Lost City.",
+          "description": "Use the information gathered from the villagers and the map to navigate through the forest. Be cautious, as rumors of dark creatures and treacherous terrain have been known to plague adventurers who dare to venture into these woods.",
+          "location": "Eldarath Forest"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the ancient artifact from the Lost City's temple.",
+          "description": "Finally, after overcoming the challenges of the forest and reaching the city, you must face whatever dangers lie within the temple to retrieve the ancient relic. Be brave and resourceful, as this will be your greatest challenge yet.",
+          "location": "The Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

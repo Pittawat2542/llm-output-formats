@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": "unique_id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "reward": {
+      "title": "quest reward",
+      "money": 0,
+      "experience": 0
+    },
+    "quest_giver": "quest giver",
+    "tasks": [
+      {
+        "description": "first task description",
+        "order": 1,
+        "location": "first task location",
+        "objective": "first task objective"
+      },
+      {
+        "description": "second task description",
+        "order": 2,
+        "location": "second task location",
+        "objective": "second task objective"
+      },
+      {
+        "description": "third task description",
+        "order": 3,
+        "location": "third task location",
+        "objective": "third task objective"
+      }
+    ]
+  }
+}

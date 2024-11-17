@@ -1,0 +1,36 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Missing Princess</title>
+	<objective>Find and rescue the missing princess from the dragon's lair.</objective>
+	<description>The princess of the kingdom has been kidnapped by a dragon and taken to its lair. The king has offered a reward to anyone who can bring her back safely.</description>
+	<reward>500 gold and a magical artifact.</reward>
+	<quest-giver King of Redmont</quest-giver> <!-- Added closing tag for quest-giver -->
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Dragon's Lair</objective>
+			<description>The dragon's lair is located in the mountains to the north of the kingdom. It is a dark and dangerous place, filled with traps and monsters.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Dragon</objective>
+			<description>In order to free the princess, the dragon must be defeated. The dragon is a powerful creature, so the party will need to use all of their skills and abilities to defeat it.</description>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Rescue the Princess</objective>
+			<description>Once the dragon is defeated, the princess may be imprisoned in a cell or held captive by the dragon's servants.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to the King</objective>
+			<description>Once the princess is rescued, the party will need to return to the king to collect their reward.</description>
+			<location>Redmont Castle</location>
+		</task>
+	</tasks>
+</game>
+```

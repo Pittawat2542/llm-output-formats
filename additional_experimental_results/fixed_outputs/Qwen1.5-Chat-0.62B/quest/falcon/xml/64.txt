@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0"?>  
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+	 Giver: Quest Giver
+	 Tasks:
+		<task id="quest-id"> 
+			Order: Task Order <Objective> Task Objective <Description>Task Description <Location> Task Location</Location> 
+		</task>
+	</game>
+```
+The syntax in the original code is incorrect and needs to be corrected. The `任务` element should have a `id` attribute, not an `id` attribute with a value of `quest-id`. Additionally, the `objective` element should use a single string instead of multiple strings. 
+```xml
+<?xml version="1.0"?>  
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+	 Giver: Quest Giver
+	 Tasks:
+		<task id="quest-id"> 
+			Order: Task Order <Objective> Task Objective <Description>Task Description <Location> Task Location</Location> 
+			<objective>
+				<string>Quest Objective 1</string> <string>Quest Objective 2</string> 
+			</ objective>
+		</task>
+	</game>
+```
+The `objective` element now has a single string value of the desired objectives.

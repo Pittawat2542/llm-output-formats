@@ -1,0 +1,31 @@
+game:
+  enemy:
+    description: A challenging opponent with specific attributes.
+    id: enemy_id
+    name: Enemy_Name
+    atk: 10
+    def: 5
+    hp: 30
+    mp: 20
+    spd: 15
+
+# YAML code block
+game:
+  # New values for the enemy
+  enemy_id: 1
+  enemy_name: Shadow_Ghost
+  atk: 15
+  def: 3
+  hp: 45
+  mp: 25
+  spd: 20
+
+Note: The game now includes a new "enemy" mapping with the following values:
+
+- ID: 1 (updated from "enemy")
+- Name: Shadow_Ghost (updated from "definition of enemy.")
+- Attack: 15 (new value)
+- Defence: 3 (new value)
+- Health: 45 (new value)
+- MP: 25 (new value)
+- Speed: 20 (new value)

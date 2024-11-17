@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>67890</id>
+    <title>The Quest for the Amulet</title>
+    <objective>Find and return the amulet to Queen Elizabeth's castle</objective>
+    <description>A perilous quest awaits brave adventurers like you. The ancient amulet is said to be safeguarded deep within the Cavern of Whispers. Success brings great honor and treasure.</description>
+    <reward>500 gold coins, a royal decree, and the gratitude of the kingdom</reward>
+    <quest-giver>Queen Elizabeth</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the entrance to the Cavern of Whispers</objective>
+            <description>The entrance can be found hidden behind a waterfall near the eastern edge of the enchanted forest. Search for clues among the ancient trees.</description>
+            <location>Enchanted Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Overcome the ice monster at the entrance</objective>
+            <description>A formidable guardian blocks your way. You must defeat the icy creature to proceed.</description>
+            <location>Cavern of Whispers entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Navigate the treacherous tunnels</objective>
+            <description>Be cautious, for false passages are abundant. Follow the ancient markings to reach the chamber containing the amulet.</description>
+            <location>Cavern of Whispers</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Secure the amulet and return it</objective>
+            <description>Once you find the amulet, return it with all due respect to the queen's chambers.</description>
+            <location>Cavern of Whispers chamber</location>
+        </task>
+    </tasks>
+</game>
+```

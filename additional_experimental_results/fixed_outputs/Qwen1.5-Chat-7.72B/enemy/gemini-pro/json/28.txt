@@ -1,0 +1,29 @@
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "id1",
+            "name": "enemy_name1",
+            "description": "enemy_description1",
+            "stats": {
+                "hp": 100,
+                "mp": 50,
+                "atk": 50,
+                "def": 30,
+                "spd": 40
+            }
+        },
+        "id2": {
+            "name": "name2",
+            "description": "description2",
+            "stats": {
+                "hp": 150,
+                "mp": 75,
+                "atk": 60,
+                "def": 45,
+                "spd": 50
+            }
+        }
+    }
+}
+```

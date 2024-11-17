@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>id_value</id>
+    <title>quest_title</title>
+    <objective>quest_objective</objective>
+    <description>quest_description</description>
+    <reward>quest_reward</reward>
+    <quest-giver quest_giver_name="quest_giver"></quest-giver>
+    <tasks>
+        <task>
+            <order>task_order_value</order>
+            <objective>task_objective</objective>
+            <description>task_description</description>
+            <location>task_location</location>
+        </task>
+    </tasks>
+</game>
+```
+In this fixed XML, I have added the missing attribute `quest_giver_name` to the `<quest-giver>` element with a default value of "quest_giver". Also, I've provided some placeholder values for `id_value`, `quest_title`, and `task_order_value`. If you want to keep the original structure without providing new values, just remove these placeholders.

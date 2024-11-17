@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>some_number</id>
+	<title>A Noble's Quest</title>
+	<objective>Retrieve the stolen family crest from the bandits in the forest</objective>
+	<description>Lord Noble has had his prized family crest stolen by a group of bandits. You must find them and retrieve the crest for your reward.</description>
+	<reward>100 gold pieces</reward>
+	<quest-giver>Lord Noble</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to Lord Noble in his castle about the stolen crest</objective>
+			<description>Lord Noble will give you information about where the bandits might be hiding out.</description>
+			<location>Noble's Castle, near the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find and confront the bandit leader in the forest</objective>
+			<description>The bandits are camped out in a clearing in the forest, north of the village. Once you've found their leader, defeat them to retrieve the family crest.</description>
+			<location>Forest, north of the village</location>
+		</task>
+	</tasks>
+	<giver>quest giver to get reward</giver>
+</game>
+```

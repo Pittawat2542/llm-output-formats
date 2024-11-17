@@ -1,0 +1,38 @@
+### Fixed YAML Data:
+```
+game:
+  character:
+    age: 19
+    background: I was born in the slums of a major city.
+    first_name: Jane
+    id: 101
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 5'7"
+      weight: 130 lbs
+    place_of_birth: The slums of a major city
+    role: A thief
+    species: Human
+```
+
+
+### Markdown Output:
+```yaml
+game:
+  character:
+    age: 19
+    background: I was born in the slums of a major city.
+    first_name: Jane
+    id: 101
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 5'7"
+      weight: 130 lbs
+    place_of_birth: The slums of a major city
+    role: A thief
+    species: Human
+```

@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Quest001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient scrolls from the Lost Temple of Eldarath.</objective>
+	<description>Rumors have been circulating about an ancient temple deep within the mystical forest, holding secrets and knowledge that could change the course of history. Your quest is to retrieve the ancient scrolls hidden within its walls.</description>
+	<reward>1000 gold pieces, a magical amulet granting resistance to dark magic</reward>
+	<quest-giver>Eriol the Wise, Sage of Silvermist Village</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location from local villagers.</objective>
+			<description>Talk to the villagers in Silvermist to gather clues and pieces of information that could lead you to the Lost Temple of Eldarath. Be wary, as not all may be willing to share their knowledge freely.</description>
+			<location>Silvermist Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the mystical forest and reach the entrance of the temple.</objective>
+			<description>With your newfound information, navigate the perilous paths of the mystical forest. Ancient magic protects the temple, making it visible only to those with pure intent and determination.</description>
+			<location>Mystical Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the ancient puzzle at the entrance of the temple.</objective>
+			<description>To enter the Lost Temple, you must solve an ancient puzzle that requires wisdom and wit. Failure will result in eternal slumber within the mystical forest.</description>
+			<location>Entrance of the Lost Temple of Eldarath</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the ancient scrolls from the temple's inner sanctum.</objective>
+			<description>Once inside, navigate through trials and challenges that test your courage and wisdom. The scrolls are hidden in the heart of the temple, guarded by powerful spirits who will only yield to one who is pure of heart.</description>
+			<location>Inner Sanctum of the Lost Temple of Eldarath</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return to Eriol the Wise with the ancient scrolls.</objective>
+			<description>Having overcome all obstacles, return to Silvermist Village and present the ancient scrolls to Eriol the Wise. Your quest will be rewarded, but remember that knowledge comes with great responsibility.</description>
+			<location>Silvermist Village</location>
+		</task>
+	</tasks>
+</game>
+```

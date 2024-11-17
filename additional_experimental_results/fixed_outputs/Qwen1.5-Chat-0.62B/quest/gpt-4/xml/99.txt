@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	 Objective: Retrieve the lost artifact and return it to the village elder.</Objective>
+	 Description: The ancient artifact of the village was stolen by a group of bandits. It is your task to recover it and bring it back to the village elder. Be careful, the bandits are hiding in the mountain caverns.
+	 Reward: 2000 gold pieces and Potion of Eternity
+	 Quest-giver: Village Elder
+	 Tasks:
+			<task>
+				Order 1: Find the location of the caverns
+			 Objective: Ask around the village and collect clues to find the location of the mountain caverns.
+			 Description: Ask around the village and collect clues to find the location of the mountain caverns.
+			 Location: Village
+			</task>
+			<task>
+				Order 2: Defeat the bandits and recover the artifact
+			 Objective: Face the bandits and defeat them to recover the artifact.
+			 Description: Face the bandits and defeat them to recover the artifact.
+			 Location: Mountain C caverns
+			</task>
+			<task>
+				Order 3: Return the artifact to the elder
+			 Objective: Return to the village and give the artifact back to the village elder.
+			 Description: Return to the village and give the artifact back to the village elder.
+			 Location: Village
+			</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,28 @@
+```xml
+Quest: Quest Number
+ID: Quest Number
+Title: Quest Title
+Objective: Quest Objective Description
+Description: Quest Description
+
+Rewards:
+- Quest奖励
+- Quest Giver Description
+```
+
+Output in Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<id>Quest Number</id>
+	<title>Quest Title</title>
+	-objective>Quest Objective Description
+	description>Quest Description
+
+Rewards:
+- Quest奖励
+- Quest Giver Description
+</game>
+```
+
+Note: The code is not complete as it needs to be further improved.

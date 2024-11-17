@@ -1,0 +1,32 @@
+```yaml
+game:
+  enemies:
+    - description: This is a description
+      id: 12345
+      name: Enemy 1
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+    - description: This is a description
+      id: 12345
+      name: Enemy 2
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+    - description: This is a description
+      id: 12345
+      name: Enemy 3
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+    # Repeat for more enemies up to 40 if needed, following the same structure
+```

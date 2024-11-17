@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the Dark Castle.
+  id: q_001
+  objective: Return to the Village Elder with the sword.
+  quest_giver: Village Elder
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item_name: Sword of Light
+  tasks:
+  - description: Explore the Dark Castle and find the entrance to the throne room.
+    location: Dark Castle
+    objective: Find the throne room entrance
+    order: 1
+  - description: Defeat the Dark Knight guarding the sword.
+    location: Throne Room
+    objective: Defeat the Dark Knight
+    order: 2
+  - description: Claim the Sword of Light from its pedestal.
+    location: Throne Room
+    objective: Retrieve the sword
+    order: 3
+  title: The Quest for the Sword of Light
+```

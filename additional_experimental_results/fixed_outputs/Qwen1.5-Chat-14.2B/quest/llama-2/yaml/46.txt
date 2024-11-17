@@ -1,0 +1,50 @@
+The issue with the original YAML data is that there's an extra backtick (`) at the end of the file. Here's the corrected YAML:
+
+```yaml
+game:
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: Someone
+  reward: A quest reward
+  tasks:
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 1
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 2
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 3
+  title: A quest to get a quest reward
+```
+
+Note: If you want to include the `INST` or any other instructions as a comment, you can do so by adding it after the YAML data, but outside the YAML syntax. For example:
+
+```yaml
+game:
+  # Instructions (e.g., [INST])
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: Someone
+  reward: A quest reward
+  tasks:
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 1
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 2
+    - description: Get a quest reward
+      location: Somewhere
+      objective: Get quest reward
+      order: 3
+  title: A quest to get a quest reward
+```

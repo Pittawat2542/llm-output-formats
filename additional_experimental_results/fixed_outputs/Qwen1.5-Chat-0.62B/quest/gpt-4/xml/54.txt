@@ -1,0 +1,26 @@
+XML data corrected:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>003</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the Dragon</objective>
+	<description>A dragon has been terrorizing the local village. It lives in a cave on the side of the nearby mountain. Your mission is to put an end to its reign of terror.</description>
+	<reward>Dragon's treasure</ reward>
+	<quest-giver>Village Leader</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			bjective>Find the Dragon's Lair</objective>
+				<description>Travel through the treacherous mountain path to find the dragon's lair</description>
+				Misty Mountain
+			</task>
+			<task>
+				<order>2</order>
+			bjective>Defeat the Dragon</objective>
+				<description>Use your sword and your wits to overcome the beast</description>
+				Dragon's Lair
+			</task>
+		</tasks>
+</game>
+```

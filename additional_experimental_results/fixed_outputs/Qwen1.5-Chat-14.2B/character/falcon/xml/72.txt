@@ -1,0 +1,57 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<character isPlaying>
+		<id>Jedi</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>30</age>
+		<place-of-birth>USA</place-of-birth>
+		<physical-appearance>
+			<eye-color>blue</eye-color>
+			<hair-color>brown</hair-color>
+			<height>5'8"</height>
+			<weight>120 lbs</weight>
+		</physical-appearance>
+		<role>forward position in basketball team</role>
+		<play-byplay>Jedi in green lightsaber</play-byplay>
+	</character>
+</game>
+```
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<character isPlaying>
+		<id>Alex</id>
+		<first-name>Alex</first-name>
+		<last-name>Doe</last-name>
+		<species>person</species>
+		<age>25</age>
+		<place-of-birth>USA</place-of-birth>
+		<physical-appearance>
+			<eye-color>brown</eye-color>
+			<hair-color>brown</hair-color>
+			<height>6'0"</height>
+			<weight>150 lbs</weight>
+		</physical-appearance>
+		<role>center position in basketball team</role>
+		<play-byplay>Person in blue shirt with blue eye glasses</play-byplay>
+		<characters>
+			<character id="John" first-name="Alex" last-name="Doe" species="person" age="25" place-of-birth="USA">
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6'0"</height>
+				<weight>150 lbs</weight>
+			</character>
+		</characters>
+		<characters>
+			<character id="Jahnik" first-name="Alex" last-name="Doe" species="person">
+				<!-- Missing closing tag for age attribute -->
+				<age>25</age>
+			</character>
+		</characters>
+	</character>
+</game>
+```

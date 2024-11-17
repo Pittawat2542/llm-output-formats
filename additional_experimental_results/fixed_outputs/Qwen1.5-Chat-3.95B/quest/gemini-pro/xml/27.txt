@@ -1,0 +1,67 @@
+<?xml version="1.0" xmlns="http://www.w3.org/2019/10#main" xmlns:x="https://www.w3.org/2019/10#main" xml:lang="en">
+<game>
+	<id>1</id>
+	<title>Find the Lost Treasure</title>
+	<objective>Find the lost treasure of the ancient Aztecs.</objective>
+	<description>The lost treasure of the ancient Aztecs is said to be hidden in a secret location in the mountains. You must find it and bring it back to the village.</description>
+	<reward>The treasure is worth a lot of gold and jewels.</reward>
+	<questGiver>The village elder</questGiver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>Find the entrance to the secret location.</objective>
+				<description>The entrance to the secret location is hidden in a cave. You must find it and open it.</description>
+			<location>The mountains</location>
+		<-task>
+			<task>
+				<order>2</order>
+				objective>Defeat the guardians of the treasure.</objective>
+				<description>The treasure is protected by powerful guardians. You must defeat them in order to claim it.</description>
+				<location>The secret location</location>
+		<-task>
+			<task>
+				<order>3</order>
+				objective>Find the treasure and bring it back to the village.</objective>
+				<description>Once you have defeated the guardians, you must find the treasure and bring it back to the village.</description>
+			<location>The secret location</location>
+		<-task>
+	<tasks>
+</game>
+</game>
+```xml
+```xml
+<div class="code-block" xmlns="https://www.w3.org/2019/10#main" lang="en">
+<game>
+	<id>1</id>
+	<title>Find the Lost Treasure</title>
+	<objective>Find the lost treasure of the ancient Aztecs.</objective>
+	<description>The lost treasure of the ancient Aztecs is said to be hidden in a secret location in the mountains. You must find it and bring it back to the village.</description>
+	<reward>The treasure is worth a lot of gold and jewels.</reward>
+	<questGiver>The village elder</questGiver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>Find the entrance to the secret location.</objective>
+				<description>The entrance to the secret location is hidden in a cave. You must find it and open it.</description>
+			<location>The mountains</location>
+		<-task>
+			<task>
+				<order>2</order>
+				objective>Defeat the guardians of the treasure.</objective>
+				<description>The treasure is protected by powerful guardians. You must defeat them in order to claim it.</description>
+				<location>The secret location</location>
+		<-task>
+			<task>
+				<order>3</order>
+				objective>Find the treasure and bring it back to the village.</objective>
+				<description>Once you have defeated the guardians, you must find the treasure and bring it back to the village.</description>
+			<location>The secret location</location>
+		<-task>
+	<tasks>
+</game>
+</game>
+```xml
+```xml
+</div>
+</code-block>
+</div>

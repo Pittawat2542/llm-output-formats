@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Bob</name>
+		<description>A nice guy</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+The error was caused by a missing closing tag for the `<stats>` element. I added the closing `</stats>` tag to fix the XML syntax. The rest of the XML data seemed well-formed, so no other changes were needed.

@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>67890</id>
+        <first-name>Bob</first-name>
+        <last-name>Jones</last-name>
+        <species>Dog</species>
+        <age>30</age>
+        <role>Coincidental Hero</role>
+        <background>Bob is a friendly neighborhood dog who偶然发现并帮解决了小镇的一桩神秘案件。</background>
+        <place-of-birth>Unknown (Doghouse)</place-of-birth>
+        <physical-appearance>
+            <height>1.2</height> <!-- Changed weight to float value for a dog -->
+            <weight>50</weight> <!-- Assuming this is the weight in pounds, not kilograms -->
+            <feature>Short fur, brown eyes</feature> <!-- Added feature tag for physical description -->
+        </physical-appearance>
+    </character>
+</game>
+```

@@ -1,0 +1,56 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="001">
+    <title>Rescue the Princess</title>
+    <objective>Raise the princess to safety from the enemy's castle</objective>
+    <description>You are required to infiltrate the enemy's castle and rescue the princess who has been captured. You will encounter various challenges along the way which you must overcome. Be on the lookout for secret passages inside the castle. Good luck!</description>
+    <reward>The Kingdom's Gratitude and a Royal Sword</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Gather information about the enemy's castle</objective>
+            <description>Talk to the villagers and collect as much information as you can about the enemy's castle such as the guard's rotation time, secret passages etc.</description>
+            <location>Village</location>
+        </task>
+        <task order="2">
+            <objective>Infiltrate enemy's castle</objective>
+            <description>Use the information gathered to infiltrate the enemy's castle. Avoid direct confrontation as much as you can. Find the princess' cell.</description>
+            <location>Enemy's Castle</location>
+        </task>
+        <task order="3">
+            <objective>Rescue the princess and escape</objective>
+            <description>Once you find the princess, lead her out of the castle carefully. Reach the castle's main gate to complete the task.</description>
+            <location>Enemy's Castle</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<game id="001">
+    <title>Rescue the Princess</title>
+    <objective>Raise the princess to safety from the enemy's castle</objective>
+    <description>You are required to infiltrate the enemy's castle and rescue the princess who has been captured. You will encounter various challenges along the way which you must overcome. Be on the lookout for secret passages inside the castle. Good luck!</description>
+    <reward>The Kingdom's Gratitude and a Royal Sword</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Gather information about the enemy's castle</objective>
+            <description>Talk to the villagers and collect as much information as you can about the enemy's castle such as the guard's rotation time, secret passages etc.</description>
+            <location>Village</location>
+        </task>
+        <task order="2">
+            <objective>Infiltrate enemy's castle</objective>
+            <description>Use the information gathered to infiltrate the enemy's castle. Avoid direct confrontation as much as you can. Find the princess' cell.</description>
+            <location>Enemy's Castle</location>
+        </task>
+        <task order="3">
+            <objective>Rescue the princess and escape</objective>
+            <description>Once you find the princess, lead her out of the castle carefully. Reach the castle's main gate to complete the task.</description>
+            <location>Enemy's Castle</location>
+        </task>
+    </tasks>
+</game>
+```
+The XML data has been fixed with correct syntax and values as provided in the original message. The task order for each task is now represented using `order` attribute, and the objective, description, reward, quest-giver, and location are also included within the `<tasks>` element.

@@ -1,0 +1,23 @@
+{
+  "game": {
+    "@xmlns": "http://xmlns.com",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:schemaLocation": "http://www.xmlns.com/sax/ns1/game.xsd",
+    "dialogues": {
+      "dialogue": {
+        "order": {
+          "@xmlns": "http://xmlns.com/sax/ns1/dialogues",
+          "#text": "dialogue order"
+        },
+        "speaker": {
+          "@xmlns": "http://xmlns.com/sax/ns1/\u8bb2\u8bdd\u8005",
+          "#text": "speaker name"
+        },
+        "text": {
+          "@xmlns": "http://xmlns.com/sax/ns1/text",
+          "#text": "dialogue or narration"
+        }
+      }
+    }
+  }
+}

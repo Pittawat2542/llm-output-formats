@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<game id="123456">
+    <title>The Lost Treasure</title>
+    <objective Find the hidden treasure</objective>
+    <description Embark on an adventure to find the lost treasure of the ancient civilization. Solve puzzles, defeat enemies, and navigate through treacherous environments to claim the ultimate prize.</description>
+    <reward Ancient artifact and a chest of gold coins</reward>
+    <quest-giver Captain Graybeard>
+        <tasks>
+            <task order="1" objective="Retrieve the ancient map">
+                <location Forgotten Island</location>
+            </task>
+            <task order="2" objective="Decode the map">
+                <description Study the ancient symbols and decipher the map to reveal the secret location of the treasure.</description>
+                <location Player's Hideout</location>
+            </task>
+            <task order="3" objective="Confront the guardians">
+                <description Battle against the guardians of the treasure to prove your worth and gain access to the final chamber.</description>
+                <location The Temple of Guardians</location>
+            </task>
+            <task order="4" objective="Claim the treasure">
+                <description Reach the heart of the temple and claim the long-lost treasure. Beware of traps and solve the final puzzle to unlock its true power.</description>
+                <location The Chamber of the Lost</location>
+            </task>
+        </tasks>
+    </quest-giver>
+</game>

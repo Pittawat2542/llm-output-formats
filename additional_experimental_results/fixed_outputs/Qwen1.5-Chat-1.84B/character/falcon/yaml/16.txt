@@ -1,0 +1,38 @@
+Corrected YAML data:
+```yaml
+game:
+  character:
+    age: 30
+    background (story): The character was born into a family of powerful wizards.
+    first_name: James Sirius Potter
+    id: 1234567890abcdefg
+    last_name: Harry Potter
+    physical_appearance:
+      eye_color: brownish-black
+      hair_color: dark brown
+      height (in meters): 6'3"
+      weight (in kilograms): 80 kg
+    place_of_birth: Hogwarts School of Witchcraft and Wizardry
+    role: Student at Hogwarts
+    species: Muggle
+```
+Output format:
+```yaml
+game:
+  character:
+    age: 30
+    background (story):
+      - story: The character was born into a family of powerful wizards.
+        id: James Sirius Potter
+    first_name: James Sirius Potter
+    id: 1234567890abcdefg
+    last_name: Harry Potter
+    physical_appearance:
+      eye_color: brownish-black
+      hair_color: dark brown
+      height (in meters): 6'3"
+      weight (in kilograms): 80 kg
+    place_of_birth: Hogwarts School of Witchcraft and Wizardry
+    role: Student at Hogwarts
+    species: Muggle
+```

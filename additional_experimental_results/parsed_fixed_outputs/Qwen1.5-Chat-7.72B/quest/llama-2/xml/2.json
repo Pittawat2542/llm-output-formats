@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "NewQuestTitle",
+    "objective": "Complete the Temple",
+    "description": "Find the ancient artifact and deliver it to the High Priest",
+    "reward": "Gold coins and a rare magical amulet",
+    "quest-giver": "Nameless Guide",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Explore the Temple Ruins",
+        "description": "Follow the signs marked with an `X`",
+        "location": "East Village, South Sector"
+      }
+    }
+  }
+}

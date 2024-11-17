@@ -1,0 +1,12 @@
+```yaml
+game:
+  dialogues:
+    - order: dialogue_order
+      speaker: speaker_name
+      text: dialogue
+    - order: dialogue_order
+      speaker: speaker_name
+      text: narration
+```
+This YAML data is corrected by adding a new key `dialogues` under the `game` section, with two associated keys: `order` and `speaker`. The `order` key contains the dialogue order for each speech segment, while the `speaker` key specifies the name of the speaker who delivers the dialogue.
+The original YAML data remains unchanged in the code block, but the corrected YAML data is provided as output.

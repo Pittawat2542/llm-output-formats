@@ -1,0 +1,41 @@
+The issue with the original YAML data is that there are no indentation levels to separate the list items in the `dialogues` array. Here's the corrected version of the YAML, with proper indentation:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+```
+
+For the rest of the examples provided (which are essentially the same as the first one), you just need to maintain this structure for each additional item in the `dialogues` list. Here's how it would look for all 23 examples:
+
+```yaml
+# Example 1, fixed
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+
+# Rest of the examples (same structure)
+```
+
+If you want to include more than two items in each example, just add more `-` lines with the same structure:
+
+```yaml
+# Example 2
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+
+# Repeat this for all additional examples
+```

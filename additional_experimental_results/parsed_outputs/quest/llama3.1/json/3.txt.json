@@ -1,0 +1,34 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient Moon Crystal and return it to the Temple Priestess",
+    "description": "The Moon Goddess's temple has been desecrated by dark forces. The only way to restore balance is to retrieve her sacred crystal.",
+    "reward": {
+      "experience": 1000,
+      "gold": 500,
+      "item": "Moon Crystal"
+    },
+    "quest_giver": "Temple Priestess, Aethera",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Speak with the elderly Oracle in the nearby village.",
+        "description": "Gather information from the Oracle about the temple's current state and any potential threats.",
+        "location": "Village of Eldrador"
+      },
+      {
+        "order": 2,
+        "objective": "Explore the abandoned mine near the temple for hidden passages.",
+        "description": "Use your wits to navigate the treacherous tunnels and uncover a secret entrance to the temple.",
+        "location": "Abandoned Mine, Temple of the Moon Goddess"
+      },
+      {
+        "order": 3,
+        "objective": "Defeat the dark cult leader within the temple's central chamber.",
+        "description": "Face your fears and overcome the cult leader's minions to reach the Moon Crystal.",
+        "location": "Central Chamber, Temple of the Moon Goddess"
+      }
+    ]
+  }
+}

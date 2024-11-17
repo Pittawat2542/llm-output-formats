@@ -1,0 +1,39 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "12",
+      "id": "id",
+      "name": "CharacterA",
+      "description": "A Detailed Character Description",
+      "stats": {
+        "hp": {
+          "@value": "200"
+        },
+        "mp": {
+          "@value": "500"
+        },
+        "atk": {
+          "@value": "300"
+        },
+        "def": {
+          "@value": "150"
+        },
+        "spd": {
+          "@value": "100"
+        }
+      },
+      "hp": {
+        "@value": "80"
+      },
+      "mp": {
+        "@value": "7500"
+      },
+      "atk": {
+        "@value": "-20"
+      },
+      "def": {
+        "@value": "100"
+      }
+    }
+  }
+}

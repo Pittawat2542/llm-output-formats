@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "A Thief in the Night",
+    "objective": "Speak with the village elder to learn about the stolen artifact",
+    "description": "The precious Ruby of Serenity has been stolen from the village elder. Speak with him to learn about the thief's identity and location.",
+    "reward": "50 Gold, 10 XP",
+    "quest-giver": "Elder Grimbald",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak with Elder Grimbald to begin the quest",
+          "description": "Find Elder Grimbald in the village and speak with him about the stolen Ruby of Serenity.",
+          "location": "Village Square (North of Town)"
+        },
+        {
+          "order": "2",
+          "objective": "Find out who stole the Ruby of Serenity",
+          "description": "Speak with the villagers to learn about any suspicious activities or individuals in the village.",
+          "location": "Village Square (Central Area)"
+        },
+        {
+          "order": "3",
+          "objective": "Confront the thief and retrieve the Ruby of Serenity",
+          "description": "Find the thief and confront them about the stolen Ruby of Serenity. Be prepared for a fight.",
+          "location": "Thieves' Hideout (South of Town)"
+        }
+      ]
+    }
+  }
+}

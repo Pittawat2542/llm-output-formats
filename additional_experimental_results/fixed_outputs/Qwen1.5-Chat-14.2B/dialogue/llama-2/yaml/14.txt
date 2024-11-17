@@ -1,0 +1,20 @@
+Here is the corrected YAML data:
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: 1
+    text: 1
+  - order: 2
+    speaker: 2
+    text: 2
+  - order: 3
+    speaker: 3
+    text: 3
+  - order: 4
+    speaker: 4
+    text: 4
+```
+
+The issue was that the `-` character before `order`, `speaker`, and `text` keys in each dialogue item was missing, which is required for a list (`-` signifies an item). Additionally, there should not be any separate YAML documents outside the main structure. The corrected YAML above has all the elements nested under the `game` object within a single document.

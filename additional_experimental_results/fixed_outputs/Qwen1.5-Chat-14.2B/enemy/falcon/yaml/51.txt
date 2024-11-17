@@ -1,0 +1,18 @@
+```yaml
+game:
+  enemy:
+    type: "spd" # or "atk" or "def"
+    id: id_value
+    name: name_value
+    stats:
+      atk:
+        value1: atk1_int_value
+      def:
+        value2: def2_int_value
+      hp:
+        value3: hp3_int_value
+      mp:
+        value4: mp4_int_value
+      spd:
+        value5: spd5_int_value
+```

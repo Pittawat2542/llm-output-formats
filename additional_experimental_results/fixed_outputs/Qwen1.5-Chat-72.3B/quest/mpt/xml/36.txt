@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>In search of a legendary artifact, you must explore the treacherous ruins and overcome its challenges to uncover its secrets.</description>
+	<reward>1000 experience points and a rare magical item</reward>
+	<quest-giver>Gilderus, the Wise Wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Ruins of Arkania</objective>
+			<description>Make your way through the dense forest and find the entrance to the ancient ruins.</description>
+			<location>The Forest of Elders</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian Statue</objective>
+			<description>激活守护雕像的谜题，击败它以进入内部结构。</description>
+			<location>Ruins of Arkania entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the artifact from the Altar of Ancients</objective>
+			<description>在祭坛上找到并取回失落的神器，但要小心守卫的陷阱。</description>
+			<location>Inner Chamber of Arkania Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

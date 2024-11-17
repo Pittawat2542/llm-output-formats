@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "G001",
+        "title": "The Lost Temple",
+        "objective": "Find the lost temple and retrieve the ancient artifact.",
+        "description": "A powerful artifact has been lost within the long-abandoned temple. The tribe's shaman has asked for your help to recover it.",
+        "reward": "Golden Sword",
+        "quest_giver": "Shaman of the Tribe",
+        "tasks": [{
+            "order": 1,
+            "objective": "Reach the entrance of the lost temple.",
+            "description": "Navigate through the jungle and find the entrance of the lost temple.",
+            "location": "Jungle, near the waterfall"
+        }, {
+            "order": 2,
+            "objective": "Solve the puzzle to unlock the inner chamber.",
+            "description": "Use your wits to solve the ancient puzzle that unlocks the inner chamber.",
+            "location": "Inner Chamber of the Lost Temple"
+        }, {
+            "order": 3,
+            "objective": "Retrieve the ancient artifact.",
+            "description": "Once inside, retrieve the ancient artifact and prepare for your return journey.",
+            "location": "Treasure Room of the Lost Temple"
+        }]
+    }
+}
+```

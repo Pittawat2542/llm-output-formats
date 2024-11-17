@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A thrilling adventure",
+    "id": "adventure_id",
+    "objective": "Complete the quest to save the kingdom",
+    "quest_giver": "King's Messenger",
+    "reward": "Valuable treasure and honor",
+    "tasks": [
+      {
+        "description": "Find the ancient artifact",
+        "location": "Castle Grounds",
+        "objective": "Uncover the artifact's hidden chamber",
+        "order": 1
+      },
+      {
+        "description": "Meet with the wise wizard",
+        "location": "Wizard's Tower",
+        "objective": "Seek counsel for the next clue",
+        "order": 2
+      },
+      {
+        "description": "Defeat the dragon at the volcano",
+        "location": "Volcano Pass",
+        "objective": "Prove courage and defeat the foe",
+        "order": 3
+      }
+    ],
+    "title": "The Hero's Journey"
+  }
+}

@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "qst001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "A long-abandoned temple lies deep within the forest, rumored to contain a powerful relic. Brave adventurers are needed to retrieve it before rival treasure hunters do.",
+    "reward": "Gold: 1000, Experience: 500",
+    "quest_giver": "Gorvoth, the Wanderer",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Locate the lost temple in the heart of the forest.",
+        "description": "Follow the winding path through the dense foliage until you reach a clearing with a massive stone entrance.",
+        "location": "Forest of Wysteria, 45.23° N, 121.57° W"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the ancient puzzle to unlock the temple doors.",
+        "description": "Examine the intricate carvings on the stone entrance and rotate the crystal wheel to align the celestial bodies.",
+        "location": "The Lost Temple Entrance, 46.45° N, 121.11° W"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the ancient artifact from the inner sanctum.",
+        "description": "Navigate through the treacherous maze and overcome deadly traps to reach the artifact pedestal.",
+        "location": "The Inner Sanctum, 46.45° N, 121.11° W"
+      }
+    ]
+  }
+}
+```

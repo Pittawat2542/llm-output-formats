@@ -1,0 +1,14 @@
+```yaml
+game:
+  description: quest description
+  id: <id> # use your desired identifier for the markdown code block
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title # use this in the markdown code block
+```

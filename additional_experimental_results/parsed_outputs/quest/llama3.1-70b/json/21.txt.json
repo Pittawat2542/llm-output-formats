@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "EQ_001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient artifact hidden within the lost temple.",
+    "description": "Legend has it that an ancient civilization hid a powerful artifact deep within the lost temple. The temple is said to be cursed, but many have attempted to find the artifact before. Will you be the one to succeed?",
+    "reward": "Ancient Scroll and 1000 Gold Coins",
+    "quest_giver": "Old Sage in Willowdale Village",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost temple from the local villagers.",
+        "description": "Talk to the villagers in Willowdale Village and gather as much information as you can about the lost temple. They may have heard rumors or stories that could aid you on your quest.",
+        "location": "Willowdale Village"
+      },
+      {
+        "order": 2,
+        "objective": "Explore the nearby forest to find the entrance to the lost temple.",
+        "description": "Head into the nearby forest and search for any signs of the lost temple. The villagers may have given you some clues about where to look.",
+        "location": "Nearby Forest"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the ancient artifact from within the lost temple.",
+        "description": "You've found the entrance, now it's time to face whatever dangers lie within. Navigate through the traps and puzzles to reach the inner sanctum where the artifact awaits.",
+        "location": "Lost Temple"
+      }
+    ]
+  }
+}

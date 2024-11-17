@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Quest to the Forgotten Temple</title>
+    <objective>Find and return the lost artifact from the temple</objective>
+    <description>A challenging journey awaits. Uncover the temple's secrets, overcome obstacles, and prove your worth to Elder Bard.</description>
+    <reward>Valuable artifacts, knowledge, and prestige</reward>
+    <quest-giver>Elder Bard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the entrance to the Deep Forest Temple</objective>
+            <description>Explore the dense forest and locate the temple's entrance.</description>
+            <location>Deep Forest</location>
+        </task>
+        <!-- Tasks are continued here -->
+        <!-- ... -->
+    </tasks>
+</game>
+```

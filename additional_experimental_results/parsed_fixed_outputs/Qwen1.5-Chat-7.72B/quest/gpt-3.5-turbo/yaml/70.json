@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Find the lost treasure in the ancient temple.",
+    "id": "67890",
+    "objective": "Retrieve the sacred artifact from the temple's depths",
+    "quest_giver": "Mystery Guide",
+    "reward": "10,000 gold pieces",
+    "tasks": [
+      {
+        "description": "Expedite through the treacherous swamp to uncover the entrance.",
+        "location": "Swamp of Secrets",
+        "objective": "Discover a hidden path to the temple.",
+        "order": 1
+      },
+      {
+        "description": "Overcome ancient puzzles in the underground chambers.",
+        "location": "Subterranean Crypts",
+        "objective": "Solve the riddles and bypass traps.",
+        "order": 2
+      },
+      {
+        "description": "Uncover the artifact by revealing its hidden chamber.",
+        "location": "The Artifacts' Chamber",
+        "objective": "Unveil the hidden chamber and claim the artifact.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Ancient Temple's Lost Relic"
+  }
+}

@@ -1,0 +1,20 @@
+Here's the corrected XML data with proper syntax and new values if needed:
+
+```xml
+<game>
+    <enemy>
+        <id>123</id>
+        <name>Goblin</name>
+        <description>Fiercely aggressive</description>
+        <stats>
+            <hp>50</hp>
+            <mp>30</mp>
+            <atk>40</atk>
+            <def>20</def>
+            <spd>25</spd>
+        </stats>
+    </enemy>
+</game>
+```
+
+This XML structure contains a single `enemy` element with the required attributes and child elements for an enemy in a game. The values provided are placeholders (`123`, `Goblin`, `Fiercely aggressive`, etc.), you can replace them with actual data if needed.

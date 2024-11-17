@@ -1,0 +1,37 @@
+Here is the corrected YAML data with new values:
+```yaml
+game:
+  character:
+    age: 25
+    background: orphan
+    first_name: Luna
+    last_name: Luna
+    physical_appearance:
+     - eye_color: blue
+      hair_color: brown
+      height: 1.6
+      weight: 50
+      description: The protagonist is a young human who was born on Earth and has had an orphan life due to the loss of her family during a catastrophic event. She is currently exploring her surroundings and forming relationships with others as she tries to piece together her past.
+      place_of_birth: Earth
+      role: human
+      species: human
+```
+
+Output:
+```yaml
+game:
+  character:
+    age: 25
+    background: orphan
+    first_name: Luna
+    last_name: Luna
+    physical_appearance:
+     - eye_color: blue
+      hair_color: brown
+      height: 1.6
+      weight: 50
+      description: The protagonist is a young human who was born on Earth and has had an orphan life due to the loss of her family during a catastrophic event. She is currently exploring her surroundings and forming relationships with others as she tries to piece together her past.
+      place_of_birth: Earth
+      role: human
+      species: human
+```

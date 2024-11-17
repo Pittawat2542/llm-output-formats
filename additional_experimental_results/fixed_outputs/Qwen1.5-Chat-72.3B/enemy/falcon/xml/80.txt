@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>id</id>
+        <name>Name</name>
+        <description>Description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy>
+        <id>id2</id>
+        <name>Name2</name>
+        <description>Description2</description>
+        <stats>
+            <hp>hp int value2</hp>
+            <mp>mp int value2</mp>
+            <atk>atk int value2</atk>
+            <def>def int value2</def>
+            <spd>spd int value2</spd>
+        </stats>
+    </enemy>
+
+    <!-- Removed the incorrect bonus section and added a new enemy for consistency -->
+</game>
+```

@@ -1,0 +1,35 @@
+Here's the corrected YAML data with new values added as per the provided template:
+```yaml
+game:
+  title: Quest Title
+  description: Quest Description
+  objective: Quest Objective
+  quest_giver: Quest Giver
+  reward: Reward
+  tasks:
+   - task: Task 1
+     description: Task Description 1
+     location: Location 1
+     objective: Objective 1
+     order: Order 1
+     time_required: Time required 1
+     additional_data: Additional data 1
+   - task: Task 2
+     description: Task Description 2
+     location: Location 2
+     objective: Objective 2
+     order: Order 2
+     time_required: Time required 2
+     additional_data: Additional data 2
+   - task: Task 3
+     description: Task Description 3
+     location: Location 3
+     objective: Objective 3
+     order: Order 3
+     time_required: Time required 3
+     additional_data: Additional data 3
+
+extra_data:
+  - Another Key
+  - Another Value
+```

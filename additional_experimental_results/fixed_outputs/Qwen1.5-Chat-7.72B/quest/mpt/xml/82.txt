@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete the TempleQuest</objective>
+    <description>Find the ancient artifact hidden in the forest village</description>
+    <reward>100 gold coins and a rare magic potion</reward>
+    <quest-giver> Elder Orin </quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Deliver the message to the village elder</objective>
+            <description>Meet at the village square at sunset</description>
+            <location>Village Square, East of the Forest</location>
+        </task>
+    </tasks>
+</game>
+```

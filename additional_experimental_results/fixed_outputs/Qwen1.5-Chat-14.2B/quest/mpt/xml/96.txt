@@ -1,0 +1,23 @@
+The original XML data seems to have a small typo. The closing angle bracket (`</`) for the `<tasks>` element is missing, which caused an incorrect syntax error. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+Now it's a well-formed XML document.

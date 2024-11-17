@@ -1,0 +1,8 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Character A
+    text: "Hello, how are you?"
+```
+The YAML code block is fixed by changing the indentation of the `dialogues` key to correctly start a block mapping and providing new values for `order`, `speaker`, and `text`. Now it has a valid structure with one dialogue entry.

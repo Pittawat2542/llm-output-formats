@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: "Enemy Description"
+    id: "EnemyId"
+    name: "An Enemy"
+    stats:
+      atk: 100  # Fixed integer value for attack
+      def: 50  # Fixed integer value for defense
+      hp: 300  # Fixed integer value for health
+      mp: 50  # Fixed integer value for magic points
+      spd: 70  # Fixed integer value for speed
+```

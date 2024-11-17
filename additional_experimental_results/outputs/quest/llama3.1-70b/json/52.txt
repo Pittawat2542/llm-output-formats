@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "Legend has it that a powerful artifact lies within the depths of the lost temple. Brave adventurers are needed to retrieve this relic and bring it back to civilization.",
+    "reward": "1000 gold pieces, increased reputation with local factions",
+    "quest_giver": "Old Man Thorne",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Explore the temple ruins and gather information about the artifact's location.",
+        "description": "The entrance to the lost temple is hidden behind a waterfall. Be cautious of traps and puzzles that guard the inner sanctum.",
+        "location": "Temple Ruins, near the Waterfall"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the puzzle of the ancient stones to unlock the artifact's chamber.",
+        "description": "Use your wits to decipher the cryptic messages on the stone pedestals. The correct sequence will reveal a hidden door.",
+        "location": "Inner Sanctum, Temple Ruins"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the artifact from its resting place and escape the temple.",
+        "description": "With the puzzle solved, claim the artifact and make haste for the exit. The temple's traps will be triggered, and you must navigate them to safety.",
+        "location": "Artifact Chamber, Temple Ruins"
+      }
+    ]
+  }
+}
+```

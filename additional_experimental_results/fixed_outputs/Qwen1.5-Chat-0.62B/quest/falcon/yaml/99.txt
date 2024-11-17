@@ -1,0 +1,20 @@
+Corrected YAML data:
+
+```yaml
+title: Quest Description
+description:
+  - Quest description
+
+game:
+  - Quest Title
+  - Quest Giver
+  - Quest Objective
+  - Quest Reward
+  - Tasks
+```
+
+Output in Markdown format:
+
+```
+game: Quest Title Quest Giver Quest Objective Quest Reward Tasks
+```

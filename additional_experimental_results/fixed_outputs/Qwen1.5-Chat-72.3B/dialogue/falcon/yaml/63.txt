@@ -1,0 +1,18 @@
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: Character1
+      text: "This is the first dialogue."
+    - order: 2
+      speaker: Character2
+      text: "Here's a response from another character."
+
+components:
+  input:
+    component1: Input text
+    component2: Input text
+
+  output:
+    component2: Output text
+```

@@ -1,0 +1,31 @@
+{
+  "game": {
+    "description": "The village of Greenhaven is plagued by a pack of ferocious wolves. They have been attacking villagers and livestock, leaving the village on edge.",
+    "id": "QST_WOLVES_OF_GREENHAVEN",
+    "objective": "Defeat the leader of the wolf pack and put an end to their terror.",
+    "quest_giver": "Thorne Blackwood",
+    "reward": {
+      "experience_points": 500,
+      "gold_coins": 200,
+      "item_reward": {
+        "id": "SWORD_WOLFSLAYER",
+        "name": "Wolfslayer Sword"
+      }
+    },
+    "tasks": [
+      {
+        "description": "Hunt for the wolf pack's den in the nearby forest.",
+        "location": "Forest of Greenhaven",
+        "objective": "Find the wolves' den.",
+        "order": 1
+      },
+      {
+        "description": "Gather information about the wolf pack from the villagers.",
+        "location": "Greenhaven Village",
+        "objective": "Speak to at least three villagers and gather clues.",
+        "order": 2
+      }
+    ],
+    "title": "Wolves of Greenhaven"
+  }
+}

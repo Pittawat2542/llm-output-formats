@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to NPC Arinth",
+    "description": "Rumor has it that the lost artifact is hidden deep in the ruins of Eldoria. Locate it and bring it back to quest giver.",
+    "reward": "500 gold coins and a rare magical ring",
+    "quest-giver": "Arinth, the Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the Ruins of Eldoria",
+          "description": "Search for any clues or signs of the lost artifact within the ruins.",
+          "location": "Ruins of Eldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian",
+          "description": "A powerful guardian protects the artifact. You must defeat it to retrieve it.",
+          "location": "Heart of Ruins"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the ancient ruins of Eldarath, said to hold the power to vanquish any darkness.",
+    "id": "QST001",
+    "objective": "Retrieve the Sword of Light and return it to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience_points": 1000,
+      "gold": 500,
+      "item": "Sword of Light"
+    },
+    "tasks": [
+      {
+        "description": "Journey through the Darkforest and reach the ancient ruins of Eldarath.",
+        "location": "Darkforest",
+        "objective": "Reach the ancient ruins of Eldarath.",
+        "order": 1
+      },
+      {
+        "description": "Explore the ancient ruins, avoid deadly traps and fight off fierce creatures to retrieve the Sword of Light.",
+        "location": "Ancient Ruins of Eldarath",
+        "objective": "Retrieve the Sword of Light.",
+        "order": 2
+      },
+      {
+        "description": "Return to the village elder with the Sword of Light.",
+        "location": "Village of Brindlemark",
+        "objective": "Return the Sword of Light to Village Elder Thorne.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

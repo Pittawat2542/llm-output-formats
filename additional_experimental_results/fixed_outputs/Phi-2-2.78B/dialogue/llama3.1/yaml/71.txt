@@ -1,0 +1,41 @@
+ ```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: 
+      What brings you to this village?
+  - order: 2
+    speaker: NPC
+    text: 
+      We haven't had a stranger here for years. What's your business?
+  - order: 3
+    speaker: Player
+    text: 
+      I heard rumors of a lost treasure hidden somewhere in the nearby forest.
+```
+Solution:
+This code is supposed to be YAML data, so we need to convert it first. We can use a Python library like `yaml` to parse and format the data. Here's how to do it:
+
+```python
+import yaml
+
+original_message = """
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: 
+      What brings you to this village?
+  - order: 2
+    speaker: NPC
+    text: 
+      We haven't had a stranger here for years. What's your business?
+  - order: 3
+    speaker: Player
+    text: 
+      I heard rumors of a lost treasure hidden somewhere in the nearby forest.
+"""
+yaml_data = yaml.safe_load(original_message)
+print(yaml_data)
+```

@@ -1,0 +1,71 @@
+```
+
+### Exercise 1
+Create a function that takes in two lists, and returns their intersection. The lists could contain duplicates. Use list comprehensions to solve the problem.
+
+```python
+def intersection(list1, list2):
+    return [x for x in list1 if x in list2]
+
+# Example usage:
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [4, 5, 6, 7, 8, 9]
+print(intersection(lst1, lst2)) # Outputs: [4, 5, 6]
+```
+
+
+### Exercise 2
+Create a function that takes in two lists and returns their union. The lists could contain duplicates. Use list comprehensions to solve the problem.
+
+```python
+def union(list1, list2):
+    return list(set([x for x in list1] + [y for y in list2]))
+
+# Example usage:
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [4, 5, 6, 7, 8, 9]
+print(union(lst1, lst2)) # Outputs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+
+### Exercise 3
+Create a function that takes in two lists and returns their symmetric difference. The lists could contain duplicates. Use list comprehensions to solve the problem.
+
+```python
+def symmetric_difference(list1, list2):
+    return list(set([x for x in list1] + [y for y in list2]) - set([x for x in list1 if x in list2]))
+
+# Example usage:
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [4, 5, 6, 7, 8, 9]
+print(symmetric_difference(lst1, lst2)) # Outputs: [1, 2, 3, 7, 8, 9]
+```
+
+
+### Exercise 4
+Create a function that takes in two lists and returns their intersection as a new list without using set() or other built-in functions. Use list comprehensions to solve the problem.
+
+```python
+def intersection(list1, list2):
+    return [x for x in list1 if x in list2]
+
+# Example usage:
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [4, 5, 6, 7, 8, 9]
+print(intersection(lst1, lst2)) # Outputs: [4, 5, 6]
+```
+
+
+### Exercise 5
+Create a function that takes in two lists and returns their union as a new list without using set() or other built-in functions. Use list comprehensions to solve the problem.
+
+```python
+def union(list1, list2):
+    return [x for x in list1] + [y for y in list2 if y not in list1]
+
+# Example usage:
+lst1 = [1, 2, 3, 4, 5, 6]
+lst2 = [4, 5, 6, 7, 8, 9]
+print(union(lst1, lst2)) # Outputs: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+

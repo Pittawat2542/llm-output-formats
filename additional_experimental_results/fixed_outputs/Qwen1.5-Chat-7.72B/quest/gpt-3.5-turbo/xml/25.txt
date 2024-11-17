@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>Embark on a journey to find the long-lost treasure of the ancient civilization.</description>
+    <reward>A chest full of gold coins</reward>
+    <quest-giver>Captain Jack</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <quest-objective>Find the ancient map</quest-objective>
+            <description>Search the abandoned island for the hidden cave that holds the ancient map leading to the treasure.</description>
+            <location>Abandoned Island</location>
+        </task>
+        <task>
+            <order>2</order>
+            <quest-objective>Retrieve the ancient key</quest-objective>
+            <description>Explore the mysterious dungeon to retrieve the key that will unlock the hidden chamber where the treasure is kept.</description>
+            <location>Mysterious Dungeon</location>
+        </task>
+        <task>
+            <order>3</order>
+            <quest-objective>Defeat the guardian</quest-objective>
+            <description>Battle the legendary guardian to protect the treasure.</description>
+            <location>Guardian Lair</location>
+        </task>
+        <task>
+            <order>4</order>
+            <quest-objective>Unlock and retrieve the treasure</quest-objective>
+            <description>Open the treasure chest with the key and claim the long-lost riches.</description>
+            <location>Treasure Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

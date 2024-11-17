@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that a valuable artifact is buried within an old ruin. Your quest is to locate and retrieve it.</description>
+	<reward>1000 gold coins and a legendary sword</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ruins</objective>
+			<description>Make your way to the coordinates marked on the ancient map.</description>
+			<location Ruins of Arinthea</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search for clues</objective>
+			<description>Sift through the ruins and find any hints about the artifact's location.</description>
+			<location Ruins of Arinthea</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian</objective>
+			<description>A fierce creature guards the artifact. Conquer it to claim your reward.</description>
+			<location Heart of the Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

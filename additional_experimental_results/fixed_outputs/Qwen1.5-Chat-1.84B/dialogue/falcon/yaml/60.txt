@@ -1,0 +1,26 @@
+Corrected YAML data:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+     speaker: example name
+     text: dialogue
+
+# New values
+order: "dialogue 1"
+speaker: "Alice"
+
+```
+
+Output in YAML format with the Markdown code block:
+```
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: example name
+      text: dialogue
+    - order: dialogue 2
+      speaker: example name
+      text: dialogue
+```

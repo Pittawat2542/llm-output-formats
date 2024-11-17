@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: Your quest description
+  title: Quest Title
+  objective: Quest Objective
+  quest_giver: Quest Giver
+  reward: Quest Reward
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+
+quests:
+  id: Quest_ID
+```
+The fixed YAML data includes the missing keys and correct syntax. The `title`, `objective`, `quest_giver`, `reward`, and `tasks` keys have been added, and a sample value for `id` has been provided in the `quests` section.

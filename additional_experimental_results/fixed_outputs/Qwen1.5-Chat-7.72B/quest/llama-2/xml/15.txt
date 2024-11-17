@@ -1,0 +1,18 @@
+```
+<?xml version="1.0" ?>
+<game>
+    <id>1234567890</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the Temple Quest</objective>
+    <description>A challenging adventure awaits you in the ancient temple.</description>
+    <reward>Golden Amulet and 100 Gold Coins</reward>
+    <quest-giver> Elderwen, the WiseOracle</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Find the Temple's Entrance Key</objective>
+            <description>Search the forest to the east for a hidden chest.</description>
+            <location>Forest East</location>
+        </task>
+    </tasks>
+</game>
+```

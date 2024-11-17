@@ -1,0 +1,24 @@
+```yaml
+game:
+  description: 'Investigate strange occurrences in the Whispering Woods, where locals have gone missing.'
+  id: Q001
+  objective: Stop the mysterious force behind the disappearances.
+  quest_giver: Elara Moonwhisper (a local villager)
+  reward: 
+    gold: 100
+    experience: 500
+  tasks:
+  - description: 'Speak with the villagers to gather information about the missing people.'
+    location: The Whispering Woods, near the old oak tree.
+    objective: Gather 3 rumors or clues from the villagers.
+    order: 1
+  - description: 'Search for any signs of struggle or unusual activity in the woods.'
+    location: The Whispering Woods, north of the village.
+    objective: Find a piece of torn fabric caught on a thorn bush.
+    order: 2
+  - description: 'Follow the stream through the woods and see where it leads.'
+    location: The Whispering Woods, east of the village.
+    objective: Discover an underwater cave entrance.
+    order: 3
+  title: 'The Vanishing of Whispering Woods'
+```

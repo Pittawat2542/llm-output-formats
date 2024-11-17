@@ -1,0 +1,29 @@
+The issue with the provided YAML data is that it's missing indentation after the first two lines under `dialogues`. Here's the corrected YAML:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+```
+
+Now, the YAML is correctly formatted and indented. If you want to add more dialogues, just follow the same structure with additional lines under `dialogues`.

@@ -1,0 +1,28 @@
+```xml
+<game>
+	<id>001</id>
+	<title>The Dragon's Lair</title>
+	<objective>Defeat the powerful dragon in its lair.</objective>
+	<description>Your mission is to travel to the northern mountains, infiltrate the dragon's lair, and defeat the beast to protect the kingdom.</description>
+	<reward>The King's gratitude and 5000 gold coins.</ reward>
+	<quest-giver>King Aldred</quest-giver>
+	<tasks>
+			<task>
+				<title>Travel to the northern mountains</title>
+			objective>Find and retrieve a key that will unlock the dragon's lair.</objective>
+			 Objective>Order equipment such as swords, armor, and weapons for your journey.</ objective> Location: Northern Mountains
+			<task>
+				<title>Infiltrate the dragon's lair</title>
+			Objective>Use stealth to avoid traps and minions while infiltrating the dragon's lair.</objective>
+			 Objective>Observe the dragon's movements and its weaknesses, prepare for possible attacks.</ objective> Location: Northern Mountains
+			<task>
+				<title>Defeat the dragon</title>
+			 Objective>Use all your skills and equipment to vanquish the beast. Use a bow and arrow to defend yourself against the enemy, and use a sword to fight it off.</objective> Location: Dragon's Lair
+			<task>
+				<title>Use all your skills and equipment at your disposal</title>
+			 Objective>Observe the dragon's movements and its weaknesses, prepare for possible attacks. Use a bow and arrow to defend yourself against the enemy, and use a sword to fight it off.</objective> Location: Dragon's Lair
+			<title>Final task</title>
+		Objective>Return to the northern mountains and report your findings to King Aldred.</objective> Location: Northern Mountains
+	</tasks>
+</game>
+```

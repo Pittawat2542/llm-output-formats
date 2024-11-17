@@ -1,0 +1,10 @@
+The YAML data is correct and does not contain any syntax errors. It looks like it was intended to be a template for a game with a enemy, which would have the following structure:
+```
+game:
+  enemy:
+    description: "I'm the enemy!"
+    id: 1
+    stats:
+      atk: 100
+      def: 100
+```

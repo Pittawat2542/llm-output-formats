@@ -1,0 +1,98 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>A Lost Friend</title>
+	<objective>Find your friend who has gone missing in the woods.</objective>
+	<description>Your friend, a young adventurer named Aerin, has gone missing in the woods. You must find her before it's too late.</description>
+	<reward>A special magical item that will help you on your journey.</reward>
+	<quest-giver>The village elder</quest-giver>
+	<tasks>
+			<!-- Task 1 -->
+			<task order="1">
+				<objective>Talk to the villagers to gather information about Aerin's disappearance.</objective>
+				<description>Talk to the villagers in the village to see if they have any information about Aerin's disappearance. Some of them may have seen her heading into the woods, or they may know of any recent strange occurrences that could be related to her disappearance.</description>
+				<location>The village</location>
+			</task>
+			<!-- Task 2 -->
+			<task order="2">
+				<objective>Enter the woods and search for clues.</objective>
+				<description>Enter the woods and search for any clues that may lead you to Aerin. Look for footprints, signs of a struggle, or any other evidence that could help you determine what happened to her.</description>
+				<location>The woods</location>
+			</task>
+			<!-- Task 3 -->
+			<task order="3">
+				<objective>Follow the clues to find Aerin.</objective>
+				<description>Follow the clues you find in the woods to try to find Aerin.</description>
+				<location>The woods</location>
+			</task>
+
+		<!-- Task 4 -->
+		<task order="4">
+			<objective>Use your magical item to investigate the disappearance further.</objective>
+			<description>Use your magical item, such as a wand or a crystal ball, to investigate the disappearance of Aerin. Look for any inconsistencies in her movements, clues that may lead you to other parts of the woods, or any strange phenomena that could be related to her disappearance.</description>
+			<location>The woods</location>
+		</task>
+
+		<!-- Task 5 -->
+		<task order="5">
+			<objective>Report your findings to the authorities.</objective>
+			<description>Report your findings to the authorities, such as a local police station or an embassy, and explain what you have found. Provide any evidence you may have collected, including footprints, clues, or any other relevant information.</description>
+			<location>The village</location>
+			<!-- Task 6 -->
+			<task order="6">
+				<objective>Find Aerin's family and inform them of the situation.</objective>
+				<description>Find Aerin's family and inform them of the situation. Let them know that your friend has gone missing, and provide any information they may need to help locate her, such as her last known location or any other identifying details.</description>
+				<location>The village</location>
+			</task>
+		</task>
+
+		<!-- Task 7 -->
+		<task order="7">
+			<objective>Return the magical item to its rightful owner.</objective>
+			<description>Return the magical item to its rightful owner, such as the village elder or a trusted friend. Explain why you are returning the item and provide any necessary instructions for its safekeeping.</description>
+			<location>The village</location>
+		</task>
+
+		<!-- Task 8 -->
+		<task order="8">
+			<objective>Reflect on your journey and learn from your experience.</objective>
+			<description>Reflect on your journey and learn from your experience. Consider the lessons you have learned about adventure, bravery, trust, and perseverance in a challenging situation like finding your missing friend. Use this knowledge to inform your future adventures and strive for greater personal growth and fulfillment.</description>
+			<location>The woods</location>
+		</task>
+
+		<!-- Task 9 -->
+		<task order="9">
+			<objective>Write a letter to Aerin's family or loved ones to express your gratitude and offer any words of comfort.</objective>
+			<description>Write a letter to Aerin's family or loved ones to express your gratitude and offer any words of comfort. Let them know how much you miss her, the adventures you shared together, and the impact she has had on your life. Offer to keep in touch and share updates about your journey and the progress you have made.</description>
+			<location>The village</location>
+		</task>
+
+		<!-- Task 10 -->
+		<task order="10">
+			<objective>Share your experience with others who may be going through a similar situation.</objective>
+			<description>Share your experience with others who may be going through a similar situation. Encourage them to never give up hope and to keep searching for their missing loved ones, even in the face of adversity. Share your story, provide any advice or support you have learned along the way, and inspire them to keep exploring the world and pushing themselves out of their comfort zones.</description>
+			<location>The village</location>
+			<!-- Task 11 -->
+			<task order="11">
+				<objective>Make a wish for Aerin's safe return.</objective>
+				<description>Make a wish for Aerin's safe return, expressing your hope that she will be found and reunited with her family soon. Let your wishes be heard by the heavens and ask for their protection and guidance in finding her way back home.</description>
+				<location>The village</location>
+			</task>
+		</task>
+
+		<!-- Task 12 -->
+		<task order="12">
+			<objective>Share a photo or memory with Aerin's family.</objective>
+			<description>Share a photo or memory with Aerin's family, capturing the special moments you shared together and expressing your love and appreciation for her. This can be a simple snapshot, a heartfelt message, or a video recording of your journey together that you can share later.
+
+		</task>
+		<!-- Task 13 -->
+		<task order="13">
+			<objective>Remember Aerin's legacy.</objective>
+			<description>Remember Aerin's legacy by keeping her memory alive and honoring her courage, resilience, and love for adventure. Share your story with others, visit her grave or memorial, and encourage them to follow in her footsteps by pushing themselves out of their comfort zones and exploring the world around them.
+
+		</task>
+	</game>
+
+```

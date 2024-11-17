@@ -1,0 +1,30 @@
+```xml
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Find the lost treasure</objective>
+				-description>The Lost Treasure is a mystical object hidden deep in the forest.</description>
+			<location>The Forest</location>
+			</task>
+			<task>
+				<order>2</order>
+			<objective>Find the lost treasure</objective>
+				-description>The treasure is guarded by a powerful wizard who has been guarding it for centuries.</description>
+			<location>The Wizard's Castle</location>
+			</task>
+				<order>3</order>
+			<objective>Defeat the wizard and retrieve the treasure</order>
+				-description>You have successfully completed your quest and retrieved the lost treasure.</description>
+			<location>The Treasure Room</location>
+			</task>
+		</tasks>
+	</tasks>
+</game>
+```

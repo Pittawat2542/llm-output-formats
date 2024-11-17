@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "Q1",
+        "title": "The Lost Temple",
+        "objective": "Retrieve the ancient artifact from the lost temple.",
+        "description": "A powerful artifact has been stolen from the village, and the only clue is a map that leads to an ancient temple deep in the jungle. Retrieve the artifact and return it to the village elder.",
+        "reward": "100 gold coins and 10 experience points",
+        "quest_giver": "Elder Orion",
+        "tasks": [{
+            "order": 1,
+            "objective": "Reach the lost temple",
+            "description": "Navigate through the jungle to reach the entrance of the temple. Be cautious of wild animals and traps.",
+            "location": "Jungle Temple Entrance"
+        }, {
+            "order": 2,
+            "objective": "Solve the temple puzzle",
+            "description": "Use your wits to solve a ancient puzzle that blocks the path to the artifact. The solution can be found on an ancient scroll in the temple.",
+            "location": "Temple Chamber"
+        }, {
+            "order": 3,
+            "objective": "Retrieve the artifact",
+            "description": "Once past the puzzle, retrieve the artifact and prepare for your return journey.",
+            "location": "Artifact Chamber"
+        }]
+    }
+}
+```

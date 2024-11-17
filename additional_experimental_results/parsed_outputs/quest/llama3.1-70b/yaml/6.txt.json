@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "A legendary sword has been stolen from the castle, and the kingdom is in peril. Find the thief and retrieve the sword to save the kingdom.",
+    "id": 1,
+    "objective": "Retrieve the Stolen Sword",
+    "quest_giver": "King Arin",
+    "reward": {
+      "experience_points": 5000,
+      "gold_coins": 20000,
+      "item": "Magic Shield"
+    },
+    "tasks": [
+      {
+        "description": "Investigate the scene of the crime and gather clues.",
+        "location": "Castle Entrance Hall",
+        "objective": "Find Clues",
+        "order": 1
+      },
+      {
+        "description": "Follow the trail of evidence to the forest and find the thief's hideout.",
+        "location": "Dark Forest",
+        "objective": "Find Hideout",
+        "order": 2
+      },
+      {
+        "description": "Engage in battle with the thief and retrieve the stolen sword.",
+        "location": "Thief's Lair",
+        "objective": "Defeat Thief",
+        "order": 3
+      }
+    ],
+    "title": "The Stolen Sword of Light"
+  }
+}

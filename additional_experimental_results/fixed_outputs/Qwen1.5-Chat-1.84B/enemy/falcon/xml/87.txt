@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<game>
+	<enemy>
+			<id id="enemy001">Enemy 1</id>
+			<name>Enemy 1</name>
+			<description>This is enemy 1</description>
+			<stats>
+				hp     int value
+				mp     int value
+			atk    int value
+				def   int value
+				spd   int value
+			</stats>
+
+		<enemy>
+			<id id="enemy000">Enemy 2</id>
+			<name>Enemy 2</name>
+			<description>This is enemy 2</description>
+			<stats>
+				hp     int value
+				mp     int value
+			atk    int value
+				def   int value
+				spd   int value
+			</stats>
+
+		</enemy>
+	</game>
+</xml>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<game>
+    <enemy>
+        <id>8765432109</id>
+        <name>Player</name>
+        <description>This is a game of pure luck, where the outcome is determined by chance. The player's stats are as follows:
+        <stats>
+            <hp>100</hp>
+            <mp>10</mp>
+            <atk>50</atk>
+            <def>50</def>
+            <spd>25</spd>
+        </stats>
+    </enemy>
+</game>
+
+Original Output:
+```xml
+<game>
+    <enemy>
+        <id>8765432109</id>
+        <name>Player</name>
+        <description>This is a game of pure luck, where the outcome is determined by chance. The player's stats are as follows:
+        <stats>
+            <hp>100</hp>
+            <mp>10</mp>
+            <atk>50</atk>
+            <def>50</def>
+            <spd>25</spd>
+        </stats>
+    </enemy>
+</game>
+```

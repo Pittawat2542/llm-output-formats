@@ -1,0 +1,37 @@
+Invalid XML data. Syntax and values need to be corrected. Return the original message in XML format and only the XML in the Markdown code block. The XML output should be provided as an XML string or code block between ```xml and ```.
+```xml
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+				objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	<tasks># Example
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+				<order>task order</order>
+				objective>task objective</objective>
+				<description>task description</description>
+				location>task location</location>
+		</task>
+	<tasks> 
+</game>
+```xml

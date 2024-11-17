@@ -1,0 +1,12 @@
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+The original XML data had a syntax error where the closing `</dialogue>` tag was missing after `<text>`. I have fixed this by adding the closing tag properly.

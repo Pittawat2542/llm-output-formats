@@ -1,0 +1,33 @@
+XML data correctly formatted. No syntax issues found.
+
+## Output in Markdown code block:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest of the Lost King</title>
+	 Objective>Find the lost king</Objective>
+	 Description>The king has gone missing and you must find him.</Description>
+	 Reward>100 gold
+	 Quest-giver>King of the land
+	 Tasks:
+	 <task>
+			Order: 1
+		 Objective: Find the lost king
+		 Description: The king has gone missing and you must find him.
+		 Location: The castle
+	 </task>
+	 <task>
+			Order: 2
+		 Objective: Find the lost king
+		 Description: The king has gone missing and you must find him.
+		 Location: The castle
+	 </task>
+</game>
+```
+
+## Example 16
+
+
+```
+Fixed:

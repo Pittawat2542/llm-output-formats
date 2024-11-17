@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<game>
+	<id>ID1234</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact of Eldora</objective>
+	<description>Embark on an epic journey to retrieve the lost artifact of Eldora rumored to be hidden deep within the Forest of Shadows. You have been chosen by the village elder to end the century-long wait and bring back the artifact, restoring peace and prosperity in your village.</description>
+	<reward>5000 gold and 'Eldora's Blessing' amulet</reward>
+	<quest-giver>Greyson, the village elder</quest-giver>
+	<tasks>
+			<task>
+				$order>1</order>
+				<objective>FIND THE HIDDEN MAP TO ELDORA ARTIFACT</objective>
+				"description>The hidden map to Eldora artifact is said to be buried with the old king in the Royal Cemetery. Retrieve it.</description>
+				<location>Royal Cemetery</location>
+			</task>
+				$order>2</order>
+				<objective>DEFEND THE GARDEN OF THE FOREST</objective>
+				"description>Upon entering the Forest of Shadows, you will be greeted by a monstrous guardian. Overcome this hurdle and proceed towards your goal.</description>
+				<location>Forest of Shadows Entrance</location>
+			</task>
+				$order>3</order>
+				<objective LOCATE AND RETRIEVE THE ARTIFACT</objective>
+				"description>Utilize the map to navigate through the darkness of the forest and find the location of the artifact. Beware of the unexpected challenges lying in your path.</description>
+				<location>Heart of the Forest of Shadows</location>
+			</task>
+				<task>
+					$order>4</order>
+					<objective>EARN ELDORAS BLESSING AMULET</objective>
+					"description>Award the amulet 'Eldora's Blessing' to the individual who successfully retrieves the artifact.</description>
+					<location>Palace of Eldora</location>
+				</task>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>RETURN THE ARTIFACT TO VILLAGE</objective>
+				"description>After retrieving the artifact, deliver it to the village elder in person.</description>
+				<location>Village Hall</location>
+			</task>
+		</tasks>
+</game>
+```

@@ -1,0 +1,35 @@
+Corrected XML data:
+```xml
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<speaker>speaker name</speaker>
+				<text>dialogue or narration</text>
+			</dialogue>
+			<dialogue>
+				<order>dialogue order 2</order>
+				<speaker>speaker name 2</speaker>
+				<text>dialogue 2</text>
+			</dialogue>
+	</dialogues>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order 1</order>
+			<speaker>speaker name 1</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order 2</order>
+			<speaker>speaker name 2</speaker>
+			<text>dialogue 2</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

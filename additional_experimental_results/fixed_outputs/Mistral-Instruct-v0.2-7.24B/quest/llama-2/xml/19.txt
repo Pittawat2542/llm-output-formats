@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456789</id>
+	<title>The quest of the red dragon</title>
+	<objective>Defeat the red dragon</objective>
+	<description>You must defeat the red dragon to complete this quest.</description>
+	<reward>10000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Defeat the red dragon</objective>
+			<description>Find and defeat the red dragon in its lair.</description>
+			<location>Red Dragon's Cave</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Bring back the dragon's hoard</objective>
+			<description>Collect the treasure left by the red dragon.</description>
+			<location>Red Dragon's Cave</location>
+		</task>
+	</tasks>
+</game>
+```

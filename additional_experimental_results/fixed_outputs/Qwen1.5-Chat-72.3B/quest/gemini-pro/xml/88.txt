@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Slaying the Jabberwock</title>
+	<objective>Defeat the Jabberwock.</objective>
+	<description>The Jabberwock is a fearsome creature that has been terrorizing the countryside. It must be stopped.</description>
+	<reward>A set of enchanted armor</reward>
+	<quest-giver>King Oberon</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Jabberwock's lair.</objective>
+			<description>The Jabberwock is said to live in a cave in the Dark Forest.</description>
+			<location>Dark Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Slay the Jabberwock.</objective>
+			<description>Be careful - the Jabberwock is a mighty creature.</description>
+			<location>Jabberwock's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return to King Oberon with the Jabberwock's head.</objective>
+			<description>King Oberon will be grateful for your help.</description>
+			<location>Royal Court</location>
+		</task>
+	</tasks>
+</game>
+```

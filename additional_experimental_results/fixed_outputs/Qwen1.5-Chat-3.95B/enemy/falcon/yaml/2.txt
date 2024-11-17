@@ -1,0 +1,17 @@
+Error: YAML syntax issue
+  In "<unicode string>", line 1:
+     | Error: Invalid YAML syntax
+       ^
+
+Expected YAML output:
+```yaml
+Description: description
+ID: id
+Name: name
+Stats:
+    Atk: int value
+    Def: int value
+    HP: int value
+    MP: int value
+    Spd: int value
+```

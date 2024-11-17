@@ -1,0 +1,26 @@
+game:
+  character:
+    age: 21 or exact age
+    background: background story
+    first_name: Alice
+    id: alice_id
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: straight
+      height: 5'6"
+      weight: 130 lbs
+    place_of_birth: rural England
+    role: student at art school
+    species: human
+
+```yaml
+Alice: 21 or exact age
+Alicia Johnson: student at art school
+Brown eyes: straight
+Hair color: straight
+Height: 5'6"
+Weight: 130 lbs
+Rural England: location of birth
+Student: role of the character
+Human:

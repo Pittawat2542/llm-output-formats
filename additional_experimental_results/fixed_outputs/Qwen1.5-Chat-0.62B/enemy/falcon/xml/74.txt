@@ -1,0 +1,24 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	< Enemy id="敌人" name="name" description="description" stats="stats">
+	</Enemy>
+</game>
+```
+
+New values if necessary:
+- "name"
+- "description"
+- "stats"
+
+Output in Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	< Enemy id="敌人" name="name" description="description" stats="stats">
+	</敌>
+</game>
+```
+
+Only the XML data in the Markdown code block is returned, as requested.

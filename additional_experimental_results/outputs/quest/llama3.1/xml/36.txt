@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>Retrieve the Lost Artifact</title>
+	<objective> Retrieve a legendary artifact hidden deep within the ancient ruins.</objective>
+	<description>The artifact, known as the Starlight Chalice, is said to grant immense power and wisdom. It has been lost for centuries and is hidden within the long-abandoned temple of the Moon Goddess.</description>
+	<reward>50 gold coins and a magical amulet</reward>
+	<quest-giver>Gorvoth, the wise old wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the Moon Goddess's temple.</objective>
+			<description>The temple is hidden behind a secret waterfall. Be careful not to get caught in its mist.</description>
+			<location>The Ancient Ruins, near the old oak tree</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the puzzle of the ancient pressure plate.</objective>
+			<description>The plate must be triggered in a specific sequence to unlock the next chamber. Pay attention to the symbols etched into the floor.</description>
+			<location>The Temple Chamber, beneath the moonstone pedestal</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the temple's guardian and claim the Starlight Chalice.</objective>
+			<description>The guardian is a powerful entity bound to the temple. It will not give up its treasure easily. You must be brave and cunning to succeed.</description>
+			<location>The Treasure Chamber, beneath the altar</location>
+		</task>
+	</tasks>
+</game>
+```

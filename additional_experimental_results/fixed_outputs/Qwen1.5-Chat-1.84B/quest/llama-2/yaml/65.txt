@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: A quest about a lost puppy.
+  id: 1
+  objective: Find the puppy.
+  quest_giver: The mayor.
+  reward: A free meal at the restaurant.
+  tasks:
+    - description: Find the puppy.
+      location: The forest.
+        objective: Find the puppy.
+          order: 1
+    - description: Find the puppy.
+      location: The forest.
+        objective: Find the puppy.
+          order: 2
+    - description: Find the puppy.
+      location: The forest.
+        objective: Find the puppy.
+          order: 3
+    - description: Find the puppy.
+      location: The forest.
+        objective: Find the puppy.
+          order: 4
+  title: Puppy quest.
+```

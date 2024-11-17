@@ -1,0 +1,29 @@
+
+```xml
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <dialogues>
+    <dialogue>
+      <order xsi:type="xs:int">1</order>
+      <speaker>Player</speaker>
+      <text>Welcome to our game! Are you ready to start?</text>
+    </dialogue>
+    <dialogue>
+      <order xsi:type="xs:int">2</order>
+      <speaker>Computer</speaker>
+      <text>Yes, I am ready. Let's begin!</text>
+    </dialogue>
+    <dialogue>
+      <order xsi:type="xs:int">3</order>
+      <speaker>Player</speaker>
+      <text>Great! Here are the rules:</text>
+    </dialogue>
+    <dialogue>
+      <order xsi:type="xs:int">4</order>
+      <speaker>Computer</speaker>
+      <text>Got it. Let's play!</text>
+    </dialogue>
+  </dialogues>
+</game>
+```
+
+The issue was that the XML document didn't have a namespace declared, which caused an error when trying to parse it because the "xsi:type" attribute wasn't defined. By adding the "xmlns:xsi" attribute at the root level and specifying its value as "http://www.w3.org/2001/XMLSchema-instance", we can use the "xsi:type" attribute to indicate that the data type of an element's child is a specific XML schema type, such as "xs:int" in this case.

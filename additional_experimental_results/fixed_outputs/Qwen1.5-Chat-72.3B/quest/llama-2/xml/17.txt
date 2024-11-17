@@ -1,0 +1,42 @@
+```xml
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the depths of the dungeon.</objective>
+	<description>You have heard rumors that a powerful artifact is hidden deep within a long-abandoned dungeon. Your quest is to navigate its treacherous halls, overcome its challenges, and bring the artifact back to the surface.</description>
+	<reward>100 gold coins and legendary status among adventurers</reward>
+	<quest-giver>Gnarled Old Wizard</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Enter the Dungeon of Forgotten Secrets</objective>
+				<description>Make your way to the entrance of the dungeon, which is located at the edge of the Dark Forest.</description>
+				<location>Dark Forest, Southwest corner</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Defeat the Skeleton Guardian</objective>
+				<description>In the depths of the first level, you will encounter a skeletal guardian. Defeat it to progress.</description>
+				<location>Dungeon of Forgotten Secrets, Level 1</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Solve the Statue Puzzle</objective>
+				<description>On level 2, you will find a chamber with four statues.排列它们以打开隐藏的通道。</description>
+				<location>Dungeon of Forgotten Secrets, Level 2</location>
+			</task>
+			<task>
+				<order>4</order>
+				<objective>Find the Key to the Final Chamber</objective>
+				<description>In a hidden room on level 3, locate the key that unlocks the door to the chamber where the artifact is kept.</description>
+				<location>Dungeon of Forgotten Secrets, Level 3 Hidden Room</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>Retrieve the Artifact and Escape the Dungeon</objective>
+				<description>Use the key to unlock the final chamber and take possession of the artifact. Safely make your way back to the surface.</description>
+				<location>Dungeon of Forgotten Secrets, Final Chamber</location>
+			</task>
+	</tasks>
+</game>
+```

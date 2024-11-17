@@ -1,0 +1,32 @@
+XML data corrected.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	 Objective: Find the ancient artifact
+	 Description: In this quest, you must embark on a journey to find a long-lost artifact that holds immense power. The artifact is said to be hidden deep within a treacherous jungle, guarded by dangerous creatures and traps.
+	 Reward: Ancient artifact, 1000 gold coins
+
+	<tasks>
+		<task>
+			Order: 2
+		 Objective: Retrieve the key from the Giant Spider
+		 Description: Talk to the local villagers for clues and gather any information about the jungle's whereabouts. Use your wits to decipher the correct combination of the key.
+		 Location: Village of Mystoria
+
+			<Task>
+				Order: 3
+			 Objective: Solve the ancient puzzle of the Three Statues
+			 Description: As you delve deeper into the jungle, you will come across a clearing with three mysterious statues. There is a legend that solving the puzzle surrounding these statues will reveal the path to the hidden artifact. Examine the statues closely and use your wits to decipher the correct combination.
+		 Location: Cave of the Guardian Serpent
+
+			<Task>
+				Order: 4
+			 Objective: Defeat the Guardian Serpent
+			 Description: The final trial on your quest is to defeat the powerful Guardian Serpent that guards the ancient artifact. Enter its lair, face the serpent in battle, and prove your worthiness as the artifact's true seeker.
+		 Location: Cave of the Guardian Serpent
+
+		</task>
+	</tasks>
+</game>
+```

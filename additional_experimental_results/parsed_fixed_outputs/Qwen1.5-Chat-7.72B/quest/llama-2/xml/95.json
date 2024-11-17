@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Hunt for the White Wolf",
+    "objective": "Track and slay the White Witcher",
+    "description": "A dangerous quest to eliminate the malevolent sorceress, she haunts the forests with her dark powers.",
+    "reward": "5000 gold and a rare artifact",
+    "quest-giver": "Grigori Orzestra",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Track the Witcher's\u8ff9\u8c61",
+        "description": "Learn her tracks from ancient runes at the nearby ancient ruins.",
+        "location": "Ruins of the Old Order"
+      }
+    }
+  }
+}

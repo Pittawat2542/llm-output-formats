@@ -1,0 +1,29 @@
+{
+  "game": {
+    "id": "id_of_the_quest",
+    "title": "The Sorcerer King's Challenge",
+    "description": "You will need to track down the elusive Sorcerer King, but beware - the Sorcerer King is also seeking to reclaim the throne. You must be careful to not fall into their traps!",
+    "quest_giver": "The Guide",
+    "reward": {
+      "treasure": "The Sorcerer King's Treasure",
+      "title": "King of the Sorcerer King's kingdom"
+    },
+    "tasks": [
+      {
+        "description": "You have reached the Sorcerer King's castle, but it is protected by powerful traps and guards.",
+        "reward": "Access to the outer chamber",
+        "location": "Castle entrance"
+      },
+      {
+        "description": "To gain access to the inner chamber, you must find a secret entrance. The guide knows where this entrance is, but is unwilling to share the information with you without a proper reward.",
+        "reward": "Guided tour through the castle and unlocked doors",
+        "location": "Long hallway"
+      },
+      {
+        "description": "After a long and brutal battle, you are finally able to defeat the Sorcerer King.",
+        "reward": "The title of King!",
+        "location": "Inner chamber"
+      }
+    ]
+  }
+}

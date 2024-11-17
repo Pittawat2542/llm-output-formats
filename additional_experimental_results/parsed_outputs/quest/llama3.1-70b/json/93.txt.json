@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "EQ001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient scroll from the long-abandoned temple.",
+    "description": "Rumors have been circulating about a hidden temple deep within the mystical forest, filled with ancient artifacts and forbidden knowledge. The village elder has approached you with a plea to retrieve a powerful scroll said to be hidden within the temple's depths.",
+    "reward": "A magical amulet granting resistance to dark magic",
+    "quest_giver": "Village Elder Thorold",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Reach the entrance of the Lost Temple of Eldarath",
+        "description": "Make your way through the mystical forest, overcoming any obstacles that may bar your path.",
+        "location": "Mystical Forest"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the puzzle of the ancient lock",
+        "description": "Use your wits to unlock the entrance, which is said to be sealed by a powerful magical mechanism.",
+        "location": "Entrance of the Lost Temple of Eldarath"
+      },
+      {
+        "order": 3,
+        "objective": "Defeat the temple's dark guardian",
+        "description": "Face and defeat the fearsome creature that has been awakened to guard the temple's inner sanctum.",
+        "location": "Inner Sanctum of the Lost Temple of Eldarath"
+      },
+      {
+        "order": 4,
+        "objective": "Retrieve the ancient scroll",
+        "description": "Claim the powerful artifact and make your way back to the village elder.",
+        "location": "Treasury Chamber of the Lost Temple of Eldarath"
+      }
+    ]
+  }
+}

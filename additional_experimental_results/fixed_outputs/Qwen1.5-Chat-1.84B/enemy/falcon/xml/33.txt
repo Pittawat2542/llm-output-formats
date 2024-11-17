@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy id="23">
+			<name>Raven</name>
+			<description>A fierce and powerful bird, known for its sharp talons and fearsome screech.</description>
+			<php>200</hp>
+			<mp>20</mp>
+			<atk>400</atk>
+			<def>70</def>
+			<spd>55</spd>
+	</enemy>
+</game>
+
+The XML data has been fixed by changing the `id` attribute of the enemy element to `23` instead of `3`. Additionally, a new value for the `hp` property is added, with a value of 200. The `mp` and `atk` properties have also been updated to reflect the new values. Finally, the description and stats elements have been modified to include the new values.
+
+The output XML in Markdown code block would be:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy id="23">
+			<name>Raven</name>
+			<description>A fierce and powerful bird, known for its sharp talons and fearsome screech.</description>
+			<php>200</hp>
+			<mp>20</mp>
+			<atk>400</atk>
+			<def>70</def>
+			<spd>55</spd>
+	</enemy>
+</game>
+```

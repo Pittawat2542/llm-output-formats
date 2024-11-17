@@ -1,0 +1,66 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure of King Midas</title>
+	<objective>Find the lost treasure of King Midas hidden deep within the forest.</objective>
+	<description>King Midas, known for his golden touch, once possessed a宝藏 of unimaginable wealth. However, one day, the treasure vanished without a trace. Legends say it lies hidden within the dense forest, guarded by ancient spirits. As an adventurer, you are tasked with embarking on a journey to uncover the secrets of the forest and retrieve the lost treasure.</description>
+	<reward>A share of the legendary treasure and recognition as a hero of the kingdom.</reward>
+	<quest-giver>Elder Elara, Oracle of the Forest</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Journey to the heart of the Enchanted Forest.</objective>
+				description>Make your way through the winding paths of the forest, following ancient trails that lead deeper into its mystical embrace. Beware of treacherous terrain, magical beasts, and the spirits that reside within.</description>
+			<location>Enchanted Forest, Eastern Woodlands</location>
+			</task>
+				<order>2</order>
+			<objective>Seek the guidance of the Forest Oracle.</objective>
+				"description>In the heart of the forest, seek out the ancient guardian, the Forest Oracle. Legends speak of their connection to the forest's secrets. Approach them with respect and seek their wisdom regarding the lost treasure.</description>
+			<location>Sacred Glade, Heart of the Forest</location>
+			</task>
+				<order>3</order>
+			<objective>Navigate the Labyrinth of Whispers.</description>
+				<purpose>To uncover the hidden chamber of the treasure, players must navigate through a labyrinth filled with traps and obstacles. This challenge requires strategy and quick reflexes to overcome.</purpose>
+			<location>Labyrinth of Whispers, Hidden Grove</location>
+			</task>
+				<order>4</order>
+			<objective>Battle the Elemental Guardians.</objectives>
+				<purpose>To claim the treasure, players will encounter elemental guardians born from the magic of the forest. These guardians possess unique abilities and weaknesses that must be exploited to defeat them successfully.</purpose>
+			<location>Chamber of Elements, Deep Forest</location>
+			<task>
+				<order>5</order>
+			<objective>Claim the Lost Treasure.</objectives>
+				<purpose>The final battle takes place in the chamber where the treasure is hidden. Players will face a fierce dragon guarding the treasure, wielding its own set of magical weapons and abilities. With precision and skill, players must defeat the dragon to claim the treasure.</purpose>
+			<location>Treasure Chamber, Forgotten Temple</location>
+			<task>
+				<order>6</order>
+			<objective>Return to King Midas' Kingdom.</objectives>
+				<purpose>To return the treasure to King Midas and bring it back to its rightful place, players must face a final challenge. This will involve navigating through treacherous obstacles, collecting valuable artifacts along the way, and delivering them safely to King Midas' palace.</purpose>
+			<location>King's Palace, Kingdom Center</location>
+			<task>
+				<order>7</order>
+			<objective>Celebrate Your Victory!</objectives>
+				<purpose>Finally, after completing all tasks, players will be rewarded with a grand celebration and recognition as the hero of King Midas' kingdom. Celebrate your triumph with friends and family, and look forward to a future filled with more exciting adventures.</description>
+			<task>
+				<order>8</order>
+			<objective>Share Your Adventure!</objectives>
+				<purpose>To share your experience with others, players can leave their accounts online or in-game. Share photos, videos, and stories of the journey to the lost treasure, showcasing the beauty and challenges of the Enchanted Forest.</purpose>
+			<location>Online Sharing Platform</location>
+			<task>
+				<order>9</order>
+			<objective>End Game!</objectives>
+				<purpose>The game is now complete, and players can safely close their accounts and exit the game. Congratulations on completing the quest and becoming a legend in the kingdom of King Midas!"></purpose>
+			<task>
+				<order>10</order>
+			<objective>Closing Thoughts.</objectives>
+				<purpose>As you leave the game, take some time to reflect on your journey. What did you learn about yourself and the world around you? How did your encounters with ancient spirits, mystical creatures, and challenging obstacles shape your perspective?</purpose>
+			<task>
+				<order>11</order>
+			<objective>Broadcast Your Reflection.</objectives>
+				<purpose>Share your thoughts and experiences with friends and family, or anyone who enjoys exploring the Enchanted Forest and facing new challenges. You can leave a message in the game's chat, share a video on social media, or even write an article about your adventure that inspires others to embark on their own quests.</purpose>
+			<location>Online Community</location>
+			</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>FIRST NAME</first-name>
+		<last-name>LAST NAME</last-name>
+		<species>SPECIES</species>
+		<age>EXACT AGE OR DESCRIPTION</age>
+		<role>ROLE OF THE CHARACTER</role>
+		<background>BORDERLINEAL STORY</background>
+		<place-of-birth>LOCATION</place-of-birth>
+		<physical-appearance>
+			<eye-color>EYE COLOR</eye-color>
+			<hair-color>HAIR COLOR</hair-color>
+			<height>HEIGHT IN FLOAT VALUE</height>
+			<weight>WEIGHT IN FLOAT VALUE</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

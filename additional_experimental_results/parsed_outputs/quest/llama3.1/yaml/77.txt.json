@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Investigate the strange occurrences in the Whispering Woods and put an end to whatever evil force is terrorizing the local villagers.",
+    "id": "Q001",
+    "objective": "Defeat the source of darkness in the Whispering Woods.",
+    "quest_giver": "Eilif Stonefist, the village elder",
+    "reward": "100 gold pieces and a rare enchanted longsword",
+    "tasks": [
+      {
+        "description": "Speak with the local villagers to gather information about the strange occurrences.",
+        "location": "The local tavern in Willowdale Village",
+        "objective": "Gather three different accounts of the events.",
+        "order": 1
+      },
+      {
+        "description": "Explore the Whispering Woods and find the source of darkness.",
+        "location": "The Whispering Woods, a dense and foreboding forest",
+        "objective": "Locate the dark entity's lair.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the dark entity in combat and restore peace to the village.",
+        "location": "The dark entity's lair, hidden deep within the Whispering Woods",
+        "objective": "Defeat the dark entity using your skills and abilities.",
+        "order": 3
+      }
+    ],
+    "title": "The Darkness in the Whispering Woods"
+  }
+}

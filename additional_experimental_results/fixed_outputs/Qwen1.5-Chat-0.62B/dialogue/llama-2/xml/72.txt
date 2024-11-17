@@ -1,0 +1,41 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Dialogs</title>
+</head>
+<body>
+	<h1>Game Dialogs</h1>
+
+	<dialogues>
+	</dialogues>
+	
+	<form method="post">
+		<label for="order">Order:</label><br><br>
+		<input type="text" id="order" name="order"><br><br>
+		<label for="speaker">Speaker:</label><br><br>
+		<input type="text" id="speaker" name="speaker"><br><br>
+		<label for="text">Text:</label><br><br>
+		<input type="text" id="text" name="text"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+</html>
+``` 
+
+## Output
+```xml
+<form method="post">
+		<label for="order">Order:</label><br><br>
+		<input type="text" id="order" name="order"><br><br>
+		<label for="speaker">Speaker:</label><br><br>
+		<input type="text" id=" Speaker" name="speaker"><br><br>
+		<label for="text">Text:</label><br><br>
+		<input type="text" id="text" name="text"><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+</body>
+```

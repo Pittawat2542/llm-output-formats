@@ -1,0 +1,20 @@
+{
+  "game": {
+    "@xmlns": "https://example.com/game",
+    "id": "1",
+    "title": "Example Quest Title",
+    "objective": "Example quest objective",
+    "description": "Example quest description",
+    "reward": "Example quest reward",
+    "quest-giver": "New quest giver",
+    "tasks": {
+      "task": {
+        "order": "Example task order",
+        "objective": "Example task objective",
+        "description": "Example task description",
+        "location": "Example task location"
+      }
+    },
+    "#text": "-- replace 'New quest giver' with the actual name or identifier of the quest giver."
+  }
+}

@@ -1,0 +1,27 @@
+Game:
+  ally:
+    description: "ally description"
+    id: id
+    name: ally_name
+    stats:
+      atk: 5
+      def: 2
+      hp: 80
+      mp: 5
+      spd: 2
+
+Fixed YAML:
+```yaml
+game:
+  allies:
+    - ally_name:
+        description: "ally description"
+        id: id
+        name: ally_name
+        stats:
+          atk: 5
+          def: 2
+          hp: 80
+          mp: 5
+          spd: 2
+```

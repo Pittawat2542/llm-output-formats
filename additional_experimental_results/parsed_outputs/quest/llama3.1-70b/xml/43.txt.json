@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the ruins of Eldarath",
+    "description": "Rumors have been circulating about a powerful artifact hidden deep within the lost city of Eldarath. The city is said to be cursed, but the reward is worth the risk.",
+    "reward": "1000 gold pieces and a magical amulet granting resistance to poison",
+    "quest-giver": "Thoric Stonebeard, dwarf elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city from local travelers and scholars",
+          "description": "Speak with travelers and scholars in the nearby towns to gather information about Eldarath's location and potential dangers.",
+          "location": "Town of Willowdale"
+        },
+        {
+          "order": "2",
+          "objective": "Infiltrate the ruins of Eldarath and navigate its treacherous paths",
+          "description": "Make your way through the jungle and enter the ancient city, avoiding deadly traps and creatures.",
+          "location": "Ruins of Eldarath"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact from the central temple",
+          "description": "Face your greatest challenge yet as you navigate the treacherous central temple and claim the ancient artifact.",
+          "location": "Central Temple of Eldarath"
+        }
+      ]
+    }
+  }
+}

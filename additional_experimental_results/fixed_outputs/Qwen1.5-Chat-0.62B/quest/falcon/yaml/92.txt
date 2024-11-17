@@ -1,0 +1,66 @@
+Template: 
+game:
+  description: Quest description
+  id: id
+  objective: Quest objective
+  quest_giver: Quest giver
+  reward: Quest reward
+  tasks:
+   - description: Task description
+    location: Task location
+    objective: Task objective
+    order: Task order
+    title: Quest title
+    details: [ quest details ]
+  
+  details: [
+    {
+      "location": "Quest location",
+      "objective": "Quest objective",
+      "order": "Quest order"
+    },
+    {
+      "location": "Task location1",
+      "objective": "Quest objective1",
+      "order": "Quest order1"
+    },
+    {
+      "location": "Task location2",
+      "objective": "Quest objective2",
+      "order": "Quest order2"
+    }
+  ]
+  
+  quest_giver: Quest giver
+  reward: Quest reward
+
+  details:
+    {
+      "location": "Quest location3",
+      "objective": "Quest objective3",
+      "order": "Quest order3"
+    }
+  
+  tasks:
+    {
+      "description": "Task description1",
+      "location": "Task location1",
+      "objective": "Quest objective1",
+      "order": "Quest order1"
+    },
+    {
+      "description": "Task description2",
+      "location": "Task location2",
+      "objective": "Quest objective2",
+      "order": "Quest order2"
+    },
+    {
+      "description": "Task description3",
+      "location": "Task location3",
+      "objective": "Quest objective3",
+      "order": "Quest order3"
+    }
+  ]
+  
+  quest_giver: Quest giver
+  reward: Quest reward

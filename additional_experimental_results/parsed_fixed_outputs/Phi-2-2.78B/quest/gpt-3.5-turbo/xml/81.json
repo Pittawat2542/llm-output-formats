@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "In this quest, you will set on an adventure to find the lost treasure of the ancient civilization. Your objective is to solve puzzles, overcome obstacles, and follow clues to reach the ultimate goal. Are you ready to uncover the secrets of the past?",
+    "reward": "1000 gold coins",
+    "quest-giver": "Captain Jack",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain a map from the old library",
+          "description": "Your first task is to visit the ancient library located in the enchanted forest. Search for the hidden room where the map to the treasure is said to be kept. But be careful, the library is guarded by ancient spirits.",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Cross the treacherous river",
+          "description": "To continue your journey, you must cross the treacherous river that runs through the heart of the enchanted forest. The water is infested with dangerous creatures, so be prepared for a tough battle. But once you reach the other side, you will find an ancient temple waiting for you.",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Enter the hidden temple",
+          "description": "The final task of this quest is to enter the ancient temple where the treasure is said to be hidden. The entrance is guarded by a fierce dragon, but you must find the secret passage that leads to it. Are you brave enough to face the challenge?",
+          "location": "Ancient Temple"
+        }
+      ]
+    }
+  }
+}

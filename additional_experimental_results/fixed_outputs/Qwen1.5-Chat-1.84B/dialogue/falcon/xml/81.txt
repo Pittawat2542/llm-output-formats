@@ -1,0 +1,36 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="dialogue_1">
+            <speaker speaker_name="Speaker 1"></speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+        <dialogue order="dialogue_2">
+            <speaker speaker_name="Speaker 2"></speaker>
+            <text>Narration 1</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+New values:
+- `dialogue_1`: Dialogue 1
+- `dialogue_2`: Narration 1
+
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="dialogue_1">
+            <speaker speaker_name="Speaker 1"></speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+        <dialogue order="dialogue_2">
+            <speaker speaker_name="Speaker 2"></speaker>
+            <text>Narration 1</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

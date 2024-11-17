@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "456",
+    "title": "Courageous Quest: Defeat the Dragon",
+    "objective": "Coverge the dragon's scale and retrieve the ancient artifact to save the kingdom",
+    "description": "A formidable dragon has been posing a threat to our land. You, the brave hero, must confront it and bring peace back. Your journey begins here.",
+    "reward": "Excalibur, the legendary sword, and a hoard of treasure",
+    "quest-giver": "Queen Guinevere",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Capture Dragon's Scale",
+          "description": "Prove your worth by acquiring the dragon's scale. It will be a crucial step in defeating it.",
+          "location": "Dragon's Lair, Western Edge"
+        },
+        {
+          "order": "2",
+          "objective": "Discover Hidden Artifact",
+          "description": "The artifact is concealed deep within the lair. Seek it out and return with its ancient wisdom.",
+          "location": "Dragon's Treasure Map, Royal Archives"
+        }
+      ]
+    }
+  }
+}

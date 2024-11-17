@@ -1,0 +1,25 @@
+{
+  "game": {
+    "id": "101",
+    "title": "Get Lucky",
+    "objective": "find a lucky 4-leaf clover",
+    "description": "A thrilling quest to find the rarest of symbols for good luck!",
+    "quest-giver": "some guy, id=100",
+    "reward": "gold",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search for a 4-leaf clover in the nearby fields",
+          "description": "Embark on your adventure, and keep an eye out for that elusive green treasure!",
+          "location": "The countryside, near the forest"
+        },
+        {
+          "order": "2",
+          "objective": "Cleanse the luck with a ceremony when you find it",
+          "description": "Traditionally, perform a brief ritual to fully harness its power!"
+        }
+      ]
+    }
+  }
+}

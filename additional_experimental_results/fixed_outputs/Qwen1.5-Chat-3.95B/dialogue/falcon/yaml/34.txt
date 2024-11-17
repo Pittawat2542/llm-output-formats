@@ -1,0 +1,22 @@
+ YAML error has been corrected and new values provided. The original message is provided between ```yaml and ```.
+ YAML data with updated syntax:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+   - order: "order"
+      speaker: {"name": Mark, "text": ""} }
+      text: Input
+      dialogues:
+         - order: 1
+          speaker: Mark
+          text: Input
+   - order: "order"
+      speaker: {"name": Sam, "text": ""} }
+      text: Input
+    dialogues:
+     - speaker: "Sam"
+      text: Input
+```

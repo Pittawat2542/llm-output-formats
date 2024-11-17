@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest for the Dragon's Eye",
+    "objective": "Uncover the location of the Dragon's Eye and hand it over to Old Man Jenkins.",
+    "description": "A challenging quest demands your skills. Help the quest giver recover this legendary artifact from the unknown adversaries in the mountains.",
+    "reward": "Runic Amulet",
+    "quest-giver": "Old Man Jenkins",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Track down the enemy's hideout near the Mountain Pass.",
+          "description": "The lair is believed to be hidden near a rocky path leading into the mountains.",
+          "location": "Mountain Pass"
+        },
+        {
+          "order": "2",
+          "objective": "Conquer the enemy and recover the Dragon's Eye.",
+          "description": "Once inside, defeat their leader to claim the artifact.",
+          "location": "Lair at Mountain Pass"
+        },
+        {
+          "order": "3",
+          "objective": "Return the Dragon's Eye to Old Man Jenkins in the village center.",
+          "description": "After retrieval, deliver it to complete your quest.",
+          "location": "Village Center"
+        }
+      ]
+    }
+  }
+}

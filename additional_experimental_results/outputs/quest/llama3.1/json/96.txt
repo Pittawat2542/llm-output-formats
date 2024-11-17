@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "The Lost Temple",
+        "objective": "Find the lost temple and retrieve the ancient artifact",
+        "description": "A legendary temple has been hidden deep within the jungle for centuries. The powerful artifact inside is said to grant immense power to whoever claims it.",
+        "reward": "1000 gold coins, a rare potion, and increased reputation",
+        "quest_giver": "Goro, the village elder",
+        "tasks": [{
+            "order": 1,
+            "objective": "Locate the temple entrance",
+            "description": "Follow the ancient map to find the hidden path leading to the temple",
+            "location": "The Jungle Temple"
+        },
+        {
+            "order": 2,
+            "objective": "Solve the ancient puzzle",
+            "description": "Use your wits to unlock the temple's main chamber",
+            "location": "Inside the Temple"
+        },
+        {
+            "order": 3,
+            "objective": "Retrieve the artifact",
+            "description": "Face the traps and guardians within the chamber to claim the artifact",
+            "location": "The Main Chamber"
+        }]
+    }
+}
+```

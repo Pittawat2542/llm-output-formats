@@ -1,0 +1,9 @@
+[Python]
+  - name: Install required packages (requests, pandas)
+    apt-get install requests pandas
+
+[Python]
+  - name: Create a function that reads data from an input.csv file and writes it to an output.json file
+    python3 script.py -i input.csv -o output.json
+```
+

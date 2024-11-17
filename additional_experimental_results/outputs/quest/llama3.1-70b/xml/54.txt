@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QR001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Explore the ancient ruins and uncover the secrets of Eldarath.</objective>
+	<description>Rumors have been circulating about a hidden city deep within the nearby forest, filled with treasures and artifacts from a long-lost civilization. Your quest is to find this fabled city and unlock its secrets.</description>
+	<reward>A chest containing 100 gold pieces and a magical amulet granting resistance to poison.</reward>
+	<quest-giver>Thorold Ironfist, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the location of Eldarath from the village locals.</objective>
+			<description>Talk to the villagers and gather any clues or rumors that might lead you to the lost city. Be careful, as some may be reluctant to share their knowledge.</description>
+			<location>The village tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve an ancient map from the nearby ruins of a old castle.</objective>
+			<description>Beware of traps and creatures as you navigate through the crumbling halls. The map is said to be hidden in a chest on the upper floors.</description>
+			<location>The old castle ruins, east wing</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Decipher the ancient symbols and markings on the map.</objective>
+			<description>Study the symbols and markings on the map to uncover the location of Eldarath. This may require some knowledge of ancient languages or cryptic puzzle-solving.</description>
+			<location>A quiet, secluded spot with good lighting</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Explore the lost city and uncover its secrets.</objective>
+			<description>Beware of ancient traps and guardians as you delve deeper into the heart of Eldarath. Uncover the secrets of the city and claim your reward.</description>
+			<location>The lost city of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```

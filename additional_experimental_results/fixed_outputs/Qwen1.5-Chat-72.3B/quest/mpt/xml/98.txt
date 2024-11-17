@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>a-b-c-d-e-f</id>
+	<title>game title</title>
+	<objective>game objective</objective>
+	<description>game description</description>
+	<reward>game reward</reward>
+	<quest-giver>Quest Giver NPC</quest-giver> <!-- Fixed: Added a new value for 'quest_giver' -->
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task> <!-- Fixed: Closed the 'task' tag properly -->
+	</tasks> <!-- Fixed: Closed the 'tasks' tag properly -->
+</game>
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>123456</id>
+        <first-name>Samantha</first-name>
+        <last-name>Anderson</last-name>
+        <species>Human</species>
+        <age>24</age>
+        <role>Student</role>
+        <background>Small town in Missouri</background>
+        <place-of-birth>St. Louis, Missouri</place-of-birth>
+        <physical-appearance>
+            <height>5.6</height> <!-- Fixed missing unit (inches) for height -->
+            <weight>120 lbs.</weight> <!-- Left weight unchanged as it seems correct -->
+        </physical-appearance>
+    </character>
+</game>
+```

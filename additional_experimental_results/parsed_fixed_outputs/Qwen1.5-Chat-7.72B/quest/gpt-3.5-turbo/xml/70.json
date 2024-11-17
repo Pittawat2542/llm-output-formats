@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "456789",
+    "title": "The Eternal Amulet's Quest",
+    "objective": "Find, unlock, and defeat the Ancients' Guardian for the amulet",
+    "description": "In this quest, you must explore treacherous ruins, confront mystical guardians, and ultimately claim the amulet. Your reward will be unimaginable power and a legacy that echoes through time.",
+    "reward": "Upon completing the quest, you will obtain the amulet's might and receive an immense wealth along with rare artifacts of ancient origin.",
+    "quest-giver": "Archaeologist Elara",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Discover the entrance to the ruins, guarded by the Moonstone's whispers",
+          "description": "The entrance lies hidden beneath a moonlit stone in the Whispering Glade. Seek out the signs of the lunar cycle and unravel its mystery.",
+          "location": "Whispering Glade at Full Moon"
+        },
+        {
+          "order": "2",
+          "objective": "Acquire the key from the guardian, the Serpent of Time",
+          "description": "The key is guarded by an ancient serpent that controls the flow of time. Solve a riddle to unlock its passage.",
+          "location": "Serpent's Labyrinth"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the traps of the Temporal Crypt",
+          "description": "The Crypt is filled with time-bending illusions and ancient traps. Be cautious and quick in your steps.",
+          "location": "Temporal Crypt"
+        },
+        {
+          "order": "4",
+          "objective": "Battle the Guardian, the Heart of Time",
+          "description": "The final challenge lies ahead - face off against the guardian who guards the heart of the amulet. Your courage will be tested.",
+          "location": "Heart's Core"
+        }
+      ]
+    }
+  }
+}

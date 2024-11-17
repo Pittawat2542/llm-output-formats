@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: The Lost Temple of the Moon Goddess
+  id: Quest1
+  objective: Retrieve the ancient Sceptre of Light from the depths of the Lost Temple.
+  quest_giver: High Priestess Elara
+  reward: 1000 gold, +10 intelligence
+  tasks:
+  - description: Find the hidden entrance to the temple
+    location: Jungle Ruins, near the old tree with carvings
+    objective: Locate the entrance without triggering any traps
+    order: 1
+  - description: Defeat the Temple Guardian
+    location: Inside the Lost Temple, chamber of the Guardian
+    objective: Defeat the powerful construct in combat
+    order: 2
+  - description: Solve the Puzzle of the Sceptre
+    location: Chamber of the Ancient Kings, within the temple
+    objective: Use your wits to unlock the pedestal with the sceptre
+    order: 3
+  title: The Lost Temple Quest
+```

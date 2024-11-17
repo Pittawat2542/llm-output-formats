@@ -1,0 +1,92 @@
+All of the provided YAML data seems to be correctly formatted. Here they are again in code blocks:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+  title: quest title
+```
+
+```yaml
+quest:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+  title: quest title
+```
+
+```yaml
+task:
+  description: task description
+  location: task location
+  objective: task objective
+  order: task order
+```
+
+```yaml
+quest_giver:
+  description: quest giver description
+  id: id
+  location: quest giver location
+  name: quest giver name
+  title: quest giver title
+```
+
+```yaml
+reward:
+  description: reward description
+  id: id
+  location: reward location
+  name: reward name
+  title: reward title
+```
+
+```yaml
+objective:
+  description: objective description
+  id: id
+  location: objective location
+  name: objective name
+  title: objective title
+```
+
+```yaml
+location:
+  description: location description
+  id: id
+  name: location name
+  title: location title
+```
+
+```yaml
+description:
+  description: description description
+  id: id
+  location: description location
+  name: description name
+  title: description title
+```
+
+```yaml
+title:
+  description: title description
+  id: id
+  name: title name
+  title: title title
+```
+Each block represents a valid YAML structure with the specified keys and values.

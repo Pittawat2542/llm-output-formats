@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "quest1",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "A long-abandoned temple lies hidden deep in the jungle, said to contain a powerful relic. Retrieve it before it falls into the wrong hands.",
+    "reward": "100 gold pieces and a rare gemstone",
+    "quest_giver": "Gorthok the Unyielding",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the lost temple",
+        "description": "Search for hidden passageways or clues that will lead you to the temple's entrance.",
+        "location": "Jungle of Thorns, near the ancient ruins"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the puzzle to unlock the inner sanctum",
+        "description": "Use your wits to decipher the ancient script and unlock the inner sanctum where the relic is kept.",
+        "location": "Inner chamber of the lost temple"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the artifact",
+        "description": "Once you have unlocked the inner sanctum, retrieve the artifact from its pedestal.",
+        "location": "The artifact's pedestal in the inner sanctum"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+```xml
+<game>
+    <id>24589</id>
+    <title>The Quest for the Lost Artifact</title>
+    <objective>Recover the Ancient Relic</objective>
+    <description>The Ancient Relic, said to possess mystical powers, was stolen from the Temple by an unknown thief. It is believed to be hidden within a series of ancient ruins scattered across the land. Uncover its location and return it to the Council of Elders.</description>
+    <reward>Expedition Rewards</reward>
+    <quest-giver>Elders' Council</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track down Gaius, the Oracle</objective>
+            <description>Gaius, a wise seer, holds the key to deciphering the clues about the Relic's whereabouts. Seek him out in the Temple Ruins of Avalon.</description>
+            <location>Temple Ruins of Avalon</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Discover the Map to the First Ruin</objective>
+            <description>The map will guide you to the first hidden ruin. It's said to be guarded by a cryptic riddle within the Council's archives.</description>
+            <location>Council's Archives</location>
+        </task>
+    </tasks>
+</game>
+```

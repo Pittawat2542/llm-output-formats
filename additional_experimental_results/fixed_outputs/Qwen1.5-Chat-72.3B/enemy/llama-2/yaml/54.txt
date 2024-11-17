@@ -1,0 +1,33 @@
+The original YAML data does not contain any syntax errors, and it has valid values. Here's the YAML code block as provided:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+If you want to provide actual integer values for the `stats`, it would look like this:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 10
+      def: 20
+      hp: 30
+      mp: 40
+      spd: 50
+```
+
+But based on the original input, there are no errors to fix.

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Artifact</title>
+	<objective>Recover the Lost Artifact</objective>
+	<description>An ancient artifact has been stolen from the town museum. Your task is to find the thief and recover the artifact.</description>
+	<reward>500 gold and a rare item</reward>
+	<quest-giver>Mayor of the town</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Investigate the crime scene</objective>
+			<description>Visit the town museum and gather clues about the thief.</description>
+			<location>Town museum</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the thief's hideout</objective>
+			<description>Use the clues to find the thief's hideout and recover the artifact.</description>
+			<location>Unknown</location>
+		</task>
+	</tasks>
+</game>
+

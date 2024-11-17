@@ -1,0 +1,10 @@
+```yaml
+classDialogue:
+  game:
+    dialogues:
+      - order: dialogue_order
+        speaker: speaker_name
+        text: dialogue_or_narration
+
+```
+The YAML has been fixed by adding a top-level key `game` and defining the `dialogues` list under it. The key name `dialogue` has also been changed to `dialogues` according to the original template.

@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Dragon Slayer's Quest",
+    "objective": "Defeat the Dragon of Whispering Hill",
+    "description": "The village seeks aid to vanquish a dragon terrorizing its lands. Help them by discovering the lair and finishing both tasks:",
+    "reward": "500 gold coins and the Dragon Slayer's Sword",
+    "quest-giver": "Elderman Tao",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Inquiry at Whispering Hill",
+          "description": "Explore Whispering Hill to find information on the dragon's lair",
+          "location": "Whispering Hill"
+        },
+        {
+          "order": "2",
+          "objective": "Dragon's Confrontation and Vanquish",
+          "description": "Confront the dragon at its lair and defeat it to bring peace",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

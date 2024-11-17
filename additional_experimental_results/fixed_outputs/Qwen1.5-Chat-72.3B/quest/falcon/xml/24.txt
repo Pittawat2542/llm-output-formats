@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Fantasy Adventure</title>
+	<objective>To complete quests, defeat enemies, level up, and discover new areas.</objective>
+	<description>In this game, players embark on a journey to accomplish various tasks, battle foes, and explore uncharted territories for progress and rewards.</description>
+	<reward>Quest rewards include weapons, armor, gems, consumables, and opportunities for better rewards from NPCs.</reward>
+	<quest-giver>Gilder the Bard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Defeat the Cave Troll</objective>
+			<description>Head to the Dark Caves and defeat the Cave Troll that has been terrorizing the nearby village.</description>
+			<location>Cave Entrance, East of the Village</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,22 @@
+Here's the corrected XML data with values for the `<character>` element:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character id="1">
+		<first-name>John Doe</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>35</age>
+		<role>Fictional Protagonist</role>
+		<background>A skilled adventurer who discovered an ancient artifact.</background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<eye-color>Blue</eye-color>
+			<hair-color>Brown</hair-color>
+			<height>1.85</height>
+			<weight>75.0</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

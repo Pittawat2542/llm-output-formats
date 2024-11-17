@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>The Missing Shipment</title>
+    <objective>Find the missing shipment of magical artifacts and return them to the Wizard's Council.</objective>
+    <description>A shipment of magical artifacts was stolen from a merchant's wagon on its way to the Wizard's Council. The Council has sent out a call for adventurers to help locate and retrieve the missing shipment.</description>
+    <reward>A powerful magical artifact and a large sum of gold.</reward>
+    <quest-giver>Archmage Elminster</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the town of Redleaf and speak to Elara, the merchant who was robbed.</objective>
+            <description>The merchant can provide information about the shipment and where to find the first clue.</description>
+            <location>Redleaf, Town Square</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Investigate the robbery site in Redleaf Woods and search for clues.</objective>
+            <description>Look for signs of a struggle or track the bandits to their hideout in the Drakemoon Mountains.</location>
+            <location>Redleaf Woods, Bandit Camp; Drakemoon Mountains, Goblin Hideout</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Interrogate the goblins and locate the missing shipment in the secret cave.</objective>
+            <description>Follow the clues to find the hidden cave and retrieve the artifacts.</location>
+            <location>Drakemoon Mountains, Secret Cave</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Return the shipment to the Wizard's Council in the capital city for reward.</objective>
+            <description>Deliver the artifacts to Archmage Elminster at the Wizard's Council Tower.</description>
+            <location>Wizard's Council Tower, Capital City</location>
+        </task>
+    </tasks>
+</game>
+```

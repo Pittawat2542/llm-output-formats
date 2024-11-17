@@ -1,0 +1,31 @@
+game:
+  character:
+    age: 28
+    background: "Born and raised in a small village, the character trained as a skilled warrior from a young age. After witnessing the destruction of their village by an evil sorcerer, they dedicated their life to seeking revenge and protecting innocent lives."
+    first_name: Elena
+    id: 1357
+    last_name: "Darkwood"
+    physical_appearance:
+       - eye_color: Brown
+        hair_color: Black
+        height: 6.2
+        weight: 165.0
+    place_of_birth: "The Village of Elmridge"
+    role: "Warrior"
+    species: Human
+
+game.character.age = 28
+game.character.background = "Born and raised in a small village, the character trained as a skilled warrior from a young age. After witnessing the destruction of their village by an evil sorcerer, they dedicated their life to seeking revenge and protecting innocent lives."
+game.character.first_name = "Elena"
+game.character.id = 1357
+game.character.last_name = "Darkwood"
+game.character.physical_appearance = {
+    - eye_color: "Brown",
+    - hair_color: "Black",
+    - height: 6.2,
+    - weight: 165.0
+}
+
+game.character.place_of_birth = "The Village of Elmridge"
+game.character.role = "Warrior"
+game.character.species = "Human"

@@ -1,0 +1,13 @@
+XML has been updated to correct syntax and values. Here's the new XML:
+```xml
+<?xml version="1.0" encoding="UTF-8" xmlns="http://www.game.com/">
+  <game>
+    <title>game title</title>
+    <synopsis>game story synopsis</synopsis>
+    <beginning>the beginning of the game</beginning>
+    <ending>the ending of the game</ending>
+    <author>game author</author>
+    <created>game created date</created>
+    <modified>game modified date</modified>
+  </game>
+```

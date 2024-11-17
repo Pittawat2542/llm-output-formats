@@ -1,0 +1,20 @@
+Here is the corrected YAML data:
+```yaml
+name: # characters
+- name: First name
+  id: first_name
+  type: string
+  example: John
+- name: Last name
+  id: last_name
+  type: string
+  example: Doe
+- name: Age
+  id: age
+  type: integer
+  minimum: 0
+  maximum: 100
+- name: Physical appearance
+  id: physical_appearance
+  array: - (eye_color, hair_color, height, weight)
+  items: (C#)

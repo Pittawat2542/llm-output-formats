@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>2345</id>
+    <title>Conquer the Dark Wyrm</title>
+    <objective>Defeat the Dark Wyrm, the source of the evil in Shadowmont.</objective>
+    <description>The village of Shadowmont has been plagued by a malevolent force in the form of the Dark Wyrm. Its dark magic terrorizes the locals and disrupts the balance of nature. You are tasked with vanquishing this creature to restore peace.</description>
+    <reward>A powerful artifact, a magical potion, and the gratitude of the villagers.</reward>
+    <quest-giver>Eldrin, the wise wizard in Shadowmont.</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Acquire a magical shield from Eldrin.</objective>
+            <description>Visit Eldrin and ask him for his special magical shield. It will be essential for facing off against the Dark Wyrm's dark powers.</description>
+            <location>Shadowmont Wizard Tower</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Research the creature's weaknesses.</objective>
+            <description>Examine ancient tomes in the library and seek counsel from Eldrin. Uncover the Dark Wyrm's vulnerable spots to exploit during combat.</description>
+            <location>Shadowmont Library</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Travel to the Dark Wyrm's lair.</objective>
+            <description>The lair is hidden deep within a cursed forest, south of Shadowmont. Be cautious and prepared for dark magic.</description>
+            <location>Cursed Forest</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Defeat the Dark Wyrm and restore peace.</objective>
+            <description>Battle the Dark Wyrm with your shield and the knowledge you gained. Success will bring an end to its reign of terror.</description>
+            <location>Dark Wyrm's Lair</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return to Shadowmont and claim your reward.</objective>
+            <description>Deliver the Dark Wyrm's defeated body to Eldrin, and he will reward you with the artifact and a new chapter in the village's history.</description>
+            <location>Shadowmont Village Hall</location>
+        </task>
+    </tasks>
+</game>
+```

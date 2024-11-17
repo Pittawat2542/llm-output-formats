@@ -1,0 +1,12 @@
+```yaml
+game:
+  title: The Return of the Hero
+  cast:
+    - role: 
+      gender: 
+      character: 
+  synopsis: After centuries of absence, the intrepid hero returns to reclaim their rightful place in the world
+  beginning: the beginning of the game
+  ending: the ending of the game
+```
+I fixed the YAML syntax by converting the list into a dictionary and added values for the keys as required in the template. Now it is in the correct YAML format with a dictionary as the root.

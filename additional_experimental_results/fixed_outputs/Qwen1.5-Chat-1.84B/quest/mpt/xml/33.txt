@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>Giver of Quest</quest-giver>
+	<tasks>
+			<trigger>
+				<order>Trial Task</order>
+				<objective>Trial Objective</objective>
+				<description>Trial Description</description>
+				<location>Trial Location</location>
+			</trigger>
+			<task>
+				<order>Regular Task</order>
+				<objective>Regular Objective</objective>
+				<description>Regular Description</description>
+				<location>Regular Location</location>
+			</task>
+			<trigger>
+				<order>Final Task</order>
+				<objective>Final Objective</objective>
+				<description>Final Description</description>
+				<location>Final Location</location>
+			</trigger>
+	</tasks>
+</game>
+
+```

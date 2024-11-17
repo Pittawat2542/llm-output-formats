@@ -1,0 +1,83 @@
+The issue is that there is a missing key `title`. To fix this, we need to add this key in the `tasks` list:
+
+```yaml
+任务: title: quest title
+```
+
+And then add the corrected `id`, `objective`, and `task_ giver` values to the `tasks` list as before:
+
+```yaml
+game: 
+  description: quest description
+  id: Q001
+  objective: Gather the 'Golden Petal' herb from the Darkforest Meadow.  
+  quest_giver: Elara, the Village Healer  
+  reward: 100 gold coins and 10 healing potions  
+  tasks: 
+    - description: locate the Darkforest Meadow.  
+      location: The dark forest just north of the village.
+      objective: Find the correct path to the meadow.  
+      order: 1
+    - description: Gather a few 'Golden Petal' herbs for Elara.  
+      location: Within the Darkforest Meadow, near the old oak tree.  
+      objective: Collect enough petals without harming any other creatures in the meadow.  
+      order: 2
+```
+
+And finally, add the corrected `title` value to the `tasks` list:
+
+```yaml
+任务: title: quest title
+```
+
+Note that we have changed the `order` parameter to `1` since it is not currently set when the tasks are created. We should use this value for the `order` parameter in the `tasks` list.
+
+```yaml
+game: 
+  description: quest description
+  id: Q001
+  objective: Gather the 'Golden Petal' herb from the Darkforest Meadow.  
+  quest_giver: Elara, the Village Healer  
+  reward: 100 gold coins and 10 healing potions  
+  tasks: 
+    - description: locate the Darkforest Meadow.  
+      location: The dark forest just north of the village.  
+      objective: Find the correct path to the meadow.  
+      order: 1  
+    - description: Gather a few 'Golden Petal' herbs for Elara.  
+      location: Within the Darkforest Meadow, near the old oak tree.  
+      objective: Collect enough petals without harming any other creatures in the meadow.  
+      order: 2
+```
+
+And finally, add the corrected `id` value to the `tasks` list:
+
+```yaml
+任务: title: quest title
+```
+
+Note that we have changed the `order` parameter to `1` since it is not currently set when the tasks are created. We should use this value for the `order` parameter in the `tasks` list.
+
+```yaml
+game: 
+  description: quest description
+  id: Q001
+  objective: Gather the 'Golden Petal' herb from the Darkforest Meadow.
+  quest_giver: Elara, the Village Healer  
+  reward: 100 gold coins and 10 healing potions  
+  tasks: 
+    - description: locate the Darkforest Meadow.  
+      location: The dark forest just north of the village.  
+      objective: Find the correct path to the meadow.  
+      order: 1  
+    - description: Gather a few 'Golden Petal' herbs for Elara.  
+      location: Within the Darkforest Meadow, near the old oak tree.  
+      objective: Collect enough petals without harming any other creatures in the meadow.  
+      order: 2
+```
+
+And finally, add the corrected `id` value to the `tasks` list:
+
+```yaml
+任务: title: quest title
+```

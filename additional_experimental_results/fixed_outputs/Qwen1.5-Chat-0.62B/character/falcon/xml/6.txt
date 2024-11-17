@@ -1,0 +1,157 @@
+```xml
+<!DOCTYPE game>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance http://example.com/xml-game.xsd">
+<head>
+	<title>Game</title>
+</head>
+
+<body>
+	<h1>Game Title</h1>
+	<p>This is the game title.</p>
+	<form method="post" action="submit.php">
+		<label for="id">ID:</label><br>
+		<input type="number" id="id"><br>
+		<label for="first-name">First Name:</label><br>
+		<input type="text" id="first-name"><br>
+		<label for="last-name">Last Name:</label><br>
+		<input type="text" id="last-name"><br>
+		<label for="species">Species:</label><br>
+		<select id="species">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+		</select><br>
+		<label for="age">Age:</label><br>
+		<input type="number" id="age"><br>
+		<label for="role">Role of the Character:</label><br>
+		<select id="role">
+			<option value="option1">Option 1</option>
+			<option value="option2">Option 2</option>
+			<option value="option3">Option 3</option>
+		</select><br>
+		<label for="background">Background Story:</label><br>
+		<textarea id="background"></textarea><br>
+		<label for="place-of-birth">Location:</label><br>
+		<input type="text" id="place-of-birth"><br>
+		<label for="physical-appearance">Physical Appearance:</label><br>
+		<input type="range" min="0" max="100">
+	</form>
+
+	<script type="text/javascript">
+		var id = document.getElementById("id").value;
+		var firstName = document.getElementById("first-name").value;
+		var lastName = document.getElementById("last-name").value;
+		var species = document.getElementById("species").value;
+		var age = parseInt(document.getElementById("age").value);
+		var role = document.getElementById("role").value;
+		var background = document.getElementById("background").value;
+		var placeOfBirth = document.getElementById("place-of-birth").value;
+		var physicalAppearance = document.getElementById("physical-appearance").value;
+		var eyeColor = document.getElementById("eye-color").value;
+		var hairColor = document.getElementById("hair-color").value;
+		var heightInFloatValue = document.getElementById("height-in_float-value").value;
+		var weightInFloatValue = document.getElementById("weight-in.Float-value").value;
+
+		function submit() {
+			document.getElementById("id").value = id;
+			document.getElementById("first-name").value = firstName;
+			document.getElementById("last-name").value = lastName;
+			document.getElementById("species").value = species;
+			document.getElementById("age").value = age;
+			document.getElementById("role").value = role;
+			document.getElementById("background").value = background;
+			document.getElementById("place-of-birth").value = placeOfBirth;
+			document.getElementById("physical-appearance").value = physicalAppearance;
+			document.getElementById("eyeColor").value = eyeColor;
+			document.getElementById("hairColor").value = hairColor;
+			document.getElementById("heightInFloatValue").value = heightInFloatValue;
+			document.getElementById("weightInFloatValue").value = weightInFloatValue;
+
+			var xhr = new XMLHttpRequest();
+		(xhr.open("POST", "submit.php", true);
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState === 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = "<h1>Game Title</h1>";
+				}
+			};
+			xhr.send();
+		}
+
+		function submitphp() {
+			var id = document.getElementById("id").value;
+			var firstName = document.getElementById("first-name").value;
+			var lastName = document.getElementById("last-name").value;
+			var species = document.getElementById("species").value;
+			var age = parseInt(document.getElementById("age").value);
+			var role = document.getElementById("role").value;
+			var background = document.getElementById("background").value;
+			var placeOfBirth = document.getElementById("place-of-birth").value;
+			var physicalAppearance = document.getElementById("physical-appearance").value;
+			var eyeColor = document.getElementById("eye-color").value;
+			var hairColor = document.getElementById("hair-color").value;
+			var heightInFloatValue = document.getElementById("height-in_float-value").value;
+			var weightInFloatValue = document.getElementById("weight-in_float_value").value;
+
+			xhr.open("POST", "submit.php", true);
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState === 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = "<h1>Game Title</h1>";
+				}
+			};
+			xhr.send();
+		}
+
+		function submit() {
+			var id = document.getElementById("id").value;
+			var firstName = document.getElementById("first-name").value;
+			var lastName = document.getElementById("last-name").value;
+			var species = document.getElementById("species").value;
+			var age = parseInt(document.getElementById("age").value);
+			var role = document.getElementById("role").value;
+			var background = document.getElementById("background").value;
+			var placeOfBirth = document.getElementById("place-of-birth").value;
+			var physicalAppearance = document.getElementById("physical-appearance").value;
+			var eyeColor = document.getElementById("eye-color").value;
+			var hairColor = document.getElementById("hair-color").value;
+			var heightInFloatValue = document.getElementById("height-in_float-value").value;
+			var weightInFloatValue = document.getElementById("weight-in Float_value").value;
+
+			xhr.open("POST", "submit.php", true);
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState === 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = "<h1>Game Title</h1>";
+				}
+			};
+			xhr.send();
+		}
+
+		function submit() {
+			var id = document.getElementById("id").value;
+			var firstName = document.getElementById("first-name").value;
+			var lastName = document.getElementById("last-name").value;
+			var species = document.getElementById("species").value;
+			var age = parseInt(document.getElementById("age").value);
+			var role = document.getElementById("role").value;
+			var background = document.getElementById("background").value;
+			var placeOfBirth = document.getElementById("place-of-birth").value;
+			var physicalAppearance = document.getElementById("physical-appearance").value;
+			var eyeColor = document.getElementById("eye-color").value;
+			var hairColor = document.getElementById("hair-color").value;
+			var heightInFloatValue = document.getElementById("height-in_float-value").value;
+			var weightInFloatValue = document.getElementById("weight-in Float_value").value;
+
+			xhr.open("POST", "submit.php", true);
+			xhr.onreadystatechange = function () {
+				if (xhr.readyState === 4 && xhr.status == 200) {
+					document.getElementById("game").innerHTML = "<h1>Game Title</h1>";
+				}
+			};
+			xhr.send();
+		}
+	</script>
+
+</body>
+</html>
+```
+
+The code has been fixed to provide the correct syntax and values. The new values are added in the `submit.php` function, which calls the `submit()` method of the XML document.

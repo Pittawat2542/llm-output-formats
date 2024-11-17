@@ -1,0 +1,40 @@
+Here is the quest information in JSON format:
+
+```json
+{
+    "game": {
+        "id": "EQ001",
+        "title": "The Lost City of Eldarath",
+        "objective": "Retrieve the ancient artifact from the ruins of Eldarath",
+        "description": "The city of Eldarath was said to hold the secrets of the ancient civilization. The artifact, a powerful relic, is rumored to be hidden deep within the ruins.",
+        "reward": "1000 gold pieces and a boost in reputation",
+        "quest_giver": "Thoric Stonebeard, the village elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the location of Eldarath",
+                "description": "Speak to the villagers and gather any information they may have about the lost city.",
+                "location": "Greenhaven Village"
+            },
+            {
+                "order": 2,
+                "objective": "Retrieve the ancient map from the crypt",
+                "description": "Explore the nearby crypt and retrieve the map that supposedly leads to Eldarath.",
+                "location": "Crypt of the Ancients"
+            },
+            {
+                "order": 3,
+                "objective": "Navigate through the ruins and reach the artifact chamber",
+                "description": "Use the map to navigate through the treacherous ruins and reach the chamber where the artifact is said to be.",
+                "location": "Ruins of Eldarath"
+            },
+            {
+                "order": 4,
+                "objective": "Defeat the guardian of the artifact",
+                "description": "Face the fearsome guardian that protects the artifact and emerge victorious.",
+                "location": "Artifact Chamber, Ruins of Eldarath"
+            }
+        ]
+    }
+}
+```

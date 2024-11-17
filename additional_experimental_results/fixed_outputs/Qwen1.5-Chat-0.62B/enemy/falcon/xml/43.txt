@@ -1,0 +1,20 @@
+Here's the corrected XML data:
+```
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<hp>hp int value</hp>
+			/mp>mp int value</mp>
+			atk>atk int value</atk>
+			def>def int value</def>
+			<p id="id">id</p>
+			<title>Name</title>
+			<img src="http://example.com/enemy-text.png" />
+	</enemy>
+</game>
+```
+New values for the enemy data include:
+- `hp: 0.0` (HP of 0)
+- `mp: 0.0` (MP of 0)
+- `atk: 0.0` (atk of 0)
+- `def: 1000` (Defintion of 1000 points)

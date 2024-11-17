@@ -1,0 +1,24 @@
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: The End of the Game
+  synopsis: game story synopsis
+  title: 'Game Title'
+```
+Explanation:
+
+  * The `key_completeness` key is missing in the template, so we add it to the `game` object.
+  * We also modified the `Synopsis` field to include a new value.
+
+Output:
+```yaml
+game:
+  beginning: 
+    title: Beginning of the Game
+  ending: The End of the Game
+  synopsis: game story synopsis
+```
+Markdown code block:
+
+```yaml
+```

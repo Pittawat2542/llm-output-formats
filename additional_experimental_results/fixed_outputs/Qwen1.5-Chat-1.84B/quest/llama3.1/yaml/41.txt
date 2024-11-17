@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: "Retrieve a rare herb for the village' s ailing healer."
+  id: Q001
+  objective: Gather the 'Golden Petal' herb from the Darkforest Meadow.
+  quest_ giver: Elara, the Village Healer
+  reward: 100 gold coins and 10 healing potions
+  tasks:
+    - description: Locate the Darkforest Meadow.       # Corrected "description": to a string
+      location: The dark forest just north of the village.   # Corrected "location": to a string
+      objective: Find the correct path to the meadow.        # Added an object with "objective" property
+      order: 1
+    - description: Gather a few 'Golden Petal' herbs for Elara.     # Corrected "description": to a string
+      location: Within the Darkforest Meadow, near the old oak tree.   # Corrected "location": to a string
+      objective: Collect enough petals without harming any other creatures in the meadow.   # Added an object with "objective" property
+      order: 2
+```

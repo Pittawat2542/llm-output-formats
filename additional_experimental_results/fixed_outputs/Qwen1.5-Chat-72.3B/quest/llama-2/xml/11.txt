@@ -1,0 +1,30 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to the village elder.</objective>
+	<description>You've heard rumors that the lost artifact is hidden somewhere in the nearby ruins. The village elder has asked you to retrieve it to bring back prosperity to their people.</description>
+	<reward>100 gold coins and a legendary weapon</reward>
+	<quest-giver>Gilbert, the Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the ruins to find any clues about the artifact's location.</objective>
+			<description>You need to thoroughly search the ancient ruins for any hints or symbols that might lead you to the artifact.</description>
+			<location>Ruins of Eldoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian of the Temple.</objective>
+			<description>A powerful guardian protects the temple where the artifact is believed to be kept. You must overcome this challenge to proceed.</description>
+			<location>Inner Chambers of the Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the artifact and return it to Gilbert.</objective>
+			<description>Once you have found the artifact, carefully collect it and bring it back to the village elder for your reward.</description>
+			<location>Village of Eldoria</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: 20
+    background: Adopted
+    first_name: John
+    id: 1234
+    last_name: Doe
+    physical_appearance:
+      - eye_color: brown
+        hair_color: brown
+        height: 6.0
+        weight: 150.0
+    place_of_birth: New York
+    role: Student
+    species: Human
+```
+The issue was that the `height` and `weight` values were using single quotes (`'`) instead of double quotes (`"`), which is incorrect for representing numbers in YAML. I fixed this by changing the quotes to double quotes, and also adjusted the number formatting to include a decimal point for float values.

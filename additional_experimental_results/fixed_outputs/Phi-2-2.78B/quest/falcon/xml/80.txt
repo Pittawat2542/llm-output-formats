@@ -1,0 +1,27 @@
+<game>
+	<id>1</id>
+	<title>Quest 1 Title</title>
+	<objective>Quest 1 Objective</objective>
+	<description>Quest 1 Description</description>
+	<reward>Quest 1 Reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task id="1">
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+		{% for task in tasks %}
+			<task id="{{forloop.counter}}">
+				<order>task order</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+				<location>task location</location>
+			</task>
+		{% endfor %}
+	</tasks>
+</game>
+```
+
+

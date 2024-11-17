@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A mysterious map points to the location of a lost artifact. Recover it and return to the quest giver.</description>
+	<reward>1000 gold coins and a legendary weapon blueprint</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Ruins of Eldrid</objective>
+			<description>You must reach the ruins and search for any clues about the artifact's location.</description>
+			<location>Ruins of Eldrid</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian spirit</objective>
+			<description>A powerful spirit protects the artifact. Conquer it to claim your prize.</description>
+			<location>Ruins of Eldrid, Inner Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

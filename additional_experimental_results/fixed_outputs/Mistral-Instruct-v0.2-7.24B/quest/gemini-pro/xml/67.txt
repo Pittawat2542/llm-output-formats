@@ -1,0 +1,38 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Defeat the Dragon</title>
+	<objective>Slay the dragon terrorizing the nearby village.</objective>
+	<description>The village of Riverwood has been plagued by a ferocious dragon for years. The villagers are terrified and desperate for help. You must travel to the dragon's lair and slay the beast.</description>
+	<reward>A large sum of gold, a powerful weapon, and the gratitude of the villagers.</reward>
+	<quest-giver>Alvor</quest-giver> <!-- Changed "quest-giver" to "Alvor" -->
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the dragon.</objective>
+			<description>Talk to the villagers of Riverwood to learn more about the dragon. They can provide you with valuable information about its lair, its habits, and its strengths.</description>
+			<location>Riverwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Travel to the dragon's lair.</objective>
+			<description>Use the information you gathered from the villagers to find the dragon's lair. It is located in a remote mountain range to the west of Riverwood.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Slay the dragon.</objective>
+			<description>Once you reach the dragon's lair, you must face the beast in battle. Be prepared for a fierce fight. The dragon is a powerful creature, but with courage and skill, you can defeat it.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to Riverwood and claim your reward.</objective>
+			<description>After you have slain the dragon, return to Riverwood and speak to Alvor. He will be overjoyed to learn that the dragon is dead and will give you your reward.</description>
+			<location>Riverwood</location>
+		</task>
+	</tasks>
+</game>
+```

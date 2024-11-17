@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Save the Princess",
+    "objective": "Rescue the kidnapped princess from the dragon",
+    "description": "The dragon has taken our beloved princess. Travel through treacherous terrains, solve challenging puzzles, and finally, defeat the dragon to save our princess.",
+    "reward": "Kingdom's Gratitude Shard + 3000 gold coins",
+    "quest-giver": "King Leopold",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Old Sword",
+          "description": "Search in the Old Forest to find the legendary sword that once defeated a dragon",
+          "location": "Old Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Shadow Guards",
+          "description": "Traverse the Dangerous Mountains and defeat the Shadow Guards protecting the dragon",
+          "location": "Dangerous Mountains"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the Princess",
+          "description": "Enter the Dragon's Cave, defeat the dragon, and rescue the princess",
+          "location": "Dragon's Cave"
+        }
+      ]
+    }
+  }
+}

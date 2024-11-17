@@ -1,0 +1,19 @@
+The YAML code has no syntax errors, and there are no new values needed. The original message is provided between ```yaml and ```.
+
+Here's the corrected code:
+```
+game:
+  description: Quest description
+  id: id
+  objective: Quest objective
+  quest_giver: Quest giver
+  reward: Quest reward
+  tasks:
+   - description: Task description
+    location: Task location
+    objective: Task objective
+    order: Task order
+  title: Quest title
+```
+
+Output in YAML format and only the YAML in the Markdown code block.

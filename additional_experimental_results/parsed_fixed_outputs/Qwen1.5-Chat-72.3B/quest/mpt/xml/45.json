@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact in the ruins.",
+    "description": "Embark on a journey to locate the lost artifact in the forgotten ruins deep within the jungle.",
+    "reward": "1000 gold coins and the favor of the king",
+    "quest-giver": "King Arcturus",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "A local elder claims to have knowledge of the ruins' location. Speak with him in the nearby village.",
+          "location": "Village of Eldervale"
+        },
+        {
+          "order": "2",
+          "objective": "Survive the jungle's dangers",
+          "description": "Navigate through the treacherous jungle filled with dangerous beasts and natural hazards.",
+          "location": "Jungle of Shadows"
+        }
+      ]
+    }
+  }
+}

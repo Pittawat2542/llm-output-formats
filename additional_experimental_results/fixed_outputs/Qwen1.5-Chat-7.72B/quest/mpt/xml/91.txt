@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>new-id12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Updated quest objective</objective>
+    <description>Quest description updated</description>
+    <reward>Golden Token</reward>
+    <quest-giver>Captain Adventure</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track the Mysterious Artifact</objective>
+            <description>Search the forest clearing at dawn</description>
+            <location>North Forest Clearing</location>
+        </task>
+    </tasks>
+</game>
+```

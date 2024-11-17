@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Find the ancient temple and retrieve the treasure</objective>
+	<description>A wealthy collector has hired you to find an ancient temple hidden deep in the jungle, where a valuable artifact is said to be hidden.</description>
+	<reward>Gold coins: 1000, Experience points: 500, Treasure map fragment: 1</reward>
+	<quest-giver>The Collector</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the local villager, Kanaq</objective>
+			<description>Kanaq may have information about the temple's location.</description>
+			<location>Jungle Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the treacherous jungle terrain</objective>
+			<description>The journey to the temple will be difficult, so you'll need to use your skills and equipment wisely.</description>
+			<location>Jungle Terrain</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the ancient puzzle to unlock the temple entrance</objective>
+			<description>The temple's entrance is guarded by a complex puzzle. You'll need to use your wits and problem-solving skills to overcome it.</description>
+			<location>Temple Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

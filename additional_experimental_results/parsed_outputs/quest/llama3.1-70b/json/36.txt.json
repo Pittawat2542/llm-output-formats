@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "SQ001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the legendary Moonstone from the ancient temple",
+    "description": "The village elder has tasked you with retrieving the fabled Moonstone, said to grant immense power and wisdom. The stone is hidden within the long-abandoned Temple of the Moon Goddess, deep in the heart of the mystical forest.",
+    "reward": "1000 gold pieces, a magical amulet granting +10% spell damage",
+    "quest_giver": "Elder Elara, Village Elder of Oakwood",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the temple's location and layout",
+        "description": "Speak with the village's elderly residents to gather information about the temple's whereabouts and potential dangers within.",
+        "location": "Oakwood Village"
+      },
+      {
+        "order": 2,
+        "objective": "Navigate through the mystical forest to reach the temple",
+        "description": "Make your way through the treacherous forest, avoiding deadly creatures and ancient traps. Follow the path marked by glowing mushrooms.",
+        "location": "Mystical Forest"
+      },
+      {
+        "order": 3,
+        "objective": "Solve the temple's entrance puzzle to gain access",
+        "description": "Use your knowledge of astronomy and ancient lore to solve the complex puzzle locking the temple gates.",
+        "location": "Temple Entrance, Mystical Forest"
+      }
+    ]
+  }
+}

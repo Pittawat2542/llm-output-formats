@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Quest001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient scrolls from the Lost City of Eldarath.",
+    "description": "Rumors have been circulating about a hidden city deep in the nearby forest, filled with ancient artifacts and treasures. The village elder has approached you with a plea for help, seeking brave adventurers to explore this lost city and retrieve a set of ancient scrolls said to hold secrets of unimaginable power.",
+    "reward": "10,000 gold pieces, a magical amulet granting resistance to darkness, and the gratitude of the village elder.",
+    "quest-giver": "Village Elder Thornguard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather supplies for your journey in the nearby village market.",
+          "description": "Acquire food, potions, and any other gear you deem necessary for your perilous quest. Be sure to visit the local blacksmith for information on a sturdy map that might aid in your navigation through the forest.",
+          "location": "Village Market"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the Whispering Woods and locate the entrance to the Lost City of Eldarath.",
+          "description": "Beware the eerie silence of the woods, as it is said that whispers can lead the brave astray. Seek out landmarks like the ancient oak with a carving of an eagle and follow the stream until you reach a clearing where ruins stand hidden beneath foliage.",
+          "location": "Whispering Woods"
+        },
+        {
+          "order": "3",
+          "objective": "Overcome the trials within the Lost City and retrieve the ancient scrolls.",
+          "description": "The heart of the city holds three temples, each testing a different aspect of your courage, wit, and strength. Solve the riddle of the wind temple, overcome the darkness in the shadow temple, and face your fears in the flame temple to reach the scrolls resting at the center of the earth temple.",
+          "location": "Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

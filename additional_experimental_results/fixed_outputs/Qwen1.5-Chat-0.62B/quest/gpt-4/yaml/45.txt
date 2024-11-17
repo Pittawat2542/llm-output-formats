@@ -1,0 +1,16 @@
+Template: 
+game:
+  description: A mystical quest for a powerful artifact, with a dangerous enemy at its heart. Use your wits and combat skills to defeat the artifact before it's too late.
+  id: Q4574
+  objective: Retrieve the ancient artifact of light from the Cave of Shadows and restore it in the Kingdom of中华 States. The artifact is said to grant immense power and knowledge.
+  quest_giver: King Arthur
+  reward: 10,000 Gold, Enchanted Sword
+  tasks:
+   - description: Travel to the caves of China and defeat the evil dragon guarding the artifact.
+    location: Caves of China
+    objective: Defeat the dragon and retrieve the artifact.
+    order: 2
+   - description: Defeat the dragon and retrieve the ancient artifact of light from the cave of Shadows.
+    location: Cave of Shadows
+    objective: Place the artifact in the shrine.
+    order: 3

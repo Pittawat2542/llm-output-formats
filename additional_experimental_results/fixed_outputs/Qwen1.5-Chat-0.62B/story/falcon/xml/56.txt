@@ -1,0 +1,35 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>
+			<line>The player begins their journey through an enchanted forest, encountering various creatures and magical creatures along the way.</line>
+			<line>Eventually, they reach an ancient castle and discover a powerful artifact that could threaten the balance of the world as they know it.</line>
+		</synopsis>
+	
+	<beginning>
+			The beginning of the game: <line>The player begins their journey through an enchanted forest, encountering various creatures and magical creatures along the way.</line>
+			<line>Eventually, they reach an ancient castle and discover a powerful artifact that could threaten the balance of the world as they know it.</line>
+	</beginning>
+
+	<ending>
+			The ending of the game: <line>The player begins their journey through an enchanted forest, encountering various creatures and magical creatures along the way.</line>
+			<line>Eventually, they reach an ancient castle and discover a powerful artifact that could threaten the balance of the world as they know it.</line>
+	</ending>
+
+	<step>
+			<title>Step one: <line>The player begins their journey through an enchanted forest, encountering various creatures and magical creatures along the way.</line>
+			<title>Step two: <line>The player reaches an ancient castle and discovers a powerful artifact that could threaten the balance of the world as they know it.</line>
+			<title>Step three: <line>Using the magical artifact's power, the player sets out to restore peace to the kingdom and ensure that the artifact remains in safe hands.</line>
+	</step>
+
+	<step>
+			<title>Step four: <line>The player uses their wit and combat skills to avoid enemies and obstacles before they can claim their prize.</line>
+			<title>Step five: <line>Using the magical artifact's power, the player sets out to restore peace to the kingdom and ensure that the artifact remains in safe hands.</line>
+			<title>Step six: <line>Using the magical artifact's power, the player confronts an evil sorcerer who seeks to destroy the artifact and the world as they know it.</line>
+			<title>The sorcerer reveals his true purpose and is defeated by the player, ending the journey.</title>
+	</step>
+
+</game>
+```
+```

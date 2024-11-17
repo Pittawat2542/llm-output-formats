@@ -1,0 +1,135 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	objective>Find the hidden treasure in the mysterious island.</objective>
+	<description>In this quest, you embark on an adventure to search for the lost treasure of a legendary pirate. You have received a map containing clues that will lead you to the treasure's location. Journey across the treacherous sea to a remote island and unravel the secrets that lie within.</description>
+	 reward>A chest full of gold coins and precious gems.</reward>
+	<quest-giver>Captain Blackbeard</quest-giver>
+	<title>The Lost Treasure</title>
+	<tasks>
+			<task>
+			<order>1</order>
+			bjective>Find the Skeleton Key</objective>
+			<description>Locate the hidden cave entrance on the eastern side of the island. Inside, you will find the Skeleton Key that is required to unlock the treasure chamber.</description>
+			的位置>东南方的岛屿上
+			<title>The Lost Treasure</title>
+	</tasks>
+</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure in the mysterious island.</Objective>
+	 Description>In this quest, you embark on an adventure to search for the lost treasure of a legendary pirate. You have received a map containing clues that will lead you to the treasure's location.
+	 Reward:A chest full of gold coins and precious gems.</ reward>
+	 Quest-giver>Captain Blackbeard</Quest-giver>
+	 <Title>The Lost Treasure</title>
+	 <Tasks>
+			<task>
+				Order 1: Find the Skeleton Key
+			 Objective: Locate the hidden cave entrance on the eastern side of the island.
+			 Location: East南方的岛屿上
+			<title>Find the Skeleton Key</title>
+		</Task>
+		<Task>
+				Order 2: Solve the谜题
+			 Objective: Use the clues to unlock the treasure chamber.
+			 Location: Inside the treasure chamber
+			<title>Solve the谜题</title>
+		</Task>
+		<title>Unlock the Treasure Chamber</title>
+	目的地: East南方的岛屿上
+	</Tasks>
+</game>
+```
+New values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure in the mysterious island.</Objective>
+	 Description>In this quest, you embark on an adventure to search for the lost treasure of a legendary pirate. You have received a map containing clues that will lead you to the treasure's location.
+	 Reward:A chest full of gold coins and precious gems.
+	 Quest-giver>Captain Blackbeard
+	 <Title>The Lost Treasure</title>
+	 <Tasks>
+			<task>
+				Order 1: Find the Skeleton Key
+			 Objective: Locate the hidden cave entrance on the eastern side of the island.
+			 Location: East南方的岛屿上
+			<title>Find the Skeleton Key</title>
+		</Task>
+		<Task>
+				Order 2: Solve the谜题
+			 Objective: Use the clues to unlock the treasure chamber.
+			 Location: Inside the treasure chamber
+			<title>Solve the谜题</title>
+		</Task>
+		<title>Unlock the Treasure Chamber</title>
+	目的地: East南方的岛屿上
+	</Tasks>
+</game>
+```
+Output in Markdown code block:
+```-template
+<p><strong>The Lost Treasure</strong></p>
+
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure in the mysterious island.</Objective>
+	 Description>In this quest, you embark on an adventure to search for the lost treasure of a legendary pirate. You have received a map containing clues that will lead you to the treasure's location.
+	 Reward:A chest full of gold coins and precious gems.
+	 Quest-giver>Captain Blackbeard
+	 <Title>The Lost Treasure</title>
+	 <Tasks>
+			<task>
+				Order 1: Find the Skeleton Key
+			 Objective: Locate the hidden cave entrance on the eastern side of the island.
+			 Location: East南方的岛屿上
+			<title>Find the Skeleton Key</title>
+		</Task>
+		<task>
+				Order 2: Solve the谜题
+			 Objective: Use the clues to unlock the treasure chamber.
+			 Location: Inside the treasure chamber
+			<title>Solve the谜题</title>
+		</Task>
+		<title>Unlock the Treasure Chamber</title>
+	目的地: East南方的岛屿上
+	</Tasks>
+</game>
+```
+Code block:
+```-template
+<p><strong>The Lost Treasure</strong></p>
+
+<game>
+	<title>The Lost Treasure</title>
+	 Objective>Find the hidden treasure in the mysterious island.</Objective>
+	 Description>In this quest, you embark on an adventure to search for the lost treasure of a legendary pirate. You have received a map containing clues that will lead you to the treasure's location.
+	 Reward:A chest full of gold coins and precious gems.
+	 Quest-giver>Captain Blackbeard
+	 <Title>The Lost Treasure</title>
+	 <Tasks>
+			<task>
+				Order 1: Find the Skeleton Key
+			 Objective: Locate the hidden cave entrance on the eastern side of the island.
+			 Location: East南方的岛屿上
+			<title>Find the Skeleton Key</title>
+		</Task>
+		<task>
+				Order 2: Solve the谜题
+			 Objective: Use the clues to unlock the treasure chamber.
+			 Location: Inside the treasure chamber
+			<title>Solve the谜题</title>
+		</Task>
+		<title>Unlock the Treasure Chamber</title>
+	目的地: East南方的岛屿上
+	</Tasks>
+</game>
+```

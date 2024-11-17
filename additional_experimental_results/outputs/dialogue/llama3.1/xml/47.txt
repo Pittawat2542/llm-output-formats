@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'm at the entrance of a dark cave.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Guard</speaker>
+			<text>Who are you and what do you want in here?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm a brave adventurer seeking fortune and glory.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Guard</speaker>
+			<text>Foolish mortal, the cave is full of danger. You'll never make it out alive!</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>We'll see about that.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

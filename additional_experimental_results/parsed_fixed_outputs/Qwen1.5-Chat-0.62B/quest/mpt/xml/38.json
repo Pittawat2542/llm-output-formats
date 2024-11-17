@@ -1,0 +1,17 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "quest giver",
+    "tasks": {
+      "task": [
+        "order:1\n\t\t\t Objective:1\n\t\t\t\tDescription:1\n\t\t\t.location:1",
+        "order:2\n\t\t\t Objective:2\n\t\t\t\tDescription:2\n\t\t\t location:2",
+        "order:3\n\t\t\t Objective:3\n\t\t\t>Description:3\n\t\t\tlocation:3"
+      ]
+    }
+  }
+}

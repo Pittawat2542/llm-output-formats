@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Dragon Slayer",
+    "objective": "Defeat the Ancient Dragon in the Forgotten Mountain",
+    "description": "Local villagers have been terrorized by an Ancient Dragon residing in the Forgotten Mountain. Your task is to brave the treacherous terrain, reach the dragon's lair, and slay the beast.",
+    "reward": "5000 gold coins and the Dragon's Soul gemstone",
+    "quest-giver": "Lord of the village",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the dragon from the village elder",
+          "description": "Visit the elder of the village and gather information about the lair of the ancient dragon",
+          "location": "Village Square"
+        },
+        {
+          "order": "2",
+          "objective": "Find the hidden path to the mountain",
+          "description": "According to the elders, a hidden path behind the waterfall leads to the dragon's lair. Find this path.",
+          "location": "Crystal Waterfall"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Ancient Dragon",
+          "description": "Engage in battle with the dragon and defeat it to bring peace to the village.",
+          "location": "Dragon's lair at the summit of Forgotten Mountain"
+        }
+      ]
+    }
+  }
+}

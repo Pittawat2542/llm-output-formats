@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>quest giver</quest-giver>
+  <tasks>
+    <task>
+      <order>1st</order>
+      <objective>Complete quest 1</objective>
+      <description>Quest 1: Collect the key to unlock a chest.</description>
+      <location>Behind the tree on the left of the path.</location>
+    </task>
+    <task>
+      <order>2nd</order>
+      <objective>Complete quest 2</objective>
+      <description>Quest 2: Defeat the dragon and retrieve the treasure.</description>
+      <location>At the top of the mountain, facing west.</location>
+    </task>
+  </tasks>
+</game>
+
+```
+

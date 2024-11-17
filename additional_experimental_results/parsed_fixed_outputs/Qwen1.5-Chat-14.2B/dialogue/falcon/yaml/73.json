@@ -1,0 +1,32 @@
+{
+  "player": [
+    {
+      "name": "Goggin",
+      "dialog": "Dialog text"
+    }
+  ],
+  "game": {
+    "dialogues": [
+      {
+        "order": "dialogue order",
+        "speaker": "speaker's name",
+        "text": "dialogue or narration"
+      },
+      {
+        "order": 1
+      },
+      {
+        "order": 2,
+        "name": "Order of game players"
+      },
+      {
+        "order": 3,
+        "name": "The player's goal"
+      },
+      {
+        "order": 4,
+        "description": "events in game"
+      }
+    ]
+  }
+}

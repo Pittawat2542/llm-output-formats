@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "92827",
+    "title": "Forgotten Treasure",
+    "objective": "Locate and retrieve the lost treasure chest",
+    "description": "The legendary pirate Blackbeard has hidden a treasure chest on a mysterious island. Find the chest and retrieve the hidden treasure.",
+    "reward": "5000 Gold coins and Legendary Pirate Sword",
+    "quest-giver": "Old Seadog",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the treasure map",
+          "description": "The first step is to locate the old treasure map hidden in the Cave of Echoes.",
+          "location": "Cave of Echoes"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the riddle",
+          "description": "The map contains a riddle which leads to the exact location of the treasure chest. Solve it to proceed further.",
+          "location": "On the treasure map"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the treasure chest",
+          "description": "After solving the riddle, it's time to dig the lost chest. Be careful, you might face unexpected dangers!",
+          "location": "Mysterious Island"
+        }
+      ]
+    }
+  }
+}

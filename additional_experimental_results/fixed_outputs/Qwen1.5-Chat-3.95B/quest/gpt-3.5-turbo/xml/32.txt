@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?> 
+<game xmlns="http://www game model http game model game 1992-2008" id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks>
+    <task>
+        <order>1</order>
+        <objective>Find the ancient map</objective>
+        <description>Your first task is to find the ancient map that supposedly leads to the treasure. The map is said to be hidden in a secret chamber within the ruins of an ancient temple. Explore the temple and solve puzzles to uncover the map's location.</description>
+        <location>Ancient Temple Ruins</location>
+    </task>
+    <task>
+        <order>2</order>
+        <objective>Find the treasure</objective>
+        <description>Your next task is to find the treasure itself. It can be found hidden in a secret chamber within the ruins of an ancient temple. Once you have discovered the treasure, return to the temple and claim your rewards.</description>
+        <location>Ancient Temple Ruins</location>
+    </task>
+    <tasks>
+        <!-- tasks here -->
+    </tasks>
+</game>
+```

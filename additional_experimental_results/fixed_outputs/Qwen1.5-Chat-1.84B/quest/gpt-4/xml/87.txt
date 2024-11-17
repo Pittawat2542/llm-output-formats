@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<game>
+    <id>1</id>
+    <title Dragon's Lair</title>
+    <objective>Purge the dragon from its lair</objective>
+    <description>Long ago, a terrifying dragon took residence in the nearby mountain lair, causing fear and destruction among the villagers. Your task is to venture into the dragon's lair, face the fiery beast, and rid it from our lands once and for all.</description>
+    <reward>5000 Gold, Dragon Slayer Sword</reward>
+    <quest-giver>Village Elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the mountain lair</objective>
+            <description>Use the map given by the elder to locate the dragon's lair</description>
+            <location>Nearby mountain</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the dragon</objective>
+            <description>Utilize your skills and tools available to defeat the dragon</description>
+            <location>Inside the mountain lair</location>
+        </task>
+    </tasks>
+</game>
+
+```

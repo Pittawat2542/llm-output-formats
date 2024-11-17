@@ -1,0 +1,5 @@
+Invalid XML data. Incorrect syntax and values. Error: incorrect_syntax: not well-formed (invalid token): line 24, column 0
+XML:
+```xml
+<?xml version="1.0" > < game > < id '13' > < title 'The quest of the dragon' > < objective 'Kill the dragon' > < description 'You need to kill the dragon in order to get the reward' > < reward '100 gold' > < quest-giver 'The king' > < tasks > </ game >
+```

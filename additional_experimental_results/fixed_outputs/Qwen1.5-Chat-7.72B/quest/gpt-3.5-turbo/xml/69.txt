@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure in the jungle.</objective>
+	<description>You have heard rumors about a lost treasure hidden deep in the jungle. Your objective is to explore, solve puzzles, and overcome obstacles to find the treasure.</description>
+	<reward>Ancient artifacts worth a fortune.</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ancient map</objective>
+			<description>Captain Morgan's shipwreck is said to hold clues for the map. Search there to locate it.</description>
+			<location>The Captain's shipwreck</location>
+		</task>
+	</tasks>
+</game>
+```

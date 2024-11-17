@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact",
+    "description": "Long ago, a powerful artifact was lost deep within the ancient ruins. Your quest is to find and retrieve this artifact, for it holds the key to saving our world from impending doom.",
+    "reward": "500 gold coins and a legendary weapon",
+    "quest-giver": "Master Yoda",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the ruins",
+          "description": "The entrance to the ancient ruins is said to be hidden in the nearby forest. Search for clues and follow the path that leads you to the entrance.",
+          "location": "Nearby forest"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the riddle of the guardians",
+          "description": "Deep within the ruins, you will encounter guardians that protect the artifact. Solve their riddle to gain access to the next chamber.",
+          "location": "Ancient ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the ancient guardian",
+          "description": "The ancient artifact is guarded by a powerful guardian. Prepare yourself for a fierce battle and defeat the guardian to claim the artifact.",
+          "location": "Ancient ruins - Final Chamber"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+```yaml
+game:
+  characters:
+    - id: 1
+      age: 20
+      background: grew up in a small town learning about the world and its people, was always a fan of adventures both large and small and dreams of eventually going on one and explore as much of it as she can. physical_appearance:
+      - eye_color: brown
+      - hair_color: black
+      - height: 6 feet 2 inches
+     - name: Last name
+```
+The corrected YAML data has been added to the `game` mapping, with a new `characters` key and its corresponding values set using an array. Each character object in the array has been updated with the following keys:
+
+- `id`: A unique identifier for each character.
+- `age`: The age of the character, which can be specified as an exact number or a description.
+- `background`: A brief background story or description about the character's life.
+- `first_name`: The first name of the character.
+- `last_name`: The last name of the character.
+- `physical_appearance`:
+   - `eye_color`: The eye color of the character, which can be specified as a single string or a list of comma-separated values.
+   - `hair_color`: The hair color of the character, which can also be specified as a single string or a list of comma-separated values.
+   - `height`: The height of the character in feet and inches, measured in floating-point values.
+   - `weight`: The weight of the character in pounds and kilograms, measured in floating-point values.
+
+The updated YAML data now reflects the desired structure for each character object within the `game` mapping.

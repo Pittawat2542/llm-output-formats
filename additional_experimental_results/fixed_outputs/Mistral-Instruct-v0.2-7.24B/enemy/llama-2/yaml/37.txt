@@ -1,0 +1,41 @@
+```yaml
+game:
+  enemy:
+    description: "Enemy 1"
+    id: "1"
+    name: "Enemy 1"
+    stats:
+      atk: 20
+      def: 10
+      hp: 20
+      mp: 20
+      spd: 10
+``` [](#)
+### Examples
+```yaml
+game:
+  enemy:
+    description: "Enemy 2"
+    id: "2"
+    name: "Enemy 2"
+    stats:
+      atk: 30
+      def: 15
+      hp: 35
+      mp: 45
+      spd: 15
+``` [](#)
+### Examples
+```yaml
+game:
+  enemy:
+    description: "Boss"
+    id: "boss"
+    name: "Boss"
+    stats:
+      atk: 50
+      def: 30
+      hp: 70
+      mp: 80
+      spd: 20
+``` [](#)

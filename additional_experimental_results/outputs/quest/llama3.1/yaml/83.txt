@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: Defeat the Dark Sorcerer Xarath and claim his powerful magical artifact.
+  id: Q001
+  objective: Stop Xarath's evil plans to destroy the kingdom of Eldrador.
+  quest_giver: The Wise Wizard, Zorvath
+  reward: A magical crystal that grants increased strength in combat
+  tasks:
+  - description: Gather information about Xarath's lair location from the local villagers.
+    location: The village of Brindlemark
+    objective: Find a villager who knows something about Xarath's lair
+    order: 1
+  - description: Sneak into Xarath's lair and retrieve the magical artifact.
+    location: Xarath's Dark Tower
+    objective: Retrieve the artifact without getting caught by Xarath's minions
+    order: 2
+  title: The Defeat of Xarath
+```

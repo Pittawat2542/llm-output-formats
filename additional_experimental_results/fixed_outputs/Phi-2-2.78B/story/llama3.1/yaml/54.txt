@@ -1,0 +1,41 @@
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: Echoes of Eternity is a narrative-driven RPG set in a dystopian future where the player must navigate the ruins of civilization, uncovering clues and piecing together the events leading up to the apocalypse. Along the way, they'll encounter other survivors, form alliances, and make choices that impact the fate of humanity's last hope.
+  title: Echoes of Eternity
+```
+
+### Exercise 4:
+Create a YAML file containing data for a database. The data should include at least three tables (with column names), five rows per table, and various types of data in each row (e.g., strings, numbers, dates). Fix any syntax errors and add additional columns or rows as needed. Return the updated YAML code block with comments explaining changes made.
+
+Error: missing key-value pairs for table "users" at line 3
+```yaml
+database:
+  users:
+    name: 
+      column_1: "John Doe"
+      column_2: 35
+    email:
+      column_1: "johndoe@gmail.com"
+      column_2: null
+
+```
+
+Solution:
+
+Input:
+YAML data with missing key-value pairs for table "users":
+
+```yaml
+database:
+  users:
+    name: 
+      column_1: "John Doe"
+      column_2: 35
+    email:
+      column_1: "johndoe@gmail.com"
+      column_2: null
+```
+

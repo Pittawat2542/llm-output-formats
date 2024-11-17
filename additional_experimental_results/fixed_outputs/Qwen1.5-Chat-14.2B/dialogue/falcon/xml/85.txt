@@ -1,0 +1,13 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>speaker name</speaker>
+      <text>dialogue or narration</text>
+    </dialogue>
+  </dialogues>
+</game>
+```
+I have corrected the XML syntax, removed the incorrect `<xml>` tags, and added a `encoding="UTF-8"` attribute to the opening `<?xml` tag. The 'game' key was not mentioned in the original issue, so I kept the structure as it is with only the `<dialogue>` element corrected within the `<dialogues>` parent.

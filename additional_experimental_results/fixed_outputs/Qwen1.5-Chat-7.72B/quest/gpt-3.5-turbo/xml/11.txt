@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>67890</id>
+    <title>The Seeker's Adventure</title>
+    <objective>Uncover the mystery of the lost artifact</objective>
+    <description>Embark on a quest guided by Captain Johnson to discover the ancient civilization's treasure.</description>
+    <reward>A wealth of gold and artifacts, including a rare gemstone</reward>
+    <quest-giver>Captain Johnson</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Triforce Stone at the Temple of Three Temples</objective>
+            <description>Locate the stone hidden within the temple's sacred room.</description>
+            <location>Temple of Three Temples, Room 345</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Solve the riddle at the Library of Ancestral Knowledge</objective>
+            <description>Uncover the hidden clue by deciphering the puzzle in the library's ancient tome.</description>
+            <location>Library of Ancestral Knowledge, Quidam Section</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the Guardian at the Moonstone Caves</objective>
+            <description>Battle the guardian to unlock access to the hidden cave entrance.</description>
+            <location>Moonstone Caves, Gateway to the East</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,17 @@
+from yaml import safe_load, dump
+
+config = {
+    "player": {"name": "Player 1", "stats": {"atk": 50, "def": 75, "hp": 150, "mp": 100, "spd": 80}},
+    "enemy1": {"description": "This is the first enemy.", "id": 12345, "name": "Enemy 27", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy2": {"description": "This is the second enemy.", "id": 12346, "name": "Enemy 28", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy3": {"description": "This is the third enemy.", "id": 12345, "name": "Enemy 29", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy4": {"description": "This is the fourth enemy.", "id": 12347, "name": "Enemy 30", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy5": {"description": "This is the fifth enemy.", "id": 12345, "name": "Enemy 31", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy6": {"description": "This is the sixth enemy.", "id": 12348, "name": "Enemy 32", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy7": {"description": "This is the seventh enemy.", "id": 12345, "name": "Enemy 33", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy8": {"description": "This is the eighth enemy.", "id": 12349, "name": "Enemy 34", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy9": {"description": "This is the ninth enemy.", "id": 12345, "name": "Enemy 35", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy10": {"description": "This is the tenth enemy.", "id": 12347, "name": "Enemy 36", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy11": {"description": "This is the eleventh enemy.", "id": 12345, "name": "Enemy 37", "stats": {"atk": 100, "def": 100, "hp": 100, "mp": 100, "spd": 100}},
+    "enemy12": {"description": "This is the twelfth enemy.", "id": 12349, "name": "En
+

@@ -1,0 +1,32 @@
+I've corrected the XML data and provided new values. Here is the updated XML:
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<id>1</id>
+	<title>Find the Lost Treasure</title>
+	<Objective>Find the lost treasure of the pirate captain.</Objective>
+	<Description>The pirate captain's treasure is said to be hidden on a remote island. The only clues to its whereabouts are in his journal, which you must find and decipher.</Description>
+	<Reward>The pirate captain's treasure, which is rumored to be worth a fortune.</Reward>
+	<Quest-Giver>Jack Sparrow</quest-Giver>
+	<Tasks>
+			<Task>
+				<Order>1</Order>
+				Objective>Find the Pirate Captain's Journal.</Objective>
+				<Description>The Pirate Captain's journal is said to be hidden in a cave on the island. You must find the cave and search it thoroughly.</Description>
+				<Location>Pirate's Cave</Location>
+			<Task>
+			<Task>
+				<Order>2</Order>
+				Objective>Decipher the Pirate Captain's Journal.</Objective>
+				<Description>The Pirate Captain's journal is written in a code that you must decipher. You can find clues to the code in the library of the island's governor.</Description>
+				<Location>Governor's Library</Location>
+			<Task>
+			<Task>
+				<Order>3</Order>
+				Objective>Find the Lost Treasure.</Objective>
+				<Description>Once you have deciphered the Pirate Captain's journal, you will know the location of the lost treasure. You must travel to that location and search for the treasure.</description>
+				<Location>Treasure Island</Location>
+			<Task>
+	</Tasks>
+</game>
+```

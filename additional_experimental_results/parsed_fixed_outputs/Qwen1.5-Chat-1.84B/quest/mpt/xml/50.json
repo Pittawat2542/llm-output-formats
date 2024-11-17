@@ -1,0 +1,38 @@
+{
+  "game": {
+    "@id": "id",
+    "title": {
+      "@quest_title": "quest title",
+      "#text": "quest title"
+    },
+    "objective": {
+      "@quest_objective": "quest objective",
+      "#text": "quest objective"
+    },
+    "description": {
+      "@quest_description": "quest description",
+      "#text": "quest description"
+    },
+    "reward": {
+      "@quest_reward": "quest reward",
+      "#text": "quest reward"
+    },
+    "quest-giver": {
+      "@quest_giver": "quest giver",
+      "#text": "quest giver"
+    },
+    "tasks": {
+      "task": {
+        "@order": "task order",
+        "@objective": "task objective",
+        "@description": "task description",
+        "@location": "task location",
+        "name": "Task 1",
+        "order": "1",
+        "objective": "Objective 1",
+        "description": "Description of Task 1",
+        "location": "Location 1"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+```yaml
+game:
+  character:
+    age: |bold
+        age or bold|age in the format `age in years` or `age in years and months`. 
+        `height` in float value.
+    physical_appearance:
+      eye_color: bold|eye color
+      hair_color: hair color
+      height: bold|height in float value
+      weight: bold|weight in float value
+    place_of_birth: location
+    role: bold|role of the character
+    species: bold|species of the character
+```

@@ -1,0 +1,21 @@
+Title: Quest Title
+Description: Quest Description
+Objective: Quest Objective
+Giver: Quest Giver
+Giver_ID: Giver ID
+XP Explore Location: Location
+XP Explore Location: Location
+```yaml
+Game:
+  Description: quest description
+  Id: id
+  Objective: quest objective
+  Quest_Giver: quest giver
+  Reward: quest reward
+  Tasks:
+    - Description: task description
+      Location: task location
+      Objective: task objective
+      Order: task order
+  Title: quest title
+```

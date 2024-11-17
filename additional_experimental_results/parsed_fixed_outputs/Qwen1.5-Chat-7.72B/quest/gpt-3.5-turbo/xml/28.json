@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "456",
+    "title": "The Quest for the Golden Relic",
+    "objective": "Uncover the Legacy of the Lost Kingdom",
+    "description": "A daring quest to uncover a legendary artifact hidden deep within ancient ruins. Solve riddles, conquer challenges, and navigate through mystical landscapes.",
+    "reward": "50 artifacts plus 20 gold coins",
+    "quest-giver": "Mysterious Guide",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Uncover the Map in the Crypt",
+          "description": "Browse the crypt in the old monastery to discover a hidden clue revealing the next step towards the treasure.",
+          "location": "Old Monastery Crypt"
+        },
+        {
+          "order": "2",
+          "objective": "Cut through the Enchanted Grove",
+          "description": "Escape the enchanted forest by outsmarting its guardians and retrieve the key hidden behind a magical toadstool.",
+          "location": "Enchanted Grove"
+        },
+        {
+          "order": "3",
+          "objective": "Open the Trapped Gate in the Caves",
+          "description": "Use the key to unlock the ancient chamber, bypassing a collapsing wall inside the cave network.",
+          "location": "Cave Network"
+        }
+      ]
+    }
+  }
+}

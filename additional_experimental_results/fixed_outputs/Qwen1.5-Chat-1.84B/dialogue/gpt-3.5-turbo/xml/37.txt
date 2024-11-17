@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>1</order>
+				<personName>Player</personName>
+				<narrative>Hello there!</narrative>
+			</dialogue>
+			<dialogue>
+				<order>2</order>
+				<personName>NPC</personName>
+				<narration>Hi, how can I help you?</narration>
+			</dialogue>
+			<dialogue>
+				<order>3</order>
+				<personName>Player</personName>
+				<narration>I'm looking for a quest to complete. Do you have any available?</narration>
+			</dialogue>
+			<dialogue>
+				<order>4</order>
+				<personName>NPC</personName>
+				<narration>Yes, I have a quest for you. Are you interested?</narration>
+			</dialogue>
+			<dialogue>
+				<order>5</order>
+				<personName>Player</personName>
+				<narration>Definitely! What do I need to do?</narration>
+			</dialogue>
+			<dialogue>
+				<order>6</order>
+				<personName>NPC</personName>
+				<narration>You need to retrieve a magical artifact from the ancient temple of XYZ. It won't be easy, but the reward will be worth it.</narration>
+			</dialogue>
+			<dialogue>
+				<order>7</order>
+				<personName>Player</personName>
+				<narration>Count me in! I'll head to the temple right away.</narration>
+			</dialogue>
+			<dialogue>
+			<dialogue>
+				<order>8</order>
+				<personName>NPC</personName>
+				<narration>The artifact is guarded by a fierce dragon. You'll need to use your sword and magic to defeat the dragon and retrieve it.</narration>
+			</dialogue>
+			<dialogue>
+				<order>9</order>
+				<personName>Player</personName>
+				<narration>You manage to defeat the dragon and claim the artifact. Congratulations on completing your quest!</narration>
+			</dialogue>
+		</dialogues>
+</game>
+```

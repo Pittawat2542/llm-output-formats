@@ -1,0 +1,34 @@
+XML data:
+```xml
+<?xml version="1.0"?> 
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<p�述="description"/>
+			stats{
+				hp int value,
+			mp int value,
+			atk int value,
+			(def int value)
+			}
+		</enemy>
+</game>
+```
+Output in Markdown code block:
+```xml
+<?xml version="1.0"?> 
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<p�述="description"/>
+			stats{
+				hp int value,
+			mp int value,
+			atk int value,
+			(def int value)
+			}
+		</敌人>
+</game>
+```

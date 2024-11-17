@@ -1,0 +1,46 @@
+The correct syntax is as follows:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character id="id">
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<title>Title of the game</title>
+		<thour>Time remaining to end the game</time>
+	</character>
+</game>
+```
+
+The new values for "id", "first-name", "last-name", and "title" are provided in the template, which will be used in the code block. The other character properties are also included, but they may not need to be modified since they do not affect the output format.
+
+Here is the updated code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<!-- Output format schema --> 
+	<character id="id">
+		<title>Title of the game</title>
+		<thour>Time remaining to end the game</time>
+	</character>
+	<character>
+		<!-- Other character properties -->
+		<title>Other title for this character</title>
+	</character>
+	<!-- Other character properties --> 
+	<!-- Other character properties -->
+		<title>Other other title for this character</title>
+	</character>
+</game>
+
+```
+This will output the following Markdown code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Title of the game</title>
+	<thour>Time remaining to end the game</time>
+</game>
+```
+
+Note that we have added a new character property called "title", which can be changed or removed as needed for your application.

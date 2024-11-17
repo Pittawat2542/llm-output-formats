@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the legendary Golden Chalice from the ancient ruins of Zerzura.",
+    "description": "Rumors have been circulating about a hidden artifact deep within the long-abandoned city of Zerzura. The Golden Chalice is said to grant immense power to its possessor, and many have attempted to retrieve it before but never returned. Your mission is to brave the dangers that lie within and emerge victorious with the treasure.",
+    "reward": "1000 gold coins and a boost in reputation among the local population",
+    "quest-giver": "Gorvoth, a mysterious old sage who resides on the outskirts of the nearby town",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the treacherous Jungle of Shadows to reach the entrance of Zerzura.",
+          "description": "The jungle is home to countless dangers, including ferocious beasts and deadly traps set by ancient civilizations. Be cautious and prepared for any encounter that may arise.",
+          "location": "Jungle of Shadows"
+        },
+        {
+          "order": "2",
+          "objective": "Decipher the ancient puzzle at the entrance to gain access to Zerzura.",
+          "description": "The puzzle requires a combination of wit and knowledge of ancient languages. Study the markings carefully, as each step must be precise to avoid triggering the deadly traps that protect the city.",
+          "location": "Entrance of Zerzura"
+        },
+        {
+          "order": "3",
+          "objective": "Confront and defeat the Guardian of the Chalice, a powerful entity sworn to protect the artifact at all costs.",
+          "description": "The guardian is a formidable opponent with abilities both magical and physical. A strategy that combines offense and defense will be necessary to emerge victorious.",
+          "location": "Heart of Zerzura"
+        }
+      ]
+    }
+  }
+}

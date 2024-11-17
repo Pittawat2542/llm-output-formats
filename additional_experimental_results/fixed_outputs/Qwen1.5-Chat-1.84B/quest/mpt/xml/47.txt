@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver">
+	<tasks>
+		<task order="task order" objective="task objective" description="task description" location="task location"/>
+	</tasks>
+</game>
+
+# Fixed XML Data
+Here is the corrected XML data with new values:
+```xml
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver">
+	<tasks>
+		<task order="1" objective="task 1" description="task 1 description" location="task 1 location"/>
+		<task order="2" objective="task 2" description="task 2 description" location="task 2 location"/>
+	</tasks>
+</game>
+```
+In this fixed XML data, the `id` attribute has been updated to `"id"`, the `title` attribute has been updated to `"quest title"`, and the `objective`, `description`, `reward`, and `quest-giver` attributes have been properly defined with their respective values. The new task order is represented by the value "1, 2", and the new location for the task is "task 1 location, task 2 location".

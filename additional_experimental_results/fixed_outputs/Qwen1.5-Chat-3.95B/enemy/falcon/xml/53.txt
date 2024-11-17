@@ -1,0 +1,16 @@
+Invalid syntax. XML data is missing information and needs to be corrected.
+Error: incorrect_syntax: not well-formed (invalid token): line 12, column 0
+Original message:
+```xml
+<enemy id="id">>
+   <name>name</name>
+   <description>description</description>
+   <stats>
+       <hp>hp int value</hp>
+       <mp>mp int value</mp>
+       <atk>atk int value</atk>
+       <def>def int value</def>
+       <spd>spd int value</spd>
+   </stats>>
+</enemy>  
+```

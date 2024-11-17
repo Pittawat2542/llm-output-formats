@@ -1,0 +1,16 @@
+```xml
+<game>
+    <enemy name="MyNameEnemy">
+        <id id="my_enemy_id">MyNameEnemyId</id>
+        <name>MyNameEnemy</name>
+        <description>A brief description here</description>
+        <stats>
+            <hp>100 int value</hp>
+            <mp>50 int value</mp>
+            <atk>75 int value</atk>
+            <def>60 int value</def>
+            <spd>80 int value</spd>
+        </stats>
+    </enemy>
+</game>
+```

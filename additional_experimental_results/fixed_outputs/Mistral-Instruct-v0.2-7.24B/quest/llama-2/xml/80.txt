@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order> -- Set a valid task order number.
+			<objective>collect 10 red apples</objective> -- Corrected objective.
+			<description>Collect 10 red apples from the orchard and bring them back to me.</description>
+			<location>orchard</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation:
+
+The error message suggests that there is an invalid token at line 18, column 0. However, in the provided template and original XML code, there is no such line or column. Based on the information given, it is assumed that the issue lies within the `<tasks>` section, specifically, a `<task>`. The objective in the current `<task>` is empty, so it might be causing the syntax error.
+
+In the corrected XML code provided above, I've set a valid task order number, corrected the incorrect objective to "collect 10 red apples", and added an appropriate description for the task. This should fix any syntax errors while providing useful information in case this XML data is being parsed by another application or system.

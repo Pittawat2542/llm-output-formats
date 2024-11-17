@@ -1,0 +1,15 @@
+The issue with the original YAML data is that there's a single backtick (`) at the end of the `id` value. This character is not valid in YAML, and it should be removed to fix the syntax. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: "A big, green, spiky, ball."
+    id: "00000000000000000000000000000000"
+    name: "Big Green Spiky Ball"
+    stats:
+      atk: 50
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 50
+```

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns="http://www.w3.org/2015/HTTP/Move">
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quests>
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </quests>
+  </quests>
+</game>
+```

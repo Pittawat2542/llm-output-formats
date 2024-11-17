@@ -1,0 +1,22 @@
+The given YAML data has several issues. Here are some fixed versions:
+```yaml
+game:
+  description: A quest to find the lost treasure of the pirate king
+  id: 1
+  objective: Find the lost treasure of the pirate king
+  quest_giver: Captain Blackbeard
+  reward: 100 gold
+
+  title: Quest Title
+
+  description: A quest to find the lost treasure of the pirate king
+  objectives:
+    - find the lost treasure
+    - return the treasure
+    - earn the reward
+
+  tasks:
+    - search for the next token
+```
+
+These fixed versions should be suitable for the given requirements.

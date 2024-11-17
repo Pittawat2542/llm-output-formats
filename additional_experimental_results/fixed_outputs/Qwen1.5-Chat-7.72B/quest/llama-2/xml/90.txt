@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the Temple of Light</objective>
+    <description>A journey to retrieve the ancient artifact</description>
+    <reward>100 Gold Coins and a Unique Amulet</reward>
+    <quest-giver>Old Sage at the Village Edge</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Find the Temple Entrance</objective>
+            <description>Follow the markers to the eastern edge of the forest</description>
+            <location>East Forest Clearing</location>
+        </task>
+        <task order="2">
+            <objective>Defeat Guardian Statue</objective>
+            <description>Inside the temple, defeat the statue protecting the artifact</description>
+            <location>Temple Courtyard</location>
+        </task>
+    </tasks>
+</game>
+```

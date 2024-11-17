@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Example Quest",
+    "objective": "Complete the adventure to find the ancient artifact",
+    "description": "A challenging quest to\u6551\u516c\u4e3b from the dragon's lair",
+    "reward": "Exalted Status and 100 GoldCoins",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Collect the magical amulet at the Forest\u8fb9\u7f18",
+          "description": "Follow the map to the east and watch out for traps",
+          "location": "Forest Edge"
+        },
+        {
+          "@order": "2",
+          "objective": "Defeat the dragon at Dragon's Keep",
+          "description": "No fear, bring your bravest sword!",
+          "location": "Dragon's Keep"
+        }
+      ]
+    }
+  }
+}

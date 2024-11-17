@@ -1,0 +1,39 @@
+The original YAML code has some issues with formatting and duplicate keys. Here's the corrected YAML, removing the unnecessary duplication for the `id` field and adding a valid value for one of the attributes (`eye_color`):
+
+```yaml
+game:
+  character:
+    name:
+      first_name: first name
+      last_name: last_name
+      age: exact age or description
+      background: background story
+      physical_appearance:
+        - eye_color: eye color (e.g., `green`)
+          hair_color: hair color
+          height: height in float value
+          weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+Output in YAML format:
+
+```yaml
+game:
+  character:
+    name:
+      first_name: John Doe
+      last_name: Smith
+      age: 35
+      background: Grew up on a spaceship
+      physical_appearance:
+        - eye_color: green
+          hair_color: brown
+          height: 1.8米
+          weight: 70kg
+    place_of_birth: Earth
+    role: Main protagonist
+    species: Human
+```

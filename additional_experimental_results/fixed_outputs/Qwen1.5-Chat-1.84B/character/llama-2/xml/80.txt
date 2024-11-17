@@ -1,0 +1,65 @@
+<game>
+	<character>
+		<id>1</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Female</species>
+		<age>25</age>
+		<role>Character 1</role>
+		<backgroundstory>The Doe family has lived in the small town of Millfield for generations. Jane was born into this close-knit community and grew up around her parents, who were both teachers at a local school.</backgroundstory>
+		<placeof-birth>Millfield, Massachusetts</placeof-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Dark brown</hair-color>
+				<height>5'6"</height>
+				<weight>140 lbs.</weight>
+			</physical-appearance>
+		</physical-appearance>
+		<role>
+			Character 1
+		</role>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Mary</first-name>
+		<last-name>Smith</last-name>
+		<species>Female</species>
+		<age>30</age>
+		<role>Character 2</role>
+		<backgroundstory>Mary was raised in a small town nestled in the heart of a dense forest. Growing up, she spent most of her time exploring the surrounding woods and learning about the plants and animals that lived there.</backgroundstory>
+		<placeof-birth>Brown County, Ohio</placeof-birth>
+		physical-appearance>
+			<physical-appearance>
+				<eye-color>Green</eye-color>
+				<hair-color>Sandy blonde</hair-color>
+				<height>5'3"</height>
+				<weight>120 lbs.</weight>
+			</physical-appearance>
+		</physical-appearance>
+		<role>
+			Character 2
+		</role>
+	</character>
+	<game-option>
+		<option-value>Option 1</option-value>
+		<option-text>This is option 1 for character 1. Option 2 is also available.</option-text>
+	</game-option>
+	<game-option>
+		<option-value>Option 2</option-value>
+		<option-text>This is option 2 for character 1. Option 1 is also available.</option-text>
+	</game-option>
+	<game-option>
+		<option-value>Option 3</option-value>
+		<option-text>This is option 3 for character 2. Option 4 is also available.</option-text>
+	</game-option>
+	<game-option>
+		<option-value>Option 4</option-value>
+		<option-text>This is option 4 for character 2. Option 3 is also available.</option-text>
+	</game-option>
+	<game-option>
+		<option-value>Option 5</option-value>
+		<option-text>This is option 5 for both characters. This option gives players the chance to explore the town and its surroundings, interacting with various NPCs (non-player characters) who may provide information or clues about their background story.</option-text>
+	</game-option>
+</game>
+```

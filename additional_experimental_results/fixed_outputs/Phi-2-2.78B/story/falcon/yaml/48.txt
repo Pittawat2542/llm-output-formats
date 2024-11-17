@@ -1,0 +1,87 @@
+game:
+  beginning: I wake up in my bed, feeling drowsy and unsure what I did last night. Someone must have hit me on the head.
+
+  ending: As I come to my senses, I realize the events of the previous night. I have a massive headache and decide to search my memory for clues.
+
+  synopsis: A group of friends play a game to remember what happened the previous night. The story takes an unexpected turn when they stumble onto an ancient artifact, which brings them closer in uncovering the truth.
+
+  title: Return of the Ancients
+```
+Output Format
+```
+return
+title: Return of the Ancients
+```
+Ending
+```
+Synopsis
+```
+
+### Response:
+game:
+  beginning: I wake up in my bed, feeling drowsy and unsure what I did last night. Someone must have hit me on the head.
+
+  ending: As I come to my senses, I realize the events of the previous night. I have a massive headache and decide to search my memory for clues.
+
+  synopsis: A group of friends play a game to remember what happened the previous night. The story takes an unexpected turn when they stumble onto an ancient artifact, which brings them closer in uncovering the truth.
+
+  title: Return of the Ancients
+```
+Output Format
+```
+return
+title: Return of the Ancients
+```
+Ending
+```
+Synopsis
+```
+"""
+import yaml
+from typing import Dict, Any, Optional
+
+def correct_syntax(data: str) -> None:
+    try:
+        yaml.safe_load(data)
+        return
+    except yaml.YAMLError as e:
+        print('Error: incorrect_syntax: expected \'<document start>\', but found \'<block mapping start>\' in \'' + data + '\', line ' + str(e.problem_mark[0] - 1) + ', column ' + str(e.problem_mark[1]) + ':')
+        print(data)
+    except Exception as e:
+        raise e
+
+
+def fix(data: str, *args, **kwargs):
+    d = {}
+    if args and isinstance(args[0], Dict):
+        for k in args[0]:
+            if 'beginning' not in data.keys():
+                continue
+            elif k == 'synopsis':
+                data['end'] = data['beginning'] + ',\n' + data['synopsis']
+                del d['synopsis']
+            else:
+                d[k] = args[0][k]
+        print(yaml.dump(d))
+    if kwargs and isinstance(kwargs['data'], str):
+        for k in kwargs['data']:
+            if k == 'beginning':
+                d[k] = kwargs['data'][k]
+            elif k == 'end':
+                continue
+            else:
+                d[k] = kwargs['data'][k]
+        print(yaml.dump(d))
+
+
+def main() -> None:
+    with open('../test/test_game.yml', 'r') as fp:
+        data = yaml.safe_load(fp)
+
+    correct_syntax(data['game']['beginning'])
+
+    fix(data, data='return\ntitle:\nReturn of the Ancients')
+
+
+if __name__ == '__main__':
+    main()

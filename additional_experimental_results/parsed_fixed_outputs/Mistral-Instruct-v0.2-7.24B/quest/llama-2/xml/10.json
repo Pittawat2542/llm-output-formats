@@ -1,0 +1,33 @@
+{
+  "game": {
+    "id": "1234567890",
+    "title": "Find the Missing Pieces",
+    "objective": "Collect all 10 pieces of the stolen artifact.",
+    "description": "The artifact was stolen from the museum during the night. The thief dropped some pieces on their way out. Help us recover them before anyone else does!",
+    "reward": "500 gold and a rare artifact.",
+    "quest-giver": "Curator Smith",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search the park for piece 1.",
+          "description": "The park is located south of the museum. Look for a small clearing near the pond.",
+          "location": "South of the Museum, Park"
+        },
+        {
+          "order": "2",
+          "objective": "Search the docks for piece 2.",
+          "description": "The docks are located east of the museum. Look near the old warehouse.",
+          "location": "East of the Museum, Docks"
+        },
+        {
+          "order": "10",
+          "objective": "Search the abandoned mine for piece 10.",
+          "description": "The mine is located northwest of the city. Be careful, it's dangerous!",
+          "location": "Northwest of the City, Abandoned Mine"
+        }
+      ],
+      "#text": "..."
+    }
+  }
+}

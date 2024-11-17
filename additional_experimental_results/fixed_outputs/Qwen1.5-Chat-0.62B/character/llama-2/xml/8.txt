@@ -1,0 +1,22 @@
+The syntax for the XML data should be correct. Here is an example of what the code block would look like:
+```
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>Character</title>
+			<possibility>Probability</ponition>
+			<sex:species>Species</species>
+			 age:Age
+			的角色:</role>
+			<background:<story></background>
+			place-of-birth:<location>
+			 physical-appearance:<physical Appearance>
+				eye-color:<eye_color>
+				hair-color:<hair_color>
+				height:<height_in_float_value>
+			weight:<weight_in_float_value>
+			</physical Appearance>
+		</character>
+	</game>
+```
+This code block is for an XML document that describes a character. The `title` element defines the name of the character, the `probability` element calculates the probability of the character being selected, the `species` element represents the species of the character, the `age` and `role` elements represent the age and role of the character, respectively, the `story` element describes a background story for the character, the `<location>` element specifies where the character will be born, the `physical Appearance` element shows the physical appearance of the character in question (e.g., eyes, hair color, height), and the `eye_color`, `hair_color`, `height` values are used to represent the eye color, hair color, and height of the character.

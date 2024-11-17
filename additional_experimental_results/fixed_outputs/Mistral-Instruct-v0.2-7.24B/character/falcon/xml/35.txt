@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character id="1">
+		<first-name>Name</first-name>
+		<last-name>Last name</last-name>
+		<age>32</age>
+		<gender>Gender</gender>
+		<species>Species</species>
+		<orientation>orientation</orientation>
+		<occupation>occupation</occupation>
+		<background><![CDATA[ background story]]></background>
+		<place-of-birth>Place of birth</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>blue</eye-color>
+				<hair-color>brown</hair-color>
+				<height>1.6</height> <!-- units should be omitted for float values -->
+				<weight>55</weight> <!-- units should be omitted for float values -->
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+The issue with the XML data was that the `<background>` tag had a string value assigned to it directly, which is not valid syntax in XML. Instead, you must use a CDATA section if you want to store a large amount of text as a value for an element. The same issue was present in the original `<character>` tag, but it was already corrected by the template. Also, I removed the units from the height and weight values since they are not necessary for float values in XML.

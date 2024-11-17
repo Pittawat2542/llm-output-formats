@@ -1,0 +1,23 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "dialogues": {
+      "@xsi:type": "xsd:array",
+      "dialogue": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "order": {
+          "@xsi:type": "xsd:int",
+          "#text": "dialogue order"
+        },
+        "speaker": {
+          "@xsi:type": "xsd:string",
+          "#text": "speaker name"
+        },
+        "text": {
+          "@xsi:type": "xsd:string",
+          "#text": "dialogue or narration"
+        }
+      }
+    }
+  }
+}

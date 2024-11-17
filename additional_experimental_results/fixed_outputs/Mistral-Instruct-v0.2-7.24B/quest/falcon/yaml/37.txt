@@ -1,0 +1,31 @@
+```yaml
+output:
+  markdown:
+    type: markdown
+    options:
+      render_yaml:
+        - input: quest_info.yml
+
+game: &quest_template
+  description: ""
+  id: ""
+  objective: ""
+  quest_giver: ""
+  reward: ""
+  tasks: []
+
+{% set game = deepcopy(quest_template) %}
+{% set game.description = "quest description" %}
+{% set game.id = "id" %}
+{% set game.objective = "quest objective" %}
+{% set game.quest_giver = "quest giver" %}
+{% set game.reward = "quest reward" %}
+{% for task in tasks %}
+  {% set task_template = deepcopy(game['tasks'][0]) %}
+  {% set task_template.description = "task description" %}
+  {% set task_template.location = "task location" %}
+  {% set task_template.objective = "task objective" %}
+  {% set game['tasks'] = [game['tasks'][0]] + [task_template] %}
+{% endfor %}
+{% set game.title = "quest title" %}
+```

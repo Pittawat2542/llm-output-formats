@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>John Doe</first-name>
+		<last-name>Jane Doe</last-name>
+		<species>Dog</species>
+		<age>{age} years old, {age_str} years old (exact age)</age>
+		<role>Hero</role>
+		<background>The Dogtown countryside</background>
+		<place-of-birth>Hometown, State/Province</place-of-birth>
+		<physical-appearance>
+			Physical appearance:
+				<eye-color>Brown</eye-color>
+				<hair-color>Cool Blue</hair-color>
+				<height>Medium</height>
+				<weight>15 pounds</weight>
+			</Physical appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

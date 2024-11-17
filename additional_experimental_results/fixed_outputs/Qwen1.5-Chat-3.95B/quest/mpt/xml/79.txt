@@ -1,0 +1,19 @@
+XML code block:
+```xml
+<game>
+    <id>id</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <task-giver>quest giver</task-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </tasks>
+</game>
+```

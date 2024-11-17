@@ -1,0 +1,22 @@
+Corrected JSON data:
+```json
+[
+  {
+    "order": "dialogue order",
+    "speaker": "speaker name",
+    "text": "dialogue or narration"
+  }
+]
+```
+Output in JSON format:
+```json
+{
+  "game": [
+    {
+      "order": "dialogue order",
+      "speaker": "speaker name",
+      "text": "dialogue or narration"
+    }
+  ]
+}
+```

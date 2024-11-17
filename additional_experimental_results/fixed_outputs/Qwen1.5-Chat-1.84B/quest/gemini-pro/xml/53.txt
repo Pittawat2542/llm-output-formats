@@ -1,0 +1,84 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Tome</title>
+	<objective>Retrieve the lost tome from the ancient ruins.</objective>
+	<description>The ancient tome, known as the Book of Wisdom, holds secrets and knowledge of great importance. It was last seen in the ruins of the Old Empire, now a dangerous and desolate place. The Council of Mages has tasked you with retrieving the tome before it falls into the wrong hands.</description>
+	<reward>The Book of Wisdom and 1000 gold.</reward>
+	<quest-giver>Archmage Alora</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Travel to the Old Empire ruins in the Cursed Lands.</objective>
+				<description>The ruins of the Old Empire are located in the Cursed Lands, a dangerous and desolate region. Be prepared for a difficult and treacherous journey through dark tunnels and ancient traps.</description>
+			<location>Cursed Lands</location>
+			</task>
+				<order>2</order>
+				<objective>Find the secret entrance to the underground chamber.</objective>
+				<description>The tome is hidden in an ancient chamber beneath the ruins. The entrance is well-hidden, so you will need to search carefully.</description>
+			<location>Old Empire ruins</location>
+			</task>
+				<order>3</order>
+				<objective>Defeat the guardian of the tome and retrieve it.</objective>
+				<description>The tome is guarded by a powerful creature. Be prepared for a fierce battle, using your wits and magic to defeat it.</description>
+			<location>Underground chamber</location>
+			</task>
+				<order>4</order>
+				<objective>Return the tome to Archmage Alora at the Council of Mages Tower.</objective>
+				<description>Once you have the tome, return to Archmage Alora at the Council of Mages Tower. She will be grateful for your help.</description>
+			<location>Council of Mages Tower</location>
+			</task>
+				<order>5</order>
+				<objective>Discover the hidden passage that leads to the lost tome's resting place.</objective>
+				<description>The passage is guarded by traps and puzzles, but with your skills and perseverance, you will be able to navigate through it safely.</description>
+			<location>Passage leading to lost tome's resting place</location>
+			</task>
+				<order>6</order>
+				<objective>Find the hidden chamber where the lost tome is stored.</objective>
+				<description>The chamber is guarded by powerful magical barriers, but with your magic and strategic thinking, you will be able to overcome them.</description>
+			<location>Hiding chamber for lost tome</location>
+			<task>
+				<order>7</order>
+				<objective>Capture the missing key that opens the hidden chamber.</objective>
+				<description>The key is a powerful artifact that grants access to the lost tome's resting place. Be careful not to reveal it to anyone else, as it could be used for evil purposes.</description>
+			<location>Hidden chamber with key</location>
+			<task>
+				<order>8</order>
+				<objective>Unlock the locked door to the lost tome's resting place.</objective>
+				<description>The door is guarded by a powerful magic barrier, but with your magic and determination, you will be able to break through it.</description>
+			<location>Unlocked door to lost tome's resting place</location>
+			<task>
+				<order>9</order>
+				<objective>Capture the missing gem that completes the quest objective.</objective>
+				<description>The gem is a rare and valuable artifact that is essential for completing the quest. Be careful not to let it slip away, as it could be used for your own gain.</description>
+			<location>Missing gem for quest objective</location>
+			<task>
+				<order>10</order>
+				<objective>Return the completed quest objective to the Council of Mages Tower.</objective>
+				<description>The Council of Mages will reward you with a great honor and recognition for your bravery and dedication. Be sure to bring back all the required items, including the missing gem and key, before leaving the ancient ruins.</description>
+			<location>Council of Mages Tower</location>
+			<task>
+				<order>11</order>
+				<objective>Confront the final boss monster in the underground chamber and defeat it.</objective>
+				<description>The final boss monster is a powerful and dangerous creature, capable of taking down even the strongest warriors. Use your magic and strategic planning to overcome it and claim victory.</description>
+			<location>Underground chamber with final boss</location>
+			<task>
+				<order>12</order>
+				<objective>Capture the treasure that lies hidden within the final boss's lair.</objective>
+				<description>The treasure is a valuable reward for defeating the final boss and completing the quest. Be careful not to let it slip away, as it could be used for your own gain.</description>
+			<location>Treasure within final boss's lair</location>
+			<task>
+				<order>13</order>
+				<objective>Return all the captured items and treasures to Archmage Alora at the Council of Mages Tower.</objective>
+				<description>You have successfully retrieved the Book of Wisdom, completed the quest objective, and returned all the required items. Your work is recognized by the Council of Mages, who will reward you with a grand feast and other honors.</description>
+			<location>Council of Mages Tower</location>
+			<task>
+				<order>14</order>
+				<objective>Travel back to your own world through the passage leading to the lost tome's resting place.</objective>
+				<description>You have completed the quest and returned all the captured items and treasures. You are now free to travel back home, carrying with you the Book of Wisdom and its valuable rewards.</description>
+			<location>Congratulations on completing the quest!</location>
+			</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "quest description",
+    "id": "quest_01",
+    "objective": "investigate the disappearance of several villagers and put an end to the goblin threat.",
+    "quest_giver": "The village elder, Thorne",
+    "reward": "a small chest containing 100 gold pieces and a magical potion that grants temporary resistance to fire damage.",
+    "tasks": [
+      {
+        "description": "talk to the villagers and gather information about the disappearances.",
+        "location": "The village of Brindlemark",
+        "objective": "gather information about the missing people and their last known whereabouts.",
+        "order": 1
+      },
+      {
+        "description": "explore the nearby caves and investigate any signs of goblin activity.",
+        "location": "The nearby caves",
+        "objective": "find evidence of the goblins' lair and determine their numbers.",
+        "order": 2
+      },
+      {
+        "description": "track down and defeat the leader of the goblin group.",
+        "location": "The heart of the goblin lair",
+        "objective": "put an end to the goblin threat and free any remaining captives.",
+        "order": 3
+      }
+    ],
+    "title": "The Disappearance of the Villagers"
+  }
+}

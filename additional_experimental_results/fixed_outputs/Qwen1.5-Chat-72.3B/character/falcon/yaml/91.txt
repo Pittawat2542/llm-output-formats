@@ -1,0 +1,22 @@
+```yaml
+game:
+  character:
+    name: "Mark"
+    age: 28
+    background: I was born in the Midwest US
+    id: mark
+    first_name: Mark
+    last_name: Mark
+    
+  characters: # Changed 'character' to 'characters' for a list of items
+    - id: Anna
+    - id: Jake
+    - id: Amy
+```
+
+In the original YAML data, there were a few issues with syntax and structure:
+
+1. The `first_name` and `last_name` keys had additional "#" characters which are not valid in YAML.
+2. The ID entries for "Anna", "Jake", and "Amy" should be part of a list, so I created a new key called `characters` to hold these items.
+
+These issues have been corrected in the fixed YAML data above.

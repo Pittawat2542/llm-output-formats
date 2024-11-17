@@ -1,0 +1,102 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet of the ancient king.</objective>
+	<description>The amulet was stolen from the king's tomb by a group of bandits. It is said to be hidden in a cave deep in the forest.</description>
+	<reward>The amulet, which is worth a fortune.</reward>
+	<quest-giver>The king's advisor.</quest-giver>
+	<tasks>
+		<trigger>
+			<order>1</order>
+			<title>Talk to the bandits.</title>
+		</trigger>
+		<trigger>
+			<order>2</order>
+			<location>The bandit camp in the forest.</location>
+		</trigger>
+		<trigger>
+			<order>3</order>
+			<location>The dragon is a powerful creature. It will be a tough fight.</location>
+		</trigger>
+		<trigger>
+			<order>4</order>
+			<title>Defeat the dragon.</title>
+		</trigger>
+		<trigger>
+			<order>5</order>
+			<title>Find the amulet.</title>
+		</trigger>
+		<task>
+			<order>1</order>
+			<title>Meet with the bandits at the camp.</title>
+		</task>
+		<task>
+			<order>2</order>
+			<location>The cave is hidden deep in the forest. It is said to be guarded by a dragon.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<location>The forest.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<title>Enter the cave and find the amulet.</title>
+		</task>
+		<task>
+			<order>5</order>
+			<title>Return the amulet to the king.</title>
+		</task>
+	</tasks>
+</game>
+```
+New values:
+- `id` attribute: `1`
+- `title` attribute: `The Lost Amulet`
+- `objective` attribute: `Find the lost amulet of the ancient king.`
+- `description` attribute: `The amulet was stolen from the king's tomb by a group of bandits. It is said to be hidden in a cave deep in the forest.`
+- `reward` attribute: `The amulet, which is worth a fortune.`
+- `quest-giver` attribute: `The king's advisor.`
+- `tasks` element: A list of tasks with triggers for each task:
+
+  * Trigger 1 (spoken by bandits): `<trigger>` element containing the following items:
+    * Title: "Talk to the bandits."
+      - Type: `<order>`
+      - Value: `<title>Talk to the bandits.</title>`
+  * Trigger 2 (location of bandit camp): `<trigger>` element containing the following items:
+    * Title: "The bandit camp in the forest."
+      - Type: `<location>The bandit camp in the forest.</location>`
+  * Trigger 3 (location of dragon guarding cave): `<trigger>` element containing the following items:
+    * Title: "The dragon is a powerful creature. It will be a tough fight."
+      - Type: `<location>The dragon is a powerful creature. It will be a tough fight.</location>`
+  * Trigger 4 (title of defeating dragon task): `<task>` element containing the following items:
+    * Title: "Defeat the dragon."
+      - Type: `<order>`
+      - Value: `<title>Defeat the dragon.</title>`
+  * Trigger 5 (title of finding amulet task): `<task>` element containing the following items:
+    * Title: "Find the amulet."
+      - Type: `<order>`
+      - Value: `<title>Find the amulet.</title>`
+  * Task 1 (spoken by bandits at camp): `<task>` element containing the following item:
+    * Title: "Meet with the bandits at the camp."
+      - Type: `<order>`
+      - Value: `<title>Meet with the bandits at the camp.</title>`
+  * Task 2 (location of cave in forest): `<trigger>` element containing the following items:
+    * Title: "The cave is hidden deep in the forest. It is said to be guarded by a dragon."
+      - Type: `<location>The cave is hidden deep in the forest. It is said to be guarded by a dragon.</location>`
+  * Task 3 (location of cave): `<trigger>` element containing the following items:
+    * Title: "The forest."
+      - Type: `<location>The forest.</location>`
+  * Task 4 (title of entering cave and finding amulet): `<task>` element containing the following items:
+    * Title: "Enter the cave and find the amulet."
+      - Type: `<order>`
+      - Value: `<title>Enter the cave and find the amulet.</title>`
+  * Task 5 (returning amulet to king): `<task>` element containing the following items:
+    * Title: "Return the amulet to the king."
+      - Type: `<order>`
+      - Value: `<title>Return the amulet to the king.</title>`
+  </tasks>
+</game>
+```

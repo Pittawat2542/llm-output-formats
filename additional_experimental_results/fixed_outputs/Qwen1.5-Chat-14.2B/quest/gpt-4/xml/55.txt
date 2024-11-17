@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>001</id>
+	<title>The Lost Sword</title>
+	<objective>Find the lost legendary sword</objective>
+	<description>The legendary sword that was lost a hundred years ago has reappeared. The quest giver, Eldwin the Wise, has requested you to find and retrieve this lost artifact.</description>
+	<reward>5000 gold coins and a special item</reward>
+	<quest-giver>
+		<name>Eldwin the Wise</name>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Investigate the old ruins</objective>
+			<description>Go to the old ruins and look for clues about the lost sword.</description>
+			<location>Old Ruins, North of the town</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian</objective>
+			<description>Defeat the guardian of the legendary sword in the dark dungeon.</description>
+			<location>Dark Dungeon, Beneath the old ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the sword</objective>
+			<description>Find and retrieve the legendary sword after defeating the guardian.</description>
+			<location>Dark Dungeon, Inner Sanctum</location>
+		</task>
+	</tasks>
+</game>
+```

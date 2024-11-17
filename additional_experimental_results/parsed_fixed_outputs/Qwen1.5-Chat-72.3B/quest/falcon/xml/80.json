@@ -1,0 +1,20 @@
+{
+  "game": {
+    "id": "{{ id }}",
+    "title": "{{ title }}",
+    "objective": "{{ object }}",
+    "description": "{{ description }}",
+    "quest-giver": {
+      "@id": "{{ giver }}"
+    },
+    "tasks": {
+      "task": {
+        "order": "{{ loop.index }}",
+        "objective": "{{ task.objective }}",
+        "description": "{{ task.description }}",
+        "location": "{{ task.location }}"
+      },
+      "#text": "{% for task in tasks %}\n\t\t\t\n\t\t{% endfor %}"
+    }
+  }
+}

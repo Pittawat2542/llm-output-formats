@@ -1,0 +1,37 @@
+XML:
+```xml
+<game>
+   <id>101</id>
+   <title>The Lost Amulet</title>
+   <objective>Find the lost Amulet of Kings.</objective>
+   <description>The Amuleot of Kings is a legendary artifact, said to grant the wearer great power. It was lost many years ago, and no one has been able to find it since. You have been hired by a wealthy merchant to find the amulet and return it to him.</description>
+   <reward>500 gold pieces and the merchant's gratitude.</reward>
+   <quest-giver>Merchant John</quest-giver>
+   <tasks>
+     <task>
+       <order>1</order>
+       <objective>Search the merchant's warehouse for clues.</objective>
+       <description>The merchant's warehouse is located in the city's warehouse district. It is a large, two-story building with a loading dock at the back. Search the warehouse carefully for any clues that might lead you to the amulet.</description>
+       <location> Merchant's Warehouse</location>
+     <task>
+     <task>
+       <order>2</order>
+       <objective>Investigate the old ruins outside the city.</objective>
+       <description>The merchant has heard rumors that the amuleot may be hidden in the old ruins just outside the city. These ruins are said to be haunted, so be careful when exploring them.</description>
+       <location> Old Ruins</location>
+     <task>
+     <task>
+       <order>3</order>
+       <objective>Find the secret entrance to the underground chamber.</objective>
+       <description>The amulet is said to be hidden in a secret chamber beneath the ruins. You'll need to find the secret entrance to this chamber in order to retrieve the amulet.</description>
+       <location> Secret Entrance </location>
+     <task>
+     <task>
+       <order>4</order>
+       <objective>Defeat the guardian of the amuleot.</objective>
+       <description>The amulet is guarded by a powerful creature. You'll need to defeat this creature in order to claim the amulet.</description>
+       <location> Underground Chamber </location>
+     <task>
+   <tasks>
+</game>
+```

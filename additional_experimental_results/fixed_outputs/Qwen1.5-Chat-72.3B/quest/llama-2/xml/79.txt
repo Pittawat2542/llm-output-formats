@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've received a clue that leads you to believe the lost artifact is hidden within an abandoned city. Your quest is to navigate the treacherous ruins, uncover its location, and bring it back.</description>
+	<reward>1000 experience points and a magical relic</reward>
+	<quest-giver>Guru Zara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the abandoned city</objective>
+			<description>Make your way through the dense jungle to reach the entrance of the forgotten city.</description>
+			<location>Jungle's Edge</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the artifact</objective>
+			<description>Search the ruins for any signs or clues that might lead you to the hidden artifact.</description>
+			<location>Ruins of Ancients</location>
+		</task>
+	</tasks>
+</game>
+```

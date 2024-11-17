@@ -1,0 +1,33 @@
+Here is the quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q001</id>
+    <title>The Lost City of Eldarath</title>
+    <objective>Retrieve the ancient scroll from the depths of Eldarath</objective>
+    <description>Rumors have been circulating about a lost city deep in the heart of the mystical forest, where an ancient scroll holds the secrets of the long-lost civilization. Brave adventurers are needed to retrieve this scroll and unlock its secrets.</description>
+    <reward>Golden Chalice of Eldarath, 1000 gold pieces</reward>
+    <quest-giver>Eriol the Sage</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather information about the lost city from local villagers</objective>
+            <description>Speak to the villagers in Oakwood Village and gather any information they may have about Eldarath. Look for clues, rumors, or hints that might aid you on your quest.</description>
+            <location>Oakwood Village</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Navigate the treacherous paths to reach the entrance of Eldarath</objective>
+            <description>Use your wits and bravery to navigate the winding paths and hidden dangers that guard the entrance to Eldarath. Be prepared for unexpected challenges.</description>
+            <location>Mystical Forest</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Raid the ancient temple and retrieve the scroll</objective>
+            <description>Cautiously explore the ruins of Eldarath, avoiding deadly traps and battling fearsome creatures. Reach the heart of the temple to claim the ancient scroll.</description>
+            <location>Eldarath Temple</location>
+        </task>
+    </tasks>
+</game>
+```

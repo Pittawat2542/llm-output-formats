@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Achieve the retrieve artifact from the ancient temple",
+    "description": "A legendary artifact has been stolen by rogue enemy forces, and your mission is to infiltrate the temple, retrieve the artifact, and return safely.",
+    "reward": "500 XP, Artifact Blade",
+    "quest-giver": "High Priest Toren",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Infiltrate enemy lines covertly to gain entry into temple",
+          "description": "Travel through dense jungle to reach ancient temple.",
+          "location": "Ancient Temple"
+        },
+        {
+          "order": "2",
+          "objective": "Rearrange puzzle pieces to activate artifact door",
+          "description": "Use knowledge of the temple's history and architecture to solve a series of puzzles to open the artifact door.",
+          "location": "Temple Heart"
+        },
+        {
+          "order": "3",
+          "objective": "Defend artifact against enemy soldiers",
+          "description": "Use weapon skill to take out enemy soldiers guarding the artifact, while also protecting yourself and any allies you bring in.",
+          "location": "Temple Heart"
+        }
+      ]
+    }
+  }
+}

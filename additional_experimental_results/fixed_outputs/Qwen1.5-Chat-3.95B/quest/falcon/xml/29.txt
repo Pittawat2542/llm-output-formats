@@ -1,0 +1,21 @@
+Error: incorrect_syntax: mismatched tag: line 20, column 6
+XML:
+```xml
+<!-- Query for your specific quest --> 
+<xsl:template match="game"> 
+   <xsl:copy> 
+     <xsl:variable name="id" select="@id" /> 
+     <xsl:variable name="title" select="@title" /> 
+     <xsl:variable name="objective" select="@objective" /> 
+     <xsl:variable name="description" select="@description" /> 
+     <xsl:variable name="reward" select="@reward" /> 
+     <xsl:variable name="quest-giver" select="@quest-giver" /> 
+     <xsl:text>Quests:</xsl:text> 
+
+     <xsl:template match="g:object"> 
+       <tr>
+         <td>
+           <!-- Invalid task location value --> 
+           <xsl:apply-templates select="'game'[id()='@id'][object()/title[@class='markdown-inline']/text() | @object/game[@class='game']" /></td>
+         </tr>
+       </xsl:template>

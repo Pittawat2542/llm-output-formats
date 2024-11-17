@@ -1,0 +1,17 @@
+game:
+ id: id
+ objective: quest objective
+ title: quest title
+ description: quest description
+ giver: quest giver
+ reward: quest reward
+ tasks:
+ - name: task1
+   location: location1
+   objective: objective1
+  - name: task2
+   location: location2
+   objective: objective2
+ extra_data:
+  another_key: another_value
+

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "example_quest",
+    "title": "Find the stolen treasure",
+    "objective": "Retrieve the stolen treasure from the thief's hideout.",
+    "description": "The local museum has had a valuable artifact stolen. The thief is known to have a hideout in the abandoned mine near the outskirts of town. Speak with the curator for more information.",
+    "reward": "50 Gold Coins",
+    "quest-giver": "Curator",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak with the curator to obtain more information.",
+          "description": "You can find the curator in the museum, near the entrance.",
+          "location": "Museum"
+        },
+        {
+          "order": "2",
+          "objective": "Locate the abandoned mine.",
+          "description": "The abandoned mine is located to the north of town, near the river.",
+          "location": "Abandoned Mine"
+        },
+        {
+          "order": "3",
+          "objective": "Enter the thief's hideout and retrieve the treasure.",
+          "description": "The thief's hideout is located deep within the mine, past the old mining tunnels.",
+          "location": "Thief's Hideout"
+        }
+      ]
+    }
+  }
+}

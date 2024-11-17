@@ -1,0 +1,22 @@
+The issue is that you cannot have an array directly under the `Enemy: Stats` key. It should be a nested object with properties as keys and values. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk:
+        value: # of attack actions
+      def:
+        value: # of defense actions
+      hp:
+        value: # of health points
+      mp:
+        value: # of mana points
+      spd:
+        value: # of speed
+```
+
+Make sure to replace `description`, `id`, `name`, and the values in the `stats` section with appropriate string or integer values as needed.

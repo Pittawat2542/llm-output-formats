@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Dragon's Relic Quest</title>
+    <objective>Rescue the Ancient Relic from Draconia's Lair</objective>
+    <description>The realm's divine artifact has been stolen by a mighty dragon. The Queen seeks your assistance to return it. You must navigate the treacherous Enchanted Forest, scale Mount Eternity, and confront the dragon within its lair.</description>
+    <reward>7500 gold pieces and the Queen's favor.</reward>
+    <quest-giver>Queen Isabella</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Enter Enchanted Forest</objective>
+            <description>Prove your courage by crossing the enchanted woods. Beware of bewitched creatures along the way.</description>
+            <location>Enchanted Forest entrance, near the edge of the kingdom.</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Climb Mount Eternity</objective>
+            <description>Scale the snow-capped peak to reach Draconia's Lair. Be prepared for icy conditions and steep trails.</description>
+            <location>Dragon's Lair, at the summit of Mount Eternity.</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the Dragon</objective>
+            <description Engage in a fierce battle to rescue the relic. The dragon has powerful fire breath, so strategy is key.</description>
+            <location>Dragon's Lair, Mount Eternity.</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Bring Back the Relic</objective>
+            <description Once you've claimed the relic, make your way back to Queen Isabella's palace with the victory.</description>
+            <location>Queen Isabella's palace, in the capital city.</location>
+        </task>
+    </tasks>
+</game>
+```

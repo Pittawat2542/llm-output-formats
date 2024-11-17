@@ -1,0 +1,30 @@
+```yaml
+game:
+  description: A quest to find a missing cat.
+  id: 1
+  objective: Find the missing cat.
+  quest_giver: The cat owner
+  reward: A reward
+  tasks:
+   - description: Search the cat owner's house for any clues.
+     location: The cat owner's house.
+     objective: Locate any signs of the missing cat.
+     order: 1
+   - question local residents if they have seen the cat.
+     location: Neighboring houses.
+     objective: Gather information about the cat's whereabouts.
+     order: 2
+   - Check nearby hiding spots frequented by cats.
+     location: Gardens, bushes, or sheds.
+     objective: Find the cat hiding in its usual spots.
+     order: 3
+   - Expand search to surrounding areas like parks or alleys.
+     location: Local green spaces and narrow passages.
+     objective: Cover more ground in case the cat wandered off.
+     order: 4
+   - Post about the missing cat on community notice boards.
+     location: Online forums, neighborhood groups.
+     objective: Increase visibility for finding the cat.
+     order: 5
+  title: Find and Rescue the Missing Cat
+```

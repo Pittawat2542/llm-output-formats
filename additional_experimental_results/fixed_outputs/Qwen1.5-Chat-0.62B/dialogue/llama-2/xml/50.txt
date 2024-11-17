@@ -1,0 +1,32 @@
+Here's the corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+			<!-- Add new dialogue -->
+			<!-- Order -->
+			<!-- Speaker -->
+			<!-- Text -->
+	</dialogues>
+</game>
+```
+
+## Tests
+```sh
+$ npm test
+```
+
+Output:
+```yaml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+			<!-- Add new dialogue -->
+			<!-- Order -->
+			<!-- Speaker -->
+			<!-- Text -->
+	</dialogues>
+</game>
+```
+
+Note: The order of the speakers and their text is not well-formed.

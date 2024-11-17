@@ -1,0 +1,37 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+      health: health int value
+      damage: damage int value
+      skills: skills int value
+      attack: attack int value
+```
+The code block is now correct and it returns the YAML in a Markdown format. The output is as follows:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp:hp int value
+      mp: mp int value
+     五一:五一 int value
+    health: health int value
+    damage: damage int value
+    skills: skills int value
+      attack: attack int value
+      def: def int value
+```

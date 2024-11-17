@@ -1,0 +1,33 @@
+The key 'quest_giver' is missing.
+XML code:
+```xml
+<?xml version="1.0" ?> 
+<game xmlns="http://www.schema.com">
+	<id>Q1</id>
+	<title>Lost Artifact</title>
+	<Objective>Retrieve the ancient artifact from the forgotten temple</Objective>
+	<Description>You have been chosen to venture into the forgotten temple and retrieve an ancient and powerful artifact rumored to have went missing centuries ago. Beware, the temple is full of deadly traps and fearsome guardians.</Description>
+	<Reward>5000 Gold and The Eternal Blade</Reward>
+	<Quest-Giver>The Mysterious Old Man</Quest-Giver>
+	<Tasks>
+			<Task>
+				<Order>Task 1</Order>
+				<Objective>Find the forgotten temple</Objective>
+				<Description>Refer to the old map provided by the quest giver and locate the entrance to the temple.</description>
+				<Location>Deep in the Heart Woods</Location>
+			</Task>
+			<Task>
+				<Order>Task 2</Order>
+				<Objective>Solve the riddle of the stone door</Objective>
+				<Description>Crack the riddle embedded on the stone door to gain access into the temple's interior.</description>
+				<Location>The Temple Entrance</Location>
+			</Task>
+			<Task>
+				<Order>Task 3</Order>
+				<Objective>Retrieve the lost artifact</Objective>
+				<Description>Overcome the temple guards and traps to reach the inner sanctum and secure the artifact.</description>
+				<Location>Temple Inner Sanctum</Location>
+			</Task>
+	<Tasks>
+</game>
+```

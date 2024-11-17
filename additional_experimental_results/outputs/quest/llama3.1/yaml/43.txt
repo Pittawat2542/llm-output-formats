@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: Defeat the Dark Sorcerer Xaren and free the land from his evil grasp.
+  id: Q001
+  objective: Defeat Dark Sorcerer Xaren in combat.
+  quest_giver: The Village Elder of Willowdale
+  reward:
+    gold: 1000
+    items:
+      - sword_of_light
+    experience: 5000
+  tasks:
+  - description: Speak with the local blacksmith to gather information about Xaren's lair.
+    location: Willowdale Blacksmith
+    objective: Gather information about Xaren's lair
+    order: 1
+  - description: Travel to Dark Sorcerer Xaren's lair and defeat his minions.
+    location: Xaren's Lair, Darkforest
+    objective: Defeat Xaren's Minions
+    order: 2
+  - description: Face off against Dark Sorcerer Xaren in combat.
+    location: Xaren's Throne Room, Darkforest
+    objective: Defeat Dark Sorcerer Xaren
+    order: 3
+  title: The Dark Sorcerer's Lair
+```

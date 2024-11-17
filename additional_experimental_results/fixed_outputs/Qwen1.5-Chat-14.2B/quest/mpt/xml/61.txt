@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id_value</id>
+	<title.quest_title</title>
+	<objective.quest_objective</objective>
+	<description.quest_description</description>
+	<reward.quest_reward</reward>
+	<quest-giver_quest_giver_name</quest-giver>
+	<tasks>
+		<task>
+			<order>task_order_value</order>
+			<objective>task_objective_value</objective>
+			<description>task_description_value</description>
+			<location>task_location_value</location>
+		</task>
+	</tasks>
+</game>
+```
+I added the missing `encoding="UTF-8"` attribute, corrected the syntax for nested elements, and provided default values (e.g., "id_value", "quest_title") for the missing key 'quest_giver'. If you want to use a specific value for 'quest_giver', replace `quest_giver_name` with the desired text.

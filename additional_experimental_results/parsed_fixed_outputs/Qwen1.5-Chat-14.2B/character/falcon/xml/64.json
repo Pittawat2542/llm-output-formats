@@ -1,0 +1,22 @@
+{
+  "game": {
+    "character": {
+      "@id": "id",
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "species",
+      "age": "exact age or description",
+      "role": {
+        "@role": "The role of the character",
+        "#text": "background story"
+      },
+      "physical-appearance": {
+        "eye-color": "eye color",
+        "hair-color": "hair color",
+        "height": "height in float value",
+        "weight": "weight in float value"
+      },
+      "place-of-birth": "location"
+    }
+  }
+}

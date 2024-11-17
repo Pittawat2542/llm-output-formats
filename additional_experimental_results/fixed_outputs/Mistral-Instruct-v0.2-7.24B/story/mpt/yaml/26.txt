@@ -1,0 +1,11 @@
+```yaml
+game:
+  beginning: the first event of the game
+  ending: the last event of the game
+  synopsis: >
+    a brief description or summary of the events that occur in the game
+  title: the name of the game
+
+```
+
+The error was caused by trying to use multiple lines in the `synopsis` key without using a block style (e.g., `>`, `|`, or `-`). By changing `synopsis` to a block style, we can have multiple lines and avoid the syntax error.

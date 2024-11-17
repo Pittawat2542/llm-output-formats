@@ -1,0 +1,20 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Quest for the Golden Apple</title>
+	<objective>Go to the forest and find the Golden Apple</objective>
+	<description>The Golden Apple is hidden somewhere in the forest. Find it and bring it to the king.</description>
+	<reward>100 gold coins</reward>
+	<quest-giver>King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Golden Apple</objective>
+			<description>Go to the forest and find the Golden Apple</description>
+			<location>Forest</location>
+		</task>
+	</tasks>
+</game>
+

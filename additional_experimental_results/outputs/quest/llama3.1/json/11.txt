@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "G1",
+        "title": "The Missing Heirloom",
+        "objective": "Retrieve the stolen family heirloom from the bandit's lair",
+        "description": "Lord Edwin has had his precious gemstone necklace stolen by a group of bandits. Retrieve it for him and bring it back to the manor.",
+        "reward": "500 gold coins and a magical amulet",
+        "quest_giver": "Lord Edwin, the local noble",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the bandits' lair location",
+                "description": "Talk to the villagers in the nearby town and gather any information they may have about the bandit's lair.",
+                "location": "Village Tavern, near the manor"
+            },
+            {
+                "order": 2,
+                "objective": "Infiltrate the bandits' lair",
+                "description": "Sneak into the bandits' lair and retrieve the stolen gemstone necklace. Be careful not to get caught!",
+                "location": "Bandit's Lair, in the nearby forest"
+            },
+            {
+                "order": 3,
+                "objective": "Return to Lord Edwin",
+                "description": "Bring the recovered gemstone necklace back to Lord Edwin and collect your reward.",
+                "location": "Lord Edwin's Manor"
+            }
+        ]
+    }
+}
+```

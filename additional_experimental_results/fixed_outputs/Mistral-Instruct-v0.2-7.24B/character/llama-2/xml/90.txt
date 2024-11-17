@@ -1,0 +1,34 @@
+```xml
+<response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height xsi:type="xsd:float">height in float value</height></physical-appearance>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</response>
+```
+
+### Request:
+```xml
+<request xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<character>
+		<id xsi:type="xs:string">id</id>
+		<first-name xsi:type="xsd:string">first name</first-name>
+		<last-name xsi:type="xsd:string">last name</last-name>
+		<physical-appearance>
+			<physical-appearance xsi:type="xsd:complexType">
+				<eye-color xsi:type="xs:string">eye color</eye-color>
+				<hair-color xsi:type="xs:string" name="hair:color">hair color</hair-color>
+				<height type="xsd:float">height in float value</height></physical-appearance>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</request>
+```

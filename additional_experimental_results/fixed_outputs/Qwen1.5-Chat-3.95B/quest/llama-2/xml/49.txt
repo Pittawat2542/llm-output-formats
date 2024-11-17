@@ -1,0 +1,44 @@
+XML data:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+	<id>ID</id>
+	<title>Quest Title</title>
+	<objective>Quest Objective</objective>
+	<description>Quest Description</description>
+	<reward>Quest Reward</reward>
+	<quest-giver>Quest Giver</quest-giver>
+	<tasks>
+		<!-- Task 1 -->
+			<task>
+				<order>Task Order</order>
+				<Objective>Task Objective</Objective>
+				<Description>Task Description</Description>
+				<Location>Task Location</Location>
+			</task>
+		<!-- Task 2 -->
+	</tasks>
+</game>
+```
+XML code block:
+```xml
+<?xml version="1.0" encoding="utf-8"?>[
+<game>
+	<id>ID</id>
+	<title>Quest Title</title>
+	<objective>Quest Objective</objective>
+	<description>Quest Description</description>
+	<reward>Quest Reward</reward>
+	<quest-giver>Quest Giver</quest-giver>
+	<tasks>
+		<!-- Task 1 -->
+			<task>
+				<order>Task Order</order>
+				<Objective>Task Objective</Objective>
+				<Description>Task Description</Description>
+				<Location>Task Location</Location>
+			</task>
+		<!-- Task 2 -->
+	</tasks>
+</game>]
+```

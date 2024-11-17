@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "QST-123",
+    "title": "Return of the Lost Amulet",
+    "objective": "Recover the lost Amulet of Power from the depths of the Ancient Ruins.",
+    "description": "The Amulet of Power, a relic of immense magical energy, has been stolen and is now hidden deep within the Ancient Ruins. Recover it and return it to the rightful owner, the Archmage of the Arcane Order.",
+    "reward": "Amulet of Power (Legendary Artifact), 10,000 Gold, 10,000 Experience Points",
+    "quest-giver": "Archmage Alderon",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the Entrance to the Ancient Ruins.",
+          "description": "The entrance to the Ancient Ruins is shrouded in mystery. Seek clues and investigate the legends of the region to find its exact location.",
+          "location": "Ruins of Oldhaven"
+        },
+        {
+          "order": "2",
+          "objective": "Clear the Path to the Lost Amulet.",
+          "description": "The path to the Lost Amulet is guarded by dangerous creatures and ancient traps. Defeat the guardians and overcome the obstacles to proceed further.",
+          "location": "Ancient Ruins: Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the Puzzle of the Ancient Guardians.",
+          "description": "The heart of the Ancient Ruins holds a mystical puzzle guarded by ancient guardians. Solve the riddle to unlock the path to the Lost Amulet.",
+          "location": "Ancient Ruins: Inner Sanctum"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the Lost Amulet.",
+          "description": "Beyond the puzzle lies the Lost Amulet. Retrieve it from its resting place and be cautious of the powerful enchantments that may still linger.",
+          "location": "Ancient Ruins: Vault of Power"
+        },
+        {
+          "order": "5",
+          "objective": "Return the Lost Amulet to Archmage Alderon.",
+          "description": "With the Amulet of Power in your possession, make your way back to Archmage Alderon. Prepare to receive your reward and witness the restoration of the amulet's ancient powers.",
+          "location": "Arcane Sanctum"
+        }
+      ]
+    }
+  }
+}

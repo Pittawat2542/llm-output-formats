@@ -1,0 +1,84 @@
+XML:
+```xml
+<?xml version="1.0"?>  
+<game>
+	<id>id</id>
+	<title>Quest: The Power of Three</title>
+	<objective>Acquire three ancient artifacts</objective>
+	<description>You have just received a letter from your grandfather
+	stating that he has located the location of an artifact that has been
+	lost for more than 300 years. As a young man he and his friends
+(discovered this incredible item. Now much older and on his deathbed, he
+	xanded to you to search for the object to prove once and for all that it really
+	exists. The artifact is a magical staff that grants the user great power
+	over time and space. There are three locations around the world where
+	The staff was supposedly left. Your grandfather has only been able
+	to identify two of these locations. With the help of your friends, 
+	you will need to find all three objects if you are ever to understand
+ why your grandfather kept this secret for so many years. There is, 
+	unfortunately, a great evil that seeks the staff and has traveled
+through time to search for it as well. This ancient evil has already
+	sent one of their spies back to the present day with the goal of stealing
+	The staff. You will have to act quickly if you want to find all three
+artifact before it is too late.</description>
+	<reward>The artifacts are amazing to say the least</ reward>
+	<quest-giver>Your grandfather</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Find the first artifact: The Eye of Horus</objective>
+				description>Located in Egypt. The Eye of Horus is an artifact from Ancient Egypt.
+			因为你 recently received an email from your grandfather, he
+��说你找到了她丢失的宝石。你立即找到了它并将其归还给你。这使你得以获得一个神秘而珍贵的奖品，那就是“宝石”（宝石）。现在，我将为你找到另外两个古老的宝物：“ Armor of Achilles”和“翼ed Helmet”。
+	</task>
+	<任务>
+			<order>2</order>
+			 objective>Find the second artifact: The Armor of Achilles</objective>
+				description>"The armor of Achilles" was made by the god Hephaestus from the hides of all the animals killed by the Greek hero Achilles during his campaigns. It represents the most powerful and protective armor in Greek mythology, which can defeat the most destructive weapons from the ancient Greeks."
+			你现在应该知道，我找到了“宝石”和“铠甲”。现在让我们继续寻找第三个宝物——“ Winged Helmet”。
+	</task>
+</game>
+```
+Markdown:
+```python
+# Quest information for game  # Quest example
+<?xml version="1.0"?>  
+<game>
+	<id>id</id>
+	<title>Quest: The Power of Three</title>
+	bjective>Acquire three ancient artifacts</objective>
+	<description>You have just received a letter from your grandfather
+	stating that he has located the location of an artifact that has been
+	lost for more than 300 years. As a young man he and his friends
+(discovered this incredible item. Now much older and on his deathbed, he
+	xanded to you to search for the object to prove once and for all that it really
+	exists. The artifact is a magical staff that grants the user great power
+	over time and space. There are three locations around the world where
+	The staff was supposedly left. Your grandfather has only been able
+	to identify two of these locations. With the help of your friends, 
+	you will need to find all three objects if you are ever to understand
+为什么 your grandfather kept this secret for so many years. There is, 
+(unaturally, a great evil that seeks the staff and has traveled
+-through time to search for it as well. This ancient evil has already
+	sent one of its spies back to the present day with the goal of stealing
+	The staff. You will have to act quickly if you want to find all three
+artifact before it is too late.</description>
+	<reward>The artifacts are amazing to say the least</ reward>
+	<quest-giver>Your grandfather</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Find the first artifact: The Eye of Horus</objective>
+				description>Located in Egypt. The Eye of Horus is an artifact from Ancient Egypt.
+			因为你 recently received an email from your grandfather, he
+��说你找到了她丢失的宝石。你立即找到了它并将其归还给你。这使你得以获得一个神秘而珍贵的奖品，那就是“宝石”（宝石）。现在，我将为你找到另外两个古老的宝物：“ Armor of Achilles”和“翼ed Helmet”。"
+	</task>
+	<任务>
+			<order>2</order>
+			 objective>Find the second artifact: The Armor of Achilles</objective>
+				description>"The armor of Achilles" was made by the god Hephaestus from the hides of all the animals killed by the Greek hero Achilles during his campaigns. It represents the most powerful and protective armor in Greek mythology, which can defeat the most destructive weapons from the ancient Greeks."
+			你现在应该知道，我找到了“宝石”和“铠甲”。现在让我们继续寻找第三个宝物——“ Winged Helmet”。
+	</task>
+</game>
+```
+```

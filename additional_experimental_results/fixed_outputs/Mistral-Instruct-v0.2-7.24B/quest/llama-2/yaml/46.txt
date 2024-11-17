@@ -1,0 +1,74 @@
+```yaml
+game:
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: Someone
+  reward: A quest reward
+  tasks:
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 1
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 2
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 3
+  title: A quest to get a quest reward
+``` [
+
+# Example
+```yaml
+game:
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: Someone
+  reward: A quest reward
+  tasks:
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 1
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 2
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 3
+  title: A quest to get a quest reward
+```
+
+# Example
+
+```
+
+Corrected YAML data:
+---
+game:
+  description: A quest to get a quest reward
+  id: 1
+  objective: Get quest reward
+  quest_giver: Someone
+  reward: A quest reward
+  tasks:
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 1
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 2
+  - description: Get a quest reward
+    location: Somewhere
+    objective: Get quest reward
+    order: 3
+  title: A quest to get a quest reward
+```

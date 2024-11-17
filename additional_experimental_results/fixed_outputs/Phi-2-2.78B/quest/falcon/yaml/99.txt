@@ -1,0 +1,19 @@
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    - title: quest title
+
+### Explanation:
+1. In the original YAML, the first line of the game block is missing a closing brace `}`. The corrected code block should end with an additional curly brace `{` after the first game item description.
+2. In the original YAML, there are multiple errors in the format of the second and third quest items. Each item's title ends with a comma instead of a space. Additionally, each quest item should be indented one level under the game block to separate it from the other tasks. The corrected code block should fix these issues by removing the extra commas and indenting each task item correctly.
+3. In the original YAML, there are no errors in the format of the fourth or fifth quest items. They follow the correct formatting as described above. Therefore, they can be left unchanged.
+4. In the original YAML, there is one error in the format of the sixth item. The title line is missing a space after the task description and does not have proper indentation. The corrected code block should fix these issues by adding a space before each newline character and correctly indenting the title line.
+5. In the original YAML, there is one error in the format of the seventh item. The second quest objective is missing a period at the end. The corrected code block should add a period to complete the sentence. Additionally, each task description line should be indented by one level under the corresponding tasks item for proper formatting.

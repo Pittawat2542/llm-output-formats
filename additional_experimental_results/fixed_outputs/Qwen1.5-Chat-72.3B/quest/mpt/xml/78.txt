@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to quest giver.</objective>
+	<description>In a nearby village, rumors speak of an ancient artifact hidden in ruins. Retrieve it and bring it back to the quest giver.</description>
+	<reward>1000 gold coins and a magical amulet</reward>
+	<quest-giver>Thane Ironbeard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins.</objective>
+			<description>Explore the area until you find the hidden entrance to the ancient ruins.</description>
+			<location>The western forest, near the old oak tree</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian beast.</objective>
+			<description>A fierce beast guards the artifact. Defeat it to claim the artifact.</description>
+			<location>In the heart of the ruins</location>
+		</task>
+	</tasks>
+</game>
+```

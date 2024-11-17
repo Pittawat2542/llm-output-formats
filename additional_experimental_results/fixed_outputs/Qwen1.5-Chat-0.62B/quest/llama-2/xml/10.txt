@@ -1,0 +1,40 @@
+Here's the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				order="task order"
+			 Objective="task objective"
+				Description="task description"
+			Location="task location"
+			</task>
+		</tasks>
+</game>
+```
+
+The code block now includes the corrected syntax for the XML data and the updated values for the `id`, `title`, `objective`, `description`, `reward`, `quest-giver`, and `tasks` arrays. The output in Markdown format is:
+```markdown
+# Fixed: <game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>quest giver</quest-giver>
+  <tasks>
+    <task>
+      <order>task order</order>
+      <Objective="task objective"
+        Description="task description"
+        Location="task location">
+      </task>
+    </task>
+  </game>
+</code>

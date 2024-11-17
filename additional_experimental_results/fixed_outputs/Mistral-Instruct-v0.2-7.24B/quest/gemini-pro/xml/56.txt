@@ -1,0 +1,41 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>mc-01</id>
+	<title>Restoring the Ancient Relic</title>
+	<objective>Embark on a perilous journey to retrieve a long-lost relic and restore it.</objective>
+	<description>Legends speak of the Ancient Relic, a powerful artifact hidden in the depths of the old forest. You have been recruited by the royal wizard, Archmage Azaron, to seek out this relic and restore its power.</description>
+	<reward>Arcane Amulet, granting increased magic resistance and mana regeneration.</reward>
+	<quest-giver>
+		<name>Archmage Azaron</name>
+		<location>Wizard's Tower, located in the royal castle grounds.</location>
+	</quest-giver> -- added 'name' tag for quest giver
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the hidden entrance to the ancient forest, believed to be near the Elven Enclave.</objective>
+			<description>Seek wisdom from the enigmatic Elven Oracle residing in the Elven Enclave. They may have knowledge about the forgotten path to the forest.</description>
+			<location>Elven Enclave, located north of the Silverwood River.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Traverse the dangerous forest, battling ancient creatures and solving puzzles to discover the resting place of the relic.</objective>
+			<description>Venture through treacherous terrains and face cunning riddles left behind by the long-forgotten guardians of the forest.</description>
+			<location>Ancient Forest, accessed via the portal in the ancient ruins.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the Ancient Relic from its pedestal, overcoming any guardians or traps that protect it.</objective>
+			<description>Approach the relic with caution, for it may contain residual enchantments or traps meant to safeguard its secrets.</description>
+			<location>Ritual Chamber, deep within the heart of the Ancient Forest.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the relic to Archmage Azaron at the Wizard's Tower, allowing him to restore its magnificent power.</objective>
+			<description>Convey the Ancient Relic safely to the Archmage, who possesses the arcane knowledge to unlock its true potential.</description>
+			<location>Wizard's Tower, located in the grounds of the royal castle.</location>
+		</task>
+	</tasks>
+</game>
+```

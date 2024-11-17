@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "2",
+    "title": "The Lost Tome",
+    "objective": "Find the lost tome of ancient knowledge.",
+    "description": "The tome is rumored to be located in the ruins of the old library, which is said to be haunted.",
+    "reward": "The tome of ancient knowledge, +100 experience points, and a new spell.",
+    "quest-giver": "Old Man Henderson",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the ruins of the old library.",
+          "description": "The library is located in the forest outside of town.",
+          "location": "Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the secret entrance to the library.",
+          "description": "The entrance is hidden behind a waterfall.",
+          "location": "Waterfall"
+        },
+        {
+          "order": "3",
+          "objective": "Battle the ghost of the librarian.",
+          "description": "The librarian is a powerful ghost who guards the tome.",
+          "location": "Library"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the lost tome.",
+          "description": "The tome is located in a secret chamber in the library.",
+          "location": "Secret Chamber"
+        },
+        {
+          "order": "5",
+          "objective": "Return the tome to Old Man Henderson.",
+          "description": "Old Man Henderson is located in the town square.",
+          "location": "Town Square"
+        }
+      ]
+    }
+  }
+}

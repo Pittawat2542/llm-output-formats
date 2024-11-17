@@ -1,0 +1,27 @@
+Here is a corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	.synopsis>game story synopsis</synopsis>
+	<beginning>
+		<title>start of the game</title>
+	</beginning>
+		<title>end of the game</title>
+	</game>
+</game>
+```
+### Example 45
+
+```xml
+<game>
+	<title>game title</title>
+	synopsis>game story synopsis</synopsis>
+	<beginning>
+		<title>start of the game</title>
+	</beginning>
+		<title>end of the game</title>
+		<title>end of the game</title>
+	</game>
+</game>
+```

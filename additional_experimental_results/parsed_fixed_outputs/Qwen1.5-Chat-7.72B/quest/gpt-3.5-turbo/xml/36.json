@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Ancient tales speak of a treasure hidden deep within the forbidden jungle. Your quest is to find this lost treasure and bring it back to civilization.",
+    "reward": "1000 gold coins",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the jungle",
+          "description": "Navigate through thick vegetation and treacherous paths to reach the heart of the jungle.",
+          "location": "Jungle"
+        },
+        {
+          "order": "2",
+          "objective": "Find the hidden tomb",
+          "description": "Discover a mysterious tomb concealed within the depths of the jungle.",
+          "location": "Tomb"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact",
+          "description": "Locate the treasure chamber inside the tomb and retrieve the ancient artifact.",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

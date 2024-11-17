@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Explore the abandoned ruins of a ancient castle and retrieve a legendary artifact.",
+    "id": "Q001",
+    "objective": "Retrieve the Scepter of Light",
+    "quest_giver": "Gorvoth, the Wise",
+    "reward": "100 gold pieces and +2 intelligence bonus",
+    "tasks": [
+      {
+        "description": "Navigate through the treacherous forest to reach the castle entrance.",
+        "location": "The Whispering Woods",
+        "objective": "Reach the castle gates without taking damage",
+        "order": "1"
+      },
+      {
+        "description": "Solve the ancient puzzle to unlock the path to the Scepter Chamber.",
+        "location": "The Castle's Grand Hall",
+        "objective": "Unlock the door using a combination of pressure plates and mirrors",
+        "order": "2"
+      },
+      {
+        "description": "Battle the fearsome dragon guarding the Scepter.",
+        "location": "The Scepter Chamber",
+        "objective": "Defeat the dragon without taking damage",
+        "order": "3"
+      }
+    ],
+    "title": "The Lost Scepter of Light"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the lost city and retrieve the ancient artifact",
+    "description": "The city has been hidden for centuries, but rumors of its rediscovery have drawn you to this forsaken land. Venture into the heart of the jungle and uncover the secrets within.",
+    "reward": "500 gold pieces and a magical amulet",
+    "quest_giver": "Rumplestiltskin",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Reach the ancient ruins",
+        "description": "Navigate through the treacherous jungle terrain to reach the entrance of the lost city",
+        "location": "The Heart of the Jungle"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the temple puzzle",
+        "description": "Unlock the doors of the ancient temple using your knowledge and wits",
+        "location": "The Temple of the Moon Goddess"
+      }
+    ]
+  }
+}

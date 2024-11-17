@@ -1,0 +1,17 @@
+{
+  "game": {
+    "@xmlns": "http://www\u5728\u6e38\u620f\u4e2d\u9519\u8bef\u7684XML\u6570\u636e",
+    "enemy": {
+      "id": "id",
+      "name": "name",
+      "description": "description",
+      "stats": {
+        "hp": "hp int value",
+        "mp": "mp int value",
+        "atk": "atk int value",
+        "def": "def int value",
+        "spd": "spd int value"
+      }
+    }
+  }
+}

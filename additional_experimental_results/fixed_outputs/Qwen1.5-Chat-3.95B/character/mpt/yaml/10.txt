@@ -1,0 +1,17 @@
+``yaml
+--- game:
+ character:
+ age: exact age or description
+ background: background story sequence entries are allowed here
+ first_name: first name
+ id: id
+ last_name: last name
+ place_of_birth: location
+ physical_appearance:
+     - eye_color: light blue
+      hair_color: white
+      height: 5'2"
+      weight: 123 lbs
+ role: role of the character
+ species: Klingon
+```

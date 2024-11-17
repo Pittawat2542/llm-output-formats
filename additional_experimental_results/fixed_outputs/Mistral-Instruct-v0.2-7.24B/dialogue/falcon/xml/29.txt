@@ -1,0 +1,13 @@
+The original XML has incorrect spelling of "dialogues" in the `<order>` tag. It should be "dialogue" instead. Here's the corrected version:
+
+```xml
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>speaker name</speaker>
+      <text>dialogue or narration</text>
+    </dialogue>
+  </dialogues>
+</game>
+```

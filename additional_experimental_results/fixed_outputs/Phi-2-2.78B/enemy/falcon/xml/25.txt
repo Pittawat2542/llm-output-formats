@@ -1,0 +1,28 @@
+<game>
+	<enemy id="1">
+		<name>Enemy 1</name>
+		<description>Enemy with a large amount of HP and damage.</description>
+		<stats>
+			<hp int value=20000>
+				The enemy has 2000 HP. 
+			</hp>
+
+			<mp int value=25000>
+				The enemy has 2500 MP.
+			</mp>
+
+			<atk int value=5000>
+				The enemy has 5000 attack power.
+			</atk>
+
+			<def int value=7500>
+				The enemy has 7500 defense power.
+			</def>
+
+			<spd int value=10000>
+				The enemy can shoot up to 10000 times per second with a speed of 10.
+		</stats>
+
+	</enemy>
+</game>
+

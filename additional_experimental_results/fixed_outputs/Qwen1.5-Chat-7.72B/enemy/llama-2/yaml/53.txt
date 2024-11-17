@@ -1,0 +1,16 @@
+The YAML syntax is correct now. Here's the cleaned up YAML data in a code block:
+
+```yaml
+game:
+  enemy:
+    description: "An enemy with a high [stat]."
+    id: <stat_number>
+    name: "<Stat Name>"
+    stats:
+      atk: <int_value>
+      def: <int_value>
+      hp: <int_value>
+      mp: <int_value>
+      spd: <int_value>
+```
+Replace `<stat_number>` with a new integer value (1-40) or keep the existing number for each stat based on your game's requirements. The `<Stat Name>` should match one of "Attack", "Defense", "HP", "MP", or "SPD".

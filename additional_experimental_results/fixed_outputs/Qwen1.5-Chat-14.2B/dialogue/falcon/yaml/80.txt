@@ -1,0 +1,14 @@
+The original YAML data is missing the required key 'game' and has an incorrect indentation for the 'dialogues' key. Here's the corrected YAML:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: John
+      text: |-
+        John: Hi.
+        Jane: Hey John.
+        John: Thanks Jane!
+```
+
+I added the missing 'game:' at the beginning and fixed the indentation for the 'dialogues' list item.

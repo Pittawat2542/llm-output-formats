@@ -1,0 +1,65 @@
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+    - speaker: player
+      text: "Hello, I'd like to start a new game."
+    - speaker: game_master
+      text: "Welcome traveler. Which adventure would you like to embark on?"
+```
+
+```yaml
+# Original:
+# Return your YAML code block
+
+# Fixed:
+### Response:
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: player
+      text: "Hello, I'd like to start a new game."
+    - order: 2
+      speaker: game_master
+      text: >
+        Welcome traveler. Which adventure would you like to embark on?
+```
+
+```yaml
+# Fixed (alternative):
+### Response:
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: player
+      text: >-
+        Hello, I'd like to start a new game.
+    - order: 2
+      speaker: game_master
+      text: >
+        Welcome traveler. Which adventure would you like to embark on?
+```
+
+```yaml
+# Fixed (alternative):
+### Response:
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: player
+      text: >-
+        Hello, I'd like to start a new game.
+    - order: 2
+      speaker: game_master
+      text: |
+        Welcome traveler.
+        Which adventure would you like to embark on?
+```
+```

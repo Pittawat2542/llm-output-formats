@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>Ancient tales speak of a treasure hidden deep within the forbidden jungle. Your quest is to find this lost treasure and bring it back to civilization.</description>
+    <reward>1000 gold coins</reward>
+    <quest-giver>Captain Morgan</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Explore the jungle</objective>
+            <description>Navigate through thick vegetation and treacherous paths to reach the heart of the jungle.</description>
+            <location>Jungle</location>
+        </task>
+
+        <task order="2">
+            <objective>Find the hidden tomb</objective>
+            <description>Discover a mysterious tomb concealed within the depths of the jungle.</description>
+            <location>Tomb</location>
+        </task>
+
+        <task order="3">
+            <objective>Retrieve the ancient artifact</objective>
+            <description>Locate the treasure chamber inside the tomb and retrieve the ancient artifact.</description>
+            <location>Treasure Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

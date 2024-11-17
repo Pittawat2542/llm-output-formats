@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk_int_value
+      def: def_int_value
+      hp: hp_int_value
+      mp: mp_int_value
+      spd: spd_int_value
+```
+The issue with the original YAML was that it used `_` instead of `int_value` for the numeric values in the stats. I have corrected this to use the correct syntax.

@@ -1,0 +1,34 @@
+```xml
+{
+  "id": "1234",
+  "title": "The Lost Relic",
+  "objective": "Retrieve the ancient relic from the cursed catacombs",
+  "description": "An ancient relic has been stolen by evil forces and hidden within the cursed catacombs. Delve into the depths and retrieve the relic.",
+  "reward": "5000 gold coins and a mystic sword",
+  "quest-giver": "The village elder",
+  "tasks">
+    <task>
+      {
+        "order": "1",
+        "objective": "Enter the cursed catacombs"
+        "description": "Find the entrance to the cursed catacombs and make your way in."
+        "location": "Eastern Forest"
+      }
+      <task>
+        {
+          "order": "2",
+          "objective": "Defeat the catacomb guardians"
+          "description": "Defeat the nefarious creatures guarding the relic deep within the catacombs."
+          "location": "Cursed Catacombs"
+      }
+      <task>
+        {
+          "order": "3",
+          "objective": "Retrieve the relic"
+          "description": "Find the hidden chamber where the relic is kept and retrieve it."  
+          "location": "Cursed Catacombs, Hidden Chamber"
+      }
+    </tasks>
+  </game>
+}
+```

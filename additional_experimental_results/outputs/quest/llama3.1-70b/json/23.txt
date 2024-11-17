@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "QST001",
+        "title": "The Lost Temple",
+        "objective": "Retrieve the ancient artifact from the lost temple",
+        "description": "A long-abandoned temple has been discovered in the depths of the forest, and rumors say that it holds a powerful artifact. Your task is to explore the temple, overcome its dangers, and retrieve the artifact.",
+        "reward": "Golden Amulet of Strength (+10% strength)",
+        "quest_giver": "High Priestess Elara",
+        "tasks": [{
+            "order": 1,
+            "objective": "Reach the lost temple",
+            "description": "Make your way through the dense forest to reach the entrance of the lost temple.",
+            "location": "Temple Entrance, Forest"
+        }, {
+            "order": 2,
+            "objective": "Solve the ancient puzzle",
+            "description": "Inside the temple, find and solve an ancient puzzle to unlock the next chamber.",
+            "location": "Puzzle Chamber, Lost Temple"
+        }, {
+            "order": 3,
+            "objective": "Retrieve the artifact",
+            "description": "After solving the puzzle, navigate through a series of traps and retrieve the artifact from the central chamber.",
+            "location": "Central Chamber, Lost Temple"
+        }]
+    }
+}
+```

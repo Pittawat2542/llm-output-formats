@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST0012",
+    "title": "Dragon's Lair",
+    "objective": "Defeat the Dragon in the lair north of the Black Mountain.",
+    "description": "You have been chosen to defeat the legendary Dragon that has been terrorizing the settlers near the Black Mountain. Gather your forces, prepare for a battle and journey north to the Dragon's lair. Pure courage and strength are required to achieve victory. Are you ready?",
+    "reward": "5000 Gold Coins and 'Champion of the North' title",
+    "quest-giver": "King Artus",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather forces",
+          "description": "Recruit soldiers from around the kingdom for the upcoming battle.",
+          "location": "White Haven"
+        },
+        {
+          "order": "2",
+          "objective": "Prepare for battle",
+          "description": "Collect weapons, armor and battle supplies from the royal armory.",
+          "location": "Royal Armory"
+        },
+        {
+          "order": "3",
+          "objective": "Travel to the Dragon's lair",
+          "description": "Journey north towards the harshest climates to the Dragon's lair. Stay alert as the dragon could attack anytime.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

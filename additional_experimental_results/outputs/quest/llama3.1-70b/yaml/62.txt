@@ -1,0 +1,23 @@
+```yaml
+game:
+  description: Retrieve a rare herb from the depths of the Dark Forest.
+  id: Q001
+  objective: Collect 3 units of Shadow Bloom herb.
+  quest_giver: Elara, the village elder
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    items:
+      - name: Healing Potion
+        quantity: 2
+  tasks:
+  - description: Enter the Dark Forest and navigate to the ancient ruins.
+    location: Dark Forest - Ancient Ruins
+    objective: Reach the ancient ruins.
+    order: 1
+  - description: Search for Shadow Bloom in the ruins and collect 3 units.
+    location: Dark Forest - Ancient Ruins
+    objective: Collect 3 units of Shadow Bloom herb.
+    order: 2
+  title: "Shadows in the Dark"
+```

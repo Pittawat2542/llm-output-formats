@@ -1,0 +1,14 @@
+<?xml version="1.0" xmlns="http://www.w3.org/2019/https#">
+<game>
+	<character id="id" first-name="first name" last-name="last name">
+		<input type="text" name="species" placeholder="The species of the character">>
+		<input type="text" name="age" placeholder="The age of the character">>
+		<input type="text" name="role" placeholder="The role of the character">>
+			<input type="text" name="eye-color" placeholder="The eye color of the character">>
+			<input type="text" name="hair-color" placeholder="The hair color of the character">>
+			<input type="text" name="height" placeholder="The height in float value">>
+			<input type="text" name="weight" placeholder="The weight in float value">>
+			<output type="json" name="physical-appearance"></output>
+	</character>
+</game>
+```xml

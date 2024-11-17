@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the ancient ruins</objective>
+	<description>Travel to the ancient ruins and find the rumored lost artifact. Be wary of traps and potential adversaries along the way.</description>
+	<reward>5000 Gold and The Sword of Eternity</reward>
+	<quest-giverHistorian Jenkins</quest-giver>
+	<tasks>
+			<trask order="1">
+				<objective-find-ancient-runses>
+					"description">Use the provided map to navigate through the forest and locate the ruins.</description>
+					<location>Heartfelt Forest</location>
+				</objective-find-ancient-runses>
+			<trask order="2">
+				<objective-retrieve-artifact>
+					"description">Search the ruins and find the lost artifact. Be ready for any threats that may appear.</description>
+					<location>Ancient Ruins</location>
+				</objective-retrieve-artifact>
+			<trask order="3">
+				<objective-return-to-historian-jenkins">
+					"description">Once you have retrieved the artifact, return to Historian Jenkins to claim your reward.</description>
+					<location>Oakshore Town</location>
+				</objective-return-to-historian-jenkins>
+			<trask order="4">
+				<objective-trust-your-intuition-and-common-sense>
+					"description">Observe the surroundings and trust your instincts while navigating through the ruins.</description>
+					<location>Unknown Location</location>
+				</objective-trust-your-intuition-and-common-sense>
+			<trask order="5">
+				<objective-fight-off-unknown-threats>
+					"description>Trouble with unknown threats that may appear along the way, use your skills and weapons to defend yourself.</description>
+					<location>Unknown Location</location>
+				</objective-fight-off-unknown-threats>
+			<trask order="6">
+				<objective-rescue-the-lost-artifact">
+					"description>Save the lost artifact from any potential dangers that may arise during your journey back to Oakshore Town.</description>
+					<location>Oakshore Town</location>
+				</objective-rescue-the-lost-artifact>
+			<trask order="7">
+				<objective-discover-the-sword-of-eternity">
+					"description>Uncover the sword of Eternity, which is said to grant immense power and protect against evil.</description>
+					<location>Ancient Ruins</location>
+				</objective-discover-the-sword-of-eternity>
+			<trask order="8">
+				<objective-prove-your-intelligence-and-leadership">
+					"description>Use your intelligence and leadership skills to guide the group through the ruins, overcoming any obstacles along the way.</description>
+					<location>Ancient Ruins</location>
+				</objective-prove-your-intelligence-and-leadership>
+			<trask order="9">
+				<objective-win-the-war-of-ancient-runses">
+					"description>Confront and defeat the ancient ruins, securing victory for your group.</description>
+					<location>Ancient Ruins</location>
+				</objective-win-the-war-of-ancient-runses>
+			<trask order="10">
+				<objective-find-a-way-out-of-the-game">
+					"description>Discover a way out of the game, whether it be through finding a secret passage or completing a challenging puzzle.</description>
+					<location>Oakshore Town</location>
+				</objective-find-a-way-out-of-the-game>
+			<trask order="11">
+				<objective-earn-your-last-item-of-reward">
+					"description>Collect the final reward for your quest, whether it be gold or a rare item.</description>
+					<location>Oakshore Town</location>
+				</objective-earn-your-last-item-of-reward>
+			<trask order="12">
+				<objective-conclude-the-game">
+					"description>Conclude the game by returning to Historian Jenkins and presenting your findings, including the lost artifact and the sword of Eternity.</description>
+					<location>Oakshore Town</location>
+				</objective-conclude-the-game>
+			<trask order="13">
+				<goal-completeness>quest_key_completeness: The key 'quest_giver' is missing.</goal-completeness>
+			</task>
+		</tasks>
+</game>
+```

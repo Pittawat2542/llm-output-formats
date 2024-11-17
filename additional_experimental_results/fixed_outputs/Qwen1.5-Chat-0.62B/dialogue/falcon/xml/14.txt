@@ -1,0 +1,39 @@
+The correct syntax for the XML data is:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+To provide new values, you can add them inside the `<dialogue>` tags with appropriate attributes. For example, if you want to change the order of the speakers in a different order, you can add the following code inside the `<order>` tag:
+```xml
+<dialogues>
+    <dialogue>
+        <order>
+            <speaker>Speaker name</speaker>
+            <order>
+                < Speaker name>James</name>
+                < Speaker name>Bob</name>
+                <Speaker name>Peter</name>
+            </order>
+        </order>
+    </dialogue>
+    <dialogue>
+        <order>
+            < Speaker>Speaker name</speaker>
+            <order>
+                < Speaker name>James</name>
+                <Speaker name>Bob</name>
+                <Speaker name>Peter</name>
+            </order>
+        </order>
+    </dialogues>
+</game>
+```
+If there is nothing wrong, the code will work as expected.

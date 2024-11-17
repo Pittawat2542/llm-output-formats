@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>123456</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>Thirty</age>
+		<role>Protagonist</role>
+		<background>John Doe is a skilled detective with a troubled past. He lost his family in a tragic incident and has been dedicated to solving crimes ever since. </background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.8</height> -- Changed to a valid float value
+				<weight>80.0</weight> -- Changed to a valid float value
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

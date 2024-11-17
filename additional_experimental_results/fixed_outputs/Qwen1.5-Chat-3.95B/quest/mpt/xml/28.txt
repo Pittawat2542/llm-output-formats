@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" encoding="UTF-10"?><?xml-block raw xmlns="http://game.http://game.xml">游戏
+  <id id="id">
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver> quest giver </quest-giver>
+    <tasks>
+      <task order="task order">
+        <objective>task objective</objective>
+        <description>task description</description>
+        <location> task location </location>
+      <-task>
+    </tasks>
+  </game>
+```

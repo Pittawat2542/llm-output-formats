@@ -1,0 +1,16 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.com/sax/ns1/game.xsd">
+    <dialogues>
+        <dialogue order="dialogue_1">
+            <speaker>John Doe</speaker>
+            <text>Narration about the game world</text>
+        </dialogue>
+        <!-- New dialogue with correct syntax -->
+        <dialogue order="dialogue_2">
+            <speaker>Jane Smith</speaker>
+            <text>A key conversation between characters</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

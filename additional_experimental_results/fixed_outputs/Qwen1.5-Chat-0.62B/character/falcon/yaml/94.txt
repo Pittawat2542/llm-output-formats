@@ -1,0 +1,16 @@
+The YAML data you provided is correct and should be returned in the Markdown code block as follows:
+
+```
+name
+  id
+  age
+  background
+  first_name
+  id
+  last_name
+  physical_appearance
+    - eye_color: eye_color `(e. g. `eye_color:` green)
+      eye_color: green `(e. g. `eye_color:` green)`
+      hair_color: hair_color
+    - eye_color: eye_color `(e. g. `eye_color:` green)`
+```

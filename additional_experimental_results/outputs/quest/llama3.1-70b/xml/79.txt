@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QR001</id>
+	<title>The Lost Temple of the Moon Goddess</title>
+	<objective>Raise the ancient temple of Selûne from the depths of the forest and reactivate its magical energies.</objective>
+	<description>A long-abandoned temple dedicated to the moon goddess Selûne lies hidden deep within the Whispering Woods. The once-majestic structure, now reclaimed by nature, holds secrets and treasures beyond imagination. A local druid, Elara Moonwhisper, has had a vision of its resurgence and believes it's time to restore the temple to its former glory.</description>
+	<reward>Access to Selûne's Blessing: Increased magic resistance; Magical Amulet granting +2 Wisdom (Insight)</reward>
+	<quest-giver>Elara Moonwhisper</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather three ancient artifacts from the ruins of the old town: The Tome of Luminous Knowledge, Selûne's Tear (a pearl), and a piece of the Moonlit Chalice.</objective>
+			<description>The remnants of an old town on the forest's edge hold crucial artifacts necessary for the temple's revival. Be cautious as other treasure hunters might also be after these relics.</description>
+			<location>Ruins of Oakwood Town</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Confront the dark entity corrupting the heart of the Whispering Woods, preventing the temple's revival.</objective>
+			<description>A malevolent force has taken hold within the forest, poisoning its ancient magic and obstructing the path to the lost temple. Defeat this darkness to pave the way for the temple's rebirth.</description>
+			<location>Heart of the Whispering Woods</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Perform a ritual with the gathered artifacts at the ancient site of the Lost Temple of Selûne to raise it from its slumber.</objective>
+			<description>With the forest's corruption lifted and the artifacts in hand, proceed to where the moon shines brightest on a clear night within the Whispering Woods. There lies the site of the forgotten temple. Elara will guide you through the ritual to awaken Selûne's ancient power.</description>
+			<location>Ancient Temple Site</location>
+		</task>
+	</tasks>
+</game>
+```

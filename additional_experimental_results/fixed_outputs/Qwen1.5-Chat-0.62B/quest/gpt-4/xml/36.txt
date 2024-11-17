@@ -1,0 +1,99 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q2</id>
+	<title> Lost Artifact</title>
+	bjective>Retrieve the ancient artifact from the forgotten temple</objective>
+	<description>You have been chosen to venture into the forgotten temple and retrieve an ancient and powerful artifact rumored to go missing centuries ago. Beware, the temple is full of deadly traps and fearsome guardians.</description>
+	<reward>5000 Gold and The Eternal Blade</reward>
+	<quest-giver>The Mysterious Old Man</quest-giver>
+	<tasks>
+			<task>
+				<order>Task 1</order>
+			器械ive>Find the forgotten temple</器械ive>
+				dangerous traps: Death traps, poison traps
+				fearful guardians: Ghouls, demons
+			<task>
+				<order>Task 2</order>
+			 Objective: Solve the riddle of the stone door</objective>
+				Riddle: The ancient artifact is hidden somewhere deep in the heartwood of the temple
+				dangerous traps: Death traps, poison traps
+				fearful guardians: Ghouls, demons
+			<task>
+				<order>Task 3</order>
+			 Objective: Retrieve the lost artifact</objective>
+				Goths, demons
+				revenables: Gold and The Eternal Blade
+			<task>
+				<order>Task 4</order>
+			目標: Overcome the temple guards and traps to reach the inner sanctum and secure the artifact.</target>
+				guardians: Death traps, poison traps, guardians of the ancient artifact
+				dangerous traps: Death traps, poison traps
+				fearful guardians: Ghouls, demons
+			<task>
+				<order>Task 5</order>
+			目標: Retrieve the lost artifact from the hidden temple</target>
+				revenables: Gold and The Eternal Blade
+			</task>
+		</tasks>
+		<title>Quest Name</title>
+	<title>Quest Objectives</title>
+	<title>Quest Reward</title>
+	<title>Quest Giver</title>
+	<title>Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+	<title>Quest Rewards</title>
+	<title> Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q2</id>
+	<title>Lost Artifact</title>
+	bjective>Retrieve the ancient artifact from the forgotten temple</objective>
+	<description>You have been chosen to venture into the forgotten temple and retrieve an ancient and powerful artifact rumored to go missing centuries ago. Beware, the temple is full of deadly traps and fearsome guardians.</description>
+	<reward>5000 Gold and The Eternal Blade</reward>
+	<title>Quest Giver</title>
+	<title>Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+	<title>Quest Rewards</title>
+	<title>Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+</game>
+```
+New values if needed:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q2</id>
+	<title>Lost Artifact</title>
+	bjective>Retrieve the ancient artifact from the forgotten temple</objective>
+	<description>You have been chosen to venture into the forgotten temple and retrieve an ancient and powerful artifact rumored to go missing centuries ago. Beware, the temple is full of deadly traps and fearsome guardians.</description>
+	<title>Quest Giver</title>
+	<title>Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+	<title>Quest Rewards</title>
+	<title>Quest Assignments</title>
+	<title>Quest Reward Criteria</title>
+</game>
+```
+Output in Markdown code block:
+```python
+<?xml version="1.0" ?>
+<game>
+	<title>quest name</title>
+	<title>quest objectives</title>
+	<title>quest reward</title>
+	<title>quest giver</title>
+	<title>quest assignments</title>
+	<title> Quest reward criteria</title>
+	<title>Quest rewards</title>
+	<title>Quest assignments</title>
+	<title>Quest reward criteria</title>
+</game>
+```
+Original message provided between ```xml and `````:
+```

@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "Retrieve a rare herb called \"Moonpetal\" from the dark forest of Tenebrous.",
+    "id": "QST_001",
+    "objective": "Collect 5 Moonpetals and return to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience": 500,
+      "gold": 1000,
+      "item": "Healing Potion (x2)"
+    },
+    "tasks": [
+      {
+        "description": "Journey into the dark forest of Tenebrous and locate the Moonpetal herb.",
+        "location": "Dark Forest of Tenebrous",
+        "objective": "Find a suitable location to search for Moonpetals",
+        "order": 1
+      },
+      {
+        "description": "Identify and collect 5 Moonpetals while avoiding deadly creatures in the forest.",
+        "location": "Dark Forest of Tenebrous",
+        "objective": "Collect 5 Moonpetal herbs",
+        "order": 2
+      },
+      {
+        "description": "Return to Village Elder Thorne with the collected Moonpetals to claim your reward.",
+        "location": "Village of Oakwood",
+        "objective": "Deliver the Moonpetals to Village Elder Thorne",
+        "order": 3
+      }
+    ],
+    "title": "Moonlight Gathering"
+  }
+}

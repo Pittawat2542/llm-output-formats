@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+   <id>12345</id>
+   <title>The Quest for the Crystal</title>
+   <objective>Find and return the Crystal of Light to save the kingdom.</objective>
+   <description>A perilous journey awaits you, King Edmund seeks your aid to defeat Tormak's forces at the dark cave.</description>
+   <reward>Success in saving the kingdom and a rare artifact</reward>
+   <quest-giver>Queen Elara</quest-giver>
+   <tasks>
+     <task>
+       <order>1</order>
+       <objective>Embark on the journey to the forest.</objective>
+       <description>Beware of the ogres that guard the path to the cave.</description>
+       <location>Forest entrance</location>
+     </task>
+     <task>
+       <order>2</order>
+       <objective>Conquer the dark cave and face Tormak's minions.</objective>
+       <description>Defeat them to reach the heart of the cave.</description>
+       <location>Dark cave interior</location>
+     </task>
+     <task>
+       <order>3</order>
+       <objective>Retrieve the Crystal of Light from Tormak.</objective>
+       <description>Exchange it for his surrender or defeat him if necessary.</description>
+       <location>Tormak's chamber</location>
+     </task>
+     <task>
+       <order>4</order>
+       <objective>Return the crystal to Queen Elara at the castle.</objective>
+       <description>Restores peace and earns your reward.</description>
+       <location>Castle balcony</location>
+     </task>
+   </tasks>
+</game>
+```

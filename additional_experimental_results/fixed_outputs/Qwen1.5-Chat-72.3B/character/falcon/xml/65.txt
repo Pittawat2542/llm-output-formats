@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>Cia</first-name>
+		<last-name>Bazura</last-name>
+		<species>human</species>
+		<age>18 years old</age>
+		<role>(role of the character)</role>
+		<background>(exact location)</background>
+		<place-of-birth>(exact place of birth)</place-of-birth>
+		<physical-appearance>
+			<eye-color>green</eye-color>
+			<hair-color>blonde</hair-color>
+			<height>5.7</height> <!-- Float value for height in meters -->
+			<weight>58.6</weight> <!-- Float value for weight in kilograms -->
+		</physical-appearance>
+	</character>
+</game>
+```
+I have fixed the incorrect syntax issues:
+
+1. Corrected the `eye-color` tag to match the opening tag format.
+2. Removed the extraneous `<character-name>` tags as they were redundant.
+3. Changed the height and weight values to float values in meters and kilograms, respectively, as specified in the template. If you need the values in a different unit, please let me know.

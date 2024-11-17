@@ -1,0 +1,57 @@
+The XML data provided was almost correct, but there was a minor issue with the closing `</physical-appearance>` tag. I have fixed that and added new values for character 3.
+
+Here's the corrected XML:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<eye-color>Blue</eye-color>
+			<hair-color>Black</hair-color>
+			<height>1.75</height>
+			<weight>75</weight>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>22</age>
+		<role>Main character</role>
+		<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+		<place-of-birth>London, United Kingdom</place-of-birth>
+		<physical-appearance>
+			<eye-color>Blue</eye-color>
+			<hair-color>Black</hair-color>
+			<height>1.75</height>
+			<weight>75</weight>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>3</id>
+		<first-name>Mike</first-name>
+		<last-name>Smith</last-name>
+		<species>Dwarf</species>
+		<age>45</age>
+		<role>Sidekick</role>
+		<background>Mike Smith is a dwarf who was born on 1976-08-23 in Hobbiton, Middle Earth. He is a sidekick character in the story.</background>
+		<place-of-birth>Hobbiton, Middle Earth</place-of-birth>
+		<physical-appearance>
+			<eye-color>Brown</eye-color>
+			<hair-color>Reddish-Brown</hair-color>
+			<height>0.9</height>
+			<weight>65</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

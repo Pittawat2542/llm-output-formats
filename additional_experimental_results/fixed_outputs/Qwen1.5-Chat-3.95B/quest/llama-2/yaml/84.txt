@@ -1,0 +1,25 @@
+Here's the YAML with corrected syntax and new values:
+
+```yaml
+$ python3 quest.py -g 24 -q 24
+```
+
+Game details:
+```yaml
+{
+  "description": "quest description",
+  "id": "24",
+  "objective": "quest objective",
+  "quest_giver": "quest giver",
+  "reward": "quest reward",
+  "tasks": [
+    {
+      "description": "task description",
+      "location": "task location",
+      "objective": "task objective",
+      "order": "task order"
+    }
+  ],
+  "title": "quest title"
+}
+```

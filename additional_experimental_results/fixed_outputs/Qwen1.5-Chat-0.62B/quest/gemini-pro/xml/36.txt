@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Missing Crystal</title>
+	 objective>Retrieve the stolen crystal from the dark cave.</objective>
+	description>The evil wizard Tormak has stolen the Crystal of Light, a powerful artifact that threatens to destroy the kingdom. You must journey to the dark cave and retrieve the crystal before it is too late.</description>
+	 reward>The Crystal of Light and a substantial amount of gold.</reward>
+	quest-giver>King Edmund</quest-giver>
+	tasks:
+	<task>
+			order>1</order>
+		 Objective: Travel to the dark cave.
+			Description: The dark cave is located deep in the forest. You will need to battle through mobs of monsters to reach it.
+		<location：“Forest” 
+		</task>
+		<task>
+			order>2</order>
+		 Objective: Defeat Tormak and his minions.
+			Description: Tormak is a powerful wizard and he will not give up the crystal easily. You must defeat him and his minions in battle in order to claim the crystal.
+		经验值：“Dark cave” 
+		</task>
+		<task>
+			order>3</order>
+		 Objective: Return the crystal to King Edmund.
+			Description: Once you have retrieved the crystal, you must return it to King Edmund in the castle.
+		经验值：“城堡” 
+		</task>
+	</tasks>
+</game>
+```

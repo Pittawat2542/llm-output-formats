@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>1234567890</id>
+    <title>A Quest for the Ultimate Treasure</title>
+    <objective>Find the ultimate treasure</objective>
+    <description>A quest to find the ultimate treasure.</description>
+    <reward>1000 gold</reward>
+    <quest-giver>The king</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Get the ultimate treasure from the end of the world</objective>
+            <description>Go to the end of the world and collect the ultimate treasure.</description>
+            <location>The end of the world</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,11 @@
+The provided YAML data is correct and does not need any changes. Here it is in a code block:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+
+If you intended to include the `/INST` line as part of the YAML, you would need to escape the backticks since they are not valid within standard YAML syntax. However, without context, I'll assume it's a formatting issue and leave it out. If you do need them for some specific reason, please provide more information.

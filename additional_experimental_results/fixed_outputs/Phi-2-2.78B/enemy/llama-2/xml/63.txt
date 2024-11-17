@@ -1,0 +1,6 @@
+## Import the xml module and use it to load a game file
+import xml.etree.ElementTree as ET 
+tree = ET.parse('game_file.xml')
+root = tree.getroot()
+```
+

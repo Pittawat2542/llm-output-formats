@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Python for Kids - Game Over</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        color: green;
+        text-align: center;
+      }
+  </head>
+  <body>
+    <h1 style="color: blue;">Game Over!</h1>
+    <p>Thanks for playing!</p>
+    <a href="#beginning" style="color: red;">Begin Again</a>
+  </body>
+</html>
+```
+
+### Exercise 1: Write a Python program to create an HTML page with a title, body and heading.
+
+```python
+# Solution to Exercise 1
+from bs4 import BeautifulSoup
+
+# Create a list of contents
+contents = ['<!DOCTYPE html>', '<html>', '  <head>', '    <title>Python for Kids</title>', '  </head>', '  <body>']
+
+# Join all the elements into a single string
+page_content = ''.join(contents)
+
+# Create an HTML page using BeautifulSoup
+html_doc = BeautifulSoup(page_content, 'html.parser')
+
+print(html_doc.prettify())
+```
+
+### Exercise 2: Write a Python program to create an XML file with a title, body and heading.
+
+```python
+# Solution to Exercise 2
+import xml.etree.ElementTree as ET
+
+# Create an Element object for the root element
+root = ET.Element("game")
+
+# Add child elements to the root
+title_element = ET.SubElement(root, "title")
+body_element = ET.SubElement(root, "body")
+heading_element = ET.SubElement(body_element, "heading")
+
+# Set the content of each element
+title_element.text = "Python for Kids - Game Over"
+heading_element.text = "Thanks for playing!"
+body_element.text += "<a href=\"#beginning\">Begin Again</a>"
+
+# Create an XML tree from the root Element object and write it to a file
+tree = ET.ElementTree(root)
+tree.write("game.xml")
+```
+
+### Exercise 3: Write a Python program to create an HTML page with a list of items using list comprehension.
+
+```python
+# Solution to Exercise 3
+from bs4 import BeautifulSoup
+
+# Create a list of contents
+contents = ['<li>Item 1</li>', '<li>Item 2</li>', '<li>Item 3</li>']
+
+# Join all the elements into a single string using list comprehension
+page_content = ''.join([f"<li>{item}</li>" for item in contents])
+
+# Create an HTML page using BeautifulSoup
+html_doc = BeautifulSoup(page_content, 'html.parser')
+
+print(html_doc.prettify())
+```
+
+### Exercise 4: Write a Python program to create an XML file with a list of items using list comprehension.
+
+```python
+# Solution to Exercise 4
+import xml.etree.ElementTree as ET
+
+# Create a list of elements
+items = ['<item>Item 1</item>', '<item>Item 2</item>', '<item>Item 3</item>']
+
+# Join all the elements into a single string using list comprehension
+xml_content = ''.join([f"<item>{item}</item>" for item in items])
+
+# Create an Element object for the root element and add child elements to it
+root = ET.Element("items")
+for item in xml_content.split('</item><item>'):
+    if len(item) > 0:
+        element = ET.SubElement(root, "item")
+        element.text = item.strip()
+
+# Create an XML tree from the root Element object and write it to a file
+tree = ET.ElementTree(root)
+tree.write("items.xml")
+```
+
+### Exercise 5: Write a Python program to create an HTML page with nested elements using list comprehension.
+
+```python
+# Solution to Exercise 5
+from bs4 import BeautifulSoup
+
+# Create a list of contents for the outer element
+outer_contents = ['<div>', '  <h1>Header 1</h1>', '  <p>Paragraph 1</p>']
+
+# Create a list of contents for the inner elements
+inner_contents = ['<ul>', '    <li>Item 1</li>', '    <li>Item 2</li>']
+
+# Join all the elements into a single string using list comprehension
+page_content = ''.join([f"{outer}{inner}\n{outer}" for outer in outer_contents for inner in inner_contents])
+
+# Create an HTML page using BeautifulSoup
+html_doc = BeautifulSoup(page_content, 'html.parser')
+
+print(html_doc.prettify())
+```

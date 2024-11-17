@@ -1,0 +1,24 @@
+Here is the generated quest information in YAML format:
+
+```yaml
+game:
+  description: The village of Oakwood has been plagued by a series of mysterious attacks, and the villagers are in dire need of brave adventurers to put an end to it.
+  id: Q001
+  objective: Investigate the source of the attacks and put an end to it.
+  quest_giver: Thorne Blackwood
+  reward:
+    gold: 1000
+    items:
+      - Healing Potion x5
+      - Oakwood Shield
+  tasks:
+  - description: Talk to the villagers to gather information about the attacks.
+    location: Oakwood Village
+    objective: Gather Information
+    order: 1
+  - description: Investigate the nearby forest for any signs of suspicious activity.
+    location: Oakwood Forest
+    objective: Search the Forest
+    order: 2
+  title: The Plague of Oakwood
+```

@@ -1,0 +1,28 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>Dialogue order text</order>
+			<speaker>Speaker name</speaker>
+			<text>Narration text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 1</speaker>
+			<text>Text text text text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 2</speaker>
+			<text>Text text text text text text</text>
+		</dialogue>
+		<!-- Removed the incorrect <speakername> and added it as part of a new dialogue -->
+		<dialogue>
+			<order>Narrative order</order>
+			<speaker>Speaker 1</speaker>
+			<text>Narrative text text text text text</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "unique_quest_id",
+    "title": "A Daring Adventure",
+    "objective": "Conquer the Tower of Eldrid",
+    "description": "Embark on a quest to retrieve the legendary Sword of Light from the top of the ancient tower.",
+    "reward": "The Sword of Light, 100 gold coins",
+    "quest-giver": "Guildmaster Arinor",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Obtain the Key to the Tower",
+        "description": "Visit the Arcane Library in Dustwind and find a clue hidden among the ancient scrolls.",
+        "location": "Dustwind Arcane Library"
+      }
+    }
+  }
+}

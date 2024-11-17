@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find and retrieve the ancient artifacts from the lost city.",
+    "description": "A local archaeologist, Dr. Maria Rodriguez, has gone missing while exploring the long-abandoned city of Zerzura. It's rumored that she was searching for the fabled Golden Chalice and the Scroll of Kings. The village elder asks for your help in finding her and retrieving the artifacts before they fall into the wrong hands.",
+    "reward": "1000 gold pieces, a magical amulet, and Dr. Rodriguez's gratitude",
+    "quest-giver": "Village Elder, Zerzura Village",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Meet with Dr. Rodriguez's assistant in the village inn.",
+          "description": "Speak to her assistant and gather information about Dr. Rodriguez's last known whereabouts.",
+          "location": "Zerzura Village Inn, Zerzura Village"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the lost city of Zerzura and find any clues about Dr. Rodriguez's disappearance.",
+          "description": "Enter the ancient city through a hidden entrance and search for signs of Dr. Rodriguez or her research team.",
+          "location": "Lost City of Zerzura, unknown location"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Golden Chalice from a nearby temple.",
+          "description": "Visit the nearby Temple of the Sun and retrieve the Golden Chalice from its resting place within the temple's inner sanctum.",
+          "location": "Temple of the Sun, near Zerzura Village"
+        },
+        {
+          "order": "4",
+          "objective": "Find Dr. Rodriguez and escort her back to the village.",
+          "description": "Track down Dr. Rodriguez's location within the lost city and safely escort her back to the village, avoiding any dangers that may be lurking nearby.",
+          "location": "Lost City of Zerzura, unknown location"
+        }
+      ]
+    }
+  }
+}

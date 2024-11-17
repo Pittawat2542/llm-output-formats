@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    description: "This is a description"
+    id: 1
+    name: "Enemy Name"
+    stats:
+      atk: 150
+      def: 200
+      hp: 500
+      mp: 200
+      spd: 120
+```
+The YAML data in the provided example was missing values and had incorrect formatting. I have fixed it by specifying `atk`, `def`, `hp`, `mp`, and `spd` with their respective integer values. Now it's correct and ready to be used.

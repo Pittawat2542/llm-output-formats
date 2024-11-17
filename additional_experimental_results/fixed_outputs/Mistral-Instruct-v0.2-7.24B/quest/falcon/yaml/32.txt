@@ -1,0 +1,14 @@
+```yaml
+game:
+  description: Example quest description
+  id: quest_01
+  objective: Aid the villagers in defeating an evil troll.
+  quest_giver: Mayor John
+  reward: Rare gem and gold coins.
+  tasks:
+  - description: Defeat the troll in the forest.
+    location: Forest of the Lost
+    objective: Slay the troll that has been terrorizing the villagers.
+    order: 1
+  title: Troll's End
+```

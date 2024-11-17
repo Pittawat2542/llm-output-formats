@@ -1,0 +1,23 @@
+Corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<speaker>speaker name</speaker>
+				<text>dialogue or narration</text>
+			</dialogue>
+		</dialogues>
+		<narration>
+			<narrative text goes here</narrative>
+		</narration>
+	</game>
+```
+New values:
+1. `dialogues`: a list containing two `<dialogue>` elements, each with the following attributes:
+   - `order` (string): the order in which the dialogue is presented (e.g., 1, 2, etc.)
+   - `speaker` (string): the name of the speaker who says the dialogue
+   - `text` (string): the text of the dialogue
+2. `narration`: a single `<narrative>` element containing the narrative text.
+Note: The `Narration` element is not used in the original XML data, so no new attributes were added to it. If you want to add additional elements or attributes for the `narration`, you can do that by replacing the existing `<narration>` element with the desired structure.

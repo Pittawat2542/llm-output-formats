@@ -1,0 +1,30 @@
+game:
+  description: "A thrilling adventure awaits you as you embark on a dangerous quest to rescue the stolen treasure of the kingdom. The quest giver is King Arthur, and the reward includes 1000 gold coins.
+Tasks:
+  - title: Investigate the Forest
+    description: Discover any clues leading to the whereabouts of the stolen treasure in the mystical forest.
+    location: "Mystic Forest"
+    objective: Search for evidence of the theft.
+    order: 1
+  - title: Explore the Old Ruins of the Abandoned Castle
+    description: Uncover the secrets hidden within the abandoned castle and discover any leads on the stolen treasure.
+    location: "Haunted Castle"
+    objective: Investigate the ancient ruins for clues.
+    order: 2
+  - title: Confront the Notorious Bandit Gang
+    description: Defeat the notorious bandit leader in their secret hideout to recover the stolen treasure.
+    location: "Bandit's Den"
+    objective: Gather evidence of the theft and confront the gang leaders.
+    order: 3
+
+Title: The Treasure Heist
+description: A daring quest to retrieve the stolen treasure of the kingdom. The quest giver is King Arthur, with a reward that includes 1000 gold coins.
+Location: Mystic Forest (in the mystical forest)
+Objective: Search for clues and investigate the theft of the stolen treasure in the mystical forest.
+Order: 1
+Location: Haunted Castle (abandoned castle)
+Objective: Uncover secrets within the haunted castle and discover any leads on the stolen treasure.
+Order: 2
+Location: Bandit's Den (bandit's hideout)
+Objective: Gather evidence of the theft and confront the bandit leader to recover the stolen treasure.
+Order: 3

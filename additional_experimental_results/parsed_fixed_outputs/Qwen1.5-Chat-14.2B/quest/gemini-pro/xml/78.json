@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Dragon's Hoard",
+    "objective": "Recover the dragon's hoard from the dragon's lair.",
+    "description": "The dragon Smaug has stolen a vast hoard of gold and jewels from the dwarves of Erebor. The dwarves have hired you to recover the hoard and return it to them.",
+    "reward": "A share of the dragon's hoard",
+    "quest-giver": "Thorin Oakenshield",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the dragon's lair.",
+          "description": "The dragon's lair is said to be located in the Lonely Mountains. Travel to the Lonely Mountains and search for the lair.",
+          "location": "The Lonely Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon.",
+          "description": "Once you have found the dragon's lair, you must defeat the dragon Smaug in order to recover the hoard.",
+          "location": "The dragon's lair"
+        },
+        {
+          "order": "3",
+          "objective": "Recover the dragon's hoard.",
+          "description": "Once you have defeated the dragon, you can recover the hoard from its lair.",
+          "location": "The dragon's lair"
+        },
+        {
+          "order": "4",
+          "objective": "Return the hoard to the dwarves.",
+          "description": "Once you have recovered the hoard, you must return it to the dwarves of Erebor.",
+          "location": "Erebor"
+        }
+      ]
+    }
+  }
+}

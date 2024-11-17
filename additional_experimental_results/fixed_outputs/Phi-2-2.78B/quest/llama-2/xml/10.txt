@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order> <!-- Added '1' as task order -->
+			<objective>solve puzzle</objective>
+			<description>find a hidden door and solve the puzzle inside.</description>
+			<location>basement</location>
+		</task>
+	</tasks>
+</game>
+```

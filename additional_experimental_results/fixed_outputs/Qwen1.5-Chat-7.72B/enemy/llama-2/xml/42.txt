@@ -1,0 +1,18 @@
+Here is the corrected XML with new values for the `hp`, `mp`, `atk`, and `def` attributes:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>ENEMY1</id>
+        <name>Zombie</name>
+        <description>A undead enemy with高速移动</description>
+        <stats>
+            <hp>50</hp>
+            <mp>30</mp>
+            <atk>25</atk>
+            <def>20</def>
+            <spd>40</spd>
+        </stats>
+    </enemy>
+</game>
+```

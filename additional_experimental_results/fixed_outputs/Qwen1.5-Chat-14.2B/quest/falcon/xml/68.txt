@@ -1,0 +1,23 @@
+Here's the corrected XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>id</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective task="objective">Task objective</objective>
+            <description task="description">Task description</description>
+            <location task="location">Task location</location>
+        </task>
+    </tasks>
+</game>
+```
+
+I noticed that some tags were not closed properly, such as `<xnn:string>` and `<xmn:list>`. Additionally, I fixed the incorrect closing tag for `quest-giver` and added the necessary attributes to the `<objective>` and `<description>` elements.

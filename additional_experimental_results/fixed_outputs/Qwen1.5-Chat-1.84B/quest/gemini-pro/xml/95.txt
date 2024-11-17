@@ -1,0 +1,100 @@
+XML data with corrected syntax and new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Lost Key</title>
+	<objective>Retrieve the lost key from the goblin cave.</objective>
+	<description>A goblin stole the key to the village gate. Find the cave, defeat the goblin, and retrieve the key.</description>
+	<reward>500 gold, a new sword</reward>
+	<quest-giver>Mayor of Willow Creek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Find the goblin cave.</objective>
+				<description>Travel north along the river until you reach the Dark Forest. The cave is hidden deep within the forest.</description>
+			<location>The Dark Forest</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Defeat the goblin.</objective>
+				<description>The goblin is a powerful foe, so come prepared. Use caution and watch out for its attacks.</description>
+			<location>Goblin Cave</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Climb to the top of the cave's rock face.</objective>
+				<description>From there, you'll have a clear view of the goblin's lair. Look for any signs of its entrance or exits.</description>
+			<location>Cave Rock Face</location>
+			</task>
+			<task>
+				<order>4</order>
+				<objective>Enter the cave and defeat the goblin boss.</objective>
+				<description>The goblin boss is a powerful creature, so be prepared for a tough fight. Use your sword and spells to weaken it and emerge victorious.</description>
+			<location>Goblin Boss</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>Climb down the cave's rock face and retrieve the key.</objective>
+				<description>Once you have defeated the goblin boss, search its body for the key.</description>
+			<location>Goblin Boss</location>
+			</task>
+			<task>
+				<order>6</order>
+				<objective>Return the key to the mayor.</objective>
+				<description>Once you have the key, return to the village gate and speak to the mayor.</description>
+			<location>Willow Creek</location>
+			</task>
+		</tasks>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>001</id>
+	<title>The Lost Key</title>
+	<objective>Retrieve the lost key from the goblin cave.</objective>
+	<description>A goblin stole the key to the village gate. Find the cave, defeat the goblin, and retrieve the key.</description>
+	<reward>500 gold, a new sword</reward>
+	<quest-giver>Mayor of Willow Creek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Find the goblin cave.</objective>
+				<description>Travel north along the river until you reach the Dark Forest. The cave is hidden deep within the forest.</description>
+			<location>The Dark Forest</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Defeat the goblin.</objective>
+				<description>The goblin is a powerful foe, so come prepared. Use caution and watch out for its attacks.</description>
+			<location>Goblin Cave</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Climb to the top of the cave's rock face.</objective>
+				<description>From there, you'll have a clear view of the goblin's lair. Look for any signs of its entrance or exits.</description>
+			<location>Cave Rock Face</location>
+			</task>
+			<task>
+				<order>4</order>
+				<objective>Enter the cave and defeat the goblin boss.</objective>
+				<description>The goblin boss is a powerful creature, so be prepared for a tough fight. Use your sword and spells to weaken it and emerge victorious.</description>
+			<location>Goblin Boss</location>
+			</task>
+			<task>
+				<order>5</order>
+				<objective>Climb down the cave's rock face and retrieve the key.</objective>
+				<description>Once you have defeated the goblin boss, search its body for the key.</description>
+			<location>Goblin Boss</location>
+			</task>
+			<task>
+				<order>6</order>
+				<objective>Climb back up the cave's rock face and return the key to the mayor.</objective>
+				<description>Once you have retrieved the key, head back to the village gate and speak to the mayor.</description>
+			<location>Willow Creek</location>
+			</task>
+		</tasks>
+</game>
+```

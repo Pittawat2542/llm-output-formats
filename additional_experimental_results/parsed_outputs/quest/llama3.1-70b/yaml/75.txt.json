@@ -1,0 +1,40 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Golden Sword from the depths of the Dark Castle",
+    "id": "QS001",
+    "objective": "Defeat the Dark Lord and claim the Golden Sword",
+    "quest_giver": "The Village Elder",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "item": "Golden Sword"
+    },
+    "tasks": [
+      {
+        "description": "Gather information about the Dark Castle's layout",
+        "location": "The Village Tavern",
+        "objective": "Talk to the traveling bard",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate the Dark Castle and reach the throne room",
+        "location": "Dark Castle",
+        "objective": "Avoid detection by the castle guards",
+        "order": 2
+      },
+      {
+        "description": "Defeat the Dark Lord's minions and reach the final chamber",
+        "location": "Dark Castle Throne Room",
+        "objective": "Kill all enemies in the area",
+        "order": 3
+      },
+      {
+        "description": "Face off against the Dark Lord and claim the Golden Sword",
+        "location": "Dark Castle Final Chamber",
+        "objective": "Defeat the Dark Lord",
+        "order": 4
+      }
+    ],
+    "title": "The Quest for the Golden Sword"
+  }
+}

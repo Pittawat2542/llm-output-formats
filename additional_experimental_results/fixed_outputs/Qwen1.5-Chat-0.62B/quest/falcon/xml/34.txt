@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Corrected XML data</title>
+</head>
+<body>
+	<h1>Corrected XML data</h1>
+
+	<table id="tasks">
+		<tr>
+			<th>Task</th>
+			<td>Order</td>
+			<td>Objective</td>
+			<td>Description</td>
+			<td>Location</td>
+		</tr>
+	</table>
+
+	<script>
+		function displayTasks() {
+			var tasks = [
+				{
+					"order": "order1",
+					"objective": "Objective1",
+					"description": "Task description 1",
+					"location": "Location1"
+				},
+				{
+					"order": "order2",
+					"objective": "Objective2",
+					"description": "Task description 2",
+					"location": "Location2"
+				}
+			];
+
+			var table = document.getElementById("tasks");
+			table.innerHTML = "";
+			for (var i = 0; i < tasks.length; i++) {
+				var row = document.createElement("tr");
+
+				row.classList.add("task");
+				for (var j = 0; j < tasks[i].order.length; j++) {
+					var orderCell = document.createElement("td");
+				 getOrderCell.style.display = "none";
+				orders[j].appendChild(orderCell);
+				}
+
+				rows.push(row);
+
+				table.appendChild(rows);
+			}
+		}
+
+		function getOrderCell() {
+			var row = document.getElementById("tasks");
+			row.classList.remove("task");
+
+			for (var j = 0; j < tasks.length; j++) {
+				var orderCell = rows[j].getElementsByTagName("td")[1];
+				if (orderCell) {
+				$orderCell.style.display = "block";
+				}
+			}
+
+			return row;
+		}
+
+		function displayTasks() {
+			var table = document.getElementById("tasks");
+			table.innerHTML = "";
+			for (var i = 0; i < tasks.length; i++) {
+				var row = document.createElement("tr");
+
+				row.classList.add("task");
+				for (var j = 0; j < tasks[i].order.length; j++) {
+					var orderCell = document.createElement("td");
+				 getOrderCell.style.display = "none";
+				Orders[j].appendChild(orderCell);
+				}
+
+				rows.push(row);
+
+				table.appendChild(rows);
+			}
+		}
+	</script>
+
+</body>
+</html>

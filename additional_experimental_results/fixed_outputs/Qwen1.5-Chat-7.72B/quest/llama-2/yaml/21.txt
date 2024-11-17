@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A quest to find the lost treasure
+  id: 1
+  objective: Find the lost treasure
+  quest_giver: The King
+  reward: A new sword
+  tasks:
+   - description: Search for the treasure in the forest
+    location: The lost forest
+    objective: Uncover the hidden chest
+    order: 1
+   - description: Gather clues from ancient ruins
+    location: The ruins near the forest
+    objective: Decode the map
+    order: 2
+   - description: Defeat a guardian in the swamp
+    location: The swamp by the ruins
+    objective: Retrieve the key
+    order: 3
+  title: Quest for the Lost Treasure
+```

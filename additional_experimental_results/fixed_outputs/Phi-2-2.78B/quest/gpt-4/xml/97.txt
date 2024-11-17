@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QST001</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact known as the Orb of Lutrisha.</objective>
+	<description>The Orb of Lutrisha, a powerful artifact, has been stolen by goblins. It is your job to infiltrate their lair and retrieve it.</description>
+	<reward>500 gold pieces, Orb of Lutrisha</reward>
+	<quest-giver>High Priest Erynel</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Goblin Lair</objective>
+			<description>Search the woods east of the High Priest's temple to find the goblin lair.</description>
+			<location>Eastern Woods</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the Orb of Lutrisha</objective>
+			<description>Infiltrate the lair and retrieve the orb without being detected.</description>
+			<location>Goblin Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the Orb to High Priest Erynel</objective>
+			<description>Once you have the orb, return it to the High Priest for your reward.</description>
+			<location>High Priest's Temple</location>
+		</task>
+	</tasks>
+</game>
+```
+

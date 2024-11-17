@@ -1,0 +1,27 @@
+Here is a generated quest information in YAML format:
+
+```yaml
+game:
+  description: The village of Oakwood has been plagued by a series of mysterious disappearances. The villagers are too afraid to investigate, and the local lord is offering a reward for anyone brave enough to get to the bottom of it.
+  id: QST001
+  objective: Find out what's behind the disappearances in Oakwood village
+  quest_giver: Lord Edgar Bottomley
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item: "Silver Amulet"
+  tasks:
+  - description: Speak to the villagers and gather information about the disappearances
+    location: Oakwood Village
+    objective: Gather clues
+    order: 1
+  - description: Investigate the nearby forest where some of the disappearances occurred
+    location: Darkwood Forest
+    objective: Find any leads
+    order: 2
+  - description: Confront the source behind the disappearances and put an end to it
+    location: Ancient Ruins
+    objective: Defeat the culprit
+    order: 3
+  title: The Missing Villagers of Oakwood
+```

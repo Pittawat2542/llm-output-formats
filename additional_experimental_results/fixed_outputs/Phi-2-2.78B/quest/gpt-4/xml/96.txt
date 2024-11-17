@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>Rescue the Princess</title>
+	<objective>Rescue the princess from the clutches of the evil dragon</objective>
+	<description>You must navigate through the treacherous terrain, overcome various obstacles and enemies, and finally defeat the dragon to rescue the princess.</description>
+	<reward>The gratitude of the kingdom and the hand of the Princess in marriage</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the dragon's lair</objective>
+			<description>Search for clues and ask around to find the location of the dragon's lair</description>
+			<location>The Great Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the dragon</objective>
+			<description>Use your strength and cunning to defeat the dragon</description>
+			<location>Dragon's lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Rescue the princess</objective>
+			<description>Once the dragon is defeated, rescue the princess from her cage</description>
+			<location>Dragon's lair</location>
+		</task>
+	</tasks>
+</game>
+```
+

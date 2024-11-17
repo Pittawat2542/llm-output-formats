@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q1234</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Discover the ancient ruins of Eldarath and retrieve the legendary Sceptre of Light.</objective>
+	<description>Rumors have been circulating about the lost city of Eldarath, hidden deep within the mystical forest of Elvendom. The city is said to hold the secrets of the ancient Eldarians, a powerful artifact known as the Sceptre of Light among them. Retrieve the sceptre and uncover the secrets of the lost city.</description>
+	<reward>10,000 gold pieces, 500 experience points, and a blessing from the Elven gods</reward>
+	<quest-giver>Eira Shadowglow, Elven Ambassador to the realm of Mortoria</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the lost city of Eldarath from local villagers and travelers.</objective>
+			<description>Speak to the locals in the nearby village of Oakwood and gather any information you can find about the lost city. Be cautious, as rumors of dark creatures lurking in the forest may be true.</description>
+			<location>Oakwood Village, Mortoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the mystical forest of Elvendom to reach the ancient ruins of Eldarath.</objective>
+			<description>Brave the dangers of the mystical forest and make your way to the heart of Elvendom, where the ancient ruins lie hidden. Be prepared for treacherous terrain and fierce creatures defending their territory.</description>
+			<location>Mystical Forest of Elvendom</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the Sceptre of Light from the inner sanctum of the ancient ruins.</objective>
+			<description>Navigate through the treacherous traps and puzzles of the ancient ruins to reach the inner sanctum. Claim the Sceptre of Light, but be prepared for a final confrontation with the guardians of the lost city.</description>
+			<location>Ancient Ruins of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```

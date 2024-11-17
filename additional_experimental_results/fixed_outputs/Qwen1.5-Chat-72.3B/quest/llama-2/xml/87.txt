@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that an ancient artifact is buried within a forgotten ruin deep in the forest. Your quest is to locate and retrieve it, but be careful, the guardians of the artifact are said to be fiercely protective.</description>
+	<reward>1000 gold coins and legendary title "The Relic Hunter"</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You must find the hidden entrance in the heart of the forest, marked by an ancient tree with a carved symbol.</description>
+			<location>The Heart of the Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian spirit</objective>
+			<description>A powerful spirit guards the artifact. You must defeat it to proceed.</description>
+			<location>Ruins Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

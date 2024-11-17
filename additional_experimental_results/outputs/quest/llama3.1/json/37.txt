@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "G1Q2",
+        "title": "The Missing Heirloom",
+        "objective": "Find and return the stolen heirloom to its rightful owner",
+        "description": "Lady Whimsy's favorite necklace has been pilfered, and she needs someone brave to retrieve it. The thief is rumored to be hiding in the nearby forest.",
+        "reward": "100 gold coins and a boost in reputation",
+        "quest_giver": "Lady Whimsy",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the thief's identity",
+                "description": "Speak to the locals and gather any clues that might lead you to the thief.",
+                "location": "The local tavern"
+            },
+            {
+                "order": 2,
+                "objective": "Track down the thief in the nearby forest",
+                "description": "Follow the trail of breadcrumbs left by the thief and confront them in their lair.",
+                "location": "The nearby forest, coordinates (43.2134, -72.3456)"
+            },
+            {
+                "order": 3,
+                "objective": "Return the stolen heirloom to Lady Whimsy",
+                "description": "Present the necklace to Lady Whimsy and receive your reward.",
+                "location": "Lady Whimsy's mansion"
+            }
+        ]
+    }
+}
+```

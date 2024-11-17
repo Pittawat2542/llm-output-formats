@@ -1,0 +1,55 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>speaker name</speaker>
+            <text>This text will appear in @dialogue tags.</text>
+        </dialogue>
+        <dialogue>
+            <order>10 00 00 10</order>
+            <speaker>speaker name</speaker>
+            <text>This is a new dialogue that begins after the previous one.</text>
+        </dialogue>
+    </dialogues>
+</game>
+
+```
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>10 00 00 10</order>
+            <speaker>speaker name</speaker>
+            <text>This text will appear in @dialogue tags.</text>
+        </dialogue>
+        <dialogue>
+            <order>9 99 99 98 99 98 97 96 95</order>
+            <speaker>speaker name</speaker>
+            <text>This is the second dialogue that begins after the first one.</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+Markdown code block:
+```xml
+<?xml version="1.0"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>speaker name</speaker>
+            <text>This text will appear in @dialogue tags.</text>
+        </dialogue>
+        <dialogue>
+            <order>10 00 00 10</order>
+            <speaker>speaker name</speaker>
+            <text>This is a new dialogue that begins after the previous one.</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

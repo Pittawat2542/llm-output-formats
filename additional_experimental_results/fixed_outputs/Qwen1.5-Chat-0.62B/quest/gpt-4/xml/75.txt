@@ -1,0 +1,57 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the old dungeon</objective>
+	<description>You are tasked with recovering a lost artifact of great importance. It is said to be hidden deep within an ancient dungeon, filled with unknown perils and dangers. Proceed with caution!</description>
+	<reward>1000 Gold coins and Legendary Sword</reward>
+	<quest-giver>Ancient Order of Knights</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>Find the location of the dungeon</objective>
+				<description>Consult with the town's elders to discover the location of the ancient dungeon.</description>
+			经验值>500 Gold Coins and Legendary Sword</经验值>
+			<task>
+				<order>2</order>
+			 objective>Retrieve the lost artifact</ objective>
+				<description>Explore the dungeon, overcome its dangers, and retrieve the lost artifact. Be prepared for anything!</description>
+			经验值>1000 Gold coins and Legendary Sword</经验值>
+			<task>
+				<order>3</order>
+			 objective>Recover the lost artifact</objective>
+				<description>Use your knowledge of the lost artifact to find its location.</description>
+			经验值>500 Gold coins and Legendary Sword</经验值>
+			</task>
+		</tasks>
+	</game>
+```
+New values for key_completeness: Quest_giver is not missing. 
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the old dungeon</objective>
+	<description>You are tasked with recovering a lost artifact of great importance. It is said to be hidden deep within an ancient dungeon, filled with unknown perils and dangers. Proceed with caution!</description>
+	<reward>1000 Gold coins and Legendary Sword</reward>
+	<quest-giver>Ancient Order of Knights</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Find the location of the dungeon</objective>
+				<description>Consult with the town's elders to discover the location of the ancient dungeon.</description>
+			经验值>500 Gold coins and Legendary Sword</经验值>
+			<task>
+				<order>2</order>
+			 objective>Retrieve the lost artifact</ objective>
+				<description>Explore the dungeon, overcome its dangers, and retrieve the lost artifact. Be prepared for anything!</description>
+			经验值>1000 Gold coins and Legendary Sword</经验值>
+			<task>
+				<order>3</order>
+			 objective>Recover the lost artifact</objective>
+				<description>Use your knowledge of the lost artifact to find its location.</description>
+			经验值>500 Gold coins and传奇 Sword</经验值>
+			</task>
+		</tasks>
+	</game>
+```

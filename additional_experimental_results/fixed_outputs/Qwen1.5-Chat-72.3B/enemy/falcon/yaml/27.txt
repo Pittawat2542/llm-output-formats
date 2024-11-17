@@ -1,0 +1,5 @@
+```yaml
+stats:
+  atk: 5
+```
+The original YAML data had incorrect syntax due to the use of `Stats:` instead of a proper key within a dictionary structure. I fixed this by changing it to `stats:` and ensuring that `atk` is under the `stats` key as an indentation level below it to indicate it's a nested value.

@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "G1-Q1",
+        "title": "The Missing Heirloom",
+        "objective": "Retrieve the stolen family heirloom from the bandit's camp.",
+        "description": "A precious family heirloom has been stolen by a group of bandits. Retrieve it and return it to its rightful owner.",
+        "reward": "500 gold coins and the gratitude of the local lord",
+        "quest_giver": "Lord Edwin",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the bandit's camp",
+                "description": "Speak to the villagers and gather any useful information about the bandit's camp.",
+                "location": "The village tavern"
+            },
+            {
+                "order": 2,
+                "objective": "Infiltrate the bandit's camp",
+                "description": "Sneak into the bandit's camp at night and retrieve the stolen heirloom.",
+                "location": "The bandit's camp (located in a nearby forest)"
+            },
+            {
+                "order": 3,
+                "objective": "Return to Lord Edwin",
+                "description": "Return to Lord Edwin with the retrieved heirloom and claim your reward.",
+                "location": "Lord Edwin's manor"
+            }
+        ]
+    }
+}
+```

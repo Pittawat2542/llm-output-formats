@@ -1,0 +1,24 @@
+```xml
+<game>
+    <id>1</id>
+    <title>The Quest</title>
+    <objective>To find the legendary chest</objective>
+    <description>A quest to locate the fabled chest filled with treasures</description>
+    <reward>Golden artifacts and a rare amulet</reward>
+    <quest-giver>The Wise Archaeologist</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track down the chest's clues</objective>
+            <description>Uncover the riddles at each location</description>
+            <location>Old Map Cave</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Retrieve the chest's key from the guardian</objective>
+            <description>Battle the guardian guarding the entrance to the chest</description>
+            <location>Guarded Ruins</location>
+        </task>
+    </tasks>
+</game>
+```

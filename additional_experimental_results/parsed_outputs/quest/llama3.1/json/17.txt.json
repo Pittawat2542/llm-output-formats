@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q1-001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom, a golden locket.",
+    "description": "Lady Whimsy has approached you with a request for assistance. Her beloved golden locket has gone missing, and she believes it's been stolen by a mischievous imp. She needs it back before her husband returns from his business trip.",
+    "reward": "500 gold coins and the gratitude of Lady Whimsy",
+    "quest_giver": "Lady Whimsy (Whimsy Manor)",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Investigate the scene of the crime",
+        "description": "Speak to the servants at Whimsy Manor to gather information about the imp's activities.",
+        "location": "Whimsy Manor, Servant Quarters"
+      },
+      {
+        "order": 2,
+        "objective": "Follow the imp's trail",
+        "description": "Track the imp's movements through the manor and into the nearby forest.",
+        "location": "Whimsy Manor, Grounds to Forest Entrance"
+      },
+      {
+        "order": 3,
+        "objective": "Confront the imp",
+        "description": "Find and apprehend the mischievous imp in his lair deep within the forest.",
+        "location": "Forest, Imp's Lair"
+      }
+    ]
+  }
+}

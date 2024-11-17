@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on an epic adventure to find the long-lost treasure of the ancient civilization. Solve puzzles, overcome challenges, and explore mysterious locations to uncover the secret location of the treasure.",
+    "reward": "Ancient artifact and a chest of gold",
+    "quest-giver": "Captain Jack",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Decode the ancient map",
+          "description": "Investigate the clues and decipher the symbols on the ancient map to unveil the location of the hidden treasure.",
+          "location": "Library of the Forgotten Scrolls"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the key",
+          "description": "Find the key that unlocks the secret entrance to the underground cave where the treasure is believed to be hidden.",
+          "location": "Dark Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Overcome the Guardian",
+          "description": "Defeat the ancient Guardian that protects the treasure. Face challenges, solve riddles, and prove your worth to claim the treasure.",
+          "location": "Temple of the Guardians"
+        }
+      ]
+    }
+  }
+}

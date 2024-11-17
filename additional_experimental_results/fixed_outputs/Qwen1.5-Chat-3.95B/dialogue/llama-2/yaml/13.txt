@@ -1,0 +1,13 @@
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 6, column 1:
+    ```
+     ^
+Invalid YAML data. The original message is provided between ```yaml and ```.
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```

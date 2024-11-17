@@ -1,0 +1,52 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+			<id>id</id>
+			<title>Name of the Character</title>
+			<powers>
+				<ul>
+					<li> Ability to fly</li>
+					<li> Ability to shoot</li>
+				</ul>
+			</powers>
+			<specifications>
+				<ul>
+					<li> Gender: Female</li>
+					<li> Race: Human/Elf/Animal/etc.</li>
+					<li> Personality Type: Human/ Elf/Animal/etc.</li>
+				</ul>
+			</specifications>
+			<location>Location</location>
+			<bodyClass>Character Class</bodyClass>
+		</character>
+	</game>
+</game>
+```
+
+Explanation: The syntax of the original code was incorrect, causing an error when it was parsed. We corrected the syntax to fix that issue and returned the corrected XML data.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+			<title>Name of the Character</title>
+			<powers>
+				<ul>
+					<li> Ability to fly</li>
+					<li> Ability to shoot</li>
+				</ul>
+			</powers>
+			<specifications>
+				<ul>
+					<li> Gender: Female</li>
+					<li> Race: Human/Elf/Animal/etc.</li>
+					<li> Personality Type: Human/ Elf/Animal/etc.</li>
+				</ul>
+			</specifications>
+			<location>Location</location>
+			<bodyClass>Character Class</bodyClass>
+		</character>
+	</game>
+</game>
+```

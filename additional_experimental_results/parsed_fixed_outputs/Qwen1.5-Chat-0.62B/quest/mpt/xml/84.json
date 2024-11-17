@@ -1,0 +1,6 @@
+{
+  "game": {
+    "title": "Quest Title",
+    "#text": "objective = \"Quest Objective\"\n\t description = \" Quest Description\"\n\t reward = 1\n\t quest_giver = \"Quest Giver\"\n\t tasks = [\n\t\t\t{\n\t\t\t_order: \"Task Order\",\n\t\t\t objective: \"Objectives\",\n\t\t\t description: \"Description\",\n\t\t\t location: \"Location\",\n\t\t\t},\n\t\t],\n\t\tquest_value = {\n\t\t\tgiver: \"Quest Giver\",\n\t\t(tasks: [ {order: \"Order\", objective, description, location} ] },"
+  }
+}

@@ -1,0 +1,31 @@
+Here is a corrected version of the XML data:
+```xml
+<game>
+	<id>001</id>
+	<title>The Lost Amulet</title>
+		objective>Find and return the ancient amulet to the village elder</objective>
+	<description>According to the legends, the ancient amulet was lost in the Forbidden Forest. The village elder believes its recovery will lift the curse that has been plaguing the village.</description>
+	<reward>1000 gold pieces and the elder's blessing</reward>
+	<quest-giver>Village Elder Morrim</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Speak to Elder Morrim for more information about the amulet</objective>
+				<description>Elder Morrim might have more information that could aid your search. Head to his hut at the center of the village.</description>
+			<location>Village Center</location>
+			<-task>
+			<task>
+				<order>2</order>
+				objective>Enter the Forbidden Forest and find the amulet</objective>
+				<description>The forest is dangerous and filled with creatures. Stay alert and find the ancient amulet.</description>
+			<location>Forbidden Forest</location>
+			<-task>
+			<task>
+				<order>3</order>
+				objective>Return the amulet to Elder Morrim</objective>
+				<description>Once you have found the amulet, return to Elder Morrim in the village. Be careful, the journey back might be just as treacherous.</description>
+			<location>Village Center</location>
+			<-task>
+	<tasks>
+</game>
+```

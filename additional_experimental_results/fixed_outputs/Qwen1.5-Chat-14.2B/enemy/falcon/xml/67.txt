@@ -1,0 +1,28 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy name="X">
+    <id>X</id>
+    <description>X description</description>
+    <stats>
+      <hp>X_hp int value</hp>
+      <mp>X_mp int value</mp>
+      <atk>X_atk int value</atk>
+      <def>X_def int value</def>
+      <spd>X_speed int value</spd>
+    </stats>
+  </enemy>
+  
+  <!-- Enemy creation code snippet -->
+  <enemy name="my_name_enemy">
+    <id id="my_enemy_id" name="my_name"/>
+    <stats>
+      <hp>hp int value</hp>
+      <mp>mp int value</mp>
+      <atk>atk int value</atk>
+      <def>def int value</def>
+      <spd>spd int value</spd>
+    </stats>
+  </enemy>
+</game>
+```

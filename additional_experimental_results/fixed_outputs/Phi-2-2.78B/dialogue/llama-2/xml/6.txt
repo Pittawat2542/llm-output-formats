@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    // A simple C++ program to print all permutations of a given string. 
+
+    string str = "ABC"; // The input string. 
+    char arr[str.length()]; // array to store the characters of the input string. 
+    char *p;
+
+    // Copying each character from the input string into the array 
+    for (int i = 0; i < str.length(); ++i) {
+        arr[i] = str[i];
+    }
+
+    // Initialize an index variable to hold the number of permutations found so far and a temporary pointer, 
+    //p to hold the current character in the input string. 
+    int count = 1;
+    char *temp = arr; // Point to the beginning of array 
+
+    cout << "All Permutations of String: \n";
+
+    // Print permutation till temporary pointer reaches end of string 
+    for (p = temp; p != arr; ++p) {
+
+        // Swap the characters at temp and index i. 
+        swap(*temp, *(str + i)); 
+        cout << ""; // to print new character after each swap is done 
+        print_permutation(&str); 
+    }
+return 0;
+ }
+```

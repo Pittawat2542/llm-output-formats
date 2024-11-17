@@ -1,0 +1,40 @@
+Here's the corrected YAML data:
+```
+game: 
+  enemy: 
+    description: A fearsome foe stands before you. 
+    id: '8142' 
+    name: Enemy 8142 
+    stats: 
+      atk: 24
+      def: 14
+      hp: 142
+      mp: 43
+      spd: 9
+    stats:
+      def: def int value
+      def: def int value
+      def: def int value
+      def: def int value
+```
+
+Here's the Markdown code block with the corrected data:
+```
+```yaml
+game: 
+  enemy: 
+    description: A fearsome foe stands before you. 
+    id: '8142'
+    name: Enemy 8142
+    stats: 
+      atk: 24
+      def: 14
+      hp: 142
+      mp: 43
+      spd: 9
+    stats:
+      def: def int value
+      def: def int value
+      def: def int value
+      def: def int value
+```

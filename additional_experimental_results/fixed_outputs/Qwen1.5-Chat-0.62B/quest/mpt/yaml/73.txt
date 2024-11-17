@@ -1,0 +1,17 @@
+The correct YAML data is provided between the two YAML blocks. The previous message was provided between the two YAML blocks, so we do not need to modify it.
+
+Here's the corrected code block:
+```
+game:
+  description: quest description  
+  id: id  
+  objective: quest objective  
+  quest_giver: quest giver  
+  reward: quest reward  
+  tasks:
+     - description: task description
+      location: task location
+      order: task order  
+      objective: task objective  
+    title: quest title
+```

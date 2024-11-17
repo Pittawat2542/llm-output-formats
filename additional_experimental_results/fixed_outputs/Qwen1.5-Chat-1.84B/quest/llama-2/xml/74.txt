@@ -1,0 +1,36 @@
+Corrected XML data:
+```xml
+<game>
+	<id id="123456"></id>
+	<title quest_title="Test Quest">Test Quest</title>
+	<objective objective="Complete Test Quest"></objective>
+	<description Test Quest Description></description>
+	<reward reward="Test Quest Reward"></reward>
+	<quest-giver quest_giver_name="John Doe"></quest-giver>
+	<tasks>
+		<tr-task order="1">
+			<objective TaskObjective1="Task Objective 1"></objective>
+			<description Task Description 1</description>
+			<location TaskLocation1="Task Location 1"></location>
+		</tr-task>
+		<tr-task order="2">
+			<objective TaskObjective2="Task Objective 2"></objective>
+			<description Task Description 2</description>
+			<location TaskLocation2="Task Location 2"></location>
+		</tr-task>
+		<tr-task order="3">
+			<objective TaskObjective3="Task Objective 3"></objective>
+			<description Task Description 3</description>
+			<location TaskLocation3="Task Location 3"></location>
+		</tr-task>
+	</tasks>
+</game>
+```
+New values:
+- `id` attribute: `<id id="123456"></id>`
+- `quest_title`: `"Test Quest"`
+- `objective`: `"Complete Test Quest"`, assuming it is a string with a numerical value
+- `description`: `"Test Quest Description"`, assuming it is a string
+- `reward`: `"Test Quest Reward"`, assuming it is a string with a numerical value
+- `quest_giver`: `<quest_giver quest_giver_name="John Doe"></quest_giver>`, assuming it is a string with the name of the quest giver
+- `tasks`: A list of `tr-task` elements, each containing an `order` and three `objective`, `description`, and `location` attributes. Each element also has a `reward` attribute. The `<tr-task>` elements are grouped in a single list to match the XML structure.

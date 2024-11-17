@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>Boss</name>
+			<!-- Add a new enemy -->
+			<description>Boss</description>
+			<stats>
+				hp>1000</hp>
+			/mp>1000</mp>
+			atk>1000</atk>
+			.def>1000</def>
+			青铜>500</青铜>
+				fighting>300</fighting>
+			/stats>
+		</enemy>
+	< enemies>
+	</ enemies>
+</game>
+# Input
+
+```python
+import xml.etree.ElementTree as ET
+
+# Parse the XML data
+tree = ET.parse('game.xml')
+
+# Create a list of enemy objects
+enemies = []
+
+for child in tree:
+    # Get the element name and children
+    element_name, children = child.name.split(' ')
+    
+    # Extract the enemy object
+    enemy = {
+        "id": int(element_name),
+        "name": str(child.children[0]),
+        "description": str(child.children[1]),
+        "stats": {
+            "hp": int(child.children[2]),
+            "mp": int(child.children[3]),
+            "atk": int(child.children[4]),
+            "def": int(child.children[5]),
+            "青铜": int(child.children[6])
+        }
+    }
+    
+    # Add the enemy object to the list
+    enemies.append(enemy)
+
+# Print the list of enemies
+for enemy in enemies:
+    print("ID:", enemy["id"])
+    print("Name:", enemy["name"])
+    print("Description:", enemy["description"])
+    print("Stats:")
+    for stat in enemy["stats"]:
+        print("- HP", stat["hp"])
+        print("- MP", stat["mp"])
+        print("-atk", stat["atk"])
+        print("- Def", stat["def"])
+        print("-青铜", stat["青铜"])
+```
+# Output in Markdown code block
+
+```python
+<?xml version="1.0" ?>
+<game>
+	<敌人>
+			<id>id</id>
+			<name>Boss</name>
+			<!-- Add a new enemy -->
+			<description>Boss</description>
+			<stats>
+				hp>1000</hp>
+			/mp>1000</mp>
+			atk>1000</atk>
+			(def>1000</def>
+			青铜>500</青铜>
+				fighting>300</fighting>
+			/stats>
+		</enemy>
+	< enemies>
+	</ enemies>
+</game>
+# Input
+
+```python
+import xml.etree.ElementTree as ET
+
+# Parse the XML data
+tree = ET.parse('game.xml')
+
+# Create a list of enemy objects
+enemies = []
+
+for child in tree:
+    # Get the element name and children
+    element_name, children = child.name.split(' ')
+    
+    # Extract the enemy object
+    enemy = {
+        "id": int(element_name),
+        "name": str(child.children[0]),
+        "description": str(child.children[1]),
+        "stats": {
+            "hp": int(child.children[2]),
+            "mp": int(child.children[3]),
+            "atk": int(child.children[4]),
+            def": int(child.children[5]),
+            "青铜": int(child.children[6])
+        }
+    }
+    
+    # Add the enemy object to the list
+    enemies.append(enemy)
+
+# Print the list of enemies
+for enemy in enemies:
+    print("ID:", enemy["id"])
+    print("Name:", enemy["name"])
+    print("Description:", enemy["description"])
+    print("Stats:")
+    for stat in enemy["stats"]:
+        print("- HP", stat["hp"])
+        print("- MP", stat["mp"])
+        print("-atk", stat["atk"])
+        print("- Def", stat["def"])
+        print("-青铜", stat["青铜"])
+```

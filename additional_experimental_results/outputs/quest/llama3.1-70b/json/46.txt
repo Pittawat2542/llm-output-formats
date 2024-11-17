@@ -1,0 +1,38 @@
+```json
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact hidden within the Lost City of Eldarath.",
+    "description": "Rumors have been circulating about a long-abandoned city deep in the heart of the mystical forest, where an ancient artifact is said to hold immense power. Many have attempted to find it before but never returned.",
+    "reward": "The artifact's immense magical energy and 1000 gold pieces",
+    "quest_giver": "Thorne Blackwood, a renowned archaeologist",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the Lost City from local villagers.",
+        "description": "Talk to the villagers at the nearby town of Brindlemark and gather any information they may have about the Lost City's whereabouts.",
+        "location": "Brindlemark Village"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve an ancient map from the local library.",
+        "description": "Find a dusty old book in the Brindlemark Library that contains a cryptic map, supposedly leading to the Lost City.",
+        "location": "Brindlemark Library"
+      },
+      {
+        "order": "3",
+        "objective": "Decipher the ancient map and follow its path.",
+        "description": "Study the map carefully, deciphering any riddles or symbols that may indicate the location of the Lost City. Set off into the mystical forest to follow the map's path.",
+        "location": "Mystical Forest"
+      },
+      {
+        "order": "4",
+        "objective": "Retrieve the artifact and escape the Lost City.",
+        "description": "Face any challenges that lie within the Lost City, retrieve the ancient artifact, and make your way back out of the city before it collapses.",
+        "location": "Lost City of Eldarath"
+      }
+    ]
+  }
+}
+```

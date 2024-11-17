@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: The village of Oakwood has been plagued by a series of strange occurrences. Livestock has gone missing, and the villagers are afraid to venture out after dark.
+  id: Q001
+  objective: Investigate the strange happenings in Oakwood village and put an end to whatever evil force is causing them.
+  quest_giver: The Village Elder
+  reward: A magical amulet that grants resistance to fear and a small pile of gold coins.
+  tasks:
+  - description: Speak with the villagers and gather information about the missing livestock.
+    location: Oakwood village tavern
+    objective: Gather clues about the disappearance of the livestock.
+    order: 1
+  - description: Investigate the old, abandoned mine on the outskirts of the village. It is said to be haunted by the spirits of former miners.
+    location: Old Mine on the outskirts of Oakwood village
+    objective: Find evidence of what's causing the strange occurrences in the village.
+    order: 2
+  - description: Confront the source of the evil and put an end to it. This could be a monster, a cult, or something else entirely.
+    location: Varies depending on the player's investigation
+    objective: Defeat the evil force causing the strange occurrences in Oakwood village.
+    order: 3
+  title: "The Curse of Oakwood"
+```

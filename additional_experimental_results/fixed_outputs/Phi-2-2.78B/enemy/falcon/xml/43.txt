@@ -1,0 +1,18 @@
+```xml
+<!-- Corrected XML -->
+<?xml version="1.0" ?>
+<game>
+	<enemy id='id'>
+		<name name='name'/>
+		<description description='description'/>
+		<stats>
+			<hp hp=10/>
+			<mp mp=20/>
+			<atk atk=50/>
+			<def def=30/>
+			<spd spd=5/>
+		</stats>
+	</enemy>
+</game>
+```
+

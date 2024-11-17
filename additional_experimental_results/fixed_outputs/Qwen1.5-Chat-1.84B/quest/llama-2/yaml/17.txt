@@ -1,0 +1,17 @@
+```
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+``` /INST
+```
+
+The YAML data has been fixed by fixing the incorrect syntax. The `while scanning for the next token` error was identified and corrected to a more appropriate condition: "while scanning for the next token in '<unicode string>', line 13, column 1: '```'". This ensures that the correct token is scanned for before attempting to parse any further characters within the YAML data. The corrected YAML data includes all required fields and values as specified in the template provided.

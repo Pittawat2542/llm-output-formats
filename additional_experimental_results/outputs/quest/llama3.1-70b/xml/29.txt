@@ -1,0 +1,33 @@
+Here is the generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QST001</id>
+  <title>The Lost City of Eldarath</title>
+  <objective>Retrieve the ancient artifact from the Lost City of Eldarath</objective>
+  <description>Rumors have been circulating about a long-abandoned city deep in the forest, where an ancient civilization once thrived. Legend has it that a powerful artifact lies within its ruins, waiting to be claimed.</description>
+  <reward>1000 gold pieces, a magical amulet granting resistance to darkness</reward>
+  <quest-giver>Eryndor Thorne, a wise old sage in the village of Willowdale</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the Lost City from the villagers of Willowdale</objective>
+      <description>Talk to the locals and gather any information they may have about the city's location, layout, and potential dangers.</description>
+      <location>Willowdale Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Explore the forest and locate the entrance to the Lost City</objective>
+      <description>Venture into the forest, navigating through treacherous terrain and avoiding deadly creatures to find the hidden entrance.</description>
+      <location>The Dark Forest</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Navigate the city's ruins and retrieve the artifact</objective>
+      <description>Cautiously explore the ancient structures, overcoming traps and puzzles to reach the artifact.</description>
+      <location>The Lost City of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

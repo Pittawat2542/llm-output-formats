@@ -1,0 +1,27 @@
+
+```yaml
+game:
+  description: A quest to find the lost city of Atlantis.
+  id: 1
+  objective: Find the lost city of Atlantis.
+  quest_giver: Professor Jones
+  reward: 100 gold
+  tasks:
+  - description: Task 1: Search for clues about the location of Atlantis.
+    location: Libraries and historical archives.
+    objective: Find books, maps or other relevant information to help locate the lost city.
+    order: 1
+  - description: Task 2: Follow leads and investigate possible locations.
+    location: Potential sites for the lost city.
+    objective: Eliminate false leads and gather evidence for the true location of Atlantis.
+    order: 2
+  - description: Task 3: Decipher ancient texts and solve puzzles to unlock the entrance to Atlantis.
+    location: Ancient ruins or crypts.
+    objective: Use knowledge gained from research to decipher codes, riddles, or symbols.
+    order: 3
+  - description: Task 4: Explore the underwater city and recover treasure.
+    location: The lost city of Atlantis.
+    objective: Discover the hidden wonders and treasures within Atlantis while avoiding its guardians.
+    order: 4
+  title: Quest for Atlantis
+```

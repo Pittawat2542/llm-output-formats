@@ -1,0 +1,30 @@
+```json
+{
+    "game": {
+        "id": "QST001",
+        "title": "The Lost City of Eldarath",
+        "objective": "Find the ancient artifact hidden deep within the ruins of Eldarath.",
+        "description": "Legend has it that the city of Eldarath holds the secrets of the ancient world. But beware, for many have attempted to find this treasure and never returned.",
+        "reward": "The Golden Scepter, granting immense magical power",
+        "quest_giver": "Thorne Blackwood, renowned archaeologist",
+        "tasks": [{
+            "order": "1",
+            "objective": "Explore the Entrance of Eldarath",
+            "description": "Make your way through the entrance of the ruins and begin to uncover its secrets.",
+            "location": "The Entrance of Eldarath (50.456, -23.789)"
+        },
+        {
+            "order": "2",
+            "objective": "Find the First Trial Chamber",
+            "description": "Solve the ancient puzzles to unlock the first trial chamber.",
+            "location": "The Main Hallway (51.234, -25.012)"
+        },
+        {
+            "order": "3",
+            "objective": "Retrieve the Ancient Scroll",
+            "description": "Overcome the challenges of the second trial chamber and retrieve the ancient scroll.",
+            "location": "The Second Trial Chamber (53.123, -28.456)"
+        }]
+    }
+}
+```

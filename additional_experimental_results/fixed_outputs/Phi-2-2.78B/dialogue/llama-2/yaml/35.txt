@@ -1,0 +1,67 @@
+The `game` section of the `YAML file` allows you to create a game using YAML format, and this section should be able to handle dialogues with multiple speakers, including their turns and responses. 
+
+#### 14. Exercise 1 - Creating a dialogue tree for a text-based adventure game
+```python
+# Define a class to represent the player character in the game
+class Player:
+    def __init__(self):
+        pass
+
+    # Method to define the player's actions in the game
+    def take_action(self, prompt):
+        print(prompt)
+
+    # Method to handle the player's turn in a dialogue tree
+    def make_dialogue(self, dialogue):
+        if len(dialogue['speakers']) == 1:
+            self.take_action(dialogue['text'])
+        else:
+            print('Choose from the following options:')
+            for i, speaker in enumerate(dialogue['speakers']):
+                print(f"{i+1}. {speaker}")
+            choice = int(input("Enter your choice: "))
+            self.make_dialogue(dialogue[choice])
+```
+
+#### 15. Exercise 2 - Modifying a dialogue tree to support multiple choices for the player
+```python
+# Define a class to represent the player character in the game
+class Player:
+    def __init__(self):
+        pass
+
+    # Method to define the player's actions in the game
+    def take_action(self, prompt):
+        print(prompt)
+
+    # Method to handle the player's turn in a dialogue tree with multiple choices
+    def make_dialogue(self, dialogue):
+        if len(dialogue['choices']) == 1:
+            self.take_action(dialogue['text'])
+        else:
+            print('Choose from the following options:')
+            for i, choice in enumerate(dialogue['choices']):
+                print(f"{i+1}. {choice}")
+            choice = int(input("Enter your choice: "))
+            self.make_dialogue(dialogue[choice])
+```
+
+#### 16. Exercise 3 - Modifying a dialogue tree to allow for branching paths
+```python
+# Define a class to represent the player character in the game
+class Player:
+    def __init__(self):
+        pass
+
+    # Method to define the player's actions in the game
+    def take_action(self, prompt):
+        print(prompt)
+
+    # Method to handle the player's turn in a dialogue tree with branching paths
+    def make_dialogue(self, dialogue):
+        if len(dialogue['choices']) == 1:
+            self.take_action(dialogue['text'])
+        else:
+        print('Choose from the following options:')
+        for i, choice in
+

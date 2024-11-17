@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0"?>
+<game>
+    <id>12345</id>
+    <title>The Wizard's Quest</title>
+    <objective>Find the Wizard's magic wand</objective>
+    <description>You will need to find the Wizard's magic wand to complete your quest</description>
+    <reward>A magic wand</reward>
+    <quest-giver>The Wizard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Wizard's magic wand</objective>
+            <description>You will need to find the Wizard's magic wand to complete your quest</description>
+            <location>The Wizard's house</location>
+        </task>
+    </tasks>
+</game>
+```

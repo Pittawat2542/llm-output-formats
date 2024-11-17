@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+	<highlights>
+		<!-- Highlight text goes here -->
+	</highlights>
+	<characters>
+		<character id="1">
+			<name>Great Character 1</name>
+			<personality>Great personality</personality>
+			<img src="character_image_1.png" alt="Character Image 1"/>
+		</character>
+		<character id="2">
+			<name>Great Character 2</name>
+			<personality>Great personality</personality>
+			<img src="character_image_2.png" alt="Character Image 2"/>
+		</character>
+		<character id="3">
+			<name>Great Character 3</name>
+			<personality>Great personality</personality>
+			<img src="character_image_3.png" alt="Character Image 3"/>
+		</character>
+	</characters>
+</game>
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "G001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the ruins of Eldarath",
+    "description": "Rumors have been circulating about a lost city deep in the heart of the mystical forest, where an ancient artifact holds the key to unimaginable power. Brave adventurers are needed to retrieve this relic and bring it back to civilization.",
+    "reward": "10,000 gold pieces and a magical amulet granting resistance to dark magic",
+    "quest_giver": "Thorold the Wise, a renowned scholar of ancient lore",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from local villagers and traders",
+        "description": "Speak with the inhabitants of Oakwood Village and gather any information they may have about the location and layout of the lost city.",
+        "location": "Oakwood Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map fragment from the bandit camp",
+        "description": "Infiltrate the bandit camp located in the nearby hills and retrieve a torn piece of parchment that supposedly contains part of the lost city's map.",
+        "location": "Bandit Camp"
+      },
+      {
+        "order": 3,
+        "objective": "Decipher the ancient text on the temple walls",
+        "description": "Explore the ancient temple ruins and decipher the cryptic messages etched into the stone, which may hold the key to unlocking the artifact's chamber.",
+        "location": "Temple Ruins"
+      }
+    ]
+  }
+}

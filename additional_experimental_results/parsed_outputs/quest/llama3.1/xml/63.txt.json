@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scroll from the lost temple and bring it back to the priestess.",
+    "description": "The moon goddess has requested that you retrieve an ancient scroll from her lost temple, which is said to hold the secrets of her powers. The temple is located deep in the forest, and many dangers lie within.",
+    "reward": "100 gold pieces and a blessing from the moon goddess",
+    "quest-giver": "Luna, the Priestess of the Moon Goddess",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Finding the entrance to the lost temple.",
+          "description": "The entrance to the temple is hidden behind a waterfall. You must navigate through the forest and find the correct path to reach it.",
+          "location": "Forest of the Moonlight, near the Silver Stream"
+        },
+        {
+          "order": "2",
+          "objective": "Solving the puzzles in the temple.",
+          "description": "The temple is filled with ancient traps and puzzles. You must use your wit and cunning to navigate through them and reach the inner sanctum.",
+          "location": "Lost Temple of the Moon Goddess, Inner Sanctum"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieving the ancient scroll.",
+          "description": "The ancient scroll is hidden within a pedestal in the inner sanctum. You must retrieve it and bring it back to Luna.",
+          "location": "Lost Temple of the Moon Goddess, Inner Sanctum"
+        }
+      ]
+    }
+  }
+}

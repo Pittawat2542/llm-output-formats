@@ -1,0 +1,15 @@
+The YAML data is correct, and the output is in Markdown format. The only thing missing is a code block between the `game` and ` enemy` elements to properly close them. Here's the corrected code:
+```
+## Game
+### enemies
+- description: "description"
+  id: "id"
+  name: "name"
+
+## Game
+# enemies
+- description: "description"
+  id: "id"
+  name: "name"
+
+```

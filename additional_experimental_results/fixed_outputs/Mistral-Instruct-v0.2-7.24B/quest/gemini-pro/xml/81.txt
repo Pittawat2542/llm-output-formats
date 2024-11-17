@@ -1,0 +1,43 @@
+
+```xml
+<game>
+	<id>1</id>
+	<title>The Missing Merchant</title>
+	<objective>Find the missing merchant, Geralt.</objective>
+	<description>The merchant, Geralt, has gone missing during a trip to a nearby village. His wife has hired you to find him and bring him back home.</description>
+	<reward>100 gold and a magic amulet.</reward>
+	<quest-giver>Geralt's wife, Triss</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to the villagers in the village where Geralt was last seen.</objective>
+			<description>Talk to the villagers in the village where Geralt was last seen to see if they have any information about his whereabouts.</description>
+			<location>The village of Byways.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search the forest outside the village for any clues.</objective>
+			<description>Search the forest outside the village for any clues that might lead you to Geralt.</description>
+			<location>The forest of Whispering Trees.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Follow the clues to find Geralt.</objective>
+			<description>Follow the clues you have found to find Geralt.</description>
+			<location>A cave in the mountains.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Defeat the bandits who are holding Geralt captive.</objective>
+			<description>Defeat the bandits who are holding Geralt captive and rescue him.</description>
+			<location>The bandit camp in the mountains.</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return Geralt to his wife.</objective>
+			<description>Return Geralt to his wife in the village of Byways.</description>
+			<location>The village of Byways.</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    description: "The enemy has a description."
+    id: 1
+    name: "The enemy has a name."
+    stats:
+      atk: 10
+      def: 10
+      hp: 10
+      mp: 10
+      spd: 10
+```
+All the examples provided had an incorrect syntax due to single quotes surrounding the description and name strings. I have replaced them with double quotes, which are the correct syntax for string values in YAML.

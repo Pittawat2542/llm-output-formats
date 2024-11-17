@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Hello, I'm Alice! Welcome to our world.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>Nice to meet you, Alice. What's the purpose of this meeting?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Alice</speaker>
+			<text>We've received a message from an unknown sender. It seems we're in grave danger.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Bob</speaker>
+			<text>Danger? What kind of danger?</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Alice</speaker>
+			<text>We're not entirely sure yet. That's why we need to investigate further.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Recover the Lost Artifact</objective>
+    <description>A mysterious包裹 awaits at the Old oak tree.</description>
+    <reward>100 gold coins and a rare artifact</reward>
+    <quest-giver>Experienced Guide John</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Search the oak tree</objective>
+            <description>Check under the large root for the package.</description>
+            <location>Old Oak Tree, Westside</location>
+        </task>
+    </tasks>
+</game>
+```

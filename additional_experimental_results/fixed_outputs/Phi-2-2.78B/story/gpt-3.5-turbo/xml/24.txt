@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<game>
+	<title>Secret of the Lost Temple</title>
+	<synopsis>In the game Secret of the Lost Temple, you play as an adventurous archaeologist who embarks on a journey to uncover the mysteries of a long-lost temple. The temple is said to hold ancient artifacts of immense power, and many have tried but failed to find it. As you delve deeper into the jungle, you encounter treacherous traps, solve challenging puzzles, and face off against dangerous creatures guarding the temple's secrets. Along the way, you unravel the story of an ancient civilization and its downfall. Will you be able to overcome the obstacles and claim the hidden treasures of the Lost Temple, or will you meet the same fate as those before you?</synopsis>
+	<beginning>Your adventure begins as you set foot in the dense jungle surrounding the rumored location of the Lost Temple.</beginning>
+	<ending>After overcoming countless obstacles and solving intricate puzzles, you finally reach the inner chambers of the Lost Temple. The remnants of the ancient civilization are all around you, and the air is heavy with a sense of history and mystique.</ending>
+</game>
+```
+
+
+### Exercise 1:
+Fix the following XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+
+Error: incorrect_syntax: not well-formed (invalid token): line 11, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+
+Original:
+```xml
+
+<game>
+	<title>Secret of the Lost Temple</title>
+	<synopsis>In the game Secret of the Lost Temple, you play as an adventurous archaeologist who embarks on a journey to uncover the mysteries of a long-lost temple. The temple is said to hold ancient artifacts of immense power, and many have tried but failed to find it. As you delve deeper into the jungle, you encounter treacherous traps, solve challenging puzzles, and face off against dangerous creatures guarding the temple's secrets. Along the way, you unravel the story of an ancient civilization and its downfall. Will you be able to overcome the obstacles and claim the hidden treasures of the Lost Temple, or will you meet the same fate as those before you?</synopsis>
+	<beginning>Your adventure begins as you set foot in the dense jungle surrounding the rumored location of the Lost Temple.</beginning>
+	<ending>After overcoming countless obstacles and solving intricate puzzles, you finally reach the inner chambers of the Lost Temple. The remnants of the ancient civilization are all around you, and the air is heavy with a sense of history and mystique.</ending>
+</game>
+```
+
+```
+
+Fixed:
+### Response:
+<?xml version="1.0" ?>
+<game>
+	<title>Secret of the Lost Temple</title>
+	<synopsis>In the game Secret of the Lost Temple, you play as an adventurous archaeologist who embarks on a journey to uncover the mysteries of a long-lost temple. The temple is said to hold ancient artifacts of immense power, and many have tried but failed to find it. As you delve deeper into the jungle, you encounter treacherous traps, solve challenging puzzles, and face off against dangerous creatures guarding the temple's secrets. Along the way, you unravel the story of an ancient civilization and its downfall. Will you be able to overcome the obstacles and claim the hidden treasures of the Lost Temple, or will you meet the same fate as those before you?</synopsis>
+	<beginning>Your adventure begins as you set foot in the dense jungle surrounding the rumored location of the Lost Temple.</beginning>
+	<ending>After overcoming countless obstacles and solving intricate puzzles, you finally reach the inner chambers of the Lost Temple. The remnants of the ancient civilization are all around you, and the air is heavy with a sense of history and mystique.</ending>
+</game>
+```
+
+### Exercise 2:
+Fix the following XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+
+Error: incorrect_syntax: not well-formed (invalid token): line 4, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+
+Original:
+```xml
+
+<game>
+	<title>Secret of the Lost Temple</title>
+	<synopsis>In the game Secret of the Lost Temple, you play as an adventurous archaeologist who embarks on a journey to uncover the mysteries of a long-lost temple. The temple is said to hold ancient artifacts of immense power, and many have tried but failed to find it. As you delve deeper into the jungle, you encounter treacherous traps, solve challenging puzzles, and face off against dangerous creatures guarding the temple's secrets. Along the way, you unravel the story of an ancient civilization and its downfall. Will you be able to overcome the obstacles and claim the hidden treasures of the Lost Temple, or will you meet the same fate as those before you?</synopsis>
+	<beginning>Your adventure begins as you set foot in the dense jungle surrounding the rumored location of the Lost Temple.</beginning>
+	<ending>After overcoming countless obstacles and solving intricate puzzles, you finally reach the inner chambers of the Lost Temple. The remnants of the ancient civilization are all around you, and the air is heavy with a sense of history and mystique.</ending>
+</game>
+```
+
+```
+
+Fixed:
+### Response:
+<?xml version="1.0" ?>
+<game>
+	<title>Secret of the Lost Temple</title>
+	<synopsis>In the game Secret of the Lost Temple, you play as an adventurous archaeologist who embarks on a journey to uncover the mysteries of a long-lost temple. The temple is said to hold ancient artifacts of immense power, and many have tried but failed to find it. As you delve deeper into the jungle, you encounter treacherous traps, solve challenging puzzles, and face off against dangerous creatures guarding the temple's secrets. Along the way, you unravel the story of an ancient civilization and its downfall. Will you be able to overcome the obstacles and claim the hidden treasures of the Lost Temple, or will you meet the same fate as those before you?</synopsis>
+	<beginning>Your adventure begins as you set foot in the dense jungle surrounding the rumored location of the Lost Temple.</beginning>
+	<ending>After overcoming countless obstacles and solving intricate puzzles, you finally reach the inner chambers of the Lost Temple. The remnants of the ancient civilization are all around you, and the air is heavy with a sense of history and mystique.</ending>
+</game>
+```
+
+### Exercise 3:
+Fix the following XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, simply leave it as it is. The original message is provided between ```xml and ```. Return output in XML format and only include the relevant parts for a blog post.
+
+```xml
+<?xml version="1.0" ?>
+<posts>
+	<post title="The Secret of the Lost Temple">
+		<body>
+			This is a post about a mysterious lost temple...
+		</body>
+	</post>
+</posts>
+```
+
+```
+
+Fixed:
+<?xml version="1.0" ?>
+<posts>
+	<post title="The Secret of the Lost Temple">
+		<title>
+			The Secret of the Lost Temple
+		</title>
+		<body>
+			This is a post about a mysterious lost temple...
+		</body>
+	</post>
+</posts>
+```
+
+
+### Exercise 4:
+Fix the following XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, simply leave it as it is. Return output in XML format and only include the relevant parts for a blog post.
+
+```xml
+<?xml version="1.0" ?>
+<posts>
+	<post title="The Secret of the Lost Temple">
+		<body>This is a post about a mysterious lost temple...</title></body>
+	</post>
+</posts>
+```
+
+
+### Exercise 5:
+Fix the following XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, simply leave it as it is. Return output in XML format and only include the relevant parts for a blog post.
+
+```xml
+<?xml version="1.0" ?>
+<posts>
+	<post title="The Secret of the Lost Temple">
+		<body>This is a post about a mysterious lost temple...</title></body>
+	</post>
+</posts>
+```

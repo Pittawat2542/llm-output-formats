@@ -1,0 +1,81 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Hoard</title>
+	objective>Recover the dragon's hoard from the dragon's lair.</ objective>
+	description>The dragon Smaug has stolen a vast hoard of gold and jewels from the dwarves of Erebor. The dwarves have hired you to recover the hoard and return it to them.
+	 reward>A share of the dragon's hoard.</reward>
+</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Hoard</title>
+ Objective: Retrieve the dragon's hoard from the dragon's lair.
+Description: The dragon Smaug has stolen a vast hoard of gold and jewels from the dwarves of Erebor. The dwarves have hired you to recover the hoard and return it to them.
+
+ reward:A share of the dragon's hoard.
+</game>
+```
+New values if needed:
+- <objective>Recover the dragon's hoard from the dragon's lair.</objective>
+- <description>The dragon Smaug has stolen a vast hoard of gold and jewels from the dwarves of Erebor. The dwarves have hired you to recover the hoard and return it to them.
+- <reward:A share of the dragon's hoard.</ reward>
+- <task>Find the dragon's lair.</task>
+- <location>The Lonely Mountains.</location>
+
+Task 1: Find the Dragon's lair.
+```python
+<objective>Find the dragon's lair.</objective>
+```
+Task 2: Defeat the dragon.
+```python
+<objective>Defeat the dragon.</objective>
+```
+Task 3: Recovers the dragon's hoard.
+```python
+<objective>Recover the dragon's hoard.</objective>
+```
+Task 4: Returns the hoard to the dwarves.
+```python
+<objective>Returns the hoard from its lair.</objective>
+```
+
+Markdown output:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Hoard</title>
+ Objective: Retrieve the dragon's hoard from the dragon's lair.
+Description: The dragon Smaug has stolen a vast hoard of gold and jewels from the dwarves of Erebor. The dwarves have hired you to recover the hoard and return it to them.
+
+ reward:A share of the dragon's hoard.
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Hoard</title>
+ Objective: Find the dragon's lair.
+Description: The Lonely Mountains.</location>
+
+Task 1: Find the Dragon's lair.
+```python
+<objective>Find the dragon's lair.</ objective>
+```
+Task 2: Defeat the dragon.
+```python
+<objective>Defeat the dragon.</ objective>
+```
+Task 3: Recovers the dragon's hoard.
+```python
+<objective>Recover the dragon's hoard.</objective>
+```
+Task 4: Returns the hoard to the dwarves.
+```python
+<objective>Returns the hoard from its lair.</objective>
+```
+
+Note that the task 3 is not completed yet since the objective is still "Find the Dragon's lair."

@@ -1,0 +1,19 @@
+The original YAML data was already correct and did not require any changes. Here is the fixed YAML in a code block:
+
+```yaml
+game:
+  description: A game description
+  id: 1
+  objective: To win
+  quest_giver: The quest giver
+  reward: A reward
+  tasks:
+    - description: A task description
+      location: A task location
+      objective: A task objective
+      order: A task order
+    - description: Another task description
+      location: Another task location
+      objective: Another task objective
+      order: Another task order
+```

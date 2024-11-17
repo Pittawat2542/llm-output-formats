@@ -1,0 +1,44 @@
+```xml
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks="
+	<tasks>
+		<task order="task order">
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+" />
+```
+
+# Explanation:
+- Changed `<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks="<task order="task order">...</task>"` to `<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver">
+	<tasks>
+		<task order="task order">
+			...
+		</task>
+	</tasks>
+"`.
+- Removed the extra quotation marks from `tasks="<task order="task order">..."`.
+- Added the missing opening tag for `<tasks>` and wrapped all tasks inside it.
+
+# Code:
+```python
+import sys
+input = '''<?xml version="1.0" ?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks="<task order="task order">...</task>" />'''
+
+output = input.replace('tasks="', 'tasks="\n	<tasks>\n')
+output += '\n'
+output += ''.join(['	<task order="{}"><objective>{}</objective><description>{}</description><location>{}</location></task>\n'.format(i+1, obj, desc, loc) for i, (obj, desc, loc) in enumerate(tasks)])
+output += '\n'
+output += '	</tasks>\n'
+output += '">\n'
+
+print(output)
+```
+
+# Data:
+```python
+tasks = [("task objective 1", "task description 1", "task location 1"), ("task objective 2", "task description 2", "task location 2")]
+```

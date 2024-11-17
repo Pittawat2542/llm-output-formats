@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the Dragon</objective>
+	<description>Travel to the depths of the Dragon's Lair, face the terrifying beast and save the town of Forestdale from its relentless attacks.</description>
+	<reward>500 gold coins, Legendary Sword of Valor</reward>
+	<quest-giver>Mayor of Forestdale</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Dragon's Lair</objective>
+			<description>Prepare your equipment and travel to the Dragon's Lair located South-East of Forestdale.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Dragon</objective>
+			<description>Battle the dragon and defeat it. It is a powerful beast, make sure you are ready for the battle.</description>
+			<location>Dragon's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

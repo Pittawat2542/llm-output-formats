@@ -1,0 +1,62 @@
+Error: key_completeness: The key 'quest_giver' is missing.
+Template: <游戏>
+  <id>101</id>
+  <title>The Lost Artifact</title>
+  <objective>Retrieve the lost artifact and return it to its rightful owner</objective>
+  <description>Your mission is to infiltrate the enemy base, retrieve the stolen artifact, and return it to its rightful owner. Stealth and strategy are key in this quest.</description>
+  <reward>500 gold coins, +10 reputation</reward>
+  <quest-giver>Gandalf the Grey</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Reach the enemy fort</objective>
+      <description>You need to approach the enemy fort unseen. Use the surrounding wilderness as cover.</description>
+      <location>Northern Wilds</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Infiltrate the enemy fort</object>
+      <description>Once at the fort, find a way in without alerting the guards. Be aware of traps.</description>
+      <location>Black Fort</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Find and retrieve the artifact</objective>
+      <description>The artifact is most likely in the central tower. Retrieve it without any confrontations.</description>
+      <location>Central Tower, Black Fort</location>
+    </task>
+    <task>
+      <order>4</order>
+      <objective>Return the artifact</objective>
+      <description>Return to Gandalf with the artifact.</description>
+      <location>Gandalf's Tower</location>
+    </task>
+  </tasks>
+
+  <game>
+    <id>102</id>
+    <title>The Keyed Quest</title>
+    <objective>Unlock a chest containing powerful artifacts</objective>
+    <description>Your quest is to complete the keyed quest and unlock the chest containing powerful artifacts. Avoid dangerous traps and obstacles.</description>
+    <reward>500 gold coins, +10 reputation</reward>
+    <quest-giver>Gandalf the Grey</quest-giver>
+    <tasks>
+      <task>
+        <order>1</order>
+        <objective>Complete the keyed quest</objective>
+        <description>Your quest is to complete the keyed quest and unlock the chest containing powerful artifacts.</description>
+      </task>
+      <task>
+        <order>2</order>
+        <objective>Unlock the chest</objective>
+        <description>Your quest is to complete the keyed quest and unlock the chest containing powerful artifacts.</description>
+      </task>
+      <task>
+        <order>3</order>
+        <objective>Observe the guarded chest and find a way out without alerting the guards. Use any tools available to open the chest.</description>
+        <location>Black Fort</location>
+      </task>
+    </tasks>
+
+  </game>
+</template>

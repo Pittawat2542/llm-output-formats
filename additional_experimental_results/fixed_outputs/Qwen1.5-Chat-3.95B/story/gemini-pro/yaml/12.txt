@@ -1,0 +1,14 @@
+I need your help with an issue. I am trying to create a YAML file but it is not working correctly. It looks like there may be some issues in the data you provided. Can you please provide more information on what is wrong? The YAML file is not working as expected and I can't see how to correct it.
+Here is the YAML code you need:
+```yaml
+Error: incorrect_syntax: mapping values are not allowed here
+  in "<unicode string>", line 5, column 17:
+      title: Horizon: Zero Dawn
+                     ^
+
+Template: game:
+  beginning: The year is 2089. The world has been ravaged by climate change and resources are scarce. In this dystopian world, a young woman named Aloy must embark on a journey to save her tribe from a deadly threat.
+  ending: Aloy defeats the antagonist and saves her tribe. The world is still a dangerous place, but there is hope for a better future.
+  synopsis: Horizon Zero Dawn is an open-world action role-playing game set in a post-apocalyptic world where machines roam the land. The player controls Aloy, a young woman who is trying to find her place in this new world. Along the way, she must learn to survive in the wilderness, fight off machines, and unravel the secrets of her past.
+  title: Horizon: Zero Dawn
+```

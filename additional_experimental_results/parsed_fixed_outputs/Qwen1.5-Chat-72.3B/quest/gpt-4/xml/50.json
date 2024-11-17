@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Dragon Hunt",
+    "objective": "Defeat the fire-breathing dragon",
+    "description": "You have been tasked to defeat the fire-breathing dragon that has been terrorizing the village. Use your skills and cunning to defeat the dragon and bring peace back to the kingdom.",
+    "reward": "5000 gold and Dragon Slayer title",
+    "quest-giver": "The Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the dragon's lair",
+          "description": "Start by traveling through the treacherous Dark Forest, cross the Golden River and then climb the Deathly Mountains to find the dragon's lair.",
+          "location": "Dragon's Lair, Deathly Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon",
+          "description": "Once you reach the dragon's lair, you will need to confront and defeat the fire-breathing dragon.",
+          "location": "Inside the Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

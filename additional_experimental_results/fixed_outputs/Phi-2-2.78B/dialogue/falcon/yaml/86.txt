@@ -1,0 +1,13 @@
+error: incorrect_syntax: mapping values are not allowed here
+  in "<unicode string>", line 5, column 13:
+   <!-- text must be a single line -->
+   ^
+
+template:
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+      text: dialogue or narration
+
+

@@ -1,0 +1,28 @@
+Here is the corrected YAML data in Markdown format:
+```
+game:
+  enemy:
+    description: "The enemy is a powerful dragon."
+    id: 1
+    name: "Dragon"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+Output in YAML format: 
+```yaml
+game:
+  enemy:
+    description: "The enemy is a powerful dragon."
+    id: 1
+    name: "Dragon"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```

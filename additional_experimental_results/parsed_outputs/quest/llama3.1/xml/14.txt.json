@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost City",
+    "objective": "Find the lost city of Zerzura and retrieve an ancient artifact.",
+    "description": "The city of Zerzura is hidden deep within a dense jungle, guarded by treacherous terrain and ferocious beasts. You must navigate through the jungle, avoiding danger at every turn, to reach the city and claim the artifact.",
+    "reward": "50 gold pieces, 1 level experience",
+    "quest-giver": "Lila the Jungle Guide",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find a path through the jungle that leads to Zerzura.",
+          "description": "The jungle is dense and unforgiving. You must search for a narrow path that winds its way through the underbrush, avoiding deadly traps and hidden pitfalls.",
+          "location": "Jungle Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the treacherous terrain of the jungle to reach Zerzura.",
+          "description": "The path ahead is fraught with danger. You must navigate through ravines, climb steep cliffs, and avoid deadly predators.",
+          "location": "Jungle Caves"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact from within Zerzura's ruins.",
+          "description": "The city is full of traps and puzzles. You must solve the riddles and unlock the doors to reach the artifact before time runs out.",
+          "location": "Zerzura's Ruins"
+        }
+      ]
+    }
+  }
+}

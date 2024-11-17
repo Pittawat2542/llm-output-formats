@@ -1,0 +1,11 @@
+```yaml
+game:
+  dialogues:
+  - order: 4
+    speaker: Bob
+    text: "That's very kind of you. Can I help you find anything?"
+  - order: 5
+    speaker: Alice
+    text: "No, thank you. I'm just browsing for now."
+```
+The error was in the `order` value for dialogue number 4. It was not properly indented and ended with a scalar value instead of a block mapping key. I have corrected the indentation and removed the extra scalar value to fix the YAML syntax.

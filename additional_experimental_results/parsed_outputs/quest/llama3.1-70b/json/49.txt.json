@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarado",
+    "objective": "Find the ancient city of Eldarado and retrieve the legendary Golden Idol.",
+    "description": "Rumors have been circulating about a lost city deep in the jungle, hidden away for centuries. The city is said to contain treasures beyond imagination, including the fabled Golden Idol. Your quest is to find the city and bring back the idol.",
+    "reward": "1000 gold pieces, increased reputation with the Explorer's Guild",
+    "quest_giver": "Professor Thaddeus Wimpole",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from local villagers.",
+        "description": "Talk to the villagers in the nearby town and gather any information they might have about the lost city.",
+        "location": "Tikal Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve an ancient map from the dusty archives of the local library.",
+        "description": "Search through the shelves of the local library to find a tattered old map that might lead you to the lost city.",
+        "location": "Tikal Library"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate through the treacherous jungle and avoid deadly traps set by ancient civilizations.",
+        "description": "Use your wits and cunning to navigate through the dense jungle and avoid the many dangers that lie within.",
+        "location": "Eldarado Jungle"
+      },
+      {
+        "order": 4,
+        "objective": "Face off against a rival expedition led by the infamous treasure hunter, Captain Blackbeak.",
+        "description": "Prepare for battle as you face off against your rival and his crew in a fight to claim the Golden Idol.",
+        "location": "Eldarado City Ruins"
+      }
+    ]
+  }
+}

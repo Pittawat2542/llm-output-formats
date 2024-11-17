@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "Complete the Temple",
+    "description": "Find the ancient artifact and deliver it to the high priest",
+    "reward": "Gold, Experience, and a Special Amulet",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Explore the Forest",
+          "description": "Follow the markers to the west",
+          "location": "Forest Clearing"
+        },
+        {
+          "@order": "2",
+          "objective": "Climb the Hill",
+          "description": "Reach the top for a clue from the sky",
+          "location": "Hilltop"
+        }
+      ]
+    }
+  }
+}

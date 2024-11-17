@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>QST001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the lost city of Eldarath.</objective>
+	<description>Rumors have been circulating about a lost city deep in the heart of the mystical forest, where an ancient artifact is said to hold the key to unimaginable power. Many adventurers have attempted to find this city before, but none have returned. Will you be the one to uncover its secrets?</description>
+	<reward>1000 gold pieces and the blessing of the Eldarathian gods</reward>
+	<quest-giver>Eriol the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the lost city from local villagers.</objective>
+			<description>Speak to the villagers in the nearby town of Oakwood and gather any information they may have about the lost city. They may be reluctant to share, but a few gold coins should loosen their tongues.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the ancient map from the old ruins.</objective>
+			<description>Explore the ancient ruins to the east of Oakwood and retrieve a worn-out map that is said to point the way to Eldarath. Be careful, as the ruins are said to be infested with traps and goblins.</description>
+			<location>Ruins of Arinthal</location>
+		</task>
+	</tasks>
+</game>
+```

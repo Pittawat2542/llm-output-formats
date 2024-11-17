@@ -1,0 +1,33 @@
+Here is the generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q12345</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Find and retrieve the ancient artifact known as the Starlight Chalice.</objective>
+	<description>Rumors have been circulating about a lost city deep in the heart of the Dragon's Spine mountains, where the ancient Eldarathians hid their most precious treasures. The Starlight Chalice is said to grant immense power to its possessor.</description>
+	<reward>1000 gold coins, 500 experience points, and a magical amulet granting resistance to fire.</reward>
+	<quest-giver>Eriol the Wise, a renowned archaeologist</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the lost city of Eldarath from local villagers and travelers.</objective>
+			<description>Speak with the locals in the nearby town of Oakwood, and gather any clues or rumors about the location of the lost city.</description>
+			<location>Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve a ancient text from the ruins of an old castle that supposedly holds the key to finding the lost city.</objective>
+			<description>Breach the abandoned Castle Krael, and navigate its treacherous halls to find the ancient text. Be wary of the undead creatures that roam the halls.</description>
+			<location>Castle Krael</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Use the information from the ancient text to uncover the entrance to the lost city, and retrieve the Starlight Chalice.</objective>
+			<description>Decipher the cryptic clues from the ancient text, and use them to uncover the hidden entrance to the lost city. Navigate its treacherous tunnels, avoiding deadly traps and fearsome creatures to reach the inner sanctum where the Starlight Chalice awaits.</description>
+			<location>The Lost City of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+```

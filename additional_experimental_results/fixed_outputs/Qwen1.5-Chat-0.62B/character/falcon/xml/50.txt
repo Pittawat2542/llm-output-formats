@@ -1,0 +1,100 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<img src="id.png" alt="First Name">
+			<img src="last_name.png" alt="Last Name">
+			<img src="species.png" alt="Species">
+			<img src="age.png" alt="Age or Description">
+			<img src="role.png" alt="Role of the Character">
+			<img src="birthplace.png" alt="Birth Place">
+			<img src="place-of-birth.png" alt="Place of Birth">
+			<img src="physical-appearance.png" alt="Physical Appearance">
+	</character>
+</game>
+```
+
+Corrected syntax:
+```xml
+<game>
+	<character>
+		<img src="id.png" alt="First Name">
+		<img src="last_name.png" alt="Last Name">
+		<img src="species.png" alt="Species">
+		<img src="age.png" alt="Age or Description">
+		<img src="role.png" alt="Role of the Character">
+		<img src="birthplace.png" alt="Birth Place">
+		<img src="place-of-birth.png" alt="Place of Birth">
+		<img src="physical-appearance.png" alt="Physical Appearance">
+	</character>
+</game>
+```
+
+New values if needed:
+- `img src` should be a string and not an empty string.
+- `alt` should be an optional attribute that specifies the alternative text for the image when it is displayed.
+
+Output in Markdown format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<img src="id.png" alt="First Name">
+		<img src="last_name.png" alt="Last Name">
+		<img src="species.png" alt="Species">
+		<img src="age.png" alt="Age or Description">
+		<img src="role.png" alt="Role of the Character">
+		<img src="birthplace.png" alt="Birth Place">
+		<img src="place-of-birth.png" alt="Place of Birth">
+		<img src="physical-appearance.png" alt="Physical Appearance">
+	</character>
+</game>
+```
+
+Output in Markdown format with markdown code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<img src="id.png" alt="First Name">
+		<img src="last_name.png" alt="Last Name">
+		<img src="species.png" alt="Species">
+		<img src="age.png" alt="Age or Description">
+		<img src="role.png" alt="Role of the Character">
+		<img src="birthplace.png" alt="Birth Place">
+		<img src="place-of-birth.png" alt="Place of Birth">
+		<img src="physical-appearance.png" alt="Physical Appearance">
+	</character>
+</game>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Example</title>
+</head>
+<body>
+    <h1>Output the exact XML structure:</h1>
+    <p>Output the exact XML structure:</p>
+    <code>
+        &lt;characters xmlns:characters="urn:oasis:namespaces:characters:1.0"> 
+           <character 
+               id="id" 
+               first-name="first name" 
+               last-name="last name" 
+               species="species" 
+               age="age or description" 
+               role="role of the character"
+               birthplace="location" 
+               place-of-birth="place of birth" 
+               physical-appearance="character information"> 
+           </character&gt;
+        </characters&gt;
+    </code>
+</body>
+</html>
+```

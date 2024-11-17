@@ -1,0 +1,19 @@
+```xml
+<!DOCTYPE game [<!ENTITY entity1 "{\"id\":\"id\", \"title\":\"quest title\", \"objective\":\"quest objective\", \"description\":\"quest description\", \"reward\":\"quest reward\", \"quest-giver\":\"quest giver\", \"tasks\":[<!ENTITY entity2]]:
+<game>
+	<id><!ENTITY entity1 /></id>
+	<title><!entity entity1 /></title>
+	-objective><!ENTITY entity1。</objective>
+	.description><!ENTITY entity1.</description>
+		reward><!ENTITY entity1.</reward>
+	quest-giver><!ENTITY entity1.</quest-giver>
+		tasks>
+			<task>
+				<order><!ENTITY entity2 /></order>
+			 Objective><!ENTITY entity2。</objective>
+				Description><!ENTITY entity2.</description>
+			location><!ENTITY entity3></location>
+			</task>
+		</tasks>
+</game>
+```

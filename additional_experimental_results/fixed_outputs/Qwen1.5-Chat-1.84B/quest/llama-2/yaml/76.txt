@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: "The quest is about the game"
+  id: 1
+  objective: "Find the treasure"
+  quest_giver: "The king"
+  reward: "The treasure"
+  tasks:
+    - title: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 1
+    - description: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 2
+    - description: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 3
+  title: "The treasure hunt"
+```

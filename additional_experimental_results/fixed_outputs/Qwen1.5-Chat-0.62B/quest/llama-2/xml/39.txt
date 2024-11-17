@@ -1,0 +1,66 @@
+The key 'quest_giver' is missing in the XML data. Here's the corrected code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest for the Golden Apple</title>
+	objective>Find the Golden Apple</objective>
+	description>Find the Golden Apple, and bring it to the king. He will reward you with a bag of gold and a magical cloak that will make you invisible.</description>
+	<reward>100 gold coins and a magical cloak</reward>
+	<quest-giver>King</quest-giver>
+	<title>Quest for King's Golden Apple</title>
+	<objective>The King will reward him with the golden apple. He will also grant him a magical cloak that will make him invisible.</objective>
+	<title>Certificate of Quest Completion</title>
+	<description>The quest is completed and you have received the gold and cloak.</description>
+	<tasks>
+			<task>
+				<order>1</order>
+			 Objective: Find the Golden Apple
+			目标: Retrieve from the forest, bring the Golden Apple to the King's palace, and present it to him.
+			 location: Forest
+			 reward: 100 gold coins and a magical cloak.
+			</task>
+		</tasks>
+	<goals>
+		<title>Quest Giver Goal 1</title>
+	 Objective: Retrieve from the forest and bring the Golden Apple to the King's palace, present it to him.
+	</goals>
+	<guaranties>
+		<title>Guarantee 1</title>
+	 Objective: Retrieve the Golden Apple from the forest, bring the Golden Apple to the King's palace, and present it to him.
+	</guarantees>
+	<title>Certificate of Quest Completeness</title>
+	<description>The quest is completed and you have received the gold and cloak.</description>
+	<goals>
+		<title>Quest Giver Goal 2</title>
+	 Objective: Retrieve from the forest, bring the Golden Apple to the King's palace, present it to him.
+	</goals>
+</game>
+```
+Now, here's the Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>Quest for the Golden Apple</title>
+	objective>Find the Golden Apple</objective>
+	description>Find the Golden Apple, and bring it to the king. He will reward you with a bag of gold and a magical cloak that will make you invisible.</description>
+	<reward>100 gold coins and a magical cloak</reward>
+	<title>Certificate of Quest Completion</title>
+	<description>The quest is completed and you have received the gold and cloak.</description>
+	<goals>
+		<title>Quest Giver Goal 1</title>
+	 Objective: Retrieve from the forest and bring the Golden Apple to the King's palace, present it to him.
+	</goals>
+	<guaranties>
+		<title>Guarantee 1</title>
+	 Objective: Retrieve the Golden Apple from the forest, bring the Golden Apple to the King's palace, and present it to him.
+	</guarantees>
+	<title>Certificate of Quest Completeness</title>
+	<description>The quest is completed and you have received the gold and cloak.</description>
+	<goals>
+		<title>Quest Giver Goal 2</title>
+	 Objective: Retrieve from the forest, bring the Golden Apple to the King's palace, present it to him.
+	</goals>
+</game>
+```
+This code snippet should provide the correct XML data for the game described.

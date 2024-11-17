@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Find the ancient scrolls hidden within the Lost Temple of Eldarath.",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the heart of the mystical forest, where the ancient Eldarathian civilization once thrived. It is said that the temple holds the secrets of the past and powerful artifacts. Your quest is to find this temple, navigate its treacherous paths, and retrieve the ancient scrolls hidden within.",
+    "reward": "500 gold pieces, a magical amulet of protection, and increased reputation among the scholar's guild.",
+    "quest-giver": "Eryndor Thorne, a renowned archaeologist and member of the scholar's guild.",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the location of the Lost Temple of Eldarath.",
+          "description": "Speak with the locals in the nearby village, gather tales from travelers who have ventured into the mystical forest, and consult ancient texts within the guild's library to pinpoint the temple's location.",
+          "location": "The scholar's guild, local taverns, and the mystical forest's edge."
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the mystical forest to find the entrance of the Lost Temple.",
+          "description": "Be prepared for challenges as you journey deeper into the forest. Encounter magical creatures, solve ancient puzzles that guard the path, and overcome natural obstacles to reach the temple's entrance.",
+          "location": "Deep within the mystical forest."
+        },
+        {
+          "order": "3",
+          "objective": "Explore the Lost Temple of Eldarath and retrieve the ancient scrolls.",
+          "description": "Once inside, navigate the temple's deadly traps, fight off powerful guardians, and solve complex puzzles to reach the heart of the temple where the scrolls are kept. Be prepared for a final challenge as you attempt to claim your reward.",
+          "location": "The Lost Temple of Eldarath."
+        }
+      ]
+    }
+  }
+}

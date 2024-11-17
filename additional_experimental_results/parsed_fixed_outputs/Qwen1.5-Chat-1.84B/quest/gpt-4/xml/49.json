@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "ID_123",
+    "title": "Dragon's Bane",
+    "objective": "Retrieve the Dragon's Heart and slay the Dragon King",
+    "description": "Years have passed since the Dragon King took over our lands, corrupting everything with his dark magic. The only way to reverse his curse is to retrieve the Dragon's Heart. The journey is dangerous and filled with obstacles, but our survival depends on it.",
+    "reward": "Golden Sword of Valorian",
+    "quest-giver": "High Priestess Amelia",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Cave of Despair",
+          "description": "The Cave of Despair holds the map to the Dragon King's castle. Unfortunately, it is guarded by ruthless trolls.",
+          "location": "Eastern Forest of Farland"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the Dragon's Heart",
+          "description": "The Dragon's Heart is the source of the Dragon King's power. It will be heavily guarded inside the castle. Stealing it is key in defeating the Dragon King.",
+          "location": "Dragon King's Castle"
+        },
+        {
+          "order": "3",
+          "objective": "Slay the Dragon King",
+          "description": "With the Dragon's Heart in your possession, the Dragon King should be weaker. This is the time to strike and free our lands from his tyranny.",
+          "location": "Dragon King's Throne Room"
+        }
+      ]
+    }
+  }
+}

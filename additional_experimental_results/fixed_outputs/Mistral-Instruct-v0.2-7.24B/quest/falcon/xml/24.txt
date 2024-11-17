@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<id>1</id>
+	<title>The Quest for Progress and Experience</title>
+	<objective>Complete quests to progress through the game, defeat enemies for experience points, and level up to earn rewards.</objective>
+	<description></description>
+	<reward>Weapons, armor, gems, or consumables as rewards for completing quests</reward>
+	<quest-giver>The Questmaster in the town square</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the Questmaster and accept a quest.</objective>
+			<description>You'll receive a detailed description of your objective, as well as any important information about the quest or the enemies you may face.</description>
+			<location>Town square</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat X enemies in the designated area.</objective>
+			<description>Once you've accepted a quest, you may be required to defeat a certain number of enemies in a specific area. This will help you gain experience points towards leveling up.</description>
+			<location>Designated enemy area</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Speak to the quest giver again to collect your reward.</objective>
+			<description>Once you've completed a quest, return to the quest giver to collect your reward. If your reward is particularly valuable, you may be able to exchange it with certain NPCs for even better rewards.</description>
+			<location>Town square</location>
+		</task>
+	</tasks>
+</game>
+```

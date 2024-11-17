@@ -1,0 +1,52 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>id12345</id>
+			<first-name>Alice</first-name>
+			(last-name>Smith</last-name>
+			 species>Human</species>
+			age>25</age>
+			role>Protagonist</role>
+			background=Alice grew up in a small town and always dreamed of going on exciting adventures. She has a natural curiosity and a strong sense of justice.</background>
+			place-of-birth>Small Town</place-of-birth>
+			physical-appearance>
+				eye-color蓝</eye_color>
+				hair-colorBlonde</hair_color>
+				height=5.6</height>
+			Weight=135</weight>
+			// Corrected syntax
+			<name>Alice</name>
+			<label>Protagonist</label>
+			<description>Alice is a young human who dreams of becoming the greatest hero in the world.</description>
+			<birthday>2024-01-05</birthday>
+			<title>Great Adventure</title>
+			的角色="Protagonist"
+			background="Alice grew up in a small town and always dreamed of going on exciting adventures. She has a natural curiosity and a strong sense of justice.</background>
+			place-of-birth>Small Town</place-of-birth>
+			physical-appearance>
+				eye-color蓝</eye_color>
+				hair-colorBlonde</hair_color>
+				height=5.6</height>
+			Weight=135</weight>
+			// Corrected syntax
+			<description>Alice is a young human who dreams of becoming the greatest hero in the world.</description>
+			<title>Great Adventure</title>
+			的角色="Protagonist"
+			background="Alice grew up in a small town and always dreamed of going on exciting adventures. She has a natural curiosity and a strong sense of justice.</background>
+			place-of-birth>Small Town</place-of-birth>
+			Physical-appearance>
+				eye-color蓝</eye_color>
+				hair-colorBlonde</hair_color>
+				height=5.6</height>
+			Weight=135</weight>
+			// Corrected syntax
+			<description>Alice is a young human who dreams of becoming the greatest hero in the world.</description>
+			<title>Great Adventure</title>
+			的角色="Protagonist"
+			background="Alice grew up in a small town and always dreamed of going on exciting adventures. She has a natural curiosity and a strong sense of justice."
+			place-of-birth>Small Town</place-of-birth>
+			physical-appearance>
+				eye-color蓝</eye_color>
+				hair-colorBlonde
+```

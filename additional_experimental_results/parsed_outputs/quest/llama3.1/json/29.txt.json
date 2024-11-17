@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "G001",
+    "title": "The Lost City",
+    "objective": "Find the lost city of gold and retrieve the ancient artifact.",
+    "description": "The city has been hidden for centuries, but a recent earthquake has revealed its location. Be cautious, as the city is said to be filled with traps and treasure hunters.",
+    "reward": "1000 gold pieces",
+    "quest_giver": "Gorvoth, the village elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Reach the entrance of the lost city",
+        "description": "Navigate through the jungle and find the hidden entrance to the city.",
+        "location": "Jungle of Shadows"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve the ancient artifact",
+        "description": "Find the artifact within the city's temple and retrieve it safely.",
+        "location": "Temple of Gold"
+      },
+      {
+        "order": 3,
+        "objective": "Escape the lost city",
+        "description": "Make your way back to the entrance and escape the city before it collapses.",
+        "location": "Jungle of Shadows"
+      }
+    ]
+  }
+}

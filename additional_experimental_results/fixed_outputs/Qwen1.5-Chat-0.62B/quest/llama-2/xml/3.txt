@@ -1,0 +1,37 @@
+```
+<?xml version="1.0"?>
+<question>
+	<question-type>
+		<type>
+			<title type>
+			 question type description</title type>
+				<divlass>question type description</divlass>
+			</title-type>
+		</type>
+	</question-type>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<title>quest title</title>
+	<body>quest body</body>
+</question>
+```
+
+## Example
+```xml
+<?xml version="1.0"?>
+<question>
+	<question-type>
+		<title type>
+			 question type description</title type>
+				<divlass>question type description</divlass>
+			</title-type>
+		</type>
+		<objective>quest objective</objective>
+		<description>quest description</description>
+		<reward>quest reward</reward>
+		<title>quest title</title>
+	<body>quest body</body>
+</question>
+```

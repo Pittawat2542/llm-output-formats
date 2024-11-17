@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quests: Your Character's Past</title>
+	<objective>Discover your character's past</objective>
+	<description>You have a memory of past events that have changed your life, but you don't know which event will be the most important.</description>
+	<reward>quests-past</reward>
+	<quest-giver>Quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>Task order</order>
+			<objective>Task objective</objective>
+			<description>Task description</description>
+			<location>Task location</location>
+		</task>
+	</tasks>
+</game>
+```
+

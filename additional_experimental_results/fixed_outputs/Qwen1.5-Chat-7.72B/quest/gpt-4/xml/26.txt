@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>The Lost Artifact Quest</title>
+    <objective>Retrieve the Sunstone from Mount Everest's summit</objective>
+    <description>The quest is to conquer Mount Everest and retrieve a sunstone, an artifact said to bring prosperity to the land. Be cautious as its power attracts unwanted attention.</description>
+    <reward>1000 gold, a magical amulet, and a deed to a precious mine</reward>
+    <quest-giver>Experienced Climber (Eldarin)</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Assemble the climbing team</objective>
+            <description>Recruit a skilled group and gather necessary equipment from the Mountain Village guide.</description>
+            <location>Mountain Village</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Climb Everest's Ice壁</objective>
+            <description>Scale the icy walls using the climbing skills learned from the Village Climbing School.</description>
+            <location>Mount Everest Base Camp</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Bypass treacherous patches</objective>
+            <description>Overcome the steep snow and ice by using ropes and ice axes provided by the team.</description>
+            <location>Everest's Ascent Route</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objectiveReach the summit and retrieve the Sunstone</objective>
+            <description>Once at the summit, locate the hidden cave housing the artifact and secure it.</description>
+            <location>Mount Everest Summit</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return to the Village with the Sunstone</objective>
+            <description>Bring the Sunstone back to Eldarin, the village elder, for proper storage and celebration.</description>
+            <location>Village Council Hall</location>
+        </task>
+    </tasks>
+</game>
+```

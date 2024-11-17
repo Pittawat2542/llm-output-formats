@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "Sample Quest Title",
+    "objective": "Complete the Temple",
+    "description": "A quest to recover a lost artifact",
+    "reward": "Golden Amulet",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Search the Forest",
+          "description": "Follow the tracks by the riverbank",
+          "location": "East Forest Trail"
+        },
+        {
+          "@order": "2",
+          "objective": "Deliver to Guildmaster",
+          "description": "Bring the amulet to City Hall",
+          "location": "City Hall"
+        }
+      ]
+    }
+  }
+}

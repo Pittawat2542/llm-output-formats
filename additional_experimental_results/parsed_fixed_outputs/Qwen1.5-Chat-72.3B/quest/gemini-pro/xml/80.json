@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Enchanted Forest",
+    "objective": "Find the lost princess in the enchanted forest.",
+    "description": "The princess has been kidnapped by an evil witch and taken to her castle in the enchanted forest. You must venture into the forest, find the castle, and rescue the princess.",
+    "reward": "A magic sword and a bag of gold.",
+    "quest-giver": "The king",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the enchanted forest.",
+          "description": "The entrance to the enchanted forest is hidden in the mountains to the east. Find the path that leads to the mountains and follow it until you find the entrance.",
+          "location": "Mountains to the east"
+        },
+        {
+          "order": "2",
+          "objective": "Find the witch's castle.",
+          "description": "Once you have entered the enchanted forest, follow the path that leads to the witch's castle. The castle is located in the center of the forest and is surrounded by a moat.",
+          "location": "Center of the forest"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the princess.",
+          "description": "Once you have found the witch's castle, enter the castle and find the princess. She will be locked in a tower at the top of the castle. Defeat the witch and her minions, and then rescue the princess.",
+          "location": "Tower at the top of the castle"
+        },
+        {
+          "order": "4",
+          "objective": "Return the princess to the king.",
+          "description": "Once you have rescued the princess, return her to the king in the castle town. The king will reward you for your bravery.",
+          "location": "Castle town"
+        }
+      ]
+    }
+  }
+}

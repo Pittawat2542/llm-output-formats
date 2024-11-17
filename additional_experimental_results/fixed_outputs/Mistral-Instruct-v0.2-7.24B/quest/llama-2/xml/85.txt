@@ -1,0 +1,31 @@
+
+<xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<id>1</id>
+	<title>A Quest for the Golden Apple</title>
+	<objective>Collect 5 golden apples</objective>
+	<description>The legendary golden apple tree holds the key to unlocking great power. Retrieve 5 golden apples from it and bring them back to me.</description>
+	<reward>A powerful enchantment scroll</reward>
+	<quest-giver>Grimwald, the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the location of the golden apple tree</objective>
+			<description>Rumors say that the golden apple tree is located deep within the Enchanted Forest. Speak to the forest guardian for more information.</description>
+			<location>Enchanted Forest, near the Whispering Willows</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Protect the golden apples from the forest creatures</objective>
+			<description>The forest creatures are known to be quite protective of their territory. Use your wits and skills to overcome any challenges.</description>
+			<location>Enchanted Forest, near the Whispering Willows</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Bring 5 golden apples to Grimwald</objective>
+			<description>Bring the golden apples to Grimwald as proof of your achievement.</description>
+			<location>Grimwald's Tower, in the Heart of the Forest</location>
+		</task>
+	</tasks>
+</game>
+```

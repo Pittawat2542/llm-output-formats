@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>Defeat the Dark Lord's Lieutenant</title>
+	<objective>Kill Xarath, the Dark Lord's most trusted lieutenant.</objective>
+	<description>The dark lord has sent his most powerful lieutenant to take over the land. Defeat him and save the people from his tyranny.</description>
+	<reward>10 Gold Pieces and a Magical Sword</reward>
+	<quest-giver>Eira, the Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to Xarath's Castle</objective>
+			<description>The lieutenant's castle is located on a hill overlooking the land. Be careful not to get caught in his traps.</description>
+			<location>Xarath's Castle, Hilltop</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat Xarath's Minions</objective>
+			<description>The lieutenant has many minions guarding the castle. Defeat them to get closer to your goal.</description>
+			<location>Xarath's Castle, Throne Room</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Engage in Combat with Xarath</objective>
+			<description>The final battle is against the lieutenant himself. Be prepared for a tough fight.</description>
+			<location>Xarath's Castle, Dark Lord's Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy id="e1">
+    <name>Enemy 1</name>
+    <description>This is an example enemy.</description>
+    <stats>
+      <hp>50</hp>
+      <mp>20</mp>
+      <atk>30</atk>
+      <def>15</def>
+      <spd>25</spd>
+    </stats>
+  </enemy>
+  <!-- Add more enemies if needed -->
+</game>
+```
+
+I've fixed the syntax, added a proper encoding attribute (`encoding="UTF-8"`), and wrapped the `<enemy>` element with an `id` attribute for clarity. If you need to add more enemies, simply copy the `<enemy>` block and change the `id`, `name`, and `description` values as needed.

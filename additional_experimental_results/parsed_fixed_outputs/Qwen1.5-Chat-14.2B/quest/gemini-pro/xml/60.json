@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Merchant",
+    "objective": "Find the missing merchant, Marco.",
+    "description": "Marco, a traveling merchant, has gone missing while on his way to deliver a shipment of goods to the town of Riverwood. His last known location was at the Crossroads Inn, just outside of town. You have been hired by Marco's wife, Marlena, to find him and bring him home safely.",
+    "reward": "100 gold, a set of fine clothes, and a magic amulet.",
+    "quest-giver": "Marlena, Marco's wife",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the innkeeper at the Crossroads Inn.",
+          "description": "The innkeeper at the Crossroads Inn may have information about Marco's whereabouts. Talk to him and see if he remembers seeing Marco or anyone else matching his description.",
+          "location": "The Crossroads Inn, just outside of Riverwood"
+        },
+        {
+          "order": "2",
+          "objective": "Search the area around the inn for clues.",
+          "description": "Marco may have left behind some clues that could lead to his whereabouts. Search the area around the inn for anything that looks out of place or suspicious.",
+          "location": "The area around the Crossroads Inn"
+        },
+        {
+          "order": "3",
+          "objective": "Follow the clues to find Marco.",
+          "description": "The clues you find around the inn may lead you to Marco's location. Follow them to find him and bring him safely home.",
+          "location": "Varies depending on the clues found"
+        }
+      ]
+    }
+  }
+}

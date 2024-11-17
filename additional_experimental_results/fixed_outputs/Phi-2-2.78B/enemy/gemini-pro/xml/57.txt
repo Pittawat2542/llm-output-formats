@@ -1,0 +1,42 @@
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Slime</name>
+		<description>A small, green blob of goo with a mischievous smile.</description>
+		<stats>
+			<hp>10</hp>
+			<mp>0</mp>
+			<atk>2</atk>
+			<def>1</def>
+			<spd>4</spd>
+		</stats>
+	</enemy>
+
+	<enemy>
+		<id>2</id>
+		<name>Goblin</name>
+		<description>A small, gray creature with a mischievous glint in its eye.</description>
+		<stats>
+			<hp>8</hp>
+			<mp>3</mp>
+			<atk>2</atk>
+			<def>1</def>
+			<spd>4</spd>
+		</stats>
+	</enemy>
+
+	<enemy>
+		<id>3</id>
+		<name>Dragon</name>
+		<description>A large, scaly creature with fiery breath and a fierce demeanor.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>25</mp>
+			<atk>50</atk>
+			<def>5</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+</game>
+
+

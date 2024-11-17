@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="dialogue_1">
+            <speaker>Speaker A</speaker>
+            <text>Narration 1</text>
+        </dialogue>
+        
+        <dialogue order="dialogue_2">
+            <speaker>Speaker B</speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+In the fixed XML, I removed the duplicate `xmlns` attributes and adjusted the element names to conform to XML standards. Also, I added new dialogue elements with proper order values and text content.

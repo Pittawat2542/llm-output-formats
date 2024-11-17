@@ -1,0 +1,31 @@
+```
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Raise the temple from the depths of the jungle to uncover its ancient secrets.</objective>
+	<description>A local villager has asked for your help in retrieving a powerful artifact from an ancient lost temple deep within the jungle. The temple has been hidden for centuries and is now overgrown with vines and treacherous terrain.</description>
+	<reward>1000 gold, +50 reputation</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Meet with the village shaman to gather information about the temple's location.</objective>
+			<description>The village shaman has knowledge of the ancient rituals and may be able to provide you with clues on how to locate the lost temple. Speak with him in the village tavern.</description>
+			<location>Village Tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the treacherous jungle terrain to reach the temple entrance.</objective>
+			<description>The journey will be arduous, but with your skills and a map provided by the shaman, you should be able to find your way. Be cautious of wild beasts and deadly traps that may be guarding the path.</description>
+			<location>Jungle Terrain</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the temple's ancient puzzles to unlock the artifact chamber.</objective>
+			<description>Once inside the temple, you will encounter a series of challenging puzzles that must be solved in order to unlock the artifact chamber. Think carefully and use your wits to overcome these obstacles.</description>
+			<location>Temple Puzzles</location>
+		</task>
+	</tasks>
+</game>
+```

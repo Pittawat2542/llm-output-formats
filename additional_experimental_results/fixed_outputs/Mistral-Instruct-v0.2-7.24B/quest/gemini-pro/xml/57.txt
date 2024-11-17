@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Defeat the Dragon</title>
+	<objective>To defeat the dragon and save the kingdom.</objectative>
+	<description>The dragon has been terrorizing the kingdom for years, and the king has called upon the brave warriors of the land to slay it. The dragon's lair is located in the Dark Forest, a treacherous place filled with dangerous creatures and hidden traps.</description>
+	<reward>A large sum of gold and the title of "Dragon Slayer".</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Dark Forest.</objective>
+			<description>The Dark Forest is located to the east of the kingdom. It is a dangerous place, so be sure to come prepared.</description>
+			<location>East of the Kingdom</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the dragon's lair.</objective>
+			<description>The dragon's lair is located in the deepest part of the Dark Forest. It is a dark and dangerous place, so be sure to be careful.</description>
+			<location>Deepest part of the Dark Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the dragon.</objective>
+			<description>The dragon is a powerful and dangerous creature. Be sure to come prepared for a tough fight.</description>
+			<location>Dragon's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

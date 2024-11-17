@@ -1,0 +1,27 @@
+
+from flask import Flask, jsonify, request
+app = Flask(__name__)
+
+games_data = [
+    {
+        'title': 'Game 1',
+        'synopsis': 'This is game synopsis for game1',
+        'beginning': 'The beginning of the game',
+        'ending': 'The ending of the game'
+    },
+    {
+        'title': 'Game 2',
+        'synopsis': 'This is game synopsis for game2',
+        'beginning': 'The beginning of the game',
+        'ending': 'The ending of the game'
+    }
+]
+
+@app.route('/games')
+def get_games():
+    return jsonify(games_data)
+
+if __name__ == "__main__":
+    app.run()
+```
+

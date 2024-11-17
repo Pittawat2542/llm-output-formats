@@ -1,0 +1,17 @@
+Error: key_completeness: The key 'id' is missing., The key 'title' is missing., The key 'objective' is missing., The key 'reward' is missing., The key 'quest_giver' is missing.
+New YAML: 
+```yaml
+game:
+  description: quest description
+  objectives:
+    first objective: quest objective
+    second objective: quest objectiv
+  rewards:
+    title: quest reward
+    money: 0
+    experience: 0
+  tasks:
+    first task: task description
+    second task: task description
+    third task: task description
+```

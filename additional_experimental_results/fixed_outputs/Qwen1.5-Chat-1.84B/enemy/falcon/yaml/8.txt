@@ -1,0 +1,26 @@
+Game:
+  enemy:
+    description:description
+    id: id
+    name: name
+    stats:
+      atk: 14
+      def: 8
+      hp: 20
+      mp: 6
+      spd: 15
+
+## Markdown code block
+```yaml
+game:
+  enemy:
+    description: Description of the infiltrator enemy.
+    id: id
+    name: Name of the infiltrator enemy.
+    stats:
+      atk: 14
+      def: 8
+      hp: 20
+      mp: 6
+      spd: 15
+```

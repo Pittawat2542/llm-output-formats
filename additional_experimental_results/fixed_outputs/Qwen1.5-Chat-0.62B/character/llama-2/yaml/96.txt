@@ -1,0 +1,131 @@
+The YAML data should be corrected as follows:
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11"
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The syntax should be correct as follows:
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11"
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+New values for the `first_name` and `last_name` variables should be provided if needed.
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith Johnson
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11"
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The `first_name` and `last_name` variables should now be provided in the code block. The original message is now between ```yaml and ```.
+```yaml
+template:
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11'
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The output format is the same as the [YAML](https://yaml.org/) format.
+## Tests
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith Johnson
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11'
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The output format is the same as the [YAML](https://yaml.org/) format.
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith Johnson
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11'
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The `first_name` and `last_name` variables should now be provided in the code block. The original message is now between ```yaml and ```.
+```yaml
+```yaml
+game:
+  character:
+    age: 21
+    background: The character was born in a small town in the United States. 
+    first_name: John Smith Johnson
+    id: 21
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 5'11'
+      weight: 180 lbs
+    place_of_birth: United States
+    role: A police officer
+    species: Human
+```
+The output format is the same as the [YAML](https://yaml.org/) format.
+## Test Results

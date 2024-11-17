@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>101</id>
+	<title>Get Lucky</title>
+	<objective>find a lucky 4-leaf clover</objective>
+	<description>Collect a rare and elusive 4-leaf clover to bring good luck.</description>
+	<reward>gold</reward>
+	<quest-giver id="100">some guy</quest-giver>
+	<tasks>
+		<task>
+			<order>2</order>
+			<objective>cheat</objective>
+			<description>It is forbidden to cheat, but in dire need, it may be the only way.</description>
+		</task>
+		<task>
+			<order>1</order>
+			<objective>find a 4-leaf clover</objective>
+			<description>Search high and low in fields of green to find this rare treasure.</description>
+			<location>Forest, Meadow</location>
+		</task>
+	</tasks>
+</game>
+```

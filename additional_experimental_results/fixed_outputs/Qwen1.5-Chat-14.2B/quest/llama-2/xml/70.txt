@@ -1,0 +1,34 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id123</id>
+	<title>Embark on the Enchanted Journey</title>
+	<objective>
+		Conquer the Crystal Cavern and retrieve the lost artifact
+	</objective>
+	<description>
+		Embark on a perilous adventure to find the hidden chamber within the mysterious Crystal Cavern. The key to victory lies in deciphering ancient riddles and outsmarting mystical guardians.
+	</description>
+	<reward>
+		The legendary Sword of the Ancients, +10 Experience Points
+	</reward>
+	<quest-giver>Guild Master Aldrin</quest-giver>
+	<tasks>
+		<task id="task001">
+			<order>1</order>
+			<objective>Investigate the entrance and find the first clue</objective>
+			<location>The Ancient Oak, near the village square</location>
+		</task>
+		<task id="task002">
+			<order>2</order>
+			<objective>Solve the riddle at the Enchanted Fountain</objective>
+			<location>Fountain of Wisdom, in the center of the forest</location>
+		</task>
+		<task id="task003">
+			<order>3</order>
+			<objective>Defeat the Guardian Lizard in the Cavern's first chamber</objective>
+			<location>The Crystal Cavern Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

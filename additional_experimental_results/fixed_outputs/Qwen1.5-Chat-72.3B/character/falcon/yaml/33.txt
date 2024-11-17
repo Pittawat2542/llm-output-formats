@@ -1,0 +1,16 @@
+```yaml
+game:
+  character:
+    age: 30
+    background: In the present, he is a respected officer in the US Army
+    first_name: John
+    last_name: Williams
+    id: 12345
+    physical_appearance:
+      eye_color: blue
+      hair_color: brown
+      height: 6.2
+      weight: 175.0
+    species: Dragonborn
+```
+I fixed the syntax errors and adjusted the values according to the provided template. The height and weight are now in float values as requested, and the "species" entry is properly indented under "character". The extraneous hyphen and parentheses around "species" have been removed.

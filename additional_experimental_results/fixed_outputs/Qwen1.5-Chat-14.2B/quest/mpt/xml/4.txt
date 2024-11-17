@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id_value</id>
+	<title>quest_title</title>
+	<objective>quest_objective</objective>
+	<description>quest_description</description>
+	<reward>quest_reward</reward>
+	<quest-giver quest_giver_name="Quest_Giver_Name">quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task_order_value</order>
+			<objective>task_objective</objective>
+			<description>task_description</description>
+			<location>task_location</location>
+		</task>
+	</tasks>
+</game>
+```
+I've added the missing `quest_giver_name` attribute to `<quest-giver>` with a placeholder value "Quest_Giver_Name". Please replace it with the actual name. The rest of the structure is fixed and complete.

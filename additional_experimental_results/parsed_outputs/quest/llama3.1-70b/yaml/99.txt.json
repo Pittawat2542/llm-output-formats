@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The ancient temple of the moon goddess has been desecrated by a dark cult.",
+    "id": "Q0001",
+    "objective": "Purify the temple and restore the balance of nature.",
+    "quest_giver": "High Priestess Aria Moonwhisper",
+    "reward": "Moonstone Amulet (+10% magic resistance)",
+    "tasks": [
+      {
+        "description": "Gather sacred herbs in the Whispering Woods to create a purification ritual.",
+        "location": "Whispering Woods",
+        "objective": "Collect 5 rare herbs",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate the cult's hideout and retrieve a stolen relic.",
+        "location": "Cult Hideout",
+        "objective": "Retrieve Moonstone Chalice",
+        "order": 2
+      },
+      {
+        "description": "Perform the purification ritual at the ancient temple.",
+        "location": "Ancient Temple of the Moon Goddess",
+        "objective": "Restore balance of nature",
+        "order": 3
+      }
+    ],
+    "title": "The Desecrated Temple"
+  }
+}

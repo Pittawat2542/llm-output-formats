@@ -1,0 +1,26 @@
+game.character:
+  First Name: John Doe
+  Last Name: Doe
+  age: 30
+  place_of_birth: San Francisco
+  physical_appearance:
+    eye_color: Blue
+    hair_color: Brown
+    height: 5'10"
+    weight: 120lbs
+
+## Output (for an age and place of birth example)
+```yaml
+game.character:
+
+  First Name: John Doe
+  Last Name: Doe
+  age: 30
+
+  place_of_birth: San Francisco
+  physical_appearance:
+    eye_color: Blue
+    hair_color: Brown
+    height: 5'10"
+    weight: 120lbs
+```

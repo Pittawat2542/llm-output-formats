@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Crystal",
+    "objective": "Recover the missing crystal from the Goblin King.",
+    "description": "The Goblin King has stolen the Crystal of Power, and the kingdom is in chaos. You must travel to the Goblin Kingdom and retrieve the crystal.",
+    "reward": "The Crystal of Power and the gratitude of the kingdom.",
+    "quest-giver": "King Frederick",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Goblin Kingdom.",
+          "description": "The Goblin Kingdom is located in the Dark Forest. You can reach it by following the path east of the town.",
+          "location": "Dark Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the Goblin King.",
+          "description": "The Goblin King is in the Goblin Castle, which is in the center of the Goblin Kingdom.",
+          "location": "Goblin Castle"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Goblin King.",
+          "description": "The Goblin King is a powerful warrior. You will need to be prepared for a tough fight.",
+          "location": "Goblin Throne Room"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the Crystal of Power.",
+          "description": "The Crystal of Power is in the Goblin King's treasure room.",
+          "location": "Goblin Treasure Room"
+        },
+        {
+          "order": "5",
+          "objective": "Return the Crystal of Power to King Frederick.",
+          "description": "Return to the town and speak with King Frederick to complete the quest.",
+          "location": "Town Square"
+        }
+      ]
+    }
+  }
+}

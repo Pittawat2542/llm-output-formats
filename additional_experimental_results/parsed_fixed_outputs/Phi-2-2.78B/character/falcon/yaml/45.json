@@ -1,0 +1,33 @@
+{
+  "game": {
+    "character": {
+      "john": {
+        "background": "John was born in a small town where he had a knack for tinkering with things.",
+        "id": 1,
+        "last_name": "Johnson",
+        "physical_appearance": {
+          "eye_color": "blue",
+          "height": 160.4,
+          "weight": 70.3
+        }
+      },
+      "mary": {
+        "background": "Mary moved from the city to the countryside to start a new life.",
+        "id": 5,
+        "last_name": "Johnson",
+        "physical_appearance": {
+          "eye_color": "green",
+          "hair_color": "brown",
+          "height": 162.6,
+          "weight": 60.2,
+          "place": "London",
+          "role": "role of the character",
+          "species": "human",
+          "name": {
+            "first_name": "Mary|John"
+          }
+        }
+      }
+    }
+  }
+}

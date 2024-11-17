@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A Quest for the Lost Ring
+  id: 101
+  objective: Retrieve the ring from the King's treasure chamber
+  quest_giver: the wise wizard
+  reward: Title of the英勇 champion
+  tasks:
+   - description: Search the castle library
+    location: Hall of Knowledge
+    objective: Find a map leading to the chamber
+    order: 1
+   - description: Enter the chamber and face the guardian creature
+    location:Treasure Room
+    objective: Defeat the Guardian and reach the ring
+    order: 2
+   - description: Return the ring to the King for validation
+    location: Royal Audience Chamber
+    objective: Present the found ring
+    order: 3
+  title: Quest to Find the Lost Ring
+```

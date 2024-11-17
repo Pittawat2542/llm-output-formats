@@ -1,0 +1,24 @@
+
+<game>
+	<character>
+		<id>0</id>
+		<first-name>First name</first-name>
+		<last-name>Last name</last-name>
+		<species>0</species>
+		<age>20</age>
+		<role>player 1</role>
+		<background>
+			<placeOfBirth id="where_did_he_come_from">
+				<id>1</id>
+				<name name="where_did_he_come_from"/>
+			</placeOfBirth>
+			<physicalAppearance id="what_does_he_look_like">
+				<eyes id="eyeColor" name="eyeColor"/>
+				<hair-color id="hairColor" name="hairColor"/>
+				<height id="height" name="height"/>
+				<weight id="weight" name="weight"/>
+			</physicalAppearance>
+		</background>
+	</character>
+</game>
+

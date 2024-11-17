@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456789</id>
+    <title>The Quest for the Golden Relic</title>
+    <objective>Capture the Golden Relic from the ancient pyramid</objective>
+    <description>Embark on a perilous adventure to uncover the sacred artifact. Solve cryptic riddles, overcome traps, and outsmart the guardians to succeed.</description>
+    <reward>5000 gold coins + mystical amulet</reward>
+    <quest-giver>Pharaoh's Guardian</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Acquire the ancient artifact guide</objective>
+            <description>Consult the library for a clue on where to find the artifact guide</description>
+            <location>Library of Ancient Knowledge</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Decipher the hieroglyphs in the tomb map</objective>
+            <description>Unravel the hidden message to uncover the entrance's coordinates</description>
+            <location>Tomb of the Pharaohs</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Climb the pyramid and navigate the traps</objective>
+            <description>Face the pyramid's challenges, including a rickety staircase and a booby-trapped passage</description>
+            <location>Pyramid of sunken secrets</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Defeat the guardian and access the chamber</objective>
+            <description>Battle the pyramid's guardian, then use the artifact guide to unlock the chamber door</description>
+            <location>Guardian's Keep</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Claim the Golden Relic and claim victory</objective>
+            <description>Rescue the relic from its pedestal and claim your place among history</description>
+            <location>Golden Relic Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

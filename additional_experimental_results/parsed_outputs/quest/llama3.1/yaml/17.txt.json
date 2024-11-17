@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "The village of Willowdale is plagued by a terrible curse. Crops wither and die, livestock falls ill, and the villagers are plagued by dark visions. The village elder approaches you, asking for your help in uncovering the source of the curse.",
+    "id": "quest_001",
+    "objective": "Find the cause of the curse afflicting Willowdale and put an end to it",
+    "quest_giver": "Willowdale Village Elder",
+    "reward": {
+      "experience": 500,
+      "gold": 1000,
+      "item": "Cured Crystal"
+    },
+    "tasks": [
+      {
+        "description": "Investigate the village's crops and livestock for signs of dark magic or corruption.",
+        "location": "Willowdale",
+        "objective": "Gather information about the curse's effects on the village",
+        "order": 1
+      },
+      {
+        "description": "Speak with the village's resident scholar, who may have knowledge about ancient curses.",
+        "location": "Willowdale Village Elder's Hut",
+        "objective": "Consult with the scholar to gather more information",
+        "order": 2
+      },
+      {
+        "description": "Explore the nearby forest and search for any signs of dark creatures or ritual sites.",
+        "location": "Darkwood Forest",
+        "objective": "Uncover evidence of the curse's source",
+        "order": 3
+      }
+    ],
+    "title": "The Cursed Village"
+  }
+}

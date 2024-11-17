@@ -1,0 +1,37 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Narrator
+    text: In a bustling city filled with towering skyscrapers, a young woman named Emily embarks on a journey to uncover ancient secrets.
+  - order: 2
+    speaker: Emily
+    text: Where am I going? This place is so strange.
+  - order: 3
+    speaker: Mysterious Stranger
+    text: Where you are is a place between the worlds, Emily.
+  - order: 4
+    speaker: Emily
+    text: Between the worlds? What do you mean?
+  - order: 5
+    speaker: Mysterious Stranger
+    text: You'll discover the truth soon enough. But for now, remember: the path to the Lost City is hidden.
+  - order: 6
+    speaker: Emily
+    text: The Lost City? Why am I here?
+  - order: 7
+    speaker: Mysterious Stranger
+    text: Your destiny is intertwined with the fate of the Lost City. Your presence here is no coincidence.
+  - order: 8
+    speaker: Emily
+    text: I feel like there's more to this, who are you?
+  - order: 9
+    speaker: Mysterious Stranger
+    text: Time will reveal my identity, Emily. But for now, remember the path is hidden.
+  - order: 10
+    speaker: Narrator
+    text: Emily ventures forward, guided by the words of the Mysterious Stranger. Little did she know how extraordinary her journey would become.
+```
+
+### Explanation:
+The error message indicates that mapping values are not allowed where they are being used. In this case, it appears that there is an extra comma and a blank line causing the issue in line 29. By removing the extra comma and the blank line, we can correct the syntax and eliminate the error. The corrected YAML data is shown above.

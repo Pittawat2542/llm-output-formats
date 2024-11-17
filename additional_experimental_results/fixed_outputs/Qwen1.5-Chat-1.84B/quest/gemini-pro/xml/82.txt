@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="game.xsd">
+	<id>1</id>
+	<title>The Hero's Journey</title>
+	<objective>Defeat the evil dragon and rescue the princess.</objective>
+	<description>You are a young adventurer who has been chosen to save the kingdom from the evil dragon. You must travel to the dragon's lair, defeat it, and rescue the princess.</description>
+	<reward>The princess's hand in marriage and the kingdom's gratitude.</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Travel to the dragon's lair.</objective>
+				description>The dragon's lair is located in the mountains to the east. It is a dangerous journey, but you must persevere.</description>
+			<location>The mountains to the east</location>
+			<travel>
+				<duration>10</duration>
+			</travel>
+			<task>
+				<order>2</order>
+				<objective>Defeat the dragon.</objective>
+				description>The dragon is a powerful creature, but you must not fear it. Use your skills and weapons to defeat it.</description>
+			<location>The dragon's lair</location>
+			<task>
+				<order>3</order>
+				<objective>Rescue the princess.</objective>
+				description>The princess is being held captive in the dragon's lair. Find her and bring her back to safety.</description>
+			<location>The dragon's lair</location>
+			<travel>
+				<duration>15</duration>
+			</travel>
+			<task>
+				<order>4</order>
+				<objective>Return to the king.</objective>
+				description>Once you have rescued the princess, return to the king and claim your reward.</description>
+			<location>The castle</location>
+			<travel>
+				<duration>12</duration>
+			</travel>
+		</tasks>
+	</game>
+</xml>
+
+```

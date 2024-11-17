@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "Recover the lost artifact of Eldoran",
+    "description": "The ancient artifact of Eldoran has been stolen by the dark elves. Your mission is to venture into their territory and recover the artifact.",
+    "reward": "500 gold coins and a special magic item",
+    "quest-giver": "High Priest Eldareth",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Infiltrate the dark elven tower",
+          "description": "You must find a way to infiltrate the guarded tower of the dark elves.",
+          "location": "Dark Elven Tower"
+        },
+        {
+          "order": "2",
+          "objective": "Recover the artifact",
+          "description": "The artifact is located at the top of the tower, guarded by the elf sorceress.",
+          "location": "Dark Elven Tower top"
+        },
+        {
+          "order": "3",
+          "objective": "Return the artifact to Eldareth",
+          "description": "Once you have the artifact, escape the tower and return to Eldareth in the temple.",
+          "location": "Eldoran Temple"
+        }
+      ]
+    }
+  }
+}

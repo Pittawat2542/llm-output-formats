@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>speaker name</speaker>
+      <text>dialogue or narration</text>
+    </dialogue>
+  </dialogues>
+</game>
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlns:urn="urn:nano" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:nano nansi">
+  <urn:nano:root>
+    <nx:person>
+      <nx:name>John Smith</nx:name>
+    </nx:person>
+    <nx:person>
+      <nx:name>Jane Doe</nx:name>
+    </nx:person>
+    <!-- and so on for each person in order -->
+  </urn:nano:root>
+</xmlns:urn>
+```

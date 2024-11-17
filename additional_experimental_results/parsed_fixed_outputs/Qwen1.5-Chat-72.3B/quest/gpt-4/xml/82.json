@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact from the ruins",
+    "description": "Deep within the forest, a forgotten ruin lies hidden. Rumors have it that an ancient artifact is kept there. Your task is to retrieve this artifact.",
+    "reward": "3000 Gold and Ancient Sword",
+    "quest-giver": "Old Sage Merton",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the hidden ruins",
+          "description": "The ruins are located deep within the Eastern forest, past the twelfth tree from the Magical Stone.",
+          "location": "Eastern forest"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the artifact",
+          "description": "Search the ruins and retrieve the ancient artifact. Be wary of traps and guardians.",
+          "location": "Forgotten Ruins"
+        }
+      ]
+    }
+  }
+}

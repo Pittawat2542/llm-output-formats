@@ -1,0 +1,16 @@
+Here is the corrected XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+
+I've added the missing `encoding` attribute to the XML declaration and closed the `<dialogue>` and `<dialogues>` tags properly.

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hey, do you want to play a game?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Friend</speaker>
+			<text>Sure, what game do you have in mind?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>How about a game of chess?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Friend</speaker>
+			<text>That sounds great! Let's set up the board.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+### Explanation:
+This exercise is an application of the ability to fix incorrect XML data. The provided error message indicates that the XML code is not well-formed (invalid token). This means that there are syntax errors in the XML, such as missing or extra tags. To correct this, we need to identify and fix any syntax errors in the code. 
+The original XML code has several issues, including incorrect order tags for dialogue, missing speaker tags, and no text content inside the dialogues tag. We can fix these by adding the necessary tags and providing appropriate text content. For example, we can add an <order>1</order> tag before each dialogue and provide a description of the order in the text content.
+Overall, fixing incorrect XML data requires careful attention to detail and knowledge of XML syntax rules. It is important to carefully review the code and identify any errors or inconsistencies before making changes. With practice, it becomes easier to fix incorrect XML data and create well-formed and error-free XML documents.

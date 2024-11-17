@@ -1,0 +1,32 @@
+game:
+  dialogues:
+  - order: dialogue order
+   speaker: speaker name
+   text: dialogue or narration
+
+original_message = """\
+Error: incorrect_syntax: found undefined alias 'Sophia'
+in "<unicode string>", line 14, column 11:
+   *Sophia walks the Player to a se ... 
+  ^
+"""
+
+game = {
+    "dialogues": [{
+        "order": 1,
+        "speaker": "Sophia",
+        "text": "Hello, I am Sophia. Welcome to the library."
+    }, {
+        "order": 2,
+        "speaker": "Player",
+        "text": "Yes, I am looking for a book on the history of the city."
+    }, {
+        "order": 3,
+        "speaker": "Sophia",
+        "text": "We have several books on that topic. Let me show you."
+    }]
+}
+
+print(yaml.dump(game))
+```
+

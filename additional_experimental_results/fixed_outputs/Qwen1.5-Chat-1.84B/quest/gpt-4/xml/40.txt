@@ -1,0 +1,56 @@
+Corrected XML Data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="QST101">
+    <title Dragon's Desolation</title>
+    <objective Defeat the mighty Dragon</objective>
+    <description The Dragon has ravaged the nearby village. Your mission is to track down and defeat the Dragon.</description>
+    <reward 5000 gold coins and Legendary Dragon Slayer Sword</reward>
+    <quest-giver King Arthur</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective Find clues about Dragon's location</objective>
+            <description Search the destroyed village and nearby forest for any clues leading to Dragon's location.</description>
+            <location Village Alfres</location>
+        </task>
+        <task order="2">
+            <objective Track down the Dragon</objective>
+            <description Use the clues collected to track down and locate the Dragon.</description>
+            <location Misty Mountains</location>
+        </task>
+        <task order="3">
+            <objective Defeat the Dragon</objective>
+            <description Fight and defeat the Dragon to bring peace to the village.</description>
+            <location Dragon's Den, Misty Mountains</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="QST101">
+    <title Dragon's Desolation</title>
+    <objective>Defeat the mighty Dragon</objective>
+    <description The Dragon has ravaged the nearby village. Your mission is to track down and defeat the Dragon.</description>
+    <reward 5000 gold coins and Legendary Dragon Slayer Sword</reward>
+    <quest-giver King Arthur</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective Find clues about Dragon's location</objective>
+            <description Search the destroyed village and nearby forest for any clues leading to Dragon's location.</description>
+            <location Village Alfres</location>
+        </task>
+        <task order="2">
+            <objective Track down the Dragon</objective>
+            <description Use the clues collected to track down and locate the Dragon.</description>
+            <location Misty Mountains</location>
+        </task>
+        <task order="3">
+            <objective Defeat the Dragon</objective>
+            <description Fight and defeat the Dragon to bring peace to the village.</description>
+            <location Dragon's Den, Misty Mountains</location>
+        </task>
+    </tasks>
+</game>
+```

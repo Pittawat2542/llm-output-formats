@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>quests</title>
+	<description>This is a list of quests.</description>
+	<tasks>
+		<task>
+			<name id="0">objective</name>
+			<description description="- ?@id:=0"></description>
+			<objective>task objective</objective>
+			<order>task order</order>
+		</task>
+		<!-- Additional tasks can be added following the same structure -->
+	</tasks>
+	<quest-giver></quest-giver>
+	<!-- Include quest details here, if needed -->
+</game>
+```
+
+In this corrected XML format, I've removed the incorrect syntax at the beginning and added a `<description>` element with the given `Markdown` code block. I also changed the structure to reflect that the quests are part of the `game` root element. The `quest-giver` is left empty because no specific value was provided in the original message, but it can be filled in as needed.

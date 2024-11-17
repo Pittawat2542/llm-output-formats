@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact in the ruins.",
+    "description": "Search through the old ruins to locate the lost artifact and bring it back to quest giver.",
+    "reward": "100 experience points and a magical amulet",
+    "quest-giver": "Arintha, the Elven Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Ruins of Eldrid",
+          "description": "Locate and enter the entrance to the ancient ruins.",
+          "location": "Ruins of Eldrid, west of the village"
+        },
+        {
+          "order": "2",
+          "objective": "Find the Artifact Chamber",
+          "description": "Navigate through the ruins and locate the chamber where the artifact is kept.",
+          "location": "Deep within the Ruins of Eldrid"
+        },
+        {
+          "order": "3",
+          "objective": "Recover the Lost Artifact",
+          "description": "Defeat any guardians and retrieve the artifact from its pedestal.",
+          "location": "The Heart of the Ruins, inner sanctum"
+        }
+      ]
+    }
+  }
+}

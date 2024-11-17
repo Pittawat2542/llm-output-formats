@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>Q001</id>
+  <title>The Lost City</title>
+  <objective>Find the hidden city of Eldarath.</objective>
+  <description>Eldarath is a lost city deep in the heart of the forest, filled with ancient artifacts and treasures. The city is hidden behind a series of puzzles and trials that only the bravest adventurers can overcome.</description>
+  <reward>A golden amulet, a map to the city of gold, and 1000 experience points.</reward>
+  <quest-giver>Elara, the wise sorceress</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Obtain the first trial key.</objective>
+      <description>The first trial is hidden in the Whispering Woods. Find and obtain the golden acorn that unlocks the door to the trial.</description>
+      <location>Whispering Woods, at the base of the ancient tree</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Solve the riddle of the ancient ones.</objective>
+      <description>The second trial is a series of riddles etched into the walls of the lost city. Solve each riddle to unlock the next door.</description>
+      <location>The Lost City, in the heart of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

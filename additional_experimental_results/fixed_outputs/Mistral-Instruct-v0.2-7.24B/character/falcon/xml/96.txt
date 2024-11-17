@@ -1,0 +1,42 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>Robert</first-name>
+		<last-name>Hitchcock</last-name>
+		<species>Homo sapiens</species>
+		<age>32</age>
+		<role>Actor</role>
+		<background>Culham, Norfolk</background>
+		<place-of-birth>Culham, Norfolk</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>hazel</eye-color>
+				<hair-color>black</hair-color>
+				<height>1.7</height> <!-- changed the value to a float -->
+				<weight>63.4</weight> <!-- changed the value to a float -->
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Emma</first-name>
+		<last-name>Hitchcock</last-name>
+		<species>Homo sapiens</species>
+		<age>24</age>
+		<role>Assistant</role>
+		<background>London, England</background>
+		<place-of-birth>London, England</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>hazel</eye-color>
+				<hair-color>black</hair-color>
+				<height>1.7</height> <!-- changed the value to a float -->
+				<weight>63.4</weight> <!-- changed the value to a float -->
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

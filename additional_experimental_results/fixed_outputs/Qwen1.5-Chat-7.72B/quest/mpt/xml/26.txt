@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete the Temple</objective>
+    <description>A ancient artifact awaits you in the Forbidden Valley.</description>
+    <reward>Gold, experience, and a rare sword</reward>
+    <quest-giver>Old Aric</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Find the entrance to the valley</objective>
+            <description>Follow the tracks by the river</description>
+            <location>Valley East Bank</location>
+        </task>
+    </tasks>
+</game>
+```

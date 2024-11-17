@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "1234567890",
+    "title": "Quest Adventure",
+    "objective": "Complete the Temple of Anubis",
+    "description": "A journey to uncover ancient artifacts",
+    "reward": "Golden Amulet and 100 gold coins",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Find the entrance key",
+        "description": "Search the nearby grove",
+        "location": "Greenwood Grove"
+      }
+    }
+  }
+}

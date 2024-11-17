@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the dragon's den</objective>
+	<description>You are tasked with infiltrating the dragon's den to retrieve a lost artifact believed to possess immense power. You'll have to outwit the dragon and avoid its fire breath to succeed.</description>
+	<reward>5000 gold pieces and a magical sword</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the dragon's den</objective>
+			<description>Travel through the enchanted forest and across the treacherous mountains to locate the dragon's den</description>
+			<location>Dragon's Den</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the artifact</objective>
+			<description>Find a way to retrieve the artifact from the dragon without being detected.</description>
+			<location>Inside Dragon's Den</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return to King Arthur</objective>
+			<description>After securing the artifact, make your way back to King Arthur's court and present him the treasure.</description>
+			<location>King Arthur's court</location>
+		</task>
+	</tasks>
+</game>
+```

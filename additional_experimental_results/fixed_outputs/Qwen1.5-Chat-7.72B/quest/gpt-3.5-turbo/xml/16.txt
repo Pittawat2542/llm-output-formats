@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>67890</id>
+    <title>The Mysterious Adventure</title>
+    <objective>Unravel the Mystery of the Sunken Galleon</objective>
+    <description>In this quest, you embark on a perilous journey to uncover the sunken treasure of an infamous pirate. Follow the clues, crack ciphers, and overcome perils to locate the hidden wealth.</description>
+    <reward>500 gold coins plus a unique artifact</reward>
+    <quest-giver>Blackbeard's Ghost</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the Old Logbook</objective>
+            <description>Search the old dockside for the logbook containing clues to the map's location.</description>
+            <location>Dockside</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Solve the Cryptic Riddle at the Seaside Crossroads</objective>
+            <description>Head to the crossroads by the海边 and decipher the riddle to proceed to the desert clue.</description>
+            <location>Seaside Crossroads</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find the Missing Pirate's Key</objective>
+            <description>Battle the undead pirate on a sunken ship to retrieve the key needed for the hidden chamber.</description>
+            <location>Sunken Ship</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Explore the Cursed Jungle Temple</objective>
+            <description>Navigate the treacherous jungle and uncover the entrance to the temple where the key lies.</description>
+            <location>Cursed Jungle Temple</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Unseal the Sunken Treasure</objective>
+            <description>Unlock the hidden chamber with the key and claim the sunken treasure of Captain Blackbeard's legacy.</description>
+            <location>Hidden Sunken Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

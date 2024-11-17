@@ -1,0 +1,28 @@
+```yaml
+game:
+  enemy:
+    description: "Description of Enemy"
+    id: "12345"
+    name: "Enemy Name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 200
+      mp: 30
+      spd: 75
+```
+Output YAML:
+
+```yaml
+game:
+  enemy:
+    description: "Description of Enemy"
+    id: "12345"
+    name: "Enemy Name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 200
+      mp: 30
+      spd: 75
+```

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<game>
+    <id id="id">id</id>
+    <title quest-title="quest title">quest title</title>
+    <objective quest-objective="quest objective">quest objective</objective>
+    <description quest-description="quest description">quest description</description>
+    <reward quest-reward="quest reward">quest reward</reward>
+    <quest-giver quest-giver="quest giver">quest giver</quest-giver>
+    <tasks>
+        <task order="task order" objective="task objective" description="task description" location="task location">
+            <task>
+                <order task-order="1">
+                    <objective task-objective="2"/>
+                    <description task-description="3"/>
+                    <reward quest-reward="4"/>
+                    <quest-giver quest-giver="5"/>
+                </order>
+                <order task-order="2">
+                    <objective task-objective="6"/>
+                    <description task-description="7"/>
+                    <reward quest-reward="8"/>
+                    <quest-giver quest-giver="9"/>
+                </order>
+            </task>
+        </task>
+    </tasks>
+</game>
+```

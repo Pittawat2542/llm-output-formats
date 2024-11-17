@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QST001</id>
+  <title>The Lost Temple</title>
+  <objective>Raid the lost temple and retrieve the ancient artifact.</objective>
+  <description>A mysterious temple has been discovered deep in the jungle, and rumors of a powerful artifact hidden within its walls have drawn the attention of many adventurers. Brave the dangers of the temple and retrieve the artifact before rival treasure hunters do.</description>
+  <reward>1000 gold pieces, magical amulet granting +10% resistance to fire</reward>
+  <quest-giver>Elder Thorne</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Reach the entrance of the lost temple.</objective>
+      <description>Make your way through the dense jungle and navigate the ancient ruins to reach the entrance of the lost temple.</description>
+      <location>Jungle Ruins, Temple Entrance</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Disable the traps in the main hall.</objective>
+      <description>Avoid deadly traps and pitfalls as you make your way through the main hall of the temple.</description>
+      <location>Main Hall, Lost Temple</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieves the ancient artifact from the inner sanctum.</objective>
+      <description>Bypass magical wards and guardians to claim the ancient artifact in the heart of the temple.</description>
+      <location>Inner Sanctum, Lost Temple</location>
+    </task>
+  </tasks>
+</game>
+```

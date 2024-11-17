@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the legendary sword of light from the ancient temple.",
+    "id": "Q001",
+    "objective": "Fetch the sword and bring it back to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": "1000 gold coins, a boost in reputation, and a magical amulet",
+    "tasks": [
+      {
+        "description": "Explore the entrance of the ancient temple and retrieve the map.",
+        "location": "Temple Entrance",
+        "objective": "Find the old map",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the traps and reach the inner sanctum.",
+        "location": "Temple Inner Sanctum",
+        "objective": "Disable all traps",
+        "order": 2
+      },
+      {
+        "description": "Defeat the temple guardian to claim the legendary sword.",
+        "location": "Temple Altar",
+        "objective": "Kill the guardian",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

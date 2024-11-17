@@ -1,0 +1,23 @@
+To fix the YAML data, you need to change the value of the `id` variable to `1`. Here's an example:
+```yaml
+game:
+  enemy:
+    description: This is a description
+    id: 1
+    name: "Name"
+```
+
+This will correct the syntax and provide new values if needed. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```. Return output in YAML format and only the YAML in the Markdown code block.
+```yaml
+game:
+  enemy:
+    description: This is a description
+    id: 1
+    name: "Name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```

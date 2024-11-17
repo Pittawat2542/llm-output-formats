@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "Complete the Temple Quest",
+    "description": "Untold secrets await at the ancient temple. Solve riddles and find the treasure.",
+    "reward": "100 gold coins and a mysterious artifact",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Search the Temple Courtyard",
+        "description": "A chest lies just outside the entrance. Be cautious!",
+        "location": "Temple Courtyard"
+      }
+    }
+  }
+}

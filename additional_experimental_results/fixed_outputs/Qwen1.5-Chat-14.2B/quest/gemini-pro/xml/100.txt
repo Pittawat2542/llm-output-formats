@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>Find the Lost Scepter</title>
+	<objective>Locate and retrieve the lost scepter of the ancient king.</objective>
+	<description>The lost scepter is said to hold great power and is believed to be hidden somewhere in the Forgotten Ruins. Legend has it that the scepter can only be wielded by those of royal blood.</description>
+	<reward>The lost scepter and a reputation boost.</reward>
+	<quest-giver>High King Harald</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Forgotten Ruins.</objective>
+			<description>The Forgotten Ruins are located deep within the Cursed Forest. Be wary of the dangerous creatures that lurk within.</description>
+			<location>Cursed Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Locate the secret entrance to the catacombs.</objective>
+			<description>The scepter is said to be hidden within the catacombs beneath the Forgotten Ruins. The entrance to the catacombs is hidden and well-guarded.</description>
+			<location>Forgotten Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardians of the catacombs.</objective>
+			<description>The catacombs are guarded by powerful creatures who will stop at nothing to protect the scepter. Be prepared for a challenging battle.</description>
+			<location>Catacombs</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the lost scepter.</objective>
+			<description>Once you have defeated the guardians, retrieve the lost scepter from its resting place.</description>
+			<location>Catacombs</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the lost scepter to High King Harald.</objective>
+			<description>Once you have retrieved the scepter, return it to High King Harald in the castle.</description>
+			<location>Castle</location>
+		</task>
+	</tasks>
+</game>
+```

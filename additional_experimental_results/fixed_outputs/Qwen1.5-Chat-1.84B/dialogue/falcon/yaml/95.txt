@@ -1,0 +1,28 @@
+Here's the corrected YAML data with new values for the `order` key:
+```yaml
+[dialogues]
+  order: 
+    - speaker: speaker_name
+      text: My dialogue goes here!
+    - speaker: another_speaker_name
+      text: Another dialogue or narration
+```
+The updated YAML now correctly includes the `<block mapping start>` syntax and new values for `order`:
+```yaml
+[dialogues]
+  order: 
+    - speaker: speaker_name
+      text: My dialogue goes here!
+    - speaker: another_speaker_name
+      text: Another dialogue or narration
+```
+
+Output in YAML format:
+```yaml
+game.dialogues
+  Speaker: speaker_name
+  Text: My dialogue goes here!
+
+  Speaker: another_speaker_name
+  Text: Another dialogue or narration
+```

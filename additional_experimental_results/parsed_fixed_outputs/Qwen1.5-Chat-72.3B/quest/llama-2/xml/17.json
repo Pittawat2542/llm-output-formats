@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the depths of the dungeon.",
+    "description": "You have heard rumors that a powerful artifact is hidden deep within a long-abandoned dungeon. Your quest is to navigate its treacherous halls, overcome its challenges, and bring the artifact back to the surface.",
+    "reward": "100 gold coins and legendary status among adventurers",
+    "quest-giver": "Gnarled Old Wizard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Dungeon of Forgotten Secrets",
+          "description": "Make your way to the entrance of the dungeon, which is located at the edge of the Dark Forest.",
+          "location": "Dark Forest, Southwest corner"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Skeleton Guardian",
+          "description": "In the depths of the first level, you will encounter a skeletal guardian. Defeat it to progress.",
+          "location": "Dungeon of Forgotten Secrets, Level 1"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the Statue Puzzle",
+          "description": "On level 2, you will find a chamber with four statues.\u6392\u5217\u5b83\u4eec\u4ee5\u6253\u5f00\u9690\u85cf\u7684\u901a\u9053\u3002",
+          "location": "Dungeon of Forgotten Secrets, Level 2"
+        },
+        {
+          "order": "4",
+          "objective": "Find the Key to the Final Chamber",
+          "description": "In a hidden room on level 3, locate the key that unlocks the door to the chamber where the artifact is kept.",
+          "location": "Dungeon of Forgotten Secrets, Level 3 Hidden Room"
+        },
+        {
+          "order": "5",
+          "objective": "Retrieve the Artifact and Escape the Dungeon",
+          "description": "Use the key to unlock the final chamber and take possession of the artifact. Safely make your way back to the surface.",
+          "location": "Dungeon of Forgotten Secrets, Final Chamber"
+        }
+      ]
+    }
+  }
+}

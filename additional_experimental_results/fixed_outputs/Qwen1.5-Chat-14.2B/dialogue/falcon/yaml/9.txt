@@ -1,0 +1,16 @@
+The original YAML data has incorrect syntax because of the backticks (`) around the key-value pairs in the first entry for `player1`. Here's the corrected YAML:
+
+```yaml
+- player1:
+   - speaker: @player1
+     text: Hi, I'm here to play
+   - order: :03
+   - text: :03
+
+- player2:
+   - speaker: @player2
+   - order: :01
+   - text: Hey, I'm here too!
+```
+
+The values for `speaker` and `text` keys are now without backticks, and the YAML structure is fixed.

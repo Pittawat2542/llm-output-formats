@@ -1,0 +1,30 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>11</id>
+		<first-name>John</first-name>
+		<last-name>Smith</last-name>
+		<species>human</species>
+		<age>32</age>
+		<role>doctor</role>
+		<background>John Smith was born in London. He is a doctor.</background>
+		<place-of-birth>London</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>brown</eye-color>
+				<hair-color>brown</hair-color>
+				<height>6.4</height>
+				<weight>200.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+# Explanation
+
+The error message suggests that there is a problem on the line 22, column 0. However, in the provided XML data, line 22 starts with `<physical-appearance>`, which does not contain any syntax errors.
+
+It's worth noting that in the original XML, the height and weight values under the physical-appearance tag are incorrectly formatted. They should be decimal numbers (float) instead of strings. In the fixed version, I have updated these values to comply with the correct format.

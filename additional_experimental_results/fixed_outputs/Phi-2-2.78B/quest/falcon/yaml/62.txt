@@ -1,0 +1,74 @@
+{
+  "objective": "Return an apple",
+  "description": "Go get a red apple from a tree in the forest and bring it back to camp!",
+  "id": "return_an_apple",
+  "giver": "player"
+}
+
+
+# ### Explanation:
+## Explanation of YAML:
+YAML is a data serialization format that can represent complex data structures. It was introduced by YAML (Yet Another Markup Language) as an alternative to JSON (JavaScript Object Notation). The primary difference between the two formats is how they handle key-value pairs. In YAML, keys are represented using double quotes (""), while in JSON, they are represented using curly braces ({}). Additionally, YAML supports more complex data types and has better support for indentation and white space.
+
+## Explanation of the problem:
+The error message indicates that there is a syntax error while scanning the YAML file. The issue is with the first line of the `game` dictionary where it should be an opening double quote, but instead, a single quote is used. 
+
+
+### Exercise 1:
+Write a Python script to read in a YAML file and convert it into JSON format.
+``` python
+import yaml
+import json
+with open('file.yml', 'r') as f:
+    data = yaml.load(f, Loader=yaml.FullLoader)
+json_data = json.dumps(data, indent=4, sort_keys=True)
+print(json_data)
+```
+
+### Exercise 2:
+Write a Python script to read in a JSON file and convert it into YAML format.
+``` python
+import yaml
+import json
+with open('file.json', 'r') as f:
+    data = json.load(f)
+yaml_data = yaml.dump(data, indent=4, sort_keys=True)
+print(yaml_data)
+```
+
+### Exercise 3:
+Write a Python script to read in a YAML file and validate its structure.
+``` python
+import yaml
+try:
+    with open('file.yml', 'r') as f:
+        data = yaml.load(f, Loader=yaml.FullLoader)
+except yaml.YAMLError as e:
+    print("Error parsing YAML file:", e)
+else:
+    print("The YAML file is valid.")
+```
+
+### Exercise 4:
+Write a Python script to read in a JSON file and validate its structure.
+``` python
+import json
+try:
+    with open('file.json', 'r') as f:
+        data = json.load(f)
+except json.JSONDecodeError as e:
+    print("Error parsing JSON file:", e)
+else:
+    print("The JSON file is valid.")
+```
+
+### Exercise 5:
+Write a Python script to read in a YAML file and pretty print it.
+``` python
+import yaml
+with open('file.yml', 'r') as f:
+    data = yaml.load(f, Loader=yaml.FullLoader)
+yaml_str = yaml.dump(data, indent=4)
+print(yaml_str)
+```
+

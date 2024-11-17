@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<game>
+    <id>12345</id>
+    <title>Rescue the Princess</title>
+    <objective>Save the princess from the evil dragon</objective>
+    <description>The princess has been kidnapped by a fearsome dragon. Embark on a dangerous journey to rescue her and bring peace to the kingdom.</description>
+    <reward>1000 gold coins</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Obtain a powerful sword</objective>
+            <description>In order to defeat the dragon, you will need a legendary sword. Find the ancient ruins and retrieve the sword.</description>
+            <location>Ancient Ruins</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Rescue the captured knights</objective>
+            <description>The dragon has captured several knights who tried to save the princess before you. Free the knights from the dragon's lair.</description>
+            <location>Dragon's Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Confront the dragon</objective>
+            <description>Facing the dragon will not be easy. Gather your courage and confront the dragon in its lair.</description>
+            <location>Dragon's Lair</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Save the princess</objective>
+            <description>Finally, rescue the princess from the clutches of the dragon and bring her back to the kingdom.</description>
+            <location>Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>

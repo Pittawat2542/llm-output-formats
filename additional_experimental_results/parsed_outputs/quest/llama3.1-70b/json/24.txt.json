@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the ruins of Eldarath",
+    "description": "The city of Eldarath was said to hold the secrets of the ancient civilization. Legends speak of a powerful artifact hidden within its walls, waiting to be claimed.",
+    "reward": "Eldarathian Amulet (+10% magic damage) and 1000 gold pieces",
+    "quest_giver": "Arin the Sage",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Explore the Ruins of Eldarath",
+        "description": "Venture into the ancient city, avoiding deadly traps and fending off hostile creatures.",
+        "location": "Eldarathian Ruins (40.34, 23.11)"
+      },
+      {
+        "order": "2",
+        "objective": "Unlock the Sealed Chamber",
+        "description": "Find a way to bypass the magical wards protecting the artifact chamber.",
+        "location": "Eldarathian Ruins (40.35, 23.10)"
+      },
+      {
+        "order": "3",
+        "objective": "Claim the Ancient Artifact",
+        "description": "Take possession of the relic and return to Arin the Sage for reward.",
+        "location": "Eldarathian Ruins (40.34, 23.09)"
+      }
+    ]
+  }
+}

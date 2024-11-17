@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>In a distant land, an ancient artifact is said to hold immense power. Locate it in the forgotten ruins and bring it back to the quest giver.</description>
+	<reward>1000 gold coins and a legendary weapon</reward>
+	<quest-giver>Grimm the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Consult the ancient map for the ruins' location.</objective>
+			<description>You've obtained a map filled with cryptic symbols. Decipher it to find the entrance to the ruins.</description>
+			<location>Library of Elders</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian at the entrance.</objective>
+			<description>A powerful beast stands guard at the ruins. Only by defeating it can you enter.</description>
+			<location Ruins Entrance></location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate the traps and puzzles within the ruins.</objective>
+			<description>The artifact is well protected. Solve the ancient traps and riddles to reach it.</description>
+			<location Ruins Interior></location>
+		</task>
+	</tasks>
+</game>
+```

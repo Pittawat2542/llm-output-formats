@@ -1,0 +1,10 @@
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: text 
+      narrative: narration text, for example (spoken), could be dialogue, narrations, etc.
+
+Explanation: The error was that the root of the result is not a dictionary because there are no key-value pairs in the text variable.
+
+

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "5678",
+    "title": "The Quest for the Amulet",
+    "objective": "Recover the Amulet of Power and present it to Queen Regalia",
+    "description": "A perilous quest awaits you, my brave adventurer. The Amulet of Power has been misplaced in an ancient castle hidden within the mountains. Your objective is to uncover its whereabouts and return it to the queen's hands.",
+    "reward": "Valuable artifact + 1500 gold coins",
+    "quest-giver": "King Arthurs' Court",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Examine the castle's east wing for hidden clues",
+          "description": "Come across a crypt in the east wing that seems out of place. Uncover the secret door within to proceed.",
+          "location": "Castle East Wing"
+        },
+        {
+          "order": "2",
+          "objective": "Find the Amulet's Map in the library",
+          "description": "The map to the inner chamber is likely hidden among the ancient tomes in the castle's library. Be cautious of wandering ghosts.",
+          "location": "Castle Library"
+        },
+        {
+          "order": "3",
+          "objective": "Battle the Dragon Guardian in the inner sanctum",
+          "description": "A fierce dragon guards the amulet's chamber. Bravery and cunning are required to defeat it.",
+          "location": "Amulet's Inner Sanctum"
+        }
+      ]
+    }
+  }
+}

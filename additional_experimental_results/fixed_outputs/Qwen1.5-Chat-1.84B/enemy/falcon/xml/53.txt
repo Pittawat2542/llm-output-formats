@@ -1,0 +1,39 @@
+XML data after fixing the incorrect syntax and providing new values:
+```xml
+<game>
+	<enemy>
+		<id id="id">name</name>
+		<description description>
+			desc description
+		</description>
+		<stats>
+			hp hp int value
+			mp mp int value
+			atk atk int value
+			def def int value
+			spd spd int value
+		</stats>
+	</enemy>
+</game>
+```
+Output in XML format and Markdown code block:
+```xml
+<game>
+	<entry id="id">
+		<enemy name="enemy">
+			<id>id</id>
+			<name>name</name>
+			<description description="desc description">
+				desc description
+			</description>
+			<stats>
+				hp hp int value
+				mp mp int value
+				atk atk int value
+				def def int value
+				spd spd int value
+			</stats>
+		</enemy>
+	</entry>
+</game>
+```

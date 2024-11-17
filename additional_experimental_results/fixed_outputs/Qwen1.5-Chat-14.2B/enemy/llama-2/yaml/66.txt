@@ -1,0 +1,31 @@
+The issue with the original YAML data is that there's a stray backtick (`) at the end, which isn't part of any valid syntax. I've removed it to fix the incorrect syntax. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+If you want to provide new values for the int values, you can do so like this:
+
+```yaml
+game:
+  enemy:
+    description: "Description of the enemy"
+    id: "ENEMY_ID_1"
+    name: "Enemy Name"
+    stats:
+      atk: 250
+      def: 150
+      hp: 500
+      mp: 300
+      spd: 75
+```

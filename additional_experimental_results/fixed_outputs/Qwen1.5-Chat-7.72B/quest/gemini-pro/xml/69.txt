@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Golden Quest for Blackbeard's Treasure</title>
+    <objective>Uncover the treasure of Blackbeard at his hidden island.</objective>
+    <description>Track down the notorious pirate and claim his wealth for yourself. Success awaits those brave enough to embark on this adventure.</description>
+    <reward>A chest brimming with precious artifacts and rare coins.</reward>
+    <quest-giver>Rebecca, the Sea Witch's Oracle</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective> board the Blackbeard's Legacy ship </objective>
+            <description> Board the legendary vessel at the harbor of Port Royal.</description>
+            <location>Port Royal Harbor, Blackbeard's Legacy ship</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective> Seek the hidden chamber in the captain's cabin</objective>
+            <description> Search for a secret compartment within the ship's quarters.</description>
+            <location>Captain's Cabin, Blackbeard's Legacy ship</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective> Follow the clues from the chamber to the treasure map</objective>
+            <description> The map will lead you to a map of the island's treasure location.</description>
+            <location>Treasure Map, Blackbeard's Legacy ship</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective> Explore and find the treasure at the marked spot</objective>
+            <description> Once you locate the coordinates on the island, venture to the specified spot.</description>
+            <location>Treasure Island, marked spot</location>
+        </task>
+    </tasks>
+</game>
+```

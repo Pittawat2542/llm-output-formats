@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Investigate the mysterious occurrence at the ancient ruins and put an end to whatever evil force is stirring.
+  id: Q001
+  objective: Defeat the dark sorcerer responsible for the disturbance.
+  quest_giver: Eryndor Thorne, the village elder.
+  reward: 100 gold pieces and a magical amulet granting resistance to fire.
+  tasks:
+    - description: Speak with the local scholar to gather information about the ancient ruins' history.
+      location: The village library.
+      objective: Obtain a cryptic clue about the dark sorcerer's lair.
+      order: 1
+    - description: Explore the ancient ruins, searching for any signs of dark magic or hidden passages.
+      location: The ancient ruins, located east of the village.
+      objective: Discover the entrance to the dark sorcerer's lair.
+      order: 2
+    - description: Infiltrate the dark sorcerer's lair and gather intel on their plans.
+      location: The dark sorcerer's lair, hidden within the ancient ruins.
+      objective: Gather information about the dark sorcerer's plan to resurrect an ancient evil.
+      order: 3
+  title: "The Shadows of the Ancients"
+```

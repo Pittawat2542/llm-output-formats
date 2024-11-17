@@ -1,0 +1,508 @@
+The issue with the provided YAML data was that each quest block started with a dash (`-`) for the tasks list, but it wasn't indented properly. Here's the corrected YAML:
+
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 2
+game:
+  description: "Quest description"
+  id: 2
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 3
+game:
+  description: "Quest description"
+  id: 3
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 4
+game:
+  description: "Quest description"
+  id: 4
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 5
+game:
+  description: "Quest description"
+  id: 5
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 6
+game:
+  description: "Quest description"
+  id: 6
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 7
+game:
+  description: "Quest description"
+  id: 7
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 8
+game:
+  description: "Quest description"
+  id: 8
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 9
+game:
+  description: "Quest description"
+  id: 9
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 10
+game:
+  description: "Quest description"
+  id: 10
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 11
+game:
+  description: "Quest description"
+  id: 11
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 12
+game:
+  description: "Quest description"
+  id: 12
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 13
+game:
+  description: "Quest description"
+  id: 13
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 14
+game:
+  description: "Quest description"
+  id: 14
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 15
+game:
+  description: "Quest description"
+  id: 15
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 16
+game:
+  description: "Quest description"
+  id: 16
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 17
+game:
+  description: "Quest description"
+  id: 17
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 18
+game:
+  description: "Quest description"
+  id: 18
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 19
+game:
+  description: "Quest description"
+  id: 19
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 20
+game:
+  description: "Quest description"
+  id: 20
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 21
+game:
+  description: "Quest description"
+  id: 21
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 22
+game:
+  description: "Quest description"
+  id: 22
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 23
+game:
+  description: "Quest description"
+  id: 23
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 24
+game:
+  description: "Quest description"
+  id: 24
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 25
+game:
+  description: "Quest description"
+  id: 25
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 26
+game:
+  description: "Quest description"
+  id: 26
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 27
+game:
+  description: "Quest description"
+  id: 27
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 28
+game:
+  description: "Quest description"
+  id: 28
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 29
+game:
+  description: "Quest description"
+  id: 29
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 30
+game:
+  description: "Quest description"
+  id: 30
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 31
+game:
+  description: "Quest description"
+  id: 31
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 32
+game:
+  description: "Quest description"
+  id: 32
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 33
+game:
+  description: "Quest description"
+  id: 33
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 34
+game:
+  description: "Quest description"
+  id: 34
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 35
+game:
+  description: "Quest description"
+  id: 35
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+
+### Quest 36
+game:
+  description: "Quest description"
+  id: 36
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+    - description: "Task description"
+      location: "Task location"
+      objective: "Task objective"
+      order: 1
+  title: "Quest title"
+```
+
+Note that I've removed the extraneous spaces before the dash in each quest block.

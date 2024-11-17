@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Missing Heirloom",
+    "objective": "Find the missing family heirloom, a precious diamond necklace.",
+    "description": "The grandmother of the noble family has lost her beloved diamond necklace. It's up to you to find it before the grand ball tonight.",
+    "reward": "A magical amulet granting +10 charm points",
+    "quest-giver": "Baroness Isabella",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Spy on the suspicious maid, Agatha.",
+          "description": "You need to follow Agatha and see if she's involved in the theft of the necklace.",
+          "location": "The castle east wing, near the kitchen."
+        },
+        {
+          "order": "2",
+          "objective": "Search the garden for any clues.",
+          "description": "The thief might have hidden in plain sight. Look for any unusual objects or footprints.",
+          "location": "The castle garden, near the fountain."
+        }
+      ]
+    }
+  }
+}

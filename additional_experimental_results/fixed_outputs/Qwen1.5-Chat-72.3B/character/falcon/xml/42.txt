@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>{ id }</id>
+		<first-name>{ first name }</first-name>
+		<last-name>{ last name }</last-name>
+		<species>{ species }</species>
+		<age>{ age in years }</age>
+		<role>{ role of the character }</role>
+		<background>{ background story }</background>
+		<place-of-birth>{ city, state or country }</place-of-birth>
+		<physical-appearance>
+			<eye-color>{ eye-color in hex codes }</eye-color>
+			<hair-color>{ hair-color in hex codes }</hair-color>
+			<height>{ height in meters }</height>
+			<weight>{ weight in kilograms }</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

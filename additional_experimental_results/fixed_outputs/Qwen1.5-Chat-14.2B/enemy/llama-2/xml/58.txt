@@ -1,0 +1,19 @@
+The provided XML data has a syntax error in that the closing `</stats>` tag is not indented properly. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>21</id>
+		<name>Troll</name>
+		<description>A troll is a type of creature that lives in the forest. They are known for their strength and often live in groups.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```

@@ -1,0 +1,30 @@
+```yaml
+game:
+  dialogues:
+   - order: 1
+    speaker: John
+    text: "I'm going to the store."
+   - order: 2
+    speaker: Mary
+    text: "I'm going to the store too."
+   - order: 3
+    speaker: John
+    text: "Okay, I'll meet you there."
+   - order: 4
+    speaker: Mary
+    text: "Great, I'll see you there."
+   - order: 5
+    speaker: John
+    text: "I'm going to the store again."
+   - order: 6
+    speaker: Mary
+    text: "This time, we're both going."
+   - order: 7
+    speaker: John
+    text: "Let's make plans for later."
+   - order: 8
+    speaker: Mary
+    text: "Sounds good, see you then!"
+
+```
+The YAML data has been fixed by removing the unnecessary and duplicate `text` entries. The last dialogue in example 7 had a repetition, so I removed it and added a new one with different content.

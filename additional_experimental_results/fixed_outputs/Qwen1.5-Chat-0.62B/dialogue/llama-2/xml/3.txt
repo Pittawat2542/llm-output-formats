@@ -1,0 +1,40 @@
+The correct syntax is to use `<>` before the opening tag and `>` after the closing tag. Here's the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<!-- Open dialog -->
+				<order>dialogue order</order>
+				<!-- Speaker -->
+				 speaker name
+				<!-- Text -->
+				对话或 narration
+			</dialogue>
+		<dialogues>
+			<!-- Close dialog -->
+			</dialogue>
+	</dialogues>
+</game>
+```
+The new values for `order`, `speaker`, and `text` are provided in the `<dialogue>` element. If there is nothing wrong, only the XML in the Markdown code block is returned:
+```markdown
+<game>
+	<dialogues>
+			<!-- Open dialog -->
+			<title>Open dialog</title>
+			<!-- Speaker -->
+			Speeler name
+			<!-- Text -->
+			D对话或 narration
+		<dialogues>
+			<!-- Close dialog -->
+			<title>Close dialog</title>
+			<!-- Speaker -->
+			Speeler name
+			<!-- Text -->
+			D对话或 narration
+		</dialogues>
+	</game>
+</game>
+```

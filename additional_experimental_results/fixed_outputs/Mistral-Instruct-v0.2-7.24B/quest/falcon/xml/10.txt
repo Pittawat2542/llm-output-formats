@@ -1,0 +1,22 @@
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>Quest Title</title>
+	<objective>Quests</objective>
+	<description>See my description page for more details</description>
+	<reward>My reward information </reward>
+	<quest-giver>Giver information</quest-giver> %%This tag should be <quest-giver> instead of <giver>%%
+	<order>1234</order>
+	<location>The location</location>
+	<tasks>
+		<task>
+			<order>1</order> %%Should be inside the tasks tag to maintain hierarchy%%
+			<objective>Task Objective</objective>
+			<description>Task Description</description>
+			<location>Task Location</location>
+		</task>
+	</tasks>
+</game>
+```

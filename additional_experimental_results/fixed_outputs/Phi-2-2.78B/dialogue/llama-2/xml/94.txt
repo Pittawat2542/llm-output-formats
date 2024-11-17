@@ -1,0 +1,10 @@
+
+- The following error has been identified and resolved:
+  - Line 21: SyntaxError: Unexpected token '<' at position 1
+
+  - The correct code should be: <game>
+    <dialogues>
+        ...
+    </dialogues>
+  </game>
+

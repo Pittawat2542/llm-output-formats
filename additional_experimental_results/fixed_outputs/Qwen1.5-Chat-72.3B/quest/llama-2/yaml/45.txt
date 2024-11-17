@@ -1,0 +1,15 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+  title: quest title
+```
+The issue was that there was an extra space before the `[` character in the original YAML. This caused a syntax error because it made the parser interpret the `[` as starting a new block that cannot start with this character. The corrected YAML removes that extra space, and the structure is now valid.

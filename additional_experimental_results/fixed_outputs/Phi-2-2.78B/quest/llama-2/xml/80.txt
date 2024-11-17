@@ -1,0 +1,21 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+ 	<id>id</id>
+ 	<title>quest title</title>
+ 	<objective>quest objective</objective>
+ 	<description>quest description</description>
+ 	<reward>quest reward</reward>
+ 	<quest-giver>quest giver</quest-giver>
+ 	<tasks>
+ 		<task>
+ 			<order>1</order>
+ 			<objective>complete this task in order to obtain the reward.</objective>
+ 			<description>This is a simple task that you need to complete.</description>
+ 			<location>This task can be found at the location below.</location>
+ 		</task>
+ 	</tasks>
+</game>
+```
+

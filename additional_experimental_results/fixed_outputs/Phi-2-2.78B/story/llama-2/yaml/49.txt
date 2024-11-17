@@ -1,0 +1,10 @@
+  ---
+    title: Game Title
+      contentType: application/json
+      schemaVersion: 1.1
+      properties:
+        beginning: string
+          exampleValue: "This is the beginning of the game."
+        ending: string
+          exampleValue: "And this is the end of the game!"
+```

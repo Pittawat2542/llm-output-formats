@@ -1,0 +1,30 @@
+Invalid syntax. Unable to provide new values without fixing original message.
+XML:
+```xml
+<?xml version="1.0" encoding="UTF-8" xmlns="http://www.game.com/">
+<game>
+	<dialogues>
+			<dialogue>
+				<order>1</order>
+				<speaker>Player</speaker>
+				<text>Hey, do you want to play a game?</text>
+		</dialogue>
+			<dialogue>
+				<order>2</order>
+				<speaker>Friend</speaker>
+				<text>Sure, what game do you have in mind?</text>
+		<_dialogue>
+			<dialogue>
+				<order>3</order>
+				<speaker>Player</speaker>
+				<text>How about a trivia quiz?</text>
+		<_dialogue>
+			<dialogue>
+				<order>4</order
+                <speaker>Friend</speaker>
+                <text>That sounds fun! I'm in!</text>
+            </dialogue>
+        </dialogues>
+    </game>
+</game>
+```

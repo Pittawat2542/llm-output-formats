@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient scroll and return it to the village elder.",
+    "id": 1,
+    "objective": "Retrieve the ancient scroll from the lost temple in the nearby forest.",
+    "quest_giver": "Eira, the village elder",
+    "reward": "A magical amulet granting resistance to fire damage",
+    "tasks": [
+      {
+        "description": "Navigate through the forest and find the entrance to the lost temple.",
+        "location": "The nearby forest",
+        "objective": "Find the entrance to the lost temple",
+        "order": 1
+      },
+      {
+        "description": "Solve the puzzles within the temple to reach the ancient scroll chamber.",
+        "location": "The lost temple",
+        "objective": "Reach the ancient scroll chamber",
+        "order": 2
+      },
+      {
+        "description": "Obtain the ancient scroll and return it to the village elder's hut.",
+        "location": "The lost temple, then return to the village elder's hut",
+        "objective": "Return the ancient scroll to the village elder",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Temple Quest"
+  }
+}

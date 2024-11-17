@@ -1,0 +1,13 @@
+Here's the corrected YAML data with proper syntax and new values if needed:
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Character A
+    text: "First Dialogue"
+  - order: 2
+    speaker: Character B
+    text: "Second Dialogue"
+```
+The original message seemed to be missing some indentation and newlines, so I've added them correctly with two dialogue examples. Each `-` represents a separate item in the `dialogues` array, with keys like `order`, `speaker`, and `text`.

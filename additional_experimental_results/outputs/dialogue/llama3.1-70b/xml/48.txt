@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player Character</speaker>
+			<text>Welcome to the land of Eldoria, a realm of magic and wonder.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Village Elder</speaker>
+			<text>Stranger, we've been expecting you. The village of Oakwood is in dire need of your help.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player Character</speaker>
+			<text>What seems to be the problem? I'm happy to lend a hand.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Village Elder</speaker>
+			<text>A dark force has been terrorizing our village, destroying crops and homes. We suspect it's the work of a rogue sorcerer.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Narration</speaker>
+			<text>The player is given a choice to either investigate the village, seek out the rogue sorcerer, or visit the local blacksmith for supplies.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

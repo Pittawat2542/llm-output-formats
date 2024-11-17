@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "Q001",
+        "title": "The Missing Heirloom",
+        "objective": "Recover the stolen family heirloom, a rare gemstone",
+        "description": "Lady Whimsy's favorite necklace has been pilfered from her manor. She suspects foul play and requires your assistance to retrieve the stolen item.",
+        "reward": "10 gold coins and the gratitude of Lady Whimsy",
+        "quest_giver": "Lady Whimsy, the wealthy patroness",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Investigate the crime scene at Lady Whimsy's manor",
+                "description": "Speak with the staff and gather information about the theft",
+                "location": "Whimsy Manor"
+            },
+            {
+                "order": 2,
+                "objective": "Follow the lead to the local black market",
+                "description": "Meet with a contact who may have information about the stolen gemstone",
+                "location": "Black Market Alley"
+            },
+            {
+                "order": 3,
+                "objective": "Confront the thief and retrieve the stolen necklace",
+                "description": "Use your wits to outsmart the thief and reclaim the stolen item",
+                "location": "The Old Windmill"
+            }
+        ]
+    }
+}
+```

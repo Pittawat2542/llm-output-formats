@@ -1,0 +1,44 @@
+XML data:
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>Speaker name</speaker>
+      <text>dialogue or narration</text>
+    </dialogue>
+  </game>
+</game>
+```
+New values:
+```xml
+<text>Dialogue or narration (only for Markdown formatting)</text>
+
+```
+Output in Markdown format:
+```markdown
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>Speaker name</speaker>
+      <text>对话或 narration</text>
+    </dialogue>
+  </game>
+</game>
+```
+And the Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>dialogue order</order>
+      <speaker>Speaker name</speaker>
+      <text>对话或 narration</text>
+    </dialogue>
+  </game>
+</game>
+```
+The original message is provided between `<?xml` and the opening tags (````xml`).

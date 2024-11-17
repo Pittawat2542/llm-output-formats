@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to quest giver.</objective>
+	<description>Rumors say the lost artifact is hidden in a forgotten temple deep in the jungle. Bring it back to claim your reward.</description>
+	<reward>1000 gold coins and a magical amulet</reward>
+	<quest-giver>Arinthea, the Elder Mage</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the forgotten temple.</objective>
+			<description>Explore the jungle and search for any signs of the lost temple.</description>
+			<location>Jungle Clearing, southwest of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Enter the temple and navigate to its heart.</objective>
+			<description>Beware of traps and puzzles that guard the artifact.</description>
+			<location>Heart of the Forgotten Temple</location>
+		</task>
+	</tasks>
+</game>
+```

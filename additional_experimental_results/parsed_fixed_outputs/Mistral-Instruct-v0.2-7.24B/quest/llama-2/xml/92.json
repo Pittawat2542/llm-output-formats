@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Mysterious Thief",
+    "objective": "Find the thief who stole the emerald statue from the museum.",
+    "description": "You have been hired by the museum curator to find the thief who stole an emerald statue from the museum. The thief is known to be a master of disguises and has left no clues behind. Follow the leads you receive to track down the thief and recover the stolen treasure.",
+    "reward": "200 gold pieces",
+    "quest-giver": "Museum Curator",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the museum guard to learn more about the theft.",
+          "description": "The museum guard may have some useful information about the thief's identity or whereabouts. Speak to him in the museum lobby.",
+          "location": "Museum Lobby"
+        },
+        {
+          "order": "2",
+          "objective": "Follow the lead to the Thieves' Hideout.",
+          "description": "The museum guard mentioned a rumor about a thieves' hideout in the city. Investigate this lead to find clues about the thief's whereabouts.",
+          "location": "Thieves' Hideout"
+        },
+        {
+          "order": "3",
+          "objective": "Confront the thief and recover the stolen emerald statue.",
+          "description": "You have finally tracked down the thief to his hideout. Confront him and retrieve the stolen emerald statue.",
+          "location": "Thieves' Hideout"
+        }
+      ]
+    }
+  }
+}

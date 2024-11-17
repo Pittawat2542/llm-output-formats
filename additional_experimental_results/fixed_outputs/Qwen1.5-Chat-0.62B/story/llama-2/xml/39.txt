@@ -1,0 +1,27 @@
+```
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+  <title>game title</title>
+  <synopsis>game story synopsis</synopsis>
+  <beginning>
+    <endings>
+      <ending>
+        <title>ending title</title>
+      </ending>
+    </endings>
+  </game>
+]
+```
+And here is the Markdown code for it:
+```python
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+  <title>game title</title>
+  <synopsis>game story synopsis</synopsis>
+  <beginning>
+    <ending>
+      <title>ending title</title>
+    </ending>
+  </game>
+]
+```

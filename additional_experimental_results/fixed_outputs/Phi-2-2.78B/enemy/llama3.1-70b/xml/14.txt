@@ -1,0 +1,109 @@
+ 
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>E001</id>
+		<name>Goblin</name>
+		<description>A small, ugly creature.</description>
+		<stats>
+			<hp>50</hp>
+			<mp>20</mp>
+			<atk>10</atk>
+			<def>5</def>
+			<spd>15</spd>
+		</stats>
+	</enemy>
+</game>
+```
+Answer 1:
+```python
+# Exercise Solution 1 - XML parser for game characters
+import xml.etree.ElementTree as ET
+
+def parse_xml(xml):
+    root = ET.fromstring(xml)
+    for enemy in root.findall('enemy'):
+        id = int(enemy.get('id'))
+        name = enemy.find('name').text
+        description = enemy.find('description').text
+        stats = {}
+        for stat in ['hp', 'mp', 'atk', 'def', 'spd']:
+            value = int(enemy.find(stat).text)
+            stats[f"{stat}"] = value
+        print(f"ID: {id}\tName: {name}\tDescription: {description}\nStats:\n")
+        for stat, value in stats.items():
+            print(f"{stat}: {value}")
+```
+Solution Explanation: The function takes an XML string as input and parses it into an ElementTree object using `ET.fromstring()`. It then loops through all the 'enemy' elements in the root of the tree, extracting their ID, name, description, and stats properties. The stats are stored in a dictionary where the keys are the stat names and the values are the corresponding integer values. Finally, it prints out the character information in a readable format.
+
+Question 2: However, what would happen if the XML string does not contain the 'enemy' tag? How can you modify your code to handle this case gracefully?
+Answer 2: If the XML string does not contain the 'enemy' tag, then the `findall()` method will return an empty list and we won't be able to extract any data from it. To handle this case gracefully, we can add a check at the beginning of our function to see if the root node is an `<game>` element, which means there should be at least one 'enemy' element in it. If not, we can return an error message or raise an exception to indicate that something went wrong.
+```python
+def parse_xml(xml):
+    root = ET.fromstring(xml)
+    if root.tag != 'game':
+        return "Error: Invalid XML format"
+    for enemy in root.findall('enemy'):
+        id = int(enemy.get('id'))
+        name = enemy.find('name').text
+        description = enemy.find('description').text
+        stats = {}
+        for stat in ['hp', 'mp', 'atk', 'def', 'spd']:
+            value = int(enemy.find(stat).text)
+            stats[f"{stat}"] = value
+        print(f"ID: {id}\tName: {name}\tDescription: {description}\nStats:\n")
+        for stat, value in stats.items():
+            print(f"{stat}: {value}")
+```
+
+Question 3: What if the 'stats' tag contains multiple child nodes with different properties? How can you modify your code to handle this case?
+Answer 3: If the 'stats' tag contains multiple child nodes with different properties, then we need to extract each property separately and store them in a dictionary. We can use the `find()` method with the appropriate tag name as its argument to find all the child nodes of the 'stats' element. Then, for each node, we can access its text content using the `text` attribute. Finally, we can update our stats dictionary with the new values.
+```python
+def parse_xml(xml):
+    root = ET.fromstring(xml)
+    if root.tag != 'game':
+        return "Error: Invalid XML format"
+    for enemy in root.findall('enemy'):
+        id = int(enemy.get('id'))
+        name = enemy.find('name').text
+        description = enemy.find('description').text
+        stats = {}
+        for stat in ['hp', 'mp', 'atk', 'def', 'spd']:
+            value_node = enemy.find(f'stats/{stat}')
+            if value_node is None:
+                return "Error: Missing stats property"
+            value = int(value_node.text)
+            stats[f"{stat}"] = value
+        print(f"ID: {id}\tName: {name}\tDescription: {description}\nStats:\n")
+        for stat, value in stats.items():
+            print(f"{stat}: {value}")
+```
+Solution Explanation: We first check if the 'stats' element exists by using `find()` with its tag name as an argument. If it does not exist, we return an error message indicating that there is a missing 'stats' property. Otherwise, we loop through all the child nodes of the 'stats' element and extract their text content using `text`. We store each value in a dictionary where the keys are the stat names and the values are the corresponding integer values. Finally, we print out the character information in a readable format.
+
+Follow-up Exercise 1: How can you modify your code to handle cases where the 'stats' tag contains child nodes with different attributes such as 'hp', 'mp', etc.?
+Answer 1: If the 'stats' tag contains child nodes with different attributes, then we need to extract each property separately and store them in a dictionary. We can use the `find()` method with the appropriate tag name as its argument to find all the child nodes of the 'stats' element. Then, for each node, we can access its text content using the `text` attribute. Additionally, if the node has other attributes such as 'hp', 'mp', etc., then we need to extract their values using the appropriate tag name and convert them to integers using the `int()` function before adding them to our stats dictionary. Finally, we can print out the character information in a readable format.
+```python
+def parse_xml(xml):
+    root = ET.fromstring(xml)
+    if root.tag != 'game':
+        return "Error: Invalid XML format"
+    for enemy in root.findall('enemy'):
+        id = int(enemy.get('id'))
+        name = enemy.find('name').text
+        description = enemy.find('description').text
+        stats = {}
+        for stat in ['hp', 'mp', 'atk']:
+            value_node = enemy.find(f'stats/{stat}')
+            if value_node is None:
+                return "Error: Missing stats property"
+            value = int(value_node.text)
+            if 'hp' in stat:
+                stats[stat] = value
+        if 'mp' in stat:
+            stats[f"{stat}"] = int(value_node.text)
+            print(f"ID: {id}\tName: {name}\nDescription: {description}, Stats: ")
+         
+        """
+

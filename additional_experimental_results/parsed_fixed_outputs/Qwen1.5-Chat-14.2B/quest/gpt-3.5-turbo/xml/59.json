@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Necklace",
+    "objective": "Retrieve the lost necklace for the princess",
+    "description": "A priceless necklace has been stolen from the castle. The princess is devastated and requests your help in finding and returning it.",
+    "reward": "1000 gold coins",
+    "quest-giver": "Princess Amelia",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Search the Castle Grounds",
+        "description": "Investigate the castle grounds for any clues or traces of the necklace.",
+        "location": "Castle Grounds"
+      }
+    }
+  }
+}

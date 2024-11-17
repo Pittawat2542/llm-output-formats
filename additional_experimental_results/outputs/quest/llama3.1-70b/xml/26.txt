@@ -1,0 +1,33 @@
+Here is a generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>Q001</id>
+  <title>The Lost City of Eldarath</title>
+  <objective>Retrieve the ancient scroll from the lost city.</objective>
+  <description>Rumor has it that the lost city of Eldarath holds an ancient scroll containing powerful magic. The city is said to be hidden deep within the nearby forest, and many have attempted to find it but never returned.</description>
+  <reward>1000 gold pieces, a magical amulet granting +10% intelligence</reward>
+  <quest-giver>Thorold the Sage</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the lost city.</objective>
+      <description>Speak to the local villagers and gather any information they may have about the lost city. They may have heard rumors or know of someone who has attempted to find it before.</description>
+      <location>Oakwood Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Find the entrance to the lost city.</objective>
+      <description>Using the information gathered, search for the entrance to the lost city. It may be hidden behind a waterfall or guarded by fearsome creatures.</description>
+      <location>Nearby Forest</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Raid the treasure chamber.</objective>
+      <description>Make your way through the lost city, avoiding traps and battling any enemies that stand in your way. The treasure chamber should contain the ancient scroll.</description>
+      <location>The Lost City of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

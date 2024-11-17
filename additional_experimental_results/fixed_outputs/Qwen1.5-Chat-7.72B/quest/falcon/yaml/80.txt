@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: quest description
+  id: id1
+  objective: new_questobjective
+  quest_giver: new_quest_giver
+  reward: updated_quest_reward
+  tasks:
+  - description: task description
+    location: updated_task_location
+    objective: task_new_objective
+    order: task_new_order
+    title: quest_title
+
+---
+# Complete YAML with correct syntax and new values
+```yaml

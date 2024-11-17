@@ -1,0 +1,32 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy id="id1">
+			<name>name1</name>
+			<description>description1</description>
+			<stats>
+				hp 45
+				mp 22
+				atk 45
+				def 45
+				spd 45
+			</stats>
+			<enemy id="id2">
+				<name>name2</name>
+				<description>description2</description>
+				<stats>
+					hp 22
+					mp 45
+					atk 45
+					def 45
+					spd 45
+				</stats>
+			</enemy>
+	</enemy>
+</game>
+
+```
+New values:
+- `id1`: `45` (value of id attribute)
+- `id2`: `22` (value of id attribute)

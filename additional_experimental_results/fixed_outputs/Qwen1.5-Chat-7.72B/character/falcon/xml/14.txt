@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<character>
+   <id id="1234567890">id1234567890</id>
+   <first-name firstName="John Doe">First Name</first-name>
+   <last-name lastName="Doe">Last Name</last-name>
+   <species speciesID="Human">
+     <name name="Human">Human</name>
+   </species>
+   <age age="35">Thirty-Five Years Old</age>
+   <role role="Protagonist">Main Character</role>
+   <background background="Born in New York City">Background Story</background>
+   <place-of-birth placeOfBirth="New York">New York City</place-of-birth>
+   <physical-appearance physicalAppearanceId="1">
+     <eyes eyesColor="Blue">Blue Eyes</eyes>
+     <hair-color hairColor="Brown">Brown Hair</hair-color>
+     <height height="180.5">6'2" inches</height>
+     <weight weight="75.3">166 lbs.</weight>
+   </physical-appearance>
+</character>
+```

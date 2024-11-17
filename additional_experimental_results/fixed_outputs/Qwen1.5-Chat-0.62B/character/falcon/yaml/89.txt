@@ -1,0 +1,53 @@
+The correct YAML data should look like this:
+```
+game:
+  character:
+    age: 25 or a description
+    background: A story about your background,
+    first_name: Your first name
+    last_name: Your last name
+    physical_appearance:
+     - gender: Male
+     - eye_color: Brown, Green
+     - hair_color: Black
+     - height: 6'2" or "2'5"
+     - weight: 120 lbs
+```
+
+The syntax error in the original code is in line 3, column 10. It should be changed as follows:
+```yaml
+age: Your age or a description, e.g.
+```
+This will fix the syntax error and provide a correct message. The updated YAML data is now:
+```
+game:
+  character:
+    age: 25 or a description
+    background: A story about your background,
+    first_name: Your first name
+    last_name: Your last name
+    physical_appearance:
+     - gender: Male
+     - eye_color: Brown, Green
+     - hair_color: Black
+     - height: 6'2" or "2'5"
+     - weight: 120 lbs
+```
+
+The output in Markdown format is now:
+```
+game:
+  character:
+    age: 25 or a description
+    background: A story about your background,
+    first_name: Your first name
+    last_name: Your last name
+    physical_appearance:
+     - gender: Male
+     - eye_color: Brown, Green
+     - hair_color: Black
+     - height: 6'2" or "2'5"
+     - weight: 120 lbs
+```
+
+The Markdown code block is now in the correct format and contains the YAML data.

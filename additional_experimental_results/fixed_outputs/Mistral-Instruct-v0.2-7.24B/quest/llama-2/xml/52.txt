@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Find the Golden Apple</title>
+	<objective>Retrieve the stolen golden apple from the goblin camp.</objective>
+	<description>The golden apple was taken by the goblins during the night raid on the orchard. The orchard owner is desperate to get it back and has offered a valuable reward for its return.</description>
+	<reward>10 gold pieces</reward>
+	<quest-giver>Orchard Owner</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the Orchard Owner to receive your quest.</objective>
+			<description>Find the Orchard Owner in the western part of town and ask him about the stolen golden apple.</description>
+			<location>Western Part of Town</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the location of the goblin camp.</objective>
+			<description>Ask around town for information on the whereabouts of the goblin camp. Rumor has it that they've been causing trouble in the forest to the north.</description>
+			<location>Forest to the North</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the golden apple from the goblin camp.</objective>
+			<description>Once you've located the goblin camp, sneak in and retrieve the golden apple. Be careful not to alert any of the goblins or you may have to start over.</description>
+			<location>Goblin Camp</location>
+		</task>
+	</tasks>
+</game>
+```

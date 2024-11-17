@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			HP=hp int value, MP=mp int value,atk=atk int value, def=def int value, SPD=SPD int value
+	</ enemy>
+</game>
+```
+New values for `name`, `id`, and `description` as needed:
+```xml
+<?xml version="1.0"?> 
+<game>
+	< Enemy>
+			<name>Name</name>
+			<int id="id">ID</int>
+			<string name="Name</string>
+			<string description="Description"></string>
+			<pint HP int value, float MP int value, floatatk int value, float def int value, float SPD float value</pint>  // replace with the desired values
+	</ Enemy>
+</game>
+```
+Output in Markdown format:
+``` markdown
+<?xml version="1.0"?> 
+<game>
+	<敌人>
+			<name>Name</name>
+			<int id="id">ID</int>
+			<string name="Name</string>
+			<string description="Description"></string>
+			<pint HP int value, float MP int value, floatatk int value, float def int value, float SPD float value</pint>  // replace with the desired values
+	</敌人>
+</game>
+```

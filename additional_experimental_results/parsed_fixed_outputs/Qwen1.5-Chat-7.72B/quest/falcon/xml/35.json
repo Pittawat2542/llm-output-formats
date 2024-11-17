@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "QuestMaster",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Task Objective 1",
+          "description": "Task Description 1",
+          "location": "Task Location 1"
+        },
+        {
+          "order": "2",
+          "objective": "Task Objective 2",
+          "description": "Task Description 2",
+          "location": "Task Location 2"
+        },
+        {
+          "order": "3",
+          "objective": "Task Objective 3",
+          "description": "Task Description 3",
+          "location": "Task Location 3"
+        },
+        {
+          "order": "4",
+          "objective": "Task Objective 4",
+          "description": "Task Description 4",
+          "location": "Task Location 4"
+        },
+        {
+          "order": "5",
+          "objective": "Task Objective 5",
+          "description": "Task Description 5",
+          "location": "Task Location 5"
+        }
+      ]
+    }
+  }
+}

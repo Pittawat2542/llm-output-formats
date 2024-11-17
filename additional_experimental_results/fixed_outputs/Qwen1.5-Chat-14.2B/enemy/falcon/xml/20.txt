@@ -1,0 +1,22 @@
+```xml
+<game>
+	<enemy id="12">
+		<id>id_value</id>
+		<name>name_value</name>
+		<description>name description_value</description>
+		<stats>
+			<hp>hp int_value</hp>
+			<mp>mp int_value</mp>
+			<atk>atk int_value</atk>
+			<def def_value></def> <!-- Added closing tag -->
+			<spd>spd int_value</spd>
+		</stats>
+		<!-- Corrected the closing tags for hp and mp attributes -->
+		<hp>0</hp>
+		<mp>1000 -400 -1</mp>
+		<atk>250 1 -2</atk> <!-- Added space between values -->
+		<def value="1:1">8</def>
+		<mp max="14000" min="-400 -1">11000 13000 9000</mp> <!-- Fixed attribute formatting and added proper closing tag -->
+	</enemy>
+</game>
+```

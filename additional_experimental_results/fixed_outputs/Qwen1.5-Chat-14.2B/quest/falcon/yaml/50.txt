@@ -1,0 +1,33 @@
+```yaml
+### Quest
+game:
+  description: quest description
+  id: "id-1234"
+  objective:
+    - quest_giver: quest-giver-name
+  reward: "500 gold coins"
+  quest_giver: quest giver
+  location: quest-giver's location
+  tasks:
+    - description: task description
+      objective: obtain quest giver's key
+      location: task location
+      order: obtain list of keys
+  title: Quest Information
+
+Game Quest:
+  description: "Return an item from an ancient forgotten temple located within a dark, misty forest."
+  id: introduction-id
+  objective:
+    - quest_giver: guide
+  reward: "player-gains-magic-item"
+  location: player's location
+  objectives:
+    - success-rate(%): Requirements for completing the quest
+  order:
+    - objective: successful-id
+  tasks:
+    - description: success-checkout: must checkout item at old shop
+      objective: tasks(name:name)
+  rewards: "400-gold for completing side-quests"
+```

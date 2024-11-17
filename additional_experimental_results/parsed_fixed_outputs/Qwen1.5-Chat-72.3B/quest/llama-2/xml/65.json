@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Hero's Journey",
+    "objective": "Save the kingdom from an evil sorcerer.",
+    "description": "In this epic adventure, you must travel to distant lands, gather allies, and defeat the sorcerer's minions before confronting the dark lord himself.",
+    "reward": "100 gold coins and the title 'Savior of the Kingdom'",
+    "quest-giver": "King Arcturus",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather intelligence about the sorcerer's lair.",
+          "description": "Speak to the wise old hermit in the forest for information.",
+          "location": "Hermit's Hut"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the enchanted sword from the Dragon's Cave.",
+          "description": "Battle the dragon and reclaim the sword to defeat the sorcerer.",
+          "location": "Dragon's Cave"
+        }
+      ]
+    }
+  }
+}

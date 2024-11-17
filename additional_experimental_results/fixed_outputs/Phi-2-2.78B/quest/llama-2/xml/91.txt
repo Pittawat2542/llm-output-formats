@@ -1,0 +1,187 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><title>XML Example - Game Objectives and Tasks</title></head>
+  <body>
+    <!-- Example of a game with tasks -->
+    <p>This is an example of a game that contains objectives and tasks.</p>
+  </body>
+</html>
+```
+
+
+## Exercise 1:
+Write Python code to generate HTML output for a game using BeautifulSoup. The game should have the following attributes: id, title, objective, description, reward, quest-giver, and a list of tasks with their order, objective, description, and location attributes. Use the given input example as the starting point.
+
+```python
+from bs4 import BeautifulSoup
+
+# Create an object for the game
+game = {'id': '1', 'title': 'Game Title', 'objective': 'Objective of the Game', 'description': 'Description of the Game', 'reward': 'Reward for Completing the Game', 'quest-giver': 'Quest Giver', 'tasks': [{'order': 1, 'objective': 'Task Objective', 'description': 'Task Description 1', 'location': 'Location 1'}, {'order': 2, 'objective': 'Task Objective 2', 'description': 'Task Description 2', 'location': 'Location 2'}]}
+
+# Create a BeautifulSoup object from the game dictionary
+soup = BeautifulSoup(game, 'html.parser')
+
+# Print out the HTML code for the game
+print(soup)
+```
+
+## Exercise 2:
+Write Python code to generate an XML response for a game using lxml and the Game Objectives and Tasks example from Exercise 1. Use BeautifulSoup to parse the XML document.
+
+```python
+from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
+
+# Create an object for the game
+game = {'id': '1', 'title': 'Game Title', 'objective': 'Objective of the Game', 'description': 'Description of the Game', 'reward': 'Reward for Completing the Game', 'quest-giver': 'Quest Giver', 'tasks': [{'order': 1, 'objective': 'Task Objective', 'description': 'Task Description 1', 'location': 'Location 1'}, {'order': 2, 'objective': 'Task Objective 2', 'description': 'Task Description 2', 'location': 'Location 2'}]}
+
+# Create an ElementTree object from the game dictionary
+root = ET.Element('game')
+for key, value in game.items():
+    if type(value) is dict:
+        for subkey, subvalue in value.items():
+            subelement = ET.SubElement(root, f"{key}_{subkey}")
+            subelement.text = str(subvalue)
+    else:
+        subelement = ET.SubElement(root, key)
+        subelement.text = str(value)
+
+# Create a BeautifulSoup object from the ElementTree object
+xml_str = ET.tostring(root, encoding='unicode', method='html')
+soup = BeautifulSoup(xml_str, 'lxml')
+
+# Print out the XML code for the game
+print(soup)
+```
+
+
+## Exercise 3:
+Write Python code to generate an HTML response for a game that has nested tasks using BeautifulSoup. The game should have the following attributes: id, title, objective, description, reward, quest-giver, and a list of tasks with their order, objective, description, and location attributes. Use BeautifulSoup to parse the XML document.
+
+```python
+from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
+
+# Create an object for the game
+game = {'id': '1', 'title': 'Game Title', 'objective': 'Objective of the Game', 'description': 'Description of the Game', 'reward': 'Reward for Completing the Game', 'quest-giver': 'Quest Giver', 'tasks': [{'order': 1, 'objective': 'Task Objective', 'description': 'Task Description 1', 'location': 'Location 1'}, {'order': 2, 'objective': 'Task Objective 2', 'description': 'Task Description 2', 'location': 'Location 2'}]}
+
+# Create an ElementTree object from the game dictionary
+root = ET.Element('game')
+for key, value in game.items():
+    if type(value) is dict:
+        for subkey, subvalue in value.items():
+            subelement = ET.SubElement(root, f"{key}_{subkey}")
+            subelement.text = str(subvalue)
+    else:
+        subelement = ET.SubElement(root, key)
+        subelement.text = str(value)
+
+# Create a BeautifulSoup object from the ElementTree object
+xml_str = ET.tostring(root, encoding='unicode', method='html')
+soup = BeautifulSoup(xml_str, 'lxml')
+
+# Add nested tasks to the game object
+nested_task1 = soup.new_tag('task')
+nested_task2 = soup.new_tag('task')
+nested_task3 = soup.new_tag('task')
+soup.body.append(nested_task1)
+soup.body.append(nested_task2)
+soup.body.append(nested_task3)
+for task in game['tasks']:
+    if 'order' not in task:
+        task['order'] = 1
+    if 'objective' not in task:
+        task['objective'] = ''
+    if 'description' not in task:
+        task['description'] = ''
+    if 'location' not in task:
+        task['location'] = ''
+soup.body[0].find('p').string += f"\nTask 1:\n"
+soup.body[1].find('p').string += f"\nTask 2:\n"
+soup.body[2].find('p').string += f"\nTask 3:\n"
+
+# Print out the HTML code for the game with nested tasks
+print(soup)
+```
+
+
+## Exercise 4:
+Write Python code to generate an XML response that includes CSS styles using lxml and BeautifulSoup. The XML document should contain a list of tasks, each with a unique CSS style applied to it. Use a separate CSS file for the styles.
+
+```python
+from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
+
+# Define the CSS stylesheet
+with open('css/style.css', 'r') as f:
+    css_str = f.read()
+
+# Create an XML element for the tasks section
+tasks_element = ET.Element('tasks')
+for task in tasks:
+    task_element = ET.SubElement(tasks_element, 'task')
+
+    # Apply the CSS styles to the task element
+    style_element = ET.SubElement(task_element, 'style')
+    style_element.text = f"background-color: {task['color']}; color: {task['color']};"
+    style_element.append(ET.Element('p'))
+    style_element.append(ET.Element(css_str))
+
+    # Add the task data to the task element
+    for key, value in task.items():
+        if key not in ['color', 'background-color']:
+            task_element.append(ET.SubElement(task_element, key, value))
+
+# Create a BeautifulSoup object from the XML document
+soup = BeautifulSoup(tasks_element, 'lxml')
+
+# Print out the XML code for the tasks section with CSS styles applied
+print(soup)
+```
+
+
+## Exercise 5:
+Write Python code to generate an HTML response that includes a form with input fields and a submit button using BeautifulSoup. The form should include two text input fields, one for name and another for email, as well as a submit button that sends the data to a URL. Use the requests library to send HTTP requests.
+
+```python
+from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
+import requests
+
+# Define the HTML document
+html_doc = """<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="post" action="/submit">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>"""
+
+# Create a BeautifulSoup object from the HTML document
+soup = BeautifulSoup(html_doc, 'lxml')
+
+# Define the form elements and add them to the page
+name_element = soup.new_tag('input', {'type': 'text', 'id': 'name', 'name': 'name'})
+email_element = soup.new_tag('input', {'type': 'email', 'id': 'email', 'name': 'email'})
+form_element = soup.new_tag('form')
+form_element['method'] = 'post'
+form_element['action'] = '/submit'
+soup.body.append(form_element)
+soup.body.append(name_element)
+soup.body.append(email_element)
+
+# Define the URL and send a POST request to it with the form data
+url = 'https://www.example.com/submit'
+data = {'name': 'John Doe', 'email': 'johndoe@example.com'}
+response = requests.post(url, data=data)
+
+# Print out the response from the server
+print(response.text)
+```

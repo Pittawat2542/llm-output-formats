@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to quest giver.",
+    "description": "You've heard rumors that the lost artifact is hidden deep in the forest. Locate it and bring it back to quest giver.",
+    "reward": "1000 gold coins and a rare enchanted weapon",
+    "quest-giver": "Gilgamesh, the Wise Elder",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Explore the Forest of Shadows",
+        "description": "Navigate through the Forest of Shadows to find the artifact. Beware of the creatures that lurk in the shadows.",
+        "location": "Forest of Shadows"
+      }
+    }
+  }
+}

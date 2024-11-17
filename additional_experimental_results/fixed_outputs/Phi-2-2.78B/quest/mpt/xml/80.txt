@@ -1,0 +1,277 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>complete the quest</objective>
+			<description>Find the key in the abandoned temple.</description>
+			<location>Temple</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Question 1:
+Write a Python script to create an XML file from the following data. Save it as `game_data.xml`.
+
+Data:
+```python
+{
+    'id': '1234', 
+    'title': 'Quest of the Lost Kingdom', 
+    'objective': 'Find the treasure and save the princess', 
+    'description': 'Your journey begins at dawn. A message from your friend has arrived, asking for your help.',
+    'reward': 500,
+    'quest-giver': 'Kingdom Keeper',
+    'tasks': [
+        {
+            'order': 1,
+            'objective': 'Find the key to unlock the door',
+            'description': 'Enter the temple and find the key.',
+            'location': 'Temple'
+        },
+        {
+            'order': 2,
+            'objective': 'Complete the puzzle in the castle',
+            'description': 'Find the missing piece of the puzzle and complete it.',
+            'location': 'Castle'
+        }
+    ]
+}
+```
+
+### Solution 1:
+```python
+import xml.etree.ElementTree as ET
+
+data = {
+    'id': '1234', 
+    'title': 'Quest of the Lost Kingdom', 
+    'objective': 'Find the treasure and save the princess', 
+    'description': 'Your journey begins at dawn. A message from your friend has arrived, asking for your help.',
+    'reward': 500,
+    'quest-giver': 'Kingdom Keeper',
+    'tasks': [
+        {
+            'order': 1,
+            'objective': 'Find the key to unlock the door',
+            'description': 'Enter the temple and find the key.',
+            'location': 'Temple'
+        },
+        {
+            'order': 2,
+            'objective': 'Complete the puzzle in the castle',
+            'description': 'Find the missing piece of the puzzle and complete it.',
+            'location': 'Castle'
+        }
+    ]
+}
+
+root = ET.Element('game')
+root.attrib['id'] = data['id']
+
+title_elem = ET.SubElement(root, 'title')
+title_elem.text = data['title']
+
+objective_elem = ET.SubElement(root, 'objective')
+objective_elem.text = data['objective']
+
+description_elem = ET.SubElement(root, 'description')
+description_elem.text = data['description']
+
+reward_elem = ET.SubElement(root, 'reward')
+reward_elem.text = str(data['reward'])
+
+quest_giver_elem = ET.SubElement(root, 'quest-giver')
+quest_giver_elem.text = data['quest-giver']
+
+task_group_elem = ET.SubElement(root, 'tasks')
+for task in data['tasks']:
+    task_elem = ET.SubElement(task_group_elem, 'task')
+
+    order_elem = ET.SubElement(task_elem, 'order')
+    order_elem.text = str(task['order'])
+
+    objective_elem = ET.SubElement(task_elem, 'objective')
+    objective_elem.text = task['objective']
+
+    description_elem = ET.SubElement(task_elem, 'description')
+    description_elem.text = task['description']
+
+    location_elem = ET.SubElement(task_elem, 'location')
+    location_elem.text = task['location']
+
+tree = ET.ElementTree(root)
+tree.write('game_data.xml')
+```
+
+### Question 2:
+Write a Python script to read the contents of `game_data.xml`. Parse it and print out all tasks in the following format:
+- Task Number: [Order], Objectives: [Objective 1], Description: [Description]
+
+### Solution 2:
+```python
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('game_data.xml')
+root = tree.getroot()
+
+for task in root.findall('.//task'):
+    order = str(task.find('order').text)
+    objectives = [elem.text for elem in task.findall('.//objective')]
+    description = task.find('description').text
+
+    print(f"Task Number: {order}, Objectives: {', '.join(objectives)}, Description: {description}")
+```
+
+### Question 3:
+Write a Python script to modify the following XML data by adding a new `reward` field with value `1000`. Save it as `game_data_updated.xml`.
+
+Data:
+```python
+{
+    'id': '1234', 
+    'title': 'Quest of the Lost Kingdom', 
+    'objective': 'Find the treasure and save the princess', 
+    'description': 'Your journey begins at dawn. A message from your friend has arrived, asking for your help.',
+    'reward': 500,
+    'quest-giver': 'Kingdom Keeper',
+    'tasks': [
+        {
+            'order': 1,
+            'objective': 'Find the key to unlock the door',
+            'description': 'Enter the temple and find the key.',
+            'location': 'Temple'
+        },
+        {
+            'order': 2,
+            'objective': 'Complete the puzzle in the castle',
+            'description': 'Find the missing piece of the puzzle and complete it.',
+            'location': 'Castle'
+        }
+    ]
+}
+```
+
+### Solution 3:
+```python
+import xml.etree.ElementTree as ET
+
+xml_data = """
+<game>
+	<id>1234</id>
+	<title>Quest of the Lost Kingdom</title>
+	<objective>Find the treasure and save the princess</objective>
+	<description>Your journey begins at dawn. A message from your friend has arrived, asking for your help.</description>
+	<reward>500</reward>
+	<quest-giver>Kingdom Keeper</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective objective="Find the key to unlock the door" />
+			<description description="Enter the temple and find the key." />
+			<location location="Temple"/>
+		</task>
+		<task order="2">
+			<objective objective="Complete the puzzle in the castle" />
+			<description description="Find the missing piece of the puzzle and complete it." />
+			<location location="Castle"/>
+		</task>
+	</tasks>
+</game>
+"""
+root = ET.fromstring(xml_data)
+
+new_reward_elem = ET.SubElement(root, 'reward')
+new_reward_elem.text = "1000"
+
+tree = ET.ElementTree(root)
+tree.write('game_data_updated.xml')
+```
+
+### Question 4:
+Write a Python script to delete the `order` attribute from the first task in the following XML data. Save it as `game_data_updated2.xml`.
+
+Data:
+```python
+{
+    'id': '1234', 
+    'title': 'Quest of the Lost Kingdom', 
+    'objective': 'Find the treasure and save the princess', 
+    'description': 'Your journey begins at dawn. A message from your friend has arrived, asking for your help.', 
+    'reward': 500, 
+    'quest-giver': 'Kingdom Keeper', 
+    'tasks': [
+        {
+            'order': 1,
+            'objective': 'Find the key to unlock the door',
+            'description': 'Enter the temple and find the key.',
+            'location': 'Temple'
+        },
+        {
+            'order': 2,
+            'objective': 'Complete the puzzle in the castle',
+            'description': 'Find the missing piece of the puzzle and complete it.',
+            'location': 'Castle'
+        }
+    ]
+}
+```
+
+### Solution 4:
+```python
+import xml.etree.ElementTree as ET
+
+xml_data = """
+<game>
+	<id>1234</id>
+	<title>Quest of the Lost Kingdom</title>
+	<objective>Find the treasure and save the princess</objective>
+	<description>Your journey begins at dawn. A message from your friend has arrived, asking for your help.</description>
+	<reward>500</reward>
+	<quest-giver>Kingdom Keeper</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective objective="Find the key to unlock the door" />
+			<description description="Enter the temple and find the key." />
+			<location location="Temple"/>
+		</task>
+		<task order="2">
+			<objective objective="Complete the puzzle in the castle" />
+			<description description="Find the missing piece of the puzzle and complete it." />
+			<location location="Castle"/>
+		</task>
+	</tasks>
+</game>
+"""
+root = ET.fromstring(xml_data)
+
+delattr(root[0]['tasks'][0], 'order') # deletes the order attribute from the first task
+
+tree = ET.ElementTree(root)
+tree.write('game_data_updated2.xml')
+```
+
+### Question 5:
+Write a Python script to parse the contents of `game_data_updated2.xml` and print out all tasks in the following format:
+- Task Number: [Order], Objectives: [Objective 1], Description: [Description]
+
+### Solution 5:
+```python
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('game_data_updated2.xml')
+root = tree.getroot()
+
+for task in root.findall('.//task'):
+    order = str(task.find('order').text)
+    objectives = [elem.text for elem in task.findall('objective')]
+    description = task.find('description').text
+    print(f"Task Number: {order}, Objectives: {', '.join(objectives)}, Description: {description}")
+```

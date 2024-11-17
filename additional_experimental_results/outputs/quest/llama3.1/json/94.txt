@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "q1234",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "Explore the jungle, navigate the treacherous ruins, and retrieve the fabled Sceptre of Light.",
+    "reward": "1000 gold coins and 500 experience points",
+    "quest_giver": "Gorvoth, the village elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the lost temple",
+        "description": "Search for the hidden path in the jungle, leading to the temple's main gate.",
+        "location": "Jungle of Eldarath (43.72N 122.34W)"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the ancient puzzle lock",
+        "description": "Use your wits and problem-solving skills to unlock the temple's main chamber.",
+        "location": "Lost Temple Main Chamber"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the Sceptre of Light",
+        "description": "Face the treacherous traps and guardians within the temple to reach the artifact.",
+        "location": "Lost Temple Treasure Room"
+      }
+    ]
+  }
+}
+```

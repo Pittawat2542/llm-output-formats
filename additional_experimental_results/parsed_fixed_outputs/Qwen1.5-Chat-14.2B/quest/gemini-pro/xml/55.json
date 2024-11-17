@@ -1,0 +1,29 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Rescue the Princess",
+    "objective": "Save the princess from the evil dragon.",
+    "description": "The princess has been captured by the evil dragon Smaug. You must travel to his lair and rescue her before it's too late.",
+    "reward": "The princess's hand in marriage and half of the kingdom.",
+    "quest-giver": "King Harold",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the dragon's lair.",
+          "location": "Dark Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the princess.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

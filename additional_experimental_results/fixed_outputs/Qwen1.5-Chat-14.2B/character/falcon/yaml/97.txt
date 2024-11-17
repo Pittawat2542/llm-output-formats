@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    name: John Doe
+    age: 30
+    first_name: John
+    last_name: Doe
+    physical_appearance:
+      eye_color: blue
+      hair_color: brown
+      height: 5.10 # or any valid height option, formatted as a float
+      weight: 200.0 # or any valid weight option, formatted as a float
+    place_of_birth: Seattle, WA
+    role:
+      profession: Game Developer
+    species: Human
+```
+The fixed YAML data is provided above. The changes include removing the unnecessary table formatting and ensuring that the height and weight values are floats.

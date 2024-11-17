@@ -1,0 +1,19 @@
+Here's the fixed XML data with the elements from the provided template:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+   <enemy id="id4" name="enemy#4">
+      <stats>
+         <hp>hp int value</hp>
+         <mp>mp int value</mp>
+         <atk>atk int value</atk>
+         <def>def int value</def>
+         <spd>spd int value</spd>
+      </stats>
+   </enemy>
+   <!-- Other enemy elements can be added here, following the same structure -->
+</game>
+```
+
+Replace `id4`, `enemy#4`, and the respective values for `hp`, `mp`, `atk`, `def`, and `spd` with the provided or desired data. If you want to include multiple enemies, just copy the `<enemy>` and related content, adjusting the `id` and `name` attributes as needed.

@@ -1,0 +1,65 @@
+XML data corrected for the required issue:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	<objective>Quest Objective</objective>
+	<description>Quest Description</description>
+	<reward>Quest Reward</reward>
+	<quest-giver>Quest Giver</quest-giver>
+	<tasks>
+			<task>
+				<order>Task Order</order>
+				/Objective>Task Objective</Objective>
+				<Description>Task Description</Description>
+				.location>Task Location</location>
+			<task>
+      	<title>Quest Task 1</title>
+		</task>
+		<task>
+      	<title>Quest Task 2</title>
+		</task>
+	</tasks>
+</game>
+```
+Output in Markdown format:
+```python
+<?xml version="1.0" ?>
+<html>
+<head>
+	<title>Quest Title</title>
+	/objective>Quest Objective</objective>
+	<description>Quest Description</description>
+	<reward>Quest Reward</reward>
+	<quest-giver>Quest Giver</quest-giver>
+	<tasks>
+			<title>Quest Task 1</title>
+			<title>Quest Task 2</title>
+		</tasks>
+</head>
+<body>
+
+<h1>Quest Title</h1>
+<p>Quest Objective: Quest Objective</p>
+<p>Quest Description: Quest Description</p>
+<p>Quest Reward: Quest Reward</p>
+
+<h2>Quest Task 1</h2>
+<p>This is the first task.</p>
+
+<h2>Quest Task 2</h2>
+<p>This is the second task.</p>
+
+<h3>Quest Task 3</h3>
+<p>This is the third task.</p>
+
+<h4>Quest Task 4</h4>
+<p>This is the fourth task.</p>
+
+</body>
+</html>
+```
+```python
+```
+
+Note: I have added a new line to separate the tags and classes in the Markdown code block. The HTML structure has been fixed for better readability.

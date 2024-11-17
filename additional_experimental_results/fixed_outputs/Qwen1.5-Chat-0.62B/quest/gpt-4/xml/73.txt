@@ -1,0 +1,50 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Dragon Seer</title>
+	<objective>Seek and consult the Ancient Dragon</objective>
+	<description>In order to ward off the impending disaster, you must consult the Ancient Dragon. However, the dragon resides at the peak of the treacherous Frostspire Mountain. Braving the hostile elements isn't enough, you will also have to overcome creatures and riddles along your journey.</description>
+	<reward>Dragon's Blessing artifact</reward>
+	<quest-giver:Eldriwis the Seer</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective scale the Frostspire Mountain</objective>
+				<description>Begin your ascent of the Frostspire Mountain, making sure to avoid or defeat any hostile creatures that you encounter.</description>
+			当前位置> Frostspire Mountain</location>
+			<task>
+				<order>2</order>
+			<objective>Solve the Ice Riddle</objective>
+				<description>At the Frozen Gates, you will need to solve the Ice Riddle to gain entry to the Dragon's Lair.</description>
+			当前位置>Frostspire Mountain</location>
+			<!-- Add more tasks here -->
+	</tasks>
+</game>
+```
+New values: 
+```xml
+<title>Dragon Seer</title>
+<objective>Seek and consult the Ancient Dragon</objective>
+<description>In order to ward off the impending disaster, you must consult the Ancient Dragon. However, the dragon resides at the peak of the treacherous Frostspire Mountain. Braving the hostile elements isn't enough, you will also have to overcome creatures and riddles along your journey.</description>
+<reward>Dragon's Blessing artifact</reward>
+<quest-giver:Eldriwis the Seer</quest-giver>
+<tasks>
+	<title>Scale the Frostspire Mountain</title>
+	<objective>Begin your ascent of the Frostspire Mountain, making sure to avoid or defeat any hostile creatures that you encounter.</description>
+	当前位置>霜雪之巅</location>
+	<title>Solve the Ice Riddle</title>
+	objective>Enter the Dragon's Lair</objective>
+	<div class="task"></div>
+</tasks>
+```
+Output in Markdown format:
+```perl
+## Dragon Seer
+## Seeking and consulting the Ancient Dragon
+## The dragon resides at the peak of the treacherous Frostspire Mountain. Braving the hostile elements isn't enough, you will also have to overcome creatures and riddles along your journey.
+## Dragon's Blessing artifact
+## Seeking advice from Eldriwis the Seer
+## I'll scale the Frostspire Mountain to begin my ascent of the Frostspire Mountain. Be prepared for any hostile creatures that I encounter.
+## Enter the Dragon's Lair
+## The quest requires entering the Dragon's Lair, but it's not too difficult to navigate through the icy snow.
+## Enjoy your adventure!

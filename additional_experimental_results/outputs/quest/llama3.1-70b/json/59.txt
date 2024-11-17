@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "DUNGEON_QUEST1",
+        "title": "The Lost City of Eldarath",
+        "objective": "Find the ancient artifact hidden within the ruins of Eldarath.",
+        "description": "Legend has it that the lost city of Eldarath holds a powerful artifact, one that could bring prosperity to our kingdom. Your quest is to find this artifact and return it to us.",
+        "reward": "A chest filled with gold coins and a magical amulet granting resistance to darkness",
+        "quest_giver": "King Arin the Wise",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the location of Eldarath's ruins.",
+                "description": "Speak with local scholars, traders and travelers to gather as much information as possible.",
+                "location": "The town's tavern"
+            },
+            {
+                "order": 2,
+                "objective": "Reach the entrance of Eldarath's ruins.",
+                "description": "Travel through the dense forest until you reach the ancient structure. Be wary of goblin attacks and wild beasts",
+                "location": "Deep within the Darkwood Forest"
+            },
+            {
+                "order": 3,
+                "objective": "Navigate the ruins to find the artifact chamber.",
+                "description": "Avoid deadly traps, puzzles and terrifying creatures as you venture deeper into the ruins.",
+                "location": "Eldarath's ancient halls"
+            }
+        ]
+    }
+}
+```

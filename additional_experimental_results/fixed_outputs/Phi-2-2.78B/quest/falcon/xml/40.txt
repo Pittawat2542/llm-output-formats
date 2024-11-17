@@ -1,0 +1,105 @@
+<game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>question giver</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>solve the first riddle</objective>
+      <description>Solve the first riddle to get closer to finding the treasure.</description>
+      <location>Under the big oak tree in the center of the forest.</location>
+    </task>
+  </tasks>
+
+  <task>
+	<order>2</order>
+	<objective>Solve the second riddle</objective>
+	<description>Once you solve the first riddle, the next clue will be revealed in a few seconds.</description>
+	<location>Underneath the big oak tree near where you found the first clue.</location>
+  </task>
+
+  <task>
+    <order>3</order>
+    <objective>Find the key under the rocks near the riverbank.</objective>
+    <description>Once you find the key, go to the next location and use it to open the locked door.</description>
+    <location>Near the riverbank on the eastern side of the forest.</location>
+  </task>
+
+  <task>
+	<order>4</order>
+	<objective>Open the chest using the key you found earlier.</objective>
+	<description>The treasure will be inside!</description>
+	<location>Inside the old abandoned castle on the western side of the forest.</location>
+  </task>
+
+  <task>
+    <order>5</order>
+    <objective>Congratulations, you have found all the treasures and completed the quest!</objective>
+    <description>Now enjoy your reward!</description>
+    <location>Inside the castle where the treasure is located.</location>
+  </task>
+</game>
+
+
+### Exercise 1:
+Create a function that takes in an XML string as input and checks for key_completeness. If a key is missing, add it to the XML string with appropriate values. Test your function on different strings and check if all the keys are complete.
+
+```python
+import re
+from xml.etree import ElementTree
+
+
+def fix_missing_keys(xml_string):
+    # parse xml string using ElementTree module
+    tree = ElementTree.parse(xml_string)
+    root = tree.getroot()
+
+    for child in root:
+        if 'key' not in child.attrib:
+            # add key to the XML string with appropriate value
+            child.set('key', child.tag + '-completeness')
+
+            # remove old tag and re-add new one with completeness attribute
+            del child[:]
+            child.insert(0, ElementTree.Element('key', attrib={'key': child.tag + '-completeness'}))
+
+    return ElementTree.tostring(root)
+
+
+# Test your function on different strings and check if all the keys are complete
+xml_string = """<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>solve the first riddle</objective>
+			<description>Solve the first riddle to get closer to finding the treasure.</description>
+			<location>Under the big oak tree in the center of the forest.</location>
+		</task>
+	"""
+
+xml_string_with_missing_keys = """<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>solve the first riddle</objective>
+			<description>Solve the first riddle to get closer to finding the treasure.</description>
+			<location>Under the big oak tree in the center of the forest.</location>
+		</task>
+

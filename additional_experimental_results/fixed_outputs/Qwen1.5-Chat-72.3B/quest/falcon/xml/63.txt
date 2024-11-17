@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective lang="en">Find the ancient artifact hidden in the ruins.</objective>
+	<description lang="en"> Embark on a journey through treacherous landscapes to uncover the secret location of the lost artifact and retrieve it.</description>
+	<reward>1000 experience points and a rare magical item</reward>
+	<quest-giver>Oracle of Delphi</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective lang="en">Talk to the hermit in the forest</objective>
+			<description lang="en">Locate the secluded hermit and gain information about the artifact's whereabouts.</description>
+			<location>The Enchanted Forest</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,23 @@
+```yaml
+game:
+  description: "The quest is about the game"
+  id: 1
+  objective: "Find the treasure"
+  quest_giver: "The king"
+  reward: "The treasure"
+  tasks:
+    - description: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 1
+    - description: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 2
+    - description: "Find the treasure"
+      location: "In the castle"
+      objective: "Find the treasure"
+      order: 3
+  title: "The treasure hunt"
+```
+The original YAML data was already correct. There were no syntax errors or missing values, so the output is the same as the input.

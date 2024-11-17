@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Explore the long-abandoned ruins of the ancient castle and put an end to the dark sorcerer's evil plans.
+  id: Q001
+  objective: Put a stop to Malyster's nefarious schemes before he can summon the Dark Lord.
+  quest_giver: Eriol, the village elder
+  reward: 100 gold pieces and the gratitude of the villagers
+  tasks:
+  - description: Find the entrance to the castle's dungeon.
+    location: The ancient castle's west wing
+    objective: Locate a hidden passage or key to gain access to the lower levels.
+    order: 1
+  - description: Infiltrate Malyster's lair and gather intel on his plans.
+    location: The dark sorcerer's quarters in the east wing
+    objective: Eavesdrop on Malyster's conversation with one of his minions to learn more about his scheme.
+    order: 2
+  - description: Confront Malyster and put an end to his evil plans once and for all.
+    location: Malyster's throne room in the castle keep
+    objective: Engage in combat with Malyster and defeat him in a final showdown.
+    order: 3
+  title: "The Dark Sorcerer of Castle Eldrador"
+```

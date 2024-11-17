@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id id="ENEMY1">Crawling Horror</id>
+			<name>Crawler Horror</name>
+			<description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</description>
+			<stats>
+				<hp>HP 1007</hp>
+				<mp>8</mp>
+				<atk>9/1/1</atk>
+				<def>8</def>
+				<spd>8</ spd>
+			<stats>
+		<enemy>
+			<id id="ENEMY2">Crawler Horror</id>
+			<name>Crawler Horror</name>
+			<description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</description>
+			<stats>
+				<hp>HP 1007</hp>
+				<mp>8</mp>
+				<atk>9/1/2</atk>
+				<def>8</def>
+				<spd>8</ spd>
+			</stats>
+			</enemy>
+	</enemy>
+</game>
+
+```xml
+<-game>
+	<enemy>
+			<id id="ENEMY1">Crawling Horror</id>
+			<name>Crawler Horror</name>
+			<description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</description>
+			<stats>
+				<hp>HP 1007</hp>
+				<mp>8</mp>
+				<atk>9/1/1</atk>
+				<def>8</def>
+				<spd>8</ spd>
+			</stats>
+			<enemy>
+				<id id="ENEMY2">Crawler Horror</id>
+				<name>Crawler Horror</name>
+				<description>A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.</description>
+				<stats>
+					<hp>HP 1007</hp>
+					<mp>8</mp>
+					<atk>9/1/2</atk>
+					<def>8</def>
+					<spd>8</ spd>
+				</stats>
+			</enemy>
+		</enemy>
+</-game>
+```

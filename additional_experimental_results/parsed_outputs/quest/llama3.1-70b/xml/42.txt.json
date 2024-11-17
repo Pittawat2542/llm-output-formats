@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Explore the ancient ruins and retrieve the legendary Sword of Light",
+    "description": "Rumors have been circulating about a hidden city deep within the nearby forest, where an ancient civilization once thrived. The city is said to hold many secrets and treasures, including the fabled Sword of Light, which is rumored to be able to vanquish any darkness.",
+    "reward": "1000 gold coins, experience points, and the Sword of Light",
+    "quest-giver": "Elder Thorgrim, village elder of Oakwood Village",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the location of the Lost City",
+          "description": "Talk to the villagers and gather any clues or rumors that may lead you to the lost city. You can start by speaking with the village elder, Elder Thorgrim.",
+          "location": "Oakwood Village town square"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the forest and find the entrance to the Lost City",
+          "description": "Use your knowledge of wilderness survival to navigate through the dense forest. Keep an eye out for any landmarks or ancient structures that may lead you to the lost city.",
+          "location": "The forest, approximately 1 mile east of Oakwood Village"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Sword of Light from the heart of the Lost City",
+          "description": "As you enter the lost city, be cautious of traps and ancient guardians. Make your way to the central chamber, where the Sword of Light is said to be hidden.",
+          "location": "The heart of the Lost City"
+        }
+      ]
+    }
+  }
+}

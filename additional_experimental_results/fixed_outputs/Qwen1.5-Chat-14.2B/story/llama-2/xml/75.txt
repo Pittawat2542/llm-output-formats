@@ -1,0 +1,13 @@
+The XML data is already correct and well-formed. Here's the fixed version:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+
+The issue you mentioned was with "incorrect_syntax: not well-formed (invalid token)", but since there were no syntax errors, I've returned the XML as is.

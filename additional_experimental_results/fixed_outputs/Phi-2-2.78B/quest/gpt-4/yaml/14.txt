@@ -1,0 +1,26 @@
+game:
+  description: quest description
+  id: KingdomGems001
+  objective: Retrieve all four gems: Sapphire, Emerald, Ruby and Amethyst.
+  quest_giver: King Alder
+  reward: 1000 Units of Gold and "Gem Finder" Badge
+  tasks:
+  - description: Find the Sapphire gem in the Northern Caves.
+   location: Northern Caves
+   objective: Retrieve the Sapphire Gem.
+   order: 1
+  - description: Find the Emerald gem in the Forbidden Forest.
+   location: Forbidden Forest
+   objective: Retrieve the Emerald Gem.
+   order: 2
+  - description: Find the Ruby gem in the Dragon's Mountain.
+   location: Dragon's Mountain
+   objective: Retrieve the Ruby Gem.
+   order: 3
+  - description: Find the Amethyst gem in the Underwater Ruins.
+   location: Underwater Ruins
+   objective: Retrieve the Amethyst Gem.
+   order: 4
+  title: "Quest: The Kingdom's Gems"
+
+

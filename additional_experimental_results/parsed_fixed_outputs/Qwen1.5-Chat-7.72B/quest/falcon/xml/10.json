@@ -1,0 +1,19 @@
+{
+  "game": {
+    "id": "5678",
+    "title": "Quest Title",
+    "objective": "Defeat the Dragon",
+    "description": "Find the treasure in the old castle",
+    "reward": "Gold, experience, and a magical amulet",
+    "quest-giver": "Master Greybeard",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "order": "1",
+        "objective": "Defeat the dragon's first gatekeeper",
+        "description": "Enter the castle through the eastern entrance",
+        "location": "The Eastern Gateway"
+      }
+    }
+  }
+}

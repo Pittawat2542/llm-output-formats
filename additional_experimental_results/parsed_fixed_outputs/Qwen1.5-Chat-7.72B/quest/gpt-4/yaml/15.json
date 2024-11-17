@@ -1,0 +1,47 @@
+{
+  "game": {
+    "description": "In a world where evil has risen, embark on your quest to vanquish the darkness. The objective is to find and retrieve the sacred rune from Gandor the Wise.",
+    "id": "quest-1",
+    "objective": "Uncover the location of the sacred rune and defeat the serpent of Irkalla",
+    "quest_giver": "Gandor the Wise",
+    "reward": [
+      {
+        "item": "Golden Relic",
+        "description": "5000 gold pieces"
+      },
+      {
+        "item": "Luminous Sword"
+      },
+      {
+        "action": "Level-up"
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Examine ancient texts in the Old Library of Eldor.",
+        "location": "Old Library of Eldor",
+        "objective": "Discover clues about the sacred rune's whereabouts",
+        "order": "1"
+      },
+      {
+        "description": "Confront and defeat the Serpent of Irkalla for the temple key.",
+        "location": "Irkalla's Cave",
+        "objective": "Subdue the serpent and obtain the key",
+        "order": "2"
+      },
+      {
+        "description": "Enter the Sacred Temple with the key and retrieve the sacred rune.",
+        "location": "Sacred Temple",
+        "objective": "Find and secure the sacred rune",
+        "order": "3"
+      },
+      {
+        "description": "Return to Gandor's hut with the rune.",
+        "location": "Gandor's Hut",
+        "objective": "Deliver the sacred rune to Gandor",
+        "order": "4"
+      }
+    ],
+    "title": "Quest for the Sacred Rune"
+  }
+}

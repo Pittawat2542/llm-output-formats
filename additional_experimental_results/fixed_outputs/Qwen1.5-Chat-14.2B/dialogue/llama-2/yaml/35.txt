@@ -1,0 +1,35 @@
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: Bob
+      text: "Hey, can you help me?"
+    - order: 2
+      speaker: Alice
+      text: "I can."
+    - order: 3
+      speaker: Bob
+      text: "I need help."
+    - order: 4
+      speaker: Alice
+      text: "I can."
+    - order: 5
+      speaker: Bob
+      text: "I need help."
+    - order: 6
+      speaker: Alice
+      text: "I can."
+    # Additional dialogues if needed, follow this pattern:
+    - order: 7
+      speaker: Bob
+      text: "I still need assistance."
+    - order: 8
+      speaker: Alice
+      text: "Of course, what do you need help with?"
+    - order: 9
+      speaker: Bob
+      text: "Please guide me through the process."
+
+  # If there are more dialogues with multiple speakers, continue the list in this format.
+```
+All provided dialogue examples have been fixed. The YAML structure is now correct and follows the template you provided. If you need additional dialogues to match the number in your messages, add them following the same pattern as shown above.

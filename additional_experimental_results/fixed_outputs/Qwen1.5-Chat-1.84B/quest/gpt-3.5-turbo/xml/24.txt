@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a thrilling adventure to discover the lost treasure of the ancient civilization.</description>
+	<reward>Ancient artifact and a bag of gold coins</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Obtain a treasure map</objective>
+				"description>Purchase a map from the local blacksmith's shop and bring it to the tavern.</description>
+			<location>Tavern in Port Royal</location>
+			</task>
+			<task>
+				<order>2</order>
+			<objective>Search for clues on the island</objective>
+				"description>Listen to the rumors of pirate activity on the island and gather evidence to support your search.</description>
+			<location>Island off the coast of tropical paradise</location>
+			</task>
+			<task>
+				<order>3</order>
+			<objective>Meet with the treasure hunter</objective>
+				"description>Participate in a hidden treasure hunt led by a skilled explorer.</description>
+			<location>Treasure hunter's camp on the island</location>
+			</task>
+	</tasks>
+</game>
+
+```

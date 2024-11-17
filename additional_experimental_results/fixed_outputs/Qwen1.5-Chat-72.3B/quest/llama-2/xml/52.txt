@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that a powerful artifact is buried deep within the forgotten ruins. Your quest is to locate and retrieve it, but be cautious - danger lurks around every corner.</description>
+	<reward>1000 experience points and a magical relic</reward>
+	<quest-giver>Gilthanas, Elf Ranger</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You must discover the hidden entrance to the ruins before you can begin your search for the artifact.</description>
+			<location>The Forest of Shadows</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian beast</objective>
+			<description>A fierce guardian beast protects the artifact. You must defeat it to proceed.</description>
+			<location>Ruins' Inner Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

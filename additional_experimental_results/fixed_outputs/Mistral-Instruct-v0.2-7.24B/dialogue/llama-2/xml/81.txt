@@ -1,0 +1,39 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Jane</speaker>
+			<text>Hello, I'm Jane.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>John</speaker>
+			<text>Hi Jane, I'm John.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Jane</speaker>
+			<text>How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>John</speaker>
+			<text>I'm fine, and you?</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Jane</speaker>
+			<text>I'm fine.</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>John</speaker>
+			<text>I'm good, thank you.</text>
+		</dialogue>
+		<!-- Add more dialogues as needed -->
+	</dialogues>
+</game>
+```

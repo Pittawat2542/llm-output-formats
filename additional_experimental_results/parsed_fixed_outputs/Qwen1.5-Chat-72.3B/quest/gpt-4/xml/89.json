@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Dragon Hunt",
+    "objective": "Defeat the Dragon King",
+    "description": "You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt, and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.",
+    "reward": "15000 Gold and Dragon Slayer Sword",
+    "quest-giver": "Kingsman Derek",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Assemble your gear",
+          "description": "Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.",
+          "location": "Kingdom Armory"
+        },
+        {
+          "order": "2",
+          "objective": "Find the Dragon King",
+          "description": "Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.",
+          "location": "Dark Forest, beyond the seven mountains"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Dragon King",
+          "description": "Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.",
+          "location": "Dragon King's Lair"
+        }
+      ]
+    }
+  }
+}

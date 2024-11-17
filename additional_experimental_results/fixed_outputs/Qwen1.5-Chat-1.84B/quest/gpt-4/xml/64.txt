@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0"?>
+<game id="123">
+  <title>Dragon's Defeat</title>
+  <objective>Defeat the dragon terrorizing the village</objective>
+  <description>The village has been under the shadow of a fierce dragon for weeks. Help them by defeating the dragon and bringing peace back.</description>
+  <reward>500 gold coins and the Dragon Slayer's Sword</reward>
+  <quest-giver>Elderman Tao</quest-giver>
+  <tasks>
+    <task order="1">
+      <objective>Investigate the dragon's lair</objective>
+      <description>Locate the dragon's lair and find a safe way to approach it</description>
+      <location>Whispering Hill</location>
+    </task>
+    <task order="2">
+      <objective>Defeat the dragon</objective>
+      <description>Confront the dragon and slay it</description>
+      <location>Dragon's lair</location>
+    </task>
+  </tasks>
+</game>
+```

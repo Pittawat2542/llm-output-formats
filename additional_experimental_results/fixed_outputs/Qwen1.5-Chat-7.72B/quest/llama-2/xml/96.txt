@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>quest_id123</id>
+    <title>Adventure Quest</title>
+    <objective>Complete the Forest Exploration</objective>
+    <description>A quest to gather rare mushrooms in the Green Glade</description>
+    <reward>100 gold coins and a magical amulet</reward>
+    <quest-giver>Old Oak精灵王</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Find the marked tree near the Spring Stream</objective>
+            <description>Follow the tracks to the clearing</description>
+            <location>Green Glade, east of the spring</location>
+        </task>
+    </tasks>
+</game>
+```

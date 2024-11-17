@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A mysterious map leads you to an abandoned city, where you must discover the lost artifact and return it to the village elder.</description>
+	<reward>1000 gold coins and a legendary weapon</reward>
+	<quest-giver>Grimstone, the Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Abandoned City</objective>
+			<description>Make your way through the forest and enter the ruins to begin your search.</description>
+			<location>The Ruins of Eldervale</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search for Clues</objective>
+			<description>Explore the ruins for any clues that might lead to the artifact's location.</description>
+			<location>The Library of Ancients</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the Guardian</objective>
+			<description>A powerful guardian protects the artifact. Conquer it to claim the treasure.</description>
+			<location>The Chamber of Secrets</location>
+		</task>
+	</tasks>
+</game>
+```

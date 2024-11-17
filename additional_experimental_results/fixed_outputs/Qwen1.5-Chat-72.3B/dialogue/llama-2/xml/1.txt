@@ -1,0 +1,17 @@
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, what can I do for you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			NPC</speaker>
+			<text>I need your help to find a lost artifact.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+The original XML data is correct, but there were no values provided for the elements. I have added example values for `order`, `speaker`, and `text` in the corrected version above.

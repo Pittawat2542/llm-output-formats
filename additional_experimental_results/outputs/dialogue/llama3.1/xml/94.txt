@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'm looking for the exit.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC 1</speaker>
+			<text>You can't leave yet. You still have to complete a task.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>What do I need to do?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC 1</speaker>
+			<text>You need to find the key in the next room.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

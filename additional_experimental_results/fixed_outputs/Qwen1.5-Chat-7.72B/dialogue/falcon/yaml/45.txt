@@ -1,0 +1,27 @@
+```yaml
+game:
+  dialogues:
+  - order: dialogue_order
+    speaker: Speaker_Name
+    text: '"Game's narrative or text on its own, but within quotation marks."'
+  
+  narrative:
+  - I'm the main character of the game,
+    - My objective is to plan and strategize for battles,
+    - This will ensure a smoother progression.
+
+```
+Output in YAML format:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue_order
+      speaker: Speaker_Name
+      text: '"Game's narrative or text on its own, but within quotation marks."'
+  
+  narrative:
+  - I'm the main character of the game,
+    - reason: 'To plan and strategize for battles',
+    - consequence: 'A smoother progression.'
+```

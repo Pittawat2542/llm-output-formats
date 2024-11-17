@@ -1,0 +1,25 @@
+```yaml
+game:
+  id: 123456
+  title: "Quest of the Lost Artifact"
+  objective: "Find and return the ancient artifact to the museum"
+  reward:
+    title: "Epic Quest Reward"
+    type: "Artifact + 1000 gold coins"
+    experience: 5000
+  quest_giver: "Old Wise Man"
+  tasks:
+    - description: "Track the clues in the old library"
+      location: "Library"
+      objective: "Discover clue #1"
+      order: 1
+    - description: "Follow the map to the hidden cave"
+      location: "Cave Entrance"
+      objective: "Find treasure map"
+      order: 2
+    - description: "Return the artifact to the museum"
+      location: "Museum"
+      objective: "Deliver artifact and complete quest"
+      order: 3
+
+```

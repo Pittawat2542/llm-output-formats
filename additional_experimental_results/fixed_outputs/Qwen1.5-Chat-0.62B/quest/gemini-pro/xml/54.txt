@@ -1,0 +1,59 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Treasure Hunt</title>
+	 Objective: Find the hidden treasure.
+	 Description: A legendary treasure is hidden somewhere in the forest. The treasure is said to be worth a fortune.
+	 Reward: The treasure itself.
+	 Quest Giver: Village elder.
+	 Tasks:
+		<task>
+			Order 1: Find the map to the treasure.
+		 Objective: Follow the map to the treasure.
+		 Description: The map to the treasure will lead you to the treasure.
+		 Location: Forest
+		</task>
+		<task>
+			Order 2: Follow the map to the treasure.
+		 Objective: Find the hidden treasure.
+		 Description: The treasure is hidden in a cave.
+		 Location: Cave
+		</task>
+		<task>
+			Order 3: Find the treasure.
+		 Objective: Find the hidden treasure.
+		 Description: The treasure is hidden in a cave.
+		 Location: Cave
+		</task>
+</game>
+```
+The code has been modified to fix the incorrect syntax and provide new values if needed. Here's the updated output:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Treasure Hunt</title>
+	 Objective: Find the hidden treasure.
+	 Description: A legendary treasure is hidden somewhere in the forest. The treasure is said to be worth a fortune.
+	 Reward: The treasure itself.
+	 Quest Giver: Village elder.
+	 Tasks:
+		<task>
+			Order 1: Follow the map to the treasure.
+		 Objective: Follow the map to the treasure.
+		 Description: The map to the treasure will lead you to the treasure.
+		 Location: Forest
+		</task>
+		<task>
+			Order 2: Find the hidden treasure.
+		 Objective: Find the hidden treasure.
+		 Description: The treasure is hidden in a cave.
+		 Location: Cave
+		</task>
+		<task>
+			Order 3: Find the treasure.
+		 Objective: Find the hidden treasure.
+		 Description: The treasure is hidden in a cave.
+		 Location: Cave
+		</task>
+</game>
+```

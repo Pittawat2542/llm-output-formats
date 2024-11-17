@@ -1,0 +1,43 @@
+The provided XML data is correct, and it contains a `game` element with three properties:
+
+1. `id`: The ID of the game.
+2. `title`: The title of the game.
+3. `objective`: The objective of the game.
+4. `description`: A description of the game.
+
+New values can be added to these properties as per requirements.
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	objective>Find the hidden treasure</ objective>
+	.description>Embark on a thrilling adventure to locate the lost treasure of the ancient kingdom. Solve puzzles, overcome challenges, and navigate through treacherous paths to claim your reward.</description>
+	 reward>100 gold coins</reward>
+	quest-giver>Captain Redbeard</quest-giver>
+	tasks>
+			<task>
+				<order>1</order>
+			 Objective: Find the Map
+			.objective: Find the Hidden treasure
+			 description: Search the secret library in the abandoned castle to find the ancient map leading to the treasure.
+			olocation: abandoned Castle
+			</task>
+			<task>
+				<order>2</order>
+			 Objective: Retrieve the Key
+			 Objective: Retrieve the enchanted key hidden in the heart of the forbidden forest.
+			 description: Journey through the treacherous swamp to retrieve the enchanted key hidden in the heart of the forbidden forest.
+			olocation: forbidden Forest
+			</task>
+			<task>
+				<order>3</order>
+			 Objective: Unlock the Gate
+			 Objective: Unlock the Ancient Gate guarding the entrance to the underground cavern where the treasure awaits.
+			 description: Use the key to unlock the ancient gate, guarded by the enigmatic key.
+			olocation: Underground Cavern
+			</task>
+	</tasks>
+</game>
+```

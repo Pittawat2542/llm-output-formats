@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>01</id>
+    <title>The Lost Scrolls</title>
+    <objective>Find and return three stolen scrolls from the Temple of Knowledge.</objective>
+    <description>The scrolls hold vital knowledge for the world's survival. Complete the quest before they fall into the wrong hands.</description>
+    <reward>A powerful magical artifact to aid your journey.</reward>
+    <quest-giver>Archmage Rieldir</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the Temple of Knowledge and inquire about the scrolls' theft.</objective>
+            <description>The temple is in the east mountains. Speak with the monks for clues.</description>
+            <location>Temple of Knowledge</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Track down the bandits who stole the scrolls at their hideout.</objective>
+            <description>The hideout is in the forest. Retrieve the scrolls carefully.</description>
+            <location>Bandit Hideout</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return the scrolls to Archmage Rieldir at the Tower of Mysteries.</objective>
+            <description>Deliver the scrolls and expect his gratitude and reward.</description>
+            <location>Tower of Mysteries</location>
+        </task>
+    </tasks>
+</game>
+```

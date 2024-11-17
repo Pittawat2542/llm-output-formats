@@ -1,0 +1,86 @@
+
+{
+  'game': {
+    'description': 'The game is about a human.',
+    'type': 'application',
+    'statusCode': 200,
+    'methods': ['GET', 'POST'],
+    'headers': [
+      {'name': 'Content-Type', 'value': 'text/plain; charset=utf-8'},
+      {'name': 'Access-Control-Allow-Origin', 'value': '*'},
+      {'name': 'Authorization', 'value': 'Bearer myToken'}
+    ],
+    'trustedSessions': {
+      'sessionId': '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:.-',
+      'sessionKey': 'mySecretToken',
+      'sessionExpiryDate': datetime.datetime(2022, 10, 31)
+    }
+  },
+  'paths': {
+    '/game': {
+      'type': 'get',
+      'description': 'Game information.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1': {
+      'type': 'get',
+      'description': 'Information about the player.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/stats': {
+      'type': 'get',
+      'description': 'Player stats.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/inventory': {
+      'type': 'get',
+      'description': 'Player inventory.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/quests': {
+      'type': 'get',
+      'description': 'Player quests.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/quests/0': {
+      'type': 'get',
+      'description': 'Player quest 0.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/quests/1': {
+      'type': 'get',
+      'description': 'Player quest 1.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+    '/game/player/1/quests/2': {
+      'type': 'get',
+      'description': 'Player quest 2.',
+      'responses': [{
+        'statusCode': 200,
+        'methods': ['GET', 'PUT', 'DELETE']
+      }]
+    },
+  }
+}
+```

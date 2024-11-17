@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<game>
+	<id>ID-Quest-001</id>
+	<title>Slayer of the Dragon</title>
+	<objective>Defeat the Dragon</objective>
+	<description>The once peaceful village of Dragon's Rest has been terrorized by a fearsome dragon. Slay the beast and restore peace to the village.</description>
+	<reward>Dragon's Hoard, Dragon Slayer Title</reward>
+	<quest-giver>Mayor of Dragon's Rest</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Gather information about the Dragon</objective>
+				<priority>High</priority>
+				<description>Speak to the villagers of Dragon's Rest to gather information about the Dragon's lair and its habits.</description>
+			<location>Dragon's Rest Village</location>
+			</task>
+				<order>2</order>
+				<objective>Forge a Dragon-Slayer Sword</objective>
+				<priority>Mid</priority>
+				<description>Obtain a rare metal called Draconium and bring it to the village blacksmith to forge a weapon capable of slaying the Dragon.</description>
+			<location>Draconium Mine</location>
+			</task>
+				<order>3</order>
+				<objective>Slay the Dragon</objective>
+				<priority>Low</priority>
+				<description>Locate the Dragon's lair and confront the beast. Defeat the Dragon and bring its head as proof of your victory.</description>
+			<location>Dragon's Lair</location>
+			</task>
+				<order>4</order>
+				<objective>Return to Mayor</objective>
+				<priority>Low</priority>
+				<description>Return to the Mayor of Dragon's Rest with the Dragon's head to claim your reward.</description>
+			<location>Dragon's Rest Village</location>
+			</task>
+				<order>5</order>
+				<objective>Celebrate victory and celebrate the Dragon Slayer</objective>
+				<priority>Low</priority>
+				<description>Spend time with the villagers, share your victory story, and celebrate as a hero of Dragon's Rest.</description>
+			<location>Dragon's Rest Village</location>
+			</task>
+				<order>6</order>
+				<objective>Share the Dragon's Hoard with the village</objective>
+				<priority>Low</priority>
+				<description>Treat the village to the Dragon's Hoard, a symbol of your accomplishment and dedication to defeating the dragon.</description>
+			<location>Dragon's Rest Village</location>
+			</task>
+				<order>7</order>
+				<objective>Write a letter of gratitude to the Mayor</objective>
+				<priority>Low</priority>
+				<description>Express your gratitude to the Mayor for granting you the honor of becoming the Dragon Slayer and ensuring peace in Dragon's Rest once again.</description>
+			<location>Mayor's Office</location>
+			</task>
+				<order>8</order>
+				<objective>Submit the quest report</objective>
+				<priority>Low</priority>
+				<description>Furnish a detailed report of your actions, including the information gathered, your progress in slaying the Dragon, and any challenges you faced along the way.</description>
+			<location>Mayor's Office</location>
+			</task>
+		</tasks>
+	</game>
+</xml>
+```

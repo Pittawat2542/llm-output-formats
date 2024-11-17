@@ -1,0 +1,60 @@
+
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+"""
+import re
+from typing import List, Tuple
+
+KEY_COMPLETENESS = r'^([a-z][a-z0-9]+\s*){2}([a-z]+)$'
+
+
+def fix(yaml_string: str) -> str:
+    """Fixes the YAML data.
+
+    Args:
+        yaml_string (str): The YAML string to process.
+
+    Returns:
+        The fixed YAML string.
+
+    Raises:
+        AssertionError: if yaml_string is empty.
+
+    Example:
+        >>> fix("""---
+            key_completeness: The root of the result is not a dictionary.""")
+        '---\nkey_completeness:\n  The root of the result is not a dictionary.''
+    """
+    assert yaml_string, "YAML string cannot be empty."
+
+    data = yaml_string.split("---", 1)[1]
+    fixed: List[str] = []
+    for line in data.strip().splitlines():
+        if not line or re.fullmatch(KEY_COMPLETENESS, line):
+            continue
+        else:
+            line = (
+                re.sub(" +", " ", line)
+                .replace("\t", "    ")
+                .replace("  ", " ")
+                .strip()
+            )
+        fixed.append(line)
+
+    return "\n".join(["---"] + fixed + ["---"])
+
+
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()

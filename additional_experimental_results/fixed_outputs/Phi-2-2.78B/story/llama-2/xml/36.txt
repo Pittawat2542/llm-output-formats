@@ -1,0 +1,14 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11-transitional.dtd">
+<!ELEMENT xhtml (start, doc, head, body, tail)>
+<!ATTLIST start { BODY="body"; HEAD="head" }>
+<!ELEMENT head (title, meta)>
+<!ATTLIST title { BODY="title; base=document.getElementById('main'); }>
+<!ELEMENT meta ()/>
+<!ELEMENT body (content, style)>
+<!ATTLIST content { BODY="body" /><!-- added new element -->style}>
+<!ELEMENT style ({ fontSize : '12px', fontFamily:'Verdana';})>
+<!ATTLIST fontSize { BODY='fontSize;' /><!-- changed value of existing attribute -->fontFamily={'Verdana'};}>
+```
+
+

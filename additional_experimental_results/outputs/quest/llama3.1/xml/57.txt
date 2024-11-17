@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Find the hidden temple and retrieve the ancient artifact.</objective>
+	<description>The temple is said to be hidden deep within the forest, guarded by treacherous paths and fierce creatures. Retrieve the artifact and bring it back to the village elder.</description>
+	<reward>Ancient Temple Key</reward>
+	<quest-giver>Elara the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location.</objective>
+			<description>Speak with the village elder and gather rumors about the temple's whereabouts.</description>
+			<location>Village Elder's Hut</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the forest to reach the temple.</objective>
+			<description>Use your knowledge of the forest and its dangers to navigate safely to the temple.</description>
+			<location>Foreshore Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retriev the ancient artifact from within the temple.</objective>
+			<description>Solve puzzles and overcome obstacles to reach the artifact, then carefully retrieve it and escape the temple.</description>
+			<location>The Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

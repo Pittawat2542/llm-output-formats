@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure in the maze",
+    "description": "You've received a map leading to a lost treasure hidden within a maze. Solve the puzzles and navigate through the labyrinth to claim your reward.",
+    "reward": "100 gold coins",
+    "quest-giver": "Guild Master Arin",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Solve the riddle at the entrance",
+          "description": "\u89e3\u8bfb\u95e8\u53e3\u7684\u8c1c\u8bed\u4ee5\u8fdb\u5165\u8ff7\u5bab",
+          "location": "Maze Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Find the key to the treasure chamber",
+          "description": "A key hidden somewhere in the maze will unlock the door to the treasure room.",
+          "location": "Maze Puzzle Room"
+        }
+      ]
+    }
+  }
+}

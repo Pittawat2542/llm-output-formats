@@ -1,0 +1,39 @@
+Invalid syntax. XML data contains invalid tags and values. Please provide a valid XML data to fix the issue.
+XML:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+			<id>1</id>
+			<first-name>John</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>22</age>
+			<role>Main character</role>
+			<background>John Doe is a human male who was born on 1997-04-01 in London, United Kingdom. He is a main character in the story.</background>
+			<place-of-birth>London, United Kingdom</place-of-birth>
+			<physical-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+				</physical-appearance>
+			</物理-appearance>
+	</character>
+	<character>
+			<id>2</id>
+			<first-name>Jane</first-name>
+			<last-name>Doe</last-name>
+			<species>Human</species>
+			<age>22</age>
+			<role>Main character</role>
+			<background>Jane Doe is a human female who was born on 1997-04-01 in London, United Kingdom. She is a main character in the story.</background>
+			<place-of-birth>London, United Kingdom</place-of-birth>
+			<物理-appearance>
+				<eye-color>Blue</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.75</height>
+				<weight>75</weight>
+				</physical-appearance>
+			</物理-appearance>
+	</character>

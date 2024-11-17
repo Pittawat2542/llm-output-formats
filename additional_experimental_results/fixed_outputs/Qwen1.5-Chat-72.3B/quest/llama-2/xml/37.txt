@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure in the maze</objective>
+	<description>You've received a map leading to a lost treasure hidden within a maze. Solve the puzzles and navigate through the labyrinth to claim your reward.</description>
+	<reward>100 gold coins</reward>
+	<quest-giver>Guild Master Arin</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Solve the riddle at the entrance</objective>
+			<description>解读门口的谜语以进入迷宫</description>
+			<location>Maze Entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the key to the treasure chamber</objective>
+			<description>A key hidden somewhere in the maze will unlock the door to the treasure room.</description>
+			<location>Maze Puzzle Room</location>
+		</task>
+	</tasks>
+</game>
+```

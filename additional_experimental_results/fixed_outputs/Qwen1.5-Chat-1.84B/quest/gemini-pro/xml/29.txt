@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Missing Prince</title>
+	<objective>Find the missing prince who has been kidnapped by an evil wizard.</objective>
+	<description>The prince has been kidnapped by an evil wizard who is hiding in a secret lair. The player must travel through a dangerous forest, fight monsters, and solve puzzles in order to find the prince and bring him back to safety.</description>
+	<reward>The player will receive a valuable reward, such as a magical sword or a powerful spell, for completing the quest.</reward>
+	<quest-giver>King Oberon</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Travel to the forest and find the wizard's lair.</objective>
+				"description>The forest is a dangerous place, filled with monsters and treacherous traps. The player must be careful and use their skills to survive.</description>
+			<location>Darkwood Forest</location>
+			</task>
+				<order>2</order>
+				<objective>Fight the wizard's minions and find the missing prince.</objective>
+				"description>The wizard's lair is filled with dangerous creatures. The player must fight their way through the lair and find the missing prince.</description>
+			<location>Wizard's Lair</location>
+			</task>
+				<order>3</order>
+				<objective>Return the missing prince to the king and receive your reward.</objective>
+				"description>Once the player has found the missing prince, they must return him to the king. The king will be grateful and will reward the player for their bravery.</description>
+			<location>King's Castle</location>
+			</task>
+			<task>
+				<order>4</order>
+				<objective>Defend the castle from an enemy attack.</objective>
+				"description>The castle is under threat, and the player must take action to protect it. The enemy attack will require the player to use their skills to defeat a group of enemies and reach the top level of the castle.</description>
+			<location>Castle Tower</location>
+			</task>
+				<order>5</order>
+				<objective>Solve puzzles to unlock hidden doors and pass through the castle.</objective>
+				"description>The castle is filled with complex puzzles that require the player's intelligence and problem-solving skills. The player must use their knowledge of magic, ancient artifacts, and other items to solve the puzzles and reach the treasure room.</description>
+			<location>Treasure Room</location>
+			</task>
+				<order>6</order>
+				<objective>Find the hidden key that will unlock the castle's secret door.</objective>
+				"description>The hidden key is a magical artifact that can only be found by solving a challenging puzzle. The player must use their skills to locate the key and pass through a series of obstacles to reach the treasure room.</description>
+			<location>Treasure Room</location>
+			<task>
+				<order>7</order>
+				<objective>Face off against a powerful enemy in one-on-one combat.</objective>
+				"description>The castle is filled with enemies, including fierce dragons and powerful wizards. The player must use their skills to defeat these enemies and claim victory.</description>
+			<location>Castle Arena</location>
+			<task>
+				<order>8</order>
+				<objective>Complete the final quest and return home safely.</objective>
+				"description>The final quest will take the player on a challenging adventure, culminating in a final battle against the evil wizard. The player must use all of their skills to defeat the wizard and claim victory once again.</description>
+			<location>Home</location>
+			<task>
+			<task>
+				<order>9</order>
+				<objective>Celebrate with the king and receive a grand reward for completing the quest.</objective>
+				"description>The player has completed the quest, and they must now celebrate their victory with the king. The king will reward the player with a valuable treasure, such as a magical artifact or a powerful spell, to show their appreciation.</description>
+			<location>King's Palace</location>
+			<task>
+			<task>
+				<order>10</order>
+				<objective>End the game and receive an end-of-game achievement.</objective>
+				"description>The quest has been completed, and the player can now end the game. The game will reward the player with a special achievement that recognizes their bravery and skill in completing the quest.</description>
+			<location>Home</location>
+			<task>
+			<task>
+				<order>11</order>
+				<objective>Display the achievement on their profile page.</objective>
+				"description>The player can now display their achievement on their profile page, showing off their accomplishment to their friends and family.</description>
+			<location>Profile Page</location>
+			</task>
+		</tasks>
+	</game>
+```

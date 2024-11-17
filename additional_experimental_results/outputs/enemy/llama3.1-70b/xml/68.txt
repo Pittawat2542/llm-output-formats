@@ -1,0 +1,19 @@
+Here is a possible enemy battle status in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <enemy>
+    <id>E001</id>
+    <name>Goblin Warrior</name>
+    <description>A fierce and agile goblin warrior, skilled in the art of combat.</description>
+    <stats>
+      <hp>120</hp>
+      <mp>50</mp>
+      <atk>25</atk>
+      <def>10</def>
+      <spd>15</spd>
+    </stats>
+  </enemy>
+</game>
+```

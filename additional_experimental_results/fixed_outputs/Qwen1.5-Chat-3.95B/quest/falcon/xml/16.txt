@@ -1,0 +1,19 @@
+Original XML:
+```xml
+<objective>objective</objective> 
+<description>description</description> 
+<reward>revenue</reward> 
+<quest-giver>questgiver</quest-giver> 
+<tasks>
+	<task>
+			order>1</order>
+			objectives_in_tasks>
+			<objectives>objectives</objectives>
+		</objectives>
+		<location>some location</location>
+	</task>
+</tasks> 
+<objectives_in_tasks> 
+<objectives>objectives</objectives> 
+</objectives> 
+```

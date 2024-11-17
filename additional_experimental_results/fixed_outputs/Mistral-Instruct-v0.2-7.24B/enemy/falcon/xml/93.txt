@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name></name>
+		<description>Enemy Info - HP (hitpoints), MP (max power), Atk (attack)</description>
+		<stats>
+			<hp>10</hp>
+			<mp>50</mp>
+			<atk>4</atk>
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name></name>
+		<description>Enemy Info - HP (hitpoints), MP (max power), Atk (attack)</description>
+		<stats>
+			<hp>30</hp>
+			<mp>45</mp>
+			<atk>7</atk>
+		</stats>
+	</enemy>
+</game>
+```

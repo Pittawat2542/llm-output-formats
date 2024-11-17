@@ -1,0 +1,68 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title> Artifact Recovery</title>
+	bjective>Recover the ancient artifact from the Dragon's Lair and return it to its resting place.</objective>
+	<description>You are tasked to brave the treacherous Dragon's Lair and recover the ancient artifact that is said to hold ancient magic.</description>
+	<reward>5000 gold pieces and a mystical amulet</ reward>
+	<quest-giver>The high mage Elrond</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Reach the Dragon's Lair</objective>
+				<div>
+					<title>Quest: Quest 1</title>
+				</div>
+				<div>
+					<title>Quest: Quest 2</title>
+				</div>
+				<div>
+					<title>Quest: Quest 3</title>
+				</div>
+			</task>
+			<task>
+				<order>2</order>
+			/objective>Retrieve the ancient artifact</objective>
+				<div>
+					<title>Quest: Quest 4</title>
+				</div>
+				<div>
+					<title>Quest: Quest 5</title>
+				</div>
+			</task>
+			<task>
+				<order>3</order>
+			/objective所在地</objective>
+				<div>
+					<title>Quest: Quest 6</title>
+				</div>
+			</task>
+			<task>
+				<order>4</order>
+			 objectives</objectives>
+				<div>
+					<title>Quest 7</title>
+				</div>
+			</task>
+			<task>
+				<order>5</order>
+			(objective reward</ objective>
+				<div>
+					<title>Quest: Quest 6</title>
+				</div>
+			</task>
+			<task>
+				<order>6</order>
+			 Objective location</objectives>
+				<div>
+					<title>Quest: Quest 7</title>
+				</div>
+			</task>
+		</div>
+	</tasks>
+	<回报>
+		<title>Return the artifact to its resting place</title>
+	</回报>
+</game>
+```

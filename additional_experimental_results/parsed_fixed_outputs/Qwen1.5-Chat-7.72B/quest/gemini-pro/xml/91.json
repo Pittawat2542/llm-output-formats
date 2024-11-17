@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure of Captain Jack Sparrow.",
+    "description": "Captain Jack Sparrow's ship was attacked by pirates and his treasure was stolen. He needs you to help him find it.",
+    "reward": "A share of the treasure.",
+    "quest-giver": "Captain Jack Sparrow",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the dockmaster.",
+          "description": "The dockmaster may have information about the pirates who attacked Captain Jack's ship.",
+          "location": "Tortuga"
+        },
+        {
+          "order": "2",
+          "objective": "Search the pirate lair.",
+          "description": "The pirates who stole the treasure may have hidden it on Skull Island.",
+          "location": "Skull Island"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the pirate captain and obtain the key.",
+          "description": "The key to the treasure chest is required to access it.",
+          "location": "Pirate Ship"
+        }
+      ]
+    }
+  }
+}

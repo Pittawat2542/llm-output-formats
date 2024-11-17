@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Update quest objective here</objective>
+    <description>Updated quest description</description>
+    <reward>Gold and Experience Points</reward>
+    <quest-giver>英勇的冒险者指引者</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>找到魔法石</objective>
+            <description>去森林深处寻找线索</description>
+            <location>森林边缘</location>
+        </task>
+    </tasks>
+</game>
+```

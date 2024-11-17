@@ -1,0 +1,16 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="5">
+            <speaker>NPC2</speaker>
+            <text>A new NPC introduced here, say hello.</text>
+        </dialogue>
+        <dialogue order="6">
+            <speaker>Player</speaker>
+            <text>HiNPC2, nice to meet you!</text>
+        </dialogue>
+        <!-- Rest of the dialogue elements are missing, but can be added if needed -->
+    </dialogues>
+</game>
+```

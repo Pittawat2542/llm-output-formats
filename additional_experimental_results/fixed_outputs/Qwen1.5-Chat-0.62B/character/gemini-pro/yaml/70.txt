@@ -1,0 +1,78 @@
+Template: Eldevin's Game:
+game: Eldevin
+character:
+    age: 34
+    background: A noblewoman from Eldevin's capital city, Silverlight. She is the last survivor of her family, which was killed in a raid by a rival noble family. She is now the sole heir to her family's fortune and has sworn to avenge her family's death and restore her family's honor.
+    first_name: Anya
+    id: 234SD23SDF
+    last_name: Estellion
+    middle_name:
+    eye_color: silver
+      hair_color: black
+    height: 5.8
+    weight: 124
+    place_of_birth: Silverlight
+    role: playable protagonist
+    species: human
+    physical_appearance:
+    - eye_color: silver
+      hair_color: black
+      height: 5.8
+      weight: 124
+    physical abilities:
+    - flight: the ability to fly through air
+     - perception: the ability to sense other people's emotions and intentions
+    powers:
+    - healing: the ability to heal wounds or injuries quickly
+     - manipulation: the ability to manipulate objects with a strong touch
+
+output: ```yaml
+game: Eldevin
+character:
+    age: 34
+    background: A noblewoman from Eldevin's capital city, Silverlight. She is the last survivor of her family, which was killed in a raid by a rival noble family. She is now the sole heir to her family's fortune and has sworn to avenge her family's death and restore her family's honor.
+    first_name: Anya
+    id: 234SD23SDF
+    last_name: Estellion
+    middle_name:
+    eye_color: silver
+      hair_color: black
+    height: 5.8
+    weight: 124
+    place_of_birth: Silverlight
+    role: playable protagonist
+    species: human
+    physical abilities:
+    - flight: the ability to fly through air
+     - perception: the ability to sense other people's emotions and intentions
+    powers:
+    - healing: the ability to heal wounds or injuries quickly
+     - manipulation: the ability to manipulate objects with a strong touch
+    physical appearance:
+    - eyes_color: silver
+      hair_color: black
+      height: 5.8
+      weight: 124
+    physical abilities:
+    - flight: the ability to fly through air
+     - perception: the ability to sense other people's emotions and intentions
+    powers:
+    - healing: the ability to heal wounds or injuries quickly
+     - manipulation: the ability to manipulate objects with a strong touch
+    physical appearance:
+    - eyes_color: silver
+      hair_color: black
+      height: 5.8
+      weight: 124
+    physical abilities:
+    - flight: the ability to fly through air
+     - perception: the ability to sense other people's emotions and intentions
+    powers:
+    - healing: the ability to heal wounds or injuries quickly
+     - manipulation: the ability to manipulate objects with a strong touch
+    physical appearance:
+    - eyes_color: silver
+      hair_color: black
+      height: 5.8
+      weight: 124
+```

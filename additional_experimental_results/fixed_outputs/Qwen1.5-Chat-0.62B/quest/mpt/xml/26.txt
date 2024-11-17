@@ -1,0 +1,22 @@
+```xml
+# game.xml
+<?xml version="1.0"?> 
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective: Quest objective
+	 Description: Quest description
+	 Reward: Quest reward
+	 Giver: Quest giver
+	 Tasks:
+		Task 1: Order task order, Objective Objective, Description.
+		Task 2: Objective Objective, Description.
+		Task 3: Location Task location.
+	</game>
+```
+Explanation:
+
+* The `<id>` tag is missing in the original XML code and needs to be added.
+* The `<title>` tag should also be added.
+* The `<objective>` tag should have an attribute named "Objective" with a value of "Quest objective".
+* The `<description>` tag should have a value of "Quest description".

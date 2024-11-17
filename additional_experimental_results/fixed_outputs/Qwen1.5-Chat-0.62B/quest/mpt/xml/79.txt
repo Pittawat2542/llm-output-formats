@@ -1,0 +1,48 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+	 Giver: Quest Giver
+	 Tasks:
+		<task id="Task1">
+			Order: Task Order
+		 Objective: Task Objective
+		 Description: Task Description
+		 Location: Task Location
+		</task>
+		<task id="Task2">
+			Order: Task Order
+		 Objective: Task Objective
+		 Description: Task Description
+		 Location: Task Location
+		</task>
+	</game>
+```
+XML Output:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+	 Giver: Quest Giver
+	 Tasks:
+		<task id="Task1">
+			Order: Task Order
+		 Objective: Task Objective
+		 Description: Task Description
+		 Location: Task Location
+		</task>
+		<task id="Task2">
+			Order: Task Order
+		 Objective: Task Objective
+		 Description: Task Description
+		 Location: Task Location
+		</task>
+	</game>
+```

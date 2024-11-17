@@ -1,0 +1,30 @@
+{
+  "battle": {
+    "enemy": [
+      {
+        "id": "1",
+        "name": "Goblin",
+        "description": "A small, mischievous creature.",
+        "stats": {
+          "hp": "15",
+          "mp": "5",
+          "atk": "3",
+          "def": "1",
+          "spd": "4"
+        }
+      },
+      {
+        "id": "2",
+        "name": "Orc",
+        "description": "A powerful and aggressive warrior.",
+        "stats": {
+          "hp": "30",
+          "mp": "10",
+          "atk": "6",
+          "def": "2",
+          "spd": "5"
+        }
+      }
+    ]
+  }
+}

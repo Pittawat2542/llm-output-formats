@@ -1,0 +1,34 @@
+Sure! Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Dragon's Treasure</title>
+	<objective>Find the dragon's treasure.</objective>
+	<description>The dragon has been terrorizing the village for years. It is said that it has a vast treasure hidden in its lair. The villagers have hired you to find the treasure and slay the dragon.</description>
+	<reward>500 gold pieces, a magic sword, and the dragon's hoard.</reward>
+	<quest-giver> mayor of the village</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 Objective: Travel to the dragon's lair.</objective>
+				Action: Go
+				B说服: Come prepared.
+			原文: The dragon's lair is located in the mountains to the north of the village.
+				New: The dragon's lair is located in the mountains to the north of the village.
+			</task>
+			<task>
+				<order>2</order>
+			 Objective: Slay the dragon.</objective>
+				Action: Attack
+				B说服: Be prepared.
+			原文: The dragon is a powerful creature. Be sure to come prepared.
+				New: The dragon is not a powerful creature and does not require preparation for slaying it.
+			</task>
+			<task>
+				<order>3</order>
+			 Objective: Find the dragon's treasure.</objective>
+				Action: Find
+				B说服: Look for the dragon's treasure.
+			原文: The dragon's treasure is hidden in a secret chamber within the lair.
+				New: The dragon's treasure is not hidden in a secret chamber but rather in a chest within the lair.

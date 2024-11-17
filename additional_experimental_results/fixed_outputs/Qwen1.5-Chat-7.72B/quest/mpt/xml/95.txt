@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Recover Ancient Artifact</objective>
+    <description>Find and deliver the artifact to the Council member.</description>
+    <reward>100 Gold Coins</reward>
+    <quest-giver>Council Member Johnson</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Search Temple of Wisdom</objective>
+            <description>Follow the clues hidden inside the temple's library.</description>
+            <location>Temple, East Borough</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest for the Lost Artifact",
+    "objective": "Find and return the ancient amulet to the temple",
+    "description": "A perilous journey awaits, rewards await at the temple",
+    "reward": "100 gold coins and a rare magical artifact",
+    "quest-giver": "Old Aric, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Explore the forest to the west",
+          "description": "Follow the marked path and watch out for treacherous roots",
+          "location": "Forest Path West"
+        },
+        {
+          "@order": "2",
+          "objective": "Deliver the amulet to the temple guardian",
+          "description": "Climb the mountain and seek out the entrance in the northeast",
+          "location": "Mountain Trail Northeast"
+        }
+      ]
+    }
+  }
+}

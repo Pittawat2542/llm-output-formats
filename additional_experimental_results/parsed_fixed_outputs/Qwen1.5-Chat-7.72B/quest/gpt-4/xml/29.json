@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "36587",
+    "title": "Rescue the Lost Princess",
+    "objective": "Save the princess from the haunted castle",
+    "description": "The King's only daughter, the princess has been captured by the evils that reside in the haunted castle. Rescue her and you shall be greatly rewarded.",
+    "reward": "500 Gold and Knight Title",
+    "quest-giver": "King Roland",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Defeat the guards at the castle entrance",
+          "description": "Overcome the enchanted castle guards with caution.",
+          "location": "Haunted Castle Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Find and Unlock the secret passage",
+          "description": "Discover a hidden passage leading to the princess's room and unlock it.",
+          "location": "Haunted Castle Hallway"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the Princess",
+          "description": "Fetch the princess from her room and escort her back to King Roland safely.",
+          "location": "Princess's Room in Haunted Castle"
+        }
+      ]
+    }
+  }
+}

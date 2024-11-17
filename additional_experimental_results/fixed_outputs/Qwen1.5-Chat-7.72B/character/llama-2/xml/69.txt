@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>12345</id>
+        <first-name>John Doe</first-name>
+        <last-name>Smith</last-name>
+        <species>Human</species>
+        <age>30</age>
+        <role>Protagonist</role>
+        <background>A mysterious traveler from the East</background>
+        <place-of-birth>London, England</place-of-birth>
+        <physical-appearance>
+            <height>1.8 meters</height>
+            <weight>75 kg</weight>
+            <eye-color>Brown</eye-color>
+            <hair-color栗色</hair-color>
+        </physical-appearance>
+    </character>
+</game>
+```
+The XML code has been corrected by adding the missing `< character>` and closing tags, replacing placeholder values with actual data, and ensuring proper indentation. The output is now in the requested XML format:

@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id_value</id>
+	<title>quest_title_value</title>
+	<objective>quest_objective_value</objective>
+	<description>quest_description_value</description>
+	<reward>quest_reward_value</reward>
+	<quest-giver>quest_giver_value</quest-giver>
+	<tasks>
+		<task>
+			<order>task_order_value</order>
+			<objective>task_objective_value</objective>
+			<description>task_description_value</description>
+			<location>task_location_value</location>
+		</task>
+	</tasks>
+</game>
+```
+
+I added the missing `encoding` attribute to the XML declaration, which is required, and I provided placeholder values for each element. If you want to use specific values, replace `_value` with your desired text.

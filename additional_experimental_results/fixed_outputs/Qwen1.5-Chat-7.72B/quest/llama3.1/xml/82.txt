@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>Q001</id>
+    <title>Retrieve the Ancient Scroll</title>
+    <objective>Find and retrieve the ancient scroll from the ruins of the temple.</objective>
+    <description>The village elder seeks your assistance to obtain a scroll holding valuable historical secrets. Successfully navigate the temple's traps, puzzles, and unlock the inner sanctum to fulfill this quest.</description>
+    <reward>10 gold coins, a magical amulet</reward>
+    <quest-giver>Village Elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Overcome temple traps and solve puzzles to reach the inner sanctum.</objective>
+            <description>Be cautious as the temple is filled with danger. The key to entry lies in unraveling its ancient riddles.</description>
+            <location>Temple Entrance</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Decipher the hidden riddle for access to the inner sanctum.</objective>
+            <description>The clock is ticking! Find the clue within the temple's walls to unlock the door to the sacred chamber.</description>
+            <location>Inner Sanctum</location>
+        </task>
+    </tasks>
+</game>
+```

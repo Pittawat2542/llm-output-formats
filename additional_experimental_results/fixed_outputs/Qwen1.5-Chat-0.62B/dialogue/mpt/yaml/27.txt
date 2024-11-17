@@ -1,0 +1,21 @@
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: Alice
+    text: 'As I was saying, there's been an enormous increase in violent crimes in our town. This is a real issue.'
+```
+
+Here's the Markdown code block that includes the corrected YAML data:
+
+```markdown
+Game:
+Dialogues:
+  Order: Dialogue Order Speaker Text
+|Order| Speaker| Text|
+|---|---|---|
+|1| Alice| As I was saying, there's been an enormous increase in violent crimes in our town. This is a real issue.'|
+|2| Alice| In fact, the last census showed an astonishing 80% increase in registered offenders in the last year. It's pretty much out of control.'|
+|3| Alice| But I suppose I shouldn't be surprised. The unemployment rate has been steadily climbing for the past few years. |
+|4| Alice| It's really depressing.'|
+```

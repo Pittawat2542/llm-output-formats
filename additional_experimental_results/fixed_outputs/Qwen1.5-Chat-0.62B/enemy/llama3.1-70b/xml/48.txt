@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?> 
+<game>
+     < enemy> 
+         <id>1</id> 
+         <name>Goblin</name> 
+         <description>A weak monster.</description> 
+         <stats> 
+             <hp>100</hp> 
+             <mp>50</mp> 
+             <atk>20</atk> 
+             <def>15</def>  
+             <spd>30</spd> 
+         </stats> 
+     </enemy>
+</game>
+```
+
+New values: The `id` attribute should be set to the ID of the enemy instead of the name. Also, the `description` attribute should be set to the description of the enemy instead of the name.

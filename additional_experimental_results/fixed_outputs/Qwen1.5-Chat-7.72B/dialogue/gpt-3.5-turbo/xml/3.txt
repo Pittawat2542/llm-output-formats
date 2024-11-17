@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="1">
+            <speaker>Player</speaker>
+            <text>Hello, how can I help you?</text>
+        </dialogue>
+        <dialogue order="2">
+            <speaker>NPC</speaker>
+            <text>I'm looking for a new smartphone. Can you recommend one?</text>
+        </dialogue>
+        <dialogue order="3">
+            <speaker>Player</speaker>
+            <text>What are your requirements and budget?</text>
+        </dialogue>
+        <dialogue order="4">
+            <speaker>NPC</speaker>
+            <text>I need a smartphone with good camera and $500 budget.</speaker>
+        </dialogue>
+        <dialogue order="5">
+            <speaker>Player</speaker>
+            <text>The iPhone SE or the Google Pixel 4a are great options.</speaker>
+        </dialogue>
+        <dialogue order="6">
+            <speaker>NPC</speaker>
+            <text>Tanks! I'll consider them.</speaker>
+        </dialogue>
+    </dialogues>
+</game>
+```

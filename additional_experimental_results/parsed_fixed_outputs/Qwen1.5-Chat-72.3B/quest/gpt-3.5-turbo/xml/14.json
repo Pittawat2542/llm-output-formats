@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure and return it to its rightful owner",
+    "description": "In this quest, you will embark on an exciting adventure to find the lost treasure of Azure Cove. It is said that the treasure holds immense power and must not fall into the wrong hands. Your task is to navigate through treacherous caves, solve puzzles, and defeat enemies to retrieve the treasure and bring it back to the quest giver.",
+    "reward": "Ancient artifact with mysterious powers",
+    "quest-giver": "Captain Avery",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Seek the old wise man in the village",
+          "description": "He holds the key to the treasure's location. Listen carefully to his guidance.",
+          "location": "The Village of Eldrid"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the first piece of the treasure map from the ancient ruins",
+          "description": "The map will lead you to the entrance of the cave where the treasure is hidden.",
+          "location": "The Ruins of Eldora"
+        },
+        {
+          "order": "3",
+          "objective": "Decode the riddles to pass through the cave's traps",
+          "description": "Beware of the deadly pitfalls and traps set to protect the treasure.",
+          "location": "The Cave of Shadows"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the guardians of the treasure",
+          "description": "Ancient creatures guard the treasure. Show them your strength and wit to claim it.",
+          "location": "The Chamber of Guardians"
+        }
+      ]
+    }
+  }
+}

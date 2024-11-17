@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>The Missing Prince</title>
+    <objective>Find the missing prince who has been kidnapped by an evil wizard.</objective>
+    <description>The prince has been kidnapped by an evil wizard hiding in a secret lair. The player must navigate a treacherous forest, combat monsters, and solve puzzles to rescue him and bring him back to safety.</description>
+    <reward>A powerful magical sword and a rare potion will be the reward for completing the quest.</reward>
+    <quest-giver>Queen Titania</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to Darkwood Forest and locate the wizard's lair.</objective>
+            <description>The forest is filled with peril - be cautious and use your wits to overcome challenges.</description>
+            <location>Darkwood Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the wizard's guards and seek out the missing prince.</objective>
+            <description>The lair is guarded by fierce creatures. Approach with caution and determination.</description>
+            <location>Wizard's Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return the prince to King Oberon at King's Castle and claim your reward.</objective>
+            <description>Once found, deliver the prince to the king and expect a just reward for your heroic endeavor.</description>
+            <location>King's Castle</location>
+        </task>
+    </tasks>
+</game>
+```

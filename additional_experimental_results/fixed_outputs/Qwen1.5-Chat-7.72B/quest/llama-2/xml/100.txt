@@ -1,0 +1,26 @@
+The XML data appears to be correct. Here's the corrected version with new values for demonstration purposes:
+
+```xml
+<game>
+    <id>12345</id>
+    <title>Sample Quest Title</title>
+    <objective>Complete tasks to earn gold coins</objective>
+    <description>A journey to find a hidden treasure</description>
+    <reward>50 gold coins</reward>
+    <quest-giver>Old Mapmaker</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Deliver letter to the village mayor</objective>
+            <description>Follow the road west for 2 miles</description>
+            <location>Western Crossroads</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Collect herbs from the nearby field</objective>
+            <description>North of the inn, by the oak tree</description>
+            <location>Herb Field</location>
+        </task>
+    </tasks>
+</game>
+```

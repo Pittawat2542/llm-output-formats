@@ -1,0 +1,25 @@
+
+```xml
+<!-- XML output only -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<character id="character-id">
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>5.11</height> -- (Example: float value)
+				<weight>68.0</weight> -- (Example: float value)
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id123</id>
+	<title>Rise of the Ancients</title>
+	<objective>Uncover the secrets of the ancient ruins</objective>
+	<description>Your quest begins in the village of Eldrid, where an old artifact has been discovered. Seek the wisdom of the Oracle for clues.</description>
+	<reward>Ancient Scroll, 100 gold coins</reward>
+	<quest-giver>High Priest Thorne</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Visit the Oracle's Temple</objective>
+			<description>Seek counsel from the Oracle and learn about the first artifact fragment.</description>
+			<location>Eldrid Village, Oracle's Temple</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Lost Ruins</objective>
+			<description>Follow the clues left by the Oracle to discover the location of the ancient ruins.</description>
+			<location>The Forgotten Forest</location>
+		</task>
+		<!-- Add more tasks as needed -->
+	</tasks>
+</game>
+```

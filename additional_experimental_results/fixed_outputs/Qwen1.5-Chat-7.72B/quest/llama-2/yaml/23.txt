@@ -1,0 +1,29 @@
+```yaml
+game:
+  description: "New Quest Description"
+  id: "new_id"
+  objective: "Updated Quest Objective"
+  quest_giver: "Different Quest Giver"
+  reward: "New Quest Reward"
+  tasks:
+    - description: "Task A Description"
+      location: "Task A Location"
+      objective: "Task A Objective"
+      order: 1
+      title: "Quest Title A"
+    - description: "Task B Description"
+      location: "Task B Location"
+      objective: "Task B Objective"
+      order: 2
+      title: "Quest Title B"
+    # More tasks as needed
+
+# Added missing values
+quest_description: "New Quest Description"
+reward_description: "Reward Description"
+task_location: "Task A Location, Task B Location"
+task_order: [
+  { task: "Task A", order: 1 },
+  { task: "Task B", order: 2 }
+]
+```

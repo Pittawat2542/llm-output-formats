@@ -1,0 +1,38 @@
+{
+  "game": {
+    "dialogues": {
+      "dialogue": [
+        {
+          "order": "1",
+          "speaker": "User",
+          "text": "Hello, can I get some information about a product?"
+        },
+        {
+          "order": "2",
+          "speaker": "Bot",
+          "text": "I'd be happy to help. What kind of product are you looking for information on?"
+        },
+        {
+          "order": "3",
+          "speaker": "User",
+          "text": "I'm interested in a new smartphone."
+        },
+        {
+          "order": "4",
+          "speaker": "Bot",
+          "text": "We have several smartphones that you might be interested in. What's your budget like?"
+        },
+        {
+          "order": "5",
+          "speaker": "User",
+          "text": "I'm willing to spend up to $1000."
+        },
+        {
+          "order": "6",
+          "speaker": "Bot",
+          "text": "We have a few options within your budget. Would you like me to recommend some?"
+        }
+      ]
+    }
+  }
+}

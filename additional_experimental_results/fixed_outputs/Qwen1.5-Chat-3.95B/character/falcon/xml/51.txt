@@ -1,0 +1,26 @@
+The original XML data is invalid. It does not follow the syntax rules for a valid XML document. The provided values are incorrect or irrelevant to the problem. Here is an example of how it should be fixed:
+```xml
+<game>
+	<character>
+			<id>id</id>
+			<first-name>first name</first-name>
+			<last-name>last name</last-name>
+			<species>species</species>
+			<age>exact age or description</age>
+			<role>role of the character</role>
+			<background>background story</background>
+			<place-of-birth>location</place-of-birth>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+				</physical-appearance>
+		</ physical-appearance>
+	</character> 
+</game>
+```
+Invalid XML data:
+```xml
+[Character] 
+```

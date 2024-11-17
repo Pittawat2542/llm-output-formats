@@ -1,0 +1,69 @@
+{
+  "gamelog": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "enemy": [
+      {
+        "@id": "game1",
+        "@name": "enemy1",
+        "intname": {
+          "@xsi:type": "id",
+          "#text": "id1"
+        },
+        "hp": "10000",
+        "mp": "50000",
+        "atk": {
+          "@xsi:type": "int",
+          "#text": "3"
+        }
+      },
+      {
+        "@id": "enemy2",
+        "@name": "game2",
+        "intname": {
+          "@xsi:type": "id",
+          "#text": "id2"
+        },
+        "hp": "10000",
+        "mp": "50000",
+        "atk": [
+          {
+            "@xsi:type": "int",
+            "#text": "1"
+          },
+          {
+            "@xsi:type": "int",
+            "#text": "2"
+          },
+          {
+            "@xsi:type": "int",
+            "#text": "3"
+          }
+        ]
+      },
+      {
+        "@id": "game3",
+        "@name": "enemy3",
+        "intname": {
+          "@xsi:type": "id",
+          "#text": "id3"
+        },
+        "hp": "10000",
+        "mp": "50000",
+        "atk": [
+          {
+            "@xsi:type": "int",
+            "#text": "1"
+          },
+          {
+            "@xsi:type": "int",
+            "#text": "2"
+          },
+          {
+            "@xsi:type": "int",
+            "#text": "3"
+          }
+        ]
+      }
+    ]
+  }
+}

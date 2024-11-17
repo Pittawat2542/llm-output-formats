@@ -1,0 +1,16 @@
+{
+  "game": {
+    "@xmlns": "http://www.example.com",
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quests": {
+      "task": {
+        "@order": "task order",
+        "#text": "{\n      objectives: [task objective],\n      description: task description,\n      location: task location\n      tasks: []\n      }"
+      }
+    }
+  }
+}

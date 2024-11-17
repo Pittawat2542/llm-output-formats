@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The title of the game</title>
+	.synopsis"The story of the game</synopsis>
+	<aftersuccess>
+		<h2>The journey to find the artifact</h2>
+	</after_success>
+</game>
+```
+New values for `synopsis`, `beginning`, and `ending`: 
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The title of the game</title>
+	.synopsis"The story of the game</synopsis>
+	<aftersuccess>
+		<h2>The journey to find the artifact</h2>
+		<h3>After overcoming trials and facing obstacles, your character is finally ready for the task at hand.</h3>
+	</after_success>
+</game>
+```

@@ -1,0 +1,12 @@
+```python
+def fix_incorrect_syntax(data: str) -> str:
+    lines = data.split("\n")
+
+    for line in lines:
+        if "^" in line:
+            line = line.replace("^", "\n")
+
+    return "\n".join(lines)
+```
+
+

@@ -1,0 +1,74 @@
+Here is the correct YAML data with new values:
+
+```
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      wd: wd int value
+      wpa: wpa int value
+      wpa2: wpa2 int value
+      wpa3: wpa3 int value
+      wpas: wpas int value
+      wpas2: wpas2 int value
+      wpas3: wpas3 int value
+      wpas4: wpas4 int value
+      wpas5: wpas5 int value
+      wpas6: wpas6 int value
+      wpas7: wpas7 int value
+      wpas8: wpas8 int value
+      wpas9: wpas9 int value
+      wpas10: wpas10 int value
+      wpas11: wpas11 int value
+      wpas12: wpas12 int value
+
+  stats:
+    atk: atk int value
+    def: def int value
+    mp: mp int value
+    wd: wd int value
+    wpa: wpa int value
+    wpa2: wpa2 int value
+    wpa3: wpa3 int value
+    wpas: wpas int value
+    wpas2: wpas2 int value
+    wpas3: wpas3 int value
+    wpas4: wpas4 int value
+    wpas5: wpas5 int value
+    wpas6: wpas6 int value
+    wpas7: wpas7 int value
+    wpas8: wpas8 int value
+    wpas9: wpas9 int value
+    wpas10: wpas10 int value
+    wpas11: wpas11 int value
+    wpas12: wpas12 int value
+
+  atk: 50
+  def: 50
+  hp: 50
+  mp: 50
+  wd: 50
+  wpa: 50
+  wpa2: 50
+  wpa3: 50
+  wpas: 50
+  wpas2: 50
+  wpas3: 50
+  wpas4: 50
+  wpas5: 50
+  wpas6: 50
+  wpas7: 50
+  wpas8: 50
+  wpas9: 50
+  wpas10: 50
+  wpas11: 50
+  wpas12: 50
+```
+
+Note that I have added a new value for the `atk` field with a default value of `50`, and also updated the `def` field to use the correct value format.

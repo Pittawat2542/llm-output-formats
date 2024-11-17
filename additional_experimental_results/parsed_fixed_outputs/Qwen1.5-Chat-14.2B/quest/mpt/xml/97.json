@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": {
+      "@id": "unique_id",
+      "#text": "id"
+    },
+    "title": {
+      "@quest_title": "A New Quest",
+      "#text": "quest title"
+    },
+    "objective": {
+      "@quest_objective": "Defeat the dragon",
+      "#text": "quest objective"
+    },
+    "description": {
+      "@quest_description": "Embark on a journey to slay the fierce beast guarding the treasure.",
+      "#text": "quest description"
+    },
+    "reward": {
+      "@quest_reward": "Gold and Dragon Scale",
+      "#text": "quest reward"
+    },
+    "quest-giver": {
+      "@quest_giver": "Noble Guide",
+      "#text": "quest giver"
+    },
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Conquer the dragon's lair",
+        "description": "Search for its cave entrance in the nearby mountains.",
+        "location": "Mountain Range"
+      }
+    }
+  }
+}

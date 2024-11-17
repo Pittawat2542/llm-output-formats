@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: 30
+    background: childhood
+    first_name: John
+    id: 123456
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: blonde
+      height: 180.0
+      weight: 80.0
+    place_of_birth: New York
+    role: hero
+    species: human
+```
+The YAML syntax is corrected by replacing the comma with a colon for the `height` and `weight` properties, which are numbers. No other changes were needed. The final YAML code block is provided below.

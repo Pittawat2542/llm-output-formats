@@ -1,0 +1,32 @@
+```xml
+<!DOCTYPE characterReport>  
+<character id="id" style="color: red; hair-color: black;">
+    <first-name>Surname</first-name>
+    <last-name>First name</last-name>
+</character>
+```
+New values for key_completeness:
+
+  * "game" should be replaced with "game"
+  * "role" should be replaced with "role"
+
+Code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character id="id" style="color: red; hair-color: black;">
+        <first-name>Surname</first-name>
+        <last-name>First name</last-name>
+    </character>
+</game>
+```
+Output in Markdown code block:
+```xml
+<!DOCTYPE characterReport>
+<character id="id" style="color: red; hair-color: black;">
+    <first-name>Surname</first-name>
+    <last-name>First name</last-name>
+</character>
+
+```
+XML.

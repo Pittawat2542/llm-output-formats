@@ -1,0 +1,52 @@
+Game:
+  character:
+    age: 18
+    background: John's Background Story
+    first_name: John
+    id: 1
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: Black
+      hair_color: Dark Brown
+      height: 6' 
+      weight: 135 
+    place_of_birth: Ohio, USA
+    role: Protagonist
+    species: Human
+# Updated YAML data with corrected syntax and values
+yaml_data = """
+game:
+  character:
+    age: 18
+    background: John's Background Story
+    first_name: John
+    id: 1
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: Black
+      hair_color: Dark Brown
+      height: 6' 
+      weight: 135 
+    place_of_birth: Ohio, USA
+    role: Protagonist
+    species: Human
+```
+
+Output in YAML format:
+```yaml
+game:
+  character:
+    age: 18
+    background: John's Background Story
+    first_name: John
+    id: 1
+    last_name: Johnson
+    physical_appearance:
+     - eye_color: Black
+      hair_color: Dark Brown
+      height: 6'
+      weight: 135 
+    place_of_birth: Ohio, USA
+    role: Protagonist
+    species: Human
+```

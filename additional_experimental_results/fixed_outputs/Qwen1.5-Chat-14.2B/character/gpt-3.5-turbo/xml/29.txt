@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>123456</id>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <species>Human</species>
+        <age>30</age>
+        <role>Protagonist</role>
+        <background>John Doe is a skilled detective with a troubled past. He lost his family in a tragic incident and has been dedicated to solving crimes ever since.</background>
+        <place-of-birth>New York City</place-of-birth>
+        <physical-appearance>
+            <eye-color>Brown</eye-color>
+            <hair-color>Black</hair-color>
+            <height unit="cm">180.0</height>
+            <weight unit="kg">72.0</weight>
+        </physical-appearance>
+    </character>
+</game>
+```
+I fixed the incorrect syntax by adding an `encoding` attribute to the XML declaration, removed the extra closing tag from `<physical-appearance>`, and added appropriate units (cm for height and kg for weight) to the float values.

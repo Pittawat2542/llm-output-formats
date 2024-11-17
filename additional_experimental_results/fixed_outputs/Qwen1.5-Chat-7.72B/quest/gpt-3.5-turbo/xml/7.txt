@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>The Lost Treasure Quest</title>
+    <objective>Uncover the treasure of Captain Blackbeard's hidden island</objective>
+    <description>Embark on a quest to find the chest of gold coins and gems. Follow the clues provided in the map, locate the Hidden Cave on the eastern side, and retrieve the Skeleton Key to unlock the treasure chamber.</description>
+    <reward>A chest full of treasure</reward>
+    <quest-giver>Captain Blackbeard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find Skeleton Key at Hidden Cave</objective>
+            <description>Discover the entrance and obtain the key to unlock the treasure's secrets.</description>
+            <location>Hidden Cave</location>
+        </task>
+    </tasks>
+</game>
+```

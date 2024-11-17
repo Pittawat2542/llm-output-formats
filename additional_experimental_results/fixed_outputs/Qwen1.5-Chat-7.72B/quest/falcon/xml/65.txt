@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1234567890</id>
+    <title>Quest Title Example</title>
+    <objective>Complete the救公主的任务</objective>
+    <description>跟随勇敢的骑士，解开城堡迷宫的谜团</description>
+    <reward>经验值1000，金币50</reward>
+    <quest-giver>英勇骑士</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>找到神秘宝箱</objective>
+            <description>在森林边缘的石像处获得线索</description>
+            <location>森林边缘</location>
+        </task>
+    </tasks>
+</game>
+```

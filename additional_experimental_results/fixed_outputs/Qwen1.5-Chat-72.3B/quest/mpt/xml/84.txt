@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to the village elder.</objective>
+	<description>You've heard rumors that the long-lost artifact is hidden in a cave deep in the forest. The village elder needs your help to retrieve it and bring peace back to the community.</description>
+	<reward>1000 gold coins and great honor</reward>
+	<quest-giver> Elder Tharen </quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the forest and locate the cave entrance.</objective>
+			<description>Follow the river that flows through the heart of the forest until you find a dark opening in the rocks.</description>
+			<location>The Forest's Heart</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Enter the cave and navigate the dangers inside.</objective>
+			<description>Beware of traps and creatures that lurk in the shadows. Find a way to safely make your way to the artifact.</description>
+			<location>Cave Depths</location>
+		</task>
+	</tasks>
+</game>
+```

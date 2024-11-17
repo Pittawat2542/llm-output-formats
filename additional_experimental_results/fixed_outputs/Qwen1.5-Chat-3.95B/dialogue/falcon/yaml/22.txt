@@ -1,0 +1,23 @@
+The YAML data needs to be corrected. The syntax is incorrect and the values are not valid. Here is a new YAML file with the correct information:
+
+Error: key_completeness: The root of the result is not a dictionary.
+Invalid YAML:
+```yaml
+{
+  "error": {
+    "key": "completeness"
+   }
+}
+```
+ corrected YAML data:
+```yaml
+{
+  "result": [
+    {
+      "order": "dialogue order",
+      "speaker": {"name": "speaker name"}},
+      {
+      "text": "content here"}
+    ]
+}
+``>

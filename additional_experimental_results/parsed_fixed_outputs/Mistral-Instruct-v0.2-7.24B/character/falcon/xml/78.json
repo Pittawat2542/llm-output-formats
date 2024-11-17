@@ -1,0 +1,28 @@
+{
+  "game": {
+    "character": {
+      "id": "id",
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "Species",
+      "age": "exact age or description",
+      "role": "Role of the character",
+      "background": "Backstory",
+      "place-of-birth": "Location",
+      "physical-appearance": {
+        "physical-appearance": {
+          "eye-color": "eye color",
+          "hair-color": "hair color",
+          "height": "height in float value",
+          "weight": "weight in float value"
+        }
+      }
+    },
+    "script": [
+      {
+        "@src": "https://code.jquery.com/jquery-3.6.0.min.js"
+      },
+      "var name = prompt(\"Enter name of character\");\n\t\t$.ajax({\n\t\t\turl: \"example.xml?character=\" + encodeURIComponent(name),\n\t\t\tdataSrc: \"data/\" + name,\n\t\t\tsuccess: function(data) {\n\t\t\t\t$(data).appendTo(\"#xml\"); // replace \"#xml\" with the ID of the parent element\n\t\t\t}\n\t\t});"
+    ]
+  }
+}

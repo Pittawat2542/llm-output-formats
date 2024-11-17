@@ -1,0 +1,24 @@
+game:
+  description: quest description
+  id: quest_id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest_reward
+  tasks:
+    - task_description: task description
+      location: task_location
+      objective: taskobjective
+      order: task_order
+  title: quest_title
+
+### Quest Giver
+quest_giver: quest_giver
+
+### Quest Reward
+reward: quest_reward
+
+### Tasks
+
+
+```yaml
+```

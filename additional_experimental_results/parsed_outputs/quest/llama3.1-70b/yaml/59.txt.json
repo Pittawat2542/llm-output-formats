@@ -1,0 +1,31 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the long-abandoned Castle Eldarath.",
+    "id": "QST001",
+    "objective": "Claim the Sword of Light and return it to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience": 500,
+      "gold": 1000,
+      "item": {
+        "name": "Shield of Valor",
+        "type": "shield"
+      }
+    },
+    "tasks": [
+      {
+        "description": "Explore Castle Eldarath's entrance hall and find the grand staircase leading to the throne room.",
+        "location": "Castle Eldarath Entrance Hall",
+        "objective": "Find the grand staircase.",
+        "order": 1
+      },
+      {
+        "description": "Defeat the undead knight guarding the throne room door.",
+        "location": "Castle Eldarath Throne Room",
+        "objective": "Defeat the undead knight.",
+        "order": 2
+      }
+    ],
+    "title": "The Sword of Light"
+  }
+}

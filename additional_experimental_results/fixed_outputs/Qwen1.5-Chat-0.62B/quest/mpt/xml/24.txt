@@ -1,0 +1,53 @@
+Here's the updated XML data with the corrected syntax:
+```xml
+<?xml version="1.0""?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	Objective>Quest objective</Objective>
+	Description> Quest description</Description>
+	 Reward>Quest reward</ reward>
+	Quest-giver>Quest giver</Quest-giver>
+	Objects>Objects
+			<object>
+				Order>Order position</Order>
+			 Objective>Object objective</Objective>
+				Description>Description description</Description>
+			location>Location location</location>
+			</object>
+		Tasks>Tasks
+			<Task>
+				Order>Order order</Order>
+			 Objective>Object objective</Objective>
+				Description>Description description</Description>
+			 Location>Location location</location>
+			</Task>
+	</game>
+```
+Here's the output in Markdown format:
+```markdown
+# Output format
+<?xml version="1.0""?>
+<game>
+	<title>Quest title</title>
+ Objective>Quest objective</Objective>
+	Description>Quest description</Description>
+	 reward>Quest reward</reward>
+	Quest-giver>Quest giver</Quest-giver>
+	Objects>Objects
+			<object>
+				Order>Order position</Order>
+			 Objective>Object objective</Objective>
+				Description>Description description</Description>
+			location>Location location</location>
+			</object>
+		Tasks>Tasks
+			<Task>
+				Order>Order order</Order>
+			 Objective>Object objective</Objective>
+				Description>Description description</Description>
+			 Location>Location location</location>
+			</Task>
+	</game>
+```
+I hope this helps! Let me know if you have any questions.

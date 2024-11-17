@@ -1,0 +1,23 @@
+XML:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns="http://www.game.com/schema/">
+   <id id="id">id</id>
+   <title quest title="quest title">quest title</title>
+   <objective quest objective="quest objective">quest description</description>
+   <reward quest reward="quest reward">quest reward</reward>
+   <quest-giver quest giver="quest giver">quest giver</quest-giver>
+   <tasks>
+       <task id="1" order="task order">
+           <objective task objective="task objective">task description</location> </task>
+       <task id="2" order="task order">
+           <objective task objective="task description">task description</location> </task>
+       <task id="3" order="task order">
+           <objective task objective="task description">task description</location> </task>
+       <task id="4" order="task order">
+           <objective task objective="task description">task description</location> </task>
+       <task id="5" order="task order">
+           <objective task objective="task description">task description</location> </task>
+   </tasks>
+</game>
+```

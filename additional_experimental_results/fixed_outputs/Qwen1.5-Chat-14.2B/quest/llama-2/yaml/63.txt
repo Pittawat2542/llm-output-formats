@@ -1,0 +1,18 @@
+The issue with the provided YAML data is that it contains a backtick (`) character, which is not valid within a YAML document. To fix this, remove the backticks around the words like "quest giver" and "quest reward". Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest_giver
+  reward: quest_reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+Now the YAML is correct and can be used without any issues.

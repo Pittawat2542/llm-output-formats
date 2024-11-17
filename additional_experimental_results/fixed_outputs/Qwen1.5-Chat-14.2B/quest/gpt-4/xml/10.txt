@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the ancient ruins</objective>
+	<description>You have been given a map and directions to the location of an ancient artifact. Your objective is to locate and retrieve this artifact.</description>
+	<reward>500 gold coins and a rare magic item</reward>
+	<quest-giver>Old Man Jenkins</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the map in your inventory</objective>
+			<description>Look for the hand-drawn map in your inventory. It should reveal the location of the ruins.</description>
+			<location>Player's inventory</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Locate the entrance of the ruins</objective>
+			<description>Use the map to navigate through the forest and find the entrance to the ruins.</description>
+			<location>Deep Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Explore the ruins and retrieve the artifact</objective>
+			<description>The ruins are bound to be filled with traps and maybe even monsters. Be careful as you explore them and keep an eye out for the artifact.</description>
+			<location>Ancient Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

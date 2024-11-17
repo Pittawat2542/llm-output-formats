@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "New Objective",
+    "description": "A Detailed Quest Description",
+    "reward": "Chest of Gold",
+    "quest-giver-character": {
+      "@name": "NPC Name"
+    },
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Complete Level 1 Task",
+          "description": "Examine the marked rock at coordinates (5, 7)",
+          "location": "Level 1 Map Area"
+        },
+        {
+          "@order": "2",
+          "objective": "Unlock Level 2 Secret",
+          "description": "Find the hidden chest in Forest North",
+          "location": "Forest North"
+        }
+      ],
+      "task-icon": {
+        "@src": "quest_icon.png",
+        "@alt": "Quest Icon"
+      }
+    }
+  }
+}

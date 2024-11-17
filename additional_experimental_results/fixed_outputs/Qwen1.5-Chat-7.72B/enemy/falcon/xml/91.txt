@@ -1,0 +1,33 @@
+```xml
+<status xmlns="http://enumeration.org/status">
+   <status_enemy id="id1">
+    <hp>6</hp>
+    <mp>55</mp>
+    <atk>50</atk>
+    <def>55</def>
+    <spd>55</spd>
+   </status_enemy>
+   <status_enemy id="id2">
+    <hp>6</hp>
+    <mp>6</mp>
+    <atk>60</atk>
+    <def>6</def>
+    <spd>6</spd>
+   </status_enemy>
+   <status_enemy id="id3">
+    <hp>4</hp>
+    <mp>4</mp>
+    <atk>4</atk>
+    <def>4</def>
+    <spd>4</spd>
+   </status_enemy>
+   <status_enemy id="id4">
+    <hp>6</hp>
+    <mp>6</mp>
+    <atk>6</atk>
+    <def>6</def>
+    <spd>0</spd>
+   </status_enemy>
+   <!-- ... (omitted for brevity) -->
+</status>
+```

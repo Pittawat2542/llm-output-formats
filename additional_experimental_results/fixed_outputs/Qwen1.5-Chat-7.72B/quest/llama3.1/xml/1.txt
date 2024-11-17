@@ -1,0 +1,28 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>Q001</id>
+    <title>Retrieve the Lost Scroll</title>
+    <objective>Find and return the ancient scroll to Lena, the Local Scholar.</objective>
+    <description>The local scholar requires the scroll for a crucial research project. The ruins are risky and filled with puzzles; be cautious as you search.</description>
+    <reward>100 gold pieces</reward>
+    <quest-giver>Lena, the Local Scholar</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Examine the entrance hall of the ancient ruins for clues or hidden passages.</objective>
+            <description>Begin in the Ancient Ruins Entrance Hall and carefully inspect the area.</description>
+            <location>The Ancient Ruins Entrance Hall</location>
+        </task>
+        <task order="2">
+            <objective>Pass through the central chamber, avoiding traps and obstacles.</objective>
+            <description>Maintain vigilance in the center of the ruins. Uncover any pointers to the scroll's location.</description>
+            <location>The Ancient Ruins Central Chamber</location>
+        </task>
+        <task order="3">
+            <objective>Unlock and retrieve the lost scroll from the treasure room.</objective>
+            <description>Challenge the stone door in the treasure room using your problem-solving skills.</description>
+            <location>The Ancient Ruins Treasure Room</location>
+        </task>
+    </tasks>
+</game>
+```

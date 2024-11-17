@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<quest>
+    <id>1</id>
+    <title>The Quest for the Holy Grail</title>
+    <objective>Find the Holy Grail</objective>
+    <description>This is a quest to find the Holy Grail. You will be rewarded with the title of "King Arthur".</description>
+    <reward>The title of King Arthur</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Holy Grail</objective>
+            <description>You must find the Holy Grail. The Holy Grail is located in the castle of Camelot.</description>
+            <location>Camelot</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the Holy Grail</objective>
+            <description>You must find the Holy Grail. The Holy Grail is located in the castle of Camelot.</description>
+            <location>Camelot</location>
+        </task>
+    </tasks>
+</quest>
+```
+The fixed XML removes the unnecessary ``` tags around the description and task elements, sets the correct encoding to "UTF-8", and closes the opening tag for the tasks element.

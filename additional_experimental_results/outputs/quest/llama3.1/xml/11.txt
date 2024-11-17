@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>Rumors have been circulating about a powerful artifact hidden within the ancient lost temple. The temple is said to be filled with treacherous traps and puzzles, but the reward will be worth it. Gather your gear and get ready for an adventure!</description>
+	<reward>Ancient Relic x1</reward>
+	<quest-giver>High Priestess Elara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's layout and traps.</objective>
+			<description>Speak with the local villagers and gather any information you can find about the temple's layout, traps, and puzzles. This will be crucial in helping you navigate the temple safely.</description>
+			<location>Village of Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate the temple and reach the artifact chamber.</objective>
+			<description>Use your gathered information to navigate the temple, avoiding traps and puzzles along the way. Once you reach the artifact chamber, be prepared for a final challenge to claim the relic.</description>
+			<location>The Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,23 @@
+Here is the corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<hp id="id1">hp int value 20</hp>
+			/mp id="mp1">mp int value 40</mp>
+			atk id="atk1">atk int value 30</atk>
+			(def id="def1">def int value 50</def>
+			spd id=" wsp1">spd int value 20</ wsp1>
+			<stats>
+			<hp>hp int value 10</hp>
+				mp>mp int value 3</mp>
+			atk>atk int value 4</atk>
+				(def>def int value 5</def>
+				 wsp> wsp int value 8</ wsp>
+			/stats>
+	< enemy>
+	</enemy>
+</game>
+```
+
+The syntax and values have been corrected.

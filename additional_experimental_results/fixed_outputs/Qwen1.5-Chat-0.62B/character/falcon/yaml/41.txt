@@ -1,0 +1,34 @@
+```yaml
+game.character:
+  name: Jane
+
+  age: exact age or description
+  gender: female
+
+  species: human
+  
+  first_name: Jane
+  
+  last_name: Hart
+  
+  personal:
+    eye_color: type: string
+    hair_color: type: string
+    height: float
+    weight: float
+    
+  physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: character role of the character
+    species: specific species
+  
+  - physical_appearance
+    eye_color: type: string
+    hair_color: type: string
+    height: float
+    weight: float
+```

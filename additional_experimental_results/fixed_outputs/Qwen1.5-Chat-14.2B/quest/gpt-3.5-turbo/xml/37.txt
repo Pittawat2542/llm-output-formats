@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>In this quest, you embark on a thrilling adventure to find the lost treasure of the ancient kingdom. Solve puzzles, face challenges, and overcome obstacles to discover the valuable treasure that has been hidden for centuries.</description>
+	<reward>Ancient artifact and a bag of gold coins</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the first clue</objective>
+			<description>Your journey begins at the old library. Search for a hidden message in an ancient book that will lead you to the next clue.</description>
+			<location>Old Library</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the riddle</objective>
+			<description>Use your wit to decipher the mysterious riddle inscribed on a stone tablet. The riddle holds the key to unlocking the next clue.</description>
+			<location>Ancient Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the key</objective>
+			<description>Venture into the treacherous cave and retrieve the key hidden deep within. The key is essential to unlocking the final secret location where the treasure awaits.</description>
+			<location>Treacherous Cave</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Discover the hidden chamber</objective>
+			<description>Follow the clues and navigate through a complex maze to reach the hidden chamber. Inside lies the legendary treasure.</description>
+			<location>Hidden Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

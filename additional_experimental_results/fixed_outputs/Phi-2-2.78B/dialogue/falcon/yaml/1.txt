@@ -1,0 +1,18 @@
+The following YAML data is fixed. The original message is provided between ```yaml and ```. Return output in YAML format and only the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```).
+```yaml
+dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+game:
+
+dialogues:
+  - order: dialogue order
+    speaker:
+      name: character name
+
+# Additional outputs
+
+```
+
+

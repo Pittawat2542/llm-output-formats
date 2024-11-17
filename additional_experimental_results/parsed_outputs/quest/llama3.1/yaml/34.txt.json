@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient Scroll of Eldarath, hidden deep within the Longaberget Caves.",
+    "id": "Quest_001",
+    "objective": "Retrieve the Scroll of Eldarath",
+    "quest_giver": "Eira Shadowglow, Wizard of the Silver Oak",
+    "reward": "A magical amulet granting resistance to fire damage and +10% experience bonus",
+    "tasks": [
+      {
+        "description": "Explore the caves' eastern entrance and find the hidden passage.",
+        "location": "Longaberget Caves (Eastern Entrance)",
+        "objective": "Discover the hidden passage",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the winding tunnels and avoid deadly traps.",
+        "location": "Longaberget Caves (Tunnel System)",
+        "objective": "Reach the innermost sanctum of the caves",
+        "order": 2
+      },
+      {
+        "description": "Defeat the fearsome Cave Troll guarding the scroll.",
+        "location": "Longaberget Caves (Inner Sanctum)",
+        "objective": "Claim the Scroll of Eldarath",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Scrolls of Eldarath"
+  }
+}

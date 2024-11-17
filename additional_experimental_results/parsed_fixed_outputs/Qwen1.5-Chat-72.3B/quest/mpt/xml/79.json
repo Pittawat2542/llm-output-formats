@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to quest giver.",
+    "description": "Rumored to be hidden in the depths of the jungle, a lost artifact holds great power. Retrieve it and bring it back to its rightful owner.",
+    "reward": "1000 gold coins and a rare magical item",
+    "quest-giver": "Gilbert the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Jungle of Shadows",
+          "description": "You must venture into the dark jungle and navigate its treacherous paths.",
+          "location": "Jungle of Shadows entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Discover the Artifact's Location",
+          "description": "Solve the riddles left by ancient tribes to uncover the artifact's exact location.",
+          "location": "Jungle of Shadows, Heart of the Wild"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Artifact",
+          "description": "Battle the guardians and claim the artifact before making your way back.",
+          "location": "Temple of Forgotten Ancients"
+        }
+      ]
+    }
+  }
+}

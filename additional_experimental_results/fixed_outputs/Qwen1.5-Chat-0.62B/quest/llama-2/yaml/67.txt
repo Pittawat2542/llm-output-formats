@@ -1,0 +1,32 @@
+```yaml
+game:
+  description: Quest to find the lost ring
+  id: 1
+  objective: Find the lost ring
+  quest_giver: the king
+  reward: a knighthood
+  tasks:
+    - description: Find the lost ring
+      location: in the castle
+      objective: Find the lost ring
+
+# Output in Markdown code block
+```
+
+## Examples
+### Quest ID
+```yaml
+game:
+  description: Quest to find the lost ring
+  id: 1
+  objective: Find the lost ring
+  quest_giver: the king
+  reward: a knighthood
+  tasks:
+
+  - description: Find the lost ring
+    location: in the castle
+    objective: Find the lost ring
+
+# Output in Markdown code block
+```

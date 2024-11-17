@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<game>
+	<character id="id" first-name="first name" last-name="last name" species="species" age="exact age or description" role="role of the character" background="background story" place-of-birth="location" physical-appearance>
+		<physical-appearance eye-color="#FF0000" hair-color="#00FF00" height="180.0" weight="65.0">
+			<hair-length>medium</hair-length>
+			<hair-type>blonde</hair-type>
+			<personal-sizes>
+				<sizes male="medium" female="small">
+					<weight mass "200 lbs." />
+				</sizes>
+			</personal-sizes>
+		</physical-appearance>
+	</character>
+</game>
+```

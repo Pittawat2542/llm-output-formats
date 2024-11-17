@@ -1,0 +1,98 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>The Secret of the Enchanted Forest</title>
+    <objective>Collect 10 Moonstones from the Enchanted Forest</objective>
+    <description>Legend has it that the Moonstone Pendant, a powerful artifact, can only be created with the essence of ten Moonstones. The Enchanted Forest is said to contain these precious gems, but it is also known to be guarded by dangerous creatures. Seek out the Moonstone Guardian for further instructions.</description>
+    <reward>Moonstone Pendant</reward>
+    <quest-giver>Forest Guide Elora</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Speak with Forest Guide Elora in the nearby village</objective>
+            <description>She will tell you more about the Enchanted Forest and the Moonstone Pendant.</description>
+            <location>Village Green (nearby)</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Enter the Enchanted Forest and begin your search for Moonstones</objective>
+            <description>Be careful, as the forest is known to be home to dangerous creatures.</description>
+            <location>Enchanted Forest</location>
+        </task>
+    </tasks>
+</game>
+```
+
+## Incorrect XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Secret of the Enchanted Forest</title>
+	<objective>Collect 10 Moonstones from the Enchanted Forest</objective>
+	<description>Legend has it that the Moonstone Pendant, a powerful artifact, can only be created with the essence of ten Moonstones. The Enchanted Forest is said to contain these precious gems, but it is also known to be guarded by dangerous creatures. Seek out the Moonstone Guardian for further instructions.</description>
+	<reward>Moonstone Pendant</reward>
+	<quest-giver>Forest Guide Elora</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak with Forest Guide Elora in the nearby village</objective>
+			<description>She will tell you more about the Enchanted Forest and the Moonstone Pendant.</description>
+			<location>Village Green (nearby)</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Enter the Enchanted Forest and begin your search for Moonstones</objective>
+			<description>Be careful, as the forest is known to be home to dangerous creatures.</description>
+			<location>Enchanted Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Collect 10 Moonstones from the Enchanted Forest</objective>
+			<description>Return to Forest Guide Elora with the collected Moonstones to receive your reward.</description>
+			<location></location>
+		</task>
+	</tasks>
+</game>
+```
+
+## Solution:
+
+The XML data is well-formed. No corrections are required. The given data is valid according to the provided template.
+
+## Final Output:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>The Secret of the Enchanted Forest</title>
+    <objective>Collect 10 Moonstones from the Enchanted Forest</objective>
+    <description>Legend has it that the Moonstone Pendant, a powerful artifact, can only be created with the essence of ten Moonstones. The Enchanted Forest is said to contain these precious gems, but it is also known to be guarded by dangerous creatures. Seek out the Moonstone Guardian for further instructions.</description>
+    <reward>Moonstone Pendant</reward>
+    <quest-giver>Forest Guide Elora</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Speak with Forest Guide Elora in the nearby village</objective>
+            <description>She will tell you more about the Enchanted Forest and the Moonstone Pendant.</description>
+            <location>Village Green (nearby)</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Enter the Enchanted Forest and begin your search for Moonstones</objective>
+            <description>Be careful, as the forest is known to be home to dangerous creatures.</description>
+            <location>Enchanted Forest</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Collect 10 Moonstones from the Enchanted Forest</objective>
+            <description>Return to Forest Guide Elora with the collected Moonstones to receive your reward.</description>
+            <location></location>
+        </task>
+    </tasks>
+</game>
+```

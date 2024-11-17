@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Artifact",
+    "objective": "Recover the Lost Artifact",
+    "description": "An ancient artifact has been stolen from the town museum. Your task is to find the thief and recover the artifact.",
+    "reward": "500 gold and a rare item",
+    "quest-giver": "Mayor of the town",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the crime scene",
+          "description": "Visit the town museum and gather clues about the thief.",
+          "location": "Town museum"
+        },
+        {
+          "order": "2",
+          "objective": "Find the thief's hideout",
+          "description": "Use the clues to find the thief's hideout and recover the artifact.",
+          "location": "The suspect's home"
+        },
+        {
+          "order": "3",
+          "objective": "Test the stolen artifact",
+          "description": "Test the stolen artifact using a sensitive test to determine its authenticity.",
+          "location": "A secret laboratory"
+        },
+        {
+          "order": "4",
+          "objective": "Report the findings",
+          "description": "\u62a5\u544a\u53d1\u73b0\u7684\u7ed3\u679c\uff0c including the thief's identity and any potential evidence against them.",
+          "location": "Town hall"
+        },
+        {
+          "order": "5",
+          "objective": "Promote the recovery of the artifact",
+          "description": "Use the recovered artifact to promote tourism in the town and bring attention to the missing artifact.",
+          "location": "The museum"
+        }
+      ]
+    }
+  }
+}

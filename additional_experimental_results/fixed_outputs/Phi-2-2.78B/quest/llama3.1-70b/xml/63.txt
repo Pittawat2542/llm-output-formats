@@ -1,0 +1,24 @@
+ 
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about Eldarath' s location</objective>
+			<description>Talk to the villagers and gather rumors about the lost city.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve an ancient map from the ruins of Castle Stormwind</objective>
+			<description>The castle lies in ruin, but its library may still hold valuable information about Eldarath' s location.</description>
+			<location>Castle Stormwind Ruins</location>
+		</task>
+	</tasks>
+</game>

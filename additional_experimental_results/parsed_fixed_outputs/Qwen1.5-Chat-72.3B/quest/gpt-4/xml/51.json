@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the lost artifact from the ancient ruins",
+    "description": "A local archaeologist has accidentally lost a valuable artifact in a nearby ancient ruins. He is too afraid to go back and retrieve it and is looking for brave adventurers to fetch it.",
+    "reward": "500 gold coins and 'Ancient Explorer' title",
+    "quest-giver": "Professor Birch",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the entrance of the ruins",
+          "description": "Make your way to the ruins which is a day's journey to the east, at the foot of Dragon's Peak.",
+          "location": "Dragon's Peak"
+        },
+        {
+          "order": "2",
+          "objective": "Find the hidden chamber",
+          "description": "Rummage through the ruins to find the hidden chamber where the artifact is believed to be lost.",
+          "location": "Ancient Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact",
+          "description": "Overcome any challenges, puzzles or traps in the chamber to obtain the lost artifact.",
+          "location": "Hidden Chamber"
+        }
+      ]
+    }
+  }
+}

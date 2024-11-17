@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Missing Heirloom</title>
+	<objective>Retrieve the stolen family heirloom from the mischievous imp, Puck.</objective>
+	<description>The beloved family heirloom has gone missing, and it's up to you to retrieve it. Gather clues and outsmart Puck to restore the heirloom to its rightful owner.</description>
+	<reward>100 Gold Coins</reward>
+	<quest-giver>Goram the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to Goram's friend, Elara, about the last time she saw the heirloom.</objective>
+			<description>Speak with Elara and gather information about the night the heirloom went missing. Ask her if she knows anything about Puck's whereabouts.</description>
+			<location>The Old Oak Inn</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Follow Puck to his secret hideout and retrieve the stolen heirloom.</objective>
+			<description>Track down Puck's movements and infiltrate his secret hideout. Be prepared for a thrilling chase through the forest!</description>
+			<location>The Whispering Woods</location>
+		</task>
+	</tasks>
+</game>
+```

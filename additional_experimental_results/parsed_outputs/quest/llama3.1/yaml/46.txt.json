@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Defeat the dark sorcerer Xaren and claim the magical artifact.",
+    "id": "Q001",
+    "objective": "Defeat Xaren to save the kingdom of Eldoria from destruction.",
+    "quest_giver": "The village elder, Thorne",
+    "reward": "A magical sword and a chest filled with gold and jewels",
+    "tasks": [
+      {
+        "description": "Gather information about Xaren's lair from the villagers",
+        "location": "The village of Brindlemark",
+        "objective": "Learn the location and weaknesses of Xaren's lair",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate Xaren's lair and sabotage his dark magic ritual",
+        "location": "Xaren's Lair, located in the Darkforest",
+        "objective": "Sabotage the ritual to weaken Xaren",
+        "order": 2
+      },
+      {
+        "description": "Face off against Xaren in a final battle of good vs. evil",
+        "location": "Xaren's Lair, located in the Darkforest",
+        "objective": "Defeat Xaren and shatter his dark crystal staff",
+        "order": 3
+      }
+    ],
+    "title": "The Dark Sorcerer's Bane"
+  }
+}

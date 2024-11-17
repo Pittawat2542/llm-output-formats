@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>unique_quest_id</id>
+	<title>A Daring Adventure</title>
+	<objective>Conquer the Tower of Eldrid</objective>
+	<description>Embark on a quest to retrieve the legendary Sword of Light from the top of the ancient tower.</description>
+	<reward>The Sword of Light, 100 gold coins</reward>
+	<quest-giver>Guildmaster Arinor</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain the Key to the Tower</objective>
+			<description>Visit the Arcane Library in Dustwind and find a clue hidden among the ancient scrolls.</description>
+			<location>Dustwind Arcane Library</location>
+		</task>
+		<!-- Add more tasks here as needed -->
+	</tasks>
+</game>
+```

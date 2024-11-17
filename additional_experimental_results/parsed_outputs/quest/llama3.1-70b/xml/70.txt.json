@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient artifact hidden within the Lost Temple.",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the jungle, holding secrets and treasures of a bygone era. Your mission is to explore this temple, overcome its deadly traps, and retrieve the legendary artifact said to be hidden within its walls.",
+    "reward": "Golden Chalice and 1000 gold pieces",
+    "quest-giver": "Professor Thaddeus Wystan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the Jungle to Reach the Temple",
+          "description": "Make your way through the dense jungle, avoiding wild beasts and hostile natives.",
+          "location": "Jungle of Whispers"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the Entrance Puzzle",
+          "description": "Decipher the ancient symbols etched into the temple's entrance to unlock the doors.",
+          "location": "Lobby of the Lost Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Artifact from the Inner Sanctum",
+          "description": "Avoid deadly traps and battle fierce guardians to reach the inner sanctum where the artifact is kept.",
+          "location": "Inner Sanctum of the Lost Temple"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a thrilling adventure to locate the lost treasure of the ancient kingdom. Solve puzzles, overcome challenges, and navigate through treacherous paths to claim your reward.",
+    "reward": "100 gold coins",
+    "quest-giver": "Captain Redbeard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Map",
+          "description": "Search the secret library in the abandoned castle to find the ancient map leading to the treasure.",
+          "location": "Abandoned Castle"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the Key",
+          "description": "Journey through the treacherous swamp to retrieve the enchanted key hidden in the heart of the forbidden forest.",
+          "location": "Forbidden Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Unlock the Gate",
+          "description": "Use the key to unlock the ancient gate guarding the entrance to the underground cavern where the treasure awaits.",
+          "location": "Underground Cavern"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@version": "1.0",
+    "dialogues": {
+      "dialogue": [
+        {
+          "order": {
+            "@xsi:type": "xsd:int",
+            "#text": "1"
+          },
+          "speaker": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "#text": "Player"
+          },
+          "text": {
+            "@xml:space": "preserve",
+            "#text": "Hey, how are you doing?"
+          }
+        },
+        {
+          "order": {
+            "@xsi:type": "xsd:int",
+            "#text": "2"
+          },
+          "speaker": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "#text": "NPC"
+          },
+          "text": {
+            "@xml:space": "preserve",
+            "#text": "I'm good, thanks for asking. How about you?"
+          }
+        },
+        {
+          "order": {
+            "@xsi:type": "xsd:int",
+            "#text": "3"
+          },
+          "speaker": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "#text": "Player"
+          },
+          "text": {
+            "@xml:space": "preserve",
+            "#text": "I'm great too. Just enjoying this beautiful day."
+          }
+        },
+        {
+          "order": {
+            "@xsi:type": "xsd:int",
+            "#text": "4"
+          },
+          "speaker": {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "#text": "NPC"
+          },
+          "text": {
+            "@xml:space": "preserve",
+            "#text": "That's wonderful. Shall we go for a walk?"
+          }
+        }
+      ]
+    }
+  }
+}

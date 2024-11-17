@@ -1,0 +1,64 @@
+<?xml version="1.0"?> 
+<game>
+    <id>id</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+    
+    <!-- Add new tasks element for the quest -->
+    <tasks>
+        <task>
+            <order>task order</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </tasks>
+</game>
+
+```xml
+<?xml version="1.0"?> 
+<game>
+    <id>id</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+
+    <!-- Add new tasks element for the quest -->
+    <tasks>
+        <task order="2" objective="second task objective" description="second task description" location="second task location">
+            <description>Second task description</description>
+        </task>
+    </tasks>
+    
+    <!-- Add new rewards element for the quest -->
+    <rewards>
+        <reward id="1" rewardType="reward type 1" value="reward value 1" />
+        <reward id="2" rewardType="reward type 2" value="reward value 2" />
+    </rewards>
+
+    <!-- Add new quest-giver element for the quest -->
+    <quest-givers>
+        <quest-giver id="1" name="Quest Giver 1">
+            <description>Quest Giver 1 description</description>
+        </quest-giver>
+    </quest-givers>
+
+    <!-- Add new task element for the game ending -->
+    <tasks>
+        <task order="3" objective="third task objective" description="third task description" location="third task location">
+            <description>Third task description</description>
+        </task>
+    </tasks>
+
+    <!-- Add new quest-giver element for the game ending -->
+    <quest-givers>
+        <quest-giver id="2" name="Quest Giver 2">
+            <description>Quest Giver 2 description</description>
+        </quest-giver>
+    </quest-givers>
+</game>

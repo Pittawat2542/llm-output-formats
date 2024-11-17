@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Seeker's Odyssey</title>
+    <objective>Uncover the謎團古器</objective>
+    <description>A captivating quest to unravel, delve into the dungeon and retrieve the ancient artifact with unwavering courage.</description>
+    <reward>Rare magical artifact and a fortune in treasure coins</reward>
+    <quest-giver>Wise Oracle</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Obtain the dungeon entrance key from the Oracle's library</objective>
+            <description>The oracle advises you to study ancient tomes in her library for a clue. Once you find it, return with the key.</description>
+            <location>Oracle's Library</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the Mysterious Guardian</objective>
+            <description>A shadowy figure guards the entrance. Prove your worth by defeating it.</description>
+            <location>Dungeon Entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Escalate the inner chambers</objective>
+            <description>Once inside, journey deeper to face the trials and locate the artifact.</description>
+            <location>Dungeon Inner Chambers</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Recover the ancient artifact</objective>
+            <description>The artifact's resting place will reveal its secrets. Success awaits!</description>
+            <location>Dungeon Heart</location>
+        </task>
+    </tasks>
+</game>
+```

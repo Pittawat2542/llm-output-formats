@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath.",
+    "description": "Rumors have surfaced about a long-abandoned city deep in the nearby forest, where an ancient civilization once thrived. The city is said to hold many treasures and artifacts, but it's also rumored to be cursed. Brave adventurers are needed to explore the ruins and retrieve an artifact of great value.",
+    "reward": "1000 gold pieces, a magical amulet, and increased reputation among the local population",
+    "quest-giver": "Gorvoth Ironfist, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost City of Eldarath.",
+          "description": "Talk to villagers and gather any available information about the city's location, layout, and potential dangers. Meet with Gorvoth Ironfist for guidance.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the entrance of the Lost City.",
+          "description": "Journey to the nearby forest and find the entrance to the Lost City. Be cautious, as rumors speak of deadly traps and ferocious beasts guarding the entrance. Bring back any useful items or information found at the entrance.",
+          "location": "The Entrance of the Lost City"
+        },
+        {
+          "order": "3",
+          "objective": "Raid the central chamber and retrieve the artifact.",
+          "description": "Navigate through the treacherous ruins, avoiding traps and fighting off any remaining creatures. Find and take the ancient artifact from the central chamber. Return to Gorvoth Ironfist with the treasure.",
+          "location": "The Central Chamber of the Lost City"
+        }
+      ]
+    }
+  }
+}

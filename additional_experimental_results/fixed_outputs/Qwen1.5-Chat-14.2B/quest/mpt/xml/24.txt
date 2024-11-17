@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id id_number="unique_id">id</id>
+	<title quest_title="An Adventure Awaits">quest title</title>
+	<objective>quest objective</objective>
+	<description quest_description="Embark on a journey to discover the ancient artifact.">quest description</description>
+	<reward quest_reward="A legendary weapon or treasure">quest reward</reward>
+	<quest-giver quest_giver_name="Elven Guide, Eira">quest giver</quest-giver>
+	<tasks>
+		<task task_number="1">
+			<order>task order 1</order>
+			<objective>Locate the hidden entrance to the ancient cave</objective>
+			<description>Follow the riddles left by the enigmatic elder</description>
+			<location>Deep in the forest, near a mystical waterfall</location>
+		</task>
+		<!-- Add more <task> elements as needed -->
+	</tasks>
+</game>
+```
+
+The provided XML data has been fixed with proper formatting, closing tags, and attribute values. The `encoding` attribute has also been added to specify the character encoding as UTF-8. If you want to add more tasks, just copy the `<task>` element and paste it below the first one, adjusting the `task_number` accordingly.

@@ -1,0 +1,27 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "12",
+      "id": "id",
+      "name": "name",
+      "description": "name description",
+      "stats": {
+        "hp": "hp int value",
+        "mp": "mp int value",
+        "atk": "atk int value",
+        "def": "def int value",
+        "spd": "spd int value"
+      },
+      "hp": [
+        "0",
+        "8"
+      ],
+      "mp": [
+        "1000",
+        "11000"
+      ],
+      "atk": "250",
+      "def": "1"
+    }
+  }
+}

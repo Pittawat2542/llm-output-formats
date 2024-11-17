@@ -1,0 +1,63 @@
+[ANSWER]
+<game>
+	<id>1</id>
+	<title>Quest for the Capital</title>
+	<objective>Find the capital of the United States</objective>
+	<description>The capital of the United States is an important historical and political site. Help find it!</description>
+	<reward>100 gold pieces</reward>
+	<quest-giver>Town Crier</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Visit the Library and learn about the history of the United States</objective>
+			<description>The library contains many books with information about the history of the United States. Speak to the librarian for assistance.</description>
+			<location>City Hall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Speak to the Historian at the Museum of American History</objective>
+			<description>The historian has a wealth of knowledge about the history and culture of the United States. Speak to them for more information.</description>
+			<location>Museum of American History</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find Washington, D.C.</objective>
+			<description>Using the information gathered from the library and museum, locate the capital city of the United States: Washington, D.C.</description>
+			<location>Washington, D.C.</location>
+		</task>
+	</tasks>
+</game>
+[/ANSWER] That is correct. Here's a complete XML response for your question and answer:
+
+```xml
+<game>
+	<id>1</id>
+	<title>Quest for the Capital</title>
+	<objective>Find the capital of the United States</objective>
+	<description>The capital of the United States is an important historical and political site. Help find it!</description>
+	<reward>100 gold pieces</reward>
+	<quest-giver>Town Crier</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Visit the Library and learn about the history of the United States</objective>
+			<description>The library contains many books with information about the history of the United States. Speak to the librarian for assistance.</description>
+			<location>City Hall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Speak to the Historian at the Museum of American History</objective>
+			<description>The historian has a wealth of knowledge about the history and culture of the United States. Speak to them for more information.</description>
+			<location>Museum of American History</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find Washington, D.C.</objective>
+			<description>Using the information gathered from the library and museum, locate the capital city of the United States: Washington, D.C.</description>
+			<location>Washington, D.C.</location>
+		</task>
+	</tasks>
+</game>
+```
+
+This XML response includes the corrected syntax with new values for the quest title, objective, description, reward, quest giver, tasks (order, objective, description, and location), and capital city of the United States.

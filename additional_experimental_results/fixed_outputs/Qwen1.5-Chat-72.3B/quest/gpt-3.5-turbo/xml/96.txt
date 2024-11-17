@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the legendary lost treasure. Solve puzzles, defeat enemies, and overcome obstacles to reach the final destination and claim the riches that await.</description>
+	<reward>A chest full of gold and jewels</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Search for clues at the old ruins</objective>
+			<description>Explore the ancient ruins nestled deep in the jungle. Search for hidden artifacts and decipher the clues left by previous adventurers.</description>
+			<location>Jungle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian serpent</objective>
+			<description>Battle the fearsome guardian serpent who protects the entrance to the treasure chamber. Use strategy and your wits to overcome this formidable foe.</description>
+			<location>Treasure Chamber Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Unlock the secret door with the ancient key</objective>
+			<description>Find the ancient key hidden in a hidden compartment. Use it to unlock the secret door that leads to the heart of the treasure chamber.</description>
+			<location>Treasure Chamber Secret Door</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Collect the hidden treasure</objective>
+			<description>Marvel at the sight of countless gold and jewels as you finally reach the hidden treasure. Collect as much as you can carry!</description>
+			<location>Treasure Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

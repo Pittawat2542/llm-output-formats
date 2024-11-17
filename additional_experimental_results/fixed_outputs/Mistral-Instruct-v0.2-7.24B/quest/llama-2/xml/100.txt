@@ -1,0 +1,52 @@
+
+<xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Response:
+
+<xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>Find the missing artifact</title>
+	<objective>Help the curator locate the stolen artifact in the museum.</objective>
+	<description>The curator suspects that the artifact was taken from the Egyptian exhibit. Speak to the museum guard for more information.</description>
+	<reward>Gold: 50, Experience: 10</reward>
+	<quest-giver>Curator Smith</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to the museum guard for information about the stolen artifact.</objective>
+			<description>You'll find the museum guard in the main lobby of the museum.</description>
+			<location>Museum Lobby</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search the Egyptian exhibit for the stolen artifact.</objective>
+			<description>The exhibit is located on the second floor of the museum. Be careful not to disturb anything valuable.</description>
+			<location>Egyptian Exhibit (2nd Floor)</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the artifact to the curator.</objective>
+			<description>The curator is located in his office on the first floor of the museum. He'll be grateful for your help.</description>
+			<location>Curator's Office (1st Floor)</location>
+		</task>
+	</tasks>
+</game>
+```

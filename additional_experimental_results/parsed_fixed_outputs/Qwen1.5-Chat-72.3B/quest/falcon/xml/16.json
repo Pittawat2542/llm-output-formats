@@ -1,0 +1,19 @@
+{
+  "game": {
+    "id": "task0",
+    "title": "My Quest",
+    "objective": "object1",
+    "description": "The task is a test.",
+    "reward": "revenue",
+    "quest-giver": "someguy",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objectives_in_tasks": {
+          "objectives": "My Objective List"
+        },
+        "location": "some location"
+      }
+    }
+  }
+}

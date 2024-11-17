@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Human</name>
+		<description>Human</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+The issue in the original XML was a typo in the closing `</stats>` tag, which had an extra forward slash. I fixed this by removing the extra slash. The rest of the XML is well-formed and does not require any further changes.

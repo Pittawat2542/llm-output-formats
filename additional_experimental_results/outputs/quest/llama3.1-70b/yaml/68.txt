@@ -1,0 +1,21 @@
+```yaml
+game:
+  description: "The village of Oakwood has been plagued by a series of strange occurrences. Crops wither and die, livestock falls ill, and the once-clear stream runs murky. The villagers believe that an ancient curse is to blame."
+  id: QST001
+  objective: Lift the Curse from Oakwood Village
+  quest_giver: Elara Moonwhisper
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item: "Moonstone Amulet"
+  tasks:
+  - description: "Gather information about the curse by speaking to the villagers."
+    location: Oakwood Village
+    objective: Gather Information
+    order: 1
+  - description: "Investigate the source of the corruption at the old ruins."
+    location: Ancient Ruins
+    objective: Investigate Source
+    order: 2
+  title: The Cursed Village
+```

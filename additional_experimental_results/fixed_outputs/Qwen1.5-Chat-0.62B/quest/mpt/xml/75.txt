@@ -1,0 +1,50 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	<objective>Quest objective</objective>
+	<description>Quest description</description>
+	<reward>Quest reward</reward>
+	<quest-giver>Quest giver</quest-giver>
+	<tasks>
+			<!-- New task description here -->
+		</tasks>
+	</game>
+```
+The new values for the `quest-giver`, `tasks`, and `order` elements are:
+```xml
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	 Objective>Quest objective</Objective>
+	 Description>Quest description</Description>
+	 Reward>Quest reward</奖励>
+	 Quest-giver>Quest giver</Quest-giver>
+	 <!-- New task description here -->
+	```
+The output in Markdown format is:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>Quest title</title>
+	Objective>Quest objective</Objective>
+	Description>Quest description</Description>
+	奖励>Quest reward</奖励>
+	Quest-giver>Quest giver</Quest-giver>
+	<!-- New task description here -->
+</game>
+```
+The code block between the `<game>` tag and the Markdown code block is:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest title</title>
+	Objective>Quest objective</Objective>
+	Description>Quest description</Description>
+	奖励>Quest reward</奖励>
+	Quest-giver>Quest giver</Quest-giver>
+	<!-- New task description here -->
+</game>
+```

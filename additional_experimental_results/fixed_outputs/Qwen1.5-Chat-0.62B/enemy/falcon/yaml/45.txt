@@ -1,0 +1,49 @@
+The YAML data provided is incorrect and needs to be corrected. Here's the corrected YAML data:
+```
+output:
+game:
+  enemy:
+    id: # enemy id
+    name: # enemy name
+    stats:
+      atk: 0 0 0
+      def: 1 %d 0
+        hp: 100000 0 0 mp: 1000 -20 0
+        spd: 50 0 0 statset:
+          -
+            type: spell set
+            list:
+              - spell1
+               - spell2
+               - spell3
+            -
+               -
+            -
+            mana: { default: 10000 } -20 0
+```
+
+Here's the modified code block:
+```yaml
+output:
+game:
+  enemy:
+    id: # enemy id
+    name: # enemy name
+    stats:        
+      atk: 0 0 0
+      def: 1 %d 0
+        hp: 1000000 0 0 mp: 1000 -20 0
+        spd: 50 0 0 statset:
+          -
+            type: spell set
+            list:
+               - spell1
+               - spell2
+               - spell3
+             -
+               -
+            -
+            mana: { default: 10000 } -20 0
+```
+
+Note that the `#` character in the YAML data should be replaced with a blank line to indicate the beginning of the new section. Also, the `id` and `name` variables should be changed to reflect the actual values for each enemy object.

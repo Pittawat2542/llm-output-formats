@@ -1,0 +1,25 @@
+The provided XML data is already correct, assuming that the indentation in the original message was an issue due to markdown formatting. Here's the fixed XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <character>
+    <id>1</id>
+    <first-name>John</first-name>
+    <last-name>Doe</last-name>
+    <species>Human</species>
+    <age>25</age>
+    <role>Engineer</role>
+    <background>John Doe was born on Earth in the 22nd century. He is a brilliant engineer and has a degree in engineering from the University of Earth.</background>
+    <place-of-birth>Earth</place-of-birth>
+    <physical-appearance>
+      <eye-color>Blue</eye-color>
+      <hair-color>Brown</hair-color>
+      <height>1.8 m</height>
+      <weight>80 kg</weight>
+    </physical-appearance>
+  </character>
+</game>
+```
+
+If there are no syntax errors, this is the correct XML representation of the character information provided.

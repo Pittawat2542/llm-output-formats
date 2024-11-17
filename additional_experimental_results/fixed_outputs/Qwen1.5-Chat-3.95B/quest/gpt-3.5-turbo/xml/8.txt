@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>The Lost Treasure</title>
+	<Objective>Find the lost treasure and return it to the treasure hunter.</Objective>
+	<Description>In the vast jungle, there hides a legendary treasure that has been sought after for centuries. You have been chosen to embark on a quest to find this treasure and return it to the treasure hunter who has dedicated his life to uncovering its secrets.</Description>
+	<Reward>Ancient artifacts and a share of the treasure's value.</Reward>
+	<Quest-Giver>Captain Benjamin</Quest-Giver>
+	<Tasks>
+			<Task>
+				<Order>1</Order>
+				<Objective>Meet the treasure hunter</Objective>
+				<Description>Visit the treasure hunter's camp located at the edge of the jungle.</description>
+				<Location>Treasure Hunter's Camp</Location>
+			</Task>
+			<Task>
+				<Order>2</Order>
+				<Objective>Retrieve the map</Objective>
+				<Description>Find the hidden cave and retrieve the map that leads to the lost treasure.</description>
+				<Location>Hidden Cave</Location>
+			</Task>
+			<Task>
+				<Order>3</Order>
+				<Objective>Navigate the jungle</Objective>
+				<Description>Navigate through the dense jungle and overcome obstacles to reach the secret temple.</description>
+				<Location>Jungle</Location>
+			</Task>
+			<Task>
+				<Order>4</Order>
+				<Objective>Uncover the secret temple</Objective>
+				<Description>Discover the entrance to the secret temple and solve its riddles and puzzles to progress further.</description>
+				<Location>Secret Temple</Location>
+			</Task>
+			<Task>
+				<Order>5</Order>
+				<Objective>Find the lost treasure</Objective>
+				<Description>Search the chambers of the secret temple to find the lost treasure hidden within.</description>
+				<Location>Secret Temple</Location>
+			</Task>
+			<Task>
+				<Order>6</Order>
+				<Objective>Return the treasure to the quest-giver</Objective>
+				<Description>Return to the treasure hunter and hand over the found treasure.</description>
+				<Location>Treasure Hunter's Camp</Location>
+			</Task>
+	</Tasks>
+</game>
+```xml

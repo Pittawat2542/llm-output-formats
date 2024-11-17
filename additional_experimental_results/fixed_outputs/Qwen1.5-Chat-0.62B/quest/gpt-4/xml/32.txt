@@ -1,0 +1,56 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the artifact from the ancient temple</objective>
+	<description>Your task is to overcome dangers of ancient temple and retrieve a sacred artifact that has been lost for centuries.</description>
+	<reward>3000 gold coins and mystical sword</reward>
+	<quest-giver>The village elder</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective><place>location</place></objective>
+			 Objective><description><description>The temple is located deep within the的喜爱 forest. Chart your path carefully and avoid the treacherous beasts.</description></description></objective>
+				<location>Enclave Forest</location>
+			<task>
+				<order>2</order>
+			 objective><place>destination</place></objective>
+			 Objective><description><description>The artifact is said to be kept in a secret chamber guarded by ancient warriors. You will need to defeat them, bypass the traps and secure the artifact.</description></description></objective>
+				<destination>Ancient Temple</location>
+			<task>
+			<order>3</order>
+			 objective><place>destination</place></objective>
+			 Objective><description><description>The artifact is said to be kept in a secret chamber guarded by ancient warriors. You will need to defeat them, bypass the traps and secure the artifact.</description></description></objective>
+			<location>喜爱 Forest</location>
+		</tasks>
+
+</game>
+```
+Output:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Artifact</title>
+	 objective><place>location</place></objective>
+	Objective><description><description>The temple is located deep within the的喜爱 forest. Chart your path carefully and avoid the treacherous beasts.</description></description></objective>
+	destination>Ancient Temple</location>
+	<task>
+			<order>1</order>
+			 objective><place>location</place></objective>
+			 Objective><description><description>The temple is located deep within the的喜爱 forest. Chart your path carefully and avoid the treacherous beasts.</description></description></objective>
+			<destination>Ancient Temple</location>
+		</task>
+		<order>2</order>
+			 objective><place>destination</place></objective>
+			 Objective><description><description>The temple is located deep within the的喜爱 forest. Chart your path carefully and avoid the treacherous beasts.</description></description></objective>
+			<destination>Ancient Temple</location>
+		</task>
+		<order>3</order>
+			 objective><place>destination</place></objective>
+			 Objective><description><description>The temple is located deep within the的喜爱 forest. Chart your path carefully and avoid the treacherous beasts.</description></description></objective>
+			<destination>Ancient Temple</location>
+		</task>
+	</tasks>
+</game>
+```

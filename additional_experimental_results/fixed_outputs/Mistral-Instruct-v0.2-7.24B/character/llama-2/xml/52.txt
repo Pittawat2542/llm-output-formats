@@ -1,0 +1,34 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>35</age>
+		<role>Detective</role>
+		<background>John Doe was a detective before he met Sam Spade in the Maltese Falcon.</background>
+		<place-of-birth>San Francisco, USA</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Brown</eye-color>
+				<hair-color>Black</hair-color>
+				<height>1.82</height>
+				<weight>75.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+### Explanation:
+
+The error message indicates that there is an issue on line 22, column 0. However, the XML template provided doesn't have line 22 since it only has up to line 18. This suggests that the original XML data might be missing or incomplete.
+
+Since the error message does not provide enough context to determine the cause of the problem, it is impossible to give a definitive solution. However, one possible reason for the error could be the absence of closing tags or incorrect indentation.
+
+To ensure well-formedness and avoid such issues, make sure that all opening tags have corresponding closing tags, and that indentations are consistent throughout the XML document.
+
+In this example, I provided a fixed version based on the given template with sample data. If you have the original XML data, please share it so we can try to identify and fix the issue specifically.

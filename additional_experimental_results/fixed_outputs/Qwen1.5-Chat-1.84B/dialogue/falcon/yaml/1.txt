@@ -1,0 +1,24 @@
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: "character name"
+    text: "in-game dialogue or narration"
+
+## In-game dialogue code block
+
+```yaml
+# Example dialogue
+return """
+speaker:
+    name: character name
+```
+
+## Additional outputs
+
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: "character name"
+    text: "in-game dialogue or narration"
+```

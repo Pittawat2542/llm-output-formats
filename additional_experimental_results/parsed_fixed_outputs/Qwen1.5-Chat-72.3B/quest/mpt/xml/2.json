@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "In this quest, you are tasked with exploring the forgotten ruins in search of a lost artifact. Be prepared for challenges along the way.",
+    "reward": "100 experience points and a magical pendant",
+    "quest-giver": "Garrison the Explorer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the ruins and locate the entrance to the artifact chamber.",
+          "description": "You'll find the ruins on the east side of the forest. Look for a large stone door covered in\u85e4\u8513.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian and retrieve the artifact.",
+          "description": "In the chamber, a powerful ancient guardian protects the artifact. You must defeat it to claim the artifact.",
+          "location": "Artifact Chamber"
+        }
+      ]
+    }
+  }
+}

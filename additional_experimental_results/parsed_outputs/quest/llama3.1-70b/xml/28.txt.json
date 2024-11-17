@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the depths of the Lost City of Eldarath",
+    "description": "Rumors have been circulating about a long-abandoned city deep in the heart of the mystical forest, where an ancient artifact of unimaginable power lies hidden. Brave adventurers are needed to explore the treacherous ruins and retrieve this relic before it falls into the wrong hands.",
+    "reward": "1000 Gold Pieces, +20 Reputation with the Guild of Explorers",
+    "quest-giver": "Eryndor Thorne, Guildmaster of the Guild of Explorers",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost City's location and layout",
+          "description": "Speak with locals and gather rumors to piece together a map of the lost city.",
+          "location": "The Rusty Goblet Tavern, in the town of Willowdale"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the treacherous paths of the mystical forest to reach the Lost City's entrance",
+          "description": "Beware the dangers that lurk in the shadows, from giant spiders to ferocious packs of wolves.",
+          "location": "The mystical forest, west of Willowdale"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact and escape the Lost City's deadly traps and puzzles",
+          "description": "Use your wits to overcome obstacles and claim the treasure before it's too late.",
+          "location": "The heart of the Lost City, deep within the mystical forest"
+        }
+      ]
+    }
+  }
+}

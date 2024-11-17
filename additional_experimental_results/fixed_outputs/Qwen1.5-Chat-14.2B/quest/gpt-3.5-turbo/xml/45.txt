@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on an epic adventure to find the long-lost treasure of the ancient civilization.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain William</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain a treasure map</objective>
+			<description>Visit the old library and search for a clue on the location of the treasure map.</description>
+			<location>Library of Mysteries</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the treasure map</objective>
+			<description>Crack the ancient code to decipher the hidden message on the treasure map.</description>
+			<location>Decoding Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate through the treacherous jungle</objective>
+			<description>Brave the dangers of the enchanted jungle and follow the map to the location of the treasure.</description>
+			<location>Enchanted Jungle</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the treasure chest</objective>
+			<description>Reach the sacred shrine and unlock the hidden chamber to find the treasure chest.</description>
+			<location>Sacred Shrine</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return to Captain William</objective>
+			<description>Bring the treasure chest to Captain William and claim your reward.</description>
+			<location>Port of Call</location>
+		</task>
+	</tasks>
+</game>
+```

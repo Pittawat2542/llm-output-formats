@@ -1,0 +1,23 @@
+Here's the corrected XML data with values from the provided JSON examples:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>The quest title</title>
+	<objective>The quest objective</objective>
+	<description>The quest description</description>
+	<reward>The quest reward</reward>
+	<quest-giver>The quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>The task objective</objective>
+			<description>The task description</description>
+			<location>The task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+The first issue was that the XML declaration missing a quote after "UTF-8". I also removed unnecessary indentation and fixed the syntax for `<task>` and closing `</task>`. The provided JSON example for tasks is inside an array, but XML doesn't support arrays directly; instead, tasks are listed as separate elements within the `<tasks>` element.

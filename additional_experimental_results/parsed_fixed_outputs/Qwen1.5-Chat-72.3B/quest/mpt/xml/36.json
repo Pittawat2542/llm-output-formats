@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "In search of a legendary artifact, you must explore the treacherous ruins and overcome its challenges to uncover its secrets.",
+    "reward": "1000 experience points and a rare magical item",
+    "quest-giver": "Gilderus, the Wise Wizard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Ruins of Arkania",
+          "description": "Make your way through the dense forest and find the entrance to the ancient ruins.",
+          "location": "The Forest of Elders"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian Statue",
+          "description": "\u6fc0\u6d3b\u5b88\u62a4\u96d5\u50cf\u7684\u8c1c\u9898\uff0c\u51fb\u8d25\u5b83\u4ee5\u8fdb\u5165\u5185\u90e8\u7ed3\u6784\u3002",
+          "location": "Ruins of Arkania entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact from the Altar of Ancients",
+          "description": "\u5728\u796d\u575b\u4e0a\u627e\u5230\u5e76\u53d6\u56de\u5931\u843d\u7684\u795e\u5668\uff0c\u4f46\u8981\u5c0f\u5fc3\u5b88\u536b\u7684\u9677\u9631\u3002",
+          "location": "Inner Chamber of Arkania Ruins"
+        }
+      ]
+    }
+  }
+}

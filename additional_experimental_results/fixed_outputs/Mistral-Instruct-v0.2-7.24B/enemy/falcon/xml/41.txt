@@ -1,0 +1,33 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns="https://exodus.gitlab.org/g/exodus.git">
+	<enemy>
+		<id>1</id>
+		<name>Bobo</name>
+		<stats>
+			<hp>90</hp>
+			<mp>30</mp>
+			<atk>45</atk>
+			<def>23</def>
+			<spd>17</spd>
+			<c_atk>1</c_atk>
+			<c_def>1</c_def>
+			<spd>2</spd> <!-- Corrected typo -->
+		</stats>
+	</enemy>
+	<enemy>
+		<id>2</id>
+		<name>Fang</name>
+		<stats>
+			<hp>30</hp>
+			<mp>100</mp>
+			<atk>70</atk>
+			<def>23</def>
+			<spd>7</spd>
+			<c_atk>1</c_atk>
+			<c_def>1</c_def>
+		</stats>
+	</enemy>
+</game>
+```

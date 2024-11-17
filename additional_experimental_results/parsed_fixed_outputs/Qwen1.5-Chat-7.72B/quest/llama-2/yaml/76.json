@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The quest is about the game in the realm of adventures",
+    "id": 2478,
+    "objective": "Uncover the chest of gold",
+    "quest_giver": "The wise old advisor",
+    "reward": "Immortal glory and riches beyond measure",
+    "tasks": [
+      {
+        "description": "Search for the hidden map in the ancient library",
+        "location": "Library of Ardenia",
+        "objective": "Find the map guiding to the chest's location",
+        "order": 1
+      },
+      {
+        "description": "Befriend a local smith for clues about the castle entrance",
+        "location": "Smithy of Iron Haven",
+        "objective": "Learn the secret entrance's location",
+        "order": 2
+      },
+      {
+        "description": "Defeat the dragon guarding the treasure cave",
+        "location": "Dragon's lair, Mount Gaerond",
+        "objective": "Clear the path to the chest",
+        "order": 3
+      }
+    ]
+  },
+  "title": "The Epic Quest for the Forbidden Treasure"
+}

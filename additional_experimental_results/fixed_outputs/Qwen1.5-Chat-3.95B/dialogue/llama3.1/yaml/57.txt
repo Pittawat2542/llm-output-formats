@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: Player
+    text:  'What brings you to this village?'
+   - order: 2
+    speaker: Villager
+    text:  "Ah, a traveler. We don't get many strangers here. What is your business?" 
+   - order: 3
+    speaker: Player
+    text:  'I'm just passing through. I was wondering if you've seen any... creatures in the area.' 
+   - order: 4
+    speaker: Villager
+    text:  "Creatures? Ah, you mean the ones that have been terrorizing our livestock at night? Yes, we have seen them. But they're quick and elusive. We can't seem to catch a glimpse of them during the day." 
+   - order: 5
+    speaker: Player
+    text:  'Do you think it's related to the recent strange occurrences in the nearby forest?' 
+   - order: 6
+    speaker: Villager
+    text: "Strange occurrences? What do you mean? We've heard rumors of lights and noises coming from the forest at night, but we haven't seen anything ourselves." 
+```

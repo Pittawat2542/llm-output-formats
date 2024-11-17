@@ -1,0 +1,32 @@
+## Example
+
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: "enemy id"
+    name: "enemy name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 50
+      mp: 50
+      spd: 50
+```
+
+
+## Output
+
+```
+game:
+  enemy:
+    description: "enemy description"
+    id: "enemy id"
+    name: "enemy name"
+    stats:
+      atk: 100
+      def: 50
+      hp: 50
+      mp: 50
+     spd: 50
+```

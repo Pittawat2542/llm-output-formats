@@ -1,0 +1,21 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Goblin</name>
+		<description>A small, humanoid creature with greenish skin and pointed ears.</description>
+		<stats>
+			<hp>20</hp>
+			<mp>5</mp>
+			<atk>8</atk>
+			<def>3</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+
+In case of the original being valid, simply return it as is. The template provided in this question already has correct syntax, so there should be no need to fix anything.

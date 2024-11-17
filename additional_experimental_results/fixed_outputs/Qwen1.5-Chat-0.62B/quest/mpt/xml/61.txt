@@ -1,0 +1,19 @@
+Here's the corrected XML data:
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+	 Giver: Quest Giver
+	 Tasks: Task Order, Objective, Description, Location
+
+	<quest-giver>Quest Giver</quest-giver>
+</game>
+```
+Here's the Markdown code block for the modified XML data:
+```markdown
+<h1><game title="Quest Title"></game><objective>Quest Objective</objective><description>Quest Description</description><reward>Quest Reward</reward><giver>Quest Giver</giver><tasks><task order="Task Order" objective="Objective" description="Description" location="Location">Quest Task 1</task><task order="Task Order" objective="Objective" description="Description" location="Location">Quest Task 2</task><task order="Task Order" objective="Objective" description="Description" location="Location"></tasks></game>
+```
+Note that I have added an opening tag `<h1>` to the heading and replaced it with the actual title of the game. I also changed the labels for the tasks to reflect their specific purpose in the game.

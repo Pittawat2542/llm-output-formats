@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Missing Heirloom",
+    "objective": "Find and retrieve the lost family heirloom.",
+    "description": "A valuable family heirloom has gone missing, and it's up to you to find and return it to its rightful owner. The heirloom is a rare golden locket with a small ruby set into the center.",
+    "reward": "100 gold coins",
+    "quest-giver": "Grimbold Ironfist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the scene of the theft.",
+          "description": "Speak to the staff at Ironfist Manor and see if anyone saw or heard anything suspicious on the night of the theft.",
+          "location": "Ironfist Manor"
+        },
+        {
+          "order": "2",
+          "objective": "Search the surrounding area for clues.",
+          "description": "Come back to this area with a lantern and search every inch of ground, including under rocks and in bushes. See if you can find any sign of where the thief might have gone.",
+          "location": "The Old Oak Tree"
+        },
+        {
+          "order": "3",
+          "objective": "Return the heirloom to Grimbold Ironfist.",
+          "description": "Once you've found the heirloom, return it to Grimbold and claim your reward.",
+          "location": "Ironfist Manor"
+        }
+      ]
+    }
+  }
+}

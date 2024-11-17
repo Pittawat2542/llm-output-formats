@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "111",
+    "title": "Dragon's Might",
+    "objective": "Defeat the Dragon of Eldenwood",
+    "description": "Travel to the Eldenwood forest and slay the dragon who has been terrorizing the villagers. Return with its head to prove your victory.",
+    "reward": "Diamond Armor Set and 5000 Gold",
+    "quest-giver": "Mayor John",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to Eldenwood Forest",
+          "description": "Get prepared and travel to the Eldenwood forest, which is located to the west of our village.",
+          "location": "Eldenwood Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Dragon",
+          "description": "Locate and defeat the dragon. It resides deep within the forest. Be cautious, it's extremely powerful.",
+          "location": "Eldenwood Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Return Dragon Head to Mayor",
+          "description": "Upon defeating the dragon, bring its head to the mayor's house as proof of your accomplishment.",
+          "location": "Village Mayor's House"
+        }
+      ]
+    }
+  }
+}

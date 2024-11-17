@@ -1,0 +1,22 @@
+```yaml
+ speakers:
+  name:
+    text: The speaker's name
+order:
+  dialogues:
+    Game:
+      order: dialogue order
+      speaker:
+        ---
+        key: name
+          text: speaker's name
+order:
+  dialogues:
+    Game:
+      order: dialogue order
+      speaker:
+        ---
+        text: Game
+        speaker: text
+        text: 'The text of the dialogue'
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>Quest for the Golden Key</title>
+    <objective>Find the ancient artifact</objective>
+    <description>A challenging adventure awaits you</description>
+    <reward>Gold coins and a mysterious amulet</reward>
+    <quest-giver>OldMapper</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Uncover hidden treasure map</objective>
+            <description>Follow the riddles at the old tavern</description>
+            <location>Valley of Riddles</location>
+        </task>
+    </tasks>
+</game>
+```
+In this corrected XML, I've made sure to use the correct start and end tags. The `encoding` attribute is added for better compatibility in some cases. The values for `<id>`, `<title>`, `<reward>`, `<quest-giver>`, and `<task>` elements have been replaced with example data.

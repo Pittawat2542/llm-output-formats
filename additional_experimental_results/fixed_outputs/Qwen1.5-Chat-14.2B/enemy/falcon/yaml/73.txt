@@ -1,0 +1,17 @@
+The original YAML data has some syntax errors and needs to be structured correctly as a dictionary. Here is the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: "<description>"
+    id: "<id>"
+    name: "<name>"
+    stats:
+      atk: <atk int value>
+      def: <def int value>
+      hp: <hp int value>
+      mp: <mp int value>
+      spd: <spd int value>
+```
+
+Replace `<description>`, `<id>`, `<name>`, `<atk>`, `<def>`, `<hp>`, `<mp>`, and `<spd>` with the actual values you want to use.

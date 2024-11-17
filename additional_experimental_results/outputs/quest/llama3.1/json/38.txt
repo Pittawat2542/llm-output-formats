@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "001",
+        "title": "The Missing Scroll",
+        "objective": "Retrieve the missing scroll from the ancient ruins.",
+        "description": "The village elder's most prized possession, a sacred scroll, has gone missing. It is believed to be hidden deep within the ancient ruins. Retrieve it and bring it back to the village elder.",
+        "reward": "100 gold pieces and the gratitude of the village elder",
+        "quest_giver": "Village Elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Reach the ancient ruins",
+                "description": "Travel to the ancient ruins, located in the nearby mountains.",
+                "location": "The Ancient Ruins, Mountain Range"
+            },
+            {
+                "order": 2,
+                "objective": "Find the hidden entrance",
+                "description": "Search for the hidden entrance to the ruin's inner chamber.",
+                "location": "Inner Chamber, Ancient Ruin"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the scroll",
+                "description": "Once inside, retrieve the sacred scroll and bring it back to the village elder.",
+                "location": "Inner Chamber, Ancient Ruin"
+            }
+        ]
+    }
+}
+```

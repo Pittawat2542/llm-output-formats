@@ -1,0 +1,40 @@
+```yaml
+game:
+  enemy:
+    description: The dragon.
+    id: 1
+    name: The dragon.
+    stats:
+      atk: 20
+      def: 20
+      hp: 20
+      mp: 20
+      mond: 20
+```
+
+Explanation:
+
+- `^` is a character that matches the opening character of a line. In this case, it matches the opening character for line 1 and column 1.
+- `^` matches the closing character of a line. In this case, it matches the closing character for line 2 and column 2.
+- `[}` is used to mark the end of a line in YAML.
+- The YAML string provided is correct.
+
+```bash
+$./demo.sh
+```
+
+Output:
+
+```yaml
+game:
+  enemy:
+    description: A dragon.
+    id: 1
+    name: A dragon.
+    stats:
+      atk: 20
+      def: 20
+      hp: 20
+      mp: 20
+      mond: 20
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient scroll within the temple",
+    "description": "The village elder has tasked you with retrieving an ancient scroll from the long-abandoned Lost Temple. The scroll is said to contain knowledge of a powerful spell that could bring prosperity back to our land.",
+    "reward": "A magical amulet granting +5 Intelligence and 100 gold pieces",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Enter the Lost Temple",
+        "description": "Make your way through the jungle and enter the ancient structure. Be cautious of traps and wildlife.",
+        "location": "Jungle Ruins"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve a map from the temple entrance",
+        "description": "Find a parchment with a cryptic map that will lead you to the inner sanctum. Watch out for temple guards.",
+        "location": "Temple Entrance"
+      },
+      {
+        "order": "3",
+        "objective": "Solve the puzzle of the ancient lock",
+        "description": "Use your wits and skills to unlock the door leading to the scroll chamber.",
+        "location": "Inner Sanctum"
+      }
+    ]
+  }
+}

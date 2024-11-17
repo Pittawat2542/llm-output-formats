@@ -1,0 +1,19 @@
+XML code block:
+```xml
+[Character]
+[id] { id } (id)
+[first-name] { first name } (first name)
+[last-name] { last name } (last name)
+[species] { species } (species)
+[age] { age in years } (exact age or description)
+[role] { role of the character } (role of the character)
+[background] { background story } (background story)
+[place-of-birth] { city, state or country } (location)
+<physical-appearance>
+<eye-color>eye color in hex codes</eye-color>
+<hair-color>hair color in hex codes</hair-color>
+<height>height in meters</height>
+<weight>weight in kilograms</weight>
+</ physical-appearance>
+</ character>
+```

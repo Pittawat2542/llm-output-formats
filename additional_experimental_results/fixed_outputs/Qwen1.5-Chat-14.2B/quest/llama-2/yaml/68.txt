@@ -1,0 +1,15 @@
+```yaml
+game:
+  description: "Quest Description"
+  id: ID
+  objective: "Quest Objective"
+  quest_giver: "Quest Giver"
+  reward: "Quest Reward"
+  tasks:
+    - description: "Task Description"
+      location: "Task Location"
+      objective: "Task Objective"
+      order: "Task Order"
+  title: "Quest Title"
+```
+All the issues were related to string quotes. The single backticks (`) were replaced with double quotes (") to fix the YAML syntax.

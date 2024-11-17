@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Mysterious Legacy of King Midas</title>
+    <objective>Reveal the hidden treasure of the golden king and restore its rightful place in the kingdom.</objective>
+    <description>A legendary quest, seeking the artifact that can unlock the true power of Midas' wealth. Elder Elara, the wise Oracle, has revealed the first task - journey to the heart of the Enchanted Forest.</description>
+    <reward>Unmatched riches and a place among the kingdom's greatest heroes</reward>
+    <quest-giver>Elder Elara, Oracle of the Forest</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Journey to the Heart of the Enchanted Forest</objective>
+            <description>Navigate the serpentine paths, confront guardian spirits and solve ancient riddles to enter the heart of the forest.</description>
+            <location>Enchanted Forest, Eastern Woodlands</location>
+        </task>
+        <!-- tasks remain unchanged -->
+    </tasks>
+</game>
+```

@@ -1,0 +1,20 @@
+The fixed message is provided between ```xml and ```. The original message is also in the Markdown code block (between ```<code></code>```, but it has been replaced with the output).
+Corrected XML:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>50</mp>
+			<atk>20</atk>
+			<def>5</def>
+			<spd>3</spd>
+		</stats>
+	</enemy>
+</game>
+```
+

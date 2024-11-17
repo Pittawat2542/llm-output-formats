@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Amulet",
+    "objective": "Find the lost amulet and return it to the quest giver",
+    "description": "In a distant land, there is a legend of a powerful amulet said to grant its wearer immense power. However, it has been lost for centuries. The current ruler of the land is searching for brave adventurers who can retrieve the lost amulet and return it to her. Will you be the one to find it?",
+    "reward": "Ancient artifact + 1000 gold coins",
+    "quest-giver": "Queen Regalia",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the abandoned temple",
+          "description": "Rumors speak of an abandoned temple deep in the forest where the amulet might be hidden. Begin your quest by exploring this mysterious place.",
+          "location": "The Forest of Shadows"
+        },
+        {
+          "order": "2",
+          "objective": "Find the key to the inner chamber",
+          "description": "The inner chamber of the temple is locked, and you need to find a special key to access it. Search the surrounding area for any clues or hidden compartments that might hold the key.",
+          "location": "The Temple Grounds"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardians of the amulet",
+          "description": "Legend has it that the amulet is guarded by powerful creatures. To claim it, you must defeat these guardians in a battle of strength and skill.",
+          "location": "The Inner Chamber"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the lost city and bring it back to the village.",
+    "description": "The village elder has asked for your help in retrieving an ancient artifact from the lost city of Eldarath. The city is said to be filled with traps and puzzles, but the reward is worth the risk.",
+    "reward": "200 gold pieces and a magical amulet",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the lost city.",
+          "description": "The entrance to the lost city is hidden behind a waterfall. You will need to navigate through the jungle to find it.",
+          "location": "Jungle, near the waterfall"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the first puzzle in the lost city.",
+          "description": "The first puzzle is a pressure plate that requires you to step on it in a specific sequence. You will need to observe the patterns of light and sound to figure out the correct sequence.",
+          "location": "Lost City, hallway with pressure plates"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact from the inner sanctum.",
+          "description": "The ancient artifact is located in the inner sanctum of the lost city. You will need to navigate through a series of traps and puzzles to reach it.",
+          "location": "Lost City, inner sanctum"
+        }
+      ]
+    }
+  }
+}

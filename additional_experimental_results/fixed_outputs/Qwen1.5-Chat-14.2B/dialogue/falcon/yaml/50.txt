@@ -1,0 +1,13 @@
+The issue with the original YAML data is that the `text` key should be a dictionary containing the `narrative` key, not another list. Here's the corrected YAML:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker:
+        name: speaker name
+      text:
+        narrative: "narrative text, for example (spoken), could be dialogue, narrations, etc."
+```
+
+Note that I removed the `,` from `text`, and added quotation marks around the `narrative` value to make it a string.

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Enchanted Amulet</title>
+    <objective>Uncover the ancient amulet's powers</objective>
+    <description>Solve the riddle of the ancient temple to retrieve the amulet in the center of Mount Everdeen.</description>
+    <reward>7500 gold coins and a magical artifact</reward>
+    <quest-giver>Elara, the Oracle</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Research at the local library for clues</objective>
+            <description>Consult the ancient scrolls to gather information about the temple's location and riddle.</description>
+            <location>Library of Mount Everdeen</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Climb Mount Everdeen</objective>
+            <description>Be prepared for treacherous snow and ice. The entrance to the temple is at the summit's peak.</description>
+            <location>Mount Everdeen's base</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find and solve the riddle in the temple</objective>
+            <description>The amulet's location will be revealed once you uncover its secrets. Beware of guardian creatures.</description>
+            <location>Temple at Mount Everdeen's peak</location>
+        </task>
+    </tasks>
+</game>
+```

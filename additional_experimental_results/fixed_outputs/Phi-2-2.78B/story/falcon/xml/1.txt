@@ -1,0 +1,12 @@
+[Markdown]
+Return the generated XML code in the `output` block while keeping the XML tags intact.
+
+#### Output
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+

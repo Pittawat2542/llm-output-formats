@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Defeat the Dark Sorcerer and save the kingdom from destruction.",
+    "id": "Q01",
+    "objective": "Defeat the Dark Sorcerer Xaren who has taken over the kingdom's capital city.",
+    "quest_giver": "King Arin, ruler of the kingdom",
+    "reward": "A magical sword and a title of \"Hero of the Kingdom\"",
+    "tasks": [
+      {
+        "description": "Speak with the village elder in Willowdale Village to gather information about Xaren's plans.",
+        "location": "Willowdale Village (x=123, y=456)",
+        "objective": "Gather information about Xaren's plan",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate Xaren's fortress and sabotage his dark magic equipment.",
+        "location": "Dark Sorcerer's Fortress (x=789, y=012)",
+        "objective": "Disable the dark magic equipment",
+        "order": 2
+      },
+      {
+        "description": "Engage in combat with Xaren and defeat him to save the kingdom.",
+        "location": "Final Battle Arena (x=345, y=678)",
+        "objective": "Defeat Dark Sorcerer Xaren",
+        "order": 3
+      }
+    ],
+    "title": "Defeat the Dark Sorcerer"
+  }
+}

@@ -1,0 +1,34 @@
+
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'd like to buy a sword.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Merchant</speaker>
+			<text>Sure thing! Which one would you like? We have longswords, shortswords, and broadswords.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'll take the longsword, please.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Merchant</speaker>
+			<text>Excellent choice! That will be 50 gold pieces.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>Here you go, keep the change.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

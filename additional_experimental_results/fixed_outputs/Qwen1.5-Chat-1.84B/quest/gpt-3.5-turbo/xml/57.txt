@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<game>
+    <id>123</id>
+   <title>The Forbidden Temple</title>
+   <objective>Retrieve the Sacred Amulet</objective>
+   <description>In the ancient land of Zephyria, a legendary artifact known as the Sacred Amulet has been stolen from the Forbidden Temple. You, a brave adventurer, have been tasked with retrieving the amulet and bringing it back to its rightful place.</description>
+   <reward>Experience points, Gold coins, and a powerful enchanted weapon</reward>
+   <quest-giver>High Elder Alaric</quest-giver>
+   <tasks>
+      <task>
+         <order>1</order>
+         <objective>Find the Temple Gate Key</objective>
+         <description>Search the Forest of Shadows for the hidden Temple Gate Key. Beware of the dark creatures that dwell within.</description>
+         <location>Forest of Shadows</location>
+      </task>
+         <order>2</order>
+         <objective>Enter the Forbidden Temple</objective>
+         <description>Use the Temple Gate Key to open the ancient door and gain access to the Forbidden Temple. Navigate through its treacherous corridors and avoid the traps set by the temple guardians.</description>
+         <location>Forbidden Temple</location>
+      </task>
+         <order>3</order>
+         <objective>Climb the Temple Tower</objective>
+         <description>Make your way up the ancient steps of the Forbidden Temple to reach its peak. The final challenge lies ahead, where you will encounter a powerful magical artifact.</description>
+         <location>Temple Tower</location>
+      </task>
+      <task>
+         <order>4</order>
+         <objective>Defeat the Temple Guardian</objective>
+         <description>Use your enchanted weapon to defeat the强劲 guardian of the Forbidden Temple. Overcome its defenses and claim the sacred amulet.</description>
+         <location>The Temple Guardian</location>
+      </task>
+      <task>
+         <order>5</order>
+         <objective>Find the Sacred Chamber</objective>
+         <description>Search the temple's subterranean chambers for the chamber where the Sacred Amulet is kept. Inside, you will find a complex system of traps and puzzles that require your problem-solving skills.</description>
+         <location>Sacred Chamber</location>
+      </task>
+      <task>
+         <order>6</order>
+         <objective>Cast Fireball spell</objective>
+         <description>Fuse the sacred amulet with your enchanted weapon to create a powerful fireball. Use this blast to destroy any obstacles in your path and reach the chamber where the artifact is located.</description>
+         <location>Sacred Amulet Chamber</location>
+      </task>
+   <tasks>
+</game>
+
+```

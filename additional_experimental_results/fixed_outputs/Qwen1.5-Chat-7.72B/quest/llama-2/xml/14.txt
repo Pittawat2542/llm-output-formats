@@ -1,0 +1,22 @@
+```
+<game>
+	<id>12345</id>
+	<title>New Quest Title</title>
+	<objective>Complete the Temple</objective>
+	<description>Find the ancient artifact and deliver it to the high priest</description>
+	<reward>Gold, Experience, and a Special Amulet</reward>
+	<quest-giver>Old Sage</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective>Explore the Forest</objective>
+			<description>Follow the markers to the west</description>
+			<location>Forest Clearing</location>
+		</task>
+		<task order="2">
+			<objective>Climb the Hill</objective>
+			<description>Reach the top for a clue from the sky</description>
+			<location>Hilltop</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest Title: The Lost City of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the Lost City of Eldarath.</objective>
+	<description>A hidden city deep in the forest, filled with treasures and artifacts. Your quest is to retrieve an ancient relic rumored to be hidden within the city's walls.</description>
+	<reward>1000 Gold Pieces, The Amulet of Light</reward>
+	<quest-giver>King Thorold Ironfist</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Discover the location of the lost city through local villagers and gather information.</objective>
+			<description>Talk to the local villagers and gather information about their knowledge of the area. They might have clues that can help you navigate through the forest and reach the Lost City.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Obtain a map of the forest, highlighting the path to the Lost City.</objective>
+			<description>A local cartographer has been known to create maps of the surrounding areas. Visit him and see if he can provide you with a map that will aid your journey.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate through the treacherous forest and reach the Lost City.</objective>
+			<description>Use the information gathered from the villagers, the map, and your own knowledge of the area to navigate through the forest. Be cautious, as rumors of dark creatures and treacherous terrain have been known to plague adventurers who dare to venture into these woods.</description>
+			<location>Eldarath Forest</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Obtain the ancient artifact from the Lost City's temple.</objective>
+			<description>Finally, after overcoming the challenges of the forest and reaching the city, you must face whatever dangers lie within the temple to retrieve the ancient relic. Be brave and resourceful, as this will be your greatest challenge yet.</description>
+			<location>The Lost City of Eldarath</location>
+		</task>
+	</tasks>
+</game>
+
+```

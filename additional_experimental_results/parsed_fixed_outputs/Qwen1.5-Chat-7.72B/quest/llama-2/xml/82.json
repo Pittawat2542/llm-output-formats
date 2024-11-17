@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "new_id12345",
+    "title": "NewQuestTitle",
+    "objective": "NewQuestObjective",
+    "description": "NewQuestDescription",
+    "reward": "NewQuestReward",
+    "quest-giver": "NewQuestGiver",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Task1Objective",
+          "description": "Task1Description",
+          "location": "Task1Location"
+        },
+        {
+          "order": "2",
+          "objective": "Task2Objective",
+          "description": "Task2Description",
+          "location": "Task2Location"
+        }
+      ]
+    }
+  }
+}

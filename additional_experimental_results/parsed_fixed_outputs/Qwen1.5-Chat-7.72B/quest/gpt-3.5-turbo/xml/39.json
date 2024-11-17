@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact Quest",
+    "objective": "Find the lost artifact and return it to Professor Johnson",
+    "description": "In a forgotten temple deep in the jungle, embark on a journey to find and bring back the long-lost artifact. Your rewards are 1000 gold coins and the gratitude of the archaeologist.",
+    "reward": "1000 gold coins",
+    "quest-giver": "Professor Johnson",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find Ancient Map at Mysteria Village",
+          "description": "Talk to the elder for guidance on the map's location.",
+          "location": "Village of Mysteria"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve Sacred Key from Dragon's Cave",
+          "description": "Use the ancient map to navigate to the cave and retrieve the key.",
+          "location": "Dragon's Cave"
+        },
+        {
+          "order": "3",
+          "objective": "Unlock Temple and Find Artifact",
+          "description": "Apply the sacred key to unlock the temple and overcome its challenges to discover the artifact.",
+          "location": "Temple of the Lost"
+        }
+      ]
+    }
+  }
+}

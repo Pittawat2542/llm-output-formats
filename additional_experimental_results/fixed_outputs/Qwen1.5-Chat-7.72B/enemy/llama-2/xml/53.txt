@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>player1-id</id>
+        <name>Alien X</name>
+        <description>A powerful enemy with high defense and speed.</description>
+        <stats>
+            <hp>100</hp>
+            <mp>30</mp>
+            <atk>80</atk>
+            <def>60</def>
+            <spd>50</spd>
+        </stats>
+    </enemy>
+</game>
+```

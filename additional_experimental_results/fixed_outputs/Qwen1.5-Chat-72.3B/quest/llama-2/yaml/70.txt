@@ -1,0 +1,36 @@
+The original YAML data seems to have incorrect indentation and is presented in multiple code blocks. I'll combine the blocks and correct the indentation to form a valid YAML structure based on the template provided.
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+
+quests:
+  - description: quest description
+    id: id
+    objective: quest objective
+    quest_giver: quest giver
+    reward: quest reward
+    tasks:
+      - description: task description
+        location: task location
+        objective: task objective
+        order: task order
+    title: quest title
+
+tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+```
+This YAML data includes the `game`, `quests`, and `tasks` sections with corrected indentation and structure.

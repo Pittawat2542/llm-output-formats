@@ -1,0 +1,69 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quest Giver</title>
+</head>
+<body>
+	<h1>Quest Giver</h1>
+	<p>The quest is to retrieve a lost scroll from the Dark Wizards Den and return it to High Mage Erendil at the castle. The reward is 500 gold coins, High Mage's gratitude.</p>
+
+	<form method="post" enctype="multipart/form-data">
+		<label for="quest-giver">Quest Giver:</label>
+		<input type="text" id="quest-giver" required><br><br>
+
+		<label for="objective">Objective:</label>
+		<select id="objective" required><option value="">Objective</option><option value="Find and Retrieve the Lost Scrolls">Find and retrieve the lost scrolls</option><option value="Return to High Mage Erendil at the Castle">Return to High Mage Erendil at the castle</option></select><br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+```
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quest Giver</title>
+</head>
+<body>
+	<h1>Quest Giver</h1>
+	<p>The quest is to retrieve a lost scroll from the Dark Wizards Den and return it to High Mage Erendil at the castle. The reward is 500 gold coins, High Mage's gratitude.</p>
+
+	<form method="post" enctype="multipart/form-data">
+		<label for="quest-giver">Quest Giver:</label>
+		<input type="text" id="quest-giver" required><br><br>
+
+		<label for="objective">Objective:</label>
+		<select id="objective" required><option value="">Objective</option><option value="Find and Retrieve the Lost Scrolls">Find and retrieve the lost scrolls</option><option value="Return to High Mage Erendil at the Castle">Return to High Mage Erendil at the castle</option></select><br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+```
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quest Giver</title>
+</head>
+<body>
+	<h1>Quest Giver</h1>
+	<p>The quest is to retrieve a lost scroll from the Dark Wizards Den and return it to High Mage Erendil at the castle. The reward is 500 gold coins, High Mage's gratitude.</p>
+
+	<form method="post" enctype="multipart/form-data">
+		<label for="quest-giver">Quest Giver:</label>
+		<input type="text" id="quest-giver" required><br><br>
+
+		<label for="objective">Objective:</label>
+		<select id="objective" required><option value="">Objective</option><option value="Find and Retrieve the Lost Scrolls">Find and retrieve the lost scrolls</option><option value="Return to High Mage Erendil at the Castle">Return to High Mage Erendil at the castle</option></select><br><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
+```

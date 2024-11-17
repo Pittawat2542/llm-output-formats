@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Forbidden Temple",
+    "objective": "Retrieve the Sacred Amulet",
+    "description": "In the ancient land of Zephyria, a legendary artifact known as the Sacred Amulet has been stolen from the Forbidden Temple. You, a brave adventurer, have been tasked with retrieving the amulet and bringing it back to its rightful place.",
+    "reward": "Experience points, Gold coins, and a powerful enchanted weapon",
+    "quest-giver": "High Elder Alaric",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Temple Gate Key",
+          "description": "Search the Forest of Shadows for the hidden Temple Gate Key. Beware of the dark creatures that dwell within.",
+          "location": "Forest of Shadows"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the Forbidden Temple",
+          "description": "Use the Temple Gate Key to open the ancient door and gain access to the Forbidden Temple. Navigate through its treacherous corridors and avoid the traps set by the temple guardians.",
+          "location": "Forbidden Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Sacred Amulet",
+          "description": "Locate the chamber where the Sacred Amulet is kept. Overcome the final challenge and obtain the artifact.",
+          "location": "Sacred Amulet Chamber"
+        }
+      ]
+    }
+  }
+}

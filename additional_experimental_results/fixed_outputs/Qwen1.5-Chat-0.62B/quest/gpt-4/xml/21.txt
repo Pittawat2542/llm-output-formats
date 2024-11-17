@@ -1,0 +1,243 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>G dragon Slayer</title>
+	<objective>Defeat the Ancient Dragon in the Forgotten Mountain</objective>
+	<description>Local villagers have been terrorized by an Ancient Dragon residing in the forgotten Mountain. Your task is to brave the treacherous terrain, reach the dragon's lair, and slay the beast.</description>
+	<reward>5000 gold coins and the Dragon's Soul gemstone</ reward>
+	<quest-giver>Lord of the village</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			objective>Gather information about the dragon from the village elder</objective>
+				<description>Visit the elder of the village and gather information about the lair of the ancient dragon</description>
+			经验值: 20
+				result: 0
+			<task>
+				<order>2</order>
+			 objective>Find the hidden path to the mountain</objective>
+				<description>According to the elders, a hidden path behind the waterfall leads to the dragon's lair. Find this path.</description>
+			经验值: 10
+				result: 20
+			<task>
+				<order>3</order>
+			 objective>Gather information about the dragon's life and behavior</objective>
+				<description>Encourage villagers to watch over the dragon and learn more about its life and behavior.</description>
+			经验值: 15
+				result: 20
+			<task>
+				<order>4</order>
+			objective>Tear down the ancient dragon's lair</objective>
+				<description>Engage in battle with the dragon to defeat it and bring peace to the village.</description>
+			经验值: 30
+				result: 20
+			<task>
+				<order>5</order>
+			objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's Soul gemstone to unlock its secret location.</description>
+			经验值: 40
+				result: 20
+			<task>
+				<order>6</order>
+			 objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's life and behavior information to create new tasks for villagers.</description>
+			经验值: 50
+				result: 20
+			<task>
+				<order>7</order>
+			objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's life and behavior information to create new tasks for villagers.</description>
+			经验值: 60
+				result: 20
+			<task>
+				<order>8</order>
+			(objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 70
+				result: 20
+			<task>
+				<order>9</order>
+			.objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 80
+				result: 20
+			</task>
+			<task>
+				<order>10</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 90
+				result: 20
+			<task>
+				<order>11</order>
+			.objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 100
+				result: 20
+			<task>
+				<order>12</order>
+			.objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 110
+				result: 20
+			</task>
+			<task>
+				<order>13</order>
+			.objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 120
+				result: 20
+			<task>
+				<order>14</order>
+			.objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 130
+				result: 20
+			</task>
+			<task>
+				<order>15</order>
+			.objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 140
+				result: 20
+			</task>
+		</tasks>
+	</game>
+```
+Here is the updated code block with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>G dragon Slayer</title>
+	 objective>Defeat the Ancient Dragon in the Forgotten Mountain</objective>
+	 description>Local villagers have been terrorized by an Ancient Dragon residing in the forgotten Mountain. Your task is to brave the treacherous terrain, reach the dragon's lair, and slay the beast.</description>
+	 reward>5000 gold coins and the Dragon's Soul gemstone</ reward>
+	 quest-giver>Lord of the village</quest-giver>
+	 tasks:
+			<task>
+				<order>1</order>
+			 Objective>Gather information about the dragon from the village elder</objective>
+				<description>Visit the elder of the village and gather information about the lair of the ancient dragon</description>
+			经验值: 20
+				result: 0
+			<task>
+				<order>2</order>
+			 Objective>Find the hidden path to the mountain</objective>
+				<description>According to the elders, a hidden path behind the waterfall leads to the dragon's lair. Find this path.</description>
+			经验值: 10
+				result: 20
+			<task>
+				<order>3</order>
+			 Objective>Gather information about the dragon's life and behavior</objective>
+				<description>Encourage villagers to watch over the dragon and learn more about its life and behavior.</description>
+			经验值: 15
+				result: 20
+			<task>
+				<order>4</order>
+			 Objective>Tear down the ancient dragon's lair</objective>
+				<description>Engage in battle with the dragon and defeat it to bring peace to the village.</description>
+			经验值: 30
+				result: 20
+			<task>
+				<order>5</order>
+			 Objective>Find a way back to the village and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's Soul gemstone to unlock its secret location.</description>
+			经验值: 40
+				result: 20
+			<task>
+				<order>6</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</ objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 70
+				result: 20
+			<task>
+				<order>7</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 80
+				result: 20
+			<task>
+				<order>8</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 90
+				result: 20
+			<task>
+				<order>9</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 100
+				result: 20
+			<task>
+				<order>10</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 110
+				result: 20
+			<task>
+				<order>11</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</ objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 120
+				result: 20
+			<task>
+				<order>12</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 130
+				result: 20
+			</task>
+			<task>
+				<order>13</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</ objective>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 140
+				result: 20
+			<task>
+				<order>14</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 150
+				result: 20
+			</task>
+			<task>
+				<order>15</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 160
+				result: 20
+			</task>
+			<task>
+				<order>16</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 170
+				result: 20
+			</task>
+			<task>
+				<order>17</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 180
+				result: 20
+			</task>
+			<task>
+				<order>19</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 200
+				result: 20
+			</task>
+			<task>
+				<order>20</order>
+			 objective>Tear down the ancient dragon's lair and return the reward for the quest-giver</object>
+				<description>Use the Dragon's secret location to unlock its true purpose.</description>
+			经验值: 210
+				result: 20
+			</task>
+		</tasks>
+	</game>
+```

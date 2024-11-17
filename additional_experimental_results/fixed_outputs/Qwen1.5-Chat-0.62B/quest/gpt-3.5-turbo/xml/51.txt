@@ -1,0 +1,42 @@
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<id>1234</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the ancient artifact</objective>
+	<description>In a faraway land, hidden deep within a treacherous forest, lies the lost artifact of ultimate power. Your quest is to journey to this land, navigate through the dangerous forest, and find the artifact before it falls into the wrong hands. Are you up for the challenge?</description>
+	<reward>Ancient Sword of Legends</reward>
+	<quest-giver>Karina the Wise</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			艰巨 objective 1: Find a hidden treasure behind the waterfall
+			.objective: Search for hidden treasure in the forest
+				result: Found treasure - Gold coins!
+				color: Green
+			</task>
+			<task>
+				<order>2</order>
+			艰巨 objective 2: Defeat the savage creatures that guard the forest path
+			 Objective: Defeat fierce creatures in the forest
+				result: Defeated all monsters, safely exiting the forest
+				color: Blue
+			</task>
+			<task>
+				<order>3</order>
+			艰巨 objective 3: Solve ancient riddle 1
+			 Objective: Unravel ancient riddle 1 and find the location of the precious artifact
+				result:解开 ancient riddle 1, revealing hidden treasure
+				color: Purple
+			</task>
+			<task>
+				<order>4</order>
+			艰巨 objective 4: Retrieve lost artifact
+			 Objective: Enter sacred chamber, guarded by powerful traps and guardians
+				result: Found lost treasure - Golden coins!
+				color: Green
+			</task>
+		</tasks>
+	</reward>
+</game>
+```

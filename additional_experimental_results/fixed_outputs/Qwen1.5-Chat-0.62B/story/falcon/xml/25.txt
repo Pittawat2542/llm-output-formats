@@ -1,0 +1,47 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<Story>
+			Synopsis>game story synopsis</synopsis>
+			Beginning {
+			<Event1:
+					FrictionX:
+						FracX = 0,
+						FracY = 0
+					}
+				Event2: 
+					FrictionX:
+						FracX = 1,
+						FracY = 1
+					}
+				Event3: 
+					FrictionX:
+						FracX = 2,
+						FracY = 2
+			}
+	</Story>
+</game>
+```
+```perl
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	< Story>
+			Synopsis>game story synopsis</synopsis>
+			Beginning {
+			<Event1:
+					FrictionX: 0,
+					FracY: 0
+				}
+				Event2: 
+					FrictionX: 1,
+					FracY: 1
+				}
+				Event3: 
+					FrictionX: 2,
+					FracY: 2
+			}
+	</Story>
+</game>
+```

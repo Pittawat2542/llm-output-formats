@@ -1,0 +1,10 @@
+ ```yaml
+game:
+  beginning: In a world where magic has disappeared, the land is plagued by a terrible curse that causes widespread destruction and chaos.
+  ending: The player must make a choice between saving one of two ancient magical artifacts or risking everything to try and restore balance to the world, resulting in multiple endings.
+  synopsis: >
+    "Echoes of Eternity" follows a young orphan named Aria who discovers she has the ability to wield magic. She sets out on an epic journey to unite the warring factions of her world against a common threat: an ancient evil that seeks to destroy all life.
+  title: Echoes of Eternity
+```
+
+The issue with the original YAML data was the use of double quotes in the synopsis key under the game property. This caused the YAML parser to treat it as a scalar instead of a block mapping, which is what was intended. To fix this, we changed the quotation marks surrounding the synopsis value to a single greater-than symbol (>), indicating a block scalar that allows indented multiline text.

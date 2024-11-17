@@ -1,0 +1,28 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>The Quest of the Lost Treasure</title>
+	<objective>Find the lost treasure of the pirates.</objective>
+	<description>The pirates were robbing the city and now they've lost the treasure. Find it and return it to the city!</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the pirates and their ship.</objective>
+			<description>The pirates are hiding in the forest. Find their ship and the treasure!</description>
+			<location>Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the treasure.</objective>
+			<description>The pirates' ship is at the beach, but they've taken the treasure to a secret location. Find it!</description>
+			<location>Secret Location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+Correction: I changed the objective of the second task because the first task already states "Find their ship and the treasure" and having the same objective for both tasks is redundant. Instead, I made the second task's objective to find the actual treasure since that's what the player is expected to do after finding the pirates' ship.

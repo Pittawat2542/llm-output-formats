@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the ruins of Eldarath.",
+    "description": "Rumors have been circulating about a lost city deep in the heart of the mystical forest, where an ancient civilization once thrived. Legends speak of a powerful artifact hidden within its walls, capable of granting unimaginable power to its possessor. Your quest is to brave the dangers that lie within and retrieve this treasure.",
+    "reward": "1000 gold coins, a magical amulet of strength",
+    "quest-giver": "Eryndor Thorne, a renowned archaeologist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city from local villagers.",
+          "description": "Speak to the villagers in the nearby town and gather as much information as possible about the location of the lost city, any potential dangers that lie within, and the best route to take.",
+          "location": "Greenhaven Village"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the mystical forest and reach the entrance to the lost city.",
+          "description": "Make your way through the treacherous terrain of the mystical forest, avoiding any hostile creatures that you may encounter. Follow the map provided by Eryndor Thorne to locate the entrance to the lost city.",
+          "location": "Mystical Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact from within the lost city.",
+          "description": "Explore the ruins of Eldarath, overcoming any obstacles or challenges that you may face. Locate the chamber where the ancient artifact is said to be hidden and claim it as your reward.",
+          "location": "Ruins of Eldarath"
+        }
+      ]
+    }
+  }
+}

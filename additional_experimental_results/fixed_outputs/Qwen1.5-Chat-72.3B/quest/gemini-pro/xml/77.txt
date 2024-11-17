@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>SR_005</id>
+	<title>The Lost Sword of Souls</title>
+	<objective>Locate the lost sword of Souls and return it to the altar of Souls.</objective>
+	<description>The fabled Sword of Souls is said to possess the ability to control the undead. Legend claims it was once wielded by a dark knight who terrorized the land. But one day, the sword vanished, and the dark knight's reign of terror came to an end. Now, it is rumored that an evil necromancer has rediscovered the sword and is using it to raise an army of undead. Only a brave hero can stop him and return the Sword of Souls to its resting place.</description>
+	<reward>A rare magical item, experience points, and an increase in reputation with the Order of Souls.</reward>
+	<quest-giver>Priestess of Souls</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find and activate the ancient portal to the Lost Vaults.</objective>
+			<description>The Lost Vaults are an underground labyrinth said to hold many secrets and dangers. The portal to the vaults is hidden within the Forgotten Tomb, an old catacomb that has been long abandoned. Search the tomb for clues that will lead you to the portal.</description>
+			<location>Forgotten Tomb</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate the Lost Vaults and defeat the guardian of the Sword of Souls.</objective>
+			<description>The Lost Vaults are a dangerous labyrinth filled with traps and monsters. You must be cautious as you progress through them. The guardian of the Sword of Souls is a powerful undead creature. Be prepared for a fierce battle.</description>
+			<location>Lost Vaults</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Claim the Sword of Souls and return it to the altar of Souls.</objective>
+			<description>Once you have defeated the guardian, you must claim the Sword of Souls. Beware, for it is a powerful artifact that could easily corrupt your soul. Return the sword to the altar of Souls, where it will be safeguarded from those who would misuse it.</description>
+			<location>Altar of Souls</location>
+		</task>
+	</tasks>
+</game>
+```

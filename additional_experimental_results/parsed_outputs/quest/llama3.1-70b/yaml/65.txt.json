@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the depths of the Dark Forest.",
+    "id": "QST001",
+    "objective": "Recover the lost artifact and bring hope back to the kingdom.",
+    "quest_giver": "King Arin the Wise",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 5000,
+      "item": "Sword of Light"
+    },
+    "tasks": [
+      {
+        "description": "Venture into the Dark Forest and find the entrance to the ancient ruin.",
+        "location": "Dark Forest",
+        "objective": "Locate the ruin's entrance.",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous tunnels and avoid deadly traps.",
+        "location": "Ancient Ruin Tunnels",
+        "objective": "Reach the treasure chamber.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the powerful dark sorceress guarding the sword.",
+        "location": "Treasure Chamber",
+        "objective": "Claim the Sword of Light.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact of Eldrador"
+  }
+}

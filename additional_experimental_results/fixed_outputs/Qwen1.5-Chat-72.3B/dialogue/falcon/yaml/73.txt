@@ -1,0 +1,18 @@
+```yaml
+game:
+  player: Goggin
+  dialogues:
+    - order: 1
+      speaker: Goggin
+      text: Dialog text
+    - order: 2
+      name: Order of game players
+      text: 
+    - order: 3
+      name: The player's goal
+      text: 
+    - order: 4
+      name: In game events
+      description: events in game
+```
+In the fixed YAML data, I've corrected the syntax issues and restructured it according to the template provided. The `player` is now a key under `game`, and the dialogue entries are structured correctly with `order`, `speaker`, `name`, and `description` keys.

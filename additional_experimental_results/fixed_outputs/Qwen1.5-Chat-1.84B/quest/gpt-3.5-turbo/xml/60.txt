@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact and bring it back to the quest giver</objective>
+	<description>In a small village located deep in the mountains, a powerful artifact has been stolen. The village elder, Magdalena, seeks a brave adventurer to retrieve the artifact and restore peace to the village. The artifact is said to be hidden in a treacherous cave system. Are you up for the challenge?</description>
+	<reward>200 gold coins and a rare legendary item</reward>
+	<quest-giver>Magdalena</quest-giver>
+	<tasks>
+			<tracking-task>
+				<order>1</order>
+				<objective>Find the entrance to the cave system</objective>
+				<description>The entrance to the cave system is rumored to be near a tall oak tree. Search the forest for the tree and locate the hidden entrance.</description>
+			<location>Forest</location>
+			<tracking-task>
+				<order>2</order>
+				<objective>Survive the traps and monsters in the caves</objective>
+				<description>The cave system is filled with traps, puzzles, and dangerous creatures. Proceed with caution and use your wit and skills to overcome the challenges.</description>
+			<location>Cave System</location>
+			<tracking-task>
+				<order>3</order>
+				<objective>Locate the sacred chamber and retrieve the artifact</objective>
+				<description>Deep within the cave system lies the sacred chamber where the artifact is kept. Explore the tunnels and chambers until you find the chamber and retrieve the artifact.</description>
+			<location>Sacred Chamber</location>
+			<tracking-task>
+				<order>4</order>
+				<objective>Return the artifact to Magdalena</objective>
+				<description>Once you have the artifact, make your way back to the village and return it to Magdalena. She will reward you generously for your efforts.</description>
+			<location>Village</location>
+			<tracking-task>
+				<order>5</order>
+				<objective>Explore additional caves and artifacts to uncover the treasure</objective>
+				<description>As you progress through the cave system, be on the lookout for hidden chambers and other valuable items. With your determination and resourcefulness, you may uncover more treasures beyond just the artifact.</description>
+			<location>Cave System</location>
+			<tracking-task>
+				<order>6</order>
+				<objective>Finally, navigate through a final challenge to claim the treasure</objective>
+				<description>The cave system is filled with complex puzzles and traps that require careful planning and execution. Solve the challenges and overcome the obstacles to claim the treasure.</description>
+			<location>Cave System</location>
+			<tracking-task>
+				<order>7</order>
+				<objective>Return the artifact to Magdalena with all the treasures you have collected</objective>
+				<description>Once the final challenge is overcome, return the artifact to Magdalena. She will be overjoyed and reward you handsomely for your efforts.</description>
+			<location>Village</location>
+			<tracking-task>
+				<order>8</order>
+				<objective>Celebrate your success with a grand feast and celebration in the village</objective>
+				<description>After retrieving the artifact, share your journey with the villagers and enjoy a feast to celebrate your accomplishment. The treasure may have brought prosperity, growth, and peace to the village for years to come.</description>
+			<location>Village</location>
+			<tracking-task>
+				<order>9</order>
+				<objective>Reflect on the challenges and rewards of this quest</objective>
+				<description>Reflect on the journey you took through the cave system, the obstacles you overcame, and the rewards you received. Consider the lessons learned and how they may apply to future quests or challenges.</description>
+			<location>Village</location>
+			<tracking-task>
+				<order>10</order>
+				<objective>Close the game</objective>
+				<description>Closing the game means finishing your quest and bringing back the ancient artifact to Magdalena. Congratulations on completing this challenging adventure!</description>
+			<location>Village</location>
+			<tracking-task>
+				<task>
+					<order>10</order>
+					<objective>Congratulations!</objective>
+					<description>Thank you for your brave and adventurous journey through the cave system. Your quest has been successfully completed, and Magdalena rewards you with a rare legendary item.</description>
+				<location>Village</location>
+			</task>
+		</tasks>
+</game>
+```

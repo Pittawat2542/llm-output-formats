@@ -1,0 +1,23 @@
+The YAML data has been corrected and now provides the updated content. The original message is provided between ```yaml and ```.
+```yaml
+game:
+  description: "This is a quest description."
+  id: 1
+  objective: "This is a quest objective."
+  quest_giver: "This is a quest giver."
+  reward: "This is a quest reward."<br>
+  tasks:
+   - description: "This is a task description."<br>
+     location: "This is a task location."<br>
+     objective: "This is a task objective."<br>
+     order: 1
+   - description: "This is a task description."<br>
+     location: "This is a task location."<br>
+     objective: "This is a task objective."<br>
+     order: 2
+   - description: "This is a task description."<br>
+     location: "This is a task location."<br>
+     objective: "This is a task objective."<br>
+     order: 3
+  title: "This is a quest title."
+```

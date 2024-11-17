@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>kill 10 goblins in the forest</objective>
+			<description>The goblins have been terrorizing the nearby village. Please help us eliminate them.</description>
+			<location>Forest of Shadows</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>retrieve the stolen artifact from the bandits' hideout</objective>
+			<description>The bandits have stolen a valuable artifact from the museum. Please retrieve it.</description>
+			<location>Bandit's Hideout</location>
+		</task>
+	</tasks>
+</game>
+```

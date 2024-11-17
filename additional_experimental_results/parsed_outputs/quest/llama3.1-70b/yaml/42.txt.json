@@ -1,0 +1,28 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the depths of the Dark Castle.",
+    "id": "qst-001",
+    "objective": "Acquire the Sword of Light to defeat the Dark Lord.",
+    "quest_giver": "King Edward",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "item": "Sword of Light"
+    },
+    "tasks": [
+      {
+        "description": "Enter the Dark Castle through the secret entrance.",
+        "location": "Dark Castle, Secret Entrance",
+        "objective": "Reach the first floor of the castle.",
+        "order": 1
+      },
+      {
+        "description": "Defeat the undead guards to reach the next floor.",
+        "location": "Dark Castle, First Floor",
+        "objective": "Clear the first floor of enemies.",
+        "order": 2
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

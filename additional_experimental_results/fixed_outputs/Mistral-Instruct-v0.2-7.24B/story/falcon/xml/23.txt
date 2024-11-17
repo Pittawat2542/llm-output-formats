@@ -1,0 +1,16 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title><TextBlock x:Name="titleBlock"/></title>
+	<synopsis><StackPanel x:Name="synopsisSection">
+			<TextBlock x:Name="synopsisBlock"/>
+		</StackPanel></synopsis>
+	<beginning><StackPanel x:Name="beginningSection">
+		<!-- Begin the game -->
+	</StackPanel></beginning>
+	<ending><StackPanel x:Name="endingSection">
+		<!-- End of the game -->
+	</StackPanel></ending>
+</game>
+```

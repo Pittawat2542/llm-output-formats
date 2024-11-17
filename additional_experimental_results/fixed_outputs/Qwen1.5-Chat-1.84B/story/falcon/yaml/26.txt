@@ -1,0 +1,38 @@
+```yaml
+game:
+  beginning: # Beginning of the game
+  ending: # Ending of the game
+  synopsis: # Synopsis of the game story
+  title: # Title of the game
+  players: 
+    - name: Protagonist A
+      role: Warrior
+      abilities:
+        -枪术
+        -剑术
+        -魔法
+      stats:
+        health: 100
+        defense: 85
+        agility: 70
+      allies: [
+        - name: Supportive B
+          role: Engineer
+          abilities:
+            -建筑知识
+            -战斗技能
+          stats:
+            health: 90
+            defense: 90
+            agility: 65
+      enemies: 
+        - name: Threat C
+          role: Villager
+          abilities:
+            - Stealth
+            - Magic Resistance
+          stats:
+            health: 120
+            defense: 70
+            agility: 45
+```

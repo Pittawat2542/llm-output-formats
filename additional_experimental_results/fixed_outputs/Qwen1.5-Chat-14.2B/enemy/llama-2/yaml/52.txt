@@ -1,0 +1,17 @@
+The error in the original YAML data is that it has an incorrect syntax with a stray backtick (`) at the end of the line. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+```
+
+The extra backtick has been removed, and the YAML is now in a valid format.

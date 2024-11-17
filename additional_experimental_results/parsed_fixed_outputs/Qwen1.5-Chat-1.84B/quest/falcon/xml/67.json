@@ -1,0 +1,35 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Quest Title",
+    "objective": "Complete the quest",
+    "description": "I will test your mettle. Good luck!",
+    "reward": "XML rewards",
+    "quest-giver": "Only I can complete it!",
+    "tasks": {
+      "task": [
+        {
+          "@id": "1",
+          "order": "Task 1 Order",
+          "objective": "Task 1 Objective",
+          "description": "Task 1 Description",
+          "location": "Task 1 Location"
+        },
+        {
+          "@id": "2",
+          "order": "Task 2 Order",
+          "objective": "Task 2 Objective",
+          "description": "Task 2 Description",
+          "location": "Task 2 Location"
+        },
+        {
+          "@id": "3",
+          "order": "Task 3 Order",
+          "objective": "Task 3 Objective",
+          "description": "Task 3 Description",
+          "location": "Task 3 Location"
+        }
+      ]
+    }
+  }
+}

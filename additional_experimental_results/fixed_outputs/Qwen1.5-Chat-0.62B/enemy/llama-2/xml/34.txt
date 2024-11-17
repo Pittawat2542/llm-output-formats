@@ -1,0 +1,240 @@
+```
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rule Form</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		p {
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Rule Form</h1>
+
+	<table border="1" style="width:80%">
+		<tr>
+			<th onclick="checkForm()">Name</th>
+			<td value="">Invalid Name!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">HP</th>
+			<td value="">Invalid HP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">Def</th>
+			<td value="">Invalid Def!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm()">MP</th>
+			<td value="">Invalid MP!</td>
+		</tr>
+		<tr>
+			<th onclick="checkForm">atk</th>
+			<td value="">Invalidatk!</td>
+		</tr>
+	</table>
+
+	<script>
+		function checkForm() {
+			var name = document.getElementById("name").value;
+			varHP = document.getElementById("hp").value;
+			var mp = document.getElementById("mp").value;
+			varatk = document.getElementById("atk").value;
+			var def = document.getElementById("def").value;
+			var mp = document.getElementById("mp").value;
+			varatk = document.getElementById("atk").value;
+
+			if (name == "") {
+				document.getElementById("name").style.display = "block";
+			} else if (HP < 0 || mp < 0 ||atk < 0 || def < 0) {
+				document.getElementById("hp").style.display = "none";
+			} else if (atk < 0) {
+				document.getElementById("atk").value = 10;
+			} else if (def < 0) {
+				document.getElementById("def").value = 20;
+			} else if (mp < 0) {
+				document.getElementById("mp").value = 30;
+			}
+
+			document.getElementById("stats").style.display = "";
+		}
+	</script>
+</body>
+</html>
+```

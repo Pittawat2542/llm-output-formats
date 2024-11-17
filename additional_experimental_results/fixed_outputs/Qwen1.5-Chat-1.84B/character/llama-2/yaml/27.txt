@@ -1,0 +1,35 @@
+Game:
+  character:
+    age: 30
+    background: I'm a hard worker.
+    first_name: John
+    id: 456
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 6'2"
+      weight: 180 lbs
+    place_of_birth: New York
+    role: Actor
+    species: Human
+
+## Test YAML Output:
+
+```yaml
+game:
+  character:
+    age: 30
+    background: I'm a hard worker.
+    first_name: John
+    id: 456
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 6'2"
+      weight: 180 lbs
+    place_of_birth: New York
+    role: Actor
+    species: Human
+```

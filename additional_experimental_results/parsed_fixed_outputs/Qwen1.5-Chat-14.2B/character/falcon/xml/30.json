@@ -1,0 +1,25 @@
+{
+  "game": {
+    "character": {
+      "id": {
+        "@id": "id"
+      },
+      "firstName": "first name",
+      "lastName": "last name",
+      "species": "species",
+      "age": {
+        "exactAge": "{age} years old",
+        "description": "{age_str} years old (exact age)"
+      },
+      "role": "role of the character",
+      "background": "background story",
+      "placeOfBirth": "Hometown, State/Province",
+      "physicalAppearance": {
+        "eyeColor": "{eye_color}",
+        "hairColor": "{hair_color}",
+        "height": "{height} float_value",
+        "weight": "{weight} float_value"
+      }
+    }
+  }
+}

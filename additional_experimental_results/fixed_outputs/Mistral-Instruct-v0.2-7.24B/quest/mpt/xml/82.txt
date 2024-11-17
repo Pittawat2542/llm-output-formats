@@ -1,0 +1,21 @@
+
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objectative>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+To fix the error, add an 'e' to 'key_completeness': key_completeness. Then, ensure that each element in the XML has a corresponding opening and closing tag, and that all required attributes have values. In this case, the 'quest-giver' element is missing its closing tag, so add it: </quest-giver>. Since there was no error with the provided XML, no changes were made to the data itself.

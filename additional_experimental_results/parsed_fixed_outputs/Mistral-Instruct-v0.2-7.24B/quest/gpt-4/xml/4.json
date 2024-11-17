@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the ancient ruins",
+    "description": "The ancient ruins located in the forest is believed to hold a lost artifact of great power. The adventurers are tasked with retrieving the artifact.",
+    "reward": "5000 gold, Rare equipment, Experience points",
+    "quest-giver": "Old Sage Elrond",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the ancient ruins",
+          "description": "The adventurers must travel to the ancient ruins which is deep within the forest.",
+          "location": "The Ancient Ruins"
+        },
+        {
+          "order": "2",
+          "objective": "Find the lost artifact",
+          "description": "The artifact is believed to be placed in the central chamber of the ruin. The adventurers must find and retrieve it.",
+          "location": "The central chamber of The Ancient Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Return the artifact to Old Sage Elrond",
+          "description": "After obtaining the artifact, the adventurers must return it to Old Sage Elrond in the town.",
+          "location": "The Town"
+        }
+      ]
+    }
+  }
+}

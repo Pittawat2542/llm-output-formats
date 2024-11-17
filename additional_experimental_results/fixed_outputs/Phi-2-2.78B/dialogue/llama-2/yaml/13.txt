@@ -1,0 +1,16 @@
+
+* Corrected Syntax Error (Error) - 
+
+  **Code Block** - `'error: incorrect_syntax': while scanning for the next token` -
+    - Found character '`' that cannot start any token -
+      in "<unicode string>", line 6, column 1:
+        ```
+        ^
+       ```
+ 
+* YAML Code Block (Code) - `'''game:
+  dialogues:
+  - order: dialogue order
+   speaker: speaker name
+   text: dialogue or narration
+}}`

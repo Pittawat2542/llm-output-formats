@@ -1,0 +1,87 @@
+XML data corrected:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Crown</title>
+	 Objective: Find the lost crown and return it to the king.</Objective>
+	 Description: In a land full of magic and mystery, the king's crown has been stolen by an evil sorcerer. It is up to you to embark on a quest to find the crown and bring it back to the king, restoring peace to the kingdom.
+	 Reward: A bag of gold coins and the gratitude of the king.
+	 Quest-Giver: The king's advisor
+	 Tasks:
+		<task>
+			<order>1</order>
+		 Objective: Obtain the ancient map
+			<description>: Speak to the old wise man in the village to learn the location of the ancient map as a guide.
+			<location>The village</location>
+		</task>
+		<task>
+			<order>2</order>
+		 Objective: Journey through the enchanted forest
+			<description]: Navigate through the treacherous enchanted forest using the ancient map as a guide. 
+			<location	The enchanted forest</location>
+		</task>
+		<task>
+			<order>3</order>
+		 Objective: Defeat the sorcerer's minions
+			<description:Battle the sorcerer's minions guarding the entrance to his lair.
+			<location>The sorcerer's lair</location>
+		</task>
+		<task>
+			<order>4</order>
+		 Objective: Retrieve the lost crown
+			<description>: Find the lost crown hidden deep within the sorcerer's lair. 
+			<location>The sorcerer's lair</location>
+		</task>
+		<task>
+			<order>5</order>
+		 Objective: Return the crown to the king
+			<description]: Return to the king's castle and present him with the recovered crown. 
+			<location>The king's castle</location>
+		</task>
+	</tasks>
+```
+
+The code block in Markdown format:
+
+```html
+<?xml version="1.0" ?>
+<game>
+  <title>The Lost Crown</title>
+  <Objective: Find the lost crown and return it to the king.</Objective>
+  <Description: In a land full of magic and mystery, the king's crown has been stolen by an evil sorcerer. It is up to you to embark on a quest to find the crown and bring it back to the king, restoring peace to the kingdom.
+  < reward: A bag of gold coins and the gratitude of the king.
+  <Quest-Giver: The king's advisor
+  Tasks:
+    <task>
+      <order>1</order>
+      Objective: Obtain the ancient map
+      <description>: Speak to the old wise man in the village to learn the location of the ancient map as a guide.
+      <location>The village</location>
+    </task>
+    <task>
+      <order>2</order>
+      Objective: Journey through the enchanted forest
+      <description]: Navigate through the treacherous enchanted forest using the ancient map as a guide. 
+      <location>The enchanted forest</location>
+    </task>
+    <task>
+      <order>3</order>
+      Objective: Defeat the sorcerer's minions
+      <description:Battle the sorcerer's minions guarding the entrance to his lair.
+      <location>The sorcerer's lair</location>
+    </task>
+    <task>
+      <order>4</order>
+      Objective: Retrieve the lost crown
+      <description>: Find the lost crown hidden deep within the sorcerer's lair. 
+      <location>The sorcerer's lair</location>
+    </task>
+    <task>
+      <order>5</order>
+      Objective: Return the crown to the king
+      <description]: Return to the king's castle and present him with the recovered crown. 
+      <location>The king's castle</location>
+    </task>
+  </tasks>
+</game>
+```

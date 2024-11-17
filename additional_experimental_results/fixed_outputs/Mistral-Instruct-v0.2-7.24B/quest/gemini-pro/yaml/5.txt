@@ -1,0 +1,30 @@
+```yaml
+game:
+  description: The Dragon's Hoard Quest: Embark on an epic adventure to recover the dragon's lost treasure from its lair. Defeat the mighty beast and claim the hoard for yourself.
+  id: dragon_hoard
+  objective: Defeat the dragon and retrieve the lost treasure.
+  quest_giver: Eldrin the Wizard
+  reward: Dragon's Hoard (legendary treasure) + 10,000 gold pieces
+  tasks:
+  - order: 1
+    task:
+      description: Travel to the Dragon's Lair in the Molten Peaks region.
+      objective: Reach the Dragon's Lair.
+  - order: 2
+    task:
+      description: Fight your way through the dragon's minions and overcome obstacles.
+      objective: Defeating the dragon's minions and clearing path to the dragon's chamber.
+  - order: 3
+    task:
+      description: Defeat the mighty dragon in a fierce battle of epic proportions.
+      objective: Defeating the dragon.
+  - order: 4
+    task:
+      description: Retrieve the dragon's hoard of legendary treasures.
+      objective: Collecting the dragon's hoard.
+  - order: 5
+    task:
+      description: Return to Eldrin the Wizard in the Wizard's Tower and receive your reward.
+      objective: Returning to Eldrin for reward.
+  title: The Dragon's Hoard
+```

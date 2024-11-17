@@ -1,0 +1,31 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "@id": "ENEMY1",
+        "name": "Crawling Horror",
+        "description": "A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.",
+        "stats": {
+          "hp": "1058",
+          "mp": "11",
+          "spd": "8",
+          "def": [
+            "9",
+            "8"
+          ],
+          "atk": "7/1/2"
+        }
+      },
+      {
+        "@id": "ENEMY2",
+        "name": "Crawling Horror",
+        "description": "A monstrous creature with a maws of razor-sharp claws and gaping maw that can swallow entire cities.",
+        "stats": {
+          "hp": "9/1/3",
+          "mp": "6/1/1",
+          "atk": "9/2/1"
+        }
+      }
+    ]
+  }
+}

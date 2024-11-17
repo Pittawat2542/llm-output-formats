@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy id="en01">
+        <name>Enemy A</name>
+        <description>A powerful opponent</description>
+        <stats>
+            <hp>100</hp>
+            <mp>50</mp>
+            <atk>80</atk>
+            <def>40</def>
+            <spd>60</spd>
+        </stats>
+    </enemy>
+    <enemy id="en02">
+        <name>Enemy B</name>
+        <description>Fast and evasive</description>
+        <stats>
+            <hp>75</hp>
+            <mp>30</mp>
+            <atk>60</atk>
+            <def>50</def>
+            <spd>80</spd>
+        </stats>
+    </enemy>
+</game>
+```

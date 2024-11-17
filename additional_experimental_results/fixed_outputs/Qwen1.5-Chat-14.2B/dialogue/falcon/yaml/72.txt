@@ -1,0 +1,18 @@
+```yaml
+game:
+  characters:
+    - name: Alice
+      dialogues:
+        - order: dialogue order
+          dialogue:
+            order: speaker order of dialogue
+            speaker: Alice
+            text: The day is sunny.
+    - name: Bob
+      dialogues:
+        - order: speaker order of dialogue
+          dialogue:
+            order: speech
+            speaker: Bob
+            text: This is a nice speech.
+```

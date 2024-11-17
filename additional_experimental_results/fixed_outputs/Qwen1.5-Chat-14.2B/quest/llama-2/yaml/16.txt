@@ -1,0 +1,18 @@
+The provided YAML data does not have any syntax errors. Here it is in a code block:
+
+```yaml
+game:
+  description: quest description
+  id: 123
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```
+
+The only change made is replacing the single backticks (`) around the list items with proper indentation for the `tasks` dictionary entry.

@@ -1,0 +1,27 @@
+Game:
+  Description: Quest Description
+  Id: id
+  Objective: Quest Objective
+  Quest_Giver: Quest Giver
+  Reward: Quest Reward
+  Tasks:
+    - Description: Task Description
+      Location: Task Location
+      Objective: Task Objective
+      Order: Task Order
+
+# YAML output for query info
+description: YAML output for query info
+description: "This is a description with a YAML code block that only contains 'name='some name'' in it."
+objectives:
+  - description: There are objectives.
+    - name: An objective
+      location: Location of an objective
+      objectives:
+        - name: A desired task
+          location: Location of a desired task
+          order: Order of a desired task
+
+```yaml
+# YAML code block (output only)
+```

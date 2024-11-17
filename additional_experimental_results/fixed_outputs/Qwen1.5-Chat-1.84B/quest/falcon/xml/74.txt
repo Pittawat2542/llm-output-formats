@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<game>
+	<id id="id">id</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver_name>
+		<tasks>
+			<task order="task_order">
+				<objective task_objective</objective>
+				<description task_description</description>
+				<location task_location</location>
+			</task>
+		</tasks>
+	</quest-giver>
+</game>
+
+Original XML:
+
+```xml
+<game>
+	<id id="id">id</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver_name>
+		<tasks>
+			<task order="task_order">
+				<objective task_objective</objective>
+				<description task_description</description>
+				<location task_location</location>
+			</task>
+		</tasks>
+	</quest-giver>
+</game>
+
+Fixed XML:
+
+```xml
+<game>
+	<id id="id">id</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver_name>
+			<tasks>
+				<task order="task_order">
+					<objective task_objective</objective>
+					<description task_description</description>
+					<location task_location</location>
+				</task>
+			</tasks>
+	</quest-giver>
+</game>
+```

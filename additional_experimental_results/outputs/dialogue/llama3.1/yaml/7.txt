@@ -1,0 +1,16 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: What do you want to say?
+  - order: 2
+    speaker: AI
+    text: I don't understand. Please try again.
+  - order: 3
+    speaker: Player
+    text: Can we have a conversation?
+  - order: 4
+    speaker: AI
+    text: Of course! What would you like to talk about?
+```

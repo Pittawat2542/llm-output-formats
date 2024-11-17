@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>a-b-c-d-e-f</id>
+	<title>game title</title>
+	<objective>game objective</objective>
+	<description>game description</description>
+	<reward>game reward</reward>
+	<quest-giver quest_id="1">quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+I added the missing attribute `quest_id` to the `<quest-giver>` element and closed the tag properly.

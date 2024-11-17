@@ -1,0 +1,26 @@
+```yaml
+game:
+  description: The Dark Sorcerer's Tower is said to be filled with treasures and ancient knowledge. However, it's also rumored to be cursed, causing many brave adventurers who have ventured inside never to return.
+  id: TDST-Q01
+  objective: Reach the top floor of the tower and defeat the dark sorcerer.
+  quest_giver: Eilif Stonefist, the village elder
+  reward:
+    gold: 1000
+    items:
+      - Iron Sword
+      - Leather Armor
+  tasks:
+  - description: Find the hidden entrance to the tower.
+    location: The old ruins near the village
+    objective: Locate and unlock the secret door
+    order: 1
+  - description: Navigate through the tower's first floor and reach the staircase leading up.
+    location: Dark Sorcerer's Tower, First Floor
+    objective: Find the hidden passage to the next floor
+    order: 2
+  - description: Defeat the dark sorcerer in combat.
+    location: Dark Sorcerer's Tower, Top Floor
+    objective: Overpower the dark sorcerer using your skills and abilities
+    order: 3
+  title: The Lost Treasure of the Dark Sorcerer's Tower
+```

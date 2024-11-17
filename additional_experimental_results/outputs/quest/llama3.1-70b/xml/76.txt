@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Quest001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Explore the ancient ruins and retrieve the legendary Eldarathian Sceptre</objective>
+	<description>Rumors have been circulating about a hidden city deep within the nearby forest, said to contain treasures beyond imagination. Brave adventurers are needed to explore the ruins, overcome treacherous obstacles, and retrieve the fabled Eldarathian Sceptre.</description>
+	<reward>1000 gold pieces, +20 reputation with the local guild</reward>
+	<quest-giver>Thorne Blackwood, Guildmaster of Willowdale</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the entrance of the ancient ruins</objective>
+			<description>Make your way through the forest and locate the hidden entrance to the Lost City of Eldarath. Be cautious, as the journey is said to be treacherous.</description>
+			<location>The Heartwood Forest, coordinates (43.21, 12.15)</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve a ancient scroll from the city's library</objective>
+			<description>Navigate through the ruins and find the city's library, where an ancient scroll holds vital information about the location of the Eldarathian Sceptre.</description>
+			<location>The Lost City of Eldarath, coordinates (21.11, 45.67)</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian and retrieve the Eldarathian Sceptre</objective>
+			<description>Face your greatest challenge yet as you confront the fearsome guardian of the sceptre. Claim victory, and the treasure shall be yours.</description>
+			<location>The Heart of the Ruins, coordinates (11.34, 23.56)</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,44 @@
+
+# Fixing Incorrect XML Data
+## Problem:
+The given XML data has some syntax errors that need to be fixed. The following are the changes required to correct the errors.
+- In the first dialogue, the order element is missing. It should be added between `<order>` and `</order>`.
+- In the third dialogue, the text element does not have an attribute named "type" that indicates the type of text content (dialogue or narration). The attribute should be added after `text:`.
+
+### Solution:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hey, how are you doing?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<type>dialogue</type>
+			<text>I'm doing well, thanks for asking. How about you?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<type>dialogue</type>
+			<text>I'm good too. Just wanted to catch up with you.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<type>dialogue</type>
+			<text>That's nice of you. It's been a while.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<type>dialogue</type>
+			<text>Yeah, we should hang out sometime.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

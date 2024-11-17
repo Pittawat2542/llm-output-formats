@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>Quest for the Ancient Artifact</title>
+	<objective>Find and restore the Lost Scroll</objective>
+	<description>A quest to uncover the secrets of an ancient civilization</description>
+	<reward>Golden Amulet</reward>
+	<quest-giver>Narrator</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective>Deliver the scroll to the Council</objective>
+			<description>Follow the stone path to the library and hand it over</description>
+			<location>Library, East Wing</location>
+		</task>
+	</tasks>
+</game>
+```

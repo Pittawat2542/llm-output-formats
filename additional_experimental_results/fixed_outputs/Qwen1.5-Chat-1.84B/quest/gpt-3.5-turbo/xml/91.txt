@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<game>
+	<id>67890</id>
+	<title>Medieval Quest</title>
+	<objective>Uncover the secrets of a forgotten castle and uncover hidden treasures.</objective>
+	<description>A group of adventurers sets out on a quest to explore a forgotten castle that was once home to a powerful king. As they delve deeper into the castle, they discover ancient artifacts and mysterious clues that lead them closer to the truth about the kingdom's history.</description>
+	<reward>Valuable treasure trove</reward>
+	<quest-giver>King Henry VIII</quest-giver>
+	<tasks>
+			<task>
+				order>1</order>
+			<objective>Search for ancient artifacts</objective>
+				description>Crawl through dark and treacherous halls, uncover hidden treasures, and decipher clues to find the ancient artifacts.</description>
+			<location>Forgotten Castle</location>
+			(task>
+				order>2</order>
+			<objective>Uncover hidden passageways and secret chambers</objective>
+				description>Discover ancient corridors and hidden chambers filled with rare items, including a magical sword, enchanted jewelry, and mystical artifacts.</description>
+			<location>Castle Underground</location>
+			(task>
+				order>3</order>
+			<objective>Conquer the castle's powerful defenses</objective>
+				description>Fight off fierce enemies using your weapons and spells, navigate treacherous terrain, and overcome the castle's ancient traps to emerge victorious.</description>
+			<location>Castle Entrance</location>
+			(task>
+				order>4</order>
+			<objective>Explore the castle's hidden chambers</objective>
+				description>Uncover the secrets of the castle's hidden chambers filled with ancient treasures, including magical artifacts, rare gems, and powerful potions.</description>
+			<location>Castle Chamber 1</location>
+			(task>
+				order>5</order>
+			<objective>Defeat a powerful dragon guardian in a battle</objective>
+				description>Face off against a fierce dragon guardian guarding a valuable treasure trove. Use your weapons and spells to defeat the dragon and claim the treasure for your reward.</description>
+			<location>Castle Chamber 2</location>
+			(task>
+				order>6</order>
+			<objective>Retrieve the magical amulet of power</objective>
+				description>Uncover a hidden chamber filled with an ancient magical amulet that grants immense power to its bearer. Use this amulet to defeat the sorcerer and save the kingdom.</description>
+			<location>Sorcerer's Castle</location>
+			(task>
+				order>7</order>
+			<objective>Find the legendary sword of kings</objective>
+				description>Discover a hidden sword that was once wielded by powerful kings, including the one who defeated the sorcerer. Use this sword to defeat the sorcerer and claim the treasure for your reward.</description>
+			<location>Sword of Kings</location>
+			(task>
+				order>8</order>
+			<objective>Explore the kingdom's magical realm</objective>
+				description>Discover a vast magical realm filled with ancient magic, enchanted creatures, and powerful spells. Use your skills and knowledge to navigate this realm and uncover its secrets.</description>
+			<location>Magic Realm</location>
+			(task>
+				order>9</order>
+			<objective>Conquer the kingdom's final challenge</objective>
+				description>Fight off the remaining enemies and complete the final challenge before claiming the kingdom for your reward. Use all of your skills and weapons to defeat the sorcerer, claim the treasure, and become a legendary hero.</description>
+			<location>Congressional Hall</location>
+			(task>
+				order>10</order>
+			<objective>Return the treasure to the king</objective>
+				description>Confront the castle's ruler and deliver the treasure to King Henry VIII. Complete this task before returning home and becoming a true hero.</description>
+			<location>The Castle Treasury</location>
+			</task>
+	<tasks>
+	</game>
+</xml>

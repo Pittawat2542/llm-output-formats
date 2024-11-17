@@ -1,0 +1,14 @@
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<dialogues>
+		<!-- Added encoding attribute to XML declaration -->
+		<!-- Dialogue order, speaker name and text are missing, add them as shown below -->
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Your message here</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

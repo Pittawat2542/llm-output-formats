@@ -1,0 +1,33 @@
+{
+  "game": {
+    "description": "The village of Oakwood has been plagued by a series of mysterious fires that have destroyed several homes and buildings. The villagers are in dire need of someone to investigate the cause of these fires and put an end to them.",
+    "id": "QST_FIRES_OF_OAKWOOD",
+    "objective": "Investigate the source of the fires in Oakwood and find a way to stop them.",
+    "quest_giver": "Thorne Blackwood, Village Elder",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "items": [
+        {
+          "item_id": "ITM_FIRE_RESISTANT_POTION",
+          "quantity": 3
+        }
+      ]
+    },
+    "tasks": [
+      {
+        "description": "Speak with the villagers to gather information about the fires.",
+        "location": "Oakwood Village",
+        "objective": "Gather information from at least 5 villagers.",
+        "order": 1
+      },
+      {
+        "description": "Search for any clues that may indicate the source of the fires.",
+        "location": "Oakwood Village (Searchable areas)",
+        "objective": "Find a suspicious-looking torch or other fire-starting device.",
+        "order": 2
+      }
+    ],
+    "title": "The Fires of Oakwood"
+  }
+}

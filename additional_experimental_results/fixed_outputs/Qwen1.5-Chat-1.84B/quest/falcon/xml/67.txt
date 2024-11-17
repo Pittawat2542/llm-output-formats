@@ -1,0 +1,33 @@
+```xml
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	<objective>Complete the quest</objective>
+	<description>I will test your mettle. Good luck!</description>
+	<reward>XML rewards</reward>
+	<quest-giver>Only I can complete it!</quest-giver>
+	<tasks>
+			<task id="1">
+				<order>Task 1 Order</order>
+				<objective>Task 1 Objective</objective>
+				<description>Task 1 Description</description>
+				<location>Task 1 Location</location>
+			</task>
+
+			<task id="2">
+				<order>Task 2 Order</order>
+				<objective>Task 2 Objective</objective>
+				<description>Task 2 Description</description>
+				<location>Task 2 Location</location>
+			</task>
+
+			<task id="3">
+				<order>Task 3 Order</order>
+				<objective>Task 3 Objective</objective>
+				<description>Task 3 Description</description>
+				<location>Task 3 Location</location>
+			</task>
+	</tasks>
+</game>
+
+```

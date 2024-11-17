@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Golden Trident Hunt</title>
+    <objective>Uncover the sunken treasure of Davy Jones' Locker.</objective>
+    <description>Avalanche废旧船长的财富诱惑你去探索。你需要潜入幽深的海底，解开谜团找到沉船中的宝藏。</description>
+    <reward>5000金币、一艘精良海盗船和一支特别探险队。</reward>
+    <quest-giver>黑胡子船长</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>获得通往沉船的线索</objective>
+            <description>线索藏在皇家港口旧仓库里，需要破解密码才能找到。</description>
+            <location>皇家港口旧仓库</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>航行至幽深海域</objective>
+            <description>获得线索后，乘船前往幽深的海域。做好面对海怪和暗流的心理准备。</description>
+            <location>黑胡子沉船</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>挖掘沉船宝藏</objective>
+            <description>在海底洞穴中找到宝藏，小心海盗的埋伏和危险环境。</description>
+            <location>黑胡子沉船深海区</location>
+        </task>
+    </tasks>
+</game>
+```

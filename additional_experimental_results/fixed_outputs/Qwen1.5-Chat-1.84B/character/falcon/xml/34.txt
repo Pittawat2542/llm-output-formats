@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<game>
+	<character id="id" first-name="first_name" last-name="last_name" species="species" age="age or description" role="role of the character" background="background story" place-of-birth="location" physical-appearance eye-color="eye_color" hair-color="hair_color" height="height in float value" weight="weight in float value">
+	</character>
+</game>
+
+```xml
+# Game Character
+id: id
+first-name: first_name
+last-name: last_name
+species: species
+age: age or description
+role: role of the character
+background: background story
+place-of-birth: location
+physical-appearance:
+  eye-color: eye_color
+  hair-color: hair_color
+  height: height in float value
+  weight: weight in float value
+</game>
+```

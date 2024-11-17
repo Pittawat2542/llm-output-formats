@@ -1,0 +1,32 @@
+```xml
+<!-- Fixed code block -->
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>The Lost Artifacts</title>
+	<objective>Find and return all the lost artifacts</objective>
+	<description>You are tasked to find all the lost artifacts of the once powerful kingdom that had been lost in time. These artifacts hold immense power and their recovery is crucial.</description>
+	<reward>500 Gold, +50 XP, and a Sacred Amulet</reward>
+	<quest-giver>Ancient Keeper</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the Ancient Sword</objective>
+			<description>Travel to Earth's Scion, a land where an ancient sword awaits.</description>
+			<location>Earth's Scion</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the Mystic Shield</objective>
+			<description>Brave the deadly abyss of Abyssal Expanse to retrieve the Mystic Shield.</description>
+			<location>Abyssal Expanse</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Rescue the Time's orb</objective>
+			<description>Reach atop Sky's Crown and rescue the Time's Orb guarded by the Celestial Beast.</description>
+			<location>Sky's Crown</location>
+		</task>
+	</tasks>
+</game>
+

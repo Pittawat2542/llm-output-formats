@@ -1,0 +1,39 @@
+The XML data was missing a closing `</stats>` tag before the closing `</enemy>` tag. Here is the corrected XML:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				<hp>hp int value</hp>
+				<mp>mp int value</mp>
+				<atk>atk int value</atk>
+				<def>def int value</def>
+				<spd>spd int value</spd>
+			</stats> <!-- Missing closing tag here -->
+	</enemy>
+</game>
+```
+
+To provide new values for the example:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>1</id>
+			<name>The Big Bad Wolf</name>
+			<description>A wolf who is a threat to the village.</description>
+			<stats>
+				<hp>500</hp>
+				<mp>250</mp>
+				<atk>300</atk>
+				<def>150</def>
+				<spd>200</spd>
+			</stats>
+	</enemy>
+</game>
+```

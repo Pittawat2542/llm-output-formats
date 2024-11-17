@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost Temple of Eldarath",
+    "description": "Rumors have been circulating about a powerful artifact hidden within the long-abandoned temple. Your quest is to explore the ruins, overcome any obstacles, and retrieve the relic.",
+    "reward": "A magical amulet granting resistance to elemental attacks",
+    "quest-giver": "Thorne Blackwood, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the temple's entrance hall and find a way past the rubble blocking the main hallway",
+          "description": "The entrance hall is filled with debris. Search for any clues or objects that could aid in clearing the path.",
+          "location": "Main Hall, Lost Temple of Eldarath"
+        },
+        {
+          "order": "2",
+          "objective": "Find and activate the ancient pressure plates to open the sealed door leading deeper into the temple",
+          "description": "The plates are hidden within murals depicting scenes of nature. Look for any patterns that might indicate their locations.",
+          "location": "West Wing, Lost Temple of Eldarath"
+        },
+        {
+          "order": "3",
+          "objective": "Retrive the artifact from the heart of the temple, avoiding or defeating the guardians along the way",
+          "description": "The inner sanctum is heavily guarded by magical constructs. Use your wits and skills to overcome them.",
+          "location": "Inner Sanctum, Lost Temple of Eldarath"
+        }
+      ]
+    }
+  }
+}

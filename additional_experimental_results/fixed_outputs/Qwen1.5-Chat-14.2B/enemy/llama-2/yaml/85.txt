@@ -1,0 +1,17 @@
+The issue was a stray backtick (`) character at the beginning of the YAML. I've removed it, and here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+Now, the YAML syntax is correct, and it matches the provided template with default values for `atk`, `def`, `hp`, `mp`, and `spd`.

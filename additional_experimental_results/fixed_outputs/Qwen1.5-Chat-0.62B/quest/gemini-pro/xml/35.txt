@@ -1,0 +1,89 @@
+XML data corrected:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>q001</id>
+	<title>The Stolen Amulet</title>
+	 objective>Retrieve the stolen amulet from the goblins.</objective>
+	 description>The amulet of the ancients was stolen by a group of goblins. The amulet is a powerful artifact that can be used to control the weather. If it falls into the wrong hands, it could be disastrous. You must retrieve the amulet before it is too late.
+	 reward>Amulet of the Ancients and 100 gold.</reward>
+	quest-giver>Barclay the Wise</quest-giver>
+	tasks:
+	<task>
+			order:1
+		 Objective: Travel to the Goblin Caves.</objective>
+		 Objective: Find the stolen amulet.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:2
+		 Objective: Find the stolen amulet.</ objective>
+		 Objective: Defeat the goblin leader.</objective>
+		 Objective: Gorn, a powerful warrior.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:3
+		 Objective: Return the amulet to Barclay.</object>
+		 Objective: Once you have defeated Gorn and retrieved the amulet, return it to Barclay the Wise in the village.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:4
+		 Objective: Defeat the goblin leader.</object>
+		 Objective: Gorn, a powerful warrior. You will need to be careful when fighting him.
+		 Objective: 1, 2, 3, 4
+		</task>
+	</tasks>
+</game>
+```
+New values provided:
+```json
+{
+    "quest_giver": {
+        "name": "Barclay the Wise",
+        "description": "Barclay is a wise old man who has lived in the village for many years. He is known to always be able to help those in need."
+    }
+}
+```
+
+Output in Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<id>q001</id>
+	<title>The Stolen Amulet</title>
+	 objective>Retrieve the stolen amulet from the goblins.</objective>
+	 description>The amulet of the ancients was stolen by a group of goblins. The amulet is a powerful artifact that can be used to control the weather. If it falls into the wrong hands, it could be disastrous. You must retrieve the amulet before it is too late.
+	 reward>Amulet of the Ancients and 100 gold.</reward>
+	quest-giver>Barclay the Wise</quest-giver>
+	tasks:
+	<task>
+			order:1
+		 Objective: Travel to the Goblin Caves.</objective>
+		 Objective: Find the stolen amulet.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:2
+		 Objective: Find the stolen amulet.</object>
+		 Objective: Defeat the goblin leader.</Objective>
+		 Objective: Gorn, a powerful warrior.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:3
+		 Objective: Return the amulet to Barclay.</object>
+		 Objective: Once you have defeated Gorn and retrieved the amulet, return it to Barclay the Wise in the village.
+		 Objectives: 1, 2, 3, 4
+		</task>
+		<task>
+			order:4
+		 Objective: Defeat the goblin leader.</object>
+		 Objective: Gorn, a powerful warrior. You will need to be careful when fighting him.
+		 Objective: 1, 2, 3, 4
+		</task>
+	</tasks>
+</game>
+```
+```

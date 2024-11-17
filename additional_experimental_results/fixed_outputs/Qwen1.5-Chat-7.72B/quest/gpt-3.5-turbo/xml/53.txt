@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>Embark on an adventure to find the lost treasure hidden deep in the jungle.</description>
+    <reward>1000 gold coins</reward>
+    <quest-giver>Captain Redbeard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the ancient map</objective>
+            <description>Search for the hidden cave to acquire the ancient map leading to the treasure.</description>
+            <location>Deep jungle</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" xmlns="http://www.w3.org/2005/19在一旁注释的XML" xml:root="http://www.w3.org/2005/19在一旁注释的XML">```xml
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the lost artifact from the ancient ruins</objective>
+	<description>A local archaeologist has accidentally lost a valuable artifact in a nearby ancient ruins. He is too afraid to go back and retrieve it and is looking for brave adventurers to fetch it.</description>
+	<reward>500 gold coins and 'Ancient Explorer' title</reward>
+	<quest-giver>Professor Birch</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Reach the entrance of the ruins</objective>
+				<description>Make your way to the ruins which is a day's journey to the east, at the foot of Dragon's Peak.</description>
+			<location>Dragon's Peak</location>
+			</task>
+			<task>
+				<order>2</order>
+				objective>Find the hidden chamber</objective>
+				<description>Rummage through the ruins to find the hidden chamber where the artifact is believed to be lost.</description>
+			<location>Ancient Ruins</location>
+			</task>
+			<task>
+				<order>3</order>
+				objective>Retrieve the artifact</objective>
+				<description>Overcome any challenges, puzzles or traps in the chamber to obtain the lost artifact.</description>
+			<location>Hidden Chamber</location>
+			<-task>
+	<tasks>在XML中有一个错误，需要进行修复。请提供原始消息，并使用代码块返回修复后的XML数据。

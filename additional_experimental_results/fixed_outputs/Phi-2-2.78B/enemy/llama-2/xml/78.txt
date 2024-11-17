@@ -1,0 +1,86 @@
+
+## Exercise 1:
+You are given a string with random capitalization. Write a Python program to convert it to title case. (Hint: use the `title()` method)
+```python
+text = "this is an example of text that needs to be converted into title case"
+print(text.title())
+```
+Output:
+```
+This Is An Example Of Text That Needs To Be Converted Into Title Case
+```
+### Solution with comments:
+- Declare a variable `text`.
+- Assign it the value of "this is an example of text that needs to be converted into title case".
+- Use the `title()` method to convert the string to title case.
+- Print the result.
+
+## Exercise 2:
+Write a Python program to concatenate two strings with a separator. (Hint: use the `join()` method)
+```python
+string1 = "Hello"
+string2 = "World!"
+print(separator.join([string1, string2]))
+```
+Output:
+```
+Hello, World!
+```
+### Solution with comments:
+- Declare two variables `string1` and `string2`.
+- Assign the values of "Hello" to `string1`, and "World!" to `string2`.
+- Create a list containing both strings.
+- Use the `join()` method to concatenate the strings with a comma separator, and assign the result to `result_string`.
+- Print the final result.
+
+## Exercise 3:
+Write a Python program to reverse a string. (Hint: use slicing)
+```python
+text = "hello world"
+print(text[::-1])
+```
+Output:
+```
+dlrow olleh
+```
+### Solution with comments:
+- Declare a variable `text`.
+- Assign it the value of "hello world".
+- Use slicing to reverse the string, and assign the result to `reversed_string`.
+- Print the final result.
+
+## Exercise 4:
+Write a Python program to remove whitespace from the beginning and end of a string. (Hint: use the `strip()` method)
+```python
+text = "   hello world  "
+print(text.strip())
+```
+Output:
+```
+hello world
+```
+### Solution with comments:
+- Declare a variable `text`.
+- Assign it the value of "   hello world  ".
+- Use the `strip()` method to remove whitespace from both ends of the string, and assign the result to `revised_string`.
+- Print the final result.
+
+## Exercise 5:
+Write a Python program to check if a string is a palindrome. (Hint: use slicing)
+```python
+text = "racecar"
+if text == text[::-1]:
+    print("This is a palindrome.")
+else:
+    print("This is not a palindrome.")
+```
+Output:
+```
+This is a palindrome.
+```
+### Solution with comments:
+- Declare a variable `text`.
+- Assign it the value of "racecar".
+- Check if the string is equal to its reverse using slicing, and assign the result to `is_palindrome`.
+- If `is_palindrome` is `True`, print that the string is a palindrome. Otherwise, print that it's not.
+

@@ -1,0 +1,73 @@
+All YAML data in the provided template is correct. Here's the entire corrected YAML code block:
+
+```yaml
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+   - description: "Task description"
+    location: "Task location"
+    objective: "Task objective"
+    order: 1
+    title: "Quest title"
+
+# Additional quest templates
+game_2:
+  description: "Quest description"
+  id: 2
+  objective: "Quest objective"
+  quest_giver: "Quest giver_2"
+  reward: "Quest reward_2"
+  tasks:
+   - description: "Task description"
+    location: "Task location_2"
+    objective: "Task objective_2"
+    order: 1
+    title: "Quest title_2"
+
+game_3:
+  description: "Quest description"
+  id: 3
+  objective: "Quest objective"
+  quest_giver: "Quest giver_3"
+  reward: "Quest reward_3"
+  tasks:
+   - description: "Task description"
+    location: "Task location_3"
+    objective: "Task objective_3"
+    order: 1
+    title: "Quest title_3"
+
+# ... and so on for each quest
+
+quest_1:
+  description: "Additional Quest 1 description"
+  id: 4
+  objective: "Quest objective_1"
+  quest_giver: "Additional Quest Giver 1"
+  reward: "Additional Reward 1"
+  tasks:
+   - description: "Task description_1"
+    location: "Additional Task Location 1"
+    objective: "Task objective_1"
+    order: 1
+    title: "Quest title_1"
+
+quest_2:
+  description: "Additional Quest 2 description"
+  id: 5
+  objective: "Quest objective_2"
+  quest_giver: "Additional Quest Giver 2"
+  reward: "Additional Reward 2"
+  tasks:
+   - description: "Task description_2"
+    location: "Additional Task Location 2"
+    objective: "Task objective_2"
+    order: 1
+    title: "Quest title_2"
+
+# ... and so on for each additional quest
+```

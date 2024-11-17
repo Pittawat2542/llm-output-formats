@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	<objective>Complete the quest</objective>
+	<description>I will test your mettle. Good luck!</description>
+	<reward>XML rewards</reward>
+	<quest-giver>Only I can complete it!</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>A task to complete</objective>
+			<description>Your first mission: Follow the path.</description>
+			<location>The Path begins here</location>
+		</task>
+		<!-- Add more tasks as needed -->
+	</tasks>
+</game>
+```

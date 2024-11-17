@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character id="123456">
+		<first-name>Samantha</first-name>
+		<last-name>Anderson</last-name>
+		<species>Human</species>
+		<age>24</age>
+		<role>Student</role>
+		<background>Small town in Missouri</background>
+		<place-of-birth>St. Louis, Missouri</place-of-birth>
+		<physical-appearance>
+			<eye-color>Brown</eye-color>
+			<hair-color>Blonde</hair-color>
+			<height unit="in">5'6"</height>
+			<weight unit="lbs">120</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+I added the missing `id` attribute to the `<character>` element, corrected the closing `</physical-appearance>` tag, and added `"UTF-8"` to the XML declaration for better compatibility. The height and weight values now include a `unit` attribute to specify their units (inches and pounds, respectively).

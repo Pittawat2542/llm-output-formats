@@ -1,0 +1,78 @@
+game:
+  description: "Quest description"
+  id: 1
+  objective: "Quest objective"
+  quest_giver: "Quest giver"
+  reward: "Quest reward"
+  tasks:
+  - description: "Task description"
+   location: "Task location"
+   objective: "Task objective"
+   order: 1
+  - description: "Task description"
+   location: "Task location"
+   objective: "Task objective"
+   order: 2
+  title: "Quest title"
+``` 
+
+### Exercise 1
+Write a YAML file for a game with a list of enemies, their health values and the player's current health. Use data types like integer, string, boolean to store this information.
+
+### Solution 1
+```yaml
+game:
+  enemies:
+    - enemy_name: "Goblin"
+      health: 10
+      is_foe: true
+    - enemy_name: "Skeleton"
+      health: 15
+      is_foe: false
+  player_health: 50
+```
+
+### Exercise 2
+Create a YAML file that includes a list of items, their names and descriptions. Use data types like string to store this information.
+
+### Solution 2
+```yaml
+items:
+- name: Potion of Healing
+  description: A potion that can heal you.
+- name: Sword of Doom
+  description: A cursed sword that deals damage to enemies.
+- name: Shield of Protection
+  description: A shield that protects you from enemy attacks.
+```
+
+### Exercise 3
+Create a YAML file for an inventory system with the following items: "Key" and its corresponding value (10), "Sword" and its corresponding value (20). Use data types like integer to store this information.
+
+### Solution 3
+```yaml
+inventory:
+  - key: 10
+  - sword: 20
+```
+
+### Exercise 4
+Create a YAML file for a game level with the following details: "Level Name" (String), "Number of Enemies" (Integer), "Enemy Type" (Boolean). Use data types like string, integer and boolean to store this information.
+
+### Solution 4
+```yaml
+level_details:
+  - name: Cave of Doom
+    enemies: 5
+    enemy_type: true
+```
+
+### Exercise 5
+Create a YAML file for an inventory system with the following items: "Potion of Healing" and its corresponding value (50), "Sword of Doom" and its corresponding value (100). Use data types like string to store this information.
+
+### Solution 5
+```yaml
+inventory:
+  - potion_of_healing: 50
+  - sword_of_doom: 100
+```

@@ -1,0 +1,16 @@
+The original YAML data has the `title` key placed under the `tasks` list, but it should be at the same level as other keys like `description`, `id`, etc. Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+  title: quest title
+```

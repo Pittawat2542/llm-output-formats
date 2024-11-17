@@ -1,0 +1,23 @@
+The provided XML data seems to be well-formed and valid. Here is the corrected XML format with the original values:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>123</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>Human</species>
+		<age>30</age>
+		<role>Protagonist</role>
+		<background>John Doe is a skilled detective working in a corrupt city. He has dedicated his life to fighting crime and seeking justice for the innocent. As a child, he witnessed the murder of his parents, which fueled his desire to protect others. Despite the challenges he faces, John remains committed to upholding the law and bringing the guilty to justice.</background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<eye-color>Brown</eye-color>
+			<hair-color>Black</hair-color>
+			<height>6.0</height>
+			<weight>180.0</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

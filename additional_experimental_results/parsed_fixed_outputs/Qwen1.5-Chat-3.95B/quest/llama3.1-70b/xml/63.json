@@ -1,0 +1,26 @@
+{
+  "quest": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the ancient city of Eldarath",
+    "description": "Rumors have been circulating about a lost city deep in the forest, filled with treasures and artifacts from a bygone era. The villagers are eager to find it, but the journey is treacherous.",
+    "reward": "1000 gold pieces, a magical amulet",
+    "quest-giver": "Thorne Blackwood",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about Eldarath' s location",
+          "description": "Talk to the villagers and gather rumors about the lost city.",
+          "location": "Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve an ancient map from the ruins of Castle Stormwind",
+          "description": "The castle lies in ruin, but its library may still hold valuable information about Eldarath' s location.",
+          "location": "Castle Stormwind Ruins"
+        }
+      ]
+    }
+  }
+}

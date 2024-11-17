@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the ancient artifact from the Forbidden Temple</objective>
+    <description>Legend speaks of a powerful artifact hidden deep within the Forbidden Temple. Brave adventurers are needed to embark on a perilous journey to recover this priceless treasure.</description>
+    <reward>Ancient artifact of unimaginable power</reward>
+    <quest-giver>High Priestess Seraphina</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the entrance to the Forbidden Temple</objective>
+            <description>Inquire with the local villagers about the rumored location of the temple.</description>
+            <location>Village of Eldoria</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Obtain the key to the Forbidden Temple</objective>
+            <description>Slay the guardian monster and retrieve it at the Dark Forest entrance.</description>
+            <location>DarkForestEntrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Navigate treacherous traps within the temple</objective>
+            <description>Be careful of hidden traps and solve ancient riddles at Forbidden Temple.</description>
+            <location>ForbiddenTemple</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Face the ancient guardian and retrieve the artifact</objective>
+            <description>Battle the guardian in the Chamber of the Guardian and claim the artifact.</description>
+            <location>ChamberOfTheGuardian</location>
+        </task>
+    </tasks>
+</game>
+```

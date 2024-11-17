@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've heard rumors that an ancient artifact is hidden within a forgotten ruin. Your quest is to find it and bring it back.",
+    "reward": "1000 gold coins and legendary equipment",
+    "quest-giver": "Guru of the Ancients",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "Talk to villagers near the forest and gather information about the ruins' location.",
+          "location": "Village by the Woods"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian beast",
+          "description": "A powerful beast guards the artifact. You must defeat it to proceed.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Explore the ruins and find the artifact",
+          "description": "Navigate the treacherous traps and puzzles within the ruins to locate the artifact.",
+          "location": "Ruins Interior"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Retrieve the Ancient Scroll",
+    "objective": "Retrieve an ancient scroll from the long-abandoned ruins of Eldarath.",
+    "description": "The village elder has asked for your help in retrieving a powerful ancient scroll hidden deep within the ruins. The scroll is said to hold the secrets of the old world and could bring great prosperity to our people if returned safely.",
+    "reward": "10 gold pieces, 500 experience points",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate the treacherous jungle leading to Eldarath.",
+          "description": "The journey will take you through dense foliage and across rushing streams. Be cautious of the deadly creatures that roam this land.",
+          "location": "Jungle, near the ancient temple entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the puzzles within Eldarath to reach the scroll chamber.",
+          "description": "The ancient ruins are filled with deadly traps and puzzles. You must use your wits and cunning to outsmart them and reach the chamber where the scroll is kept.",
+          "location": "Eldarath, Scroll Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient scroll from its pedestal and return it to the village elder.",
+          "description": "The scroll is said to be enchanted with powerful magic. Be careful not to trigger any traps or alarms as you retrieve it.",
+          "location": "Eldarath, Scroll Chamber"
+        }
+      ]
+    }
+  }
+}

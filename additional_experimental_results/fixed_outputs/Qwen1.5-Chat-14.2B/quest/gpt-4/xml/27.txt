@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>The Lost Relic</title>
+	<objective>Retrieve the ancient relic from the dragon's lair</objective>
+	<description>The kingdom's most sacred relic has been stolen by a terrifying dragon. The king has requested your help to retrieve it. You must journey into the dragon's lair, defeat the beast, and return the relic to its rightful place.</description>
+	<reward>5000 gold pieces and the King's gratitude.</reward>
+	<quest-giver>King Alaric</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the dragon's lair</objective>
+			<description>You need to cross the dangerous Dark Forest and climb the treacherous Dead Mountain to reach the dragon's lair.</description>
+			<location>Dragon's lair at the peak of Dead Mountain.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the dragon</objective>
+			<description>Fight and defeat the fearsome dragon to rescue the relic. Be cautious as the dragon is fierce and deadly.</description>
+			<location>Inside the dragon's lair, Dead Mountain.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the relic</objective>
+			<description>Once the dragon is defeated, retrieve the relic and bring it back to King Alaric.</description>
+			<location>King Alaric's palace.</location>
+		</task>
+	</tasks>
+</game>
+```

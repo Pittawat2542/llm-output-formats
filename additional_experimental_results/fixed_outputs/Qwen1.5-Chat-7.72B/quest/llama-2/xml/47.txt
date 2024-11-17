@@ -1,0 +1,24 @@
+```xml
+<game>
+    <id>456</id>
+    <title>The Quest to Retrieve the Golden Relic</title>
+    <objective>Recover the ancient golden artifact from a hidden island.</objective>
+    <description>The island's guardians have safeguarded it for centuries. Successfully retrieve and return the artifact to the city council!</description>
+    <reward>500 gold pieces and a rare artifact</reward>
+    <quest-giver>the Wise Old Seer</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track the海盗 ship to the northern cove.</objective>
+            <description>The pirates are spotted anchored near the rocky cliffs. Board their ship and search for the artifact!</description>
+            <location>Northern Cliffs</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Explore the island's treasure map for hidden clues.</objective>
+            <description>The map leads to a secret underground chamber. Discover it and find the treasure!</description>
+            <location>Island's Secret Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

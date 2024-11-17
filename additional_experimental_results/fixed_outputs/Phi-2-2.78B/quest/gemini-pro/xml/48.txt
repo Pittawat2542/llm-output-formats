@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Sword</title>
+	<objective>Find the lost sword of the ancient hero, Sirus.</objective>
+	<description>The lost sword of Sirus is said to be hidden in the depths of the Forbidden Forest. The sword is said to possess great power, and whoever wields it will be able to defeat the evil forces that threaten the kingdom.</description>
+	<reward>The lost sword of Sirus and 1000 gold pieces.</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Forbidden Forest.</objective>
+			<description>The Forbidden Forest is located to the east of the kingdom. It is a dangerous place, filled with wild beasts and dark creatures.</description>
+			<location>The Forbidden Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the ruins of the ancient temple.</objective>
+			<description>The ruins of the ancient temple are located deep within the Forbidden Forest. They are said to be the resting place of Sirus, and it is here that his sword is said to be hidden.</description>
+			<location>The ruins of the ancient temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian of the temple.</objective>
+			<description>The guardian of the temple is a powerful creature that protects the sword. You will need to defeat it in order to claim the sword for your own.</description>
+			<location>The ruins of the ancient temple</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Take the sword to King Arthur.</objective>
+			<description>Once you have defeated the guardian and claimed the sword, you must return to King Arthur and give him the sword.</description>
+			<location>Camelot</location>
+		</task>
+	</tasks>
+</game>
+

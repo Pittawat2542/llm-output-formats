@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the depths of the jungle.",
+    "description": "You've heard rumors of a mysterious artifact buried deep within an uncharted forest. Your quest is to locate it and bring it back to the quest giver.",
+    "reward": "100 gold coins and a rare magical item",
+    "quest-giver": "Gnarled Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ancient ruins",
+          "description": "You've been told that the ruins are hidden behind a waterfall in the heart of the jungle. Find it and enter.",
+          "location": "Jungle Waterfall"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the puzzle to unlock the artifact chamber",
+          "description": "Once inside the ruins, you'll encounter a series of puzzles that need to be solved to reach the artifact.",
+          "location": "Ruins Interior"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact and escape the jungle",
+          "description": "The artifact is said to be in a sealed chamber. Once you have it, navigate your way back through the jungle and return to the quest giver.",
+          "location": "Artifact Chamber"
+        }
+      ]
+    }
+  }
+}

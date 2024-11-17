@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to Quest Giver.",
+    "description": "Rumors say the artifact is hidden deep in the forest. Be cautious, it's said to be guarded by mystical creatures.",
+    "reward": "1000 gold coins and a legendary weapon",
+    "quest-giver": "Adrian the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the Forest of Whispers",
+          "description": "Search for any clues leading to the artifact's location.",
+          "location": "Forest of Whispers"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian",
+          "description": "You must overcome the mystical guardian to claim the artifact.",
+          "location": "Heart of the Forest"
+        }
+      ]
+    }
+  }
+}

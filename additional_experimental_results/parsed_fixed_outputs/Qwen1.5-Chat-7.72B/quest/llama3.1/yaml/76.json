@@ -1,0 +1,38 @@
+{
+  "game": {
+    "description": "Explore the long-abandoned mine on the outskirts of town, uncover its secrets and put an end to whatever evil lurks within.",
+    "id": "Q1",
+    "objective": "Uncover the source of strange noises emanating from the old mine",
+    "quest_giver": "Grizelda Ironfist, local blacksmith and concerned citizen",
+    "reward": [
+      {
+        "item": "Small chest containing 100 gold pieces",
+        "note": "A cryptic message"
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Investigate the entrance to the mine for any signs of recent use or disturbance",
+        "location": "The old mine's entrance, just north of town",
+        "objective": "Determine if anyone has entered the mine recently",
+        "order": 1
+      },
+      {
+        "description": "Venture deeper into the mine and search for any signs of mineral deposits or hidden rooms",
+        "location": {
+          "coordinates": "43.72\u00b0 N, 119.45\u00b0 W",
+          "type": "mine_depth"
+        },
+        "objective": "Find a vein of precious ore",
+        "order": 2
+      },
+      {
+        "description": "Confront and defeat the evil force in the mine's heart",
+        "location": "The heart of the mine, 43.74\u00b0 N, 119.42\u00b0 W",
+        "objective": "End the source of noises and disturbances",
+        "order": 3
+      }
+    ],
+    "title": "The Cursed Mine"
+  }
+}

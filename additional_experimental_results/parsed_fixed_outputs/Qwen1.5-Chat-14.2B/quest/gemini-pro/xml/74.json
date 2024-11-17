@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Rescue the Lost Princess",
+    "objective": "Rescue the princess from the clutches of the evil dragon.",
+    "description": "The princess has been kidnapped by an evil dragon and taken to its lair in the mountains. You must rescue her before it's too late.",
+    "reward": "A large sum of gold and the princess's gratitude.",
+    "quest-giver": "King's Advisor",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the dragon's lair.",
+          "description": "The dragon's lair is hidden in the mountains. You must search for it carefully.",
+          "location": "Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon.",
+          "description": "The dragon is a powerful creature. You must use all your skills to defeat it.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the princess.",
+          "description": "Once you have defeated the dragon, you must find the princess and free her.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "4",
+          "objective": "Return the princess to the castle.",
+          "description": "Once you have rescued the princess, you must return her to the castle safely.",
+          "location": "Castle"
+        }
+      ]
+    }
+  }
+}

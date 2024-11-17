@@ -1,0 +1,34 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	 Objective: Quest objective
+	 Description: Quest description
+	 Reward: Quest reward
+	 Giveer: Quest giver
+	 Location: Task location
+</game>
+```
+
+Explanation:
+
+  * The `key_completeness` attribute was added to the `quest` element.
+  * The `objective` and `description` attributes were modified to use their correct values.
+  * The `reward` attribute was modified to use its correct value.
+  * The `Quest-giver` attribute was modified to use its correct value.
+
+Output:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	 Objective: Quest objective
+	 Description: Quest description
+	 Reward: Quest reward
+	 Giveer: Quest giver
+	 Location: Task location
+</game>
+```

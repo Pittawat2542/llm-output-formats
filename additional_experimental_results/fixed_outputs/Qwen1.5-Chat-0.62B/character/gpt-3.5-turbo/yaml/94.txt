@@ -1,0 +1,19 @@
+The incorrect syntax in the original YAML data is as follows:
+
+```
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: brown
+      hair_color: black
+      height: 5.7
+      weight: 140.0
+    place_of_birth: Villageville
+    role: Hero
+    species: Human
+```

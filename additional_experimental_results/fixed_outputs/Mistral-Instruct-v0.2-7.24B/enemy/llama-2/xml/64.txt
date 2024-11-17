@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Rayman</name>
+		<description>Rayman is a video game character created by Ubisoft Entertainment. The character first appeared in the video game Rayman (1995), and has subsequently appeared in multiple video games, animated television series and merchandise.</description>
+		<stats>
+			<hp>200</hp> -- Changed HP value for example
+			<mp>150</mp> -- Changed MP value for example
+			<atk>80</atk> -- Changed ATK value for example
+			<def>75</def> -- Changed DEF value for example
+			<spd>90</spd> -- Changed SPD value for example
+		</stats>
+	</enemy>
+</game>
+```
+
+# Solution:
+### Response:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Rayman</name>
+		<description>Rayman is a video game character created by Ubisoft Entertainment. The character first appeared in the video game Rayman (1995), and has subsequently appeared in multiple video games, animated television series and merchandise.</description>
+		<stats>
+			<hp>300</hp> -- Changed HP value for example
+			<mp>200</mp> -- Changed MP value for example
+			<atk>150</atk> -- Changed ATK value for example
+			<def>120</def> -- Changed DEF value for example
+			<spd>80</spd> -- Changed SPD value for example
+		</stats>
+	</enemy>
+</game>
+```

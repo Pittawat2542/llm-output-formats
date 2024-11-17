@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>The Forbidden Temple</title>
+	<objective>Solve the mysteries of the ancient temple</objective>
+	<description>In this quest, you will embark on a journey to explore the forbidden temple. Legends say that the temple holds ancient treasures and powerful artifacts. However, it is also filled with dangerous traps and powerful guardians. Your objective is to solve the mysteries of the temple, overcome the challenges, and retrieve the treasures.</description>
+	<reward>Upon completing the quest, you will be rewarded with a legendary weapon and a substantial amount of gold.</reward>
+	<quest-giver>The Wise Elder</quest-giver>
+	<tasks>
+			<task>
+				order>1</order>
+			<objective>Find the Entrance of the Temple</objective>
+				description>Your first task is to find the hidden entrance of the temple. It is said to be concealed somewhere in the dense jungle. Use your keen observation skills and follow the clues left behind by previous explorers.</description>
+			<location>Jungle of Mysteries</location>
+			(task>
+				<order>2</order>
+			<objective>Unlock the Temple Gate</objective>
+				"description>A hidden entrance is located in a nearby cave, guarded by a fearsome dragon. Use your sword and magic to defeat the dragon and open the gate for you.</description>
+			<location>Cave of Secrets</location>
+			)</task>
+			<task>
+				order>3</order>
+			<objective>Retrieve the Crystal Key</objective>
+				"description>The crystal key is hidden deep within a cursed chamber, guarded by a fierce griffin. Use your magic and cunning to navigate through the traps and solve the riddle that unlocks the door.</description>
+			<location>Cursed Chamber of Crystals</location>
+			</task>
+			<task>
+				order>4</order>
+			<objective>Solve the Riddle of the Ancients</objective>
+				"description>A hidden chamber lies at the heart of the temple, guarded by a powerful guardian griffin. The riddle requires you to possess knowledge of ancient texts and mythology. Use your wit and understanding of the language to decipher the clues and find the location of the treasures.</description>
+			<location>Heart of the Temple</location>
+			</task>
+			<task>
+				order>5</order>
+			<objective>Defeat the Guardian Beast</objective>
+				"description>A massive dragon guards the entrance to the treasure chamber. Use your sword and magic to defeat the beast, but be careful not to anger it further. The key to defeating the dragon is hidden deep within the treasure itself.</description>
+			<location>Treasure Chamber</location>
+			</task>
+	<tasks>
+	</tasks>
+</game>
+
+```

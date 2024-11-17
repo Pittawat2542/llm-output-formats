@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: Retrieve the ancient Sceptre of Light, said to be hidden within the long-abandoned temple of Eldarath. It grants +10 magic resistance when wielded.
+  id: Q001
+  objective: Find and retrieve the Sceptre of Light in the Temple of Eldarath. 
+  quest_ giver: The Oracle of the Moon
+  reward: +1000 gold, Sceptre of Light (grants +10 magic resistance)
+  tasks:
+   - description: Investigate the ancient ruins of Eldarath's temple.
+    location: The Lost Temple of Eldarath ( coordinates: 43.7232, -79.3832 )
+    objective: Locate the entrance to the temple's inner sanctum. 
+    order: 1
+   - description: Defeat the Guardian of the Sceptre, a fearsome undead warrior.
+    location: The Inner Sanctum of Eldarath ( coordinates: 43.7256, -79.3858 )
+    objective: Retrieve the Sceptre of Light from its pedestal. 
+    order: 2
+```

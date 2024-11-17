@@ -1,0 +1,193 @@
+
+<game>
+  <character id="1234567890">
+    <first-name>John</first-name>
+    <last-name>Doe</last-name>
+    <species>human</species>
+    <age>25</age>
+    <role title="captain">captain</role>
+    <background name="orphan">orphan</background>
+    <place-of-birth country="Earth">Earth</place-of-birth>
+    <physical-appearance height="170cm" weight="70kg">
+      <eye-color color="brown"/>
+      <hair-color color="brown"/>
+    </physical-appearance>
+  </character>
+</game>
+```
+```ruby
+require_relative '../models/game'
+require_relative '../validators/game_validator'
+
+class GameController < ApplicationController
+
+  def index
+    @games = Game.all
+  end
+
+  def create
+    @game = Game.new(params[:game])
+
+    if @game.valid?
+      @game.save
+      format :json => { status: 'created', message: "#{@game.id}" }
+    else
+      format :json => @game.errors.to_json(root: "errors")
+    end
+  end
+end
+```
+
+Fixed:
+### Response:
+
+<game id="1234567890">
+  <first-name>John</first-name>
+  <last-name>Doe</last-name>
+  <species name="human">human</species>
+  <age value="25">25</age>
+  <role name="captain">captain</role>
+  <background name="orphan">orphan</background>
+  <place-of-birth country_name="Earth">Earth</place-of-birth>
+  <physical-appearance height="170cm" weight="70kg">
+    <eye-color color="brown"/>
+    <hair-color color="brown"/>
+  </physical-appearance>
+</game>
+```
+```vbnet
+Imports from xaml.behaviors and xaml.extensions
+
+Namespace:GameController
+
+<ContentControl Name="MyApp">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Enter ID" Margin="5"/>
+            <TextBox x:Name="txtId" Width="120" HorizontalAlignment="Left" AcceptsFocusInsideValue="True" Margin="5" ValidationRules="{ValidationRule=GameValidator_ValidID}"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="First name:" Margin="15, 0"/>
+            <TextBox x:Name="txtFirstName" AcceptsFocusInsideValue="True" Width="120" HorizontalAlignment="Left" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Last name:" Margin="15, 0"/>
+          <TextBox x:Name="txtLastName" AcceptsFocusInsideValue="True" Width="120" HorizontalAlignment="Left" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Species:" Margin="15, 0"/>
+          <TextBox x:Name="txtSpecies" Width="120" HorizontalAlignment="Left" AcceptsFocusInsideValue="True" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Age:" Margin="15, 0"/>
+          <TextBox x:Name="txtAge" Width="120" HorizontalAlignment="Left" AcceptsFocusInsideValue="True" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Role:" Margin="5, 0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtRoleTitle" Height="23" HorizontalContentAlignment="Left" AcceptsFocusInsideValue="True" Width="120" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Background:" Margin="5, 0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtBackgroundName" Height="23" HorizontalContentAlignment="Left" AcceptsFocusInsideValue="True" Width="120" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Country of Birth:" VerticalAlignment="Top" Margin="15, 0"/>
+          <TextBox x:Name="txtPlaceOfBirth" HorizontalContentAlignment="Left" AcceptsFocusInsideValue="True" Width="240" Height="33" Margin="5" TextWrappingMode="WrapTruncatingText" TextTrimmingMode="None"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Eye color:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15, 0"/>
+          <TextBox x:Name="txtEyeColor" Height="23" AcceptsFocusInsideValue="True" Width="120" HorizontalContentAlignment="Right" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+          <TextBlock Text="Hair color:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15, 0"/>
+          <TextBox x:Name="txtHairColor" Height="23" AcceptsFocusInsideValue="True" Width="120" HorizontalContentAlignment="Right" Margin="5"/>
+        </StackPanel>
+
+        <Button Content="Save Game" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="{Binding Action=New_SaveGame}" />
+    </Grid>
+</ContentControl>
+```
+
+Fixed:
+### Response:
+
+<contentControl xmlns:x="http://schemas-microsoft-com/winfx2006" xmlns:xaml="http://schemas-microsoft-com/winfx2009" x:mc:namespace="GameController">
+  <grid>
+    <stackpanel orientation="horizontal">
+      <textblock text="Enter ID:" horizontalAlignment="left" margin="5"/>
+      <textbox name="txtId" width="120" acceptsFocusInsideValue="true" horizontalAlignment="left" margin="5" validationRules="{local:GameValidator_ValidID}"/>
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="First name:" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtFirstName" acceptsFocusInsideValue="true" width="120" horizontalAlignment="left" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Last name:" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtLastName" acceptsFocusInsideValue="true" width="120" horizontalAlignment="left" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Species:" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtSpecies" width="120" horizontalAlignment="left" acceptsFocusInsideValue="true" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Age:" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtAge" width="120" horizontalAlignment="left" acceptsFocusInsideValue="true" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="horizontal">
+      <textblock text="Role:" verticalAlignment="top" margin="5,0"/>
+      <textbox name="txtRoleTitle" height="23" horizontalContentAlignment="left" acceptsFocusInsideValue="true" width="120" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="horizontal">
+      <textblock text="Background:" verticalAlignment="top" margin="5,0"/>
+      <textbox name="txtBackgroundName" height="23" horizontalContentAlignment="left" acceptsFocusInsideValue="true" width="120" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Country of Birth:" margin="15, 0" verticalAlignment="top"/>
+      <textbox name="txtPlaceOfBirth" horizontalContentAlignment="left" acceptsFocusInsideValue="true" width="240" height="33" margin="5">
+        <binding elementName="TextTrimmingMode" value="None"/>
+        <binding elementName="TextWrappingMode" value="WrapTruncatingText"/>
+      </textbox>
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Eye color:" horizontalAlignment="left" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtEyeColor" height="23" acceptsFocusInsideValue="true" width="120" horizontalContentAlignment="right" margin="5" />
+    </stackpanel>
+
+    <stackpanel orientation="vertical">
+      <textblock text="Hair color:" horizontalAlignment="left" verticalAlignment="top" margin="15,0"/>
+      <textbox name="txtHairColor" height="23" acceptsFocusInsideValue="true" width="120" horizontalContentAlignment="right" margin="5" />
+    </stackpanel>
+
+    <button content="Save Game" horizontalAlignment="center" verticalAlignment="bottom" click="{binding action=new:SaveGame}" />
+  </grid>
+</contentControl>
+
+To summarize, we have created an XML layout file for a WPF application using several stack panels. In this example, we used a textblock to label each control and then used a textbox as the control where the user can input data. We also set up validationRules for the ID textbox and defined some horizontal and vertical alignment settings for the controls inside each stack panel.
+
+Additionally, we have included XAML bindings to wrap and truncate the Country of Birth TextBox text if it exceeds the width provided in the layout file and prevent it from adding any extra lines.
+
+Finally, we added a save button at the bottom of the control grid which is bound to SaveGame method inside ViewModel class using MVVM approach.
+
+Let us know if you have any questions or comments on this example!
+
+Happy coding! 😊
+
+P.S: For those who are interested in exploring more about XAML and WPF, I'd recommend looking into the following resources to gain a deeper understanding:
+- Microsoft Docs for WPF: https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls?view=winui
+- MSDN Library for XAML: https://social.msdn.microsoft.com/Forums/thread/42a1c7a4-98cb-4360-b1f3-5acba7a77de3fa25@winamp-xaml?event Husain Husain

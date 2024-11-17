@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>ID12345</id>
+	<title>The Great Adventure</title>
+	<objective>Find the lost artifact</objective>
+	<description>In this quest, you must explore ancient ruins to find a mysterious artifact.</description>
+	<reward>+100 Experience Points and Rare Item</reward>
+	<quest-giver>Gnome Mystic</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the Ruins of Eldarath</objective>
+			<description>Travel to the ruins and search for any clues about the artifact's location.</description>
+			<location>Ruins of Eldarath</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Battle the Guardian</objective>
+			<description>A powerful guardian protects the artifact. Defeat it to claim your reward.</description>
+			<location>Guardian's Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

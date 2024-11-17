@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Missing Merchant</title>
+	<objective>Find the missing merchant, Marco.</objective>
+	<description>
+		Marco, a traveling merchant, has gone missing while on his way to deliver a shipment of goods to the town of Riverwood. His last known location was at the Crossroads Inn, just outside of town. You have been hired by Marco's wife to find him and bring him home safely.
+	</description>
+		 reward: 100 gold
+		 quest-giver:lena, Marco's wife
+		tasks:
+			- Task #1 - Talk to the innkeeper at the Crossroads Inn. 
+			- Task #2 - Search the area around the inn for clues. 
+			- Task #3 - Follow the clues to find Marco.
+	</description>
+	<id>1</id>
+</game>
+
+```

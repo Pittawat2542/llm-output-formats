@@ -1,0 +1,49 @@
+The correct YAML data for the "game" object is:
+```
+game:
+  character:
+    age: 27
+    background: I'm a hard worker.
+    first_name: John
+    id: 123
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 6'2"
+      weight: 180 lbs
+    place_of_birth: New York
+    role: Actor
+    species: Human
+```
+The syntax error in the original YAML data is when there are an incorrect space before "age". The correct syntax for this section of code would be:
+```yaml
+game:
+  character:
+    age: 27
+    background: I'm a hard worker.
+    first_name: John
+    id: 123
+    last_name: Doe
+```
+The new values provided for the "id" field in the "game" object are:
+- id: 123
+- last_name: Doe
+The Markdown code block containing the original YAML data is:
+```yaml
+game:
+  character:
+    age: 27
+    background: I'm a hard worker.
+    first_name: John
+    id: 123
+    last_name: Doe
+    physical_appearance:
+     - eye_color: brown
+      hair_color: brown
+      height: 6'2"
+      weight: 180 lbs
+    place_of_birth: New York
+    role: Actor
+    species: Human
+```

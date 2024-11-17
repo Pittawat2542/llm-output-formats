@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>23</age>
+		<role>employee</role>
+		<background>born in New York</background>
+		<place-of-birth>San Francisco</city> <!-- added missing city tag -->
+		<physical-appearance>
+			<specific-hair-color>black</specific-hair-color>
+			<name>John Smith</name>
+			<height>5ft 10in</height>
+			<weight>130 lbs</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+

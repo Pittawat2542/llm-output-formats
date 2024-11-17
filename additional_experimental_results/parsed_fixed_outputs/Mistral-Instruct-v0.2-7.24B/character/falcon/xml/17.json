@@ -1,0 +1,29 @@
+{
+  "game": {
+    "character": {
+      "id": "123456",
+      "first-name": "Samantha",
+      "last-name": "Anderson",
+      "species": "Human",
+      "age": "Twenty-four years old",
+      "role": "Student",
+      "background": "Small town in Missouri",
+      "place-of-birth": {
+        "city": "St. Louis",
+        "state": "Missouri"
+      },
+      "physical-appearance": {
+        "physical-appearance": {
+          "eye-color": "Brown",
+          "hair-color": "Blonde",
+          "height": "1.68m",
+          "weight": "54.5 kg",
+          "#text": "-- height in meters for consistency with weight\n\t\t\t\t -- weight in kilograms for consistency with height"
+        }
+      },
+      "key_completeness": "Complete",
+      "#text": "-- Added to ensure the character is complete"
+    },
+    "game": null
+  }
+}

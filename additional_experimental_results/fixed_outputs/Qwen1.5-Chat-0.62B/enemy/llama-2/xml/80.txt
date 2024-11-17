@@ -1,0 +1,29 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>Name</name>
+			<description>Description</description>
+			Stats:
+				hp 100 HP int value
+			mp 100 MP int value
+			atk 100atk int value
+			(def 100 Def int value
+			spd 100 Spd int value
+			stats:
+		</ enemy>
+		<enemy>
+			<id>id</id>
+			<name>Name</name>
+			<description>Description</description>
+			Stats:
+				hp 100 HP int value
+			mp 100 MP int value
+			atk 100atk int value
+			(def 100 Def int value
+			spd 100 Spd int value
+			stats:
+		</enemy>
+</game>
+```

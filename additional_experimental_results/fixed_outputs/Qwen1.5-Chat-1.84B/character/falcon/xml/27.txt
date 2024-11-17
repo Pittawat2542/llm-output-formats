@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id id="id">id</id>
+		<first-name firstName="first name" />
+		<last-name lastName="last name" />
+		<species species="species" />
+		<age exactAge="true" /><!-- or "18" if age is in decimal -->
+		<role role="exact role of the character" />
+		<background background="background story" />
+		<place-of-birth placeOfBirth="location" />
+		<physical-appearance physicalAppearance>
+			<eye-color eyeColor="eye color" />
+			<hair-color hairColor="hair color" />
+			<height heightInFloatValue="float value" />
+			<weight weightInFloatValue="float value" />
+		</physical-appearance>
+	</character>
+</game>
+```

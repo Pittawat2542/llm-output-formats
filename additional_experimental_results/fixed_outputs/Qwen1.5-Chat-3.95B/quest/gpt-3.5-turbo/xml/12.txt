@@ -1,0 +1,45 @@
+XML:
+```xml
+<game>
+    <id>123</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the lost treasure and return it to its rightful owner</objective>
+    <description>
+        You have been tasked with finding the lost treasure of El Dorado, a legendary city of gold. 
+        The treasure is said to hold immeasurable wealth and power. The fate of the world may depend on your success.
+    </description>
+    <reward>Ancient artifacts, gold coins, and eternal glory</reward>
+    <quest-giver>Captain Jack Sparrow</quest-giver>
+    <tasks>
+         <task>
+             <order>1</order>
+             <objective>Obtain the ancient map</objective>
+             <description>
+                To find the treasure, you must first locate the ancient map that will guide you to its hidden location.
+                The map is said to be held by a mysterious hermit in the heart of the jungle.
+            </description>
+            <location>The Heart of the Jungle</location>
+        </task>
+        <task>
+             <order>2</order>
+             <objective>Defeat the guardians of the cave</objective>
+             <description>
+                Once you have obtained the map, you must journey to the Cave of Wonders to access the treasure.
+                However, the cave is guarded by powerful beings with supernatural abilities. 
+                You must overcome their challenges to reach the treasure.
+            </description>
+            <location>The Cave of Wonders</location>
+        <-task>
+        <task>
+             <order>3</order>
+             <objective>Retrieve the lost treasure</objective>
+             <description>
+                Finally, you will reach the chamber where the lost treasure is kept. 
+                You must navigate through complex traps and puzzles to reach the treasure and claim it as your own.
+                Be careful, for the treasure is said to be protected by ancient curses.
+            </description>
+            <location>The Chamber of the Lost Treasure</location>
+        </task>
+    <tasks>    
+</game>
+```

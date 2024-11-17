@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Find the Ancient Artifact</title>
+    <objective>Locate and obtain the ancient artifact hidden inside the mysterious cave.</objective>
+    <description>Legend tells of a powerful artifact hidden away in a cave guarded by mythical creatures. Your task is to find this artifact and bring it back.</description>
+    <reward>5000 Gold Coins and Ancient Armor</reward>
+    <quest-giver>Old Man Jenkins</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the cave entrance.</objective>
+            <description>Travel to the Whispering Hills and find the entrance to the cave.</description>
+            <location>Whispering Hills</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the cave guardians.</objective>
+            <description>Clear the cave by defeating all the guardians at the entrance.</description>
+            <location>Cave Entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find the hidden ancient artifact.</objective>
+            <description>Explore the cave, solve puzzles, and locate the powerful ancient artifact inside.</description>
+            <location>Inside the Cave</location>
+        </task>
+    </tasks>
+</game>
+```

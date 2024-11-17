@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the Lost City of Eldarath.</objective>
+	<description>Rumors have been circulating about a lost city deep in the forest, filled with treasures and artifacts. The locals are too afraid to venture near it, but brave adventurers are needed to uncover its secrets.</description>
+	<reward>1000 Gold Pieces, Magical Amulet of Protection</reward>
+	<quest-giver>Thoric Stonebeard, Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the Lost City from the villagers.</objective>
+			<description>Talk to the villagers and gather any information they may have about the Lost City. They might be willing to share some valuable insights or clues.</description>
+			<location>Village of Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the forest and reach the entrance of the Lost City.</objective>
+			<description>The journey will be treacherous, but with the right gear and preparation, you should be able to make it. Keep an eye out for any signs or landmarks that might guide you.</description>
+			<location>Forest of Whispers</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Raid the ancient temple and retrieve the artifact.</objective>
+			<description>The temple is said to be filled with traps and puzzles, but the reward will be worth it. Be careful not to trigger any deadly mechanisms.</description>
+			<location>Lost City of Eldarath - Ancient Temple</location>
+		</task>
+	</tasks>
+</game>
+```

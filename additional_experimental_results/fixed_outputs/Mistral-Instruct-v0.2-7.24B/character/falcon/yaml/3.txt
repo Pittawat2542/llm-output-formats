@@ -1,0 +1,14 @@
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first_name
+    id: id
+    last_name: last_name
+    physical_appearance:
+      - eye_color: eye-color
+        hair_color: hair-color
+        height: float_value
+        weight: float_value
+```

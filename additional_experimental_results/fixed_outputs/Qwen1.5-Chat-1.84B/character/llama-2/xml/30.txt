@@ -1,0 +1,27 @@
+<game>
+	<Character>
+		<CharacterID>id</CharacterID>
+		<CharacterFirstName>first_name</CharacterFirstName>
+		<CharacterLastName>last_name</CharacterLastName>
+		<CharacterSpecies>species</CharacterSpecies>
+		<CharacterAge>age</CharacterAge>
+		<CharacterRole>role</CharacterRole>
+		<Background backstory>background story</Background>
+		<PlaceOfBirth location</PlaceOfBirth>
+		<PhysicalAppearance physical_appearance>
+			<PhysicalAppearanceEyeColor eye_color</PhysicalAppearanceEyeColor>
+			<PhysicalAppearanceHairColor hair_color</PhysicalAppearanceHairColor>
+			<PhysicalAppearanceHeight height_in_float_value</PhysicalAppearanceHeight>
+			<PhysicalAppearanceWeight weight_in_float_value</PhysicalAppearanceWeight>
+		</PhysicalAppearance>
+		<CharacterPhysicalAppearance></CharacterPhysicalAppearance>
+		<CharacterRoleDescription role_description>
+			<role_description>
+				<role_description_type>type of character role</role_description_type>
+				<description_of_role>description of the role</description_of_role>
+			</role_description_type>
+		</CharacterRoleDescription>
+		<CharacterBackground backstory_description>background story description</CharacterBackgroundDescription>
+	</Character>
+</game>
+```

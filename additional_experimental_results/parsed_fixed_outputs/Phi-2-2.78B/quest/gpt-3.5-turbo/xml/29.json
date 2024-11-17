@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "You have heard rumors about a lost treasure hidden deep in the jungle. Your quest is to find this treasure and bring it back.",
+    "reward": "Ancient artifacts and gold coins",
+    "quest-giver": "Captain Jack",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the jungle",
+          "description": "Start by exploring the dense jungle, searching for any clues or landmarks that may lead you to the treasure.",
+          "location": "Jungle"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the ancient map",
+          "description": "Once you find a mysterious map, decipher the symbols and riddles to figure out the exact location of the treasure.",
+          "location": "Hidden Cave"
+        },
+        {
+          "order": "3",
+          "objective": "Bypass the traps",
+          "description": "There will be booby traps set to protect the treasure. Use your wit and skills to bypass them without triggering any alarms.",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

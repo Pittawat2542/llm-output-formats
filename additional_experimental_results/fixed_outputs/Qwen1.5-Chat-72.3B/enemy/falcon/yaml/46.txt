@@ -1,0 +1,46 @@
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: 1
+    name: "enemy name"
+    stats:
+      atk: 5
+      def: 2
+      hp: 80
+      mp: 5
+      spd: 2
+
+  ally:
+    description: "ally description"
+    id: 1
+    name: "ally name"
+    stats:
+      atk: 5
+      def: 2
+      hp: 80
+      mp: 5
+      spd: 2
+
+another_enemy:
+  description: "enemy description"
+  id: 2
+  name: "enemy name"
+  stats:
+    atk: -2
+    def: -5
+    mp: -5
+    spd: -2
+
+new_ally:
+  description: "ally description"
+  id: 2
+  name: "ally name"
+  stats:
+    atk: 10
+    def: 5
+    hp: 100
+    mp: -5
+    spd: 2
+```
+I fixed the duplicate `atk` key in the last `ally` section and provided new values for `id` to distinguish between entries. I also created two new entries (`another_enemy` and `new_ally`) to replace the original ones, as requested.

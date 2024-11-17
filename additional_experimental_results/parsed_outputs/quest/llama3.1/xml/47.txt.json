@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "A long-abandoned temple, hidden deep in the jungle, is said to contain an ancient relic with great power. Retrieve this artifact and bring it back to me.",
+    "reward": "100 gold pieces and a magical amulet",
+    "quest-giver": "Ranger Olivia",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the lost temple.",
+          "description": "The temple is hidden behind a waterfall, but you need to find the path that leads there.",
+          "location": "Jungle Ruins"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the treacherous tunnels and avoid deadly traps.",
+          "description": "The temple's entrance is guarded by a series of deadly traps, but you must navigate through them to reach the artifact.",
+          "location": "Temple Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardian of the artifact and claim it.",
+          "description": "The ancient relic is guarded by a powerful entity, but you must defeat it to claim the reward.",
+          "location": "Artifact Chamber"
+        }
+      ]
+    }
+  }
+}

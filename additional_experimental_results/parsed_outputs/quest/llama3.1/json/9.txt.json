@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "quest001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scrolls from the lost temple before it's too late.",
+    "description": "A long-abandoned temple dedicated to the moon goddess has been discovered deep in the forest. Rumors say that within its walls lies a powerful artifact and ancient scrolls containing secrets of the past.",
+    "reward": "500 gold, 100 experience points, and a rare gemstone",
+    "quest_giver": "High Priestess Aria",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the lost temple",
+        "description": "Search the forest for any signs of the temple's location. Follow the path and use your wits to navigate through the dense foliage.",
+        "location": "Forest of Elvendom"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve the ancient scrolls",
+        "description": "Once inside the temple, make your way through the treacherous traps and puzzles to reach the scroll chamber. Be prepared for a challenge!",
+        "location": "The Lost Temple of the Moon Goddess"
+      },
+      {
+        "order": 3,
+        "objective": "Escape the temple",
+        "description": "After retrieving the scrolls, you must make your way back out of the temple before it collapses. Don't look back!",
+        "location": "The Lost Temple of the Moon Goddess"
+      }
+    ]
+  }
+}

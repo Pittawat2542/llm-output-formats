@@ -1,0 +1,41 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="001">
+	<title>The Missing Scholar</title>
+	<objective>Find the missing scholar, Professor Aldous, in the Ruins of Oldoria.</objective>
+	<description>Professor Aldous, a renowned scholar from the University of Arcania, has gone missing while conducting research in the Ruins of Oldoria. Players must venture into the ruins, uncover clues, and face treacherous challenges to find the missing professor.</description>
+	<reward>
+		<experience>1000</experience>
+		<gold>500</gold>
+		<item>Professor Aldous's Journal</item>
+	</reward>
+	<quest-giver>Headmaster Orin</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate Professor Aldous's Lost Compass.</objective>
+			<location>Ruins of Oldoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Seek information at the Sacred Library.</objective>
+			<location>Sacred Library, Silverglen</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Survey the Ancient Observatory.</objective>
+			<location>Ancient Observatory</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the Paradox Crystal.</objective>
+			<location>Ancient Observatory</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Rescue Professor Aldous.</objective>
+			<location>Dark Portal, Ruins of Oldoria</location>
+		</task>
+	</tasks>
+</game>
+```

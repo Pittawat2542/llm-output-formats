@@ -1,0 +1,25 @@
+In YAML, the original message is provided with an issue. The syntax needs to be corrected. The YAML data is invalid and should not be used directly.
+Error: incorrect_syntax: while parsing a block mapping
+  in "<unicode string>", line 1, column 3:
+     - name: name
+       ^
+expected <block end>, but found '-'
+  in "<unicode string>", line 2, column 3:
+       - description: quest description
+       ^
+
+To fix the issue, please provide a YAML data block with correct syntax. The new value should be included in the YAML code block. Here is the YAML data:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - id: task_id
+    description: task description
+    location: task location
+    objective: task objective
+```
+```yaml

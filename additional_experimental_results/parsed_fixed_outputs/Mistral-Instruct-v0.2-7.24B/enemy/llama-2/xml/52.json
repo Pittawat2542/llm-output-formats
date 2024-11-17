@@ -1,0 +1,17 @@
+{
+  "game": {
+    "enemy": {
+      "id": "1",
+      "name": "Bob",
+      "description": "A nice guy",
+      "stats": {
+        "hp": "150",
+        "mp": "120",
+        "atk": "90",
+        "def": "85",
+        "spd": "110",
+        "#text": "-- Changed HP value to 150 for demonstration purposes.\n\t\t\t -- Changed MP value to 120 for demonstration purposes.\n\t\t\t -- Changing ATK value is not part of the error message, but if you wanted to fix this, change it to any integer value.\n\t\t\t -- Changing DEF value is not part of the error message, but if you wanted to fix this, change it to any integer value.\n\t\t\t -- Changing SPD value is not part of the error message, but if you wanted to fix this, change it to any integer value."
+      }
+    }
+  }
+}

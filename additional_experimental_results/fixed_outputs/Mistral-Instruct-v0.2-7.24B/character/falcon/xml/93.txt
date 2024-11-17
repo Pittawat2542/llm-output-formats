@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<character>
+		<id>character_ID</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>character role</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>1.78</height> -- added unit and value for height
+			<weight>65.8</weight> -- added unit and value for weight
+		</physical-appearance>
+	</character>
+</game>
+```

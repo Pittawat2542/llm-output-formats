@@ -1,0 +1,32 @@
+game:
+  character:
+    age: 28
+    background: "John Smith, a skilled detective, grew up in a small town. He witnessed a crime at a young age which sparked his interest in solving mysteries. After completing his training, John moved to the bustling city where he now works as a private investigator for hire."
+    first_name: John
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 6.0
+      weight: 180.5
+    place_of_birth: Smalltown
+    role: Private Investigator
+    species: Human
+    traits:
+      - age: exact age or description
+        background: background story
+        first_name: first name
+        id: id
+        last_name: last name
+        physical_appearance:
+          - eye_color: eye color
+            hair_color: hair color
+            height: height in float value
+            weight: weight in float value
+      - role: role of the character
+        description: Role of the character
+        species: species
+      - species: other species
+        description: Description of the character's species (if applicable)
+```

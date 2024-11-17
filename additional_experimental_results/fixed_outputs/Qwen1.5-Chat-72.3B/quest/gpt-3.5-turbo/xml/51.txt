@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1234</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the ancient artifact</objective>
+    <description>In a faraway land, hidden deep within a treacherous forest, lies the lost artifact of ultimate power. Your quest is to journey to this land, navigate through the dangerous forest, and find the artifact before it falls into the wrong hands. Are you up for the challenge?</description>
+    <reward>Ancient Sword of Legends</reward>
+    <quest-giver>Karina the Wise</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the hidden entrance to the forest</objective>
+            <description>Ask the village elder for directions to the secret entrance located behind the waterfall</description>
+            <location>Forest entrance behind the waterfall</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Battle through the forest monsters</objective>
+            <description>Defeat the savage creatures that guard the forest path, clearing the way to the artifact's location</description>
+            <location>Throughout the forest</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Solve the ancient riddle</objective>
+            <description>Unravel the cryptic clues hidden within a mysterious shrine to reveal the location of the precious artifact</description>
+            <location>Ancient Shrine in the forest</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Retrieve the lost artifact</objective>
+            <description>Enter the sacred chamber protected by powerful traps and guardians to claim the ancient artifact</description>
+            <location>Sacred Chamber deep within the forest</location>
+        </task>
+    </tasks>
+</game>
+```

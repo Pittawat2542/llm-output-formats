@@ -1,0 +1,13 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Speaker Name</speaker>
+			<text xml:space="preserve">Dialogue text or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+This corrected XML data will preserve all the whitespace and formatting in the `<text>` tag, which is necessary for some XML parsers to correctly interpret the content.

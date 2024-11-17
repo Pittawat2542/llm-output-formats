@@ -1,0 +1,21 @@
+Here's the corrected YAML data with new values provided where necessary:
+
+```yaml
+game:
+  character:
+    age: "30" # Exact age
+    background: "Grew up in a small town"
+    first_name: "Alice"
+    id: "12345"
+    last_name: "Smith"
+    physical_appearance:
+      - eye_color: "blue"
+        hair_color: "blonde"
+        height: 1.75
+        weight: 60.0
+    place_of_birth: "Springfield, USA"
+    role: "Protagonist"
+    species: "Human"
+```
+
+The original message was missing some data and had incorrect syntax with the single quote (`) around the age value. I've fixed those issues and added new values for `first_name`, `id`, and `physical_appearance`. Now the YAML is in a valid format.

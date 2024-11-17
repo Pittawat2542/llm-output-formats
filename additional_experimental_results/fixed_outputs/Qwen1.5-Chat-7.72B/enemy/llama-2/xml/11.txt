@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <enemy>
+        <id>12345</id>
+        <name>Goblin</name>
+        <description>Fierce and quick</description>
+        <stats>
+            <hp>100</hp>
+            <mp>30</mp>
+            <atk>50</atk>
+            <def>20</def>
+            <spd>40</spd>
+        </stats>
+    </enemy>
+</game>
+```
+Explanation: The issue in the original XML was a missing closing tag for `<stats>` and an incorrect indentation. I have corrected the syntax by adding `encoding="UTF-8"` (which is good practice), replaced the placeholder `id` with a valid integer value (`12345` for demonstration purposes), and formatted the `<enemy>` elements correctly.

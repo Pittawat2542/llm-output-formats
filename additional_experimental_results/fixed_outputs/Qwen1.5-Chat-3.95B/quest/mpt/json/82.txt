@@ -1,0 +1,17 @@
+{
+    "game": {
+        "id": "id",
+        "title": "quest title",
+        "objective": "quest objective",
+        "description": "quest description",
+        "reward": "quest reward", // The missing key 'reward' is included.
+        "quest_giver": "quest giver", // The missing key 'quest_giver' is included.
+        "tasks": [{ {
+            "order": "task order", // The missing key 'task order' is included.
+            "objective": "task objective", // The missing key 'task objective' is included.
+            "description": "task description", // The missing key 'task description' is included.
+            "location": "task location" // The missing key 'task location' is included.
+        } }]
+    }
+}
+```

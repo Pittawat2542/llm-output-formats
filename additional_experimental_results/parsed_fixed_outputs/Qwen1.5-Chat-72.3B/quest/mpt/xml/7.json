@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the dungeon.",
+    "description": "Rumor has it that a powerful artifact is concealed within the depths of an abandoned dungeon. Retrieve it and bring glory to our kingdom.",
+    "reward": "1000 gold coins and legendary equipment",
+    "quest-giver": "King Arcturus",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the dungeon's location from the local tavern.",
+          "description": "Speak with the barkeep and other patrons to learn the entrance's whereabouts.",
+          "location": "Town Tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the dungeon and defeat the guardian monster.",
+          "description": "The artifact is protected by a fearsome creature. You must overcome it to claim the prize.",
+          "location": "Dungeon Entrance"
+        }
+      ]
+    }
+  }
+}

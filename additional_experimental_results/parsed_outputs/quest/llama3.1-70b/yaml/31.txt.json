@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "The village of Oakwood has been plagued by a series of mysterious disappearances. The villagers are afraid to venture out after dark, and the village elder has asked for your help.",
+    "id": "QST001",
+    "objective": "Investigate the source of the disappearances and put an end to it.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "item": "Rare Herb Bundle"
+    },
+    "tasks": [
+      {
+        "description": "Gather information about the disappearances from the villagers.",
+        "location": "Oakwood Village",
+        "objective": "Talk to at least 5 villagers and gather clues.",
+        "order": 1
+      },
+      {
+        "description": "Investigate the old windmill on the outskirts of the village, where strange noises have been reported.",
+        "location": "Old Windmill",
+        "objective": "Search for signs of what's causing the disappearances.",
+        "order": 2
+      },
+      {
+        "description": "Confront the source of the disappearances and put an end to it.",
+        "location": "Abandoned Mine",
+        "objective": "Defeat the Dark Cultists and rescue any captives.",
+        "order": 3
+      }
+    ],
+    "title": "The Disappearances of Oakwood"
+  }
+}

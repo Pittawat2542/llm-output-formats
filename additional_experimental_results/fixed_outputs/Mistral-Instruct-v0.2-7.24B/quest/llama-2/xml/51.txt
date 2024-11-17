@@ -1,0 +1,29 @@
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective 1</objective>
+			<description>task description 1</description>
+			<location>task location 1</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>task objective 2</objective>
+			<description>task description 2</description>
+			<location>task location 2</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation:
+The issue with the provided XML data is that it was missing the `order` tags for each task within the `tasks` array. To fix this, we need to add the `<order>` tag as a child of each `<task>` element and assign a unique value for the order of each task. In our example, we have assigned the values 1 and 2 respectively for the first and second tasks within the array.
+
+Additionally, we have updated the placeholders with sample values to provide a complete and valid XML document.

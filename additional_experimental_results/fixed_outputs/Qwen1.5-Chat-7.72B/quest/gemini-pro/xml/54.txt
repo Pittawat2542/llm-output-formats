@@ -1,0 +1,30 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Forest Treasure Quest</title>
+	<objective>Uncover the AncientTreasure in the Forest.</objective>
+	<description>A long-forgotten quest awaits. Seek the village elder for guidance.</description>
+	<reward>Gold coins, magical artifacts, and a place in history</reward>
+	<quest-giver>The Wise Sage of Green Hollow</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Acquire the Forest Map from the village elder.</objective>
+				<description>The map's secret lies within the old oak tree by the well.</description>
+				<location>Oak Tree by the Well, Green Hollow</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Trace the map to the hidden treasure cave.</objective>
+				<description>The cave entrance is guarded by a riddle. Solve it!</description>
+				<location>Riddle-Covered Cave, Near the River</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Confirm your treasure's location and claim it!</objective>
+				<description>Once inside, you'll find a chest filled with wealth.</description>
+				<location>Chest at the Cave's Inner Chamber</location>
+			</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Defeat the Dragon",
+    "objective": "Slay the dragon terrorizing the nearby village.",
+    "description": "The village of Riverwood has been plagued by a ferocious dragon for years. The villagers are terrified and desperate for help. You must travel to the dragon's lair and slay the beast.",
+    "reward": "A large sum of gold, a powerful weapon, and the gratitude of the villagers.",
+    "quest-giver": "Alvor, the blacksmith in Riverwood",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the dragon.",
+          "description": "Talk to the villagers of Riverwood to learn more about the dragon. They can provide you with valuable information about its lair, its habits, and its strengths.",
+          "location": "Riverwood"
+        },
+        {
+          "order": "2",
+          "objective": "Travel to the dragon's lair.",
+          "description": "Use the information you gathered from the villagers to find the dragon's lair. It is located in a remote mountain range to the west of Riverwood.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Slay the dragon.",
+          "description": "Once you reach the dragon's lair, you must face the beast in battle. Be prepared for a fierce fight. The dragon is a powerful creature, but with courage and skill, you can defeat it.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "4",
+          "objective": "Return to Riverwood and claim your reward.",
+          "description": "After you have slain the dragon, return to Riverwood and speak to Alvor. He will be overjoyed to learn that the dragon is dead and will give you your reward.",
+          "location": "Riverwood"
+        }
+      ]
+    }
+  }
+}

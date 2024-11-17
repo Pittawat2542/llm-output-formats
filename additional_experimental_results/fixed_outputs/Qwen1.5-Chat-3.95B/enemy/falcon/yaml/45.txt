@@ -1,0 +1,8 @@
+ YAML has been updated and the correct syntax is provided. The original message with the error is replaced by the output in YAML format.
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 4, column 1:
+     ```
+     ^
+Invalid YAML: ```yaml
+```

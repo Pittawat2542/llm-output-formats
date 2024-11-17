@@ -1,0 +1,18 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A mysterious map leads you to an undiscovered ruin in search of a lost artifact. Retrieve it and bring it back to the quest giver.</description>
+	<reward>100 gold coins and a rare magical item</reward>
+	<quest-giver>Gilbert the Historian</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You need to find the hidden entrance among the rocks and vegetation.</description>
+			<location>The Western Plateau</location>
+		</task>
+	</tasks>
+</game>
+```

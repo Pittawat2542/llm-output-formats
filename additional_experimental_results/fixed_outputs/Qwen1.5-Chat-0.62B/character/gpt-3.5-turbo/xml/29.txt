@@ -1,0 +1,45 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>123456</id>
+			first-name>John Doe</first-name>
+			last-name>Doe Smith</last-name>
+			species>Human</species>
+			age>30</age>
+			role>Protagonist</role>
+			background>John Doe is a skilled detective with a troubled past. He lost his family in a tragic incident and has been dedicated to solving crimes ever since. </background>
+			place-of-birth>New York City</place-of-birth>
+			physical-appearance>
+				 physical-appearance>
+					eye-color	Brown</eye-color>
+					hair-colorBlack</hair_color>
+					height>6.0</height>
+					weight>180.0</weight>
+				</physical-appearance>
+			</role>
+		</character>
+	</game>
+```
+
+Output in Markdown format:
+```xml
+<game>
+	<character>
+		<id>123456</id>
+		first-name>John Doe</first-name>
+		last-name>Doe Smith</last-name>
+		species>Human</species>
+		age>30</age>
+		role>Protagonist</role>
+		background>John Doe is a skilled detective with a troubled past. He lost his family in a tragic incident and has been dedicated to solving crimes ever since. </background>
+		place-of-birth>New York City</place-of-birth>
+		physical-appearance>
+			eye-color	Brown
+			hair-colorBlack
+			height>6.0
+		_weight>180.0
+		</physical-appearance>
+	</role>
+</game>
+```

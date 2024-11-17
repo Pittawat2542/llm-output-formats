@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>123456</id>
+    <title>The Lost Artifact</title>
+    <objective>Find and retrieve the ancient artifact from the ruins.</objective>
+    <description>In search of the lost artifact, you must navigate through treacherous ruins filled with puzzles and dangers. Uncover the secrets to unlock the artifact's location.</description>
+    <reward>1000 experience points and a rare magical item</reward>
+    <quest-giver>Gilthanas, Elf Ranger</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Solve the riddle at the entrance</objective>
+            <description>You come across a stone door with an enigmatic riddle. Solve it to proceed.</description>
+            <location>Riddle Chamber</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the guardian statue</objective>
+            <description>A statuesque guardian stands in your way. Defeat it to access the inner ruins.</description>
+            <location Statue Room></location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Recover the three pieces of the artifact</objective>
+            <description>The artifact is fragmented. Find all three parts scattered throughout the ruins.</description>
+            <location>Various chambers within the ruins</location>
+        </task>
+    </tasks>
+</game>
+```

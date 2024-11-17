@@ -1,0 +1,19 @@
+```yaml
+game:
+  description: "The village of Oakwood is plagued by a group of bandits who have taken over the nearby forest. The villagers are too afraid to enter the forest and collect firewood, which is essential for their survival."
+  id: QST001
+  objective: Retrieve 10 bundles of firewood from the Oakwood Forest.
+  quest_giver: Thorne Blackwood, Village Elder of Oakwood
+  reward:
+    experience_points: 500
+    gold_coins: 200
+    items:
+      - name: Wooden Shield
+        quantity: 1
+  tasks:
+  - description: "Gather firewood from the trees in the forest."
+    location: Oakwood Forest
+    objective: Collect 10 bundles of firewood.
+    order: 1
+  title: The Firewood Quest
+```

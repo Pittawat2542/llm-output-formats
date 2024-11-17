@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Retrieve the Lost Scroll",
+    "objective": "Retrieve a valuable scroll from the ancient ruins.",
+    "description": "The local scholar has lost a priceless scroll and needs it back for an important research project. The scroll was last seen in the ancient ruins, but be warned: the ruins are treacherous and full of hidden dangers.",
+    "reward": "100 gold pieces",
+    "quest-giver": "Lena, the Local Scholar",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the ancient ruin's entrance hall.",
+          "description": "Start by examining the grand entrance of the ruins. Look for any clues or hidden passages that might lead you deeper into the structure.",
+          "location": "The Ancient Ruins Entrance Hall"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the ruin's central chamber.",
+          "description": "Make your way through the central chamber, avoiding any obstacles or traps that might be lurking in the shadows. Keep an eye out for any signs of the scroll or clues to its whereabouts.",
+          "location": "The Ancient Ruins Central Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the lost scroll from the treasure room.",
+          "description": "After navigating through the central chamber, you'll come across a large stone door. Use your wits and any skills you possess to unlock it and retrieve the valuable scroll within.",
+          "location": "The Ancient Ruins Treasure Room"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+```yaml
+game:
+  description: A quest about a lost puppy.
+  id: 12345
+  objective: Rescue the stray dog from the park.
+  quest_giver: The animal control officer
+  reward: A toy for the new owner and a certificate of bravery
+  tasks:
+   - description: Search the park's East side
+     location: East Park
+     objective: Locate the dog
+     order: 1
+   - description: Check the pond area
+     location: Pond
+     objective: Find the dog swimming
+     order: 2
+   - description: Ask nearby joggers for help
+     location: Running Trail
+     objective: Gather information from witnesses
+     order: 3
+   - description: Bring the dog back to the vet office
+     location: Vet Office
+     objective: Deliver the found pet
+     order: 4
+  title: Pup Rescue Adventure
+
+```

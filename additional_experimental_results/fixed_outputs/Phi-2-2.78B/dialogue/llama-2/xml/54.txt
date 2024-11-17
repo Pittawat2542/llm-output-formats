@@ -1,0 +1,20 @@
+
+# Import libraries
+from bs4 import BeautifulSoup
+import requests
+
+# Get website content using GET request
+url = 'https://example.com'
+response = requests.get(url)
+
+# Parse html data using Beautiful Soup
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Find all instances of a specific class within the <p> tags
+paragraphs = soup.find_all('p', class_='my-class')
+
+# Print out each paragraph with its class name
+for p in paragraphs:
+    print(f'{p.text} ({p["class"]})')
+```
+

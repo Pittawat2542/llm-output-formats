@@ -1,0 +1,27 @@
+##### XML
+<?xml version="1.0" ?>
+<game>
+	<enemy id="id">
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp int value=100>hp int value=100</hp>
+			<mp int value=50>mp int value=25</mp>
+			<atk int value=1>atk int value=2</atk>
+			<def int value=0>def int value=0</def>
+			<spd int value=0>spd int value=0</spd>
+		</stats>
+	</enemy>
+</game>
+
+
+##### Markdown Code Block:
+```xml
++============================================+
+| Enemy | Health Points | Magic Points | Attack |
++============================================+
+| id | 100   | 50   	    | +1 	|
+| name | 100   | 25    	    | +2 	|
++============================================+
+
+

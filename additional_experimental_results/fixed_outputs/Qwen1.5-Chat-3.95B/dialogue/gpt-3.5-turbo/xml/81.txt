@@ -1,0 +1,29 @@
+XML:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+    <dialogues>
+        <dialogue order="1">
+            <speaker>Player</说话者>
+            <text>嘿，怎么样？</text>
+            <text>对话或叙述</text>
+        </dialogue>
+        <dialogue order="2">
+            <speaker>NPC</说话者>
+            <text>我很好，谢谢。你怎么样？</text>
+            <text>对话或叙述</text>
+        </dialogue>
+        <dialogue order="3">
+            <speaker>Player</说话者>
+            <text>我很好，只是在探索这个新的游戏。</text>
+            <text>对话或叙述</text>
+        </dialogue>
+        <dialogue order="4">
+            <speaker>NPC</说话者>
+            <text>那是很好的！如果需要帮助的话，请告诉我。</text>
+            <text>对话或叙述</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+```

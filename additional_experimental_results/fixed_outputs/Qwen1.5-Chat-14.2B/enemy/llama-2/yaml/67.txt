@@ -1,0 +1,16 @@
+The issue with the provided YAML data is that it uses backticks (`) instead of quotes for string values. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: "The enemy's description"
+    id: "The enemy's ID"
+    name: "The enemy's name"
+    stats:
+      atk: 200
+      def: 200
+      hp: 200
+      mp: 200
+      spd: 200
+```
+All the examples provided were actually correct except for the first one which had a syntax error due to backticks. The fixed version is included above.

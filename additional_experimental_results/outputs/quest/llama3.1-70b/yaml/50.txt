@@ -1,0 +1,23 @@
+Here is the generated quest information in YAML format:
+
+```yaml
+game:
+  description: The ancient temple of the Moon Goddess has been desecrated, and the high priestess has gone missing. It's up to you to investigate and put an end to whatever evil force is behind this.
+  id: Q001
+  objective: Find the source of the corruption and rescue the high priestess if she's still alive.
+  quest_giver: Elara Moonwhisper, High Priestess of Selûne
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item: Silver Chalice of Selûne (grants +1 to Wisdom saving throws)
+  tasks:
+  - description: Investigate the scene of the desecration and search for any clues.
+    location: Ancient Temple of Selûne, near Oakwood Village
+    objective: Find a piece of parchment with a cryptic message.
+    order: 1
+  - description: Speak to the villagers and gather information about the temple's past.
+    location: Oakwood Village
+    objective: Learn about a secret entrance to the temple's undercroft.
+    order: 2
+  title: The Desecration of Selûne's Temple
+```

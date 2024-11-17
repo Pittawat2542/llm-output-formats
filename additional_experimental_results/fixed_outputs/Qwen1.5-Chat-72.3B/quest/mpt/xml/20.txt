@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that an ancient artifact is buried within a long-forgotten ruin. Your quest is to locate and retrieve it.</description>
+	<reward>1000 experience points and a rare magical item</reward>
+	<quest-giver>Gnarled Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Ruins of Eldoria</objective>
+			<description>You need to reach the coordinates marked on your map as the Ruins of Eldoria.</description>
+			<location>Ruins of Eldoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search for the artifact's chamber</objective>
+			<description>Beneath the ruins lies a hidden chamber. Discover the entrance and descend into its depths.</description>
+			<location>Chamber of Secrets (Ruins of Eldoria)</location>
+		</task>
+	</tasks>
+</game>
+```

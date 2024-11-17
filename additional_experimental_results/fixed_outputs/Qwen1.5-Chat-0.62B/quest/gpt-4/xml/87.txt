@@ -1,0 +1,45 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+    <title>Dragon's Lair</title>
+    bjective>Purge the dragon from its lair</objective>
+    <description>Long ago, a terrifying dragon took residence in the nearby mountain lair, causing fear and destruction among the villagers. Your task is to venture into the dragon's lair, face the fiery beast, and rid it from our lands once and for all.</description>
+    <reward>5000 Gold, Dragon Slayer Sword</reward>
+    <quest-giver>Village Elder</quest-giver>
+    <tasks>
+        	<task>
+            	<order>1</order>
+            <objective>Find the mountain lair</object>
+            	<description>Use the map given by the elder to locate the dragon's lair</description>
+            监察: Find the mountain lair
+            	logistic: Use the map provided by the elder to locate the dragon's lair, using the "find" order, and ensuring that it is located near a village.
+            机械设备: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensure that it is located near a village. 
+            人力资源: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensure that it is located near a village.
+             Communication: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensuring that it is located near a village. 
+             Security: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensure that it is located near a village. 
+        	<task>
+            	<order>2</order>
+            <objective>Defeat the dragon</object>
+            	<description>Utilize your skills and tools available to defeat the dragon</description>
+            监察: Defeat the dragon
+            	logistic: Use your skills and tools available to defeat the dragon, using the "find" order, and ensuring that it is located near a village. 
+            机械设备: Use the "map" provided by the elder to defeat the dragon, using the "find" order, and ensure that it is located near a village.
+            人力资源: Use the "map" provided by the elder to defeat the dragon, using the "find" order, and ensure that it is located near a village. 
+             Communication: Use the "map" provided by the elder to defeat the dragon, using the "find" order, and ensuring that it is located near a village. 
+             Security: Defeat the dragon
+        	<task>
+            	<order>1</order>
+            <objective>Find the mountain lair</object>
+            	<description>Use the map given by the elder to locate the dragon's lair</description>
+            监察: Find the mountain lair
+            	logistic: Use the "find" order, and ensuring that it is located near a village. 
+            机械设备: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensure that it is located near a village. 
+            人力资源: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensure that it is located near a village.
+             Communication: Use the "map" provided by the elder to locate the dragon's lair, using the "find" order, and ensuring that it is located near a village. 
+             Security: Defeat the dragon
+        	</task>
+     </tasks>
+
+</game>
+```

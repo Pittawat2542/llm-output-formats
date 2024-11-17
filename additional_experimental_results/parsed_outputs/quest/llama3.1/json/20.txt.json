@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "quest-001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient scroll from the lost temple.",
+    "description": "Rumors have been circulating about a hidden temple deep in the jungle, containing an ancient scroll with powerful knowledge. Retrieve the scroll and return it to the village elder.",
+    "reward": "1000 gold pieces and the village elder's gratitude",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Reach the lost temple",
+        "description": "Navigate through the dense jungle to reach the temple.",
+        "location": "Jungle of Eldarath"
+      },
+      {
+        "order": 2,
+        "objective": "Defeat the temple guardian",
+        "description": "Fight off the powerful entity guarding the entrance.",
+        "location": "Lost Temple Entrance"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the ancient scroll",
+        "description": "Search for and retrieve the ancient scroll within the temple.",
+        "location": "Inner Sanctum of Lost Temple"
+      }
+    ]
+  }
+}

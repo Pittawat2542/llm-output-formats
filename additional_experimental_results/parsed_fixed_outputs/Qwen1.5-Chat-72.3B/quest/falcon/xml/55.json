@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've heard rumors that a valuable artifact is hidden within an old ruin. Your quest is to locate and retrieve it, but be cautious - danger lurks around every corner.",
+    "reward": "1000 gold coins and a legendary weapon",
+    "quest-giver": "Gnomish Archaeologist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "You must find the hidden entrance to the ruins, marked by a distinctive symbol\u523b\u5728\u6811\u5e72\u4e0a.",
+          "location": "Forest of Whispering Willows"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian beast",
+          "description": "A fierce creature guards the artifact. You must defeat it to proceed.",
+          "location": "Ruins' Inner Chamber"
+        }
+      ]
+    }
+  }
+}

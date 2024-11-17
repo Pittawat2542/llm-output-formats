@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>id</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>John Doe</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Puzzle</objective>
+            <description>Solve the riddle at the oak tree</description>
+            <location>Forest Edge</location>
+        </task>
+    </tasks>
+</game>
+```

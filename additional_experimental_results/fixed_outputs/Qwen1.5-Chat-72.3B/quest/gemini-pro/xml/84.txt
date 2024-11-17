@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>A Simple Task</title>
+	<objective>Find the missing letter.</objective>
+	<description>There is a missing letter in the alphabet. Find it and bring it back.</description>
+	<reward>A new word.</reward>
+	<quest-giver>Professor Oak</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Search the library for the missing letter.</objective>
+			<description>The missing letter is somewhere in the library. Look carefully.</description>
+			<location>Library</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Bring the missing letter to Professor Oak.</objective>
+			<description>Once you have found the missing letter, bring it back to Professor Oak.</description>
+			<location>Professor Oak's Laboratory</location>
+		</task>
+	</tasks>
+</game>
+```

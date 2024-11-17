@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient scroll from the long-abandoned library in the forgotten village.",
+    "id": "Q1",
+    "objective": "Retrieve the fabled scroll and return it to the town's historian.",
+    "quest_giver": "Elara, the local historian.",
+    "reward": "A magical quill that increases writing speed by 20%.",
+    "tasks": [
+      {
+        "description": "Speak with the villager who last visited the library.",
+        "location": "The village tavern.",
+        "objective": "Gather information about the library's condition and potential dangers.",
+        "order": 1
+      },
+      {
+        "description": "Navigate the treacherous jungle paths to reach the library.",
+        "location": "The jungle north of the village.",
+        "objective": "Avoid deadly creatures and overcome obstacles to reach the library.",
+        "order": 2
+      },
+      {
+        "description": "Locate and retrieve the ancient scroll.",
+        "location": "Inside the library, room 3, on a high shelf.",
+        "objective": "Climb the shelves and navigate the darkened corridors to find the scroll.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Scroll of Knowledge"
+  }
+}

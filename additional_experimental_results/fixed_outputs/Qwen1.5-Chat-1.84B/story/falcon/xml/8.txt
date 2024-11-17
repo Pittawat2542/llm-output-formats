@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://example.com/game.xsd">
+	<title>game title</title>
+	<synopsis>
+		<p>The synopsis of the game.</p>
+	</synopsis>
+	<beginning>{beginning}</beginning>
+	<ending>{ending}</ending>
+</game>
+
+```xml
+Game:
+- Title: game title
+  Synopsis: game story synopsis
+  Beginning: The beginning of the game
+  Ending: The ending of the game
+
+## XML Code Block:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://example.com/game.xsd">
+  <title>game title</title>
+  <synopsis>
+    <p>The synopsis of the game.</p>
+  </synopsis>
+  <beginning>{beginning}</beginning>
+  <ending>{ending}</ending>
+</game>
+```

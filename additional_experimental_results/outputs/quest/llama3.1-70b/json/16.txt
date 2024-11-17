@@ -1,0 +1,44 @@
+```json
+{
+  "game": {
+    "id": "q12345",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath",
+    "description": "The city has been hidden for centuries, and many have attempted to find it but failed. You are tasked with retrieving a powerful artifact that is said to be hidden deep within its walls.",
+    "reward": "A magical amulet granting +10% experience gain, 100 gold pieces, and increased reputation among the kingdom's inhabitants",
+    "quest_giver": "Thorne Blackwood, the Kingdom's Royal Historian",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the Lost City of Eldarath from local scholars",
+        "description": "Speak with the locals and gather any information they might have about the city's location. Be cautious, as rumors spread quickly.",
+        "location": "The Kingdom's Royal Library"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve an ancient map from a local collector",
+        "description": "Meet with the collector and negotiate for the map. They are known to be quite... particular about their items.",
+        "location": "Old Man Jenkins' Curiosity Shop"
+      },
+      {
+        "order": "3",
+        "objective": "Decipher the ancient text on the map to reveal the city's entrance",
+        "description": "Study the map and translate the text. It is said that only those who possess a keen mind for puzzles can decipher its secrets.",
+        "location": "Thorne Blackwood's Study"
+      },
+      {
+        "order": "4",
+        "objective": "Navigate through the treacherous jungle to reach the Lost City of Eldarath",
+        "description": "Brave the dangers of the jungle and press onward, following the map to find the entrance to the lost city.",
+        "location": "The Jungle"
+      },
+      {
+        "order": "5",
+        "objective": "Retrieve the ancient artifact from within the Lost City of Eldarath",
+        "description": "Overcome the challenges that lie within and claim the artifact as your own. Be prepared for the unexpected.",
+        "location": "The Lost City of Eldarath"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,14 @@
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+order:
+  dialogues:
+    Game:
+      order: dialogue order
+      speaker: key (name)
+        ---
+        key: text
+          text: 'The text of the dialogue'
+

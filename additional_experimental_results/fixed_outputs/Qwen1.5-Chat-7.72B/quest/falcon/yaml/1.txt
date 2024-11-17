@@ -1,0 +1,15 @@
+```yaml
+game:
+  description: quest description
+  id: "unique_game_id"
+  objective: "quest_objective"
+  quest_giver: "quest_giver_name"
+  reward: "reward_description"
+  tasks:
+    - description: "task0_description"
+      location: "task0_location"
+      objective: "task0_objective"
+      order: "0"
+  title: "quest_title"
+
+```

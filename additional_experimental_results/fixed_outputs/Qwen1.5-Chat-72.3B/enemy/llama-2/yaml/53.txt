@@ -1,0 +1,529 @@
+```yaml
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 1
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 50
+      hp: 75
+      mp: 25
+      spd: 90
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 2
+    name: "Defense"
+    stats:
+      atk: 30
+      def: 120
+      hp: 80
+      mp: 40
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 3
+    name: "HP"
+    stats:
+      atk: 70
+      def: 90
+      hp: 150
+      mp: 80
+      spd: 70
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 4
+    name: "MP"
+    stats:
+      atk: 25
+      def: 60
+      hp: 100
+      mp: 120
+      spd: 85
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 5
+    name: "SPD"
+    stats:
+      atk: 95
+      def: 45
+      hp: 65
+      mp: 30
+      spd: 120
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 6
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 75
+      hp: 85
+      mp: 45
+      spd: 95
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 7
+    name: "Defense"
+    stats:
+      atk: 25
+      def: 100
+      hp: 80
+      mp: 40
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 8
+    name: "HP"
+    stats:
+      atk: 75
+      def: 90
+      hp: 135
+      mp: 70
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 9
+    name: "MP"
+    stats:
+      atk: 20
+      def: 80
+      hp: 100
+      mp: 130
+      spd: 75
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 10
+    name: "SPD"
+    stats:
+      atk: 90
+      def: 60
+      hp: 70
+      mp: 35
+      spd: 110
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 11
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 85
+      hp: 90
+      mp: 50
+      spd: 100
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 12
+    name: "Defense"
+    stats:
+      atk: 35
+      def: 110
+      hp: 85
+      mp: 45
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 13
+    name: "HP"
+    stats:
+      atk: 70
+      def: 95
+      hp: 120
+      mp: 65
+      spd: 70
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 14
+    name: "MP"
+    stats:
+      atk: 30
+      def: 85
+      hp: 90
+      mp: 125
+      spd: 75
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 15
+    name: "SPD"
+    stats:
+      atk: 105
+      def: 60
+      hp: 80
+      mp: 40
+      spd: 115
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 16
+    name: "Boss"
+    stats:
+      atk: 95
+      def: 70
+      hp: 85
+      mp: 45
+      spd: 105
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 17
+    name: "Defense"
+    stats:
+      atk: 20
+      def: 95
+      hp: 80
+      mp: 40
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 18
+    name: "HP"
+    stats:
+      atk: 75
+      def: 90
+      hp: 125
+      mp: 65
+      spd: 70
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 19
+    name: "MP"
+    stats:
+      atk: 35
+      def: 80
+      hp: 100
+      mp: 120
+      spd: 80
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 20
+    name: "SPD"
+    stats:
+      atk: 95
+      def: 65
+      hp: 70
+      mp: 40
+      spd: 110
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 21
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 85
+      hp: 90
+      mp: 45
+      spd: 100
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 22
+    name: "Defense"
+    stats:
+      atk: 30
+      def: 110
+      hp: 85
+      mp: 45
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 23
+    name: "HP"
+    stats:
+      atk: 75
+      def: 95
+      hp: 115
+      mp: 60
+      spd: 70
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 24
+    name: "MP"
+    stats:
+      atk: 40
+      def: 80
+      hp: 90
+      mp: 130
+      spd: 75
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 25
+    name: "SPD"
+    stats:
+      atk: 100
+      def: 65
+      hp: 80
+      mp: 40
+      spd: 105
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 26
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 90
+      hp: 85
+      mp: 45
+      spd: 95
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 27
+    name: "Defense"
+    stats:
+      atk: 30
+      def: 105
+      hp: 85
+      mp: 40
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 28
+    name: "HP"
+    stats:
+      atk: 75
+      def: 95
+      hp: 130
+      mp: 60
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 29
+    name: "MP"
+    stats:
+      atk: 45
+      def: 80
+      hp: 100
+      mp: 125
+      spd: 75
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 30
+    name: "SPD"
+    stats:
+      atk: 100
+      def: 65
+      hp: 80
+      mp: 40
+      spd: 105
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 31
+    name: "Boss"
+    stats:
+      atk: 95
+      def: 75
+      hp: 85
+      mp: 40
+      spd: 100
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 32
+    name: "Defense"
+    stats:
+      atk: 25
+      def: 115
+      hp: 85
+      mp: 40
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 33
+    name: "HP"
+    stats:
+      atk: 75
+      def: 100
+      hp: 120
+      mp: 55
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 34
+    name: "MP"
+    stats:
+      atk: 50
+      def: 80
+      hp: 100
+      mp: 120
+      spd: 80
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 35
+    name: "SPD"
+    stats:
+      atk: 95
+      def: 70
+      hp: 80
+      mp: 40
+      spd: 105
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 36
+    name: "Boss"
+    stats:
+      atk: 95
+      def: 75
+      hp: 85
+      mp: 40
+      spd: 100
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 37
+    name: "Defense"
+    stats:
+      atk: 25
+      def: 120
+      hp: 85
+      mp: 40
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 38
+    name: "HP"
+    stats:
+      atk: 75
+      def: 95
+      hp: 125
+      mp: 55
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 39
+    name: "MP"
+    stats:
+      atk: 45
+      def: 80
+      hp: 100
+      mp: 125
+      spd: 75
+
+game:
+  enemy:
+    description: "An enemy with a high speed stat."
+    id: 40
+    name: "SPD"
+    stats:
+      atk: 95
+      def: 65
+      hp: 80
+      mp: 40
+      spd: 105
+
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 41
+    name: "Boss"
+    stats:
+      atk: 95
+      def: 75
+      hp: 85
+      mp: 40
+      spd: 100
+
+game:
+  enemy:
+    description: "An enemy with a high defense stat."
+    id: 42
+    name: "Defense"
+    stats:
+      atk: 30
+      def: 110
+      hp: 85
+      mp: 40
+      spd: 60
+
+game:
+  enemy:
+    description: "An enemy with a high health stat."
+    id: 43
+    name: "HP"
+    stats:
+      atk: 75
+      def: 95
+      hp: 125
+      mp: 50
+      spd: 65
+
+game:
+  enemy:
+    description: "An enemy with a high magic stat."
+    id: 44
+    name: "MP"
+    stats:
+      atk: 40
+      def: 80
+      hp: 100
+      mp: 130
+      spd: 75
+```

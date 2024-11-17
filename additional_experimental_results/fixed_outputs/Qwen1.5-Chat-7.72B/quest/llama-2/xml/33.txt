@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Update Quest Objective</objective>
+    <description>Updated Quest Description</description>
+    <reward>Gold Bar</reward>
+    <quest-giver>Old Smith</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Ancient Artifact</objective>
+            <description>Search the Forest to the West</description>
+            <location>Forest Clearing</location>
+        </task>
+    </tasks>
+</game>
+```

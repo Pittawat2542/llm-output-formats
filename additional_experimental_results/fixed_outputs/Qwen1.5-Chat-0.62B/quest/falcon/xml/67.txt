@@ -1,0 +1,57 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	 objective>Complete the quest</objective>
+	 description>I will test your mettle. Good luck!</description>
+	 reward>
+	 XML rewards
+	 <quest-giver>Only I can complete it!</quest-giver>
+</game>
+
+```
+New values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	 objective>Complete the quest</objective>
+	 description>I will test your mettle. Good luck!</description>
+	 reward>
+	 XML rewards
+	 <quest-giver>Only I can complete it!</quest-giver>
+</game>
+
+```
+Output in Markdown format:
+```-template
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quest Title</title>
+    <objective>Complete the quest</objective>
+    <description>I will test your mettle. Good luck!</description>
+    <reward>
+        XML rewards
+        <quest-giver>Only I can complete it!</quest-giver>
+    </reward>
+</head>
+<body>
+    <game>
+        <id>1234</id>
+        <title>Quest Title</title>
+        <objective>Complete the quest</objective>
+        <description>I will test your mettle. Good luck!</description>
+        < reward>
+            XML rewards
+            <quest-giver>Only I can complete it!</quest-giver>
+        </reward>
+    </game>
+
+</body>
+</html>
+```
+Note that in the original code, " Quest Title" was misspelled as "Quest Title". In the corrected code, " Quest Title" is now spelled correctly.

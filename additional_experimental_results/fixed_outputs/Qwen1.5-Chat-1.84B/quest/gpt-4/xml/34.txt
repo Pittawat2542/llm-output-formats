@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Save the Princess</title>
+	<objective>Rescue the kidnapped princess from the dragon</objective>
+	<description>The dragon has taken our beloved princess. Travel through treacherous terrains, solve challenging puzzles, and finally, defeat the dragon to save our princess.</description>
+	<reward>Kingdom's Gratitude Shard + 3000 gold coins</reward>
+	<quest-giver>King Leopold</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Find the Old Sword</objective>
+				<description>Search in the Old Forest to find the legendary sword that once defeated a dragon</description>
+			<location>Old Forest</location>
+			</task>
+				<order>2</order>
+				<objective>Defeat the Shadow Guards</objective>
+				<description>Traverse the Dangerous Mountains and defeat the Shadow Guards protecting the dragon</description>
+			<location>Dangerous Mountains</location>
+			</task>
+				<order>3</order>
+				<objective>Solve the Dragon's Puzzle</objective>
+				<description>Use your knowledge of magic to solve the intricate puzzles that guard the entrance to the dragon cave</description>
+			<location>Dragon's Cave</location>
+			</task>
+				<order>4</order>
+				<objective>Reward the Princess</objective>
+				<description>Celebrate your victory with a grand feast and reward your hard work</description>
+			<location>Dragon's Palace</location>
+			</task>
+				<order>5</order>
+				<objective>Defend against the Shadow Guards</objective>
+				<description>Battle the Shadow Guard army to protect the castle from further attacks</description>
+			<location>Castle Defense</location>
+			</task>
+				<order>6</order>
+				<objective>Save the Princess</objective>
+				<description>Confront the dragon once again in a fierce battle for the fate of our kingdom</description>
+			<location>Dragon's Den</location>
+			</task>
+				<order>7</order>
+				<objective>Cast an Arrows at the Dragon</objective>
+				<description>Use your arrow skills to weaken the dragon's defenses and attack from a new angle</description>
+			<location>Dragon's Lair</location>
+			</task>
+				<order>8</order>
+				<objective>Escape the Castle</objective>
+				<description>Utilize your wits and quick reflexes to outsmart the dragon's traps and make a daring escape from its grasp</description>
+			<location>The Castle Caves</location>
+			</task>
+				<order>9</order>
+				<objective>Fight the Dragon Once More</objective>
+				<description>Confront the dragon once more in a final battle for the fate of our kingdom</description>
+			<location>Dragon's Den</location>
+			</task>
+				<order>10</order>
+				<objective>Cast an Arrows at the Dragon</objective>
+				<description>Use your arrow skills to weaken the dragon's defenses and attack from a new angle</description>
+			<location>Dragon's Lair</location>
+			</task>
+	</tasks>
+</game>
+```

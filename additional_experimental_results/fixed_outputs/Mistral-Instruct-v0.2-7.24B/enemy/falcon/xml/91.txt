@@ -1,0 +1,40 @@
+```xml
+<status xmlns="http://enumeration.org/status">
+  <game>
+    <enemy id="id1">
+      <name>Goblin</name>
+      <description>A common enemy found in the forest.</description>
+      <stats>
+        <hp value="30"/>
+        <mp value="5"/>
+        <atk value="5"/>
+        <def value="2"/>
+        <spd value="6"/>
+      </stats>
+    </enemy>
+    <enemy id="id2">
+      <name>Wolf</name>
+      <description>A wild animal that roams the forest.</description>
+      <stats>
+        <hp value="50"/>
+        <mp value="10"/>
+        <atk value="8"/>
+        <def value="3"/>
+        <spd value="4"/>
+      </stats>
+    </enemy>
+    <enemy id="id3">
+      <name>Skeleton</name>
+      <description>An undead creature that haunts the ruins.</description>
+      <stats>
+        <hp value="20"/>
+        <mp value="3"/>
+        <atk value="4"/>
+        <def value="1"/>
+        <spd value="5"/>
+      </stats>
+    </enemy>
+  </game>
+</status>
+```
+```

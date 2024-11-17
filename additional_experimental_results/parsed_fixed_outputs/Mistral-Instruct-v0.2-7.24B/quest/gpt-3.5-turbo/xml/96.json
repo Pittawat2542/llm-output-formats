@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a journey to find the legendary lost treasure. Solve puzzles, defeat enemies, and overcome obstacles to reach the final destination and claim the riches that await.",
+    "reward": "A chest full of gold and jewels",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search for clues at the old ruins",
+          "description": "Explore the ancient ruins nestled deep in the jungle. Search for hidden artifacts and decipher the clues left by previous adventurers.",
+          "location": "Jungle"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian serpent",
+          "description": "Battle the fearsome guardian serpent who protects the entrance to the treasure chamber. Use strategy and your wits to overcome this formidable foe.",
+          "location": "Treasure Chamber Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Unlock the secret door with the ancient key",
+          "description": "Find the ancient key hidden in a hidden compartment. Use it to unlock the secret door that leads to the heart of the treasure chamber.",
+          "location": "Treasure Chamber Secret Door"
+        },
+        {
+          "order": "4",
+          "objective": "Collect the hidden treasure",
+          "description": "Marvel at the sight of countless gold and jewels as you finally reach the hidden treasure. Collect as much as you can carry!",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

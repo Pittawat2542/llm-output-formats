@@ -1,0 +1,27 @@
+No errors. The original XML is valid and can be used as a reference. Here's the corrected XML:
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age in integer value</age>
+		<role>character role in string value</role>
+		<background>background story in string value</background>
+		<place-of-birth>text</place-of-birth>
+		<physical-appearance>
+				<eye-color>eye color angle code</eye-color>
+			<hair-color>hair color angle code</hair-color>
+				<height>exact height in inch value</height>
+				<weight>exact weight in pound value</weight>
+				<physical-appearance>
+					<eye-color>eye color angle code</eye-color>
+				<hair-color>hair color angle code</hair-color>
+					<height>exact height in inch value</height>
+					<weight>exact weight in pound value</weight>
+				</physical-appearance>
+			</physical-appearance>
+	</character> 
+</game>
+```

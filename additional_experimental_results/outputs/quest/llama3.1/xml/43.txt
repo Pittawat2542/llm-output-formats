@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q12345</id>
+    <title>The Lost City of Gold</title>
+    <objective>Raise the ancient temple and claim its treasure.</objective>
+    <description>Gather resources, build bridges, and overcome obstacles to reach the lost city of gold.</description>
+    <reward>A magical amulet worth 1000 gold coins</reward>
+    <quest-giver>Baroness Elara at the Town Hall</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather 10 wooden planks from the forest.</objective>
+            <description>You need to collect 10 wooden planks for the bridge construction. Be careful, as the forest is home to many dangers.</description>
+            <location>The Forest of Wonders, near the old oak tree</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Build a bridge over the river using 5 wooden planks and some rope.</objective>
+            <description>You need to build a sturdy bridge to cross the river. Be careful not to fall into the water!</description>
+            <location>The River Crossing, near the old mill</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Overcome the obstacle of the ancient temple's traps.</objective>
+            <description>You need to navigate through the treacherous traps and puzzles to reach the heart of the temple.</description>
+            <location>The Ancient Temple, near the entrance</location>
+        </task>
+    </tasks>
+</game>
+```

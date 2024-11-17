@@ -1,0 +1,19 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Artifact Recovery",
+    "objective": "Recover the ancient artifact from the Dragon's Lair",
+    "description": "You are tasked to brave the treacherous Dragon's Lair and recover the ancient artifact that is said to hold ancient magic.",
+    "reward": "5000 gold pieces and a mystical amulet",
+    "quest-giver": "The high mage Elrond",
+    "tasks": {
+      "task": {
+        "@id": "1",
+        "order": "1",
+        "objective": "Reach the Dragon's Lair",
+        "description": "Travel through the Dark Forest, across the desert of Zar, to the entrance of the Dragon's Lair.",
+        "location": "Dragon's Lair"
+      }
+    }
+  }
+}

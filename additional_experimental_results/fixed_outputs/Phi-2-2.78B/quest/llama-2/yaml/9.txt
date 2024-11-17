@@ -1,0 +1,33 @@
+
+- **game** (dict) : {"description": "The quest description", "id": "1", "objective": "The objective", "quest_giver": "The quest giver", "reward": "The quest reward", "tasks": [], "title": ""}
+  - **description** (string): "The quest description"
+  - **id** (integer): 1
+  - **objective** (string): "The objective"
+  - **quest_giver** (string): "The quest giver"
+  - **reward** (string): "The quest reward"
+  - **tasks** : []
+  - **title** (string): ""
+
+
+### Error:
+
+- **error** (dict) : {"message": "TODO", "code": "", "level": 0}
+    - **message** (string) : "TODO"
+```
+
+## Example output
+
+```yaml
+game:
+  description: "The quest description"
+  id: "1"
+  objective: "The objective"
+  quest_giver: "The quest giver"
+  reward: "The quest reward"
+  tasks:
+  - description: "The task description"
+   location: "The task location"
+   objective: "The task objective"
+   order: "The task order"
+  title: "The quest title"
+```

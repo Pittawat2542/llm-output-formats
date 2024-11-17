@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient artifact hidden within the temple.",
+    "description": "An ancient text has revealed the location of a long-lost temple dedicated to the Moon Goddess. The temple is said to contain an artifact of great power and significance. Brave adventurers are needed to explore the temple, overcome its challenges, and retrieve the artifact.",
+    "reward": "500 gold pieces, a magical amulet granting resistance to darkness",
+    "quest-giver": "High Priestess Aria Moonwhisper",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the temple's location and layout.",
+          "description": "Speak with the local villagers, gather rumors and clues to uncover the secrets of the temple's location and layout.",
+          "location": "Village of Oakwood"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the treacherous jungle to reach the temple entrance.",
+          "description": "Brave the dangers of the jungle, avoid deadly traps and creatures to reach the entrance of the temple.",
+          "location": "Jungle of Shadows"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the puzzles and unlock the inner sanctum of the temple.",
+          "description": "Use your wit and cunning to overcome the ancient traps and puzzles, unlock the doors leading to the artifact's resting place.",
+          "location": "Temple of the Moon Goddess"
+        }
+      ]
+    }
+  }
+}

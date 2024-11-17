@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest of the Lost Key",
+    "objective": "Find the ancient artifact",
+    "description": "Cover 10 locations in 7 days to earn the reward",
+    "reward": "Gold and a magical amulet",
+    "quest-giver": "Old Mapmaker",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Discover the hidden cave",
+        "description": "Cross the river at sunset",
+        "location": "East of the village"
+      }
+    }
+  }
+}

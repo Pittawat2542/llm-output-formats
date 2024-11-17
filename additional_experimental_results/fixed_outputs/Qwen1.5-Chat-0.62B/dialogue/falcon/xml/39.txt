@@ -1,0 +1,30 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<!-- replace " Speaker" with "Speaker Name", "Text" with "Dialogue Text" -->
+			<h2>Dialog 1</h2>
+			<p class="dialogue">
+				Order: dialogue order
+				Speakers: speaker name
+				text: dialogue or narration
+			</p>
+
+			<h2>Dialog 2</h2>
+			<p class="dialogue">
+			(Order: dialogue order)
+				Speakers: speaker name
+				text: dialogue or narration
+			</p>
+
+			<h2>Dialog 3</h2>
+			<p class="dialogue">
+			(Order: dialogue order)
+				Speakers: speaker name
+				text: dialogue or narration
+			</p>
+	</dialogues>
+</game>
+```
+The code above is correct and should output the requested XML data in Markdown format.

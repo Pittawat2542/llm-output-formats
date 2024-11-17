@@ -1,0 +1,24 @@
+No syntax errors were found in the original YAML data provided. Here it is again in a code block:
+
+```yaml
+game:
+  description: Enter the Lost City
+  id: 12345
+  objective: Retrieve the sacred artifact from the Lost City
+  quest_giver: Elderly Sage
+  reward: Ancient Ring of Power
+  tasks:
+   - description: Gather information about the Lost City
+     location: Town Library
+     objective: Talk to the Librarian
+     order: 1
+   - description: Find a guide to accompany you
+     location: Inn
+     objective: Speak with the Innkeeper
+     order: 2
+   - description: Explore the Lost City and find the artifact
+     location: Lost City
+     objective: Search for the hidden chamber
+     order: 3
+  title: The Lost City
+```

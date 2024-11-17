@@ -1,0 +1,28 @@
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  title: Galaxy Assault
+  synopsis: game story synopsis
+
+## Solution
+
+# Original:
+# ```yaml
+# title: Galaxy Assault
+# game:
+#   beginning: the beginning of the game
+#   ending: the ending of the game
+#   synopsis: game story synopsis
+
+```
+
+# Fixed:
+# ```yaml
+game:
+    title: Galaxy Assault
+    beginning: the beginning of the game
+    ending: the ending of the game
+    synopsis: game story synopsis
+
+```
+

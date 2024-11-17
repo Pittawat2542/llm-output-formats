@@ -1,0 +1,20 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+
+quest:
+  game: # Added the missing key
+    - descriptions: [] # Removed unnecessary list for a single item, assuming 'description' should be singular
+  title: quest title
+  tasks:
+    - description: "" # Removed the empty string description
+```

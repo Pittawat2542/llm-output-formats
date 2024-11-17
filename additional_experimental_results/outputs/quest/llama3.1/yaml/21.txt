@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: The village of Oakwood has been plagued by a series of strange occurrences. Livestock has gone missing, and some villagers have even reported seeing shadowy figures lurking in the forest.
+  id: q1
+  objective: Investigate the strange happenings in Oakwood Village and put an end to whatever evil is afflicting it.
+  quest_giver: The village elder
+  reward: A magical amulet that grants resistance to fear
+  tasks:
+  - description: Speak with the local farmer who has lost several head of cattle.
+    location: Oakwood Farm
+    objective: Gather information about the missing livestock.
+    order: 1
+  - description: Explore the forest and search for any signs of dark magic.
+    location: The Dark Forest
+    objective: Find evidence of the source of the strange occurrences.
+    order: 2
+  - description: Confront and defeat the source of the darkness in Oakwood Village.
+    location: Oakwood Village at night
+    objective: Put an end to whatever evil is afflicting Oakwood.
+    order: 3
+  title: The Shadows of Oakwood
+```

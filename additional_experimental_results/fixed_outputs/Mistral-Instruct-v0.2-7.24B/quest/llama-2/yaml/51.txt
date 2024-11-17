@@ -1,0 +1,20 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+    title: task title
+```
+### Explanation:
+The problem was that the tasks were not defined correctly as a list. The fix is to add `-` before each task to define it as a list item. Additionally, I added a 'title' key for the first task, as the original YAML provided this key for all other keys except tasks. This is just an assumption based on the context of the given YAML, as no information about this was provided in the error message.
+
+### References:
+- [YAML List Syntax](https://yaml.org/spec/1.2/spec.html#id2756813)
+- [YAML Scalar Values](https://yaml.org/spec/1.2/spec.html#id2756861)

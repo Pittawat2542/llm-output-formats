@@ -1,0 +1,15 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: quest order
+  title: Quest Title # Added correct 'title' key with a value
+```
+The YAML data has been fixed by adding the missing 'title' key with a value. The corrected YAML is provided in the code block above.

@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>In this quest, you must explore the forgotten ruins in search of a lost artifact. Beware of treacherous traps and fierce guardians that protect it.</description>
+	<reward>1000 experience points and a magical amulet</reward>
+	<quest-giver>Guru Zara</quest-giver>
+	<location Ruins of Zoluren</location>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the ruins and locate the entrance to the artifact chamber.</objective>
+			<description>You need to find a hidden door within the ruins, marked by an ancient symbol.</description>
+			<location>Ruins' Central Tower</location>
+		</task>
+	</tasks>
+</game>
+```

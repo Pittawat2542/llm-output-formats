@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>3456</id>
+    <title>The Quest for the Lost Relic</title>
+    <objective>Recover the Sacred Artifact from the Temple of Amun</objective>
+    <description>The Sacred Artifact holds great historical significance and is believed to possess powerful protection. The quest requires navigating ancient ruins and deciphering cryptic clues.</description>
+    <reward>500 gold pieces + artifact</reward>
+    <quest-giver>Queen Cleopatra's Advisor</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover Temple of Amun's location</objective>
+            <description>Produce the map to lead you to the temple. Uncover the hidden entrance nearby a sacred well.</description>
+            <location>"Northwest of Alexandria, near Sacred Well"</location>
+        </task>
+    </tasks>
+</game>
+```

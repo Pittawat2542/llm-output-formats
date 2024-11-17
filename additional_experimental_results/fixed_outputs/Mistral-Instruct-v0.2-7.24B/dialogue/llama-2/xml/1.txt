@@ -1,0 +1,46 @@
+```xml
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>"Hello, I'd like to purchase a new sword."</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Merchant</speaker>
+			<text>"Ah, greetings traveler! I have several swords to offer. Which one would you prefer?"</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>"I think I'll go with the silver sword. How much does it cost?"</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Merchant</speaker>
+			<text>"The silver sword costs 50 gold coins. Do you have enough?"</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>"Yes, I do."</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>Merchant</speaker>
+			<text>"Excellent! The silver sword is a fine choice. Here you go."</text>
+		</dialogue>
+		<dialogue>
+			<order>7</order>
+			<speaker>Player</speaker>
+			<text>"Thank you, merchant. That was a fair price."</text>
+		</dialogue>
+		<dialogue>
+			<order>8</order>
+			<speaker>Merchant</speaker>
+			<text>"You're welcome, traveler! Have a safe journey and may your adventures be fruitful!"</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

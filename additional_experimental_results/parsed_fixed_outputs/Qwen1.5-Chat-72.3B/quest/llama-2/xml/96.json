@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "You've heard rumors that the lost artifact is hidden in a long-forgotten ruin deep in the jungle. Your quest is to navigate the treacherous terrain, solve the puzzles, and bring back the artifact.",
+    "reward": "1000 experience points and a legendary weapon blueprint",
+    "quest-giver": "Guru Zara",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "Talk to the local villagers and gather information about the location of the ruins.",
+          "location": "Jungle Village"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the puzzle at the entrance",
+          "description": "You'll find a riddle on a stone pedestal. Decipher it to open the ruins.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the maze-like corridors",
+          "description": "The artifact is said to be in the heart of the ruins. Be careful, as traps and ancient guardians await.",
+          "location": "Ruins Interior"
+        },
+        {
+          "order": "4",
+          "objective": "Recover the artifact",
+          "description": "The final challenge lies in a chamber guarded by a statue. Retrieve the artifact and make your way back.",
+          "location": "Ruins Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

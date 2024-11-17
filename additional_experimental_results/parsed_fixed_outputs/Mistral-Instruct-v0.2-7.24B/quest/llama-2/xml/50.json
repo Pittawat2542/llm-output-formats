@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Quest for the Capital",
+    "objective": "Find the capital of the United States",
+    "description": "The capital of the United States is an important historical and political site. Help find it!",
+    "reward": "100 gold pieces",
+    "quest-giver": "Town Crier",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Visit the Library and learn about the history of the United States",
+          "description": "The library contains many books with information about the history of the United States. Speak to the librarian for assistance.",
+          "location": "City Hall"
+        },
+        {
+          "order": "2",
+          "objective": "Speak to the Historian at the Museum of American History",
+          "description": "The historian has a wealth of knowledge about the history and culture of the United States. Speak to them for more information.",
+          "location": "Museum of American History"
+        },
+        {
+          "order": "3",
+          "objective": "Find Washington, D.C.",
+          "description": "Using the information gathered from the library and museum, locate the capital city of the United States: Washington, D.C.",
+          "location": "Washington, D.C."
+        }
+      ]
+    }
+  }
+}

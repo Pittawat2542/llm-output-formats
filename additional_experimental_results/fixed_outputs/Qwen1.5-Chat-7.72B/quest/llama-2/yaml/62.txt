@@ -1,0 +1,23 @@
+The YAML syntax in the provided message has a few issues. Here's the corrected YAML code block:
+
+```yaml
+game:
+  description: A quest to find the lost treasure.
+  id: 12345 # Change this ID to a valid number or string
+  objective: Discover the hidden treasure
+  quest_giver: The Great Archaeologist
+  reward: An ancient artifact
+  tasks:
+    - description: Explore the dense forest
+      location: Woodland Path
+      objective: Search for clues
+      order: 1
+    - description: Cross the rickety bridge
+      location: Bridge Over River
+      objective: Reach the other side
+      order: 2
+    # ... (rest of the tasks with proper indentation and removed unnecessary repetition)
+
+title: The Quest for the Lost Treasure
+```
+Please make sure to replace `12345` in the `id` field with a valid unique identifier if needed. If there are no specific changes required, you can return this YAML as is.

@@ -1,0 +1,36 @@
+```xml
+<game>
+    <id>q001</id>
+    <title>The Stolen Amulet</title>
+    <objective>Retrieve the stolen amulet from the goblins.</objective>
+    <description>The amulet of the ancients was stolen by a group of goblins. The amulet is a powerful artifact that can be used to control the weather. If it falls into the wrong hands, it could be disastrous. You must retrieve the amulet before it is too late.</description>
+    <reward>Amulet of the Ancients and 100 gold.</reward>
+    <quest-giver>Barclay the Wise</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the Goblin Caves.</objective>
+            <description>The Goblin Caves are located in the Dark Forest, east of the village. They are guarded by a pack of goblins, so be careful.</description>
+            <location>DarkForest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the stolen amulet.</objective>
+            <description>The amulet is hidden in a secret chamber in the Goblin Caves. You will need to search carefully to find it.</description>
+            <location>GoblinCaves</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat Gorn, the goblin leader.</objective>
+            <description>The powerful warrior Gorn guards the stolen amulet. Be cautious in your battle.</description>
+            <location>GoblinCaves</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Return the amulet to Barclay.</objective>
+            <description>After retrieving the amulet, bring it back to Barclay the Wise in the village for safekeeping.</description>
+            <location>Village</location>
+        </task>
+    </tasks>
+</game>
+```

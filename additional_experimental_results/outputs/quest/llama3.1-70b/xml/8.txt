@@ -1,0 +1,27 @@
+Here is the quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>Q001</id>
+  <title>The Lost Temple of the Moon Goddess</title>
+  <objective>Retrieve the legendary Sceptre of Light from the ancient temple</objective>
+  <description>Rumors have been circulating about a hidden temple deep in the forest, where the ancient moon goddess once resided. The temple is said to contain a powerful artifact known as the Sceptre of Light, which has the power to bring light to even the darkest of places. However, the temple is guarded by treacherous terrain and fearsome creatures.</description>
+  <reward>10,000 gold pieces and the blessing of the moon goddess</reward>
+  <quest-giver>Elder Elwynn, Village Elder of Oakwood Village</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the temple's location from the village elder</objective>
+      <description>Speak to Elder Elwynn in Oakwood Village to learn more about the temple's location and any potential dangers that lie within.</description>
+      <location>Oakwood Village, Village Hall</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Retrieve a map from the village cartographer</objective>
+      <description>Visit the village cartographer to obtain a detailed map of the surrounding area and locate any potential paths leading to the temple.</description>
+      <location>Oakwood Village, Cartographer's Hut</location>
+    </task>
+  </tasks>
+</game>
+```

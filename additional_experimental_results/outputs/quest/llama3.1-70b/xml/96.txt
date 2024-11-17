@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Quest001</id>
+	<title>The Lost Temple of the Moon Goddess</title>
+	<objective>Retrieve the ancient artifact hidden within the Lost Temple of the Moon Goddess.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple dedicated to an ancient moon goddess. Legends say that within its walls lies a powerful artifact that can bring prosperity and protection to our people. Your task is to find this temple, retrieve the artifact, and return it to us before rival treasure hunters do.</description>
+	<reward>1000 gold coins, +2 reputation points with the Guild of Explorers</reward>
+	<quest-giver>Elder Thorne, leader of the Guild of Explorers</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the Lost Temple's location.</objective>
+			<description>Talk to local villagers and travelers to gather rumors and clues about the temple's whereabouts.</description>
+			<location>Village of Oakwood</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the treacherous Jungle of Shadows to reach the Lost Temple.</objective>
+			<description>Face the dangers of the jungle, including giant spiders and ferocious beasts, as you make your way towards the temple.</description>
+			<location>Jungle of Shadows</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retailve the artifact from within the Lost Temple's inner sanctum.</objective>
+			<description>Avoid deadly traps and overcome powerful guardians to claim the artifact.</description>
+			<location>Lost Temple of the Moon Goddess (inner sanctum)</location>
+		</task>
+	</tasks>
+</game>
+```

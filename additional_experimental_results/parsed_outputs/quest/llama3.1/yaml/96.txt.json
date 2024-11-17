@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "Explore the ancient ruins and retrieve the fabled Scepter of Light.",
+    "id": "q001",
+    "objective": "Retrieve the Scepter of Light to restore balance to the land.",
+    "quest_giver": "Eryndor Thorne, the village elder",
+    "reward": "The Scepter of Light, a +5 bonus to intelligence, and 1000 gold pieces",
+    "tasks": [
+      {
+        "description": "Speak with the village elder about the ruins.",
+        "location": "Village of Brindlemark",
+        "objective": "Gather information about the ancient ruins.",
+        "order": 1
+      },
+      {
+        "description": "Explore the ancient temple and find the Scepter of Light.",
+        "location": "Ancient Ruins of Zanar",
+        "objective": "Retrieve the Scepter of Light from the temple.",
+        "order": 2
+      }
+    ],
+    "title": "The Lost Scepter of Light"
+  }
+}

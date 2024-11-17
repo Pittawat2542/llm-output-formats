@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: exact_age
+    background: background_story
+    first_name: John Doe
+    id: 1234567890
+    last_name: Smith
+    physical_appearance:
+      - eye_color: blue
+        hair_color: brown
+        height: 6.5
+        weight: 180
+    place_of_birth: "New York, USA" # No need for date in this case
+    role: main_protagonist
+    species: human
+
+```

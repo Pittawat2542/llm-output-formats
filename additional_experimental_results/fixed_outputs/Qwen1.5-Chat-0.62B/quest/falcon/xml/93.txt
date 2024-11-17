@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?> <game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<!-- tasks array --> <task>
+	<title> Quest Task Title</title>
+	<body>Quest task body</body>
+</game>
+
+```
+Now, the code is correct and only includes the tasks array. The Markdown code block format is provided between ```xml and ```.
+
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>quest title</title>
+	 Objective: Quest objective
+	 Task: Quest task body
+</game>
+```
+The output in XML format is:
+```xml
+<!DOCTYPE game [
+  <id>id</id>
+  <title>Quest Title</title>
+  <objective>Quest objective</objective>
+  <task>Quest task body</task>
+]]
+```

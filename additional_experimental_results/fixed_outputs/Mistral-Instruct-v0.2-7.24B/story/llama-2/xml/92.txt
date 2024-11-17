@@ -1,0 +1,16 @@
+The original XML data is incorrect, it should be converted to include valid XML structure. Below is the corrected XML data based on your template:
+
+<?xml version="1.0" ?>
+<game>
+    <questions>
+        <question number="Q1">Is the game a horror game?</question>
+        <question number="Q2">Is the game a horror game?</question>
+	</questions>
+    <answers>
+        <answer number="A1" questionNumber="Q1">1</answer>
+        <answer number="A2" questionNumber="Q1">0</answer>
+        <answer number="A1" questionNumber="Q2">1</answer>
+        <answer number="A2" questionNumber="Q2">0</answer>
+	</answers>
+</game>
+```

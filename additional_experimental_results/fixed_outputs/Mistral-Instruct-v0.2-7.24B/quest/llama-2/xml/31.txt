@@ -1,0 +1,44 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The quest</title>
+	<objective>Find the treasure</objective>
+	<description>Find the treasure in the dungeon</description>
+	<reward>A magic wand</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the treasure in the dungeon</objective>
+			<description>Search for the hidden treasure in the deep and dark dungeon.</description>
+			<location>The Dungeons of Eldoria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Ogre Guardian</objective>
+			<description>Slay the fearsome Ogre Guardian that blocks your way to the treasure chamber.</description>
+			<location>Ogre's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the lost map</objective>
+			<description>Retrieve the ancient map that shows the location of the treasure chamber.</description>
+			<location>The Old Library</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Solve the riddle of the three gates</objective>
+			<description>Solve the ancient riddle to open the door to the treasure chamber.</description>
+			<location>The Temple of Riddles</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Escape the traps and puzzles in the Treasure Chamber</objective>
+			<description>Navigate through the deadly traps and ingenious puzzles to reach the treasure.</description>
+			<location>The Treasure Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

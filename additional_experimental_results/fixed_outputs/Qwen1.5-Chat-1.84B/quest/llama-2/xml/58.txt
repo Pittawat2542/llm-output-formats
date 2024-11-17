@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<game id="1">
+    <title>The Quest</title>
+    <objective Find the Dragon's Gold</objective>
+    <description>This quest is about finding the Dragon's Gold</description>
+    <reward>10000 Gold</reward>
+    <quest-giver The Dragon</quest-giver>
+    <tasks>
+        <task order="1" objective="Find the Dragon's Gold">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+        <task order="2" objective="Find the Dragon's Gold">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+        <task order="3" objective="Find the Dragon's Gold">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>
+
+```xml
+<game id="1">
+    <title>The Quest</title>
+    <objective Find the Dragon's Gold</objective>
+    <description>This quest is about finding the Dragon's Gold</description>
+    <reward>10000 Gold</reward>
+    <quest-giver The Dragon</quest-giver>
+    <tasks>
+        <task order="1">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+        <task order="2">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+        <task order="3">
+            <description Find the Dragon's Gold</description>
+            <location Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>

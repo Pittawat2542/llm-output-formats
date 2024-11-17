@@ -1,0 +1,21 @@
+Error: incorrect_syntax: found undefined alias 'Sophia'
+  in "<unicode string>", line 14, column 11:
+        text: *Sophia walks the Player to a section of shelves containing books on the history of the city.* 
+               ^
+
+Invalid YAML data. Please provide new values and correct syntax. YAML format only.
+```yaml
+game:
+  dialogues:
+   - order: 1
+    speaker: Sophia
+    text: Hello, I am Sophia. Welcome to the library. Can I help you find a book?
+   - order: 2
+    speaker: Player
+    text: Yes, I am looking for a book on the history of the city.
+   - order: 3
+    speaker: Sophia
+    text: *Sophia walks the Player to a section of shelves containing books on the history of the city.* 
+               ^
+
+Invalid YAML data. Please provide new values and correct syntax. YAML format only.

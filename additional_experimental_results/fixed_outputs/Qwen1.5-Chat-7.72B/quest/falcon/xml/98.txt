@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete a quest to save the kingdom</objective>
+    <description>A brave warrior must retrieve the ancient artifact from the haunted castle.</description>
+    <reward>Golden amulet and 50 gold coins</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Defeat the goblin at the forest edge</objective>
+            <description>Follow the tracks to the east</description>
+            <location>Forest Edge</location>
+        </task>
+    </tasks>
+</game>
+```

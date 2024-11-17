@@ -1,0 +1,36 @@
+
+Error: The quest-giver field is missing for the third task.
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>talk to the dockmaster</objective>
+			<description>The dockmaster may have information about the pirates who attacked Captain Jack's ship.</description>
+			<location>Tortuga</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>search the pirate lair</objective>
+			<description>The pirates who attacked Captain Jack's ship may have hidden the treasure in their lair.</description>
+			<location>Skull Island</location>
+		</task>
+		<!-- Add new field to tasks element -->
+		<task>
+			<order>3</order>
+			<objective>defeat the pirate captain</objective>
+			<description>The pirate captain may have the key to the treasure chest.</description>
+			<quest-giver>Captain Jack Sparrow</quest-giver> <!-- Add new field to tasks element -->
+			<location>Pirate Ship</location>
+		</task>
+	</tasks>
+</game>
+

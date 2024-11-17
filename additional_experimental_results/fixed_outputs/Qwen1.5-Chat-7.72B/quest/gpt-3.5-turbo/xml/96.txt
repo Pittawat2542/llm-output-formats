@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>67890</id>
+    <title>The Mysterious Cove Quest</title>
+    <objective>Uncover the treasure of a sunken ship</objective>
+    <description>Captain Morgan seeks your help to find and recover the lost artifacts from a sunken vessel. Solve riddles, solve puzzles, and overcome maritime challenges to locate the treasure.</description>
+    <reward>A chest filled with seashells and valuable artifacts</reward>
+    <quest-giver>Captain Morgan</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Examine the wreckage at the shallow cove</objective>
+            <description>Explore the wreckage near the shallow cove, search for clues and artifacts underwater. Be prepared for diving conditions.</description>
+            <location>Shallow Cove</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Interact with the mermaid at the lighthouse</objective>
+            <description>Follow the riddle given by the mermaid at the local lighthouse. She holds a key to the sunken chest.</description>
+            <location>Lighthouse</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the sea monster guarding the ship's remains</objective>
+            <description>Battle the monstrous sea creature near the wreckage. Use your courage and agility to overcome this challenge.</description>
+            <location>Ship Remains</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Unlock the chest with the mermaid's key</objective>
+            <description>Meet the mermaid at her underwater lair and exchange the key for the hidden treasure chest.</description>
+            <location>Mermaid's Lagoon</location>
+        </task>
+    </tasks>
+</game>
+```

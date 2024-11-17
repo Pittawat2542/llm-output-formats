@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the underground cave</objective>
+    <description>A treasure hunt awaits!</description>
+    <reward>Gold coins and a mysterious artifact</reward>
+    <quest-giver>Old Sage</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Find the hidden map</objective>
+            <description>Follow the clues in the old oak tree</description>
+            <location>Cave entrance, West side</location>
+        </task>
+    </tasks>
+</game>
+```
+The XML code block has been corrected with the following changes:
+- Replaced `id` attribute value (which was missing) with `12345` for demonstration purposes.
+- Updated `<title>` to `"NewQuestTitle"`.
+- Changed `<objective>` to a meaningful description.
+- Fixed indentation and removed extra brackets in `<tasks>` and `<task>`.

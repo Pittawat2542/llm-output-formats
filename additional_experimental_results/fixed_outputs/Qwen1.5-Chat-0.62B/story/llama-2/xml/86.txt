@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<title>The title</title>
+	< synopsis>A summary about the game</synopsis>
+	<beginning>The beginning of the game...</beginning>
+	<ending>The end of the game.</ending>
+</game>
+
+```
+The correct syntax is to use double quotes around elements within curly braces. The new values for `title`, `synopsis`, and `beginning` are as follows:
+
+- `<title>`: The title element
+- `< synopsis>`: A summary about the game element
+- `<beginning>`: The beginning of the game element
+
+The output in Markdown format is:
+```markdown
+## Output format
+---
+<?xml version="1.0"?> 
+<game>
+	<title>The title</title>
+	< synopsis>A summary about the game</synopsis>
+	<beginning>The beginning of the game...</beginning>
+	<ending>The end of the game.</ending>
+</game>
+
+```
+
+This code uses double quotes around elements within curly braces.

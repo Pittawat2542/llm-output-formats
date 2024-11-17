@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Find the Lost Treasure",
+    "objective": "Find the lost treasure of the pirate captain.",
+    "description": "The pirate captain's treasure is said to be hidden on a remote island. The only clues to its whereabouts are in his journal, which you must find and decipher.",
+    "reward": "The pirate captain's treasure, worth a fortune.",
+    "quest-giver": "Jack Sparrow",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the pirate captain's journal.",
+          "description": "The pirate captain's journal is hidden in a cave on the island. You must locate and search it carefully.",
+          "location": "Pirate's Cave"
+        },
+        {
+          "order": "2",
+          "objective": "Decipher the pirate captain's journal.",
+          "description": "The code to decipher the journal can be found in the governor's library. Your research will be crucial.",
+          "location": "Governor's Library"
+        },
+        {
+          "order": "3",
+          "objective": "Locate and claim the lost treasure.",
+          "description": "After deciphering, follow the\u6307\u793a in the journal to find the treasure on Treasure Island.",
+          "location": "Treasure Island"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+```yaml
+game:
+  dialogues:
+   - order: 1
+     speaker: Sophia
+     text: Hello, I am Sophia. Welcome to the library. Can I help you find a book?
+   - order: 2
+     speaker: Player
+     text: Yes, I am looking for a book on the history of the city.
+   - order: 3
+     speaker: Sophia
+     text: We have several books on that topic. Let me show you.
+   - order: 4
+     speaker: Sophia
+     text: *Sophia walks the Player to a section of shelves containing books on the history of the city.* 
+     - order: 5
+       speaker: Sophia
+       text: These are some of the books we have on the history of the city.
+   - order: 6
+     speaker: Sophia
+     text: Is there anything else I can help you with today?
+   - order: 7
+     speaker: Player
+     text: No, that's all. Thank you.
+   - order: 8
+     speaker: Sophia
+     text: Okay. Please let me know if you need anything else.
+
+```

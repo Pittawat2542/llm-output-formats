@@ -1,0 +1,30 @@
+{
+  "quest_generator": {
+    "description": "Generate quest information in YAML format",
+    "subcommands": {
+      "help": {
+        "description": "Show help message",
+        "usage": "quest.py [-h]"
+      },
+      "start": {
+        "description": "Start a new quest with given game and quest IDs",
+        "options": [
+          {
+            "name": "game_id",
+            "alias": "-g",
+            "type": "int",
+            "required": true,
+            "description": "Game ID"
+          },
+          {
+            "name": "quest_id",
+            "alias": "-q",
+            "type": "int",
+            "required": true,
+            "description": "Quest ID"
+          }
+        ]
+      }
+    }
+  }
+}

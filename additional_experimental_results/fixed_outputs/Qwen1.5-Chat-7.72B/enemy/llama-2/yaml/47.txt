@@ -1,0 +1,14 @@
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: "敌人id"
+    name: "enemy name"
+    stats:
+      atk: 20
+      def: 15
+      hp: 150
+      mp: 30
+      spd: 25
+```
+The YAML data has been corrected. I removed the invalid single quote around the keys and provided new values for `description`, `id`, `name`, and updated the stats to example values. The final YAML is now as shown in the code block.

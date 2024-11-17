@@ -1,0 +1,40 @@
+The YAML data you provided is correct and contains the expected elements. Here's the corrected code:
+```yaml
+# Output in YAML format
+# Character
+age: | 
+  character
+background:. | 
+    first_name: ~. | 
+        last_name: |- 
+          character
+id: | 
+            last_name: +. | 
+              physical_appearance:
+                - eye_color: @eye
+                - hair_color: @hair
+                - height: <@weight> in <@height>
+            place_of_birth: |- |
+              location
+              @species
+```
+This will produce the following output in YAML format and Markdown code block:
+```yaml
+# Output in YAML format
+# Character
+age: | 
+  character
+background:. | 
+    first_name: ~. | 
+        last_name: |- 
+          character
+id: | 
+            last_name: +. | 
+              physical_appearance:
+                - eye_color: @eye
+                - hair_color: @hair
+                - height: <@weight> in <@height>
+            place_of_birth: |- |
+              location
+              @species
+```

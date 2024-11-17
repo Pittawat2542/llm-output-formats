@@ -1,0 +1,33 @@
+The correct YAML data is provided between ```yaml and ```.
+```yaml
+[dialogues]
+  order: dialogue order
+    speaker: speaker name
+    text: My dialogue goes here!
+- speaker: speaker name
+- text: My dialogue goes here!
+```
+
+The output in YAML format is:
+```yaml
+game - Output in YAML format
+game_dialogues
+  Speaker: speaker name
+  Text: My dialogue goes here!
+```
+
+Here's the Markdown code block with the corrected YAML data:
+
+```markdown
+[dialogues]
+  order: dialogue order
+    speaker: speaker name
+    text: My dialogue goes here! - Output in YAML format
+
+game – Output in YAML format
+game dialogues
+  Speaker: speaker name
+  Text: <insert dialogue text here>
+```
+
+Note that there's no need to modify the Markdown code. The correct YAML data is provided between ```yaml and ```.

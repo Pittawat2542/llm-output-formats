@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>q001</id>
+	<title>The Lost Temple</title>
+	<objective>Raid the lost temple and retrieve the ancient artifacts.</objective>
+	<description>The village elder has received a vision that the lost temple is hidden deep within the nearby forest. The temple is said to contain ancient artifacts that will bring prosperity to our people, but it is also rumored to be filled with deadly traps and terrifying creatures.</description>
+	<reward>200 gold pieces, 100 experience points</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the forest and find the entrance to the temple.</objective>
+			<description>The village elder will give you a map that will lead you to the entrance of the temple. Be careful, as the journey is treacherous and there are many dangers lurking in the forest.</description>
+			<location>Forest of Wysteria</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Raid the lost temple and retrieve the ancient artifacts.</objective>
+			<description>Once inside the temple, you will need to navigate through deadly traps and fight off terrifying creatures. Be prepared for a challenging battle as you make your way deeper into the temple.</description>
+			<location>Lost Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return to the village with the ancient artifacts.</objective>
+			<description>Once you have retrieved the ancient artifacts, you will need to make your way back to the village. Be careful, as there are many dangers still lurking in the forest.</description>
+			<location>Village of Silverbrook</location>
+		</task>
+	</tasks>
+</game>
+```

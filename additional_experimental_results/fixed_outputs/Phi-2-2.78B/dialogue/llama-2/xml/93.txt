@@ -1,0 +1,114 @@
+"""
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Bart</speaker>
+      <text>Homer, I'm bored. What should I do?</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>Homer</speaker>
+      <text>You can go play with your friends, but don't come back until I say so.</text>
+    </dialogue>
+  </dialogues>
+</game>
+"""
+```
+
+## Example:
+
+### Exercise 1.2: 
+Fix the following XML data by removing all whitespace characters (spaces, tabs, newlines) from the text of each dialogue object in the <dialogues> tag. Use a loop to iterate over all objects. Return output in XML format and only the XML in the Markdown code block. The original message is provided between ```xml and ```.
+
+Error: incorrect_syntax: not well-formed (invalid token): line 11, column 0
+
+Template:
+```xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			...
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+Original:
+```xml
+
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Bart</speaker>
+			<text>I'm bored. What should I do?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Homer</speaker>
+			<text>You can go play with your friends, but don't come back until I say so.</text>
+		</dialogue>
+	</dialogues>
+</game>
+``` [/EXAMPLE]
+
+
+# Example:
+
+### Exercise 1.2 Solution:
+
+```python
+xml = """
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Bart</speaker>
+      <text>I'm bored. What should I do?</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>Homer</speaker>
+      <text>You can go play with your friends, but don't come back until I say so.</text>
+    </dialogue>
+	</dialogues>
+</game>
+"""
+
+
+def remove_whitespace(xml):
+    soup = BeautifulSoup(xml, 'lxml')
+    for dialogue in soup.findAll('dialogue'):
+        text = dialogue.get_text()
+        text = text.replace(" ", "")
+        text = text.replace("\n", "")
+        text = text.replace("\t", "")
+        dialogue['text'] = text
+
+    return str(soup)
+
+print(remove_whitespace(xml))
+```
+
+Output:
+```xml
+<?xml version="1.0" ?>
+<game>
+  <dialogues>
+    <dialogue>
+      <order>1</order>
+      <speaker>Bart</speaker>
+      <text>I'm bored. What should I do?</text>
+    </dialogue>
+    <dialogue>
+      <order>2</order>
+      <speaker>Homer</speaker>
+      <text>You can go play with your friends, but don't come back until I say so.</text>
+    </dialogue>
+	</dialogues>
+</game>
+```
+
+

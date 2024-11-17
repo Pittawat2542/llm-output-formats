@@ -1,0 +1,49 @@
+{
+  "game": {
+    "id": "quest_id",
+    "title": "The Castle Quest",
+    "objective": "Travel to the castle in the mountains, obtain an ancient tome and return it to the quest giver.",
+    "description": "You will need to be a high level to complete this quest. This quest can be finished at any time after you receive it. The quest giver will not wait forever.",
+    "reward": {
+      "gold": "100"
+    },
+    "quest-giver": "The Old Sage Near the Village Gate",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the castle in the mountains.",
+          "description": "You will need horses for this task.",
+          "location": {
+            "coordinates": {
+              "@lat": "34.5678",
+              "@lon": "-106.3210"
+            }
+          }
+        },
+        {
+          "order": "2",
+          "objective": "Obtain the ancient tome from within the castle.",
+          "description": null,
+          "location": {
+            "coordinates": {
+              "@lat": "34.5678",
+              "@lon": "-106.3210"
+            }
+          }
+        },
+        {
+          "order": "3",
+          "objective": "Return the ancient tome to the quest giver.",
+          "description": null,
+          "location": {
+            "coordinates": {
+              "@lat": "32.4567",
+              "@lon": "-108.9876"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

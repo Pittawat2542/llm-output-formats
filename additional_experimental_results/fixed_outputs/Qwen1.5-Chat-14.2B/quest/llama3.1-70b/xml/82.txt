@@ -1,0 +1,36 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="QR001">
+	<title>The Lost Temple</title>
+	<objective>Explore the ancient temple and retrieve the legendary artifact.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple hidden deep within the nearby forest, said to contain an incredibly powerful relic. Many brave adventurers before you have attempted to explore this fabled site but never returned. Will you be the one to finally uncover its secrets?</description>
+	<reward>1000 gold pieces and the artifact's immense magical power</reward>
+	<quest-giver> Elder Thorne, village elder of Oakwood Village</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location.</objective>
+			<description>Talk to the villagers and gather any clues that might lead you to the temple. You can find the village elder at the town hall, who may possess some valuable knowledge.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the forest and reach the temple entrance.</objective>
+			<description>Use your wits to overcome obstacles and avoid danger as you journey deeper into the forest. Be cautious of wild beasts and rival treasure hunters!</description>
+			<location>The Dark Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Overcome the temple's deadly traps and puzzles.</objective>
+			<description>Utilize your skills and knowledge to navigate the ancient structure, avoiding deadly traps and solving complex puzzles to reach the artifact chamber.</description>
+			<location>The Lost Temple</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the legendary artifact and escape the temple.</objective>
+			<description>Claim your reward, but beware – you may not be alone in this endeavor. Defend yourself against any rival treasure hunters or guardians of the temple!</description>
+			<location>The Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

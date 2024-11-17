@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q01</id>
+	<title>The Lost Village</title>
+	<objective>Find the lost village and rescue its inhabitants.</objective>
+	<description>The villagers have gone missing, and their homes are hidden in a nearby forest. You must find them and bring them back home safely.</description>
+	<reward>100 gold pieces, 5 experience points, and a magical amulet</reward>
+	<quest-giver>Gorin the Braveheart, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1st</order>
+			<objective>Explore the forest and find any clues about the villagers' disappearance.</objective>
+			<description>Talk to the forest creatures, examine the surroundings, and look for signs of struggle or escape routes.</description>
+			<location>The Old Oak Forest, near the entrance</location>
+		</task>
+		<task>
+			<order>2nd</order>
+			<objective>Follow the trail of breadcrumbs leading to the lost village.</objective>
+			<description>Follow the path until you reach a clearing with a large stone marker. Investigate further from there.</description>
+			<location>The Clearing with the Stone Marker, near the center of the forest</location>
+		</task>
+		<task>
+			<order>3rd</order>
+			<objective>Rescue the villagers and escort them back to their homes.</objective>
+			<description>You will find the villagers held captive by a group of bandits. Negotiate with them, use your skills to free the villagers, and lead them safely back home.</description>
+			<location>The Bandit Camp, near the eastern edge of the forest</location>
+		</task>
+	</tasks>
+</game>
+```

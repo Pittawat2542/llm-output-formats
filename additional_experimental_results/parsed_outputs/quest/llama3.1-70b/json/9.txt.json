@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact hidden deep within the ruins of Eldarath.",
+    "description": "Legend has it that the city of Eldarath holds the secrets of the past. Retrieve the ancient artifact and uncover its mysteries.",
+    "reward": "500 gold coins, increased reputation with the Explorer's Guild",
+    "quest_giver": "Professor Elwes, renowned archaeologist",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about Eldarath's location from local townspeople.",
+        "description": "Speak to travelers and merchants who have passed through the nearby settlements. They may hold clues about the lost city's whereabouts.",
+        "location": "Town of Willowdale"
+      },
+      {
+        "order": "2",
+        "objective": "Explore the ancient ruins and navigate treacherous traps.",
+        "description": "Delve into the heart of the ruins, avoiding deadly pitfalls and ancient mechanisms designed to protect the artifact. The path ahead will be fraught with danger.",
+        "location": "Eldarath Ruins"
+      },
+      {
+        "order": "3",
+        "objective": "Solve a complex puzzle to unlock the inner sanctum.",
+        "description": "Decipher an ancient text that holds the key to unlocking the door. The puzzle requires wit, courage, and cunning.",
+        "location": "Eldarath Ruins"
+      }
+    ]
+  }
+}

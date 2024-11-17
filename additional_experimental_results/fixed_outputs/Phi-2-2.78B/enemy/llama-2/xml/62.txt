@@ -1,0 +1,159 @@
+# Python Textbook - Markdown
+
+## Chapter 11 - String Formatting using f-strings and format()
+
+In this chapter, we will explore various ways of formatting strings in Python. We will discuss the use of string interpolation and how to use them with `f-strings` and `format()`. 
+
+### Section 1: Introduction to String Interpolation
+
+String interpolation is the process of inserting values into a string at runtime. In Python, we can do this by using various methods such as f-strings or format(). F-strings were introduced in Python 3.6 and are considered the easiest way of formatting strings. Format() is another method of formatting strings that was introduced in Python 2.6.
+
+### Section 2: Using f-Strings for String Interpolation
+
+F-strings are a new way to format strings in Python, introduced in version 3.6. They allow us to embed expressions inside string literals, using curly braces `{}`. The expressions can be evaluated at runtime and their values inserted into the string. 
+
+Here's an example:
+
+```python
+name = "John"
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+```
+
+Output:
+```
+My name is John and I am 25 years old.
+```
+
+In this example, we have used an f-string to insert the values of `name` and `age` into a string. The expressions `{name}` and `{age}` are evaluated at runtime and their values inserted into the string. 
+
+### Section 3: Using format() for String Interpolation
+
+Format() is another method of formatting strings that was introduced in version 2.6. It allows us to insert values into a string by using curly braces `{}`. We can use positional arguments, keyword arguments, or both. 
+
+Here's an example:
+
+```python
+name = "John"
+age = 25
+print("My name is {} and I am {} years old.".format(name, age))
+```
+
+Output:
+```
+My name is John and I am 25 years old.
+```
+
+In this example, we have used the `format()` method to insert the values of `name` and `age` into a string. We use positional arguments inside the curly braces `{}`.
+
+### Section 4: Combining f-strings and format()
+
+We can also combine f-strings and format() to format strings in various ways. 
+
+Here's an example:
+
+```python
+name = "John"
+age = 25
+print(f"My name is {name} and I am {'{:,}'.format(age)} years old.")
+```
+
+Output:
+```
+My name is John and I am 25,000 years old.
+```
+
+In this example, we have used f-strings to format the string and `format()` method with an argument `{:,}` to format the age as a comma-separated number. 
+
+### Section 5: Exercise
+
+#### Exercise 1
+
+Create a list of numbers from 1 to 10 using list comprehension and use f-strings to print each number on a separate line.
+
+```python
+numbers = [x for x in range(1, 11)]
+for num in numbers:
+    print(f"{num}")
+```
+
+Output:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+#### Exercise 2
+
+Create a list of strings using list comprehension and use format() to print each string in uppercase.
+
+```python
+strings = ["apple", "banana", "cherry"]
+for s in strings:
+    print("{:s}".format(s.upper()))
+```
+
+Output:
+```
+APPLE
+BANANA
+CHERRY
+```
+
+#### Exercise 3
+
+Create a list of tuples containing the name and age of three people using list comprehension and use f-strings to print each person's details on a separate line.
+
+```python
+people = [("John", 25), ("Jane", 30), ("Bob", 35)]
+for p in people:
+    print(f"{p[0]} is {p[1]} years old.")
+```
+
+Output:
+```
+John is 25 years old.
+Jane is 30 years old.
+Bob is 35 years old.
+```
+
+#### Exercise 4
+
+Create a dictionary of fruits and their prices using list comprehension and use format() to print each fruit's details on a separate line.
+
+```python
+fruits = {"apple": 0.5, "banana": 0.25, "cherry": 1.0}
+for f in fruits:
+    print("{:s}: ${:.2f}".format(f, fruits[f]))
+```
+
+Output:
+```
+apple: $0.50
+banana: $0.25
+cherry: $1.00
+```
+
+#### Exercise 5
+
+Create a list of numbers from 1 to 10 using list comprehension and use f-strings to print the sum of all numbers in the list.
+
+```python
+numbers = [x for x in range(1, 11)]
+total = sum(numbers)
+print(f"The sum of all numbers is {total}.")
+```
+
+Output:
+```
+The sum of all numbers is 55.
+```
+

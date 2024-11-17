@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "q1",
+    "title": "The Lost City",
+    "objective": "Find the lost city of Zerzura and retrieve the ancient artifact.",
+    "description": "The city has been hidden for centuries, and many have tried to find it but failed. You must use your skills and resources to overcome the challenges ahead.",
+    "reward": "100 gold coins and the gratitude of the people",
+    "quest_giver": "Rumors say the city is hidden deep within the Jungle of Wonders, talk to the wise old sage in the village for more information.",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather a map of the jungle",
+        "description": "Find a local guide or gather information from the villagers about the jungle and its dangers.",
+        "location": "Village"
+      },
+      {
+        "order": 2,
+        "objective": "Cross the treacherous river",
+        "description": "Use your skills to navigate the fast-flowing river, or find a way to cross it safely.",
+        "location": "River Crossing"
+      },
+      {
+        "order": 3,
+        "objective": "Solve the ancient puzzle",
+        "description": "Use your wits to decipher the clues and unlock the entrance to the lost city.",
+        "location": "Lost City Entrance"
+      }
+    ]
+  }
+}
+```

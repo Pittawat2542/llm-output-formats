@@ -1,0 +1,96 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>The Lost Artifact</title>
+	 OBJECTive>Retrieve the lost artifact from the dragon's den and return it to King Arthur.</objective>
+	description>You are tasked with infiltrating the dragon's den to retrieve a lost artifact believed to possess immense power. You'll have to outwit the dragon and avoid its fire breath to succeed.
+	 reward>5000 gold pieces and a magical sword</reward>
+	quest-giver>King Arthur</quest-giver>
+	<title>Quest Title</title>
+	<description>The Quest Title</description>
+	<tasks>
+			<task>
+				order>1</order>
+			 objective> Reach the dragon's den</objective>
+				description> Travel through the enchanted forest and across the treacherous mountains to locate the dragon's den.
+			<location>Dragon's Den</location>
+			<title>Quest Objective</title>
+			<description>The Quest Objective</description>
+			<task>
+				order>2</order>
+			 objective>Retrieve the artifact</objective>
+				description>Find a way to retrieve the artifact from the dragon without being detected.
+			经验值: 10
+				color: Red
+			<title>Quest Reward</title>
+			<description>The Quest Reward</description>
+			<title>Quest Giver's Name</title>
+			<personal Experience</personalExperience>
+			<title>Quest Reward Amount</title>
+			<powerLevel:</p>
+			<div class="powerlevel">High</div>
+			<title>Quest Progress</title>
+		经验值: 5
+				color: Green
+			<title>Quest Progress</title>
+		经验值: 8
+				color: Blue
+			<title>Quest Progress</title>
+		经验值: 12
+				color: Yellow
+			<title>Quest Progress</title>
+		经验值: 16
+				color: Red
+			<title>Quest Progress</title>
+		经验值: 20
+				color: Orange
+			<title>Quest Progress</title>
+		</task>
+	<tasks>
+		<task>
+			order>3</order>
+		 Objective>Return to King Arthur</objective>
+			description After securing the artifact, make your way back to King Arthur's court and present him the treasure.
+			经验值: 5
+				color: Green
+			<title>Quest Reward</title>
+			<description>The Quest Reward</description>
+			<title>Quest Giver's Name</title>
+			personal Experience: 30
+			<title>Quest Reward Amount</title>
+			powerLevel:</p>
+			<div class="powerlevel">High</div>
+			<title>Quest Progress</title>
+		经验值: 5
+				color: Green
+			<title>Quest Progress</title>
+		经验值: 8
+				color: Blue
+			<title>Quest Progress</title>
+		经验值: 12
+				color: Yellow
+			<title>Quest Progress</title>
+		经验值: 16
+				color: Red
+			<title>Quest Progress</title>
+		经验值: 20
+				color: Orange
+			<title>Quest Progress</title>
+		经验值: 24
+				color: Purple
+			<title>Quest Progress</title>
+		经验值: 30
+				color: Yellow
+			<title>Quest Progress</title>
+		经验值: 36
+				color: Red
+			<title>Quest Progress</title>
+		经验值: 38
+				color: Green
+			<title>Quest Progress</title>
+		</task>
+	</tasks>
+</game>
+```
+Note: I made sure to use the correct tags for each section. Also, I removed any unnecessary code and replaced it with comments that explain what it does.

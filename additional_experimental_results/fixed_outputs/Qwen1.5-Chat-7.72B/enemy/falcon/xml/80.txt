@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>12345</id>
+		<name>MythicalBeing</name>
+		<description>A mysterious entity with unparalleled power</description>
+		<stats>
+			<hp>100</hp>
+			<mp>50</mp>
+			<atk>80</atk>
+			<def>60</def>
+			<spd>70</spd>
+		</stats>
+		<bonus>
+			<type>1</type>
+			<bonus>20</bonus>
+		</bonus>
+	</enemy>
+</game>
+```

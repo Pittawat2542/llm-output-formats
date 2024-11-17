@@ -1,0 +1,35 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character id="id" first-name="first name" last-name="last name" species="species" age="age" role="role of the character" background="background story" place-of-birth="location" physical-appearance>
+		<physical-appearance eye-color="eye color" hair-color="hair color" height="height in float value" weight="weight in float value">
+		</physical-appearance>
+	</character>
+</game>
+```
+New values:
+- `id` attribute has been changed to `<id>` for the `<character>` element.
+- The first name, last name, species, age, role, background, and place-of-birth attributes have been added as child elements inside the `<character>` element. The `age` attribute is given a floating-point number if it's not already defined.
+- The `<physical-appearance>` child element has been updated to include an eye-color and hair-color attribute. A new `<height>` and `<weight>` child elements have also been added for specifying height in float value and weight in float value respectively.
+
+Output in XML format:
+```xml
+<game>
+	<character id="id">
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>age</age>
+		<role>character role</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height>height in float value</height>
+			<weight>weight in float value</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>1</order>
+				<prompt dialogue order promptText</prompt>
+				<prompt speaker name promptSpeaker</prompt>
+				<prompt text dialogue or narration promptText</prompt>
+			</dialogue>
+			<dialogue>
+				<order>2</order>
+				<prompt NPC promptText</prompt>
+				<prompt speaker name promptSpeaker</prompt>
+				<prompt text "NPC speaking" promptText</prompt>
+			</dialogue>
+			<dialogue>
+				<order>3</order>
+				<prompt Player promptText promptSpeaker</prompt>
+				<prompt text "Player speaking" promptText</prompt>
+			</dialogue>
+	<dialogues>
+</game>
+</xml>
+
+```

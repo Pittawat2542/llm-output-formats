@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure of El Dorado</title>
+	<objective>Find the Lost Treasure of El Dorado</objective>
+	<description>The legend says that the treasure is hidden deep in the jungle, guarded by dangerous creatures and traps.</description>
+	<reward>Gold and precious gems</reward>
+	<quest-giver>Don Miguel de Cervantes Saavedra</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the treasure's location from the village elder</objective>
+			<description>The elder lives in the village near the entrance to the jungle. He might know something about the treasure and its guardians.</description>
+			<location>Village Entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Obtain a map of the jungle from the local cartographer</objective>
+			<description>The cartographer has a detailed map of the jungle and the known locations of dangerous creatures. It will help you navigate through the jungle safely.</description>
+			<location>Cartography Shop, Town Square</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find and defeat the guardians of the treasure</objective>
+			<description>The guardians are powerful creatures that protect the treasure from thieves. Defeating them will allow you to reach the treasure.</description>
+			<location>Deep in the jungle, near the Lost City of El Dorado</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation:
+
+The XML data provided was well-formed and did not contain any syntax errors. The error message you've received is likely caused by an issue with the parsing of the XML file, such as a missing XML declaration or a UTF-8 encoding issue. In this example, I have added the XML declaration `<?xml version="1.0" encoding="UTF-8"?>` to ensure that the parser can correctly interpret the data as XML and that all characters are correctly decoded using the specified encoding.
+
+Additionally, I've provided new values for some of the elements to create a complete example of an XML document in the game template format.

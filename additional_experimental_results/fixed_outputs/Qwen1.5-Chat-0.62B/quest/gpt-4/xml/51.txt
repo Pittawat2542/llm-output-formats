@@ -1,0 +1,60 @@
+The correct XML data is as follows:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the lost artifact from the ancient ruins</objective>
+	<description>A local archaeologist has accidentally lost a valuable artifact in a nearby ancient ruins. He is too afraid to go back and retrieve it and is looking for brave adventurers to fetch it.</description>
+	<reward>500 gold coins and 'Ancient Explorer' title</reward>
+	<quest-giver>Professor Birch</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 OBJECTive>Reach the entrance of the ruins</objective>
+				<description>A journey to the east, at the foot of Dragon's Peak.</description>
+			经验值>500 gold coins
+				<title>Ancient Explorer title</title>
+			<task>
+				<order>2</order>
+			 OBJECTive>Find the hidden chamber</objective>
+				<description>Rummage through the ruins to find the hidden chamber where the artifact is believed to be lost.</description>
+			经验值>500 gold coins
+				<title>Ancient Ruins title</title>
+			<task>
+				<order>3</order>
+			 OBJECTive>Retrieve the artifact</objective>
+				<description>Overcome any challenges, puzzles or traps in the chamber to obtain the lost artifact.</description>
+			经验值>500 gold coins
+				<title>Ancient Ruins title</title>
+			<task>
+				<order>4</order>
+			 OBJECTive>Discover the hidden chamber</objective>
+				<description>The artifact is believed to be hidden in a chamber beneath Dragon's Peak.</description>
+			经验值>500 gold coins
+				<title>Ancient Ruins title</title>
+			<task>
+				<order>5</order>
+			 OBJECTive>Find the lost artifact</objective>
+				<description>Find the hidden chamber and retrieve the lost artifact.</description>
+			经验值>500 gold coins
+				<title>Ancient Ruins title</title>
+			<task>
+				<order>6</order>
+			OBJECTive>Return to Professor Birch's office</objective>
+				<description>Retrieve the artifact and return to Professor Birch's office for further analysis.</description>
+			经验值>500 gold coins
+				<title>Ancient Ruins title</title>
+			<task>
+				<order>7</order>
+			 OBJECTive>Unlock the hidden chamber</objective>
+				<description>Overcome any additional challenges and puzzles in the chamber.</description>
+			经验值>250 gold coins
+				<title>Ancient Ruins title</title>
+			</task>
+	</tasks>
+</game>
+```
+
+The code block provides a brief explanation of how the data was modified to correct the syntax.

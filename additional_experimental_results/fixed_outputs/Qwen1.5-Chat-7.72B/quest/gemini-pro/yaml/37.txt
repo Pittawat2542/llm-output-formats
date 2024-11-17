@@ -1,0 +1,29 @@
+```yaml
+game:
+  description: A mysterious plague has broken out in the kingdom, and the king has hired you to find a cure. The quest involves three key tasks:
+  id: plague-cure-quest
+  objective: Discover, collect, and deliver the necessary ingredients for the cure.
+  quest_giver: The king
+  reward: Gold and a seat on the council.
+  tasks:
+  - description: Explore the Valley of Shadows to consult the Oracle.
+    location: Valley of Shadows
+    objective: Consult the Oracle.
+    order: 1
+  - description: Gather a rare flower, dragon's tooth, and phoenix feather from various locations.
+    location:
+      - Valley of Shadows
+      - Mount Dragon's Teeth
+      - Phoenix Feathers Forest
+    objective: Collect the ingredients.
+    order: 2
+  - description: Return to the Oracle for the final remedy.
+    location: Valley of Shadows
+    objective: Receive the cure.
+    order: 3
+  - description: Deliver the cure to the castle.
+    location: Castle
+    objective: Present the cure to the king.
+    order: 4
+  title: The Plague Cure Quest
+```

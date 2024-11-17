@@ -1,0 +1,25 @@
+The YAML data appears to be correct, there were no syntax errors as mentioned. Here's the corrected YAML code block:
+
+```yaml
+game:
+  dialogues:
+   - order: "dialogue order"
+    speaker: "speaker name"
+    text: "dialogue or narration"
+```
+
+If you want multiple examples with different speakers, add more dialogue entries to the `dialogues` list:
+
+```yaml
+game:
+  dialogues:
+   - order: "dialogue 1"
+     speaker: "Speaker A"
+     text: "Dialogue for Speaker A"
+   - order: "dialogue 2"
+     speaker: "Speaker B"
+     text: "Dialogue for Speaker B"
+   - order: "dialogue order"
+     speaker: "speaker name"
+     text: "dialogue or narration"
+```

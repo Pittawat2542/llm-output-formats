@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost Temple of Eldarath",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the heart of the Whispering Woods, where the ancient Eldarians once worshiped their gods. The temple is said to contain a powerful artifact that could change the course of history. Your quest is to brave the treacherous journey, navigate the temple's deadly traps, and retrieve the artifact before it falls into the wrong hands.",
+    "reward": "1000 gold pieces, a magical amulet granting resistance to darkness-based attacks",
+    "quest-giver": "Thorne Blackwood, a local scholar and historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost Temple of Eldarath from local villagers and travelers",
+          "description": "Talk to the locals at the Silver Stag Inn, gather rumors and clues about the temple's location and layout",
+          "location": "The Silver Stag Inn, Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the Whispering Woods to reach the temple entrance",
+          "description": "Brave the treacherous woods, avoid deadly creatures and hazards, and find the hidden entrance to the temple",
+          "location": "The Whispering Woods"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the ancient puzzle lock on the temple door",
+          "description": "Examine the intricate carvings and symbols on the door, figure out the correct sequence to unlock it",
+          "location": "The Lost Temple of Eldarath entrance"
+        }
+      ]
+    }
+  }
+}

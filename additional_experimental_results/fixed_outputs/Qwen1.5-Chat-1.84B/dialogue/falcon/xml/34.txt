@@ -1,0 +1,33 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<speaker>gta-menu speaker name</speaker>
+				<text>dialogue or narration</text>
+			</dialogue>
+		</dialogues>
+</game>
+```
+New values:
+- `selected` attribute is set to `"gta-menu"`.
+- Speaker name is `<gta-menu speaker name>` where `<gta-menu>` is a custom tag added for the menu dialogue. The tag is used to reference the menu speaker and assign their name in the XML data.
+Output in XML format:
+```xml
+<game>
+	<dialogues selected="gta-menu">
+		<dialogue order="dialogue order" speaker="gta-menu speaker name" text="dialogue or narration"/>
+	</dialogues>
+</game>
+```
+Markdown code block:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues selected="gta-menu">
+		<dialogue order="dialogue order" speaker="gta-menu speaker name" text="dialogue or narration"/>
+	</dialogues>
+</game>
+```

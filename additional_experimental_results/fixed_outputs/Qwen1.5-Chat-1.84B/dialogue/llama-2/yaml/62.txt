@@ -1,0 +1,259 @@
+Game:
+  dialogues:
+    - order: 1
+      speaker: John
+      text: "Hello, what can I do for you?"
+    - order: 2
+      speaker: Jane
+      text: "I need help with my homework."
+    - order: 3
+      speaker: John
+      text: "Okay, I'll help you."
+    - order: 4
+      speaker: Jane
+      text: "Thank you, John."
+    - order: 5
+      speaker: John
+      text: "You're welcome."
+
+Narration:
+  - order: 1
+    speaker: John
+    text: "Hello, what can I do for you?"
+    - speaker_name: Jane
+    text: "I need help with my homework."
+    - narrator_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 1
+    speaker: John
+    text: "Hello, what can I do for you?"
+    - speaker_name: Jane
+    text: "I need help with my homework."
+    - speaker_name: John
+    text: "Okay, I'll help you."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: John
+    text: "Hello, what can I do for you?"
+    - speaker_name: Jane
+    text: "I need help with my homework."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 2
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 3
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 4
+    speaker: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 5
+    speaker: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 6
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 7
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 8
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 9
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Narration:
+  - order: 1
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 10
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Narration:
+  - order: 11
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 12
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 13
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 14
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 15
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 16
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 17
+    speaker: Jane
+    text: "You're welcome."
+    - speaker_name: John
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 18
+    speaker: Jane
+    text: "Thank you, John."
+    - speaker_name: John
+    text: "You're welcome."
+    - speaker_name: Jane
+    text: "Thank you, John."
+
+Multiple speakers:
+- order: 19
+    speaker: Jane
+    text: "You're welcome."
+```

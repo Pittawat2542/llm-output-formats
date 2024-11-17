@@ -1,0 +1,56 @@
+## Game
+
+| Content related to the game |
+| --- |
+| Dialogue order (dialogue text) | This can be customized and moved around as needed. Use appropriate text editor commands, e.g., `bold`, `italic`, or `code`. Markdown is preferred here because it allows for easy manipulation and formatting. You can also add images, hyperlinks, tables, or code blocks to enhance the readability and flow of the dialogue.
+
+## Example YAML file
+
+```yaml
+game:
+  dialogues:
+    - text: This can be customized and moved around as needed.
+      speaker: Speaker Name
+      lines: 8
+
+    - text: Use appropriate text editor commands.
+      speaker: Another Speaker Name
+      lines: 12
+
+    - text: Markdown is preferred here because it allows for easy manipulation and formatting.
+      speaker: A Third Speaker Name
+      lines: 16
+
+    - text: You can add images, hyperlinks, tables, or code blocks to enhance the readability and flow of the dialogue.
+      speaker: Fourth Speaker Name
+      lines: 20
+```
+
+## YAML output in Markdown format
+
+```markdown
+# Game
+
+| Content related to the game |
+| --- |
+| Dialogue order (dialogue text) | This can be customized and moved around as needed. Use appropriate text editor commands, e.g., `bold`, `italic`, or `code`. Markdown is preferred here because it allows for easy manipulation and formatting. You can also add images, hyperlinks, tables, or code blocks to enhance the readability and flow of the dialogue. |
+| - Speaker Name:
+    - Text: This can be customized and moved around as needed.
+      - Speaker's text in Markdown format
+      - Hyperlink: Link to a specific part of the game for additional information
+
+  - Another Speaker Name:
+    - Text: Use appropriate text editor commands.
+      - Speaker's text in Markdown format
+      - Hyperlink: Link to a specific part of the game for additional information
+
+  - A Third Speaker Name:
+    - Text: Markdown is preferred here because it allows for easy manipulation and formatting.
+      - Speaker's text in Markdown format
+      - Hyperlink: Link to a specific part of the game for additional information
+
+  - Fourth Speaker Name:
+    - Text: You can add images, hyperlinks, tables, or code blocks to enhance the readability and flow of the dialogue.
+      - Speaker's text in Markdown format
+      - Hyperlink: Link to a specific part of the game for additional information
+```

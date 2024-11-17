@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>player_id</id>
+    <title>New Quest Title</title>
+    <objective>Updated quest objective</objective>
+    <description>Quest description updated</description>
+    <reward>50 gold coins</reward>
+    <quest-giver><![CDATA[King Arthur]]></quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>New Task Objective</objective>
+            <description>Task at Camelot</description>
+            <location>Camelot Castle</location>
+        </task>
+    </tasks>
+</game>
+```

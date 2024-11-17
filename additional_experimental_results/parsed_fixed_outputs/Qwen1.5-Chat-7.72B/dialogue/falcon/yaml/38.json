@@ -1,0 +1,39 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": 1,
+        "speaker": "Speaker 1",
+        "text": "Hello, world!!"
+      },
+      {
+        "order": 2,
+        "speaker": "Speaker 2",
+        "text": "==Hello, world!!=="
+      },
+      {
+        "order": 3,
+        "speaker": "Character 1",
+        "text": "Hi, how are you today?",
+        "response": [
+          {
+            "character": "Character 2",
+            "text": "Hi, I'm good!"
+          }
+        ]
+      },
+      {
+        "order": 4,
+        "speaker": "Character 3",
+        "text": "Good morning, it's a great day!",
+        "reaction": "awesome_morning"
+      },
+      {
+        "order": 5,
+        "speaker": "Character 4",
+        "text": "Gotta run. See ya later!",
+        "farewell": "goodbye_and_nice_day"
+      }
+    ]
+  }
+}

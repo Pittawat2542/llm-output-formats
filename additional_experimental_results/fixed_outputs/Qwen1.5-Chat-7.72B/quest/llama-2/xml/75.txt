@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete tasks to earn the golden sword</objective>
+    <description>A challenging quest to defeat the dragon at Mount Everest</description>
+    <reward>Experienced adventurer's reward chest</reward>
+    <quest-giver> wise wizard </quest-giver>
+    <tasks>
+        <task order="1">
+            <order>1</order>
+            <objective>Find the ancient map in the forest</objective>
+            <description>Follow the trail marked by oak trees</description>
+            <location>Forest East edge</location>
+        </task>
+        
+        <task order="2">
+            <order>2</order>
+            <objective>Defeat the goblin guard at the castle entrance</objective>
+            <description>Use your stealth to avoid detection</description>
+            <location>Castle Gate</location>
+        </task>
+    </tasks>
+</game>
+```

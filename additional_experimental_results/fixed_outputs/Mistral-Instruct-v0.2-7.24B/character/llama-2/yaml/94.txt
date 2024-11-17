@@ -1,0 +1,19 @@
+```yaml
+game:
+  character:
+    age: 25
+    background: A former soldier who has lost his way.
+    first_name: John
+    id: 1234
+    last_name: Smith
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: "170.0 ft" # feet and inches in a single float value (height: 5.11 for example)
+      weight: 154.32 # pounds
+    place_of_birth: New York
+    role: The main character
+    species: Human
+```
+Note: In the corrected YAML, `height` and `weight` are provided as float values, not separate feet and inches. To represent a height of 5'11" in feet and inches, use a single float value of `5.11`. Similarly, to represent a weight of 170 lbs and 4 oz, use a single float value of `170.04`.
+```

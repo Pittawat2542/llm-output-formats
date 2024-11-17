@@ -1,0 +1,36 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>
+		<Event1>
+			<FrictionX>X-Axis friction</FrictionX>
+			<FrictionY>Y-Axis friction</FrictionY>
+			<X>0</X>
+			<Y>0</Y>
+		</Event1>
+		<Event1>
+			<FrictionX>X-Axis friction</FrictionX>
+			<FrictionY>Y-Axis friction</FrictionY>
+			<X>1</X>
+			<Y>1</Y>
+		</Event1>
+		<Event1>
+			<FrictionX>X-Axis friction</FrictionX>
+			<FrictionY>Y-Axis friction</FrictionY>
+			<X>2</X>
+			<Y>2</Y>
+		</Event1>
+	</beginning>
+	<ending>
+		<Conclusion>
+			<FrictionX>X-Axis friction</FrictionX>
+			<FrictionY>Y-Axis friction</FrictionY>
+			<X>11</X>
+			<Y>11</Y>
+		</Conclusion>
+	</ending>
+</game>
+```

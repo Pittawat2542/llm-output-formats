@@ -1,0 +1,35 @@
+```yaml
+game:
+  character:
+    age: 18
+    background: My character is a student at the University of Chicago.
+    first_name: Rose
+    id: 1234567890
+    last_name: Bloom
+    physical_appearance:
+     - eye_color: blue
+      hair_color: brown
+      height: 5'5"
+      weight: 110 lbs
+    place_of_birth: New York City, New York
+    role: Student
+    species: Human
+
+```
+
+New values:
+- age: 18
+- background: My character is a student at the University of Chicago.
+- first_name: Rose
+- id: 1234567890
+- last_name: Bloom
+- physical_appearance:
+   - eye_color: blue
+     - hair_color: brown
+     - height: 5'5"
+     - weight: 110 lbs
+- place_of_birth: New York City, New York
+- role: Student
+- species: Human
+
+Note that the age has been set to 18, the background has been provided as a string instead of a YAML key-value pair, and the physical appearance properties have been modified to include additional attributes (height in float value and weight in float value). The new values for each property are specified using curly braces {} to denote a list or a multi-item array.

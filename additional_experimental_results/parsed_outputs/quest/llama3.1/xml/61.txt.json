@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the fabled city of Eldarath and retrieve a powerful artifact.",
+    "description": "Rumors have surfaced about a lost city deep within the nearby forest, filled with ancient treasures and artifacts. Your quest is to find this city and retrieve one of its most powerful relics.",
+    "reward": "Exotic armor set, 1000 gold pieces",
+    "quest-giver": "Wizard Zorvath",
+    "tasks": {
+      "task": [
+        {
+          "order": "1st",
+          "objective": "Gather information about the city's location from the local villagers.",
+          "description": "Speak to the villagers in the nearby town and gather any information they may have about the lost city of Eldarath. Be cautious, as some may be hesitant to share their knowledge.",
+          "location": "The village of Brindlemark"
+        },
+        {
+          "order": "2nd",
+          "objective": "Explore the ancient ruins and find the artifact.",
+          "description": "Venture into the lost city of Eldarath, navigating its treacherous paths and avoiding deadly traps. Once inside, search for the powerful relic known as the Starlight Crystal.",
+          "location": "The Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

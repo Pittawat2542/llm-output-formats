@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" ?>
+<html>
+<head>
+	<title>Quest Information</title>
+</head>
+<body>
+
+	<h1>Quest Information</h1>
+
+	<p>The quest information is as follows:</p>
+
+	<ol>
+		<li><order>Quest Order 1</order></li>
+		<li><objective>Retrive the lost artifact from the ancient ruins</objective></li>
+		<li><description>In this quest, you will venture into the old and dangerous ancient ruins and retrieve the lost artifact, which is said to possess mysterious power. Beware of the lurking dangers!</description></li>
+		<li><reward>5000 gold coins and Excalibur sword</reward></li>
+		<li><quest-giver>The village elder</quest-giver></li>
+		<li><tasks>
+			<task>
+				<order>1</order>
+			 Objective: Find the location of the ancient ruins</objective>
+				<description Use the old map provided by the village elder to locate the ancient ruins</description>
+				贫困地区:</location>
+			<td>The Great Forest</td>
+			<td>The Lost Artifact is said to be located in the heart of the ruins. Be prepared to face traps and monsters</description>
+			<td>Ancient ruins</td>
+		</tasks>
+	</ol>
+
+</body>
+</html>
+```

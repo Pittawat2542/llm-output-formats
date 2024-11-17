@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Secret Quest</title>
+	<objective>Find the hidden treasure</objective>
+	<description>You have been told of a secret quest to find a hidden treasure deep within the forest. Speak with the old hermit for more information.</description>
+	<reward>A chest full of gold and jewels</reward>
+	<quest-giver>The old hermit</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information from the townspeople about the treasure location</objective>
+			<description>Visit each of the villagers in the nearby town and ask them for any information they might have about the treasure or its location. Be sure to be polite and respectful in your interactions with them.</description>
+			<location>The local tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the map from the library</objective>
+			<description>Make your way to the town library and locate the ancient map that will lead you to the treasure. Be careful, as the library is known to be a quiet place and any noise you make may alert the librarian.</description>
+			<location>The town library</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the treasure</objective>
+			<description>Follow the map to the location of the treasure and be prepared for any challenges that may come your way. Remember, the treasure is well guarded and you will need all of your skills and courage to claim it.</description>
+			<location>Deep within the forest</location>
+		</task>
+	</tasks>
+</game>
+```

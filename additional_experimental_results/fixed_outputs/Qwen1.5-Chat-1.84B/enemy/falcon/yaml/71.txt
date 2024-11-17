@@ -1,0 +1,21 @@
+Game:
+  enemy:
+    description: Description
+    id: ID
+    name: Name
+    stats:
+      atk:atk int value
+      def:def int value
+      hp:hp int value
+      mp:mp int value
+     spd:spd int value
+New values:
+- Game: Enemy
+  Id: 12345
+  Name: The Dark Lord
+  Stats:
+    atk: 10
+    def: 20
+    hp: 50
+    mp: 100
+    spd: 60

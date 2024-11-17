@@ -1,0 +1,25 @@
+The following errors were found and fixed in the original XML data. 
+- The `dialogue order` value was incorrectly formatted as a string instead of an integer.
+
+XML.
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hey, how are you doing?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm good, thanks for asking!</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm doing great too!</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+

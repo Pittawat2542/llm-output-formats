@@ -1,0 +1,25 @@
+game:
+  dialogues:
+  - order: 1
+     speaker: player
+     text: "Hello, how can I help you?" 
+    options:
+      - option: "I'm not sure how to help you"
+        choice: "Ask someone else"
+     answer: "Ask someone else"
+  - order: 2
+     speaker: player
+     text: "I'm not sure how to help you. Maybe you should ask someone else."
+    options:
+      - option: "Maybe you should try asking the other players in the game"
+        choice: "Try it out for yourself"
+     answer: "Try it out for yourself"
+  - order: 3
+     speaker: player
+     text: "I'm not sure how to help you. Maybe you should try asking the other players in the game."
+    options:
+      - option: "You can always find helpful advice and suggestions on forums or social media related to the game"
+        choice: "Search for resources online"
+     answer: "Search for resources online"
+
+```

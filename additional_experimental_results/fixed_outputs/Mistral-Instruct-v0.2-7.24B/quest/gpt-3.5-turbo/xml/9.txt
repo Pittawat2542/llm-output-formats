@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet and return it to the quest giver</objective>
+	<description>Long ago, a powerful amulet was lost in the depths of the Forbidden Forest. Many have tried to find it, but none have succeeded. The quest giver, a wise old wizard named Gandalf, is seeking a brave adventurer to retrieve the amulet. Will you be the one to finally find it?</description>
+	<reward>Ancient knowledge and a magic artifact</reward>
+	<quest-giver>Wizard Gandalf</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Forbidden Forest</objective>
+			<description>The Forbidden Forest is a dark and dangerous place filled with mythical creatures. Be cautious as you make your way through the dense foliage and avoid getting lost.</description>
+			<location>Near the village entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the ancient ruins</objective>
+			<description>According to folklore, the amulet was last seen in a hidden chamber deep within the ancient ruins of an abandoned castle. Explore the ruins and search for any clues leading to the amulet's whereabouts.</description>
+			<location>In the heart of the Forbidden Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian creature</objective>
+			<description>The amulet is protected by a powerful guardian creature. Use all your skills and wit to defeat it and claim the amulet as your own.</description>
+			<location>At the center of the ancient ruins</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the amulet to Wizard Gandalf</objective>
+			<description>After retrieving the amulet, return it to Wizard Gandalf so that he can use its power for the greater good. Be careful not to be swayed by its immense power as it can corrupt the weak-hearted.</description>
+			<location>Wizard Gandalf's tower in the village</location>
+		</task>
+	</tasks>
+</game>
+```

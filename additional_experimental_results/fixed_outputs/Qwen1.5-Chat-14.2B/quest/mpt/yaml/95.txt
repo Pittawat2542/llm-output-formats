@@ -1,0 +1,21 @@
+The original YAML data has some indentation issues and an incorrect key name. Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: quest id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+  game_time: 10 # Fixed indentation for this key
+extra_data:
+  another_key: another_value # Moved to a separate block, fixed indentation
+```
+
+The `game_time` key was added with the wrong indentation and has been moved to be under the `game:` block. The extra data is now in a separate block with proper indentation.

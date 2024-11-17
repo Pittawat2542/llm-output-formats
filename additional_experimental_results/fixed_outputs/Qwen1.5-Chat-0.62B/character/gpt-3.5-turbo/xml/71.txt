@@ -1,0 +1,54 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<hobby>
+			<title>My业余 hobby</title>
+		</obby>
+	</character>
+	<character>
+		<personality>
+			<title>John Doe</title>
+		</personality>
+	</character>
+	<character>
+		<sport>
+			<title>Soccer</title>
+		</sport>
+	</character>
+	<character>
+		<traction>
+			<title>My favorite trait is my intelligence</title>
+		</traction>
+	</character>
+	<character>
+		<dream>
+			<title>To become a world-renowned detective and solve countless cases</title>
+		</dream>
+	</character>
+</game>
+```
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<Character>
+		<hobby>
+			<title>My业余 hobby</title>
+		</obby>
+		<personality>
+			<title>John Doe</title>
+		</personality>
+		<sport>
+			<title>Soccer</title>
+		</sport>
+		<traction>
+			<title>My favorite trait is my intelligence</title>
+		</traction>
+		<dream>
+			<title>To become a world-renowned detective and solve countless cases</title>
+		</dream>
+	</character>
+</game>
+```

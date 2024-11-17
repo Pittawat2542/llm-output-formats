@@ -1,0 +1,13 @@
+XML:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns="http://www.game.com/game">
+    <dialogues>
+        < Dialogue>
+            <order>dialogue order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </Dialogue>
+    </dialogues>
+</game>
+```

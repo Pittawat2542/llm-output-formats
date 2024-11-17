@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+    <title>The Lost Artifact</title>
+    bjective>Find the ancient artifact hidden deep within the jungle.</objective>
+    <description>
+        In a forgotten land, legends speak of a powerful artifact with unimaginable powers. The artifact is said to be hidden deep within a treacherous jungle, guarded by mystical creatures and ancient traps. Are you brave enough to embark on this dangerous quest and retrieve the artifact?
+    	<h reward>Ancient knowledge and treasure beyond your wildest dreams.</h reward>
+    	<quest-giver>Elder Gideon</quest-giver>
+    	<tasks>
+        	<task>
+            	<order>1</order>
+             objective>Get a map to the artifact.</objective>
+            	<description>
+                To begin your quest, you must first obtain a map that leads to the location of the artifact. Seek out the renowned cartographer, Professor Indiana, in the nearby town. He holds the key to unlocking the jungle's secrets.
+            	<horder>2</order>
+             objective>Find and rescue Elder Gideon from the treacherous jungle.</ objective>
+            	<description>
+                 Once you have obtained both maps, work together to uncover the treasure contained within the ancient artifact. Only then can you retrieve it from the treacherous jungle.
+            	<horder>3</order>
+             objective>Find the lost artifact in the ruins of the lost city.</objective>
+            	<description>
+                 The lost artifact was discovered on the outskirts of the city, and has been forgotten for centuries. Only those with the key to the ancient artifact can discover it.
+            	<horder>4</order>
+             objective>Return the lost artifact to the Elder Gideon and return to the original location.</objective>
+            	<description>
+                 After successfully retrieving the artifact, you must return it to the Elder Gideon in time for his return to the city. If you are unable to retrieve the artifact before his return, the treasure remains in the jungle.
+            	<horder>5</order>
+             objective>Return the lost artifact to the Elder Gideon's house and make his return to the original location.</objective>
+            	<description>
+                 Once you have successfully completed all of the tasks, you must return the lost artifact to the Elder Gideon's house. If he is unable to retrieve it before his return, the treasure remains in the jungle.
+            	<horder>6</order>
+             objective>Return the lost artifact to the Elder Gideon and make a summary of your findings.</ objective>
+         </task>
+</game>
+
+```

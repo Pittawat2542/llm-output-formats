@@ -1,0 +1,27 @@
+Template: game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: 0.5 (blue) green hair color
+      height: 1.4 (5'8") weight: 135 pounds
+    place_of_birth: Somewhere in the UK
+    role: Hunter, Explorer, Spy
+    species: Fae
+    organization:
+      - Order of the Peacanauts
+
+```yaml
+  character:
+    Physical_Appearance:
+     - eye_color: 0.5 (blue) green hair color
+      height: 1.4 (5'8") weight: 135 pounds
+    place_of_birth: Somewhere in the UK
+    role: Hunter, Explorer, Spy
+    species: Fae
+    organization:
+      - Order of the Peacanauts
+```

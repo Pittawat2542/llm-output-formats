@@ -1,0 +1,38 @@
+Here is the corrected XML data with new values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Dragon's Lair</title>
+	 Objective>Defeat the dragon Smaug and retrieve the Arkenstone.</Objective>
+	 Description>The dragon Smaug has taken over the Lonely Mountain and is terrorizing the people of Erebor. You must go to the mountain and defeat Smaug to retrieve the Arkenstone, a powerful artifact that can restore the kingdom of Erebor.</Description>
+	 Reward>The Arkenstone and a share of the dragon's treasure.</ reward>
+	 Quest-giver> Thorin Oakenshield</Quest-giver>
+	 Tasks>
+		<task>
+			<order>1</order>
+		 Objective>Travel to the Lonely Mountain.</Objective>
+			Action>Find the secret entrance to the dragon's lair.</Action>
+			Location>North of Middle-earth.
+		</task>
+		<task>
+			<order>2</order>
+		 Objective>Find the secret entrance to the dragon's lair.</Objective>
+			Location>South of Middle-earth.
+		</task>
+		<task>
+			<order>3</order>
+		 Objective>Defeat Smaug the dragon.</Objective>
+			Action>Use your wits and weapons.</Action>
+			Location>North of Middle-earth.
+		</task>
+		<task>
+			<order>4</order>
+		 Objective>Retrieve the Arkenstone.</Objective>
+			Location>Heart of the Dragon's lair.
+		</task>
+	</tasks>
+</game>
+```
+
+The corrected XML data includes new values for the objective and reward. The quest-giver is specified in the `Quest-giver` attribute, which is now a string instead of a variable. Finally, the tasks are specified with the correct order and location attributes.

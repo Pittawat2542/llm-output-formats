@@ -1,0 +1,28 @@
+Here is a generated quest information in YAML format:
+
+```yaml
+game:
+  description: "The village of Greenhaven is plagued by a group of bandits who have taken over the old windmill on the outskirts of town. The villagers are too afraid to confront them, and it's up to you to put an end to their nefarious activities."
+  id: Q001
+  objective: Defeat the bandit leader and clear out the windmill.
+  quest_giver: Thorne, the village elder
+  reward:
+    gold: 1000
+    items:
+      - Longsword of Justice
+      - Leather Armor of Courage
+  tasks:
+    - description: Gather information about the bandits from the villagers.
+      location: Greenhaven Village
+      objective: Talk to 3 villagers
+      order: 1
+    - description: Scout out the windmill and identify any guards or traps.
+      location: Old Windmill
+      objective: Reach the top floor without being detected
+      order: 2
+    - description: Infiltrate the windmill and defeat the bandit leader.
+      location: Old Windmill, Top Floor
+      objective: Defeat Grimgold Ironfist
+      order: 3
+  title: "Cleaning out the Windmill"
+```

@@ -1,0 +1,87 @@
+Corrected XML data:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<have order>
+	</have order>
+	
+	<tr>
+	<title>Order name 1</title>
+	</tr>
+	<tr>
+	<title>Order name 2</title>
+	</tr>
+	<tr>
+	<title>Order name 3</title>
+	</tr>
+</game>
+
+<dialogues>
+	<have speaker>
+	Speaker_name
+	</have speaker>
+	
+	<tr>
+	<title>Speech name 1</title>
+	</tr>
+	<tr>
+	<title>Speech name 2</title>
+	</tr>
+	<tr>
+	<title>Speech name 3</title>
+	</tr>
+</dialogues>
+
+<table border="1">
+	<tr>
+	<td>Order name 1</td>
+	<td>Speaker name</td>
+	<td>Speech name 1</td>
+	<td>Speech name 2</td>
+	<td>Speech name 3</td>
+	</tr>
+	<tr>
+	<td>Order name 2</td>
+	<td>Speaker name</td>
+	<td>Speech name 2</td>
+	<td>Speech name 3</td>
+	<td>Speech name 1</td>
+	</tr>
+	<tr>
+	<td>Order name 3</td>
+	<td>Speaker name</td>
+	<td>Speech name 3</td>
+	<td>Speech name 2</td>
+	<td>Speech name 1</td>
+	</tr>
+</table>
+```
+
+Output in Markdown code block:
+
+```xml
+<table border="1">
+	<tr>
+	<td>Order name 1</td>
+	<td>Speaker name</td>
+	<td>Speech name 1</td>
+	<td>Speech name 2</td>
+	<td>Speech name 3</td>
+	</tr>
+	<tr>
+	<td>Order name 2</td>
+	<td>Speaker name</td>
+	<td>Speech name 2</td>
+	<td>Speech name 3</td>
+	<td>Speech name 1</td>
+	</tr>
+	<tr>
+	<td>Order name 3</td>
+	<td>Speaker name</td>
+	<td>Speech name 3</td>
+	<td>Speech name 2</td>
+	<td>Speech name 1</td>
+	</tr>
+</table>
+```

@@ -1,0 +1,19 @@
+```yaml
+game:
+  description: A quest about finding the quest giver
+  id: 1
+  objective: Find the quest giver
+  quest_giver: The Quest Giver
+  reward: 5000 gold
+  tasks:
+   - description: Search for the quest giver at The Quest Location
+    location: The Quest Location
+    objective: Locate and meet the quest giver
+    order: 1
+   - description: Complete the first task to unlock further information
+    location: —
+    objective: Task completion
+    order: 2
+  title: Quest for the Quest
+
+```

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<game>
+    <title>The Complete Game Title</title>
+    <synopsis>A comprehensive game story summary</synopsis>
+    <beginning>The beginning of the game</beginning>
+    <ending>The end of the game</endings>
+</game>
+
+```xml
+<game>
+    <title>The Complete Game Title</title>
+    <synopsis>A comprehensive game story summary</synopsis>
+    <beginning>1. Introduction</beginning>
+    <ending>2. Main Plot</ending>
+</game>
+```
+
+Explanation:
+- The XML data was missing the `ending` tags for each key.
+- The updated XML data includes a new `<endings>` tag for each key to specify the ending of the game story.
+- The `<synopsis>` tag now contains the complete game story summary, including both the beginning and ending sentences.

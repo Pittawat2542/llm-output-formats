@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<hp>{hp}</hp>
+			<mp>{mp}</mp>
+			<atk>{atk}</atk>
+			<def>{def}</def>
+			<spd>{ spd }</spd>
+		</enemy>
+</game>
+
+Original: 
+
+```xml
+<enemy>
+    <id>id</id>
+    <hp>{hp value}</hp>
+    <mp>{mp value}</mp>
+    <atk>{atk value}</atk>
+    <def>{def value}</def>
+    <spd>{ spd }</spd>
+</enemy>
+```
+
+Fixed:
+
+```xml
+<game>
+	<enemy>
+			<id>id</id>
+			<hp>{hp}</hp>
+			<mp>{mp}</mp>
+			<atk>{atk}</atk>
+			<def>{def}</def>
+			<spd>{ spd }</spd>
+		</enemy>
+</game>
+```

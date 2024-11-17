@@ -1,0 +1,13 @@
+Here's the corrected YAML data with proper syntax and new values if needed:
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Character A
+    text: "Dialogue 1"
+  - order: 2
+    speaker: Character B
+    text: "Dialogue 2"
+```
+In this version, I've removed the unnecessary duplicate `text` key and provided new values for `speaker` with actual character names. The dialogues are now listed as separate items in the `dialogues` list.

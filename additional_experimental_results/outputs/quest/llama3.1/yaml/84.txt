@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: "The ancient temple of the Moon Goddess has been desecrated by a group of treasure hunters. They have stolen one of the most powerful artifacts from within its walls, and it is up to you to retrieve it."
+  id: Q001
+  objective: "Retrieve the Starlight Chalice and return it to the Temple"
+  quest_giver: "High Priestess Elara"
+  reward:
+    gold: 1000
+    experience: 2000
+    item: "Moonstone Amulet (+5 luck)"
+  tasks:
+  - description: "Find the location of the treasure hunters' hideout"
+    location: "The local tavern, 'The Red Griffin'"
+    objective: "Gather information about their plans"
+    order: 1
+  - description: "Infiltrate the hideout and gather intel on the Starlight Chalice"
+    location: "The old windmill on the outskirts of town"
+    objective: "Find out where they plan to take the artifact next"
+    order: 2
+  - description: "Retrieve the Starlight Chalice from the treasure hunters"
+    location: "The hidden temple beneath the windmill"
+    objective: "Fight off the guards and recover the artifact"
+    order: 3
+  title: "Moon Goddess's Favor"
+```

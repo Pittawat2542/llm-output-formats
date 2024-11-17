@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>Dragon's Breath</title>
+	<objective>Defeat the Dragon and collect its breath</objective>
+	<description>As per the King's order, venture into the dark forests, seek the mighty dragon in its lair, defeat it and bring back its breath. Use caution and strategy, for the dragon is fierce and relentless.</description>
+	<reward>King's Sword</reward>
+	<quest-giver>King Aldren</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the dragon's lair</objective>
+			<description>Search for clues in the forest leading to the dragon's lair.</description>
+			<location>Dark Harvest Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Dragon</objective>
+			<description>Engage the dragon in a ferocious battle, keep defences strong and aim for its weak spots.</description>
+			<location>Dragon's Lair</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Collect the Dragon's Breath</objective>
+			<description>Once defeated, collect the dragon's breath in the magical urn provided by the King.</description>
+			<location>Dragon's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

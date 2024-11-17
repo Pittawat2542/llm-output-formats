@@ -1,0 +1,63 @@
+```xml
+
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Sparky</name>
+		<description>An electrical fire-type Pokémon.</description>
+		<stats>
+			<hp int value="100">hp</hp>
+			<mp int value="100">mp</mp>
+			<atk int value="100">atk</atk>
+			<def int value="100">def</def>
+			<spd int value="100">spd</spd>
+		</stats>
+		<level int value="25">level</level>
+		<gender>female</gender>
+		<height float value="0.5m">height</height>
+		<weight float value="0.1kg">weight</weight>
+		<exp int value="25000">exp</exp>
+		<ivs>
+			<hp int value="31">hp</hp>
+			<atk int value="31">atk</atk>
+			<def int value="31">def</def>
+			<spd int value="31">spd</spd>
+		</ivs>
+		<evs>
+			<hp int value="31">hp</hp>
+			<atk int value="31">atk</atk>
+			<def int value="31">def</def>
+			<spd int value="31">spd</spd>
+		</evs>
+		<shiny bool value="false">shiny</shiny>
+	</enemy>
+</game>
+```
+
+## Exercises:
+
+### Exercise 1:
+
+Write a Python function `fix_xml(raw_xml)`, which will take as input an XML string, and output the fixed version. The raw_xml is provided inside the function.
+
+#### Solution:
+
+```python
+def fix_xml(raw_xml):
+
+	# Your solution here
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(raw_xml)
+    new_tree = ET.Element("game")
+    for child in root:
+        child_tag = child.tag
+        child_attribs = {key: value for (key, value) in vars(child).items() if key[0] != "_"}
+        new_element = ET.SubElement(new_tree, child_tag, child_attribs)
+    return ET.tostring(new_tree).decode('utf-8')
+
+
+raw_xml = "<game><enemy><id>1</id><name>Sparky</name><description>An electrical fire-type Pokémon.</description></enemy><stats><hp>100</hp><mp>100</mp><atk>100</atk><def>100</def><spd>100</spd></stats><level>25</level><gender>female</gender><height>0.5m</height><weight>0.1kg</weight><exp>25000</exp><ivs><hp>31</hp><atk>31</atk><def>31</def><spd>31</spd></ivs><evs><hp>31</hp><atk>31</atk><def>31</def><spd>31</spd></evs><shiny>false</shiny></enemy></game>"
+print(fix_xml(raw_xml))
+
+

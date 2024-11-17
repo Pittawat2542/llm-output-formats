@@ -1,0 +1,17 @@
+The corrected XML data is provided in the Markdown code block between ```xml and ```. The original message is provided between ```xml and ```.
+## Output
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>quest objective</Objective>
+	<Description>quest description</description>
+	 reward>quest reward</reward>
+	Quest-giver>quest giver</Quest-giver>
+	 Tasks>
+			<task>
+				<order>task order</order>
+			 Objective>task objective</Objective>
+				Demo: <demo location></demo location>
+			<task>
+		```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>Embark on a journey to the forgotten ruins and retrieve the lost artifact to bring peace to the kingdom.</description>
+	<reward>1000 gold coins and legendary equipment</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>Talk to the village elder to learn about the ruins' whereabouts.</description>
+			<location>Village of Elders</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian monster</objective>
+			<description>A powerful beast guards the artifact. Conquer it to proceed.</description>
+			<location>Ruins Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Explore the ruins and find the artifact</objective>
+			<description>Carefully navigate the ancient traps and puzzles to reach the heart of the ruins.</description>
+			<location>Ruins Interior</location>
+		</task>
+	</tasks>
+</game>
+```

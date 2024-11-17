@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>1</id>
+    <title>Quest Title Example</title>
+    <objective>Quest Objective: Find the treasure</objective>
+    <description Quest Description Here>
+    </description>
+    <reward>Reward: Example Reward</reward>
+    <quest-giver>Giver: Example Quest Giver</quest-giver>
+    <tasks>
+        <task>
+            <order>Task Order 1</order>
+            <objective>Task Objective: Complete a task</objective>
+            <description>Task Description: Go to the forest</description>
+            <location>Location: Forest</location>
+        </task>
+        <!-- Add more tasks as needed -->
+    </tasks>
+</game>
+```

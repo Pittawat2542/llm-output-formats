@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A quest to find the lost treasure
+  id: 1
+  objective: Find the lost treasure
+  quest_giver: The King
+  reward: A new sword
+  tasks:
+   - description: Find the lost treasure
+    location: The lost forest
+    objective: Find the lost treasure
+    order: 1
+   - description: Find the lost treasure
+    location: The lost forest
+    objective: Find the lost treasure
+    order: 2
+   - description: Find the lost treasure
+    location: The lost forest
+    objective: Find the lost treasure
+    order: 3
+  title: A lost treasure
+```

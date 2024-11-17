@@ -1,0 +1,18 @@
+```xml
+<game xmlns="http://www.game.com">
+	<id>1234</id>
+	<title>Quest Title</title>
+	<objective>Complete the quest</objective>
+	<description>I will test your mettle. Good luck!</description>
+	<reward>XML rewards</reward>
+	<quest-giver>Only I can complete it!</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Complete the quest</objective>
+				<description>I will test your mettle. Good luck!</description>
+				<location>Task Location</location>
+			</task>
+	</tasks>
+</game>
+```

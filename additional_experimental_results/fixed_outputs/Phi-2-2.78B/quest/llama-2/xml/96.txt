@@ -1,0 +1,20 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456789</id>
+	<title>A quest for treasure</title>
+	<objective>Find the lost treasure before sunset</objective>
+	<description>Help the villagers of Oaktown retrieve their stolen treasure</description>
+	<reward>10 gold pieces</reward>
+	<quest-giver>King Arthur's Knights</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective objective="Find the map to the treasure" description="Help the villagers find their lost treasure before sunset. They have a map, but it is incomplete." location="the village square">
+				...
+			</objective>
+		</task>
+	</tasks>
+</game>
+```
+

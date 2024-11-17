@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Example Title",
+    "objective": "Find the treasure",
+    "description": "Example Description",
+    "reward": "Example Reward",
+    "quest-giver": "Example Quest Giver",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Kill the goblin chief",
+          "description": "The goblin chief is terrorizing the village. You must eliminate him to complete this task.",
+          "location": "Goblin Camp"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the magical amulet",
+          "description": "The magical amulet is located in the ancient ruins. Be careful, as they are filled with traps and dangerous creatures.",
+          "location": "Ancient Ruins"
+        }
+      ]
+    }
+  }
+}

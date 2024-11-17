@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: Retrieve the legendary sword from the ancient ruins.
+  id: QST001
+  objective: Obtain the Sword of Light.
+  quest_giver: King Arin
+  reward: 
+    experience_points: 1000
+    gold_coins: 500
+    item_name: Shield of Courage
+  tasks:
+  - description: Explore the ancient ruins to find the entrance to the sword chamber.
+    location: Ancient Ruins, Entrance
+    objective: Find the entrance to the sword chamber.
+    order: 1
+  - description: Defeat the dark knight guarding the sword chamber.
+    location: Sword Chamber
+    objective: Defeat Dark Knight Thrain.
+    order: 2
+  - description: Take the Sword of Light from its pedestal.
+    location: Sword Chamber
+    objective: Obtain the Sword of Light.
+    order: 3
+  title: The Quest for the Sword of Light
+```

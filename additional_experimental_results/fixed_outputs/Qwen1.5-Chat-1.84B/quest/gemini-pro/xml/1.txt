@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure of El Dorado</title>
+	<objective>Find the lost treasure of El Dorado.</objective>
+	<description>In the heart of the Amazon jungle lies the lost city of El Dorado. Legend has it that this city holds a treasure of immense value. You've been hired by a wealthy explorer to find this treasure and bring it back to him.</description>
+	<reward>A share of the treasure.</reward>
+	<quest-giver>Archaeologist Jones</quest-giver>
+	<tasks>
+			<trial>
+				<order>1</order>
+				<objective>Find the entrance to the lost city.</objective>
+				<description>The entrance to the lost city is said to be hidden somewhere in the jungle. You'll need to explore the jungle and search for clues that will lead you to the entrance.</description>
+				<location>The Amazon jungle</location>
+			</task>
+
+			<trial>
+				<order>2</order>
+				<objective>Defeat the guardians of the treasure.</objective>
+				<description>Once you've found the entrance to the lost city, you'll need to defeat the guardians of the treasure. These guardians could be anything from wild animals to ancient spirits.</description>
+				<location>The lost city of El Dorado</location>
+			</task>
+
+			<trial>
+				<order>3</order>
+				<objective>Find the treasure.</objective>
+				<description>Once you've defeated the guardians, you'll need to find the treasure. The treasure could be hidden anywhere in the city, so you'll need to search carefully.</description>
+			<location>The lost city of El Dorado</location>
+			</task>
+
+		<trials>
+			<trial>
+				<order>4</order>
+				<objective>Explore the ruins of the ancient city.</objective>
+				<description>The ruins of the ancient city provide valuable clues about the lost treasure. You'll need to carefully examine the structures and artifacts to uncover any hidden passages or treasures.</description>
+				<location>The ruins of El Dorado</location>
+			</task>
+
+			<trial>
+				<order>5</order>
+				<objective>Survive the dangers of the jungle.</objective>
+				<description>The jungle is full of dangerous creatures and hazards, such as poisonous plants, deadly snakes, and treacherous terrain. You'll need to use your wits and survival skills to navigate through the jungle and avoid harm.</description>
+				<location>The Amazon jungle</location>
+			</task>
+
+			<trial>
+				<order>6</order>
+				<objective>Make a daring rescue attempt if necessary.</objective>
+				<description>If the ancient city is too dangerous to explore, you may need to make a daring rescue attempt. This could involve using your expertise and resources to navigate through treacherous terrain or even setting traps to catch intruders.</description>
+				<location>Ardent rescue</location>
+			</task>
+
+			<trial>
+				<order>7</order>
+				<objective>Submit a detailed report of your findings.</objective>
+				<description>Once you've completed all the tasks, you'll need to submit a detailed report of your findings to the wealthy explorer. This report should include a thorough description of your discoveries, including any hidden treasures or clues that were uncovered.</description>
+				<location>A detailed report</location>
+			</task>
+
+			<trial>
+				<order>8</order>
+				<objective>Deliver the treasure to the explorer.</objective>
+				<description>The treasure is worth a significant amount of money and could be a valuable addition to the explorer's collection. You'll need to deliver the treasure to the explorer in a timely manner, using the most efficient and secure method possible.</description>
+				<location>The lost city of El Dorado</location>
+			</task>
+
+			<trial>
+				<order>9</order>
+				<objective>Celebrate your success with a grand feast.</objective>
+				<description>Your hard work and dedication have paid off, and you've successfully found the lost treasure and delivered it to the explorer. You'll need to celebrate your success with a grand feast, filled with delicious food, drinks, and merriment.</description>
+				<location>A grand feast</location>
+			</task>
+
+	</tasks>
+</game>
+```

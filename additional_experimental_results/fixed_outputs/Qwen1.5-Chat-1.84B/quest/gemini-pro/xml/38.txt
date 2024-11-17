@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game id="quest_01">
+	<title>Unicorn Rescue</title>
+	<objective>Rescue the captured unicorns from the dark castle.</objective>
+	<description>The dark wizard has captured several unicorns and holds them prisoner in his castle. You must rescue them before it's too late.</description>
+	<reward>Unique Unicorn Mount + 10,000 Gold</reward>
+	<quest-giver>Grand Wizard Mournsorrow</quest-giver>
+	<tasks>
+			<task order="1" objective="Find and equip the magical unicorn armor." description="The magical unicorn armor can be found hidden within the Enchanted Forest. It will protect you from the dark wizard's magic." location="Enchanted Forest">
+				<hint>Search for the enchanted artifact in the forest, which is said to grant protection against its wearer's enemies.</hint>
+			</task>
+			<task order="2" objective="Travel to the dark wizard's castle and locate the captured unicorns." description="The dark wizard's castle is located on a remote island. You will need to use a ship to reach it." location="Dark Wizard's Castle">
+				<hint>Search for clues about the captured unicorns' whereabouts, as they may have been taken captive by the dark wizard's minions.</hint>
+			</task>
+			<task order="3" objective="Confront the dark wizard and defeat his minions." description="The dark wizard will not willingly surrender the unicorns. You will have to fight your way through hordes of his minions to reach him." location="Dark Wizard's Throne Room">
+				<hint>Defeat a group of dark wizards guarding the castle, or use your magical weapons to weaken them and gain access to the room.</hint>
+			</task>
+			<task order="4" objective="Rescue the unicorns and lead them to safety." description="Once the dark wizard is defeated, you must rescue the unicorns and lead them back to safety. Be careful, as the dark wizard's minions may still be lurking nearby." location="Dark Wizard's Castle">
+				<hint>Defend yourself against any remaining minions or traps, using your enchanted armor and weapons to protect yourself.</hint>
+			</task>
+		</tasks>
+	</game>
+
+</xml>

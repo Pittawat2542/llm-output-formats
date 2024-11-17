@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<game id="123">
+    <title>The Lost Treasure</title>
+    <objective>Find the lost treasure hidden in a mysterious island.</objective>
+    <description>In a land of myths and legends, there is a treasure that has been lost for centuries. Many adventurers have tried to find it, but none have succeeded. As a brave hero, you have been entrusted with the task to find this treasure and bring it back to its rightful place. Are you up for the challenge?</description>
+    <reward>Ancient artifacts, gold, and eternal fame.</reward>
+    <quest-giver>Captain Morgan</quest-giver>
+    <tasks>
+        <task order="1" objective="Obtain a map to the hidden island" description="Visit the old sailor in the tavern and persuade him to give you the map" location="Blackbeard's Tavern">
+            <description>Gather a crew of skilled sailors and loyal companions to join you in the adventure.</description>
+        </task>
+        <task order="2" objective="Build a strong crew for the journey" description="Gather a crew of skilled sailors and loyal companions to join you in the adventure" location="Port Royal">
+            <description>Gather a crew of skilled sailors and loyal companions to join you in the adventure.</description>
+        </task>
+        <task order="3" objective="Survive the treacherous sea voyage" description="Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island" location="The Caribbean Sea">
+            <description>Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.</description>
+        </task>
+        <task order="4" objective="Uncover the secrets of the island and find the treasure" description="Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure" location="The Mysterious Island">
+            <description>Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.</description>
+        </task>
+    </tasks>
+</game>
+
+```

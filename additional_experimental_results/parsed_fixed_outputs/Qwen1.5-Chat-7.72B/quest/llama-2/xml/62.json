@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Quest",
+    "objective": "To find the legendary chest",
+    "description": "A quest to locate the fabled chest filled with treasures",
+    "reward": "Golden artifacts and a rare amulet",
+    "quest-giver": "The Wise Archaeologist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Track down the chest's clues",
+          "description": "Uncover the riddles at each location",
+          "location": "Old Map Cave"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the chest's key from the guardian",
+          "description": "Battle the guardian guarding the entrance to the chest",
+          "location": "Guarded Ruins"
+        }
+      ]
+    }
+  }
+}

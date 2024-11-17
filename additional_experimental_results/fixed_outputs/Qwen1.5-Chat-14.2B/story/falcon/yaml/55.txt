@@ -1,0 +1,17 @@
+The original YAML data was missing a key for `synopsis`. Here's the corrected version:
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: The Quest for Adventure
+  title: The Quest for Adventure
+```
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: "The Quest for Adventure"
+  title: "The Quest for Adventure"
+```

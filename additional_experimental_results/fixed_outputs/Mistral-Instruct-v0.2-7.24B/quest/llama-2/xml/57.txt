@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>kill 10 goblins in the forest</objective>
+			<description>The goblins have been causing trouble for the villagers. Kill 10 of them to prove your worth.</description>
+			<location>Forest of Shadows</location>
+		</task>
+		<!-- Add more tasks if needed, each with a unique order number -->
+	</tasks>
+</game>
+```
+
+# Explanation
+
+The provided XML is well-formed and does not contain any syntax errors. I have only added an example task to the `<tasks>` element for illustrative purposes. You can add more tasks as needed, each with a unique order number in the `<order>` tag.

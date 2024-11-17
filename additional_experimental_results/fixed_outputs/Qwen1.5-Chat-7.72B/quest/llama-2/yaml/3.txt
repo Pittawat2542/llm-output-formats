@@ -1,0 +1,19 @@
+```yaml
+game:
+  description: "Quest description"
+  id: " quest_id_value "
+  objective: "Achieve Objective"
+  quest_giver: "Journeyer Johnson"
+  reward: "Valuable Token or Experience Points"
+  tasks:
+    - description: "Track the Enchanted Statue"
+     location: "Forest clearing, east of village"
+     objective: "Find and remove the curse"
+     order: "1"
+    - description: "Deliver the amulet to the Sage"
+     location: "Library, center of town"
+     objective: "Exchange for a map"
+     order: "2"
+
+title: "The Quest to Save the Forest"
+```

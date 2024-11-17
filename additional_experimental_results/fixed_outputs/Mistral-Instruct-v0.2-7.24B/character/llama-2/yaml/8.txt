@@ -1,0 +1,40 @@
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: hair color
+      height: float value
+      weight: float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+------------------------------------------------------------------------------------------------------------------------
+
+You need to update the `height` and `weight` keys in the physical appearance dictionary to be of type `float`. Currently, they are being defined as strings with the label "float value", but they should just be floats. Here's how you can modify your YAML to fix this issue:
+
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first_name
+    id: id
+    last_name: last_name
+    physical_appearance:
+      eye_color: eye_color
+      hair_color: hair_color
+      height: 1.75  # or any other valid float value
+      weight: 80.5  # or any other valid float value
+    place_of_birth: location
+    role: role_of_the_character
+    species: species
+```
+
+This should resolve the error you encountered when trying to load your YAML file into Python using PyYAML. If you still encounter issues, make sure that the `height` and `weight` values in the `physical_appearance` dictionary are valid floats.

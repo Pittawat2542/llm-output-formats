@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>In this quest, you must explore the forgotten ruins to discover the lost artifact and bring it back to the quest giver.</description>
+	<reward>1000 experience points and a rare magical item</reward>
+	<quest-giver>NPC - Arintha the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Ruins of Eldarath</objective>
+			<description>You need to pass through the entrance of the ruins located in the eastern forest.</description>
+			<location>Ruins of Eldarath</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian Beast</objective>
+			<description>A powerful beast guards the artifact. You must defeat it to proceed.</description>
+			<location>Ruins of Eldarath - Inner Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the Artifact</objective>
+			<description>Once the beast is defeated, claim the artifact from its pedestal.</description>
+			<location>Ruins of Eldarath - Inner Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

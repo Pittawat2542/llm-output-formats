@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient relic from the lost temple.",
+    "description": "The village elder has received a vision of an ancient relic hidden within the lost temple. The village is in dire need of its power to restore balance to the land. You must retrieve the relic and return it to the village elder.",
+    "reward": "100 gold, 500 experience points",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the lost temple entrance.",
+          "description": "Make your way through the dense jungle and navigate through the ancient ruins to reach the entrance of the lost temple.",
+          "location": "Dense Jungle, Ancient Ruins"
+        },
+        {
+          "order": "2",
+          "objective": "Obtain the map fragment from the hidden chamber.",
+          "description": "Sneak into the hidden chamber and retrieve the map fragment that will lead you to the relic.",
+          "location": "Hidden Chamber, Lost Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the temple guardian.",
+          "description": "Face your fears and defeat the powerful temple guardian that protects the relic.",
+          "location": "Temple Guardian, Lost Temple"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the ancient relic.",
+          "description": "Use the map fragment to navigate through the temple and retrieve the ancient relic.",
+          "location": "Ancient Relic Chamber, Lost Temple"
+        }
+      ]
+    }
+  }
+}

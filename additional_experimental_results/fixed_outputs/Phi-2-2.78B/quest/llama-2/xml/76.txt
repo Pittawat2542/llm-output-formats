@@ -1,0 +1,18 @@
+
+```python
+class Game:
+    def __init__(self, game_id):
+        self.id = game_id
+        self.title = ''
+        self.objective = ''
+        self.description = ''
+        self.reward = ''
+        self.quest_giver = ''
+        self.tasks = []
+
+    def add_task(self, task):
+        if self.id == '0':
+            print("Tasks are not allowed in game 0.")
+        else:
+            self.tasks.append(task)
+```

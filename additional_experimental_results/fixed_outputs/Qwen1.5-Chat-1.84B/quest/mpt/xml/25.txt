@@ -1,0 +1,68 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>/5d77c/4298e/quest-giver</id>
+    <title>Quest Giver</title>
+    <objective>Objective 1</objective>
+    <description>Description of Objective 1</description>
+    <reward>Reward 1</reward>
+</game>
+
+<game>
+    <id>/5d77c/4298e/quest-giver</id>
+    <title>Quest Giver</title>
+    <objective>Objective 2</objective>
+    <description>Description of Objective 2</description>
+    <reward>Reward 2</reward>
+</game>
+
+<game>
+    <id>/5d77c/4298e/quest-giver</id>
+    <title>Quest Giver</title>
+    <objective>Objective 3</objective>
+    <description>Description of Objective 3</description>
+    <reward>Reward 3</reward>
+</game>
+
+<game>
+    <id>/5d77c/4298e/quest-giver</id>
+    <title>Quest Giver</title>
+    <objective>Objective 4</objective>
+    <description>Description of Objective 4</description>
+    <reward>Reward 4</reward>
+</game>
+
+<game>
+    <id>/5d77c/4298e/quest-giver</id>
+    <title>Quest Giver</title>
+    <objective>Objective 5</objective>
+    <description>Description of Objective 5</description>
+    <reward>Reward 5</reward>
+</game>
+
+<game>
+    <id>/5d77c/4298e/task>
+        <order>Task Order 1</order>
+        <objective>Objective 1 Task 1</objective>
+        <description>Description of Objective 1 Task 1</description>
+        <location>/5d77c/4298e/task-location-1</location>
+    </task>
+
+    <id>/5d77c/4298e/task>
+        <order>Task Order 2</order>
+        <objective>Objective 2 Task 1</objective>
+        <description>Description of Objective 2 Task 1</description>
+        <location>/5d77c/4298e/task-location-2</location>
+    </task>
+
+    <id>/5d77c/4298e/task>
+        <order>Task Order 3</order>
+        <objective>Objective 3 Task 1</objective>
+        <description>Description of Objective 3 Task 1</description>
+        <location>/5d77c/4298e/task-location-3</location>
+    </task>
+
+    <!-- Add more tasks here -->
+</game>
+
+```

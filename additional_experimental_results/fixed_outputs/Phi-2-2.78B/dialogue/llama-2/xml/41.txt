@@ -1,0 +1,47 @@
+
+```python
+"""
+This script is meant to be used with the "numpy" package. It generates some random data from a normal distribution and calculates its mean, standard deviation, variance, skewness, kurtosis, and histogram. It also plots the data and the theoretical density function using matplotlib. Here is an example of how to run it:
+
+# Import the required libraries
+import numpy as np
+from scipy import stats
+import matplotlib.pyplot as plt
+
+
+# Set a seed for reproducibility
+np.random.seed(0)
+
+
+# Generate some random data from a normal distribution with mean 0 and standard deviation 1
+data = np.random.normal(0, 1, 1000)
+
+
+# Calculate the descriptive statistics of the data
+mean = np.mean(data)
+std_deviation = np.std(data)
+variance = np.var(data)
+skewness = stats.skew(data)
+kurtosis = stats.kurtosis(data)
+
+
+# Print the results
+print("Mean:", mean)
+print("Standard deviation:", std_deviation)
+print("Variance:", variance)
+print("Skewness:", skewness)
+print("Kurtosis:", kurtosis)
+
+
+# Plot the data and the theoretical density function using matplotlib
+plt.hist(data, bins=20, density=True)
+x = np.linspace(-4, 4, 1000) # Define the range of the x-axis
+y = stats.norm.pdf(x, mean, std_deviation) # Define the theoretical density function
+plt.plot(x, y, color='blue') # Plot the theoretical density function
+plt.title("Normal distribution with mean 0 and standard deviation 1")
+plt.xlabel("x")
+plt.ylabel("Probability density")
+plt.show()
+```
+
+"""

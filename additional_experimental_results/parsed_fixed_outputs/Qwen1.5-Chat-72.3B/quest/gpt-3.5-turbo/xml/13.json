@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123",
+    "title": "Save the Princess",
+    "objective": "Rescue the princess from the evil dragon",
+    "description": "Embark on a dangerous journey to save the princess who was kidnapped by a fearsome dragon. Use your wits and skills to defeat the dragon and bring the princess back to safety.",
+    "reward": "1000 gold coins and the gratitude of the kingdom",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain a magical weapon",
+          "description": "Find the ancient sword of legends hidden deep within the enchanted forest.",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the dragon's lair",
+          "description": "Follow the clues and tracks to discover the dragon's hideout in the treacherous mountains.",
+          "location": "Treacherous Mountains"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the dragon",
+          "description": "Battle the dragon using the ancient sword and your cunning strategies.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "4",
+          "objective": "Rescue the princess",
+          "description": "Free the princess from her captivity and guide her safely back to the kingdom.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

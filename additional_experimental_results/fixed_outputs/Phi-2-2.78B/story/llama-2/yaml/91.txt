@@ -1,0 +1,142 @@
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+### Exercise 1
+
+Write a YAML file that defines the following game settings: difficulty level, music volume, and screen resolution. Use comments to explain your choices.
+
+```python
+# Importing the PyYAML library
+import yaml
+
+
+# Defining a dictionary for game settings using Python dictionaries
+game_settings = {'difficulty': 'medium', 'music_volume': 50, 'screen_resolution': (1920, 1080)}
+
+# Converting the dictionary to YAML format using PyYAML library
+yaml_string = yaml.dump(game_settings)
+
+# Displaying the YAML formatted string
+print(yaml_string)
+```
+
+### Exercise 2
+
+Write a YAML file that defines the following game settings: character name, inventory items, and quest objectives. Use comments to explain your choices.
+
+```python
+# Importing the PyYAML library
+import yaml
+
+
+# Defining a dictionary for game settings using Python dictionaries
+game_settings = {'character_name': 'Alex', 'inventory': ['sword', 'shield', 'potion'], 'quest_objectives': ['Find the hidden treasure', 'Defeat the dragon']}
+
+# Converting the dictionary to YAML format using PyYAML library
+yaml_string = yaml.dump(game_settings)
+
+# Displaying the YAML formatted string
+print(yaml_string)
+```
+
+### Exercise 3
+
+Write a Python function that takes in two dictionaries as arguments and returns their union as a dictionary. Use comments to explain your choices.
+
+```python
+# Importing the PyYAML library
+import yaml
+
+
+def combine_settings(dict1, dict2):
+  """
+  This function combines two dictionaries into one dictionary.
+  Args:
+    dict1 (dict): Dictionary 1 to be merged with dict2.
+    dict2 (dict): Dictionary 2 to be merged with dict1.
+  Returns:
+    dict: A new dictionary containing all the key-value pairs from both dictionaries.
+  """
+
+  # Creating an empty dictionary to store the combined settings
+  combined_settings = {}
+
+  # Looping through each key-value pair in dict1 and adding it to the combined settings dictionary
+  for key, value in dict1.items():
+    combined_settings[key] = value
+
+  # Adding all the key-value pairs from dict2 to the combined settings dictionary
+  for key, value in dict2.items():
+    if key not in combined_settings:
+      combined_settings[key] = value
+
+  return combined_settings
+
+
+# Defining two dictionaries for game settings using Python dictionaries
+game_settings1 = {'difficulty': 'medium', 'music_volume': 50, 'screen_resolution': (1920, 1080)}
+game_settings2 = {'character_name': 'Alex', 'inventory': ['sword', 'shield', 'potion'], 'quest_objectives': ['Find the hidden treasure', 'Defeat the dragon']}
+
+
+# Combining two dictionaries using the function defined above
+combined_settings = combine_settings(game_settings1, game_settings2)
+
+
+# Displaying the combined settings dictionary
+print(yaml.dump(combined_settings))
+```
+
+### Exercise 4
+
+Write a Python program that reads in a YAML file containing game settings and prints out each setting on a separate line using comments to explain your choices.
+
+```python
+# Importing the PyYAML library
+import yaml
+
+
+# Reading the YAML formatted string from the YAML file into a dictionary using PyYAML library
+with open('game_settings.yml', 'r') as file:
+  yaml_string = file.read()
+  game_settings = yaml.safe_load(yaml_string)
+
+  # Looping through each key-value pair in the game settings dictionary and printing it on a separate line
+  for key, value in game_settings.items():
+    print(f"{key}: {value}")
+```
+
+### Exercise 5
+
+Write a Python function that takes in a YAML file containing game settings and returns True if the music volume is greater than 70 and False otherwise. Use comments to explain your choices.
+
+```python
+# Importing the PyYAML library
+import yaml
+
+
+def check_music_volume(file_path):
+  """
+  This function checks if the music volume in a YAML game settings file is greater than 70.
+  Args:
+    file_path (str): Path to the YAML formatted string containing game settings.
+  Returns:
+    bool: True if the music volume is greater than 70, False otherwise.
+  """
+
+  # Reading the YAML formatted string from the file into a dictionary using PyYAML library
+  with open(file_path, 'r') as file:
+    yaml_string = file.read()
+    game_settings = yaml.safe_load(yaml_string)
+
+  # Checking if music volume is greater than 70 and returning the result
+  return game_settings['music_volume'] > 70
+
+
+# Example usage of the function to check if the music volume in a YAML file containing game settings is greater than 70
+file_path = 'game_settings.yml'
+print(check_music_volume(file_path))  # Output: True or False depending on the value of music_volume in the game_settings.yml file
+```

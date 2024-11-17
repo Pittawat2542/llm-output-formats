@@ -1,0 +1,57 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>Giver of Quest</quest-giver>
+	<tasks>
+			<task>
+				$order">Task 1</order>
+				<objective>Objective 1</objective>
+				<description>Task description 1</description>
+				<location>Location 1</location>
+			</task>
+			<task>
+				$order">Task 2</order>
+				<objective>Objective 2</objective>
+				<description>Task description 2</description>
+				<location>Location 2</location>
+			</task>
+			<task>
+				$order">Task 3</order>
+				<objective>Objective 3</objective>
+				<description>Task description 3</description>
+				<location>Location 3</location>
+			</task>
+	</tasks>
+</game>
+```
+New values:
+- Quest Giver: Giver of Quest
+- Tasks:
+```xml
+<tasks>
+  <task>
+    <order>Task 1</order>
+    <objective>Objective 1</objective>
+    <description>Task description 1</description>
+    <location>Location 1</location>
+  </task>
+  <task>
+    <order>Task 2</order>
+    <objective>Objective 2</objective>
+    <description>Task description 2</description>
+    <location>Location 2</location>
+  </task>
+  <task>
+    <order>Task 3</order>
+    <objective>Objective 3</objective>
+    <description>Task description 3</description>
+    <location>Location 3</location>
+  </task>
+</tasks>
+```

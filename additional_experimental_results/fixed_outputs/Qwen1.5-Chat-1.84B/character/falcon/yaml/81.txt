@@ -1,0 +1,14 @@
+Game:
+  Character:
+    age: Age or description of the character, represented as an exact value or a description.
+    background: Background story of the character, represented by a YAML key-value pair with a value of a string.
+    first_name: First name of the character, represented as a string.
+    last_name: Last name of the character, represented as a string.
+    physical_appearance:
+      eye_color: Eye color of the character, represented as a string.
+      hair_color: Hair color of the character, represented as a string.
+      height: Height in floating point value, represented as a number.
+      weight: Weight in floating point value, represented as a number.
+    place_of_birth: Location of the character's birth, represented by a YAML key-value pair with a value of a string.
+    role: Role of the character, represented by a string.
+    species: Species of the character, represented by a string.

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "Explore the jungle, navigate through the temple's traps, and fight off the undead guardians to reach the artifact.",
+    "reward": "100 gold coins, 50 experience points, and a magical amulet.",
+    "quest-giver": "Gorvoth, the village elder.",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the jungle to reach the lost temple.",
+          "description": "Fight off wild beasts and avoid deadly traps to reach the temple entrance.",
+          "location": "The Jungle"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the pressure plate puzzle.",
+          "description": "Use your wits to disable the deadly trap and open the next chamber.",
+          "location": "The Temple's First Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Fight off the undead guardian.",
+          "description": "Use your combat skills to defeat the guardian and claim the artifact.",
+          "location": "The Temple's Final Chamber"
+        }
+      ]
+    }
+  }
+}

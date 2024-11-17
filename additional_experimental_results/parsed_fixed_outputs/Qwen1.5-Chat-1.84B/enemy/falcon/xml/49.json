@@ -1,0 +1,17 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "id",
+      "@name": "Brigandine",
+      "description": "A mysterious female warrior who has an incredible power.",
+      "stats": {
+        "hp": "hp int value",
+        "mp": "mp int value",
+        "atk": "atk int value",
+        "def": "def int value",
+        "spd": "spd int value"
+      },
+      "on": "- + 20\n\t\t\t\t- - 15\n\t\t\t\t+ | 8\n\t\t\t\t- |\n\t\t\t\t| - 3"
+    }
+  }
+}

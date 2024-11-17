@@ -1,0 +1,64 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+    <id>12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Achieve the retrieve artifact from the ancient temple</objective>
+    <description>A legendary artifact has been stolen by rogue enemy forces, and your mission is to infiltrate the temple, retrieve the artifact, and return safely.</description>
+    <reward>500 XP, Artifact Blade</reward>
+    <quest-giver>High Priest Toren</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Infiltrate enemy lines covertly to gain entry into temple</objective>
+            <description>Travel through dense jungle to reach ancient temple.</description>
+            <location>Ancient Temple</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Rearrange puzzle pieces to activate artifact door</objective>
+            <description>Use knowledge of the temple's history and architecture to solve a series of puzzles to open the artifact door.</description>
+            <location>Temple Heart</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defend artifact against enemy soldiers</objective>
+            <description>Use weapon skill to take out enemy soldiers guarding the artifact, while also protecting yourself and any allies you bring in.</description>
+            <location>Temple Heart</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+    <id>12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Achieve the retrieve artifact from the ancient temple</objective>
+    <description>A legendary artifact has been stolen by rogue enemy forces, and your mission is to infiltrate the temple, retrieve the artifact, and return safely.</description>
+    <reward>500 XP, Artifact Blade</reward>
+    <quest-giver>High Priest Toren</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Infiltrate enemy lines covertly to gain entry into temple</objective>
+            <description>Travel through dense jungle to reach ancient temple.</description>
+            <location>Ancient Temple</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Rearrange puzzle pieces to activate artifact door</objective>
+            <description>Use knowledge of the temple's history and architecture to solve a series of puzzles to open the artifact door.</description>
+            <location>Temple Heart</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defend artifact against enemy soldiers</objective>
+            <description>Use weapon skill to take out enemy soldiers guarding the artifact, while also protecting yourself and any allies you bring in.</description>
+            <location>Temple Heart</location>
+        </task>
+    </tasks>
+</game>
+```

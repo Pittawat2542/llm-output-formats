@@ -1,0 +1,17 @@
+game: {
+  character: {
+    age: 23,
+    background: "The character is a student",
+    first_name: "John",
+    id: 456,
+    lastName: "Smith",
+    physicalAppearance: [
+      { eyeColor: "blue", hairColor: "brown", height: "6'1", weight: 180 },
+      { eyeColor: "brown", hairColor: "black", height: "5'10", weight: 160 }
+    ],
+    role: "The character is a police officer",
+    species: "human"
+  }
+}
+```
+

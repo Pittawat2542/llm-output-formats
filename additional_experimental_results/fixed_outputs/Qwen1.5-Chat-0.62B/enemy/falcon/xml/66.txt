@@ -1,0 +1,29 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			.description>description</description>
+			stats {
+				hp int value
+			/mp int value
+			atk int value
+			(def int value)
+			青铜 int value
+			}
+		</ enemy>
+	<p>Enemy#敌#1 Name=Wolverine</p>
+	<p>Enemy#敌#2 Name=Iron Man</p>
+	<p>Enemy#敌#2 Name=Green Arrow</p>
+	<p>Enemy#敌#3 Name=Captain America</p>
+
+	<stats>
+		<hp>hp int value</hp>
+		mp>mp int value
+	atk>atk int value
+	(def>def int value</def>
+	青铜>青铜 int value
+	</stats>
+</game>
+```

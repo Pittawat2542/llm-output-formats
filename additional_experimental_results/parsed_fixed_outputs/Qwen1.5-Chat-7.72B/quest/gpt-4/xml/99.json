@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "5678",
+    "title": "The Quest to the Lost Artifact",
+    "objective": "Find and return the artifact to the Archaeologist's House in the next village.",
+    "description": "The ancient artifact is hidden in a secret chamber within the abandoned temple. Follow these steps: visit the local library for maps, then travel to the temple, and finally hand it over to the Archaeologist.",
+    "reward": "3000 gold coins and Ring of Time",
+    "quest-giver": "Archeologist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the library for maps",
+          "description": "Ask the librarian about the temple's location and obtain a map.",
+          "location": "Library"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the temple and find the secret chamber",
+          "description": "Follow the map to the temple, solve its puzzles, and locate the hidden chamber.",
+          "location": "Abandoned Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Return the artifact to the Archaeologist's House",
+          "description": "Bring the artifact to the house marked as 'Archaeologist's' in the next village.",
+          "location": "Next Village, Archaeologist's House"
+        }
+      ]
+    }
+  }
+}

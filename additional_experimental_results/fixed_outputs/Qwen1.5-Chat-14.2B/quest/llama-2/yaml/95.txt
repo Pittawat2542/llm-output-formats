@@ -1,0 +1,27 @@
+The incorrect YAML syntax was due to the use of angle brackets `<` and `>` instead of asterisks `*`. Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: <<QUESTID>>
+  objective: quest objective
+  quest_giver: <<QUESTGIVER>>
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: <<TASKOBJ>>
+      order: <<TASKORDER>>
+  title: <<QUESTTITLE>>
+  
+Quest Giver: <<QUESTGIVER>>
+Quest Title: <<QUESTTITLE>>
+Quest Description: <<QUESTDESC>>
+Quest Reward: <<QUESTREW>>
+Quest Objective: <<QUESTOBJ>>
+Quest Tasks: <<QUESTTASK>>
+Quest Task Description: <<TASKDESC>>
+Quest Task Location: <<TASKLOC>>
+```
+
+Note that I've removed the asterisks from around the quest-related keys and replaced them with angle brackets, as per the original example. The rest of the YAML structure remains the same.

@@ -1,0 +1,33 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Lost Sword</title>
+	<objective>Retrieve the ancient sword</objective>
+	<description>The ancient sword of the kingdom was stolen by a fearsome dragon. The king has demanded its return. Venture into the dragon's lair, defeat the beast and bring back the sword for a hefty reward.</description>
+	<reward>1000 Gold Coins, Knight Title</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Locate the dragon's lair</objective>
+				<description>Consult with the local villagers and gather information about the location of the dragon's lair.</description>
+			<location>Camelot</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Defeat the dragon</objective>
+				<description>Challenge the dragon that stole the sword. Be prepared for a fierce fight.</description>
+			<location>Dragon's Lair</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Capture the sword</objective>
+				<description>Bring back the sword to the castle and present it to the king. You will receive a knighthood title for your bravery.</description>
+			<location>Castle</location>
+			</task>
+	</tasks>
+</game>
+
+```

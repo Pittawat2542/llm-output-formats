@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="dialogue 1">
+            <speaker>player 1</speaker>
+            <text>dialogue 1, narration</text>
+        </dialogue>
+        
+        <dialogue order="dialogue 2">
+            <speaker>player 2</speaker>
+            <text>dialogue 2, dialogue</text>
+        </dialogue>
+
+        <dialogue order="dialogue 3">
+            <speaker>player 1</speaker>
+            <text>dialogue 3, narration</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

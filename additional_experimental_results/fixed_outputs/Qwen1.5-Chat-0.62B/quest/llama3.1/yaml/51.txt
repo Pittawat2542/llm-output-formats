@@ -1,0 +1,44 @@
+```yaml
+game: 
+  description: Retrieve the ancient artifact from the long-abandoned temple on the eastern continent.
+  id: Q001
+  objective: Retrieve the Celestial Chalice
+  quest_giver: The Oracle of Light in Willowdale Village
+  reward: 1000 gold pieces, +10 strength
+  tasks: 
+   - description: Speak with the village elder about the temple's history. 
+    location: Willowdale Village town hall
+    objective: Gather information on the temple' s layout and traps. 
+    order: 1
+   - description: Explore the eastern continent and find the entrance to the ancient temple. 
+    location: Eastern Continent, desert region
+    objective: Locate the hidden entrance to the temple. 
+    order: 2
+   - description: Navigate through the temple''s deadly traps and puzzles. 
+    location: The Ancient Temple
+    objective: Reach the chamber containing the Celestial Chalice. 
+    order: 3
+```
+
+Output in Markdown code block:
+```yaml
+game: Retrieve the ancient artifact from the long-abandoned temple on the eastern continent.
+ Quest: quest_1
+ Quest Giver: Oracle of Light
+ Reward: 1000 gold pieces, +10 strength
+Tasks: 
+ - Description: Speak with village elder about temple history. 
+     Location: Willowdale Village town hall
+     Objective: Gather information on temple layout and traps. 
+     Order: 1
+   - Description: Explore eastern continent and find entrance to temple. 
+     Location: Eastern Continent, desert region 
+     Objective: Locate hidden entrance to temple. 
+     Order: 2
+   - Description: Navigate through temple's deadly traps and puzzles. 
+     Location: The Ancient Temple 
+     Objective: Reach chamber containing Celestial Chalice. 
+     Order: 3
+```
+
+```yaml

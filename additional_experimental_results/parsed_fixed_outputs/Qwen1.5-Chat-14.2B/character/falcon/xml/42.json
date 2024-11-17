@@ -1,0 +1,40 @@
+{
+  "game": {
+    "character": {
+      "id": {
+        "@id": "id"
+      },
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "species",
+      "age": {
+        "@age": "exact age or description"
+      },
+      "role": {
+        "@role": "role of the character"
+      },
+      "background": {
+        "@background": "background story"
+      },
+      "place-of-birth": {
+        "@location": "location"
+      },
+      "physical-appearance": {
+        "eye-color": {
+          "@eye-color": "eye color"
+        },
+        "hair-color": {
+          "@hair-color": "hair color"
+        },
+        "height": {
+          "@height": "height in meters",
+          "@unit": "meters"
+        },
+        "weight": {
+          "@weight": "weight in kilograms",
+          "@unit": "kilograms"
+        }
+      }
+    }
+  }
+}

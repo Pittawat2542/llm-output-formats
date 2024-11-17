@@ -1,0 +1,19 @@
+{
+  "game": {
+    "@xmlns": "http://www.game.com",
+    "id": "1234",
+    "title": "Quest Title",
+    "objective": "Complete the quest",
+    "description": "I will test your mettle. Good luck!",
+    "reward": "XML rewards",
+    "quest-giver": "Only I can complete it!",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Complete the quest",
+        "description": "I will test your mettle. Good luck!",
+        "location": "Task Location"
+      }
+    }
+  }
+}

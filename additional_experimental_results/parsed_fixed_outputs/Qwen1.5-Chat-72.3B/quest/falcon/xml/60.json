@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "In this quest, you will embark on a journey to explore forgotten ruins in search of a legendary artifact. Uncover clues, solve puzzles, and face challenges along the way.",
+    "reward": "1000 experience points and a rare magical item",
+    "quest-giver": "Guildmaster Thorne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins.",
+          "description": "Speak with the village elder to learn about the location of the ancient ruins.",
+          "location": "Village of Eldrin"
+        },
+        {
+          "order": "2",
+          "objective": "Pass the guarded gate.",
+          "description": "Defeat the guardian beast protecting the entrance to the ruins.",
+          "location": "Ruins Entrance"
+        }
+      ]
+    }
+  }
+}

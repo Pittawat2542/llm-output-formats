@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id123</id>
+	<title>A Quest to the Enchanted Forest</title>
+	<objective>Discover the ancient artifact hidden in the forest ruins</objective>
+	<description>You have been tasked by the village elder, Elara, to retrieve a powerful amulet that protects the kingdom from evil forces.</description>
+	<reward>The amulet of protection and a hero's welcome upon your return</reward>
+	<quest-giver>Elara, the Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Follow the old map to find the entrance to the ruins</objective>
+			<description>Search for clues in the village archives and seek advice from the wise wizard, Zephyr.</description>
+			<location>The Ancient Library</location>
+		</task>
+		<!-- Add more tasks as needed -->
+	</tasks>
+</game>
+```

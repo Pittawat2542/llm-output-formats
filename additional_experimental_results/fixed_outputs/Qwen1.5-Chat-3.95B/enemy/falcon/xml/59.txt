@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="utf-8" ?xml>
+<game xmlns="http://www.game.com">
+    <enemy id="id" name="name">
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <attack>attack int value</attack>
+            <defense>def int value</defianta>
+            <healthcstrain>health ctrl var value</healthctrain>
+            <attackcstrain>attckctrlvarvalue</attckctrain>
+            <damagecstrain>damagectrainvalue</damagectrain>
+             <healthctrain>healthctrlvarvalue</healthctrain>
+             <attckcstrain>attackctrainvalue</attackctrain>
+         </stats>
+    </enemy>
+</game>
+```

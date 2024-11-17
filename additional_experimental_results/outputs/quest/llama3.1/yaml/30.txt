@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the ancient scrolls from the long-abandoned ruins of Eldarath.
+  id: Q1-01
+  objective: Discover the secrets of the ancient civilization that once flourished in Eldarath.
+  quest_giver: Eilif Stonefist, the village elder
+  reward: A magical scroll with a powerful spell and a boost to reputation with the local villagers
+  tasks:
+  - description: Explore the eastern part of the ruins and locate the entrance to the ancient library.
+    location: Eastern Ruins, Eldarath
+    objective: Find the hidden entrance to the library
+    order: 1
+  - description: Navigate the treacherous tunnels and retrieve a copy of the ancient Scroll of Eldarath.
+    location: Ancient Library, Eldarath
+    objective: Retrieve a scroll from the shelves without triggering any traps or alarms
+    order: 2
+  - description: Return to Eilif Stonefist with the retrieved scroll and share your findings.
+    location: Village of Oakwood, near the ancient ruins
+    objective: Share the information about Eldarath's ancient civilization with the village elder
+    order: 3
+  title: The Lost Scrolls of Eldarath
+```

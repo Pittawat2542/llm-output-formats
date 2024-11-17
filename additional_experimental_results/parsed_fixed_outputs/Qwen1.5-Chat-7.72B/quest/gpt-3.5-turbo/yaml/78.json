@@ -1,0 +1,35 @@
+{
+  "game": {
+    "description": "Retrieve the Lost Sword of the Ancients from the treacherous Dungeon of Shadows.",
+    "id": "abc123",
+    "objective": "Find and defeat the Dark Lord to claim the Lost Sword of the Ancients.",
+    "quest_giver": "Queen Elara",
+    "reward": [
+      {
+        "item": "Lost Sword of the Ancients",
+        "coins": "500 gold coins"
+      }
+    ],
+    "tasks": [
+      {
+        "description": "Enter the Dungeon of Shadows",
+        "location": "Map Coordinates: N45, E78",
+        "objective": "Explore and defeat the Dark Lord's chamber",
+        "order": 1
+      },
+      {
+        "description": "Defeat Skeleton Guardians",
+        "location": "Map Coordinates: N55, E90",
+        "objective": " Battle at least 5 Skeleton Guardians to proceed further",
+        "order": 2
+      },
+      {
+        "description": "Solve the Puzzle of the Ancient Doors",
+        "location": "Map Coordinates: N60, E75",
+        "objective": "Uncover the ancient door sequence",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Lost Sword"
+  }
+}

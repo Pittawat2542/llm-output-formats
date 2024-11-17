@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?> 
+<game>
+    <enemy>
+        <id>player1</id>
+        <name>Stronghold守卫</name>
+        <description>A formidable guardian at the entrance.</description>
+        <stats>
+            <hp>200</hp>
+            <mp>50</mp>
+            <atk>150</atk>
+            <def>80</def>
+            <spd>60</spd>
+        </stats>
+    </enemy>
+</game>
+```

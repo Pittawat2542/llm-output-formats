@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "QT001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient city of Eldarath and retrieve the powerful artifact.",
+    "description": "Rumors have been circulating about a hidden city deep in the forest, where an ancient civilization once thrived. The city is said to contain a powerful artifact that could change the course of history. Brave adventurers are needed to explore the ruins and retrieve this treasure.",
+    "reward": "1000 gold pieces, a magical amulet granting resistance to darkness",
+    "quest_giver": "Eira Shadowglow, a mysterious sorceress",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the location of Eldarath",
+        "description": "Speak with locals and gather rumors about the city's whereabouts.",
+        "location": "The Rusty Goblet Inn, in the town of Willowdale"
+      },
+      {
+        "order": 2,
+        "objective": "Explore the forest and find the entrance to Eldarath",
+        "description": "Venture into the heart of the forest, navigating through treacherous terrain and avoiding deadly creatures.",
+        "location": "The Whispering Woods, approximately 5 miles north of Willowdale"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the artifact from the ancient temple",
+        "description": "Navigate the traps and puzzles within the ancient temple to claim the artifact.",
+        "location": "Eldarath's Ancient Temple, deep within the Whispering Woods"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the ancient Scroll of Light from the long-abandoned ruins of Eldarath, hidden deep within the mystical forest of Elvendom.
+  id: Q001
+  objective: Obtain the scroll to unlock a powerful ancient magic and save the village of Brindlemark from the impending darkness.
+  quest_giver: Eira Shadowglow, a wise and enigmatic half-elf rogue who resides in Brindlemark.
+  reward: 100 gold pieces and the gratitude of the villagers.
+  tasks:
+  - description: Navigate through the treacherous paths of Elvendom to reach the entrance of Eldarath's ruins.
+    location: The Whispering Woods, a dense and enchanted forest filled with ancient secrets.
+    objective: Reach the ruins undetected by any hostile creatures or rival treasure hunters.
+    order: 1
+  - description: Solve the ancient puzzles within the ruins to unlock the chamber containing the Scroll of Light.
+    location: The Crypt of Eldarath, a long-abandoned temple filled with cryptic traps and enigmatic symbols.
+    objective: Unlock the chamber using your wits and problem-solving skills.
+    order: 2
+  - description: Defend yourself against the guardian of the scroll, a powerful entity awakened by your presence.
+    location: The Hall of Reflections, a sacred space where ancient magic still lingers.
+    objective: Survive the guardian's attack and claim the Scroll of Light.
+    order: 3
+  title: The Lost Scroll of Light
+```

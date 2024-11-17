@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Ancient Artifact Quest</title>
+    <objective>Retrieve the ancient artifact from the lost temple of遗忘</objective>
+    <description>In a distant and dense jungle, you must uncover the secrets of an elusive lost temple. The artifact is said to grant immortality, and your quest is to bring it back to the wise Elder Magus.</description>
+    <reward>Ancient artifact awaits at the temple's heart</reward>
+    <quest-giver>Elder Magus</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the entrance of the lost temple, hidden in the jungle's depths</objective>
+            <description>Search for ancient inscriptions or natural landmarks to guide you. Beware of treacherous terrain.</description>
+            <location>Jungle's Hidden Entrance</location>
+        </task>
+    </tasks>
+</game>
+```

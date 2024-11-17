@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient scroll from the depths of the temple</objective>
+	<description>Rumors speak of a long-lost temple hidden deep within the mystical forest, where an ancient scroll holds the secrets of the ancient civilization. Brave adventurers are needed to retrieve this treasure and uncover its mysteries.</description>
+	<reward>1000 gold pieces, a magical amulet, and the blessing of the village elder</reward>
+	<quest-giver>Elder Thorne, Village Elder of Oakwood</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location from local villagers</objective>
+			<description>Speak with the villagers and gather any information you can find about the lost temple. They may be hesitant to share their knowledge, but a bit of gold or a well-timed jest might loosen their tongues.</description>
+			<location>Oakwood Village Inn</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate the treacherous paths and find the temple entrance</objective>
+			<description>The journey to the temple is fraught with danger. Keep your wits about you as you navigate through the dark forest, avoiding deadly traps and terrifying creatures.</description>
+			<location>Mystical Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the ancient puzzles to unlock the inner sanctum</objective>
+			<description>The temple is filled with mysterious contraptions and enigmatic symbols. Use your knowledge and skills to solve the puzzles, unlocking doors and revealing hidden secrets.</description>
+			<location>Temple of Eldarath</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Rtrieve the ancient scroll from the heart of the temple</objective>
+			<description>Finally, reach the inner sanctum and retrieve the coveted scroll. But beware: powerful guardians may be waiting to protect their treasure.</description>
+			<location>Heart of the Temple</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Sword",
+    "objective": "Find the legendary sword and bring it back to the kingdom",
+    "description": "In the ancient kingdom of Aradia, a powerful sword known as the Blade of Destiny has been lost for centuries. It is said that whoever possesses this sword will have the power to defeat any enemy and bring peace to the land. The king has offered a handsome reward to anyone who can find and return the sword to the royal treasure vault.",
+    "reward": "1000 gold coins",
+    "quest-giver": "King Arion",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Visit the old wise man",
+          "description": "According to ancient tales, the old wise man who resides in the deepest part of the enchanted forest holds important information about the location of the Blade of Destiny. Seek his guidance and unravel the mysteries of the lost sword.",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the 4 elemental crystals",
+          "description": "To unlock the path to the Blade of Destiny, you must gather the 4 elemental crystals scattered across the kingdom. Each crystal holds immense power and is guarded by powerful guardians. Defeat these guardians and retrieve the crystals.",
+          "location": "Various locations across the kingdom"
+        },
+        {
+          "order": "3",
+          "objective": "Enter the Forbidden Cave",
+          "description": "Legend speaks of a hidden cave where the entrance to the Blade of Destiny lies. This Forbidden Cave is dangerous and filled with traps. Only the bravest and most skilled adventurers can navigate its treacherous corridors. Find the entrance and conquer the challenges within.",
+          "location": "Near the mountains in the northern region"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the Dragon at the Blade's Altar",
+          "description": "Deep within the Forbidden Cave, the Blade of Destiny is guarded by a fearsome dragon. Once you have retrieved it, journey to the Blade's Altar and claim your victory over the dragon.",
+          "location": "Forbidden Cave, Blade's Altar"
+        }
+      ]
+    }
+  }
+}

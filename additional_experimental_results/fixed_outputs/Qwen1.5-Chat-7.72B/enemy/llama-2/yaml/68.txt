@@ -1,0 +1,16 @@
+Here is the corrected YAML data in a code block:
+
+```yaml
+game:
+  enemy:
+    description: "A powerful敌手"
+    id: "Enemy1"
+    name: "DarkOmen"
+    stats:
+      atk: 200
+      def: 150
+      hp: 300
+      mp: 50
+      spd: 250
+```
+This YAML defines a game with an enemy entity, providing descriptions for each key and updating the values for `id`, `name`, and stats. The stats have been corrected to use integer values.

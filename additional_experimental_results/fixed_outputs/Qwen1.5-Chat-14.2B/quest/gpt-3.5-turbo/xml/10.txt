@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure</objective>
+	<description>Embark on an epic adventure to find the long-lost treasure of the ancient kingdom. Solve riddles, overcome obstacles, and outsmart the guardians to claim your reward.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain Rutherford</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Decrypt the ancient map</objective>
+				<description>Travel to the forgotten library and decipher the cryptic symbols on the ancient map.</description>
+				<location>Forgotten Library</location>
+			</task>
+	</tasks>
+</game>
+```

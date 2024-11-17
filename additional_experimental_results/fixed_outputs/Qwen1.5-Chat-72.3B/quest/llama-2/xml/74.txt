@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>12345</id>
+	<title>The Adventure Begins</title>
+	<objective>Find the lost artifact</objective>
+	<description>In a mystical land, you must venture forth to recover the legendary artifact said to grant immense power.</description>
+	<reward>x100 experience points and a magical tome</reward>
+	<quest-giver>Guru NPCs of Light</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Forbidden Forest</objective>
+			<description>Brave the forest's perilous paths to reach the ancient ruins.</description>
+			<location>Forest Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

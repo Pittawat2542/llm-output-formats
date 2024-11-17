@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game>
+<html>
+<head>
+	<title>The enemy</title>
+</head>
+<body>
+	<h1>The enemy</h1>
+	<p>This is an example of an enemy in a game.</p>
+</body>
+</html>
+```
+Now, the output will be:
+```xml
+<enemy>
+   <id>id</id>
+   <name>name</name>
+   <description>description</description>
+   <stats>
+    	<hp>hp int value</hp>
+    	mp>mp int value</mp>
+    	atk>atk int value</atk>
+    	def>def int value</def>
+    	<style>
+       </style>
+    	<style>
+       </style>
+   </stats>
+</enemy>
+
+```
+The Markdown code block now includes the output in an XML format with a unique ID.

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "EpicQuest001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the ruins of Eldarath",
+    "description": "Legends speak of a powerful relic hidden within the forgotten city. Retrieve it and unlock its secrets.",
+    "reward": "Golden Chalice, 1000 experience points, and increased reputation with the Explorer's Guild",
+    "quest_giver": "Professor Thorne, renowned archaeologist",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about Eldarath's location",
+        "description": "Speak to locals and gather rumors about the lost city.",
+        "location": "Willowdale Village"
+      },
+      {
+        "order": "2",
+        "objective": "Explore the nearby forest for any signs of Eldarath",
+        "description": "Search for ancient ruins, strange markings, or hidden paths.",
+        "location": "Whispering Woods"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact from the heart of Eldarath",
+        "description": "Overcome treacherous puzzles and deadly creatures to reach the relic.",
+        "location": "Eldarath Ruins"
+      }
+    ]
+  }
+}

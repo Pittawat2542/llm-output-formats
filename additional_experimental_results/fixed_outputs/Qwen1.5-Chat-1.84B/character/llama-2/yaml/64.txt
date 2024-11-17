@@ -1,0 +1,49 @@
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+     eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+    place_of_birth: USA
+    role: student
+    species: human
+```
+
+
+### New values:
+- Age: 17 (exact age or description)
+- Background: The character is from a poor family.
+- First Name: Sam
+- ID: 12345
+- Last Name: Jones
+- Physical Appearance:
+   - Eye Color: green
+     Hair Color: brown
+     Height: 170 cm
+     Weight: 60 kg
+
+### YAML code block:
+```yaml
+game:
+  character:
+    age: 17
+    background: The character is from a poor family.
+    first_name: Sam
+    id: 12345
+    last_name: Jones
+    physical_appearance:
+      eye_color: green
+      hair_color: brown
+      height: 170 cm
+      weight: 60 kg
+      place_of_birth: USA
+      role: student
+      species: human
+```

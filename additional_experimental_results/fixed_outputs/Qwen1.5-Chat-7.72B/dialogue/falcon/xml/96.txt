@@ -1,0 +1,23 @@
+```xml
+<game>
+    <dialogues>
+        <dialogue order="1">
+            <speaker>Speaker name 1</speaker>
+            <text>Narration text 1</text>
+        </dialogue>
+        <dialogue order="2">
+            <speaker>Speaker name 2</speaker>
+            <text>Text text text 2</text>
+        </dialogue>
+        <!-- Corrected dialogue with 'order' attribute and removed extra whitespace -->
+        <dialogue order="3">
+            <speaker>Speaker 1</speaker>
+            <text>Text text text 3</text>
+        </dialogue>
+        <!-- Added missing close tag for 'speakername' and corrected text -->
+        <speaker name="Speaker 1">
+            <text>Narrative text 4</text>
+        </speaker>
+    </dialogues>
+</game>
+```

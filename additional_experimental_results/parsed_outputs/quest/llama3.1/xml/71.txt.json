@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient city and retrieve an artifact.",
+    "description": "Rumors have surfaced about a lost city deep in the forest, where an ancient artifact lies hidden. Your quest is to find the city and bring back the artifact for further study.",
+    "reward": "100 gold pieces, a magical amulet, and 10 experience points.",
+    "quest-giver": "The village elder of Oakwood Village",
+    "tasks": {
+      "task": [
+        {
+          "order": "1st",
+          "objective": "Gather information about the lost city from local villagers.",
+          "description": "Speak to the villagers and gather any clues or tips that might aid you in your quest.",
+          "location": "Oakwood Village Market"
+        },
+        {
+          "order": "2nd",
+          "objective": "Explore the forest and follow the map to the lost city.",
+          "description": "Use the information gathered from the villagers to navigate through the forest and find the lost city.",
+          "location": "The Heart of the Forest"
+        },
+        {
+          "order": "3rd",
+          "objective": "Retrieve the artifact from within the lost city.",
+          "description": "Once you have reached the lost city, find the artifact and retrieve it.",
+          "location": "The Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

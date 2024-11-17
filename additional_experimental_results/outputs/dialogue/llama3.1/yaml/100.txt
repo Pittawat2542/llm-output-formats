@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: Hello, what brings you to this place?
+  - order: 2
+    speaker: Non-Player Character (NPC)
+    text: Ah, traveler. I've been waiting for you. You seek something in the town of Willowdale.
+  - order: 3
+    speaker: Player
+    text: Yes, I'm looking for information about a local legend. Have you heard anything?
+  - order: 4
+    speaker: NPC
+    text: Legend? Ah, yes... The Whispering Woods to the east are said to be cursed. Many brave adventurers have ventured in but never returned.
+  - order: 5
+    speaker: Player
+    text: That sounds ominous. I think I'll take a closer look at the woods. Can you tell me more?
+  - order: 6
+    speaker: NPC
+    text: Be careful, traveler. The woods are full of ancient spirits and twisted creatures. You may want to prepare yourself before entering.
+```

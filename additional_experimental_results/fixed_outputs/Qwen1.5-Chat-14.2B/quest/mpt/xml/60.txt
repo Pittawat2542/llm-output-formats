@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>130845</id>
+    <title Quest: The Power of Three</title>
+    <objective Acquire three ancient artifacts</objective>
+    <description>
+        You have just received a letter from your grandfather stating that he has located the location of an artifact that has been lost for more than 300 years. As a young man he and his friends discovered this incredible item. Now much older and on his deathbed, he asked you to search for the object to prove once and for all that it really exists. The artifact is a magical staff that grants the user great power over time and space. There are three locations around the world where the staff was supposedly left. Your grandfather has only been able to identify two of these locations. With the help of your friends, you will need to find all three objects if you are ever to understand why your grandfather kept this secret for so many years. There is, unfortunately, a great evil that seeks the staff and has traveled through time to search for it as well. This ancient evil has already sent one of their spies back to the present day with the goal of stealing the staff. You will have to act quickly if you want to find all three artifacts before it is too late.
+    </description>
+    <reward>The artifacts are amazing to say the least</reward>
+    <quest-giver>Your grandfather</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the first artifact: The Eye of Horus</objective>
+            <description Located in Egypt. The Eye of Horus is an artifact from Ancient Egypt. During the time of pharaoh Horemheb, the Eye was in the wrong hands. Because of this, it has been hidden and was left to rot. Your journey will start on the banks of the great Nile River, where a small town has emerged from nowhere.</description>
+            <location>Egypt</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the second artifact: The Armor of Achilles</objective>
+            <description>The Armor of Achilles was made by the God Hephaestus from the hides of all the animals killed by the Greek hero Achilles during his campaigns. It represents the most powerful and protective armor in Greek mythology, which can defeat the most destructive weapons from the ancient Greeks.</description>
+            <location>Greece</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find the third artifact: The Winged Helmet of Hermes</objective>
+            <description>This helmet was made by the god Hermes. It was given to the Greek hero Achilles during the Trojan War, he won it in a game of strategy (or skill) after tricking the king of Trojans, Priam, with his wit and clever talk.</description>
+            <location>Greece</location>
+        </task>
+    </tasks>
+</game>
+```

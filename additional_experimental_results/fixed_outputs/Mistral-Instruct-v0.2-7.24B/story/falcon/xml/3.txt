@@ -1,0 +1,17 @@
+
+```xml
+<?xml version="1.0" ?>
+<game id="b7b7e8">
+	<title>
+		<wbs:title name="game title">
+		</wbs:title>
+	</title>
+	<synopsis>game story synopsis</synosis> %% remove the extra closing '>' in <synopsis> tag %%
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+	<class typeA="gameClass">
+		<class name="class">WBOOPSH" wbclass>Bopsh</c></class> %% remove extra '>' and add missing closing tag for <class> %%
+	</class>
+	<character typeA="adult" name="John" age="20"/>
+</game>
+```

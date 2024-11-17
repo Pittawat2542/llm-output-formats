@@ -1,0 +1,30 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "enemy001",
+        "name": "Enemy 1",
+        "description": "this is enemy 1",
+        "stats": {
+          "hp": "100",
+          "mp": "50",
+          "atk": "20",
+          "def": "15",
+          "spd": "30"
+        }
+      },
+      {
+        "id": "enemy000",
+        "name": "Enemy 2",
+        "description": "this is enemy 2",
+        "stats": {
+          "hp": "75",
+          "mp": "150",
+          "atk": "35",
+          "def": "25",
+          "spd": "45"
+        }
+      }
+    ]
+  }
+}

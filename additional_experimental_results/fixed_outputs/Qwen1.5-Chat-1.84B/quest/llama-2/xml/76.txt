@@ -1,0 +1,52 @@
+XML data with corrected syntax and new values:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>23</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>23</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format and Markdown code block:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>23</id>
+    <title>quest title</title>
+    <objective>quest objective</objective>
+    <description>quest description</description>
+    <reward>quest reward</reward>
+    <quest-giver>quest giver</quest-giver>
+    <tasks>
+        <task>
+            <order>23</order>
+            <objective>task objective</objective>
+            <description>task description</description>
+            <location>task location</location>
+        </task>
+    </tasks>
+</game>
+
+## Game Details
+
+* ID: 23
+* Title: quest title
+* Objective: quest objective
+* Description: quest description
+* Reward: quest reward
+* Quest Giver: quest giver
+* Tasks:
+    * Task 1: order: 23, objective: task objective, description: task description, location: task location
+</game>
+```

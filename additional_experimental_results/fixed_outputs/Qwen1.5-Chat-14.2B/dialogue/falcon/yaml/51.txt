@@ -1,0 +1,15 @@
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: "Speaker"
+      text: |
+        - This can be customized and moved around as needed
+        - Use appropriate text editor commands
+        - Markdown is preferred here because it allows for easy manipulation and formatting
+
+# Example YAML file (yaml.d)
+---
+text: text
+lines: 8
+```

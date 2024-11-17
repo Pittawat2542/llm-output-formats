@@ -1,0 +1,58 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>
+	<introduction>
+			The game starts with the introduction.
+		</introduction>
+		ending>
+			The game ends with the final ending.
+	</endings>
+</game>
+```
+New values:
+```python
+<game>
+	<title>game title</title>
+	<synopsis>
+		introduction: The game starts with the introduction. 
+		ending: The game ends with the final ending.
+	</synopsis>
+</game>
+```
+Output in Markdown code block:
+```markdown
+<?xml version="1.0" ?>
+<game>
+<title>game title</title>
+<synopsis>
+	[introduction]
+		The game starts with the introduction.
+		ending: The game ends with the final ending.
+	</synopsis>
+</game>
+```
+XML output format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>
+		introduction: The game starts with the introduction.
+		ending: The game ends with the final ending.
+	</synopsis>
+</game>
+```
+Markdown output format:
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>
+		introduction: The game starts with the introduction.
+		ending: The game ends with the final ending.
+	</synopsis>
+</game>
+```
+Only the XML in the Markdown code block.

@@ -1,0 +1,34 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id id="id">id</id>
+    <title quest_title>
+        quest title
+    </title>
+    <objective quest_objective>
+        quest objective
+    </objective>
+    <description quest_description>
+        quest description
+    </description>
+    <reward quest_reward>
+        quest reward
+    </reward>
+    <quest-giver quest_giver_name>
+        quest giver name
+    </quest-giver>
+    <tasks>
+        <task order="task_order">
+            task objective
+        </task>
+    </tasks>
+</game>
+```
+New values if needed:
+```xml
+<quest-giver name="Alex">Alex</quest-giver>
+<reward reward_type="gold">50 gold coins</reward>
+<difficulty difficulty_level="medium">Medium difficulty level</difficulty>
+<location quest_location_name="Old Town"></location>
+```

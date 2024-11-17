@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>Dialogue 1</order>
+            <speaker>Character A</speaker>
+            <text>Narration 1</text>
+        </dialogue>
+        
+        <dialogue>
+            <order>Dialogue 2</order>
+            <speaker>Character B</speaker>
+            <text>Dialogue 2</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+In the fixed XML code, I've changed the `<order>` element to "Dialogue 1" and "Dialogue 2" as requested. Also, added closing tags for `<dialogue>` and removed the unnecessary `</dialogue>`. The text values are updated with example dialogue or narration content.

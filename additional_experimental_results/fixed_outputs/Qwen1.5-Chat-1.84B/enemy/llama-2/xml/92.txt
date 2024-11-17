@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>12345</id>
+        <name>Polar Bear</name>
+        <description>A giant polar bear with thick fur and sharp claws.</description>
+        <stats>
+            <hp>100</hp>
+            <mp>100</mp>
+            <atk>100</atk>
+            <def>100</def>
+            <spd>100</spd>
+        </stats>
+
+        <!-- New enemy data -->
+        <enemy>
+            <id>67890</id>
+            <name>Ninja Warrior</name>
+            <description>A skilled ninja with black armor and a katana sword.</description>
+            <stats>
+                <hp>50</hp>
+                <mp>50</mp>
+                <atk>50</atk>
+                <def>50</def>
+                <spd>50</spd>
+            </stats>
+
+            <!-- New enemy statistics -->
+            <enemy>
+                <enemies>
+                    <enemy id="12345" name="Polar Bear">
+                        <id>67890"
+                        />
+                    </enemy>
+                </enemies>
+            </enemy>
+        </enemy>
+
+        <!-- Existing game data -->
+        <game>
+            <enemy>
+                <id>12345</id>
+                <name>Polar Bear</name>
+                <description>A giant polar bear with thick fur and sharp claws.</description>
+                <stats>
+                    <hp>100</hp>
+                    <mp>100</mp>
+                    <atk>100</atk>
+                    <def>100</def>
+                    <spd>100</spd>
+                </stats>
+
+            </enemy>
+        </game>
+    </enemy>
+</game>
+```

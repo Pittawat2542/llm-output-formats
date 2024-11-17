@@ -1,0 +1,24 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first_name",
+            "last_name": "last_name",
+            "species": "species",
+            "age": "exact age or description",
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [
+                {
+                    "eye_color": "eye color",
+                    "hair_color": "hair color",
+                    "height": 1.75, // float value corrected to a number
+                    "weight": 70.0 // weight also corrected to a number
+                }
+            ]
+        }
+    }
+}
+```

@@ -1,0 +1,23 @@
+The original XML data provided appears to have a syntax error in the `<species>` tag, where it is not closed properly. Here's the corrected XML:
+
+```xml
+<?xml version="1.0"?>
+<game>
+   <character>
+     <id>CH001</id>
+     <first-name>Aethon</first-name>
+     <last-name>Darkshadow</last-name>
+     <species>HALF-Elf</species>
+     <age>250 years (appears to be mid-30s)</age>
+     <role>Gray Warden and Freelance Adventurer</role>
+     <background>Aethon was born to a human father and an elven mother in the kingdom of Ferelden. He grew up on the streets, surviving by his wits and stealth skills. He later became a Gray Warden, tasked with protecting the realm from darkspawn threats.</background>
+     <place-of-birth>Denerim, Ferelden</place-of-birth>
+     <physical-appearance>
+       <eye-color>Green</eye-color>
+       <hair-color>DARK Brown</hair-color>
+       <height>1.85</height>
+       <weight>75.0</weight>
+     </physical-appearance>
+   </character>
+</game>
+```

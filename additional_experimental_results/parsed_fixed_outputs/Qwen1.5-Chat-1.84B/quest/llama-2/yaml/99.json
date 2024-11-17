@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": 1,
+    "objective": "Win the game",
+    "quest_giver": "The king",
+    "reward": "A medal",
+    "tasks": [
+      {
+        "title": "Beat the evil wizard",
+        "location": "The dungeon",
+        "description": "Destroy the wizard",
+        "order": 1,
+        "task_description": "Task Description for Beat the Evil Wizard"
+      },
+      {
+        "title": "Save the princess",
+        "location": "The castle",
+        "description": "Rescue the princess",
+        "order": 2,
+        "task_description": "Task Description for Save the Princess"
+      }
+    ]
+  }
+}

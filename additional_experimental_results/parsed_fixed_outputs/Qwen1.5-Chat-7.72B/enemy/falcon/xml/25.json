@@ -1,0 +1,41 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "EN01",
+      "name": "Elemental Wyrm",
+      "description": "A powerful dragon with control over elements",
+      "stats": [
+        {
+          "hp": {
+            "@value": "200",
+            "#text": "Max HP (200)"
+          },
+          "mp": {
+            "@value": "50",
+            "#text": "Max MP (50)"
+          },
+          "atk": {
+            "@value": "150",
+            "#text": "ATK (150)"
+          },
+          "def": {
+            "@value": "100",
+            "#text": "DEF (100)"
+          },
+          "spd": {
+            "@value": "80",
+            "#text": "SPD (80)"
+          }
+        },
+        {
+          "hp_min": "120",
+          "xp_min": "300",
+          "mp_min": "35",
+          "weaponSkill": "Elemental Strike",
+          "weaponLevel": "6",
+          "elementalCharge": "80% of MP"
+        }
+      ]
+    }
+  }
+}

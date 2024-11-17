@@ -1,0 +1,26 @@
+The following XML data has been fixed. The syntax is now correct, and new values have been added where appropriate. If there was nothing wrong with the original data, only return the original message in a Markdown code block (between ```xml and ```. Return output as XML format and only the XML in the Markdown code block).
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Quest to Save the Kingdom</title>
+	<objective>Find the lost treasure and defeat the evil sorcerer.</objective>
+	<description>This is a quest where you must embark on an epic journey to save the kingdom from destruction. Along the way, you will encounter dangerous monsters and solve challenging puzzles to progress further in your quest.</description>
+	<reward>A magical sword that can slay any enemy.</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>This task involves searching through ancient ruins and deciphering cryptic clues to uncover the location of the hidden treasure.</description>
+			<location>The Temple of Doom</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the evil sorcerer</objective>
+			<description>This task involves battling fierce monsters and using your magical sword to defeat the evil sorcerer and save the kingdom.</description>
+			<location>The Dark Forest</location>
+		</task>
+	</tasks>
+</game>
+

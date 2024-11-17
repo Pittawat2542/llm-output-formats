@@ -1,0 +1,61 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>quest title</title>
+	<objective></objective>
+	<description>\n</description>
+	<reward>*</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+		<task>
+			<order>1+1</order>
+			<objective>quest title+1</objective>
+			<description>\n+;</description>
+			<location>quest giver</location>
+		</task>
+		<task>
+			<order>-1</order>
+			<objective>quest title-1</objective>
+			<description>\n+</description>
+			<location>quest giver</location>
+		</task>
+		<task>
+			<order>*</order>
+			<objective>task 1</objective>
+			<description>task 1</description>
+			<location>*</location>
+		</task>
+		<task>
+			<order>1+1</order>
+			<objective>task 1+1</objective>
+			<description>task 1+2;;task 1+2 +1;+</description>
+			<location></location>
+		</task>
+		<task>
+			<order>-1</order>
+			<objective>task 1 -1</objective>
+			<description>task 1-1;;task 1-1 +1;+</description>
+			<location>*</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>task 2</objective>
+			<description>task 2 +1</description>
+			<location>task 2 +2;</location>
+		</task>
+		<task>
+			<order>2+2</order>
+			<objective>task 2 +2+1</objective>
+			<description>task 2+2 +2;+</description>
+			<location></location>
+		</task>
+	</tasks>
+</game>
+```

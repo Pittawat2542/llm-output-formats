@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Lost Relic quest</title>
+    <objective>Recover the Relic of Elders from the Crypt under Moonlight</objective>
+    <description>A renowned historian, Dr. Evernight, has stumbled upon an ancient crypt that requires a quest to unlock its secrets. The Relic holds crucial knowledge about the lost civilization.</description>
+    <reward>1000 gold coins and 'Crypt Explorer' title</reward>
+    <quest-giver>Dr. Evernight</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Acquire a map to the crypt</objective>
+            <description>Visit Dr. Evernight's study and obtain the detailed map of the crypt, located in the eastern library.</description>
+            <location>East Library</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Enter the crypt hidden at nightfall</objective>
+            <description>Come to the crypt's entrance after dark, which is hidden behind a statue in the crypt's garden.</description>
+            <location>Crypt Gardenstatue</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Overcome traps and find the Relic chamber</objective>
+            <description> Beware of陷阱, solve puzzles to reach the chamber where the Relic awaits.</description>
+            <location>Relic Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

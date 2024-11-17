@@ -1,0 +1,11 @@
+```yaml
+game:
+  title: "The Lost City of Eldarath"
+  beginning:
+    text: In the world of Eridoria, where magic and technology coexist in an uneasy balance, players take on the role of archaeologists seeking to uncover the secrets of the fabled Lost City of Eldarath.
+  ending:
+    description: After completing their quest, players face a crucial decision that will shape the fate of Eridoria: restore lost magic or forge a new path.
+  synopsis:
+    summary: The Lost City of Eldarath is an epic adventure game where players explore ancient ruins, uncover hidden treasures, and unravel the mysteries of the city's downfall. They navigate moral dilemmas and make lasting impacts on Eridoria's story.
+```
+The original YAML had incorrect syntax due to the mixing of text within the `beginning` and `ending` keys. I've separated them into separate keys with appropriate values (text for `beginning` and description for `ending`). The summary for the synopsis has also been reformatted for clarity.

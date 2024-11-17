@@ -1,0 +1,47 @@
+```xml
+
+<?xml version="1.0" ?>
+
+
+<game>
+	<character>
+
+		<!-- Character ID -->
+		<id>c001</id>
+
+		<!-- First Name -->
+		<first-name>Eira</first-name>
+
+		<!-- Last Name -->
+		<last-name>Shadowglow</last-name>
+
+		<!-- Species -->
+		<species>
+			HALF_ELF HALF-ELF
+		</species>
+
+		<!-- Age -->
+		<age>250  (appears to be in her mid-20s)</age>
+
+		<!-- Role -->
+		<role>Bard/Assassin</role>
+
+		<!-- Background -->
+		<background>
+			Eira was born to a human father and an elven mother. She was trained in the art of music and deception from a young age. She uses her charm and stealth to infiltrate organizations and eliminate targets.
+		</background>
+
+		<!-- Place of Birth -->
+		<place-of-birth>Waterdeep, Forgotten Realms</place-of-birth>
+
+		<!-- Physical Appearance -->
+		<physical-appearence>
+			<eye-color>Emerald Green</eye-color>
+			<hair-color>Raven Black</hair-color>
+			<height>5.8</height>
+			<weight>130</weight>
+		</physical-appearence>
+	</character>
+
+</game>
+```

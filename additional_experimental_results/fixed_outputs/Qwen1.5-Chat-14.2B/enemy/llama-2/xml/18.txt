@@ -1,0 +1,22 @@
+The issue with the original XML data was that the closing `</stats>` tag was not indented properly, causing an "invalid token" error. Here's the corrected XML:
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				<hp>hp int value</hp>
+				<mp>mp int value</mp>
+				<atk>atk int value</atk>
+				<def>def int value</def>
+				<spd>spd int value</spd>
+			</stats>
+		</enemy>
+	</game>
+</game>
+```
+
+The closing `</stats>` tag has been indented to match the opening `<stats>` tag.

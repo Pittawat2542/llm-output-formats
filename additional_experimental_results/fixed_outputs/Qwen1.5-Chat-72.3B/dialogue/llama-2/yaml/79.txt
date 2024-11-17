@@ -1,0 +1,190 @@
+All provided YAML data seems to be correctly formatted. Here they are again in case you need them:
+
+### 2. Dialogue with a character
+
+```yaml
+game:
+  dialogues:
+   - order: 2
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions."
+```
+
+### 3. Dialogue with a character and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 3
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question."
+    dialogue_order:
+       - 1
+       - 2
+```
+
+### 4. Dialogue with a character and a dialogue order and a character
+
+```yaml
+game:
+  dialogues:
+   - order: 4
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question."
+    dialogue_order:
+       - 1
+       - 2
+```
+
+### 5. Dialogue with a character and a dialogue order and a character and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 5
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+```
+
+### 6. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 6
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+```
+
+### 7. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 7
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+```
+
+### 8. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 8
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question. I'm going to ask you the sixth question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+       - 6
+```
+
+### 9. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 9
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question. I'm going to ask you the sixth question. I'm going to ask you the seventh question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question. I'm going to answer the seventh question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+       - 6
+       - 7
+```
+
+### 10. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 10
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question. I'm going to ask you the sixth question. I'm going to ask you the seventh question. I'm going to ask you the eighth question. I'm going to ask you the ninth question. I'm going to ask you the tenth question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question. I'm going to answer the seventh question. I'm going to answer the eighth question. I'm going to answer the ninth question. I'm going to answer the tenth question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+       - 6
+       - 7
+       - 8
+       - 9
+       - 10
+```
+
+### 11. Dialogue with a character and a dialogue order and a character and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order and a dialogue order
+
+```yaml
+game:
+  dialogues:
+   - order: 11
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question. I'm going to ask you the sixth question. I'm going to ask you the seventh question. I'm going to ask you the eighth question. I'm going to ask you the ninth question. I'm going to ask you the tenth question. I'm going to ask you the eleventh question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question. I'm going to answer the seventh question. I'm going to answer the eighth question. I'm going to answer the ninth question. I'm going to answer the tenth question. I'm going to answer the eleventh question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+       - 6
+       - 7
+       - 8
+       - 9
+       - 10
+       - 11
+```

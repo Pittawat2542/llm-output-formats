@@ -1,0 +1,36 @@
+game:
+  character:
+    age: 30
+    background:
+      story: A young adventurer who sets out on a quest to save his kingdom from an evil sorcerer.
+    first_name: John Doe
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 6'3"
+      weight: 200 lbs
+    place_of_birth: Kingdom of Eldoria
+    role: Defender of the realm
+    species: Human
+
+Output in YAML format:
+```yaml
+game:
+  character:
+    age: 30
+    background:
+      story: A young adventurer who sets out on a quest to save his kingdom from an evil sorcerer.
+    first_name: John Doe
+    id: 123456789
+    last_name: Smith
+    physical_appearance:
+     - eye_color: brown
+      hair_color: black
+      height: 6'3"
+      weight: 200 lbs
+    place_of_birth: Kingdom of Eldoria
+    role: Defender of the realm
+    species: Human
+```

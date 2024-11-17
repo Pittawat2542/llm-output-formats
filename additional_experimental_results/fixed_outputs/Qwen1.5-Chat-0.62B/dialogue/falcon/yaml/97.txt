@@ -1,0 +1,24 @@
+```yaml
+# Markdown code block - only the YAML
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+
+The YAML data is correct now. The error message was caused by a missing key `order`. Now, the YAML data looks like this:
+```yaml
+- order: dialogue order
+```
+
+In the Markdown code block, it should be:
+
+```yaml
+# Markdown code block - only the YAML
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```

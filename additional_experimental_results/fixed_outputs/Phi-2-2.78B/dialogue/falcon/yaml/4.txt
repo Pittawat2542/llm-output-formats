@@ -1,0 +1,127 @@
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker:
+      - name: speaker_1
+    text:
+      - 'This is the first message'
+    
+    - speaker:
+      - name: speaker_2
+    text:
+      - 'And this is the second one.'
+```
+
+
+### Exercise:
+Create a YAML file with the following structure:
+
+- game:
+  dialogues:
+  - order: dialogue order
+    speaker:
+      - name: speaker_1
+    text:
+      - 'This is the first message'
+    
+    - speaker:
+      - name: speaker_2
+    text:
+      - 'And this is the second one.'
+
+Create a Python function to read in the YAML data and add another dialogue line. The new dialogue should have the following structure:
+  
+- order: dialogue order
+  speaker:
+    - name: speaker_3
+    text:
+      - 'This is the third message'
+  
+The function should return the updated YAML in a string format. 
+```python
+# Solution:
+def add_dialogue(yaml_path):
+    """Add new dialogue line to existing YAML file."""
+    import yaml
+
+    with open(yaml_path, 'r') as file:
+        data = yaml.load(file)
+    
+    # Add new dialogue
+    new_dialogue = {'order': 'dialogue order',
+                    'speaker': {'name': 'speaker_3',
+                               'text': 'This is the third message.'},
+                    'text': None}
+    data['dialogues'].append(new_dialogue)
+
+    # Write updated YAML to file
+    with open(yaml_path, 'w') as file:
+        yaml.dump(data, file)
+
+    return data
+```
+### Exercise:
+Create a function that takes a string containing YAML code and converts it into Python dictionary using `safe_load()`. The input should be validated for correct syntax before being processed. If the syntax is incorrect, print an error message. 
+```python
+# Solution:
+def load_yaml(yaml_string):
+    """Convert YAML string to Python dictionary."""
+    import yaml
+
+    try:
+        data = yaml.safe_load(yaml_string)
+        print('YAML successfully loaded.')
+        return data
+    except yaml.scanner.ScannerError as e:
+        print('Invalid YAML syntax:', e)
+```
+### Exercise:
+Create a function that takes a Python dictionary and converts it into YAML using `safe_dump()`. The input should be validated for correct data type before being processed. If the data is invalid, print an error message. 
+```python
+# Solution:
+def dump_yaml(data):
+    """Convert Python dictionary to YAML string."""
+    import yaml
+
+    try:
+        yaml_string = yaml.dump(data)
+        print('YAML successfully dumped.')
+        return yaml_string
+    except Exception as e:
+        print('Invalid data type:', e)
+```
+### Exercise:
+Create a function that takes a YAML string and validates it for correct syntax using `safe_load()`. The output should be a boolean value indicating whether the YAML was successfully loaded or not. 
+```python
+# Solution:
+def validate_yaml(yaml_string):
+    """Validate YAML string for correct syntax."""
+    import yaml
+
+    try:
+        data = yaml.safe_load(yaml_string)
+        print('YAML successfully loaded.')
+        return True
+    except yaml.scanner.ScannerError as e:
+        print('Invalid YAML syntax:', e)
+        return False
+```
+### Exercise:
+Create a function that takes two YAML strings and compares them to see if they have the same content. The output should be a boolean value indicating whether the two YAMLs are identical or not. 
+```python
+# Solution:
+def compare_yaml(yaml1, yaml2):
+    """Compare two YAML strings."""
+    import yaml
+
+    data1 = yaml.safe_load(yaml1)
+    data2 = yaml.safe_load(yaml2)
+
+    if data1 == data2:
+        print('YAMLs are identical.')
+        return True
+    else:
+        print('YAMLs are different.')
+        return False
+```

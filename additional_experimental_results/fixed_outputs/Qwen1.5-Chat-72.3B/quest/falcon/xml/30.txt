@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've received a map leading to an artifact of great power. Locate and retrieve it from the forgotten ruins.</description>
+	<reward>100 experience points and a magical relic</reward>
+	<quest-giver>Guildmaster Thorne</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ruins</objective>
+			<description>Follow the map to the location marked with an 'X'.</description>
+			<location>Ruins of Eldarath</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the ruins</objective>
+			<description>Carefully search the ruins for any clues to the artifact's location.</description>
+			<location>Ruins interior</location>
+		</task>
+	</tasks>
+</game>
+```

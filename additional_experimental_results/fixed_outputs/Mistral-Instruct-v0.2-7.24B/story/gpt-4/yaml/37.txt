@@ -1,0 +1,14 @@
+
+```yaml
+game:
+  beginning: >
+    You awaken in a post-apocalyptic world with no memory of who you are or how you got there.
+  ending: >
+    After navigating countless battles and trials, you finally manage to restore the local town to its former glory. In doing so, you find inner peace and discover your true identity.
+  synopsis: |
+    'Awakening: Retribution' is an RPG-style game set in a post-apocalyptic world. The protagonist suffers from amnesia and is entangled in a quest to restore the local town. As the player progresses, they gradually unveil their identity throughout the game.
+    The player will encounter various NPCs and enemies, leading to intense conflict yet meaningful relationships. Each interaction contributes to the world-building experience, styled with impressive graphics and detailed narrative that complements the survival and building aspect of the game.
+  title: Awakening: Retribution
+```
+
+Corrected the syntax issues by adding `>` for multiline strings at `beginning` and `synopsis`, and `|` for a block scalar with multiline content in `synopsis`.

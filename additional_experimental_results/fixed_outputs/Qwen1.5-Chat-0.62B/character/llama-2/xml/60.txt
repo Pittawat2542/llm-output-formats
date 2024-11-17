@@ -1,0 +1,35 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>id</id>
+			<title>Character</title>
+			<first-name>First Name</first-name>
+			(last-name>Last Name</last-name>
+			species>Species</species>
+			age>Age</age>
+			role>Role of Character</role>
+			background>Background Story</background>
+		地上出生地点: Location
+		身体外观: Physical Appearance
+		</character>
+</game>
+```
+
+### Output
+
+```xml
+<game>
+	<character>
+			<title>Character</title>
+			<first-name>First Name</first-name>
+			(last-name>Last Name</last-name>
+			species>Species</species>
+			age>Age</age>
+			role>Role of Character</role>
+			background>Background Story</background>
+		地上出生地点: Location
+		身体外观: Physical Appearance
+		</character>
+</game>
+```

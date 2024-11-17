@@ -1,0 +1,19 @@
+```yaml
+game:
+  character:
+    age: "27 years old"
+    background: I'm a hard worker.
+    first_name: John
+    id: 123
+    last_name: Doe
+    physical_appearance:
+      - eye_color: brown
+        hair_color: brown
+        height: 6.2
+        weight: 180.0
+    place_of_birth: New York
+    role: Actor
+    species: Human
+```
+
+Incorrect YAML data can also be caused by indentation issues, so always make sure the indentation is consistent throughout the file. Also, check for missing colons or dashes, which can cause syntax errors as well. In this example, no changes were necessary since the original YAML was correct, but it's important to be aware of these common issues when working with YAML files.

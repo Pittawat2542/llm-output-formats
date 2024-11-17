@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat /tmp/in.xml | sed 's#\<character\>\([^<]*\)#\1#g' > /tmp/out.xml
+

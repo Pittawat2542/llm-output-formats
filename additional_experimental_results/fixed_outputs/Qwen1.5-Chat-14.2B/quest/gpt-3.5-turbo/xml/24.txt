@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a thrilling adventure to discover the lost treasure of the ancient civilization.</description>
+	<reward>Ancient artifact and a bag of gold coins</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain a treasure map</objective>
+			<description>Speak to the old pirate in the tavern and convince him to share the location of the treasure map.</description>
+			<location>Tavern in Port Royal</location>
+		</task>
+	</tasks>
+</game>
+```

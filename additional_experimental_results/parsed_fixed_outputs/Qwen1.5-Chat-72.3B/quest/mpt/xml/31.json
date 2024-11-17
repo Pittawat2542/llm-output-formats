@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've heard rumors that an invaluable artifact is buried within a forgotten ruin. The quest giver, Arinthea, needs your help to recover it.",
+    "reward": "1000 gold coins and legendary equipment",
+    "quest-giver": "Arinthea",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "Ask locals for information about the ruins and find its hidden entrance.",
+          "location": "Town of Evergreen"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the ruins safely",
+          "description": "Beware of traps and avoid hostile creatures while searching for the artifact.",
+          "location": "Ruins of Ancient\u6587\u660e"
+        }
+      ]
+    }
+  }
+}

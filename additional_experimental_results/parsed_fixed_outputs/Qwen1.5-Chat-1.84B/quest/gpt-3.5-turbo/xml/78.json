@@ -1,0 +1,18 @@
+{
+  "game": {
+    "@id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact",
+    "description": "In this quest, you must search for the lost artifact hidden deep within the ancient ruins of a forgotten civilization. The artifact is said to possess immense power and whoever finds it will be bestowed with great wisdom and riches.",
+    "reward": "1000 gold coins and a rare magical item",
+    "quest-giver": "Elder Kael",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Find the entrance to the ruins",
+        "description": "Your first task is to locate the hidden entrance that leads to the ancient ruins. The entrance is rumored to be concealed behind a waterfall.",
+        "location": "Northern Forest"
+      }
+    }
+  }
+}

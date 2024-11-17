@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Quest for the Golden Relic</title>
+    <objective>Uncover the ancient artifact and restore its power</objective>
+    <description>Embark on a quest to discover the lost Golden Relic in the ruins of the forgotten empire.</description>
+    <reward>5,000 gold coins and mystical artifacts</reward>
+    <quest-giver>Adventurer淮南子</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Acquire the ancient scroll from the Temple of Anubis</objective>
+            <description>Search the Temple of Anubis for the hidden scroll containing the first clue to the artifact.</description>
+            <location>Temple of Anubis</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Solve the cryptic riddle in the pyramid's chambers</objective>
+            <description>Decipher the riddles hidden within the pyramid's chambers to uncover the next clue.</description>
+            <location>Pyramid of Mystery</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objectiveNavigate the cursed swamp</objective>
+            <description>Avoid the treacherous swamp filled with magical illusions and seek out the secret path to the artifact.</description>
+            <location>Cursed Swamp</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Bypass the guardian statue in the artifact chamber</objective>
+            <description>Defeat the guardian statue guarding the entrance to the hidden artifact cave.</description>
+            <location>Guardian Statue</location>
+        </task>
+    </tasks>
+</game>
+```

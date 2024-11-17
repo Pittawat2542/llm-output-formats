@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the temple.",
+    "description": "A mysterious legend says that the artifact is hidden deep within an old temple in the heart of the jungle. You must navigate treacherous traps and solve puzzles to reach it.",
+    "reward": "1000 gold coins and legendary title",
+    "quest-giver": "Gnomish Archaeologist",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the temple",
+          "description": "You've heard rumors that the entrance is marked by a pair of ancient statues.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Disarm the trap at the temple's entrance",
+          "description": "A pressure plate triggers a poison dart trap. Find a way to safely cross.",
+          "location": "Temple Entrance"
+        }
+      ]
+    }
+  }
+}

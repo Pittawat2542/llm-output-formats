@@ -1,0 +1,22 @@
+The original JSON is not a dictionary but an array. To correct it and make it a valid structure for the provided template, we need to wrap it in a dictionary with a key like 'quests'. Here's the corrected JSON:
+
+```json
+{
+    "game": {
+        "id": "id", 
+        "title": "quest title", 
+        "objective": "quest objective", 
+        "description": "quest description", 
+        "reward": "quest reward", 
+        "quest_giver": "quest giver", 
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "quest objective",
+                "description": "quest description",
+                "location": "quest giver"
+            }
+        ]
+    }
+}
+```

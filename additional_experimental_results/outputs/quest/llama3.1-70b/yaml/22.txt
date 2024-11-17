@@ -1,0 +1,21 @@
+```yaml
+game:
+  description: Retrieve the legendary sword of light from the dark castle
+  id: Q001
+  objective: Bring back the sword to the village elder
+  quest_giver: Village Elder Thorne
+  reward: 
+    experience_points: 1000
+    gold_coins: 500
+    item: Sword of Light
+  tasks:
+  - description: Explore the dark castle and find the entrance to the treasure room
+    location: Dark Castle, West Wing
+    objective: Find the key to unlock the treasure room door
+    order: 1
+  - description: Defeat the dark knights guarding the treasure room
+    location: Dark Castle, Treasure Room
+    objective: Obtain the sword of light
+    order: 2
+  title: The Quest for the Sword of Light
+```

@@ -1,0 +1,23 @@
+Error: incorrect_syntax: while scanning for the next token
+found character '}' that cannot start any token
+  in "<unicode string>", line 16, column 1:
+     ```
+     ^
+Invalid YAML data. Please provide new values and correct syntax. Return output in YAML format. YAML:
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: height in float value
+      weight: weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

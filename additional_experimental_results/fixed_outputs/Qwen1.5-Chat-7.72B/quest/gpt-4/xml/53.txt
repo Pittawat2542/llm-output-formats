@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1068</id>
+    <title>Rescue the Lost Princess</title>
+    <objective>Rescue the lost princess from the Dark Fortress</objective>
+    <description>The princess has been captured by the dark forces and is held captive in the Dark Fortress. Your mission is to infiltrate the fortress and rescue her.</description>
+    <reward>The Eternal Blade of Tranquility</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the Dark Fortress</objective>
+            <description>Travel through the Haunted Forest and reach the outskirts of the Dark Fortress</description>
+            <location>Haunted Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Infiltrate the Fortress</objective>
+            <description>Find a way to enter the fortress without being detected</description>
+            <location>Dark Fortress outskirts</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Rescue the princess</objective>
+            <description>Lead the princess out of the fortress and make your escape</description>
+            <location>Inside Dark Fortress, escape route</location>
+        </task>
+    </tasks>
+</game>
+```

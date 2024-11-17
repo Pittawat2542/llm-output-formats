@@ -1,0 +1,19 @@
+
+```xml
+<game>
+  <id>id</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>new_quest_giver</quest-giver> -- Replace 'new_quest_giver' with the correct name of the quest giver.
+  <tasks>
+    <task>
+      <order>task order</order>
+      <objective>task objective</objective>
+      <description>task description</description>
+      <location>task location</location>
+    </task>
+  </tasks>
+</game>
+```

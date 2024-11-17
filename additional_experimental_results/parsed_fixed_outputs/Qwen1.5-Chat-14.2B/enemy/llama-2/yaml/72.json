@@ -1,0 +1,47 @@
+{
+  "options": {
+    "commands": [
+      "help",
+      "version",
+      "help-commands",
+      "python3 enemy_battle_status.py --help",
+      "python3 enemy_battle_status.py --version",
+      "python3 enemy_battle_status.py --help-commands"
+    ]
+  },
+  "examples": [
+    "python3 enemy_battle_status.py"
+  ],
+  "help": [
+    "To see usage help: $ python3 enemy_battle_status.py --help",
+    "For version information: $ python3 enemy_battle_status.py --version",
+    "To view available commands: $ python3 enemy_battle_status.py --help-commands"
+  ],
+  "help_commands": {
+    "description": "Shows the available commands for the `enemy_battle_status` script.\n"
+  },
+  "license": {
+    "command": "python3 enemy_battle_status.py --license"
+  },
+  "contributing": {
+    "command": "python3 enemy_battle_status.py --contributing"
+  },
+  "bug_reporting": [
+    "To report a bug: $ python3 enemy_battle_status.py --bug"
+  ],
+  "roadmap": [
+    "For the roadmap: $ python3 enemy_battle_status.py --roadmap"
+  ],
+  "support": [
+    "For support inquiries: $ python3 enemy_battle_status.py --support"
+  ],
+  "questions": [
+    "If you have questions: $ python3 enemy_battle_status.py --questions"
+  ],
+  "acknowledgments": {
+    "command": "python3 enemy_battle_status.py --acknowledgments"
+  },
+  "license_info": {
+    "command": "python3 enemy_battle_status.py --license"
+  }
+}

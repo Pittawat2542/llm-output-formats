@@ -1,0 +1,17 @@
+```
+<?xml version="1.0" ?>
+<game>
+	<id>quest-id-123</id>
+	<title>QuestType</title>
+	<objective>CompleteObjective</objective>
+	<description>A challenging quest to find the lost artifact</description>
+	<reward>Golden Relic</reward>
+	<quest-giver>Old Sage</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective>FindTreasure</objective>
+			<description>Follow the map to the hidden cave</location>	
+		</task>
+	</tasks>
+</game>
+```

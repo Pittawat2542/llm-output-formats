@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Complete the Temple Adventure</objective>
+    <description>A ancient artifact awaits you at Mount Olympus</description>
+    <reward>Golden Amulet</reward>
+    <quest-giver>Artemis, the Huntress</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Oracle's Scroll</objective>
+            <description>Follow the signs to Hestia's Temple</description>
+            <location>Hestia's Temple, Athens</location>
+        </task>
+    </tasks>
+</game>
+```

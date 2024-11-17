@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>12345</id>
+        <name>GoblinBoss</name>
+        <description>A fierce enemy with high HP and attack.</description>
+        <stats>
+            <hp>200</hp>
+            <mp>50</mp>
+            <atk>200</atk>
+            <def>150</def>
+            <spd>80</spd>
+        </stats>
+    </enemy>
+</game>
+```

@@ -1,0 +1,40 @@
+Game:
+  description: Quest Description
+  id: 123456
+  objective: Quest Objective
+  quest_giver: Quest Giver
+  reward: Quest Reward
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+    - description: Additional Task Description (Optional)
+      location: Additional Task Location
+      objective: Additional Task Objective
+      order: Additional Task Order
+  title: Quest Title
+
+Game ID: 123456
+Objective: Quest Objective
+Quest Giver: Quest Giver
+Reward: Quest Reward
+Tasks:
+  - Type: Task Description (Optional)
+    Location: Task Location
+    Objective: Task Objective
+    Order: Task Order
+  - Type: Additional Task Description (Optional)
+    Location: Additional Task Location
+    Objective: Additional Task Objective
+    Order: Additional Task Order
+
+## Quest Title (Optional)
+
+Task Description (Optional):
+
+Description of the primary task that requires completion, which can include any additional details or objectives.
+
+Additional Task Description (Optional):
+
+Optional description for a secondary task that can be completed in conjunction with the main quest objective. This section might provide additional information about specific actions needed to complete the quest, such as collecting certain items, completing a challenge, or solving puzzles.

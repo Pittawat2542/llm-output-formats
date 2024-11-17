@@ -1,0 +1,39 @@
+The correct YAML data is provided between ```yaml and ```. The original message is provided between ```yaml and ```. The new YAML data is:
+
+```
+game:
+  character:
+    age: 20
+    background: "Grew up next to a magical forest. Spoke to animals and creatures. Always dreamed of going to the other side"
+    first_name: "Lola"
+    id: 123
+    last_name: "Morgan"
+    physical_appearance:
+      eye_color: green
+      hair_color: red
+      height: 180
+      weight: 60
+    place_of_birth: "Los Angeles, California"
+    role: 
+    species: human
+```
+
+Output in YAML format:
+
+```
+game:
+  character:
+    age: 20
+    background: "Grew up next to a magical forest. Spoke to animals and creatures. Always dreamed of going to the other side"
+    first_name: "Lola"
+    id: 123
+    last_name: "Morgan"
+    physical_appearance:
+      eye_color: green
+      hair_color: red
+      height: 180
+      weight: 60
+    place_of_birth: "Los Angeles, California"
+    role: 
+    species: human
+```

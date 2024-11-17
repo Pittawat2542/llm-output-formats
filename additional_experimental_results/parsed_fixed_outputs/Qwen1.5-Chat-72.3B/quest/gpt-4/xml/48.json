@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Emerald Heist",
+    "objective": "Retrieve the Emerald Orb",
+    "description": "Travel through the Mystic Woods and retrieve the Emerald Orb hidden in the druid's cave.",
+    "reward": "2000 gold coins and Mystic Ring",
+    "quest-giver": "Emerald Wizard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the Mystic Woods",
+          "description": "Travel towards the east until you reach the Mystic Woods.",
+          "location": "Mystic Woods"
+        },
+        {
+          "order": "2",
+          "objective": "Find the druid's cave",
+          "description": "Search the Mystic Woods to locate the hidden druid's cave.",
+          "location": "Druid's Cave in Mystic Woods"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Emerald Orb",
+          "description": "Get past the cave's challenges and bring back the Emerald Orb.",
+          "location": "Inside the Druid's Cave"
+        }
+      ]
+    }
+  }
+}

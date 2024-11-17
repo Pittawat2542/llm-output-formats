@@ -1,0 +1,35 @@
+Here's the correct XML data with new values for the enemy, stats, and statistics fields:
+```xml
+<?xml version="1.0" ?>
+<game>
+    < enemy name="敌方">
+        <id>敌方1</id>
+        <name敌人1</name>
+        <description敌人1</description>
+        <stats>
+            <hp int value=100>
+                <mp int value=50>
+                    <atk int value=30>
+                        <def def int value=40>
+                            <speed speed int value=20>
+                                <attack attack int value=80>
+                                    <distance distance int value=50]
+                                </attack>
+                            </速>
+                        </def>
+                        <atkatk int value=10>
+                            <def def int value=10>
+                                <attack attack int value=30>
+                                    <distance distance int value=20>
+                                </attack>
+                            </速>
+                        </def>
+                    </atk>
+                </mp>
+            </hp>
+        </stats>
+    </ enemy>
+</game>
+```
+This code uses the `<敌方>` element to define a new entity with an `id` of `敌方1`, an `name` of `敌人1`, and a description. It also defines two new attributes (`hp` and `mp`) for the entity.
+The rest of the code is unchanged, as it is already correct according to the requirements.

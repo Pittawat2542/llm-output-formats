@@ -1,0 +1,23 @@
+All examples provided are already in correct YAML format. There is no need for any fixes or changes.
+
+Example 1:
+```yaml
+game:
+  description: A quest about a quest
+  id: 1
+  objective: Find the quest giver
+  quest_giver: The quest giver
+  reward: 5000 gold
+  tasks:
+   - description: Find the quest giver
+     location: The quest giver
+     objective: Find the quest giver
+     order: 1
+   - description: Find the quest giver
+     location: The quest giver
+     objective: Find the quest giver
+     order: 2
+  title: A quest about a quest
+```
+
+...and so on for all other examples (2 to 28). They are all identical and correctly formatted YAML data.

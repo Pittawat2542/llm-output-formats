@@ -1,0 +1,404 @@
+```yaml
+tests: []
+status: success
+```
+
+```yaml
+tests:
+  - test:
+      description: Test if the character object has an id object.
+      input:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+            - eye_color: brown
+              hair_color: brown
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      expected:
+        game:
+          character:
+            age: 20
+            background: orphan
+            first_name: John
+            id: 23
+            last_name: Doe
+            physical_appearance:
+              height: 1.7
+              weight: 70
+            place_of_birth: Earth
+            role: engineer
+            species: human
+      message: "The character object must have an id object."
+      status: failure
+```
+```yaml
+tests: []
+status: success
+```
+```yaml
+tests:
+  - test:
+    description: Test if the character has a first name.
+    input:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    expected:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    message: "The character object must have a first name."
+    status: failure
+```
+```yaml
+tests: []
+status: success
+```
+```yaml
+tests:
+  - test:
+    description: Test if the character has an id.
+    input:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    expected:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    message: "The character object must have an id."
+    status: failure
+```
+```yaml
+tests: []
+status: success
+```
+```yaml
+tests:
+  - test:
+    description: Test if the character has a first name.
+    input:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    expected:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    message: "The character object must have a first name."
+    status: failure
+
+  - test:
+    description: Test if the character has an id.
+    input:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    expected:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    message: "The character object must have an id."
+    status: failure
+
+  - test:
+    description: Test if the character is valid.
+    input:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    expected:
+      game:
+        character:
+          age: 20
+          background: orphan
+          first_name: John
+          id: 23
+          last_name: Doe
+          physical_appearance:
+            height: 1.7
+            weight: 70
+          place_of_birth: Earth
+          role: engineer
+          species: human
+    message: "The character object is valid."
+    status: success
+```
+```vbnet
+Tests:
+  Test Case #1:
+    Description: Test if the Character has a First Name.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The Character Object Must Have A First Name.
+    Status: Failure
+
+  Test Case #2:
+    Description: Test if the Character has an Id.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The Character Object Must Have An Id.
+    Status: Failure
+
+  Test Case #3:
+    Description: Test if the Character is Valid.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The Character Object Is Valid.
+    Status: Success
+```
+```vbnet
+Tests:
+  Test Case #1:
+    Description: Test if the character has a first name.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The character object must have a first name.
+    Status: Failure
+
+  Test Case #2:
+    Description: Test if the character has an id.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The character object must have an id.
+    Status: Failure
+
+  Test Case #3:
+    Description: Test if the character is valid.
+    Input: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Expected Output: Game.Character
+      Age: 20
+      Background: Orphan
+      First_Name: John
+      Id: 23
+      Last_Name: Doe
+      Physical_Appearance
+        Height: 1.7
+        Weight: 70
+      Place_Of_Birth: Earth
+      Role: Engineer
+      Species: Human
+    Error Message: The character object is valid.
+    Status: Success
+```
+This is a simple example for testing the Character class in VBNet. The tests include checking if the Character has a first name, an id, and it's overall validity. You can add more test cases as needed to ensure thorough coverage of all possible scenarios. Remember that the order and placement of the tests might matter depending on the implementation of your testing framework.

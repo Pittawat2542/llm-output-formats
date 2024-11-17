@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A quest to find the hidden treasure
+  id: Q001
+  objective: Locate and retrieve the treasure
+  quest_giver: Old Man at the Village
+  reward: Legendary Sword
+  tasks:
+   - description: Locate the treasure map
+     location: Old Man's House
+     objective: Obtain the treasure map
+     order: 1
+   - description: Decode the map
+     location: Library
+     objective: Understand the symbols on the map
+     order: 2
+   - description: Find the hidden entrance
+     location: Abandoned Cave
+     objective: Discover the entrance to the treasure chamber
+     order: 3
+  title: The Quest for the Legendary Sword
+```

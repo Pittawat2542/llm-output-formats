@@ -1,0 +1,29 @@
+```xml
+<game>
+	<id>1</id>
+	<title>Rescue the Princess</title>
+	<Objective>Save the princess from the evil dragon.</Objective>
+	<Description>The princess has been captured by the evil dragon Smaug. You must travel to his lair and rescue her before it's too late.</description>
+	<Reward>The princess's hand in marriage and half of the kingdom.</Reward>
+	<Quest-Giver>King Harold</Quest-Giver>
+	<Tasks>
+			<Task>
+				<Order>1</Order>
+				Objective>Find the dragon's lair.</Objective>
+				<Description>The dragon's lair is located in the Dark Forest.</Description>
+				<Location>Dark Forest</Location>
+			</Task>
+			<Task>
+				<Order>2</Order>
+				Objective>Defeat the dragon.</Objective>
+				<Description>The dragon is a powerful creature, so be prepared for a tough fight.</Description>
+				<Location>Dragon's Lair</Location>
+			</Task>
+			<Task>
+				<Order>3</Order>
+			 Objective Rescue the princess. Once you have defeated the dragon, rescue the princess and return her to the castle.
+			 <Description>The princess is captured by the evil dragon Smaug. You must travel to his lair and rescue her before it's too late.</Description>
+				<Location>Dragon's Lair</Location>
+		 </Task>
+</game>
+```

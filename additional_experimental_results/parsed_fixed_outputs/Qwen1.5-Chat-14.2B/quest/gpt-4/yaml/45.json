@@ -1,0 +1,33 @@
+{
+  "game": {
+    "description": "The ancient artifact of light has been stolen, plunging the kingdom into darkness. Help us recover it and restore the light.",
+    "id": "Q4574",
+    "objective": "Retrieve the ancient artifact of light from the Cave of Shadows and restore it in the Kingdom's Shrine.",
+    "quest_giver": "King Arthur",
+    "reward": {
+      "gold": 5000,
+      "sword": "Excalibur Sword"
+    },
+    "tasks": [
+      {
+        "description": "Travel to the Cave of Shadows, avoiding the danger of the enchanted forests.",
+        "location": "Enchanted Forests",
+        "objective": "Reach the Cave of Shadows",
+        "order": 1
+      },
+      {
+        "description": "Defeat the guardian of the artifact in the cave.",
+        "location": "Cave of Shadows",
+        "objective": "Defeat the Guardian",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the artifact and bring it back to the Kingdom's Shrine.",
+        "location": "Kingdom's Shrine",
+        "objective": "Place the artifact in the shrine",
+        "order": 3
+      }
+    ],
+    "title": "The Great Artifact Quest"
+  }
+}

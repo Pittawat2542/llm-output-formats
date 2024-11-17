@@ -1,0 +1,20 @@
+{
+  "game": {
+    "title": "CorrectedGameTitle",
+    "synopsis": "GameStorySynopsis Revised",
+    "beginning": "TheBeginningOfTheGame",
+    "ending": "TheEndingOfTheGame",
+    "character": {
+      "@typeA": "adult",
+      "@name": "Jane",
+      "@age": "25"
+    },
+    "class": {
+      "@typeA": "gameClass",
+      "class": {
+        "@name": "CleanClassName",
+        "#text": "CleanWboopshClass"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple Treasure",
+    "objective": "Retrieve the ancient treasure hidden within the lost temple.",
+    "description": "The temple has been hidden for centuries, and many have attempted to retrieve its treasures but never returned. You must navigate through traps and puzzles to reach the heart of the temple where the treasure lies.",
+    "reward": "A golden idol and 1000 gold coins",
+    "quest-giver": "Gorvoth, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Finding the entrance to the lost temple.",
+          "description": "The temple is hidden behind a waterfall. You must navigate through the jungle to find it.",
+          "location": "Jungle, near the waterfall"
+        },
+        {
+          "order": "2",
+          "objective": "Solving the pressure plate puzzle.",
+          "description": "The entrance to the temple is guarded by a pressure plate. You must step on the correct sequence of plates to open the door.",
+          "location": "Entrance hall, lost temple"
+        },
+        {
+          "order": "3",
+          "objective": "Finding the treasure chamber key.",
+          "description": "The key is hidden in a puzzle box. You must solve the puzzle to obtain the key.",
+          "location": "Treasure room, lost temple"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "Q12345",
+        "title": "The Missing Heirloom",
+        "objective": "Retrieve the stolen family heirloom and return it to its rightful owner.",
+        "description": "Lady Whimsy's favorite brooch has gone missing, and she needs someone brave and skilled to retrieve it. The thief is rumored to be hiding in the abandoned mine on the outskirts of town.",
+        "reward": "100 gold pieces, a magical amulet granting +10 strength, and Lady Whimsy's eternal gratitude",
+        "quest_giver": "Lady Whimsy, the wealthy patron of the town",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the thief's whereabouts",
+                "description": "Speak to the locals and gather any useful information that might lead you to the thief.",
+                "location": "The local tavern"
+            },
+            {
+                "order": 2,
+                "objective": "Infiltrate the abandoned mine",
+                "description": "Make your way into the abandoned mine, avoiding traps and guards. Find the room where the thief is hiding and retrieve the stolen brooch.",
+                "location": "The abandoned mine"
+            },
+            {
+                "order": 3,
+                "objective": "Return the brooch to Lady Whimsy",
+                "description": "Once you have retrieved the brooch, make your way back to Lady Whimsy's estate and return it to her.",
+                "location": "Lady Whimsy's estate"
+            }
+        ]
+    }
+}
+```

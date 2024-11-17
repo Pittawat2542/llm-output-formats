@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest of the Lost Amulet",
+    "objective": "Find the hidden amulet to restore peace to the kingdom.",
+    "description": "In this epic adventure, you must explore ancient ruins and decipher clues left by a wise sage.",
+    "reward": "A precious amulet, 50 gold coins, and 10 experience points.",
+    "quest-giver": "Kingdom Guardian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Visit the ruined Temple of Wisdom.",
+          "description": "Search for a hidden entrance that leads to the first clue.",
+          "location": "The outskirts of Oakwood Village"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the riddle at the Enchanted Falls.",
+          "description": "Ancient runes encode a message, which will guide you to your next destination.",
+          "location": "Deep within the Enchanted Forest"
+        }
+      ]
+    }
+  }
+}

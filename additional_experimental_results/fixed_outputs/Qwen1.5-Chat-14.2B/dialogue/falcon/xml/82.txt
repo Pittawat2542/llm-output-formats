@@ -1,0 +1,14 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker name="Speaker name">
+                <text>Dialogue or narration</text>
+            </speaker>
+        </dialogue>
+        <!-- Repeat the <dialogue> tag for more dialogues if needed -->
+    </dialogues>
+</game>
+```

@@ -1,0 +1,47 @@
+{
+   "game": { {
+      "character": { {
+         "id": "id",
+         "first_name": "first name",
+         "last_name": "last name",
+         "species": "species",
+         "age": "exact age or description", // Optional value for age.
+         "role": "role of the character", // Required value for role.
+         "background": "background story", // Optional value for background.
+         "place_of_birth": "location", // Required value for place of birth.
+         "physical_appearance": [{ {
+             "eye_color": "eye color",
+             "hair_color": "hair color",
+             "height": "height in float value",
+             "weight": "weight in float value"
+             }]
+       } },
+       "role": "role of the character", // Required value for role.
+       "background": "background story", // Optional value for background.
+       "place_of_birth": "location", // Required value for place of birth.
+       "physical_appearance": [{ {
+         "eye_color": "eye color",
+         "hair_color": "hair color",
+         "height": "height in float value",
+         "weight": "weight in float value"
+         }]
+       }]
+   } },
+   "character": { {
+      "id": "id",
+      "first_name": "first name",
+      "last_name": "last name",
+      "species": "species",
+      "age": "exact age or description", // Optional value for age.
+      "role": "role of the character", // Required value for role.
+      "background": "background story", // Optional value for background.
+      "place_of_birth": "location", // Required value for place of birth.
+      "physical_appearance": [{ {
+         "eye_color": "eye color",
+         "hair_color": "hair color",
+         "height": "height in float value",
+         "weight": "weight in float value"
+         }]
+       }]
+   } }
+}

@@ -1,0 +1,1108 @@
+{
+    "name": "Game",
+    "version": 2,
+    "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 20,
+        "title": ""
+    },
+    "features": {
+        "featureName": {
+            "type": "string"
+        }
+    },
+    "extends": {}
+}
+"""
+# from functools import wraps
+from typing import Any, Dict, List, Tuple, Callable
+import re
+import inspect
+import sys
+
+from .exceptions import ConfigurationError
+
+
+def _check_call(obj: object) -> str:
+    return f'{obj.__module__}.{obj.__qualname__}'
+
+
+def get_configuration() -> Dict[str, Any]:
+    """
+    Get configuration of this plugin and return it as a dictionary.
+
+    Returns:
+        Dictionary containing the current configuration.
+
+    Raises:
+        ConfigurationError: If config cannot be retrieved from the plugin.
+    """
+
+    config = get_plugin().get_configuration()
+
+    if not config:
+        raise ConfigurationError(f'{_check_call(get_plugin())} does not have a '
+                                 'configuration attribute.')
+    return config
+
+
+def set_configuration(*args, **kwargs) -> None:
+    """
+    Set configuration of this plugin.
+
+    If the plugin already has a configuration, it will be cleared first and then
+    replaced by the new one. If not, no-op is performed.
+
+    Arguments:
+        *args: Positional arguments that are passed on to get_configuration().
+        **kwargs: Keyword arguments that are passed on to get_configuration().
+
+    Raises:
+        ConfigurationError: If config cannot be retrieved from the plugin.
+    """
+
+    config = get_plugin().get_configuration()
+
+    if not config:
+        raise ConfigurationError(f'{_check_call(get_plugin())} does not have a '
+                                 'configuration attribute.')
+
+    get_plugin().set_configuration(*args, **kwargs)
+
+
+def get_logger() -> Any:
+    """
+    Get the logger of this plugin.
+
+    Returns:
+        The current instance of logging.Logger object.
+    """
+
+    return get_plugin().get_logger()
+
+
+def set_logger(level: int, *args, **kwargs) -> None:
+    """
+    Set the logger for this plugin.
+
+    Arguments:
+        level (int): The level of the logging.
+        *args: Positional arguments that are passed on to getLogger().
+        **kwargs: Keyword arguments that are passed on to getLogger().
+
+    Raises:
+        ConfigurationError: If logger cannot be retrieved from plugin or is not set.
+    """
+
+    log = get_plugin().get_logger()
+    if log is None:
+        raise ConfigurationError(f'{_check_call(get_plugin())} does not have a '
+                                 'logger attribute.')
+
+    log.setLevel(level)
+    log.setFormatter(logging.Formatter(format=None, datefmt=None))
+
+    get_plugin().set_logger(*args, **kwargs)
+
+
+def get_module(name: str) -> Tuple[bool, List[str]]:
+    """
+    Get the module by its name and return whether it exists.
+
+    Arguments:
+        name (str): Name of the module to find.
+
+    Returns:
+        Tuple containing boolean that indicates if the module exists and a list
+            of strings with the path to the modules parent directory.
+    """
+
+    result = []
+    modules = get_plugin().get_module()
+
+    if not name in modules:
+        return (False, result)
+
+    paths = modules[name].split('.')
+
+    for i in range(0, len(paths)):
+        current = '/'.join(paths[i:])
+        if sys.modules.get(f'{path}') is None or current == '__init__':
+            continue
+
+        result.append(current)
+
+    return (True, result)
+
+
+def get_plugin() -> Any:
+    """
+    Get the current plugin instance.
+
+    Returns:
+        The currently loaded plugin.
+    """
+
+    return getattr(sys.modules[__name__], '_plugin', None)
+
+
+def set_plugin(*args, **kwargs) -> None:
+    """
+    Set the current plugin to the given module.
+
+    Arguments:
+        *args: Positional arguments that are passed on to get_module().
+        **kwargs: Keyword arguments that are passed on to get_module().
+    """
+
+    result = get_plugin()
+
+    if result is None:
+        return
+
+    get_plugin(*args, **kwargs)
+
+
+def _find_subclass(cls: Any) -> bool:
+    """
+    Find whether a subclass of the given class exists.
+
+    Arguments:
+        cls (Any): Class to find a subclass for.
+
+    Returns:
+        True if there is any subclass, False otherwise.
+    """
+
+    for sub in cls.__subclasses__():
+        if _find_subclass(sub):
+            return True
+
+    return False
+
+
+def get_class(name: str) -> Tuple[Any, List[str]]:
+    """
+    Get the class object by its name and return it along with the path to its
+    parent module.
+
+    Arguments:
+        name (str): Name of the class to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_class()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_subclass(cls: Any) -> bool:
+    """
+    Check whether a class object is subclass of a given class.
+
+    Arguments:
+        cls (Any): Class to check if it is subclass for.
+
+    Returns:
+        True if the given class is a subclass, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_method(name: str) -> Callable[..., Any]:
+    """
+    Get the method object by its name and return it along with the path to its
+    parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing function object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_method()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_method(cls: Any) -> bool:
+    """
+    Check whether a class object is method for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is a method, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_property(name: str) -> Any:
+    """
+    Get the property object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the property to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_property()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_property(cls: Any) -> bool:
+    """
+    Check whether a class object is property for a given class.
+
+    Arguments:
+        name (str): Name of the property to check if it is subclass for.
+
+    Returns:
+        True if the given class is a property, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_attribute(name: str) -> Any:
+    """
+    Get the attribute object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_attribute()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_attribute(cls: Any) -> bool:
+    """
+    Check whether a class object is attribute for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is an attribute, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_module(name: str) -> Any:
+    """
+    Get the module object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_module()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_module(cls: Any) -> bool:
+    """
+    Check whether a class object is module for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is a module, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_attribute(name: str) -> Any:
+    """
+    Get the attribute object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_attribute()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_attribute(cls: Any) -> bool:
+    """
+    Check whether a class object is attribute for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is an attribute, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_function(name: str) -> Any:
+    """
+    Get the function object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_function()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name], -1)
+        except ModuleNotFoundError:
+            continue
+
+        result = getattr(module, name)
+        paths.append(mod + '.')
+
+    return (result, paths)
+
+
+def is_function(cls: Any) -> bool:
+    """
+    Check whether a class object is function for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is a function, False otherwise.
+    """
+
+    return _find_subclass(cls)
+
+
+def get_class(name: str) -> Any:
+    """
+    Get the class object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_class()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_class(cls: Any) -> bool:
+    """
+    Check whether a class object is a subclass of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is a subclass of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_constructor(name: str) -> Any:
+    """
+    Get the constructor object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_constructor()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_constructor(cls: Any) -> bool:
+    """
+    Check whether a class object is constructor of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is constructor of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_staticmethod(name: str) -> Any:
+    """
+    Get the static method object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_staticmethod()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_staticmethod(cls: Any) -> bool:
+    """
+    Check whether a class object is static method of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is static method of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_abstractmethod(name: str) -> Any:
+    """
+    Get the abstract method object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_abstractmethod()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_abstractmethod(cls: Any) -> bool:
+    """
+    Check whether a class object is abstract method of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is abstract method of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_property(name: str) -> Any:
+    """
+    Get the property object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_property()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_property(cls: Any) -> bool:
+    """
+    Check whether a class object is property of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_method(name: str) -> Any:
+    """
+    Get the method object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_method()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_method(cls: Any) -> bool:
+    """
+    Check whether a class object is method of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_decorator(name: str) -> Any:
+    """
+    Get the decorator object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_decorator()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_decorator(cls: Any) -> bool:
+    """
+    Check whether a class object is decorator of Class for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_function(name: str) -> Any:
+    """
+    Get the function object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_function()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_function(cls: Any) -> bool:
+    """
+    Check whether a class object is function for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_attribute(name: str) -> Any:
+    """
+    Get the attribute object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_attribute()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_attribute(cls: Any) -> bool:
+    """
+    Check whether a class object is attribute for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_staticmethod(name: str) -> Any:
+    """
+    Get the static method object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_staticmethod()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_staticmethod(cls: Any) -> bool:
+    """
+    Check whether a class object is static method for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_classmethod(name: str) -> Any:
+    """
+    Get the class method object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_classmethod()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_classmethod(cls: Any) -> bool:
+    """
+    Check whether a class object is class method for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_function_attribute(name: str) -> Any:
+    """
+    Get the function attribute object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_functionattribute()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_function_attribute(cls: Any) -> bool:
+    """
+    Check whether a class object is function attribute for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'
+
+
+def get_staticmethod_attribute(name: str) -> Any:
+    """
+    Get the static method attribute object by its name and return it along with the path to
+    its parent module.
+
+    Arguments:
+        name (str): Name of the method to find a subclass for.
+
+    Returns:
+        Tuple containing class object and list of parent modules.
+    """
+
+    paths = []
+    result = None
+
+    modules = get_plugin().get_staticmethodattribute()
+
+    for mod in modules:
+        if result is not None:
+            break
+
+        try:
+            module = __import__(mod, globals(), locals(), [name])
+        except ModuleNotFoundError:
+            continue
+
+        result = module.__dict__[name]
+
+        paths.append(mod + '.')
+
+    return result, paths
+
+
+def is_staticmethod_attribute(cls: Any) -> bool:
+    """
+    Check whether a class object is static method attribute for a given class.
+
+    Arguments:
+        name (str): Name of the method to check if it is subclass for.
+
+    Returns:
+        True if the given class is property of Class, False otherwise.
+    """
+
+    return _find_subclass(cls) and cls.__module__ == 'builtins'

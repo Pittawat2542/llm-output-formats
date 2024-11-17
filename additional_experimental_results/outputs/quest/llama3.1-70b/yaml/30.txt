@@ -1,0 +1,20 @@
+Here is the generated quest information in YAML format:
+
+```yaml
+game:
+  description: Retrieve a rare herb from the Heartwood Forest to heal the wounded villagers.
+  id: QST-001
+  objective: Gather 3 units of Silverpetal herb.
+  quest_giver: Elara, Village Healer
+  reward:
+    experience: 1000
+    gold: 200
+    items:
+      - item_id: potion_health
+        quantity: 2
+  tasks:
+  - description: Journey to the Heartwood Forest and search for Silverpetal.
+    location: Heartwood Forest
+    objective: Gather 3 units of Silverpetal herb.
+    order: 1
+  title: A Healing Herb

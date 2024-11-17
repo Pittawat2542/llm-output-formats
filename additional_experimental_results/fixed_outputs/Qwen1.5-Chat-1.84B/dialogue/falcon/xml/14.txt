@@ -1,0 +1,72 @@
+Corrected XML data with new values:
+```xml
+<?xml version="1.0"?> 
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dialogues>
+        <dialogue>
+            <order>dialog order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+        <dialogue>
+            <dialogue.order>dialog order</dialogue.order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+    
+    <dialogues>
+        <dialogue>
+            <order>dialog order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+        <dialogue>
+            <dialogue.order>dialog order</dialogue.order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+    
+    <dialogues>
+        <dialogue>
+            <order>dialog order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+        <dialogue>
+            <dialogue.order>dialog order</dialogue.order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+    
+    <dialogue>
+        <dialogue.order>dialog order</order>
+        <speaker>speaker name</speaker>
+        <text>dialogue or narration</text>
+    </dialogue>
+    <dialogue>
+        <dialogue.order>dialog order</dialogue.order>
+        <speaker>speaker name</speaker>
+        <text>dialogue or narration</text>
+    </dialogues>
+    
+    <dialogue>
+        <dialogue.order>dialog order</order>
+        <speaker>speaker name</speaker>
+        <text>dialogue or narration</text>
+    </dialogue>
+    <dialogue>
+        <dialogue.order>dialog order</dialogue.order>
+        <speaker>speaker name</speaker>
+        <text>dialogue or narration</text>
+    </dialogues>
+    
+    <dialogue>
+        <dialogue.order>dialog order</order>
+        <speaker>speaker name</speaker>
+        <text>dialogue or narration</text>
+    </dialogue>
+</game>
+```

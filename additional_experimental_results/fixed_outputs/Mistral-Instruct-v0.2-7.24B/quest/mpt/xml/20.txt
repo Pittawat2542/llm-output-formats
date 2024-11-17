@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Key</title>
+	<objective>Find and return the lost key to the quest giver.</objective>
+	<description>The key to the city's treasure chest has been stolen! Search for it in the nearby forest.</description>
+	<reward>100 gold coins</reward>
+	<quest-giver>Morgan Le Fay</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to Morgan Le Fay at her castle in the forest.</objective>
+			<description>Morgan Le Fay will provide more details about the lost key and its location.</description>
+			<location>Forest Castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search the forest for any clues about the lost key's whereabouts.</objective>
+			<description>Use your detective skills to find and follow the trail that leads to the lost key.</description>
+			<location>Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the lost key to Morgan Le Fay at her castle.</objective>
+			<description>Present the key to Morgan Le Fay to receive your reward and complete the quest.</description>
+			<location>Forest Castle</location>
+		</task>
+	</tasks>
+</game>
+```

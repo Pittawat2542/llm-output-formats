@@ -1,0 +1,21 @@
+Error: key_completeness: The key 'quest_giver' is missing.
+Template: 
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Missing Scepter</title>
+	bjective>Find the missing King's Scepter.</objective>
+	<description>The King's Scepter has been stolen and the kingdom is in chaos. Find the missing scepter and return it to the King.</description>
+	<reward>The King's favor, a bag of gold, and the title of "Savior of the Kingdom".</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+			<task>
+				<title>Find the missing Scepter</title>
+			</task>
+		</任务>
+	</quest-giver>
+	<objects>
+			<object>
+				<title>Quest Object</title>
+				 descrip...
+```

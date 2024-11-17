@@ -1,0 +1,12 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dialogues xsi:type="xsd:array">
+		<dialogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<order xsi:type="xsd:int">dialogue order</order>
+			<speaker xsi:type="xsd:string">speaker name</speaker>
+			<text xsi:type="xsd:string">dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

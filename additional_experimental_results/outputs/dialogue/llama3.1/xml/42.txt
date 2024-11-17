@@ -1,0 +1,27 @@
+```
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, how are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm fine, thanks for asking. What brings you here?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I've been looking for a rare item. Do you know anything about it?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Absolutely! I can tell you where to find what you're looking for.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

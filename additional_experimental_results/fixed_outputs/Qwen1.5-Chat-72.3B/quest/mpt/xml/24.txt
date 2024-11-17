@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A map leads you to a forgotten temple deep in the jungle. Your mission is to explore the temple, overcome its challenges, and recover the lost artifact.</description>
+	<reward>1000 experience points and a magical relic</reward>
+	<quest-giver>Guru Zara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the jungle temple</objective>
+			<description>Locate the entrance to the temple hidden among the dense vegetation.</description>
+			<location>Jungle clearing, north of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the hieroglyphs</objective>
+			<description>Solve the puzzles on the temple walls to unlock the inner chamber.</description>
+			<location>Main chamber, temple interior</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Conquer the guardian</objective>
+			<description>Defeat the ancient protector of the artifact and claim your reward.</description>
+			<location>Final chamber, deepest part of the temple</location>
+		</task>
+	</tasks>
+</game>
+```

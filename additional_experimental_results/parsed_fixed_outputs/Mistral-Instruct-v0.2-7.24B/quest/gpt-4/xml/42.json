@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Dragon's Lair",
+    "objective": "To vanquish the dragon ravaging the kingdom",
+    "description": "A dragon has settled in the mountains and is terrorizing the villagers. Your quest is to find the dragon's lair, defeat the dragon and restore peace to the kingdom.",
+    "reward": "A dragon's hoard of gold and the title Dragon Slayer",
+    "quest-giver": "The King",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the dragon's lair",
+          "description": "You must journey to the mountains and find the entrance to the dragon's lair.",
+          "location": "Highmount Peak"
+        },
+        {
+          "order": "2",
+          "objective": "Vanquish the dragon",
+          "description": "Avoid the dragon's fire breath and strike it down with your sword.",
+          "location": "The Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Return to the King",
+          "description": "Report your successful dragon slaying to the King and collect your reward.",
+          "location": "The Royal Castle"
+        }
+      ]
+    }
+  }
+}

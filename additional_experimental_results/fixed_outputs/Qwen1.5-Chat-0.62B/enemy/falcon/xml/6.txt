@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<hp id="id">hp int value</hp>
+			mp id="mp int value"
+			atk id="atk int value"
+		.def id="def int value"
+		青铜 id="青铜 int value"
+			md id="md int value"  // Add more values for each enemy
+		</enemy>
+</game>
+```
+New values for the enemies are:
+-敌1: HP int value = 50, MP int value = 30,atk int value = 20
+-敌2: HP int value = 40,MP int value = 60,atk int value = 10
+-敌3: HP int value = 70, MP int value = 80,atk int value = 25
+
+Output in Markdown code block:
+```perl
+<game>
+	< enemy>
+			<hp id="id">hp int value</hp>
+			mp id="mp int value"
+			atk id="atk int value"
+		(def id="def int value")
+		青铜 id="青铜 int value"
+			md id="md int value"  // Add more values for each enemy
+		</enemy>
+</game>
+```

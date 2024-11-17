@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest for the Golden Key",
+    "objective": "Find the ancient artifact",
+    "description": "A challenging adventure awaits you",
+    "reward": "Gold coins and a mysterious amulet",
+    "quest-giver": "OldMapper",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Uncover hidden treasure map",
+        "description": "Follow the riddles at the old tavern",
+        "location": "Valley of Riddles"
+      }
+    }
+  }
+}

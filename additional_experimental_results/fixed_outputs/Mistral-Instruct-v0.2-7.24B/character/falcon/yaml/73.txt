@@ -1,0 +1,8 @@
+```yaml
+character:
+  game: {% raw %}# Use curly braces to create a hash instead of nesting game under character twice{% endraw %}
+  name: John
+  age: 30
+  background: Born and raised in a small town, John has a strong sense of home and family. He was trained in a local dojo to become an expert in swordsmanship. His physical appearance is that of a rugged and seasoned warrior. He has a kind heart and a love of children. His home and hobbies are fishing and crafting.
+  powers: {} # Remove the nested 'powers' key, as it's not needed since we removed the nesting in 'game'
+```

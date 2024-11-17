@@ -1,0 +1,34 @@
+Here is a generated quest information in JSON format:
+
+```json
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient scroll from the temple ruins",
+    "description": "A mysterious energy signal has been detected coming from the long-abandoned Temple of Eldarath. The village elder believes that this signal may be a sign that the lost scroll of the elements is hidden within the temple's depths.",
+    "reward": "2500 gold pieces and an enchanted amulet",
+    "quest_giver": "Village Elder Thorne",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Explore the Temple Entrance",
+        "description": "Make your way to the temple's entrance, located deep within the nearby forest.",
+        "location": "Temple of Eldarath, Forest Glade"
+      },
+      {
+        "order": 2,
+        "objective": "Disable the Traps in the Main Chamber",
+        "description": "Carefully navigate the main chamber and disable any deadly traps that lie in wait.",
+        "location": "Temple of Eldarath, Main Chamber"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the Scroll from the Inner Sanctum",
+        "description": "Make your way to the inner sanctum and retrieve the ancient scroll of the elements.",
+        "location": "Temple of Eldarath, Inner Sanctum"
+      }
+    ]
+  }
+}
+```

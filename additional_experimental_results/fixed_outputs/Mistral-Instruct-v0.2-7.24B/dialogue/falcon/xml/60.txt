@@ -1,0 +1,20 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<!-- Add comments for better understanding if needed -->
+		<!-- You may also add attributes to the dialogue tag if required -->
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>"I've found this old map in my grandfather's attic. It seems to depict a hidden treasure."</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC1</speaker>
+			<text>"Ah, you've come across the legendary map of Captain Redbeard! Be careful, young adventurer. Many have died searching for that treasure."</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

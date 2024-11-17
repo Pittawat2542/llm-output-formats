@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "quest01",
+    "title": "The Lost Relic",
+    "objective": "Find the lost relic",
+    "description": "A small town's relic has been stolen. Find and return the lost relic.",
+    "reward": "500 gold coins",
+    "quest-giver": {
+      "Mayor": {
+        "@name": "Mayor of the town"
+      }
+    },
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Investigate the scene of the crime",
+          "description": "Go to the town's museum and gather information about the theft.",
+          "location": "Town's museum"
+        },
+        {
+          "order": "2",
+          "objective": "Track the thief",
+          "description": "Follow the thief's trail left at the scene and find his hideout.",
+          "location": "Unknown"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the relic",
+          "description": "Get the relic back from the thief's hideout without getting noticed.",
+          "location": "Thief's hideout"
+        }
+      ]
+    }
+  }
+}

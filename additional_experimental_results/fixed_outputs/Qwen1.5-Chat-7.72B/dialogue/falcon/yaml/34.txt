@@ -1,0 +1,14 @@
+```yaml
+game:
+  dialogues:
+  - order: "order"
+    speaker:
+      name: Mark
+      text: ""
+    text: Input
+  - 
+    order: 1
+    speaker: Sam
+    text: Input
+```
+In the fixed YAML, I've removed the extra `dialogues` key and replaced it with two separate dialogue entries. Each entry has correct syntax for speaker (using a dictionary with "name" and "text" keys), and I've added an order number (`order: 1` for the second dialogue).

@@ -1,0 +1,19 @@
+```
+<?xml version="1.0" ?>
+<game>
+    <id>new_id123</id>
+    <title>NewQuestTitle</title>
+    <objective>NewQuestObjective</objective>
+    <description>NewQuestDescription</description>
+    <reward>NewQuestReward</reward>
+    <quest-giver>NewQuestGiver</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>TaskObjective1</objective>
+            <description>TaskDescription1</description>
+            <location>TaskLocation1</location>
+        </task>
+    </tasks>
+</game>
+```

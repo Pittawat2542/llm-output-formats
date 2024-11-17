@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>In this quest, you must venture into the forgotten ruins deep in the jungle to locate and recover the lost artifact. Beware of the traps and guards that protect it.</description>
+	<reward>1000 experience points and a rare magic item</reward>
+	<quest-giver>Gilbert the Historian</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You need to find the hidden entrance among the dense vegetation. Speak with the local villagers for clues.</description>
+			<location>Jungle Clearing</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Pass through the trap-filled hallway</objective>
+			<description>Navigate a long hallway lined with ancient traps. Use your skills and wits to avoid triggering them.</description>
+			<location>Ruins Interior</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian spirit</objective>
+			<description>In the heart of the ruins, a powerful guardian spirit protects the artifact. You must defeat it to claim the artifact.</description>
+			<location>Spirit Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

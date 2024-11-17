@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>8</id>
+    <title>The Lost City of Atlantis</title>
+    <objective>Find the lost city of Atlantis and bring back proof of its existence.</objective>
+    <description>The ancient city of Atlantis has been lost for centuries, but rumors persist that it still exists somewhere beneath the waves. You have been tasked with finding Atlantis and bringing back proof of its existence. To do this, you will need to travel to the remote island of Thera, where you will find the entrance to a secret underwater tunnel that leads to Atlantis. Inside the city, you will find many ancient artifacts and treasures, but you must be careful not to awaken the guardians who protect them.</description>
+    <reward>A large sum of gold and experience points.</reward>
+    <quest-giver>Professor Jones</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the island of Thera.</objective>
+            <description>The island of Thera is located in the Aegean Sea, between Greece and Turkey. You can reach Thera by ship or by plane.</description>
+            <location>Thera, Aegean Sea</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the entrance to the secret underwater tunnel.</objective>
+            <description>The entrance is hidden behind a large rock formation on the north shore of Thera. Be cautious while exploring.</description>
+            <location>North shore of Thera, near the rock formation</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Swim through the tunnel to Atlantis.</objective>
+            <description>The tunnel can be challenging due to its length and currents. Be prepared for a swim.</description>
+            <location>Secret underwater tunnel</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Discover and secure the treasure of Atlantis.</objective>
+            <description>The treasure is likely guarded by puzzles or mechanisms, make sure to gather evidence.</description>
+            <location>Secret chamber, Atlantis</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Present proof of Atlantis's existence to Professor Jones.</objective>
+            <description>Bring the recovered artifacts or share your findings with him.</description>
+            <location>Professor Jones's office, Cairo, Egypt</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,42 @@
+{
+  "game": {
+    "description": "A challenging quest to save the kingdom",
+    "id": "quest_id123",
+    "objective": "Defeat the dragon at Mount Firepeak",
+    "quest_giver": "King Arthur",
+    "reward": "Golden Amulet and a scroll of ancient knowledge",
+    "tasks": [
+      {
+        "description": "Find the hidden treasure map in the forest",
+        "location": "Forest East",
+        "objective": "Uncover the treasure's location",
+        "order": 1
+      },
+      {
+        "description": "Deliver the message to the wise wizard",
+        "location": "Wizard's Tower",
+        "objective": "Seek council from the wizard",
+        "order": 2
+      }
+    ],
+    "title": "The Quest for the Golden Crown"
+  },
+  "output": {
+    "markdown": {
+      "type": "markdown",
+      "options": {
+        "renderer": [
+          {
+            "render_yaml": [
+              {
+                "input": {
+                  "file": "quest_info_corrected.yml"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

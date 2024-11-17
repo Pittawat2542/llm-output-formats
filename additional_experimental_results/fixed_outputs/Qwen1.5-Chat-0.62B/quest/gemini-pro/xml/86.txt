@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quest Giver</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Task Order</th>
+			<th的对象ive</th>
+			<th>Description</th>
+			<th>Location</th>
+			<th><button type="submit">Submit Task</button></th>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>Sage of Elrond's Order</td>
+			<td>Travel to the Forest of Shadows and find the entrance to the Tomb of Kings.</td>
+			<td>The Forest of Shadows is located to the east of the town of Asgard. Once you reach the forest, look for a cave that is hidden among the trees.</td>
+			<td><button type="submit">Submit Task</button></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>Quest Giver's Order</td>
+			<td>Sage of Elrond</td>
+			<td>The Sword of Legends and 1000 gold.</td>
+			<td><button type="submit">Submit Task</button></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>Tasks</td>
+			<td><strong>Tour to the Forest of Shadows:</strong><br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><strong>Tomb of Kings:</strong><br><br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><button type="submit">Submit Task</button></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>Order</td>
+			<td><strong>Travel to the Forest of Shadows:</strong><br><br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><strong>Tomb of Kings:</strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><button type="submit">Submit Task</button></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>Order</td>
+			<td><strong>Tomb of Kings:</strong><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></td>
+			<td><button type="submit">Submit Task</button></td>
+		</tr>
+	</table>
+</body>
+</html>

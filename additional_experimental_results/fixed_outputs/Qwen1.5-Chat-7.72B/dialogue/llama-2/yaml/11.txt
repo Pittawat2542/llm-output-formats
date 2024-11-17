@@ -1,0 +1,10 @@
+Here's the YAML data fixed with correct syntax:
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+This is a single YAML block representing the game's dialogues, with each dialogue listed as a separate item under `dialogues`. The `-` sign before each key indicates that it's an array entry.

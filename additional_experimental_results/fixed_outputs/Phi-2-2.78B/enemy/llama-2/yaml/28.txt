@@ -1,0 +1,7 @@
+import yaml
+with open('game.yml') as f:
+    data = yaml.safe_load(f)
+print("The data is " + str(data))
+```
+
+

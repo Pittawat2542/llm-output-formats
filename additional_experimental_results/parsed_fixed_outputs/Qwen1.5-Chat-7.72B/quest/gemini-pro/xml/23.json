@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Stolen Amulet",
+    "objective": "Retrieve the stolen amulet from the Blacksmith.",
+    "description": "The Blacksmith has stolen the amulet of the Elder. You must retrieve it and return it to the Elder.",
+    "reward": "The Elder's Amulet and 50 gold.",
+    "quest-giver": "The Wise Old Sage",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Blacksmith at the Market.",
+          "description": "The Blacksmith can be found in his shop near the entrance.",
+          "location": "Market, Shop #1"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the amulet from the secret compartment in the Blacksmith's safe.",
+          "description": "Look for a hidden chest behind the counter.",
+          "location": "Blacksmith's Shop, Safe"
+        },
+        {
+          "order": "3",
+          "objective": "Return the amulet to the Elder at his Hut outside town.",
+          "description": "The path leads through the forest on the eastern side of the village.",
+          "location": "Elder's Hut, Near Forest\u8fb9\u7f18"
+        }
+      ]
+    }
+  }
+}

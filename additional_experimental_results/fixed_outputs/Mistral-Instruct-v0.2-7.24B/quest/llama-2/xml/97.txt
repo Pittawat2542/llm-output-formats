@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>What is the name of the game?</title>
+	<objective>Answer this question to progress in the quest.</objective>
+	<description>The name of the game is...</description>
+	<reward>Reward for completing this quest.</reward>
+	<quest-giver>Quest giver for this quest.</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the answer to the question: What is the name of the game?</objective>
+			<description>Search for the answer in the text file "questions.txt" and input it here.</description>
+			<location></location>
+		</task>
+	</tasks>
+</game>
+```
+### Explanation:
+The original XML data had no error, but it was not following the template provided. The new XML data follows the template and includes the question and answer as title and description respectively, and a task for finding the answer in the text file "questions.txt". Additionally, it includes an empty location tag as per the template.
+```

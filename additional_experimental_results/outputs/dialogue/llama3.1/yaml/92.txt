@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: "What brings you to this land?"
+  - order: 2
+    speaker: NPC
+    text: "I've been searching for a worthy adventurer to help me with a quest. Will you listen and see if you can help me?"
+  - order: 3
+    speaker: Player
+    text: "What is the nature of this quest?"
+  - order: 4
+    speaker: NPC
+    text: "A dark sorcerer has stolen a powerful artifact from our village, and we need someone to retrieve it."
+  - order: 5
+    speaker: Player
+    text: "Why can't you or your people get it back?"
+  - order: 6
+    speaker: NPC
+    text: "The sorcerer has set up powerful traps and minions in his lair. We've tried to send our own, but none have returned."
+```

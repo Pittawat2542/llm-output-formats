@@ -1,0 +1,34 @@
+Here is a quest information in JSON format:
+
+```json
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact",
+    "description": "Deep within the jungle lies an ancient temple rumored to hold a powerful relic. The temple is said to be cursed, and many have attempted to retrieve the artifact but never returned.",
+    "reward": "Gold, Experience Points, and Magical Amulet",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Explore the Jungle",
+        "description": "Make your way through the dense jungle to find the entrance of the lost temple.",
+        "location": "Jungle Entrance"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve the Map",
+        "description": "Find a map that will lead you to the artifact, rumored to be hidden in the temple's library.",
+        "location": "Library Chamber"
+      },
+      {
+        "order": 3,
+        "objective": "Overcome the Trial",
+        "description": "Pass the trial by solving a series of puzzles and riddles that guard the relic.",
+        "location": "Trial Chamber"
+      }
+    ]
+  }
+}
+```

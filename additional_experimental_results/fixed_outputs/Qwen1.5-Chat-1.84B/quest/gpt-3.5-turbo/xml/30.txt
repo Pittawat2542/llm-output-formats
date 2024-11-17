@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>1234</id>
+    <title>The Journey of the Golden Key</title>
+    <objective>Retrieve the Golden Key to unlock the ancient treasure</objective>
+    <description>Legend tells of a hidden treasure that can only be unlocked with the Golden Key. Embark on a perilous journey to find the Golden Key and claim the riches that lie within.</description>
+    <reward>Ancient artifacts and untold riches</reward>
+    <quest-giver>Old Sage</quest-giver>
+    <tasks>
+        <task id="1">
+            <order>1</order>
+            <objective>The Lost Temple</objective>
+            <description>Navigate through treacherous jungles and ancient ruins to locate the Lost Temple</description>
+            <location>Deep within the heart of the Forbidden Jungle</location>
+        </task>
+        <task id="2">
+            <order>2</order>
+            <objective>The Golden Key</objective>
+            <description>Confront the temple guardians and solve complex puzzles to acquire the Golden Key</description>
+            <location>The inner chambers of the Lost Temple</location>
+        </task>
+        <task id="3">
+            <order>3</order>
+            <objective>Return to the Quest Giver</objective>
+            <description>Journey back to the quest giver and present the Golden Key to claim your reward</description>
+            <location>The Village of Serenity</location>
+        </task>
+    </tasks>
+</game>
+```

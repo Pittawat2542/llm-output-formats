@@ -1,0 +1,25 @@
+The code looks correct. Here is the output in YAML format:
+```yaml
+game:
+  description: Quest Description
+  id: 1
+  objective: Quest Objective
+  quest_giver: Quest giver
+  reward: Quest reward
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task objective
+      order: Order
+    - description: Task Description
+      location: Task Location
+      objective: Task objective
+      order: Order
+    - description: Task Description
+      location: Task Location
+      objective: Task objective
+      order: Order
+  title: Quest Title
+```
+
+Note that I added a new value for the `quest_giver` field to provide the information about the quest giver. The remaining tasks are just the same as before, with the same descriptions and objectives.

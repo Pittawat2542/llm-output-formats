@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver</quest-giver>
+	<tasks>
+		<task>
+			<order task_order1</order>
+			<objective task_objective1</objective>
+			<description task_description1</description>
+			<location task_location1</location>
+		</task>
+		<task>
+			<order task_order2</order>
+			<objective task_objective2</objective>
+			<description task_description2</description>
+			<location task_location2</location>
+		</task>
+		<task>
+			<order task_order3</order>
+			<objective task_objective3</objective>
+			<description task_description3</description>
+			<location task_location3</location>
+		</task>
+	</tasks>
+</game>
+```
+
+I added the missing closing `>` for `<quest-giver>`, changed the attribute syntax from plain text to quotes, and added `encoding="UTF-8"` to the XML declaration. If you want to provide new values for the attributes, please let me know.

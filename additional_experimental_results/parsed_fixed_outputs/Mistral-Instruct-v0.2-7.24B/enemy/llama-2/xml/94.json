@@ -1,0 +1,30 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "25",
+        "name": "Mammon",
+        "description": "The God of Greed",
+        "stats": {
+          "hp": "120",
+          "mp": "80",
+          "atk": "95",
+          "def": "75",
+          "spd": "110"
+        }
+      },
+      {
+        "@id": "26",
+        "name": "Leviathan",
+        "description": "The Sea Serpent",
+        "stats": {
+          "hp": "300",
+          "mp": "250",
+          "atk": "150",
+          "def": "175",
+          "spd": "80"
+        }
+      }
+    ]
+  }
+}

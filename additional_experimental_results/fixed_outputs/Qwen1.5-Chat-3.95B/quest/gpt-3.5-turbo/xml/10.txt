@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure</objective>
+	<description>Embark on an epic adventure to find the long-lost treasure of the ancient kingdom. Solve riddles, overcome obstacles, and outsmart the guardians to claim your reward.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain Rutherford</quest-giver>
+	<tasks>
+		<task>
+				order>1</order>
+				objective>Unlock the secret chest</objective>
+				<description>Travel to the hidden cave and uncover the treasure inside the chest.</description>
+				location>Hidden Cave</location>
+			<-task>
+	</tasks>
+XML

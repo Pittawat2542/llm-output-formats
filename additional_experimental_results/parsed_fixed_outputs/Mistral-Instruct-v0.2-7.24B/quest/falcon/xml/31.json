@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": {
+      "name": "quest giver name",
+      "location": "quest giver location"
+    },
+    "name": null,
+    "location": null,
+    "tasks": {
+      "task": {
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+      }
+    },
+    "#text": "-- Added `` and `` tags here for 'quest giver' element."
+  }
+}

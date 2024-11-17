@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>Q01</id>
+	<title>The Goblin King's Wrath</title>
+	<objective>Find and vanquish the Goblin King</objective>
+	<description>You have been tasked with finding the lair of the Goblin King and putting an end to his reign of terror.</description>
+	<reward>100 gold coins and the Sword of Eternity</reward>
+	<quest-giver>Wise Old Man</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the Goblin King's lair</objective>
+			<description>Follow the trail of the Goblin's destruction in the dark forest and discover the entrance to the king's lair.</description>
+			<location>Dark Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Goblin King</objective>
+			<description>Engage in combat with the Goblin King and defeat him, thus ending the terror he has spread across the kingdom.</description>
+			<location>Goblin King's Lair</location>
+		</task>
+	</tasks>
+</game>
+```

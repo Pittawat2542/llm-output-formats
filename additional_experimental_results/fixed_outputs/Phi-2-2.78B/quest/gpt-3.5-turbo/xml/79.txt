@@ -1,0 +1,35 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a thrilling adventure to uncover the location of a long-lost treasure. Search ancient ruins, solve puzzles, and overcome obstacles to reach your goal.</description>
+	<reward>500 gold coins</reward>
+	<quest_giver>Captain Morgan</quest_giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Read the ancient map</objective>
+			<description>Find the hidden cavern and read the ancient map that reveals the first clue to the treasure's location.</description>
+			<location>Lost Caverns</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the key</objective>
+			<description>Search the abandoned temple and retrieve the ancient key required to unlock the next stage of your journey.</description>
+			<location>Temple of Shadows</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Decode the riddles</objective>
+			<description>Decipher the cryptic riddles left behind by the ancient guardians to unveil the exact location of the hidden treasure.</description>
+			<location>Ancient Sphinx</location>
+		</task>
+	</tasks>
+</game>
+
+
+```
+

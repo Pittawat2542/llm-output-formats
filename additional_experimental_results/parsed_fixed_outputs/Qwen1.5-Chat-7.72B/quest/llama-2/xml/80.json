@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "1234567890",
+    "title": "NewQuestTitle",
+    "objective": "Complete the Temple of Sunlight",
+    "description": "A daring adventurer must uncover ancient artifacts to restore balance.",
+    "reward": "Exquisite Gold and Rare Artifact",
+    "quest-giver": "Old Sage in Village Center",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Find the entrance to the temple",
+        "description": "A map pointing north is hidden nearby.",
+        "location": "Northwest corner of the village"
+      }
+    }
+  }
+}

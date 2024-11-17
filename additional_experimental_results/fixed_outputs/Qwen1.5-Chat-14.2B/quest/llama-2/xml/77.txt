@@ -1,0 +1,27 @@
+The provided XML data was almost correct, only missing a closing `</task>` tag in the second task. I've fixed that issue and added new values for the tasks if needed. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The quest of the century</title>
+	<objective>Find the treasure</objective>
+	<description>The treasure is hidden somewhere in the world. Find it!</description>
+	<reward>500000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the first clue near the ancient ruins</objective>
+			<description>Search for a hidden map in the old castle.</description>
+			<location>Ancient Ruins</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Follow the map to the treasure cave</objective>
+			<description>Trace the coordinates on the map to find the entrance.</description>
+			<location>Treasure Cave Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

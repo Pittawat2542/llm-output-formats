@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player Character</speaker>
+			<text>Welcome to the land of Eldoria, a mystical realm of wonder and magic.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Wizard</speaker>
+			<text>Ah, brave adventurer, I have been expecting you. The balance of nature is at risk, and only you can restore it.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player Character</speaker>
+			<text>I'm ready to face whatever challenges lie ahead. What do I need to do?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Wizard</speaker>
+			<text>First, you must retrieve the ancient artifact hidden deep within the Dark Forest. But be warned, the forest is treacherous and full of dark creatures.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Narrator</speaker>
+			<text>The player character sets off towards the Dark Forest, ready to face whatever dangers lie within.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

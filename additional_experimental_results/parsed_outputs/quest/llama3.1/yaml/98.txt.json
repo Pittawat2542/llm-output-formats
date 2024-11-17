@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Explore the ancient ruins and uncover the secrets of a long-lost civilization.",
+    "id": "Q001",
+    "objective": "Retrieve an ancient artifact to unlock the secrets of the ruined city.",
+    "quest_giver": "Grakk, the village elder",
+    "reward": "A magical amulet granting resistance to elemental damage",
+    "tasks": [
+      {
+        "description": "Navigate through the treacherous jungle terrain and reach the entrance to the ruins.",
+        "location": "The dense jungle east of the village",
+        "objective": "Locate the hidden path to the ancient structure.",
+        "order": 1
+      },
+      {
+        "description": "Solve the ancient puzzle to unlock the treasure chamber.",
+        "location": "Inside the ruined temple",
+        "objective": "Unlock the treasure chest using the clues provided by Grakk.",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the artifact from its resting place within the temple.",
+        "location": "The inner sanctum of the ruined city",
+        "objective": "Acquire the ancient relic, the Golden Idol.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost City of Eldarath"
+  }
+}

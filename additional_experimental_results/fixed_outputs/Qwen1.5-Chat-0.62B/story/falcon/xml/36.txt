@@ -1,0 +1,50 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Game Title</title>
+	<synopsis>Game Story Summary</synopsis>
+	<beginning>The beginning of Game.</beginning>
+	<ending>The ending of Game.</ending>
+</game>
+```
+The corrected XML data is now provided between ```xml and ```.
+```python
+import xml.etree.ElementTree as ET
+
+# Fixing syntax error
+original = '''
+<?xml version="1.0" ?>
+<game>
+	<title>Game Title</title>
+	<synopsis>Game Story Summary</synopsis>
+	<beginning>The beginning of Game.</beginning>
+	<ending>The ending of Game.</ending>
+
+	# This is not Markdown
+**game title** <synopsis>**game story synopsis**
+
+	<beginning>The beginning of Game.</beginning>
+	<ending>The ending of Game.</ending>
+</game>
+'''
+# Fixing syntax error
+fixed = '''
+<?xml version="1.0" ?>
+<game>
+	<title>Game Title</title>
+	<synopsis>Game Story Summary</synopsis>
+	<beginning>The beginning of Game.</beginning>
+	<ending>The ending of Game.</ending>
+
+	# This is not Markdown
+<game>
+	<title>Game Title</title>
+	<synopsis>Game Story Summary</synopsis>
+	<beginning>The beginning of Game.</beginning>
+	<ending>The ending of Game.</ending>
+</game>
+'''
+
+# Now, return the corrected XML data
+print(fixed)
+```

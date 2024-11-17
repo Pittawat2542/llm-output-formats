@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>25</age>
+		<role>employee</role>
+		<background>born in New York</background>
+		<place-of-birth><city>New York</city></place-of-birth>
+		<physical-appearance>
+			<hair-color>specific hair color</hair-color>
+			<height>6.0 ft 12 in</height> <!-- Height is split into feet and inches, but for float value, we can consider it as 6.5 ft -->
+			<weight>180 lbs</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

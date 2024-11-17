@@ -1,0 +1,69 @@
+Invalid XML data.
+Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+XML code:
+```xml
+<?xml version="1.0"?>>
+<game>
+	<dialogues>
+		<dialogue>
+				<order>1</order>
+				<speaker>John</speaker>
+				<text>Hello, how are you?</text>
+		</dialogue>
+		<dialogue>
+				<order>2</order>
+				<speaker>Mary</speaker>
+				<text>I'm fine, thank you. And you?</text>
+		</dialogue>
+	<dialogues>Invalid XML data.
+Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+XML code:
+```xml
+<?xml version="1.0"?>>
+<game>
+	<dialogues>
+		<dialogue>
+				<order>1</order>
+                <speaker>John</speaker>
+                <text>Hello, how are you?</text>
+            </dialogue>
+            <dialogue>
+                <order>2</order>
+                <speaker>Mary</speaker>
+                <text>I'm fine, thank you. And you?</text>
+            <-dialogue>
+	<dialogues>Invalid XML data.
+Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+XML code:
+```xml
+<?xml version="1.0"?>>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+                <speaker>John</speaker>
+                <text>Hello, how are you?</text>
+            </dialogue>
+            <dialogue>
+                <order>2</order>
+                <speaker>Mary</speaker>
+                <text>I'm fine, thank you. And you?</text>
+            <-dialogue>
+	<dialogues>Invalid XML data.
+Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+XML code:
+```xml
+<?xml version="1.0"?>>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+                <speaker>John</speaker>
+                <text>Hello, how are you?</text>
+            </dialogue>
+            <dialogue>
+                <order>2</order>
+                <speaker>Mary</speaker>
+                <text>I'm fine, thank you. And you?</text>
+            <-dialogue>
+	<dialogues>

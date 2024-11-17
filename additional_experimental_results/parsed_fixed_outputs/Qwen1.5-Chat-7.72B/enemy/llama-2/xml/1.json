@@ -1,0 +1,30 @@
+{
+  "game": {
+    "enemy": {
+      "id": "3",
+      "name": "Elite Enemy",
+      "description": "The Elite Enemy is a formidable enemy with high HP, MP, and attack. It possesses exceptional defense and speed.",
+      "stats": {
+        "hp": "250",
+        "mp": "150",
+        "atk": "30",
+        "def": "35",
+        "spd": "12"
+      },
+      "enemies": {
+        "enemy": {
+          "id": "4",
+          "name": "Mini Elite",
+          "description": "The Mini Elite is a challenging enemy with higher HP and MP compared to the Miniboss. It has increased attack and defense.",
+          "stats": {
+            "hp": "200",
+            "mp": "125",
+            "atk": "25",
+            "def": "27",
+            "spd": "9"
+          }
+        }
+      }
+    }
+  }
+}

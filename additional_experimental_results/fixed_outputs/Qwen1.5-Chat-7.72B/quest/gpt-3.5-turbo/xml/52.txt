@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Shattered Key</title>
+    <objective>Find the ancient key hidden in a labyrinth on a forgotten isle.</objective>
+    <description>In the annals of history, an ancient artifact holds the key to unlocking a long-lost secret. Many expeditions have tried their hand, yet none have succeeded except for a select few. You, as a determined adventurer, are tasked with discovering this key and restoring its power. Are you ready for the perilous quest?</description>
+    <reward>Valuable artifacts, treasure coins, and eternal honor.</reward>
+    <quest-giver>Eliza Blackwood</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Acquire a map to the hidden isle from the scholarly elder in the scholar's village.</objective>
+            <description>Pay a visit to the wise woman at the Isle of Knowledge and convince her to share her knowledge of the island's location.</description>
+            <location>Isle of Knowledge</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Bond with a diverse crew for the journey.</objective>
+            <description>Assemble a group of skilled sailors and brave companions to join you on your expedition.</description>
+            <location>Seafarer's Guild, Port Salvia</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objectiveweather> weather-resistant navigation through storms.</objective>
+            <description>Weather the rough seas and outsmart海盗 to reach the isle during a calm period.</description>
+            <location>The Stormy North Sea</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Uncover the labyrinth's secrets and find the ancient key.</objective>
+            <description>Examine the island's ruins, solve riddles, and overcome traps to locate the hidden chamber where the key awaits.</description>
+            <location>The Labyrinth of Ruins</location>
+        </task>
+    </tasks>
+</game>
+```

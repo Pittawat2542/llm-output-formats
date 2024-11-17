@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	<objective Quest objective</objective>
+	<description Quest description</description>
+	<reward Quest reward</reward>
+	<quest-giver Quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order task order</order>
+			<objective task objective</objective>
+			<description task description</description>
+			<location task location</location>
+		</task>
+		<!-- Repeat for Task 2 and Task 3 -->
+	</tasks>
+</game>
+```

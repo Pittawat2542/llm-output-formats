@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: "enemy description"
+    id: "敌人ID"
+    name: "敌人的名字"
+    stats:
+      atk: 100  # int value for attack
+      def: 50   # int value for defense
+      hp: 300  # int value for health
+      mp: 0    # no MP value provided (can be left empty or set to 0)
+      spd: 70   # int value for speed
+```

@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the Temple</objective>
+    <description>Find the ancient artifact and deliver it to the High Priest</description>
+    <reward>Gold coins and a rare magical amulet</reward>
+    <quest-giver>Nameless Guide</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Explore the Temple Ruins</objective>
+            <description>Follow the signs marked with an `X`</description>
+            <location>East Village, South Sector</location>
+        </task>
+    </tasks>
+</game>
+```
+In the fixed XML, I made the following changes:
+
+1. Corrected the `<id>` element to have a proper value (12345 in this example).
+2. Changed the title from "quest title" to "NewQuestTitle".
+3. Provided new values for `objective`, `description`, and `reward`.
+4. Added a closing tag for `<tasks>` and removed the extra `<task>` element.
+5. Set the XML encoding to UTF-8, which is recommended.

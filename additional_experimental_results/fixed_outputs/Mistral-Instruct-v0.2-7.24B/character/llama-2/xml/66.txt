@@ -1,0 +1,364 @@
+```xml
+<game>
+	<character id="id" first-name="first name">
+        <last-name>last name</last-name>
+        <species>species</species>
+        <age exact="true/false">exact age or description</age>
+        <role>role of the character</role>
+        <background>background story</background>
+        <place-of-birth location="location">location</place-of-birth>
+        <physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+</game>
+```
+### Code:
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import xml.etree.ElementTree as ET
+def get_characters(xml):
+    root = ET.fromstring(xml)
+    return [{'id': e['@id'], 'name': '{}.text()'.format(e), 'species': e['species']['text()']} for e in root.iter('character')]
+if __name__ == '__main__':
+    xml = '<game><character id="1"><last-name>John</last-name><species>Human</species></character></game>'.encode()
+    print(get_characters(xml))
+```
+### Response:
+```python
+[{'id': '1', 'name': 'John', 'species': 'Human'}]
+```
+## Solution 5 (Renamed to "XML with Nested Tags")
+
+### Response:
+```xml
+<game>
+	<character id="id">
+        <last-name>first name</last-name>
+        <species>species</species>
+        <age exact="true/false">exact age or description</age>
+        <role>role of the character</role>
+        <place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+        </place-of-birth>
+        <physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+	<character id="id2">...</character>
+	...
+</game>
+```
+### Code:
+```python
+#!/usr/bin env python
+# -*- coding utf-8 -*-
+import xml.etree.ElementTree as ET
+def parse_characters(xml):
+    root = ET.fromstring(xml)
+    return [{'id': e['@id'], 'name': e['last-name'].text(), 'species': e['species'].text(), 'age': {'exact': bool(e), 'value': None if e is None else float(e)}}, 'physical': {'height': next_node(e, 'height').text(), 'weight': next_node(e, 'weight').text(), 'eyes': [{'color': node['@color'].text()} for node in next_nodes(e, 5, 'eye-color')], 'hair': {'color': node['@color'].text() for node in next_nodes(e, 1, 'hair-color')}}]
+    def next_node(elm, tag): return elm.find('{}/{}.tag'.format(tag)) if elm is not None else None
+    def next_nodes(elm, count, tag):
+        return [e for i in range(count) for e in elm.iter('{}/{}'.format(tag, '{:s}'.format(tag if tag else tag)))][-1]
+if __name__ == '__main__':
+    xml = '<game><character id="1"><last-name>John</last-name></character></game>'
+    print(parse_characters(xml.encode()))
+```
+### Response:
+```python
+[{'id': 1, 'name': 'John', 'species': None, 'age': {'exact': False, 'value': None}, 'physical': {'height': 'height in float value', 'weight': 'weight in float value', 'eyes': [{'color': color} for color in ['Black', 'Brown']], 'hair': {'color': None}}}]}
+```
+## Solution 5 (Renamed to "XML with Nested Tags")
+### Response:
+```xml
+<game>
+	<character id="id">
+        <last-name>first name</last-name>
+        <species>species</species>
+        <age exact="true/false">exact age or description</age>
+        <role>role of the character</role>
+        <place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+        </place-of-birth>
+        <physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+	<character id="id2">...</character>
+	...
+</game>
+```
+### Code:
+```python
+#!/usr/bin env python
+#*- coding utf-8 -*-
+import xml.etree.ElementTree as ET
+def parse_characters(xml):
+    root = ET.fromstring(xml)
+    return [{'id': e['@id'], 'name': e['last-name'].text(), 'species': e['species'].text(), 'age': {'exact': bool(e), 'value': None if e is None else float(e)}, 'physical': {'height': next_node(e, 'height').text(), 'weight': next_node(e, 'weight').text(), 'eyes': [{'color': node['@color'].text()} for node in next_nodes(e, 5, 'eye-color')], 'hair': {'color': node['@color'].text() for node in next_nodes(e, 1, 'hair-color')}}}]}
+    def next_node(elm, tag): return elm.find('{}/{}.tag'.format(tag)) if elm is not None else None
+    def next_nodes(elm, count, tag):
+        return [e for i in range(count) for e in elm.iter('{}/{}'.format(tag, '{:s}'.format(tag if tag else tag)))][-1]
+if __name__ == '__main__':
+    xml = '<game><character id="1"><last-name>John</last-name></character></game>'
+    print(parse_characters(xml.encode()))
+```
+### Response:
+```python
+[{'id': 1, 'name': 'John', 'species': None, 'age': {'exact': False, 'value': None}, 'physical': {'height': 'height in float value', 'weight': 'weight in float value', 'eyes': [{'color': color} for color in ['Black', 'Brown']], 'hair': {'color': None}}}]}
+```
+## Solution 6 (Renamed to "XML with Nested Tags")
+### Response:
+```xml
+<game>
+	<character id="id">
+        <last-name>first name</last-name>
+		<species>species</species>
+		<age exact="true/false">exact age or description</age>
+        <role>role of the character</role>
+		<place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+		</place-of-birth>
+		<physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+	<character id="id2">...</character>
+	...
+</game>
+```
+### Code:
+```python
+#!/usr/bin env python
+#*- coding utf-8 -*-
+import xml.etree.ElementTree as ET
+def parse_characters(xml):
+    root = ET.fromstring(xml)
+    return [{'id': e['@id'], 'name': e['last-name'].text(), 'species': {'text': e['species']['text']}, 'age': {'exact': bool(e), 'value': int(next_node(e, 'age')['@value'] if next_node(e, 'age').text is not None else 0)}} if 'role' in e else {'id': e['@id'], '_": "empty"}]} + (len(root.iter('character')) - 1) * {"__default__": None}]
+    def next_node(elm, tag): return elm.find(tag) if elm is not None else None
+def next_nodes(elm, tag):
+    return [next_node(n, tag) for n in elm if tag in n and n is not elm][-1] or None
+if __name__ == '__main__':
+    xml = ET.fromstring('''<game><character id="1"><last-name>John</last-name><species>Tiger</species></character><character id="2"/></game>''')
+    print(parse_characters(xml))
+```
+### Response:
+```python
+[{'id': '1', 'name': 'John', '_': '', 'species': {'text': 'Tiger'}}, {'id': '2', '_': ''}]
+```
+## Solution 6 (Renamed to "XML with Nested Tags")
+### Response:
+```xml
+<game>
+	<character id="1">
+        <last-name>first name</last-name>
+		<species><![CDATA[type species;]]></species>
+		<age exact="true/false">exact age or description</age>
+        <role>role of the character</role>
+		<place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+		</place-of-birth>
+		<physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+	<character id="2">
+		<role>role of character 2</role>
+	</character>
+</game>
+```
+### Code:
+```python
+#!/usr/bin env python
+#*- coding utf-8 -*-
+import xml.etree.ElementTree as ET
+class Character(object):
+    def __init__(self, last_name=None, species=None, age=0, role=None):
+        self.last_name = last_name
+        self.species = species
+        self.age = age
+        self.role = role
+class Game(object):
+    def __init__(self, characters=[]):
+        self.characters = characters
+def parse_characters(xml):
+    root = ET.fromstring(xml)
+    return [Character(*args if tag in e for n, tag in e for e in root.iter('character')[i]) for i, e in enumerate(root.iter('character'))]
+```
+### Response:
+```python
+[Character(last_name='first name', species=None, age=0, role=None), Character(last_name=None, species="<![CDATA[type species;]]>", age=None, role="role of character 2")]
+```
+## Solution 7 (Renamed to "XML with Nested Tags")
+### Response:
+```xml
+<game>
+	<character id="1">
+        <last-name>first name</last-name>
+		<species><![CDATA[type species;]]></species>
+		<age exact="true/false">exact age or description</age>
+		<role>role of the character</role>
+		<place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+        </place-of-birth>
+		<physical-appearance>
+            <height value="float">height in float value</height>
+            <weight value="float">weight in float value</weight>
+            <eye-color color="color">eye color</eye-color>
+            <hair-color color="color">hair color</hair-color>
+        </physical-appearance>
+    </character>
+	<character id="2">
+		<role>role of character 2</role>
+        <place-of-birth location="location1">
+            <city city="city1">city1</city>
+            <country country="country1">country1</country>
+        </place-of-birth>
+		<physical-appearance>
+            <height value="float32">height in float32 value</height>
+            <weight value="float64">weight in float64 value</weight>
+            <eye-color color="ColorRGBa">custom eye color</eye-color>
+            <hair-color color="ColorRGB">default hair color</hair-color>
+        </physical-appearance>
+    </character>
+</game>
+```
+### Code:
+```python
+from xml.etree import ElementTree as ET
+class Character(object):
+    def __init__(self, last_name=None, species=None, age=0, role=None):
+        self.last_name = last_name
+        self.species = species
+        self.age = age
+        self.role = role
+class PlaceOfBirth(object):
+    def __init__(self, city=None, country=None):
+        self.city = city
+        self.country = country
+class Game(object):
+    def __init__(self, characters=[]):
+        self.characters = characters
+def parse_characters(xml):
+    xml_root = ET.fromstring(xml)
+    character_nodes = xml_root.iter('character')
+    return [Character(*args if tag in e for n, tag in node for node in character_nodes[i]) for i, node in enumerate(xml_root)]
+class PhysicalAppearence(object):
+    def __init__(self, height=None, weight=None, eye_color=None, hair_color=None):
+        self.height = height
+        self.weight = weight
+        self.eye_color = eye_color
+        self.hair_color = hair_color
+class PlaceOfBirth(object):
+    def __init__(self, city=None, country=None):
+        self.city = city
+        self.country = country
+class Character(object):
+    def __init__(self, last_name=None, species=None, age=0, role=None):
+        self.last_name = last_name
+        self.species = species
+        self.age = age
+        self.role = role
+class Game(object):
+    def __init__(self, characters=[]):
+        self.characters = characters
+def parse_characters(xml):
+    xml_root = ET.fromstring(xml)
+    character_nodes = xml_root.iter('character')
+    return [Character(*args if tag in node for n, tag in node, physical_appearance=PhysicalAppearence(*args if tag2 in node2 for tag2 in node2 for tag2), place_of_birth=PlaceOfBirth(*args if tag3 in node3 for tag3 in node3) for i, node, node2, node3 in enumerate(xml_root)) for i, node, node2, node3 in enumerate(xml_root)]
+```
+### Response:
+```python
+[Character(last_name='first name', species=None, age=0, role=None, physical_appearance=PhysicalAppearence(height=None, weight=None, eye_color=None, hair_color=None), place_of_birth=PlaceOfBirth(city=None, country=None)), Character(last_name=None, species="<![CDATA[type species;]]>", age=None, role="role of character 2", physical_appearance=PhysicalAppearence(height=None, weight=None, eye_color=None, hair_color=None), place_of_birth=PlaceOfBirth(city="city1", country="country1"))]
+```
+## Solution 8 (Renamed to "XML with Nested Tags")
+### Response:
+```xml
+<game>
+	<character id="1">
+        <last-name>first name</last-name>
+		<species><![CDATA[type species;]]></species>
+		<age exact="true/false">exact age or description</age>
+		<role>role of the character</role>
+		<place-of-birth location="location">
+            <city city="city">city</city>
+            <country country="country">country</country>
+        </place-of-birth>
+		<physical-appearance>
+            <height value="float32">height in float32 value</height>
+            <weight value="float64">weight in float64 value</weight>
+            <eye-color color="ColorRGBa">custom eye color</eye-color>
+            <hair-color color="ColorRGB">default hair color</hair-color>
+        </physical-appearance>
+    </character>
+    <character id="2">
+        <last-name>second name</last-name>
+		<species><![CDATA[type other_species;]]></species>
+		<age exact="true">age is exact number</age>
+		<role>assistant role</role>
+		<place-of-birth location="other_location">
+            <city city="city2">city2</city>
+            <country country="country2">country2</country>
+        </place-of-birth>
+		<physical-appearance>
+            <height value="float64">weight in float64 value</height>
+            <weight value="float32">height in float32 value</weight>
+            <eye-color color="ColorRGBa">custom eye color</eye-color>
+            <hair-color color="ColorRGBA">default hair color with alpha transparency</hair-color>
+        </physical-appearance>
+    </character>
+</game>
+```
+### Code:
+```python
+from xml.etree import ElementTree as ET
+class Character(object):
+    def __init__(self, last_name=None, species=None, age=None, role=None, physical_appearance=PhysicalAppearence(height=None, weight=None, eye_color=None, hair_color=None)):
+        self.last_name = last_name
+        self.species = species
+        self.age = age
+        self.role = role
+        self.physical_appearance = physical_appearence
+class PlaceOfBirth(object):
+    def __init__(self, city=None, country=None):
+        self.city = city
+        self.country = country
+class PhysicalAppearence(object):
+    def __init__(self, height=None, weight=None, eye_color=None, hair_color=None):
+        self.height = height
+        self.weight = weight
+        self.eye_color = eye_color
+        self.hair_color = hair_color
+class Game(object):
+    def __init__(self, characters=[]):
+        self.characters = characters
+def parse_characters(xml):
+    xml_root = ET.fromstring(xml)
+    character_nodes = xml_root.iter('character')
+    return [Character(*args if tag1 in node for n1, tag="last-name" for tag1, species=Species(*args if tag2 in node2 for tag2, name='type_species'), age=Age(*args if tag3 in node3 for tag3, exact=bool), role=Role(*args if tag4 in node4 for tag4, name='assistant_role'), place_of_birth=PlaceOfBirth(*args if tag5 in node5 for tag5, city="city", country="country"), physical_appearance=PhysicalAppearence(*args if tag6 in node6 for tag6)) for i, node, node2, node3, node4, node5, node6 in enumerate(xml_root)]
+```
+### Response:
+```python
+[Character(last_name='first name', species=Species(name='type_species'), age=Age(exact=False), role=Role(name='assistant_role'), physical_appearance=PhysicalAppearence(height=None, weight=None, eye_color=None, hair_color=None), place_of_birth=PlaceOfBirth(city='city', country='country')), Character(last_name='second name', species=Species(name='type_other_species'), age=Age(exact=True), role=Role(name='assistant_role'), physical_appearance=PhysicalAppearence(height=None, weight=None, eye_color=None, hair_color=ColorRGBA()), place_of_birth=PlaceOfBirth(city="city2", country="country2"))]
+```

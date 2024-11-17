@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient relic from the lost temple and bring it back to the village elder.",
+    "id": "Quest_001",
+    "objective": "Retrieve the Ancient Relic",
+    "quest_giver": "Village Elder",
+    "reward": "10 Gold, +5 Health, Rare Sword",
+    "tasks": [
+      {
+        "description": "Find the entrance to the lost temple",
+        "location": "The Jungle",
+        "objective": "Locate the Temple Entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the deadly traps and puzzles inside the temple",
+        "location": "The Lost Temple",
+        "objective": "Survive the Traps and Puzzles",
+        "order": 2
+      },
+      {
+        "description": "Retrieve the ancient relic from its resting place",
+        "location": "The Treasure Room",
+        "objective": "Get the Relic",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Temple Quest"
+  }
+}

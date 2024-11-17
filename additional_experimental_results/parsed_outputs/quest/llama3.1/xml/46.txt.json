@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Village",
+    "objective": "Finding the lost village and speaking to its elder.",
+    "description": "The village has been lost in the forest for years, and its elder has requested our help in finding it.",
+    "reward": "200 gold pieces and a magical map",
+    "quest-giver": "Baron at Oakwood Inn",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Meet with the village elder's representative in the forest.",
+          "description": "The representative will meet us near a giant oak tree. They have information about the village's location.",
+          "location": "Giant Oak Tree, Forest of Wonders"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the forest and find the lost village.",
+          "description": "The village is hidden behind a waterfall. We need to explore the area around the giant oak tree to find it.",
+          "location": "Behind Waterfall, Forest of Wonders"
+        }
+      ]
+    }
+  }
+}

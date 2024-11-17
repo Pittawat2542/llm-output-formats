@@ -1,0 +1,86 @@
+
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'd like to buy a sword.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Shopkeeper</speaker>
+			<text>Which one would you like? We have the Steel Sword for 10 gold, or the Golden Sword for 20.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'll take the Steel Sword, please.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Shopkeeper</speaker>
+			<text>That will be 10 gold. Here is your Steel Sword.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+# Original:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'd like to buy a sword.</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Shopkeeper</speaker>
+			<text>Which one would you like? We have the Steel Sword for 10 gold, or the Golden Sword for 20.</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Player</speaker>
+			<text>I'll take the Steel Sword, please.</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>Shopkeeper</speaker>
+			<text>That will be 10 gold. Here is your Steel Sword.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+# Corrected:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'd like to buy a sword.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Shopkeeper</speaker>
+			<text>Which one would you like? We have the Steel Sword for 10 gold, or the Golden Sword for 20.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'll take the Steel Sword, please.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Shopkeeper</speaker>
+			<text>That will be 10 gold. Here is your Steel Sword.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

@@ -1,0 +1,54 @@
+Corrected YAML data:
+```yaml
+game:
+  description: Quest to rescue Princess Liza from the dragon's lair.
+  id: QST123456
+  objective: Save Princess Liza from Dragon Lair
+  quest_giver: Old Wise Man
+  reward: '500 gold coins, Powerful enchanted sword'
+  tasks:
+   - location: Forest of Shadows
+     objective: Find clues in the forest about the dragon's lair
+    order: 1
+   - location: Cobblestone Mountain
+     objective: Defeat goblin guards in the mountains
+    order: 2
+   - location: Dragon's lair
+     objective: Save Princess Liza from the dragon's lair
+```
+Output in Markdown format:
+```yaml
+game:
+  description: Quest to rescue Princess Liza from the dragon's lair.
+  id: QST123456
+  objective: Save Princess Liza from Dragon Lair.
+  quest_giver: Old Wise Man
+  reward: '500 gold coins, Powerful enchanted sword'
+  tasks:
+   - location: Forest of Shadows
+     objective: Find clues in the forest about the dragon's lair
+    order: 1
+   - location: Cobblestone Mountain
+     objective: Defeat goblin guards in the mountains
+    order: 2
+   - location: Dragon's lair
+     objective: Save Princess Liza from the dragon's lair
+```
+Markdown code block:
+```yaml
+game:
+  description: Quest to rescue Princess Liza from the dragon's lair.
+  id: QST123456
+  objective: Save Princess Liza from Dragon Lair.
+  quest_giver: Old Wise Man
+  reward: '500 gold coins, Powerful enchanted sword'
+  tasks:
+   - location: Forest of Shadows
+     objective: Find clues in the forest about the dragon's lair
+    order: 1
+   - location: Cobblestone Mountain
+     objective: Defeat goblin guards in the mountains
+    order: 2
+   - location: Dragon's lair
+     objective: Save Princess Liza from the dragon's lair
+```

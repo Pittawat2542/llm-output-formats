@@ -1,0 +1,121 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	/objective>Find the hidden treasure in the abandoned temple</objective>
+	<description>In a remote jungle, there is an abandoned temple said to hold a legendary treasure. Many adventurers have tried to find it, but none have succeeded. Can you be the one to uncover the secrets of the lost treasure?</description>
+	<reward>Ancient artifact worth a fortune</ reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<task>
+				order>1</order>
+			<objective>Locate the entrance to the temple</objective>
+				objective>Find the waterfall and search for any indications of a hidden entrance.</objective>
+			经验值	5
+				Description	"Found the waterfall, found signs of an entrance to the temple."
+			 location	Jungle Waterfall
+			<task>
+				order>2</order>
+				objective>Retrieve the key to the temple</objective>
+				objective>Unlock the temple's locked door.</objective>
+			经验值	7
+				Description	"Found the key, unlocked the temple's locked door."
+			 location	Abandoned Temple
+			<task>
+				order>3</order>
+				objective>Navigate through the temple's traps</objective>
+				objective> Solve puzzles to progress deeper into the temple.</objective>
+			经验值	8
+				Description	"Navigated through the temple's traps, solved puzzles to progress deeper into the temple."
+			 location	The Abandoned Temple
+			<task>
+				order>4</order>
+			/objective>Find the treasure chamber</objective>
+				objective>Discover the treasure chamber.</objective>
+			经验值	10
+				Description	"Found the treasure chamber, discovered a hidden chest within it."
+			 location	The Abandoned Temple
+			<task>
+				order>5</order>
+				objective>Unlock the chest</objective>
+			经验值	12
+				Description	"解锁 the chest and find the legendary treasure inside."
+			.location	Abandoned Temple
+			<task>
+				order>6</order>
+			.objective>Find the treasure chest's key</ objective>
+			经验值	14
+			说明	Found the chest's key, found an ancient artifact in its place.
+			 location	The Abandoned Temple
+			<task>
+				order>7</order>
+			 objective>Navigate through the chest and solve puzzles to open the chest.</objective>
+			经验值	15
+			说明	Solved puzzles and unlocked the chest's key.
+			经验值	16
+			说明	Found the ancient artifact inside the chest, which is believed to have the legendary treasure.
+			 location	The Abandoned Temple
+			<task>
+				order>8</order>
+			(objective>Find the chest's key</ objective>
+			经验值	20
+			说明	Solved puzzles and found the legendary treasure inside the chest, which was previously hidden there.
+			经验值	21
+			说明	Found the legendary treasure inside the chest, which is believed to have been hidden in the temple for centuries.
+			 location	The Abandoned Temple
+			<task>
+				order>9</order>
+			 objective>Find the lost treasure within the chest</objective>
+			经验值	22
+			说明	Solved puzzles and found the legendary treasure inside the chest, which was previously hidden there.
+			经验值	23
+			说明	Found the legendary treasure in the chest, which is believed to have been hidden in the temple for centuries.
+			 location	The Abandoned Temple
+			<task>
+				order>10</order>
+			.objective>Unlock the lost treasure</objective>
+			经验值	24
+			说明	Solved puzzles and found the legendary treasure within the chest, which has been waiting for a long time.
+			经验值	25
+			说明	The legend of the lost treasure is believed to have been passed down through generations.
+			 location	The Abandoned Temple
+			<task>
+				order>11</order>
+			.objective>Give the lost treasure back to the tribe</objective>
+			经验值	30
+			说明	Made contact with the tribe and returned the lost treasure to them.
+			经验值	31
+			说明	Since the legend of the lost treasure was passed down through generations, the temple has been visited by many adventurers over time.
+			经验值	32
+			说明>The lost treasure is still believed to be hidden within the temple today, waiting for a brave adventurer to uncover it.
+			<task>
+				order>12</order>
+			.objective>Write a story about the lost treasure in the game</objective>
+			经验值	40
+			说明 Write a short story about the lost treasure that was found in the game. The story should include details about the missing key, the journey to find it, and the adventure that led to its discovery.
+			<task>
+				order>13</order>
+			.objective>Add a quest for the player to complete</objective>
+			经验值	45
+			说明 Add a quest for the player to complete the mission. The quest should provide the player with an objective and a list of tasks that must be completed in order to achieve the goal.
+			<task>
+				order>14</order>
+			.objective>Write a feature to help players find the lost treasure</objective>
+			经验值	50
+			说明 Write a feature to help players find the lost treasure. This should include features such as a map that shows the location of the lost treasure, a list of available tasks for finding it, and a voice command feature that allows players to communicate with the game's AI.
+			<task>
+				order>15</order>
+			.objective>Write a message to the player about the significance of the quest for finding the lost treasure</objective>
+			经验值	55
+			说明 Write a message to the player about the significance of the quest for finding the lost treasure. This should include a message that provides information about the importance of completing the quest and how it will contribute to the success of the game's objectives.
+			<task>
+				order>16</order>
+			.objective>Write a feature to help players find the lost treasure within the temple</objective>
+			经验值	60
+			说明 Write a feature to help players find the lost treasure within the temple. This should include features such as a map that shows the location of the lost treasure, a list of available tasks for finding it, and a voice command feature that allows players to communicate with the game's AI.
+			<task>
+				order>17</order>
+			.objective>Write a message to the player about the importance of completing the quest within the temple</objective>
+			经验值	65
+			说明 Write a message to the player about the significance of completing the quest within the temple. This should include a message that provides information about the importance of completing the quest and how it will contribute to the success of the game's objectives.

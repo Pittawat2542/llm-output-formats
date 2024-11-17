@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact in the ruins.</objective>
+	<description>Embark on a journey to locate the lost artifact in the forgotten ruins deep within the jungle.</description>
+	<reward>1000 gold coins and the favor of the king</reward>
+	<quest-giver>King Arcturus</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>A local elder claims to have knowledge of the ruins' location. Speak with him in the nearby village.</description>
+			<location>Village of Eldervale</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Survive the jungle's dangers</objective>
+			<description>Navigate through the treacherous jungle filled with dangerous beasts and natural hazards.</description>
+			<location>Jungle of Shadows</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the dark sorcerer, Xarath.
+  id: Q001
+  objective: Defeat Xarath and claim the Sword of Light.
+  quest_giver: King Arin
+  reward: 1000 gold coins, increased reputation with the kingdom.
+  tasks:
+  - description: Gather information about Xarath's lair from the local villagers.
+    location: Willowdale Village
+    objective: Gather information
+    order: 1
+  - description: Infiltrate Xarath's lair and defeat his minions.
+    location: Dark Castle Xarath
+    objective: Defeat minions
+    order: 2
+  - description: Face off against Xarath in a final showdown.
+    location: Dark Castle Xarath, Throne Room
+    objective: Defeat Xarath
+    order: 3
+  title: The Sword of Light
+```

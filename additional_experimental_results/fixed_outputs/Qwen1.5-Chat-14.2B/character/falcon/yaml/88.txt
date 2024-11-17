@@ -1,0 +1,40 @@
+The YAML syntax issue was in the `physical_appearance` key. It should not contain an array nested within it since it is expecting a list of properties. Here's the corrected YAML data with values for age and place_of_birth added as an example:
+
+```yaml
+game:
+  character:
+    name: # characters
+    - First name: John Doe
+      id: first_name
+      type: string
+      example: John
+    - Last name: Doe
+      id: last_name
+      type: string
+      example: Doe
+    age:
+      value: 30
+    place_of_birth: San Francisco
+    physical_appearance:
+    - eye_color: Blue
+    - hair_color: Brown
+    - height: '5\'10"'
+    - weight: 120lbs
+```
+
+This is the fixed YAML in a Markdown code block:
+
+```yaml
+game:
+  character:
+    First name: John Doe
+    Last name: Doe
+    age:
+      value: 30
+    place_of_birth: San Francisco
+    physical_appearance:
+    - eye_color: Blue
+    - hair_color: Brown
+    - height: '5\'10"'
+    - weight: 120lbs
+```

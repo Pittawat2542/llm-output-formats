@@ -1,0 +1,16 @@
+Here's the corrected XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>speaker name</speaker>
+            <text>dialogue or narration</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+
+The issue was that the closing `</dialogue>` tag was missing a `/` and there was an extra space after `<text>`. Additionally, I added the `"UTF-8"` attribute to the XML declaration for clarity.

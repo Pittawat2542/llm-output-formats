@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "67890",
+    "title": "The Mysterious Cove Quest",
+    "objective": "Uncover the treasure of a sunken ship",
+    "description": "Captain Morgan seeks your help to find and recover the lost artifacts from a sunken vessel. Solve riddles, solve puzzles, and overcome maritime challenges to locate the treasure.",
+    "reward": "A chest filled with seashells and valuable artifacts",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Examine the wreckage at the shallow cove",
+          "description": "Explore the wreckage near the shallow cove, search for clues and artifacts underwater. Be prepared for diving conditions.",
+          "location": "Shallow Cove"
+        },
+        {
+          "order": "2",
+          "objective": "Interact with the mermaid at the lighthouse",
+          "description": "Follow the riddle given by the mermaid at the local lighthouse. She holds a key to the sunken chest.",
+          "location": "Lighthouse"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the sea monster guarding the ship's remains",
+          "description": "Battle the monstrous sea creature near the wreckage. Use your courage and agility to overcome this challenge.",
+          "location": "Ship Remains"
+        },
+        {
+          "order": "4",
+          "objective": "Unlock the chest with the mermaid's key",
+          "description": "Meet the mermaid at her underwater lair and exchange the key for the hidden treasure chest.",
+          "location": "Mermaid's Lagoon"
+        }
+      ]
+    }
+  }
+}

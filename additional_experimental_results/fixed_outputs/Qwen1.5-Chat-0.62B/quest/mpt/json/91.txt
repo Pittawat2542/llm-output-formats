@@ -1,0 +1,54 @@
+JSON data corrected:
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "Quest Title",
+        "objective": "Quest Objective",
+        "description": "Quest Description",
+        "reward": "Quest Reward",
+        "quest_giver": "Quest Giver"
+    }
+}
+```
+New values needed:
+
+- `objectives`: the array of quest objectives
+- `tasks`: an array of tasks that have a corresponding order
+
+Output in JSON format:
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "Quest Title",
+        "objective": "Quest Objective",
+        "description": " Quest Description",
+        "reward": "Quest Reward",
+        "quest_giver": "Quest Giver",
+        "tasks": [
+            {
+                "order": "task order",
+                "objective": "Task Objective",
+                "description": "Task Description",
+                "location": "Task Location"
+            }
+        ]
+    }
+}
+```
+Markdown code block:
+```json
+{
+    "game": {
+        "id": "id",
+        "title": "Quest Title",
+        "objective": "Quest Objective",
+        "description": "Quest Description",
+        "reward": "Quest Reward",
+        "quest_giver": "Quest Giver"
+    }
+}
+```
+
+The original message is provided between ```json and ```.

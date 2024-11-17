@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234567890</id>
+	<title>Quest for the Golden Apple</title>
+	<objective>Collect 10 golden apples from the Enchanted Orchard.</objective>
+	<description>The Golden Apples are said to grant eternal youth and vitality. They are guarded by magical creatures in the Enchanted Orchard, deep within the Mystic Forest.</description>
+	<reward>A golden apple and +5 Vitality</reward>
+	<quest-giver>Morgana Le Fay</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to Morgana Le Fay and accept the quest.</objective>
+			<description>Find Morgana Le Fay in the heart of Camelot and speak to her about the Golden Apples.</description>
+			<location>Castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Reach the Enchanted Orchard in the Mystic Forest.</objective>
+			<description>Make your way through the winding paths of the forest to reach the Enchanted Orchard.</description>
+			<location>Mystic Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Collect 10 golden apples from the trees in the orchard.</objective>
+			<description>The magical creatures may try to stop you, but do not let them distract you. Focus on collecting as many golden apples as possible before they spoil.</description>
+			<location>Enchanted Orchard</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to Morgana Le Fay with the golden apples.</objective>
+			<description>Bring the 10 golden apples back to Morgana Le Fay in Camelot to complete the quest and claim your reward.</description>
+			<location>Castle</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,123 @@
+# Title: game title
+
+This is a game story synopsis.
+
+The game begins with the player being a hero and saving the world from an evil villain.
+
+The game ends with the player becoming a hero and saving the world from an evil villain.
+```
+
+    ## End of Chapter 4 Exercise Section ##
+
+### Exercise 4.1:
+
+Write a program that counts the number of times each letter occurs in the given string. For example, if `string = "hello"`, the output should be `{'h': 1, 'e': 1, 'l': 2, 'o': 1}`
+
+    ### Ideas ###
+    - You can use a dictionary to store the counts of characters as key and value pairs.
+    - You can loop over each character in the string using for loop and update the count.
+    - Use if else condition to check if letter is already present or not. If it's present then increment its count by 1 else set the count to 1.
+
+    ### Solution ###
+    ```python
+    string = input("Enter a string: ")
+
+    counts = {}
+
+    for char in string:
+        if char in counts:
+            counts[char] += 1
+        else:
+            counts[char] = 1
+
+    print(f"{counts}")
+    ```
+
+### Exercise 4.2:
+
+Write a program to compute the sum of squares of all natural numbers less than or equal to n using a for loop. For example, if `n=5`, then the output should be `55`.
+
+    ### Ideas ###
+    - You can use a variable to keep track of running total. Initialize it with 0 before the loop and update its value inside the for loop.
+    - Inside the for loop use the range function which takes two arguments start and end where n is included in the range.
+
+    ### Solution ###
+    ```python
+    n = int(input("Enter a positive integer: "))
+
+    total = 0
+
+    for i in range(1, n+1):
+        total += i**2
+
+    print(f"Sum of squares of first {n} natural numbers is: {total}")
+    ```
+
+### Exercise 4.3:
+
+Write a program to find the largest and smallest number from a given list. For example, if `lst = [1, 5, 3, 10, 7]`, then the output should be `(10, 1)`.
+
+    ### Ideas ###
+    - Initialize two variables to store the maximum and minimum values of the list. Set them with the first element of the list as default value. Then loop over all other elements in the list and update their values if necessary.
+    - Use the built-in functions max() and min() to get the maximum and minimum values respectively.
+
+    ### Solution ###
+    ```python
+    lst = [1, 5, 3, 10, 7]
+
+    max_val = lst[0]
+    min_val = lst[0]
+
+    for i in range(1, len(lst)):
+        if lst[i] > max_val:
+            max_val = lst[i]
+        if lst[i] < min_val:
+            min_val = lst[i]
+
+    print(f"Maximum value of the list is {max_val}")
+    print(f"Minimum value of the list is {min_val}")
+    ```
+
+### Exercise 4.4:
+
+Write a program to find the factorial of a given number n using recursion. For example, if `n = 5`, then the output should be `120`.
+
+    ### Ideas ###
+    - Define a recursive function that takes two arguments n and k where k is from 0 to n inclusive. If k equals 0 then return 1 else return k * factorial(k-1).
+    - Call this function with initial value of n and k as 0.
+
+    ### Solution ###
+    ```python
+    def factorial(n):
+        if n == 0:
+            return 1
+        else:
+            return n*factorial(n-1)
+
+    n = int(input("Enter a positive integer: "))
+
+    print(f"Factorial of {n} is {factorial(n)}")
+    ```
+
+### Exercise 4.5:
+
+Write a program to find the Fibonacci series up to n terms using a while loop. For example, if `n = 10`, then the output should be `[0, 1, 1, 2, 3, 5, 8, 13, 21, 34]`.
+
+    ### Ideas ###
+    - Initialize two variables with values 0 and 1.
+    - Loop until n terms are generated using a while loop. Inside the loop, generate next term by sum of previous two terms and append to the list.
+    - Return the list after loop ends.
+
+    ### Solution ###
+    ```python
+    n = int(input("Enter the number of terms: "))
+
+    fib_list = [0, 1]
+
+    while len(fib_list) < n:
+        next_term = fib_list[-1] + fib_list[-2]
+        fib_list.append(next_term)
+
+    print(f"Fibonacci series up to {n} terms is: {fib_list}")
+    ```
+

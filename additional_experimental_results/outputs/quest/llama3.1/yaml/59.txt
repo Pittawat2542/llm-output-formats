@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the lost artifact and return it to the village elder.
+  id: Q001
+  objective: Retrieve the Starlight Crystal from the ancient ruins.
+  quest_giver: Gorvoth, the village elder
+  reward: A magical amulet granting +10 strength
+  tasks:
+  - description: Find the hidden entrance to the ancient ruin
+    location: The old oak tree in the forest
+    objective: Locate the entrance
+    order: 1
+  - description: Defeat the pack of goblins guarding the entrance
+    location: Ancient Ruin Entrance
+    objective: Clear a path through the ruins
+    order: 2
+  - description: Solve the puzzle to unlock the chamber containing the Starlight Crystal
+    location: Ancient Ruin Chamber
+    objective: Unlock the chamber
+    order: 3
+  title: The Lost Starlight Crystal
+```

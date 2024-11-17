@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Retrieve the Ancient Scroll",
+    "objective": "Find and retrieve an ancient scroll hidden within the long-abandoned ruins of the old castle.",
+    "description": "The scroll is said to hold the secrets of a powerful magical spell, but it's been lost for centuries. The villagers are offering a generous reward for anyone brave enough to retrieve it.",
+    "reward": "Ancient Scroll, 100 Gold Pieces",
+    "quest-giver": "Old Man at the Village Inn",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the old castle and find the entrance to the ruins.",
+          "description": "The entrance is hidden behind a secret door, which can only be opened by solving a puzzle. The villagers will provide you with a hint.",
+          "location": "Old Castle"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the treacherous maze within the ruins and find the scroll chamber.",
+          "description": "The maze is filled with traps and puzzles. Be careful not to get lost or stuck!",
+          "location": "Ruins of Old Castle"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient scroll from its pedestal.",
+          "description": "The scroll is guarded by a powerful spirit. You'll need to solve a riddle to calm it down and claim the scroll.",
+          "location": "Scroll Chamber, Ruins of Old Castle"
+        }
+      ]
+    }
+  }
+}

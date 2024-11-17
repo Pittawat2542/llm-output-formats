@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: Welcome to the adventure game! What is your name?
+  - order: 2
+    speaker: NPC
+    text: Hello, adventurer. My name is Eryndor Thorne. What brings you to these lands?
+  - order: 3
+    speaker: Player
+    text: I'm on a quest to defeat the dark sorcerer, Xaren. Have you heard anything about him?
+  - order: 4
+    speaker: NPC
+    text: Ah, yes. Xaren is indeed a dark force in these lands. He seeks to conquer all of Eridoria and enslave its people. Be careful, adventurer.
+  - order: 5
+    speaker: Player
+    text: I will be cautious. Do you have any information about Xaren's stronghold?
+  - order: 6
+    speaker: NPC
+    text: Yes... the stronghold is guarded by fearsome creatures and enchanted traps. But if you can find it, there may be a powerful ally within who can aid your quest.
+```

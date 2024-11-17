@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A thrilling adventure",
+    "id": 456789,
+    "objective": "Discover the ancient artifact",
+    "quest_giver": "Brave Sir\u5357\u74dc",
+    "reward": "Valuable treasure and glory",
+    "tasks": [
+      {
+        "description": "Hunt for hidden clues",
+        "location": "Forest of Shadows",
+        "objective": "Uncover a map clue",
+        "order": 1
+      },
+      {
+        "description": "Cross the treacherous river",
+        "location": "River of Secrets",
+        "objective": "Reach the other side",
+        "order": 2
+      },
+      {
+        "description": "Solve the riddle at the ancient tomb",
+        "location": "Tomb of Ancestors",
+        "objective": "Retrieve the key",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Lost Legacy"
+  }
+}

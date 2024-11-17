@@ -1,0 +1,16 @@
+```yaml
+game:
+  enemy:
+    description: The enemy of this game.
+    id: 1
+    name: "Goblin"
+    stats:
+      atk: 100
+      def: 60
+      hp: 50
+      mp: 30
+      spd: 10
+```
+### Explanation:
+We are returning the same code as before. This is an example of how you can create a new project in YAML without any changes needed. If you want to change your code, go ahead and do so!
+

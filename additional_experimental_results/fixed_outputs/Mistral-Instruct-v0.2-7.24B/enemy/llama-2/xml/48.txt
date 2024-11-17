@@ -1,0 +1,82 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Goblin</name>
+		<description>A small, green creature with pointed ears and sharp teeth.</description>
+		<stats>
+			<hp>20</hp>
+			<mp>5</mp>
+			<atk>8</atk>
+			<def>3</def>
+			<spd>12</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+---
+
+# Original XML data (with error)
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+	<enemy id="2" name="Orc">
+		<description>A large, brutish humanoid.</description>
+		<stats>
+			<hp>300</hp> <!-- Error: missing '>' at the end of the line -->
+			<mp>50</mp>
+			<atk>20</atk>
+			<def>15</def>
+			<spd>8</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+---
+
+# Corrected XML data
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+	<enemy id="2">
+		<name>Orc</name>
+		<description>A large, brutish humanoid.</description>
+		<stats>
+			<hp>300</hp>
+			<mp>50</mp>
+			<atk>20</atk>
+			<def>15</def>
+			<spd>8</spd>
+		</stats>
+	</enemy>
+</game>
+```

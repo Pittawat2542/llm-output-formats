@@ -1,0 +1,121 @@
+
+---
+# Game YAML Formatting
+
+Game YAML formatting is a way to organize and structure your game's data in a standardized format that can easily be parsed by other systems. By using YAML, you can ensure that your game's data is consistent across different platforms and devices.
+
+To use Game YAML, you will need to install the PyYaml library in Python. This can be done with pip:
+
+```python
+!pip install PyYaml
+```
+
+Once you have installed PyYaml, you can start using it to format your game's data in YAML format. Here is an example of a Game YAML file that stores information about a simple game:
+
+```yaml
+game:
+  name: Super Mario Bros.
+  version: 1.1
+  release_date: 1985-10-13
+  platforms:
+    - 'Nintendo Entertainment System'
+  genre: platformer
+  synopsis: "Join Mario as he embarks on a journey to rescue Princess Peach from Bowser's castle."
+  characters:
+    - 'Mario'
+    - 'Luigi'
+```
+
+In this example, we are using YAML to store information about the game "Super Mario Bros.", including its name, version number, release date, platform(s), genre, synopsis, and characters. The data is organized in a hierarchical structure, with each key representing a different aspect of the game.
+
+## Exercise 1
+
+Create a Game YAML file that stores information about your favorite video game. Include the following fields: title, version number, release date, platform(s), genre, synopsis, and characters.
+
+### Solution 1
+```yaml
+game:
+  title: The Last of Us Part II
+  version: 2.0
+  release_date: 2020-11-19
+  platforms:
+    - 'PlayStation 4'
+    - 'Xbox One'
+    - 'Switch'
+  genre: action-adventure, survival horror
+  synopsis: "Emily and Abby embark on a journey through post-apocalyptic America in search of revenge."
+  characters:
+    - 'Emily'
+    - 'Abby'
+```
+
+## Exercise 2
+
+Create a YAML file that stores information about your favorite movie. Include the following fields: title, director, year, genre, synopsis, and main actors.
+
+### Solution 2
+```yaml
+movie:
+  title: The Godfather
+  director: Francis Ford Coppola
+  year: 1972
+  genre: crime drama
+  synopsis: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+  actors:
+    - 'Marlon Brando'
+    - 'Al Pacino'
+```
+
+## Exercise 3
+
+Create a YAML file that stores information about your favorite book. Include the following fields: title, author, year, genre, synopsis, and main characters.
+
+### Solution 3
+```yaml
+book:
+  title: The Hitchhiker's Guide to the Galaxy
+  author: Douglas Adams
+  year: 1979
+  genre: science fiction comedy
+  synopsis: "A hapless human is swept up in an interstellar adventure with a motley crew of alien characters."
+  characters:
+    - 'Arthur Dent'
+    - 'Ford Prefect'
+    - 'Trillian'
+```
+
+## Exercise 4
+
+Create a YAML file that stores information about your favorite song. Include the following fields: title, artist, year, genre, synopsis, and lyrics (if available).
+
+### Solution 4
+```yaml
+song:
+  title: Bohemian Rhapsody
+  artist: Queen
+  year: 1975
+  genre: rock
+  synopsis: "A ballad-like song with a number of shifts in tempo, key, and mood."
+  lyrics:
+    - "Is this the real life? Is this just fantasy?"
+    - "Caught in a landslide / No escape from reality"
+```
+
+## Exercise 5
+
+Create a YAML file that stores information about your favorite TV show. Include the following fields: title, network, genre, synopsis, and main characters.
+
+### Solution 5
+```yaml
+show:
+  title: Friends
+  network: NBC
+  genre: sitcom
+  synopsis: "A group of friends living in Manhattan navigate their careers, relationships, and personal lives."
+  characters:
+    - 'Rachel Green'
+    - 'Monica Geller'
+    - 'Joey Tribbiani'
+    - ' Chandler Bing'
+    - ' Phoebe Buffay'
+```

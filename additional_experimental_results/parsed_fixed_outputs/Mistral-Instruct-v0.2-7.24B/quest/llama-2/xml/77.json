@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The quest of the century",
+    "objective": "Find the treasure",
+    "description": "The treasure is hidden somewhere in the world. Find it!",
+    "reward": "500000 gold",
+    "quest-giver": "The king",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the treasure in the abandoned temple",
+          "description": "Find the treasure hidden within the ancient walls of the abandoned temple. Be careful, it is guarded!",
+          "location": "Deep in the Forbidden Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the map to the treasure location",
+          "description": "The map to the treasure's location is held by an old sage living in a secluded monastery. Be respectful and ask for his guidance.",
+          "location": "In the heart of the Sacred Mountains"
+        }
+      ]
+    }
+  }
+}

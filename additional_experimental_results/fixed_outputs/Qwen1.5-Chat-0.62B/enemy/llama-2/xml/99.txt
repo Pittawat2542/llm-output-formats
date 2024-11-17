@@ -1,0 +1,25 @@
+The correct XML data is:
+```
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			description>description</description>
+			stats {
+				hp: 100,
+			mp: 100,
+			atk: 100,
+			(def: 100,
+			spd: 100
+			}
+	</ Enemy>
+</game>
+```
+
+New values for the `stats` element include:
+- `hp`: 100
+- `mp`: 100
+- `atk`: 100
+- `def`: 100
+- `spd`: 100

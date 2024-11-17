@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient artifact hidden within the ruins of Eldarath.",
+    "description": "Rumors have been circulating about a long-abandoned city deep in the nearby forest, where an ancient civilization once thrived. The whispers speak of a powerful artifact hidden somewhere within its crumbling walls, and many have attempted to find it before but never returned. Your quest begins as you venture into the heart of the forest, seeking the lost city of Eldarath.",
+    "reward": "The Golden Chalice and 1000 Gold Pieces",
+    "quest-giver": "Oldric the Sage",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about Eldarath from local villagers and scholars.",
+          "description": "Speak with Oldric the Sage, who possesses ancient texts that might shed light on your quest. Also, visit the local tavern to gather rumors and gossip from travelers and adventurers who may have heard something about the lost city.",
+          "location": "Willowdale Village"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the forest and locate the entrance to Eldarath.",
+          "description": "Beyond the edge of Willowdale, venture into the dense forest. Be cautious of wild beasts and hostile factions as you search for any sign that might lead you to the hidden city.",
+          "location": "The Heartwood Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the ruins, avoiding traps and solving puzzles to reach the artifact.",
+          "description": "Once inside Eldarath, carefully make your way through ancient structures. Overcome challenges left behind by its former inhabitants, all while uncovering clues that lead you closer to your goal.",
+          "location": "Eldarath Ruins"
+        }
+      ]
+    }
+  }
+}

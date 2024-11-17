@@ -1,0 +1,49 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Example Quest",
+    "objective": "Collect 100 flowers",
+    "description": "Find flowers scattered around the woods",
+    "reward": "Get rewarded with a beautiful bouquet",
+    "quest-giver": "Bert the Explorer's Guild",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather 10 flowers",
+          "description": "Gather 10 flowers scattered around the woods",
+          "location": "Woodland near Bert the Explorer's Guild shop"
+        },
+        {
+          "order": "2",
+          "group": {
+            "@id": "floormaster",
+            "objective": "Gather 20 flowers of one type",
+            "description": "Gather 20 flowers of one type",
+            "location": {
+              "@name": "Floormaster's cabin",
+              "sublocation": "Woodland"
+            }
+          }
+        },
+        {
+          "order": "3",
+          "group": {
+            "@id": "greenkeeper",
+            "objective": "Gather 30 flowers of one type and 5 flowers of another type",
+            "description": "Gather 30 flowers of one type and 5 flowers of another type",
+            "location": {
+              "@name": "Greenkeeper's cabin",
+              "sublocation": "Woodland"
+            }
+          }
+        }
+      ],
+      "group": {
+        "@id": "farmer",
+        "objective": "Gather 100 flowers of the seasonal variety that can be found in woodlands",
+        "description": "Gather 100 flowers of the seasonal variety that can be found in woodlands"
+      }
+    }
+  }
+}

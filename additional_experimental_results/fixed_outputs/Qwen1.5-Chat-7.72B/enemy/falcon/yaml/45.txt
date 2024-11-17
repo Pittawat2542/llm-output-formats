@@ -1,0 +1,30 @@
+Here is the corrected YAML data:
+
+```yaml
+game:
+  enemy:
+    description:敌人的描述
+    id: enemy_id_value
+    name: enemy_name_value
+    stats:
+      atk: 50
+      def: 20
+      hp: 1000
+      mp: 500
+      spd: 60
+      stats_set:
+        - type: spell_set
+          list:
+            - spell1
+            - spell2
+            - spell3
+        - mana: 8000
+
+```
+I've made the following changes:
+
+1. Removed extraneous backticks and spaces around values.
+2. Changed `id` to a more descriptive `enemy_id_value` (assuming it's an actual value).
+3. Altered `def` to a consistent format with other stats.
+4. Corrected `hp`, `mp`, and `spd` values.
+5. Added new lines for readability and fixed the `stats_set` structure by including type first and then list.

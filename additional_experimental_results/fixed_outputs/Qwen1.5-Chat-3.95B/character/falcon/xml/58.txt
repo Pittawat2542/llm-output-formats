@@ -1,0 +1,67 @@
+XML Code Block:
+```xml
+# Markdown Code block
+class Character { {
+    id = "";
+    first-name = "";
+    last-name = "";
+    species = "unknown";
+    age = 0;
+    role = "";
+    background = "";
+    place-of-birth = "";
+    physical-appearance = "";
+
+    constructor() {} 
+
+    renderCharacter() {
+        this.id = parseFloat(this.id); 
+        this.first-name = parseFloat(this.first-name); 
+        this.last-name = parseFloat(this.last-name); 
+        this.species = parseFloat(this.species); 
+        this.age = parseFloat(this.age); 
+        this.role = parseFloat(this.role); 
+        this.background = parseFloat(this.background); 
+        this.place-of-birth = parseFloat(this.place-of-birth); 
+        this.physical-appearance = parseFloat(this.physical-appearance); 
+
+     }
+}
+
+class Game { {
+    id = 0;
+    first-name = "";
+    last-name = "";
+    species = "";
+    age = 0;
+    role = "";
+    background = "";
+    place-of-birth = "";
+    physical-appearance = ""; 
+
+    constructor() {} 
+
+    renderGame() { 
+        var character = this; 
+        if (this.type !== "character") { 
+            return; 
+        }
+        this.xml.lastElementChild = character.render(); 
+        character.renderCharacter(); 
+        this.renderGameObject(); 
+                 } 
+
+    spawnGameObject() { 
+        var character = this; 
+        if (this.type !== "character") { 
+            return; 
+        }
+        this.xml.lastElementChild = character.render(); 
+        character.renderCharacter(); 
+        this.renderGameObject(); 
+                 } 
+
+     }
+}
+
+```

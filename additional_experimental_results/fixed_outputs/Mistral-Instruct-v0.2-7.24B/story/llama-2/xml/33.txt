@@ -1,0 +1,24 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>Game title</title>
+	<synopsis>This is the game synopsis.</synopsis>
+	<beginning>This is the game beginning.</beginning>
+	<ending>This is the game ending.</ending>
+	<characters>
+		<character>
+			<name>Character 1</name>
+			<description>Character 1 is a <mark>great</mark> character.</description>
+		</character>
+		<character>
+			<name>Character 2</name>
+			<description>Character 2 is a <mark>great</mark> character.</description>
+		</character>
+		<character>
+			<name>Character 3</name>
+			<description>Character 3 is a <mark>great</mark> character.</description>
+		</character>
+	</characters>
+</game>
+```

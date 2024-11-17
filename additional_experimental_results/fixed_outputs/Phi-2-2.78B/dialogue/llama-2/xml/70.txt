@@ -1,0 +1,10 @@
+The game code is missing the <game> tag, and all dialogue tags are not closing correctly. The code should look like this instead:
+```html
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+	<meta charset="UTF-8">
+	<title>Game with Python</title>
+</head>
+

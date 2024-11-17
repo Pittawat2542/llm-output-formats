@@ -1,0 +1,36 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>Species</species>
+		<age>exact age or description</age>
+		<role>Role of the character</role>
+		<background>Backstory</background>
+		<place-of-birth>Location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		var name = prompt("Enter name of character");
+		$.ajax({
+			url: "example.xml?character=" + encodeURIComponent(name),
+			dataSrc: "data/" + name,
+			success: function(data) {
+				$(data).appendTo("#xml"); // replace "#xml" with the ID of the parent element
+			}
+		});
+	</script>
+</game>
+```
+
+The XML data is mostly correct, but the JavaScript code was included directly in the XML document without proper encoding. To include an external script file, we need to add a `<script src="..."></script>` tag with the location of the script file. We also need to change how we pass the character name to the AJAX request by using `encodeURIComponent()`.

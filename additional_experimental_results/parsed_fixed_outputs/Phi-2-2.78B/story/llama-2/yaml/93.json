@@ -1,0 +1,35 @@
+{
+  "apiVersion": "apps/v1",
+  "kind": "Deployment",
+  "metadata": {
+    "name": "my-game"
+  },
+  "spec": {
+    "replicas": 2,
+    "selector": {
+      "matchLabels": {
+        "app": "my-game"
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "my-game"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "my-game",
+            "image": "my-image",
+            "ports": [
+              {
+                "containerPort": 8080
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

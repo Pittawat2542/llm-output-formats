@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that an ancient artifact is hidden within the forgotten ruins. Retrieve it to gain great power.</description>
+	<reward>1000 gold coins and a legendary weapon</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ruins</objective>
+			<description>Make your way to the coordinates marked on the ancient map.</description>
+			<location>The Ruins of Eldrid</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian</objective>
+			<description>A powerful guardian protects the artifact. You must defeat it to claim the artifact.</description>
+			<location>Heart of the Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

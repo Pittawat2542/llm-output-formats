@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1001</id>
+	<title>The Lost Relic</title>
+	<objective>Find the lost relic of Serendip</objective>
+	<description>The kingdom of Serendip has lost its sacred relic. The king has sent out a call for adventurers to find it. The relic is said to be located in the ruins of the Old Town, overrun by monsters.</description>
+	<reward>1000 gold coins and a knight title</reward>
+	<quest-giver>King Serendi</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate to the Old Town</objective>
+			<description>Travel to the Old Town, located to the east of the kingdom.</description>
+			<location>Old Town</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search for the relic within the ruins</objective>
+			<description>Search through the ruins of the Old Town, the relic is believed to be somewhere within the ruins.</description>
+			<location>Old Town Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the relic to King Serendi</objective>
+			<description>Once the relic is found, return it to King Serendi at the castle.</description>
+			<location>King Serendi's Castle</location>
+		</task>
+	</tasks>
+</game>
+```
+

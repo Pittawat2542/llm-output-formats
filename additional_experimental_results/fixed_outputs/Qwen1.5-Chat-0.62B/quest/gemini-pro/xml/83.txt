@@ -1,0 +1,28 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Defeat the Evil Lich</title>
+	-objective>Slay the Evil Lich and bring peace to the kingdom.</objective>
+	 descrThe Evil Lich has been terrorizing the kingdom for years, and it's up to you to stop him. Travel to his lair, defeat his minions, and face him in a final showdown.
+ rewardA powerful magical artifact and the gratitude of the kingdom.
+quest-giverKing Edmund
+tasks
+	<task>
+			<order>1</order>
+		ObjectiveTravel to the Lich's Lair
+		 ObjectiveDefeat the Lich's Minions
+		</task>
+		<task>
+			<order>2</order>
+		ObjectiveMeet the Evil Lich
+		 ObjectiveConfront the Evil Lich
+		</task>
+		<task>
+			<order>3</order>
+		ObjectiveWin the Magic Artifact
+		</task>
+	</tasks>
+</game>
+```
+The corrected XML data is now provided.

@@ -1,0 +1,24 @@
+```yaml
+game:
+  enemy:
+    description: 'Goblin Scout'
+    id: 1
+    name: Goblin Scout
+    stats:
+      atk: 12
+      def: 8
+      hp: 25
+      mp: 0
+      spd: 4
+
+  enemy:
+    description: 'Troll'
+    id: 2
+    name: Troll
+    stats:
+      atk: 20
+      def: 14
+      hp: 60
+      mp: 0
+      spd: 6
+```

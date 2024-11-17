@@ -1,0 +1,26 @@
+{
+  "game": {
+    "enemy": {
+      "id": "12345",
+      "name": "AlienX",
+      "description": "A powerful hostile",
+      "stats": {
+        "hp": {
+          "@value": "400"
+        },
+        "mp": {
+          "@value": "200"
+        },
+        "atk": {
+          "@value": "30"
+        },
+        "def": {
+          "@value": "150"
+        },
+        "spd": {
+          "@value": "25"
+        }
+      }
+    }
+  }
+}

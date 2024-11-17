@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the cave.</objective>
+	<description>Embark on a treacherous journey to the mysterious Cave of Wonders in search of the legendary artifact that possesses unimaginable power. Beware of the dangers lurking within the cave.</description>
+	<reward>Unleash the artifact's power and gain control over the elements.</reward>
+	<quest-giver>The Wise Sage</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Collect the four elemental crystals</objective>
+			<description>To unlock the entrance of the cave, you must collect the four elemental crystals: Fire, Water, Earth, and Air. Each crystal is protected by a guardian and requires solving a puzzle to acquire it.</description>
+			<location>The Elemental Ruins</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Open the sealed door</objective>
+			<description>Inside the cave, there is a sealed door blocking the path to the artifact. You must find the hidden key to unlock the door and proceed further.</description>
+			<location>The Enchanted Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Bypass the traps and obstacles</objective>
+			<description>Navigate through the treacherous traps and obstacles that guard the artifact. Use your wit and agility to overcome challenges and reach the final chamber.</description>
+			<location>The Path of Trials</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the ancient artifact</objective>
+			<description>Finally, reach the heart of the cave where the ancient artifact lies hidden. Retrieve it and harness its immense power.</description>
+			<location>The Chamber of Legends</location>
+		</task>
+	</tasks>
+</game>
+```

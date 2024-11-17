@@ -1,0 +1,14 @@
+```
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: 50 # int value, updated to a valid number
+      def: 30
+      hp: 100
+      mp: 20
+      spd: 40
+```
+The original YAML was missing quotation marks for the `description`, `id`, and `name` keys. I have added them and also provided numerical values for the stats, ensuring correct syntax.

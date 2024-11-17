@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<speaker>speaker name</speaker>
+				<text>dialogue or narration</text>
+			</dialogue>
+				<dialogue type="dialogue">Dialogue 1</dialogue>
+				<speaker>speaker 2</speaker>
+				<text>Narration 1</text>
+			<//dialogue>
+			<dialogue>
+				<dialogue type="dialogue">Dialogue 2</dialogue>
+				<speaker>speaker 3</speaker>
+				<text>Narration 2</text>
+			</	dialogue>
+			<dialogue>
+				<dialogue type="dialogue">Dialogue 3</dialogue>
+				<speaker>speaker 4</speaker>
+				<text>Narration 3</text>
+			</_dialogue>
+		</dialogues>
+</game>
+
+```xml
+<p xmlns="http://www.w3.org/2005/Atom">
+  <head>
+    <title>Output Feed</title>
+    <link rel="self" href="https://example.com/" />
+  </head>
+  <body>
+    <item>
+      <title>New Item</title>
+      <link rel="alternate" type="text/html" href="https://example.com/new/" />
+      <pubDate>2021-08-31T10:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Old Item</title>
+      <link rel="alternate" type="text/html" href="https://example.com/old/" />
+      <pubDate>2021-08-30T09:00:00+00:00</pubDate>
+    </item>
+  </body>
+</p>
+```

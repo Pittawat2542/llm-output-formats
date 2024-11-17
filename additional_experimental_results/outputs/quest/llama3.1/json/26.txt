@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "G1Q2",
+        "title": "Lost City Expedition",
+        "objective": "Retrieve the ancient artifacts from the lost city and return them to the quest giver.",
+        "description": "The lost city is hidden deep within the forest, and the path is guarded by deadly traps and fierce creatures. You must be careful and resourceful to succeed.",
+        "reward": "10 gold coins and a magical amulet",
+        "quest_giver": "Gorvoth, the elder druid",
+        "tasks": [{
+            "order": 1,
+            "objective": "Navigate through the forest without triggering any traps",
+            "description": "Use your skills to avoid detection by the traps and reach the entrance of the lost city.",
+            "location": "Forest of Elvendom, coordinates (23.45, 67.89)"
+        }, {
+            "order": 2,
+            "objective": "Solve the puzzle to unlock the door",
+            "description": "Use your knowledge of ancient languages and symbols to decipher the code and unlock the door.",
+            "location": "Lost City, entrance chamber"
+        }, {
+            "order": 3,
+            "objective": "Retrieve the artifacts without triggering any alarms",
+            "description": "Be quick and stealthy while retrieving the artifacts from their pedestals.",
+            "location": "Lost City, artifact chambers"
+        }]
+    }
+}
+```

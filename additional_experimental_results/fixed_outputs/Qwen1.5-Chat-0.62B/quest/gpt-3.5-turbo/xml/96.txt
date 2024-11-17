@@ -1,0 +1,59 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	bjective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the legendary lost treasure. Solve puzzles, defeat enemies, and overcome obstacles to reach the final destination and claim the riches that await.</description>
+	<reward>A chest full of gold and jewels</ reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Search for clues at the old ruins</objective>
+				<div class="task description"></div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>2</order>
+			 Objective: Find a hidden chest deep in the jungle</object>
+				<div class="method">Use the map to guide you towards the secret location. Search for the chest, and use the clues to open it.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>3</order>
+			 Objective: Defeat the guardian serpent</object>
+				<div class="method">Use your wits to overcome this fearsome foe. Use the map, and the clues to guide you towards the secret location. Search for the serpent, and use its attack to defeat it.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>4</order>
+			 Objective: Unlock the secret door with the ancient key</object>
+				<div class="method">Use the map to guide you towards the heart of the treasure chamber. Use the clues to unlock the key, and use it to open the chest.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>5</order>
+			 Objective: Collect the hidden treasure</object>
+				<div class="method">Use the map to guide you towards the secret location. Use the clues, and the maps to guide you towards the chest. Use the key to unlock it.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>6</order>
+			 Objective: Marvel at the sight of countless gold and jewels as you finally reach the hidden treasure. Collect as much as you can carry!</div>
+				<div class="method">Use the map, and the clues to guide you towards the chest.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>7</order>
+			 Objective: Collect the treasure</object>
+				<div class="method">Use the map to guide you towards the heart of the treasure chamber. Use the clues, and the maps to guide you towards the chest. Use the key to unlock it.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>8</order>
+			 Objective: Marvel at the sight of countless gold and jewels as you finally reach the hidden treasure. Collect as much as you can carry!</div>
+				<div class="method">Use the map, and the clues to guide you towards the chest.</div>
+				<div class="location">Jungle</div>
+			<task>
+				<order>9</order>
+			 Objective: Collect the treasure</object>
+				<div class="method">Use the map to guide you towards the heart of the treasure chamber. Use the clues, and the maps to guide you towards the chest. Use the key to unlock it.</div>
+				<div class="location">Jungle</div>
+			</task>
+	</tasks>
+</game>
+```

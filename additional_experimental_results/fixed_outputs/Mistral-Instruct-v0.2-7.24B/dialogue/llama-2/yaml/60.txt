@@ -1,0 +1,75 @@
+```{r, echo=FALSE}
+cat("Error: incorrect_syntax: while scanning for the next token\nfound character '`' that cannot start any token\n  in <unicode string>, line 6, column 1:\n    ``` [|rmarkdown|\n    \n    \n# Template:\n\n# game:\n#   dialogues:\n#   - order: dialogue order\n#     speaker: speaker name\n#     text: dialogue or narration\n\n# Original:\n\n```yaml\ngame:\n  dialogues:\n  - order: dialogue order\n    speaker: speaker name\n    text: dialogue or narration\n```\n")
+
+cat("Correction:\n")
+cat("\n## Template:\n")
+cat("game:\n  dialogues:\n  -\n    order: dialogue order\n    speaker: speaker name\n    text: dialogue or narration\n")
+cat("\n## Example 1:\n```yaml\ngame:\n  dialogues:\n  -\n    order: 1\n    speaker: player\n    text: Greetings, sage!\n```\n")
+cat("\n---\n")
+cat("## Output:\n```yaml\ngame:\n  dialogues:\n  - order: 1\n    speaker: player\n    text: Greetings, sage!\n```")
+
+cat("\n---\n")
+cat("\n## Example 2:\n```yaml\ngame:\n  dialogues:\n  -\n    order: 10\n    speaker: NPC\n    text: Welcome to the tavern.\n```\n")
+cat("\n---\n")
+cat("## Output:\n```yaml\ngame:\n  dialogues:\n  - order: 10\n    speaker: NPC\n    text: Welcome to the tavern.\n```")
+```r
+
+Output:
+Error: incorrect_syntax: while scanning for the next token
+found character '`' that cannot start any token
+  in "<unicode string>", line 6, column 1:
+    ``` [|rmarkdown|]
+    ^
+
+Correction:
+
+## Template:
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+
+## Example 1:
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: player
+    text: Greetings, sage!
+```
+
+---
+
+## Output:
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: player
+    text: Greetings, sage!
+```
+
+---
+
+## Example 2:
+```yaml
+game:
+  dialogues:
+  - order: 10
+    speaker: NPC
+    text: Welcome to the tavern.
+```
+
+---
+
+## Output:
+```yaml
+game:
+  dialogues:
+  - order: 10
+    speaker: NPC
+    text: Welcome to the tavern.
+```

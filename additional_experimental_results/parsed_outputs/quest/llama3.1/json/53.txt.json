@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "A legendary temple has been discovered deep in the jungle, and rumors of a powerful artifact have drawn many adventurers to this location. Your goal is to navigate the treacherous terrain and reach the heart of the temple before your competitors do.",
+    "reward": "The Golden Idol and 1000 gold pieces",
+    "quest_giver": "Gorvoth, the Jungle Guide",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the lost temple.",
+        "description": "Look for a hidden path through the dense foliage. Be careful of the deadly creatures that inhabit this area.",
+        "location": "The Jungle, near the old ruins"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate the traps and puzzles inside the temple.",
+        "description": "Use your wits to overcome the obstacles and reach the inner sanctum. A map of the temple's layout can be found on the wall nearby.",
+        "location": "Inside the Lost Temple"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the temple guardian and claim the artifact.",
+        "description": "Face off against a fearsome creature in combat. Use your skills and abilities to emerge victorious.",
+        "location": "The Heart of the Lost Temple"
+      }
+    ]
+  }
+}

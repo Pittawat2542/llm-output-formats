@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "quest-001",
+    "title": "Riddles of the Sphinx",
+    "objective": "Answer the riddles of the Sphinx and prove your wisdom.",
+    "description": "The Sphinx, a mythical creature with the body of a lion and the head of a human, blocks the path to the ancient city of Thebes. It challenges travelers with riddles, and those who fail to answer correctly are devoured. You must answer the Sphinx's riddles and prove your wisdom to pass safely.",
+    "reward": "Passage to the city of Thebes and recognition as a wise and resourceful adventurer.",
+    "quest-giver": "Oracle of Delphi",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the city of Thebes and seek out the Sphinx.",
+          "description": "The Sphinx is located outside the city gates of Thebes. Find your way there and prepare to answer its riddles.",
+          "location": "City of Thebes"
+        },
+        {
+          "order": "2",
+          "objective": "Answer the riddles of the Sphinx correctly.",
+          "description": "The Sphinx will ask you three riddles. Listen carefully and use your wisdom to answer them correctly. If you fail, you will be devoured.",
+          "location": "Outside the city gates of Thebes"
+        },
+        {
+          "order": "3",
+          "objective": "Pass through the gates of Thebes.",
+          "description": "Once you have answered the riddles correctly, the Sphinx will allow you to pass. Enter the city of Thebes and claim your reward.",
+          "location": "City of Thebes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>102</id>
+	<title>The Frozen Kingdom</title>
+	 Objective: Defeat the Ice Queen
+	 Description: Travel to the frozen kingdom in the north, overcome its icy challenges and defeat the cruelice Queen to restore warmth to the land.
+	 Reward: Eternal Flame Sword and 5000 Gold
+	 Quest-Giver: High Priest Thoran
+	 Tasks:
+	 <task>
+			<order>1</order>
+		 Objective:Cross the Icy Wastes
+		 Objective: Survive the bitterly cold and dangerous Icy Wastes to reach the Ice Queen's Palace. Watch out for Abominable Snow Beasts!
+		 Location: Ice Wastes
+		</task>
+	 <task>
+			<order>2</order>
+		 Objective: Enter the Ice Queen's Palace
+		 Objective:Navigate the deadly traps and puzzles of the Ice Queen's Palace to find her throne room.
+		 Location: Ice Queen's Palace
+		</task>
+	 <task>
+			<order>3</order>
+		 Objective: Defeat the Ice Queen
+		 Objective: Challenge and defeat the Ice Queen in an epic battle. Beware, she uses powerful ice magic!
+		 Location: Throne Room, Ice Queen's Palace
+		</task>
+	</tasks>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<output>
+	<game>
+		<id>102</id>
+		<title>The Frozen Kingdom</title>
+	 Objective: Defeat the Ice Queen
+	 Description: Travel to the frozen kingdom in the north, overcome its icy challenges and defeat the cruelice Queen to restore warmth to the land.
+	 Reward: Eternal Flame Sword and 5000 Gold
+	 Quest-Giver: High Priest Thoran
+	 Tasks:
+	 <task>
+			<order>1</order>
+		 Objective:Cross the Icy Wastes
+		 Objective: Survive the bitterly cold and dangerous Icy Wastes to reach the Ice Queen's Palace. Watch out for Abominable Snow Beasts!
+		 Location: Ice Wastes
+		</task>
+	 <task>
+			<order>2</order>
+		 Objective: Enter the Ice Queen's Palace
+		 Objective:Navigate the deadly traps and puzzles of the Ice Queen's Palace to find her throne room.
+		 Location: Ice Queen's Palace
+		</task>
+	 <task>
+			<order>3</order>
+		 Objective: Defeat the Ice Queen
+		 Objective: Challenge and defeat the Ice Queen in an epic battle. Beware, she uses powerful ice magic!
+		 Location: Throne Room, Ice Queen's Palace
+		</task>
+	</tasks>
+</game>
+```

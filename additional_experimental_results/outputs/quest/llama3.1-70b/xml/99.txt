@@ -1,0 +1,33 @@
+Here is a generated quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Find the ancient artifact hidden within the temple ruins.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple deep in the jungle, where the ancient civilization of Eldarath once flourished. Brave adventurers are needed to explore the treacherous ruins and uncover the secrets that lie within.</description>
+	<reward>1000 gold pieces, a magical amulet granting +10% intelligence</reward>
+	<quest-giver>Gorvoth, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Reach the temple entrance and defeat the giant spider guarding it.</objective>
+			<description>The temple lies hidden behind a thick veil of foliage. You'll need to fight your way through the jungle creatures to reach the entrance, where a fearsome giant spider awaits.</description>
+			<location>Jungle Ruins, 500 meters east of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the ancient puzzle locking the inner sanctum door.</objective>
+			<description>Once inside the temple, you'll come across a mysterious mechanism blocking your path. Use your wits to decipher the clues and unlock the door leading to the artifact chamber.</description>
+			<location>Temple Inner Sanctum</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient artifact and escape the temple.</objective>
+			<description>With the inner sanctum door open, you'll finally be able to claim the ancient relic. However, beware of the deadly traps and guardians that will stop at nothing to prevent its removal.</description>
+			<location>Temple Artifact Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

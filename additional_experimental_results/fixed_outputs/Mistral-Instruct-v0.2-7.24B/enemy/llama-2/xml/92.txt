@@ -1,0 +1,38 @@
+
+<xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>enemy_id</id>
+		<name>enemy_name</name>
+		<description>enemy description</description>
+		<stats>
+			<hp>150</hp>
+			<mp>75</mp>
+			<atk>80</atk>
+			<def>90</def>
+			<spd>70</spd>
+		</stats>
+	</enemy>
+</game>
+```
+# Solution
+The original XML data is well-formed and doesn't require any correction. However, new values have been provided for the enemy's id, name, description, hp, mp, atk, def, and spd. These new values should be used when creating the final XML output.
+
+# Output
+```xml
+<xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>enemy_id</id>
+		<name>enemy_name</name>
+		<description>enemy description</description>
+		<stats>
+			<hp>150</hp>
+			<mp>75</mp>
+			<atk>80</atk>
+			<def>90</def>
+			<spd>70</spd>
+		</stats>
+	</enemy>
+</game>
+```

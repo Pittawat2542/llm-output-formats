@@ -1,0 +1,15 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<!-- Add another dialogue if needed -->
+	</dialogues>
+</game>
+```
+
+The issue was with the missing closing `</dialogue>` tag in the original XML. I have fixed it by adding the closing tag for each `<dialogue>`. If you need to add more dialogues, copy the `<dialogue>` structure and paste it below the existing one, updating the `order` and `speaker` attributes as needed.

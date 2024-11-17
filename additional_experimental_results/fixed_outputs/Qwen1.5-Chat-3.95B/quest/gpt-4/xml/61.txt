@@ -1,0 +1,30 @@
+```xml
+<game>
+  <id>9823</id>
+  <title>Quest for the Golden Scepter</title>
+  <objective>Find and retrieve the lost Golden Scepter</objective>
+  <description>The ancient Golden Scepter has been stolen by the infamous dragon Nyx. Your quest is to infiltrate the dragon's lair and return the scepter to the people of our kingdom.</description>
+  <reward>The King's Favor and 5000 gold pieces</reward>
+  <quest-giver>King Roderick</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information from the village elder</objective>
+      <description>The village elder, wise and experienced, knows the way to the dragon's lair. You must persuade him to share this knowledge.</description>
+      <location>Whiteoak Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Acquire the Dragon Ward amulet</objective>
+      <description>The Dragon Ward amulet can protect you from Nyx's fiery breath. A merchant in Frosthold city sells such items.</description>
+      <location>Frosthold City</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Infiltrate Nyx's lair and reclaim the Golden Scepter</objective>
+      <description>With the Dragon Ward amulet and the information from the elder, reach the dragon's lair, bypass any defenses, and steal back the Golden Scepter.</description>
+      <location>Purple Ridge Mountains</location>
+    </task>
+  </tasks>
+</game>
+```

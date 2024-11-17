@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "ID12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to the village elder.",
+    "description": "Rumors say that a lost artifact is hidden deep in the forest. Retrieve it and bring glory to your village!",
+    "reward": "100 gold coins and eternal gratitude",
+    "quest-giver": "Old Man Thompson",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search the forest for clues",
+          "description": "Explore the forest, look for any signs of the artifact or ancient ruins.",
+          "location": "The Heart of the Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Guardian",
+          "description": "A powerful guardian protects the artifact. You must defeat it to claim it.",
+          "location": "Guardian's Lair"
+        }
+      ]
+    }
+  }
+}

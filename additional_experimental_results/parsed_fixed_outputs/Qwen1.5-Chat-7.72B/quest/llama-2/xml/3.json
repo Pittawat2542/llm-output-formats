@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest of the LostTreasure",
+    "objective": "Find the treasure hidden in the ancient ruins",
+    "description": "A challenging adventure awaits you!",
+    "reward": "Gold coins and a mysterious artifact",
+    "quest-giver": "Local Elder",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Uncover the first clue at the old library",
+        "description": "Search for a map with a hidden symbol",
+        "location": "Library, Room 345"
+      }
+    }
+  }
+}

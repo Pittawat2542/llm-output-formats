@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>789012</id>
+    <title>The Mysterious Temple Adventure</title>
+    <objective>Uncover the treasure hidden in the ancient temple</objective>
+    <description>In a dense jungle, there lies an enigmatic temple believed to harbor a priceless artifact. Many expeditions have attempted the quest, but few succeeded. Are you ready to unravel its secrets?</description>
+    <reward>Exquisite golden statue</reward>
+    <quest-giver>Explorer Emily Carter</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the entrance to the temple by the hidden grove</objective>
+            <description>The map suggests a secret entrance behind a canopy of unusual plants. Search for the grove and look out for any clues or markers.</description>
+            <location>Jungle Hidden Groove</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Obtain the temple key from the wise elder</objective>
+            <description>The elder holds the key,换取 knowledge about the tribe's history. Show respect and learn their protocol to acquire it.</description>
+            <location>Elder's Council Circle</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Overcome the temple's ancient traps</objective>
+            <description>The temple's defenses are intricate – be cautious of pressure plates and转动 stones. Solve each puzzle to progress safely.</description>
+            <location>Ancient Temple Ruins</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Find the treasure chamber in the depths of the temple</objective>
+            <description>The final challenge awaits, hidden behind a hidden room. Your wit and determination will determine if you can uncover the treasure.</description>
+            <location>Treasure Chamber's Crypt</location>
+        </task>
+    </tasks>
+</game>
+```

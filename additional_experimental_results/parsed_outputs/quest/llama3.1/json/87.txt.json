@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "Q1",
+    "title": "The Lost City",
+    "objective": "Find the lost city and retrieve the ancient artifact.",
+    "description": "The city has been lost for centuries, and it's said that the ancient artifact is hidden within its walls. You must navigate through treacherous jungles, avoid deadly traps, and fight off fierce beasts to reach the heart of the city.",
+    "reward": "100 gold pieces and a magical amulet",
+    "quest_giver": "Elder Kanaq, the village shaman",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from local villagers.",
+        "description": "Talk to the villagers in the nearby town and gather as much information as you can about the lost city. They may have heard rumors or have knowledge that will aid you on your journey.",
+        "location": "The nearby town of Willowdale"
+      },
+      {
+        "order": 2,
+        "objective": "Navigate through the treacherous jungle to reach the entrance of the lost city.",
+        "description": "Make your way through the dense jungle, avoiding deadly plants and animals. The entrance to the lost city is hidden behind a waterfall.",
+        "location": "The jungle near the entrance of the lost city"
+      },
+      {
+        "order": 3,
+        "objective": "Solve the puzzle to unlock the door to the ancient temple.",
+        "description": "Use your wits and problem-solving skills to unlock the door to the ancient temple. The puzzle is a complex sequence of pressure plates and mirrors.",
+        "location": "The ancient temple in the heart of the lost city"
+      }
+    ]
+  }
+}

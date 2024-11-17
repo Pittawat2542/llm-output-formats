@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>quest-id</id>
+    <title>Quest Title</title>
+    <objective>Quest Objective</objective>
+    <description>Quest Description</description>
+    <reward>50 Gold Pieces</reward>
+    <quest-giver>Nameless Guide</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Trail</objective>
+            <description>Follow the signs to the east</description>
+            <location>Trail Entrance</location>
+        </task>
+    </tasks>
+</game>
+```

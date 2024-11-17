@@ -1,0 +1,27 @@
+```yaml
+game:
+  title: Eldarath's Scroll: Retrieving Forbidden Knowledge
+  description: Discover the powerful ancient text hidden within the Caves of the Ancients, containing forbidden knowledge that has eluded scholars and adventurers for centuries.
+  id: Q001
+  objective: Recruit Eilif Stonefist, a skilled Dwarf Cleric, to help retrieve the lost scroll from the long--abandoned library in the Caves of the Ancients. The quest requires navigating through treacherous caves and overcoming various obstacles to reach the library, which lies hidden within the central chamber of the Lost Temple.
+  tasks:
+   - description: Begin by exploring the Caves of the Ancients to uncover the entrance to the library. Find the winding passageways and navigate through the dark caverns, avoiding deadly traps and hazards along the way.
+     location: Caves of the Ancients, The Lost Temple level
+     objective: Locate the ancient pedestal that houses the entrance to the library. The pedestal is located in the center chamber of the temple, surrounded by ancient artifacts and guarded by powerful undead creatures.
+       - description: Use your Dexterity or Strength checks to push open the pedestal's heavy lid and reveal the entrance to the library.
+     order: 1
+   - description: Once inside the library, search for the ancient scroll hidden among the shelves. This may require using various tools and techniques, such as a pickaxe, torchlight, or even magic spells.
+       - location: Library of the Ancients, central chamber
+       - objective: Locate the scroll that is guarded by a powerful enchantment or trap. Use your Dexterity or Strength checks to disarm the spell or bypass any traps while retrieving the scroll.
+     order: 2
+   - description: Retrieve the scroll from the ancient pedestal without triggering any traps or alarms. This may require careful observation and stealth, as well as the ability to read the parchment's intricate symbols and decipher its contents.
+       - location: Library of the Ancients, central chamber
+       - objective: Hold onto the scroll tightly without dropping it or being caught by an undead creature. Use your Dexterity or Strength checks to move quickly through the library and reach a safe spot where you can retrieve the scroll undetected.
+     order: 3
+  reward:
+    experience_points: 5000
+    gold_pieces: 2000
+    items:
+       - name: Eldarath''s Scroll
+        description: A powerful ancient text containing forbidden knowledge. The scroll grants a bonus of 10% to all skills and abilities used in the quest, as well as an additional 500 experience points and 200 gold pieces.
+```

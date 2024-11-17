@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "Retrieve the legendary sword from the ancient ruins.",
+    "id": "q001",
+    "objective": "Obtain the legendary sword, Dragon's Tooth, hidden within the ancient ruins of Castle Stormsurge.",
+    "quest_giver": "Old Man Thorne",
+    "reward": {
+      "experience": 500,
+      "gold": 1000,
+      "item": "Dragon's Tooth (Epic Sword)"
+    },
+    "tasks": [
+      {
+        "description": "Meet with Old Man Thorne at his residence in Greenhaven.",
+        "location": "Old Man Thorne's Residence, Greenhaven",
+        "objective": "Talk to Old Man Thorne about the legendary sword.",
+        "order": 1
+      },
+      {
+        "description": "Explore the entrance of Castle Stormsurge and retrieve a map that hints at the location of the Dragon's Tooth.",
+        "location": "Entrance, Castle Stormsurge",
+        "objective": "Retrieve an ancient scroll with cryptic clues.",
+        "order": 2
+      },
+      {
+        "description": "Solve a puzzle within the castle to unlock the chamber where the sword is kept.",
+        "location": "Inner Sanctum, Castle Stormsurge",
+        "objective": "Use the ancient scroll's hints to solve the puzzle and unlock the door.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for Dragon's Tooth"
+  }
+}

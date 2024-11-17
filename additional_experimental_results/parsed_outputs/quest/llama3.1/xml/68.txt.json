@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient temple hidden deep in the jungle.",
+    "description": "Rumors have surfaced of a long-abandoned temple hidden somewhere in the dense jungle. The temple is said to contain powerful artifacts, but it's guarded by deadly traps and puzzles.",
+    "reward": "A Golden Idol and 100 gold pieces",
+    "quest-giver": "High Priestess Aria",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the jungle entrance",
+          "description": "Make your way through the dense underbrush to reach the entrance of the jungle. Be cautious, as the terrain can be treacherous.",
+          "location": "Jungle Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the puzzle of the ancient door",
+          "description": "Use your wits to solve the complex puzzle that unlocks the entrance to the temple.",
+          "location": "Temple Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the Golden Idol",
+          "description": "Navigate through the treacherous traps and puzzles within the temple to reach the chamber containing the Golden Idol.",
+          "location": "Temple Chamber"
+        }
+      ]
+    }
+  }
+}

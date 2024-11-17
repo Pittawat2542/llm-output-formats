@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact",
+    "description": "In this quest, you must embark on a journey to find a long-lost artifact that holds immense power. The artifact is said to be hidden deep within a treacherous jungle, guarded by dangerous creatures and traps. You must overcome various challenges and solve puzzles along the way to reach the artifact's location. Beware, as many adventurers have tried and failed before.",
+    "reward": "Ancient artifact, 1000 gold coins",
+    "quest-giver": "Master Explorer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the jungle",
+          "description": "Your first task is to locate the hidden entrance to the jungle. Talk to the local villagers for clues and gather any information you can about the jungle's whereabouts.",
+          "location": "Village of Mystoria"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the key from the Giant Spider",
+          "description": "To progress further into the jungle, you must retrieve a key that is currently in possession of a fearsome Giant Spider. Navigate through the spider's lair, defeat it in combat, and retrieve the key from its web-covered nest.",
+          "location": "Giant Spider's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Solve the ancient puzzle of the Three Statues",
+          "description": "As you delve deeper into the jungle, you will come across a clearing with three mysterious statues. There is a legend that solving the puzzle surrounding these statues will reveal the path to the hidden artifact. Examine the statues closely and use your wits to decipher the correct combination.",
+          "location": "The Clearing of the Three Statues"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the Guardian Serpent",
+          "description": "The final trial on your quest is to defeat the powerful Guardian Serpent that guards the ancient artifact. Enter its lair, face the serpent in battle, and prove your worthiness as the artifact's true seeker. Be prepared for a challenging fight, as the serpent will use all of its cunning and strength to defend its treasure.",
+          "location": "The Cave of the Guardian Serpent"
+        }
+      ]
+    }
+  }
+}

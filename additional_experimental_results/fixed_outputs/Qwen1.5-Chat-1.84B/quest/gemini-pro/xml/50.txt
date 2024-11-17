@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<game id="TR101">
+  <title>Blacksmith's Lost Tools</title>
+  <objective>Retrieve the blacksmith's lost tools from the goblin cave.</objective>
+  <description>The blacksmith, a local craftsman, has lost his tools while working in thegoblin cave. He needs them back to continue his work and has asked you toretrieve them.</description>
+  <reward>500 gold, a new weapon</reward>
+  <quest-giver>Blacksmith</quest-giver>
+  <tasks>
+    <task order="1">
+      <objective>Find the goblin cave.</objective>
+      <description>The goblin cave is located east of the village, past the forest.</description>
+      <location East of the village, past the forest</location>
+    </task>
+    <task order="2">
+      <objective>Defeat the goblins and retrieve the blacksmith's tools.</objective>
+      <description>Once you find the goblin cave, you will need to defeat the goblins inside and retrieve the blacksmith's tools.</description>
+      <location Goblin cave</location>
+    </task>
+    <task order="3">
+      <objective>Return the tools to the blacksmith.</objective>
+      <description>Once you have the tools, return to the blacksmith in the village to complete the quest.</description>
+      <location Blacksmith's shop</location>
+    </task>
+  </tasks>
+</game>

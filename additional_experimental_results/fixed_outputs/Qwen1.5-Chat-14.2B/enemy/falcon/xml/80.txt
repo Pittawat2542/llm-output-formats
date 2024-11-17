@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy>
+    <id>id</id>
+    <name>name</name>
+    <description>description</description>
+    <stats>
+      <hp>hp int value</hp>
+      <mp>mp int value</mp>
+      <atk>atk int value</atk>
+      <def>def int value</def>
+      <spd>spd int value</spd>
+    </stats>
+  </enemy>
+  
+  <!-- Added missing closing tag for the first enemy -->
+  <enemy>
+    <id>id</id>
+    <name>Name</name>
+    <description></description>
+    <stats>
+      <hp>0</hp> <!-- Added default HP value, assuming it's an integer -->
+      <mp>0</mp> <!-- Added default MP value, assuming it's an integer -->
+      <atk>0</atk>
+      <def>0</def>
+      <spd>0</spd>
+    </stats>
+  </enemy>
+</game>
+```
+The fixed XML data includes the necessary closing tag for the first `<enemy>` element and adds default values for HP and MP since they were missing. If you want to provide specific values, replace `0` with the desired integer values.

@@ -1,0 +1,77 @@
+ 
+
+![](https://i.imgur.com/0QrKvD9.png)
+
+A: 
+
+The solution should be: 
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the treacherous paths of the mystical forest and reach the entrance of the Lost Temple.</objective>
+			<description>Be cautious of the twisted creatures that lurk in the shadows, and avoid getting lost in the dense foliage. The temple's entrance is said to be hidden behind a waterfall.</description>
+			<location>Mystical Forest, near the ancient ruins</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the puzzle of the celestial alignment to unlock the temple doors.</objective>
+			<description>Study the ancient carvings on the walls and use your knowledge of astronomy to align the celestial bodies in the correct order. The doors will only open when the stars are aligned properly.</description>
+			<location>Lobby of the Lost Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Raid the treasure chamber and retrieve the ancient scrolls.</objective>
+			<description>Beware of the deadly traps set by the ancient Eldarathians to protect their treasures. Use your wits and agility to navigate through the chamber and claim the scrolls.</description>
+			<location>Treasure Chamber, Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```
+
+Follow-up Exercise 1: How can we fix the syntax error in the XML code? 
+Solution: The syntax error is that the key "key_completeness" is missing. To fix it, add a new line after the XML and then type out the correct value for the key. For example, you could write:
+```xml
+<game>
+	...
+	<key_completeness="true">
+		...
+	</key_completeness>
+</game>
+```
+
+Follow-up Exercise 2: What would be the correct XML code if we wanted to add a new task with order number 4? 
+Solution: The corrected XML code could look like this:
+
+```xml
+<game>
+	...
+	<task>
+		<order>4</order>
+		<objective></objective>
+		<description></description>
+		<location></location>
+	</task>
+</game>
+```
+
+Follow-up Exercise 3: How can we add a new field for the task's location in the XML code? 
+Solution: To add a new field for the task's location, you could use the following syntax:
+
+```xml
+<task>
+	<order>1</order>
+	<objective></objective>
+	<description></description>
+	<location>mystical forest near the ancient ruins</location>
+</task>
+```

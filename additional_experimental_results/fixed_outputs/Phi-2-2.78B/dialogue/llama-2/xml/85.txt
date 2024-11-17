@@ -1,0 +1,79 @@
+"""
+
+# Solution
+import re
+
+data = """
+Error: incorrect_syntax: not well-formed (invalid token): line 16, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+Original:
+```xml
+
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Alice</speaker>
+			<text>Alice: Hello, Bob. How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Bob</speaker>
+			<text>Bob: I'm fine. How are you?</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+"""
+
+### Response:
+
+# Solution
+import re
+
+
+def clean_xml(data):
+    pattern = r'^<\s*(\w+)\s*/?\s*\S*>.*?<\s*/?(\w+)\s*/?' # /\1/ \2/
+    data = re.sub(r"<!-- -->", "", data)  # remove comments
+
+    tokens = []
+    for match in re.finditer(pattern, data):
+        token_type = match.group(1).lower() if match.group(0)[-1] == "/" else match.group(2).lower()
+        if token_type not in ['order', 'speaker']:
+            raise ValueError("Unknown token type: " + token_type)
+
+        tokens.append(match.group())
+
+    return "\n".join(tokens) if len(tokens) else data
+
+
+def fix_xml(data):
+    lines = []
+    for line in data.split("\n"):
+        if not line:  # skip empty lines
+            continue
+
+        line = line.strip()
+        if not re.match(r'^<\s*[a-z0-9_]+(:[a-zA-Z][a-zA-Z0-9_:]+)?>.*?</', line, re.DOTALL):  # skip invalid lines
+            continue
+
+        line = clean_xml(line)
+
+        lines.append("{{" + line + "}}")
+
+    return "\n".join(lines).strip()
+
+
+print(fix_xml(data))

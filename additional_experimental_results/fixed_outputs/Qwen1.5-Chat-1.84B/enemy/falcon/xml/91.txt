@@ -1,0 +1,39 @@
+<status xmlns="http://xsd.org/ns/enumeration">
+   <status_enemy id="id1">  
+     HP: <span style="color: #FF5500;"></span>
+     MP: <span style="color: #FF0000;"></span>
+     ATK: <span style="color: #FF5500;"></span>
+     DEF: <span style="color: #FF5500;"></span>
+     SPD: <span style="color: #FF5D;"></span> 
+   </status_enemy>  
+   <status_enemy id="id2">  
+     HP: <span style="color: #FF6"></span>
+     MP: <span style="color: #FF6"></span>
+     ATM: <span style="color: #FF6"></span>
+     AT: <span style="color: #FF6"></span>
+     DEF: <span style="color: #FF6"></span>
+     SPD: <span style="color: #FF6"></span> 
+   </status_enemy>  
+   <status_enemy id="id3">  
+     HP: <span style="color: #FF6"></span>
+     MP: <span style="color: #FF6"></span>
+     A: <span style="color: #FF6"></span>
+     DE: <span style="color: #FF6"></span>
+     DEF: <span style="color: #FF6"></span>
+     SPD: <span style="color: #FF6"></span> 
+   </status_enemy>  
+   <status_enemy id="id4">  
+     HP: <span style="color: #FF5500;"></span>
+     MP: <span style="color: #FF5500;"></span>
+     ATK: <span style="color: #FF5500;"></span>
+     DEF: <span style="color: #FF5500;">-</span>
+     SPD: <span style="color: #FF5D;"></span> 
+   </status_enemy>  
+   <status_enemy id="id5">  
+     HP: <span style="color: #FF6"></span>
+     MP: <span style="color: #FF6"></span>
+     ATK: <span style="color: #FF4D">-</span>
+     DEF: <span style="color: #FF4D">-</span>
+     SPD: <span style="color: #FF6"></span> 
+   </status_enemy>
+</status>

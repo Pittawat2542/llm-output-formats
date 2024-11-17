@@ -1,0 +1,37 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+  <character>
+    <id id="1">Id 1</id>
+    <first-name firstName="First Name 1</first-name>
+    <last-name LastName="Last Name 1">
+      <species(speciesName="Species 1") />
+      <age ageInYear or description />
+      <role roleOfCharacter />
+      <background backgroundStory />
+      <place-of-birth placeOfBirth />
+      <physical-appearance physicalAppearance>
+        <eye-color eyeColor />
+        <hair-color hairColor />
+        <height heightInFeet />
+        <weight weightInPounds />
+      </physical-appearance>
+    </character>
+  </game>
+</game>
+```
+New values:
+- `id` attribute has been added with a numerical value (1) to represent the character's ID.
+- `first-name` element within the `<character>` tag now contains a `firstName` child element with the text "First Name 1".
+- `last-name` element within the `<character>` tag now contains a `LastName` child element with the text "Last Name 1".
+- The `species` attribute has been added to the `<species>` element within the `<character>` tag.
+- The `age` element within the `<character>` tag has been replaced with the numeric value (ageInYear or description), depending on the type of age provided (exact or description).
+- The `<role>` element within the `<character>` tag now contains a new child element `roleOfCharacter` with the text "role of the character".
+- The `<background>` element within the `<game>` tag has been updated to include a new child element `backgroundStory` with a string value (background story).
+- The `<place-of-birth>` element within the `<character>` tag now contains an empty `<placeOfBirth>` element.
+- The `<physical-appearance>` element within the `<character>` tag has been modified to add a new child element `physicalAppearance` with three child elements:
+  * `<eye-color>` element with an attribute `eyeColor` containing the text "eye color".
+  * `<hair-color>` element with an attribute `hairColor` containing the text "hair color".
+  * `<height>` element with an attribute `height` containing a floating-point value representing the character's height in feet.
+  * `<weight>` element with an attribute `weight` containing a floating-point value representing the character's weight in pounds.

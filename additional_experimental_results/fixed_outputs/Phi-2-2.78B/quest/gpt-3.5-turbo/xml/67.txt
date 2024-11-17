@@ -1,0 +1,32 @@
+
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Epic Quest</title>
+	<objective>Defeat the dragon and retrieve the magic artifact</objective>
+	<description>Embark on a thrilling adventure to save the kingdom. The dragon has stolen the ancient magic artifact and is causing chaos across the land. You must gather a team of brave warriors, explore treacherous dungeons, and defeat the mighty dragon to restore peace and balance.</description>
+ 	<reward>Ancient magic artifact + 100 gold coins</reward>
+	<quest-giver>The wise wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather the team of brave warriors</objective>
+			<description>Recruit a powerful warrior, a skillful archer, and a wise mage to join your quest. Search for them in different locations, prove your worthiness, and bring them to the quest-giver.</description>
+			<location>The warrior can be found in the Dwarven Citadel. The archer is rumored to be in the Elven Forest. The mage resides in the Tower of Wisdom.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the treacherous dungeons</objective>
+			<description>Enter the ancient dungeons beneath the dragon's lair. Overcome deadly traps, solve intricate puzzles, and defeat the monstrous creatures guarding the artifact.</description>
+			<location>The dungeons are hidden deep within the Dark Forest. Look for the old abandoned well as the entrance.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the mighty dragon</objective>
+			<description>Prepare yourself for a fierce battle against the dragon. Use your acquired skills, teamwork, and the power of the ancient artifact to defeat the dragon and reclaim the treasure it stole.</description>
+			<location>The dragon's lair is located atop the highest peak of the Dragonspine Mountains. Be cautious, for the dragon won't be easily defeated.</location>
+		</task>
+	</tasks>
+</game>
+```
+

@@ -1,0 +1,24 @@
+The issue with the original YAML data is that it contains a string enclosed in single quotes instead of double quotes. In YAML, strings should be enclosed in double quotes. Here's the corrected YAML:
+
+```yaml
+game:
+  character:
+    age: 20
+    background:
+      - "I was born in the city of Los Angeles"
+      - "I was raised in the city of Los Angeles"
+    first_name: John
+    id: 123456
+    last_name: Smith
+    physical_appearance:
+      - eye_color: blue
+        hair_color: blonde
+        height: 1.83
+        weight: 80
+    place_of_birth: "Los Angeles"
+    role:
+      - "I am a police officer"
+      - "I am a firefighter"
+    species: human
+```
+The rest of the examples provided are identical to this corrected one, so there's no need to repeat them.

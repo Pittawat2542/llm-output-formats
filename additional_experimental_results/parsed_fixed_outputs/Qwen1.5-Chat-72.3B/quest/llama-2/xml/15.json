@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to the museum.",
+    "description": "In a forgotten temple deep in the jungle, an invaluable artifact has been reported missing. Your mission is to locate it and bring it back to the museum for safekeeping.",
+    "reward": "1000 gold coins and fame",
+    "quest-giver": "NPC - Archaeologist Henry",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the temple",
+          "description": "You need to discover the hidden entrance among the dense vegetation.",
+          "location": "Jungle clearing, west of the village"
+        },
+        {
+          "order": "2",
+          "objective": "Survive the traps and puzzles",
+          "description": "The temple is filled with dangerous traps and riddles. Overcome them to reach the artifact.",
+          "location": "Inside the temple, deepest chamber"
+        }
+      ]
+    }
+  }
+}

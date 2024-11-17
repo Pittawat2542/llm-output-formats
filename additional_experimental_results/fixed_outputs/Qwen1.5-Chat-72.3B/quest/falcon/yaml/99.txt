@@ -1,0 +1,19 @@
+```yaml
+game:
+  title: This is the title of the quest
+  description: Description of the quest
+  quest_giver: The quest giver
+  objective: A list of the quest's objectives
+  tasks:
+    - description: Task 1 description
+      location: Task 1 location
+      objective: Task 1 objective
+      order: 1
+    - description: Task 2 description
+      location: Task 2 location
+      objective: Task 2 objective
+      order: 2
+  reward:
+    description: A description of the quest's reward
+```
+In the fixed YAML data, I have corrected the syntax errors and rearranged the content to match the template. The `game` block now contains the appropriate subfields as specified in the template, and the list of tasks is shown with two example tasks.

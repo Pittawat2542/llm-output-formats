@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "You've heard rumors that the lost artifact is hidden within a forgotten ruin deep in the jungle. Your quest is to find it and bring it back to the village elder.",
+    "reward": "100 gold coins and legendary recognition",
+    "quest-giver": "Elder Zephyr",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the ruins",
+          "description": "Study ancient maps and talk to locals for information on the ruins' whereabouts.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the ruins safely",
+          "description": "Bypass any traps or obstacles that guard the entrance to the ruins.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Find the artifact",
+          "description": "Search the ruins thoroughly until you locate the ancient artifact.",
+          "location": "Ruins Heart chamber"
+        }
+      ]
+    }
+  }
+}

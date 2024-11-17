@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234567890</id>
+	<title>The Mysterious Shrine</title>
+	<objective>Speak to the Oracle in the Forest of Whispers</objective>
+	<description>The Oracle holds the key to unlocking the ancient shrine.</description>
+	<reward>Mythril Armor Set</reward>
+	<quest-giver>Gavric, Blacksmith of Ironwood Village</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to Gavric in Ironwood Village</objective>
+			<description>Gavric will provide you with instructions on finding the Forest of Whispers.</description>
+			<location>Ironwood Village, northeast of Eldorado</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Reach the Oracle's Hideout in the Forest of Whispers</objective>
+			<description>Follow the clues Gavric gave you to reach the Oracle.</description>
+			<location>Deep within the Forest of Whispers, near the Whispering Pool</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Speak to the Oracle and receive your reward</objective>
+			<description>The Oracle will reward you for completing the quest.</description>
+			<location>Oracle's Hideout, Forest of Whispers</location>
+		</task>
+	</tasks>
+</game>
+```

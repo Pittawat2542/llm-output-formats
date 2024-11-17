@@ -1,0 +1,63 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+    <id>ID_12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the lost artifact from the Ruins of Delphi</objective>
+    <description>The lost artifact of the ancients has been reportedly spotted in the Ruins of Delphi. It is your task to retrieve it safely and bring it back to the Guild.</description>
+    <reward>2000 gold, 500 experience points</reward>
+    <quest-giver>Guildmaster Orion</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the Ruins of Delphi</objective>
+            <description>Maintain a safe distance from the ruins and use your knowledge of ancient customs and folklore to navigate through the treacherous roads.</description>
+            <location>Roads of Delphi</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Locate the artifact</objective>
+            <description>Search throughout the ruins using a map provided by the Guild to identify any potential clues or hidden chambers.</description>
+            <location>Ruins of Delphi</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return with the artifact</objective>
+            <description>Bear in mind the dangers of带你所发现的文物，如腐蚀、失窃等，确保在安全的前提下将文物带回来并归还给 Guildmaster Orion.</description>
+            <location>Guild Hall</location>
+        </task>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<game>
+    <id>ID_12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the lost artifact from the Ruins of Delphi</objective>
+    <description>The lost artifact of the ancients has been reportedly spotted in the Ruins of Delphi. It is your task to retrieve it safely and bring it back to the Guild.</description>
+    <reward>2000 gold, 500 experience points</reward>
+    <quest-giver>Guildmaster Orion</quest-giver>
+    <tasks>
+        <task id="1">
+            <order>Travel to the Ruins of Delphi</order>
+            <objective>Maintain a safe distance from the ruins and use your knowledge of ancient customs and folklore to navigate through the treacherous roads.</objective>
+            <description>Maintain a safe distance from the ruins and use your knowledge of ancient customs and folklore to navigate through the treacherous roads.</description>
+            <location>Roads of Delphi</location>
+        </task>
+        <task id="2">
+            <order>Locate the artifact</order>
+            <objective>Search throughout the ruins using a map provided by the Guild to identify any potential clues or hidden chambers.</objectives>
+            <description>Search throughout the ruins using a map provided by the Guild to identify any potential clues or hidden chambers.</description>
+            <location>Ruins of Delphi</location>
+        </task>
+        <task id="3">
+            <order>Return with the artifact</order>
+            <objective>Bear in mind the dangers of带你所发现的文物, such as腐蚀,失窃, and theft, ensure in a safe manner that you bring back the artifact to Guildmaster Orion.</objective>
+            <description>Bear in mind the dangers of带到你所发现的文物, such as腐蚀,失窃, and theft, ensure in a safe manner that you bring back the artifact to Guildmaster Orion.</description>
+            <location>Guild Hall</location>
+        </task>
+    </tasks>
+</game>
+```

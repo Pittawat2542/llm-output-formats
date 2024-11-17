@@ -1,0 +1,35 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: player
+    text: "Hello, I'm the player. I'm going to play a game. I'm going to ask you questions. I'm going to ask you the first question. I'm going to ask you the second question. I'm going to ask you the third question. I'm going to ask you the fourth question. I'm going to ask you the fifth question. I'm going to ask you the sixth question."
+    character:
+      name: Bob
+      text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question."
+    dialogue_order:
+       - 1
+       - 2
+       - 3
+       - 4
+       - 5
+       - 6
+       - 7
+       - 8
+       - 9
+       - 10
+      character:
+        name: Bob
+        text: "I'm Bob. I'm going to answer your questions. I'm going to answer the first question. I'm going to answer the second question. I'm going to answer the third question. I'm going to answer the fourth question. I'm going to answer the fifth question. I'm going to answer the sixth question."
+        dialogue_order:
+         - 1
+         - 2
+         - 3
+         - 4
+         - 5
+         - 6
+         - 7
+         - 8
+         - 9
+         - 10
+```

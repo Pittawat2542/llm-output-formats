@@ -1,0 +1,23 @@
+```xml
+<!DOCTYPE game SYSTEM "http://www.game.com/1.0.dtd">
+<game>
+	<id>003</id>
+	<title>Dragon's Lair</title>
+	<Objective>Defeat the Dragon</Objective>
+		Description>A dragon has been terrorizing the local village. It lives in a cave on the side of the nearby mountain. Your mission is to put an end to its reign of terror.</Description>
+	<Reward>Dragon's treasure</Reward>
+	<Quest_Giver>Village Leader</Quest_Giver>
+	<Tasks>
+			<Task Order="1">
+				<Objective>Find the Dragon's Lair</Objective>
+				>Description>Travel through the treacherous mountain path to find the dragon's lair</Description>
+				<Location>Misty Mountain</Location>
+			</Task>
+			<Task Order="2">
+				<Objective>Defeat the Dragon</Objective>
+				>Description>Use your sword and your wits to overcome the beast</Description>
+				<Location>Dragon's Lair</Location>
+			</Task>
+	</Tasks>
+</game>
+```

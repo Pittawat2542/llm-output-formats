@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact in the dungeon.",
+    "description": "Rumors say that the lost artifact is hidden deep within the forgotten dungeon. Retrieve it to bring honor to our guild.",
+    "reward": "1000 gold coins and a legendary sword",
+    "quest-giver": "Gilbert the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the dungeon",
+          "description": "Make your way through the dense forest to locate the entrance of the dungeon.",
+          "location": "Forest's Edge"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian",
+          "description": "A powerful golem guards the artifact. You must defeat it to proceed.",
+          "location": "Dungeon Depth"
+        }
+      ]
+    }
+  }
+}

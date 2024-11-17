@@ -1,0 +1,23 @@
+The issue with the original YAML data is the special character `â` (non-breaking space) in the dialogue of the narrator. It's not a valid character in YAML syntax and causes an error. I've replaced it with a regular space to fix the problem:
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: Alice
+      text: Where are we going, Bob?
+    - order: 2
+      speaker: Bob
+      text: We're heading to the old mine.
+    - order: 3
+      speaker: Alice
+      text: But isn't it dangerous?
+    - order: 4
+      speaker: Bob
+      text: Yes, it's a bit risky. But don't worry, I'll protect you.
+    - order: 5
+      speaker: Narrator
+      text: At that moment, they both felt a chilly wind pass by
+```
+
+The fixed YAML is now in the code block above.

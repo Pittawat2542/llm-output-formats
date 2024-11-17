@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost City",
+    "objective": "Find and retrieve the ancient artifacts hidden within the lost city.",
+    "description": "A powerful sorceress has hired you to retrieve three ancient artifacts from the lost city, which is hidden deep within the forest. The artifacts are said to have immense power and could be used for good or evil.",
+    "reward": "2000 gold coins and a magical amulet",
+    "quest-giver": "Sorceress Arachne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the entrance to the lost city.",
+          "description": "The lost city is hidden deep within the forest. You will need to navigate through the dense foliage and avoid any dangers that may be lurking within.",
+          "location": "The heart of the Whispering Woods"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the first artifact, a golden statue.",
+          "description": "The golden statue is said to be located in the central temple of the lost city. However, it will not be an easy task, as the temple is said to be filled with treacherous traps and puzzles.",
+          "location": "The central temple of the lost city"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the second artifact, a magical scroll.",
+          "description": "The magical scroll is said to be located in the ancient library of the lost city. However, the library is said to be filled with deadly creatures and traps that will try to stop you from retrieving the scroll.",
+          "location": "The ancient library of the lost city"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the third artifact, a powerful tome.",
+          "description": "The powerful tome is said to be located in the sorceress's laboratory. However, the laboratory is said to be filled with deadly traps and puzzles that will try to stop you from retrieving the tome.",
+          "location": "Sorceress Arachne's laboratory"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: Retrieve the ancient artifact from the ruins of Eldarath
+  id: QST001
+  objective: Return the artifact to the village elder
+  quest_giver: Village Elder Thorne
+  reward: 100 gold pieces and a magical amulet
+  tasks:
+  - description: Explore the entrance chamber of the ruins
+    location: Entrance Chamber, Eldarath Ruins
+    objective: Find the hidden passage leading deeper into the ruins
+    order: 1
+  - description: Retrieve the ancient artifact from the treasure room
+    location: Treasure Room, Eldarath Ruins
+    objective: Defeat the guardian and claim the artifact
+    order: 2
+  title: The Lost Artifact of Eldarath
+```

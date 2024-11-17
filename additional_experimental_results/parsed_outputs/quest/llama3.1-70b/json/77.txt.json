@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "EQ001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find and retrieve the ancient artifact from the lost city of Eldarath.",
+    "description": "Rumors have been circulating about a hidden city deep within the mystical forest, where an ancient artifact holds the key to unlocking unimaginable power. Retrieve this relic before it falls into the wrong hands.",
+    "reward": "500 gold coins and a magical amulet granting resistance to elemental attacks",
+    "quest_giver": "Eira Shadowglow, a mysterious sorceress in the town of Willowdale",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the lost city from local townsfolk and travelers.",
+        "description": "Speak to the townspeople, gather rumors and clues, and piece together the location of Eldarath.",
+        "location": "Willowdale town square"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve an ancient map from the ruins of a nearby castle",
+        "description": "Explore the abandoned castle, avoiding deadly traps and fending off undead creatures to obtain a cryptic map that leads to Eldarath.",
+        "location": "Castle Wystan, north of Willowdale"
+      },
+      {
+        "order": 3,
+        "objective": "Navigate through the mystical forest and reach the entrance to Eldarath",
+        "description": "Brave treacherous terrain, avoiding magical wards and feral beasts as you make your way deeper into the heart of the mystical forest.",
+        "location": "Mystical Forest, east of Willowdale"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>enemy_id</id>
+		<name>Enemy Name</name>
+		<description>Description of enemy.</description>
+		<stats>
+			<hp>50</hp>
+			<mp>80</mp>
+			<atk>90</atk>
+			<def>90</def>
+			<spd>90</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+Note: The fixed XML code should include the correct `version`, `encoding` and wrap the entire XML content with the root tag `<game>`. Also, replace the `id` placeholder with a valid enemy ID.

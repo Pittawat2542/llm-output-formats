@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact from the Ancient Ruins",
+    "description": "An ancient artifact has been stolen from the city museum. Rumors suggest that it has been taken to the Ancient Ruins. Your task is to retrieve the artifact and return it to the museum.",
+    "reward": "500 gold coins and a legendary weapon",
+    "quest-giver": "City Mayor",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Transport to the Ancient Ruins",
+          "description": "Use your horse to reach the entrance of the Ancient Ruins",
+          "location": "City Gates"
+        },
+        {
+          "order": "2",
+          "objective": "Find the stolen artifact",
+          "description": "Search the Ancient Ruins for the stolen artifact. Be careful, the ruins are full of traps!",
+          "location": "Ancient Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Return the artifact to the museum",
+          "description": "Once you have found the artifact, return it to the city museum. The mayor will be waiting for you there.",
+          "location": "City Museum"
+        }
+      ]
+    }
+  }
+}

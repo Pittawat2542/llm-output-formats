@@ -1,0 +1,34 @@
+{
+  "game": {
+    "enemy": {
+      "id": "id",
+      "name": "name",
+      "description": {
+        "@descr": "description; atk = 1.5 and mp = 0.5 and spd = 2.5",
+        "#text": "description"
+      },
+      "stats": {
+        "hp": {
+          "@value": "10",
+          "#text": "hp int value"
+        },
+        "mp": {
+          "@value": "10",
+          "#text": "mp int value"
+        },
+        "atk": {
+          "@value": "50",
+          "#text": "atk int value"
+        },
+        "def": {
+          "@value": "10",
+          "#text": "def int value"
+        },
+        "spd": {
+          "@value": "20",
+          "#text": "spd int value"
+        }
+      }
+    }
+  }
+}

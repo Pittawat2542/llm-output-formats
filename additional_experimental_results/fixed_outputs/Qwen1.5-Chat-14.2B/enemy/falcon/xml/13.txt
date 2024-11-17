@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <enemy id="I-1">
+        <name>Warrior</name>
+        <description>A muscular warrior with a black robe and a battle axe.</description>
+        <stats>
+            <hp>100</hp>
+            <def>30</def>
+            <atk>21</atk>
+            <spd>19</spd>
+        </stats>
+    </enemy>
+    <enemy id="I-2">
+        <name>Priest</name>
+        <description>A robed figure standing with hands crossed and a burning flame in one hand.</description>
+        <stats>
+            <hp>20</hp>
+            <atk>50</atk>
+            <def>5</def>
+            <spd>7</spd>
+        </stats>
+    </enemy>
+    <enemy id="I-3">
+        <name>Elf</name>
+        <description>A graceful elf with a bow and a long curved dagger.</description>
+        <stats>
+            <hp>70</hp>
+            <def>25</def>
+            <mp>60</mp>
+            <atk>25</atk>
+            <spd>40</spd>
+        </stats>
+    </enemy>
+    <!-- Other enemies similar to S-1, S-2, etc. (omitted for brevity) -->
+</game>
+```

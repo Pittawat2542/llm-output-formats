@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<game>
+	<id id="id">id</id>
+	<title quest_title="quest title" />
+	<objective quest_objective="quest objective" />
+	<description quest_description="quest description" />
+	<reward quest_reward="quest reward" />
+	<quest-giver quest_giver="quest giver" />
+	<tasks task>
+		<task order="task order" objective="task objective" description="task description" location="task location" />
+	</tasks>
+</game>
+
+```xml
+XML Code Block:
+The corrected XML data with new values as requested is provided below:
+
+```xml
+<?xml version="1.0"?>
+<game id="id" quest_title="quest title"objective="quest objective"description="quest description"reward="quest reward"quest_giver="quest giver"tasks>
+	<task order="task order" objective="task objective" description="task description" location="task location" />
+</game>
+```

@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "QR001",
+        "title": "The Lost Temple",
+        "objective": "Explore the ancient ruins and uncover its secrets.",
+        "description": "A long-abandoned temple has been unearthed, filled with mysterious artifacts and treasures. Brave adventurers are needed to explore the site, overcome challenges, and unlock its hidden riches.",
+        "reward": "Golden Idol and 1000 experience points",
+        "quest_giver": "Professor Thaddeus Wimpole",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Clear the entrance of debris",
+                "description": "Remove the rubble blocking the temple's entrance to gain access.",
+                "location": "Temple Entrance"
+            },
+            {
+                "order": "2",
+                "objective": "Decipher ancient carvings",
+                "description": "Study the murals depicting a long-forgotten civilization to uncover clues about the temple's layout and hidden dangers.",
+                "location": "Inner Chamber"
+            },
+            {
+                "order": "3",
+                "objective": "Retrieve the Golden Idol",
+                "description": "Find and collect the fabled Golden Idol, said to grant immense power and wealth.",
+                "location": "Treasuries of the Ancients"
+            }
+        ]
+    }
+}
+```

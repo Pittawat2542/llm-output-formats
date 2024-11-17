@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>1</id>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <species>Human</species>
+        <age>22</age>
+        <role>Main character</role>
+        <background>
+            <description>John Doe is a 22-year-old human male born on April 1, 1997, in London, United Kingdom. He serves as the main character in the story.</description>
+        </background>
+        <place-of-birth>London, United Kingdom</place-of-birth>
+        <physical-appearance>
+            <height>1.75</height>
+            <weight>70.0</weight>
+            <!-- Removed redundant '/physical-appearance' for the second character's appearance -->
+            <eye-color>Blue</eye-color>
+            <hair-color>Black</hair-color>
+        </physical-appearance>
+    </character>
+    <character>
+        <id>2</id>
+        <first-name>Jane</first-name>
+        <last-name>Doe</last-name>
+        <species>Human</species>
+        <age>22</age>
+        <role>Main character</role>
+        <!-- Corrected the description for Jane Doe's background -->
+        <background>
+            <description>Jane Doe is a 22-year-old human female born on April 1, 1997, in London, United Kingdom. She is also a main character in the story.</description>
+        </background>
+        <place-of-birth>London, United Kingdom</place-of-birth>
+    </character>
+</game>
+```

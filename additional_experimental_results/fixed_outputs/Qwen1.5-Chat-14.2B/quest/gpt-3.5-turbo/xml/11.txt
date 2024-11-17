@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the lost treasure of the ancient civilization.</description>
+	<reward>A chest full of gold coins and rare artifacts</reward>
+	<quest-giver>Captain Johnson</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the first clue</objective>
+			<description>Search the abandoned temple for the hidden clue.</description>
+			<location>Temple of the Forgotten</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the ancient map</objective>
+			<description>Decrypt the mysterious symbols on the ancient map with the help of a wise old sage.</description>
+			<location>Sage's Hut</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Explore the secret cave</objective>
+			<description>Navigate through treacherous tunnels and defeat the guardians to enter the hidden cave.</description>
+			<location>Secret Cave Entrance</location>
+		</task>
+	</tasks>
+</game>
+```
+The XML data has been fixed with proper syntax, including adding the `encoding` attribute to the root element. The `<quest-giver>` tag is now properly closed.

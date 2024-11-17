@@ -1,0 +1,14 @@
+```yaml
+game:
+  description: "This is a description for the quest. To complete this quest, you must find the object."
+  id: 1
+  objective: "To complete this quest, you must find the object."
+  quest_giver: "The quest giver." 
+  reward: "You will get a reward for completing this quest."  
+  tasks:
+   - description: "Find the object." 
+    location: "The object is in the location." 
+    objective: "You must find the object." 
+    order: 1
+  title: "Find the object"
+```

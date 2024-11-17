@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age exact="exact age or description"> <!-- Added attribute "exact" to the <age> element -->
+			<!-- Removed group and description tags since they are not valid in this context -->
+		</age>
+		<role role="role of the character"> <!-- Added attribute "role" to the <role> element -->
+		</role>
+		<background background="background story"> <!-- Added attribute "background" to the <background> element -->
+		</background>
+		<place-of-birth location="location"> <!-- Added attribute "location" to the <place-of-birth> element -->
+		</place-of-birth>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height unit="cm">175.0</height> <!-- Added attribute "unit" and value for <height> element -->
+			<weight unit="kg">70.0</weight> <!-- Added attribute "unit" and value for <weight> element -->
+		</physical-appearance>
+	</character>
+</game>
+```

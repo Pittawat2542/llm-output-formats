@@ -1,0 +1,49 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Forbidden Temple</title>
+	 OBJECTIVE>Retrieve the sacred artifact
+	説明: The objective of this game is to locate and retrieve a sacred artifact from an ancient temple in the jungle.
+	REDuction: "Quest objectives" should be changed to "Objective"
+
+	説明: The reward for completing the quest is 10,000 gold coins. It can be replaced with any other currency or value that you prefer.
+
+	説明: "Quest-giver" should be changed to "High Priestess Elysia" if it is not already provided in the original code. This should also be updated to reflect the correct information about who will receive the reward.
+	REDuction: "Rewards" should be changed to "Rewards"
+
+	説明: The tasks within the game are as follows:
+	<ul>
+		 <li>Find the temple entrance</li>
+		 <li>Survive the temple traps</li>
+		 <li>Slay the guardian monster</li>
+	</ul>
+
+	説明: There are no additional changes needed for this code block.
+
+</game>
+```
+Output in Markdown format:
+```python
+<?xml version="1.0" ?>
+<game>
+	<title>The Forbidden Temple</title>
+	OBJECTIVE>Retrieve the sacred artifact
+	説明: The objective of this game is to locate and retrieve a sacred artifact from an ancient temple in the jungle.
+	REDuction: "Quest objectives" should be changed to "Objective"
+
+	説明: The reward for completing the quest is 10,000 gold coins. It can be replaced with any other currency or value that you prefer.
+
+	説明: "Quest-giver" should be changed to "High Priestess Elysia" if it is not already provided in the original code. This should also be updated to reflect the correct information about who will receive the reward.
+	REDuction: "Rewards" should be changed to "Rewards"
+
+	説明: The tasks within the game are as follows:
+	<ul>
+		 <li>Find the temple entrance</li>
+		 <li>Survive the temple traps</li>
+		 <li>Slay the guardian monster</li>
+	</ul>
+
+	説明: There are no additional changes needed for this code block.
+</game>
+```

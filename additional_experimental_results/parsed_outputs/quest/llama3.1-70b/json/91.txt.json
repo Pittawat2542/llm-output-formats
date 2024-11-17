@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Explore the ancient temple and retrieve the powerful artifact.",
+    "description": "Legend has it that the long-lost Temple of Eldarath holds a powerful artifact, said to grant immense power to its possessor. Many have attempted to find the temple before, but none have returned. Will you be the one to finally claim the treasure?",
+    "reward": "The Amulet of Light (grants +20% magic damage), 500 gold pieces",
+    "quest_giver": "Arin the Sage",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the Temple of Eldarath",
+        "description": "Travel to the ancient ruins east of Willowdale and search for the hidden entrance.",
+        "location": "Willowdale Ruins"
+      },
+      {
+        "order": 2,
+        "objective": "Clear the temple's traps and puzzles",
+        "description": "Make your way through the treacherous halls, avoiding deadly traps and solving ancient puzzles to unlock the artifact chamber.",
+        "location": "Temple of Eldarath ( Inner Halls )"
+      },
+      {
+        "order": 3,
+        "objective": "Defeat the guardian of the temple",
+        "description": "Face off against the fearsome dragon that guards the treasure. Only those who prove themselves worthy will be granted access to the artifact.",
+        "location": "Temple of Eldarath ( Artifact Chamber )"
+      }
+    ]
+  }
+}

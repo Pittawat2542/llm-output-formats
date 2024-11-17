@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Lost Temple of the Ancients",
+    "objective": "Explore the ancient temple and retrieve the artifact.",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the jungle, filled with ancient artifacts. Your mission is to explore the temple, navigate its deadly traps, and retrieve an artifact rumored to grant immense power.",
+    "reward": "Gold: 1000, Experience Points: 500, Artifact: 'Eye of the Ancients'",
+    "quest-giver": "Professor Elara Vex",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the jungle and locate the temple.",
+          "description": "Be cautious, as the path to the temple is said to be treacherous, filled with wild beasts and rival treasure hunters.",
+          "location": "Jungle Coordinates: 43.7232, -79.3832"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the temple and find the inner sanctum.",
+          "description": "Beware of deadly traps and puzzles that guard the artifact.",
+          "location": "Temple Inner Sanctum: 3rd Chamber, Left Door"
+        },
+        {
+          "order": "3",
+          "objective": "Retailve the artifact 'Eye of the Ancients'.",
+          "description": "Solve the final puzzle to unlock the chamber holding the artifact.",
+          "location": "Temple Inner Sanctum: 5th Chamber, Central Pedestal"
+        }
+      ]
+    }
+  }
+}

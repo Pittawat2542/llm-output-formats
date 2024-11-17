@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <id>ID_001</id>
+  <title>The Lost Treasure</title>
+  <objective>Find the lost treasure in the abandoned temple.</objective>
+  <description>An old map was found in the library indicating the location of a lost treasure. However, the temple is known to be guarded by traps and dangerous creatures.</description>
+  <reward>A chest filled with gold coins.</reward>
+  <quest-giver>Librarian</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Locate the abandoned temple.</objective>
+      <description>The temple is located in the western forest, near the river.</description>
+      <location>Western Forest, near the river</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Defeat the guardian of the temple.</objective>
+      <description>The guardian is a giant spider that protects the entrance to the temple.</description>
+      <location>Abandoned Temple Entrance</location>
+    </task>
+  </tasks>
+</game>
+```

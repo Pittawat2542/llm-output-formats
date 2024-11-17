@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>Quest Title Example</title>
+    <objective lang="en">Complete the quest to find the ancient artifact</objective>
+    <description lang="en>A mysterious figure tasks you with uncovering a hidden treasure</description>
+    <reward>Gold, artifacts, and a special achievement</reward>
+    <quest-giver>Old mapseller by the town square</quest-giver>
+    <tasks lang="en">
+        <task order="1">
+            <objective lang="en>Defeat the dragon at the eastern mountain pass</objective>
+            <description>Rescue the captured villagers to unlock the path</description>
+            <location>Mountain Pass East</location>
+        </task>
+    </tasks>
+</game>
+```

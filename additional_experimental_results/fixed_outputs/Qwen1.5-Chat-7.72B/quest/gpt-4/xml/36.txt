@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q1</id>
+    <title>Lost Artifact Quest</title>
+    <objective>Find and Retrieve Ancient Artifact from Forgotten Temple</objective>
+    <description>You are tasked with discovering the temple and acquiring the artifact, navigating through treacherous traps and guardians.</description>
+    <reward>5000 Gold and The Eternal Blade</reward>
+    <quest-giver>The Wise Old Hermit</quest-giver>
+    <tasks>
+        <task>
+            <order>Task 1</order>
+            <objective>Discover Temple Entry</objective>
+            <description>Follow the map given by the quest giver to locate the entrance in the Heart Woods.</description>
+            <location>Deep in the Heart Woods</location>
+        </task>
+        <task>
+            <order>Task 2</order>
+            <objective>Solve Stone Door Riddle</objective>
+            <description>Unravel the riddle at the Temple Entrance to gain access.</description>
+            <location>The Temple Entrance</location>
+        </task>
+        <task>
+            <order>Task 3</order>
+            <objective>Retrieve Artifact from Inner Sanctum</objective>
+            <description>Confront and overcome temple guards and puzzles to reach the inner sanctum and secure the artifact.</description>
+            <location>Temple Inner Sanctum</location>
+        </task>
+    </tasks>
+</game>
+```

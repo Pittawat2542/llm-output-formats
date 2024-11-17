@@ -1,0 +1,39 @@
+{
+  "game": {
+    "description": "Retrieve the legendary sword of light from the depths of the Dark Castle.",
+    "id": "Q12345",
+    "objective": "Bring back the sword to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience": 1000,
+      "gold": 500,
+      "items": [
+        {
+          "name": "Healing Potion",
+          "quantity": 3
+        }
+      ]
+    },
+    "tasks": [
+      {
+        "description": "Enter the Dark Castle through the main gate and defeat the undead guards.",
+        "location": "Dark Castle Entrance",
+        "objective": "Defeat 5 Undead Guards",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the castle's maze and reach the treasure room.",
+        "location": "Dark Castle Maze",
+        "objective": "Find the Treasure Room Key",
+        "order": 2
+      },
+      {
+        "description": "Defeat the dark knight guarding the sword and claim it as your own.",
+        "location": "Dark Castle Treasure Room",
+        "objective": "Defeat Dark Knight Arin",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

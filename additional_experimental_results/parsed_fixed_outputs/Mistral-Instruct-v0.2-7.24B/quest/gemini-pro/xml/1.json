@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure of El Dorado",
+    "objective": "Find the lost treasure of El Dorado.",
+    "description": "In the heart of the Amazon jungle lies the lost city of El Dorado. Legend has it that this city holds a treasure of immense value. You've been hired by a wealthy explorer to find this treasure and bring it back to him.",
+    "reward": "A share of the treasure.",
+    "quest-giver": "Archaeologist Jones",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the lost city.",
+          "description": "The entrance to the lost city is said to be hidden somewhere in the jungle. You'll need to explore the jungle and search for clues that will lead you to the entrance.",
+          "location": "The Amazon jungle"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardians of the treasure.",
+          "description": "Once you've found the entrance to the lost city, you'll need to defeat the guardians of the treasure. These guardians could be anything from wild animals to ancient spirits.",
+          "location": "The lost city of El Dorado"
+        },
+        {
+          "order": "3",
+          "objective": "Find the treasure.",
+          "description": "Once you've defeated the guardians, you'll need to find the treasure. The treasure could be hidden anywhere in the city, so you'll need to search carefully.",
+          "location": "The lost city of El Dorado"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+
+## XML: 
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1st order</order>
+			<objective>complete first task</objective>
+			<description>first task description</description>
+			<location>first task location</location>
+		</task>
+		<task>
+			<order>2nd order</order>
+			<objective>complete second task</objective>
+			<description>second task description</description>
+			<location>second task location</location>
+		</task>
+		<task>
+			<order>3rd order</order>
+			<objective>complete third task</objective>
+			<description>third task description</description>
+			<location>third task location</location>
+		</task>
+	</tasks>
+</game>
+

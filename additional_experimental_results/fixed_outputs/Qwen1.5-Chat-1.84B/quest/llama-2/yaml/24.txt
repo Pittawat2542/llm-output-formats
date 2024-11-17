@@ -1,0 +1,44 @@
+Game:
+  Description: Quest Description
+  Id: 123
+  Objective: Quest Objective
+  Quest_Giver: Quest Giver
+  Reward: Quest Reward
+  Tasks:
+    - Description: Task Description
+      Location: Task Location
+      Objective: Task Objective
+      Order: Task Order
+    - Description: Task Description
+      Location: Task Location
+      Objective: Task Objective
+      Order: Task Order
+    - Description: Task Description
+      Location: Task Location
+      Objective: Task Objective
+      Order: Task Order
+  Title: Quest Title
+
+Output in YAML format:
+```
+game:
+  description: Quest Description
+  id: 123
+  objective: Quest Objective
+  quest_giver: Quest Giver
+  reward: Quest Reward
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+  title: Quest Title
+```

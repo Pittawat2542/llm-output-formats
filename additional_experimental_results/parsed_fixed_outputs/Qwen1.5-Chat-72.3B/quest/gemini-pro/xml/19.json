@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Ancient Forgotten Temple",
+    "objective": "Retrieve the ancient relic hidden within the forgotten temple.",
+    "description": "Legends speak of an ancient temple lost to time. Locals claim it houses a relic with unimaginable powers. Find the temple and retrieve the relic.",
+    "reward": "The ancient relic, experience, and reputation.",
+    "quest-giver": "Elder Bard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Forgotten Temple.",
+          "description": "Venture into the heart of the forest to find the long-lost Forgotten Temple.",
+          "location": "Deep Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the temple's riddles and puzzles.",
+          "description": "Navigate through the temple's intricate challenges and ancient traps.",
+          "location": "Forgotten Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the temple's guardian.",
+          "description": "Face the temple's powerful guardian to claim the relic.",
+          "location": "Forgotten Temple"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the ancient relic.",
+          "description": "Obtain the ancient relic from its resting place in the temple.",
+          "location": "Forgotten Temple"
+        },
+        {
+          "order": "5",
+          "objective": "Return to the Elder Bard.",
+          "description": "Report your success to the Elder Bard.",
+          "location": "Bard's Cottage"
+        }
+      ]
+    }
+  }
+}

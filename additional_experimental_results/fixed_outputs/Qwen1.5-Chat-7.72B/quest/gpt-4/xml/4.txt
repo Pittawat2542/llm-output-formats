@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1234</id>
+    <title>The Lost Artifact Quest</title>
+    <objective>Retrieve the ancient artifact from Elrond's advice</objective>
+    <description>The forest's ancient ruins, guided by Old Sage Elrond, hold a powerful artifact. The adventurers seek it.</description>
+    <reward>5000 gold coins, Unique artifact, Adventure points</reward>
+    <quest-giver>Old Sage Elrond</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Embark on the journey to the ruins</objective>
+            <description>Traverse deep into the forest to reach the ancient ruins.</description>
+            <location>The Ancient Ruins</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Uncover the artifact's location</objective>
+            <description>Search for the artifact in the central chamber. It holds great significance.</description>
+            <location>The Central Chamber of The Ancient Ruins</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to Elrond with the artifact</objective>
+            <description>Deliver the artifact back to Old Sage Elrond in the town.</description>
+            <location>The Town</location>
+        </task>
+    </tasks>
+</game>
+```

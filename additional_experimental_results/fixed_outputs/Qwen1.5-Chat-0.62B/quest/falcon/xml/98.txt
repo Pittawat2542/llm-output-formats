@@ -1,0 +1,54 @@
+Corrected XML data:
+```xml
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>Output in XML format and only the XML in the Markdown code block</title>
+</head>
+<body>
+<h1>Quest Information</h1>
+<p><strong>Output Format:</strong></p> 
+<pre><code>    <game>
+       <id>id</id>
+       <title>quest title</title>
+       <objective>quest objective</objective>
+       <description>quest description</description>
+       <reward>quest reward</reward>
+       <quest-giver>quest giver</quest-giver>
+       <tasks>
+           <task>
+                <order>task order</order>
+                Objective>objective</objective>
+                Description>description</description>
+                Location>location</location>
+           <task>
+   </code></pre>
+     <body> 
+   </html>
+</body>
+</html>
+```
+Here is the updated output in Markdown code format:
+```
+Quest Information
+Output Format:
+
+    <game>
+       <id>id</id>
+       <title>quest title</title>
+       <objective>quest objective</objective>
+       <description>quest description</description>
+       <reward>quest reward</reward>
+       <quest-giver>quest giver</quest-giver>
+       <tasks>
+           <task>
+                <order>task order</order>
+                Objective>objective</objective>
+                Description>description</description>
+                Location>location</location>
+           <task>
+   </code></pre>
+     <body> 
+   </html>
+```

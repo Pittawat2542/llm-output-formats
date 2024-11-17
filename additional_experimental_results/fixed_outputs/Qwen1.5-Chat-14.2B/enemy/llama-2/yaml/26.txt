@@ -1,0 +1,17 @@
+The issue with the provided YAML data is that it has a string value starting with a backtick (`) instead of a double quote ("). Here's the corrected YAML for all the examples:
+
+```yaml
+game:
+  enemy:
+    description: "Description"
+    id: 1
+    name: "Name"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+All the examples are identical, so I've provided only one. If you need to provide multiple examples with different values for `description`, `id`, or any other fields, please let me know.

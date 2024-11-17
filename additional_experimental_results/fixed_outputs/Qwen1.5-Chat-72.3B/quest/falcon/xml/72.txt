@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title><abbr title="quest object type">title</abbr></title>
+	<objective><abbr title="quest attribute">objective text</abbr></objective>
+	<description quest-description="true">quest description</description>
+	<reward><abbr title="quest reward text">reward text</abbr></reward>
+	<quest-giver>(optional) - quest giver text/abbreviation</quest-giver>
+	<tasks>
+		<task>
+			<order>(optional) - task object type / title text/abbreviation / location text</order>
+			<objective><abbr title="task objective text">text of task objective</abbr></objective>
+			<description quest-task="true">task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```

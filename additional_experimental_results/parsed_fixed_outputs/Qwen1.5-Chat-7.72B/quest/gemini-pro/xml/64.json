@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest for the Crystal",
+    "objective": "Rescue the stolen Crystal of Wisdom from the Elven Queen.",
+    "description": "The Elven Queen has been betrayed, and her precious crystal is missing. Your mission is to find it in the Enchanted Forest and restore peace to the land.",
+    "reward": "Knowledge from the Crystal and eternal gratitude.",
+    "quest-giver": "Queen Eirlys",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the Enchanted Forest.",
+          "description": "Follow the path west of the enchanted grove to reach the forest's heart.",
+          "location": "Enchanted Forest, Heart"
+        },
+        {
+          "order": "2",
+          "objective": "Meet with Queen Eirlys.",
+          "description": "The Elven Castle is located near the crystal spring. Seek her there for guidance.",
+          "location": "Elven Castle, Crystal Spring"
+        },
+        {
+          "order": "3",
+          "objective": "Battle the Elven guards.",
+          "description": "A guardian stands in your way to access the treasure chamber. Be cautious.",
+          "location": "Elven Treasure Chamber"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the Crystal of Wisdom.",
+          "description": "The crystal is hidden behind a magical barrier. You'll need to solve a riddle to obtain it.",
+          "location": "Magical Barrier, Elven Realm"
+        },
+        {
+          "order": "5",
+          "objective": "Return the Crystal to Queen Eirlys.",
+          "description": "Bring the crystal back to the castle and present it to her in the throne room.",
+          "location": "Elven Castle, Throne Room"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>255</hp> -- corrected incorrect value
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+This corrected the issue by changing the HP value to a valid integer, keeping all other values as is.

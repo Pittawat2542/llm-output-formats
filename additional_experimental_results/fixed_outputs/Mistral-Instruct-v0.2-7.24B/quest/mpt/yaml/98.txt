@@ -1,0 +1,12 @@
+```yaml
+description: "An adventurer has gone missing in the forest and his family is looking for help. They believe he was last seen near the old oak tree."
+id: find_missing_adventurer
+objective: Find the missing adventurer
+quest_giver: Village Elder
+reward: A bag of gold coins
+  tasks:
+  - description: "Search around the old oak tree for any clues"
+    location: Forest near the old oak tree
+    objective: Search for clues
+    order: 1
+```

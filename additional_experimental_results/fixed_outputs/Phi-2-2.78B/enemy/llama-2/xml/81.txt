@@ -1,0 +1,22 @@
+
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>id</id>
+        <name>name</name>
+        <description>description</description>
+        <stats>
+            <hp int value="123">hp int value</hp>
+            <mp int value="456">mp int value</mp>
+            <atk int value="789">atk int value</atk>
+            <def int value="012">def int value</def>
+            <spd int value="345">spd int value</spd>
+        </stats>
+    </enemy>
+</game>
+```
+
+### Error:
+
+**Invalid tag: <id/>** at line 17, column 0
+

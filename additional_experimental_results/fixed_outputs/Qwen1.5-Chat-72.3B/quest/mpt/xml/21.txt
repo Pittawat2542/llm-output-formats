@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>In this quest, you must explore the dense jungle and discover the lost temple to retrieve the artifact.</description>
+	<reward>1000 gold coins and a legendary artifact</reward>
+	<quest-giver>Garrison the Explorer</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the jungle</objective>
+			<description>Use your survival skills to traverse the dense forest and reach the ruins.</description>
+			<location>Jungle Clearing</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the temple entrance</objective>
+			<description>Solve the puzzles at the entrance of the lost temple to gain entry.</description>
+			<location>Lost Temple Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find and retrieve the artifact</objective>
+			<description>Battle the guardians and locate the hidden chamber where the artifact is kept.</description>
+			<location>Inner Sanctum of the Temple</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,38 @@
+ 
+```yaml
+game:
+  beginning: in a world where magic has disappeared, the land is plagued by a terrible curse that causes all living things to slowly wither away
+  ending: the protagonist, a young apprentice, discovers the source of the curse and defeats the dark sorcerer responsible, restoring magic to the world
+  synopsis: game story synopsis
+  title: The Lost Art
+```
+
+
+# Exercise 4 Solution
+import re
+
+data = """The first time I saw him he was standing at the edge of a cliff. It took me several minutes to work up the nerve to look over, but when I did, my jaw dropped. He had transformed into a giant bird and was soaring through the air."""
+
+pattern = r"(\bthe\s+)?(first|second)\b.*\b(\w+)\.\s*"
+match_result = re.search(pattern, data)
+if match_result:
+    print(f"First instance of {match_result.group()}:")
+    print(data[match_result.span()[0]:match_result.span()[1]])
+else:
+    print("No matching instances found.")
+
+
+# Exercise 5 Solution
+import re
+
+data = """The quick brown fox jumps over the lazy dog. The brown dog was barking at the quick fox."""
+
+pattern = r"\b(\w+)\s+(\w+)\.\s*(?!dog)$"
+match_result = re.findall(pattern, data)
+if match_result:
+    print("All instances found:")
+    for match in match_result:
+        print(f"{match[0]} jumps over {match[1]}.\n")
+else:
+    print("No matching instances found.")
+

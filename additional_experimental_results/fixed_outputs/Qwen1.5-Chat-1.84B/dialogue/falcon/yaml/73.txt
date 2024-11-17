@@ -1,0 +1,50 @@
+game:
+  dialogues:
+  - order: dialogue_order
+     speaker: Goggin
+     text: Dialogue or narration
+
+Original YAML data:
+
+```yaml
+player = Goggin:
+
+   - order: goggin_order
+     order: 1
+    
+    name: Goggin
+    dialog: Dialog text
+
+- name: Goggin
+    dialog: Dialogue text
+
+- order: 2
+    name: Order of game players
+  
+- order: 3
+    name: The player's goal
+  
+- order: 4
+    name: In game events
+    description: events in game
+```
+
+Corrected YAML data:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue_order
+     speaker: Goggin
+     text: Dialogue or narration
+
+  player:
+    id: "Goggin"
+    
+    name: Goggin
+    dialog: Dialog text
+    
+    roles:
+      - id: "goggin_role"
+        role: Player
+```

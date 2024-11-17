@@ -1,0 +1,35 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": "dialogue order",
+        "speaker": "speaker name",
+        "text": "dialogue text"
+      },
+      {
+        "order": 1,
+        "speaker": "player1",
+        "text": "dialogue for player 1",
+        "properties": {
+          "rank": 1
+        }
+      },
+      {
+        "order": 1,
+        "speaker": "player2",
+        "text": "dialogue for player 2",
+        "properties": {
+          "rank": 2
+        }
+      },
+      {
+        "order": 1,
+        "speaker": "player3",
+        "text": "dialogue for player 3",
+        "properties": {
+          "rank": 3
+        }
+      }
+    ]
+  }
+}

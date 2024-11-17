@@ -1,0 +1,119 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game>
+<html>
+<head>
+	<title>Character Class</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+		}
+		p {
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<h1>Character Class</h1>
+
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Species</th>
+			<th>Age</th>
+			<th>Physical Appearance</th>
+			<th>Background</th>
+			<th>Place of Birth</th>
+			<th>Character Name</th>
+			<th>Cia Bazura</th>
+			<th>Cia Bazura</th>
+			<th>Cia Bazura</th>
+			<th>Cia Bazura</th>
+		</tr>
+	</table>
+
+	<tr>
+		<td id="id1" class="character">
+			Cia
+		</td>
+		<td>Cia</td>
+		<td>Bazura</td>
+		<td>Human</td>
+		<td>18 years old</td>
+		<td><span id="age">18 years old</span></td>
+		<td><p class="description">Cia is a human and has the ability to read minds.</p></td>
+		<td><span id="species">Human</span></td>
+		<td>18 years old</td>
+		<td><p class="age">18 years old</p></td>
+		<td><span id="location">exact location</span></td>
+		<td><p class="description">Cia lives in the city of Zephyr, where she is a member of the elite intelligence group known as the Alpha League.</p></td>
+		<td><span id="physical-appearance">5ft 7in inches tall</span></td>
+		<td><p class="description">Cia's physical appearance consists of large green eyes and long black hair. She is an excellent athlete and excels in her field.</p></td>
+		<td><span id="background">Exactly location</span></td>
+		<td><p class="description">Cia lives in the city of Zephyr, where she is a member of the elite intelligence group known as the Alpha League. She has been living in the city since she was 18 years old.</p></td>
+		<td><span id="place-of-birth">Exactly place of birth</span></td>
+		<td><p class="description">Cia was born in a small town called Zephyr, where she grew up with her parents and older siblings. She is known for her intelligence, as well as her ability to read minds.</p></td>
+		<td><span id="character-name"> "Cia Bazura"</span></td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td><p class="description">Cia is a human and has the ability to read minds.</p></td>
+		<td><span id="background">Exactly location</span></td>
+		<td><p class="description">Cia lives in the city of Zephyr, where she is a member of the elite intelligence group known as the Alpha League. She has been living in the city since she was 18 years old.</p></td>
+		<td><span id="place-of-birth">Exactly place of birth</span></td>
+		<td><p class="description">Cia was born in a small town called Zephyr, where she grew up with her parents and older siblings. She is known for her intelligence, as well as her ability to read minds.</p></td>
+		<td><span id="character-name"> "Cia Bazura"</span></td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td>Cia Bazura</td>
+		<td><p class="description">Cia is a human and has the ability to read minds.</p></td>
+		<td><span id="background">Exactly location</span></td>
+		<td><p class="description">Cia lives in the city of Zephyr, where she is a member of the elite intelligence group known as the Alpha League. She has been living in the city since she was 18 years old.</p></td>
+	</tr>
+</table>
+
+</body>
+</html>
+```
+
+The correct syntax for the `<game>` element is:
+```xml
+<game>
+	<character>
+		<id>id</id>
+		<first-name>Cia</first-name>
+		<last-name>Bazura</last-name>
+		<p>Age: 18 years old</p>
+		<label>Physical Appearance</label>
+		<br><span id="description">Cia is a human and has the ability to read minds.</span></p>
+		<br><span id="species">Human</span></br>
+		<label>Age</label>
+		<div class="age">18 years old</div>
+	</character>
+	<character>
+		<id>2</id>
+		<p>Bazura</p>
+		<p>Age: 16 years old</p>
+	</character>
+</game>
+```
+
+The new values for the `<name>` and `<description>` attributes are:
+```xml
+<name>Cia Bazura</name>
+<label>Cia</label>
+
+<p>Age: 18 years old</p>
+<div class="age">18 years old</div>
+```

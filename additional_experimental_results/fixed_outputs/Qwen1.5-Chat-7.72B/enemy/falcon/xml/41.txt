@@ -1,0 +1,42 @@
+```xml
+<returnMarkdown>
+```
+
+
+```xml
+<code>
+   <?xml version="1.0" encoding="UTF-8"?>
+   <game xmlns="https://exodus.gitlab.org/g/exodus.git">
+     <enemy>
+       <id>1</id>
+       <name>Bobo</name>
+       <description>A small, agile enemy.</description>
+       <stats>
+         <hp>90</hp>
+         <mp>30</mp>
+         <atk>45</atk>
+         <def>23</def>
+         <spd>17</spd>
+         <crit_atk>1</crit_atk>
+         <crit_def>1</crit_def>
+         <speed Adjustment="+2">Increased speed by 2 units</speed>
+       </stats>
+       <enemy>
+         <id>2</id>
+         <name>Fang</name>
+         <description>A fierce beast with high MP.</description>
+         <stats>
+           <hp>30</hp>
+           <mp>100</mp>
+           <atk>70</atk>
+           <def>25</def>
+           <spd>7</spd>
+           <chaotic_atk>true</chaotic_atk>
+           <chaotic_def>true</chaotic_def>
+         </stats>
+       </enemy>
+     </game>
+   </xml>
+</code>
+
+```

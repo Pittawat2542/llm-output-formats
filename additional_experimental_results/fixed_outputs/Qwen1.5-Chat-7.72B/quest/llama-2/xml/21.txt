@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>NewQuestTitle</title>
+    <objective>Complete the XYZ Quest</objective>
+    <description>Find the ancient artifact in the Forbidden Forest</description>
+    <reward>Gold coins and experience points</reward>
+    <quest-giver> Elder knowledge </quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Deliver the message to the village elder</objective>
+            <description>Follow the marked path through the forest</location>
+            <location>Forest Clearing, North West</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the ancient artifact from the lost temple in the heart of the forest.
+  id: 001
+  objective: Bring back the fabled Sceptre of Light.
+  quest_giver: Elara, the Guardian of the Forest
+  reward: A magical amulet granting resistance to fire and a small pile of gold coins
+  tasks:
+  - description: Find the entrance to the lost temple.
+    location: The ancient oak tree at the edge of the forest.
+    objective: Locate the hidden entrance.
+    order: 1
+  - description: Navigate through the treacherous maze within the temple.
+    location: Inside the lost temple.
+    objective: Reach the inner sanctum where the Sceptre is kept.
+    order: 2
+  - description: Defeat the powerful guardian of the Sceptre.
+    location: The inner sanctum of the temple.
+    objective: Obtain the Sceptre of Light.
+    order: 3
+  title: The Quest for the Sceptre of Light
+```

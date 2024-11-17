@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Find the Lost Scepter",
+    "objective": "Locate and retrieve the lost scepter of the ancient king.",
+    "description": "The lost scepter is said to hold great power and is believed to be hidden somewhere in the Forgotten Ruins. Legend has it that the scepter can only be wielded by those of royal blood.",
+    "reward": "The lost scepter and a reputation boost.",
+    "quest-giver": "High King Harald",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Forgotten Ruins.",
+          "description": "The Forgotten Ruins are located deep within the Cursed Forest. Be wary of the dangerous creatures that lurk within.",
+          "location": "Cursed Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Locate the secret entrance to the catacombs.",
+          "description": "The scepter is said to be hidden within the catacombs beneath the Forgotten Ruins. The entrance is well-guarded near the entrance of the ruins.",
+          "location": "Secret Entrance, Forgotten Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardians of the catacombs.",
+          "description": "The catacombs are guarded by powerful creatures.\u6218\u80dc\u5b88\u536b\u540e\u5728\u5730\u7262\u6df1\u5904\u627e\u5230\u5931\u4f20\u7684\u6743\u6756\u3002",
+          "location": "Catacombs"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the lost scepter.",
+          "description": "Once you have defeated the guardians, retrieve the lost scepter from its resting place within the catacombs.",
+          "location": "Catacombs"
+        },
+        {
+          "order": "5",
+          "objective": "Return the lost scepter to High King Harald.",
+          "description": "Bring the scepter back to the castle and present it to High King Harald in his audience chamber.",
+          "location": "Castle, Audience Chamber"
+        }
+      ]
+    }
+  }
+}

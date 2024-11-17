@@ -1,0 +1,14 @@
+The issue in the original YAML data is that there's an extra colon after the `speaker` key in the second dialogue. Here's the corrected YAML:
+
+```yaml
+game:
+  dialogues:
+   - order: 1
+     speaker: player
+     text: "Hey there, how are you?"
+   - order: 2
+     speaker: NPC
+     text: "I'm very well, it's a pleasure to meet you."
+```
+
+The YAML is now in correct syntax.

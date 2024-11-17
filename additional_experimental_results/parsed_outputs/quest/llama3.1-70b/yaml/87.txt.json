@@ -1,0 +1,37 @@
+{
+  "game": {
+    "description": "The village of Oakwood has been plagued by a series of mysterious disappearances. The villagers are terrified and do not know what is happening to their loved ones.",
+    "id": "QST001",
+    "objective": "Investigate the disappearances in Oakwood and put an end to whatever evil force is behind them.",
+    "quest_giver": "Thorne Blackwood, Village Elder",
+    "reward": {
+      "experience_points": 1000,
+      "gold": 500,
+      "item": {
+        "name": "Amulet of Protection",
+        "type": "necklace"
+      }
+    },
+    "tasks": [
+      {
+        "description": "Speak with the villagers to gather information about the disappearances.",
+        "location": "Oakwood Village",
+        "objective": "Gather 3 clues about the disappearances.",
+        "order": 1
+      },
+      {
+        "description": "Investigate the old mine on the outskirts of the village, where several of the disappeared villagers were last seen.",
+        "location": "Old Mine",
+        "objective": "Find any signs of what happened to the villagers.",
+        "order": 2
+      },
+      {
+        "description": "Face whatever evil force is behind the disappearances and put an end to it.",
+        "location": "The Heart of Darkness",
+        "objective": "Defeat the mastermind behind the disappearances.",
+        "order": 3
+      }
+    ],
+    "title": "The Disappearances of Oakwood"
+  }
+}

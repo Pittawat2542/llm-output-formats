@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "id",
+    "title": "A Test Quest",
+    "objective": "Defeat the Giant",
+    "description": "The villagers are being terrorized by a giant. Travel to the forest and defeat him.",
+    "reward": "10 Gold, Experience",
+    "quest-giver": "Grimmoire the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to Grimmoire the Wise at the Village Square.",
+          "description": "Grimmoire will provide more information on the giant and his location.",
+          "location": "Village Square"
+        },
+        {
+          "order": "2",
+          "objective": "Travel to the Forest of Shadows.",
+          "description": "The forest is located to the north of the village.",
+          "location": "North of the Village"
+        },
+        {
+          "order": "3",
+          "objective": "Find and defeat the Giant in the forest.",
+          "description": "The giant is a powerful foe. Bring some allies or powerful weapons to aid you.",
+          "location": "Deep within the Forest of Shadows"
+        }
+      ]
+    }
+  }
+}

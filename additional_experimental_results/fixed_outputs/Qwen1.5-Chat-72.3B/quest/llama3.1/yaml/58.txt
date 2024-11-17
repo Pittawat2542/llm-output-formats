@@ -1,0 +1,22 @@
+```yaml
+game:
+  title: Quest for the Scroll of Eldarath
+  description: Retrieve the ancient Scroll of Eldarath, hidden within the long-abandoned Elven ruins of Elvanar.
+  id: Q001
+  objective: Uncover the secrets of the scroll and bring it back to the wise wizard, Eriol.
+  quest_giver: Eriol, Wizard of the White Tower
+  reward: A +2 Longsword and 100 gold pieces
+  tasks:
+   - description: Find the entrance to Elvanar
+     location: The ancient forest of Elvendom
+     objective: Locate the hidden path leading to the ruins.
+     order: 1
+   - description: Navigate the treacherous traps within Elvanar
+     location: Inside the Elven ruins of Elvanar
+     objective: Disable the deadly traps set by the Elven architects.
+     order: 2
+   - description: Retrieve the Scroll of Eldarath
+     location: The inner sanctum of Elvanar
+     objective: Obtain the ancient scroll without triggering any additional traps or alarms.
+     order: 3
+```

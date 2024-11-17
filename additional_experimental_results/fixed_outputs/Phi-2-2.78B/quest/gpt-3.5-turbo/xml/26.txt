@@ -1,0 +1,31 @@
+```xml
+<game>
+    <id>123456</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the ancient artifact</objective>
+    <description>Long ago, a powerful artifact was lost deep within the ancient ruins. Your quest is to find and retrieve this artifact, for it holds the key to saving our world from impending doom.</description>
+    <reward>500 gold coins and a legendary weapon</reward>
+    <quest-giver>Master Yoda</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the entrance to the ruins</objective>
+            <description>The entrance to the ancient ruins is said to be hidden in the nearby forest. Search for clues and follow the path that leads you to the entrance.</description>
+            <location>Nearby forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Decode the riddle of the guardians</objective>
+            <description>Deep within the ruins, you will encounter guardians that protect the artifact. Solve their riddle to gain access to the next chamber.</description>
+            <location>Ancient ruins</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the ancient guardian</objective>
+            <description>The ancient artifact is guarded by a powerful guardian. Prepare yourself for a fierce battle and defeat the guardian to claim the artifact.</description>
+            <location>Ancient ruins - Final Chamber</location>
+        </task>
+    </tasks>
+</game>
+```
+

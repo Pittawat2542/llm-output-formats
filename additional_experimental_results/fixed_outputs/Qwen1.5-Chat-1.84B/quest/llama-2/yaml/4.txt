@@ -1,0 +1,27 @@
+The YAML data has been fixed as follows:
+```
+game:
+  description: A quest to find the lost treasure
+  id: 1234
+  objective: Find the lost treasure
+  quest_giver: The King
+  reward: 100 gold
+  tasks:
+  - title: The Lost Treasure
+     - description: Find the location of the lost treasure
+       - location: The Lost City
+         - objective: Find the location of the lost treasure
+           - order: 1
+       - reward: 50 experience
+     - description: Find the location of the lost treasure
+       - location: The Lost City
+         - objective: Find the location of the lost treasure
+           - order: 2
+       - reward: 75 experience
+     - description: Find the location of the lost treasure
+       - location: The Lost City
+         - objective: Find the location of the lost treasure
+           - order: 3
+       - reward: 100 experience
+  title: The Lost Treasure
+```

@@ -1,0 +1,17 @@
+ YAML error: incorrect_syntax
+Original message:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+Invalid YAML data:
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```

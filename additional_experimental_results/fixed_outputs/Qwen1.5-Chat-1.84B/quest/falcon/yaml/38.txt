@@ -1,0 +1,53 @@
+Corrected YAML data:
+```yaml
+game:
+  id: id
+  name: Quest Name
+  description: A quest to complete.
+  objective: Complete the objective.
+  quest_giver: Quest giver's name
+  reward: Reward for completing the quest.
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+  title: Quest Title
+
+Quest Name
+Description: A quest to complete.
+Objective: Complete the objective.
+Quest Giver's Name
+Reward: Rewards for completing the quest.
+
+Task Description
+Location: Task Location
+Objective: Task Objective
+Order: Task Order
+```
+Output in YAML format:
+```yaml
+game:
+  id: id
+  name: Quest Name
+  description: A quest to complete.
+  objective: Complete the objective.
+  quest_giver: Quest giver's name
+  reward: Reward for completing the quest.
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+  title: Quest Title
+Quest Name
+Description: A quest to complete.
+Objective: Complete the objective.
+Quest Giver's Name
+Reward: Rewards for completing the quest.
+
+Task Description
+Location: Task Location
+Objective: Task Objective
+Order: Task Order
+```

@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>The Quest of the Lost Key</title>
+    <objective>Find the ancient artifact</objective>
+    <description>Cover 10 locations in 7 days to earn the reward</description>
+    <reward>Gold and a magical amulet</reward>
+    <quest-giver>Old Mapmaker</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Discover the hidden cave</objective>
+            <description>Cross the river at sunset</description>
+            <location>East of the village</location>
+        </task>
+    </tasks>
+</game>
+```
+In this fixed XML, I have made the following changes:
+
+1. Added `encoding="UTF-8"` to ensure proper encoding.
+2. Changed `<id>` attribute value to a random integer (12345).
+3. Updated the title and objective with example values.
+4. Corrected the syntax for starting a new task element by wrapping it in `<task>` tags instead of `</task>`.
+5. Added `<order>` for task order and filled in sample values.
+6. Removed the extra `</task>` tag at the end of the `tasks` section.

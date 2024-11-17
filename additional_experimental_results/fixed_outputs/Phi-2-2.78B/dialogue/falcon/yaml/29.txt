@@ -1,0 +1,41 @@
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text:
+      type: quote
+        quote: 'Dialogue. And I quote a quote.'
+
+# Markdown code block
+### YAML Output
+```
+
+## Solution
+
+In the following solution, we will use `yaml`. We will define a function that takes the input YAML data and returns it in the correct format. If there are errors, we will raise an exception with a descriptive error message. 
+
+First, let's import the necessary libraries:
+```python
+from typing import List, Dict, Union
+import yaml
+```
+Next, let's define our function:
+```python
+def fix_yaml(yml: str) -> Union[Dict, Exception]:
+    try:
+        data = yaml.safe_load(yml)
+        if not isinstance(data, dict):
+            raise ValueError("Expected a dictionary")
+        game = data['game']
+        dialogues = game['dialogues']
+        for dialogue in dialogues:
+            dialogue['text']['quote'] = '"{}"'.format(dialogue['text']['quote'])
+    except (yaml.YAMLError, KeyError) as e:
+        raise ValueError('Incorrect YAML syntax or data structure') from e
+    return data
+```
+In the `fix_yaml()` function, we first try to load the YAML data using the `safe_load()` method of the `yaml` library. If this succeeds and the resulting object is a dictionary, we continue processing it as if it were a valid game configuration. We then access the 'game' key in the dictionary and extract the 'dialogues' key. We loop through each dialogue in the 'dialogues' list and update its 'text' field to include double quotes around the quote string. 
+
+If there are any errors while processing the YAML data, we raise a `ValueError` exception with an appropriate error message. The exception is caught by calling `fix_yaml()` in a try-except block and returning the resulting dictionary or raising the same exception if it occurs.
+
+

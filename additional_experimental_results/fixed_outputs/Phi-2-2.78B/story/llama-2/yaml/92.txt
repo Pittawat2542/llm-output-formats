@@ -1,0 +1,102 @@
+1. ```yaml
+game:
+  beginning: The beginning of the game
+  ending: The ending of the game
+  synopsis: Game story synopsis
+  title: Game Title
+```
+
+        2. ```yaml
+      book:
+      - title: My book
+      - author: John Doe
+```
+
+        3. ```yaml
+        user:
+            name: Jack
+            age: 25
+```
+
+        4. ```yaml
+          items:
+            - apple: 1
+            - banana: 2
+            - orange: 3
+```
+
+        5. ```yaml
+        numbers:
+            [
+              1, 
+              2, 
+              3, 
+              4, 
+              5
+            ]
+```
+
+    6. ```yaml
+        users:
+          - name: John
+              age: 30
+```
+
+Fixed:
+### Response:
+```yaml
+numbers:
+    [1, 2, 3, 4, 5]
+```
+
+7. ```yaml
+      user_info:
+        name: Jack
+        email: jack@example.com
+        age: 25
+```
+
+    8. ```yaml
+       users:
+         - name: John
+            age: 30
+           gender: male
+```
+
+    9. ```yaml
+      employees:
+         - name: Jack
+            email: jack@example.com
+            phone: (123) 456-7890
+            salary: 50000
+```
+
+        10. ```yaml
+          books:
+            - title: "The Great Gatsby"
+              author: "F. Scott Fitzgerald"
+              year_published: 1925
+              rating: 4.5
+```
+
+    11. ```yaml
+        users:
+         - name: John
+           age: 30
+```
+
+Fixed:
+### Response:
+```yaml
+books:
+    [
+      {
+        'title': 'The Great Gatsby',
+        'author': 'F. Scott Fitzgerald',
+        'year_published': 1925,
+        'rating': 4.5
+      }
+    ]
+```
+
+

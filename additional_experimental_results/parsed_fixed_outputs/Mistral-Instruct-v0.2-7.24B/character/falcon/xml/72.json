@@ -1,0 +1,46 @@
+{
+  "game": {
+    "character": [
+      {
+        "@id": "John",
+        "first-name": "Alex",
+        "last-name": "Doe",
+        "species": "person",
+        "age": "25",
+        "place-of-birth": "USA",
+        "physical-appearance": {
+          "eye-color": "brown",
+          "hair-color": "brown",
+          "height": "6'0\"",
+          "weight": "150 lbs"
+        },
+        "position": "center position in basketball team",
+        "play-byplay": "Person in blue shirt with blue eye glasses",
+        "characters": {
+          "character": {
+            "@id": "John",
+            "first-name": "Alex",
+            "last-name": "Doe",
+            "species": "person",
+            "age": "25",
+            "place-of-birth": "USA",
+            "physical-appearance": {
+              "eye-color": "brown",
+              "hair-color": "brown",
+              "height": "6'0\"",
+              "weight": "150 lbs"
+            }
+          }
+        }
+      },
+      {
+        "@id": "Jahnik",
+        "first-name": "Alex",
+        "last-name": "Doe",
+        "species": "person",
+        "age": "25",
+        "place-of-birth": "USA"
+      }
+    ]
+  }
+}

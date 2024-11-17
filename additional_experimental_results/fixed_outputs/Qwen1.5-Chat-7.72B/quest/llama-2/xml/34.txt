@@ -1,0 +1,20 @@
+```
+<?xml version="1.0"?> 
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Challenge the Dragon</objective>
+    <description>A heroic quest to slay the beast</description>
+    <reward>Valuable treasure and glory</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the dragon's lair</objective>
+            <description>Cave exploration required</description>
+            <location>Dragon's Keep</location>
+        </task>
+    </tasks>
+</game>
+```
+The XML code has been corrected with new values for `<id>`, `<title>`, `<objective>`, and `<quest-giver>` elements. The task order, objective, description, and location have also been provided for the first task. No syntax errors are present now.

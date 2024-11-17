@@ -1,0 +1,11 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Title of the Game</title>
+	<synopsis>Game Synopsis</synopsis>
+	<beginning>Start of the game</beginning>
+	<ending>End of the game</ending>
+</game>
+```
+
+The original XML was missing the opening ```<?xml version="1.0" ?>``` declaration and the closing ```</game>``` tag. It has been corrected in the provided code block.

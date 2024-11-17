@@ -1,0 +1,29 @@
+
+"""
+yarn fixed
+
+---
+
+# Test: yarn.py
+
+game:
+    description: quest description
+    id: 1
+    objective: kill the dragon
+    quest_giver: the king
+    reward: gold
+    tasks:
+        - description: Kill the dragon
+            location: The forest
+            objective: Kill the dragon
+            order: 1
+        - description: Find the dragon
+            location: The cave
+            objective: Find the dragon
+            order: 2
+        - description: Talk to the dragon
+            location: The mountain
+            objective: Talk to the dragon
+            order: 3
+title: Dragon slayer
+"""

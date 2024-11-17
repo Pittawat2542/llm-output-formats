@@ -1,0 +1,151 @@
+
+<?xml version="1.0" ?>
+<game>
+	<id>1234567890</id>
+	<title>The quest of the lost treasure</title>
+	<objective>Find the lost treasure</objective>
+	<description>You will have to find the lost treasure in the old castle.</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the old castle</objective>
+			<description>You will have to find the old castle and enter it.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>6</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>7</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+
+### Example 9
+
+```
+
+Fixed:
+### Response:
+
+<?xml version="1.0" ?>
+<game>
+	<id>1234567890</id>
+	<title>The quest of the lost treasure</title>
+	<objective>Find the lost treasure</objective>
+	<description>You will have to find the lost treasure in the old castle.</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the old castle</objective>
+			<description>You will have to find the old castle and enter it.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>6</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+		<task>
+			<order>7</order>
+			<objective>Find the lost treasure</objective>
+			<description>You will have to find the lost treasure in the old castle.</description>
+			<location>The old castle</location>
+		</task>
+	</tasks>
+</game>
+```
+
+
+### Example 10
+
+```
+
+Fixed:
+### Response:
+
+<?xml version="1.0" ?>
+<game>
+	<id>1234567890</id>
+	<title>The quest of the lost treasure</title>
+	<objective>Find the lost treasure</objective>
+	<description>You will have to find the lost treasure and bring it back to the king.</description>
+	<reward>1000 gold</reward>
+	<quest-giver>The king's castle</quest-giver>
+	<quest-status>Pending</quest-status>
+	<quests>
+		<task>
+			<order>1</order>
+			<description>Find the key to the dungeon</description>
+			<location>Behind the statue in the courtyard</location>
+		</task>
+		<task>
+			<order>2</order>
+			<description>Open the chest in the secret room</description>
+			<location>In the library</location>
+		</task>
+	</quests>
+</game>
+```
+

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Dragon's Treasure",
+    "objective": "Find the dragon's treasure",
+    "description": "The dragon has been terrorizing the village for years. It is said that it has a vast treasure hidden in its lair. The villagers have hired you to find the treasure and slay the dragon.",
+    "reward": "500 gold pieces, a magic sword, and the dragon's hoard",
+    "quest-giver": "Mayor of the village",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the dragon's lair",
+          "description": "The dragon's lair is located in the mountains to the north of the village.",
+          "location": "Mountains to the north of the village"
+        },
+        {
+          "order": "2",
+          "objective": "Slay the dragon",
+          "description": "The dragon is a powerful creature. Be sure to come prepared.",
+          "location": "Dragon's lair"
+        },
+        {
+          "order": "3",
+          "objective": "Find and claim the dragon's treasure",
+          "description": "The dragon's treasure is hidden in a secret chamber within the lair.",
+          "location": "Secret chamber within the dragon's lair"
+        }
+      ]
+    }
+  }
+}

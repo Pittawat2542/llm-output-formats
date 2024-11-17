@@ -1,0 +1,23 @@
+```yaml
+game: 
+  dialogues: 
+   - order: dialogue order
+    speaker: Speaker name
+    text: Dialogue or narration
+```
+
+Output in Markdown format:
+```markdown
+Game: dialogue
+order: 1
+Speaker: Narrator
+text: In a world where magic has disappeared, the land is plagued by darkness and destruction. I've had enough of running. It's time we took a stand against the forces that have ravaged our home.
+order: 2
+ Speaker: Eira
+text: I've had enough of running. It' s time we took a stand against the forces that have ravaged our home. But Eira, we're no match for the dark sorcerer' s army. We need to gather more allies before we can hope to defeat him.
+order: 3
+Speaker: Arin
+text: But Eira, we're no match for the dark sorcerer' s army. We need to gather more allies before we can hope to defeat him. I've heard rumors of a secret group of rebels hiding in the nearby forest. If we can find them, maybe they'll be willing to join our cause.
+Order: 4
+Speaker: Eira
+text: I've heard rumors of a secret group of rebels hiding in the nearby forest. If we can find them, maybe they'll be willing to join our cause.

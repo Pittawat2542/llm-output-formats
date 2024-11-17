@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>Quest Adventure</title>
+    <objective>Find the ancient artifact</objective>
+    <description>Uncover a hidden treasure in the forest</description>
+    <reward>Gold and a rare potion</reward>
+    <quest-giver>Old Sage</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Investigate the nearby cave</objective>
+            <description>Examine the entrance for clues</description>
+            <location>Cave of Mystery</location>
+        </task>
+    </tasks>
+</game>
+```

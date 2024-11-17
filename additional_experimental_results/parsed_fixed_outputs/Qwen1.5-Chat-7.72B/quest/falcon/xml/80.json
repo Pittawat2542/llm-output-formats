@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest Adventure",
+    "objective": "Find the Ancient Artifact",
+    "description": "A journey to\u6551\u516c\u4e3b awaits!",
+    "reward": "Gold and a mystical amulet",
+    "quest-giver": "King Richard",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Explore Forest East",
+          "description": "Follow the map to the entrance",
+          "location": "Forest East Gate"
+        },
+        {
+          "@order": "2",
+          "objective": "Defeat Goblin Bandit",
+          "description": "A dangerous encounter awaits!",
+          "location": "Troll's Den"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>123456</id>
+  <title>The Lost Treasure</title>
+  <objective>Find the hidden treasure</objective>
+  <description>In this quest, you will embark on an exciting adventure to find the legendary lost treasure. Many have tried and failed, but it's up to you to uncover its secrets. Are you ready?</description>
+  <reward>10,000 gold coins</reward>
+  <quest-giver>Captain Blackbeard</quest-giver>
+  <tasks>
+  	<task>
+      <order>1</order>
+      <objective>Obtain a treasure map from the old lighthouse</objective>
+      <description>Your first task is to navigate your way to the old lighthouse. There, you will find an old sailor who possesses a map that can guide you to the treasure's location.</description>
+      <location>The old lighthouse on Blackbeard Island</location>
+    </task>
+  	<task>
+      <order>2</order>
+      <objective>Retrieve the key from the sunken ship</objective>
+      <description>The second task requires you to dive into the depths of the ocean and locate the sunken ship. Inside, you will find a key that is crucial to unlocking the treasure's chamber.</description>
+      <location>The depths of the ocean near Blackbeard Island</location>
+    </task>
+  	<task>
+      <order>3</order>
+      <objective>Solve the riddle to enter the treasure's chamber</objective>
+      <description>Once you have the key, you must decipher a riddle that will grant you access to the treasure's chamber. Use your wit and intellect to solve this ancient puzzle.</description>
+      <location>The entrance to the treasure's chamber</location>
+    </task>
+	<task>
+      <order>4</order>
+      <objective>Locate the hidden cave where the treasure is kept</objective>
+      <description>The final task requires you to use your map and key to navigate to the hidden cave on Blackbeard Island. Once inside, you will find the legendary lost treasure.</description>
+      <location>The entrance to the hidden cave on Blackbeard Island</location>
+    </task>
+	<task>
+      <order>5</order>
+      <objective>Share your findings with Captain Blackbeard</objective>
+      <description>After retrieving the treasure, you must share its location with Captain Blackbeard. This will earn you his respect and gratitude.</description>
+      <location>Captain Blackbeard's ship</location>
+    </task>
+	<task>
+      <order>6</order>
+      <objective>Return the treasure to its rightful place</objective>
+      <description>Before you can leave, it's important to return the treasure to its rightful place. This will ensure that it remains protected and preserved for future generations.</description>
+      <location>The hidden cave on Blackbeard Island</location>
+    </task>
+	<task>
+      <order>7</order>
+      <objective>Rest and celebrate your victory</objective>
+      <description>Congratulations! You have completed the quest and found the legendary lost treasure. Now it's time to rest and celebrate your well-deserved victory.</description>
+      <location>The captain's quarters on Captain Blackbeard's ship</location>
+    </task>
+	<task>
+      <order>8</order>
+      <objective>Return to the surface and return to your daily life</objective>
+      <description>As with any great adventure, it's time to return to the surface and return to your daily life. Take the treasure with you as a reminder of your incredible journey.</description>
+      <location>The surface</location>
+	</tasks>
+</game>
+```

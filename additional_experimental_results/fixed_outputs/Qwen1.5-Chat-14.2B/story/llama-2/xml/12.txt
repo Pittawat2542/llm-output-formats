@@ -1,0 +1,18 @@
+Here's the corrected XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<title>Super Mario Bros.</title>
+	<synopsis>The player controls Mario, who must save Princess Peach from Bowser, the king of the Koopas, in this classic side-scrolling platform game.</synopsis>
+	<beginning>The game begins with Mario being kidnapped by Bowser, who takes him to his castle.</beginning>
+	<ending>Mario saves Princess Peach from Bowser and they live happily ever after.</ending>
+</game>
+```
+
+The issues were:
+1. The XML declaration had a missing `encoding` attribute (set to "UTF-8").
+2. The `<synopsis>` tag was not closed properly.
+3. There was an extra `/` before the opening angle bracket of the `<beginning>` tag and another one after it, which has been removed.
+
+Now everything is in correct XML syntax.

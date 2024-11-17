@@ -1,0 +1,27 @@
+```
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue order="5">
+            <speaker>NPC</speaker>
+            <text>A moment, I need to check something.</text>
+        </dialogue>
+        
+        <dialogue order="6">
+            <speaker>Player</speaker>
+            <text>No problem. Take your time.</text>
+        </dialogue>
+        
+        <!-- Corrected dialogue for speaker "NPC" and added new dialogue -->
+        <dialogue order="7">
+            <speaker>NPC</speaker>
+            <text>Thank you. Here's a quest for you, if you're interested.</text>
+        </dialogue>
+        
+        <dialogue order="8">
+            <speaker>Player</speaker>
+            <text>Definitely! I'm always up for quests.</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

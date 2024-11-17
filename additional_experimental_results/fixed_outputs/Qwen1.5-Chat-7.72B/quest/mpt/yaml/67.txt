@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "Quest Description for the Adventure"
+  id: 12345678-90ABCDEF-DCBA-1234-567890123456
+  objective: "Complete the quest to save the kingdom"
+  quest_giver: "The Wise Oracle"
+  reward: "Valuable treasure and bragging rights"
+  tasks:
+    - description: "Examine the ancient statue by the海边"
+      location: "St. Ives Harbour"
+      objective: "Uncover the hidden clue"
+      order: 1
+    - title: "Deliver the amulet to the castle"
+      description: "Secure the artifact and deliver it to its rightful place"
+      location: "Castle Town"
+      order: 3
+```
+The YAML data has been corrected. The descriptions, objectives, quest giver, reward, and task details are now provided as strings with proper indentation and formatting. A new ID has been generated for the game object since the original one was invalid.

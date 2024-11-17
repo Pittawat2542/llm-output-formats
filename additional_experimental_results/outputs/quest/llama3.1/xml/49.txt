@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifacts from the lost temple.</objective>
+	<description>The temple has been sealed for centuries, but recent earthquakes have caused it to collapse. Retrieve the three ancient artifacts before the temple falls further and becomes inaccessible.</description>
+	<reward>100 gold, 50 experience points</reward>
+	<quest-giver>Gilbert the Guide</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the temple through the eastern entrance.</objective>
+			<description>Climb over the rubble and enter the temple through the main entrance. Be careful of falling rocks and traps.</description>
+			<location>The Lost Temple, Eastern Entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the Golden Chalice from the first floor.</objective>
+			<description>Head to the first floor and search for a pedestal with a golden chalice. Bring it back to Gilbert the Guide.</description>
+			<location>The Lost Temple, First Floor</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient scroll from the second floor.</objective>
+			<description>Head to the second floor and search for a chest containing an ancient scroll. Bring it back to Gilbert the Guide.</description>
+			<location>The Lost Temple, Second Floor</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,27 @@
+game:
+  enemy:
+   description: The root of the result is not a dictionary.
+   id: id
+   name: name
+   stats:
+   atk: atk int value
+   def: def int value
+   hp: hp int value
+   mp: mp int value
+   spd: spd int value
+
+Output:
+```yaml
+enemy | game | enemy | <description> | <name> | <stats>
+enemy = | = | = description | = name | = stats | enemy =
+
+
+<enemy stats stat_value="<stats>"">
+    description = <enemy description>
+</enemy>
+
+
+```
+
+
+

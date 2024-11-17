@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+
+# Replace the incorrect 'objectives' mapping with a list of objectives
+- description: YAML output for query info
+  description: "This is a description with a YAML code block that only contains 'name='some name'' in it."
+  objectives:
+    - name: "Objective one"
+      location: "Location of objective one"
+      objective: "Objective one objective"
+    - name: "Another objective"
+      location: "Location of another objective"
+      objective: "Another objective objective"
+```

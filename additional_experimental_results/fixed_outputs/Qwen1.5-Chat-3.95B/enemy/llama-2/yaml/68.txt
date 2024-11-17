@@ -1,0 +1,16 @@
+Error: YAML Syntax Error
+Invalid YAML Data
+The original message is provided between ```yaml and ```.
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```

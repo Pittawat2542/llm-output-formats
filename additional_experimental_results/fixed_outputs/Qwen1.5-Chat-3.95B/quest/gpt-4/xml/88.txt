@@ -1,0 +1,30 @@
+```xml
+<game>
+  <id>Q12345</id>
+  <title>The Lost Scrolls</title>
+  <objective>Find and retrieve the lost scrolls</objective>
+  <description>Ancient scrolls holding forbidden knowledge were stolen by the dark wizard. Locate the dark wizard's den, find the scrolls and return them to the High Mage.</description>
+  <reward>500 gold coins, High Mage's gratitude</reward>
+  <quest-giver>High Mage Erendil</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Locate the Dark Wizards Den</objective>
+      <description>Follow the trail of the dark magic to find the wizard's den. Be careful, as the way is full of traps and dark creatures.</description>
+      <location>Deadwood forest</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Retrieve the Scrolls</objective>
+      <description>Search for the stolen scrolls. You may need to fight the dark wizard or his minions. Do not let the scrolls fall into the wrong hands.</description>
+      <location>Dark Wizard's Den</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Return to High Mage Erendil</objective>
+      <description>With the scrolls in hand, make your way back to High Mage Erendil at the castle. Watch out for the dark wizard's minions who may be chasing you.</description>
+      <location>Castle of the High Mage</location>
+    </task>
+  </tasks>
+</game>
+```

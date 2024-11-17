@@ -1,0 +1,37 @@
+game:
+  dialogues:
+   - order: 1
+     speaker: Narrator
+     text: "Welcome to the land of Eldoria, a mystical realm of wonder and magic."
+   - order: 2
+     speaker: Eryndor Thorne
+     text: "I've been traveling these woods for hours. I hope I' m close to finding the ancient ruins."
+   - order: 3
+     speaker: Lila Moonwhisper
+     text: "Ah, a traveler! We don' 't often get strangers here. What brings you to our neck of the woods?"
+game:
+  dialogues:
+    - order: 1
+      speaker: Narrator
+      text: "Welcome to Eldoria, a mystical realm of wonder and magic."
+    - order: 2
+      speaker: Eryndor Thorne
+      text: "I'VE been traveling these woods for hours. I hope I'm close to finding the ancient ruins."
+    - order: 3
+      speaker: Lila Moonwhisper
+      text: "Ah, a traveler! We don't often get strangers here. What brings you to our neck of the woods?"
+|order| speaker| text|
+|---|---|---|
+```yaml
+ game:
+  dialogues:
+    - order: 1
+      speaker: Narrator
+      text: "Welcome to Eldoria, a mystical realm of wonder and magic."
+    - order: 2
+      speaker: Eryndor Thorne
+      text: "I'VE been traveling these woods for hours. I hope I'm close to finding the ancient ruins."
+    - order: 3
+      speaker: Lila Moonwhisper
+      text: "Ah, a traveler! We don't often get strangers here. What brings you to our neck of the woods?"
+```

@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient scrolls from the lost temple.</objective>
+	<description>The village elder has asked for your help in retrieving three ancient scrolls that are hidden within the long-abandoned temple on the outskirts of the forest. The scrolls hold the secrets of the village's ancient history, and are said to be hidden deep within the temple's treacherous traps and puzzles.</description>
+	<reward>200 gold coins and a magical amulet</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the temple's entrance maze.</objective>
+			<description>The entrance to the temple is hidden behind a waterfall. You must navigate through the misty cave system and solve the pressure plate puzzle to unlock the door.</description>
+			<location>Temple Entrance Maze</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the temple's guardian.</objective>
+			<description>The temple is guarded by a fearsome stone golem. You must use your wits and cunning to outmaneuver it and defeat it in combat.</description>
+			<location>Temple Guardian Room</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the first scroll.</objective>
+			<description>The first scroll is hidden within a treasure chest in the temple's library. You must solve the combination lock puzzle to access it.</description>
+			<location>Temple Library</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the second and third scrolls.</objective>
+			<description>The second and third scrolls are hidden within the temple's ancient ruins. You must navigate through the treacherous traps and puzzles to access them.</description>
+			<location>Treacherous Ruins</location>
+		</task>
+	</tasks>
+</game>
+```

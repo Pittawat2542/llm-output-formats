@@ -1,0 +1,17 @@
+```yaml
+game:
+  character:
+    name: John Doe
+    age: "30 years old" # or any other valid age description
+    first_name: John
+    last_name: Doe
+    physical_appearance:
+      eye_color: blue # or any other valid values
+      hair_color: brown # or any other valid values
+      height: 170.0 # or any valid height option in cm (5.10 ft = 178 cm)
+      weight: 90.7 # or any valid weight option in kg (200 lbs = 90.7 kg)
+    place_of_birth: Seattle, WA # specify location
+    role:
+      profession: Game Developer
+    species: Human # or any other valid species
+```

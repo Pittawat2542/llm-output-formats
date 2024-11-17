@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: A simple quest
+  id: 1
+  objective: Find the lost key.
+  quest_giver: The king
+  reward: A golden key
+  tasks:
+   - description: Retrieve the key from the chest in the garden
+        location: Garden Chest
+        objective: Deliver the key to the palace
+        order: 1
+   - description: Follow the guard to the secret passage
+        location: Castle Gate
+        objective: Find and pass through the secret passage
+        order: 2
+   - description: Return the key to the king for the reward
+        location: King's chambers
+        objective: Complete the quest and claim the reward
+        order: 3
+  title: Quest to Find the Lost Key
+```

@@ -1,0 +1,23 @@
+```json
+{
+    "game": {
+        "id": "G01",
+        "title": "The Lost Temple",
+        "objective": "Retrieve the ancient artifact from the lost temple",
+        "description": "The temple has been hidden for centuries, and many have attempted to retrieve its treasure. You are the chosen one to succeed where others have failed.",
+        "reward": "10 gold coins and a magical amulet",
+        "quest_giver": "The village elder",
+        "tasks": [{
+            "order": 1,
+            "objective": "Find the entrance to the lost temple",
+            "description": "Explore the surrounding jungle and find the hidden path leading to the temple",
+            "location": "Jungle of the Ancients"
+        }, {
+            "order": 2,
+            "objective": "Solve the puzzle of the ancient doors",
+            "description": "Use your wits to decipher the clues and unlock the doors",
+            "location": "The Lost Temple"
+        }]
+    }
+}
+```

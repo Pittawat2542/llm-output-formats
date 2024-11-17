@@ -1,0 +1,11 @@
+Here's the corrected YAML with proper indentation and no errors:
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue_order
+    speaker: speaker_name
+    text: dialogue_or_narration
+```
+
+This YAML defines a single item in the `dialogues` list, with the specified keys for order, speaker name, and text. The backticks around `/INST` have been removed as they don't seem to be part of the data.

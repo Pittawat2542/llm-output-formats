@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>The Dragon's Lair</title>
+    <objective>Defeat the dragon Smaug and retrieve the Arkenstone.</objective>
+    <description>The dragon Smaug has taken over the Lonely Mountain and is terrorizing the people of Erebor. You must go to the mountain and defeat Smaug to retrieve the Arkenstone, a powerful artifact that can restore the kingdom of Erebor.</description>
+    <reward>The Arkenstone and a share of the dragon's treasure.</reward>
+    <quest-giver>Thorin Oakenshield</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the Lonely Mountain.</objective>
+            <description>The Lonely Mountain is located in the north of Middle-earth. You can travel there by foot or by horse.</description>
+            <location>North of Middle-earth</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Finding the secret entrance to the dragon's lair - seek a key.</objective>
+            <description>The key is required to access the door. Look for it nearby or ask for assistance.</description>
+            <location>North side of the Lonely Mountain, near the entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat Smaug the dragon.</objective>
+            <description>Smaug is a formidable foe. Use策略 and your weapons to defeat him.</description>
+            <location>Dragon's lair</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Retrieve the Arkenstone and return it to Thorin Oakenshield.</objective>
+            <description>The Arkenstone can be found in Smaug's treasure hoard. Return it to its rightful place.</description>
+            <location>Heart of the dragon's lair, inside the lair</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,17 @@
+```xml
+<task order="1">>
+	<objective>Find the Wizard's magic wand</objective>
+	<description>You will need to find the Wizard's magic wand to complete your quest</description>
+	<location>The Wizard's house</location> />
+</task> > 
+
+# Rewards
+## Input
+```json
+"reward": "A magic wand"
+``` [/INST]
+
+## Output
+```xml
+<reward>A magic wand</reward> }
+```

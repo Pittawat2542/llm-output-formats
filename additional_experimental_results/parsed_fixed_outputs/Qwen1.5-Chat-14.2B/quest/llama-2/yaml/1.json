@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "A simple quest",
+    "id": 1,
+    "objective": "Find the lost key.",
+    "quest_giver": "The king",
+    "reward": "A golden key",
+    "tasks": [
+      {
+        "description": "Find the key.",
+        "location": "The castle",
+        "objective": "Find the key.",
+        "order": 1
+      },
+      {
+        "description": "Find the key.",
+        "location": "The castle",
+        "objective": "Find the key.",
+        "order": 2
+      }
+    ],
+    "title": "Find the lost key."
+  }
+}

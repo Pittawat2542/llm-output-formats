@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character id="1">
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <age>32</age>
+        <gender>Male</gender>
+        <species>Human</species>
+        <orientation>Not Specified</orientation>
+        <occupation>Software Engineer</occupation>
+        <background story="A brief backstory about John's upbringing and career"></background-story>
+        <place-of-birth>New York City</place-of-birth>
+        <physical-appearance>
+            <eye-color>Blue</eye-color>
+            <hair-color>Brown</hair-color>
+            <height>1.60米</height>
+            <weight>55 kg</weight>
+        </physical-appearance>
+    </character>
+</game>
+```

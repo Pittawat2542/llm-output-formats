@@ -1,0 +1,25 @@
+{
+  "game": {
+    "dialogues": {
+      "h2": [
+        "Dialog 1",
+        "Dialog 2",
+        "Dialog 3"
+      ],
+      "p": [
+        {
+          "@class": "dialogue",
+          "#text": "Order: dialogue order\n\t\t\t\tSpeakers: speaker name\n\t\t\t\ttext: dialogue or narration"
+        },
+        {
+          "@class": "dialogue",
+          "#text": "(Order: dialogue order)\n\t\t\t\tSpeakers: speaker name\n\t\t\t\ttext: dialogue or narration"
+        },
+        {
+          "@class": "dialogue",
+          "#text": "(Order: dialogue order)\n\t\t\t\tSpeakers: speaker name\n\t\t\t\ttext: dialogue or narration"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "qst-001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Find the ancient city of Eldarath and uncover its secrets.",
+    "description": "Rumors have been circulating about a lost city deep in the heart of the nearby forest. The city, known as Eldarath, is said to contain powerful artifacts and treasures beyond your wildest dreams. Your quest begins at the local tavern, where you'll meet a mysterious stranger who has information about the city's whereabouts.",
+    "reward": "A magical amulet granting resistance to fire, 100 gold pieces, and a boost in reputation among the locals",
+    "quest_giver": "Ralthor the Wanderer",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Speak with Ralthor at the tavern to gather information about Eldarath's location.",
+        "description": "Meet Ralthor at the local tavern and engage in conversation. He'll provide you with a cryptic map that supposedly leads to the lost city.",
+        "location": "The Red Griffin Tavern, Oakwood Village"
+      },
+      {
+        "order": "2",
+        "objective": "Follow the map to find the entrance of Eldarath.",
+        "description": "Use the map to navigate through the forest and find the hidden entrance of Eldarath. Be cautious of wild beasts and treacherous terrain.",
+        "location": "The nearby forest, near the old ruins"
+      },
+      {
+        "order": "3",
+        "objective": "Explore the city and uncover its secrets.",
+        "description": "Venture into the lost city and explore its ancient structures. Keep an eye out for hidden dangers, puzzles, and treasures.",
+        "location": "The Lost City of Eldarath"
+      }
+    ]
+  }
+}

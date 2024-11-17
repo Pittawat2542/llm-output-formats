@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123456789",
+    "title": "Quest for the Lost Treasure",
+    "objective": "Find and retrieve the ancient lost treasure from the depths of the jungle.",
+    "description": "In this quest, you'll journey through treacherous terrain and solve puzzles to locate the hidden treasure. Your ultimate goal is to bring it back to the quest giver.",
+    "reward": "1000 gold coins and a legendary artifact",
+    "quest-giver": "Gilgamesh, the Wise",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain the Jungle Map from the\u56fe\u4e66\u9986",
+          "description": "You'll need to search for the map that reveals the path through the jungle. It's said to be hidden within the old library.",
+          "location": "Old Library"
+        },
+        {
+          "order": "2",
+          "objective": "Pass the Guardian Statue puzzle",
+          "description": "In the heart of the jungle, you'll find a statue blocking your path. Solve its riddle to proceed.",
+          "location": "Jungle Statue Puzzle"
+        },
+        {
+          "order": "3",
+          "objective": "Recover the treasure from the Temple",
+          "description": "The final challenge lies within an ancient temple. Fight your way through and claim the lost treasure.",
+          "location": "Ancient Jungle Temple"
+        }
+      ]
+    }
+  }
+}

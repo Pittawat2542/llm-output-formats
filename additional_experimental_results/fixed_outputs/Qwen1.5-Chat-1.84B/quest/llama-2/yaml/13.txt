@@ -1,0 +1,115 @@
+## Fixed YAML Data
+
+### Input
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - task_name: Task 1
+     description: Description of Task 1
+     location: Location A
+     objective: Objective 1
+     order: Order 1
+   - task_name: Task 2
+     description: Description of Task 2
+     location: Location B
+     objective: Objective 2
+     order: Order 2
+   - task_name: Task 3
+     description: Description of Task 3
+     location: Location C
+     objective: Objective 3
+     order: Order 3
+   - task_name: Task 4
+     description: Description of Task 4
+     location: Location D
+     objective: Objective 4
+     order: Order 4
+   - task_name: Task 5
+     description: Description of Task 5
+     location: Location E
+     objective: Objective 5
+     order: Order 5
+   - task_name: Quest Title
+     description: Title of the Quest
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 1
+   - task_name: Task 6
+     description: Description of Task 6
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 2
+   - task_name: Task 7
+     description: Description of Task 7
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 3
+   - task_name: Task 8
+     description: Description of Task 8
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 4
+  title: Atlantis Quest
+```
+
+
+### Output:
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - task_name: Task 1
+     description: Description of Task 1
+     location: Location A
+     objective: Objective 1
+     order: Order 1
+   - task_name: Task 2
+     description: Description of Task 2
+     location: Location B
+     objective: Objective 2
+     order: Order 2
+   - task_name: Task 3
+     description: Description of Task 3
+     location: Location C
+     objective: Objective 3
+     order: Order 3
+   - task_name: Task 4
+     description: Description of Task 4
+     location: Location D
+     objective: Objective 4
+     order: Order 4
+   - task_name: Task 5
+     description: Description of Task 5
+     location: Location E
+     objective: Objective 5
+     order: Order 5
+   - task_name: Quest Title
+     description: Title of the Quest
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 1
+   - task_name: Task 6
+     description: Description of Task 6
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 2
+   - task_name: Task 7
+     description: Description of Task 7
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 3
+   - task_name: Task 8
+     description: Description of Task 8
+     location: The Lost City of Atlantis
+     objective: Find the lost city of Atlantis
+     order: 4
+```

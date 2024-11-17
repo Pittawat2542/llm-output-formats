@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id id="12345"></id>
+        <name>Pit Boss</name>
+        <description>A fierce enemy boss guarding the entrance to the pit.</description>
+        <stats>
+            <hp hpInt value="1000" mpmpInt value="500"atkatkInt value="100" defdefInt value="200" spdspdInt value="200"/>
+        </stats>
+        <enemy-class>
+            <class name="Death骑士"/>
+        </enemy-class>
+    </enemy>
+</game>
+```

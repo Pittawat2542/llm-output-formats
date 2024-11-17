@@ -1,0 +1,23 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the dark sorcerer, Malakar.
+  id: QST001
+  objective: Defeat Malakar and obtain the Sword of Light.
+  quest_giver: Sir Edward, Knight of the Realm
+  reward: 
+    experience: 1000
+    gold: 500
+    items:
+      - name: Sword of Light
+        type: sword
+  tasks:
+  - description: Journey to Malakar's fortress and gather information about his lair.
+    location: Dark Forest
+    objective: Gather information
+    order: 1
+  - description: Infiltrate Malakar's fortress and defeat the dark sorcerer.
+    location: Malakar's Fortress
+    objective: Defeat Malakar
+    order: 2
+  title: The Quest for the Sword of Light
+```

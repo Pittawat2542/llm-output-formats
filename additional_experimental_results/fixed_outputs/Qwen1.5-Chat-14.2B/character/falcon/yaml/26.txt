@@ -1,0 +1,16 @@
+```yaml
+game:
+  character:
+    age: "Born into a family of warriors, the character learned combat from a young age."
+    background: Born into a family of warriors, the character learned combat from a young age.
+    first_name: John
+    id: J.
+    last_name: Grayson
+    physical_appearance:
+      - eye_color: blue
+      - hair_color: brown
+      - height: 6.08333     # convert inches to decimal float (6 feet 2 inches)
+      - weight: 180.0       # convert pounds to decimal float (180 pounds)
+    place_of_birth: Seattle, WA
+    species: human
+```

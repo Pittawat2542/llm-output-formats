@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the lost artifact from the ancient ruins</objective>
+    <description>Travel to the ancient ruins and find the rumored lost artifact. Be wary of traps and potential adversaries along the way.</description>
+    <reward>5000 Gold and The Sword of Eternity</reward>
+    <quest-giver>Historian Jenkins</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the ancient ruins</objective>
+            <description>Use the provided map to navigate through the Heartfelt Forest and locate the ruins.</description>
+            <location>Heartfelt Forest</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Retrieve the artifact</objective>
+            <description>Search the ancient ruins and find the lost artifact. Be ready for any threats that may appear.</description>
+            <location>Ancient Ruins</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to Historian Jenkins</objective>
+            <description>Once you have retrieved the artifact, return to Oakshore Town to claim your reward.</description>
+            <location>Oakshore Town</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,98 @@
+{
+  "html": {
+    "head": {
+      "title": "Quest Game"
+    },
+    "body": {
+      "h1": "Quest Game",
+      "h2": {
+        "@id": "quest-giver",
+        "#text": "Quest Giver"
+      },
+      "table": [
+        {
+          "tr": [
+            {
+              "th": [
+                "Task",
+                "Order",
+                "Objective",
+                "Description",
+                "Location"
+              ]
+            },
+            {
+              "td": [
+                {
+                  "strong": "Quest"
+                },
+                {
+                  "p": "The Quest is a quest to find the treasure hidden in a cave."
+                },
+                {
+                  "p": "The objective is to retrieve the treasure and return it to its rightful owner."
+                },
+                {
+                  "p": "The description is a detailed quest that involves searching for clues, solving puzzles, and completing challenges."
+                },
+                {
+                  "p": "The location is described as a small cave deep in the forest."
+                }
+              ]
+            },
+            {
+              "td": [
+                {
+                  "strong": "Quest Giver"
+                },
+                {
+                  "p": "John Doe"
+                },
+                {
+                  "p": "The quest is a quest to find the treasure hidden in a cave."
+                },
+                {
+                  "p": "The objective is to retrieve the treasure and return it to its rightful owner."
+                },
+                {
+                  "p": "The description is a detailed quest that involves searching for clues, solving puzzles, and completing challenges."
+                },
+                {
+                  "p": "The location is described as a small cave deep in the forest."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tr": {
+            "th": [
+              "Task",
+              "Order",
+              "Objective",
+              "Description"
+            ],
+            "td": [
+              {
+                "strong": "Quest"
+              },
+              {
+                "p": "The Quest is a quest to find the treasure hidden in a cave."
+              },
+              {
+                "p": "The objective is to retrieve the treasure and return it to its rightful owner."
+              },
+              {
+                "p": "The description is a detailed quest that involves searching for clues, solving puzzles, and completing challenges."
+              },
+              {
+                "p": "The location is described as a small cave deep in the forest."
+              }
+            ]
+          }
+        }
+      ],
+      "p": "Here are some sample tasks:"
+    }
+  }
+}

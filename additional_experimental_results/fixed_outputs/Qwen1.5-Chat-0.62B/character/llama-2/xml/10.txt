@@ -1,0 +1,184 @@
+XML data:
+```xml
+<game>
+	<character>
+			<id>id</id>
+			<title>Player's Name</title>
+			<input type="number">Age</input>
+			<label for="age">Age</label>
+			<select id="role">
+				<option value="Character">Character</option>
+				<option value="Player">Player</option>
+			</select>
+			<div class="physical-appearance">
+				<img src="player的身体.jpg" alt="Player's physical appearance">
+				<p>身高: 180 cm</p>
+				<p>体重: 50 kg</p>
+			</div>
+		</character>
+		<character>
+			<title>Student Name</title>
+			<input type="number">Grade</input>
+			<label for="grade">Grade</label>
+			<select id="role">
+				<option value="Student">Student</option>
+				<option value="Teacher">Teacher</option>
+			</select>
+			<div class="physical-appearance">
+				<img src="student的身体.jpg" alt="Student's physical appearance">
+				<p>身高: 178 cm</p>
+				<p>体重: 45 kg</p>
+			</div>
+		</character>
+		<game>
+			<title>Game Title</title>
+			<input type="text">Game Description</input>
+			<label for="description">Game Description</label>
+			<select id="role">
+				<option value="Player">Player</option>
+				<option value="Teacher">Teacher</option>
+			</select>
+			<div class="physical-appearance">
+				<img src="game的身体.jpg" alt="Game's physical appearance">
+				<p>身高: 170 cm</p>
+				<p>体重: 45 kg</p>
+			</div>
+		</game>
+</game>
+```
+
+### Output in Markdown format:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game Title</title>
+	<input type="text" id="description">
+	<label for="description">Game Description</label>
+</head>
+<body>
+	<h1>Game Title</h1>
+	<p>Game Description</p>
+
+	<h2>Player's Name</h2>
+	<p>Player's First Name: <input type="number" id="first-name"><br><br></p>
+
+	<h2>Student Name</h2>
+	<p>Student's First Name: <input type="number" id="second-name"><br><br></p>
+
+	<h2>Game Title</h2>
+	<p>Game Description:</p>
+
+	<h3>Age</h3>
+	<select id="role">
+			<option value="Character">Character</option>
+			<option value="Player">Player</option>
+		</select>
+
+	<h3>Role</h3>
+	<select id="role" onchange="changeRole()">
+			<option value="Character">Character</option>
+			<option value="Player">Player</option>
+		</select>
+
+	<h3>Background</h3>
+	<p>Backstory: <input type="text" id="background"><br><br></p>
+
+	<h3>Place of Birth</h3>
+	<input type="text" id="place-of-birth"><br><br></p>
+
+	<h3>Physical Appearance</h3>
+	<img src="player的身体.jpg" alt="Player's physical appearance">
+	<p>身高: 180 cm</p>
+	<p>体重: 50 kg</p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h3>Backstory</h3>
+	<p>Background Story: <input type="text" id="background"><br><br></p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h2>Physical Appearance</h2>
+	<div class="physical-appearance">
+	<img src="player的身体.jpg" alt="Player's physical appearance">
+	<p>身高: 178 cm</p>
+	<p>体重: 45 kg</p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h2>Physical Appearance</h2>
+	<img src="game的身体.jpg" alt="Game's physical appearance">
+	<p>身高: 170 cm</p>
+	<p>体重: 45 kg</p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h3>Backstory</h3>
+	<p>Backstory: <input type="text" id="background"><br><br></p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h2>Physical Appearance</h2>
+	<div class="physical-appearance">
+	<img src="game的身体.jpg" alt="Game's physical appearance">
+	<p>身高: 170 cm</p>
+	<p>体重: 45 kg</p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h2>Backstory</h3>
+	<img src="player的身体.jpg" alt="Player's physical appearance">
+	<p>身高: 180 cm</p>
+	<p>体重: 50 kg</p>
+	<p>Image Source: <input type="image"> (Optional)</p>
+
+	<h2>Age</h2>
+	<select id="role">
+			<option value="Character">Character</option>
+			<option value="Player">Player</option>
+		</select>
+
+	<h2>Age</h2>
+	<label for="age">Age</label>
+		<input type="number" id="age"><br><br></p>
+
+	<h2>Role</h2>
+	<select id="role" onchange="changeRole()">
+			<option value="Character">Character</option>
+			<option value="Player">Player</option>
+		</select>
+
+	<h2>Role</h2>
+	<label for="role">Employee</label>
+		<input type="text" id="job_title"><br><br></p>
+
+	<h2>Job Title</h2>
+	<select id="role">
+			<option value="Employee">Employee</option>
+			<option value="Manager">Manager</option>
+		</select>
+
+	<h2>Job Title</h2>
+	<label for="job_title">Manager</label>
+		<input type="text" id="job_title"><br><br></p>
+
+	<h2>Teacher</h2>
+	<select id="role">
+			<option value="Student">Student</option>
+			<option value="Employee">Employee</option>
+		</select>
+
+	<h2>Teacher</h2>
+	<label for="teacher_name">Teacher's Name:</label>
+		<input type="text" id="teacher_name"><br><br></p>
+
+	<h2>Teacher's Name</h2>
+	<p>Teacher's First Name: <input type="number" id="teacher_first_name"><br><br></p>
+
+	<h2>Teacher's First Name:</h2>
+	<p>Teacher's Last Name: <input type="number" id="teacher_last_name"><br><br></p>
+
+	<h3>Student</h3>
+	<p>Student's First Name: <input type="number" id="student_first_name"><br><br></p>
+
+	<h3>Student's First Name:</h2>
+	<p>Student's Last Name: <input type="number" id="student_last_name"><br><br></p>
+</body>
+</html>
+```

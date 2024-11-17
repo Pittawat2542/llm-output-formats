@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+            <speaker>Main Character</speaker>
+            <text>I've been trapped in this castle for as long as I can remember.</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Guard</speaker>
+            <text>You shouldn't be here. This is a restricted area.</text>
+        </dialogue>
+        <dialogue>
+            <order>3</order>
+            <speaker>Main Character</speaker>
+            <text>I'm looking for the king. I have to warn him about the impending attack.</text>
+        </dialogue>
+        <dialogue>
+            <order>4</order>
+            <speaker>Guard</speaker>
+            <text>The king is not here right now. But you can speak with the advisor if you need assistance.</text>
+        </dialogue>
+        <dialogue>
+            <order>5</order>
+            <speaker>Main Character</speaker>
+            <text>Where can I find the advisor?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

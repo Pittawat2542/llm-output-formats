@@ -1,0 +1,94 @@
+Game Quest
+## Quest Information
+
+### Description
+The game quest is about retrieving an ancient forgotten temple located within a dark, misty forest. The objective is to introduce the player to the ancient, forgotten temple and complete various tasks to achieve success.
+
+#### ID
+The quest ID is `introduction-id`. This code block represents the value of the `id` field in YAML format with the correct syntax.
+
+### Objective
+The quest objective is to introduce the player to the ancient, forgotten temple. The required requirements for completing the quest are as follows:
+
+- **Successful ID**: `success-rate([%.0f]%).`
+This code block sets an optional `success_rate` parameter and assigns it a value of 50% (represented by `%0f%`). The `success-rate` is used to calculate the success rate based on the number of successful objectives completed. The percentage format ensures that the result is stored in a decimal and can be easily converted to a percentage using string formatting or a mathematical function.
+
+#### Giver
+The quest-giver is "quest-giver: guide". This code block represents the value of the `giver` field in YAML format with the correct syntax.
+
+### Reward
+The reward for completing the quest will be `player-gains-magic-item`. This code block sets an optional `reward` parameter and assigns it a value of 400 gold coins. The `reward` parameter is used to represent the monetary value of the reward received by the player when they complete the quest.
+
+#### Location
+The quest location is "quest-location: player's location". This code block represents the value of the `location` field in YAML format with the correct syntax.
+
+### Objectives
+The objectives for completing the quest include:
+
+- **Success checkout**: The player must successfully check out an item from an old shop located within the temple.
+- **Successful identification**: The player must identify a specific artifact or object within the temple.
+- **Successfully retrieve**: The player must successfully retrieve an ancient artifact or object from the temple's ruins.
+
+#### Order
+The order of the objectives for completing the quest is:
+
+- **Success checkout**: `objective: success-checkout`
+- **Successful identification**: `objective: successful-id`
+- **Successfully retrieve**: `objective: successfully-retrieve`
+
+### Tasks
+The tasks included in the quest to achieve these objectives are as follows:
+
+- **Success checkout**: The player must visit an old shop located within the temple and purchase a key or other essential item.
+- **Successful identification**: The player must identify a specific artifact or object that matches a certain description provided in the quest description.
+- **Successfully retrieve**: The player must locate and retrieve an ancient artifact or object from the temple's ruins.
+
+#### Rewards
+The rewards for completing these objectives include:
+
+- **400 gold coins**: A monetary reward of 400 gold coins. This code block sets an optional `reward` parameter and assigns it a value of 400 gold coins.
+
+By fixing the syntax and providing new values, the YAML data has been corrected to follow the correct structure for game quests in YAML format. The updated YAML data is presented in the following YAML code block:
+```yaml
+Game Quest
+## Quest Information
+
+### Description
+The game quest is about retrieving an ancient forgotten temple located within a dark, misty forest. The objective is to introduce the player to the ancient, forgotten temple and complete various tasks to achieve success.
+
+#### ID
+ID: `introduction-id`
+- Objective
+Objective 1: Introduce the player to the ancient, forgotten temple.
+Objective 2: Successfully check out an item from an old shop located within the temple.
+Objective 3: Successfully identify a specific artifact or object that matches a certain description provided in the quest description.
+Objective 4: Successfully retrieve an ancient artifact or object from the temple's ruins.
+
+#### Giver
+Giver: `quest-giver: guide`
+
+### Reward
+Reward: 400 gold coins
+
+#### Location
+Location: `quest-location: player's location`
+
+#### Objectives
+Objectives:
+- Success checkout
+    - Description: The player must successfully visit an old shop located within the temple and purchase a key or other essential item.
+    - Requirements: Successful ID | success rate [%.0f]%.
+
+- Successful identification
+    - Description: The player must identify a specific artifact or object that matches a certain description provided in the quest description.
+    - Requirements: Successful id | success rate [%.0f]%.
+
+- Successfully retrieve
+    - Description: The player must locate and retrieve an ancient artifact or object from the temple's ruins.
+    - Requirements: Successfully retrieve | success rate [%.0f]%.
+
+#### Rewards
+Rewards:
+- 400 gold coins
+
+By following the YAML format, the corrected data is now stored in a structured manner for game quests. The `id` field contains an ID for the quest, which can be referenced by other parts of the game's logic and assets. The objectives are organized into four distinct objectives with their respective requirements for success. The `giver` field specifies the role of the quest-giver who will provide guidance and resources throughout the quest. The reward parameter includes a monetary value that can be used in later game events or trade mechanics to incentivize completing the quest. Lastly, the location and objectives fields specify the specific locations and tasks required for successfully completing the quest, while the rewards field provides the monetary benefit of achieving each objective.

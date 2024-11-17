@@ -1,0 +1,26 @@
+{
+  "game": {
+    "character": {
+      "id": "123456",
+      "first-name": "John",
+      "last-name": "Doe",
+      "species": "Human",
+      "age": "30",
+      "role": "Protagonist",
+      "background": "John Doe is a skilled detective with a troubled past. He lost his family in a tragic incident and has been dedicated to solving crimes ever since.",
+      "place-of-birth": "New York City",
+      "physical-appearance": {
+        "eye-color": "Brown",
+        "hair-color": "Black",
+        "height": {
+          "@unit": "cm",
+          "#text": "180.0"
+        },
+        "weight": {
+          "@unit": "kg",
+          "#text": "72.0"
+        }
+      }
+    }
+  }
+}

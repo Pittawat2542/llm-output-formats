@@ -1,0 +1,44 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "enemy1",
+        "name": "enemy1",
+        "intname": "id1",
+        "stats": {
+          "hp": "10000",
+          "mp": "50000",
+          "atk": "1"
+        }
+      },
+      {
+        "id": "enemy2",
+        "name": "game2",
+        "intname": "id2",
+        "stats": {
+          "hp": "10000",
+          "mp": "50000",
+          "atk": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      },
+      {
+        "id": "game3",
+        "name": "enemy3",
+        "intname": "id3",
+        "stats": {
+          "hp": "10000",
+          "mp": "50000",
+          "atk": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      }
+    ]
+  }
+}

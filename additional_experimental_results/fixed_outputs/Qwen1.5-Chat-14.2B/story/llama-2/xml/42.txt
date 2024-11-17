@@ -1,0 +1,9 @@
+```xml
+<game xmlns="http://example.com/game">
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the ending of the game</ending>
+</game>
+```
+The original XML data was already well-formed, just missing a namespace declaration. I added `xmlns="http://example.com/game"` to indicate the XML schema namespace for clarity even though it's not required in this simple example.

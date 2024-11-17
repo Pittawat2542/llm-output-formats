@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>Q123</id>
+    <title>The Lost City of Eldarath</title>
+    <objective>Retrieve the ancient scroll from the lost city of Eldarath.</objective>
+    <description>You have been tasked with retrieving a powerful ancient scroll from the lost city of Eldarath, which is hidden deep within the jungle. The scroll holds the secrets of the ancient civilization that once thrived there and is said to grant immense power to its possessor.</description>
+    <reward>The ancient scroll, granting +10 intelligence and +5 magic resistance</reward>
+    <quest-giver>Gorvoth, the wise wizard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the lost city of Eldarath</objective>
+            <description>Navigate through the dense jungle, avoiding deadly traps and fierce creatures. Once you reach the entrance, solve a complex puzzle for entry.</description>
+            <location>The jungle, near the ancient ruins</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Solve the ancient puzzle</objective>
+            <description>In the entrance hall, study the stone door's patterns and symbols to unlock it through a series of presses.</description>
+            <location>The entrance hall of the lost city</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Retrieve the ancient scroll</objective>
+            <description>In the treasure chamber, defeat the guardian to claim the reward.</description>
+            <location>The treasure chamber of the lost city</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>c1234</id>
+        <first-name>Eira</first-name>
+        <last-name>Shadowglow</last-name>
+        <species>Half-Elf</species>
+        <age>250 years (appears to be in mid-30s)</age>
+        <role>Bounty Hunter/ Rogue</role>
+        <background>
+            Eira was born in Oakwood Village, located in the Silverleaf Kingdom, to a human father and an elven mother. She learned stealth and deception from her mother, who was a skilled spy. As a young adult, she honed her skills as a thief and assassin before embracing a life of bounty hunting to do good.
+        </background>
+        <place-of-birth>Oakwood Village, Silverleaf Kingdom</place-of-birth>
+        <physical-appearance>
+            <physically-appearing>
+                <eye-color>Emerald Green</eye-color>
+                <hair-color>Dark Brown with subtle red highlights</hair-color>
+                <height>1.78</height> <!-- Changed weight to 58 for a more realistic value -->
+                <weight>58</weight> <!-- Added weight in float value -->
+            </physically-appearing>
+        </physical-appearance>
+    </character>
+</game>
+```

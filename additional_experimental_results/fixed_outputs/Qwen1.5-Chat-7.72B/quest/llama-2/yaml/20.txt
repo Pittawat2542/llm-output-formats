@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "An epic adventure in a distant land."
+  id: 2468
+  objective: Conquer the ancient temple
+  quest_giver: Mysterious Guide
+  reward: Valuable artifacts and experience points
+  tasks:
+    - description: Discover hidden clues
+      location: Crypt of Secrets
+      objective: Unravel the map's enigma
+      order: 3
+    - description: Battle a treacherous dragon
+      location: Dragon's Den
+      objective: Defeat the guardian for the key
+      order: 2
+  title: The Quest to Find the Lost Temple
+```

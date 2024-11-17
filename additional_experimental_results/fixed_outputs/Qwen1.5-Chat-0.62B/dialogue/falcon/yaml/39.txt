@@ -1,0 +1,23 @@
+Here's the corrected YAML data:
+
+```
+<pre><code>{
+    &lt;!-- Outputs in YAML format with only the YAML in the Markdown code block. --&gt;
+    game:
+      dialogues:
+         - order: dialogue order
+          speaker: speaker name
+          text: dialogue or narration
+      </对话>
+}
+</code></pre>
+```
+
+The syntax has been corrected to include a colon (`:`) at the end of the `game` key, and a pair of parentheses `{}` around the `dialogues` key. The `order` key now contains a single value of `dialogue order`, which is defined as a string with the format `"dialogue order"`.
+
+The new values for `order` are:
+- `dialogue order: dialogue order`
+- ` Speaker name`
+- `Text: dialogue or narration`
+
+If there's anything wrong with this, please provide the original message between ```yaml and ``` so that I can make the necessary adjustments.

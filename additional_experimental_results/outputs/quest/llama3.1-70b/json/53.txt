@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "Rumors have been circulating about a long-abandoned temple deep in the forest, filled with ancient relics and mysterious energy. The village elder has asked for your help in retrieving an ancient artifact hidden within its walls.",
+    "reward": "A magical amulet granting resistance to elemental attacks and 1000 gold pieces",
+    "quest_giver": "Village Elder Thorne",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Explore the forest and locate the lost temple",
+        "description": "Venture into the heart of the Whispering Woods, following ancient ruins and worn paths. The temple is said to be hidden behind a waterfall.",
+        "location": "Whispering Woods, near the old oak tree"
+      },
+      {
+        "order": "2",
+        "objective": "Navigate the temple traps and puzzles",
+        "description": "Once inside, you'll need to avoid deadly traps and solve ancient puzzles to reach the artifact. Be cautious of pressure plates, spiky ceilings, and illusions.",
+        "location": "Inside the Lost Temple"
+      },
+      {
+        "order": "3",
+        "objective": "Defeat the temple guardian",
+        "description": "The artifact is guarded by a powerful entity. Prepare for battle and use your wits to defeat the guardian.",
+        "location": "Lost Temple, inner sanctum"
+      }
+    ]
+  }
+}
+```

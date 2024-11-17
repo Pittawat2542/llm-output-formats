@@ -1,0 +1,60 @@
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "Goblin_Soldier",
+            "name": "Goblin Soldier",
+            "description": "Weak goblin fighter, armed with a rusty sword.",
+            "stats": {
+                "hp": 100,
+                "mp": 0,
+                "atk": 15,
+                "def": 5,
+                "spd": 8
+            }
+        }
+    }
+}
+```
+
+or 
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "Goblin_Warlord",
+            "name": "Goblin Warlord",
+            "description": "Strong goblin leader, armed with a powerful war axe.",
+            "stats": {
+                "hp": 250,
+                "mp": 0,
+                "atk": 30,
+                "def": 15,
+                "spd": 12
+            }
+        }
+    }
+}
+```
+
+or 
+
+```json
+{
+    "game": {
+        "enemy": {
+            "id": "Dark_Shaman",
+            "name": "Dark Shaman",
+            "description": "Powerful dark sorcerer, able to cast deadly spells.",
+            "stats": {
+                "hp": 150,
+                "mp": 100,
+                "atk": 20,
+                "def": 10,
+                "spd": 10
+            }
+        }
+    }
+}
+```

@@ -1,0 +1,29 @@
+ YAML syntax issue. YAML string missing values and data structure not correct. Incorrect YAML syntax is provided in the original message.
+Original YAML content:
+```yaml
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: 100
+      def: 200
+      hp: 100
+      mp: 100
+      spd: 200
+``` 
+New YAML content:
+```yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 100
+      def: 200
+      hp: 100
+      mp: 100
+      spd: 200
+```

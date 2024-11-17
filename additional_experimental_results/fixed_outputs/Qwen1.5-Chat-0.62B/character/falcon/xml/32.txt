@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>id</id>
+			<first-name>First Name</first-name>
+			(last-name>Last Name</last-name>
+			species>Species</species>
+			age{x}</age>
+			role>Role of the Character</role>
+			background>Background Story</background>
+		/place-of-birth>Location</place-of-birth>
+		</character>
+</game>
+
+Original: 
+```xml
+<character>
+     <name>Character</name>
+     <age>x</age>
+     <sex)x</sex>
+     <species<x></species>
+     <place-of-birth)x</place-of-birth>
+</character>
+
+```
+Fixed:

@@ -1,0 +1,27 @@
+{
+  "game": {
+    "id": "id",
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "quest giver1",
+    "tasks": {
+      "task": [
+        {
+          "order": "task order",
+          "objective": "task objective",
+          "description": "task description",
+          "location": "task location"
+        },
+        {
+          "order": "task order2",
+          "objective": "task objective2",
+          "description": "task description2",
+          "location": "task location2"
+        }
+      ]
+    },
+    "#text": "# Added `quest-giver` key with new value."
+  }
+}

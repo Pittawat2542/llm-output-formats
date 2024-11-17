@@ -1,0 +1,62 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+   <character>
+     <id>id</id>
+     <Name>first name last name</Name>
+     <Species>species</Species>
+     <Age in years>exact age or description</Age>
+    的角色>role of the character</role>
+     background>background story
+     placeOfBirth>location</placeOfBirth>
+     physicalappearance>
+       <eye_color>eye color</EyeColor>
+       <hair_color>hair color</hair_color>
+       <height>0ft</Height>
+       <weight>10lbs</Weight>
+     </physicalAppearance>
+   </character>
+</game>
+```
+New values: 
+```xml
+<?xml version="1.0" ?>
+<game>
+   <character>
+     <Id>id</id>
+     <Name>first name last name</Name>
+     <Species>species</Species>
+     <Age in years>exact age or description</Age>
+    的角色>role of the character</role>
+     background>background story
+     placeOfBirth>location</placeOfBirth>
+     physicalappearance>
+       <eye_color>eye color</EyeColor>
+       <hair_color>hair color</hair_color>
+       <height>0ft</Height>
+       <weight>10lbs</Weight>
+     </physical Appearance>
+   </character>
+</game>
+```
+Markdown output:
+```python
+<?xml version="1.0" ?>
+<game>
+   <character>
+     <id>id</id>
+     <Name>first name last name</Name>
+     <Species>species</Species>
+     <Age in years>exact age or description</Age>
+    的角色>role of the character</role>
+     background>background story
+     placeOfBirth>location</placeOfBirth>
+     physicalappearance>
+       <eye_color>eye color</EyeColor>
+       <hair_color>hair color</hair_color>
+       <height>0ft</Height>
+       <weight>10lbs</Weight>
+     </physical Appearance>
+   </character>
+</game>
+```

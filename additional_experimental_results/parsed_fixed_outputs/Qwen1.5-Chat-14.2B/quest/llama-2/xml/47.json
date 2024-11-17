@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Quest of the Lost Treasure",
+    "objective": "Find the lost treasure of the pirates.",
+    "description": "The pirates were robbing the city and now they've lost the treasure. Find it and return it to the city!",
+    "reward": "1000 gold",
+    "quest-giver": "The King",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the pirates and their ship.",
+          "description": "The pirates are hiding in the forest. Find their ship and the treasure!",
+          "location": "Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the pirates and their ship.",
+          "description": "The pirates are hiding in the forest. Find their ship and the treasure!",
+          "location": "Forest"
+        }
+      ]
+    }
+  }
+}

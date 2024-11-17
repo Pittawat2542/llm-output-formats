@@ -1,0 +1,41 @@
+**[Input]:</br><br>
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks="">
+	<task order="1" objective="task objective" description="task description" location="task location">
+		<reward>task reward</reward>
+	</task>
+	<task order="2" objective="task objective" description="task description" location="task location">
+		<reward>task reward</reward>
+	</task>
+</tasks>
+**[Output]:</br><br>
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+			<reward>task reward</reward>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+			<reward>task reward</reward>
+		</task>
+	</tasks>
+</game>
+**[Output]:</br><br>
+?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest-giver="quest giver" tasks>
+
+

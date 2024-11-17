@@ -1,0 +1,85 @@
+```
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```不断地添加新的对话列表，如下所示：
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue one
+    speaker: speaker1
+    text: Dialogue One
+  - order: dialogue two
+    speaker: speaker2
+    text: Dialogue Two
+  - order: dialogue three
+    speaker: speaker3
+    text: Dialogue Three
+```
+
+要将这些对话添加到 YAML 文件中，只需要在 YAML 文件的开头添加一个新的列表，如下所示：
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue one
+    speaker: speaker1
+    text: Dialogue One
+  - order: dialogue two
+    speaker: speaker2
+    text: Dialogue Two
+  - order: dialogue three
+    speaker: speaker3
+    text: Dialogue Three
+  - order: dialogue four
+    speaker: speaker4
+    text: Dialogue Four
+```
+
+然后，只需在 YAML 文件的末尾添加一个新的列表，如下所示：
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue one
+    speaker: speaker1
+    text: Dialogue One
+  - order: dialogue two
+    speaker: speaker2
+    text: Dialogue Two
+  - order: dialogue three
+    speaker: speaker3
+    text: Dialogue Three
+  - order: dialogue four
+    speaker: speaker4
+    text: Dialogue Four
+  - order: dialogue five
+    speaker: speaker5
+    text: Dialogue Five
+```
+
+这样，我们就将新的对话添加到 YAML 文件中，并且在 YAML 文件的末尾添加了一个新的列表。现在，这个 YAML 文件应该包含以下内容：
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue one
+    speaker: speaker1
+    text: Dialogue One
+  - order: dialogue two
+    speaker: speaker2
+    text: Dialogue Two
+  - order: dialogue three
+    speaker: speaker3
+    text: Dialogue Three
+  - order: dialogue four
+    speaker: speaker4
+    text: Dialogue Four
+  - order: dialogue five
+    speaker: speaker5
+    text: Dialogue Five
+```

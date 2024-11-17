@@ -1,0 +1,30 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "id1",
+        "name": "name1",
+        "description": "description1",
+        "stats": {
+          "hp": "hp1 int value",
+          "mp": "mp1 int value",
+          "atk": "atk1 int value",
+          "def": "def1 int value",
+          "spd": "spd1 int value"
+        }
+      },
+      {
+        "id": "id2",
+        "name": "name2",
+        "description": "description2",
+        "stats": {
+          "hp": "hp2 int value",
+          "mp": "mp2 int value",
+          "atk": "atk2 int value",
+          "def": "def2 int value",
+          "spd": "spd2 int value"
+        }
+      }
+    ]
+  }
+}

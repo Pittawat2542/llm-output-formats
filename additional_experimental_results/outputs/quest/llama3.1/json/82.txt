@@ -1,0 +1,35 @@
+```json
+{
+    "game": {
+        "id": "Q001",
+        "title": "The Missing Heirloom",
+        "objective": "Find the missing family heirloom, a precious diamond necklace.",
+        "description": "Lady Whimsy's favorite necklace has gone missing and she needs your help to find it. The necklace was last seen in the manor house.",
+        "reward": "100 gold coins and a boost to your reputation",
+        "quest_giver": {
+            "name": "Lady Whimsy",
+            "location": "Manor House"
+        },
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Search the manor house for any signs of the necklace.",
+                "description": "Look high and low in the manor house to see if you can find any clues about the missing necklace.",
+                "location": "Manor House, Ground Floor"
+            },
+            {
+                "order": 2,
+                "objective": "Interview the staff members",
+                "description": "Speak with the butler, chef, and maid to see if they have seen anything suspicious.",
+                "location": "Manor House, Staff Quarters"
+            },
+            {
+                "order": 3,
+                "objective": "Investigate the garden",
+                "description": "Search the garden for any signs of a break-in or a hidden path.",
+                "location": "Garden"
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Quest Adventure</title>
+    <objective>Find the Ancient Artifact</objective>
+    <description> Solve a series of riddles to locate the artifact</description>
+    <reward>Gold coins and magical amulet</reward>
+    <quest-giver>Old Wizard Arden</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Deliver the potion to the forest edge</objective>
+            <description>Follow the blue mushroom path</description>
+            <location>Northwest corner of the forest</location>
+        </task>
+    </tasks>
+</game>
+```
+In this example, I have added values for `<id>` (a random number), `<title>`, `<objective>`, `<description>`, `<reward>`, and `<task>`. The `<tasks>` element now contains a single `<task>` with the specified order and objectives.

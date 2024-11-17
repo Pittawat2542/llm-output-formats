@@ -1,0 +1,37 @@
+{
+  "game": {
+    "id": "quest_id",
+    "title": {
+      "@lang": "en",
+      "#text": "Your Quest Title"
+    },
+    "objective": {
+      "@lang": "en",
+      "#text": "Enter your quest objective here"
+    },
+    "description": {
+      "@lang": "en",
+      "#text": "Enter your quest description here"
+    },
+    "reward": "Enter your quest reward here",
+    "quest-giver": {
+      "@lang": "en",
+      "#text": "Quest Giver Name"
+    },
+    "tasks": {
+      "@lang": "en",
+      "task": {
+        "@order": "1",
+        "objective": {
+          "@lang": "en",
+          "#text": "Enter your desired task objective here"
+        },
+        "description": {
+          "@lang": "en",
+          "#text": "Enter your desired task description here"
+        },
+        "location": "Task Location"
+      }
+    }
+  }
+}

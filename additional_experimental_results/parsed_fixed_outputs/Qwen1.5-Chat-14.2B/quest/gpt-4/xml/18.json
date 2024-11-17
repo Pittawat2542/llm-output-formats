@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the ancient artifact",
+    "description": "Your mission is to penetrate the fortress of the enemy, overcome their guards, and retrieve the ancient artifact that has been lost for centuries.",
+    "reward": "5000 gold and a magical sword",
+    "quest-giver": "The Great Wizard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gain entry to the fortress",
+          "description": "To gain entry to the fortress, you will need to find the secret entrance hidden in the nearby forest.",
+          "location": "Enchanted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the fortress guards",
+          "description": "You will face formidable enemies. Prepare for an epic combat.",
+          "location": "Fortress Gates"
+        },
+        {
+          "order": "3",
+          "objective": "Find and retrieve the artifact",
+          "description": "The artifact is said to be in a hidden room deep within the fortress. You must find it and return it safely.",
+          "location": "Fortress Dungeon"
+        }
+      ]
+    }
+  }
+}

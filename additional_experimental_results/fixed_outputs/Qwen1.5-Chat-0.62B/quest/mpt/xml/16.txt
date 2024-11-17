@@ -1,0 +1,53 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest objective
+	 Description: Quest description
+	 Reward: Quest reward
+	 Giver: Quest giver
+	 Tasks:
+		<Task>
+		Order: Task order
+		 Objective: Objective
+		 Description: Description
+		 Location: Task location
+		</Task>
+
+		<Task>
+		Order: Task order1
+		 Objective: Objective1
+		 Description: Description
+		 Location: Task location1
+		</Task>
+
+		<Task>
+		Order: Task order2
+		 Objective: Objective2
+		 Description: Description
+		 Location: Task location2
+		</Task>
+
+		<Task>
+		Order: Task order3
+		 Objective: Objective3
+		 Description: Description
+		 Location: Task location3
+		</Task>
+
+		<Task>
+		Order: Task order1
+		 Objective: Objective1
+		 Description: Description
+		 Location: Task location1
+		</Task>
+
+		<Task>
+		Order: Task order2
+		 Objective: Objective2
+		 Description: Description
+		 Location: Task location2
+		</Task>
+	</game>
+```
+The fix is to correct the missing `quest_giver`, which should be `Quest giver`.

@@ -1,0 +1,22 @@
+```
+game:
+  description: "Find the lost treasure in the ancient temple."
+  id: "12345"
+  objective: "Retrieve the ancient artifact." 
+  quest_giver: "Captain Morgan"
+  reward: "1000 gold coins"
+  tasks:
+    - location: task location
+    - objective: task objective
+    - order: task order
+    - riddle: "What is in the temple room?"
+    answers: ["黄金珠宝"]
+    - puzzle: "What am I supposed to do with this treasure?"
+    answers: ["Unlock the secret door"]
+    - objective: retrieve the artifact
+    - reward: "100 gold coins"
+    - task: "Solve the riddle and unlock the ancient artifact."
+    answers: ["Gold artifacts"]
+    - order: 3
+  title: "The Lost Treasure of the Ancient Temple" 
+```

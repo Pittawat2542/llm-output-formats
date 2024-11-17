@@ -1,0 +1,20 @@
+The code looks good now. It's working as expected. 
+### Exercise 1:
+Let's say we have a function that takes two arguments `a` and `b`, returns their sum, and prints the result. However, the function has an error in it. Can you identify the error?
+```python
+def add(a, b):
+    result = a + b
+    print("The sum of " + str(a) + " and " + str(b) + " is: " + str(result))
+add("1", 2)
+```
+### Solution 1:
+The error in the code is that we are concatenating strings instead of adding numbers. We should use `+` operator instead, or fix it by using `` instead of `string`. The fixed code is below:
+```python
+def add(a, b):
+    result = a + b
+    print("The sum of " + str(a) + " and " + str(b) + " is: " + str(result))
+def add(a, b):
+    result = a+b
+    print("The sum of " + str(a) + `" and "` + str(b) `" is: ` + result)
+```
+

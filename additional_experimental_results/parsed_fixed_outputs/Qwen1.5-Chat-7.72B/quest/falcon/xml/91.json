@@ -1,0 +1,19 @@
+{
+  "game": {
+    "@xmlns": "http://docx.w3.org/2006/svg",
+    "id": "new_game_id",
+    "title": "NewQuestTitle",
+    "objective": "new_quest_objective",
+    "description": "new_quest_description",
+    "reward": "new_quest_reward",
+    "quest-giver": "new_quest_giver",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "task1_objective",
+        "description": "task1_description",
+        "location": "task1_location"
+      }
+    }
+  }
+}

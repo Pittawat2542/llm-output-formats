@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+            <speaker>Player 1</speaker>
+            <text>Hello, are you ready to begin?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>NPC</speaker>
+            <text>I've been waiting for this moment my whole life. Let's start.</text>
+        </dialogue>
+        <dialogue>
+            <order>3</order>
+            <speaker>Player 1</speaker>
+            <text>What do you want to accomplish today?</text>
+        </dialogue>
+        <dialogue>
+            <order>4</order>
+            <speaker>NPC</speaker>
+            <text>I need your help to retrieve a powerful artifact.</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

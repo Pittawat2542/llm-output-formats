@@ -1,0 +1,26 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<!-- Replace "dialogue or narration" with "dialogue" -->
+		<!-- Replace "order" with "line 20, column 16" -->
+	</dialogues>
+</game>
+```
+Output in Markdown code block:
+```xml
+<?xml version="1.0"?>
+<game>
+	<!-- Replace "dialogue or narration" with "dialogue" -->
+	<!-- Replace "order" with "line 20, column 16" -->
+	<p对话或 narration：</p>
+	<p>Hello!</p>
+	<p>对话或 narration：</p>
+	<p>我是在找一个地方待着。</p>
+	<p>对话或 narration：</p>
+	<p>Of course, you can stay in my house.</p>
+	<p>对话或 narration：</p>
+	<p>Of course, you can stay in my house.</p>
+</game>
+```

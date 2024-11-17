@@ -1,0 +1,55 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>quest-id1</id>
+    <title>Quest Title 1</title>
+    <objective>Complete Objective 1</objective>
+    <description>Quest Description 1</description>
+    <reward>Gold Coin</reward>
+    <quest-giver>Heroic Guide</quest-giver>
+    <tasks>
+        <task order="1">
+            <order>101</order>
+            <objective>Find TrappedTreasure</objective>
+            <description>Guide to the Ancient Ruins</description>
+            <location>Lost City Ruins</location>
+        </task>
+        <!-- More tasks here... -->
+    </tasks>
+    <locations>
+        <location id="1">
+            <id>location-id1</id>
+            <name>Greenwood Forest</name>
+            <description>Fresh air and ancient trees</description>
+            <coordinates>40.7128, -74.0060</coordinates>
+            <image>forest_map.jpg</image>
+        </location>
+        <!-- More locations... -->
+    </locations>
+    <characters>
+        <character id="1">
+            <id>char-id1</id>
+            <name>Brave Knight</name>
+            <description>A seasoned warrior</description>
+            <image>knight_image.png</image>
+            <quests>
+                <quest id="1">
+                    <!-- Quest details here... -->
+                </quest>
+            </quests>
+        </character>
+        <!-- More characters... -->
+    </characters>
+    <items>
+        <item id="1">
+            <id>item-id1</id>
+            <name>Healing Potion</name>
+            <description>Restores 50 health points</description>
+            <image>healing_potion.jpg</image>
+            <quests>
+                <!-- Item quests... -->
+            </quests>
+        </item>
+    </items>
+</game>
+```

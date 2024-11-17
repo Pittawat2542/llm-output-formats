@@ -1,0 +1,26 @@
+Corrected XML data:
+```xml
+<game>
+	<enemy>
+			$id$		# Fixed syntax error on line 1 by using `$` instead of `&`.
+			$name$		# Fixed syntax error on line 2 by using `$` instead of `&`.
+			"description$	# Added missing closing tag for the "description" element.
+			<stats>
+				<hp>hp int value</hp>
+				<mp>mp int value</mp>
+				<atk>atk int value</atk>
+				<def>def int value</def>
+				<spd>spd int value</spd>
+			</stats>
+	</enemy>
+</game>
+```
+New values:
+- `$id$` - enemy id
+- `$name$` - enemy name
+- `$description$` - enemy description
+- `<hp>` - hero's hit points
+- `<mp>` - hero's magic points
+- `<atk>` - hero's attack power (int value)
+- `<def>` - hero's defense (int value)
+- `<spd>` - hero's speed (int value)

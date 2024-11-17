@@ -1,0 +1,26 @@
+```yaml
+game.character:
+  First_name: John Doe
+  Last_name: Doe
+  age: 30
+  place_of_birth: San Francisco
+  physical_appearance:
+    - eye_color: Blue
+      hair_color: Brown
+      height: 5.10
+      weight: 120
+```
+The YAML data has been fixed by removing the incorrect `array` and `-` syntax for physical appearance, and replacing it with a single item dictionary. The age value is now a single scalar without the unnecessary parentheses. Here's the corrected YAML in a code block:
+
+```yaml
+game.character:
+  First_name: John Doe
+  Last_name: Doe
+  age: 30
+  place_of_birth: San Francisco
+  physical_appearance:
+    eye_color: Blue
+    hair_color: Brown
+    height: 5.10
+    weight: 120
+```

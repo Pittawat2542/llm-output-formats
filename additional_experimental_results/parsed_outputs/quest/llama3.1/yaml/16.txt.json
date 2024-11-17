@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Investigate the strange occurrences in the abandoned mine.",
+    "id": 1,
+    "objective": "Retrieve a sample of the anomalous mineral deposit.",
+    "quest_giver": "Grimgold Ironfist, the local mine owner.",
+    "reward": "100 gold pieces and a magical pickaxe.",
+    "tasks": [
+      {
+        "description": "Speak with the miners who have gone missing.",
+        "location": "The old mine entrance.",
+        "objective": "Gather information about their disappearance.",
+        "order": 1
+      },
+      {
+        "description": "Explore the depths of the mine and find the source of the anomaly.",
+        "location": "Deeper levels of the mine, beyond the first tunnel.",
+        "objective": "Discover what is causing the strange readings.",
+        "order": 2
+      },
+      {
+        "description": "Return to Grimgold Ironfist with your findings and a sample of the mineral deposit.",
+        "location": "The local tavern, where you can meet Grimgold.",
+        "objective": "Complete the quest by returning with the required information.",
+        "order": 3
+      }
+    ],
+    "title": "The Missing Miners of Ironhaven"
+  }
+}

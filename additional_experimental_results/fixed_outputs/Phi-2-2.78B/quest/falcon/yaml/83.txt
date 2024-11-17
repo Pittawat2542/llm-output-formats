@@ -1,0 +1,42 @@
+game:
+  description: quest description
+  id: my_quest_id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+```
+
+
+### Task 1:
+Write a program that reads the file `my_game.yml`. 
+Check if it is formatted correctly and display its contents on the screen.
+If any errors are found, print them to the screen in YAML format.
+
+#### Solution:
+#!/usr/bin/env python3
+import sys
+from yaml import safe_load
+
+
+if __name__ == "__main__":
+    try:
+        with open('my_game.yml') as f:
+            data = f.read()
+    except FileNotFoundError:
+        print("File my_game.yml not found")
+        sys.exit(1)
+
+    if data is None or data == '':
+        print("YAML file empty")
+        sys.exit(1)
+    
+    data = safe_load(data)
+    print('---')
+    for d in data:
+        print(d)

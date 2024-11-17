@@ -1,0 +1,1828 @@
+task,model,format,file,error,error_message
+character,falcon,json,54.txt,empty_response,Expecting property name enclosed in double quotes: line 16 column 37 (char 534)
+character,falcon,json,95.txt,empty_response,Expecting property name enclosed in double quotes: line 8 column 26 (char 200)
+character,falcon,json,99.txt,empty_response,Expecting property name enclosed in double quotes: line 16 column 36 (char 539)
+character,falcon,xml,11.txt,incorrect_syntax,"not well-formed (invalid token): line 15, column 20"
+character,falcon,xml,14.txt,key_completeness,The key 'game' is missing.
+character,falcon,xml,15.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 21"
+character,falcon,xml,25.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 25"
+character,falcon,xml,27.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 22"
+character,falcon,xml,28.txt,incorrect_syntax,"not well-formed (invalid token): line 9, column 10"
+character,falcon,xml,3.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 23"
+character,falcon,xml,31.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 30"
+character,falcon,xml,32.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 28"
+character,falcon,xml,34.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 30"
+character,falcon,xml,35.txt,incorrect_syntax,"mismatched tag: line 11, column 83"
+character,falcon,xml,36.txt,incorrect_syntax,"not well-formed (invalid token): line 4, column 10"
+character,falcon,xml,39.txt,incorrect_syntax,"mismatched tag: line 7, column 21"
+character,falcon,xml,4.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 30"
+character,falcon,xml,40.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 28"
+character,falcon,xml,41.txt,incorrect_syntax,"mismatched tag: line 9, column 25"
+character,falcon,xml,42.txt,incorrect_syntax,"mismatched tag: line 8, column 23"
+character,falcon,xml,44.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 28"
+character,falcon,xml,51.txt,key_completeness,The key 'game' is missing.
+character,falcon,xml,52.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 21"
+character,falcon,xml,53.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 28"
+character,falcon,xml,55.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 29"
+character,falcon,xml,58.txt,incorrect_syntax,"not well-formed (invalid token): line 9, column 13"
+character,falcon,xml,6.txt,incorrect_syntax,"mismatched tag: line 7, column 19"
+character,falcon,xml,65.txt,incorrect_syntax,"mismatched tag: line 9, column 76"
+character,falcon,xml,66.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 31"
+character,falcon,xml,69.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 30"
+character,falcon,xml,70.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 18"
+character,falcon,xml,71.txt,incorrect_syntax,"mismatched tag: line 14, column 23"
+character,falcon,xml,72.txt,incorrect_syntax,"not well-formed (invalid token): line 3, column 22"
+character,falcon,xml,74.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 28"
+character,falcon,xml,77.txt,incorrect_syntax,"mismatched tag: line 6, column 40"
+character,falcon,xml,81.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 25"
+character,falcon,xml,83.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 25"
+character,falcon,xml,84.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 29"
+character,falcon,xml,89.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 32"
+character,falcon,xml,9.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 25"
+character,falcon,xml,90.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 25"
+character,falcon,xml,92.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 25"
+character,falcon,xml,93.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 22"
+character,falcon,xml,98.txt,incorrect_syntax,"not well-formed (invalid token): line 8, column 13"
+character,falcon,yaml,2.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 13, column 5:
+        role:英雄救美
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 14, column 5:
+        species: humanoid
+        ^"
+character,falcon,yaml,23.txt,incorrect_syntax,"while scanning a block scalar
+  in ""<unicode string>"", line 3, column 31:
+        age: ""exact age in years"" | age (with optional months) or  ... 
+                                  ^
+expected a comment or a line break, but found 'a'
+  in ""<unicode string>"", line 3, column 33:
+        age: ""exact age in years"" | age (with optional months) or ""a ... 
+                                    ^"
+character,falcon,yaml,25.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 20, column 1:
+    ```
+    ^"
+character,falcon,yaml,26.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 4, column 5:
+        background:Born into a family of ... 
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 5, column 5:
+        first_name: John
+        ^"
+character,falcon,yaml,28.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 25:
+        age: exact_age_value: 35
+                            ^"
+character,falcon,yaml,29.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 13, column 5:
+        place_of_birth:哈尔滨 (Location cha ... 
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 14, column 5:
+        role: Warrior
+        ^"
+character,falcon,yaml,33.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 7:
+          - eye_color: blue
+          ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 13, column 7:
+          species: Dragonborn
+          ^"
+character,falcon,yaml,4.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 4, column 5:
+        background:次数描述，曾经在电视节目和电影中活跃，现在 ... 
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 5, column 5:
+        first_name: Max
+        ^"
+character,falcon,yaml,45.txt,incorrect_syntax,"while parsing a flow mapping
+  in ""<unicode string>"", line 25, column 11:
+        name: {
+              ^
+expected ',' or '}', but got '<scalar>'
+  in ""<unicode string>"", line 27, column 7:
+          last_name: ""Johnson""
+          ^"
+character,falcon,yaml,53.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 17, column 1:
+    ```
+    ^"
+character,falcon,yaml,54.txt,key_completeness,The key 'game' is missing.
+character,falcon,yaml,6.txt,key_completeness,The key 'game' is missing.
+character,falcon,yaml,61.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 2, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 17, column 1:
+    ---
+    ^"
+character,falcon,yaml,65.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 14, column 1:
+    ```
+    ^"
+character,falcon,yaml,66.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 28:
+        age: exact_age (example: 25)
+                               ^"
+character,falcon,yaml,73.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 195:
+     ... His physical appearance includes:
+                                         ^"
+character,falcon,yaml,83.txt,key_completeness,The key 'game' is missing.
+character,falcon,yaml,88.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 11, column 1:
+    ```
+    ^"
+character,falcon,yaml,89.txt,key_completeness,The key 'character' is missing.
+character,falcon,yaml,93.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 23, column 7:
+          ...
+          ^
+could not find expected ':'
+  in ""<unicode string>"", line 24, column 1:
+    
+    ^"
+character,falcon,yaml,94.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 16, column 1:
+    ```
+    ^"
+character,gpt-3.5-turbo,xml,29.txt,incorrect_syntax,"mismatched tag: line 3, column 14"
+character,gpt-3.5-turbo,xml,68.txt,incorrect_syntax,"not well-formed (invalid token): line 8, column 13"
+character,gpt-3.5-turbo,xml,70.txt,incorrect_syntax,"not well-formed (invalid token): line 9, column 13"
+character,gpt-3.5-turbo,xml,86.txt,incorrect_syntax,"not well-formed (invalid token): line 9, column 13"
+character,gpt-3.5-turbo,yaml,16.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 4, column 5:
+        background:Born in a small villa ... 
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 5, column 5:
+        first_name: Elena
+        ^"
+character,llama-2,json,70.txt,empty_response,Expecting property name enclosed in double quotes: line 16 column 37 (char 540)
+character,llama-2,xml,10.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 29"
+character,llama-2,xml,11.txt,incorrect_syntax,"mismatched tag: line 7, column 24"
+character,llama-2,xml,17.txt,incorrect_syntax,"mismatched tag: line 6, column 15"
+character,llama-2,xml,27.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 28"
+character,llama-2,xml,29.txt,incorrect_syntax,"mismatched tag: line 11, column 38"
+character,llama-2,xml,30.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 23"
+character,llama-2,xml,33.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 28"
+character,llama-2,xml,46.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 28"
+character,llama-2,xml,5.txt,incorrect_syntax,"mismatched tag: line 9, column 25"
+character,llama-2,xml,52.txt,incorrect_syntax,"mismatched tag: line 6, column 21"
+character,llama-2,xml,55.txt,incorrect_syntax,"not well-formed (invalid token): line 1, column 0"
+character,llama-2,xml,56.txt,incorrect_syntax,"mismatched tag: line 6, column 40"
+character,llama-2,xml,60.txt,incorrect_syntax,"mismatched tag: line 7, column 21"
+character,llama-2,xml,65.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 36"
+character,llama-2,xml,69.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 25"
+character,llama-2,xml,7.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 18"
+character,llama-2,xml,74.txt,incorrect_syntax,"mismatched tag: line 9, column 55"
+character,llama-2,xml,79.txt,incorrect_syntax,"mismatched tag: line 7, column 25"
+character,llama-2,xml,8.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 32"
+character,llama-2,xml,80.txt,key_completeness,The key 'game' is missing.
+character,llama-2,xml,83.txt,incorrect_syntax,"not well-formed (invalid token): line 8, column 23"
+character,llama-2,xml,85.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 30"
+character,llama-2,xml,90.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 36"
+character,llama-2,xml,93.txt,incorrect_syntax,"not well-formed (invalid token): line 10, column 26"
+character,llama-2,xml,95.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 22"
+character,llama-2,yaml,14.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 11, column 7:
+          - eye_color: brown
+          ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 16, column 7:
+          place_of_birth: USA
+          ^"
+character,llama-2,yaml,24.txt,empty_response,No YAML content found
+character,llama-2,yaml,46.txt,incorrect_syntax,"while parsing a flow node
+expected the node content, but found '-'
+  in ""<unicode string>"", line 9, column 11:
+              - {
+              ^"
+character,llama-2,yaml,50.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 6:
+         - eye_color: brown
+         ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 10, column 7:
+          hair_color: black
+          ^"
+character,llama-2,yaml,6.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 6:
+         - eye_color: brown
+         ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 10, column 7:
+          hair_color: black
+          ^"
+character,llama-2,yaml,60.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 7:
+          - eye_color: green
+          ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 14, column 7:
+          place_of_birth: New York
+          ^"
+character,llama-2,yaml,63.txt,empty_response,No YAML content found
+character,llama-2,yaml,68.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 10, column 11:
+              - experience: ""experience""
+              ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 11, column 11:
+              family: ""family""
+              ^"
+character,llama-2,yaml,71.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 16, column 1:
+    ``` [/INST]
+    ^"
+character,llama-2,yaml,72.txt,empty_response,No YAML content found
+character,llama-2,yaml,8.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 6:
+         - eye_color: brown
+         ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 10, column 7:
+          hair_color: brown
+          ^"
+character,llama-2,yaml,86.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 10, column 19:
+            hair_color: black
+                      ^"
+character,llama-2,yaml,87.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 6:
+         - eye_color: brown
+         ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 10, column 7:
+          hair_color: brown
+          ^"
+character,llama-2,yaml,96.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 4, column 5:
+        background:Born in a small town  ... 
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 5, column 5:
+        first_name: John
+        ^"
+character,llama3.1-70b,xml,18.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 25"
+character,llama3.1-70b,xml,44.txt,incorrect_syntax,"mismatched tag: line 19, column 10"
+character,llama3.1-70b,xml,63.txt,incorrect_syntax,"mismatched tag: line 19, column 10"
+character,llama3.1-70b,xml,64.txt,incorrect_syntax,"not well-formed (invalid token): line 7, column 25"
+character,mpt,xml,5.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 30"
+character,mpt,yaml,23.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 19:
+        age: exact_age: 12
+                      ^"
+character,mpt,yaml,92.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 4, column 5:
+        age: exact_age
+        ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 21, column 5:
+        - role: antagonist
+        ^"
+dialogue,falcon,xml,60.txt,incorrect_syntax,"mismatched tag: line 11, column 10"
+dialogue,falcon,xml,61.txt,key_completeness,The key 'dialogues' is missing.
+dialogue,falcon,xml,72.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 0"
+dialogue,falcon,xml,82.txt,incorrect_syntax,"mismatched tag: line 20, column 3"
+dialogue,falcon,yaml,1.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+dialogue,falcon,yaml,22.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: ""dialogue order""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker:
+        ^"
+dialogue,falcon,yaml,29.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,falcon,yaml,31.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - speaker: <Player 1>
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        order: dialogue order
+        ^"
+dialogue,falcon,yaml,43.txt,key_completeness,The key 'game' is missing.
+dialogue,falcon,yaml,45.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 3, column 5:
+      - order: dialogue_order
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 5, column 18:
+        text: '""Game's narrative or text on its own,  ... 
+                     ^"
+dialogue,falcon,yaml,52.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 'YAML order'
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: 'speaker name'
+        ^"
+dialogue,falcon,yaml,7.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue_order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker_name
+        ^"
+dialogue,falcon,yaml,72.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 11, column 1:
+    ```
+    ^"
+dialogue,falcon,yaml,73.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 10, column 1:
+    - order: 2
+    ^"
+dialogue,falcon,yaml,79.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+dialogue,falcon,yaml,8.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 9, column 1:
+    - message_text: ""This is an exam ... 
+    ^"
+dialogue,falcon,yaml,9.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 7, column 1:
+    - player2:
+    ^"
+dialogue,falcon,yaml,92.txt,key_completeness,The key 'game' is missing.
+dialogue,gemini-pro,yaml,11.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 17, column 63:
+     ... h by completing the three trials:
+                                         ^"
+dialogue,gemini-pro,yaml,46.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 13, column 5:
+        speaker:Emily
+        ^
+could not find expected ':'
+  in ""<unicode string>"", line 14, column 5:
+        text: A hidden passage awaits di ... 
+        ^"
+dialogue,gemini-pro,yaml,49.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: Sophia
+        ^"
+dialogue,gemini-pro,yaml,69.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 11, column 1:
+    - order: 11
+    ^"
+dialogue,gpt-3.5-turbo,xml,3.txt,incorrect_syntax,"mismatched tag: line 18, column 73"
+dialogue,gpt-3.5-turbo,xml,37.txt,incorrect_syntax,"mismatched tag: line 30, column 68"
+dialogue,gpt-3.5-turbo,xml,74.txt,incorrect_syntax,"mismatched tag: line 22, column 86"
+dialogue,gpt-3.5-turbo,yaml,24.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 45, column 1:
+    ```
+    ^"
+dialogue,gpt-4,yaml,39.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 8, column 49:
+     ... terested in the book ""The Cosmos: A Spacetime Odyssey.""
+                                         ^"
+dialogue,gpt-4,yaml,65.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 6, column 5:
+      - order: 2
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 8, column 15:
+        text: 'We'll find the way out. Don't worry.'
+                  ^"
+dialogue,llama-2,xml,1.txt,incorrect_syntax,"mismatched tag: line 14, column 3"
+dialogue,llama-2,xml,31.txt,incorrect_syntax,"mismatched tag: line 15, column 2"
+dialogue,llama-2,xml,41.txt,key_completeness,The key 'game' is missing.
+dialogue,llama-2,xml,48.txt,incorrect_syntax,"junk after document element: line 20, column 12"
+dialogue,llama-2,xml,60.txt,incorrect_syntax,"mismatched tag: line 12, column 10"
+dialogue,llama-2,xml,65.txt,incorrect_syntax,"mismatched tag: line 9, column 10"
+dialogue,llama-2,xml,7.txt,incorrect_syntax,"syntax error: line 1, column 0"
+dialogue,llama-2,xml,70.txt,incorrect_syntax,"mismatched tag: line 9, column 3"
+dialogue,llama-2,xml,85.txt,incorrect_syntax,"mismatched tag: line 5, column 30"
+dialogue,llama-2,yaml,13.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama-2,yaml,17.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue_order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker_name
+        ^"
+dialogue,llama-2,yaml,21.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 10, column 5:
+        - order: 30
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 11, column 5:
+        speaker: CharacterN
+        ^"
+dialogue,llama-2,yaml,22.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: John
+        ^"
+dialogue,llama-2,yaml,28.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: Jane
+        ^"
+dialogue,llama-2,yaml,30.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: Player 1
+        ^"
+dialogue,llama-2,yaml,33.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: John
+        ^"
+dialogue,llama-2,yaml,37.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama-2,yaml,43.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama-2,yaml,50.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 8, column 1:
+    ```
+    ^"
+dialogue,llama-2,yaml,55.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue_order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker_name
+        ^"
+dialogue,llama-2,yaml,56.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama-2,yaml,62.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '-'
+  in ""<unicode string>"", line 29, column 1:
+    - order: 9
+    ^"
+dialogue,llama-2,yaml,63.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: ""dialogue order""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: ""speaker name""
+        ^"
+dialogue,llama-2,yaml,67.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: John
+        ^"
+dialogue,llama-2,yaml,7.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama-2,yaml,75.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 10
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: A
+        ^"
+dialogue,llama-2,yaml,77.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+dialogue,llama-2,yaml,78.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 1
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: player
+        ^"
+dialogue,llama-2,yaml,86.txt,empty_response,No YAML content found
+dialogue,llama-2,yaml,93.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: 'dialogue_order'
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: 'SpeakerName'
+        ^"
+dialogue,llama-2,yaml,97.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: ""1""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: ""Player""
+        ^"
+dialogue,llama-2,yaml,99.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 3, column 4:
+       - order: dialogue order
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 4, column 5:
+        speaker: speaker name
+        ^"
+dialogue,llama3.1,yaml,15.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 8, column 88:
+     ...  give up easily. Here's a secret: the sword is hidden where the  ... 
+                                         ^"
+dialogue,llama3.1,yaml,36.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 9, column 5:
+      - order: 3
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 11, column 15:
+        text: 'I\'m good too. So, what do you want ... 
+                  ^"
+dialogue,llama3.1,yaml,40.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 12, column 5:
+      - order: 4
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 14, column 14:
+        text: 'I'll take that chance. I've been t ... 
+                 ^"
+dialogue,llama3.1,yaml,52.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 12, column 5:
+      - order: 4
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 14, column 14:
+        text: 'I'm up for it! Where is the village?'
+                 ^"
+dialogue,llama3.1,yaml,57.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 9, column 7:
+        - order: 3
+          ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 11, column 16:
+          text: 'I'm just passing through. I was wo ... 
+                   ^"
+dialogue,llama3.1,yaml,71.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 18, column 5:
+      - order: 6
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 20, column 18:
+        text: 'There's a legend about an ancient cave ... 
+                     ^"
+dialogue,llama3.1,yaml,8.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 3, column 7:
+        - order: 1
+          ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 5, column 16:
+          text: 'I've been searching for the treasu ... 
+                   ^"
+dialogue,llama3.1,yaml,9.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 9, column 5:
+      - order: 3
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 11, column 29:
+        text: 'Great. Then let\'s get moving. We have a long jou ... 
+                                ^"
+dialogue,llama3.1,yaml,95.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 18, column 7:
+        - order: 6
+          ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 20, column 16:
+          text: 'I'm not sure, better be careful.'
+                   ^"
+dialogue,llama3.1,yaml,96.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 12, column 5:
+      - order: 4
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 14, column 16:
+        text: 'You're a prisoner, then. You'll be s ... 
+                   ^"
+dialogue,llama3.1-70b,yaml,23.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 6, column 5:
+      - order: 2
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 8, column 34:
+        text: 'Thank you, Captain. I'm excited to explore this myster ... 
+                                     ^"
+dialogue,llama3.1-70b,yaml,24.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 8, column 71:
+     ... and opening of our newest wonder: the Clockwork Spire!
+                                         ^"
+dialogue,llama3.1-70b,yaml,58.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 27, column 1:
+    ```
+    ^"
+dialogue,llama3.1-70b,yaml,66.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 6, column 12:
+           text: |
+               ^"
+dialogue,llama3.1-70b,yaml,81.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 16, column 25:
+          speaker: Narration:
+                            ^"
+dialogue,mpt,yaml,27.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 3, column 5:
+      - order: 1
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 5, column 74:
+     ... yrocketed, as you mentioned. It's a major concern for everyone.'
+                                         ^"
+dialogue,mpt,yaml,56.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 2, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 31, column 1:
+    ---
+    ^"
+dialogue,palm,xml,6.txt,incorrect_syntax,"mismatched tag: line 34, column 61"
+enemy,falcon,json,12.txt,empty_response,Expecting property name enclosed in double quotes: line 8 column 28 (char 179)
+enemy,falcon,xml,26.txt,incorrect_syntax,"not well-formed (invalid token): line 15, column 0"
+enemy,falcon,xml,41.txt,incorrect_syntax,"XML or text declaration not at start of entity: line 7, column 3"
+enemy,falcon,xml,53.txt,key_completeness,The key 'enemy' is missing.
+enemy,falcon,xml,64.txt,key_completeness,The key 'game' is missing.
+enemy,falcon,xml,66.txt,incorrect_syntax,"mismatched tag: line 16, column 19"
+enemy,falcon,xml,78.txt,key_completeness,The key 'game' is missing.
+enemy,falcon,xml,91.txt,key_completeness,The key 'game' is missing.
+enemy,falcon,xml,96.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 1"
+enemy,falcon,xml,99.txt,key_completeness,The key 'game' is missing.
+enemy,falcon,yaml,18.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 3, column 5:
+        description: ""Description of the ... 
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 17:
+        id: ""12345"" (new value)
+                    ^"
+enemy,falcon,yaml,2.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+enemy,falcon,yaml,22.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 20, column 7:
+        id: enemy_id
+          ^"
+enemy,falcon,yaml,27.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 13, column 1:
+    In the middle of a forest, there ... 
+    ^
+could not find expected ':'
+  in ""<unicode string>"", line 14, column 1:
+    
+    ^"
+enemy,falcon,yaml,28.txt,key_completeness,The key 'enemy' is missing.
+enemy,falcon,yaml,45.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 7:
+        id: enemy_id_value
+          ^"
+enemy,falcon,yaml,71.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 7:
+        id: enemy_id
+          ^"
+enemy,falcon,yaml,8.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 11, column 1:
+    ```
+    ^"
+enemy,falcon,yaml,86.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 7:
+        id: enemy_id
+          ^"
+enemy,llama-2,xml,33.txt,incorrect_syntax,"mismatched tag: line 38, column 2"
+enemy,llama-2,xml,4.txt,incorrect_syntax,"mismatched tag: line 25, column 2"
+enemy,llama-2,xml,6.txt,incorrect_syntax,"mismatched tag: line 17, column 2"
+enemy,llama-2,xml,99.txt,incorrect_syntax,"mismatched tag: line 26, column 2"
+enemy,llama-2,yaml,24.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+enemy,llama-2,yaml,32.txt,key_completeness,The key 'enemy' is missing.
+enemy,llama-2,yaml,55.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+enemy,llama-2,yaml,61.txt,key_completeness,The key 'enemy' is missing.
+enemy,llama-2,yaml,72.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 2, column 1:
+    ```
+    ^"
+enemy,llama-2,yaml,74.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 3, column 5:
+        description: ""This is a descript ... 
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 13:
+        id: ""2"" (new value, changed from ""1"")
+                ^"
+enemy,llama-2,yaml,95.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+enemy,mpt,yaml,19.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 2, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 15, column 1:
+    ---
+    ^"
+quest,falcon,xml,12.txt,key_completeness,The key 'id' is missing.
+quest,falcon,xml,24.txt,incorrect_syntax,"mismatched tag: line 10, column 61"
+quest,falcon,xml,5.txt,incorrect_syntax,"mismatched tag: line 18, column 60"
+quest,falcon,xml,63.txt,incorrect_syntax,"not well-formed (invalid token): line 6, column 89"
+quest,falcon,xml,68.txt,key_completeness,The key 'quest_giver' is missing.
+quest,falcon,xml,72.txt,incorrect_syntax,"mismatched tag: line 12, column 51"
+quest,falcon,yaml,11.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,14.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,2.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,26.txt,key_completeness,The key 'id' is missing.
+quest,falcon,yaml,38.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,39.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""Task description""
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        objectives:
+        ^"
+quest,falcon,yaml,4.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,40.txt,key_completeness,"The key 'id' is missing., The key 'quest_giver' is missing."
+quest,falcon,yaml,42.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 19, column 1:
+    ```yaml
+    ^"
+quest,falcon,yaml,44.txt,key_completeness,"The key 'id' is missing., The key 'quest_giver' is missing."
+quest,falcon,yaml,48.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,50.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,55.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 18, column 1:
+    [(tasks)]
+    ^
+could not find expected ':'
+  in ""<unicode string>"", line 19, column 3:
+      - description: """"
+      ^"
+quest,falcon,yaml,59.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,6.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,62.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""Find Red Apple Task""
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: ""The Apple Quest""
+        ^"
+quest,falcon,yaml,64.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,falcon,yaml,7.txt,key_completeness,The key 'title' is missing.
+quest,falcon,yaml,72.txt,key_completeness,The key 'description' is missing.
+quest,falcon,yaml,80.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 14, column 1:
+    ---
+    ^"
+quest,falcon,yaml,83.txt,key_completeness,The key 'quest_giver' is missing.
+quest,falcon,yaml,87.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""Track the ancien ... 
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: ""The Quest for the Lost R ... 
+        ^"
+quest,gemini-pro,json,24.txt,empty_response,Expecting property name enclosed in double quotes: line 8 column 35 (char 454)
+quest,gemini-pro,xml,15.txt,incorrect_syntax,"not well-formed (invalid token): line 22, column 30"
+quest,gemini-pro,xml,28.txt,incorrect_syntax,"not well-formed (invalid token): line 12, column 32"
+quest,gemini-pro,xml,33.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 31"
+quest,gemini-pro,xml,37.txt,incorrect_syntax,"not well-formed (invalid token): line 16, column 24"
+quest,gemini-pro,xml,43.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 23"
+quest,gemini-pro,xml,44.txt,incorrect_syntax,"mismatched tag: line 19, column 121"
+quest,gemini-pro,xml,45.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 25"
+quest,gemini-pro,xml,60.txt,incorrect_syntax,"mismatched tag: line 36, column 6"
+quest,gemini-pro,xml,63.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 32"
+quest,gemini-pro,xml,80.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 30"
+quest,gemini-pro,xml,82.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 30"
+quest,gemini-pro,yaml,37.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 144:
+     ... e quest involves three key tasks:
+                                         ^"
+quest,gemini-pro,yaml,5.txt,key_completeness,The key 'title' is missing.
+quest,gemini-pro,yaml,66.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: task description1
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: quest_title1
+        ^"
+quest,gpt-3.5-turbo,xml,100.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 24"
+quest,gpt-3.5-turbo,xml,13.txt,incorrect_syntax,"mismatched tag: line 24, column 41"
+quest,gpt-3.5-turbo,xml,14.txt,incorrect_syntax,"not well-formed (invalid token): line 22, column 23"
+quest,gpt-3.5-turbo,xml,17.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 32"
+quest,gpt-3.5-turbo,xml,22.txt,incorrect_syntax,"mismatched tag: line 19, column 126"
+quest,gpt-3.5-turbo,xml,24.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 31"
+quest,gpt-3.5-turbo,xml,27.txt,incorrect_syntax,"mismatched tag: line 19, column 146"
+quest,gpt-3.5-turbo,xml,35.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 30"
+quest,gpt-3.5-turbo,xml,4.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 41"
+quest,gpt-3.5-turbo,xml,43.txt,incorrect_syntax,"mismatched tag: line 19, column 121"
+quest,gpt-3.5-turbo,xml,45.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 43"
+quest,gpt-3.5-turbo,xml,48.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 35"
+quest,gpt-3.5-turbo,xml,52.txt,incorrect_syntax,"mismatched tag: line 24, column 77"
+quest,gpt-3.5-turbo,xml,60.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 41"
+quest,gpt-3.5-turbo,xml,62.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 32"
+quest,gpt-3.5-turbo,xml,67.txt,incorrect_syntax,"mismatched tag: line 19, column 210"
+quest,gpt-3.5-turbo,xml,74.txt,incorrect_syntax,"not well-formed (invalid token): line 24, column 35"
+quest,gpt-3.5-turbo,xml,79.txt,incorrect_syntax,"not well-formed (invalid token): line 14, column 32"
+quest,gpt-3.5-turbo,xml,8.txt,incorrect_syntax,"mismatched tag: line 19, column 75"
+quest,gpt-3.5-turbo,xml,83.txt,incorrect_syntax,"mismatched tag: line 19, column 95"
+quest,gpt-3.5-turbo,xml,87.txt,incorrect_syntax,"mismatched tag: line 19, column 163"
+quest,gpt-4,xml,2.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 35"
+quest,gpt-4,xml,21.txt,incorrect_syntax,"not well-formed (invalid token): line 20, column 25"
+quest,gpt-4,xml,26.txt,incorrect_syntax,"not well-formed (invalid token): line 30, column 32"
+quest,gpt-4,xml,27.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 32"
+quest,gpt-4,xml,35.txt,incorrect_syntax,"mismatched tag: line 19, column 99"
+quest,gpt-4,xml,42.txt,incorrect_syntax,"not well-formed (invalid token): line 19, column 32"
+quest,gpt-4,xml,56.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 35"
+quest,gpt-4,xml,68.txt,incorrect_syntax,"not well-formed (invalid token): line 12, column 31"
+quest,gpt-4,xml,75.txt,incorrect_syntax,"not well-formed (invalid token): line 19, column 37"
+quest,gpt-4,xml,82.txt,incorrect_syntax,"not well-formed (invalid token): line 20, column 46"
+quest,gpt-4,xml,84.txt,incorrect_syntax,"not well-formed (invalid token): line 19, column 32"
+quest,gpt-4,xml,89.txt,incorrect_syntax,"mismatched tag: line 19, column 155"
+quest,gpt-4,xml,90.txt,incorrect_syntax,"mismatched tag: line 19, column 126"
+quest,gpt-4,yaml,14.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 26, column 5:
+      - description: 'Find the Ruby gem  ... 
+        ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 26, column 47:
+     ... n: 'Find the Ruby gem in Dragon's Mountain'
+                                         ^"
+quest,llama-2,xml,21.txt,incorrect_syntax,"mismatched tag: line 12, column 68"
+quest,llama-2,xml,22.txt,incorrect_syntax,"not well-formed (invalid token): line 22, column 13"
+quest,llama-2,xml,48.txt,key_completeness,The key 'quest_giver' is missing.
+quest,llama-2,xml,50.txt,incorrect_syntax,"mismatched tag: line 17, column 2"
+quest,llama-2,xml,63.txt,key_completeness,"The key 'id' is missing., The key 'title' is missing., The key 'objective' is missing., The key 'description' is missing., The key 'reward' is missing., The key 'quest_giver' is missing."
+quest,llama-2,xml,72.txt,incorrect_syntax,"not well-formed (invalid token): line 2, column 0"
+quest,llama-2,xml,87.txt,incorrect_syntax,"not well-formed (invalid token): line 13, column 29"
+quest,llama-2,xml,99.txt,incorrect_syntax,"mismatched tag: line 16, column 3"
+quest,llama-2,yaml,1.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 9, column 17:
+            location: Garden Chest
+                    ^"
+quest,llama-2,yaml,100.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Task description""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Task location""
+        ^"
+quest,llama-2,yaml,13.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,14.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,17.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,19.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 2, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 25, column 1:
+    ---
+    ^"
+quest,llama-2,yaml,2.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,21.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Search for the tr ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: The lost forest
+        ^"
+quest,llama-2,yaml,23.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,24.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,25.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 18, column 6:
+         objective:可能存在隐藏的线索
+         ^
+could not find expected ':'
+  in ""<unicode string>"", line 19, column 6:
+         order: 3
+         ^"
+quest,llama-2,yaml,29.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,3.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""Track the Enchan ... 
+        ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 6:
+         location: ""Forest clearing, east ... 
+         ^"
+quest,llama-2,yaml,32.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,34.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Talk to the loca ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Ancient Temple""
+        ^"
+quest,llama-2,yaml,35.txt,empty_response,No YAML content found
+quest,llama-2,yaml,36.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Find the golden a ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: The castle
+        ^"
+quest,llama-2,yaml,38.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Discover the sunk ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: The pirate king's trea ... 
+        ^"
+quest,llama-2,yaml,39.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Task description""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Task location""
+        ^"
+quest,llama-2,yaml,40.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Search the old a ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""123 Main St""
+        ^"
+quest,llama-2,yaml,42.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Task description""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Task location""
+        ^"
+quest,llama-2,yaml,44.txt,empty_response,No YAML content found
+quest,llama-2,yaml,45.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,47.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,49.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,5.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 9, column 8:
+           - description: ""Task description""
+           ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 10, column 9:
+            location: ""Task location""
+            ^"
+quest,llama-2,yaml,51.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,53.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: A task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: A task location
+        ^"
+quest,llama-2,yaml,54.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Search for the f ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Ithaca""
+        ^"
+quest,llama-2,yaml,55.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,56.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,57.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Search for the qu ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: The Quest Location
+        ^"
+quest,llama-2,yaml,59.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: A task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: A task location
+        ^"
+quest,llama-2,yaml,6.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""This is a task d ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""This is a task location.""
+        ^"
+quest,llama-2,yaml,62.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,63.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,66.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,llama-2,yaml,67.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Search the castle ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: Hall of Knowledge
+        ^"
+quest,llama-2,yaml,7.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 17, column 1:
+    ```
+    ^"
+quest,llama-2,yaml,70.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,72.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Hunt for the anci ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: enchanted forest
+        ^"
+quest,llama-2,yaml,75.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: Find the puppy
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: The forest
+        ^"
+quest,llama-2,yaml,76.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,77.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 21, column 1:
+    ```bash
+    ^"
+quest,llama-2,yaml,79.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,8.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Kill the dragon""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""The forest""
+        ^"
+quest,llama-2,yaml,80.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,82.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""task_description""
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: ""quest_title""
+        ^"
+quest,llama-2,yaml,85.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Find the lost tr ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""The lost treasure""
+        ^"
+quest,llama-2,yaml,9.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""The task descrip ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""The task location""
+        ^"
+quest,llama-2,yaml,91.txt,key_completeness,The key 'title' is missing.
+quest,llama-2,yaml,95.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""Find the treasur ... 
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: ""The Lost Temple Quest""
+        ^"
+quest,llama-2,yaml,96.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Task description""
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""Task location""
+        ^"
+quest,llama-2,yaml,98.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: A task description.
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: A task location.
+        ^"
+quest,llama-2,yaml,99.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: ""Beat the evil wi ... 
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: ""The dungeon""
+        ^"
+quest,llama3.1,yaml,18.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 7, column 5:
+        - items:
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 10, column 5:
+        experience: 1000 points
+        ^"
+quest,llama3.1,yaml,25.txt,key_completeness,The key 'title' is missing.
+quest,llama3.1,yaml,41.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - coin_amount: 100
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 10, column 5:
+        type: rewards
+        ^"
+quest,llama3.1,yaml,53.txt,key_completeness,The key 'title' is missing.
+quest,llama3.1,yaml,61.txt,key_completeness,The key 'title' is missing.
+quest,llama3.1,yaml,88.txt,key_completeness,The key 'title' is missing.
+quest,llama3.1-70b,xml,40.txt,key_completeness,The key 'quest_giver' is missing.
+quest,llama3.1-70b,xml,97.txt,incorrect_syntax,"not well-formed (invalid token): line 25, column 32"
+quest,mpt,xml,21.txt,incorrect_syntax,"not well-formed (invalid token): line 18, column 25"
+quest,mpt,xml,39.txt,key_completeness,The key 'quest_giver' is missing.
+quest,mpt,yaml,24.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 5:
+        - description: ""task description""
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 12, column 5:
+        title: ""quest title""
+        ^"
+quest,mpt,yaml,35.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 8, column 4:
+       - description: task description
+       ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 9, column 5:
+        location: task location
+        ^"
+quest,mpt,yaml,60.txt,key_completeness,The key 'title' is missing.
+quest,mpt,yaml,67.txt,key_completeness,The key 'title' is missing.
+quest,mpt,yaml,73.txt,key_completeness,The key 'title' is missing.
+quest,mpt,yaml,80.txt,key_completeness,The key 'game' is missing.
+quest,mpt,yaml,98.txt,key_completeness,The key 'game' is missing.
+story,falcon,xml,18.txt,key_completeness,"The key 'beginning' is missing., The key 'ending' is missing."
+story,falcon,xml,55.txt,incorrect_syntax,"not well-formed (invalid token): line 4, column 353"
+story,falcon,xml,71.txt,key_completeness,The key 'beginning' is missing.
+story,falcon,xml,77.txt,key_completeness,"The key 'beginning' is missing., The key 'ending' is missing."
+story,falcon,xml,83.txt,empty_response,No XML content found
+story,falcon,yaml,18.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,falcon,yaml,2.txt,key_completeness,The key 'ending' is missing.
+story,falcon,yaml,22.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 2, column 3:
+      - title: Game Title
+      ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 5, column 3:
+      starting_point: the beginning of ... 
+      ^"
+story,falcon,yaml,25.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 7, column 1:
+    ---
+    ^"
+story,falcon,yaml,4.txt,incorrect_syntax,"while scanning a simple key
+  in ""<unicode string>"", line 9, column 1:
+    Before embarking on the grand qu ... 
+    ^
+could not find expected ':'
+  in ""<unicode string>"", line 11, column 1:
+    Gameplay:
+    ^"
+story,falcon,yaml,41.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '<block mapping start>'
+  in ""<unicode string>"", line 7, column 2:
+     players:
+     ^"
+story,falcon,yaml,46.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,falcon,yaml,53.txt,key_completeness,The key 'game' is not a dictionary.
+story,falcon,yaml,62.txt,key_completeness,The key 'beginning' is missing.
+story,falcon,yaml,63.txt,incorrect_syntax,"while parsing a block collection
+  in ""<unicode string>"", line 4, column 5:
+        - role: Primary Protagonist
+        ^
+expected <block end>, but found '?'
+  in ""<unicode string>"", line 7, column 5:
+        synopsis: In a world on the brin ... 
+        ^"
+story,falcon,yaml,88.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,falcon,yaml,94.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,falcon,yaml,97.txt,incorrect_syntax,"expected '<document start>', but found '<block sequence start>'
+  in ""<unicode string>"", line 5, column 1:
+    - title:的游戏标题
+    ^"
+story,gemini-pro,xml,33.txt,incorrect_syntax,"mismatched tag: line 4, column 409"
+story,gemini-pro,yaml,12.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 17:
+      title: Horizon: Zero Dawn
+                    ^"
+story,gemini-pro,yaml,19.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      title: Stellar Odyssey
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 3, column 31:
+      synopsis: ""Stellar Odyssey"" is an exhilarating adventure tha ... 
+                                  ^"
+story,gemini-pro,yaml,48.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world devastated ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 32:
+      synopsis: ""Sword of Shadows"" is a grand action-adventure game ... 
+                                   ^"
+story,gemini-pro,yaml,69.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 29:
+      title: The Legend of Zelda: Breath of the Wild
+                                ^"
+story,gemini-pro,yaml,95.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 26:
+      synopsis: In Revolution: Uprising, players take on the  ... 
+                             ^"
+story,gpt-3.5-turbo,xml,25.txt,empty_response,No XML content found
+story,gpt-3.5-turbo,yaml,65.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,gpt-3.5-turbo,yaml,66.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 26:
+      title: Haunted Oakville: Curse of the Shadows
+                             ^"
+story,gpt-3.5-turbo,yaml,87.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 12, column 1:
+    ```
+    ^"
+story,gpt-4,yaml,13.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a medieval world f ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 35:
+      synopsis: ""The Fall of Shadows"" follows Declan's journey from a  ... 
+                                      ^"
+story,gpt-4,yaml,18.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world consumed b ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 27:
+      synopsis: ""Lost Echoes"" is an epic fantasy adventure fil ... 
+                              ^"
+story,gpt-4,yaml,19.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Our hero awakens in a ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: 'Forgotten Memories' is an immersive RPG where player ... 
+                                     ^"
+story,gpt-4,yaml,21.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 16:
+      title: Faelan: The Rise of a Guardian
+                   ^"
+story,gpt-4,yaml,26.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 26:
+      title: Eldoria's Wizard: Lyra's Ascension
+                             ^"
+story,gpt-4,yaml,28.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 20:
+      title: Resurgence: Wasteland's Hope
+                       ^"
+story,gpt-4,yaml,31.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,gpt-4,yaml,37.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: You awaken in a desol ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 40:
+     ... sis: 'Retribution: An RPG Tale' is set in a post-apocalyptic wor ... 
+                                         ^"
+story,gpt-4,yaml,41.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 113:
+     ... ille. The synopsis is as follows:
+                                         ^"
+story,gpt-4,yaml,50.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 24:
+      title: Uncharted Seas: The Pirate's Dilemma
+                           ^"
+story,gpt-4,yaml,52.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: The protagonist, Elys ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 32:
+      synopsis: 'Crystal Guardian' is an epic fantasy game where pl ... 
+                                   ^"
+story,gpt-4,yaml,53.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Our protagonist, a yo ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 32:
+      synopsis: ""Bound by Destiny"" is an action-packed RPG filled w ... 
+                                   ^"
+story,gpt-4,yaml,57.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 28:
+      title: Neo York Detective: Xeno Chronicles
+                               ^"
+story,gpt-4,yaml,59.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Our protagonist, a yo ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 29:
+      synopsis: ""Dragon's Bane"" is an epic fantasy game where pl ... 
+                                ^"
+story,gpt-4,yaml,64.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Our protagonist, a si ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""Fields of Honor"" is an RPG that follows a humble  ... 
+                                  ^"
+story,gpt-4,yaml,66.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: The game begins in th ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 45:
+     ... ""Amnesia: Regaining the Throne"" is an action-adventure set in El ... 
+                                         ^"
+story,gpt-4,yaml,7.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In the futuristic cit ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 33:
+      synopsis: ""Biomorph: Rebirth"" follows a technologically enhanc ... 
+                                    ^"
+story,gpt-4,yaml,76.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In the realm of Ether ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""Project Etheria"" chronicles the apprentice mage's ... 
+                                  ^"
+story,gpt-4,yaml,8.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 25:
+      title: Colony Uprising: The Final Struggle
+                            ^"
+story,gpt-4,yaml,80.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 18:
+      title: Eldrealm: The Quest for Eldorado
+                     ^"
+story,gpt-4,yaml,83.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 18:
+      title: CryoFall: The Rise of the Stranded
+                     ^"
+story,gpt-4,yaml,93.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 7, column 1:
+    ```
+    ^"
+story,llama-2,xml,32.txt,incorrect_syntax,"not well-formed (invalid token): line 8, column 0"
+story,llama-2,xml,5.txt,incorrect_syntax,"syntax error: line 1, column 0"
+story,llama-2,xml,53.txt,empty_response,No XML content found
+story,llama-2,xml,76.txt,incorrect_syntax,"not well-formed (invalid token): line 8, column 0"
+story,llama-2,xml,78.txt,empty_response,No XML content found
+story,llama-2,yaml,10.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 2, column 133:
+     ... ating game story synopsis\ntitle: Game Title\ndescription: Detai ... 
+                                         ^"
+story,llama-2,yaml,25.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,33.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 7, column 1:
+    ---
+    ^"
+story,llama-2,yaml,38.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,40.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,62.txt,key_completeness,The key 'beginning' is missing.
+story,llama-2,yaml,63.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,70.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: ""The journey begins here""
+      ^
+expected <block end>, but found ','
+  in ""<unicode string>"", line 5, column 23:
+      title: ""Game Title1"", ""Game Title2"", ""Game Title3""
+                          ^"
+story,llama-2,yaml,75.txt,key_completeness,The key 'beginning' is missing.
+story,llama-2,yaml,81.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,82.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,91.txt,key_completeness,The key 'beginning' is missing.
+story,llama-2,yaml,96.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,llama-2,yaml,97.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 67, column 1:
+    ```yaml
+    ^"
+story,llama3.1,yaml,10.txt,key_completeness,"The key 'beginning' is missing., The key 'ending' is missing."
+story,llama3.1,yaml,11.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: ""Echoes of Eternity"" is an action-adventure game wher ... 
+                                     ^"
+story,llama3.1,yaml,13.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: The world is on the b ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 30:
+      synopsis: ""The Lost Relic"" is an action-packed adventure ga ... 
+                                 ^"
+story,llama3.1,yaml,16.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 55:
+     ...  choices have shaped the outcome: either restoring magic or its  ... 
+                                         ^"
+story,llama3.1,yaml,19.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world ravaged by ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""New Eden Rising"" is a post-apocalyptic role-playi ... 
+                                  ^"
+story,llama3.1,yaml,2.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Players take on the r ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""The Golden Isle"" 是一场扣人心弦的探险，引领玩家探索失落岛屿的秘密。每发现新线索， ... 
+                                  ^"
+story,llama3.1,yaml,29.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: Players find themselv ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 36:
+      synopsis: ""The Island of Elyria"" is an immersive survival adventu ... 
+                                       ^"
+story,llama3.1,yaml,4.txt,key_completeness,The key 'beginning' is missing.
+story,llama3.1,yaml,42.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 6, column 116:
+     ...  will shape the fate of Eridoria: restore lost magic or forge a  ... 
+                                         ^"
+story,llama3.1,yaml,43.txt,incorrect_syntax,"expected a single document in the stream
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+but found another document
+  in ""<unicode string>"", line 7, column 1:
+    ---
+    ^"
+story,llama3.1,yaml,55.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world where tech ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: ""Echoes of Eternity"" is a post-apocalyptic RPG about  ... 
+                                     ^"
+story,llama3.1,yaml,68.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world where magi ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 32:
+      synopsis: ""Eternal Twilight"" is an action-adventure game set  ... 
+                                   ^"
+story,llama3.1,yaml,96.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: The year is 2157, and ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 23:
+      synopsis: ""Eclipse"" is a sci-fi RPG set in a distant ... 
+                          ^"
+story,llama3.1,yaml,99.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 6, column 15:
+      title: Eridu: Rebirth
+                  ^"
+story,llama3.1-70b,yaml,11.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: 'Echoes of Tomorrow' follows the journey of a lone su ... 
+                                     ^"
+story,llama3.1-70b,yaml,21.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 11:
+        ending: The protagonist defeats the da ... 
+              ^"
+story,llama3.1-70b,yaml,33.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 23:
+      synopsis: ""Rebirth"" is a sci-fi role-playing game wh ... 
+                          ^"
+story,llama3.1-70b,yaml,4.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 3, column 11:
+        ending: The player must defeat the cur ... 
+              ^"
+story,llama3.1-70b,yaml,44.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 20:
+      title: Shadowfall: The Lost Prophecy
+                       ^"
+story,llama3.1-70b,yaml,53.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In the world of Erido ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""The Lost Oracle"" follows Elian, a young apprentic ... 
+                                  ^"
+story,llama3.1-70b,yaml,55.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a world where magi ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 31:
+      synopsis: ""Echoes of Magic"" is an open-world RPG where you e ... 
+                                  ^"
+story,llama3.1-70b,yaml,63.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 5, column 19:
+      title: Last Hope: Rebirth
+                      ^"
+story,llama3.1-70b,yaml,68.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: ""Echoes of Eternity"" is an action-packed open-world R ... 
+                                     ^"
+story,llama3.1-70b,yaml,70.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: ""Echoes of Eternity"" follows a lone survivor's journe ... 
+                                     ^"
+story,llama3.1-70b,yaml,79.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 2, column 3:
+      beginning: In a post-apocalyptic ... 
+      ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 4, column 34:
+      synopsis: ""Echoes of Eternity"" is a sci-fi RPG set in a world w ... 
+                                     ^"
+story,mpt,yaml,14.txt,incorrect_syntax,"while parsing a block mapping
+  in ""<unicode string>"", line 1, column 1:
+    game:
+    ^
+expected <block end>, but found '<scalar>'
+  in ""<unicode string>"", line 16, column 3:
+      ""- Ready for more adventures in  ... 
+      ^"
+story,mpt,yaml,26.txt,incorrect_syntax,"mapping values are not allowed here
+  in ""<unicode string>"", line 4, column 49:
+     ... 's a brief summary of the events:
+                                         ^"
+story,mpt,yaml,45.txt,key_completeness,The key 'synopsis' is missing.
+story,mpt,yaml,75.txt,incorrect_syntax,"while scanning for the next token
+found character '`' that cannot start any token
+  in ""<unicode string>"", line 6, column 1:
+    ```
+    ^"
+story,mpt,yaml,95.txt,key_completeness,"The key 'beginning' is missing., The key 'ending' is missing."

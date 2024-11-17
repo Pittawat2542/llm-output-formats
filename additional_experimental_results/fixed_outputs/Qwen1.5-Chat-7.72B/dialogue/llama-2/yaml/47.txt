@@ -1,0 +1,12 @@
+```
+game:
+  dialogues:
+   - order: "dialogue_order_1"
+     speaker: "SpeakerA"
+     text: "Dialogue 1"
+   - order: "dialogue_order_2"
+     speaker: "SpeakerB"
+     text: "Dialogue 2"
+   # Add more entries as needed
+```
+This YAML code fixes the incorrect syntax by replacing spaces with hyphens in the `order` keys and using quotes for string values. It also adds two example dialogue entries, but you can remove or add more depending on your game's requirements.

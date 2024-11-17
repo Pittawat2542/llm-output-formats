@@ -1,0 +1,34 @@
+```yaml
+game:
+  description: "A challenging quest for the old wizard awaits. Collect all the required ingredients, defeat the dragon, gather dew from the moonlit grove, and return them to the wizard."
+  id: "123-xyz"
+  objective: "Gather all listed ingredients, including the rare dragon feather, lunar dew, and shadow orchid, and deliver them to the old wizard. Successfully completing this quest will grant a magical amulet and 500 gold coins for the adventurer."
+  quest_giver: "Old Wizard"
+  reward: {
+    type: "amulet",
+    value: "A rare magical amulet",
+    description: "This enchanted artifact enhances your abilities and grants a +10 bonus to attack rolls. It also provides resistance to fire damage and magical damage for 3 hours."
+  }
+  tasks:
+    - description: "Find the dragon feather on the dragon's peak."
+      location: "Dragon's Peak"
+      objective: "Capture, examine, and return the rare dragon feather to the wizard."
+      order: 1
+
+    - description: "Obtain lunar dew from the lunar grove at midnight."
+      location: "Lunar Grove"
+      objective: "Extract the ethereal liquid from a moonlit dewdrop using your magic杖. The dew will contain a moderate amount of energy and can be used to heal yourself or cast spells."
+      order: 2
+
+    - description: "Find and collect a shadow orchid in the dark forest."
+      location: "Dark Forest"
+      objective: "Dive into the depths of the forest and locate a small,leafy plant. Use your magic staff to extract and bring back a sample of the elusive shadow orchid for analysis."
+      order: 3
+
+    - description: "Meet with the old wizard at the designated location to report your progress and receive your reward."
+      location: "Wizards' Hall"
+      objective: "Present the collected ingredients, including the rare dragon feather, lunar dew, and shadow orchid sample, to the old wizard. He will examine them and determine the order in which they were found and gathered."
+      order: 4
+  title: "The Wizard's Potion Ingredients"
+
+```

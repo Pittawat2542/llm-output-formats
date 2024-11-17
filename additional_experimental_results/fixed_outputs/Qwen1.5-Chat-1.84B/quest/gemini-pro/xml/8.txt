@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<game>
+	<id>01</id>
+	<title>The Lost Jewels of Zandar</title>
+	<objective>Retrieve the lost jewels stolen from the royal family of Zandar</objective>
+	<description>The royal family of Zandar has been robbed of their priceless jewels. The king has called upon adventurers to help retrieve them. The jewels are said to be hidden in a secret chamber deep within the Bandit's Cave, a dangerous lair filled with traps and monsters.</description>
+	<reward>A portion of the recovered jewels and eternal gratitude of the royal family</reward>
+	<quest-giver>King Oberon of Zandar</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Travel to the Bandit's Cave located in the Dunrock Mountains</objective>
+				description>The Bandit's Cave is a treacherous and dangerous place. Be prepared for a challenging journey and fierce enemies.</description>
+			<location>Dunrock Mountains</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Infiltrate the Bandit's Cave and locate the secret chamber where the jewels are hidden</objective>
+				description>The cave is heavily guarded by bandits, so stealth and cunning will be required to infiltrate it and find the secret chamber.</description>
+			<location>Bandit's Cave</location>
+			<task>
+				<order>3</order>
+				<objective>Recover the lost jewels from the secret chamber</objective>
+				"description>The task requires a combination of stealth, intelligence, and physical strength. The first step is to approach the entrance, avoiding detection by the bandits.</description>
+			<location>Bandit's Cave Entrance</location>
+			<task>
+				<order>4</order>
+				<objective>Interact with the Bandits to gain access to the secret chamber</objective>
+				"description>The bandits may try to resist your attempts, but be prepared for surprise attacks and traps. Use your weapons wisely to avoid taking damage and navigate through the chamber.</description>
+			<location>Secret Chamber Entrance</location>
+			<task>
+				<order>5</order>
+				<objective>Find the hidden jewels in the secret chamber</objective>
+				"description>You must solve a puzzle to unlock the chamber and find the hidden jewels. This may involve deciphering clues, solving riddles, or overcoming obstacles.</description>
+			<location>Secret Chamber Puzzle</location>
+			<task>
+				<order>6</order>
+				<objective>Unlock the secret chamber by completing the puzzle</objective>
+				"description>The final step is to retrieve the jewels and return them to King Oberon in Zandar. Be careful not to reveal your presence or approach the exit too quickly, as bandits may pursue you.</description>
+			<location>Zandar Castle Entrance</location>
+			<task>
+		</tasks>
+			<task>
+				<order>7</order>
+				<objective>Return the jewels to King Oberon in Zandar</objective>
+				"description>You have successfully retrieved the lost jewels and returned them to King Oberon. Be prepared to receive his gratitude and reward for your service.</description>
+			<location>Zandar Castle</location>
+			<task>
+				<order>8</order>
+				<objective>Celebrate your victory with a feast or celebration in Zandar's royal palace</objective>
+				"description>The bandits will be punished for their theft and King Oberon will reward you with a generous prize for your bravery and service to the kingdom.</description>
+			<location>Zandar Palace</location>
+			<task>
+				<order>9</order>
+				<objective>Share your story and experience with the royal family and other adventurers in Zandar</objective>
+				"description>Your actions have not only saved the royal family's jewels but also brought honor to yourself and your fellow adventurers. Share your journey with the kingdom and inspire others to take on dangerous quests.</description>
+			<location>Zandar Assembly Hall</location>
+			<task>
+				<order>10</order>
+				<objective>Restock your supplies and continue adventuring in Zandar</objective>
+				"description>The quest is not over yet. There are more challenges and adventures waiting for you to explore, so be ready for the next adventure with King Oberon's trusty companions.</description>
+			<location>Zandar Dungeons</location>
+			<task>
+		</tasks>
+	</tasks>
+</game>

@@ -1,0 +1,11 @@
+XML:
+```xml
+<tasks>
+  <task id="quest-id">
+      <order xsi:type="string" value="id" /> <!-- Additional task node goes here -->
+      <objective>
+      	<xsi:type="string" value="(title|objective|description)" />
+      	</objective>
+      	<description xsi:type="string" value="(description|objective|reward|giver)" /> <!-- Additional task node goes here -->
+</tasks>
+```

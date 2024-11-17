@@ -1,0 +1,61 @@
+```xml
+<?xml version="1.0" ?> <game>
+	<id>001</id>
+	<title>The Lost Artifact</title>
+	 Objective: Find the lost artifact and return it to Eldareth.
+	 Description: The ancient artifact of Eldoran is missing, and you must recover it before time runs out.
+	 Reward: 500 gold coins and a special magic item.
+	 Quest-giver: High Priest Eldareth.
+	 Tasks:
+			<task>
+				Order:1
+			 Objective: Enter the dark elven tower
+			 Description: You will need to find a way to enter the guarded tower of the dark elves.
+			 Location: Dark Elven Tower.
+			</task>
+			<task>
+				Order:2
+			 Objective: Find the artifact and retrieve it
+			 Description: The artifact is located at the top of the tower, guarded by the elf sorceress.
+			 Location: Dark Elven Tower top.
+			</task>
+			<task>
+				Order:3
+			 Objective: Return the artifact to Eldareth
+			 Description: Once you have the artifact, escape the tower and return to Eldareth in the temple.
+			 Location:Eldoran Temple.
+			</task>
+		</tasks>
+	</game>
+```
+Output:
+```xml
+<game>
+	<id>001</id>
+	<title>The Lost Artifact</title>
+	 Objective: Find the lost artifact and return it to Eldareth.
+	 Description: The ancient artifact of Eldoran is missing, and you must recover it before time runs out.
+	 Reward: 500 gold coins and a special magic item.
+	 Quest-giver: High Priest Eldareth.
+	 Tasks:
+			<task>
+				Order:1
+			 Objective: Enter the dark elven tower
+			 Description: You will need to find a way to enter the guarded tower of the dark elves.
+			 Location: Dark Elven Tower.
+			</task>
+			<task>
+				Order:2
+			 Objective: Find the artifact and retrieve it
+			 Description: The artifact is located at the top of the tower, guarded by the elf sorceress.
+			 Location: Dark Elven Tower top.
+			</task>
+			<task>
+				Order:3
+			 Objective: Return the artifact to Eldareth
+			 Description: Once you have the artifact, escape the tower and return to Eldareth in the temple.
+			 Location:Eldoran Temple.
+			</task>
+		</tasks>
+</game>
+```

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the Golden Chalice from the Lost Temple",
+    "description": "Rumor has it that a long-lost temple holds the fabled Golden Chalice, said to grant immense power. However, the temple is hidden deep within the dense jungle and filled with deadly traps.",
+    "reward": "A Golden Chalice and 1000 Gold Coins",
+    "quest-giver": "Professor Thaddeus Wystan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the jungle to find the Lost Temple's entrance",
+          "description": "Beware of snakes, spiky traps, and other dangers as you make your way deeper into the jungle. Follow the ancient ruins' map etched on a stone pedestal near Professor Wystan's camp.",
+          "location": "Deep Jungle (Coordinates: 43.7232\u00b0 N, 79.3832\u00b0 W)"
+        },
+        {
+          "order": "2",
+          "objective": "Disable the ancient traps and unlock the temple's doors",
+          "description": "Use your knowledge of ancient mechanisms to disable deadly traps and find hidden switches that will grant you access to the inner sanctum.",
+          "location": "Lost Temple Entrance (Coordinates: 43.7212\u00b0 N, 79.3809\u00b0 W)"
+        },
+        {
+          "order": "3",
+          "objective": "Raise the Golden Chalice from its pedestal and retrieve it",
+          "description": "A hidden key is required to access the pedestal where the Golden Chalice rests. You can find the key in a secret compartment behind one of the temple's stone walls.",
+          "location": "Lost Temple Inner Sanctum (Coordinates: 43.7208\u00b0 N, 79.3802\u00b0 W)"
+        }
+      ]
+    }
+  }
+}

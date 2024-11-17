@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q123",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the Lost Artifact from the Soulless Castle.",
+    "description": "This quest requires the player to journey to the Soulless Castle, defeat the evil sorcerer, and retrieve the lost artifact. The artifact is crucial to the survival of our kingdom.",
+    "reward": "500 Gold and the Mystic Sword",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Defeat the guards at the Soulless Castle entrance",
+          "description": "You need to defeat the guards stationed at the entrance of the Soulless Castle to gain access.",
+          "location": "Soulless Castle Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Find the sorcerer's hideout",
+          "description": "Search the castle and locate the sorcerer's hideout.",
+          "location": "Soulless Castle"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the sorcerer and retrieve the artifact",
+          "description": "Finally, defeat the sorcerer in a battle and retrieve the lost artifact at his hidden chamber.",
+          "location": "Sorcerer's Hidden Chamber"
+        }
+      ]
+    }
+  }
+}

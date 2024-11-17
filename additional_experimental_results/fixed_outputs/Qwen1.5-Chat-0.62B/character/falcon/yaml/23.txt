@@ -1,0 +1,37 @@
+The provided YAML data does not have any errors. The correct syntax for the `game` section is:
+```
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: `bold`|height in float value
+      weight: |weight in float value|bold|weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+
+And here's the corrected Markdown code block:
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: `bold`|height in float value
+      weight: |weight in float value|bold|weight in float value
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

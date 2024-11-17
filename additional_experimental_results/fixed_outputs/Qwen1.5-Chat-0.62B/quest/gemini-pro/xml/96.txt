@@ -1,0 +1,63 @@
+The correct XML data is provided between ```xml and ```.
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Missing Sword</title>
+	<objective>Retrieve the missing sword from the Goblin King</objective>
+	<description>The king's sword has been stolen by the Goblin King, and the king has asked you to retrieve it.</description>
+	<reward>The king's favor and a new sword</reward>
+	<quest-giver>King Oberon</quest-giver>
+	<tasks>
+		<task>
+			order>1</order>
+		 Objective>Travel to the Goblin Caves</objective>
+			Descrition: The Goblin Caves are located in the Misty Mountains, just north of the village.
+		location>Misty Mountains
+		</task>
+		<task>
+			order>2</order>
+		 Objective>Defeat the Goblin King</objective>
+			Descrition: The Goblin King is a powerful warrior, so be prepared for a tough fight.
+		 location>Goblin Caves
+		</task>
+		<task>
+			order>3</order>
+		 Objective>Retrieve the missing sword</objective>
+			Descrition: Once you have defeated the Goblin King, search his throne room for the missing sword.
+		.location=Goblin Caves
+		</task>
+		<task>
+			order>4</order>
+		 Objective>Return the sword to King Oberon</objective>
+			Descrition: Once you have retrieved the sword, return it to King Oberon in the castle.
+		.location	C城堡
+		</task>
+		<task>
+		<task>
+			order>5</order>
+		 Objective>Find a way back to the village</objective>
+			Descrition: You can search for a way back to the village by following the trail from the Misty Mountains.
+		.location	Misty Mountains
+		</task>
+		<task>
+			order>6</order>
+		 Objective>Observe the movements of the Goblin King</objective>
+			Descrition: The Goblin King is a powerful warrior, so be prepared to observe his movements.
+		location=Goblin Caves
+		</task>
+		<task>
+			order>7</order>
+		 Objective>Find the lost sword</objective>
+			Descrition: You can search for the lost sword by following the trail from the Misty Mountains and following the tracks of the Goblin King.
+		 location	Misty Mountains
+		</task>
+		<task>
+			order>8</order>
+		 Objective>Return to the village</objective>
+			Descrition: Once you have found the lost sword, return to the village in a way that is safe and appropriate for your level of experience.
+		location	Misty Mountains
+		</task>
+	</tasks>
+</game>
+```

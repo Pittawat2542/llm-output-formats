@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Find the legendary artifact buried deep within the ancient temple.</objective>
+    <description>Long ago, a powerful artifact was hidden within an ancient temple, known only to a few. Your quest is to locate this artifact and bring it safely back. The journey will be filled with challenges and dangers, but the rewards are unimaginable.</description>
+    <reward>Ancient artifact with immense power.</reward>
+    <quest-giver>Elder Norn</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Obtain the ancient key from the Temple Guardian</objective>
+            <description>You must first defeat the Temple Guardian to obtain the ancient key. It is located inside a hidden chamber within the temple's eastern wing.</description>
+            <location>Temple's Eastern Wing</location>
+        </task>
+    </tasks>
+</game>
+```

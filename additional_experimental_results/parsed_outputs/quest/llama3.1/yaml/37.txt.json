@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Find the ancient artifact and retrieve it for the village elder.",
+    "id": 1,
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "quest_giver": "Eira, the Village Elder",
+    "reward": "A magical amulet granting +10 to intelligence and a chest containing 100 gold pieces",
+    "tasks": [
+      {
+        "description": "Find the entrance to the lost temple hidden in the nearby forest.",
+        "location": "The Whispering Woods (X=345, Y=-217)",
+        "objective": "Locate the entrance to the lost temple.",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous temple maze and find the artifact room.",
+        "location": "The Lost Temple of Eldarath (X=123, Y=456)",
+        "objective": "Reach the artifact room without triggering any traps.",
+        "order": 2
+      },
+      {
+        "description": "Defeat the guardian of the artifact and claim it as your own.",
+        "location": "The Artifact Chamber (X=901, Y=-32)",
+        "objective": "Collect the artifact and prepare for its return to the village.",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Artifact of Eldarath"
+  }
+}

@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Ancient Relic</title>
+	<objective>Find and retrieve the ancient relic from the lost temple.</objective>
+	<description>Legends tell of a powerful ancient relic hidden within the ruins of a long-lost temple. Many have tried to find it, but none have succeeded. Are you brave enough to venture into the temple and retrieve the relic?</description>
+	<reward>The relic, along with a substantial amount of gold and experience.</reward>
+	<quest-giver>Old Wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost temple.</objective>
+			<description>The first step is to find the lost temple. It is said to be located deep within the forest, but its exact location is unknown.</description>
+			<location>Forest of Shadows</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardians of the temple.</objective>
+			<description>Once you have found the temple, you will need to defeat the guardians who protect it. These guardians are powerful and dangerous, so be prepared for a fight.</description>
+			<location>Lost Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the ancient relic.</objective>
+			<description>Once you have defeated the guardians, you can search the temple for the ancient relic. It is said to be hidden in a secret chamber, so be sure to search thoroughly.</description>
+			<location>Lost Temple</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the relic to the old wizard.</objective>
+			<description>Once you have found the relic, return it to the old wizard. He will be overjoyed, and he will reward you for your bravery.</description>
+			<location>Wizard's Tower</location>
+		</task>
+	</tasks>
+</game>
+```

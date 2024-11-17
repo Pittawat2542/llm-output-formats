@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "Defeat the Dragon",
+    "objective": "To defeat the dragon and save the kingdom.",
+    "description": "The dragon has been terrorizing the kingdom for years, and King Arthur has called upon the brave warriors of the land to slay it. The dragon's lair is located in the Dark Forest, a treacherous place filled with dangerous creatures and hidden traps.",
+    "reward": "A large sum of gold and the title of \"Dragon Slayer\".",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Dark Forest.",
+          "description": "The Dark Forest is located to the east of the kingdom. It is a dangerous place, so be sure to come prepared.",
+          "location": "East of the Kingdom"
+        },
+        {
+          "order": "2",
+          "objective": "Find the dragon's lair.",
+          "description": "The dragon's lair is located in the deepest part of the Dark Forest. It is a dark and dangerous place, so be sure to be careful.",
+          "location": "Deepest part of the Dark Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the dragon.",
+          "description": "The dragon is a powerful and dangerous creature. Be sure to come prepared for a tough fight.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

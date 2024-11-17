@@ -1,0 +1,118 @@
+The correct YAML data for a template with game information is:
+```yaml
+game:
+  beginning: The beginning of the game
+  ending: The end of the game
+  synopsis: Game story synopsis
+  title: Game Title
+  objectives:
+    - Escape from a sinister mining facility.
+    - Solve a series of intricate underground tunnels.
+    - Overcome hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  enemies:
+    - A dangerous mining magnate
+    -危险 creatures
+    - Treacherous puzzles
+
+  objectives_2:
+    - Discover a dark plot hatched by an eccentric mining magnate.
+    - Overcome hazardous creatures and treacherous puzzles.
+
+  objectives_3:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  objectives_4:
+    - Overcome numerous hurdles and challenges, including hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and enemies, each with their own motives and tricks.
+
+  objectives_5:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and enemies, each with their own motives and tricks.
+    - Finally, you’ll reach the surface and freedom.
+```
+Here's a sample code block that outputs the corrected YAML data to a Markdown file:
+```yaml
+---
+# Template for a game with details
+
+game:
+  beginning: The beginning of the game
+  ending: The end of the game
+  synopsis: Game story synopsis
+  title: Game Title
+  objectives:
+    - Escape from a sinister mining facility.
+    - Solve a series of intricate underground tunnels.
+    - Overcome hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  enemies:
+    - A dangerous mining magnate
+    -危险 creatures
+    - Treacherous puzzles
+
+  objectives_2:
+    - Discover a dark plot hatched by an eccentric mining magnate.
+    - Overcome hazardous creatures and treacherous puzzles.
+
+  objectives_3:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  objectives_4:
+    - Overcome numerous hurdles and challenges, including hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and enemies, each with their own motives and tricks.
+
+  objectives_5:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and enemies, each with their own motives and tricks.
+    - Finally, you’ll reach the surface and freedom.
+```
+To output this template to a Markdown file, you can use the following code:
+```yaml
+---
+# Template for a game with details
+
+game:
+  beginning: The beginning of the game
+  ending: The end of the game
+  synopsis: Game story synopsis
+  title: Game Title
+  objectives:
+    - Escape from a sinister mining facility.
+    - Solve a series of intricate underground tunnels.
+    - Overcome hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  enemies:
+    - A dangerous mining magnate
+    -危险 creatures
+    - Treacherous puzzles
+
+  objectives_2:
+    - Discover a dark plot hatched by an eccentric mining magnate.
+    - Overcome hazardous creatures and treacherous puzzles.
+
+  objectives_3:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and foes, each with their own motives and tricks.
+
+  objectives_4:
+    - Overcome numerous hurdles and challenges, including hazardous creatures and treacherous puzzles.
+    - Discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and enemies, each with their own motives and tricks.
+
+  objectives_5:
+    - Make your way through unpredictable obstacles and discover the truth about what lurks in the depths of the mine.
+    - Along the way, you’ll encounter your allies and敌人, each with their own motives and tricks.
+    - Finally, you’ll reach the surface and freedom.
+```
+This Markdown code will output a template that has been formatted as YAML by the program, with a template tag "Template" and content in YAML format. The Markdown file will then be saved as "template.html".

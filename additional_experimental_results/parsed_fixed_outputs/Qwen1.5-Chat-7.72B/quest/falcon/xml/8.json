@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest Adventure",
+    "objective": "Complete the Temple",
+    "description": "Embark on a quest to find the ancient artifact.",
+    "reward": "Gold coins and a rare item",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Deliver the message to the village elder",
+        "description": "Follow the marked path to the east",
+        "location": "Village East Gate"
+      }
+    }
+  }
+}

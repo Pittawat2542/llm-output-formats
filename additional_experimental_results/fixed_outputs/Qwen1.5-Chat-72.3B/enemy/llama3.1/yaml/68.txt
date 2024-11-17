@@ -1,0 +1,29 @@
+There doesn't seem to be any syntax errors in the provided YAML data. Both examples are correctly formatted. Here they are again for reference:
+
+```yaml
+game:
+  enemy:
+    description: The Dark Knight
+    id: E001
+    name: Black Dragon
+    stats:
+      atk: 200
+      def: 300
+      hp: 1000
+      mp: 500
+      spd: 150
+
+# Or, for a more complex enemy:
+
+game:
+  enemy:
+    description: The Ancient Lizard King
+    id: E002
+    name: Lizard King
+    stats:
+      atk: 250
+      def: 350
+      hp: 1200
+      mp: 600
+      spd: 180
+```

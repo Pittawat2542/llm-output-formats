@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to the museum.</objective>
+	<description>In a forgotten temple deep in the jungle, an invaluable artifact has been reported missing. Your mission is to locate it and bring it back to the museum for safekeeping.</description>
+	<reward>1000 gold coins and fame</reward>
+	<quest-giver>NPC - Archaeologist Henry</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the temple</objective>
+			<description>You need to discover the hidden entrance among the dense vegetation.</description>
+			<location>Jungle clearing, west of the village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Survive the traps and puzzles</objective>
+			<description>The temple is filled with dangerous traps and riddles. Overcome them to reach the artifact.</description>
+			<location>Inside the temple, deepest chamber</location>
+		</task>
+	</tasks>
+</game>
+```

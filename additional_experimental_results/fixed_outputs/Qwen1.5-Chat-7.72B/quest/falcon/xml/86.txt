@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>101</id>
+    <title>Get Lucky</title>
+    <objective>find a lucky 4-leaf clover</objective>
+    <description>A mysterious traveler is the quest giver.</description>
+    <reward>gold coins</reward>
+    <quest-giver>traveler#102</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>find a 4-leaf clover</objective>
+            <description>Search in the forest near a small shrine.</description>
+            <location>Forest Shrine</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective-cheat>avoid guards at the gambling house</objective-cheat>
+            <description>Be careful and be quick!</description>
+            <location>Gambling House</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?xml version="1.0" encoding="utf-8"?>
+<game xmlns="http://www.w3.org/ns/2015/Game">
+    <id>123</id>
+    <title>The Lost Treasure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>In this quest, you must embark on a journey to find the lost treasure of the ancient civilization. The treasure is said to be buried deep within a treacherous jungle, guarded by dangerous creatures and clever puzzles. Do you have what it takes to uncover the treasure and claim its riches?</description>
+    <reward>Ancient artifact and gold coins</reward>
+    <quest-giver>Captain Jack</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Collect the map</objective>
+            <description>To begin your journey, you must first find the map that reveals the location of the hidden treasure. The map is said to be hidden within an old pirate shipwreck on a remote island.</description>
+            <location>Island of Skulls</location>
+        </task>
+        <task order="2">
+            <objective>Decode the riddle</objective>
+            <description>The map has a riddle that needs to be solved to uncover the next clue. The riddle goes: "In a place where night meets day, where the sun touches the sea, search beneath the ancient tree."</description>
+            <location>The Enchanted Forest</location>
+        </task>
+        <task order="3">
+            <objective>Defeat the guardian</objective>
+            <description>Deep within the jungle, a fierce guardian protects the treasure. You must defeat this guardian in a battle of wits and strength before you can reach the final resting place of the treasure.</description>
+            <location>The Temple of Shadows</location>
+        </task>
+    </tasks>
+</game
+XML:

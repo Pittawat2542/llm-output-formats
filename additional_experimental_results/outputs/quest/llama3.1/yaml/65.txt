@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: The village of Willowdale has been plagued by a mysterious illness, afflicting many of its residents. The villagers believe it's the work of a dark cult that has set up camp in the nearby Whispering Woods.
+  id: Q001
+  objective: Investigate the dark cult in the Whispering Woods and put an end to their nefarious activities.
+  quest_giver: Eira, the village elder
+  reward: 100 gold pieces and a potion of healing
+  tasks:
+  - description: Gather information about the dark cult from the villagers
+    location: Willowdale Village Square
+    objective: Learn the identity and plans of the dark cult
+    order: 1
+  - description: Infiltrate the Whispering Woods and gather evidence of the cult's activities
+    location: Whispering Woods
+    objective: Find signs of ritual sacrifice or other dark magic practices
+    order: 2
+  - description: Confront and defeat the leader of the dark cult in a final showdown
+    location: Cultist Lair, Whispering Woods
+    objective: Eliminate the cult's leadership and put an end to their plans
+    order: 3
+  title: The Cursed Village
+```

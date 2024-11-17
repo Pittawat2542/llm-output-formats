@@ -1,0 +1,82 @@
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+
+### Solution (python)
+"""
+
+import re
+from typing import Tuple, Union
+
+
+def fix_yaml_syntax(data: str) -> str:
+    match = re.search(r"^[<][\s*](.*?)[\s>]$", data)
+    if match is None or len(match.group(0)) != len(data):
+        return f'{data} - Syntax error.'
+
+    new_data: str = match.group(1)
+    new_data = new_data.replace('<', '').replace('>', '')  # remove < and > chars
+    if ':' in new_data:
+        return f'{data} - Syntax error.'
+
+    lines = new_data.split("\n")
+
+    start_line = 0
+    end_line = len(lines)
+
+    while start_line < end_line and lines[start_line].strip() == '':
+        start_line += 1
+    if start_line > end_line - 1:
+        return f'{data} - Syntax error.'
+
+    while end_line > start_line - 1 and lines[end_line - 1].strip() == '':
+        end_line -= 1
+    if start_line < 0 or end_line <= len(lines) - 2:
+        return f'{data} - Syntax error.'
+
+    if re.search("^<document", lines[start_line], re.MULTILINE):
+        new_data = ''
+        for i, line in enumerate(lines[start_line + 1:]):
+            match = re.search('\n', line)
+            if match is None:
+                # if we can't find the first newline in a line, then there are multiple lines of dialogue
+                continue
+
+            new_data += '- ' + lines[start_line + i + 1][:match.end()] + '\n'
+        return f'{data} - Syntax error.'  # this should never happen!
+    else:
+        return new_data
+
+
+def fix_yaml(yml_text: str) -> Union[str, Tuple[str, str]]:
+    lines = yml_text.split("\n")
+    new_lines: list = []
+    for line in lines:
+        match = re.search('^<document', line, re.MULTILINE)
+        if match is not None and len(line[match.start():match.end()]) > 0:
+            continue
+
+        fix = fix_yaml_syntax(line)
+        if fix == '{} - Syntax error.' or fix == '{} - Syntax error.':  # if we have syntax error, then return None
+            return (None, '')
+
+        new_lines.append(fix)
+    new_text = "\n".join(new_lines)
+    if new_text == yml_text:
+        return (yml_text, new_text)  # if there is no change, just return original text and new text
+    else:
+        return (yml_text, new_text)
+
+
+def main():
+    with open("test.md") as file:
+        data = file.read()
+
+    print(fix_yaml(data))
+    # ('game:\ndialogues:\n  order:\n    speaker:\n      name\n    text:\n      dialogue\n', 'game:\ndialogues:\n  - order:\n    speaker:\n      name\n    text:\n      dialogue\n')
+
+
+if __name__ == '__main__':
+    main()

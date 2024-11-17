@@ -1,0 +1,30 @@
+```python
+# Import the necessary libraries
+import os
+from pathlib import Path
+
+
+# Define a function to create a new file in the root directory
+def create_new_file(filename):
+    with open(filename, 'w') as f:
+        f.write('This is a new text file!')
+        print(f"New file created successfully at {os.path.abspath(filename)}")
+
+
+# Define a function to create a new directory in the root directory
+def create_new_directory(dirname):
+    try:
+        os.mkdir(dirname)
+        print(f"{dirname} created successfully!")
+    except FileExistsError:
+        print(f"Directory {dirname} already exists!")
+
+
+# Create a new directory called "test_dir" in the root directory
+create_new_directory('test_dir')
+
+# Create a new file called "test.txt" inside "test_dir"
+filename = os.path.join(Path.cwd(), 'test_dir', 'test.txt')
+create_new_file(filename)
+
+

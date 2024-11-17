@@ -1,0 +1,102 @@
+
+## Instruction:
+Fix the following incorrect XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+XML.
+
+Error: invalid token: line 23, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+Original:
+```xml
+
+<game>
+	<dialogues>
+		<dialogue>
+			<order>Dialogue order text</order>
+			<speaker>Speaker name</speaker>
+			<text>Narration text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 1</speaker>
+			<text>Text text text text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 2</speaker>
+			<text>Text text text text text text</text>
+		</dialogue>
+		<speakername>Speaker 1</speakername>
+		<text>Narratice text text text text text text</text>
+	</dialogues>
+</game>
+```
+
+# Markdown code to convert for XML format
+```markdown
+## Output format
+```xml
+
+### Response:
+
+## Instruction:
+Fix the following incorrect XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+XML.
+
+Error: invalid character reference: line 23, column 1
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+Original:
+```xml
+
+<game>
+	<dialogues>
+		<dialogue>
+			<order>Dialogue order text</order>
+			<speaker>Speaker name</speaker>
+			<text>Narration text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 1</speaker>
+			<text>Text text text text</text>
+		</dialogue>
+		<dialogue>
+			<order>Order text text text</order>
+			<speaker>Speaker 2</speaker>
+			<text>Text text text text text text</text>
+		</dialogue>
+		<speakername>Speaker 1</speakername>
+		<text>Narration text text text text text text</text>
+	</dialogues>
+</game>
+```
+
+# Markdown code to convert for XML format
+```markdown
+## Output format
+```xml
+
+### Response:

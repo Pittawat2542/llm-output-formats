@@ -1,0 +1,28 @@
+
+```yaml
+game:
+  character:
+    age: 24
+    background: "Jason was born in a small town in the USA. He was raised by his mother and father, who were both farmers. Jason's mother was a strict disciplinarian, while his father was more laid-back. Jason was an average student in school, but he excelled in sports. After high school, he attended college on a football scholarship. He majored in business and graduated with honors."
+    first_name: Jason
+    id: 1234567890
+    last_name: Smith
+    physical_appearance:
+      eye_color: brown
+      hair_color: brown
+      height: 178.0 # cm, or 1.78 m for metric system
+      weight: 81.65 # kg
+    place_of_birth: USA
+    role: hero
+    species: human
+```
+
+### Request:
+
+```css
+GET /characters/1234567890 HTTP/1.1
+Host: localhost:8000
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.2924.103 Safari/537.36
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFwcGxlLmNvbS5hdXRoL3Rpc2NuYWwiLCJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SjK8jDs0J7w9z_rKUOvu9xWjX1Xa5bjVbq3Cv5nG8Fg
+```

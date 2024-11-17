@@ -1,0 +1,31 @@
+ 
+```yaml
+game:
+  beginning: in a world ravaged by an ancient cataclysm, humanity clings to survival in the sprawling metropolis of New Eden.
+  ending: The fate of humanity hangs in the balance as the player must confront the mastermind behind the conspiracy and make a choice that will determine the course of history.
+  synopsis: Echoes of Tomorrow follows the journey of Maya, a gifted scientist-turned-insurgent, as she uncovers a sinister plot to exploit the planet' s dwindling resources. As she delves deeper into the mystery, she must navigate the treacherous landscape of corrupt corporations, underground resistance movements, and ancient technologies that hold the key to the future.
+  title: Echoes of Tomorrow
+```
+
+
+### Exercise 5 Solution (Python Code)
+```python
+import yaml
+from datetime import datetime
+
+# read in YAML data file with datetime format
+with open("game_data.yml", "r") as f:
+    game_data = yaml.safe_load(f)
+
+    # convert datetime strings to Python objects
+    for key, value in game_data.items():
+        if isinstance(value, str):
+            if ":" in value:
+                dt = datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
+                game_data[key] = dt
+
+    # convert Python objects to strings and write to YAML file with datetime format
+    with open("new_game_data.yml", "w") as f:
+        f.write(yaml.dump(game_data))
+```
+

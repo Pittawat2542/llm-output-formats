@@ -1,0 +1,9 @@
+```yaml
+game:
+  beginning: The starting moment in the adventure
+  ending: The climactic conclusion
+  synopsis: A thrilling narrative that follows characters through trials and adventures
+  title: Epic Game Adventure
+```
+
+The YAML data provided had a single backtick (`) at the beginning of the `synopsis` field, which caused the error. I have removed the extra backtick and updated the text for better readability.

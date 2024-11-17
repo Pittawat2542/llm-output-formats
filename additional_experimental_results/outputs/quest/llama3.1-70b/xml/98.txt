@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>Q001</id>
+  <title>The Lost Temple of Eldarath</title>
+  <objective>Retrieve the ancient scroll from the Lost Temple of Eldarath.</objective>
+  <description>A powerful artifact has been hidden within the long-abandoned temple, and it is said to hold the key to unlocking new magical abilities. The temple is rumored to be filled with treacherous traps and terrifying creatures, but the reward is worth the risk.</description>
+  <reward>500 gold pieces, a rare spellbook, and increased reputation among the wizard community</reward>
+  <quest-giver>Eriol the Wise, a renowned wizard residing in the Silvermist Tower</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the temple's location and layout.</objective>
+      <description>Talk to locals, scour ancient texts, and gather any clues that might aid in your quest. Meet with Eriol at the Silvermist Tower to discuss your findings.</description>
+      <location>Silvermist Tower, Wizard's Quarter</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Infiltrate the temple and navigate through its deadly traps.</objective>
+      <description>Use your wits and cunning to overcome the obstacles and reach the inner sanctum. Be prepared for anything, as the temple is said to be filled with surprises.</description>
+      <location>The Lost Temple of Eldarath, Deep Forest</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Retrieve the ancient scroll and escape the temple alive.</objective>
+      <description>Face your greatest challenge yet as you confront the dark forces guarding the artifact. Use all your skills and abilities to claim the scroll and make a triumphant return.</description>
+      <location>The Inner Sanctum, The Lost Temple of Eldarath</location>
+    </task>
+  </tasks>
+</game>
+```

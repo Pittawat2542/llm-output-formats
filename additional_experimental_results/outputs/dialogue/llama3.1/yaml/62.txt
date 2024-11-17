@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: "Hello, is anyone there?"
+  - order: 2
+    speaker: Guard
+    text: "Ah, you must be the new adventurer. What brings you to these lands?"
+  - order: 3
+    speaker: Player
+    text: "I'm just passing through. I was hoping for some information about a nearby village."
+  - order: 4
+    speaker: Guard
+    text: "Ah, yes. The village of Brindlemark. It's not too far from here. But be warned, traveler, the roads are treacherous and full of danger."
+  - order: 5
+    speaker: Player
+    text: "I'll be careful then. Do you know anything about a local legend or prophecy?"
+  - order: 6
+    speaker: Guard
+    text: "Now that's a story worth telling. But first, let me get the old man from the tavern to tell it to us."
+```

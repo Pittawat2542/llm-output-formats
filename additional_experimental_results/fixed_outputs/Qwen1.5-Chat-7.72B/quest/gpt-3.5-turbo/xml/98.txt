@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Forbidden Temple Quest</title>
+    <objective>Retrieve the Ancient Scroll from High Priestess Elysia</objective>
+    <description>Embark on a perilous journey to find the hidden temple in the jungle. Successfully recover the scroll and avoid the treacherous traps within.</description>
+    <reward>1000 gold coins as reward</reward>
+    <quest-giver>High Priestess Elysia</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Track the ancient ruins entrance</objective>
+            <description>Discover the location of the temple's entrance, marked by a peculiar tree in the jungle.</description>
+            <location>Jungle, Ancient Ruins Signpost</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Overcome the traps of the first chamber</objective>
+            <description>Bypass the initial traps and solve the riddle to proceed deeper into the temple.</description>
+            <location>Forbidden Temple, First Chamber</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Defeat the guardian with your wits</objective>
+            <description>M匹配智慧战胜守卫者，保护神圣文物不受侵害。</description>
+            <location>Artifact Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

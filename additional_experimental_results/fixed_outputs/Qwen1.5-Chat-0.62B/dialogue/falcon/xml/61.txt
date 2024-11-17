@@ -1,0 +1,51 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Invalid Syntax</title>
+</head>
+<body>
+	<h1>Original Message</h1>
+	<p>The original message was provided between <span>line 17, column 0</span></p>
+
+	<h2>Corrected Syntax</h2>
+	<p>The corrected syntax is as follows:</p>
+
+	<game>
+		<dialogues>
+			<dialogue>
+				<Order>Dialogue order</Order>
+				<Speaker>Speaker name</ Speaker>
+					text>Dialogue or narration</text>
+			-dialogue>
+		</dialogues>
+	</game>
+
+	<h2>New Values</h2>
+	<p>The new values are as follows:</p>
+
+	<game>
+		<dialogues>
+			<dialogue>
+				<Order>Dialogue order</Order> <span>Speaker name</span> <span	text>Dialogue or narration</span>
+			-dialogue>
+		</dialogues>
+	</game>
+
+	<h2>New Markdown Code</h2>
+	<p>The new Markdown code is as follows:</p>
+
+	<game>
+		<dialogues>
+			<dialogue>
+				<Order>Dialogue order</Order>
+				<Speaker>Speaker name</Speaker>
+					text>Dialogue or narration</text>
+			-dialogue>
+		</dialogues>
+	</game>
+
+</body>
+</html>
+```

@@ -1,0 +1,21 @@
+
+```yaml
+game:
+  character:
+    age: 23
+    background: "The character is a student"
+    first_name: "John"
+    id: "456"
+    last_name: "Smith"
+    physical_appearance:
+    - eye_color: blue
+      hair_color: brown
+      height: 6.1
+      weight: 180.0
+    place_of_birth: New York
+    role: The character is a police officer
+    species: human
+```
+
+### Explanation:
+The original YAML had some string literals that were not properly quoted, causing a syntax error. In particular, the strings "5'5"" and "'blue"" were incorrectly formatted as strings with embedded quotes. To fix this, we simply remove the inner quotes and ensure that the outer quotes match the type of the string (double or single). Additionally, we convert the height and weight to floats for consistency with the other numeric values in the YAML. The corrected YAML is shown above.

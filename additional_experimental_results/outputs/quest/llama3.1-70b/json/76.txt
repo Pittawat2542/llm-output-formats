@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scroll from the ruins of the Lost Temple",
+    "description": "Legend has it that the Lost Temple of the Moon Goddess holds the secrets of our ancestors. The temple lies hidden deep within the forest, guarded by treacherous terrain and fearsome creatures. Brave adventurer, can you retrieve the ancient scroll and unlock its secrets?",
+    "reward": "1000 Gold Pieces, a rare Moonstone Amulet, and a boost in reputation",
+    "quest_giver": "High Priestess Elara",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the Lost Temple's location",
+        "description": "Speak to the village elder and gather any information you can find about the temple's location. Be careful, as the elder is known to be tight-lipped.",
+        "location": "Oakwood Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map fragment from the nearby ruins",
+        "description": "Venture into the nearby ruins and search for a map fragment that will lead you to the Lost Temple. Be wary of traps and creatures.",
+        "location": "Ruins of the Old Castle"
+      },
+      {
+        "order": 3,
+        "objective": "Infiltrate the Lost Temple and retrieve the ancient scroll",
+        "description": "Use your wits and stealth to infiltrate the temple, avoiding deadly traps and fearsome guardians. Find the ancient scroll and bring it back to High Priestess Elara.",
+        "location": "Lost Temple of the Moon Goddess"
+      }
+    ]
+  }
+}
+```

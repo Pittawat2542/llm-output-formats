@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>A Test of Strength</title>
+    <objective>Prove your strength to the mighty warrior, Thekraton.</objective>
+    <description>Thekraton, the greatest warrior in the land, has challenged you to a test of strength. Defeat him in battle and earn his respect.</description>
+    <reward>The Warrior's Axe, a powerful weapon that once belonged to Thekraton.</reward>
+    <quest-giver>Thekraton, the mighty warrior</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to East Mountain Range for Thekraton's training grounds.</objective>
+            <description>Reach the sacred training grounds where Thekraton trains his warriors. Prepare yourself for battle.</description>
+            <location东方山脉</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat Thekraton in combat.</objective>
+            <description>Thekraton may be strong, but prove your mettle and defeat him. Utilize all your abilities to overcome him.</description>
+            <location>East Mountain Range training grounds</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to Thekraton and claim your reward.</objective>
+            <description>After defeating Thekraton, return to him to receive the Warrior's Axe as your reward. He will recognize your prowess.</description>
+            <location>East Mountain Range training grounds</location>
+        </task>
+    </tasks>
+</game>
+```

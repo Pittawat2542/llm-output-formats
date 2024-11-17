@@ -1,0 +1,18 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>ID_123456789</id>
+		<name>Boss</name>
+		<description>This is the boss enemy.</description>
+		<stats>
+			<hp>1000</hp>
+			<mp>1000</mp>
+			<atk>50</atk> -- changed attack value for demonstration purposes only
+			<def>50</def> -- changed defense value for demonstration purposes only
+			<spd>30</spd> -- changed speed value for demonstration purposes only
+		</stats>
+	</enemy>
+</game>
+```

@@ -1,0 +1,36 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>John Doe</speaker>
+            <text>Dungeons and Dragons adventure</text>
+        </dialogue>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Jane Smith</speaker>
+            <text>Alice in Wonderland retelling</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0"?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>John Doe</speaker>
+            <text>Dungeons and Dragons adventure</text>
+        </dialogue>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Jane Smith</speaker>
+            <text>Alice in Wonderland retelling</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

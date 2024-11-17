@@ -1,0 +1,244 @@
+XML data corrected:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			/objective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+```
+
+Code block:
+
+```python
+import xml.etree.ElementTree as ET
+
+# Original XML data
+xml_data = '''
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</ reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			/objective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+'''
+
+# Corrected XML data
+xml_data = '''
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			/objective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+'''
+
+# Output in Markdown format
+output = """
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			/objective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+'''
+
+# Markdown output
+output markdown = """
+```
+<?xml version="1.0" ?>
+<game>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			bjective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+```
+```python
+# Output in Markdown format
+output markdown = """
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			bjective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+```
+```python
+# Markdown output
+output markdown = """
+```
+<?xml version="1.0" ?>
+<game>
+	<title>Dragon Hunt</title>
+	bjective>Defeat the Mighty Dragon King</objective>
+	<description>You have been assigned a task to defeat the Mighty Dragon King who has been wreaking havoc in the kingdom. The king's castle and the commoners' houses have been destroyed, farms have been burnt and the kingdom is in despair. Rise up, brave hero. Only you can vanquish this foe.</description>
+	<reward>15000 Gold and Dragon Slayer Sword</reward>
+	<quest-giver>Kingsman Derek</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Assemble your gear</objective>
+				<description>Collect your sword, shield, and healing potions before embarking on your journey. Make sure you are ready for an intense fight.</description>
+			经验值: 500
+			 location: Kingdom Armory
+			<task>
+				<order>2</order>
+			/objective>Find the Dragon King</objective>
+				<description>Travel to the Dark Forest, beyond the seven mountains, where the Dragon King resides. Watch out for his minions on your journey.</description>
+			经验值: 600
+			 location: Dark Forest, beyond the seven mountains
+			<task>
+				<order>3</order>
+			bjective>Defeat the Dragon King</objective>
+				<description>Engage in a fierce battle with the Dragon King. Use all your skills and resources to overpower him. Remember, the lives of many depend on you.</description>
+			经验值: 700
+			 location: Dragon King's Lair
+			<task>
+		)<tasks>  
+</game>
+```

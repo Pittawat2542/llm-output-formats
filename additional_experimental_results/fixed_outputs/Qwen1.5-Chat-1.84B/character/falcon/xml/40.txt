@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id id="id">123456</id>
+			<first-name>John Doe</first-name>
+			<last-name>Jane Smith</last-name>
+			<species>Human</species>
+			<age>30</age>
+			role>Soldier</role>
+			<background>The Battle of Waterloo</background>
+			<place-of-birth>Townsville, USA</place-of-birth>
+			physical-appearance>
+				Physical-appearance>
+					eye-color Brown
+					hair-color Blonde
+					height 6'4"
+					weight 180 lbs
+				</Physical-appearance>
+			</physical-appearance>
+	</character> <!-- added "id" attribute -->
+</game>
+<html>
+<head> <!-- removed "head" element -->
+<title>Character Profile</title>
+</head>
+<body>
+	<h1>Character Profile</h1>
+	<p>Exact age or description. Role of the character. Background story. Place of birth.</p> <!-- added "id" attribute -->
+</body>
+</html>
+```

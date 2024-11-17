@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple",
+    "description": "The village elder has asked for your help in retrieving a powerful artifact that was lost during a previous expedition to the ancient temple. The temple is said to be filled with traps and puzzles, but the reward will be worth it.",
+    "reward": "Golden Sword + 1000 gold pieces",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the hidden entrance to the temple",
+          "description": "The village elder has given you a map that leads to the hidden entrance of the temple. However, you will need to use your wits to find it.",
+          "location": "Jungle near the village"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the pressure plate puzzle in the temple's entrance chamber",
+          "description": "In the entrance chamber, you will find a series of pressure plates that must be stepped on in a specific order to unlock the door. You will need to observe and record the symbols etched into the walls to figure out the correct sequence.",
+          "location": "Temple's Entrance Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the temple's guardian in combat",
+          "description": "The temple is guarded by a powerful entity that will not let you pass without a fight. You will need to use your combat skills and strategies to defeat it.",
+          "location": "Temple's Inner Chamber"
+        }
+      ]
+    }
+  }
+}

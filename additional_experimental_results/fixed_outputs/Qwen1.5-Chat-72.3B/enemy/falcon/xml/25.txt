@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Goblin</name>
+		<description>A small, green-skinned creature with a wicked-looking knife.</description>
+		<stats>
+			<hp>15</hp>
+			<mp>3</mp>
+			<atk>4</atk>
+			<def>2</def>
+			<spd>5</spd>
+		</stats>
+	</enemy>
+</game>
+```
+In the provided original message, there was no XML data. I have corrected this by creating a sample `enemy` node with appropriate values inside a `game` node based on the template given. You can replace these values as needed for your specific use case.

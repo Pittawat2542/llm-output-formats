@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the ruins of Eldarath.</objective>
+	<description>Rumors have been circulating about a powerful artifact hidden deep within the long-abandoned temple of Eldarath. Brave adventurers are needed to explore the treacherous jungle, overcome deadly traps, and retrieve this relic before it falls into the wrong hands.</description>
+	<reward>10,000 gold pieces, a magical amulet granting resistance to poison, and a blessing from the village elder.</reward>
+	<quest-giver>Elder Thorne of Greenhaven Village</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the jungle to reach the temple entrance.</objective>
+			<description>Be cautious of wild beasts and rival treasure hunters. The path is fraught with danger, but the promise of untold riches awaits those who persevere.</description>
+			<location>Jungle of Eldarath</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Disable the poison dart trap in the temple's entrance hall.</objective>
+			<description>A pressure plate triggers a deadly hail of poison darts. Find an alternate route or disable the mechanism to proceed safely.</description>
+			<location>Eldarath Temple Entrance Hall</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Reward the ancient guardian and claim the artifact.</objective>
+			<description>A powerful entity guards the relic. Prove your worth by solving a series of trials, and you shall be granted the artifact.</description>
+			<location>The Heart of Eldarath Temple</location>
+		</task>
+	</tasks>
+</game>
+```

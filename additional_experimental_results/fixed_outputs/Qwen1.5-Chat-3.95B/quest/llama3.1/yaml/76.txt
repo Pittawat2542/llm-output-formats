@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Explore the long-abandoned mine on the outskirts of town, uncover its secrets and put an end to whatever evil lurks within. The mine is known to be cursed, and many have reported strange noises emanating from it.
+  id: Q1
+  objective: Uncover the source of strange noises emanating from the old mine. You will need to investigate the entrance to the mine for any signs of recent use or disturbance first.
+  quest_ giver: Grizelda Ironfist, local blacksmith and concerned citizen
+  reward: A small chest containing 100 gold pieces and a note with a cryptic message describing the location of the cursed ore vein. The note also mentions that the mine is haunted by a ghostly figure.
+  tasks:
+     - description: Investigate the entrance to the mine for any signs of recent use or disturbance
+      location: The old mine' s entrance, just north of town
+      objective: Determine if anyone has entered the mine recently
+      order: 1
+     - description: Venture deeper into the mine and search for any signs of mineral deposits or hidden rooms
+      location: Deeper levels of the mine (map coordinates: 43.72° N, 119.45° W)
+      objective: Find a vein of cursed ore to secure funding for further exploration
+      order: 2
+     - description: Confront and defeat whatever evil force is terrorizing the town from within the mine
+      location: The heart of the mine (map coordinates: 43.74° N, 119.42° W)
+      objective: Put an end to the source of the strange noises and disturbances by defeating the ghostly figure that haunts the mine.
+      order: 3
+  title: "The Cursed Mine"
+```

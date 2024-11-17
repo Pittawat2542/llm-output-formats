@@ -1,0 +1,25 @@
+The issue with the original XML data was that there was a closing `</physical-appearance>` tag without an opening one. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <character>
+        <id>id</id>
+        <first-name>first name</first-name>
+        <last-name>last name</last-name>
+        <species>species</species>
+        <age>exact age or description</age>
+        <role>role of the character</role>
+        <background>background story</background>
+        <place-of-birth>location</place-of-birth>
+        <physical-appearance>
+            <eye-color>eye color</eye-color>
+            <hair-color>hair color</hair-color>
+            <height>1.78</height>
+            <weight>75.0</weight>
+        </physical-appearance>
+    </character>
+</game>
+```
+
+I've added the missing opening `<physical-appearance>` tag, closed it properly, and specified the encoding to "UTF-8" which is a common practice in XML documents. Now the XML should be well-formed and valid according to the error message provided.

@@ -1,0 +1,24 @@
+```yaml
+game:
+  title: Game
+  beginning: |
+    The world suddenly shifted to different dimensions and space-time!
+    Fantasy creatures and heroes from legends sprung to life and fought!
+  synopsis: >
+    King Bard and his royal guards were ambushed by orc bands of all sorts.
+    Heavy fighting ensued, and many of his guards and servants lost their lives
+    to the numerous orc warriors. He and his few remaining guards retreated into
+    the castle as they couldn't fight against the overwhelming numbers. The
+    remaining nobles surrendered the castle to the Orcs, losing hope for their survival.
+   的关键在于缩进错误和在多行字符串中使用了不恰当的换行，我已修正。现在synopsis字段使用了`> ...`来表示多行文本。
+
+  ending:
+    - The king and his band of loyal servants and fighters could no longer fend for themselves!
+      To make matters worse, the king lost his right arm. Their only hope was the castle dungeon's treasure.
+      King Bard summoned his bravest warriors to retrieve the key from the orcs. 
+      ...
+      ...
+      In the final chamber, the king and remaining warriors fought valiantly, eventually driving the orcs away.
+      They returned to find their world in ruins, but with determination, they vowed to rebuild and protect it.
+
+```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient artifact from the Lost Temple of Eldarath.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple deep in the forest, hidden away for centuries. The locals whisper of an ancient relic hidden within its walls, capable of granting immense power to whoever possesses it. Brave adventurers are needed to explore the treacherous temple, overcome its deadly traps, and claim the artifact before it falls into the wrong hands.</description>
+	<reward>1000 gold coins, a magical amulet, and increased reputation among the locals</reward>
+	<quest-giver>Elder Thorne, the village elder of Oakwood Village</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the Lost Temple's location</objective>
+			<description>Speak to the villagers and gather information about the temple's location. They might have heard rumors or have old maps that can aid in your quest.</description>
+			<location>Oakwood Village, specifically at the local tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the forest and find the temple's entrance</objective>
+			<description>Using the gathered information, venture into the forest and search for the temple's entrance. Be cautious of wild beasts and rival treasure hunters.</description>
+			<location>The dense forest surrounding Oakwood Village</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the ancient artifact from within the temple</objective>
+			<description>Navigate through the treacherous temple, overcoming deadly traps and battling fierce guardians. Claim the artifact and make your way back to Oakwood Village.</description>
+			<location>The Lost Temple of Eldarath, deep within the forest</location>
+		</task>
+	</tasks>
+</game>
+```

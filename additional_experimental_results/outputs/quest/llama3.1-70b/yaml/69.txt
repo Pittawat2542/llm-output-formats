@@ -1,0 +1,29 @@
+Here is the generated quest information in YAML format:
+
+```yaml
+game:
+  description: Retrieve the legendary sword of the ancient warrior from the depths of the Dark Forest.
+  id: QST-001
+  objective: Bring back the legendary sword and claim its power for yourself.
+  quest_giver: Thoric Stonebeard, the village elder
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    items:
+      - name: Sword of Light
+        type: sword
+  tasks:
+  - description: Venture into the Dark Forest and find the entrance to the ancient ruins.
+    location: Dark Forest, Sector 3
+    objective: Reach the ancient ruins
+    order: 1
+  - description: Solve the puzzles and overcome obstacles within the ancient ruins.
+    location: Ancient Ruins, Level 2
+    objective: Unlock the treasure chamber
+    order: 2
+  - description: Defeat the dark guardian and claim the legendary sword.
+    location: Treasure Chamber, Level 3
+    objective: Obtain the Sword of Light
+    order: 3
+  title: The Quest for the Sword of Light
+```

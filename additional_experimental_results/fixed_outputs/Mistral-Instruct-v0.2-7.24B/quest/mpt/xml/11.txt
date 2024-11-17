@@ -1,0 +1,26 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+### Explanation:
+
+The error message indicates that the 'game' tag is missing in the XML data, but the original XML actually starts with `<quest>` instead of `<game>`. In order to fix the error and update the XML to match the provided template, we need to change the root tag from `<quest>` to `<game>`.
+
+After making this change, the XML data is valid according to the given template and does not contain any further errors.

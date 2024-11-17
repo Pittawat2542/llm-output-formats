@@ -1,0 +1,77 @@
+Sure, here's the corrected XML data:
+```
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>1234567890</id>
+			<title>John Doe</title>
+			<person:</person>
+			<species>: Human
+			<age: 35
+				<role>:Scientist
+				<background: He is a scientist and wants to help the world.
+				Place-of-birth: London
+				Physical-appearance:
+					<eye-color>blue</eye-color>
+					<hair-color>brown</haircolor>
+					-height: 180 cm
+					weight: 75 kg
+				/>
+			</species>
+	</character>
+	<character>
+			<title>Doe Smith</title>
+			<person:</person>
+			<species>: Human
+			<age: 28
+				role>:Scientist
+				<background: He is a scientist and wants to help the world.
+				Place-of-birth: New York
+				Physical-appearance:
+					<eye-color green</eye_color>
+					<hair-color��色</hair_color>
+					-height: 175 cm
+					weight: 80 kg
+				/>
+			</species>
+	</character>
+</game>
+```
+And here's the Markdown code block containing the corrected XML data:
+```-template
+<!DOCTYPE game [
+    <title>John Doe</title>,
+    <person><name>John Doe</name></person>,
+    <species>: Human,
+    <age: 35,
+        <role>:Scientist
+        <background: He is a scientist and wants to help the world.
+        <place-of-birth: London>
+            < Physical-appearance:
+                <eye-color>blue</eye_color>
+                <hair-color>brown</hair_color>
+                <height>180 cm</height>
+                <weight>75 kg
+            </Physical-appearance>
+        </species>
+    </person>,
+    <character>
+        <id>1234567890</id>
+        <title>Doe Smith</title>
+        <person><name>Doe Smith</name></person>,
+        <species>: Human,
+        <age: 28
+            <role>:Scientist
+            <background: He is a scientist and wants to help the world.
+            <place-of-birth: New York>
+                <Physical-appearance:
+                    <eye-color green</eye_color>
+                    <hair-color绿色</hair_color>
+                    <height>175 cm
+                    <weight>80 kg
+                </physical-appearance>
+            </species>
+        </person>,
+    ]
+]
+```

@@ -1,0 +1,25 @@
+```yaml
+game:
+  character:
+    age: precise age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+      - eye_color: eye color
+        hair_color: hair_color
+        height: height in feet or centimetres
+        weight: weight in kg
+    place_of_birth: location
+    role: role of the character
+    species: species
+```
+The original YAML data had several syntax errors. I've corrected them as follows:
+
+1. Removed unnecessary `-` before each property under `game` and `character`.
+2. Fixed indentation for all properties to be aligned correctly.
+3. Changed `height in float value` to `height in feet or centimetres` to match the original description.
+4. Changed `weight in float value` to `weight in kg` to match the original description.
+
+The corrected YAML data is now properly formatted and matches the template provided.

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A quest to find the lost treasure",
+    "id": 1234,
+    "objective": "Find the lost treasure",
+    "quest_giver": "The King",
+    "reward": "100 gold",
+    "tasks": [
+      {
+        "description": "Discover the treasure's location",
+        "location": "The Lost City",
+        "objective": "Locate and retrieve the treasure",
+        "order": 1
+      },
+      {
+        "description": "Search for the treasure in the city\"",
+        "location": "The Lost City",
+        "objective": "Follow clues to find it",
+        "order": 2
+      },
+      {
+        "description": "Confirm the treasure's whereabouts\"",
+        "location": "The Lost City",
+        "objective": "Verify the discovery",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Lost Treasure"
+  }
+}

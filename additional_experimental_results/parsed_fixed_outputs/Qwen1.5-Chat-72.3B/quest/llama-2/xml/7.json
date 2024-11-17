@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "In this quest, you are tasked to explore the forgotten ruins deep in the jungle and uncover the lost artifact that holds great power. Be wary of the dangers that lie ahead.",
+    "reward": "1000 experience points and a magical amulet",
+    "quest-giver": "Guru Zara",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "You must find the hidden entrance to the ruins. Speak with local villagers for any clues.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the puzzle at the entrance",
+          "description": "A riddle guards the entrance. Answer it correctly to gain access.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the maze-like ruins",
+          "description": "Explore the ruins, avoiding traps and solving puzzles to reach the heart of the ancient structure.",
+          "location": "Ruins Interior"
+        }
+      ]
+    }
+  }
+}

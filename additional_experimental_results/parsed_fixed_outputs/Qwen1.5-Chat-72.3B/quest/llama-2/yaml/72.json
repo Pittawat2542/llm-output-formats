@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A thrilling adventure awaits you!",
+    "id": "Q001",
+    "objective": "Find the lost artifact and return it to the temple.",
+    "quest_giver": "Elder Malakai",
+    "reward": "1000 gold coins and a rare magical item",
+    "tasks": [
+      {
+        "description": "Explore the Dark Forest and locate the entrance to the ancient ruins.",
+        "location": "Dark Forest",
+        "objective": "Find the ruins' entrance",
+        "order": 1
+      },
+      {
+        "description": "Solve the riddle on the stone door to enter the ruins.",
+        "location": "Ancient Ruins",
+        "objective": "Decode the riddle",
+        "order": 2
+      },
+      {
+        "description": "Navigate the traps and puzzles within the ruins to reach the artifact.",
+        "location": "Inner Sanctum of the Ruins",
+        "objective": "Reach the artifact safely",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Temple of Zephyrion"
+  }
+}

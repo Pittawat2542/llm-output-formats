@@ -1,0 +1,27 @@
+```yaml
+game:
+  description: "The quest to find the lost treasure of the dragon."
+  id: 1
+  objective: "Find the lost treasure of the dragon."
+  quest_giver: "The king"
+  reward: "A huge amount of gold."
+  tasks:
+   - id: 1
+     title: The Lost Treasure of the Dragon
+       description: Find the hidden treasure in the castle. Complete the quests to unlock it and claim your reward.
+       location: The Castle
+       objective: Locate and retrieve the lost treasure.
+       order: 1
+   - id: 2
+     title: The Secret Location
+       description: Discover a secret passageway leading to the dragon's lair. Solve a challenging puzzle to unlock it and claim your reward.
+       location: Secret Passage
+       objective: Retrieve the dragon's treasure and avoid being attacked by its fiery breath.
+       order: 2
+   - id: 3
+     title: The Dragon's Den
+       description: Enter the dragon's den and face off against a powerful dragon. Use your skills and weapons to defeat it and claim your reward.
+       location: Dragon's Den
+       objective: Destroy the dragon and claim the treasure.
+       order: 3
+```

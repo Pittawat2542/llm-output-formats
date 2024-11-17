@@ -1,0 +1,77 @@
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: quest title
+
+game:
+  description: The village of Brindlemark is plagued by a series of mysterious disappearances. The villagers believe that the missing people have been taken by a group of goblins that have made their lair in the nearby caves.
+  id: quest_01
+  objective: Investigate the disappearance of several villagers and put an end to the goblin threat.
+  quest_giver: The village elder, Thorne
+  reward: A small chest containing 100 gold pieces and a magical potion that grants the drinker temporary resistance to fire damage.
+  tasks:
+  - description: Talk to the villagers and gather information about the disappearances.
+    location: The village of Brindlemark
+    objective: Gather information about the missing people and their last known whereabouts.
+    order: 1
+  - description: Explore the nearby caves and investigate any signs of goblin activity.
+    location: The nearby caves
+    objective: Find evidence of the goblins' lair and determine their numbers.
+    order: 2
+  - description: Track down and defeat the leader of the goblin group.
+    location: The heart of the goblin lair
+    objective: Put an end to the goblin threat and free any remaining captives.
+    order: 3
+  title: The Disappearance of the Villagers'
+```
+
+### Exercise 5
+
+Write a Python script that reads a YAML file containing information about different programming languages, including their names, popularity ratings (on a scale of 1 to 10), and year of creation. The data is structured as follows:
+
+```yaml
+languages:
+  - name: Python
+    popularity: 9.3
+    year_created: 1991
+  - name: Java
+    popularity: 8.7
+    year_created: 1995
+  - name: JavaScript
+    popularity: 7.9
+    year_created: 1995
+  - name: C++
+    popularity: 5.6
+    year_created: 1983
+```
+
+Write a program that reads this file and calculates the average popularity rating of all programming languages. The result should be printed to standard output in a sentence format, such as "The average popularity rating of these programming languages is 8.05."
+
+### Exercise 5 Solution
+
+To solve this problem, we can use Python's `yaml` module to read the YAML file and extract the necessary information. Then, we can compute the average popularity rating using a loop and the `sum` function. Finally, we can format the result as a sentence string and print it to standard output.
+
+```python
+import yaml
+
+with open('languages.yml', 'r') as f:
+    data = yaml.safe_load(f)
+
+popularity_sum = 0
+for language in data['languages']:
+  popularity_sum += language['popularity']
+
+avg_popularity = popularity_sum / len(data['languages'])
+
+print(f"The average popularity rating of these programming languages is {avg_popularity:.2f}.")
+```

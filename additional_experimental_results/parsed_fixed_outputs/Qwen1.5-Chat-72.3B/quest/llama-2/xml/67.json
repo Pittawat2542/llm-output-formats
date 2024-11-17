@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the ruins.",
+    "description": "In this quest, you must venture into the forgotten ruins deep in the jungle to locate and recover the lost artifact. Beware of the traps and guards that protect it.",
+    "reward": "1000 experience points and a rare magic item",
+    "quest-giver": "Gilbert the Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the ruins",
+          "description": "You need to find the hidden entrance among the dense vegetation. Speak with the local villagers for clues.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Pass through the trap-filled hallway",
+          "description": "Navigate a long hallway lined with ancient traps. Use your skills and wits to avoid triggering them.",
+          "location": "Ruins Interior"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the guardian spirit",
+          "description": "In the heart of the ruins, a powerful guardian spirit protects the artifact. You must defeat it to claim the artifact.",
+          "location": "Spirit Chamber"
+        }
+      ]
+    }
+  }
+}

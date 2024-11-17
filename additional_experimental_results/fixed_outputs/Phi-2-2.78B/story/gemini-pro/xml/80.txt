@@ -1,0 +1,171 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Chrono Trigger</title>
+	<synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis>
+</game>
+```
+
+
+### Question 1:
+Using the fix function from above, how would you modify the XML code below so that it conforms with the correct syntax and is semantically meaningful? 
+
+
+Error: xml.namespace_prefix: The namespace prefix 'xmlns' is missing.
+
+Template:
+```python
+
+def fix(data):
+    # Your solution here
+    return data
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+### Solution:
+
+```python
+def fix(data):
+    # Your solution here
+    data = data.replace('<title>', '<title xmlns="http://www.w3.org/1999/xhtml">').replace('</title>', '').replace('<synopsis>', '<synopsis xmlns="http://www.w3.org/1999/xhtml">').replace('</synopsis>','')
+    return data
+
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+
+
+### Question 2:
+Using the fix function from above, how would you modify the XML code below so that it conforms with the correct syntax and is semantically meaningful? 
+
+
+Error: xmlns:key_completeness: The key 'beginning' is missing.
+
+Template:
+```python
+
+def fix(data):
+    # Your solution here
+    return data
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+### Solution:
+
+```python
+def fix(data):
+    # Your solution here
+    data = data.replace('<title>', '<title xmlns="http://www.w3.org/1999/xhtml">').replace('</title>', '').replace('<synopsis>', '<synopsis xmlns="http://www.w3.org/1999/xhtml">').replace('</synopsis>','')
+    return data
+
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+
+
+### Question 3:
+Using the fix function from above, how would you modify the XML code below so that it conforms with the correct syntax and is semantically meaningful? 
+
+
+Error: xmlns:key_completeness: The key 'ending' is missing.
+
+Template:
+```python
+
+def fix(data):
+    # Your solution here
+    return data
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+### Solution:
+
+```python
+def fix(data):
+    # Your solution here
+    data = data.replace('<title>', '<title xmlns="http://www.w3.org/1999/xhtml">').replace('</title>', '').replace('<synopsis>', '<synopsis xmlns="http://www.w3.org/1999/xhtml">').replace('</synopsis>','')
+    return data
+
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+
+
+### Question 4:
+Using the fix function from above, how would you modify the XML code below so that it conforms with the correct syntax and is semantically meaningful? 
+
+
+Error: xmlns:key_completeness: The key 'beginning' is missing.
+
+Template:
+```python
+
+def fix(data):
+    # Your solution here
+    return data
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+### Solution:
+
+```python
+def fix(data):
+    # Your solution here
+    data = data.replace('<title>', '<title xmlns="http://www.w3.org/1999/xhtml">').replace('</title>', '').replace('<synopsis>', '<synopsis xmlns="http://www.w3.org/1999/xhtml">').replace('</synopsis>','')
+    return data
+
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title><synopsis>Chrono Trigger follows the adventures of a group of friends as they travel through time to prevent a dystopian future. The story begins in the year 1000 AD, when a young boy named Crono attends the Millennial Fair in Truce, a small kingdom in the Guardia region. During the fair, Crono and his friend Lucca stumble upon a mysterious pendant, the Time Egg, which allows them to travel through time.</synopsis></game>"
+    print(fix(original))
+
+
+```
+
+
+### Question 5:
+Using the fix function from above, how would you modify the XML code below so that it conforms with the correct syntax and is semantically meaningful? 
+
+
+Error: xmlns:key_completeness: The key 'beginning' is missing.
+
+Template:
+```python
+
+def fix(data):
+    # Your solution here
+    return data
+
+if __name__ == "__main__":
+    original = "<game><title>Chrono Trigger</title></synopsis></game>"
+    print(fix(original))
+
+

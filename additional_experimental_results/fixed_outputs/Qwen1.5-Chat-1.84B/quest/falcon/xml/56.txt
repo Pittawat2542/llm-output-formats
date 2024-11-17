@@ -1,0 +1,59 @@
+Corrected XML data:
+```xml
+<!DOCTYPE html>
+<html>
+<body>
+
+<pre><code>// #include the current working directory
+#include "path/to/current/path.h"
+
+// #include "xml2.1.hpp" // Added for support of modern XML versions
+void WriteXML(const std::string& text, int* len) {
+    std::wofstream writer(std::cout.rdbuf(), std::ios::binary | std::ios::ate);
+    XMLWriter xml_writer(writer, &std::wxmlnamespaces());
+    xml_writer.write(text.c_str(), len);
+
+    const std::vector<xml_node*>& tasks = xml_writer.get_tasks();
+
+    for (const auto& task : tasks) {
+        xml_node* node = xml_writer.next_node();
+        node->set_attribute("order", std::to_string(task.order));
+        node->set_attribute("objective", task.objective);
+        node->set_attribute("description", task.description);
+        node->set_attribute("location", task.location);
+
+        xml_node* reward_node = xml_writer.next_node();
+        node->set_attribute("reward", task.reward.c_str());
+    }
+
+    xml_writer.close();
+}
+
+// The main function
+int main() {
+    WriteXML(L"This is the quest information." L"This is not the quest.", &amp;_wdata, L"This is not the task information."); // Changed "quest" to "task"
+    return 0; // Added "task"
+}</code></pre>
+
+</body>
+</html>
+```
+Output in XML format:
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+		<task id="1" order="1" objective="Complete quest objective" description="Find treasure in cave" location="cave">
+			<reward value="100金币"/>
+		</task>
+		<task id="2" order="2" objective="Defeat dragon on mountain peak" description="Obtain magical artifact" location="mountain_peak">
+			<reward value="150 experience points"/>
+		</task>
+	</tasks>
+</game>
+```

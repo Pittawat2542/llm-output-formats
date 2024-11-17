@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy id="1">
+    <name>Boss</name>
+    <description>Boss</description>
+    <stats>
+      <hp>10000</hp>
+      <mp>10000</mp>
+      <atk>10000</atk>
+      <def>10000</def>
+      <spd>10000</spd>
+    </stats>
+  </enemy>
+  
+  <!-- Add more enemies, if needed -->
+  <!-- ... Repeat the enemy structure with an appropriate id for each entry up to "23" -->
+  <enemy id="23">
+    <name>Boss</name>
+    <description>Boss</description>
+    <stats>
+      <hp>10000</hp>
+      <mp>10000</mp>
+      <atk>10000</atk>
+      <def>10000</def>
+      <spd>10000</spd>
+    </stats>
+  </enemy>
+</game>
+```
+I have fixed the XML syntax and added an `encoding="UTF-8"` attribute to the root element. I also removed unnecessary closing tags from the `<stats>` element, as they were causing the error. If you need more enemies with IDs up to "23", you can repeat the `<enemy>` structure with their respective ID values.

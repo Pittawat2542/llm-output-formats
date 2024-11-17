@@ -1,0 +1,25 @@
+XML:
+```xml
+<game>
+	<id>1</id>
+	<title>Quest Title</title>
+	<objective>Objective 1</objective>
+	<description>Description 1</description>
+	<reward>Reward 1</reward>
+	<quest-giver>Giver 1</quest-giver>
+	<tasks>
+		<Task>
+			<Order>Task Order 1</Order>
+			<Objective>Objective 1</Objective>
+			<Description>Description 1</Description>
+			<Location>Location 1</Location>
+		</Task>
+		<Task>
+			<Order>Task Order 2</Order>
+			<Objective>Objective 2</Objective>
+			<Description>Description>Description 2</Description>
+			(Location>Location 2</Location>
+		</Task>
+	</tasks>
+</game>
+```

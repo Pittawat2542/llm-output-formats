@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost City of Eldarath",
+    "description": "Rumors have been circulating about a long-abandoned city deep in the forest, where an ancient civilization once thrived. Legend has it that a powerful artifact lies within its ruins, waiting to be claimed.",
+    "reward": "1000 gold pieces, a magical amulet granting resistance to darkness",
+    "quest-giver": "Eryndor Thorne, a wise old sage in the village of Willowdale",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the Lost City from the villagers of Willowdale",
+          "description": "Talk to the locals and gather any information they may have about the city's location, layout, and potential dangers.",
+          "location": "Willowdale Village"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the forest and locate the entrance to the Lost City",
+          "description": "Venture into the forest, navigating through treacherous terrain and avoiding deadly creatures to find the hidden entrance.",
+          "location": "The Dark Forest"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the city's ruins and retrieve the artifact",
+          "description": "Cautiously explore the ancient structures, overcoming traps and puzzles to reach the artifact.",
+          "location": "The Lost City of Eldarath"
+        }
+      ]
+    }
+  }
+}

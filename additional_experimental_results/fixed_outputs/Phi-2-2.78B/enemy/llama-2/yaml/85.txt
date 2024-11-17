@@ -1,0 +1,21 @@
+game:
+    description: Description of my game.
+        id: id
+        name: Name of my game.
+            atk: Attack damage
+            def: Defense value
+            hp: Health points
+            mp: Magic points
+            spd: Speed
+            sprite_images: sprite1.png, sprite2.png, sprite3.png
+    enemy:
+        description: Description of enemy 1.
+            id: id1
+            name: Name of Enemy 1.
+                atk: Attack damage
+                def: Defense value
+                hp: Health points
+                mp: Magic points
+                spd: Speed
+                sprite_images: sprite1.png, sprite2.png, sprite3.png
+

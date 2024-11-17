@@ -1,0 +1,26 @@
+ ```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>CP-001</id>
+		<first-name>Eira</first-name>
+		<last-name>Shadowglow</last-name>
+		<species><value>HALF-ELF (HUMAN/MAGIC)</value></species>
+		<age><text>LATE TEENS TO EARLY TWENTIES (EXACT AGE UNKNOWN)</text></age>
+		<role><value>ROGUE/ASSASSIN</value></role>
+		<background>Eira was born to a human father and elven mother in a secluded community on the edge of a dense forest. She was trained in stealth and deception from a young age by her elven relatives, who recognized her natural talent for sneaking and hiding. As she grew older, Eira became increasingly restless, feeling confined by the limits of her small community. She set out into the wider world to make a name for herself as a thief and assassin, using her skills to survive in a harsh and unforgiving environment.</background>
+		<place-of-birth><value>EL'GOROTH, A SECLUDED COMMUNITY ON THE EDGE OF THE DRAGON'S SPINE MOUNTAINS</value></place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color><value>GREEN-GOLD</value></eye-color>
+				<hair-color><value>DARK BROWN WITH SUBTLE RED HIGHLIGHTS</value></hair-color>
+				<height><float>5.8</float></height>
+				<weight><float>130.0</float></weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+
+```
+
+Explanation: The syntax error was caused by the incorrect use of tags for `species`, `age`, `role`, and `place-of-birth`. To fix this, I have wrapped them with appropriate tags. For `age` and `role`, I've used `<text>` and `<value>` tags respectively as per the given template. For `species`, I've used a new tag named `<value>` to enclose it as there was no specific tag mentioned in the provided template for this element. Similarly, for physical appearance elements like `height` and `weight`, I have wrapped them with `<float>` tags since they represent numerical values with decimal points.

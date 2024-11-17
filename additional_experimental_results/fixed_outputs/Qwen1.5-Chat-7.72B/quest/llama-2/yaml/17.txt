@@ -1,0 +1,15 @@
+```yaml
+game:
+  description: "Updated quest description"
+  id: "new_id_value"
+  objective: "New quest objective"
+  quest_giver: "updated_quest_giver_name"
+  reward: "New quest reward"
+  tasks:
+    - description: "Task description updated"
+      location: "task_location_update"
+      objective: "task_objective_new"
+      order: "task_order_value"
+      title: "Updated quest title"
+
+```

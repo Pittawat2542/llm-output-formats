@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Retrieve the ancient artifact from the lost city of Eldarath.",
+    "description": "Rumors have been circulating about a lost city deep in the forest, filled with treasures and artifacts beyond your wildest dreams. Your quest is to retrieve the fabled Star Crystal, said to grant immense power to its possessor.",
+    "reward": "1000 gold pieces, a magical amulet granting resistance to dark magic",
+    "quest-giver": "Eryndor Thorne, renowned archaeologist and explorer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city's location.",
+          "description": "Speak with the locals, gather rumors and clues that will lead you to the entrance of the lost city.",
+          "location": "The town of Willowdale, specifically the local tavern and market square"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the treacherous forest path to reach the lost city.",
+          "description": "Avoid deadly creatures and navigate through the dense foliage to find the hidden entrance of Eldarath.",
+          "location": "The dark forest, following the ancient ruins' map etched on a stone tablet"
+        }
+      ]
+    }
+  }
+}

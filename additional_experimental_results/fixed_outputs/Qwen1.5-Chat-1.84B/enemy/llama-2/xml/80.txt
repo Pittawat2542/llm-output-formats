@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<int id="1">1</int>
+			<nam>Name</nam>
+			<description>Description</description>
+			<stats>
+				<int hp="100">100</int>
+				<int mp="100">100</int>
+				<intatk>"100"</intatk>
+				<int def="100">100</intdef>
+				<int spd="100">100</intspd>
+			<stats>
+	</enemy>	
+</game>
+```

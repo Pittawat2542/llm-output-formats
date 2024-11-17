@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>q001</id>
+	<title>A New Beginning</title>
+	<objective>Begin your journey as a hero by finding the ancient sword, Sword of Legends.</objective>
+	<description>You have been chosen by the gods to embark on a journey to save the world from darkness. Your first task is to find the Sword of Legends, an ancient and powerful weapon that is said to be the only thing that can defeat the Dark Lord.</description>
+	<reward>The Sword of Legends and 1000 gold.</reward>
+	<quest-giver>Sage of Elrond</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Travel to the Forest of Shadows and find the entrance to the Tomb of Kings.</objective>
+				<location>The Forest of Shadows is located to the east of the town of Asgard. Once you reach the forest, look for a cave that is hidden among the trees.</description>
+				<location>Forest of Shadows</location>
+			</task>
+				<order>2</order>
+			<objective>Fight your way through the Tomb of Kings and find the Sword of Legends.</objective>
+				<location>Tomb of Kings</location>
+			</task>
+				<order>3</order>
+				<objective>Battle with a Dark Lord creature in the Tomb of Kings to obtain the final piece of the Sword of Legends.</objective>
+				<location>Tomb of Kings</location>
+			</task>
+				<order>4</order>
+				<description>Purchase the Sword of Legends from an elven merchant in Asgard.</description>
+				<location>Town of Asgard</location>
+			<task>
+			<task>
+				<order>5</order>
+				<description>Present the sword to the Sage of Elrond in Asgard and receive 200 gold as a reward for your bravery.</description>
+				<location>Town of Asgard</location>
+			<task>
+				<order>6</order>
+				<description>Prepare the Sword of Legends for your next journey by learning how to wield it properly.</description>
+				<location>Sage of Elrond's Library</location>
+			</task>
+			<task>
+				<order>7</order>
+				<description>Travel back to Asgard with the completed Sword of Legends and prepare for your next quest.</objective>
+				<location>Town of Asgard</location>
+			<task>
+				<order>8</order>
+				<description>Celebrate your victory in Asgard and celebrate with a feast to honor the Sage of Elrond's bravery and sacrifice.</description>
+				<location>Sage of Elrond's Hall</location>
+			</task>
+			<task>
+				<order>9</order>
+				<description>Celebrate your victory in Asgard and celebrate with a feast to honor the Sage of Elrond's bravery and sacrifice.</description>
+				<location>Sage of Elrond's Hall</location>
+			</task>
+			<task>
+				<order>10</order>
+				<description>Celebrate your victory in Asgard and celebrate with a feast to honor the Sage of Elrond's bravery and sacrifice.</description>
+				<location>Sage of Elrond's Hall</location>
+			</task>
+	</tasks>
+</game>

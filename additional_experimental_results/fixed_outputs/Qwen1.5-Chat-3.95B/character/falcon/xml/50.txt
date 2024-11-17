@@ -1,0 +1,21 @@
+```xml
+<game>
+	<characters xmlns:characters="urn:oasis:namespaces:characters:1.0">
+   <character 
+    id="id" 
+    first-name="first name" 
+    last-name="last name" 
+    species="species" 
+    age="age or description" 
+    role="character role" 
+    birthplace="location" 
+    place-of-birth="place of birth" 
+    physical-appearance>
+       <eye-color>exact eye color abbreviation</eye-color>
+       <hair-color>exact hair color abbreviation for ex. blonde, brunette etc.</hair-color>
+       <height>exact height in meters</height>
+       <weight>exact weight in kilograms</weight>
+     </physical-appearance>
+   </character&gt; 
+</game>
+```

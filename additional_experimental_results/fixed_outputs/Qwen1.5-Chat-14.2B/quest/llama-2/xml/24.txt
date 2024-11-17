@@ -1,0 +1,24 @@
+Here's the corrected XML data with all the elements and their values included:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>quest_id</id>
+	<title>The Quest to Save the Kingdom</title>
+	<objective>Find the hidden treasure in the Enchanted Forest</objective>
+	<description>Your quest begins at the village square, where the wise old wizard tells you about a magical artifact needed to defeat the evil sorcerer.</description>
+	<reward>A valuable enchanted sword</reward>
+	<quest-giver>The Wise Wizard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the village for clues about the enchanted artifact's location</objective>
+			<description>Speak with villagers, search the local marketplace, and examine the village map.</description>
+			<location>Village Square</location>
+		</task>
+		<!-- Add more task elements as needed -->
+	</tasks>
+</game>
+```
+
+I have added attribute `encoding="UTF-8"` to the XML declaration, fixed indentation, and provided default values for some elements. If you need to add more tasks, just copy the `<task>` element and paste it inside the `<tasks>` section, adjusting the `order` value accordingly.

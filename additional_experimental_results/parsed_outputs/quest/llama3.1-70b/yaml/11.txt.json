@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the legendary sword from the depths of the dark forest.",
+    "id": "Q001",
+    "objective": "Slay the dragon that guards the sword and claim it as your own.",
+    "quest_giver": "King Arin of Silverdale",
+    "reward": "1000 gold coins, a magical shield, and a boost in reputation",
+    "tasks": [
+      {
+        "description": "Meet with the wise old wizard to gather information about the dragon's lair.",
+        "location": "The Wizard's Tower, north of Willowdale",
+        "objective": "Gather knowledge about the dragon's weaknesses.",
+        "order": 1
+      },
+      {
+        "description": "Slay the beast that blocks the path to the dark forest.",
+        "location": "The entrance to the Dark Forest, east of Silverdale",
+        "objective": "Clear the way to the dark forest.",
+        "order": 2
+      },
+      {
+        "description": "Navigate through the treacherous paths and avoid deadly traps set by ancient civilization.",
+        "location": "Deep within the Dark Forest",
+        "objective": "Reach the dragon's lair undetected.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for Dragon Slayer"
+  }
+}

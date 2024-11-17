@@ -1,0 +1,35 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>The Lost Treasure</title>
+	 Objective: Find the hidden treasure and bring it back to civilization.
+	 Description: An ancient tale tells of a treasure hidden deep within the forbidden jungle, waiting for its rightful owner to return it to civilization. Your quest is to find this lost treasure and bring it back to safety.
+	 Reward: 1000 gold coins
+	 Quest-giver: Captain Morgan
+	 Tasks:
+		<task>
+			<order>1</order>
+		 Objective: Explore the jungle
+		 Objective: Navigate through thick vegetation and treacherous paths to reach the heart of the jungle.
+		 Location: Jungle
+		<task>
+			<order>2</order>
+		 Objective: Find the hidden tomb
+		 Objective: Discover a mysterious tomb concealed within the depths of the jungle.
+		 Location: Tomb
+		 Order: 3
+		<task>
+			<order>4</order>
+		 Objective: Retrieve the ancient artifact
+		 Objective: Locate the treasure chamber inside the tomb and retrieve the ancient artifact.
+		 Location: Treasure Chamber
+		<task>
+			<order>5</order>
+		 Objective: Secure the treasure room
+		 Objective: Secure the treasure room to prevent it from being stolen or destroyed.
+		 Location: Treasure Room
+		</task>
+	</tasks>
+</game>
+```

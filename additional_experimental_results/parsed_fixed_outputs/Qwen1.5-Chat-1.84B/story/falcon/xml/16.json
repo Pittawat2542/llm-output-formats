@@ -1,0 +1,17 @@
+{
+  "game": {
+    "title": "Game Title",
+    "synopsis": {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "description": "The game story synopsis"
+    },
+    "beginning": {
+      "@xsi:type": "xs:string",
+      "#text": "The beginning of the game"
+    },
+    "ending": {
+      "@xsi:type": "xs:string",
+      "#text": "The ending of the game"
+    }
+  }
+}

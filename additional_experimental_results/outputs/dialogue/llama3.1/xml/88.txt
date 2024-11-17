@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, what brings you to this village?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Village Elder</speaker>
+			<text>We've been expecting you. We have a great need for your skills.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm here to help, but I need more information about the situation.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Village Elder</speaker>
+			<text>A dark cult has taken over our nearby forest. They're terrorizing travelers and villagers alike.</text>
+		</dialogue>
+		<dialogue>
+			<order>5</order>
+			<speaker>Player</speaker>
+			<text>I see. Can you tell me more about this cult?</text>
+		</dialogue>
+		<dialogue>
+			<order>6</order>
+			<speaker>Village Elder</speaker>
+			<text>Rumor has it they're led by a powerful sorceress with ties to an ancient evil.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

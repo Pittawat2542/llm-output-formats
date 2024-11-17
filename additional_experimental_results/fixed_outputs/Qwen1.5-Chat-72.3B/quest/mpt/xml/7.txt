@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the dungeon.</objective>
+	<description>Rumor has it that a powerful artifact is concealed within the depths of an abandoned dungeon. Retrieve it and bring glory to our kingdom.</description>
+	<reward>1000 gold coins and legendary equipment</reward>
+	<quest-giver>King Arcturus</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the dungeon's location from the local tavern.</objective>
+			<description>Speak with the barkeep and other patrons to learn the entrance's whereabouts.</description>
+			<location>Town Tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Explore the dungeon and defeat the guardian monster.</objective>
+			<description>The artifact is protected by a fearsome creature. You must overcome it to claim the prize.</description>
+			<location>Dungeon Entrance</location>
+		</task>
+	</tasks>
+</game>
+```

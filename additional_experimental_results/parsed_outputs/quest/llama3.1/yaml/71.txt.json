@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Defeat the Dark Sorcerer and put an end to his evil plans.",
+    "id": 1,
+    "objective": "Destroy the source of dark magic",
+    "quest_giver": "Eryndor Thorne, the Wizard of Light",
+    "reward": "A magical amulet granting +10 intelligence and a rare sword",
+    "tasks": [
+      {
+        "description": "Speak with the Oracle in the ancient forest to learn more about the Dark Sorcerer's plans",
+        "location": "Ancient Forest",
+        "objective": "Gain information about the Dark Sorcerer's lair",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate the Dark Sorcerer's lair and gather intel on his minions",
+        "location": "Dark Sorcerer's Lair",
+        "objective": "Gather information about the Dark Sorcerer's army",
+        "order": 2
+      },
+      {
+        "description": "Defeat the Dark Sorcerer in a battle of magic and might",
+        "location": "Dark Sorcerer's Throne Room",
+        "objective": "Destroy the source of dark magic",
+        "order": 3
+      }
+    ],
+    "title": "The Defeat of the Dark Sorcerer"
+  }
+}

@@ -1,0 +1,24 @@
+game:
+  player: id
+   description: description
+   name: name
+   stats:
+   strength: strength int value
+   hit_crit: hit_crit string
+   def: def int value
+   hp: hp int value
+   mp: mp int value
+   spd: spd int value
+enemy:
+  - id : 1
+    description: Enemy name
+    name: Enemy name
+    stats:
+    attack: atk int value
+    def: def int value
+    hp: hp int value
+    mp: mp int value
+    spd: spd int value
+```
+
+

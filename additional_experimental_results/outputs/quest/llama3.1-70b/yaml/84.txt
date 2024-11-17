@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the Dark Castle to vanquish the evil sorcerer, Malakar.
+  id: Q001
+  objective: Obtain the Sword of Light and return it to the village elder.
+  quest_giver: Village Elder Thorold
+  reward:
+    experience_points: 1000
+    gold_coins: 500
+    item: Potion of Healing
+  tasks:
+  - description: Meet with the old wizard, Zorvath, in the Whispering Woods to gather information about the Dark Castle.
+    location: Whispering Woods
+    objective: Gather information
+    order: 1
+  - description: Infiltrate the Dark Castle by disguising yourself as a dark knight.
+    location: Dark Castle
+    objective: Gain access to the castle
+    order: 2
+  - description: Find and retrieve the Sword of Light from the treasure room.
+    location: Treasure Room, Dark Castle
+    objective: Obtain the sword
+    order: 3
+  title: The Quest for the Sword of Light
+```

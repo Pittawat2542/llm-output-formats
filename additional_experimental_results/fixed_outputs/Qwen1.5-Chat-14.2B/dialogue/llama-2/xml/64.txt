@@ -1,0 +1,26 @@
+Here is the corrected XML data, with proper syntax and indentation:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Bill</speaker>
+			<text>I like to go to the movies.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Susan</speaker>
+			<text>I like to go to the movies.</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Joe</speaker>
+			<text>I like to go to the movies.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+I have added `encoding="UTF-8"` attribute to the XML declaration, fixed the closing `</dialogue>` tags, and properly indented the elements. Now it is a valid XML document.

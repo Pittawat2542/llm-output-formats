@@ -1,0 +1,18 @@
+{
+  "game": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:schemaLocation": "urn:nano nansi",
+    "nano:root": {
+      "nx:person": [
+        {
+          "@name": "John Smith",
+          "nx:name": "John Smith"
+        },
+        {
+          "@name": "Jane Doe",
+          "nx:name": "Jane Doe"
+        }
+      ]
+    }
+  }
+}

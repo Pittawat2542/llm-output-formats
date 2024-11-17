@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>New Quest Objective</objective>
+    <description>Updated quest description</description>
+    <reward>Golden Treasure</reward>
+    <quest-giver>A Wise Old Sage</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Puzzle</objective>
+            <description>Find the ancient tree in the center of the forest</description>
+            <location>Deep in the Woods</location>
+        </task>
+    </tasks>
+</game>
+```

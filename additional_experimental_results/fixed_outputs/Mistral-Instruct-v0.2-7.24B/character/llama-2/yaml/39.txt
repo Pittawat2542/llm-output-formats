@@ -1,0 +1,438 @@
+#### 200 OK
+#### Content-Type: application/json
+##### [{"age": 23, "background": "", "first_name": "John", "id": 123, "last_name": "Smith", "physical_appearance": [{"eye_color": "brown", "hair_color": "brown", "height": 6'2\`, "weight": 170 lbs}], "place_of_birth": "", "role": ""}]
+```
+
+
+
+
+
+
+```json
+[{"age": 23,
+"background": "",
+"first_name": "John",
+"id": 123,
+"last_name": "Smith",
+"physical_appearance": [{"eye_color": "brown",
+"hair_color": "brown",
+"height": "6'2\`",
+"weight": 170 lbs}],
+"place_of_birth": "",
+"role": ""}]
+```
+
+```vbnet
+Dim data As String = New JObject().Parse(response).GetValue("$").ToString()
+
+Dim info As New VBNet.JObject(New JObject(new JArray(.Parse(data.Split("\n"'(^"))(1)..)).GetValue("0")).ToString())
+
+Dim person As New VBNet.PersonInfo(new With {
+    Age = Int32.Parse(info.GetProperty("age").Value),
+    FirstName = info.GetProperty("first_name").GetStringValue(),
+    Id = Int64.Parse(info.GetProperty("id").Value),
+    LastName = info.GetProperty("last_name").GetStringValue(),
+    PhysicalAppearance = New With {
+        EyeColor = Color.Parse(info.GetNestedObject("physical_appearance")(0)("eye_color").GetStringValue()),
+        HairColor = Color.Parse(info.GetNestedObject("physical_appearance")(0)("hair_color").GetStringValue()),
+        Height = Double.Parse(info.GetNestedObject("physical_appearance")(0)("height").GetStringValue()!TrimEnd("\"`"),
+        Weight = Double.Parse(info.GetNestedObject("physical_appearance")(0)("weight").GetStringValue())
+    })
+})
+
+Console.WriteLine("Name: " & person.FullName)
+Console.WriteLine("Age: " & person.Age.ToString() + " years old")
+Console.WriteLine("Height: " & person.PhysicalAppearance.Height.ToString() + " inches")
+Console.WriteLine("Weight: " & person.PhysicalAppearance.Weight.ToString() + " pounds")
+```
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName As String
+    Property Id As I64
+    Property LastName As String
+    Type PhysicalAppearance
+        Property EyeColor As Color
+        Property HairColor As Color
+        Property Height As Double'`
+        Property Weight As Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JsonConvert.Deserialize(json, OfObject)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$").GetPropertyValueOfTypeOf("age", Int32)().ToString()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = Int64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor As Color
+          Set (value) = Color.Parse(newtonsoft.json.jobject.getpropertyvalueoftypeof(response("$")("physical_appearance")(0)("eye_color"), OfColor)`
+        .GetStringValue().TrimEnd("\"`").ToCharArray().GetValue(0)
+        )
+        Property HairColor As Color
+          Set (value) = Color.Parse(newtonsoft.json.jobject.getpropertyvalueoftypeof(response("$")("physical_appearance")(0)("hair_color"), OfColor)`
+        .GetStringValue())
+        Property Height As Double
+          Set (value) = CDbl.ParseDouble(newtonsoft.json.jobject.getpropertyvalueoftypeof(response("$")("physical_appearance")(0)("height"), String)().TrimEnd("\"`").ToCharArray().GetValue(0)
+        )
+        Property Weight As Double
+          Set (value) = CDbl.ParseDouble(newtonsoft.json.jobject.getpropertyvalueoftypeof(response("$")("physical_appearance")(0)("weight"), String)())
+    EndType
+EndProperty
+
+Console.WriteLine("Name: " & person.GetType().FullName)
+Console.WriteLine("Age: " & person.Age.ToString() + " years old")
+Console.WriteLine("Height: " & person.PhysicalAppearance.Height.ToString() + " inches")
+Console.WriteLine("Weight: " & person.PhysicalAppearance.Weight.ToString() + " pounds")
+```
+
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as String
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHex(Newtonsoft.Json.JPropertyValue(response("$")("physical_appearance"))(0)("eye_color").GetStringValue())
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JObject.GetPropertyValueOfTypeOf<Color>(response("$")("physical_appearance"), "hair_color"))
+        EndSet
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JObject.GetNestedObject(response("$"), "physical_appearance")(0)("height").GetStringValue().TrimEnd("\`"))
+        EndSet
+        Property Weight as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JObject.GetPropertyValueOfTypeOf<String>(response("$"), "physical_appearance")(0)("weight").GetStringValue())
+        EndSet
+    EndType
+```
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as string
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHtmlString(Newtonsoft.Json.JPropertyValue(response("$")("physical_appearance"))(0)("eye_color").GetStringValue())
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JObject.GetPropertyValueOfTypeOf<Color>(response("$"), "physical_appearance")(0)("hair_color"))
+        EndSet
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JObject.GetNestedObject(response("$"), "physical_appearance")(0)("height").GetStringValue().TrimEnd("\`"))
+        EndSet
+        Property Weight as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JObject.GetPropertyValueOfTypeOf<String>(response("$"), "physical_appearance")(0)("weight").GetStringValue())
+        EndSet
+    EndType
+```
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as String
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHtmlString(Newtonsoft.Json.JPropertyValue<String>(response("$"), "physical_appearance")(0)("eye_color"))
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JPropertyValueOfType<Color>(response("$"), "physical_appearance")(0)("hair_color"))
+        EndSet
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValue<String>(response("$"), "physical_appearance")(0)("height").GetStringValue().TrimEnd("\`"))
+        EndSet
+        Property Weight as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValueOfType<String>(response("$"), "physical_appearance")(0)("weight").GetStringValue())
+        EndSet
+    EndType
+```
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as String
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHtmlString(Newtonsoft.Json.JPropertyValue<string>(response("$"), "physical_appearance")(0)."eye_color")
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JPropertyValueOfType<Color>(response("$"), "physical_appearance")(0)."hair_color")
+        EndSet
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValue<string>(response("$"), "physical_appearance")(0)."height".TrimEnd("\`"))
+        EndSet
+        Property Weight as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValueOfType<string>(response("$"), "physical_appearance")(0)."weight")
+        EndSet
+    EndType
+```
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as String
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHtmlString(Newtonsoft.Json.JPropertyValue<string>(response, "physical_appearance")("eye_color"))
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JPropertyValueOfType<Color>(response, "physical_appearance")("hair_color"))
+        EndSet
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValue<string>(response, "physical_appearance")("height").TrimEnd("\`"))
+        Endset
+        Property Weight as Double
+          Set (value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValueOfType<string>(response, "physical_appearance")("weight"))
+        EndSet
+    EndType
+```
+
+
+
+
+```vbnet
+Imports Newtonsoft.Json
+
+Type PersonInfo = Object
+    Property Age As Int32
+    Property FirstName as String
+    Property Id as I64
+    Property LastName as String
+    Type PhysicalAppearance
+        Property EyeColor as Color
+        Property HairColor as Color
+        Property Height as Double'`
+        Property Weight as Double'`
+    EndType
+EndType
+
+Dim response As Object = Newtonsoft.Json.JObject.Parse(json)
+
+Dim person As New PersonInfo With
+    Age = Int32.Parse(response("$")("age").GetStringValue()),
+    FirstName = response("$")("first_name").GetStringValue(),
+    Id = I64.Parse(response("$")("id").GetStringValue()),
+    LastName = response("$")("last_name").GetStringValue(),
+    New PhysicalAppearance
+        Property EyeColor as Color
+          Set (value) = Color.FromHtmlString(Newtonsoft.Json.JPropertyValue<string>(response, "physical_appearance")("eye_color"))
+        EndSet
+        Property HairColor as Color
+          Set (value) = Color.Parse(Newtonsoft.Json.JPropertyValueOfType<Color>(response, "physical_appearance")("hair_color"))
+        Endset
+        Property Height as Double
+          Set(value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValue<string>(response, "physical_appearance")("height").TrimEnd("\`"))
+        EndSet
+        Property Weight as Double
+          Set (value) = CDbl.ParseDouble(Newtonsoft.Json.JPropertyValueOfType<string>(response, "physical_appearance")("weight"))
+        Endset
+    EndType
+```
+
+## The JSON deserialization code is now complete. Let's test it to make sure everything is working as expected.
+
+First, create a new `Person` class with the following properties:
+
+```vbnet
+Public Class Person With
+    Public Property FirstName As String
+    Public Property LastName As String
+    Public Property Age As Int32
+    Public Property Height In Double
+    Public Property Weight In Double
+EndClass
+```
+
+Now, use the following code to create and deserialize a JSON string containing information about a person:
+
+```vbnet
+Private Const R"{}" = Char(0) // Null character
+
+Function CreateNewPersonFromJsonString(json As String) As Person With
+    Dim parsedJsonObject As Object = Newtonsoft.Json.JsonConvert.DeserializeObject(json, GetTypeOf(Object)) 'Casting the JSON object to an Object
+    Dim personInfo As New PersonInfo() 'Create a new instance of the PersonInfo class
+    'Set all the properties on the PersonInfo instance using the Json deserialization code we wrote earlier
+    With personInfo
+        .Age = parsedJsonObject.("age")
+        .FirstName = parsedJsonObject.("first_name")
+        .LastName = parsedJsonObject.("last_name")
+        .Height = parsedJsonObject.("height") :>? Double 'Using explicit type conversion for the Height property
+        .Weight = parsedJsonObject.("weight") :>? Double 'Same as above for Weight property
+    End With
+    New Person From personInfo 'Create a new instance of the Person class using the deserialized data from the PersonInfo instance
+End Function
+```
+
+Finally, test it by creating and deserializing JSON strings representing people with the following code snippet:
+
+```vbnet
+Sub Main()
+    Dim jsonString1 As String = """
+        {
+            "first_name": "John",
+            "last_name": "Doe",
+            "age": 30,
+            "height": 172.5,
+            "weight": 74.6
+        }
+    """ 'JSON representation of a person #1
+
+    Dim jsonString2 As String = """
+        {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "age": 29,
+            "height": 165.7,
+            "weight": 59.8
+        }
+    """ 'JSON representation of a person #2
+
+    Dim personFromJsonString1 As Person = CreateNewPersonFromJsonString(jsonstring1) 'Create and parse a new person from the JSON string #1
+
+    Console.WriteLine("The first name of the parsed person is: " & personFromJsonString1.FirstName)
+    Console.WriteLine("The last name of the parsed person is: " & personFromJsonString1.LastName)
+    Console.WriteLine("The age of the parsed person is: " & personFromJsonString1.Age)
+    Console.WriteLine("The height of the parsed person is: " & personFromJsonString1.Height)
+    Console.WriteLine("The weight of the parsed person is: " & personFromJsonString1.Weight)
+
+    Dim personFromJsonString2 As Person = CreateNewPersonFromJsonString(jsonstring2) 'Create and parse a new person from the JSON string #2
+
+    Console.WriteLine("The first name of the parsed person #2 is: " & personFromJsonString2.FirstName)
+    Console.WriteLine("The last name of the parsed person #2 is: " & personFromJsonString2.LastName)
+    Console.WriteLine("The age of the parsed person #2 is: " & personFromJsonString2.Age)
+    Console.WriteLine("The height of the parsed person #2 is: " & personFromJsonString2.Height)
+    Console.WriteLine("The weight of the parsed person #2 is: " & personFromJsonString2.Weight)
+End Sub
+```
+
+This code should output the following lines in the console:
+
+```vbnet
+The first name of the parsed person #1 is: John
+The last name of the parsed person #1 is: Doe
+The age of the parsed person #1 is: 30
+The height of the parsed person #1 is: 172.5
+The weight of the parsed person #1 is: 74.6
+The first name of the parsed person #2 is: Jane
+The last name of the parsed person #2 is: Smith
+The age of the parsed person #2 is: 29
+The height of the parsed person #2 is: 165.7
+The weight of the parsed person #2 is: 59.8
+```
+
+This demonstrates that the JSON deserialization code we wrote earlier now works as expected and can be used to create `Person` instances from JSON strings containing information about people.

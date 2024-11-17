@@ -1,0 +1,27 @@
+Error: key_completeness: The key 'quest_giver' is missing.
+Invalid XML data. Corrected syntax and values provided below.
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<id>1234</id>
+	<title>The Lost Artifacts</title>
+	<Objective>Find and return all the lost artifacts.</Objective>
+	<Description>You are tasked to find all the lost artifacts of the once powerful kingdom that had been lost in time. These artifacts hold immense power and their recovery is crucial.</Description>
+	<Reward>500 Gold, +50 XP, and a Sacred Amulet</Reward>
+	<Quest-Giver>Ancient Keeper</Quest-Giver>
+	<Tasks>
+		<Task>
+			<Order>1</Order>
+			<Objective>Find the Ancient Sword.</Objective>
+			<Description>Travel to Earth's Scion, a land where an ancient sword awaits.</Description>
+			<Location>Earth's Scion</Location>
+			</Task>
+		<Task>
+			<Order>2</Order>
+			<Objective>Retrieve the Mystic Shield.</Objective>
+			<Description>Brave the deadly abyss of Abyssal Expanse to retrieve the Mystic Shield.</Description>
+			<Location>Abyssal Expanse</Location>
+			</Task>
+		</Tasks>
+</game>
+```

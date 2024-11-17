@@ -1,0 +1,21 @@
+```yaml
+```User
+Error: incorrect_syntax: mapping values are not allowed here
+  in "<unicode string>", line 8, column 50:
+     ...  of the quest. e.g. "quest-giver: get quest-giver's keys."}
+                                          ^
+
+Template: 
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+  title: Quest Information. e.g. 
+```

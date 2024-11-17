@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?> 
+<game>
+	<title>game title</title>
+	<description>game description</description>
+	<version>1.0</version>
+	<category action>
+			<select>
+				<option value="play">play</option>
+				<option value="action">action</option>
+				<option value="default">default</option>
+			</select>
+		</category>
+		 playable>true</playable>
+		releaseDate>2015-01-01</releaseDate>
+	</game>
+```
+Note: The `category` field has been changed to `action`, which is now a dropdown list with options for `play` and `action`. The `default` option has also been removed.

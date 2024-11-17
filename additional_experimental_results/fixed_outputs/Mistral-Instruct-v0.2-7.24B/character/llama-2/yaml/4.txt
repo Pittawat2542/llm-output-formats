@@ -1,0 +1,421 @@
+```json
+{
+  "error": {
+    "code": "ERR_INVALID_JSON",
+    "message": "Unexpected character '<'. Expected a valid json object."
+  },
+  "response": null
+}
+```
+
+Response:
+```json
+[
+  {
+    "id": 28,
+    "name": "Harry Potter",
+    "age": 15,
+    "background": "I'm a wizard, Harry.",
+    "physical_appearance": [
+      {
+        "eye_color": "blue",
+        "hair_color": "brown",
+        "height": 1.75,
+        "weight": 75
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Boy Wizard"
+  },
+  {
+    "id": 29,
+    "name": "Hermione Granger",
+    "age": 15,
+    "background": "I'm a witch and I can make things better.",
+    "physical_appearance": [
+      {
+        "eye_color": "green",
+        "hair_color": "red",
+        "height": 1.68,
+        "weight": 59
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Girl Wizard"
+  },
+  {
+    "id": 30,
+    "name": "Ron Weasley",
+    "age": 16,
+    "background": "I can make things explode!",
+    "physical_appearance": [
+      {
+        "eye_color": "brown",
+        "hair_color": "blonde",
+        "height": 1.89,
+        "weight": 85
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Guy with Explosive Powers"
+  },
+  {
+    "id": 31,
+    "name": "Neville Longbottom",
+    "age": 17,
+    "background": "I can make things heal!",
+    "physical_appearance": [
+      {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "height": 1.82,
+        "weight": 79
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Guy with Healing Powers"
+  },
+  {
+    "id": 32,
+    "name": "Ginny Weasley",
+    "age": 18,
+    "background": "I can make things not explode! And I can make things grow.",
+    "physical_appearance": [
+      {
+        "eye_color": "green",
+        "hair_color": "chestnut brown",
+        "height": 1.68,
+        "weight": 59
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Girl with Controlling Powers"
+  },
+  {
+    "id": 33,
+    "name": "Dean Thomas",
+    "age": 16,
+    "background": "I can make things levitate!",
+    "physical_appearance": [
+      {
+        "eye_color": "brown",
+        "hair_color": "black",
+        "height": 1.72,
+        "weight": 68
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Guy with Levitating Powers"
+  },
+  {
+    "id": 34,
+    "name": "Tom Riddlehouse",
+    "age": 17,
+    "background": "I can make things invisible!",
+    "physical_appearance": [
+      {
+        "eye_color": "black",
+        "hair_color": "#D2B58F",
+        "height": 1.84,
+        "weight": 76
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Guy with Invisibility Powers"
+  },
+  {
+    "id": 35,
+    "name": "Nymphadora Tonks",
+    "age": 18,
+    "background": "I can make things grow really fast!",
+    "physical_appearance": [
+      {
+        "eye_color": "brown",
+        "hair_color": "#325E4F",
+        "height": 1.8,
+        "weight": 75
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Girl with Controlling Growth Powers"
+  },
+  {
+    "id": 36,
+    "name": "Sirius Black",
+    "age": 18,
+    "background": "I can make things not die! And I can change their color.",
+    "physical_appearance": [
+      {
+        "eye_color": "blue",
+        "hair_color": "#3F4662",
+        "height": 1.87,
+        "weight": 75
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Guy with Controlling Life Powers"
+  },
+  {
+    "id": 37,
+    "name": "Professor Albus Dumbledore",
+    "age": null,
+    "background": "I can help people and keep magic in order.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Wise Old Man with Magical Powers"
+  },
+  {
+    "id": 38,
+    "name": "Professor Minerva McGonagall",
+    "age": null,
+    "background": "I can make things not bend out of shape! And I can make the castle float.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Wise Old Lady with Controlling Powers"
+  },
+  {
+    "id": 39,
+    "name": "Rubeus Hagrid",
+    "age": null,
+    "background": "I can make things bigger! And I can help people when they're in danger.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Kind Old Man with Controlling Powers"
+  },
+  {
+    "id": 40,
+    "name": "Professor Pomona Sprout",
+    "age": null,
+    "background": "I can make things grow in pots! And I can help plants.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Kind Old Lady with Controlling Growth Powers"
+  },
+  {
+    "id": 41,
+    "name": "Professor Gilderoy Lockhart",
+    "age": null,
+    "background": "I can make things move in the right direction! And I can heal people with my kisses.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Kind Old Man with Controlling Movement and Healing Powers"
+  },
+  {
+    "id": 42,
+    "name": "Professor Fawkes Flitwick",
+    "age": null,
+    "background": "I can make things not fly away! And I can fix problems with my broomstick.",
+    "physical_appearance": null,
+    "place_of_birth": "Unknown",
+    "role": "Kind Old Man with Controlling Flight and Fixing Powers"
+  },
+  {
+    "id": 43,
+    "name": "Mad Eye Moody",
+    "age": null,
+    "background": "I can make things not see what they shouldn't! And I can help people when they need it.",
+    "physical_appearance": [
+      {
+        "eye_color": "#B47B7C",
+        "hair_color": null,
+        "height": 1.8,
+        "weight": 60
+      }
+    ],
+    "place_of_birth": "Unknown",
+    "role": "Weird Old Man with Controlling Invisibility Powers"
+  },
+  {
+    "id": 44,
+    "name": "Albus Potter",
+    "age": null,
+    "background": "I can make things move the right way! And I can help Harry when he needs it.",
+    "physical_appearance": [
+      {
+        "eye_color": "#A28E3B",
+        "hair_color": "#615F4F",
+        "height": 1.9,
+        "weight": 70
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Young Man with Controlling Movement and Helping Powers"
+  },
+  {
+    "id": 45,
+    "name": "Ginny Weasley",
+    "age": null,
+    "background": "I can help Harry when he's in danger! And I can make things grow.",
+    "physical_appearance": [
+      {
+        "eye_color": "#B47B7C",
+        "hair_color": "#51603D",
+        "height": 1.6,
+        "weight": 55
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Girl with Controlling Growth and Helping Powers"
+  },
+  {
+    "id": 46,
+    "name": "Neville Longbottom",
+    "age": null,
+    "background": "I can help Harry when he's in danger! And I can make things grow.",
+    "physical_appearance": [
+      {
+        "eye_color": "#A28E3B",
+        "hair_color": "#51603D",
+        "height": 1.7,
+        "weight": 55
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Young Man with Controlling Growth and Helping Powers"
+  },
+  {
+    "id": 47,
+    "name": "Hermione Granger",
+    "age": null,
+    "background": "I can help Harry when he's in danger! And I can make things grow and keep the castle tidy.",
+    "physical_appearance": [
+      {
+        "eye_color": "#8E5243",
+        "hair_color": null,
+        "height": 1.65,
+        "weight": 58
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Girl with Controlling Growth, Tidiness, and Helping Powers"
+  },
+  {
+    "id": 48,
+    "name": "Ron Weasley",
+    "age": null,
+    "background": "I can help Harry when he's in danger! And I can cook.",
+    "physical_appearance": [
+      {
+        "eye_color": "#8E5243",
+        "hair_color": "#615F4F",
+        "height": 1.7,
+        "weight": 60
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Young Man with Controlling Growth, Helping Powers, and Cooking Skills"
+  },
+  {
+    "id": 49,
+    "name": "Harry Potter",
+    "age": 17,
+    "background": "I can make things move the right way! And I can help my friends when they're in danger. And I can make things grow.",
+    "physical_appearance": [
+      {
+        "eye_color": "#A28E3B",
+        "hair_color": "#495760",
+        "height": 1.8,
+        "weight": 65
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Boy with Controlling Movement, Growth, and Helping Powers"
+  },
+  {
+    "id": 50,
+    "name": "Severus Snape",
+    "age": unknown,
+    "background": "I can make things move the right way! And I can keep the castle tidy.",
+    "physical_appearance": [
+      {
+        "eye_color": "#433F6B",
+        "hair_color": null,
+        "height": 1.95,
+        "weight": 80
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Man with Controlling Movement and Tidiness Powers"
+  },
+  {
+    "id": 51,
+    "name": "Rubeus Hagrid",
+    "age": unknown,
+    "background": "I can help Harry and his friends when they're in danger! And I can make things grow.",
+    "physical_appearance": [
+      {
+        "eye_color": "#7A5E4C",
+        "hair_color": null,
+        "height": 2.03,
+        "weight": 135
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Giant with Controlling Growth, Helping Powers, and Cooking Skills"
+  },
+  {
+    "id": 52,
+    "name": "Albus Dumbledore",
+    "age": unknown,
+    "background": "I can make things move the right way! And I can keep the castle tidy and help Harry when he's in danger.",
+    "physical_appearance": [
+      {
+        "eye_color": "#8E5243",
+        "hair_color": null,
+        "height": 1.76,
+        "weight": 60
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Old Man with Controlling Movement, Tidiness, and Helping Powers"
+  },
+  {
+    "id": 53,
+    "name": "Slytherin",
+    "age": unknown,
+    "background": "I can make things move the wrong way! And I can turn Harry's friends against him.",
+    "physical_appearance": [
+      {
+        "eye_color": "#433F6B",
+        "hair_color": "#51603D",
+        "height": 1.9,
+        "weight": 70
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Snake with Controlling Movement and Turning Friends Against Harry Powers"
+  },
+  {
+    "id": 54,
+    "name": "Voldemort",
+    "age": unknown,
+    "background": "I can make things move the wrong way! And I can kill Harry.",
+    "physical_appearance": [
+      {
+        "eye_color": "#51603D",
+        "hair_color": null,
+        "height": 2.15,
+        "weight": 145
+      }
+    ],
+    "place_of_birth": "Unknown",
+    "role": "Dark Lord with Controlling Movement and Killing Harry Powers"
+  },
+  {
+    "id": 55,
+    "name": "Severus Snape (Another Version)",
+    "age": unknown,
+    "background": "I can make things move the right way! And I can help Harry.",
+    "physical_appearance": [
+      {
+        "eye_color": "#433F6B",
+        "hair_color": null,
+        "height": 1.95,
+        "weight": 80
+      }
+    ],
+    "place_of_birth": "Godric's Hollow",
+    "role": "Man with Controlling Movement and Helping Harry Powers"
+  },
+];
+export default data;

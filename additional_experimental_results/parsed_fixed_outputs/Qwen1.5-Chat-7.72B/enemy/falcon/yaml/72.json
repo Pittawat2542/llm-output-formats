@@ -1,0 +1,28 @@
+{
+  "game": {
+    "player": {
+      "id": "player-id",
+      "description": "Player's Description",
+      "name": "player-name",
+      "stats": {
+        "strength": "Strength Integer Value",
+        "hit_crit": "Hit/Crit String Value",
+        "dodge": "Dodge String Value"
+      }
+    },
+    "enemy": [
+      {
+        "name": "Enemy1",
+        "description": "Enemy1 Description",
+        "id": "enemy1-id",
+        "stats": {
+          "attack": "atk-int-value",
+          "defense": "def-int-value",
+          "health": "hp-int-value",
+          "magic": "mp-int-value",
+          "speed": "spd-int-value"
+        }
+      }
+    ]
+  }
+}

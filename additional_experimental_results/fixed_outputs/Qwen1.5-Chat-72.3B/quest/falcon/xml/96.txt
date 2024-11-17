@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Lost Artifact</title>
+    <objective>Find and return the ancient artifact to the village elder.</objective>
+    <description>Rumors say the lost artifact is hidden deep in the jungle. Be careful, there are dangers lurking everywhere.</description>
+    <reward>1000 gold coins and a legendary weapon</reward>
+    <quest-giver>Guru Zara</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Explore the Jungle Temple</objective>
+            <description>You must enter the ancient temple located in the heart of the jungle and search for clues.</description>
+            <location>Jungle Temple</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the Guardian Beast</objective>
+            <description>A fierce beast guards the artifact. Defeat it to proceed.</description>
+            <location>Beast's Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Retrieve the Artifact</objective>
+            <description>The artifact is within reach. Grab it and prepare to leave.</description>
+            <location>Inner Sanctum</location>
+        </task>
+    </tasks>
+</game>
+```

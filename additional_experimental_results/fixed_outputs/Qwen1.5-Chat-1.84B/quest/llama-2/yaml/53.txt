@@ -1,0 +1,16 @@
+game:
+  description: Quest Description
+  id: 1
+  objective: To Win
+  quest_giver: Quest Giver
+  reward: Reward
+  tasks:
+    - description: Task Description
+      location: Task Location
+      objective: Task Objective
+      order: Task Order
+    - description: Another Task Description
+      location: Another Task Location
+      objective: Another Task Objective
+      order: Another Task Order
+```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>The players must navigate through the treacherous jungle and retrieve an ancient artifact hidden within the lost temple.</description>
+	<reward>100 gold pieces and a magical amulet.</reward>
+	<quest-giver>Rajesh, the village elder.</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the jungle without getting attacked by hostile creatures.</objective>
+			<description>The players must use their wits to navigate through the dense foliage and avoid deadly traps.</description>
+			<location>Jungle of Whispers.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the ancient puzzle to unlock the temple entrance.</objective>
+			<description>The players must use their problem-solving skills to unlock the ancient door.</description>
+			<location>The Lost Temple.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the artifact and escape the temple before it collapses.</objective>
+			<description>The players must act quickly to retrieve the artifact and escape the temple before it collapses, trapping them inside.</description>
+			<location>The Lost Temple.</location>
+		</task>
+	</tasks>
+</game>
+```

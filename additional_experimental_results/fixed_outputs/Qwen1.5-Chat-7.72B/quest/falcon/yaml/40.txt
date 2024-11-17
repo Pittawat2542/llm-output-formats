@@ -1,0 +1,20 @@
+The original YAML data seems to have some inconsistent keys and missing values. Here's the corrected YAML with consistent key names and added values where necessary:
+
+```yaml
+game:
+  title: quest title
+  description: quest description
+  objective: quest objective
+  giver: quest_giver
+  giver_id: quest_giver_id
+  reward: quest_reward
+  tasks:
+  - task_title: task description
+    location: task_location
+    objective: task_objective
+    order: task_order
+    task_type: specific_task_type (optional, depending on context)
+  exploration_location: explore_location
+
+# Output format
+```yaml

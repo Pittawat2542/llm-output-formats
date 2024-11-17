@@ -1,0 +1,38 @@
+Here is the corrected XML data:
+```xml
+<?xml version="1.0" ?> 
+<game>
+  <id>QST-001</id>
+  <title>Slayer of the Dragon</title>
+  <objective>Defeat the Dragon</objective>
+  <description>The once peaceful village of Dragon's Rest has been terrorized by a fearsome dragon. Slay the beast and restore peace to the village.</description>
+  <reward>Dragon's Hoard, Dragon Slayer Title</reward>
+  <quest-giver>Mayor of Dragon's Rest</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the Dragon</objective>
+      <description>Speak to the villagers of Dragon's Rest to gather information about the Dragon's lair and its habits.</description>
+      <location>Dragon's Rest Village</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Forge a Dragon-Slayer Sword</objective>
+      <description>Obtain a rare metal called Draconium and bring it to the village blacksmith to forge a weapon capable of slaying the Dragon.</description>
+      <location>Draconium Mine</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Slay the Dragon</objective>
+      <description>Locate the Dragon's lair and confront the beast. Defeat the Dragon and bring its head as proof of your victory.</description>
+      <location>Dragon's Lair</location>
+    </task>
+    <task>
+      <order>4</order>
+      <objective>Return to Mayor</objective>
+      <description>Return to the Mayor of Dragon's Rest with the Dragon's head to claim your reward.</description>
+      <location>Dragon's Rest Village</location>
+    </task>
+  </tasks>
+</game>
+```

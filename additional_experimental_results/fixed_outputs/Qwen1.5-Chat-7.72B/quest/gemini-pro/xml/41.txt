@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Golden Coffer of El Dorado</title>
+    <objective>Discover the wealth of El Dorado in an ancient pyramid.</objective>
+    <description>A local shaman has revealed a map to the lost treasure of El Dorado. Your quest is to uncover this fortune and bring it back before time runs out.</description>
+    <reward> priceless artifacts and eternal fame</reward>
+    <quest-giver>Mrs. Isabellaendez</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Research and plan your journey.</objective>
+            <description>Start by studying the shaman's map and gathering necessary supplies. You can either embark from Lima, Peru or Iquitos, Peru.</description>
+            <location>Peruian Amazon region</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Locate the pyramid's entrance.</objective>
+            <description>The pyramid is said to be hidden among the dense jungle. Search for signs of ancient structures or consult with local tribes for guidance.</description>
+            <location>Hidden jungle site</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Enter and navigate the pyramid's inner chambers.</objective>
+            <description>Beware of traps and guardian creatures as you uncover the treasure chamber. Your wits and courage will be key to your success.</description>
+            <location>Secret treasure chamber</location>
+        </task>
+    </tasks>
+</game>
+```

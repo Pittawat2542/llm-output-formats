@@ -1,0 +1,31 @@
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>123456789</id>
+    <title>The Quest for the Golden Relic</title>
+    <objective>Uncover the ancient artifact and unlock its secrets</objective>
+    <description>A thrilling quest to discover a legendary artifact, requiring deduction, bravery, and strategic thinking. Seek out the clues scattered across the kingdom and overcome formidable obstacles.</description>
+    <reward>500 gold pieces and a rare artifact</reward>
+    <quest-giver>Emperor Alexander</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Examine the cryptic riddle</objective>
+            <description>Decipher the cryptogram at the ancient monument to learn the next clue's location - Temple of Sunlight.</description>
+            <location>Temple of Sunlight</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Acquire the magical amulet</objective>
+            <description>Defeat the guards in the enchanted forest and obtain the amulet for entrance to the hidden chamber.</description>
+            <location>Enchanted Forest</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Bypass the treacherous maze</objective>
+            <description>Navigate the labyrinthine maze, guided by the moon's light, to reach the treasure chamber.</description>
+            <location>Maze of Moonlight</location>
+        </task>
+    </tasks>
+</game>
+```

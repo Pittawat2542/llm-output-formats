@@ -1,0 +1,17 @@
+```yaml
+game:
+  description: "quest description"
+  id: "unique_id" # Added missing 'id' key
+  title: "quest_title" # Added missing 'title' key
+  objective: "quest objective" # Replaced 'objectives' with a single 'objective'
+  reward:
+    title: "quest reward"
+    money: 0
+    experience: 0
+  quest_giver: "quest giver" # Added missing 'quest_giver' key
+  tasks:
+    - description: "task description"
+      location: "task location"
+      objective: "task objective"
+      order: "task order"
+```

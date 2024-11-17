@@ -1,0 +1,25 @@
+{
+  "output": {
+    "markdown": {
+      "type": "markdown",
+      "options": {
+        "renderer": [
+          {
+            "render yaml": [
+              {
+                "input": {
+                  "file": "quest_info.yaml",
+                  "output": {
+                    "key_completeness": {
+                      "value": "game"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

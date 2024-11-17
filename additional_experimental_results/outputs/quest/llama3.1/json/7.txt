@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "q01",
+        "title": "The Missing Treasure",
+        "objective": "Retrieve the lost treasure from the ancient ruins.",
+        "description": "Rumors have been circulating about a hidden treasure deep within the ancient ruins. Brave adventurers are needed to uncover the truth and bring back the loot.",
+        "reward": "100 gold coins, 10 experience points",
+        "quest_giver": "Gorvoth, the village elder",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Reach the ancient ruins entrance",
+                "description": "Make your way through the dense jungle and find the entrance to the ancient ruins.",
+                "location": "The Jungle"
+            },
+            {
+                "order": "2",
+                "objective": "Solve the puzzle to unlock the door",
+                "description": "Use your wits to solve the ancient puzzle and unlock the door to the treasure chamber.",
+                "location": "The Ancient Ruins"
+            },
+            {
+                "order": "3",
+                "objective": "Retrieve the lost treasure",
+                "description": "Once inside, navigate through the treacherous traps and retrieve the lost treasure.",
+                "location": "The Treasure Chamber"
+            }
+        ]
+    }
+}
+```

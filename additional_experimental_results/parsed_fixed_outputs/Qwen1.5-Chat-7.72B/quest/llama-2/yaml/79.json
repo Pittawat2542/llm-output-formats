@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A thrilling adventure",
+    "id": "ADVENTURE_001",
+    "objective": "Uncover the hidden treasure",
+    "quest_giver": "Mysterious Stranger",
+    "reward": "Valuable artifacts and experience points",
+    "tasks": [
+      {
+        "description": "Search the abandoned castle",
+        "location": "Castle of Shadows",
+        "objective": "Find the first clue",
+        "order": "1"
+      },
+      {
+        "description": "Cross the treacherous forest",
+        "location": "Enchanted Forest",
+        "objective": "Avoid the dragon's lair",
+        "order": "2"
+      },
+      {
+        "description": "Deliver the key to the village elder",
+        "location": "Village Council",
+        "objective": "Obtain next clue",
+        "order": "3"
+      }
+    ]
+  },
+  "title": "Quest of the LostTreasure"
+}

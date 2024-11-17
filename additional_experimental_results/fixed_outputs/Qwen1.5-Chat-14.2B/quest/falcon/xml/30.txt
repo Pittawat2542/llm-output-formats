@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1234</id>
+	<title>The Lost Treasure Quest</title>
+	<objective>Discover the hidden treasure in the ancient ruins</objective>
+	<description>Embark on a journey to uncover clues and solve puzzles.</description>
+	<reward>Gold, artifacts, and fame</reward>
+	<quest-giver>Captain Blackbeard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Investigate the mysterious map in the village library</objective>
+			<description>Find the key to unlock the first clue.</description>
+			<location>Village Library</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Follow the riddle at the Old Pirate's Inn</objective>
+			<description>Puzzle-solving challenge leading to the next location.</description>
+			<location>Old Pirate's Inn</location>
+		</task>
+	</tasks>
+</game>
+```

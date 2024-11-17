@@ -1,0 +1,183 @@
+```yaml
+game:
+    enemy:
+      description: The enemy is a ferocious beast.
+        id: 1
+        name: Beast
+        stats:
+          def: 7
+          atk: 5
+          spd: 1
+          hp: 15
+          mp: 20
+
+  enemy:
+    description: La bestia enemiga es ferocísima.
+      id: 2
+      name: Bestia
+      stats:
+        def: 4
+        atk: 3
+        spd: 0
+        hp: 14
+        mp: 18
+
+  player:
+    description: The player is a strong warrior.
+      id: 3
+      name: Player
+      stats:
+        def: 8
+        atk: 7
+        spd: 1
+        hp: 18
+        mp: 24
+```
+
+### Response using YAML front matter
+
+```yaml
+---
+game:
+    enemy:
+        description: The enemy is a ferocious beast.
+          id: 1
+          name: Beast
+          stats:
+            def: 7
+            atk: 5
+            spd: 1
+            hp: 15
+            mp: 20
+
+  enemy:
+    description: La bestia enemiga es ferocísima.
+      id: 2
+      name: Bestia
+      stats:
+        def: 4
+        atk: 3
+        spd: 0
+        hp: 14
+        mp: 18
+
+  player:
+    description: The player is a strong warrior.
+      id: 3
+      name: Player
+      stats:
+        def: 8
+        atk: 7
+        spd: 1
+        hp: 18
+        mp: 24
+---
+```
+
+# Instruction
+The instructions are divided into three parts:
+
+Part 1: Explain the instructions.
+
+This part contains a description of the problem, as well as the answer to explain how to solve it. This is intended for people who have not been exposed to YAML. The goal of this section is to provide an example with a solution that can be easily understood by non-experts.
+
+Part 2: Examples in code.
+
+This part contains examples of solutions in Python, with comments explaining the steps taken to solve the problem. This section is intended for people who know some basic information about YAML and want to learn how to solve a specific problem using this format. The goal of this section is to provide an example that can be understood by someone familiar with Python, but not with YAML.
+
+Part 3: Solutions in code.
+
+This part contains solutions to the problems presented in the previous sections. This section is intended for people who know how to work with YAML and want to learn more about it. The goal of this section is to provide a complete solution to each problem, so that someone can understand how to use YAML for different purposes.
+
+Part 4: Examples in code.
+
+This part contains examples of solutions in Python, with comments explaining the steps taken to solve the problem. This section is intended for people who know some basic information about YAML and want to learn how to solve a specific problem using this format. The goal of this section is to provide an example that can be understood by someone familiar with Python, but not with YAML.
+
+Part 5: Solutions in code.
+
+This part contains solutions to the problems presented in the previous sections. This section is intended for people who know how to work with YAML and want to learn more about it. The goal of this section is to provide a complete solution to each problem, so that someone can understand how to use YAML for different purposes.
+
+Part 6: Examples in code.
+
+This part contains examples of solutions in Python, with comments explaining the steps taken to solve the problem. This section is intended for people who know some basic information about YAML and want to learn how to solve a specific problem using this format. The goal of this section is to provide an example that can be understood by someone familiar with Python, but not with YAML.
+
+Part 7: Solutions in code.
+
+This part contains solutions to the problems presented in the previous sections. This section is intended for people who know how to work with YAML and want to learn more about it. The goal of this section is to provide a complete solution to each problem, so that someone can understand how to use YAML for different purposes.
+
+### Example:
+```yaml
+# Game inventory using YAML format.
+game_inventory:
+  player:
+    weapon: sword
+    armor: chainmail
+    potion: health
+    scroll: magic
+    gemstone: emerald
+  enemy1:
+    weapon: axe
+    armor: leather
+    potion: poison
+    scroll: fire
+  enemy2:
+    weapon: bow
+    armor: none
+    potion: none
+    scroll: none
+  player_gold: 500
+```
+
+### Example in code.
+```python
+# Solution to the example above using YAML format.
+game_inventory = {
+    "player": {
+        "weapon": "sword",
+        "armor": "chainmail",
+        "potion": "health",
+        "scroll": "magic",
+        "gemstone": "emerald",
+    },
+    "enemy1": {
+        "weapon": "axe",
+        "armor": "leather",
+        "potion": "poison",
+        "scroll": "fire",
+    },
+    "enemy2": {
+        "weapon": "bow",
+        "armor": None,
+        "potion": None,
+        "scroll": None,
+    },
+    "player_gold": 500,
+}
+```
+
+### Example in code.
+```python
+# Solution to the example above using YAML format.
+game_inventory = {
+    "player": {
+        "weapon": "sword",
+        "armor": "chainmail",
+        "potion": "health",
+        "scroll": "magic",
+        "gemstone": "emerald",
+    },
+    "enemy1": {
+        "weapon": "axe",
+        "armor": "leather",
+        "potion": "poison",
+        "scroll": "fire",
+    },
+    "enemy2": {
+        "weapon": "bow",
+        "armor": None,
+        "potion": None,
+        "scroll": None,
+    },
+    "player_gold": 500,
+}
+```

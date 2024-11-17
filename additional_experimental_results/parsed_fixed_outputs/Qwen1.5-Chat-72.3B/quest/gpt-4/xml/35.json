@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "Defeat the Dragon",
+    "objective": "Defeat the giant dragon terrorizing the city.",
+    "description": "You must journey through the treacherous mountains to the dragon's den, defeat it and bring back proof.",
+    "reward": "5000 XP + Legendary Sword",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Prophet for guidance.",
+          "description": "Before going into battle, you need to find the hermit prophet who can guide you on this journey.",
+          "location": "The Old Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Travel to the dragon's den.",
+          "description": "Journey across the mountains and reach the dragon's den.",
+          "location": "The Dragon Mountain"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Dragon.",
+          "description": "Engage in battle with the dragon and defeat it.",
+          "location": "The Dragon's Den"
+        }
+      ]
+    }
+  }
+}

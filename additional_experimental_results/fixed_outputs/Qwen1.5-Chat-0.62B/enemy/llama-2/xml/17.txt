@@ -1,0 +1,56 @@
+Here is the corrected XML data:
+```
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<label></label>
+			<title></title>
+			 description</description>
+			stats {
+				hp int value
+			mp int value
+			atk int value
+			(def int value)
+			spd int value
+			}
+		</enemy>
+	<enemy>
+		<h enemy_status_id="1" name="Human" description="Humans are the most common race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+	</enemy>
+<enemy>
+		<h enemy_status_id="2" name="Elf" description="Elves are the most powerful race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+	</enemy>
+<enemy>
+		<h enemy_status_id="3" name="Dwarf" description="Dwarves are the most powerful race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+	</enemy>
+</game>
+```
+Here is the new code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<label></label>
+			<title></title>
+			 description</description>
+			stats {
+				hp int value
+			mp int value
+			atk int value
+			(def int value)
+			spd int value
+			}
+		</ enemy>
+	<enemy>
+			<h enemy_status_id="1" name="Human" description="Humans are the most common race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+			<h enemy_status_id="2" name=" Elf" description="Elves are the most powerful race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+			<h enemy_status_id="3" name="Dwarf" description="Dwarves are the most powerful race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+	</enemy>
+	<enemy>
+			<h enemy_status_id="4" name="Human" description="Humans are the most common race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+			<h enemy_status_id="5" name="Elf" description="Elves are the most powerful race in the world. They are the most adaptable to different climates and environments. They are also the most intelligent and the most advanced race in the world. They are the most powerful race in the world, but they are also the most vulnerable to magic." />
+	</enemy>
+</game>
+```

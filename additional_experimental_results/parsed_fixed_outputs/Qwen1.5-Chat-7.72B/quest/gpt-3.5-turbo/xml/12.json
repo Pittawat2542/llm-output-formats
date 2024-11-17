@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "456",
+    "title": "The Quest for El Dorado",
+    "objective": "Uncover the lost treasure and restore it to its history",
+    "description": "You are quested to discover the fabled city of El Dorado, where untold riches lie hidden. \n        Success in this adventure brings not only wealth but also a test of courage and wisdom.",
+    "reward": "Valuable artifacts, gold coins, and eternal recognition",
+    "quest-giver": "Prospero, the Royal Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Acquire the ancient map from Prospero's library",
+          "description": "To start your journey, seek out Prospero in his study. The map holds crucial clues to guide you through the jungle.",
+          "location": "Prospero's Study, King's Landing"
+        },
+        {
+          "order": "2",
+          "objective": "Bypass the Guardian of the Hidden Cavern",
+          "description": "After obtaining the map, you must sneak past the guardian at the entrance to the Cave of Wonders. Beware of their magical powers.",
+          "location": "The Hidden Cavern Entrance, Edge of the Jungle"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the stolen treasure from the traps",
+          "description": "The final challenge awaits inside the Chamber of the Lost Treasure. Beware of booby traps and solve the riddles to claim your prize.",
+          "location": "The Chamber of the Lost Treasure, Uncharted Lands"
+        }
+      ]
+    }
+  }
+}

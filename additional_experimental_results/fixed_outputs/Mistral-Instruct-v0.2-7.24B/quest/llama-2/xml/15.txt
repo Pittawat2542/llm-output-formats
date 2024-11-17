@@ -1,0 +1,40 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure of the ancient civilization</objective>
+	<description>The ancient civilization has hidden their treasured artifacts deep within the ruins. The location of these treasures is long forgotten but rumors speak of an ancient map that can lead to their discovery.</description>
+	<reward>Golden Amulet and 500 Gold Coins</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak with the village elder to obtain a copy of the ancient map</objective>
+			<description>The village elder holds the knowledge and the only known copy of the ancient map. He will share it with you for a token of trust.</description>
+			<location>Village Square</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the ancient map and find the location of the treasure</objective>
+			<description>The ancient map is written in symbols that need to be deciphered. With the help of your mentor, you have managed to translate most of it but there are still some unclear parts.</description>
+			<location>Mentor's Hut</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Gather the necessary supplies for the expedition</objective>
+			<description>The journey to the treasure site is not an easy one. You will need a well-equipped party, adequate food and water, and most importantly, a reliable mount.</description>
+			<location>Marketplace</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Reach the treasure location and uncover its secrets</objective>
+			<description>The expedition to the treasure site is a dangerous one. The ruins are filled with traps, puzzles, and ancient guardians that will test your skills and courage.</description>
+			<location>Ancient Ruins</location>
+		</task>
+	</tasks>
+</game>
+```
+
+```

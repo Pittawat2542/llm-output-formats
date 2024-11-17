@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<game>
+	<id>ID_001</id>
+	<title>The Missing Princess</title>
+	<objective>Finding and rescuing the missing princess from the evil dragon's lair.</objective>
+	<description>The princess of the kingdom has been kidnapped by an evil dragon and taken to its lair. The king has sent out a call for heroes to rescue her. You have been chosen for this task.</description>
+	<reward>A large sum of gold and the princess's hand in marriage.</reward>
+	<quest-giver>King Reginald</quest-giver>
+	<tasks>
+			<task order="1">
+				<objective>Travel to the dragon's lair.</objective>
+				<description>The dragon's lair is located in the mountains to the north of the kingdom. It is a dangerous journey, but you must be brave.</description>
+				<location>Mountains to the north of the kingdom</location>
+			</task>
+			<task order="2">
+				<objective>Defeat the dragon.</objective>
+				<description>The dragon is a powerful creature, but you must be strong and courageous.</description>
+				<location>Dragon's lair</location>
+			</task>
+			<task order="3">
+				<objective>S rescuing the princess.</objective>
+				<description>The princess will be locked away in a tower in the dragon's lair.</description>
+				<location>Tower in the dragon's lair</location>
+			</task>
+			<task order="4">
+				<objective>Return to the king with the princess.</objective>
+				<description>Once you have rescued the princess, you must return to the king with her. He will be overjoyed to see her safe and will reward you handsomely.</description>
+			<location>King's castle</location>
+			</task>
+	</tasks>
+</game>
+
+```

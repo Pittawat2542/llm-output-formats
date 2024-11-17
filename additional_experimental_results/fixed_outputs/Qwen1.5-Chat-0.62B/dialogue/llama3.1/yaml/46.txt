@@ -1,0 +1,33 @@
+Template: game: dialogues: 
+  - order: dialogue order: speakers name
+    text: 'What brings you to this forsaken land?' speaker: Player
+    - order: order: speakers name
+      speaker: Stranger
+    text: 'I seek the ancient ruins, said to hold secrets of a long-lost civilization.' speaker: Stranger
+  - order: dialogue order: speakers name
+    speaker: Player
+    text: 'Be careful, the ruins are treacherous. I\'ve heard rumors of deadly traps and hidden pitfalls.' speaker: Player
+  - order: dialogue order: speakers name
+    speaker: Stranger
+    text: 'I've prepared myself for such dangers. But tell me, have you encountered any... unusual creatures in this land?' speaker: Stranger
+  - order: dialogue order: speakers name
+    speaker: Player
+    text: 'Unusual creatures? You mean like the Shadowborn? They're a dark and malevolent force that seems to be growing in power.' speaker: Player
+  - order: dialogue order: speakers name
+    speaker: Stranger
+    text: 'The Shadowborn, yes. I've heard of them. But what do you know about their true nature?' speaker: Stranger
+
+Output: game: dialogues:
+  - order: speakers name: Player
+  - order: speakers name: Stranger
+    text: 'What brings you to this forsaken land?' speaker: Stranger
+  - order: speakers name: Player
+  - order: speakers name: Stranger
+    text: 'I seek the ancient ruins, said to hold secrets of a long-lost civilization.' speaker: Stranger
+  - order: speakers name: Player
+    text: 'Be careful, the ruins are treacherous. I've heard rumors of deadly traps and hidden pitfalls.' speaker: Player
+  - order: dialogue order: speakers name: Player
+    speaker: Stranger
+    text: 'I've prepared myself for such dangers. But tell me, have you encountered any... unusual creatures in this land?' speaker: Stranger
+
+```

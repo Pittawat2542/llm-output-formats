@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "Embark on a journey to find the long-lost treasure of the ancient civilization. Explore treacherous jungles, solve riddles, and overcome challenges to claim the ultimate prize!",
+    "reward": "1000 gold coins",
+    "quest-giver": "Captain Jack",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain a treasure map",
+          "description": "Visit the local museum to discover the location of the treasure map.",
+          "location": "Museum of History"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the treasure map",
+          "description": "Unravel the mystery behind the symbols on the map to reveal the hidden location.",
+          "location": "Player's Cottage"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate through the treacherous jungle",
+          "description": "Brave the dangers of the dense jungle to reach the marked spot on the map.",
+          "location": "Dense Jungle"
+        },
+        {
+          "order": "4",
+          "objective": "Find the hidden entrance to the underground cavern",
+          "description": "Search for the hidden lever or mechanism that opens the secret entrance.",
+          "location": "Ruins of an Ancient Temple"
+        },
+        {
+          "order": "5",
+          "objective": "Defeat the guardians and retrieve the treasure",
+          "description": "Battle the mythical creatures protecting the treasure and claim it as your own.",
+          "location": "Chamber of the Ancients"
+        }
+      ]
+    }
+  }
+}

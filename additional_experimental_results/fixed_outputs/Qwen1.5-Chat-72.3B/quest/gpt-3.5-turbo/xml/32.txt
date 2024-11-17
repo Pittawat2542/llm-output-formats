@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Lost Treasure</title>
+    <objective>Retrieve the ancient treasure</objective>
+    <description>In this quest, you must embark on a journey to find the lost treasure of the ancient civilization. The treasure is said to possess unimaginable power and bring prosperity to whoever possesses it. However, many have tried and failed to uncover its whereabouts. Will you be the one to succeed?</description>
+    <reward>Ancient artifacts, gold coins, and fame</reward>
+    <quest-giver>The Wise Old Man</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the ancient map</objective>
+            <description>Your first task is to find the ancient map that supposedly leads to the treasure. The map is said to be hidden in a secret chamber within the ruins of an ancient temple. Explore the temple and solve puzzles to uncover the map's location.</description>
+            <location>Ancient Temple Ruins</location>
+        </task> <!-- Removed extra '<' before '/task' -->
+    </tasks> <!-- Removed extra '<' before '/tasks' -->
+</game>
+```

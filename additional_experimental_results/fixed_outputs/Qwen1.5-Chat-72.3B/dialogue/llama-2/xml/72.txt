@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, my name is Player.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Enemy</speaker>
+			<text>Hello, my name is Enemy.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+The issue was the missing forward slash in the closing `dialogue` and `dialogues` tags. I have corrected the syntax by adding the missing slashes. The XML data is now well-formed.

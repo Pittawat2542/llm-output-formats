@@ -1,0 +1,51 @@
+The XML data has been fixed as follows:
+```xml
+<game>
+	<character id="1" first-name="John" last-name="Doe" species="Human" age="30" role="Player" background="Forest" place-of-birth="Deep Forest" physical-appearance="Dark skin, short brown hair, medium height, average weight">
+		<eye-color>Green</eye-color>
+		<hair-color>Brown</hair-color>
+		<height>6'2"</height>
+		<weight>180 lbs</weight>
+	</character>
+
+	<character id="2" first-name="Sarah" last-name="Lee" species="Elf" age="19" role="Warrior" background="Ice Mountains" place-of-birth="Aurora Glacier" physical-appearance="Snow-white skin, long silver hair, high height, muscular build">
+		<eye-color>Blue</eye-color>
+		<hair-color>Silver</hair-color>
+		<height>6'4"</height>
+		<weight>280 lbs</weight>
+	</character>
+
+	<game>
+		<character id="3" first-name="Bob" last-name="Smith" species="Human" age="55" role="Soldier" background="Desert" place-of-birth="Oasis Desert" physical-appearance="Medium skin, short brown hair, medium height, average weight">
+			<eye-color>Brown</eye-color>
+			<hair-color>Brown</hair-color>
+			<height>6'1"</height>
+			<weight>230 lbs</weight>
+		</character>
+
+		<character id="4" first-name="Emily" last-name="Davis" species="Elf" age="25" role="Investigator" background="Ice Mountains" place-of-birth="Aurora Glacier" physical-appearance="Snow-white skin, long silver hair, high height, muscular build">
+			<eye-color>Green</eye-color>
+			<hair-color>Silver</hair-color>
+			<height>6'3"</height>
+			<weight>270 lbs</weight>
+		</character>
+
+		<character id="5" first-name="David" last-name="Carter" species="Human" age="40" role="Doctor" background="Medical Facility" place-of-birth="Big City Hospital" physical-appearance="Dark skin, short black hair, medium height, average weight">
+			<eye-color>Blue</eye-color>
+			<hair-color>Silver</hair-color>
+			<height>6'2"</height>
+			<weight>250 lbs</weight>
+		</character>
+
+		<game>
+			<character id="6" first-name="Emily" last-name="Davis" species="Elf" age="25" role="Investigator" background="Ice Mountains" place-of-birth="Aurora Glacier" physical-appearance="Snow-white skin, long silver hair, high height, muscular build">
+				<eye-color>Green</eye-color>
+				<hair-color>Silver</hair-color>
+				<height>6'3"</height>
+				<weight>270 lbs</weight>
+			</character>
+
+			<character id="7" first-name="Bob" last-name="Smith" species="Human" age="55" role="Soldier" background="Desert" place-of-birth="Oasis Desert" physical-appearance="Medium skin, short brown hair, medium height, average weight">
+				<eye-color>Brown</eye-color>
+				<hair-color>Brown</hair-color
+```

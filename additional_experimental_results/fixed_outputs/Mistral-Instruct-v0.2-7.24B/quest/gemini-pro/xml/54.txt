@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>Treasure Hunt</title>
+	<objective>Find the hidden treasure.</objective>
+	<description>A legendary treasure is hidden somewhere in the forest. The treasure is said to be worth a fortune.</description>
+	<reward>The treasure itself.</reward>
+	<quest-giver>The village elder</quest-giver> -- Fixed: Added hyphen in quest-giver tag.
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the map to the treasure.</objective>
+			<description>The map to the treasure is hidden in the village library.</description>
+			<location>Village library</location> -- Fixed: Added hyphen in location tag.
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Follow the map to the treasure.</objective>
+			<description>The map will lead you to the treasure.</description>
+			<location>Forest</location> -- Fixed: Added hyphen in location tag.
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the treasure.</objective>
+			<description>The treasure is hidden in a cave.</description>
+			<location>Cave</location> -- Fixed: Added hyphen in location tag.
+		</task>
+	</tasks>
+</game>
+```

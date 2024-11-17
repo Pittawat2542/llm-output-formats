@@ -1,0 +1,22 @@
+```xml
+<game>
+	<id>1</id>
+	<title>The quest of the century</title>
+	<objective>Find the treasure</objective>
+	<description>The treasure is hidden somewhere in the world. Find it!</description>
+	<reward>500000 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+				<order>1</order>
+				<objective>Find the treasure</objective>
+				<description>Find the treasure!</description>
+			olocation>Somewhere in the world</location>
+		<-task>
+		<task>
+				<order>2</order>
+				objetive>Find the treasure</objective>
+				<description>Find the treasure!</description>
+			olocation>Somewhere in the world</location>
+		</task>
+	<tasks>```

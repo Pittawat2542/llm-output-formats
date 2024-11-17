@@ -1,0 +1,13 @@
+
+```yaml
+enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk: 0.2 * atk + 1
+    def: 0
+    hp: 800
+    mp: 40
+    spd: 0
+```

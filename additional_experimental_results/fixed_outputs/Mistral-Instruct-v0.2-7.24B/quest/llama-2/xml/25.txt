@@ -1,0 +1,27 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123456</id>
+	<title>The quest for the magic stone</title>
+	<objective>Find the magic stone</objective>
+	<description>You are on a quest to find the magic stone</description>
+	<reward>100 gold</reward>
+	<quest-giver>The king</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the magic stone</objective>
+			<description>You have to find the magic stone</description>
+			<location>In the castle garden</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Bring back the magic stone to me</objective>
+			<description>The king needs you to bring back the magic stone to him</description>
+			<location></location>
+		</task>
+	</tasks>
+</game>
+```
+Note: Changed task 2 description and added a new location for task 1.

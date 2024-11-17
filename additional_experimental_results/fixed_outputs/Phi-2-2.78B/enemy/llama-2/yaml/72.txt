@@ -1,0 +1,24 @@
+  - Fixed an issue where the function returns None instead of a string. 
+
+### Question:
+  - What changes can be made to improve performance?
+
+  - Solution:
+    One way to improve performance is to use list comprehensions instead of for loops. This can speed up operations by avoiding the need for multiple iterations and reducing memory usage. Here's an example:
+```python
+# Original code using a for loop 
+def enemy_battle_status(enemies, wins):
+    statuses = []
+    for i in range(len(enemies)):
+        status = "Win" if wins[i] > 0 else "Lose"
+        statuses.append(status)
+    return statuses
+```
+
+  - Improved code using list comprehension: 
+```python
+# Improved code using a list comprehension
+def enemy_battle_status(enemies, wins):
+    return ["Win" if win > 0 else "Lose" for win in wins]
+```
+

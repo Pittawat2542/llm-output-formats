@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>In this quest, you will embark on an adventurous journey to find the long-lost treasure of the ancient civilization. The treasure is said to be hidden deep within a treacherous jungle, guarded by mythical creatures and traps. Are you ready to take on this challenge and claim the riches?</description>
+	<reward>1000 gold coins, a rare artifact, and eternal fame</reward>
+	<quest-giver>The Wise Old Man</quest-giver>
+	<tasks>
+			<task>
+				<order>2</order>
+			<objective>Obtain the Map</objective>
+				description>You will need to gather several clues and interact with different characters along your journey to obtain the map. The map is believed to be hidden in a chest located within a mysterious cave system.</description>
+			<location>The Cave System of Lost Ruins</location>
+			</task>
+				<tasks>
+					<task>
+						<order>3</order>
+						<objective>Search for clues</objective>
+						<description>You will need to search the cave system, decipher ancient texts, and gather information from locals to uncover hidden paths leading to the map.</description>
+						<location>The Caves of Lost Secrets</location>
+					</task>
+					<task>
+						<order>4</order>
+						<objective>Meet with the Sage</objective>
+						<description>You will need to meet with an old sage who claims to possess the map. He is said to be wise and can provide valuable insights into the cave system.</description>
+						<location>The Village of Elders</location>
+					</task>
+				</tasks>
+			</task>
+		</tasks>
+	</quest-giver>
+	<tasks>
+			<task>
+				<order>5</order>
+			<objective>Destroy the traps</objective>
+				description>You will need to overcome various traps and puzzles that are hidden throughout the jungle. These traps include venomous snakes, falling rocks, and collapsing bridges.</description>
+			<location>The Jungle of deadly Creatures</location>
+			</task>
+				<tasks>
+					<task>
+						<order>6</order>
+						<objective>Find the clues</objective>
+						<description>You will need to use your wits and problem-solving skills to uncover hidden paths, secret doors, and puzzles that lead you closer to the map.</description>
+						<location>The Secrets of Lost Caves</location>
+					</task>
+					<task>
+						<order>7</order>
+						<objective>Face off against the creatures</objective>
+						<description>You will need to face off against mythical beasts and traps that are guarding the cave system. These creatures include giant spiders, fierce lions, and deadly whirlwinds.</description>
+						<location>The Jungle of Nightmares</location>
+					</task>
+				</tasks>
+			</task>
+		</tasks>
+	</quest-giver>
+	<locations>
+		<Location id="1">
+			<title>The Village of Elders</title>
+			<description>A secluded village nestled at the foot of a mountain range. The village is surrounded by lush green forests and sparkling streams, providing a serene and peaceful environment for travelers.</description>
+		</Location>
+		<Location id="2">
+			<title>The Cave System of Lost Ruins</title>
+			<description>A network of interconnected caves that date back to ancient times. The cave system is home to strange formations, hidden passageways, and ancient artifacts, providing a mysterious and awe-inspiring backdrop for the quest.</description>
+		</Location>
+		<Location id="3">
+			<title>The Caves of Lost Secrets</title>
+			<description>A series of caves that are believed to be connected by a secret passage. The caves are filled with hidden treasures, ancient texts, and clues that lead you closer to the map.</description>
+		</Location>
+		<Location id="4">
+			<title>The Village of Elders</title>
+			<description>A secluded village nestled at the foot of a mountain range. The village is surrounded by lush green forests and sparkling streams, providing a serene and peaceful environment for travelers.</description>
+		</Location>
+		<Location id="5">
+			<title>The Jungle of deadly Creatures</title>
+			<description>A vast jungle that stretches across several continents. The jungle is home to exotic animals, dangerous plants, and treacherous terrain, making it a challenging environment for travelers.</description>
+		</Location>
+	</locations>
+</game>
+
+```

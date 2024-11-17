@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "G1234",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The temple has been hidden for centuries, and only a brave adventurer can retrieve the artifact within.",
+    "reward": "100 gold coins and a rare item",
+    "quest_giver": "Gorthok the Unyielding",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Navigate through the forest to reach the temple entrance.",
+        "description": "Watch out for wild beasts and treacherous terrain.",
+        "location": "The Darkforest"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the ancient puzzle to unlock the temple door.",
+        "description": "Use your wit and cunning to decipher the riddle.",
+        "location": "The Temple Entrance"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the artifact from within the temple.",
+        "description": "Be prepared for traps and treasures!",
+        "location": "The Inner Sanctum"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>ETU101</id>
+    <title>Slay the Mountain Troll</title>
+    <objective>Defeat the mighty troll that terrorizes the mountain pass.</objective>
+    <description>A ferocious troll has made its home in the narrow mountain pass, preying on merchants and travelers. Slay the beast and bring peace to the region.</description>
+    <reward>A powerful magical weapon and a substantial bounty from the grateful townsfolk.</reward>
+    <quest-giver>Eldrin, the Village Elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Speak to Eldrin, the Village Elder, to receive the quest.</objective>
+            <description>Seek out Eldrin in the village of Riverwood. He will provide you with valuable information and a map to the troll's lair.</description>
+            <location>Riverwood, Village Elder's House</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Locate the troll's lair in the Cursed Mountains.</objective>
+            <description>Follow the map given by Eldrin to reach the hidden lair deep within the treacherous Cursed Mountains.</description>
+            <location>Cursed Mountains, Hidden Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Prepare for a fierce battle against the Mountain Troll.</objective>
+            <description>Ensure you have the necessary weapons, armor, and potions before confronting the troll.</description>
+            <location>N/A</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Engage in battle with the fearsome Mountain Troll.</objective>
+            <description>Battle the troll at its lair in the Cursed Mountains and provide proof of victory to Eldrin.</description>
+            <location>Troll's Lair, Cursed Mountains</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Return to Eldrin with the troll's remains or trophy.</objective>
+            <description>Bring Eldrin a trophy from the defeated troll or confirm your victory with a suitable proof.</description>
+            <location>Riverwood, Village Elder's House</location>
+        </task>
+    </tasks>
+</game>
+```

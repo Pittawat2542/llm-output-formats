@@ -1,0 +1,10 @@
+The original YAML data has a key mismatch. The correct syntax should be under the 'game' key, not just at the top level. Here's the fixed YAML:
+
+```yaml
+game:
+  dialogues:
+  - name: Return the generated YAML
+    order: 1
+```
+
+The order of the dialogue is already specified as "1", but if you need to provide more details or values, please let me know.

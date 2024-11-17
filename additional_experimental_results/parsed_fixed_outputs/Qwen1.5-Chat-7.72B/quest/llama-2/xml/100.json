@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Sample Quest Title",
+    "objective": "Complete tasks to earn gold coins",
+    "description": "A journey to find a hidden treasure",
+    "reward": "50 gold coins",
+    "quest-giver": "Old Mapmaker",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Deliver letter to the village mayor",
+          "description": "Follow the road west for 2 miles",
+          "location": "Western Crossroads"
+        },
+        {
+          "order": "2",
+          "objective": "Collect herbs from the nearby field",
+          "description": "North of the inn, by the oak tree",
+          "location": "Herb Field"
+        }
+      ]
+    }
+  }
+}

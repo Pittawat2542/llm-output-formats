@@ -1,0 +1,50 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Key",
+    "objective": "Retrieve the lost key from the goblin cave.",
+    "description": "A goblin stole the key to the village gate. Find the cave, defeat the goblin, and retrieve the key.",
+    "reward": "500 gold, a new sword",
+    "quest-giver": "Mayor of Willow Creek",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the goblin cave.",
+          "description": "Travel north along the river until you reach the Dark Forest. The cave is hidden deep within the forest.",
+          "location": "The Dark Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the goblin.",
+          "description": "The goblin is a powerful foe, so come prepared. Use caution and watch out for its attacks.",
+          "location": "Goblin Cave"
+        },
+        {
+          "order": "3",
+          "objective": "Climb to the top of the cave's rock face.",
+          "description": "From there, you'll have a clear view of the goblin's lair. Look for any signs of its entrance or exits.",
+          "location": "Cave Rock Face"
+        },
+        {
+          "order": "4",
+          "objective": "Enter the cave and defeat the goblin boss.",
+          "description": "The goblin boss is a powerful creature, so be prepared for a tough fight. Use your sword and spells to weaken it and emerge victorious.",
+          "location": "Goblin Boss"
+        },
+        {
+          "order": "5",
+          "objective": "Climb down the cave's rock face and retrieve the key.",
+          "description": "Once you have defeated the goblin boss, search its body for the key.",
+          "location": "Goblin Boss"
+        },
+        {
+          "order": "6",
+          "objective": "Climb back up the cave's rock face and return the key to the mayor.",
+          "description": "Once you have retrieved the key, head back to the village gate and speak to the mayor.",
+          "location": "Willow Creek"
+        }
+      ]
+    }
+  }
+}

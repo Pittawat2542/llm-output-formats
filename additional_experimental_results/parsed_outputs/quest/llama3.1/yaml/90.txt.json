@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Explore the long-abandoned mines of Kragnir to uncover a hidden treasure before they are lost forever.",
+    "id": 12345,
+    "objective": "Retrieve the fabled Golden Pickaxe.",
+    "quest_giver": "Grimgold Ironfist, the gruff but lovable dwarf lord.",
+    "reward": "A chest filled with gold, gems, and rare mining tools.",
+    "tasks": [
+      {
+        "description": "Descend into the mines through the eastern entrance.",
+        "location": "The Eastern Entrance of Kragnir's Mines",
+        "objective": "Survive the initial descent without taking any damage.",
+        "order": 1
+      },
+      {
+        "description": "Follow the map etched on the wall to reach the chamber with the Golden Pickaxe.",
+        "location": "Map Room (Chamber 3, Level 2)",
+        "objective": "Find and retrieve the Golden Pickaxe.",
+        "order": 2
+      },
+      {
+        "description": "Navigate through the treacherous tunnels to return to the surface undetected.",
+        "location": "The Labyrinthine Tunnels of Kragnir's Mines",
+        "objective": "Escape without alerting any goblin or other hostile creatures.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Golden Pickaxe"
+  }
+}

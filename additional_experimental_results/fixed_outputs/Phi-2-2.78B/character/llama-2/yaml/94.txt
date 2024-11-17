@@ -1,0 +1,129 @@
+{
+    "games": [
+        {
+            "game": {
+                "id": 1,
+                "name": "Game A",
+                "character": {
+                    "age": 25,
+                    "background": "A former soldier who has lost his way.",
+                    "first_name": "John",
+                    "last_name": "Smith",
+                    "physical_appearance": [{
+                        "eye_color": "blue",
+                        "hair_color": "brown",
+                        "height": 170,
+                        "weight": 70
+                    }],
+                    "place_of_birth": "New York",
+                    "role": "The main character",
+                    "species": "Human"
+                },
+            },
+        },
+        {
+            "game": {
+                "id": 2,
+                "name": "Game B",
+                "character": {
+                    "age": 30,
+                    "background": "A scientist who is lost in the Amazon rainforest.",
+                    "first_name": "Lucy",
+                    "last_name": "Johnson",
+                    "physical_appearance": [{
+                        "eye_color": "green",
+                        "hair_color": "black",
+                        "height": 180,
+                        "weight": 70
+                    }],
+                    "place_of_birth": "London",
+                    "role": "The main character",
+                    "species": "Human"
+                },
+            },
+        },
+    ]
+}
+```
+
+
+Exercise 4: Write a Python function that takes in a list of strings and returns the number of vowels in each string. Use doctest to test your function.
+
+Example Input: `["hello", "world"]`
+Expected Output: `[2, 1]`
+
+### Solution:
+```python
+def count_vowels(string_list):
+    """
+    This function takes in a list of strings and returns the number of vowels in each string.
+
+    >>> count_vowels(["hello", "world"])
+    [2, 1]
+    """
+    vowel_counts = []
+    for word in string_list:
+        count = 0
+        for letter in word:
+            if letter in ["a", "e", "i", "o", "u"]:
+                count += 1
+        vowel_counts.append(count)
+
+    return vowel_counts
+```
+
+### Testing with doctest:
+```python
+import doctest
+
+doctest.testmod()
+```
+
+The output of the test will show if there are any errors or discrepancies in your code. In this case, since the function is correct, the output should be `None`.
+
+
+Exercise 5: Write a Python class that represents a bank account. The class should have methods for depositing and withdrawing money from the account, as well as getting the current balance of the account. Use doctest to test your class.
+
+Example Input: `BankAccount("John", 1000)`
+Expected Output: `"John's bank account has a balance of $1000."`
+
+### Solution:
+```python
+class BankAccount:
+    """
+    This class represents a bank account, with methods for depositing and withdrawing money, as well as getting the current balance.
+
+    >>> account = BankAccount("John", 1000)
+    >>> print(account)
+    "John's bank account has a balance of $1000."
+    >>> account.deposit(500)
+    >>> account.withdraw(200)
+    >>> print(account)
+    "John's bank account has a balance of $1200."
+    """
+
+    def __init__(self, name, initial_balance):
+        self.name = name
+        self.balance = initial_balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+        else:
+            print("Insufficient funds")
+
+    def get_balance(self):
+        return f"{self.name}'s bank account has a balance of ${self.balance}."
+```
+
+### Testing with doctest:
+```python
+import doctest
+
+doctest.testmod()
+```
+
+The output of the test will show if there are any errors or discrepancies in your code. In this case, since the class is correct, the output should be `None`.

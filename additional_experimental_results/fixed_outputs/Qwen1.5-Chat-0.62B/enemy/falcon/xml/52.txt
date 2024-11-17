@@ -1,0 +1,19 @@
+XML data with syntax correct, new values provided if needed. Output in XML format and only the Markdown code block. Here is the corrected XML data:
+```
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description; atk = 1.5 and mp = 0.5 andspd = 2.5</definition>
+			stats {
+				hp: 10
+			mp: 10
+			atk: 50
+			.def: 10
+			 bourt: 20
+			}
+	</enemy>
+</game>
+```
+```

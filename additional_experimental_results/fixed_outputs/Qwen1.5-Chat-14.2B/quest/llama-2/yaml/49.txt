@@ -1,0 +1,18 @@
+The issue with the original YAML data is that there's a stray `^` character at the end of the line. This character shouldn't be there and doesn't affect the syntax, but it can cause issues when parsing. Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```
+
+All the provided examples were correct except for Example 1, which had the same issue as mentioned above. The fixed version of Example 1 is the same as the corrected YAML above.

@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "67890",
+    "title": "The Quest for the Ancient Artifact",
+    "objective": "Uncover the artifact's location and protect it from falling into evil hands",
+    "description": "This quest demands you to track down the map, confront the thieves, and ultimately retrieve the artifact. Your success will save our land from a grave threat.",
+    "reward": "500 gold coins, a mystic amulet, and the respect of your people",
+    "quest-giver": "The Enigmatic Historian",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Track down the thieves at The Bandit's Den",
+        "description": "Deliver a message to them, convincing them to hand over the map. Beware - they may not go easily.",
+        "location": "The Bandit's Den"
+      }
+    }
+  }
+}

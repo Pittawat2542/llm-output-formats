@@ -1,0 +1,4 @@
+1. We fixed an issue where the `game` and `dialogues` keys were not being converted to a list object when we tried to add them as a value to our YAML file.
+2. We changed the `order` key in all examples to be a string instead of a number, so that it is more clear what each order represents.
+```
+

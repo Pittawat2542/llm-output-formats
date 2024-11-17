@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure hidden in a mysterious island.",
+    "description": "In a land of myths and legends, there is a treasure that has been lost for centuries. Many adventurers have tried to find it, but none have succeeded. As a brave hero, you have been entrusted with the task to find this treasure and bring it back to its rightful place. Are you up for the challenge?",
+    "reward": "Ancient artifacts, gold, and eternal fame.",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Obtain a map to the hidden island.",
+          "description": "Visit the old sailor in the tavern and persuade him to give you the map.",
+          "location": "Blackbeard's Tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Build a strong crew for the journey.",
+          "description": "Gather a crew of skilled sailors and loyal companions to join you in the adventure.",
+          "location": "Port Royal"
+        },
+        {
+          "order": "3",
+          "objective": "Survive the treacherous sea voyage.",
+          "description": "Navigate through dangerous waters, face mysterious creatures, and outwit enemy pirates to reach the hidden island.",
+          "location": "The Caribbean Sea"
+        },
+        {
+          "order": "4",
+          "objective": "Uncover the secrets of the island and find the treasure.",
+          "description": "Explore the island, solve puzzles, and overcome challenges to reach the hidden treasure.",
+          "location": "The Mysterious Island"
+        }
+      ]
+    }
+  }
+}

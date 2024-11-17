@@ -1,0 +1,71 @@
+Corrected XML data:
+```xml
+<game>
+    <enemy>
+        <id>1</id>
+        <name>Enemy</name>
+        <description>description</description>
+        <stats>
+            <hp>10</hp>
+            <mp>10</mp>
+            <atk>10</atk>
+            <def>5</def>
+            <spd>10</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="2">
+        <id>15</id>
+        <name>Nerd</name>
+        <description>description</description>
+        <stats>
+            <hp>10</hp>
+            <mp>15</mp>
+            <atk>1d</atk>
+            <hp>6</hp>
+            <mp>12</mp>
+        </stats>
+    </enemy>
+
+    <enemy id="3">
+        <id>20</id>
+        <name>Mace</name>
+        <description>description</description>
+        <stats>
+            <hp>5</hp>
+            <mp>15</mp>
+            <atk>1d</atk>
+            <hp>6</hp>
+            <mp>3d</mp>
+        </stats>
+    </enemy>
+
+    <enemy id="4">
+        <id>50</id>
+        <name>Zapper</name>
+        <description>description</description>
+        <stats>
+            <hp>15</hp>
+            <mp>20</mp>
+            <atk>2d</atk>
+            <hp>10</hp>
+            <mp>10</mp>
+        </stats>
+    </enemy>
+
+    <enemy id="5">
+        <id>5</id>
+        <name>Zapper</name>
+        <description>description</description>
+        <stats>
+            <hp>10</hp>
+            <mp>10</mp>
+            <atk>2d</atk>
+            <hp>5</hp>
+            <mp>6</mp>
+        </stats>
+    </enemy>
+
+    <!-- Add more enemies as needed -->
+</game>
+```

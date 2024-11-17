@@ -1,0 +1,114 @@
+Here's the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+     <id>Q123</id>
+    <title>Dragon's Bane</title>
+	 OBJECTive>Retrieve the Dragon's Heart and slay the Dragon King</objective>
+	<description>Years have passed since the Dragon King took over our lands, corrupting everything with his dark magic. The only way to reverse his curse is to retrieve the Dragon's Heart. The journey is dangerous and filled with obstacles, but our survival depends on it.</description>
+	<reward>Golden Sword of Valorian</ reward>
+	<quest-giver>High Priestess Amelia</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Find the Cave of Despair</objective>
+			 Objective: Find a way to open the cave and find the Dragon's Heart
+			location: Eastern Forest of Farland
+			<task>
+				<order>2</order>
+			 objective>Retrieve the Dragon's Heart</objective>
+			 Objective: Retrieve the Dragon's Heart from the Cave of Despair
+			location: Dragon King's Castle
+			<task>
+				<order>3</order>
+			 Objective: Kill the Dragon King</objective>
+			 Objective: Kill the Dragon King
+			location: Dragon King's Throne Room
+			</task>
+			<task>
+				<order>4</order>
+			 objective: Find the Dragon's Heart and slay the Dragon King
+			 Objective: Find the Dragon's Heart and kill the Dragon King
+			location: Eastern Forest of Farland
+			<task>
+				<order>5</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</objective>
+			 location: Dragon King's Castle
+			<task>
+				<order>6</order>
+			 objective>Retrieve the Dragon's Heart from the Cave of Despair</objective>
+			 objective: Retrieve the Dragon's Heart from the Cave of Despair
+			location: Dragon King's Throne Room
+			<task>
+				<order>7</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</Objective>
+			 location: Dragon King's Castle
+			<task>
+				<order>8</order>
+			 objective>Retrieve the Dragon's Heart from the Cave of Despair</objective>
+			 location: Dragon King's Throne Room
+			<task>
+				<order>9</order>
+			 Objective>Find a way to open the cave and find the Dragon's Heart</Objective>
+			 location: Dragon King's Castle
+			<task>
+				<order>10</order>
+			 objective>Find a way to open the Cave and find the Dragon's Heart</objective>
+			 location: Dragon King's Throne Room
+			</task>
+			<task>
+				<order>11</order>
+			 objective>Kill the Dragon King</objective>
+			 Objective: Kill the Dragon King
+			location: Dragon King's throne Room
+			<task>
+				<order>12</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</objective>
+			 location: Dragon King's Castle
+			<task>
+				<order>13</order>
+			 objective>Kill the Dragon King</objective>
+			 Objective: Kill the Dragon King
+			location: Dragon King's Throne Room
+			</task>
+			<task>
+				<order>14</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</objective>
+			 location: Eastern Forest of Farland
+			</task>
+			<task>
+				<order>15</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</ objective>
+			 location: Dragon King's Throne Room
+			<task>
+				<order>16</order>
+			 objective>Open the Cave and find the Dragon's Heart</objective>
+			 location: Eastern Forest of Farland
+			<task>
+				<order>17</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</object>
+			 location: Dragon King's Throne Room
+			<task>
+				<order>18</order>
+			 objective>Kill the Dragon King</objective>
+			 Objective: Kill the Dragon King
+			location: Dragon King's throne Room
+			</task>
+			<task>
+				<order>19</order>
+			 objective>Find a way to open the cave and find the Dragon's Heart</object>
+			 location: Eastern Forest of Farland
+			<task>
+				<order>20</order>
+			 objective>Kill the Dragon King</objective>
+			 Objective: Kill the Dragon King
+			location: Dragon King's Throne Room
+			</order>
+		</tasks>
+		<error>
+			key_completeness: The key 'quest_giver' is missing.
+        </error>
+    </game>
+
+```
+This should fix the issue with the `key_completeness` attribute.

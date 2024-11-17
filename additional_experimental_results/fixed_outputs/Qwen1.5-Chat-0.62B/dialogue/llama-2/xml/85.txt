@@ -1,0 +1,81 @@
+XML data:
+```
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Alice</speaker>
+            <text>Alice: Hello, Bob. How are you?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Bob</speaker>
+            <text>Bob: I'm fine. How are you?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Alice</speaker>
+            <text>Alice: Hello, Bob. How are you?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Bob</speaker>
+            <text>Bob: I'm fine. How are you?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+
+New values if needed:
+1. Speaker name: Alice
+2. Order: 1
+3. Speaker name: Bob
+4. Order: 2
+
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Alice</speaker>
+            <text>Alice: Hello, Bob. How are you?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Bob</speaker>
+            <text>Bob: I'm fine. How are you?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```
+
+Output in Markdown code block:
+```python
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>dialogue order</order>
+            <speaker>Alice</speaker>
+            <text>Alice: Hello, Bob. How are you?</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Bob</speaker>
+            <text>Bob: I'm fine. How are you?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

@@ -1,0 +1,27 @@
+<?xml version="1.0" xmlns="http://www.game.com"> <game id="quest_001" title="The Missing Prince" objective="Find the missing prince who vanished from his castle." description="Prince Edric of Highgarden vanished without a trace from his castle overnight. His family is distraught and rumors swirl of a traitor's plot or a malevolent curse. Unravel the mystery and bring the prince back to safety."> <reward>A rare relic of the ancient kingdom, a token of the royal family's gratitude, and 1000 gold.</reward> <quest-giver>Lord Edgar Harroway, Castellan of Highgarden</quest-giver> <tasks>
+  <task>
+    <order>1</order>
+    <objective>Gather testimonies from the castle servants and guards.</objective>
+    <description>Interview the castle's staff and security personnel to uncover any unusual events or suspicious behavior leading up to the prince's disappearance. Examine the prince's chambers for clues.</description>
+    <location>Highgarden Castle, Prince Edric's Chambers</location>
+  </task>
+  <task>
+    <order>2</order>
+    <objective>Seek information in the nearby town.</objective>
+    <description>Visit the local taverns and markets to listen for rumors or sightings that might lead to the missing prince. Inquire with travelers and merchants who frequent the castle.</description>
+    <location>Oakbridge Town, The Rusty Tankard Inn</location>
+  </task>
+  <task>
+    <order>3</order>
+    <objective>Investigate the old abandoned mine outside the castle grounds.</objective>
+    <description>Legends speak of a secret passage leading from the castle to an ancient mine. Explore the mine for clues or signs of the prince's whereabouts. Beware of dangers that lurk within.</description>
+    <location>Old Harrow Mine, Hidden Passage</location>
+  </task>
+  <task>
+    <order>4</order>
+    <objective>Confront the suspected traitor or rescue the prince if captured.</objective>
+    <description>Based on gathered information, confront the traitor who may be responsible for the prince's disappearance. Engage in diplomatic negotiation or prepare for a showdown. If the prince is being held captive, mount a rescue operation.</description>
+    <location>Abandoned Watchtower, Traitor's Hideout</location>
+  </task>
+</game>
+```

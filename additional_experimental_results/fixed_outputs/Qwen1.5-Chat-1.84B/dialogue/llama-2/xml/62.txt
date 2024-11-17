@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<presenter>Speaker 1</presenter>
+				<text>dialogue or narration</text>
+			</dialogue>
+			<dialogue>
+				<order>dialogue order</order>
+				<presenter>Speaker 2</presenter>
+				<text>dialogue or narration</text>
+			</dialogue>
+			<dialogue>
+				<order>dialogue order</order>
+				<presenter>Speaker 3</presenter>
+				<text>dialogue or narration</text>
+			</dialogue>
+		</dialogues>
+</game>
+
+### Output in XML format
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<presenter>Speaker 1</presenter>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<presenter>Speaker 2</presenter>
+			<text>dialogue or narration</text>
+		</dialogue>
+		<dialogue>
+			<order>dialogue order</order>
+			<presenter>Speaker 3</presenter>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

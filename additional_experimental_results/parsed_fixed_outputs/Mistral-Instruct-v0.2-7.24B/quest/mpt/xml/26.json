@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "1",
+    "title": "A Test Quest",
+    "objective": "Defeat the troll in the woods",
+    "description": "The villagers are being terrorized by a troll. Go to the woods and defeat it.",
+    "reward": "25 gold pieces",
+    "quest-giver": "Bob, the blacksmith",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the woods",
+          "description": "The woods are located north of the village.",
+          "location": "North of the village"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the troll",
+          "description": "Use your weapons to defeat the troll. Be careful, it's strong!",
+          "location": "Deep in the woods"
+        }
+      ]
+    }
+  }
+}

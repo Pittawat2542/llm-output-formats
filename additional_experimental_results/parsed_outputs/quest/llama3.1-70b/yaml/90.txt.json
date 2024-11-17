@@ -1,0 +1,24 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the dark dungeons of Shadowfell.",
+    "id": "QST001",
+    "objective": "Bring back the Sword of Light to the village elder.",
+    "quest_giver": "Village Elder",
+    "reward": "1000 gold, increased reputation in the village",
+    "tasks": [
+      {
+        "description": "Explore the entrance hall and find the key to unlock the first door.",
+        "location": "Shadowfell Dungeons (Entrance Hall)",
+        "objective": "Find the rusty key",
+        "order": 1
+      },
+      {
+        "description": "Fight off the skeletons and goblins to reach the second floor.",
+        "location": "Shadowfell Dungeons (Second Floor)",
+        "objective": "Clear the area of monsters",
+        "order": 2
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

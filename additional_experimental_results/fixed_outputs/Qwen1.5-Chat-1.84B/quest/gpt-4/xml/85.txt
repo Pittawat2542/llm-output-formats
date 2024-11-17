@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<game id="123">
+  <title>The Sacred Tome</title>
+  <objective>To Retrieve the Lost Enchanted Book from Wildfort Castle</objective>
+  <description>Find and return the ancient enchanted book that was lost in the ruins of Wildfort Castle. Uncover what secrets lie within and defeat any foes that stand in your path.</description>
+  <reward>2000 Gold and Mystic Wand</reward>
+  <quest-giver>High Wizard Eldrion</quest-giver>
+  <tasks>
+    <task order="1" objective="Travel to Wildfort Castle">
+      <description>Navigate the treacherous terrain and reach the entrance of the castle.</description>
+      <location>Wildfort Castle</location>
+    </task>
+    <task order="2" objective="Defeat the Castle Guards">
+      <description>Overcome the powerful castle guards using your skills or magic.</description>
+      <location>Wildfort Castle Grand Hall</location>
+    </task>
+    <task order="3" objective="Find The Sacred Tome">
+      <description>Search the castle library for the ancient tome. It is said to glow with an ethereal light.</description>
+      <location>Wildfort Castle Library</location>
+    </task>
+  </tasks>
+</game>
+
+```

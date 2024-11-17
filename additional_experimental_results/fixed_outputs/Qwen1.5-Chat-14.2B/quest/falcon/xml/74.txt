@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id_12345</id>
+	<title>Ancient Ruin Exploration</title>
+	<objective>Discover the lost artifact in the ruins</objective>
+	<description>Your mission is to uncover clues about the ancient civilization and find a hidden treasure.</description>
+	<reward>Valuable artifacts and 100 gold coins</reward>
+	<quest-giver>King Roland</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Confront the Guardian Statue</objective>
+			<description>The first step is to find and activate the Guardian Statue at the entrance.</description>
+			<location>Ruins Entrance</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search the Ancient Library</objective>
+			<description>In the central part of the ruins, explore the old library for a key to unlock the treasure room.</description>
+			<location>Library Ruins</location>
+		</task>
+	</tasks>
+</game>
+```
+In this fixed version, I added an `id` attribute with a value, replaced "quest giver" with the correct tag name `<quest-giver>`, and corrected the syntax by closing the `<task>` tags properly. Additionally, I provided new values for some elements (id, title) for demonstration purposes. If no changes were needed, you would only return the original XML code block.

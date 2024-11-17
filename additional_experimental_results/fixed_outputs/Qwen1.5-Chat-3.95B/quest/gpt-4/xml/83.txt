@@ -1,0 +1,24 @@
+```xml
+<game xmlns="http://www.game.com">
+    <id>Q12345</id>
+    <title>Dragon's Den</title>
+    <objective>Defeat the Dragon in the northern caves</objective>
+    <description>Locals have been reporting sightings of a massive Dragon in the northern caves. It has been terrorizing local villages. You need to defeat it to bring back peace.</description>
+    <reward>Dragon's Eye Amulet</reward>
+    <quest-giver>Mayor Nordin</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Gather the dragon slayer weapon</objective>
+            <description>Find the Smith and gather the Dragon Slayer weapon to fight the dragon.</description>
+            <location>Smithy</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the Dragon</objective>
+            <description>Travel to the northern caves and defeat the Dragon. It is located in the northern caves.</description>
+            <location>Northern Caves</location>
+        </task>
+    </tasks>
+</game>
+```

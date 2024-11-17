@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>Find the Lost Treasure</title>
+    <objective>Find the lost treasure of the pirate captain.</objective>
+    <description>The pirate captain's treasure is said to be hidden on a remote island. The only clues to its whereabouts are in his journal, which you must find and decipher.</description>
+    <reward>The pirate captain's treasure, worth a fortune.</reward>
+    <quest-giver>Jack Sparrow</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the pirate captain's journal.</objective>
+            <description>The pirate captain's journal is hidden in a cave on the island. You must locate and search it carefully.</description>
+            <location>Pirate's Cave</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Decipher the pirate captain's journal.</objective>
+            <description>The code to decipher the journal can be found in the governor's library. Your research will be crucial.</description>
+            <location>Governor's Library</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Locate and claim the lost treasure.</objective>
+            <description>After deciphering, follow the指示 in the journal to find the treasure on Treasure Island.</description>
+            <location>Treasure Island</location>
+        </task>
+    </tasks>
+</game>
+```

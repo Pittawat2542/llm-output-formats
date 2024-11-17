@@ -1,0 +1,20 @@
+{
+  "game": {
+    "id": "quest_id",
+    "description": "quest description",
+    "objective": "quest_objective",
+    "quest_giver": "quest_giver_name_or_github_repos",
+    "reward": "quest_reward_value",
+    "tasks": [
+      "task_description",
+      "task_location",
+      "task_order"
+    ],
+    "title": "quest_title"
+  },
+  "tasks": [
+    "task_description",
+    "task_location",
+    "task_order"
+  ]
+}

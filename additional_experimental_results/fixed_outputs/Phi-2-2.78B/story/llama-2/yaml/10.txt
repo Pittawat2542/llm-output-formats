@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": [],
+        "Access-Control-Allow-Headers": ["x-www-form-urlencoded"]
+    },
+    "content": json.dumps({
+        'name': 'Alex',
+        'age': 26,
+        'gender': 'Male'
+    })
+}
+```
+
+

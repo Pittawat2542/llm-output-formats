@@ -1,0 +1,29 @@
+```json
+{
+    "game": {
+        "id": "quest_001",
+        "title": "The Lost City of Eldarath",
+        "objective": "Find and retrieve the fabled Star Crystal from the lost city of Eldarath.",
+        "description": "Legend has it that the ancient Eldarians possessed technology beyond our understanding. The Star Crystal is said to hold the key to unlocking their secrets.",
+        "reward": "1000 gold pieces, a +2 magic sword, and a rare potion",
+        "quest_giver": {
+            "name": "Eilif Stonebeard",
+            "title": "Dwarven Lord"
+        },
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Reach the lost city of Eldarath",
+                "description": "Navigate through the treacherous Mountain Pass and find the entrance to the lost city.",
+                "location": "The Mountain Pass, north of Dragon's Spine"
+            },
+            {
+                "order": 2,
+                "objective": "Retrieve the Star Crystal",
+                "description": "Solve the ancient puzzle to unlock the crystal chamber and claim the Star Crystal.",
+                "location": "The Lost City of Eldarath"
+            }
+        ]
+    }
+}
+```

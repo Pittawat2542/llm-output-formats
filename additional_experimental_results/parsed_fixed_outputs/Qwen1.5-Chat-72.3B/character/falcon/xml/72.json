@@ -1,0 +1,49 @@
+{
+  "game": {
+    "character": {
+      "@isPlaying": "true",
+      "first-name": "Alex",
+      "last-name": "Doe",
+      "species": "human",
+      "age": "25",
+      "place-of-birth": [
+        "USA",
+        "USA"
+      ],
+      "physical-appearance": {
+        "eye-color": "brown",
+        "hair-color": "brown",
+        "height": "6.0",
+        "weight": "150.0"
+      },
+      "role": "center position in basketball team",
+      "background": null,
+      "characters": {
+        "character": [
+          {
+            "@id": "John",
+            "first-name": "Alex",
+            "last-name": "Doe",
+            "species": "human",
+            "age": "25",
+            "place-of-birth": "USA",
+            "physical-appearance": {
+              "eye-color": "brown",
+              "hair-color": "brown",
+              "height": "6.0",
+              "weight": "150.0"
+            }
+          },
+          {
+            "@id": "Jahnik",
+            "first-name": "Alex",
+            "last-name": "Doe",
+            "species": "human",
+            "age": "25",
+            "place-of-birth": "USA"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1234</id>
+    <title>The Lost Artifact</title>
+    <objective>Retrieve the ancient artifact</objective>
+    <description>In a land ravaged by war, rumors of a powerful artifact have begun to spread. The artifact is said to possess unimaginable power and whoever wields it can change the course of history. You have been tasked with finding and retrieving this artifact before it falls into the wrong hands.</description>
+    <reward>Ancient Knowledge and 1000 gold coins</reward>
+    <quest-giver>Elder Aran</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Locate the ancient temple</objective>
+            <description>According to ancient texts, the artifact is hidden deep within an ancient temple. You must find the location of the temple and make your way there.</description>
+            <location>The Temple of Eternity</location>
+        </task> <!-- Removed extra slash here -->
+    </tasks> <!-- Removed extra slash here -->
+</game>
+```

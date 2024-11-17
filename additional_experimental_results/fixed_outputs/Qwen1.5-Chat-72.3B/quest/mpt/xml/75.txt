@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that a powerful artifact is buried deep within an abandoned temple. Your quest is to retrieve it and bring it back to the village elder.</description>
+	<reward>1000 gold coins and fame</reward>
+	<quest-giver>Gnome Scholar</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the temple</objective>
+			<description>You need to find the hidden entrance to the ancient ruins. It's said to be marked by a large stone eagle.</description>
+			<location>Jungle Clearing</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the temple's puzzle</objective>
+			<description>Solve the riddle on the inner chamber door to unlock the way to the artifact.</description>
+			<location>Inner Temple Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

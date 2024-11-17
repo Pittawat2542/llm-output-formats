@@ -1,0 +1,39 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	 Objective: Find the hidden treasure of Captain Jack.
+	 Description: In this quest, you will embark on an adventure to find the long-lost treasure of Captain Jack. Follow the clues, solve puzzles, and overcome challenges to uncover the treasure's whereabouts.
+	 Reward: 300 gold coins, a rare artifact, and the title of Treasure Hunter.
+	 Quest-Giver: Captain Redbeard.
+	 Tasks:
+		<task>
+			<order>1</order>
+		 Objective: Find the first clue.
+			<description>Your journey begins at the old lighthouse. Look for the broken stone near the entrance and you will find the first clue.</description>
+			<option>Old Lighthouse</option>
+		<task>
+			<order>2</order>
+		 Objective: Decode the secret message.
+			<description>The clue you found leads to an ancient library. Use your knowledge of ancient languages to decipher the secret message hidden within an ancient book.</description>
+			<option>Ancient Library</option>
+		<task>
+			<order>3</order>
+		 Objective: Retrieve the golden key.
+			<description>To unlock the treasure's chamber, you need to find the golden key hidden within the treacherous cave of Crystal Falls. Be careful, for danger awaits!</description>
+			<option>Crystal Falls</option>
+		<task>
+			<order>4</order>
+		 Objective: Solve the final riddle.
+			<description>Once you have the golden key, head to the abandoned mansion on Haunted Hill. Solve the riddle written on the mansion's doors to unlock the final clue.</description>
+			<option>Haunted Hill</option>
+		<task>
+			<order>5</order>
+		 Objective: Find the hidden treasure.
+			<description>With all the clues in hand, make your way to the secret island mentioned in the final clue. There, buried beneath the lone palm tree, you will find the long-lost treasure of Captain Jack!</description>
+			<option>Secret Island</option>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest of the Lost Key",
+    "objective": "Find and return the ancient artifact to the temple",
+    "description": "A daring adventure to uncover the secrets of an lost city",
+    "reward": "Gold coins, a rare amulet, and bragging rights",
+    "quest-giver": "Old Mapmaker",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Explore the nearby forest for clues",
+        "description": "Follow the tracks of an unknown creature",
+        "location": "Forest East Side"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>Find the Dragon's Gold</objective>
+	<description>This quest is about finding the Dragon's Gold</description>
+	<reward>10000 Gold</reward>
+	<quest-giver>The Dragon</quest-giver>
+	<tasks>
+			<task>
+				order:1</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's Gold
+			location:Dragon's Lair
+			</task>
+			<task>
+				order:2</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's Gold
+			 location:Dragon's Lair
+			</task>
+			<task>
+				order:3</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's Gold
+			location:Dragon's Lair
+			</task>
+	</tasks>
+</game>
+```
+```python
+import xml.etree.ElementTree as ET
+
+def fix_xml(xml):
+    # Fixing the key completeness issue
+    for child in ET.iter('游戏'):
+        if 'quest_giver' not in child:
+            fix_xml(child)
+    return XML()
+
+xml = """
+<game>
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>Find the Dragon's Gold</objective>
+	<description>This quest is about finding the Dragon's Gold</description>
+	<reward>10000 Gold</reward>
+	<quest-giver>The Dragon</quest-giver>
+	<tasks>
+			<task>
+				order:1</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's gold
+			location:Dragon's Lair
+			</task>
+			<task>
+				order:2</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's gold
+			地点:Dragon's Lair
+			</task>
+			<task>
+				order:3</order>
+			 Objective:Find the Dragon's Gold
+				Description:Find the Dragon's gold
+			(location:Dragon's Lair
+			</task>
+	</tasks>
+</game>
+"""
+
+xml = fix_xml(xml)
+
+print(xml)
+```
+```python
+```

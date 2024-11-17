@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>12345</id>
+        <first-name>Jane</first-name>
+        <last-name>Doe</last-name>
+        <species_human></species_human>
+        <age>28</age>
+        <role_MAINCHARACTER></role_MAINCHARACTER>
+        <background>Ambitious detective</background>
+        <place-of-birth>New York City</place-of-birth>
+        <physical-appearance>
+            <eye-color>Blue</eye-color>
+            <hair-colorBrown></hair-colorBrown> <!-- Changed 'hair color' to 'hair-color-Brown' -->
+            <height>175.0</height>
+            <weight>70.0</weight>
+        </physical-appearance>
+    </character>
+</game>
+```

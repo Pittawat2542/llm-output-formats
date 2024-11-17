@@ -1,0 +1,15 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<translation lang="en">
+				<text><![CDATA[Dialogue or narration]]></text>
+			</translation>
+		</dialogue>
+	</dialogues>
+</game>
+```
+In this fixed XML, I added the missing key `game`, set the encoding to "UTF-8", wrapped the `<text>` element inside a `<translation>` with a `lang` attribute for clarity, and used `<![CDATA[...]]>` to preserve newline characters in the dialogue. If you had specific values for `dialogue order`, `speaker name`, or any other data, please provide them, and I'll incorporate them accordingly.

@@ -1,0 +1,44 @@
+<game>
+    <enemy id="id" name="name" description="description">
+        <stats hp="hp int value" mp="mp int value" atk="atk int value" def="def int value" spd="spd int value"/>
+    </enemy>
+</game>
+
+
+```python
+import xml.etree.ElementTree as ET
+from lxml import etree, objectify
+
+# given XML string
+raw_xml = '<p><id>id</id><name>name</name><description>description</description></p><p>Enemy# Enemy#1 Name=Wolverine</p><p>Enemy# Enemy#2 Name=Iron Man</p><p>Enemy# Enemy#2 Name=Green Arrow</p><p>Enemy# Enemy#3 Name=Captain America</p>'
+
+# parse and create the tree
+root = ET.fromstring(raw_xml)
+
+# create a new element to hold the game data
+game = etree.Element('game')
+
+# add an enemy element to the game
+enemy1 = etree.SubElement(game, 'enemy', id='id', name='name', description='description')
+
+# set the stats of the enemy 1
+stats1 = etree.SubElement(enemy1, 'stats', hp='hp int value', mp='mp int value', atk='atk int value', def='def int value', spd='spd int value')
+
+# add an enemy element to the game
+enemy2 = etree.SubElement(game, 'enemy', id='id', name='name', description='description')
+
+# set the stats of the enemy 2
+stats2 = etree.SubElement(enemy2, 'stats', hp='hp int value', mp='mp int value', atk='atk int value', def='def int value', spd='spd int value')
+
+# add an enemy element to the game
+enemy3 = etree.SubElement(game, 'enemy', id='id', name='name', description='description')
+
+# set the stats of the enemy 3
+stats3 = etree.SubElement(enemy3, 'stats', hp='hp int value', mp='mp int value', atk='atk int value', def='def int value', spd='spd int value')
+
+# create and append a game element to the root
+game_element = ET.Element('game')
+root.append(game_element)
+```
+
+

@@ -1,0 +1,68 @@
+XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<hp>hp int value</hp>
+			mp>mp int value</mp>
+			atk>atk int value</atk>
+			def>def int value</def>
+			/mp>mp int value
+	</enemy>
+</game>
+```
+
+Correct syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<敌人>
+			<hp>hp int value</hp>
+			mp>mp int value</mp>
+			atk>atk int value</atk>
+			def>def int value</def>
+			/mp>mp int value
+	</enemy>
+</game>
+```
+
+New values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<hp>hp int value</hp>
+			mp>mp int value</mp>
+			atk>atk int value</atk>
+			def>def int value</def>
+			/mp>mp int value
+	</enemy>
+</game>
+```
+
+Output in Markdown code block:
+```-template
+<?xml version="1.0" ?>
+<game>
+	<敌人>
+			<hp>hp int value</hp>
+			mp>mp int value</mp>
+			atk>atk int value</atk>
+			def>def int value</def>
+			/mp>mp int value
+	</enemy>
+</game>
+```
+
+Original message provided between ```xml and ```.
+```xml
+<game>
+	<敌人>
+		<hp>hp int value</hp>
+		mp>mp int value</mp>
+		atk>atk int value</atk>
+		def>def int value</def>
+		/mp>mp int value
+	</enemy>
+</game>
+```

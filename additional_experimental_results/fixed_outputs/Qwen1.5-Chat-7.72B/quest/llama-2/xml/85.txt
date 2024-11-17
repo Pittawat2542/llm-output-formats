@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Sample Quest Title</title>
+    <objective>Complete the Temple</objective>
+    <description>Find the ancient artifact hidden in the jungle</description>
+    <reward>100 gold coins and a rare magical weapon</reward>
+    <quest-giver>Old Sage</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Search the north edge of the jungle</objective>
+            <description>Look for a marked tree with a golden leaf</description>
+            <location>North Edge, Jungle</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q123</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>Legend has it that a powerful artifact is hidden within the lost temple. Your quest is to retrieve this artifact and bring it back to the village elder.</description>
+	<reward>A magical amulet granting +10 intelligence</reward>
+	<quest-giver>Village Elder Eira</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the temple's entrance</objective>
+			<description>The temple is hidden deep in the forest. You must navigate through the dense foliage to reach it.</description>
+			<location>Forest of Eldrador</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Climb the ancient ladder</objective>
+			<description>A rickety ladder leads to the temple's entrance. You must carefully make your way up without falling.</description>
+			<location>The Lost Temple's Entrance</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the temple guardian</objective>
+			<description>A fierce monster guards the artifact. You must defeat it in combat to claim your prize.</description>
+			<location>The Temple's Inner Sanctum</location>
+		</task>
+	</tasks>
+</game>
+```

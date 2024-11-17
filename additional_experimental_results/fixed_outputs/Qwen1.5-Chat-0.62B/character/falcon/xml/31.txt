@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game [
+  <name>My Game</name>,
+  <description>A fun and engaging game</description>,
+  <角色>Player 1</role>,
+  <backstory>This is a story about Player 1's adventures</story>
+  <location>Play場</location>
+  <physical-appearance>
+    <eye-color>eye color</eye_color>
+    <hair-color>hair color</hair_color>
+    <height>height in float value</height>
+    <weight>weight in float value</weight>
+  </physical-appearance>
+]
+```
+The correct syntax is used with the `<name>` and `<description>` elements. The `<role>` element should be added, but it is not required in this case. If you have any other questions or need further assistance, please let me know!

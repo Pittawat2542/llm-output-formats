@@ -1,0 +1,34 @@
+The incorrect syntax is missing the opening square bracket for the `xml` tag, which is necessary to indicate that it is a XML document. The corrected code is:
+```xml
+<?xml version="1.0" ?>
+<game>
+	< enemy>
+			<id>id</id>
+			<name>name</name>
+			description>description</description>
+			stats {
+				hp int value
+			mp int value
+			atk int value
+			(def int value)
+			spd int value
+			}
+	</enemy>
+</game>
+```
+
+New values if needed:
+```yaml
+< enemy>
+		<id>id</id>
+		<name>name</name>
+		description>description</description>
+		.stats {
+			hp int value
+		mp int value
+		atk int value
+		(def int value)
+		spd int value
+		}
+	</enemy>
+```

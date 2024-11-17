@@ -1,0 +1,28 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Artifact",
+    "objective": "To retrieve the lost artifact and return it to the rightful owner",
+    "description": "The town elder has lost a precious artifact that has been in his family for generations. It's your task to find it and return it to him",
+    "reward": "500 gold coins and a unique piece of armor",
+    "quest-giver": {
+      "name": "Elder Mathias"
+    },
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to the elder and get more information about the lost artifact",
+          "description": "The elder may have more information that can help in your search. Speak to him to find out more.",
+          "location": "Elder's House in the white-chapel town"
+        },
+        {
+          "order": "2",
+          "objective": "Search the foretold location for the lost artifact",
+          "description": "Based on the elder's information, the artifact must be hiding in a secret vault in the forest. Be prepared to face potential dangers guarding it.",
+          "location": "Mystic Forest Cave"
+        }
+      ]
+    }
+  }
+}

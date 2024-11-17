@@ -1,0 +1,25 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character id="id">
+		<first-name>John</first-name>
+		<last-name></last-name>
+		<species>human</species>
+		<age></age>
+		<role></role>
+		<background></background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color></eye-color>
+				<hair-color></hair-color>
+				<height></height>
+				<weight></weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+The XML is missing some tags, so I added empty placeholders for them. It's up to the user to provide values for these tags.

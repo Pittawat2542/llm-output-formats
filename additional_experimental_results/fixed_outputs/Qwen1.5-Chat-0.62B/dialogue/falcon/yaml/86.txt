@@ -1,0 +1,29 @@
+Template: game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+     - text: dialogue or narration
+
+
+New values provided:
+- order: dialogue order
+- speaker: speaker name
+- text: dialogue or narration
+
+Output in YAML format:
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+      - text: dialogue or narration
+```
+
+Markdown code block:
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+        - text: dialogue or narration
+```

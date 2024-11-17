@@ -1,0 +1,50 @@
+Corrected YAML data:
+
+```yaml
+game:
+  id: 1
+  title: quest title
+  description: quest description
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+```
+
+
+## Example output:
+```
+game:
+  id: 1
+  title: quest title
+  description: quest description
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+```
+
+
+## Example input:
+```
+game_id: 1
+quest_id: 1
+quest_giver: quest giver
+quest_title: quest title
+quest_description: quest description
+quest_objective: quest objective
+quest_reward: quest reward
+tasks:
+   - description: task description
+    location: task location
+    objective: task objective
+    order: task order
+```

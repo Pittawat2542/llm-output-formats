@@ -1,0 +1,14 @@
+XML is invalid and requires corrections to syntax. Here is the corrected XML:
+```xml
+<?xml version="1.0" encoding="UTF-8" xml:system="http://www.xsys.org/">
+<game xmlns="http://www.xsys.org/">
+   <dialogues>
+      <dialogue order="dialogue order">
+         <order>dialogue order</order>
+         <speaker>speaker name</speaker>
+         <text>dialogue or narration</text>
+         <status status="dialogue status" status="status">dialogue status</status>
+       </dialogue>
+   </dialogues>
+</game>
+```

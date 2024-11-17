@@ -1,0 +1,20 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Goblin</name>
+		<description>A small, green humanoid creature.</description>
+		<stats>
+			<hp>35</hp>
+			<mp>0</mp>
+			<atk>5</atk>
+			<def>7</def>
+			<spd>12</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+This XML represents the data for an enemy named 'Goblin' with HP of 35, MP of 0, Attack (ATK) of 5, Defense (DEF) of 7, and Speed (SPD) of 12.

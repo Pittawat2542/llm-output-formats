@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and recover the ancient artifact.</objective>
+	<description>In this quest, you must explore the ruins of the lost city to find the hidden artifact.</description>
+	<reward>1000 experience points and a rare item.</reward>
+	<quest-giver>Gilbert the Historian</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the lost city ruins.</objective>
+			<description>Locate the entrance to the city and brave the dangers within.</description>
+			<location Ruins of Aradona</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Discover the artifact's location.</objective>
+			<description>Solve the riddles and puzzles to uncover where the artifact is hidden.</description>
+			<location>The Chamber of Secrets</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Recover the artifact.</objective>
+			<description>Fight off any guardians protecting the artifact and bring it back to Gilbert.</description>
+			<location>The Heart of the City</location>
+		</task>
+	</tasks>
+</game>
+```

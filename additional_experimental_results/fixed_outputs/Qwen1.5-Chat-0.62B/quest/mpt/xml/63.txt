@@ -1,0 +1,81 @@
+XML:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<Quest-giver>quest giver</Quest-giver>
+	<Tasks>
+			<task>
+				order="task order"
+			 Objective="objective"
+				Description="description"
+			Location="location"
+			</task>
+		</tasks>
+	</game>
+```
+Correct syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	OBJECTive>quest objective</objective>
+	.description>quest description</description>
+	 reward>quest reward</reward>
+	 Quest-giver>Quest giver</Quest-giver>
+	 Tasks>
+			<task>
+				order="task order"
+			 Objective="objective"
+				Description="description"
+			Location="location"
+			</task>
+		</tasks>
+	</game>
+```
+New values for ` quest_giver`, ` tasks`, and ` reward` if needed:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	OBJECTive>quest objective</objective>
+	.description>quest description</description>
+	奖励>Quest reward</reward>
+	 Quest-giver>
+			<task>
+				order="task order"
+			 Objective="objective"
+				Description="description"
+			Location="location"
+			</task>
+		</task>
+	</game>
+```
+Output in Markdown code block:
+```python
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	OBJECTive>quest objective</objective>
+	.description>quest description</description>
+	奖励>Quest reward</reward>
+	 Quest-giver>
+			<task>
+				order="task order"
+			 Objective="objective"
+				Description="description"
+			 Location="location"
+			</task>
+		</task>
+	</game>
+```
+```python
+<?xml version="1.0" ?>
+```

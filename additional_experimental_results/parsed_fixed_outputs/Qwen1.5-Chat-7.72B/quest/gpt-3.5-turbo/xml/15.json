@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact",
+    "description": "In a hidden corner of the world lies an ancient artifact of great power. You have been chosen to retrieve it and protect it from falling into the wrong hands.",
+    "reward": "The artifact's power will be bestowed upon you, granting you unimaginable abilities.",
+    "quest-giver": "Elder Maelor",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "quest-objective": "Visit the Oracle",
+          "description": "The Oracle resides atop Mount Serenity. Seek her guidance and learn the path to the artifact.",
+          "location": "Mount Serenity"
+        },
+        {
+          "order": "2",
+          "quest-objective": "Retrieve the Map of Ages",
+          "description": "In the heart of the Forbidden Jungle lies the Map of Ages. The map will guide you through treacherous terrain to the artifact's resting place.",
+          "location": "Forbidden Jungle"
+        },
+        {
+          "order": "3",
+          "quest-objective": "Navigate the Elemental Maze",
+          "description": "In order to reach the artifact, you must pass through the Elemental Maze. Each chamber is guarded by a powerful elemental guardian. Defeat them to proceed.",
+          "location": "Elemental Maze"
+        },
+        {
+          "order": "4",
+          "quest-objective": "Retrieve the Lost Key",
+          "description": "The Lost Key is said to be hidden within the haunted crypt. Find it and unlock the final chamber leading to the artifact.",
+          "location": "Haunted Crypt"
+        },
+        {
+          "order": "5",
+          "quest-objective": "Claim the Ancient Artifact",
+          "description": "At long last, you have reached the chamber of the ancient artifact. Return to Elder Maelor to complete your quest.",
+          "location": "Chamber of the Ancient Artifact"
+        }
+      ]
+    }
+  }
+}

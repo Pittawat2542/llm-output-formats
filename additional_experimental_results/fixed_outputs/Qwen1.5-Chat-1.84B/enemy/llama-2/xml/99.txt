@@ -1,0 +1,31 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy id="1">
+			<name Bandit</name>
+			<description>A bandit with a big axe. He is very strong, but not very smart.</description>
+			<stats>
+				hp 100
+				mp 100
+				atk 100
+				def 100
+				spd 100
+		 </stats>
+			<enemy id="2">
+				<name Bandit</name>
+				<description>A bandit with a big axe. He is very strong, but not very smart.</description>
+				<stats>
+					hp 100
+					mp 100
+					atk 100
+					def 100
+					spd 100
+		 </stats>
+	</enemy>
+</game>
+```
+
+New values:
+- enemy IDs have been changed to numeric values for proper identification.
+- The description of the enemies has been added in lowercase, as XML tags are case-sensitive.

@@ -1,0 +1,73 @@
+The issue with the original YAML data was that there were no spaces after commas in the nested `stats` dictionary. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: "An enemy with a high attack stat."
+    id: 1
+    name: "Boss"
+    stats:
+      atk: 100
+      def: 100
+      hp: 100
+      mp: 100
+      spd: 100
+```
+
+If you want to have separate enemies with different descriptions, here's the YAML format for that:
+
+```yaml
+game:
+  enemies:
+    - description: "An enemy with a high attack stat."
+      id: 1
+      name: "Boss"
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+
+    - description: "An enemy with a high defense stat."
+      id: 2
+      name: "Defense"
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+
+    - description: "An enemy with a high health stat."
+      id: 3
+      name: "HP"
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+
+    - description: "An enemy with a high magic stat."
+      id: 4
+      name: "MP"
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+
+    - description: "An enemy with a high speed stat."
+      id: 5
+      name: "SPD"
+      stats:
+        atk: 100
+        def: 100
+        hp: 100
+        mp: 100
+        spd: 100
+```
+
+This way, you have an array of enemies with distinct descriptions.

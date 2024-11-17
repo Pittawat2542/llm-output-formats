@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "ID_001",
+    "title": "The Bandit's Stash",
+    "objective": "Find and retrieve the bandit's hidden stash.",
+    "description": "The notorious Redbeard gang has been terrorizing travelers on this road. They have a secret hideout, where they keep their valuables. You must find it and bring back the stolen goods to the village elder.",
+    "reward": "50 Gold Pieces",
+    "quest-giver": "Village Elder (located near the town square)",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak with old Gerald, who lives in the nearby forest. He might have some useful information about the hideout location.",
+          "description": "You can find Gerald near the old oak tree, just north of the village.",
+          "location": "Old Oak Tree"
+        },
+        {
+          "order": "2",
+          "objective": "Search for clues at the Redbeard's Camp.",
+          "description": "Redbeard's camp is located in a clearing near the bandit-infested ruins. Be cautious as there may be guards on duty.",
+          "location": "Bandit-Infested Ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Find the hidden entrance to the Redbeard's Hideout.",
+          "description": "The hideout entrance is located behind a waterfall in a secluded cave. Look for clues around the camp to find out how to access it.",
+          "location": "Secluded Cave with Waterfall"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the hidden stash and return it to the village elder.",
+          "description": "The Redbeard's Hideout is well-guarded, so proceed with caution. Once you have secured the stolen goods, return to the village elder to complete your quest.",
+          "location": "Village Elder (located near the town square)"
+        }
+      ]
+    }
+  }
+}

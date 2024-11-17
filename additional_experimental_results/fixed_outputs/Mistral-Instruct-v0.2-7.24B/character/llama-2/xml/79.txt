@@ -1,0 +1,109 @@
+
+```xml
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>35</age>
+		<role>hero</role>
+		<background>abandoned at birth, grew up in an orphanage</background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>blue</eye-color>
+				<hair-color>blonde</hair-color>
+				<height>1.85</height>
+				<weight>75.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+Incorrect:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>eye color</eye-color>
+				<hair-color>hair color</hair-color>
+				<height>height in float value</height>
+				<weight>weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<another_character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>30</age>
+		<role>villain</role>
+		<background>had a rough childhood, became an orphan after losing her family to a fire at a young age</background>
+		<place-of-birth>Boston</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>red</eye-color>
+				<hair-color>brunette</hair-color>
+				<height>1.75</height>
+				<weight>60.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```
+
+Fixed:
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<game>
+	<character>
+		<id>1</id>
+		<first-name>John</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>35</age>
+		<role>hero</role>
+		<background>abandoned at birth, grew up in an orphanage</background>
+		<place-of-birth>New York City</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>blue</eye-color>
+				<hair-color>blonde</hair-color>
+				<height>1.85</height>
+				<weight>75.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+	<character>
+		<id>2</id>
+		<first-name>Jane</first-name>
+		<last-name>Doe</last-name>
+		<species>human</species>
+		<age>30</age>
+		<role>villain</role>
+		<background>had a rough childhood, became an orphan after losing her family to a fire at a young age</background>
+		<place-of-birth>Boston</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>red</eye-color>
+				<hair-color>brunette</hair-color>
+				<height>1.75</height>
+				<weight>60.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+	</character>
+</game>
+```

@@ -1,0 +1,19 @@
+game:
+  description: "Game description"
+  id: "id"
+  objective: "Objective"
+  quest_giver: "Quest giver"
+  reward: "Reward"
+  tasks:
+    - description: "Task description"
+      location: "Location 1"
+      order: 2
+    - description: "Task description"
+      location: "Location 2"
+      order: 1
+    - description: "Task description"
+      location: "Location 3"
+      order: 2
+  title: "Game Title"
+```
+

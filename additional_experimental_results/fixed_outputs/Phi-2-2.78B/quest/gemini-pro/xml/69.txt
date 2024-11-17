@@ -1,0 +1,33 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure hidden by the ancient pirate, Blackbeard.</objective>
+	<description>The legendary pirate, Blackbeard, is said to have hidden his vast treasure on a remote island. Many have searched for it, but none have been successful. Can you find the treasure and bring it back?</description>
+	<reward>A chest filled with gold and jewels.</reward>
+	<quest-giver>Jack the Tavern Keeper</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to Tortuga Island.</objective>
+			<description>Tortuga Island is the last known location where Blackbeard was seen.</description>
+			<location>Tortuga Island</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the secret map.</objective>
+			<description>The secret map is said to be hidden in a cave on Tortuga Island.</description>
+			<location>Cave on Tortuga Island</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Follow the map to the treasure.</objective>
+			<description>The map will lead you to the treasure, but be careful. There are many dangers along the way.</description>
+			<location>Treasure Island</location>
+		</task>
+	</tasks>
+</game>
+```
+
+

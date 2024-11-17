@@ -1,0 +1,23 @@
+Here is the generated quest information in YAML format:
+
+```yaml
+game:
+  description: The village of Oakwood has been plagued by a series of mysterious disappearances. The villagers are afraid to venture out at night, and the village elder has called upon brave adventurers to investigate the cause of these events.
+  id: QST001
+  objective: Investigate the source of the disappearances in Oakwood village
+  quest_giver: Village Elder Thornguard
+  reward:
+    experience: 1000
+    gold: 500
+    item: Amulet of Protection
+  tasks:
+  - description: Speak to the villagers and gather information about the disappearances
+    location: Oakwood Village
+    objective: Gather clues about the source of the disappearances
+    order: 1
+  - description: Explore the surrounding forest and search for any signs of foul play
+    location: Whispering Woods
+    objective: Find evidence of a dark cult operating in the area
+    order: 2
+  title: The Missing Villagers of Oakwood
+```

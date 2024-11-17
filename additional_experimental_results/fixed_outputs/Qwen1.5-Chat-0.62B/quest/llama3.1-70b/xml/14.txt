@@ -1,0 +1,72 @@
+```xml
+<game>
+	<id>id</id> 
+	<title>Quest Title</title> 
+	objective>Quest Objective</objective> 
+	<description>Quest Description</description> 
+	<reward>Quest Reward</reward> 
+	<quest-giver>Thorne Blackwood, the village elder</quest-giver> 
+	<formats>
+			<label for="order">Order:</label>
+			<input type="text" id="order"><br><br>
+			<label for="objective">Objective:</label>
+			<select id="objective">
+				<option value="">Unknown</option>
+				<option value="Quest Objective 1">Quest Objective 1</option>
+				<option value="Quest Objective 2">Quest Objective 2</option>
+			</select><br><br>
+			<label for="description">Description:</label>
+			<textarea id="description" rows="5"><br><br>
+			<label for="location">Location:</label>
+			<select id="location">
+				<option value="">Unknown</option>
+				<option value="The village tavern, the local market, and the town square</option>
+			</select><br><br>
+			<label for="treasure">Treasure:</label>
+			<input type="text" id="treasure"><br><br>
+			<label for="giver">Quest Giver:</label>
+			<select id="giver">
+				<option value="">Unknown</option>
+				<option value="Thorne Blackwood, the village elder</option>
+			</select><br><br>
+		</frames>
+	</formats>
+</game>
+```
+
+Output:
+
+```xml
+<game>
+	<title>Quest Title</title> 
+	objective>Quest Objective</objective> 
+	<description>Quest Description</description> 
+	<reward>Quest Reward</reward> 
+	<quest-giver>Thorne Blackwood, the village elder</quest- givers>
+	<formats>
+			<label for="order">Order:</label>
+			<input type="text" id="order"><br><br>
+			<label for="objective">Objective:</label>
+			<select id="objective">
+				<option value="">Unknown</option>
+				<option value="Quest Objective 1">Quest Objective 1</option>
+				<option value="Quest Objective 2">Quest Objective 2</option>
+			</select><br><br>
+			<label for="description">Description:</label>
+			<textarea id="description" rows="5"><br><br>
+			<label for="location">Location:</label>
+			<select id="location">
+				<option value="">Unknown</option>
+				<option value="The village tavern, the local market, and the town square</option>
+			</select><br><br>
+			<label for="treasure">Treasure:</label>
+			<input type="text" id="treasure"><br><br>
+			<label for="giver">Quest Giver:</label>
+			<select id="giver">
+				<option value="">Unknown</option>
+				<option value="Thorne Blackwood, the village elder</option>
+			</select><br><br>
+		</frames>
+	</formats>
+</game>
+```

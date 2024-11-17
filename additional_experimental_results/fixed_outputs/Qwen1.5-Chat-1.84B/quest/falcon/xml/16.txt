@@ -1,0 +1,21 @@
+Corrected XML data:
+```xml
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="questgiver">
+    <tasks>
+        <task order="1" objectives_in_tasks="{objectives_in_tasks}" objectives="{objective}">
+            <location>some location</location>
+        </task>
+    </tasks>
+</game>
+```
+Output:
+```xml
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="questgiver">
+    <tasks>
+        <task order="1" objectives_in_tasks="{objectives_in_tasks}" objectives="{objective}">
+            <location>some location</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,19 @@
+```yaml
+game:
+  beginning:
+    - Game begins.
+      Characters are at home under the care of an AI companion, A.I.
+  ending:
+    message: "We're all going to die out here!"  
+    from: A.I.
+  synopsis:
+    - AI and Player 2 arrive at a small research facility.
+    - They meet Doctor, who reveals his intentions.
+    - Player 1 asks, "What's your deal?"
+    - Doctor's response:
+      - "I won't let you leave."
+      - "I work for the power-hungry A.I."
+    - A.I announcement: "Found your coordinates. Eliminating intruders."
+  title: game-title
+```
+The YAML data has been corrected with proper indentation and formatting. I have added missing values for the beginning of the game and reformatted the ending block to include a scalar value for the message. The synopsis has been divided into multiple items for clarity.

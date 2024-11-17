@@ -1,0 +1,27 @@
+Here's the corrected XML data with new values provided:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>12345</id>
+    <title>The Quest for Adventure</title>
+    <objective>Find the hidden treasure</objective>
+    <description>A thrilling quest to uncover secrets</description>
+    <reward>Gold coins and a mysterious artifact</reward>
+    <quest-giver>英勇的 Knight Sir Lancelot</quest-giver>
+    <tasks>
+        <task order="1">
+            <order>1</order>
+            <objective>Deliver the ancient scroll to the wise wizard</objective>
+            <description>Follow the map at the castle entrance</description>
+            <location>Castle Library</location>
+        </task>
+        <task order="2">
+            <order>2</order>
+            <objective>Collect 3 magical flowers in the enchanted forest</objective>
+            <description>Awarded for solving a riddle at the nearby oak tree</description>
+            <location>Enchanted Forest</location>
+        </task>
+    </tasks>
+</game>
+```

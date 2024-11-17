@@ -1,0 +1,29 @@
+XML with corrected syntax:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>Q12345</id>
+	<title>Dragon Hunt</title>
+	<objective>Defeat the Dragon</objective>
+	<description>Find and defeat the dangerous dragon lurking in the hills of Highmount</description>
+	<reward>500 gold pieces and a legendary sword</reward>
+	<quest-giver>King Eredrin</quest-giver>
+	<tasks>
+			<task order="1">
+				<objective>Gather Information</objective>
+				<description>Speak with the town's elder to gather information about the dragon's location</description>
+				<location>Highmount Town Hall</location>
+			</task>
+			<task order="2">
+				<objective>Find the Dragon</objective>
+				<description>Follow the path indicated by the elder to find the dragon's lair</description>
+				<location>Hills of Highmount</location>
+			</task>
+			<task order="3">
+				<objective>Defeat the Dragon</objective>
+				<description>Engage and defeat the dragon</description>
+				<location>Dragon's Lair</location>
+			</task>
+	</tasks>
+</game>
+```

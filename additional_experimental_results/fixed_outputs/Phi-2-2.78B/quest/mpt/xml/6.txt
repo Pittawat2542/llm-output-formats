@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>Quest 1</title>
+    <objective>Complete the quest and earn a reward.</objective>
+    <description>Your mission is to complete this quest and return safely with the reward. Follow the instructions provided by your quest-giver and be prepared for any obstacles that may arise along the way.</description>
+    <reward>100 gold coins</reward>
+    <quest-giver>Sir Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Retrieve a map from the town square</objective>
+            <description>Go to the town square and speak with the blacksmith. Ask him for a map of the surrounding area.</description>
+            <location>Town Square</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the hidden cave entrance</objective>
+            <description>Follow the map to the east until you see a large rock formation. Dig underneath the rocks and there will be an entrance to the hidden cave.</description>
+            <location>East of Town Square</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Locate the treasure chest</objective>
+            <description>Once you have found the hidden cave entrance, explore the area and locate the treasure chest. Be careful not to alert any guards that may be nearby.</description>
+            <location>Deep within the cave</location>
+        </task>
+    </tasks>
+</game>
+```
+

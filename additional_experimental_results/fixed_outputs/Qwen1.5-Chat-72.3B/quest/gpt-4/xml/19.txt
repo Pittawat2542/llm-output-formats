@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>Retrieve the Lost Amulet</title>
+	<objective>Find and return the lost amulet to the village elder.</objective>
+	<description>The amulet of the village deity was stolen by a band of gnoblins and taken to their lair. The elder offers a reward to whoever brings it back.</description>
+	<reward>500 gold coins and a rare magical item.</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the gnoblin lair.</objective>
+			<description>The lair is located North-East from the village, near the Dark Woods.</description>
+			<location>North-East, Dark Woods</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the lost amulet.</objective>
+			<description>The amulet is likely to be found inside the deepest part of the lair, heavily guarded.</description>
+			<location>Gnoblin Lair</location>
+		</task>
+	</tasks>
+</game>
+```

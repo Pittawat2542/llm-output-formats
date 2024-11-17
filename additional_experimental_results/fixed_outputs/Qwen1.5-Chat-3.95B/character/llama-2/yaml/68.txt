@@ -1,0 +1,37 @@
+No problem, just provide YAML with the corrected syntax. YAML:
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: 
+       - childhood_story: story
+         - description: description
+         - event: event
+         - experience: experience
+         - family: family
+         - friends: friends
+         - hobby: hobby
+         - influence: influence
+         - job: job
+         - love: love
+         - place: place
+         - religion: religion
+         - school: school
+         - skill: skill
+         - sport: sport
+         - trauma: trauma
+         - wealth: wealth
+         - worldview: worldview
+         - other: other
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+       - eye_color: brown
+        hair_color: brown
+        height: 175cm
+        weight: 75kg
+    place_of_birth: location
+    role: role of the character
+    species: human
+```

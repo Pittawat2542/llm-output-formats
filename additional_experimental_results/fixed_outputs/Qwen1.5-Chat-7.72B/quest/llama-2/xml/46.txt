@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id> question_id1 </id>
+    <title> Quest Title 1 </title>
+    <objective> Complete Objective 1 </objective>
+    <description> Discover the ancient artifact in the forest. </description>
+    <reward> Gold coin and experience points </reward>
+    <quest-giver> Elder Oak </quest-giver>
+    <tasks>
+        <task>
+            <order> 1 </order>
+            <objective> Solve the riddle at the river bank </objective>
+            <description> Find the hidden path by deciphering the puzzle. Location: Near the waterfall </description>
+            <location> Waterfall </location>
+        </task>
+    </tasks>
+</game>
+```

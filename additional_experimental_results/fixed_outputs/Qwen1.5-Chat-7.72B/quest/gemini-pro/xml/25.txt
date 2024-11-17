@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>The Lost Crown</title>
+    <objective>Retrieve the lost crown of the king.</objective>
+    <description>The king's crown was stolen by a group of bandits. The king has offered a reward for its return.</description>
+    <reward>1000 gold and the king's favor.</reward>
+    <quest-giver>Queen Elizabeth</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the bandits' hideout in the Eastern Forest.</objective>
+            <description>The bandits are known to operate near a fork in the path.</description>
+            <location>Eastern Forest, Fork</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the bandits and retrieve the crown at their camp.</objective>
+            <description>A cave is nearby where they might be hiding the crown.</description>
+            <location>Cave near Bandit Camp</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return the crown to the king's chambers in the castle.</objective>
+            <description>The guards will direct you upon arrival.</description>
+            <location>Castle, Queen's Chambers</location>
+        </task>
+    </tasks>
+</game>
+```

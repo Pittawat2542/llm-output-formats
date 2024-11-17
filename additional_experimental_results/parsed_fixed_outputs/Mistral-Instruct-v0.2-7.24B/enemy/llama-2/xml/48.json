@@ -1,0 +1,30 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "id": "id",
+        "name": "name",
+        "description": "description",
+        "stats": {
+          "hp": "100",
+          "mp": "100",
+          "atk": "100",
+          "def": "100",
+          "spd": "100"
+        }
+      },
+      {
+        "@id": "2",
+        "name": "Orc",
+        "description": "A large, brutish humanoid.",
+        "stats": {
+          "hp": "300",
+          "mp": "50",
+          "atk": "20",
+          "def": "15",
+          "spd": "8"
+        }
+      }
+    ]
+  }
+}

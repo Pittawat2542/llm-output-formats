@@ -1,0 +1,47 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: Player
+    text: "Hey, do you want to play a game?"
+    dialogue_content: |
+      "I said, 'Hey, do you want to play a game?'"
+  - order: 2
+    speaker: NPC
+    text: "Sure, I love playing games! What game do you have in mind?"
+    dialogue_content: |
+      "The NPC responded, 'Sure, I love playing games! What game do you have in mind?'"
+  - order: 3
+    speaker: Player
+    text: "How about a trivia quiz? I have some interesting questions."
+    dialogue_content: |
+      "Player asked, 'How about a trivia quiz? I have some interesting questions.'"
+  - order: 4
+    speaker: NPC
+    text: "That sounds fun! I'm ready to test my knowledge."
+    dialogue_content: |
+      "NPC agreed, 'That sounds fun! I'm ready to test my knowledge.'"
+  # Skipping the rest as they have correct syntax, but can be moved into a separate list for better readability
+# Here's the updated list with individual dialogues:
+# - order: 5
+#   speaker: NPC
+#   text: "Hmm... I think it's Paris."
+#   dialogue_content: |
+#     NPC responded, "Hmm... I think it's Paris."
+# - order: 7
+#   speaker: Player
+#   text: "Correct! You're off to a good start. Here's the next question: What is the largest planet in our solar system?"
+#   dialogue_content: |
+#     Player asked, "Correct! You're off to a good start. Here's the next question: What is the largest planet in our solar system?"
+# - order: 9
+#   speaker: NPC
+#   text: "I believe it's Jupiter."
+#   dialogue_content: |
+#     NPC replied, "I believe it's Jupiter."
+# - order: 10
+#   speaker: Player
+#   text: "That's right! You really know your stuff. Let's move on to the final question: Who painted the Mona Lisa?"
+#   dialogue_content: |
+#     Player said, "That's right! You really know your stuff. Let's move on to the final question: Who painted the Mona Lisa?"
+```
+```

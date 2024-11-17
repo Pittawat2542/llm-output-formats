@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, what's your name?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			NPC</speaker>
+			<text"My name is John. Nice to meet you."</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+In the provided original XML, there was a missing `/` in the closing `dialogue` tag on line 11 and an extra `</dialogues>` tag at the end. I've fixed these issues and also added example values for `order`, `speaker`, and `text`.

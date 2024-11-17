@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>In search of a legendary artifact, you must navigate through treacherous ruins filled with puzzles and dangers.</description>
+	<reward>1000 gold coins and a rare magical item</reward>
+	<quest-giver>Gilbert the Historian</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the ruins and decipher the first ancient tablet.</objective>
+			<description>A hidden door leads to the ruins, and a mysterious language is engraved on a nearby tablet. Translate it to proceed.</description>
+			<location Ruins Entrance></location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the puzzle in the Chamber of Trials.</objective>
+			<description>A chamber deep within the ruins challenges your wit with a series of puzzles. Solve them to unlock the next area.</description>
+			<location Chamber of Trials></location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the Guardian of the Artifact.</objective>
+			<description>A powerful creature guards the artifact. You must defeat it to claim your reward and complete the quest.</description>
+			<location Inner Sanctum></location>
+		</task>
+	</tasks>
+</game>
+```

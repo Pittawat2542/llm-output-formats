@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "quest-1",
+        "title": "The Lost Temple",
+        "objective": "Retrieve the ancient relic from the lost temple.",
+        "description": "A powerful artifact has been hidden within a long-abandoned temple. Retrieve it and bring it back to us.",
+        "reward": "100 gold pieces, +10 experience points",
+        "quest_giver": "Gorvoth, the village elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Find the entrance to the lost temple",
+                "description": "Look for a hidden path in the nearby forest that leads to the temple.",
+                "location": "The Whispering Woods"
+            },
+            {
+                "order": 2,
+                "objective": "Navigate the temple's traps and puzzles",
+                "description": "Use your wits to overcome the ancient traps and reach the relic chamber.",
+                "location": "The Lost Temple (main hall)"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the artifact from the pedestal",
+                "description": "Carefully remove the relic from its pedestal without triggering any further traps.",
+                "location": "The Lost Temple (relic chamber)"
+            }
+        ]
+    }
+}
+```

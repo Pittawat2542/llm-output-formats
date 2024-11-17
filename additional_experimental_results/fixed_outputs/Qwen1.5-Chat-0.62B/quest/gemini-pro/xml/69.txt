@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	-objective>Find the lost treasure hidden by the ancient pirate, Blackbeard.</objective>
+	description>The legendary pirate, Blackbeard, is said to have hidden his vast treasure on a remote island. Many have searched for it, but none have been successful. Can you find the treasure and bring it back?</description>
+	reward>A chest filled with gold and jewels.</reward>
+	quest-giver>Jack the Tavern Keeper</quest-giver>
+	<tries>
+			<try>
+				<order>1</order>
+			Objective: Travel to Tortuga Island.
+			 Objective: Find the secret map.
+			 Objective: Follow the map to the treasure.
+
+				<error message="Key 'quest_giver' is missing.">
+					<description>
+						The key 'quest_giver' is missing in the XML data.</description>
+					</error>
+
+					<code>
+						<?xml version="1.0" ?>
+						<game>
+							<id>123</id>
+							<title>The Lost Treasure</title>
+						 Objective: Find the lost treasure hidden by the ancient pirate, Blackbeard.</objective>
+							Description: The legendary pirate, Blackbeard, is said to have hidden his vast treasure on a remote island. Many have searched for it, but none have been successful. Can you find the treasure and bring it back?
+						</game>
+					</code>
+				</try>
+
+				<task>
+					<order>1</order>
+				 Objective: Travel to Tortuga Island.
+				 Objective: Find the secret map.
+				 Objective: Follow the map to the treasure.
+
+					<title>Find the secret map and follow it to the treasure.</title>
+					<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+				</task>
+			</try>
+		</tries>
+
+			<try>
+				<order>2</order>
+			 Objective: Find the secret map.
+			 Objective: Follow the map to the treasure.
+
+				<title>Follow the map to the treasure and find the chest filled with gold and jewels.</title>
+			<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+			</try>
+
+			<title>Follow the map to the treasure and follow it to the treasure.</title>
+			<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+		</tries>
+
+			<title>Follow the map to the treasure and find the chest filled with gold and jewels.</title>
+			<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+		</tries>
+
+			<title>Follow the map to the treasure and follow it to the treasure.</title>
+			<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+		</tries>
+
+			<title>Follow the map to the treasure and find the chest filled with gold and jewels.</title>
+			<title>Follow the map to the treasure, but be careful. There are many dangers along the way.</title>
+		</tries>
+	</tasks>
+</game>
+```

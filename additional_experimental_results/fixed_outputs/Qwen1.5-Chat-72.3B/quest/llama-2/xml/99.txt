@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the dungeon.</objective>
+	<description>In search of a legendary artifact, you must navigate through treacherous dungeons filled with monsters and puzzles. Retrieve the artifact and return it to the quest giver.</description>
+	<reward>1000 experience points and a magical ring</reward>
+	<quest-giver>Guild Master Thorne</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the dungeon and locate the entrance to the treasure room.</objective>
+			<description>A hidden door in the southeast corner of the first level leads to the treasure room where the artifact is kept.</description>
+			<location>Dungeon Level 1</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the guardian monster guarding the artifact.</objective>
+			<description>A powerful undead sorcerer protects the treasure room. You must defeat him to claim the artifact.</description>
+			<location>Treasure Room</location>
+		</task>
+	</tasks>
+</game>
+```

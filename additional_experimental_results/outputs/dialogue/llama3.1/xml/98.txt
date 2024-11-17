@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+            <speaker>Player</speaker>
+            <text>Hello, I'm here to explore the town.</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Townsperson</speaker>
+            <text>Welcome, traveler! Be careful, there are rumors of a dragon nearby.</text>
+        </dialogue>
+        <dialogue>
+            <order>3</order>
+            <speaker>Player</speaker>
+            <text>I've heard that rumor before. Is it true?</text>
+        </dialogue>
+        <dialogue>
+            <order>4</order>
+            <speaker>Townsperson</speaker>
+            <text>We don't know for sure, but there have been some... strange occurrences.</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

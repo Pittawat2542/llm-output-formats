@@ -1,0 +1,61 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>Quest title</title>
+	 objective>Quest objective</objective>
+	<description>Quest description</description>
+	 reward>Quest reward</reward>
+	quest-giver>Quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+			 Objective>Objective objective</objective>
+				Description>Description</description>
+			 location>Location</location>
+			-task>
+		</tasks>
+		<possibilities>
+			<possibility>
+				<title>Quest quest title</title>
+			</possibility>
+			<possibility>
+				<title>Quest objective</title>
+			</possibility>
+		</abilities>
+	</game>
+</template>
+
+```xml
+<?php
+
+$game = new \PHPExcel\Reader();
+$x = $game->read(" quests.xml");
+foreach ($x as $task) {
+    echo "<div>";
+    echo "<h2><p>" . $task["title"] . "</p></h2>";
+    echo "<ul>";
+    foreach ($task as $objective) {
+        echo "<li><a href=\"quest giver\" title=\"Quest giver\" class=\"objective\">Objective</a> <br>";
+        echo "<a href=\"quest-giver\" title=\" Quest giver\" class=\"giver\" >Giver</a> <br>";
+        echo "</li>";
+    }
+    echo "</ul>";
+}
+?>
+```
+
+The code block above uses PHPExcel to read an XML file and create a list of tasks. Each task is represented as a `<ul>` element with two `<h2>` elements for the title and the objective, respectively. The tasks are presented in an unordered list with each task having a link that leads to the Quest giver or Quest giver's location.
+The output will be:
+
+```
+Quest to complete is to go to a castle somewhere in the mountains, Obtain an ancient tome, and return it to the quest giver. You will need to be a high level to complete this quest.
+This quest can be finished at any time after you receive it. The quest giver will not wait forever.
+The quest giver is not far from the castle but you will need horses.
+The reward for completing this quest will be one hundred gold pieces.
+This quest is part of a larger overarching story, so quests are usually
+related. If you like doing quests, be sure to check them all out!
+Your quest log, which keeps track of all of the quests you have received and completed, is in your personal inventory.
+
+```vbnet
+```

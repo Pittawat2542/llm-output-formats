@@ -1,0 +1,22 @@
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: player name
+    text: You find yourself standing at the entrance of a dark cave. 
+   - order: dialogue order
+    speaker: npcs (guard)
+    text: 'Halt! Who goes there?'
+   - order: dialogue order
+    speaker: player
+    text: I'm just a traveler seeking refuge from the storm outside.
+   - order: dialogue order
+    speaker: npcs (guard)
+    text: What business do you have in the cave?
+   - order: dialogue order
+    speaker: player
+    text: I'm searching for a lost friend. She was last seen coming this way.
+   - order: dialogue order
+    speaker: npcs (guard)
+    text: 'I don't know what you're talking about. This cave is off-limits.'
+```

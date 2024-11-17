@@ -1,0 +1,32 @@
+{
+  "game": {
+    "description": "A thrilling adventure",
+    "id": "Adventure-123",
+    "objective": "Overcome challenges and\u6551\u516c\u4e3b",
+    "quest_giver": "Brave Sir Robin",
+    "reward": "Valuable treasure and glory",
+    "tasks": [
+      {
+        "name": "Collect magical artifact",
+        "location": "Forest of Mirrors",
+        "objective": "Find the Heart Crystal",
+        "description": "Beware the enchanted creatures!",
+        "order": 1
+      },
+      {
+        "name": "Deliver letter to the castle",
+        "location": "Castle Gates",
+        "objective": "Uncover the villain's plan",
+        "description": "Sneak past guards without being seen",
+        "order": 2
+      },
+      {
+        "name": "Solve riddle in old tower",
+        "location": "Tower of Riddles",
+        "objective": "Decipher the clue for the escape map",
+        "description": "Time is running out!",
+        "order": 3
+      }
+    ]
+  }
+}

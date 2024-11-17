@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I'm trapped in this room.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>Guard</speaker>
+			<text>What makes you think you're trapped?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I've been searching for a way out, but the doors are locked.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>Guard</speaker>
+			<text>The doors are locked because you're not supposed to be here.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

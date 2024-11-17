@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and retrieve the ancient artifact from the forgotten temple.",
+    "description": "You've heard rumors of a lost artifact hidden within an abandoned temple deep in the jungle. Your quest is to navigate through treacherous terrain, solve puzzles, and overcome challenges to find and bring back the artifact.",
+    "reward": "1000 gold coins and legendary\u79f0\u53f7",
+    "quest-giver": "Guru of Ancient Knowledge",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the forgotten temple",
+          "description": "You must explore the jungle and discover the hidden entrance among the ruins.",
+          "location": "Jungle Ruins"
+        },
+        {
+          "order": "2",
+          "objective": "Solve the riddle at the temple's gate",
+          "description": "A riddle guards the entrance, and you must answer it correctly to proceed.",
+          "location": "Temple Gates"
+        },
+        {
+          "order": "3",
+          "objective": "Find the key to the artifact chamber",
+          "description": "The key is hidden somewhere within the temple. Search carefully and avoid traps.",
+          "location": "Temple Interior"
+        },
+        {
+          "order": "4",
+          "objective": "Retrieve the ancient artifact",
+          "description": "Once you have the key, enter the artifact chamber and claim the lost treasure.",
+          "location": "Artifact Chamber"
+        }
+      ]
+    }
+  }
+}

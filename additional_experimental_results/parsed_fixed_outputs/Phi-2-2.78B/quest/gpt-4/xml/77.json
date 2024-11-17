@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST1234",
+    "title": "The Lost Sword",
+    "objective": "Find and retrieve the legendary sword",
+    "description": "Traverse treacherous terrain and overcome mighty foes to find the forgotten sword of the ancients. Your journey will be perilous, but the reward will be worthwhile.",
+    "reward": "5000 gold coins and the legendary sword",
+    "quest-giver": "Old Hermit",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Figure out the location of the sword",
+          "description": "Seek wisdom from ancient texts and decipher the cryptic clues to determine the location of the sword.",
+          "location": "Ancient Library"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian of the sword",
+          "description": "Prepare for battle against the ancient guardian who protects the sword. Only the brave and worthy can defeat him.",
+          "location": "Crystal Caves"
+        },
+        {
+          "order": "3",
+          "objective": "Bring the sword to the Old Hermit",
+          "description": "Once you have claimed the sword, bring it back to the Old Hermit for final validation and to collect your reward.",
+          "location": "Old Hermit\u2019s Hut"
+        }
+      ]
+    }
+  }
+}

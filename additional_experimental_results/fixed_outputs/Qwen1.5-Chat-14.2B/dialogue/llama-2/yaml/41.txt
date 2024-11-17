@@ -1,0 +1,10 @@
+The issue with the original YAML data is that there's a stray `</INST>` at the end, which is not part of the YAML syntax. Here's the corrected YAML:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+```
+The `</INST>` has been removed, and the rest of the data is valid.

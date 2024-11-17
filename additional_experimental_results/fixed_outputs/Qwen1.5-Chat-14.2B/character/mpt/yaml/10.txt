@@ -1,0 +1,22 @@
+The issue with the original YAML data is that the `background` value should be a string, not a sequence. Here's the corrected version:
+
+```yaml
+---
+game:
+  character:
+    age: 28
+    background: "My upbringing was difficult. Both my parents were killed in a terrorist attack when I was an infant."
+    first_name: Sarah
+    id: 9c86820c-1d5b-4cd2-9c0a-4fa5c9d83545
+    last_name: Shaw
+    place_of_birth: Israel
+    physical_appearance:
+      - eye_color: light blue
+      - hair_color: white
+      - height: 5.2
+      - weight: 123.0 lbs
+    role:
+      - "I am the captain of Starfleet."
+      - "Captain, Star Trek: Discovery."
+    species: Klingon
+```

@@ -1,0 +1,34 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game id="1234">
+  <title>The Lost Treasure</title>
+  <objective Find the lost treasure</objective>
+  <description Embark on an epic adventure to find the long-lost treasure of the ancient kingdom. Solve riddles, overcome obstacles, and outsmart the guardians to claim your reward.</description>
+  <reward>1000 gold coins</reward>
+  <quest-giver Captain Rutherford</quest-giver>
+  <tasks>
+    <task order="1" objective="Decrypt the ancient map">
+      <location Forgotten Library</location>
+      <description Travel to the forgotten library and decipher the cryptic symbols on the ancient map.</description>
+    </task>
+  </tasks>
+</game>
+```
+New values:
+- `id`: 1234
+- `title`: The Lost Treasure
+- `objective`: Find the lost treasure
+- `description`: Embark on an epic adventure to find the long-lost treasure of the ancient kingdom. Solve riddles, overcome obstacles, and outsmart the guardians to claim your reward.
+- `reward`: 1000 gold coins
+- `quest-giver`: Captain Rutherford
+- `tasks`:
+
+  * Order 1: Decrypt the ancient map
+    * Location: Forgotten Library
+    * Description: Travel to the forgotten library and decipher the cryptic symbols on the ancient map.
+      - Task order: 1 (Exploring the Library)
+        - Objective: Identify clues and understand the mapping's significance.
+        - Description: Solve puzzles, uncover historical artifacts, and discover hidden passages.
+      - Location: Library Room 1
+```

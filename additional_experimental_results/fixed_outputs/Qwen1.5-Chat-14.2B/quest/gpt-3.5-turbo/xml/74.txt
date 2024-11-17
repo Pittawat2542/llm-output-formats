@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on a journey to find the long-lost treasure of the ancient civilization.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain Roberts</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain a treasure map</objective>
+			<description>Seek out the old librarian in the Great Library of Antiquities to obtain a secret treasure map.</description>
+			<location>Great Library of Antiquities</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decode the treasure map</objective>
+			<description>Find a skilled cartographer in the Port City who can help you decipher the ancient symbols on the treasure map.</description>
+			<location>Port City</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Navigate through the treacherous jungle</objective>
+			<description>Make your way through the dangerous jungle filled with deadly creatures and hidden traps to reach the hidden treasure cave.</description>
+			<location>Jungle</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Discover the treasure</objective>
+			<description>Explore the ancient cave and locate the long-lost treasure of the civilization.</description>
+			<location>Ancient Cave</location>
+		</task>
+	</tasks>
+</game>
+```

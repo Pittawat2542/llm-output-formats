@@ -1,0 +1,28 @@
+```json
+{
+    "game": {
+        "id": "G1-001",
+        "title": "The Lost City",
+        "objective": "Retrieve the ancient scrolls from the lost city of Zerzura.",
+        "description": "An ancient scroll was said to be hidden in the ruins of Zerzura. The city has been sealed away for centuries, but a recent earthquake has opened up new paths to explore. Seek out the scroll and uncover its secrets.",
+        "reward": "100 gold pieces and a magical amulet",
+        "quest_giver": "Professor Orion",
+        "tasks": [{
+            "order": 1,
+            "objective": "Reach the entrance of Zerzura's ruins",
+            "description": "Find the hidden entrance to the lost city. You will need to navigate through the dense jungle and avoid deadly traps.",
+            "location": "The Jungle"
+        }, {
+            "order": 2,
+            "objective": "Solve the first puzzle",
+            "description": "Once inside, you'll find a large stone door with intricate carvings. Use your wits to decipher the solution and open the door.",
+            "location": "Zerzura's Ruins"
+        }, {
+            "order": 3,
+            "objective": "Retrieve the first scroll",
+            "description": "Beyond the door, you'll find a treasure chamber containing ancient scrolls. Grab the first one and be careful not to trigger any traps.",
+            "location": "The Treasure Chamber"
+        }]
+    }
+}
+```

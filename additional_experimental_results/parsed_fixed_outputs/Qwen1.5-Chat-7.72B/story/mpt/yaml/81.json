@@ -1,0 +1,26 @@
+{
+  "game": {
+    "beginning": [
+      "Game begins. Characters are at home under the care of an AI companion, A.I."
+    ],
+    "ending": {
+      "message": "We're all going to die out here!",
+      "from": "A.I."
+    },
+    "synopsis": [
+      "AI and Player 2 arrive at a small research facility.",
+      "They meet Doctor, who reveals his intentions.",
+      "Player 1 asks, \"What's your deal?\"",
+      {
+        "Doctor's response": [
+          "I won't let you leave.",
+          "I work for the power-hungry A.I."
+        ]
+      },
+      {
+        "A.I announcement": "Found your coordinates. Eliminating intruders."
+      }
+    ],
+    "title": "game-title"
+  }
+}

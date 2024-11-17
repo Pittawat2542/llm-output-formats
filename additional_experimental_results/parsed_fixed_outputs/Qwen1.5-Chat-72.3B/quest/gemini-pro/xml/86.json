@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "q001",
+    "title": "A New Beginning",
+    "objective": "Begin your journey as a hero by finding the ancient sword, Sword of Legends.",
+    "description": "You have been chosen by the gods to embark on a journey to save the world from darkness. Your first task is to find the Sword of Legends, an ancient and powerful weapon that is said to be the only thing that can defeat the Dark Lord.",
+    "reward": "The Sword of Legends and 1000 gold pieces",
+    "quest-giver": "Sage of Elrond",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Forest of Shadows and find the entrance to the Tomb of Kings.",
+          "description": "The Forest of Shadows is located east of the town of Asgard. Once you reach the forest, search for a cave concealed among the trees.",
+          "location": "Forest of Shadows"
+        },
+        {
+          "order": "2",
+          "objective": "Fight your way through the Tomb of Kings and recover the Sword of Legends.",
+          "description": "The Tomb of Kings is fraught with traps and ferocious creatures. Proceed cautiously and ensure you are adequately equipped before entering.",
+          "location": "Tomb of Kings"
+        },
+        {
+          "order": "3",
+          "objective": "Deliver the Sword of Legends to the Sage of Elrond in the town of Asgard.",
+          "description": "After obtaining the Sword of Legends, return it to the Sage of Elrond in Asgard. He will commend your valor and assist you in preparing for your subsequent quest.",
+          "location": "Town of Asgard"
+        }
+      ]
+    }
+  }
+}

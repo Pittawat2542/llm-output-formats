@@ -1,0 +1,17 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>12345</id>
+        <name>Zombie Boss</name>
+        <description>A powerful undead enemy with high HP and attack.</description>
+        <stats>
+            <hp>100</hp>
+            <mp>0</mp>
+            <atk>150</atk>
+            <def>50</def>
+            <spd>30</spd>
+        </stats>
+    </enemy>
+</game>
+```

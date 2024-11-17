@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<game id="id">
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>quest giver</quest-giver>
+  
+  <!-- Add tasks element here -->
+  
+</game>
+
+Original message in Markdown:
+```markdown
+# Quest Title
+
+## Objective
+The quest objective is to complete the quest titled "Quest Title".
+
+## Description
+The quest description explains what the player needs to do in order to complete the quest. It can describe specific actions, objectives, or challenges that the player must overcome.
+
+## Reward
+Upon completion of the quest, the player will receive a reward, which can be a small gift, a powerful artifact, or even a valuable experience. The reward should reflect the level of achievement and importance of completing the quest.
+
+## Quest Giver
+The quest giver is the individual who assigns the task to the player. They are responsible for providing the necessary resources, guidance, and support to help the player complete the quest successfully.
+
+## Tasks
+The game contains multiple tasks that the player must accomplish in order to complete the quest. Each task has an associated order number and a specific objective or challenge. The location of the task can be found by clicking on it within the game.
+
+## Example Task
+One example task assigned to the player is:
+
+  * Order: 1
+  * Objective: Complete quest objective
+  * Description: Retrieve a rare gem from a hidden cave.
+  * Location: Hidden Cave
+
+This task requires the player to find and collect a valuable gem located in a hidden cave. They can use their quest-giver's guidance or explore the area on their own, but they should be cautious and avoid taking unnecessary risks.
+
+## Conclusion
+In this example, the XML data correctly reflects the structure of the game, including the id of the game, title of the quest, objective, description, reward, and task elements. The quests are organized into a list of tasks with each task having its own order number, objective, description, and location. The task element also includes a reference to another task in the list for reference.
+
+Here's the XML data in Markdown format:
+```markdown
+# Quest Title
+
+## Objective
+The quest objective is to complete the quest titled "Quest Title".
+
+## Description
+The quest description explains what the player needs to do in order to complete the quest. It can describe specific actions, objectives, or challenges that the player must overcome.
+
+## Reward
+Upon completion of the quest, the player will receive a reward, which can be a small gift, a powerful artifact, or even a valuable experience. The reward should reflect the level of achievement and importance of completing the quest.
+
+## Quest Giver
+The quest giver is the individual who assigns the task to the player. They are responsible for providing the necessary resources, guidance, and support to help the player complete the quest successfully.
+
+## Tasks
+The game contains multiple tasks that the player must accomplish in order to complete the quest. Each task has an associated order number and a specific objective or challenge. The location of the task can be found by clicking on it within the game.
+
+## Example Task
+One example task assigned to the player is:
+
+  * Order: 1
+  * Objective: Complete quest objective
+  * Description: Retrieve a rare gem from a hidden cave.
+  * Location: Hidden Cave
+
+This task requires the player to find and collect a valuable gem located in a hidden cave. They can use their quest-giver's guidance or explore the area on their own, but they should be cautious and avoid taking unnecessary risks.
+
+## Task List
+Here is a list of all the tasks assigned to the player:
+
+  * Order: 1
+  * Objective: Complete quest objective
+    * Description: Retrieve a rare gem from a hidden cave.
+      * Location: Hidden Cave
+
+  * Order: 2
+  * Objective: Retrieve additional items from a treasure chest
+    * Description: Find and collect three rare artifacts from the treasure chest.
+      * Location: Treasure Chest
+
+  * Order: 3
+  * Objective: Complete another quest objective
+    * Description: Obtain a powerful artifact from an enemy or rival.
+      * Location: Enemy/Rival's Hideout
+
+  * Order: 4
+  * Objective: Complete the final task
+    * Description: Obtain a powerful magical artifact to complete the final challenge.
+      * Location: Magic Vault
+```

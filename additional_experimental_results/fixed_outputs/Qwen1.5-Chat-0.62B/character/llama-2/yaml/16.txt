@@ -1,0 +1,57 @@
+The YAML data was incorrect, and it should be corrected to properly match the requirements. Here's the corrected code:
+```
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: 170
+      weight: 80
+    place_of_birth: location
+    role: role of the character
+    species: species
+    age: exact age or description
+```
+In the `age` field, use the correct format (e.g. `age=28`) and make sure the `description` field is present for both `first_name` and `last_name`. The `height` and `weight` fields should be in a floating-point value format.
+The new code will return the YAML in a code block between ```yaml``` and ````````.
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: 170
+      weight: 80
+    place_of_birth: location
+    role: role of the character
+    species: species
+    age: exact age or description
+```
+The Markdown code block will contain only the YAML data and it will be returned in a code block between ```yaml``` and ````````.
+```yaml
+game:
+  character:
+    age: exact age or description
+    background: background story
+    first_name: first name
+    id: id
+    last_name: last name
+    physical_appearance:
+     - eye_color: eye color
+      hair_color: hair color
+      height: 170
+      weight: 80
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

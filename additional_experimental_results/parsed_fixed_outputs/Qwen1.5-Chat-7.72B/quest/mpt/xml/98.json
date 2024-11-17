@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "a-b-c-d-e-f",
+    "title": "Quest Title",
+    "objective": "Quest Objective",
+    "description": "Quest Description",
+    "reward": "50 gold pieces",
+    "quest-giver": "NameOfQuestGiver",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Task Objective 1",
+          "description": "Task Description 1",
+          "location": "Task Location 1"
+        },
+        {
+          "order": "2",
+          "objective": "Task Objective 2",
+          "description": "Task Description 2",
+          "location": "Task Location 2"
+        }
+      ]
+    }
+  }
+}

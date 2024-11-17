@@ -1,0 +1,32 @@
+```yaml
+game:
+  beginning: The beginning of the game
+  ending: The ending of the game
+  synopsis: Game story synopsis
+  title: game-title
+
+ players:
+  - character: Player 1
+    role: Team Leader
+    task: Escaping with team and unraveling plot
+  - character: Character 2
+    role: Researcher
+    task: Uncovering dark plot
+  - character: Character 3
+    role: Tunneler
+    task: navigating tunnels and solving puzzles
+  - creature: Hazardous Creature
+    type: Obstacle
+    description:威胁团队安全
+
+ challenges:
+  - Puzzle 1
+  - Creature Encounter 1
+  - Environmental Hazards
+
+ outcome:
+  - Justice achieved
+  - Team reunited
+  - Survival celebration
+```
+The corrected YAML includes a root dictionary for the `game` object and added new values such as `players`, `challenges`, and `outcome`. The original text has been reformatted to match the YAML syntax.

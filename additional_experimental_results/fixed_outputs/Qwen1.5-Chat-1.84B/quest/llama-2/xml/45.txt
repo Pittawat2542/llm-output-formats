@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<game>
+    <id>13</id>
+    <title>The Quest for the Holy Grail</title>
+    <objective>Find the Holy Grail</objective>
+    <description>The Holy Grail is the cup used by Jesus at the Last Supper. It was later used by Joseph of Arimathea to collect the blood of Jesus as he was being crucified. It is said to have miraculous healing powers. The quest for the Holy Grail is one of the most famous quests in the world.</description>
+    <reward>1000 gold pieces</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>The grail was hidden deep within a mystical cave.</objective>
+            <description>A group of knights were sent on a quest to retrieve the Holy Grail. They journeyed for weeks and faced many challenges along the way, including treacherous terrain and dangerous creatures. Finally, they reached the cave where the grail lay, but it was guarded by a powerful dragon.</description>
+            <location>Cave</location>
+        </task>
+    </tasks>
+</game>
+
+### Example 15
+
+```xml
+<game>
+    <id>13</id>
+    <title>The Quest for the Holy Grail</title>
+    <objective>Find the Holy Grail</objective>
+    <description>The Holy Grail is the cup used by Jesus at the Last Supper. It was later used by Joseph of Arimathea to collect the blood of Jesus as he was being crucified. It is said to have miraculous healing powers. The quest for the Holy Grail is one of the most famous quests in the world.</description>
+    <reward>1000 gold pieces</reward>
+    <quest-giver>King Arthur</quest-giver>
+    <tasks>
+        <task>
+            <order>2</order>
+            <objective>The grail was hidden deep within a mysterious temple complex.</objective>
+            <description>A group of scholars and priests were tasked with searching for the Holy Grail. They spent months studying ancient texts and conducting experiments to try to locate it.</description>
+            <location>Temple Complex</location>
+        </task>
+    </tasks>
+</game>
+```

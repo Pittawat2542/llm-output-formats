@@ -1,0 +1,24 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id:id>id_value</id>
+	<title>quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<quest-giver quest_giver</quest-giver>
+	<tasks>
+		<task>
+			<order>task_order</order>
+			<objective task_objective</objective>
+			<description task_description</description>
+			<location task_location</location>
+		</task>
+	</tasks>
+</game>
+```
+I have made the following corrections:
+1. Encoded the XML with `encoding="UTF-8"`.
+2. Removed the hash symbol (`#`) from the beginning of the attributes, as it is not valid in XML.
+3. Changed "id" to `<id:id>` for proper element declaration.
+4. Properly formatted attribute values by removing unnecessary spaces and adding `value` if needed.

@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Dragon's Hoard Quest",
+    "objective": "Capture the dragon's treasure",
+    "description": "Untangle the riddle of the dragon's lair to retrieve the treasure chest",
+    "reward": "Gold coins, magical artifacts",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the eastern forest",
+          "description": "Follow the signs of a recent battle to find the entrance",
+          "location": "East Forest Edge"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon's pet, a griffon",
+          "description": "Catch the griffon flying overhead with your bow",
+          "location": "Dragon's LairRoost"
+        }
+      ]
+    }
+  }
+}

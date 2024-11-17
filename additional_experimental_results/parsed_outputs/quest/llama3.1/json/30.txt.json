@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "quest_001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve a sacred artifact from the ancient temple",
+    "description": "Long lost to the sands of time, the temple of the moon goddess has been rediscovered. The high priestess requests your assistance in retrieving a powerful artifact that lies within.",
+    "reward": "10 gold pieces and the gratitude of the people",
+    "quest_giver": "High Priestess Elara",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Navigate the treacherous temple ruins",
+        "description": "Make your way through the crumbling entrance and avoid deadly traps",
+        "location": "The Temple of the Moon Goddess, located north of the kingdom"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the puzzle of the moon goddess's chamber",
+        "description": "Use your wits to unlock the door and retrieve the artifact",
+        "location": "The inner sanctum of the temple"
+      }
+    ]
+  }
+}

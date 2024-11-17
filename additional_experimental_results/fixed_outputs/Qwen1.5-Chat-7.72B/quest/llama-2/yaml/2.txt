@@ -1,0 +1,15 @@
+```
+game:
+  description: "This is a description for the quest."
+  id: 1
+  objective: "To complete this quest, you must find the object."
+  quest_giver: "The quest giver"
+  reward: "You will receive a reward for completing it."
+  tasks:
+   - description: "Search for the item in the specified location."
+     location: "A hidden chest in the forest"
+     objective: "Locate and collect the item"
+     order: 1
+     title: "Objective: Find Chest"
+```
+The YAML data has been fixed by removing the extra backticks around the strings and providing correct values for `reward` and a description for one of the tasks.

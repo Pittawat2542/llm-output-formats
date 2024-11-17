@@ -1,0 +1,39 @@
+Invalid syntax: not well-formed (invalid token: line 36, column 0)
+XML code block:
+```xml
+<?xml version="1.0" ?> 
+<game>
+	<id>123</id>
+	<title>The Ancient Treasure</title>
+	<objective>Find the legendary ancient treasure</objective>
+	<description>Embark on a dangerous adventure to uncover the long-lost ancient treasure that holds unimaginable power.</description>
+	<reward>10,000 gold coins and a legendary weapon</reward>
+	<quest-giver>The Wise Elder</quest-giver>
+	<tasks>
+		<task>
+				order>1</objective>
+				objective>Obtain the ancient map</objective>
+				<description>Visit the old library in the town of Thalos and search for the ancient map that leads to the treasure's location.</description>
+				location>Thalos</location>
+			</task>
+		<task>
+				order>2</objective>
+				objective>Travel to the Forgotten Forest</objective>
+				<description>Journey through the treacherous Forgotten Forest to reach the entrance of the hidden cave where the treasure awaits.</description>
+				location>Forgotten Forest</location>
+		<-task>
+		<task>
+				order>3</objective>
+				objective>Defeat the guardians</objective>
+				<description>Battle against the ancient guardians protecting the treasure, proving your worth and determination to claim it.</description>
+			<location>Ancient Cave</location>
+		<-task>
+		<task>
+				order>4</objective>
+				objective>Retrieve the ancient treasure</objective>
+				<description>Finally, reach the heart of the cave, where the legendary ancient treasure awaits. Claim it as your own!</description>
+			<location>Ancient Cave</location>
+		</task>
+	<tasks> 
+</game> 
+```

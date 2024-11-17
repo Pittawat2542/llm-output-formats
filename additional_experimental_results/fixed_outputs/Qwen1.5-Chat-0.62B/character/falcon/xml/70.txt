@@ -1,0 +1,106 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<title>Character 1</title>
+			职业技能>
+				<hiring>
+					<description>The person is looking for a new job.</description>
+				</hiring>
+				 training>
+					<description>The person needs to improve their skills in the field.</description>
+				</training>
+				mentoring>
+					<description>The person wants to learn from an experienced mentor.</description>
+				</mentoring>
+			</职业技能>
+			.age>
+				<age>18</age>
+				<tdeployment_date>
+					<date>
+						2023-05-01
+					</date>
+				</tdeployment_date>
+			</age>
+			的角色>
+				<title>Character 1: Job Title</title>
+			<hiring>
+				<title>Employee</title>
+			</hiring>
+			training>
+				<title>Employee Training</title>
+			</training>
+			mentoring>
+				<title>Employee Mentorship</title>
+			</mentoring>
+		</character>
+</game>
+```
+
+New values for the `role`, `job_title`, and `training` properties:
+```perl
+<character>
+	<title>Character 1</title>
+	职业技能>
+			hiring职业技能:
+				<hiring职业技能>
+					<hiring职业技能>
+					职业技能1: Job Title
+					</hiring职业技能>
+				</hiring职业技能>
+			</职业技能>
+			培训职业技能:
+				培训职业技能:
+					培训职业技能>
+					职业技能2: Employee Training
+					</培训职业技能>
+				</培训职业技能>
+			mentoring职业技能:
+				mentoring职业技能:
+					mentoring职业技能>
+					职业技能3: Employee Mentorship
+					</mentoring职业技能>
+				</mentoring职业技能>
+			</职业技能>
+		(age>
+				.age: 18
+			<tdeployment_date:
+					<date>
+						2023-05-01
+					</date>
+				</tdeployment_date>
+			</age>
+		的角色>
+				<title>Character 1: Job Title</title>
+			<hiring职业技能>
+				<title>Employee</title>
+			</hiring职业技能>
+			培训职业技能:
+				<title>Employee Training</title>
+			</training职业技能>
+			mentoring职业技能:
+				<title>Employee Mentorship</title>
+			</mentoring职业技能>
+		</character>
+</game>
+```
+
+Output in Markdown format:
+```
+## Game Description
+## Character 1's Profile
+- Name: Character 1
+- Job Title: Employee
+- Training职业技能: 
+  - Job Title: Employee Training
+  - Job Title: Employee Mentorship
+  - Training职业技能:
+    - Job Title: Hiring职业技能
+    - Job Title: Training职业技能
+  - Training职业技能:
+    - Job Title: Employee Training
+    - Job Title: Employee Mentorship
+- Career Path
+## Character 1's Background Story
+```

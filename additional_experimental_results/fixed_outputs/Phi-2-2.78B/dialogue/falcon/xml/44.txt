@@ -1,0 +1,34 @@
+<!DOCTYPE rss [
+   <!DOCTYPE rss-feed [
+   <!DOCTYPE rss-1 [
+    <!DOCTYPE xmlNS:rss>
+  
+    <rss version="1.0">
+   	<rss>
+		<item>
+			<title>Output Feed</title>
+			<link href="https://example.com/" rel="self">
+		</item>
+		<item>
+			<title>New Item</title>
+			<link href="https://example.com/new/" rel="self">
+		</item>
+		<item>
+			<title>Old Item</title>
+			<link href="https://example.com/old/" rel="self">
+		</item>
+	</rss>
+	<rss>
+		<item>
+			<title>More Items</title>
+			<link href="https://example.com/more/" rel="self">
+			<text>
+				"This is the text to be added as a link in the output feed."
+			</text>
+		</item>
+	</rss>
+   </rss>
+ </rss>
+</xml>
+
+

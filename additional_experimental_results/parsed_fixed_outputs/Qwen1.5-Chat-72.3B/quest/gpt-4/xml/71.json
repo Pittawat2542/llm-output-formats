@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Dragon's Lair",
+    "objective": "Defeat the powerful dragon in its lair.",
+    "description": "Your mission is to travel to the northern mountains, infiltrate the dragon's lair, and defeat the beast to protect the kingdom.",
+    "reward": "The King's gratitude and 5000 gold coins.",
+    "quest-giver": "King Aldred",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the northern mountains",
+          "description": "Your first task is to travel to the northern mountains where the dragon resides. Pack your gear and prepare for the journey.",
+          "location": "Northern Mountains"
+        },
+        {
+          "order": "2",
+          "objective": "Infiltrate the dragon's lair",
+          "description": "Once you reach the mountains, you need to locate and infiltrate the dragon's lair. Watch out for traps and minions.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the dragon",
+          "description": "Your final task is to defeat the dragon. Use all your skills and equipment at your disposal to vanquish the beast.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

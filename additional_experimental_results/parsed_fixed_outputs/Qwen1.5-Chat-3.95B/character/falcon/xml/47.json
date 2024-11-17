@@ -1,0 +1,26 @@
+{
+  "game": {
+    "character": {
+      "id": "id",
+      "first-name": "first name",
+      "last-name": "last name",
+      "species": "species",
+      "age": "exact age in integer value",
+      "role": "character role in string value",
+      "background": "background story in string value",
+      "place-of-birth": "text",
+      "physical-appearance": {
+        "eye-color": "eye color angle code",
+        "hair-color": "hair color angle code",
+        "height": "exact height in inch value",
+        "weight": "exact weight in pound value",
+        "physical-appearance": {
+          "eye-color": "eye color angle code",
+          "hair-color": "hair color angle code",
+          "height": "exact height in inch value",
+          "weight": "exact weight in pound value"
+        }
+      }
+    }
+  }
+}

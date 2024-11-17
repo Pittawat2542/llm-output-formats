@@ -1,0 +1,24 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<character id="id" first-name="first_name" last-name="last_name">
+		<input type="text" name="specs" placeholder="The role of the character"> 
+		<input type="text" name="age" placeholder="The character's age"> 
+		<input type="text" name="role" placeholder="The character's role"> 
+		<input type="text" name="spell">
+	</character>
+</game>
+
+```
+Output in XML format:
+```xml
+<game>
+	<character id="id" first-name="first_name" last-name="last_name">
+		<input type="text" name="specs" placeholder="The role of the character">
+		<input type="text" name="age" placeholder="The character's age"> 
+		<input type="text" name="role" placeholder="The character's role"> 
+		<input type="text" name="spell">
+	</character>
+</game>
+```

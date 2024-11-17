@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<game>
+	<id id="id">123</id>
+	<title quest title="The Quest of the Dragon's Heart"></title>
+	<objective quest objective="Complete a challenging quest to obtain an enchanted artifact that grants temporary invincibility to enemies."/>
+	<description quest description="Find the legendary dragon and retrieve the Heart of Dragons, which is said to grant immortality. But beware of its deadly breath and powerful minions."/>
+	<reward quest reward="Expensive treasure"></reward>
+	<quest-giver quest giver="The wise wizard"></quest-giver>
+	<tasks>
+			<task order="1">
+				<objective objective="Search the forest for dragon eggs and hatchlings."/>
+				<location "Forest" />
+			</task>
+			<task order="2">
+				<objective objective="Explore the ruins of an ancient civilization to find clues about the dragon's location."/>
+				<location "Ancient Ruins" />
+			</task>
+			<task order="3">
+				<objective objective="Complete a challenging battle against the dragon's minions in a副本."/>
+				<location "Dragon's Lair" />
+			</task>
+			<task order="4">
+				<objective objective="Search for rare artifacts and magical items scattered throughout the temple complex."/>
+				<location "Temple Complex" />
+			</task>
+			<task order="5">
+				<objective objective="Find a hidden entrance to the dragon's lair and defeat it with your newfound invincibility."/>
+				<location "Dragon's Lair" />
+			</task>
+			<task order="6">
+				<objective objective="Return the Heart of Dragons to its rightful owner, The Wise Wizard."/>
+				<location "Wise Wizard's Palace" />
+			</task>
+		</tasks>
+	</game>
+```

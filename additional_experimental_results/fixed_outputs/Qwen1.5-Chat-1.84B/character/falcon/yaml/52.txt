@@ -1,0 +1,48 @@
+```yaml
+game:
+  characters:
+    - name: My Character's Name
+      age: 28
+      background: "Expy" (background story)
+      first_name: "John Smith"
+      id: 1
+      last_name: "Smith"
+      physical_appearance:
+        eye_color: "Brown" # Changed to "Brown" for consistency
+        hair_color: "Dark Brown" # Changed to "Dark Brown" for consistency
+        height: 6'0" # Changed to 6ft 0" for consistent measurement
+        weight: 185 lbs # Changed to 185 lbs for consistent weight
+      place_of_birth: "New York, NY" # Added a location value for consistency
+      role: "Expy" (role of the character)
+      species: "Humanoid" (species)
+
+  - name: My Character's Name
+      age: 22
+      background: "New" (background story)
+      first_name: "Jane Doe"
+      id: 2
+      last_name: "Doe"
+      physical_appearance:
+        eye_color: "Blonde" # Changed to "Blonde" for consistency
+        hair_color: "Dark Brown" # Changed to "Dark Brown" for consistency
+        height: 5'6" # Changed to 5ft 6" for consistent measurement
+        weight: 120 lbs # Changed to 120 lbs for consistent weight
+      place_of_birth: "New York, NY" # Added a location value for consistency
+      role: "New" (role of the character)
+      species: "Humanoid" (species)
+
+  - name: Michael Johnson
+      age: 43
+      background: "In-Law" (background story)
+      first_name: "Michael Johnson"
+      id: 3
+      last_name: "Johnson"
+      physical_appearance:
+        eye_color: "Green" # Changed to "Green" for consistency
+        hair_color: "Blonde" # Changed to "Blonde" for consistency
+        height: 6'2" # Changed to 6ft 2" for consistent measurement
+        weight: 240 lbs # Changed to 240 lbs for consistent weight
+      place_of_birth: "New York, NY" # Added a location value for consistency
+      role: "In-Law" (role of the character)
+      species: "Humanoid" (species)
+```

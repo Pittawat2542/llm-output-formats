@@ -1,0 +1,21 @@
+The provided XML data is missing closing tags for the `<stats>` and the outer `<enemy>` tag, as well as the root element `<game>`. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+I've added the closing tags and fixed the indentation for better readability.

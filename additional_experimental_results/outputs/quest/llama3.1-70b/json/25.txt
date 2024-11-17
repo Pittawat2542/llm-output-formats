@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "QR001",
+        "title": "The Lost Temple",
+        "objective": "Find the ancient temple and retrieve the artifact.",
+        "description": "Legend has it that an ancient civilization once thrived in these lands, leaving behind a mysterious temple filled with treasures. The locals have lost all knowledge of its location, but rumors say it's hidden deep within the nearby forest.",
+        "reward": "1000 gold coins and a magical amulet",
+        "quest_giver": "Thorne Blackwood, the village elder",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the temple's location",
+                "description": "Talk to the villagers and gather any clues they might have about the temple's whereabouts.",
+                "location": "Greenhaven Village"
+            },
+            {
+                "order": 2,
+                "objective": "Explore the forest and find the temple entrance",
+                "description": "Venture into the nearby forest, following the path that leads to a ancient-looking stone structure.",
+                "location": "The Whispering Woods"
+            },
+            {
+                "order": 3,
+                "objective": "Solve the puzzle to unlock the temple doors",
+                "description": "Use your knowledge of ancient lore and symbols to decipher the cryptic clues etched into the stone walls, unlocking the entrance to the temple.",
+                "location": "The Temple Entrance"
+            }
+        ]
+    }
+}
+```

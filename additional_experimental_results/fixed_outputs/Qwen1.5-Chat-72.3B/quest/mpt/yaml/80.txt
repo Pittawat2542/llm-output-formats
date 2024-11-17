@@ -1,0 +1,16 @@
+```yaml
+quest:
+  game:
+    description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  title: quest title
+  tasks:
+   - description: task description
+     location: task location
+     objective: task objective
+     order: task order
+```
+I fixed the syntax errors and corrected the structure based on the template provided. The key 'game' was missing, so I moved the 'description' under it. Also, removed unnecessary items, merged duplicate 'tasks' keys, and fixed the indentation for consistency.

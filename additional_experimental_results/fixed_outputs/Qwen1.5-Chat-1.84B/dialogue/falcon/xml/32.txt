@@ -1,0 +1,19 @@
+Corrected XML data:
+```xml
+<game>
+	<dialogues>
+			<dialogue id="1">
+				<order>dialogue order</order>
+				<speaker>player 1 name</speaker>
+				<Text>dialogue 1 text</Text>
+			</dialogue>
+			<dialogue id="2">
+				<order>dialogue order</order>
+				<speaker>player 2 name</speaker>
+				<Text>dialogue 2 text</Text>
+			</dialogue>
+			<!-- Add more dialogue nodes as needed -->
+	</dialogues>
+</game>
+
+```

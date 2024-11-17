@@ -1,0 +1,17 @@
+Here's the corrected YAML data:
+```yaml
+game:
+  beginning: the first event of the game
+  ending: the last event of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+The output in Markdown format will be:
+```
+game:
+  beginning: the first event of the game
+  end: the last event of the game
+  synopsis: game story synopsis
+  title: game title
+```

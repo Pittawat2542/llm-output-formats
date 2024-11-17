@@ -1,0 +1,38 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>qt001</id>
+	<title>Spectral Thievery</title>
+	<objective>Find the missing crystals hidden by the town's mysterious specters.</objective>
+	<description>Spectral Thievery is a gripping adventure where you investigate a series of strange occurrences in the small town of Willow Creek. Play as a seasoned investigator and use your skills to solve puzzles, gather clues, and expose the dark secrets lurking beneath the town's surface. Collaborate with a diverse cast of intriguing characters and uncover the truth behind the perplexing spectral thievery plaguing the town. Through your journey, you'll navigate through enigmatic locations, encountering puzzles that test your intellect and uncovering clues that lead you closer to the elusive answers. Embark on this exhilarating adventure and bring peace to Willow Creek.</description>
+	<reward>Amulet of Spectral Sight (grants the ability to see and interact with specters)</reward>
+	<quest-giver>Mayor Beatrice Longfellow</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Investigate reports of spectral sightings around town.</objective>
+			<description>Begin the investigation by delving deep into the alleys and shrouded corners of Willow Creek. Listen to the locals' tales, investigate unusual occurrences, and piecing together clues that hint at the hidden role of the spectres.</description>
+			<location>Various locations around Willow Creek</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Seek out the elusive book "Whispers of the Aether" rumored to hold the key to spectral interactions.</objective>
+			<description>Embark on a literary treasure hunt to uncover the secrets hidden within the pages of "Whispers of the Aether." Search for clues that may lead you to this ancient tome and unravel the mysteries of the spectral thievery.</description>
+			<location>Willow Creek Library</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Crack the code to decipher the hidden messages left by the specters.</objective>
+			<description>With the "Whispers of the Aether" in hand, decipher the cryptic messages left behind by the specters. Employ your wits and keen observation to unlock the enigmatic secrets that may guide you towards the missing crystals.</description>
+			<location>The Study of Professor Hawthorne</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Journey to the haunted ruins of Blackmoor Manor to confront the spectral thief.</objective>
+			<description>Venture into the ruins of Blackmoor Manor, a place shrouded in ghostly legends. Confront the spectral thief and confront the dark forces behind the crystal thievery. Unravel their motivations and bring their reign of mischief to an end.</description>
+			<location>Haunted ruins of Blackmoor Manor</location>
+		</task>
+	</tasks>
+</game>
+```

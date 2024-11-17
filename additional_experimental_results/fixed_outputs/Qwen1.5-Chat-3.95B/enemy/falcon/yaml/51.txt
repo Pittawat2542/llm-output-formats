@@ -1,0 +1,14 @@
+Here is the YAML data with corrected syntax:
+``yaml
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      attack: atk int value
+      defense: def int value
+      health: hp int value
+      mana: mp int value
+      speed: spd int value
+```

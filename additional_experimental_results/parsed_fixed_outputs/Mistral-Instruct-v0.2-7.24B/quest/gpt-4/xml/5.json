@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QU12345",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the Lost Artifact from the Ancient Ruins",
+    "description": "According to legend, a powerful artifact was hidden within the Ancient Ruins. Many have tried to find it, but none has returned. It is your mission to retrieve the artifact and return it to its rightful place. Be wary, though, for the ruins are said to be cursed.",
+    "reward": "5000 gold pieces, Artifact's Blessing",
+    "quest-giver": "Old Sage Amara",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the Ancient Ruins",
+          "description": "Travel east from the village and follow the Stone Pillars. They will lead you to the entrance of the Ancient Ruins.",
+          "location": "Ancient Ruins Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the Ancient Ruins and find the Lost Artifact",
+          "description": "Make your way through the Ancient Ruins, avoiding traps and solving puzzles to reach the chamber where the Lost Artifact is kept.",
+          "location": "Ancient Ruins Inner Chambers"
+        },
+        {
+          "order": "3",
+          "objective": "Return the Lost Artifact to Old Sage Amara",
+          "description": "With the Lost Artifact in your possession, return to the village and present it to Old Sage Amara.",
+          "location": "Village"
+        }
+      ]
+    }
+  }
+}

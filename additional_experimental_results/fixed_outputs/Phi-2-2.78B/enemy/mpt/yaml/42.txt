@@ -1,0 +1,14 @@
+game:
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: atk int value
+      def: def int value
+      hp: hp int value
+      mp: mp int value
+      spd: spd int value
+
+### Explanation:
+The error occurs because the first character after a ```YAML``` tag must be a space or tab. To fix it, we need to add spaces before each token that starts with an integer number. The corrected YAML snippet is enclosed in three back ticks (```) on either side of the Markdown code block as instructed above.

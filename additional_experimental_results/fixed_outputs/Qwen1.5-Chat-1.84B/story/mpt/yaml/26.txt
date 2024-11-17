@@ -1,0 +1,19 @@
+Corrected YAML data:
+
+```yaml
+game:
+  beginning: "The Beginning"
+  ending: "The End"
+  synopsis: "A captivating story of adventure and discovery takes place in this game."
+  title: "Game Title"
+```
+
+Output in YAML format:
+
+```
+game:
+beginning: The Beginning
+ending: The End
+synopsis: A captivating story of adventure and discovery takes place in this game.
+title: Game Title
+```

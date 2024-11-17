@@ -1,0 +1,28 @@
+There is no syntax error in the provided YAML data. The original YAML code block is already correctly formatted. Here it is again for reference:
+
+```yaml
+game:
+  description: Obtain the rare Glowstone needed for different potions, including the highly desired Healing potion.
+  id: mst-004
+  objective: Find the cave where the Glowstone resides and return to the quest giver with at least 10 pieces of the ore.
+  quest_giver: Jack the Trader
+  reward: 5,000 experience points, for 10 Glowstone ore, 1,500-2,500 gold
+  tasks:
+   - description: Travel East of Serbule Hills. Enter the Glowing Chasm, take caution though as the area is teeming with deadly creatures.
+     location: Glowing Chasm
+     objective: Enter the Glowing Chasm
+     order: 1
+   - description: Fight your way through the winding tunnels, following the light of the Glowstone. 
+     location: Glowing Chasm Tunnels
+     objective: Follow the light of the Glowstone
+     order: 2
+   - description: Locate and collect at least 10 pieces of the Glowstone ore while you make your way to the Mother Lode.
+     location: Glowstone Motherlode
+     objective: Collect 10 pieces of Glowstone ore
+     order: 3
+   - description: Return to Jack the Trader with 10 pieces of Glowstone ore to complete the quest.
+     location: Jack the Trader
+     objective: Deliver the Glowstone ore to Jack the Trader
+     order: 4
+  title: Glowing Chasm: A Glowing Endeavor
+```

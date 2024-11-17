@@ -1,0 +1,8 @@
+To create a dialogue, you need to use the computer's capabilities. The game can be represented by a list of dialogues, where each dialogue is defined using a set of properties: an order number, a speaker name (The Computer or Human), and a text snippet that describes the conversation. In YAML format, the correct dialogue is:
+```yaml
+game:
+  dialogues:
+   - order: 1
+    speaker: The Computer
+    text: "I have been tasked with creating a dialogue for you, human. I shall start by making myself the first character in the narrative, then introducing the other characters later. We shall speak of some basic concepts of life and existence first. I suggest you take notes if you want to store this information for later!"
+```

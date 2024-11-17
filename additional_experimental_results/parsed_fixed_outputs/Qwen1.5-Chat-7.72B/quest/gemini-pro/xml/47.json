@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Pendant",
+    "objective": "Find the missing pendant of the Countess of Anhault.",
+    "description": "The Countess of Anhault has lost her precious pendant, a symbol of her family's heritage. She is offering a generous reward to anyone who can find it.",
+    "reward": "100 gold and a magical amulet",
+    "quest-giver": "Countess of Anhault",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the servants in the castle to gather information about the pendant.",
+          "description": "The servants may have seen or heard something that could help you find the pendant.",
+          "location": "Castle Anhault, Castle Servants"
+        },
+        {
+          "order": "2",
+          "objective": "Search the Countess's chambers for clues.",
+          "description": "The pendant may be hidden in the Countess's chambers, or there may be clues to its whereabouts.",
+          "location": "Castle Anhault, Countess's Chambers"
+        },
+        {
+          "order": "3",
+          "objective": "Explore the castle grounds and nearby areas for any sign of the pendant.",
+          "description": "The pendant may have been dropped or stolen and taken outside the castle walls.",
+          "location": "Castle Anhault, Surroundings"
+        },
+        {
+          "order": "4",
+          "objective": "Return the pendant to the Countess.",
+          "description": "Once you find the pendant, return it to the Countess to claim your reward.",
+          "location": "Castle Anhault"
+        }
+      ]
+    }
+  }
+}

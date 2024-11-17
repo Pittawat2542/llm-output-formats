@@ -1,0 +1,43 @@
+Game:
+  character:
+    age: 18
+    background: The character is a high school student.
+    first_name: John
+    id: 1
+    last_name: Smith
+    physical_appearance:
+     - eye_color: blue
+      hair_color: black
+      height: 6 ft
+      weight: 145 lbs
+    place_of_birth: Chicago
+    role: student
+    species: human
+    appearance_description: The character's physical appearance includes:
+      * Blue eyes
+      * Black hair
+      * Height of 6 feet
+      * Weight of 145 pounds
+
+```yaml
+game:
+  character:
+    age: 18
+    background: The character is a high school student.
+    first_name: John
+    id: 1
+    last_name: Smith
+    physical_appearance:
+     - eye_color: blue
+      hair_color: black
+      height: 6 ft
+      weight: 145 lbs
+    place_of_birth: Chicago
+    role: student
+    species: human
+    appearance_description:
+      - Blue eyes
+      - Black hair
+      - Height of 6 feet
+      - Weight of 145 pounds
+```

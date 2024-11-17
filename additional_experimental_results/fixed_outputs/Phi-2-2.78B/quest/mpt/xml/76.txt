@@ -1,0 +1,31 @@
+<game>
+  <id>1</id>
+  <title>quest title</title>
+  <objective>quest objective</objective>
+  <description>quest description</description>
+  <reward>quest reward</reward>
+  <quest-giver>quest giver</quest-giver>
+  <tasks>
+	<task>
+		<order>1</order>
+		<objective>complete the quest</objective>
+		<description>Find the key to unlock the door and reach the next level</description>
+		<location>behind the bookshelf</location>
+	</task>
+
+ 	<task>
+		<order>2</order>
+		<objective>solve the puzzle</objective>
+		<description>Solve a math problem to open the door and continue on your quest.</description>
+		<location>in the library</location>
+	</task>
+
+ 	<task>
+  	    <order>3</order>
+  	    <objective>find the key to unlock the door</objective>
+  	    <description>Locate the hidden key and use it to unlock the door to the next level.</description>
+  	    <location>in the library</location>
+  	</task>
+
+   </tasks>
+</game>

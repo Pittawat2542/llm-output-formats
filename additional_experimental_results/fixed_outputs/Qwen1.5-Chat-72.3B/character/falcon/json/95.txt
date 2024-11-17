@@ -1,0 +1,24 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "humanoid",
+            "age": 35,
+            "role": "role of the character",
+            "background": "background story",
+            "place_of_birth": "location",
+            "physical_appearance": [
+                {
+                    "eye_color": "eye color",
+                    "hair_color": "hair color",
+                    "height": 1.8,
+                    "weight": 120
+                }
+            ]
+        }
+    }
+}
+```

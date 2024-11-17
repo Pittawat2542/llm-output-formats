@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<game>
+    <dialogues>
+        <dialogue order="dialogue 1">
+            <speaker>Speaker 1</speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+        <dialogue order="dialogue 2">
+            <speaker>Speaker 2</speaker>
+            <text>Narration 1</text>
+        </dialogue>
+    </dialogues>
+</game>
+
+### Example output in XML format and Markdown code block
+```xml
+<game>
+    <dialogues>
+        <dialogue order="dialogue 1">
+            <speaker>Speaker 1</speaker>
+            <text>Dialogue 1</text>
+        </dialogue>
+        <dialogue order="dialogue 2">
+            <speaker>Speaker 2</speaker>
+            <text>Narration 1</text>
+        </dialogue>
+    </dialogues>
+</game>
+
+```

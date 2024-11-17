@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<game>
+	<title>The Dragon's Curse</title>
+	<synopsis>A brave knight named Sir Reginald sets out on a quest to save the kingdom from the evil dragon that has haunted it for centuries. With his trusty sword, armor, and unwavering determination, Sir Reginald embarks on a perilous journey through treacherous forests, dark dungeons, and ancient ruins. Along the way, he will encounter fascinating characters, solve challenging puzzles, and face countless enemies.</synopsis>
+	<beginning>The kingdom of Eldoria is in chaos following the dragon's reign of terror. The once-thriving land is now covered in darkness and fear, and the people are plagued by nightmares and despair. The king, desperate to see his kingdom restored, calls upon Sir Reginald to slay the dragon that has been terrorizing them for years. Impressed by his bravery and skill, the king entrusts Sir Reginald with the task of defeating the dragon and restoring peace.</beginning>
+	<ending>After months of arduous battles and near-death experiences, Sir Reginald finally confronts the evil dragon in its lair. With all his strength and courage, he engages in an epic duel. After a fierce battle, Sir Reginald delivers the final blow, slaying the dragon and freeing the kingdom from its grip. As he emerges from the dragon's lair, victorious but weary, the people of Eldoria celebrate their newfound freedom and happiness. The king is overjoyed, and Sir Reginald is hailed as a hero throughout the kingdom, his name forever etched in the pages of history.</endning>
+</game>
+
+## Markdown output
+```xml
+<?xml version="1.0" ?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+	<title>The Dragon's Curse</title>
+	<synopsis>A brave knight named Sir Reginald sets out on a quest to save the kingdom from the evil dragon that has haunted it for centuries. With his trusty sword, armor, and unwavering determination, Sir Reginald embarks on a perilous journey through treacherous forests, dark dungeons, and ancient ruins. Along the way, he will encounter fascinating characters, solve challenging puzzles, and face countless enemies.</synopsis>
+	<beginning>The kingdom of Eldoria is in chaos following the dragon's reign of terror. The once-thriving land is now covered in darkness and fear, and the people are plagued by nightmares and despair. The king, desperate to see his kingdom restored, calls upon Sir Reginald to slay the dragon that has been terrorizing them for years. Impressed by his bravery and skill, the king entrusts Sir Reginald with the task of defeating the dragon and restoring peace.</beginning>
+	<ending>After months of arduous battles and near-death experiences, Sir Reginald finally confronts the evil dragon in its lair. With all his strength and courage, he engages in an epic duel. After a fierce battle, Sir Reginald delivers the final blow, slaying the dragon and freeing the kingdom from its grip. As he emerges from the dragon's lair, victorious but weary, the people of Eldoria celebrate their newfound freedom and happiness. The king is overjoyed, and Sir Reginald is hailed as a hero throughout the kingdom, his name forever etched in the pages of history.</endning>
+</game>
+```

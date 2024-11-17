@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>id1234567890</id>
+        <name>Cataman</name>
+        <description>A majestic cat with razor-sharp claws and lightning-fast speed.</description>
+        <stats>
+            <hp>150</hp>
+            <mp>100</mp>
+            <atk>32</atk>
+            <def>64</def>
+            <spd>70</spd>
+        </stats>
+        <enemies>
+            <enemy id="id1234567890">
+                <name>Catman (Standard)</name>
+                <description>A standard cat with the same stats as the basic one.</description>
+            </enemy>
+            <enemy id="id1234567890">
+                <name>Catman (Fast)</name>
+                <description>A fast version of the Catman, with increased HP and MP.</description>
+            </enemy>
+        </enemies>
+    </enemy>
+</game>
+
+# Examples
+```

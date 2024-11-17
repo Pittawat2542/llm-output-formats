@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "Retrieve the Lost Scrolls",
+    "objective": "Find and retrieve three ancient scrolls hidden within the ruins of the old library.",
+    "description": "The high priest of the temple has sent you on a mission to retrieve three lost scrolls that hold the secrets of their ancient magic. The scrolls are said to be hidden within the ruins of the old library, which lies in ruins after a recent earthquake.",
+    "reward": "Experience points and gold",
+    "quest-giver": "High Priest",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Explore the lower levels of the old library",
+          "description": "Crawl through the dusty corridors, searching for any sign of the scrolls. Be cautious of traps and puzzles that may stand in your way.",
+          "location": "The Old Library (Lower Levels)"
+        },
+        {
+          "order": "2",
+          "objective": "Decipher the ancient language on the first scroll",
+          "description": "Use your knowledge of ancient languages to decipher the cryptic message written on the first scroll. This will reveal a crucial clue that will lead you to the next scroll.",
+          "location": "The Old Library (Reading Room)"
+        },
+        {
+          "order": "3",
+          "objective": "Reward from the high priest for completing the quest",
+          "description": "Return to the temple and meet with the high priest. He will reward you with experience points, gold, and a newfound respect among your peers.",
+          "location": "The Temple of the Ancients"
+        }
+      ]
+    }
+  }
+}

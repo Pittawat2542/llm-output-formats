@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "2",
+    "title": "The Quest for the HiddenTreasure",
+    "objective": "Uncover the ancient artifact",
+    "description": "The quest to find the artifact is a global endeavor. Uncover its whereabouts!",
+    "reward": "100,000 gold coins",
+    "quest-giver": "The Wise Oracle",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Track the Enchanted Map",
+          "description": "Follow the clues in the mysterious map to locate the artifact's location.",
+          "location": "Atlantis, lost in the sea"
+        },
+        {
+          "order": "2",
+          "objective": "Collect the Elemental Orbs",
+          "description": "Acquire all four elemental orbs hidden across various landforms to unlock the next clue.",
+          "location": "Mount Everest, icy heights"
+        }
+      ]
+    }
+  }
+}

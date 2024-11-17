@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>1</id>
+    <title>The Hero's Journey</title>
+    <objective>Defeat the evil dragon and rescue the princess.</objective>
+    <description>You are a young adventurer chosen to save the kingdom from the dragon. Your quest is as follows:</description>
+    <reward>The princess's hand in marriage and the kingdom's gratitude.</reward>
+    <quest-giver>The wise wizard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to the ice-cold cave in the northern forest.</objective>
+            <description>Cave entrance is marked by a tall icicle. Beware of freezing cold and cunning traps.</description>
+            <location>The northern forest, ice-cold cave</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Subdue the dragon using your enchanted sword.</objective>
+            <description>The dragon guards a treasure; prove your worth by defeating it without harming innocent creatures.</description>
+            <location>The dragon's lair, hidden cave within the ice-cave</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective Rescue the princess and bring her to safety.</objective>
+            <description>The dragon has trapped the princess in a magical chamber. Solve its puzzles to reach her.</description>
+            <location>The dragon's lair, magical chamber</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Return to the wise wizard with your triumph.</objective>
+            <description>Deliver the princess to the wizard and claim your well-deserved reward.</description>
+            <location>The wizard's tower, castle gates</location>
+        </task>
+    </tasks>
+</game>
+```

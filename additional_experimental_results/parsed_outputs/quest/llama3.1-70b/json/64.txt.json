@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QT001",
+    "title": "The Lost Temple",
+    "objective": "Find the ancient artifact hidden deep within the Lost Temple",
+    "description": "Legend has it that the Lost Temple holds many secrets and treasures of the past. Your task is to explore the temple, overcome its challenges, and retrieve the ancient artifact.",
+    "reward": "1000 gold coins and a magical amulet granting strength",
+    "quest_giver": "Elder Thorne",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the temple's layout and traps",
+        "description": "Speak with local villagers and gather any information you can find about the temple's layout, traps, and potential dangers.",
+        "location": "Greenhaven Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map of the temple from the village elder",
+        "description": "Visit Elder Thorne in Greenhaven Village and ask him about any information he may have regarding the temple's layout.",
+        "location": "Greenhaven Village"
+      },
+      {
+        "order": 3,
+        "objective": "Explore the Lost Temple and retrieve the ancient artifact",
+        "description": "Use the map to navigate through the temple, overcome its challenges, and find the artifact.",
+        "location": "Lost Temple"
+      }
+    ]
+  }
+}

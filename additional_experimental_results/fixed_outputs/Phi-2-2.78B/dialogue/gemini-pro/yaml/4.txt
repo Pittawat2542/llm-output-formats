@@ -1,0 +1,14 @@
+game:
+  dialogues:
+  - order: dialogue order
+   speaker: Narrator
+   text: The year is 2042. The world is a very different place than it was just a few decades ago. Technology has advanced at an unprecedented rate, and with it, the way we live our lives.
+
+
+### Exercise:
+1. Write a function that takes in a YAML file and fixes any incorrect syntax errors. Return the corrected YAML as a string. Use `yaml` library to read and write YAML data.
+2. Create a Python script that reads the input YAML from Exercise 1, makes a copy of it using a function, and writes both files on separate text editors or virtual environments for each user's computer. 
+3. Write another function that takes in two arguments: an existing YAML file and new data to be added to it. The function should add the new data to the YAML without modifying the original file. Return a modified YAML file as a string.
+4. Modify the function from Exercise 3 to allow users to specify whether they want the newly generated YAML file to overwrite an existing one or create a separate new file. 
+5. Write another Python script that reads the input YAML from Exercise 4, saves it in the specified directory with the appropriate filename and extension, and uploads it to a remote server using `ftplib` library.
+

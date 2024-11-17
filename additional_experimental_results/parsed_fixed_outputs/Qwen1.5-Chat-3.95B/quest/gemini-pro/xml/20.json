@@ -1,0 +1,33 @@
+{
+  "game": {
+    "@xmlns": "http://www.game.com",
+    "id": "id",
+    "title": "Rats in the Cellar",
+    "objective": "Exterminate the rats in the cellar of the abandoned house.",
+    "description": "The local villagers have been complaining about the rats in the cellar of the abandoned house. They have asked you to get rid of them.",
+    "reward": "100 gold pieces",
+    "quest-giver": "Mayor Abigail",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the entrance to the cellar.",
+          "description": "The entrance to the cellar is hidden behind a loose stone in the foundation of the house.",
+          "location": "Abandoned house cellar entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Kill the rats in the cellar.",
+          "description": "There are several rats in the cellar. Be careful, they can be aggressive.",
+          "location": "Abandoned house cellar"
+        },
+        {
+          "order": "3",
+          "objective": "Return to Mayor Abigail and collect your reward.",
+          "description": "Once you have killed all the rats, return to Mayor Abigail to collect your reward.",
+          "location": "Mayor Abigail's house"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+```yaml
+# Enemy battle status section
+
+game:
+  enemy:
+    description: Invasions - the foe has arrived!
+    id: "NPC123"
+    name: "NPC123"
+    stats:
+      atk: 10
+      def: 100
+      hp: 100
+      mp:
+        mp_int_value: mp int value # Rename mp key if needed
+    spd: 1
+```

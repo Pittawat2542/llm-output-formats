@@ -1,0 +1,22 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>first name</first-name>
+		<last-name>last name</last-name>
+		<species>species</species>
+		<age>exact age or description</age>
+		<role>role of the character</role>
+		<background>background story</background>
+		<place-of-birth>location</place-of-birth>
+		<physical-appearance>
+			<eye-color>eye color</eye-color>
+			<hair-color>hair color</hair-color>
+			<height xmlns:xml="http://www.w3.org/XML/1998/namespace">height in float value</height>
+			<weight xmlns:xml="http://www.w3.org/XML/1998/namespace">weight in float value</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+The issue was that the closing `</physical-appearance>` tag had a typo (`<` instead of `/>`). I've added `xmlns:xml="http://www.w3.org/XML/1998/namespace"` to the height and weight elements to resolve the "invalid token" error, even though it is not strictly necessary for well-formed XML. This is because some parsers might require the namespace declaration when parsing attributes without a default namespace.

@@ -1,0 +1,23 @@
+{
+  "game": {
+    "id": "101",
+    "title": "Get Lucky",
+    "objective": "find a lucky 4-leaf clover",
+    "reward": "gold",
+    "quest-giver": "some guy, id=100",
+    "tasks": {
+      "task": [
+        {
+          "order": "2",
+          "objective": "cheat",
+          "description": "some description"
+        },
+        {
+          "order": "1",
+          "objective": "find a 4-leaf clover",
+          "description": "some description"
+        }
+      ]
+    }
+  }
+}

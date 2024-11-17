@@ -1,0 +1,62 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Sword</title>
+	<objective>Find the legendary sword and bring it back to the kingdom</objective>
+	<description>In the ancient kingdom of Aradia, a powerful sword known as the Blade of Destiny has been lost for centuries. It is said that whoever possesses this sword will have the power to defeat any enemy and bring peace to the land. The king has offered a handsome reward to anyone who can find and return the sword to the royal treasure vault.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>King Arion</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Visit the old wise man</objective>
+				壁: 2
+			 Objectives: 3
+			 Location: 4
+			<task>
+				<order>2</order>
+			OBJECTive: Retrieve the 4 elemental crystals</objective>
+			壁: 1
+			 Objectiveives: 1
+			 Location: 3
+			<task>
+				<order>3</order>
+			 OBJECTive: Enter the Forbidden Cave</ objective>
+			壁: 2
+			 Objectiveives: 1
+			 Location: 4
+			<task>
+				<order>4</order>
+			OBJECTive: Retrieve the Blade of Destiny</objective>
+			壁: 1
+			 Objectives: 3
+			 Location: 4
+			</task>
+		</tasks>
+		<title>Quest Title</title>
+	<masthead>
+		<h2>The Lost Sword Quest</h2>
+	</ masthead>
+	<content>
+		<p>The quest title is to find the legendary sword and bring it back to the kingdom.</p>
+		<p>In order to complete this quest, you must visit the old wise man and retrieve the 4 elemental crystals scattered across the kingdom. Each crystal holds immense power and is guarded by powerful guardians. Defeat these guardians and retrieve the crystals.</p>
+		<p>Once you have obtained the crystals, enter the Forbidden Cave and retrieve the lost sword. The sword will be hidden within a treacherous chamber filled with traps. Use your strength to defeat the dragon and claim the legendary sword as your own.</p>
+	</content>
+</game>
+```
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Sword Quest</title>
+	<masthead>
+		<h2>The Lost Sword Quest</h2>
+	</ masthead>
+	<content>
+		<p>The quest title is to find the legendary sword and bring it back to the kingdom.</p>
+		<p>In order to complete this quest, you must visit the old wise man and retrieve the 4 elemental crystals scattered across the kingdom. Each crystal holds immense power and is guarded by powerful guardians. Defeat these guardians and retrieve the crystals.</p>
+		<p>Once you have obtained the crystals, enter the Forbidden Cave and retrieve the lost sword. The sword will be hidden within a treacherous chamber filled with traps. Use your strength to defeat the dragon and claim the legendary sword as your own.</p>
+	</content>
+</game>
+```

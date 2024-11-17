@@ -1,0 +1,38 @@
+```json
+{
+    "game": {
+        "id": "QR001",
+        "title": "The Lost Temple of Eldarath",
+        "objective": "Retrieve the ancient artifact from the Lost Temple of Eldarath",
+        "description": "Legend has it that the Lost Temple of Eldarath holds an ancient artifact with immense power. The temple is said to be hidden deep within the mystical forest, guarded by fearsome creatures and deadly traps.",
+        "reward": "Eldarath's Chalice (grants +10% mana regeneration) and 1000 gold pieces",
+        "quest_giver": "High Priestess Aria",
+        "tasks": [
+            {
+                "order": "1",
+                "objective": "Gather information about the Lost Temple of Eldarath",
+                "description": "Speak to the villagers in Oakwood Village and gather any information they may have about the temple.",
+                "location": "Oakwood Village"
+            },
+            {
+                "order": "2",
+                "objective": "Retrieve the ancient scroll from the village elder",
+                "description": "Meet with the village elder in Oakwood Village and retrieve the ancient scroll that supposedly holds a map to the Lost Temple of Eldarath.",
+                "location": "Village Elder's Hut, Oakwood Village"
+            },
+            {
+                "order": "3",
+                "objective": "Find the entrance to the Lost Temple of Eldarath",
+                "description": "Use the information gathered from the villagers and the map on the ancient scroll to find the entrance to the Lost Temple of Eldarath.",
+                "location": "Mystical Forest"
+            },
+            {
+                "order": "4",
+                "objective": "Retrieve the artifact and escape the temple",
+                "description": "Brave the deadly traps and fearsome creatures within the Lost Temple of Eldarath to retrieve the ancient artifact.",
+                "location": "Lost Temple of Eldarath"
+            }
+        ]
+    }
+}
+```

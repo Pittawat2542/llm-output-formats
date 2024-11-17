@@ -1,0 +1,54 @@
+{
+  "game": {
+    "title": "The game",
+    "synopsis": "The game is about a brave adventurer who sets out to explore a mysterious cave.",
+    "beginning": "The adventurer is equipped with a flashlight, a map, and a sword.",
+    "event": [
+      {
+        "encounter": {
+          "@type": "giant spider",
+          "#text": "The adventurer encounters a giant spider in the cave."
+        },
+        "victory": "The adventurer defeats the spider and continues exploring the cave."
+      },
+      {
+        "defeat": {
+          "@type": "dragon",
+          "#text": "The adventurer uses the magical artifact to defeat the cave's guardian, a dragon."
+        },
+        "victory": "The adventurer returns home with the treasure and the dragon's head as a trophy."
+      }
+    ],
+    "ending": "The adventurer finds a treasure chest and opens it.",
+    "artifact": {
+      "@type": "magical",
+      "#text": "The treasure chest contains a magical artifact that grants the adventurer special powers."
+    },
+    "character.gender": [
+      {
+        "@type": "woman",
+        "#text": "The adventurer is a woman."
+      },
+      {
+        "@type": "man",
+        "#text": "The adventurer is a man."
+      },
+      {
+        "@type": "woman",
+        "#text": "The adventurer is a woman."
+      },
+      {
+        "@type": "man",
+        "#text": "The adventurer is a man."
+      },
+      {
+        "@type": "woman",
+        "#text": "The adventurer is a woman."
+      },
+      {
+        "@type": "man",
+        "#text": "The adventurer is a man."
+      }
+    ]
+  }
+}

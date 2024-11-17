@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Lost City of Eldarath",
+    "objective": "Explore the ancient ruins and uncover the secrets of Eldarath.",
+    "description": "Rumors have been circulating about a hidden city deep within the nearby forest, filled with treasures and artifacts from a long-lost civilization. Your quest is to find this fabled city and unlock its secrets.",
+    "reward": "A chest containing 100 gold pieces and a magical amulet granting resistance to poison.",
+    "quest-giver": "Thorold Ironfist, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the location of Eldarath from the village locals.",
+          "description": "Talk to the villagers and gather any clues or rumors that might lead you to the lost city. Be careful, as some may be reluctant to share their knowledge.",
+          "location": "The village tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve an ancient map from the nearby ruins of a old castle.",
+          "description": "Beware of traps and creatures as you navigate through the crumbling halls. The map is said to be hidden in a chest on the upper floors.",
+          "location": "The old castle ruins, east wing"
+        },
+        {
+          "order": "3",
+          "objective": "Decipher the ancient symbols and markings on the map.",
+          "description": "Study the symbols and markings on the map to uncover the location of Eldarath. This may require some knowledge of ancient languages or cryptic puzzle-solving.",
+          "location": "A quiet, secluded spot with good lighting"
+        },
+        {
+          "order": "4",
+          "objective": "Explore the lost city and uncover its secrets.",
+          "description": "Beware of ancient traps and guardians as you delve deeper into the heart of Eldarath. Uncover the secrets of the city and claim your reward.",
+          "location": "The lost city of Eldarath"
+        }
+      ]
+    }
+  }
+}

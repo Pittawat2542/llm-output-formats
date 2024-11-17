@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q1234</id>
+	<title>Defeat the Dark Sorcerer</title>
+	<objective>Defeat the dark sorcerer Xarath in a battle to save the kingdom.</objective>
+	<description>The dark sorcerer Xarath has taken over the kingdom and it's up to you to defeat him. You'll need to gather information, resources, and allies to aid you in your quest.</description>
+	<reward>1000 gold coins, a magical sword, and the gratitude of the king.</reward>
+	<quest-giver>King Arin</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about Xarath's lair.</objective>
+			<description>Sneak into the local tavern and gather rumors about Xarath's lair. You may find a map or a helpful ally.</description>
+			<location>The Silver Stag Tavern, in the heart of the kingdom.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Obtain a magical potion from the Elven Forest.</objective>
+			<description>Cross into the Elven Forest and retrieve a vial of healing potion. Be wary of the forest's dangers and the Elves' restrictions on outsiders.</description>
+			<location>The Elven Forest, near the ancient tree.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Recruit a brave knight to join your quest.</objective>
+			<description>Visit the local castle and speak with the king's advisor. They may know of a suitable knight who would be willing to aid you in your quest.</description>
+			<location>The Royal Castle, in the heart of the kingdom.</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<game>
+    <enemy id="id1">
+        <name>enemy1</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id2">
+        <name>game2</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id3">
+        <name>game3</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="game1">
+        <name>enemy1</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+</game>
+
+```
+
+
+```
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <enemy id="id1">
+        <name>enemy1</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id2">
+        <name>game2</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id3">
+        <name>game3</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id1">
+        <name>enemy1</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+
+    <enemy id="id2">
+        <name>game1</name>
+        <description>description</description>
+        <stats>
+            <hp>hp int value</hp>
+            <mp>mp int value</mp>
+            <atk>atk int value</atk>
+            <def>def int value</def>
+            <spd>spd int value</spd>
+        </stats>
+    </enemy>
+</game>
+```

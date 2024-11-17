@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the legendary Sword of Light from the dark sorcerer, Malyster.",
+    "id": "Q001",
+    "objective": "Defeat Malyster and claim the Sword of Light.",
+    "quest_giver": "King Arin of Eldrador",
+    "reward": "The Sword of Light, 1000 gold coins, and a blessing from the king.",
+    "tasks": [
+      {
+        "description": "Gather information about Malyster's lair from the villagers of Oakwood.",
+        "location": "Oakwood Village",
+        "objective": "Talk to at least three villagers.",
+        "order": 1
+      },
+      {
+        "description": "Retrieve the magical key to unlock Malyster's lair from the ancient ruins.",
+        "location": "Ancient Ruins of Eldrador",
+        "objective": "Find and claim the magical key.",
+        "order": 2
+      },
+      {
+        "description": "Defeat Malyster and claim the Sword of Light.",
+        "location": "Dark Sorcerer's Lair",
+        "objective": "Engage in combat with Malyster.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Sword of Light"
+  }
+}

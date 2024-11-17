@@ -1,0 +1,29 @@
+Here's the corrected YAML data:
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+    
+order: dialogue order
+ speakers: ["Alice", "Bob"]
+```
+
+### Examples
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: Alice
+    text: "Hello, Bob!"
+```
+
+### Expected output
+```
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: Alice
+    text: "Hello, Bob!"
+```

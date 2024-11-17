@@ -1,0 +1,34 @@
+{
+  "game": {
+    "description": "The village of Oakwood is plagued by a terrible curse that causes the crops to wither and die. The villagers believe it's the work of a mischievous bandit lord who has stolen the magical acorn that once brought fertility to their lands.",
+    "id": "QST001",
+    "objective": "Retrieve the magical acorn from the clutches of the bandit lord, Gorvoth, and return it to the village elder.",
+    "quest_giver": "Village Elder Thorne",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "item": "Amulet of Oakwood (+5% chance to hit)"
+    },
+    "tasks": [
+      {
+        "description": "Speak with Gorvoth's informant, a shady character named Ralthor, who was last seen at the local tavern.",
+        "location": "The Drunken Stag Inn",
+        "objective": "Gather information about Gorvoth's hideout.",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate Gorvoth's hideout and steal the magical acorn without getting caught.",
+        "location": "Gorvoth's Hideout (Old Windmill on the outskirts of Oakwood)",
+        "objective": "Retrieve the magical acorn.",
+        "order": 2
+      },
+      {
+        "description": "Return the magical acorn to Village Elder Thorne and claim your reward.",
+        "location": "Village Elder's Hut",
+        "objective": "Complete the quest.",
+        "order": 3
+      }
+    ],
+    "title": "The Missing Acorn of Oakwood"
+  }
+}

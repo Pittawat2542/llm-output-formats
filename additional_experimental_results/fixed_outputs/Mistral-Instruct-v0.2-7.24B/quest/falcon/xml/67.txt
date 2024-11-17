@@ -1,0 +1,20 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1234</id>
+	<title>Quest Title</title>
+	<objective>Complete the quest</objective>
+	<description>I will test your mettle. Good luck!</description>
+	<reward>XML rewards</reward>
+	<quest-giver>NPC Name</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Kill 5 goblins</objective>
+			<description>Goblins are a common threat around here. Please eliminate them.</description>
+			<location>Forest of Goblinville</location>
+		</task>
+	</tasks>
+</game>
+```

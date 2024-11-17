@@ -1,0 +1,20 @@
+ YAML data error. Incorrect syntax and values. Here is the corrected YAML code:
+```yaml
+game:
+ title: quest title
+ description: quest description
+ object: quest objective
+ order: 1
+ reward: quest reward
+ id: quest id
+ quest_giver: quest giver
+ game_time: 10
+ tasks:
+ - description: task description
+   location: task location
+   objective: task objective
+   order: 1
+ game_time: 10
+ extra_data: 
+   another_key: another_value
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Retrieve the legendary Sword of Light from the depths of the Dragon's Spine mountains.
+  id: QST001
+  objective: Bring the Sword of Light back to the village elder.
+  quest_giver: Village Elder Thorne
+  reward: 1000 gold pieces, increased reputation with the villagers
+  tasks:
+  - description: Venture into the Dragon's Spine mountains and locate the ancient ruins where the sword is said to be hidden.
+    location: Dragon's Spine Mountains, Ancient Ruins
+    objective: Find the entrance to the ancient ruins.
+    order: 1
+  - description: Navigate through the treacherous tunnels and avoid deadly traps set by the ancient civilization.
+    location: Ancient Ruins, Tunnels
+    objective: Reach the inner sanctum where the sword is kept.
+    order: 2
+  - description: Defeat the powerful dragon guarding the Sword of Light.
+    location: Ancient Ruins, Inner Sanctum
+    objective: Obtain the Sword of Light.
+    order: 3
+  title: The Quest for the Sword of Light
+```

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City</title>
+	<objective>Discover the ancient city of Zerzura</objective>
+	<description>Rumors have been circulating about a hidden city deep in the desert, filled with treasures and artifacts from a long-lost civilization. The local villagers have provided you with a cryptic map that they claim will lead you to this fabled place.</description>
+	<reward>500 gold pieces, ancient scrolls containing forgotten knowledge</reward>
+	<quest-giver>Aziz, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather supplies from the local market</objective>
+			<description>Purchase a map, compass, and enough food and water for a 3-day journey.</description>
+			<location>Village Market</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the treacherous desert terrain</objective>
+			<description>Follow the map to reach the first landmark, a peculiar rock formation known as the "Giant's Fist". Be cautious of sandstorms and deadly creatures.</description>
+			<location>Desert Terrain</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Decipher ancient hieroglyphics to unlock the city entrance</objective>
+			<description>Use your knowledge of ancient languages to decipher the symbols etched into the stone doors. This will grant you access to the hidden city.</description>
+			<location>Entrance to Zerzura</location>
+		</task>
+	</tasks>
+</game>
+```

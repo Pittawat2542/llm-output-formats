@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "\u4f20\u95fb\u5728\u9065\u8fdc\u7684\u9057\u8ff9\u4e2d\u57cb\u85cf\u7740\u4e00\u4ef6\u53e4\u4ee3\u795e\u5668\uff0c\u4f60\u7684\u4efb\u52a1\u662f\u627e\u5230\u5b83\u5e76\u5e26\u56de\u3002",
+    "reward": "1000 gold coins and a legendary sword",
+    "quest-giver": "Gilbert the Historian",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the ruins",
+          "description": "Talk to the village elder for information about the ruins' location.",
+          "location": "Village Center"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the ruins safely",
+          "description": "Bypass the traps and guards to enter the heart of the ruins.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Find the artifact",
+          "description": "Search the inner sanctum for the ancient artifact.",
+          "location": "Sanctum of the Ancients"
+        }
+      ]
+    }
+  }
+}

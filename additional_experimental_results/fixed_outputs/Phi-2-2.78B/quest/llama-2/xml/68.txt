@@ -1,0 +1,10 @@
+1. Question: What is the difference between `os.system()` and `os.popen()` in Python?
+   Answer: The main difference between `os.system()` and `os.popen()` in Python is that `os.system()` runs system commands as a shell script and returns their output, whereas `os.popen()` opens a file descriptor of the standard input, standard output and error streams and executes the specified command with them.
+2. Question: How do you create a new directory using Python?
+   Answer: You can use the `os.mkdir()` function to create a new directory in Python. It takes one argument which is the path of the directory you want to create.
+3. Question: How do you rename a file using Python?
+   Answer: You can use the `os.rename()` function to rename a file in Python. It takes two arguments - the current name of the file and the new name of the file.
+4. Question: What is the difference between `open()` and `with open()` in Python?
+   Answer: The main difference between `open()` and `with open()` in Python is that the latter automatically closes the file when we are done with it, whereas the former requires us to explicitly close the file using `file.close()`. Using `with open()` makes our code cleaner and more readable as we don't have to worry about closing the file manually.
+5. Question: How do you check if a directory exists in Python?
+   Answer: You can use the `os.path.exists()` function to check if a directory exists in Python. It takes one argument which is the path of the directory you want to check for existence. The function returns True if the directory exists and False otherwise.

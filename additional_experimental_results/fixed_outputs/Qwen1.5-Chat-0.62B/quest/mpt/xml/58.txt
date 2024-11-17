@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	objective>Quest Objective</objective>
+	description>Quest Description</description>
+	 reward>Quest Reward</reward>
+	quest-giver>Quest Giver</quest-giver>
+	<ul>
+		<li><order><order><source><name>Quest</name></source><destination><location>Quest Location</location></destination></order></list>
+		<li><objective><name>Quest Objective</name></objective><description><source><name>Quest</name></source><destination><location>Quest Location</location></destination></description></objectives></li>
+	</ul>
+</game>
+```
+Output in Markdown code block:
+```html
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective>Quest Objective</Objective>
+	 Description>Quest Description</Description>
+	 Reward>Quest Reward</ reward>
+	 Quest-giver>Quest Giver</Quest-giver>
+	<ul>
+		<li><order><order><source><name>Quest</name></source><destination><location>Quest Location</location></destination></order></list>
+		<li><objective><name>Quest Objective</name></objective><description><source><name>Quest</name></source><destination><location>Quest Location</location></destination></description></objectives></li>
+	</ul>
+</game>
+```
+XML data corrected and updated.

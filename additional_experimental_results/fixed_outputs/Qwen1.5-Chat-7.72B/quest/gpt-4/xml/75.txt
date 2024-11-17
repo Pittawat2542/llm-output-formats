@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>The Mysterious Relic Quest</title>
+    <objective>Uncover the relic and deliver it to the local temple</objective>
+    <description>Embark on a quest to find a mysterious relic that holds great spiritual significance. The artifact is believed to be hidden in the ruins of an ancient temple, guarded by traps and mysteries. Your courage will be tested.</description>
+    <reward>500 Gold Bars and Arcane Amulet</reward>
+    <quest-giver>The Council of Seers</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the temple's entrance</objective>
+            <description>Speak with the local historian to learn about the temple's location and possible entry points.</description>
+            <location>Local History Museum</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Enter the temple and find the artifact</objective>
+            <descriptionNavigate the temple's ruins, solve puzzles, and overcome its obstacles to locate the relic.</description>
+            <locationRuinsOfAntiquity</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost Artifact",
+    "objective": "Retrieve the lost artifact of Eldora",
+    "description": "Embark on an epic journey to retrieve the lost artifact of Eldora, hidden deep within the Forest of Shadows. You have been chosen by Greyson, the village elder, to bring back the artifact and restore peace in your village.",
+    "reward": "5000 gold and 'Eldora's Blessing' amulet",
+    "quest-giver": "Greyson, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the hidden map to Eldora artifact",
+          "description": "The hidden map is said to be buried with the old queen in the Royal Cemetery. Retrieve it.",
+          "location": "Royal Cemetery"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the guardian of the Forest",
+          "description": "At the Forest of Shadows Entrance, overcome a monstrous guardian to proceed.",
+          "location": "Forest of Shadows Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Locate and retrieve the artifact",
+          "description": "Navigate through the forest using the map and avoid unexpected challenges at Heart of the Forest of Shadows.",
+          "location": "Heart of the Forest of Shadows"
+        }
+      ]
+    }
+  }
+}

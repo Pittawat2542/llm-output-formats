@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Rats in the Cellar</title>
+	<objective>Exterminate the rats in the cellar of the abandoned house.</objective>
+	<description>The local villagers have been complaining about the rats in the cellar of the abandoned house. They have asked you to get rid of them.</description>
+	<reward>100 gold pieces</reward>
+	<quest-giver>Mayor Abigail</quest-giver>
+	<tasks>
+			<trial>
+				<order>1</order>
+				<objective>Find the entrance to the cellar.</objective>
+				<description>The entrance to the cellar is hidden behind a loose stone in the foundation of the house.</description>
+			<location>Abandoned house cellar entrance</location>
+			</trial>
+			<trial>
+				<order>2</order>
+				<objective>Kill the rats in the cellar.</objective>
+				<description>There are several rats in the cellar. Be careful, they can be aggressive.</description>
+			<location>Abandoned house cellar</location>
+			</trial>
+			<trial>
+				<order>3</order>
+				<objective>Collect your reward from Mayor Abigail.</objective>
+				<description>Once you have killed all the rats, return to Mayor Abigail and collect your reward.</description>
+			<location>Mayor Abigail's house</location>
+			</trial>
+	</tasks>
+</game>
+
+```
+The XML data has been fixed with the following changes:
+1. The value for key_completeness in the `<game>` element has been corrected to "Exterminate the rats in the cellar of the abandoned house."
+2. A new `<trial>` element has been added under `<task>` to represent each task in the quest.
+3. The locations of the tasks have been updated to match their respective descriptions.
+4. The reward for completing all three trials is now "100 gold pieces."

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q01</id>
+	<title>The Lost City</title>
+	<objective>Find the lost city and retrieve the ancient artifacts.</objective>
+	<description>A group of explorers has gone missing while searching for a lost city deep in the jungle. Their leader, a renowned archaeologist, has sent word that they have found an ancient temple but need assistance retrieving the artifacts within.</description>
+	<reward>10,000 gold pieces and a magical amulet</reward>
+	<quest-giver>Archaeologist Sophia Patel</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the jungle temple and speak with the expedition leader.</objective>
+			<description>You must navigate through the dense jungle to reach the ancient temple. Once there, meet with the expedition leader to gather information about the missing explorers and the location of the artifacts.</description>
+			<location>The Jungle Temple</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve an ancient artifact from the temple's inner chamber.</objective>
+			<description>Climb through the temple's inner chamber to reach a pedestal holding the ancient artifact. However, beware of the deadly traps set by the long-lost civilization that once inhabited this place.</description>
+			<location>The Inner Chamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Meet with the expedition leader at the designated location and hand over the artifact.</objective>
+			<description>Return to the designated meeting point outside the temple and present the retrieved artifact to the expedition leader. They will be grateful for your assistance, and you'll receive your reward.</description>
+			<location>The Meeting Point</location>
+		</task>
+	</tasks>
+</game>
+```

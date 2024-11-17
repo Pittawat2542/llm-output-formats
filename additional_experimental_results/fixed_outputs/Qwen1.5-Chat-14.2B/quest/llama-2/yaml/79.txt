@@ -1,0 +1,17 @@
+The issue with the provided YAML data is that there are no indentation levels for the `tasks` list items, which is required in YAML. Here's the corrected YAML:
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+```
+I've added four spaces before each `-` to indicate that these items are nested within the `tasks` key. Now it's valid YAML syntax.

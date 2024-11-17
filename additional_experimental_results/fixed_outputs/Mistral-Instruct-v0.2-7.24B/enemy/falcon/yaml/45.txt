@@ -1,0 +1,22 @@
+
+```yaml
+game:
+  enemy:
+    id: id
+    name: name
+    stats:
+      atk: atk_int_value
+      def: def_int_value
+      hp: hp_int_value
+      mp: mp_int_value
+      spd: spd_int_value
+      statset:
+        -
+          type: spell_set
+          list:
+            - spell1
+            - spell2
+            - spell3
+        mana:
+          default: 10000
+```

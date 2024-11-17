@@ -1,0 +1,44 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>Ancient Artifact</title>
+	<objective>Find the ancient artifact</objective>
+	<description>In a world of magic and mystery, an ancient artifact has been lost. As the chosen one, you must embark on a quest to find it and restore peace to the realm.</description>
+	<reward>1000 gold coins, a magical amulet, and the respect of your people</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Consult the Oracle</objective>
+			<description>Visit the wise Oracle to gain insight into the whereabouts of the ancient artifact.</description>
+			<location>The Oracle's Cave</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the Map of Legends</objective>
+			<description>Journey deep into the Forbidden Forest to retrieve the ancient Map of Legends, which holds the key to finding the artifact.</description>
+			<location>Forbidden Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Seek the Temple of Destiny</objective>
+			<description>Follow the clues on the map to find the hidden Temple of Destiny, where the artifact is said to be located.</description>
+			<location>Unknown lands</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Defeat the Guardian Beast</objective>
+			<description>Battle the mighty Guardian Beast that protects the artifact and prove your worth.</description>
+			<location>Temple of Destiny</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Recover the Ancient Artifact</objective>
+			<description>Finally, retrieve the ancient artifact and bring it back to King Arthur to complete the quest.</description>
+			<location>Temple of Destiny</location>
+		</task>
+	</tasks>
+</game>
+```

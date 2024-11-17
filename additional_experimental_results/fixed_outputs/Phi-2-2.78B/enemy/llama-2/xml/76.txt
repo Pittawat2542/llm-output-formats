@@ -1,0 +1,23 @@
+
+#### Error message:
+There is a syntax error on line 16, column 0 of the following XML data: incorrect_syntax: not well-formed (invalid token).
+
+Error code: -1
+
+```xml
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+
+

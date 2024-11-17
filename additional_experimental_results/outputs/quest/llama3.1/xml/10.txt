@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>Q001</id>
+    <title>The Lost Temple</title>
+    <objective>Retrieve the ancient relic from the lost temple.</objective>
+    <description>The temple is hidden deep in the jungle, and you need to navigate through treacherous paths and avoid deadly traps to reach the treasure chamber.</description>
+    <reward>100 gold coins and a magical amulet</reward>
+    <quest-giver>Gorvoth, the village elder</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the entrance to the lost temple</objective>
+            <description>The entrance is hidden behind a waterfall. Look for a small cave behind the falling water.</description>
+            <location>Jungle, near the river</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Navigate through the deadly traps in the temple</objective>
+            <description>The traps are triggered by pressure plates and laser beams. Use your wits to disable them without getting caught.</description>
+            <location>Temple, hallway of traps</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Retrieve the ancient relic from the treasure chamber</objective>
+            <description>The relic is inside a pedestal surrounded by laser beams. Use your magic to disable the beams and retrieve the relic.</description>
+            <location>Temple, treasure chamber</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,28 @@
+
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello, I would like to play a game.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>AI</speaker>
+			<text>Sure, which game would you like to play?</text>
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>Let's play chess.</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>AI</speaker>
+			<text>Okay, let's begin the game of chess.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

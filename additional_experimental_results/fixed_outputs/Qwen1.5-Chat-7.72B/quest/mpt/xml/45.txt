@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Replace Quest Objective with a new one</objective>
+    <description>A New Quest Description</description>
+    <reward>Gold Bar</reward>
+    <quest-giver><![CDATA[King Arthur]]></quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Hunt</objective>
+            <description>Follow the trail to the nearby forest</description>
+            <location>Greenwood Forest</location>
+        </task>
+    </tasks>
+</game>
+```

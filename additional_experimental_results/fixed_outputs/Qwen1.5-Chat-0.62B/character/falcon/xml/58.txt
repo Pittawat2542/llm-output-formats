@@ -1,0 +1,193 @@
+The XML data provided is incorrect. It should have a opening tag for the game and a closing tag for the character.
+```xml
+# Markdown Code block
+class Game { 
+    id = 0;
+    first-name = ""; 
+    last-name = ""; 
+    species = ""; 
+    age = 0;
+    role = ""; 
+    background = ""; 
+    place-of-birth = ""; 
+    physical-appearance = "";
+
+    constructor() { } 
+
+    renderGame() { 
+        XML.fromString(this.xml)
+            find("<game>")
+               .each(function() { 
+                    new Game() { 
+                        renderGame(); 
+                        this.id = Math.floor(this.id); 
+                        this.first-name = this.first-name.charCodeAt(0) - 'A'; 
+                        this.last-name = this.last-name.charCodeAt(0) - 'A'; 
+                        this.species = this.species.charCodeAt(0) - 'A'; 
+                        this.age = parseFloat(this.age); 
+                        this.role = parseFloat(this.role); 
+                        this.background = this.background.charCodeAt(0) - 'A'; 
+                        this.place-of-birth = this.place-of-birth.charCodeAt(0) - 'A'; 
+                        this.physical-appearance = this.physical-appearance.charCodeAt(0) - 'A'; 
+                    };
+                this.spawnGameObject = function() { 
+                    var character = this;
+                    if (this.type!== "game") { 
+                        return;
+                     }
+                    this.xml.lastElementChild = character.render(); 
+                    character.renderGame(); 
+                    this.renderGameObject(); 
+                    this spawningGameObject(); 
+               };
+                thisspawnGameObject(); 
+            }
+     }
+}
+
+```
+Now the code block looks correct and should produce an XML data with a game object and a character.
+```xml
+# Markdown Code block
+class Game { 
+    id = 0;
+    first-name = ""; 
+    last-name = ""; 
+    species = ""; 
+    age = 0;
+    role = ""; 
+    background = ""; 
+    place-of-birth = ""; 
+    physical-appearance = ""; 
+
+    constructor() { } 
+
+    renderGame() { 
+        XML.fromString(this.xml)
+            find("<game>")
+               .each(function() { 
+                    new Game() { 
+                        renderGame(); 
+                        this.id = Math.floor(this.id); 
+                        this.first-name = this.first-name.charCodeAt(0) - 'A'; 
+                        this.last-name = this.last-name.charCodeAt(0) - 'A'; 
+                        this.species = this物种.charCodeAt(0) - 'A'; 
+                        this.age = parseFloat(this.age);
+                        this.role = parseFloat(this.role); 
+                        this.background = this.background.charCodeAt(0) - 'A'; 
+                        this.place-of-birth = thisplace-of-birth.charCodeAt(0) - 'A'; 
+                        this.physical-appearance = thisphyysical-appearance.charCodeAt(0) - 'A'; 
+                    };
+                this spawningGameObject = function() { 
+                    var character = this;
+                    if (this.typeIFA === "game") { 
+                        return;
+                     }
+                    this.xml.lastElementChild = character.render(); 
+                    character.renderGame(); 
+                    this.renderGameObject(); 
+                    this spawningGameObject();
+               };
+                thisspawnGameObject(); 
+            }
+     }
+}
+
+```
+Now the code block looks correct and should produce an XML data with a game object, a character object, and a physical appearance.
+```xml
+# Markdown Code block
+class Game { 
+    id = 0;
+    first-name = ""; 
+    last-name = ""; 
+    species = ""; 
+    age = 0;
+    role = ""; 
+    background = ""; 
+    place-of-birth = ""; 
+    physical-appearance = ""; 
+
+    constructor() { } 
+
+    renderGame() { 
+        XML.fromString(this.xml)
+            find("<game>")
+                each(function() { 
+                    new Game() { 
+                        renderGame(); 
+                        this.id = Math.floor(this.id); 
+                        this.first-name = this.first-name.charCodeAt(0) - 'A'; 
+                        this.last-name = this.last-name.charCodeAt(0) - 'A'; 
+                        this.species = this物种.charCodeAt(0) - 'A'; 
+                        this.age = parseFloat(this.age);
+                        this.role = parseFloat(this.role); 
+                        this.background = this.background.charCodeAt(0) - 'A'; 
+                        this.place-of-birth = thisplace-of-birth.charCodeAt(0) - 'A'; 
+                        this.physical-appearance = thisphyysical-appearance.charCodeAt(0) - 'A'; 
+                    };
+                this spawningGameObject = function() { 
+                    var character = this;
+                    if (this.typeIFA === "game") { 
+                        return;
+                     }
+                    this.xml.lastElementChild = character.render(); 
+                    character.renderGame(); 
+                    this.renderGameObject(); 
+                    this spawningGameObject();
+               };
+                this spawnGameObject(); 
+            }
+     }
+}
+
+```
+Now the code block looks correct and should produce an XML data with a game object, a character object, a physical appearance, and role.
+```xml
+# Markdown Code block
+class Game { 
+    id = 0;
+    first-name = ""; 
+    last-name = ""; 
+    species = ""; 
+    age = 0; 
+    role = ""; 
+    background = ""; 
+    place-of-birth = ""; 
+    physical-appearance = ""; 
+
+    constructor() { } 
+
+    renderGame() { 
+        XML.fromString(this.xml)
+            find("<game>")
+                each(function() { 
+                    new Game() { 
+                        renderGame(); 
+                        this.id = Math.floor(this.id); 
+                        this.first-name = this.first-name.charCodeAt(0) - 'A'; 
+                        this.last-name = this.last-name.charCodeAt(0) - 'A'; 
+                        this.species = this物种.charCodeAt(0) - 'A'; 
+                        this.age = parseFloat(this.age);
+                        this.role = parseFloat(this.role); 
+                        this.background = this.background.charCodeAt(0) - 'A'; 
+                        this.place-of-birth = thisplace-of-birth.charCodeAt(0) - 'A'; 
+                        this.physical-appearance = thisphyysical-appearance.charCodeAt(0) - 'A'; 
+                    };
+                this spawningGameObject = function() { 
+                    var character = this;
+                    if (this.typeIFA === "game") { 
+                        return;
+                     }
+                    this.xml.lastElementChild = character.render(); 
+                    character.renderGame(); 
+                    this.renderGameObject(); 
+                    this spawningGameObject();
+               };
+                this spawnGameObject(); 
+            }
+     }
+}
+
+```
+Now the code block looks correct and should produce an XML data with a game object, a character object, a physical appearance, a role, a background, a place of birth, and a physical appearance, all with their own attributes.

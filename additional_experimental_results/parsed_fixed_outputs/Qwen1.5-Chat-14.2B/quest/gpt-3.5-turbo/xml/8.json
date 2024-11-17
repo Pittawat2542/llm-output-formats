@@ -1,0 +1,50 @@
+{
+  "game": {
+    "id": "1234",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure and return it to the treasure hunter.",
+    "description": "In the vast jungle, there hides a legendary treasure that has been sought after for centuries. You have been chosen to embark on a quest to find this treasure and return it to the treasure hunter who has dedicated his life to uncovering its secrets.",
+    "reward": "Ancient artifacts and a share of the treasure's value.",
+    "quest-giver": "Captain Benjamin",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Meet the treasure hunter",
+          "description": "Visit the treasure hunter's camp located at the edge of the jungle.",
+          "location": "Treasure Hunter's Camp"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the map",
+          "description": "Find the hidden cave and retrieve the map that leads to the lost treasure.",
+          "location": "Hidden Cave"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate the jungle",
+          "description": "Navigate through the dense jungle and overcome obstacles to reach the secret temple.",
+          "location": "Jungle"
+        },
+        {
+          "order": "4",
+          "objective": "Uncover the secret temple",
+          "description": "Discover the entrance to the secret temple and solve its riddles and puzzles to progress further.",
+          "location": "Secret Temple"
+        },
+        {
+          "order": "5",
+          "objective": "Find the lost treasure",
+          "description": "Search the chambers of the secret temple to find the lost treasure hidden within.",
+          "location": "Secret Temple"
+        },
+        {
+          "order": "6",
+          "objective": "Return the treasure to the quest-giver",
+          "description": "Return to the treasure hunter and hand over the found treasure.",
+          "location": "Treasure Hunter's Camp"
+        }
+      ]
+    }
+  }
+}

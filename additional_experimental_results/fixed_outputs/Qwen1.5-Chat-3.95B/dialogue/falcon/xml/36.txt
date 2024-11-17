@@ -1,0 +1,13 @@
+XML has been reformatted and the correct data is provided. It should be returned in XML format as follows:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<dialogues>
+		<dialogue name="MarkdownDialogue">
+			<order>Dialogue Markdown order</order>
+			<speaker><text>MarkdownDialogue or narration</text></speaker></Speaker>
+			<text><text text="</text></text></text></text>
+	</dialogue>
+	<dialogue name="MarkdownDialogue"><order>Dialogue Markdown order</order><speaker><text>MarkdownDialogue or narration</text></speaker></Speaker><text><text text="</text></text></text></text></text></text></dialogue>
+</game>
+```

@@ -1,0 +1,28 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Quest for Adventure",
+    "objective": "Find the hidden treasure",
+    "description": "A thrilling quest to uncover secrets",
+    "reward": "Gold coins and a mysterious artifact",
+    "quest-giver": "\u82f1\u52c7\u7684 Knight Sir Lancelot",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "order": "1",
+          "objective": "Deliver the ancient scroll to the wise wizard",
+          "description": "Follow the map at the castle entrance",
+          "location": "Castle Library"
+        },
+        {
+          "@order": "2",
+          "order": "2",
+          "objective": "Collect 3 magical flowers in the enchanted forest",
+          "description": "Awarded for solving a riddle at the nearby oak tree",
+          "location": "Enchanted Forest"
+        }
+      ]
+    }
+  }
+}

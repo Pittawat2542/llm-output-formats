@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Elusive Shipment",
+    "objective": "Recover the stolen weapons for the local militia.",
+    "description": "A significant arms shipment went missing, and Captain Garrison is seeking your assistance to locate and return it.",
+    "reward": "\ufffd\ufffd\u91d1\u5956\u52b1\u548c\u65b0\u578b\u6b66\u5668\u88c5\u5907\u4e00\u5957",
+    "quest-giver": "Captain Riddley",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to Captain Riddley about the stolen shipment at the militia headquarters.",
+          "description": "Visit Captain Riddley's office and exchange information on the missing weapons.",
+          "location": "Militia Headquarters"
+        },
+        {
+          "order": "2",
+          "objective": "Examine the warehouse for any signs of tampering or clues.",
+          "description": "Head to the warehouse where the shipment was last seen and investigate thoroughly.",
+          "location": "Warehouse District"
+        },
+        {
+          "order": "3",
+          "objective": "Track down the rumored bandits involved in the theft.",
+          "description": "Follow leads and gather evidence before confronting them at their hideout.",
+          "location": "Bandit Camp"
+        },
+        {
+          "order": "4",
+          "objective": "Rescue the stolen shipment from the bandits' lair.",
+          "description": "Once you find and defeat the bandits, retrieve the weapons from their hideout.",
+          "location": "Bandit Hideout"
+        },
+        {
+          "order": "5",
+          "objective": "Return the recovered shipment to Captain Riddley at the militia headquarters.",
+          "description": "Deliver the recovered goods back to their original destination.",
+          "location": "Militia Headquarters"
+        }
+      ]
+    }
+  }
+}

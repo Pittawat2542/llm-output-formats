@@ -1,0 +1,35 @@
+Game:
+  character:
+    age: 18
+    background: a captivating story
+    first_name: John
+    id: 12345
+    last_name: Doe
+    physical_appearance:
+     - eye_color: blue
+      hair_color: brown
+      height: 1.78
+      weight: 72
+    place_of_birth: Earth
+    role: the protagonist
+    species: human
+
+### YAML Output:
+
+```yaml
+game:
+  character:
+    age: 18
+    background: "a captivating story"
+    first_name: John
+    id: 12345
+    last_name: Doe
+    physical_appearance:
+     - eye_color: blue
+      hair_color: brown
+      height: 1.78
+      weight: 72
+    place_of_birth: "Earth"
+    role: "the protagonist"
+    species: "human"
+```

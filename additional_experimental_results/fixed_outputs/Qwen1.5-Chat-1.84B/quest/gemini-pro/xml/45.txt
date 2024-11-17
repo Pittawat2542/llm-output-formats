@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<game>
+    <id>001</id>
+    <title>A Test of Strength</title>
+    <objective>Pearl Challenge</objective>
+    <description>The Pearl Challenge is a test of strength for all who seek to claim the rare and valuable pearl located beneath the mountains.</description>
+    <reward>Pearl, a precious gem that possesses magical powers.</reward>
+    <quest-giver>The King</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Travel to The Pearl's hidden location in the depths of the mountains, where it is said to be guarded by treacherous waters and dangerous creatures.</objective>
+            <description>You must navigate through treacherous waters and avoid deadly creatures to reach the pearl. Once you arrive, face off against the pearl's keepers who will do all in their power to stop you from claiming its magic.</description>
+            <location>The hidden location beneath the mountains</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat The Pearl's keepers and claim your prize.</objective>
+            <description>You must use all of your skills and strength to overcome the keepers who will stop you at any cost. Use your weapons, spells, or other abilities to defeat them and claim the pearl for yourself.</description>
+            <location>The pearl's keepers</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Return to The King with your prize and present him with the Pearl.</objective>
+            <description>You have successfully claimed the Pearl and are now eligible for a reward. The King will bestow upon you the Golden Crown, a powerful artifact that will enhance your abilities and give you access to even more resources and power.</description>
+            <location>The King's palace</location>
+        </task>
+    </tasks>
+</game>

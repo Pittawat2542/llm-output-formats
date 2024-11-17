@@ -1,0 +1,32 @@
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the lost treasure of Captain Jack Sparrow.</objective>
+	<description>Captain Jack Sparrow's ship was attacked by pirates and his treasure was stolen. He needs you to help him find it.</description>
+	<reward>A share of the treasure.</reward>
+	<quest-giver>Captain Jack Sparrow</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to the dockmaster.</objective>
+			<description>The dockmaster may have information about the pirates who attacked Captain Jack's ship.</description>
+			<location>Tortuga</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Search the pirate lair.</objective>
+			<description>The pirates who attacked Captain Jack's ship may have hidden the treasure in their lair.</description>
+			<location>Skull Island</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the pirate captain.</objective>
+			<description>The pirate captain may have the key to the treasure chest.</description>
+			<location>Pirate Ship</location>
+		</task>
+	</tasks>
+</game>
+```

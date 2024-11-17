@@ -1,0 +1,28 @@
+Here is the corrected XML with new values added where necessary:
+
+```xml
+<game>
+    <id>1234567890</id>
+    <title>The Great Adventure</title>
+    <objective>Complete the Temple of Wisdom</objective>
+    <description>Save the ancient artifact and defeat the evil sorcerer</description>
+    <reward>Gold, experience points, and a magical amulet</reward>
+    <quest-giver>Old浑沌老人</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the hidden entrance to the temple</objective>
+            <description>Search for clues in the nearby forest</description>
+            <location>East Forest, near the old oak tree</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Defeat the goblin guarding the entrance</objective>
+            <description>Be careful; they attack in groups</description>
+            <location>Goblin Hollow, by the crossroads</location>
+        </task>
+        <!-- More tasks added as needed -->
+    </tasks>
+</game>
+```
+Please replace `1234567890` with a unique game ID if you wish to use a different one. If you have less than 22 tasks, feel free to remove or adjust the existing ones accordingly.

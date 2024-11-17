@@ -1,0 +1,28 @@
+ ```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+
+```
+Output (code block):
+```python
+# game.py
+
+from yaml import safe_load, SafeLoader
+
+def fix_yaml():
+    with open("game.yaml", 'r') as f:
+        data = f.read()
+        try:
+            load_data = safe_load(data, Loader=SafeLoader)
+        except YAMLError as e:
+            print("Error:", e.problem)
+        else:
+            return data
+
+
+# Output in code block
+print(fix_yaml())
+```

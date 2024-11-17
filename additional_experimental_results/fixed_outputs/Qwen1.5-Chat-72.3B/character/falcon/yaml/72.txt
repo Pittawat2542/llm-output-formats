@@ -1,0 +1,19 @@
+```yaml
+game:
+  character:
+    - id: 1
+      first_name: 
+      last_name: 
+      age: 20
+      background: grew up in a small town learning about the world and its people, was always a fan of adventures both large and small and dreams of eventually going on one and explore as much of it as she can.
+      physical_appearance:
+        eye_color: 
+        hair_color: 
+        height: 1.75
+        weight: 
+      place_of_birth: 
+      role: 
+      species: 
+```
+
+In the fixed YAML, I've corrected the syntax issues and organized the structure according to the template provided. Note that some values are left empty for you to fill in. The `id` field has been added to identify each character uniquely, and the `physical_appearance` section has been adjusted to use a single mapping instead of separate items. Height is represented as a float value (in meters) as requested in the template.

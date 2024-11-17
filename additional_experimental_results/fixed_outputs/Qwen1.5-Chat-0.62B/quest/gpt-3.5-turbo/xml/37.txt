@@ -1,0 +1,63 @@
+The correct XML data is as follows:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>The Lost Treasure</title>
+	 objective>Find the hidden treasure of the ancient kingdom. Solve puzzles, face challenges, and overcome obstacles to discover the valuable treasure that has been hidden for centuries.</objective>
+	reward>Ancient artifact and a bag of gold coins
+	quest-giver>Captain Morgan
+	tasks:
+	<task>
+			<order>1</order>
+		 Objective: Locate the first clue
+			<objective>Locate the first key石 tablet</objective>
+			<description>Your journey begins at the old library. Search for a hidden message in an ancient book that will lead you to the next clue.</description>
+			<location>Old Library</location>
+		</task>
+		<task>
+			<order>2</order>
+		 Objective: Decode the riddle
+			<objective>Use your wit to decipher the mysterious riddle inscribed on a stone tablet. The riddle holds the key to unlocking the next clue.</description>
+			经验值: 10
+			location: Ancient Ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+		 Objective: Retrieve the key
+			<objective>: Venture into the treacherous cave and retrieve the key hidden deep within. The key is essential to unlock the final secret location where the treasure awaits.</description>
+		经验值: 12
+			location: Hidden Chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+		 Objective: Discover the hidden chamber
+			<objective>: Follow the clues and navigate through a complex maze to reach the hidden chamber. Inside lies the legendary treasure.</description>
+		经验值: 15
+			location: Hidden Chamber</location>
+		</task>
+		<task>
+			<order>5</order>
+		 Objective: Find the key石 tablet
+			<objective>: Follow the clues and navigate through a complex maze to reach the hidden chamber. Inside lies the legendary treasure.</description>
+		经验值: 20
+			location: Hidden Chamber</location>
+		</task>
+		<task>
+			<order>6</order>
+		 Objective: Find the hidden chamber
+			<objective>: Follow the clues and navigate through a complex maze to reach the hidden chamber. Inside lies the legendary treasure.</description>
+		经验值: 25
+			location: Hidden Chamber</location>
+		</task>
+		<task>
+			<order>7</order>
+		 Objective: Find the hidden chamber
+			<objective>: Follow the clues and navigate through a complex maze to reach the hidden chamber. Inside lies the legendary treasure.</description>
+		经验值: 30
+			location: Hidden Chamber</location>
+		</task>
+		<title>Quest Giver</title>
+		giveee: Captain Morgan
+</game>
+```
+Note that I added the `giveee` parameter in the `quest-giver` task to ensure that the correct `Quest Giver` is selected. Also, I added the `经验值` variable to track the progress of the quest and provide relevant information to the user as they progress through the game.

@@ -1,0 +1,5 @@
+Invalid character #x0081: special characters are not allowed in YAML data. YAML:
+```yaml
+Error: invalid_character_code: unacceptable character #x0081: special characters are not allowed in YAML data. YAML:
+```{% raw YAML %}
+{{ error_message }}

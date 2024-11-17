@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>A mysterious map leads you to an undiscovered ruin deep in the jungle. Your quest is to find the lost artifact and bring it back to the village elder.</description>
+	<reward>100 gold coins and a rare magical item</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the ruins</objective>
+			<description>You must search the jungle for any signs of an ancient civilization.</description>
+			<location>Jungle clearing near the river</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the runes on the entrance door</objective>
+			<description>The door is covered in mysterious runes. Find a way to translate them.</description>
+			<location>Ruins' entrance</location>
+		</task>
+	</tasks>
+</game>
+```

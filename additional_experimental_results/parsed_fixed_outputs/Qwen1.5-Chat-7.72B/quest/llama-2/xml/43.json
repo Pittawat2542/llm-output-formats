@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Example Quest Title",
+    "objective": "Complete the Temple Puzzle",
+    "description": "Follow the clues to find the hidden treasure",
+    "reward": "Gold coins and a rare artifact",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": "Search the forest for the first clue",
+        "description": "Look for a tree with a marking on its trunk",
+        "location": "North East Edge of the Forest"
+      }
+    }
+  }
+}

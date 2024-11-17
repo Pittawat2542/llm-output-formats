@@ -1,0 +1,110 @@
+```python
+# Game Engine Script - Dialogue System
+import yaml
+
+def load_dialogues(filename):
+    """load dialogues from a yaml file and return as list of dictionaries"""
+    with open(filename, 'r') as fh:
+        data = yaml.safe_load(fh)
+
+        if not data:
+            return []
+
+        dialogues = []
+        for dialogue in data:
+            name = dialogue['speaker']
+            text = dialogue['text']
+            options = dialogue.get('options', [])
+
+            dialogue = {'name': name, 'text': text, 'options': options}
+
+            dialogues.append(dialogue)
+
+        return dialogues
+```
+
+### Exercise 1:
+Create a Python script to generate random dialogue options based on user input. Prompt the user for a character's name and then ask them what they want to say (either "Hello" or "Goodbye"). Use the `random` module to select one of five possible responses for each case, such as "Hi there!", "Nice to meet you!", "What brings you here?", "Howdy!", and "Greetings!".
+
+```python
+import random
+
+def generate_dialogue():
+    """Generate a random dialogue response based on user input"""
+
+    name = input("Enter the character's name: ")
+    response = ""
+
+    if input("Say hello? (y/n): ").lower() == 'y':
+        options = ["Hi there!", "Nice to meet you!", "What brings you here?", "Howdy!", "Greetings!"]
+        response = random.choice(options)
+
+    elif input("Say goodbye? (y/n): ").lower() == 'y':
+        options = ["Take care!", "See you later!", "Until next time!", "Goodbye!"]
+        response = random.choice(options)
+
+    return response, name
+```
+
+### Exercise 2:
+Create a Python script to display the dialogue options in a formatted way using string formatting. Use the `format()` method to insert the user's name into the responses.
+
+```python
+def format_dialogue():
+    """Format dialogue options with user name"""
+
+    responses = ["Hi there! How are you?", "Nice to meet you! What can I do for you?"]
+
+    for i, response in enumerate(responses):
+        print("{}. {}".format(i + 1, response.replace("You", "{}'s name")))
+```
+
+### Exercise 3:
+Create a Python script to prompt the user for their character's name and then ask them to choose which dialogue option they want to select. Use the `input()` function to get the user's selection, then use string slicing to extract the appropriate response from the list of options.
+
+```python
+def select_dialogue():
+    """Prompt user for character's name and select dialogue option"""
+
+    name = input("Enter the character's name: ")
+    options = ["Hi there!", "Nice to meet you! What can I do for you?", "Howdy!", "Greetings!"]
+
+    selection = int(input("Select an option (1-4): ")) - 1
+    response = options[selection]
+
+    return response, name
+```
+
+### Exercise 4:
+Create a Python script to load dialogue from a YAML file and display it in a formatted way using string formatting. Use the `yaml` module to read the YAML file, then use string slicing to insert the user's name into the responses.
+
+```python
+import yaml
+
+def format_file_dialogue():
+    """Format dialogue options from a YAML file with user name"""
+
+    filename = input("Enter the filename of the dialogues file: ")
+
+    with open(filename, 'r') as fh:
+        data = yaml.safe_load(fh)
+
+    for i, response in enumerate(data):
+        print("{}. {}".format(i + 1, response['text'].replace("You", "{}'s name")))
+```
+
+### Exercise 5:
+Create a Python script to display the dialogue options on the console and allow the user to select which option they want to use. Use the `input()` function to get the user's selection, then use string slicing to extract the appropriate response from the list of options.
+
+```python
+def interact_dialogue():
+    """Prompt user for character's name and select dialogue option"""
+
+    name = input("Enter the character's name: ")
+    options = ["Hi there!", "Nice to meet you! What can I do for you?", "Howdy!", "Greetings!"]
+
+    selection = int(input("Select an option (1-4): ")) - 1
+    response = options[selection]
+
+    return response, name
+```

@@ -1,0 +1,62 @@
+
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: 1
+    text: 1
+  - order: 2
+    speaker: 2
+    text: 2
+  - order: 3
+    speaker: 3
+    text: 3
+  - order: 4
+    speaker: 4
+    text: 4
+```
+---
+
+### Explanation:
+
+The error message is indicating that there are multiple documents in the YAML stream, which is not allowed. In the given input, we see that each dialogue is wrapped in its own document indicator (`---`). By removing these document indicators and keeping all dialogues as keys under the `dialogues` list, we can correct the syntax error.
+
+### Example:
+
+```yaml
+game:
+  dialogues:
+    order: 1
+      speaker: 1
+      text: 1
+    order: 2:
+      speaker: 2
+      text: 2
+    order: 3:
+      speaker: 3
+      text: 3
+    order: 4:
+      speaker: 4
+      text: 4
+```
+
+This is incorrect as it still has multiple documents. However, when we remove the document indicators and keep all dialogues under `dialogues`, we get:
+
+```yaml
+game:
+  dialogues:
+    - order: 1
+      speaker: 1
+      text: 1
+    - order: 2
+      speaker: 2
+      text: 2
+    - order: 3
+      speaker: 3
+      text: 3
+    - order: 4
+      speaker: 4
+      text: 4
+```
+
+Now, the YAML is correctly formatted with a single document.

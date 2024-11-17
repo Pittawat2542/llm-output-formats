@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The village elder has asked for your help in retrieving an ancient artifact that is hidden deep within a lost temple. The artifact is said to have great power and the villagers believe it will bring them prosperity.",
+    "reward": "100 gold pieces and 500 experience points",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the entrance to the lost temple.",
+        "description": "The lost temple is hidden behind a waterfall. You need to find the entrance to get inside.",
+        "location": "Waterfall Cave"
+      },
+      {
+        "order": "2",
+        "objective": "Retrieve the ancient artifact.",
+        "description": "Once you're inside the temple, navigate through the traps and puzzles to reach the artifact chamber.",
+        "location": "Lost Temple"
+      },
+      {
+        "order": "3",
+        "objective": "Return the artifact to the village elder.",
+        "description": "Bring the artifact back to the village elder and receive your reward.",
+        "location": "Village Square"
+      }
+    ]
+  }
+}
+```

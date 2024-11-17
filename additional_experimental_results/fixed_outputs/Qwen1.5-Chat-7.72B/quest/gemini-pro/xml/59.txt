@@ -1,0 +1,36 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Quest for the Firestone</title>
+	<objective>Reclaim the stolen Fire Ruby from the Dragon's lair</objective>
+	<description>You must journey to the mountain peak and defeat the dragon guarding it.</description>
+	<reward>Dragon's scales as proof of victory</reward>
+	<quest-giver>The powerful sorceress, Eldra</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Acquire the staff of ice magic from Mount Frostcap</objective>
+			<description>Travel to Frostcap Mountain and locate the staff in the icy caverns.</description>
+			<location>Mount Frostcap</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the ice behemoth at the glacier's edge</objective>
+			<description>Face off with the massive glacier creature before its lair.</description>
+			<location>Glacier's Edge</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Discover the hidden entrance to the Dragon's Lair</objective>
+			<description>Solve the riddle at the ancient tree in the Enchanted Forest.</description>
+			<location>Enchanted Forest</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Conquer the Dragon and claim the Fire Ruby</objective>
+			<description>Battle the dragon with the staff of ice magic and seize the Fire Ruby.</description>
+			<location>Dragon's lair, Ice Caverns</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and return the ancient artifact to quest giver.</objective>
+	<description>You've heard rumors that the lost artifact is hidden deep in the ruins of an old temple. It's time to set out on your adventure!</description>
+	<reward>1000 gold coins and a legendary weapon</reward>
+	<quest-giver>NPC - Guardian of the Temple</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the temple</objective>
+			<description>You need to explore the dense jungle to find the hidden entrance to the old temple.</description>
+			<location>Jungle of Mystery</location>
+		</task>
+	</tasks>
+</game>
+```

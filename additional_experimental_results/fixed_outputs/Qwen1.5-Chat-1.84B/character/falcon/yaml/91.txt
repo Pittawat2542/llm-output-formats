@@ -1,0 +1,34 @@
+```yaml
+# Corrected YAML data with new values and block mapping syntax
+game:
+  character:
+    age: 28
+    background: "I was born in the Midwest US"
+    first_name: Mark #name of the character
+    last_name: Mark #name of the character
+    physical_appearance:
+      eye_color: Brown #eye color of the character's eyes
+      hair_color: Black #color of the character's hair
+      height: 6'1" #height in feet
+      weight: 200 lbs #weight in pounds
+    place_of_birth: Des Moines, Iowa #location of the character's birth
+    role: Soccer Player #role of the character in a soccer team
+    species: Human #species of the character
+
+# Code block with YAML data
+game:
+  character:
+    name: "Mark"
+    age: 28
+    background: "I was born in the Midwest US"
+    first_name: Mark #name of the character
+    last_name: Mark #name of the character
+    physical_appearance:
+      eye_color: Brown #eye color of the character's eyes
+      hair_color: Black #color of the character's hair
+      height: 6'1" #height in feet
+      weight: 200 lbs #weight in pounds
+    place_of_birth: Des Moines, Iowa #location of the character's birth
+    role: Soccer Player #role of the character in a soccer team
+    species: Human #species of the character
+```

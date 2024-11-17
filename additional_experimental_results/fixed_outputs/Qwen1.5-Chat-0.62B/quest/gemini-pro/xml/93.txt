@@ -1,0 +1,56 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Treasure of King Midas</title>
+	<objective>Find the lost treasure of King Midas hidden deep within the forest.</objective>
+	<description>King Midas, known for his golden touch, once possessed a宝藏 of unimaginable wealth. However, one day, the treasure vanished without a trace. Legends say it lies hidden within the dense forest, guarded by ancient spirits. As an adventurer, you are tasked with embarking on a journey to uncover the secrets of the forest and retrieve the lost treasure.</description>
+	<reward>A share of the legendary treasure and recognition as a hero of the kingdom.</ reward>
+	<quest-giver>Elder Elara, Oracle of the Forest</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Journey to the heart of the Enchanted Forest.</objective>
+				<description>Make your way through the winding paths of the forest, following ancient trails that lead deeper into its mystical embrace. Beware of treacherous terrain, magical beasts, and the spirits that reside within.</description>
+			经验值: 100
+			</task>
+			<task>
+				<order>2</order>
+			 objective>Find the lost treasure of King Midas hidden deep within the forest.</objective>
+				<description>King Midas, known for his golden touch, once possessed a宝藏 of unimaginable wealth. However, one day, the treasure vanished without a trace. Legends say it lies hidden within the dense forest, guarded by ancient spirits. As an adventurer, you are tasked with embarking on a journey to uncover the secrets of the forest and retrieve the lost treasure.</description>
+			经验值: 150
+			</task>
+			<task>
+				<order>3</order>
+			 objective>Seek the guidance of the Forest Oracle.</objective>
+				<description>In the heart of the forest, seek out the ancient guardian, the Forest Oracle. Legends speak of their connection to the forest's secrets. Approach them with respect and seek their wisdom regarding the lost treasure.</description>
+			经验值: 200
+			</task>
+			<task>
+				<order>4</order>
+			 objective>Navigate the Labyrinth of Whispers.</objective>
+				<description>Protected by ancient magic, the path to the treasure lies through a labyrinth hidden within the forest. Trust your instincts and solve the riddles of the whispering trees to find your way through.</description>
+			经验值: 250
+			</task>
+			<task>
+				<order>5</order>
+			 objective>Battle the Elemental Guardians.</objective>
+				<description>As you approach the treasure's chamber, you must face elemental guardians born from the magic of the forest. Engage in battles of wit, agility, and magic to overcome these formidable protectors.</description>
+			经验值: 300
+			</task>
+			<task>
+				<order>6</order>
+			 objective>Claim the Lost Treasure.</objective>
+				<description>Finally, you stand before the ancient treasure trove of King Midas. Reach out and claim the riches that have been hidden for centuries. But beware, for the treasure may not be as it seems.</description>
+			经验值: 400
+			</task>
+			<task>
+				<order>7</order>
+			 objective>Discover the secret to the lost treasure.</objective>
+				<description>The lost treasure lies hidden deep within the forest, guarded by ancient spirits. Once you have discovered the secret to its contents, it will become yours and be used to unlock the secrets of the forest for future generations. You will also receive recognition as a hero of the kingdom.</description>
+		经验值: 500
+			</task>
+		</tasks>
+	</game>
+
+```

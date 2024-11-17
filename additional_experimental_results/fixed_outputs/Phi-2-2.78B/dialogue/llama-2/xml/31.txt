@@ -1,0 +1,29 @@
+``` python
+import xml.etree.ElementTree as ET
+
+def parse_xml(xml_content):
+    """Parses XML content into a dictionary of elements."""
+    root = ET.fromstring(xml_content)
+
+    game_data = {
+        "title": root.find("title").text,
+        "characters": [],
+        "dialogues": []
+    }
+
+    for character in root.findall("character"):
+        game_data["characters"].append(
+            {"name": character.find("name").text, "dialogue_orders": []})
+
+    for dialogue in root.findall("dialogue"):
+        current_character = game_data["characters"][0]
+        dialogue_order = current_character["dialogue_orders"] + [dialogue.find("order").text]
+        if len(dialogue_order) == 1:
+            game_data["dialogues"].append({
+                "line": dialogue.find("line").text,
+                "speaker": current_character["name"],
+                "orders": dialogue_order
+            })
+
+    return game_data
+```

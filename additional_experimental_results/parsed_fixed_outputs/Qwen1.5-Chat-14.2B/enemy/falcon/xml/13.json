@@ -1,0 +1,40 @@
+{
+  "game": {
+    "enemy": [
+      {
+        "@id": "I-1",
+        "name": "Warrior",
+        "description": "A muscular warrior with a black robe and a battle axe.",
+        "stats": {
+          "hp": "100",
+          "def": "30",
+          "atk": "21",
+          "spd": "19"
+        }
+      },
+      {
+        "@id": "I-2",
+        "name": "Priest",
+        "description": "A robed figure standing with hands crossed and a burning flame in one hand.",
+        "stats": {
+          "hp": "20",
+          "atk": "50",
+          "def": "5",
+          "spd": "7"
+        }
+      },
+      {
+        "@id": "I-3",
+        "name": "Elf",
+        "description": "A graceful elf with a bow and a long curved dagger.",
+        "stats": {
+          "hp": "70",
+          "def": "25",
+          "mp": "60",
+          "atk": "25",
+          "spd": "40"
+        }
+      }
+    ]
+  }
+}

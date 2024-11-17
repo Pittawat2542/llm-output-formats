@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure of El Dorado",
+    "objective": "Find the lost treasure of El Dorado.",
+    "description": "The legendary city of gold, El Dorado, is said to be hidden deep in the Amazon jungle. Your quest is to find it and bring back its riches.",
+    "reward": "Gold coins and precious gems",
+    "quest-giver": "Governor Alvaro de Menda\u00f1a",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak to the old man in the tavern.",
+          "description": "He might have some useful information about where to start your search.",
+          "location": "Tavern, downtown"
+        },
+        {
+          "order": "2",
+          "objective": "Collect the ancient map from the hidden temple.",
+          "description": "The map will lead you to El Dorado.",
+          "location": "Hidden Temple, north of the city"
+        },
+        {
+          "order": "3",
+          "objective": "Cross the treacherous river.",
+          "description": "The river is infested with dangerous piranhas and strong currents. Be cautious.",
+          "location": "River, east of the jungle"
+        },
+        {
+          "order": "4",
+          "objective": "Defeat the guardians of El Dorado.",
+          "description": "The guardians will not let you approach the city without a fight.",
+          "location": "El Dorado, deep in the jungle"
+        }
+      ]
+    }
+  }
+}

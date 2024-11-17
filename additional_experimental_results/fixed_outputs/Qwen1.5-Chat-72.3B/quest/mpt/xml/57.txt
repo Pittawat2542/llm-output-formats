@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>Embark on a journey to locate the lost artifact and bring it back to the quest giver.</description>
+	<reward>1000 gold coins and a rare magical item</reward>
+	<quest-giver>Gilbert the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Explore the Ruins of Eldrinth</objective>
+			<description>Search the ruins for any clues leading to the artifact's location.</description>
+			<location>Eldrinth, Western Region</location>
+		</task>
+	</tasks>
+</game>
+```

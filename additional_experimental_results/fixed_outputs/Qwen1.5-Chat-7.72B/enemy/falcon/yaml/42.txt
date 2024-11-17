@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: "Description"
+    id: "敌人ID"
+    name: "敌人名称"
+    stats:
+      atk: "20% * atk + 10" # Changed to a string with proper syntax and new values
+      def: "50"
+      hp: "1000"
+      mp: "60"
+      spd: "30"
+```

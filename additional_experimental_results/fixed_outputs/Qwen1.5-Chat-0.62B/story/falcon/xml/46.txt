@@ -1,0 +1,57 @@
+XML data:
+<?xml version="1.0" ?>
+<game>
+	<title>My Epic Adventure</title>
+	<synopsis>Embark on a journey filled with thrilling quests, treacherous battles, and unexpected discoveries.</synopsis>
+	<beginning>
+		// code to start the game...
+		// code to end the game...
+	</beginning>
+	<ending>
+		// code to return home to restore peace and harmony to the kingdom...
+		// code to finish the adventure...
+	</ending>
+</game>
+```
+
+Corrected syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>My Epic Adventure</title>
+	<synopsis>Embark on a journey filled with thrilling quests, treacherous battles, and unexpected discoveries.</synopsis>
+	<beginning>
+		// code to start the game...
+		// code to end the game...
+	</beginning>
+	<!-- code to move on to the next level -->
+	<ending>
+		// code to return home to restore peace and harmony to the kingdom...
+		// code to finish the adventure...
+	</ending>
+</game>
+```
+
+New values:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>My Epic Adventure</title>
+	<synopsis>Embark on a journey filled with thrilling quests, treacherous battles, and unexpected discoveries.</synopsis>
+	<beginning>
+		// code to start the game...
+		// code to end the game...
+	</beginning>
+	<!-- code to move on to the next level -->
+	<ending>
+		// code to return home to restore peace and harmony to the kingdom...
+		// code to finish the adventure...
+	</ending>
+</game>
+```
+
+Output in Markdown format:
+```xml
+My Epic Adventure
+
+Embark on a journey filled with thrilling quests, treacherous battles, and unexpected discoveries.

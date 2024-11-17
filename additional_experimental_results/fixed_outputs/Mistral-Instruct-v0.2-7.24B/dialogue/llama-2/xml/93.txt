@@ -1,0 +1,43 @@
+
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">Bart</speaker>
+			<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">Homer, I'm bored. What should I do?</text>
+		</dialogue>
+		<dialogue>
+			<order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:int">2</order>
+			<speaker xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">Homer</speaker>
+			<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">You can go play with your friends, but don't come back until I say so.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+# Solution
+
+The XML provided is mostly correct. However, the `xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"` attribute should be added to both the root `<game>` tag and all child elements that have `xsd:type` attributes for valid XML.
+
+To fix the incorrect syntax error, add `xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"` as an attribute to the root `<game>` tag and both `<order>` and `<speaker>` tags. This will ensure that the XML document is well-formed and valid according to the provided schema.
+
+Here's the corrected XML:
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+	<dialogues>
+		<dialogue>
+			<order xsi:type="xsd:int">1</order>
+			<speaker xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Bart</speaker>
+			<text xsi:type="xsd:string">Homer, I'm bored. What should I do?</text>
+		</dialogue>
+		<dialogue>
+			<order xsi:type="xsd:int" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2</order>
+			<speaker xsi:type="xsd:string" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Homer</speaker>
+			<text xsi:type="xsd:string">You can go play with your friends, but don't come back until I say so.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```

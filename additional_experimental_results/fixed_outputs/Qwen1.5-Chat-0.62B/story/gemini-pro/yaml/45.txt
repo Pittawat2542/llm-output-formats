@@ -1,0 +1,8 @@
+The incorrect syntax is related to the `title` key, but it should be the ` synopsis` key since `title` is not a valid key.
+```
+game:
+  beginning: The beginning of the game
+  ending: The end of the game
+  synopsis: game story synopsis
+  title: Game Title
+```

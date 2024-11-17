@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>The quest for the magic stone</title>
+    <objective>Find the magic stone</objective>
+    <description>You are on a quest to find the magic stone</description>
+    <reward>100 gold</reward>
+    <quest-giver>The king</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the magic stone</objective>
+            <description>You have to find the magic stone</description>
+            <location>In the castle</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Deliver the stone to the princess</objective>
+            <description>Bring the stone to the princess at the royal gardens</description>
+            <location>Royal Gardens</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Prove your worth by solving a riddle</objective>
+            <description>Solve the riddle challenge at the magic mirror in the tower</description>
+            <location>Tower Magic Mirror</location>
+        </task>
+    </tasks>
+</game>
+```

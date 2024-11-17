@@ -1,0 +1,68 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>123456</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>Embark on an epic adventure to find the long lost treasure of the ancient civilization. Solve puzzles, defeat mythical creatures, and overcome challenges to claim the legendary riches that await.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<!-- New task added: Solving a riddle at the ancient ruin -->
+			<task order="3">
+				<objective>Solve riddle at ruins</objective>
+				<description>Travel to the ruins of Atlantis and solve the riddle that leads you to the next clue.</description>
+			<location>Ruins of Atlantis</location>
+			</task>
+
+			<!-- New task added: Defeating a legendary creature at the cave -->
+			<task order="4">
+				<objective>Defeat legendary creature</objective>
+				<description>Navigate through the treacherous cave and defeat the powerful dragon that guards the entrance to the treasure chamber.</description>
+			<location>Cave of Dragons</location>
+			</task>
+
+			<!-- New task added: Collecting artifacts from various locations -->
+			<task order="5">
+				<objective>Collect artifacts from multiple locations</objective>
+				<description>Search through the ruins, ancient ruins, and cave for artifacts that will help you progress in your quest.</description>
+			<location>A variety of locations</location>
+			</task>
+
+			<!-- New task added: Meeting with a神秘 NPC -->
+			<task order="6">
+				<objective>Met mysterious NPC</objective>
+				<description>Follow the clues and navigate through various locations to meet the enigmatic NPC who can provide valuable information about the treasure's location.</description>
+			<location>NPC in various locations</location>
+			</task>
+
+			<!-- New task added: Solving a final riddle at the treasure chamber -->
+			<task order="7">
+				<objective>Solve final riddle at chamber</objective>
+				<description>Finally, solve the riddle that lies within the treasure chamber to reveal its true location and claim the legendary riches.</description>
+			<location>Treasure chamber</location>
+			</task>
+
+			<!-- New task added: Delivering the reward to Captain Morgan -->
+			<task order="8">
+				<objective>Deliver reward to Captain Morgan</objective>
+				<description>Return to the city and deliver the treasure to Captain Morgan, who will celebrate your heroism and reward you with a generous bonus.</description>
+			<location>Captain Morgan's palace</location>
+			</task>
+
+		<!-- Removed duplicate task: Solving riddle at ruins -->
+		<task order="9">
+			<Objective>Solve riddle at ruins</Objective>
+			<Location>Ruins of Atlantis</Location>
+		</task>
+	</tasks>
+</game>
+```
+New values:
+1. Added a new task called "Solving a riddle at the ancient ruin" with an order of "3" and an objective of "Solve riddle".
+2. Added a new task called "Defeating a legendary creature at the cave" with an order of "4" and an objective of "Defeat legendary creature".
+3. Added a new task called "Collecting artifacts from various locations" with an order of "5" and an objective of "Collect artifacts from multiple locations".
+4. Added a new task called "Meeting with a mysterious NPC" with an order of "6" and an objective of "Met mysterious NPC".
+5. Added a new task called "Solving a final riddle at the treasure chamber" with an order of "7" and an objective of "Solve final riddle at chamber".
+6. Added a new task called "Delivering the reward to Captain Morgan" with an order of "8" and an objective of "Deliver reward to Captain Morgan".

@@ -1,0 +1,36 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple of the Ancients",
+    "objective": "Explore the ruins and retrieve an ancient artifact.",
+    "description": "Legend has it that a long-lost temple lies hidden in the heart of the nearby forest. The temple is said to contain relics from an ancient civilization, including a powerful artifact rumored to grant immense power.",
+    "reward": "1000 gold coins and a boost in reputation among the local townspeople",
+    "quest_giver": "Gorvoth Ironfist, the village elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the Lost Temple of the Ancients",
+        "description": "Search for a hidden path leading into the heart of the nearby forest.",
+        "location": "Near the ancient oak tree, deep within the Whispering Woods"
+      },
+      {
+        "order": 2,
+        "objective": "Clear the temple entrance of traps and debris",
+        "description": "Be cautious as you navigate through the rubble-filled hallway. Avoid deadly traps set to deter treasure seekers.",
+        "location": "Inside the main hall of the Lost Temple of the Ancients"
+      },
+      {
+        "order": 3,
+        "objective": "Solve the ancient puzzle lock",
+        "description": "A mysterious combination is required to unlock a hidden door leading deeper into the temple. Research and gather clues from nearby murals.",
+        "location": "In front of the sealed chamber within the Lost Temple of the Ancients"
+      },
+      {
+        "order": 4,
+        "objective": "Retrieve the artifact and return to Gorvoth Ironfist",
+        "description": "Take great care when handling the relic, for it is said to be extremely powerful. Bring back the artifact to receive your reward.",
+        "location": "Within the sealed chamber of the Lost Temple of the Ancients"
+      }
+    ]
+  }
+}

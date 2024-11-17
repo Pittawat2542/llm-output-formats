@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the ancient artifact hidden in the ruins.</objective>
+	<description>You've heard rumors that a powerful artifact is buried deep within an abandoned temple. Your quest is to retrieve it and bring it back to the village elder.</description>
+	<reward>1000 gold coins and legendary status</reward>
+	<quest-giver>Gildor the Wise</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the abandoned temple.</objective>
+			<description>You must search the dense forest to the east for any signs of the forgotten ruins.</description>
+			<location>Forest East</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Enter the temple and navigate its traps.</objective>
+			<description>The entrance is sealed with an ancient mechanism. Figure out how to activate it and be cautious of the traps inside.</description>
+			<location>Abandoned Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Find the artifact and bring it back safely.</objective>
+			<description>The artifact is said to be in the innermost chamber. Retrieve it, avoid any curses, and make your way out.</description>
+			<location>Inner Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

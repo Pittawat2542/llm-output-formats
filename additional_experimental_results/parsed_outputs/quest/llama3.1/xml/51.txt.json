@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The local village is plagued by a series of strange occurrences, and the villagers believe it's connected to the long-lost temple deep in the nearby forest. Your task is to retrieve an ancient artifact from the temple and put an end to the curse.",
+    "reward": "100 gold pieces and the gratitude of the village",
+    "quest-giver": "Lila, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost temple from the village's oldest resident.",
+          "description": "Speak to Elara, a wise and aged villager who has lived in the area for most of her life. She may have some valuable insights into the temple's layout and any potential dangers within.",
+          "location": "The local tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the lost temple and find the ancient artifact.",
+          "description": "Make your way to the lost temple, navigating through its treacherous halls and avoiding deadly traps. Once you reach the inner sanctum, retrieve the artifact and prepare for your return journey.",
+          "location": "The lost temple"
+        }
+      ]
+    }
+  }
+}

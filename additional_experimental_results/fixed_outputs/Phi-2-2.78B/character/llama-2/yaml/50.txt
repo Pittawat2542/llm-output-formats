@@ -1,0 +1,51 @@
+{
+    'status': 200,
+    'result': True,
+    'code': '200 OK',
+    'data': {
+        'status_message': "Success",
+        'character': {
+            'age': 30, 
+            'background': 'Adopted', 
+            'first_name': 'Kara', 
+            'id': 1234567890, 
+            'last_name': 'Kendall', 
+            'physical_appearance': [
+                {
+                    'eye_color': 'brown', 
+                    'hair_color': 'black', 
+                    'height': '5\'9", 
+                    'weight': 150, 
+                    'place_of_birth': 'Earth', 
+                    'religion': 'Christian', 
+                    'thread': 'Captain', 
+                    'species': 'Human'
+                }
+            ], 
+            'manifesto': {}, 
+            'race': 'White', 
+            'age_at_death': None, 
+            'dead_date': None, 
+            'theater': {
+                'character_id': 1234567890, 
+                'relationship': 'Father', 
+                'first_name': 'Kara', 
+                'second_name': 'Kendall', 
+                'gender': 'Male', 
+                'occupation': 'Captain of the Space Fleet', 
+                'thread': 'Admiral', 
+                'description': None, 
+                'roles': [], 
+                'relationships': [], 
+                'memorial_events': [], 
+                'character_descriptions': []
+            }, 
+            'ancestors': {
+                'id': 1234567890, 
+                'name': 'Kara Kendall', 
+                'thread': 'Admiral'
+            }
+        }
+    }
+}
+```

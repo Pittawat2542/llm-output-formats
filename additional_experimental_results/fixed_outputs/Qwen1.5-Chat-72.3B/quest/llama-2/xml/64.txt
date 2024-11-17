@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact.</objective>
+	<description>In a forgotten temple deep in the jungle, an elusive artifact is said to be hidden. Uncover its location and bring it back to the quest giver.</description>
+	<reward>1000 gold coins and a legendary weapon blueprint</reward>
+	<quest-giver>Guru Nadir</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the entrance to the temple</objective>
+			<description>You must find the hidden entrance among the dense vegetation. Speak with local villagers for clues.</description>
+			<location>Jungle Clearing</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Decipher the temple's ancient language</objective>
+			<description>The artifact is guarded by puzzles written in an ancient script. Translate the text to proceed.</description>
+			<location>Inner Temple Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

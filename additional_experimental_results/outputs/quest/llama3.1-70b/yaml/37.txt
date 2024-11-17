@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: "The village of Oakwood is plagued by a group of bandits who have taken over the local mine. The villagers are too afraid to enter the mine and need someone brave to clear it out."
+  id: Q001
+  objective: Clear the Oakwood Mine of bandits
+  quest_giver: Thorne, Village Elder
+  reward:
+    gold: 1000
+    item: Longsword of Justice
+    xp: 5000
+  tasks:
+  - description: Enter the Oakwood Mine and gather information about the bandit's layout
+    location: Oakwood Mine Entrance
+    objective: Gather Information
+    order: 1
+  - description: Take out the bandit leader, Grimgold Ironfist
+    location: Oakwood Mine Depths
+    objective: Kill Bandit Leader
+    order: 2
+  - description: Clear the mine of any remaining bandits and return to Thorne for reward
+    location: Oakwood Mine
+    objective: Clear Mine
+    order: 3
+  title: "Clearing the Oakwood Mine"
+```

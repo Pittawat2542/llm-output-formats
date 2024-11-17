@@ -1,0 +1,40 @@
+The error is caused by a single quote (`'`) in the `description` field, which needs to be enclosed in double quotes (`"`) for valid YAML syntax. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: "Goblin Scout"
+    id: 1
+    name: Goblin Scout
+    stats:
+      atk: 12
+      def: 8
+      hp: 25
+      mp: 0
+      spd: 4
+```
+
+If you want to include another enemy, you can add a new entry like this:
+
+```yaml
+game:
+  enemies:
+  - description: "Goblin Scout"
+    id: 1
+    name: Goblin Scout
+    stats:
+      atk: 12
+      def: 8
+      hp: 25
+      mp: 0
+      spd: 4
+  - description: "Troll"
+    id: 2
+    name: Troll
+    stats:
+      atk: 20
+      def: 14
+      hp: 60
+      mp: 0
+      spd: 6
+```

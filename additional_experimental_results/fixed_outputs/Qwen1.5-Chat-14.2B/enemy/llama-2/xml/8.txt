@@ -1,0 +1,20 @@
+Here's the corrected XML data with proper syntax:
+
+```xml
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Enemy Name</name>
+		<description>Enemy description</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+The original `$ python3 enemy_status.py` was not part of the XML data, so I removed it. If you need to include an ID for the enemy, you can modify the `<id>` tag as in the provided examples.

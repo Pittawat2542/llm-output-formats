@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>4</order>
+				<speaker>Player</speaker>
+				<text>Hey, do you want to play a game?</text>
+			</dialogue>
+				<order>1</order>
+				<speaker>Player</speaker>
+				<text>Welcome to the game of chess!</text>
+			</dialogue>
+			<dialogue>
+				<order>2</order>
+				<speaker>Friend</speaker>
+				<text>Sure, what game do you have in mind?</text>
+			</dialogue>
+				<order>3</order>
+				<speaker>Player</speaker>
+				<text>I've always enjoyed playing chess, but I'm a beginner. Do we have any specific rules or strategies to follow?</text>
+			</dialogue>
+				<order>4</order>
+				<speaker>Friend</speaker>
+				<text>Of course! Chess has several basic rules and strategies. The objective of the game is to checkmate your opponent's king, which means putting your own king in a position where it cannot move or be moved by any piece on the board.</text>
+			</dialogue>
+			<dialogue>
+				<order>5</order>
+				<speaker>Player</speaker>
+				<text>Alright, let's get started! What's your move?</text>
+			</dialogue>
+			<dialogue>
+				<order>6</order>
+				<speaker>Friend</speaker>
+				<text>I'll go first. I'm going to castle kingside.</text>
+			</dialogue>
+			<dialogue>
+				<order>7</order>
+				<speaker>Player</speaker>
+				<text>You're right, that's a good move. Your opponent will have the queen and bishop on the first rank while your king is on the second rank. We'll need to checkmate them with our rooks.</text>
+			</dialogue>
+			<dialogue>
+				<order>8</order>
+				<speaker>Friend</speaker>
+				<text>I've got it! My king will move to c4, and your opponent's queen will move to d4. Now, we'll need to capture the queens on each side with our rooks.</text>
+			</dialogue>
+			<dialogue>
+				<order>9</order>
+				<speaker>Player</speaker>
+				<text>Your king can move forward two squares and your opponent's queen can move forward one square. That should be enough to capture the queens and checkmate your opponent's king.</text>
+			</dialogue>
+			<dialogue>
+				<order>10</order>
+				<speaker>Friend</speaker>
+				<text>Great job! Your opponent's king is now in check, and it will be game over. You've won the game!</text>
+			</dialogue>
+	</dialogues>
+</game>
+```
+New values:
+- `Player` has been changed to `Game Player`.
+- `Friend` has been changed to `Game Friend`.

@@ -1,0 +1,50 @@
+```python
+
+
+# Solution to Exercise 15
+import xml.etree.ElementTree as ET
+
+
+def fix_xml(data):
+    try:
+        root = ET.fromstring(data)
+    except Exception as e:
+        print(e)
+    else:
+        new_root = root[1]  # Get first element of the XML file
+        for child in new_root:
+            if len(child) == 1:
+                name = '<' + child.tag + '>' + child.text + '</' + child.tag + '>'
+                new_root[0] = ET.SubElement(new_root, name)
+
+        return ET.tostring(new_root).decode('utf-8')  # Return XML in string format
+
+
+data = """<game>
+    <character>
+        <id>id</id>
+        <first-name>first name</first-name>
+        <last-name>last name</last-name>
+        <species>species</species>
+        <age>exact age or description</age>
+        <role>role of the character</role>
+        <background>background story</background>
+        <place-of-birth>location</place-of-birth>
+        <physical-appearance>
+            <physical-appearance>
+                <eye-color>eye color</eye-color>
+                <hair-color>hair color</hair-color>
+                <height>height in float value</height>
+                <weight>weight in float value</weight>
+            </physical-appearance>
+        </physical-appearance>
+    </character>
+</game>"""
+
+# Test function by printing the XML data and its corrected version.
+print(f"Original: \n{data}")
+fixed_xml = fix_xml(data)
+print(f"Corrected: \n{fixed_xml}")
+```
+
+

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure of El Dorado",
+    "objective": "Find the Lost Treasure of El Dorado",
+    "description": "The legend says that the treasure is hidden deep in the jungle, guarded by dangerous creatures and traps.",
+    "reward": "Gold and precious gems",
+    "quest-giver": "Don Miguel de Cervantes Saavedra",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the treasure's location from the village elder",
+          "description": "The elder lives in the village near the entrance to the jungle. He might know something about the treasure and its guardians.",
+          "location": "Village Entrance"
+        },
+        {
+          "order": "2",
+          "objective": "Obtain a map of the jungle from the local cartographer",
+          "description": "The cartographer has a detailed map of the jungle and the known locations of dangerous creatures. It will help you navigate through the jungle safely.",
+          "location": "Cartography Shop, Town Square"
+        },
+        {
+          "order": "3",
+          "objective": "Find and defeat the guardians of the treasure",
+          "description": "The guardians are powerful creatures that protect the treasure from thieves. Defeating them will allow you to reach the treasure.",
+          "location": "Deep in the jungle, near the Lost City of El Dorado"
+        }
+      ]
+    }
+  }
+}

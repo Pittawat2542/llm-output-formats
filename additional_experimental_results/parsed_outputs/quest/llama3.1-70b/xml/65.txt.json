@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q12345",
+    "title": "The Lost Temple of the Ancients",
+    "objective": "Explore the lost temple and retrieve a powerful artifact.",
+    "description": "A long-abandoned temple has been rediscovered deep in the jungle, and rumors speak of a powerful relic hidden within its walls. Brave adventurers are needed to explore the temple, overcome deadly traps, and claim the treasure before it falls into the wrong hands.",
+    "reward": "1000 gold coins and a magical amulet granting resistance to poison",
+    "quest-giver": "Renn Frostbite, Jungle Explorer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Navigate through the jungle and find the entrance to the lost temple.",
+          "description": "The temple is said to be hidden behind a waterfall. Be careful of the steep cliffs and raging river as you make your way there.",
+          "location": "Jungle Ruins, near the ancient stone bridge"
+        },
+        {
+          "order": "2",
+          "objective": "Disable the deadly traps protecting the temple entrance.",
+          "description": "Use your skills and gadgets to disable the poisonous darts and spinning blades blocking your path.",
+          "location": "Temple Entrance, just beyond the stone doors"
+        },
+        {
+          "order": "3",
+          "objective": "Raid the treasure chamber and retrieve the artifact.",
+          "description": "Avoid the treacherous puzzles and guardians as you make your way deeper into the temple. Claim the relic before it's too late!",
+          "location": "Treasure Chamber, at the heart of the lost temple"
+        }
+      ]
+    }
+  }
+}

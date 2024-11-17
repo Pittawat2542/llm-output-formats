@@ -1,0 +1,26 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="quest giver">
+    <tasks>
+        <task order="task order" objective="task objective" description="task description" location="task location"/>
+    </tasks>
+</game>
+```
+Output in XML format:
+```xml
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="quest giver">
+    <tasks>
+        <task order="task order" objective="task objective" description="task description" location="task location"/>
+    </tasks>
+</game>
+```
+Markdown code block:
+```xml
+<?xml version="1.0"?>
+<game id="id" title="quest title" objective="quest objective" description="quest description" reward="quest reward" quest_giver="quest giver">
+    <tasks>
+        <task order="task order" objective="task objective" description="task description" location="task location"/>
+    </tasks>
+</game>
+```

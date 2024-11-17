@@ -1,0 +1,26 @@
+{
+  "game": {
+    "description": "quest description",
+    "id": "<<QUESTID>>",
+    "objective": "quest objective",
+    "quest_giver": "<<QUESTGIVER>>",
+    "reward": "quest reward",
+    "tasks": [
+      {
+        "description": "task description",
+        "location": "task location",
+        "objective": "<<TASKOBJ>>",
+        "order": "<<TASKORDER>>"
+      }
+    ],
+    "title": "<<QUESTTITLE>>"
+  },
+  "Quest Giver": "<<QUESTGIVER>>",
+  "Quest Title": "<<QUESTTITLE>>",
+  "Quest Description": "<<QUESTDESC>>",
+  "Quest Reward": "<<QUESTREW>>",
+  "Quest Objective": "<<QUESTOBJ>>",
+  "Quest Tasks": "<<QUESTTASK>>",
+  "Quest Task Description": "<<TASKDESC>>",
+  "Quest Task Location": "<<TASKLOC>>"
+}

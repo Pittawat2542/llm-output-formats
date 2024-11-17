@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "G001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom from the bandit's den.",
+    "description": "Lady Whimsy's favorite necklace has been stolen, and she needs your help to get it back. The thief is hiding in a bandit's den on the outskirts of town.",
+    "reward": "100 gold pieces and Lady Whimsy's gratitude",
+    "quest_giver": "Lady Whimsy",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Gather information about the thief",
+        "description": "Talk to the townspeople and gather clues about the thief's identity and whereabouts.",
+        "location": "The local tavern"
+      },
+      {
+        "order": "2",
+        "objective": "Infiltrate the bandit's den",
+        "description": "Sneak into the bandit's den at night, avoiding detection by the guards.",
+        "location": "Bandit's Den (outskirts of town)"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the stolen heirloom",
+        "description": "Find and retrieve Lady Whimsy's necklace from the thief.",
+        "location": "Thief's lair (inside bandit's den)"
+      }
+    ]
+  }
+}

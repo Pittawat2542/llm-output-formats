@@ -1,0 +1,40 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Scepter",
+    "objective": "Find the missing King's Scepter.",
+    "description": "The King's Scepter has been stolen and the kingdom is in chaos. Find the missing scepter and return it to the King.",
+    "reward": "The King's favor, a bag of gold, and the title of \"Savior of the Kingdom\".",
+    "quest-giver": {
+      "name": "The King"
+    },
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Talk to the Royal Spymaster.",
+          "description": "The Royal Spymaster has been investigating the theft. Talk to him to find out what he knows.",
+          "location": "The Royal Palace"
+        },
+        {
+          "order": "2",
+          "objective": "Find the thieves' hideout.",
+          "description": "Use the clues from the Royal Spymaster to find the thieves' hideout.",
+          "location": "The Thieves' Guild"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the thieves and retrieve the King's Scepter.",
+          "description": "Battle the thieves and take back the King's Scepter from them.",
+          "location": "The Thieves' Stronghold"
+        },
+        {
+          "order": "4",
+          "objective": "Return the Scepter to the King.",
+          "description": "Return the Scepter to the King and claim your reward.",
+          "location": "The Royal Palace"
+        }
+      ]
+    }
+  }
+}

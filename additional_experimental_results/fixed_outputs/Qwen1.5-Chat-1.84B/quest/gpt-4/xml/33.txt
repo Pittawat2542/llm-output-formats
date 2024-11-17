@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>2547</id>
+	<title>The Lost Sword</title>
+	<objective>Find and retrieve the lost legendary sword</objective>
+	<description>Legends tell of a powerful sword lost in the Forbidden Forest. Many will be grateful with its return.</description>
+	<reward>5000 Gold and Champion Title</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+			<trIGGER>
+				<order>1</order>
+				<type>LOCATION</type>
+				<location>King's library</location>
+			</trigger>
+			<trigger>
+				<order>2</order>
+				<type>FIGHT</type>
+				<character>King Arthur</character>
+				<objective>Fight the forest guardian</objective>
+			</trigger>
+			<trigger>
+				<order>3</order>
+				<type>RETRIVE</type>
+				<objective>The legendary sword</objective>
+				<location>Charmed Stone in Forbidden Forest</location>
+			</trigger>
+	</tasks>
+</game>
+```

@@ -1,0 +1,23 @@
+
+```yaml
+game:
+  enemy:
+    - id: "Enemy ID"
+      name: "Enemy Name"
+      description: "Enemy Name description"
+      stats:
+        atk: 20
+        def: 10
+        hp: 20
+        mp: 20
+        spd: 10
+    - id: "Enemy ID"
+      name: "Enemy Name"
+      description: "A description of the enemy"
+      stats:
+        atk: 20
+        def: 10
+        hp: 20
+        mp: 20
+        spd: 10
+```

@@ -1,0 +1,56 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>2</id>
+	<title>Quest for the Golden Key</title>
+	objective>Find and exchange the Golden Key to unlock the secret of the Dragon's Cave.</objective>
+	description>The Golden Key is hidden in the Dragon's cave, but it's guarded by a powerful dragon. The key can only be found if both the dragon and the golden key are present at the same time.</description>
+	reward>Kingdom's Gratitude Shard + 100 gold coins</reward>
+	quest-giver>King Leopold</quest-giver>
+	tasks>
+			<task>
+				<order>1</order>
+			/objective>Find the Golden Key</objective>
+				<description>Search through the cave to find the golden key, and then use it to unlock the dragon's cave.</description>
+			经验值>2000 gold coins</经验值>
+			<task>
+				<order>2</order>
+			/objective>Defeat the Dragon</objective>
+				<description>Use the Golden Key to defeat the dragon at the dragon's cave, and then use it to unlock the secret of the Dragon's Cave.</description>
+			经验值>3000 gold coins</经验值>
+			<task>
+				<order>3</order>
+			/objective>Enter the Dragon's Cave</objective>
+				<description>Use the Golden Key to defeat the dragon, and then use it to unlock the secret of the Dragon's Cave.</description>
+			经验值>4000 gold coins</经验值>
+			</task>
+		</tasks>
+	</game>
+```
+The syntax was correct, and there were no new values. The output in the Markdown code block is as follows:
+```xml
+<game>
+	<h1>Quest for the Golden Key</h1>
+	<title>Quest for the Golden Key</title>
+	(objective>Find and exchange the Golden Key to unlock the secret of the Dragon's Cave.</objective>
+	description>The Golden Key is hidden in the Dragon's cave, but it's guarded by a powerful dragon. The key can only be found if both the dragon and the golden key are present at the same time.</description>
+	reward>Kingdom's Gratitude Shard + 100 gold coins</ reward>
+	quest-giver>King Leopold</quest-giver>
+	<h2>Quest for the Golden Key</h2>
+	<title>Quest for the Golden Key</title>
+	(objective>Find and exchange the Golden Key to unlock the secret of the Dragon's Cave.</objective>
+	description>The Golden Key is hidden in the Dragon's cave, but it's guarded by a powerful dragon. The key can only be found if both the dragon and the golden key are present at the same time.</description>
+	 reward>Kingdom's Gratitude Shard + 100 gold coins</reward>
+	quest-giver>King Leopold</quest-giver>
+	<h2>Quest for the Golden Key</h2>
+	<title>Quest for the Golden Key</title>
+	(objective>Find and exchange the Golden Key to unlock the secret of the Dragon's Cave.</objective>
+	description>The Golden Key is hidden in the Dragon's cave, but it's guarded by a powerful dragon. The key can only be found if both the dragon and the golden key are present at the same time.</description>
+	reward>Kingdom's Gratitude Shard + 100 gold coins</reward>
+	quest-giver>King Leopold</quest-giver>
+<h2>Quest for the Golden Key</h2>
+	<title>Quest for the Golden Key</title>
+	(objective>Find and exchange the Golden Key to unlock the secret of the Dragon's Cave.</objective>
+	description>The Golden Key is hidden in the Dragon's cave, but it's guarded by a powerful dragon. The key can only be found if both the dragon and the golden key are present at the same time.</description>
+</game>
+```

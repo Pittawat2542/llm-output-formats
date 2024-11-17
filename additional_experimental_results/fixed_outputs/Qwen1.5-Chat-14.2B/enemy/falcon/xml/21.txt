@@ -1,0 +1,21 @@
+The original XML data provided is not well-formed, as it contains HTML-like tags and does not follow the standard XML syntax. Here's a corrected version based on the template provided:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <enemy>
+    <id>id</id>
+    <name>name</name>
+    <description>description</description>
+    <stats>
+      <hp>100</hp>
+      <mp>50</mp>
+      <atk>+1</atk>
+      <def>25</def>
+      <spd>0</spd>
+    </stats>
+  </enemy>
+</game>
+```
+
+The values for `hp`, `mp`, `atk`, and `def` have been replaced with numeric or symbolic values, as per the original message. The `<stats>` element now closes properly, and the HTML-like formatting has been removed. If you need to provide specific values, replace `id`, `name`, `description`, and the numeric values accordingly.

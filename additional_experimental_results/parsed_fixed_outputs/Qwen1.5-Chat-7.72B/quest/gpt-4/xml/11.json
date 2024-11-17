@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "001",
+    "title": "Dragon Slayer",
+    "objective": "Save the kingdom by slaying the dragon",
+    "description": "The kingdom is in danger. A dragon has taken up residence in the nearby mountains and is terrorizing the people. You must put an end to this chaos by slaying the dragon.",
+    "reward": "5000 gold and the Dragon Slayer's Sword",
+    "quest-giver": "Queen Isabella",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the Dragon's Lair",
+          "description": "The people of the kingdom have seen the dragon flying to and from the mountains. Search the range and find its lair.",
+          "location": "Mountain Range"
+        },
+        {
+          "order": "2",
+          "objective": "Slay the Dragon",
+          "description": "Once you find the lair, defeat the dragon and bring back its head as proof of its demise.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

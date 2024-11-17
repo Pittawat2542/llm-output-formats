@@ -1,0 +1,27 @@
+```xml
+<game xmlns="http://www.httpgames.com">
+  <id>QST_001</id>
+  <title>The Lost Artifact</title>
+  <objective>Retrieve the ancient artifact from the Forgotten Tomb.</objective>
+  <description>Archaeologist Dr. Liam has asked you to retrieve a precious artifact from the Cursed Tomb. It won't be easy, as the tomb is filled with traps and undead guardians. Be careful!</description>
+  <reward>500 gold pieces and Mystery Scroll</reward>
+  <quest-giver>Dr. Liam</quest-giver>
+  <tasks>
+    <task order="1">
+      <objective>Travel to the Forgotten Tomb</objective>
+      <description>Find the exact location of the Forgotten Tomb following the map provided by Dr. Liam.</description>
+      <location>Northern Forest</location>
+    </task>
+    <task order="2">
+      <objective>Overcome the Tomb's Challenges</objective>
+      <description>Overcoming various traps and defeating the undead guardians to proceed further into the tomb.</description>
+      <location>Inside the Forgotten Tomb</location>
+    </task>
+    <task order="3">
+      <objective>Retrieve the Artifact</objective>
+      <description>The artifact is likely to be placed in a special chamber inside the tomb. Find it and bring it back to Dr. Liam.</description>
+      <location>Ancient Chamber inside the Forgotten Tomb</location>
+    </task>
+  </tasks>
+</game>
+```

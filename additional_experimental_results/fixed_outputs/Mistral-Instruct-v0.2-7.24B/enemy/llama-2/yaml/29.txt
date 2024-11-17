@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: A description of the enemy
+    id: 123456
+    name: Enemy
+    stats:
+      atk: 50  # Int value for attack
+      def: 75  # Int value for defense
+      hp: 150 # Int value for health points
+      mp: 200 # Int value for magic points
+      spd: 120 # Int value for speed
+```

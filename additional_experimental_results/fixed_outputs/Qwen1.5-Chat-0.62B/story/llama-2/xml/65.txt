@@ -1,0 +1,28 @@
+Here's an updated code block with the correct syntax:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the end of the game</ending>
+</game>
+```
+
+The code block now follows the correct syntax for XML data and correctly provides new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+
+Here's the updated code block:
+```markdown
+<?xml version="1.0""?>
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>the beginning of the game</beginning>
+	<ending>the end of the game</ending>
+</game>
+```
+
+This code block now follows the correct syntax for XML data and correctly provides new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block.
+
+```
+```

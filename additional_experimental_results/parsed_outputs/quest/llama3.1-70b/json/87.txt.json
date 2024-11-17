@@ -1,0 +1,42 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scrolls from the long-abandoned temple",
+    "description": "Rumors have been circulating about a hidden temple deep within the forest, dedicated to the worship of the moon goddess. The temple is said to contain ancient scrolls holding secrets of the past. However, the journey will be treacherous, and many adventurers before you have attempted but never returned.",
+    "reward": "A magical amulet granting resistance to darkness, 1000 gold pieces, and a boost in reputation among the townspeople",
+    "quest_giver": "Elder Thorne of Oakwood Village",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Gather information about the temple's location from the village elders",
+        "description": "Speak to the elderly residents of Oakwood Village and gather any information they might have about the lost temple's whereabouts.",
+        "location": "Oakwood Village"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve a map piece from the ancient ruins on the west hill",
+        "description": "Explore the ancient ruins on the west hill, fighting off any hostile creatures that may be lurking. Find and collect a torn piece of parchment that will aid in locating the temple.",
+        "location": "Ancient Ruins (West Hill)"
+      },
+      {
+        "order": 3,
+        "objective": "Decipher the map pieces to reveal the temple's entrance",
+        "description": "Use the collected map pieces to decipher the cryptic symbols and uncover the location of the temple's hidden entrance. Be careful, for the wrong path can lead to traps or even death.",
+        "location": "Town Library (Oakwood Village)"
+      },
+      {
+        "order": 4,
+        "objective": "Navigate through the treacherous forest to reach the temple",
+        "description": "Set off into the dense and mysterious forest, facing whatever dangers lie within. Keep your wits about you as you navigate through the winding paths.",
+        "location": "The Forest"
+      },
+      {
+        "order": 5,
+        "objective": "Clear the temple of any undead creatures and retrieve the scrolls",
+        "description": "Face the dark forces that have claimed the temple. Defeat the undead guardians and make your way to the inner sanctum where the ancient scrolls await.",
+        "location": "The Lost Temple"
+      }
+    ]
+  }
+}

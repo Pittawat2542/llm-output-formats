@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost City",
+    "objective": "Find the lost city of Zerzura.",
+    "description": "The ancient city of Zerzura is said to be hidden deep in the desert, filled with treasures and artifacts from a bygone era. However, it has been lost for centuries and many have attempted to find it before but never succeeded.",
+    "reward": "100 gold coins, 500 experience points",
+    "quest-giver": "Khalid, the desert nomad",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost city's location from the local market.",
+          "description": "Visit the local market and speak to the merchants who have traveled across the desert. They may have some valuable information about the location of Zerzura.",
+          "location": "The marketplace in the desert oasis"
+        },
+        {
+          "order": "2",
+          "objective": "Follow the ancient map to the lost city's location.",
+          "description": "Use the map obtained from the market to navigate through the treacherous sand dunes and reach the entrance of Zerzura.",
+          "location": "The desert sand dunes near the oasis"
+        }
+      ]
+    }
+  }
+}

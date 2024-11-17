@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Dragon Slayer",
+    "objective": "Defeat the mighty dragon terrorizing the kingdom",
+    "description": "You've been chosen by the king to slay the dragon which has been causing chaos in our land. You will have to travel through treacherous terrains, conquer fearsome foes before you can face the dragon at the Heart of the volcano.",
+    "reward": "Kingdom's highest honor and 5000 gold coins",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather equipment",
+          "description": "Visit the kingdom's blacksmith to gather necessary weapons and armors.",
+          "location": "Royal Blacksmith"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the undead army",
+          "description": "An undead army guards the way to the dragon's lair. Defeat them to move forward.",
+          "location": "Forest of the Damned"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Dragon",
+          "description": "Finally, defeat the dragon residing in Heart of the volcano.",
+          "location": "Heart of the Volcano"
+        }
+      ]
+    }
+  }
+}

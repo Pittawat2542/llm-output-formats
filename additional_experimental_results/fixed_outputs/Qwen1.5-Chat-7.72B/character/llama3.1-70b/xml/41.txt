@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+    <character>
+        <id>CH001</id>
+        <first-name>Eira</first-name>
+        <last-name>Shadowglow</last-name>
+        <species>Half-Elf</species>
+        <age>26</age> <!-- Corrected age value -->
+        <role>Rogue/Assassin</role>
+        <background>
+            <description>Eira was born in Elvanar, the city of her elven mother. She grew up on the streets, mastering stealth and deception from a young age. Eventually, she joined a thieves' guild, where she honed her skills as a rogue and assassin.</description>
+        </background>
+        <place-of-birth>Elvanar</place-of-birth>
+        <physical-appearance>
+            <eye-color>Piercing emerald green</eye-color>
+            <hair-color>Dark brown with copper highlights</hair-color>
+            <height>1.75</height> <!-- Fixed height to a float value -->
+            <weight>65.0</weight> <!-- Fixed weight to a float value -->
+        </physical-appearance>
+    </character>
+</game>
+```

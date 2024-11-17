@@ -1,0 +1,108 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "The ID of the character.",
+            "required": true,
+            "example": 23
+        },
+        "age": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 120,
+            "description": "The age of the character.",
+            "example": 20
+        },
+        "background": {
+            "type": "string",
+            "description": "The background of the character. Possible values are 'orphan' or 'adoptive'.",
+            "enum": ["orphan", "adoptive"],
+            "required": true,
+            "example": "orphan"
+        },
+        "first_name": {
+            "type": "string",
+            "description": "The first name of the character.",
+            "required": true,
+            "example": "John"
+        },
+        "last_name": {
+            "type": "string",
+            "description": "The last name of the character.",
+            "required": true,
+            "example": "Doe"
+        },
+        "physical_appearance": {
+            "type": "object",
+            "properties": {
+                "eye_color": {
+                    "type": "string",
+                    "enum": ["blue", "green", "brown"],
+                    "description": "The eye color of the character.",
+                    "required": true
+                },
+                "hair_color": {
+                    "type": "string",
+                    "enum": ["black", "blonde", "brunette", "red", "brown"],
+                    "description": "The hair color of the character.",
+                    "required": true
+                },
+                "height": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 200,
+                    "description": "The height of the character in centimeters.",
+                    "example": 170
+                },
+                "weight": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 100,
+                    "description": "The weight of the character in kilograms.",
+                    "example": 70
+                }
+            }
+        },
+        "role": {
+            "type": "string",
+            "enum": ["fighter", "healer", "archer"],
+            "description": "The role of the character.",
+            "required": true,
+            "example": "archer"
+        },
+        "species": {
+            "type": "string",
+            "enum": ["human", "elf", "dwarf"],
+            "description": "The species of the character.",
+            "required": True,
+            "example": "elf"
+        }
+    }
+}
+```
+
+### Exercise 5: Write a test case using the `responses` fixture that tests a JSON response containing data about a user. Use the `Response.json()` method to parse the JSON response and extract the values of the "name" and "email" keys.
+# Solution:
+```python
+import pytest
+from fastapi import FastAPI, Response
+
+app = FastAPI()
+
+@app.get("/users/{user_id}")
+async def get_user(user_id: int):
+    """Returns a JSON response containing data about the user."""
+    return {"name": "John Doe", "email": "johndoe@example.com"}
+
+
+def test_get_user():
+    response = app.http.post("/users")
+    assert Response.json(response).get("data").get("id") == 1
+
+    with pytest.raises(KeyError):
+        response.json()["non-existent key"]
+
+    response = app.http.put("/users/1", {"name": "Jane Doe"})
+    assert Response.json(response).get("data").get("id") == 1
+```

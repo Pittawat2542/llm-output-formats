@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "A mysterious map leads you to an undiscovered ruin in search of a powerful artifact. Retrieve it and return to the quest giver.",
+    "reward": "1000 gold coins and a legendary sword",
+    "quest-giver": "Gilthanas, Elf Ranger",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the Ruins",
+          "description": "Make your way through the dense jungle and find the entrance to the ancient ruins.",
+          "location": "Jungle's Edge"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the Puzzle",
+          "description": "Solve the riddle on the stone door to unlock the artifact's chamber.",
+          "location": "Ruins' Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Recover the Artifact",
+          "description": "Defeat the guardian and retrieve the lost artifact.",
+          "location": "Artifact Chamber"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple Treasure</title>
+	<objective>Retrieve the ancient treasure hidden within the lost temple.</objective>
+	<description>The temple has been hidden for centuries, and many have attempted to retrieve its treasures but never returned. You must navigate through traps and puzzles to reach the heart of the temple where the treasure lies.</description>
+	<reward>A golden idol and 1000 gold coins</reward>
+	<quest-giver>Gorvoth, the village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Finding the entrance to the lost temple.</objective>
+			<description>The temple is hidden behind a waterfall. You must navigate through the jungle to find it.</description>
+			<location>Jungle, near the waterfall</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solving the pressure plate puzzle.</objective>
+			<description>The entrance to the temple is guarded by a pressure plate. You must step on the correct sequence of plates to open the door.</description>
+			<location>Entrance hall, lost temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Finding the treasure chamber key.</objective>
+			<description>The key is hidden in a puzzle box. You must solve the puzzle to obtain the key.</description>
+			<location>Treasure room, lost temple</location>
+		</task>
+	</tasks>
+</game>
+```

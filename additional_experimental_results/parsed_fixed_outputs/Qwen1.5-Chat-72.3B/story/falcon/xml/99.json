@@ -1,0 +1,29 @@
+{
+  "xsi:schemaLocation": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "xsd:complexType": {
+      "@name": "game",
+      "xsd:sequence": {
+        "xsd:element": [
+          {
+            "@name": "title",
+            "@type": "xsd:string"
+          },
+          {
+            "@name": "synopsis",
+            "@type": "xsd:string"
+          },
+          {
+            "@name": "beginning",
+            "@type": "xsd:string"
+          },
+          {
+            "@name": "ending",
+            "@type": "xsd:string"
+          }
+        ]
+      }
+    }
+  }
+}

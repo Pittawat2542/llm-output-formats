@@ -1,0 +1,145 @@
+XML data provided:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123</id>
+	<title>The Lost Artifact</title>
+	<objective>Retrieve the lost artifact from the ancient ruins</objective>
+	<description>Travel to the ancient ruins and find the rumored lost artifact. Be wary of traps and potential adversaries along the way.</description>
+	<reward>5000 Gold and The Sword of Eternity</ reward>
+	<quest-giver>Historian Jenkins</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/Objective>Find the ancient ruins</objective>
+				<div><description></div></task>
+				<task>
+					<order>2</order>
+				OBJECTive>Retrieve the artifact</objective>
+					<div><description></div></task>
+				<task>
+					<order>3</order>
+				 OBJECTive>Return to Historian Jenkins</objective>
+					<div><description></div></task>
+				<task>
+					<order>4</order>
+				/Objective>Claim your reward</objective>
+					<div><description></div></task>
+				<task>
+					<order>5</order>
+				OBJECTive>Find the lost artifact</ objective>
+					<div><description></div></task>
+				<task>
+					<order>6</order>
+				bjective></任务>
+				<task>
+				<order>7</order>
+			/objective></object>
+				<div><description></div></task>
+			</task>
+			<task>
+				<order>8</order>
+			OBJECTive></object>
+				<div><description></div></task>
+				<task>
+					<order>9</order>
+				bjective></object>
+				<div><description></div></task>
+			</task>
+	</tasks>
+
+Original code block:
+```python
+import xml.etree.ElementTree as ET
+
+def main():
+    data = '''
+        <game>
+            <id>123</id>
+            <title>The Lost Artifact</title>
+            <objective>Retrieve the lost artifact from the ancient ruins</objective>
+            <description>Travel to the ancient ruins and find the rumored lost artifact. Be wary of traps and potential adversaries along the way.</description>
+            <reward>5000 Gold and The Sword of Eternity</ reward>
+            <quest-giver>Historian Jenkins</quest-giver>
+            <tasks>
+                <task>
+                    <order>1</order>
+                    Objective>Find the ancient ruins</objective>
+                    <div>
+                        <description></div>
+                    </task>
+                    <task>
+                        <order>2</order>
+                        Objective>Retrieve the artifact</objective>
+                        <div>
+                            <description></div>
+                        </task>
+                    </task>
+                    <task>
+                        <order>3</order>
+                        Objective>Return to Historian Jenkins</objective>
+                        <div>
+                            <description></div>
+                        </task>
+                    </task>
+                </task>
+                <task>
+                    <order>8</order>
+                    Objective></object>
+                </task>
+            </tasks>
+
+            '''
+    tree = ET.parse(data)
+    
+    root = tree.getroot()
+    
+    print(root)
+```
+
+Corrected code block:
+```python
+import xml.etree.ElementTree as ET
+
+def main():
+    data = '''
+        <game>
+            <id>123</id>
+            <title>The Lost Artifact</title>
+            <objective>Retrieve the lost artifact from the ancient ruins</objective>
+            <description>Travel to the ancient ruins and find the rumored lost artifact. Be wary of traps and potential adversaries along the way.</description>
+            <reward>5000 Gold and The Sword of Eternity</reward>
+            <quest-giver>Historian Jenkins</quest-giver>
+            <tasks>
+                <task>
+                    <order>1</order>
+                    Objective>Find the ancient ruins</objective>
+                    <div>
+                        <description></div>
+                    </task>
+                    <task>
+                        <order>2</order>
+                        Objective>Retrieve the artifact</objective>
+                        <div>
+                            <description></div>
+                        </task>
+                    </task>
+                </task>
+                <task>
+                    <order>3</order>
+                    Objective>Return to Historian Jenkins</objective>
+                    <div>
+                        <description></div>
+                    </task>
+                </task>
+            </tasks>
+
+            '''
+    tree = ET.parse(data)
+    
+    root = tree.getroot()
+    
+    print(root)
+```
+
+New values for `quest_giver`, `task`, and `reward`: The value of `quest_giver` should be the name of the historical figure who is responsible for obtaining the lost artifact. The value of `task` should be a list of tasks that need to be completed in order to find the lost artifact. The value of `reward` should be the amount of gold and the sword of eternity that can be earned from completing the quest.

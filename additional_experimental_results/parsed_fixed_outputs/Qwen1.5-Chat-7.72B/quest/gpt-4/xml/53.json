@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1068",
+    "title": "Rescue the Lost Princess",
+    "objective": "Rescue the lost princess from the Dark Fortress",
+    "description": "The princess has been captured by the dark forces and is held captive in the Dark Fortress. Your mission is to infiltrate the fortress and rescue her.",
+    "reward": "The Eternal Blade of Tranquility",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the Dark Fortress",
+          "description": "Travel through the Haunted Forest and reach the outskirts of the Dark Fortress",
+          "location": "Haunted Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Infiltrate the Fortress",
+          "description": "Find a way to enter the fortress without being detected",
+          "location": "Dark Fortress outskirts"
+        },
+        {
+          "order": "3",
+          "objective": "Rescue the princess",
+          "description": "Lead the princess out of the fortress and make your escape",
+          "location": "Inside Dark Fortress, escape route"
+        }
+      ]
+    }
+  }
+}

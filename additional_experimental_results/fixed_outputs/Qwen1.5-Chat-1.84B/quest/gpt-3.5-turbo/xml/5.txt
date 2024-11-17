@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<game>
+	<id>67890</id>
+	<title>The Enchanted Forest</title>
+	<objective>Obtain magical artifacts</objective>
+	<description>A journey through an enchanted forest leads to the discovery of mysterious magical artifacts that can grant various powers and abilities to the player. Collect these artifacts, solve puzzles, and overcome challenges to unlock hidden secrets and progress in the game.</description>
+	<reward>Magic wand and other rare items</reward>
+	<quest-giver>Wizard Michael</quest-giver>
+	<tasks>
+			<task>
+			<order>1</order>
+			<objective>Find the lost artifact</objective>
+			<description>Search through various locations in the forest for the magical artifact that is said to be hidden within a powerful crystal. The artifact has the power to grant temporary invincibility, but it can also activate a dangerous curse if not used responsibly.</description>
+			<location>Crystal Cave</location>
+			</task>
+			<task>
+			<order>2</order>
+			<objective>Rescue the magical creature</objective>
+			<description>Save a mythical creature that has been captured by an evil sorcerer. Use your knowledge of magic and combat skills to defeat the sorcerer and rescue the creature.</description>
+			<location>Magical Sanctuary</location>
+			</task>
+			<task>
+			<order>3</order>
+			<objective>Battle against the sorcerer's minions</objective>
+			<description>Fight off the minions of the sorcerer who seek to seize control of the magical artifact. Use your spells and combat skills to defeat the minions and secure the artifact for the player.</description>
+			<location>Sorcerer's lair</location>
+			</task>
+			<task>
+			<order>4</order>
+			<objective>Complete the quest</objective>
+			<description>The final challenge involves obtaining a powerful spellbook that contains ancient magical spells and incantations. Use your knowledge of magic to defeat an evil sorcerer who seeks to use the spells for his own gain.</description>
+			<location>Palace of Sorcerers</location>
+			</task>
+			<task>
+			<order>5</order>
+			<objective>Find the hidden treasure</objective>
+			<description>The ultimate goal is to collect all the magical artifacts and obtain a powerful spellbook. Use your skills, knowledge, and courage to navigate through the enchanted forest, overcome obstacles, and confront the final enemy to claim the treasure.</description>
+			<location>Bottle of Treasures</location>
+			</task>
+			<task>
+			<order>6</order>
+			<objective>Return the artifact to its rightful place</objective>
+			<description>Find a safe place to store the magical artifacts and return them to their correct location, where they can be used to further explore the game world and progress in the story.</description>
+			<location>Museum of Magic</location>
+			</task>
+		</tasks>
+</game>
+
+```

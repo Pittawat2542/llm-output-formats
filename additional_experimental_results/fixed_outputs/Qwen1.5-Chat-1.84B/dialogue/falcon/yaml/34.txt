@@ -1,0 +1,15 @@
+Game YAML data corrected with new values and proper syntax.
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: "Mark" # Fixed the typo by replacing "speaker" with "name"
+      text: Input
+      dialogues:
+         - order: 1
+          speaker: Mark
+          text: Input
+  dialogues:
+    - speaker: Sam
+      text: Input
+```

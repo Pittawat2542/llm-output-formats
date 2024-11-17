@@ -1,0 +1,44 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>123456</id>
+	<title>The Lost Crown</title>
+	<objective>Find the lost crown and return it to the king.</objective>
+	<description>In a land full of magic and mystery, the king's crown has been stolen by an evil sorcerer. It is up to you to embark on a quest to find the crown and bring it back to the king, restoring peace to the kingdom.</description>
+	<reward>A bag of gold coins and the gratitude of the king.</reward>
+	<quest-giver>The king's advisor</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Obtain the ancient map</objective>
+			<description>Speak to the old wise man in the village to learn the location of the ancient map.</description>
+			<location>The village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Journey through the enchanted forest</objective>
+			<description>Navigate through the treacherous enchanted forest using the ancient map as a guide.</description>
+			<location>The enchanted forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the sorcerer's minions</objective>
+			<description>Battle the sorcerer's minions guarding the entrance to his lair.</description>
+			<location>The sorcerer's lair</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the lost crown</objective>
+			<description>Find the lost crown hidden deep within the sorcerer's lair.</description>
+			<location>The sorcerer's lair</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the crown to the king</objective>
+			<description>Return to the king's castle and present him with the recovered crown.</description>
+			<location>The king's castle</location>
+		</task>
+	</tasks>
+</game>
+```

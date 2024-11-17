@@ -1,0 +1,23 @@
+game: {
+  id: 123,
+  name: 'My game',
+  description: 'A description for my game.\n\nThe first enemy is a monster with stats of atk = 10, def = 5, hp = 50, mp = 30, and spd = 8.',
+  enemies: [{
+    id: 45,
+    name: 'First Enemy',
+    description: 'A description for the first enemy.',
+    stats: {atk: 10, def: 5, hp: 50, mp: 30, spd: 8}
+  }, {
+    id: 67,
+    name: 'Second Enemy',
+    description: 'A description for the second enemy.\n\nThe stats of this enemy is atk = 20, def = 15, hp = 75, mp = 40, and spd = 10.',
+    stats: {atk: 20, def: 15, hp: 75, mp: 40, spd: 10}
+  }, {
+    id: 89,
+    name: 'Third Enemy',
+    description: 'A description for the third enemy.\n\nThe stats of this enemy is atk = 30, def = 20, hp = 100, mp = 60, and spd = 12.',
+    stats: {atk: 30, def: 20, hp: 100, mp: 60, spd: 12}
+  }]
+}
+
+

@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>The Quest for El Dorado's Fortune</title>
+    <objective>Reveal the ancient treasure of El Dorado.</objective>
+    <description>A mysterious adventurer seeking wealth seeks your assistance to uncover the secret in Amazonia.</description>
+    <reward>One million gold coins</reward>
+    <quest-giver>Mrs. Smith</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Enter the Amazon rainforest</objective>
+            <description>A perilous journey awaits you, prepare for challenges and wild life.</description>
+            <location>Amazon River Mouth</location>
+        </task>
+        <task order="2">
+            <objective>Uncover the temple's location</objective>
+            <description>Search for clues to guide you through the dense jungle towards the hidden site.</description>
+            <location>Unknown coordinates (pending discovery)</location>
+        </task>
+        <task order="3">
+            <objective>Defeat the guardian beast</objective>
+            <description Your bravery and strategy will be crucial in overcoming this formidable obstacle.</description>
+            <location>Treasure保卫地</location>
+        </task>
+        <task order="4">
+            <objective>Claim the treasure</objective>
+            <description Success is near, claim the riches and make your way back to Mrs. Smith's office.</description>
+            <location>Treasure chamber</location>
+        </task>
+        <task order="5">
+            <objective>Return to Mrs. Smith with the treasure</objective>
+            <description Deliver the treasure and its value to complete your mission.</description>
+            <location>Mrs. Smith's庄园</location>
+        </task>
+    </tasks>
+</game>
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient artifact from the Lost Temple of Eldarath",
+    "description": "Legend has it that the Lost Temple of Eldarath holds an ancient relic with immense power. Many have attempted to retrieve it, but none have returned. The village elder approaches you and asks for your help in retrieving the artifact.",
+    "reward": "Gold: 1000, Experience: 500",
+    "quest_giver": "Village Elder",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Speak to the local expert on ancient ruins",
+        "description": "Seek out Thoric Stonebeard at the local tavern. He is said to have extensive knowledge of ancient ruins.",
+        "location": "Greenhaven Tavern"
+      },
+      {
+        "order": 2,
+        "objective": "Explore the nearby forest for clues",
+        "description": "Search for any markings or signs that may lead you to the Lost Temple of Eldarath. Be cautious, as rumors of dark creatures lurking in the forest have been circulating.",
+        "location": "Whispering Woods"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve a map from an ancient text",
+        "description": "Sneak into the local library after hours and retrieve an ancient text that supposedly contains a map to the Lost Temple of Eldarath.",
+        "location": "Greenhaven Library"
+      }
+    ]
+  }
+}

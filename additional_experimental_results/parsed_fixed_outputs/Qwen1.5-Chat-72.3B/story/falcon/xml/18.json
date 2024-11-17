@@ -1,0 +1,26 @@
+{
+  "game": {
+    "title": "Fixed Game Title",
+    "synopsis": {
+      "story": {
+        "@line": "the beginning of the game",
+        "character": {
+          "@name": "John Doe",
+          "@occupation": "Hero",
+          "lvl": "01",
+          "lvl_name": "Beginner"
+        },
+        "plot": "A small-town hero rises up to face overwhelming odds and save the day."
+      }
+    },
+    "ending": {
+      "character": {
+        "@name": "John Doe",
+        "@occupation": "Hero",
+        "lvl": "01",
+        "lvl_name": "Villain"
+      },
+      "plot": "A small-town hero rises up to face overwhelming odds and save the day."
+    }
+  }
+}

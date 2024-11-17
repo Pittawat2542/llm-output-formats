@@ -1,0 +1,24 @@
+The XML structure appears to be correct now. Here's the code block with the fixed XML data:
+
+```xml
+<game>
+	<id>12345</id>
+	<title>New Quest Title</title>
+	<objective>Complete the Forbidden Cave</objective>
+	<description>A daring adventure awaits you!</description>
+	<reward>Gold and experience points</reward>
+	<quest-giver>King's Advisor</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the ancient map</objective>
+			<description>Follow the creaking tree at the edge of the forest</description>
+			<location>East Forest Edge</location>
+		</task>
+		<task>
+			<order>2</order>
+			<!-- Additional tasks can be added here -->
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple of Eldarath</title>
+	<objective>Retrieve the ancient scrolls from the Lost Temple of Eldarath.</objective>
+	<description>Rumors have been circulating about a hidden temple deep in the heart of the mystical forest, where the ancient civilization of Eldarath once thrived. The temple is said to contain powerful artifacts and knowledge that could change the course of history. Your quest is to venture into the temple, retrieve the ancient scrolls, and bring them back to the village elder.</description>
+	<reward>1000 gold coins, a magical amulet granting resistance to dark magic</reward>
+	<quest-giver>Village Elder Thorne</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				<objective>Navigate through the treacherous paths of the mystical forest and reach the entrance of the Lost Temple.</objective>
+				description>Be cautious of the twisted creatures that lurk in the shadows, and avoid getting lost in the dense foliage. The temple' s entrance is said to be hidden behind a waterfall.</description>
+				<location>Mystical Forest, near the ancient ruins</location>
+			</task>
+			<task>
+				<order>2</order>
+				<objective>Unlock the puzzle of the celestial alignment to unlock the temple doors.</objective>
+				description>Study the ancient carvings on the walls and use your knowledge of astronomy to align the celestial bodies in the correct order. The doors will only open when the stars are aligned properly.</description>
+				<location>Lobby of the Lost Temple</location>
+			</task>
+			<task>
+				<order>3</order>
+				<objective>Raid the treasure chamber and retrieve the ancient scrolls.</objective>
+				description>Beware of the deadly traps set by the ancient Eldarathians to protect their treasures. Use your wits and agility to navigate through the chamber and claim the scrolls.</description>
+				<location>Treasure Chamber, Lost Temple</location>
+			</task>
+		</tasks>
+	</game>

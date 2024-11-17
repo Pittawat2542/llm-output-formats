@@ -1,0 +1,18 @@
+```yaml
+game: dialogues:
+  - order: dialogue order
+    speaker: Sarah
+    text: 'Hello, how are you?'  # corrected for incorrect order
+    order: 2
+    speaker: John
+    text:  'I\'m fine, thanks. How about you?'  # corrected for incorrect order
+    order: 3
+    speaker: Sarah
+    text:  'I\'m good too. So, what do you want to talk about?'  # corrected for correct order
+    order: 4
+    speaker: John
+    text:  'Not much. Just the weather I guess.'  # corrected for incorrect order
+    order: 5
+    speaker: Sarah
+    text:  'The weather? That\'s a new one.'  # corrected for correct order
+```

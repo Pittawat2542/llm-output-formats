@@ -1,0 +1,35 @@
+{
+  "game": {
+    "id": "3456",
+    "title": "Quest for Knowledge",
+    "objective": "Find the Ancient Scroll",
+    "description": "Uncover the secrets of the lost temple",
+    "reward": "Golden Amulet",
+    "quest-giver": "Old Sage",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "objective": "Deliver the scroll to the High Priestess",
+          "description": "Follow the temple ruins to the east",
+          "location": "Temple Ruins East"
+        },
+        {
+          "@order": "2",
+          "@name": "quest_reward_task",
+          "reward": {
+            "@value": "100 gold coins",
+            "#text": "Gold Reward"
+          }
+        },
+        {
+          "@name": "add_task_list",
+          "objective": "Complete the hidden puzzle in the temple",
+          "description": "Puzzle at the entrance, solve for the key",
+          "location": "Puzzle Room"
+        }
+      ]
+    },
+    "xsd:schemaLocation": null
+  }
+}

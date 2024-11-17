@@ -1,0 +1,18 @@
+## Instruction:
+Fix the following incorrect XML data. Correct the syntax and provide new values if needed. If there is nothing wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```. Return output in XML format and only the XML in the Markdown code block. XML.
+
+Error: incorrect_syntax: not well-formed (invalid token): line 11, column 0
+
+Template:
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>dialogue order</order>
+			<speaker>speaker name</speaker>
+			<text>dialogue or narration</text>
+		</dialogue>
+	</dialogues>
+</game>
+
+

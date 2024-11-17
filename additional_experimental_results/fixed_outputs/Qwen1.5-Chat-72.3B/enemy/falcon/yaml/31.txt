@@ -1,0 +1,16 @@
+```yaml
+# Enemy battle status section
+
+game:
+  enemy:
+    description: Invasions - the foe has arrived!
+    id: "NPC123"
+    name: "NPC123"
+    stats:
+      atk: 10
+      def: 100
+      hp: 100
+      mp: 20
+      spd: 1
+```
+In the original YAML, there was a misplaced indentation before `hp:` under `stats`, and then another `hp:` outside of the `stats` mapping. I've corrected the indentation and removed the duplicate `hp` value to create valid YAML data.

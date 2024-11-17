@@ -1,0 +1,27 @@
+<?xml version="1.0" ?> 
+<game>
+	<title>The Lost Treasure</title>
+	 objective>Find the hidden treasure</objective>
+	 description Embark on a thrilling quest to locate the long-lost treasure. Explore mysterious locations, solve challenging puzzles, and overcome dangerous obstacles in order to claim the riches that lie beneath.</description>
+	 reward>A chest full of gold coins and precious gems</reward>
+	<quest-giver>Captain Redbeard</quest-giver>
+	<tasks>
+		<task>
+			order>1</order>
+		 Objective>Obtain a treasure map</objective>
+			description Search the old library for a hidden book that contains the map to the treasure's location.</description>
+		地上The Old Library
+		</task>
+		<task>
+			order>2</order>
+		 Objective> Solve an riddles to uncover the secret to the treasure's location.</description>
+		地上The Lost Treasure
+		</task>
+		<task>
+			order>3</order>
+		 Objective>Discover a hidden chamber filled with valuable artifacts that could be used to find the treasure.</description>
+		地上The Hidden Chamber
+		</task>
+	</tasks>
+</game>
+```

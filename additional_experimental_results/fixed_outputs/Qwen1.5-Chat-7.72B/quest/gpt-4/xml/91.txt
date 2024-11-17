@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>quest01</id>
+    <title>The Lost Relic</title>
+    <objective>Find the lost relic</objective>
+    <description>A small town's relic has been stolen. Solve the mystery and return the relic to the Mayor.</description>
+    <reward>500 gold coins</reward>
+    <quest-giver>Mayor of the town</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Investigate museum for clues</objective>
+            <description>Go to the town's museum and gather information about the theft.</description>
+            <location>Town's museum</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Track thief's trail</objective>
+            <description>Follow the trail and find the thief's hideout.</description>
+            <location>Unknown location</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Recover relic from hideout</objective>
+            <description>Befind and return the relic without detection at the thief's hideout.</description>
+            <location>Thief's hideout</location>
+        </task>
+    </tasks>
+</game>
+```

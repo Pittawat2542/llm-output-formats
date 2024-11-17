@@ -1,0 +1,31 @@
+Here is the corrected XML data with new values:
+```xml
+<?xml version="1.0" xmlns="http://www.game.com/Game" xmlns:xsi="http://www.game.com/XMLSchema#Game">
+    <id>1</id>
+    <title>The Quest</title>
+    <objective>Find the Dragon's Gold</objective>
+    <description>This quest is about finding the Dragon's Gold.</description>
+    <reward>10000 Gold</reward>
+    <quest-giver>The Dragon</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Find the Dragon's Gold</objective>
+            <description>Find the Dragon's Gold.</description>
+            <location>Dragon's Lair</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Find the Dragon's Gold</objective>
+            <description>Find the Dragon's Gold.</description>
+            <location>Dragon's Lair</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Find the Dragon's Gold</objective>
+            <description>Find the Dragon's Gold.</description>
+            <location>Dragon's Lair</location>
+        </task>
+    </tasks>
+</game>
+```

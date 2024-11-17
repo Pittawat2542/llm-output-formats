@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Amulet</title>
+	<objective>Retrieve the ancient amulet hidden in the cave.</objective>
+	<description>Ancient legends speak of a powerful amulet hidden deep within the treacherous Cave of Shadows. Many adventurers have embarked on this quest, but none have returned. Do you have what it takes to retrieve the lost amulet and become a legend in your own right?</description>
+	<reward>1000 gold coins and the admiration of the entire kingdom</reward>
+	<quest-giver>King Richard</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Find the entrance to the Cave of Shadows</objective>
+				<location>Old Ruins</location>
+			</task>
+			<task>
+				<order>2</order>
+			<objective>Defeat the guardian creatures</objective>
+				<location>Cave of Shadows</location>
+			</task>
+			<task>
+				<order>3</order>
+			<objective>Locate the chamber with the amulet</objective>
+				<location>Cave of Shadows</location>
+			</task>
+			<task>
+				<order>4</order>
+			<objective>Retrieve the lost amulet</objective>
+				<location>Cave of Shadows</location>
+			</task>
+		</tasks>
+</game>
+
+```

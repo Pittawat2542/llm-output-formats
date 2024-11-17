@@ -1,0 +1,23 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "New Quest Title",
+    "objective": "Complete the Forbidden Cave",
+    "description": "A daring adventure awaits you!",
+    "reward": "Gold and experience points",
+    "quest-giver": "King's Advisor",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the ancient map",
+          "description": "Follow the creaking tree at the edge of the forest",
+          "location": "East Forest Edge"
+        },
+        {
+          "order": "2"
+        }
+      ]
+    }
+  }
+}

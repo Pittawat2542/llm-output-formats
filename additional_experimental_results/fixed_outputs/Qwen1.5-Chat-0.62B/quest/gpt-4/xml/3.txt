@@ -1,0 +1,1565 @@
+The correct XML data is:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</ reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			/objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			<location>Blacksmith's forge</location>
+			<task>
+				<order>2</order>
+			 Objective>Head to the dragon's lair</Objective>
+				<description>Travel into the mountains towards the East to find the dragon's lair</description>
+			经验值: 350
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>3</order>
+			 Objective>Slay the dragon</objective>
+				<description>Engage in battle with the dragon and bring back its heart as proof</description>
+			经验值: 400
+				color: gold
+			 location: Dragon's lair
+			</task>
+			<task>
+				<order>4</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 500
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>4</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 600
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>4</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 700
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>5</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 800
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>6</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 900
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>6</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1000
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>7</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1100
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>7</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1200
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>8</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1300
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>8</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1400
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>9</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1500
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+			<task>
+				<order>9</order>
+			 Objective>Gather weapons</objective>
+				<description>Visit the blacksmith and collect your weapons to take down the dragon</description>
+			经验值: 1600
+				color: gold
+			 location: Blacksmith's forge
+			</task>
+	</tasks>
+</game>
+
+```
+The correct code block in Markdown format is:
+```markdown
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 350
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Head to the dragon's lair</object>
+			<description>Travel into the mountains towards the East to find the dragon's lair.</description>
+		经验值: 400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Slay the dragon</object>
+			<description>Engage in battle with the dragon and bring back its heart as proof.</description>
+		经验值: 500
+			color: gold
+		 location: Dragon's lair
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+	</tasks>
+</game>
+
+```
+The code block in Markdown format is:
+```markdown
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	<objective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</ reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 350
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Head to the dragon's lair</object>
+			<description>Travel into the mountains towards the East to find the dragon's lair.</description>
+		经验值: 400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Slay the dragon</object>
+			<description>Engage in battle with the dragon and bring back its heart as proof.</description>
+		经验值: 500
+			color: gold
+		 location: Dragon's lair
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+	</tasks>
+</game>
+
+```
+The code block in Markdown format is:
+```markdown
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	bjective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</ reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 350
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Head to the dragon's lair</object>
+			<description>Travel into the mountains towards the East to find the dragon's lair.</description>
+		经验值: 400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Slay the dragon</object>
+			<description>Engage in battle with the dragon and bring back its heart as proof.</description>
+		经验值: 500
+			color: gold
+		 location: Dragon's lair
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+	</tasks>
+</game>
+
+```
+The code block in Markdown format is:
+```markdown
+<game>
+	<id>12345</id>
+	<title>Dragon's Lair</title>
+	bjective>Defeat the dragon</objective>
+	<description>Travel towards the mountains in the East, into the dragon's lair. Your mission is to slay the dragon and bring back its heart as proof.</description>
+	<reward>5000 gold coins and the Dragon Slayer title</ reward>
+	<quest-giver>King Arthur</quest-giver>
+	<tasks>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 350
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Head to the dragon's lair</object>
+			<description>Travel into the mountains towards the East to find the dragon's lair.</description>
+		经验值: 400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Slay the dragon</object>
+			<description>Engage in battle with the dragon and bring back its heart as proof.</description>
+		经验值: 500
+			color: gold
+		 location: Dragon's lair
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 1900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 2900
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3100
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3200
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3300
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3400
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3500
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3600
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3700
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3800
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 3900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4000
+			color: gold
+		 location: Blacksmith's forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4800
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 4900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5800
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 5900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6800
+			color: gold
+		 location: Blacksmith's Forge
+		</ task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 6900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7400
+			color: gold
+		 location: Blacksmith's Forge
+		</ task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7800
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 7900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8500
+			color: gold
+		 location: Blacksmith's Forge
+		</ task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8800
+			color: gold
+		 location: Blacksmith's Forge
+		</ task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 8900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9800
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 9900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10100
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10200
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10300
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10400
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10500
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10600
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10700
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10800
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 10900
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值: 11000
+			color: gold
+		 location: Blacksmith's Forge
+		</task>
+		<task>
+			<title></title>
+		 Objective>Gather weapons</object>
+			<description>Visit the blacksmith and collect your weapons to take down the dragon.</description>
+		经验值:

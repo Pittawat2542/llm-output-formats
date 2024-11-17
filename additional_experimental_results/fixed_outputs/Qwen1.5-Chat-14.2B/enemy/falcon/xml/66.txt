@@ -1,0 +1,53 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <enemy>
+        <id>ID1</id>
+        <name>Wolverine</name>
+        <description>An aggressive and relentless mutant.</description>
+        <stats>
+            <hp>500</hp>
+            <mp>200</mp>
+            <atk>100</atk>
+            <def>80</def>
+            <spd>60</spd>
+        </stats>
+    </enemy>
+    <enemy>
+        <id>ID2</id>
+        <name>Iron Man</name>
+        <description>A billionaire industrialist turned superhero.</description>
+        <stats>
+            <hp>700</hp>
+            <mp>350</mp>
+            <atk>120</atk>
+            <def>90</def>
+            <spd>100</spd>
+        </stats>
+    </enemy>
+    <enemy>
+        <id>ID3</id>
+        <name>Green Arrow</name>
+        <description>A skilled archer and vigilante.</description>
+        <stats>
+            <hp>650</hp>
+            <mp>250</mp>
+            <atk>95</atk>
+            <def>75</def>
+            <spd>80</spd>
+        </stats>
+    </enemy>
+    <enemy>
+        <id>ID4</id>
+        <name>Captain America</name>
+        <description>A super soldier with an unwavering commitment to justice.</description>
+        <stats>
+            <hp>800</hp>
+            <mp>300</mp>
+            <atk>110</atk>
+            <def>95</def>
+            <spd>90</spd>
+        </stats>
+    </enemy>
+</game>
+```

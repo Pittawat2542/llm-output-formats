@@ -1,0 +1,25 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "order": "dialogue order",
+        "speaker": {
+          "name": "character name"
+        },
+        "text": "dialogue or narration"
+      }
+    ]
+  },
+  "character": "character name",
+  "YAML": {
+    "order": "YAML order",
+    "speaker": {
+      "name": {
+        "return": "speaker name"
+      }
+    },
+    "->": {
+      "return": "YAML block of return text"
+    }
+  }
+}

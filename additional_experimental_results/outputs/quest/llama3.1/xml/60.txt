@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Temple</title>
+	<objective>Retrieve the ancient artifact from the lost temple.</objective>
+	<description>A powerful artifact has been hidden within a long-abandoned temple deep in the jungle. The artifact is said to grant immense power, and various factions are vying for control of it. Your mission is to retrieve the artifact before they do.</description>
+	<reward>1000 gold coins, increased reputation with the local guild</reward>
+	<quest-giver>High Priestess Elara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the treacherous jungle terrain to reach the lost temple.</objective>
+			<description>Make your way through the dense jungle, avoiding deadly creatures and overcoming obstacles along the way. Follow the map provided by High Priestess Elara to ensure you're on the right path.</description>
+			<location>Jungle of Whispers</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the ancient temple puzzles to unlock the artifact chamber.</objective>
+			<description>Use your wits and knowledge to overcome the ancient traps and puzzles guarding the artifact. You'll need to solve a series of complex riddles and trials to reach the chamber containing the artifact.</description>
+			<location>Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

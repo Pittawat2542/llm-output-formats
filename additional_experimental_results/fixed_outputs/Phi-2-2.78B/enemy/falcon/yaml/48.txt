@@ -1,0 +1,18 @@
+---
+- name: player
+  stats:
+    def: 5
+    hp: 25
+    mp: 7
+    atk: 4
+  enemy:
+    description: description
+    id: id
+    name: name
+    stats:
+      atk: 2
+      def: 3
+      hp: 10
+      mp: 6
+      spd: 1
+

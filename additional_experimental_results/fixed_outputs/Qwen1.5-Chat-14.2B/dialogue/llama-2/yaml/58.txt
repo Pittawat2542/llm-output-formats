@@ -1,0 +1,15 @@
+The issue with the provided YAML data is that there are no values assigned to the `text` key in each dialogue item. Here's the corrected YAML for all examples:
+
+```yaml
+game:
+  dialogues:
+  - order: dialogue order
+    speaker: speaker name
+    text: Dialogue or narration
+
+# Example 2 to 89, same structure with just a dash removed and no values provided (as they are not needed in this template)
+- order: dialogue order
+    speaker: speaker name
+```
+
+Note that if you want to provide specific dialogue or narration for each example, replace the `text: Dialogue or narration` line with the appropriate text.

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>QST007</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the lost artifact from the cave of mysteries</objective>
+	<description>Legend has it that a precious artifact was lost in the mysterious cave many years ago. Many have tried to retrieve it but none have returned successful. Your quest if you choose to accept, is to navigate through the dark cave, fight off the menacing creatures and retrieve the artifact.</description>
+	<reward>5000 Gold, Artifact Knowledge</reward>
+	<quest-giver>Wizard Elderon</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the entrance to the cave of mysteries</objective>
+			<description>Use the ancient map given by the wizard to find the hidden entrance of the cave.</description>
+			<location>Misty Mountains</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Fight off the creatures in the cave</objective>
+			<description>Once inside, you will be confronted by the cave creatures. You must fight them off to proceed deeper into the cave.</description>
+			<location>The Cave of Mysteries</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the lost artifact</objective>
+			<description>In the heart of the cave lies the artifact. Retrieve it and return it to the wizard.</description>
+			<location>The Cave of Mysteries - Deepest Chamber</location>
+		</task>
+	</tasks>
+</game>
+```

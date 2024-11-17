@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Explore the ancient temple and retrieve a powerful artifact.",
+    "description": "Rumors have been circulating about a lost temple hidden deep within the jungle, containing a powerful artifact that could bring great prosperity to our village. We need a brave adventurer to explore the temple, navigate its treacherous traps, and retrieve the artifact.",
+    "reward": "1000 gold coins, increased reputation in the village",
+    "quest-giver": "Elder Thorne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost temple's location",
+          "description": "Talk to the villagers and gather clues about the temple's whereabouts.",
+          "location": "Village Square"
+        },
+        {
+          "order": "2",
+          "objective": "Reach the jungle entrance",
+          "description": "Head east from the village and follow the winding path until you reach the jungle entrance.",
+          "location": "Jungle Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate through the treacherous jungle terrain",
+          "description": "Be careful of wild beasts and deadly traps as you make your way deeper into the jungle.",
+          "location": "Jungle Terrain"
+        },
+        {
+          "order": "4",
+          "objective": "Find the temple entrance",
+          "description": "Search for the ancient stone structure hidden behind the foliage.",
+          "location": "Temple Entrance"
+        },
+        {
+          "order": "5",
+          "objective": "Rerieve the artifact and escape the temple",
+          "description": "Solve puzzles, avoid traps, and fight off fierce creatures to reach the artifact. Once obtained, make your way back through the jungle and return to the village.",
+          "location": "Temple Interior"
+        }
+      ]
+    }
+  }
+}

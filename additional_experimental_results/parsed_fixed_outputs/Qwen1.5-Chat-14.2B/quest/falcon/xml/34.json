@@ -1,0 +1,28 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "A Quest to Save the Kingdom",
+    "objective": "Conquer the Dark Tower and defeat the evil sorcerer",
+    "description": "You have been chosen by the king to embark on a journey to retrieve the mystical amulet that holds the key to defeating the sorcerer. Along the way, you'll encounter various challenges and allies.",
+    "reward": "Royal Amulet, 100 Gold Pieces, Hero's Medal",
+    "quest-giver": "King Edward",
+    "tasks": {
+      "task": [
+        {
+          "@id": "1",
+          "order": "1",
+          "objective": "Visit the village of Willowgrove for clues about the amulet",
+          "description": "Pick up a map from the village elder's house and gather information about the Dark Tower's location.",
+          "location": "Willowgrove Village"
+        },
+        {
+          "@id": "2",
+          "order": "2",
+          "objective": "Cross the River of Shadows to reach the ancient forest",
+          "description": "Ferry across the river using the local guide's service and navigate through the enchanted woods.",
+          "location": "River of Shadows, Ancient Forest"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+```yaml
+game:
+  description: The village of Oakwood is plagued by a group of bandits who have taken over the nearby mine. They have stolen valuable resources and are terrorizing the villagers.
+  id: Q001
+  objective: Clear the mine of bandits and retrieve the stolen goods.
+  quest_giver: Mayor Thomas
+  reward:
+    - 1000 gold coins
+    - A magical amulet granting +10% resistance to poison damage
+  tasks:
+  - description: Meet with the mayor to discuss the situation and receive your mission briefing.
+    location: Oakwood Village Hall
+    objective: Speak with Mayor Thomas
+    order: 1
+  - description: Head to the mine and scout out the bandit camp.
+    location: Oakwood Mine
+    objective: Gather information about the bandit's numbers and movements
+    order: 2
+  - description: Launch a surprise attack on the bandits and clear them out of the mine.
+    location: Oakwood Mine
+    objective: Defeat all bandits in the mine
+    order: 3
+  title: "Clearing the Mine"
+```

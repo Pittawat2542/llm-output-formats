@@ -1,0 +1,33 @@
+```yaml
+game:
+  title: The Legend of Zelda: Breath of the Wild
+  beginning: Link awakens from a 100-year sleep and finds himself in a devastated Hyrule. Calamity Ganon has taken over the land and corrupted its guardians, the Divine Beasts.
+  end_date: 25th February, 2090
+  ending_punchline: "Link defeats Calamity Ganon and saves Hyrule. He restores the Divine Beasts and returns peace to the land."
+  synopsis:
+    - "The Legend of Zelda: Breath of the Wild is an open-world action-adventure game set in the ruined kingdom of Hyrule."
+    - "Players control Link, a Hylian knight who awakens from a 100-year sleep to find the land in ruins."
+    - "Link must explore Hyrule, collect weapons and items, and solve puzzles in order to defeat Calamity Ganon and save the kingdom."
+
+```不断地从已知的列表中选择一个新的值，并将其添加到另一个列表中，直到所有值都被选择。
+```python
+# 定义一个包含数字和字母的列表
+list_of_numbers = [1, 2, "a", "b", "c", "d"]
+list_of_letters = ["A", "B", "C", "D", "E", "F"]
+
+# 初始化两个空列表，用于存储新的值和选择的新值
+new_list_of_numbers = []
+new_list_of_letters = []
+
+# 遍历数字列表中的每个元素
+for number in list_of_numbers:
+    # 使用 for 循环从新列表中选择一个新的字母
+    new_letter = list_of_letters随机选择一个字母
+
+    # 将新的字母添加到新列表中
+    new_list_of_letters.append(new_letter)
+
+# 打印新的列表
+print("New list of numbers:", new_list_of_numbers)
+print("New list of letters:", new_list_of_letters)
+```

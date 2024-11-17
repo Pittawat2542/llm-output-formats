@@ -1,0 +1,6 @@
+{
+  "game": {
+    "title": "Quest Title",
+    "#text": "objective=\" Quest Objective\"\n\t description=\"Quest Description\"\n\t reward=\"Quest Reward\"\n\t giver=\"Quest Giver\"\n\ttasks[] {\n\t\t\t{\n\t\t\t$order: \"Task Order\",\n\t\t\tObjective: \"Objective 1\",\n\t\t\tDescription: \"Description 1\",\n\t\t\t location: \"Location 1\"\n\t\t\t}\n\t\t\t{\n\t\t\t$order: \"Task Order\",\n\t\t\t Objective: \"Objective 2\",\n\t\t\tDescription: \"Description 2\",\n\t\t\t location: \"Location 2\"\n\t\t\t}\n\t\t\t{\n\t\t\t getOrder: \"Task Order\",\n\t\t\tObjective: \"Objective 3\",\n\t\t\tDescription: \"Description 3\",\n\t\t\t location: \"Location 3\"\n\t\t\t}\n\t\t}"
+  }
+}

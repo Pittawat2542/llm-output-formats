@@ -1,0 +1,48 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Missing Scholar",
+    "objective": "Find the missing scholar, Professor Aldous, in the Ruins of Oldoria.",
+    "description": "Professor Aldous, a renowned scholar from the University of Arcania, has gone missing while conducting research in the Ruins of Oldoria. Players must venture into the ruins, uncover clues, and face treacherous challenges to locate the missing professor.",
+    "reward": {
+      "experience": "1000",
+      "gold": "500",
+      "item": "Professor Aldous's Journal"
+    },
+    "quest-giver": "Headmaster Orin",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate Professor Aldous's Lost Compass.",
+          "description": "Search the Ruins of Oldoria for Professor Aldous's Lost Compass. This device may hold clues to his whereabouts.",
+          "location": "Ruins of Oldoria"
+        },
+        {
+          "order": "2",
+          "objective": "Consult the Sacred Library in Silverglen.",
+          "description": "Visit the Sacred Library and speak with the Wise Archivist. She might have information regarding Professor Aldous's disappearance.",
+          "location": "Sacred Library, Silverglen"
+        },
+        {
+          "order": "3",
+          "objective": "Examine the Ancient Observatory.",
+          "description": "Explore the Ancient Observatory northwest of Oldoria to uncover any clues connected to Professor Aldous.",
+          "location": "Ancient Observatory"
+        },
+        {
+          "order": "4",
+          "objective": "Obtain the Paradox Crystal from the Ancient Observatory.",
+          "description": "Find the Paradox Crystal within the observatory, as it may hold a clue needed to find the missing scholar.",
+          "location": "Ancient Observatory"
+        },
+        {
+          "order": "5",
+          "objective": "Rescue Professor Aldous at the Dark Portal.",
+          "description": "Use the Paradox Crystal to access the Dark Portal in Oldoria and confront those responsible for his disappearance.",
+          "location": "Dark Portal, Ruins of Oldoria"
+        }
+      ]
+    }
+  }
+}

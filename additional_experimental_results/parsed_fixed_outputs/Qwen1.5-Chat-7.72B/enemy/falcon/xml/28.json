@@ -1,0 +1,26 @@
+{
+  "game": {
+    "enemy": {
+      "@id": "en01",
+      "name": "Goblin",
+      "description": "Fierce and quick on its feet.",
+      "stats": {
+        "hp": {
+          "@value": "50"
+        },
+        "mp": {
+          "@value": "20"
+        },
+        "atk": {
+          "@value": "30"
+        },
+        "def": {
+          "@value": "15"
+        },
+        "spd": {
+          "@value": "40"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+Here is the quest information in XML format:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>QST001</id>
+  <title>The Lost Temple</title>
+  <objective>Retrieve the ancient artifact from the lost temple</objective>
+  <description>Rumors have been circulating about a long-lost temple deep in the jungle, containing an ancient artifact of great power. Retrieve the artifact and bring it back to the village elder.</description>
+  <reward>1000 gold pieces, a magical amulet, and the gratitude of the villagers</reward>
+  <quest-giver>Village Elder</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Gather information about the lost temple from the village elder's journal</objective>
+      <description>Read through the village elder's journal to learn more about the location and layout of the lost temple.</description>
+      <location>Village Elder's Hut</location>
+    </task>
+    <task>
+      <order>2</order>
+      <objective>Explore the jungle and find the entrance to the lost temple</objective>
+      <description>Brave the dangers of the jungle and search for the hidden entrance to the lost temple.</description>
+      <location>Jungle</location>
+    </task>
+    <task>
+      <order>3</order>
+      <objective>Navigate through the temple's traps and puzzles to reach the artifact</objective>
+      <description>Use your wits and reflexes to overcome the deadly traps and solve the ancient puzzles that guard the artifact.</description>
+      <location>Lost Temple</location>
+    </task>
+  </tasks>
+</game>
+```

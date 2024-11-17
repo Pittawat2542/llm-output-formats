@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Amulet</title>
+	<objective>Find the lost amulet of the ancient king.</objective>
+	<description>The amulet was stolen from the king's tomb by a group of bandits. It is said to be hidden in a cave deep in the forest.</description>
+	<reward>The amulet, which is worth a fortune.</reward>
+	<quest-giver>The king's advisor</quest-giver> %%This line was missing a closing quote%%
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to the bandits.</objective>
+			<description>The bandits may know where the amulet is hidden.</description>
+			<location>The bandit camp in the forest.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the cave.</objective>
+			<description>The cave is hidden deep in the forest. It is said to be guarded by a dragon.</description>
+			<location>The forest.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the dragon.</objective>
+			<description>The dragon is a powerful creature. It will be a tough fight.</description>
+			<location>The cave.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the amulet.</objective>
+			<description>The amulet is hidden in a chest in the cave.</description>
+			<location>The cave.</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the amulet to the king.</objective>
+			<description>The king will be grateful for your help.</description>
+			<location>The king's castle.</location>
+		</task>
+	</tasks>
+</game>
+```

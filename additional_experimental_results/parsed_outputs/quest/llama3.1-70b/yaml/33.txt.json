@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The village of Oakwood is plagued by a group of bandits who have taken over the old windmill on the outskirts of town. They've been stealing food and supplies from the villagers, leaving many without enough to eat.",
+    "id": "qst001",
+    "objective": "Clear out the bandits from the old windmill and retrieve the stolen goods.",
+    "quest_giver": "Thorne Blackwood, Village Elder",
+    "reward": {
+      "experience_points": 1000,
+      "gold_coins": 500,
+      "items": [
+        "Healing Potion (x3)"
+      ]
+    },
+    "tasks": [
+      {
+        "description": "Gather information about the bandits' numbers and movements from the villagers.",
+        "location": "Oakwood Village",
+        "objective": "Talk to 5 villagers about the bandit problem.",
+        "order": 1
+      },
+      {
+        "description": "Infiltrate the old windmill and clear out the first floor of bandits.",
+        "location": "Old Windmill",
+        "objective": "Defeat 10 bandits on the first floor.",
+        "order": 2
+      }
+    ],
+    "title": "Clearing the Windmill"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple of Eldarath",
+    "objective": "Retrieve the ancient artifact from the lost temple",
+    "description": "A powerful artifact has been stolen from our kingdom, and we have reason to believe it is hidden in the long-abandoned temple of Eldarath. Retrieve the artifact and bring it back to us.",
+    "reward": "1000 gold coins and a magical amulet granting +2 intelligence",
+    "quest-giver": "King Arin II",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Reach the entrance of the lost temple",
+          "description": "The temple is said to be hidden deep within the nearby forest. Make your way through the treacherous terrain and find the entrance.",
+          "location": "Eldarath Forest, 3 miles east of the kingdom"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the temple's traps and puzzles",
+          "description": "The temple is said to be filled with deadly traps and complex puzzles. Use your wits and cunning to overcome these obstacles.",
+          "location": "Inside the lost temple of Eldarath"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the artifact from the treasure chamber",
+          "description": "The artifact is said to be hidden in a treasure chamber deep within the temple. Fight off any guardians and retrieve the artifact.",
+          "location": "Treasure Chamber, lost temple of Eldarath"
+        }
+      ]
+    }
+  }
+}

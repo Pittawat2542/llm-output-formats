@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>2</id>
+        <name>Asmodeus</name>
+        <description>The Adversary of God</description>
+        <stats>
+            <hp>300</hp>
+            <mp>150</mp>
+            <atk>150</atk>
+            <def>120</def>
+            <spd>110</spd>
+        </stats>
+    </enemy>
+</game>
+```
+In this example, the issue was with incorrect closing tags for the `<stats>` and `</enemy>` elements. I have corrected them by adding a forward slash (`/`) after each tag, and also updated the `id` value to `2` (since it's not specified in the original data). The XML now follows the correct syntax and structure.

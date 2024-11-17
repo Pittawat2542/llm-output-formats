@@ -1,0 +1,37 @@
+
+<xml>
+	<game>
+		<id>1</id>
+		<title>In Search of the Lost Relic</title>
+		<objective>Recover the lost relic from the ancient ruins.</objective>
+		<description>The ancient relic is said to hold great power, and many have sought to find it. You have been hired by a wealthy collector to locate the relic and bring it to him.</description>
+		<reward>A large sum of money and a rare artifact.</reward>
+		<quest-giver>Sir Reginald</quest-giver>
+		<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the ancient ruins.</objective>
+			<description>The ruins are located in a remote and dangerous part of the world. You will need to be careful and well-prepared.</description>
+			<location>The ancient ruins are located in the Valley of the Dead.</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the entrance to the underground chamber where the relic is hidden.</objective>
+			<description>The entrance to the chamber is well-hidden. You will need to use your wits and your skills to find it.</description>
+			<location>The entrance to the chamber is located in the center of the ruins.</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the relic from the chamber.</objective>
+			<description>The relic is guarded by a powerful creature. You will need to defeat the creature in order to retrieve the relic.</description>
+			<location>The relic is located in the center of the chamber.</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return to Sir Reginald with the relic.</objective>
+			<description>Once you have retrieved the relic, you will need to return to Sir Reginald and deliver it to him.</description>
+			<location>Sir Reginald is located in his mansion in the city of Veridian.</location>
+		</task>
+	</tasks>
+</game>
+

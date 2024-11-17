@@ -1,0 +1,35 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "Quest of the Ancient Ruins",
+    "objective": "Find and decipher three ancient artifacts",
+    "description": "A journey to uncover a hidden treasure",
+    "reward": "Gold coins, magical amulet, and a map leading to a secret cave",
+    "quest-giver": "Old Aric, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "@order": "1",
+          "order": "1",
+          "objective": "Explore the nearby forest for the first artifact",
+          "description": "Look for a fallen tree with a mysterious symbol carved on it",
+          "location": "Forest East edge"
+        },
+        {
+          "@order": "2",
+          "order": "2",
+          "objective": "Search the ruins of an ancient temple for the second artifact",
+          "description": "The temple is guarded by a stone guardian, solve its riddle",
+          "location": "Ruins West"
+        },
+        {
+          "@order": "3",
+          "order": "3",
+          "objective": "Uncover the secret cave at the coast using the map from the third artifact",
+          "description": "The entrance is behind a large rock, be cautious of sea creatures",
+          "location": "Cave by the Sea"
+        }
+      ]
+    }
+  }
+}

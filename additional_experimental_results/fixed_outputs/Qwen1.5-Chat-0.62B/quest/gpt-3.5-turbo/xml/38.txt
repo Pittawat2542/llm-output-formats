@@ -1,0 +1,51 @@
+The correct XML data is provided in the code block between the two lines. The corrected syntax is:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Amulet</title>
+	objective>Retrieve the ancient amulet from the depths of the Forbidden Temple.</objective>
+	<description>Legend has it that an ancient amulet with unimaginable power lies hidden deep within the Forbidden Temple.
+		Many have tried to find it but none have succeeded. Are you brave enough to take up this quest and
+		venture into the treacherous temple? The fate of the world may rest in your hands!
+	</description>
+	<reward>Ancient Amulet of Power</ reward>
+	quest-giver>Master Sage</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 objective>Obtain the Temple Key</objective>
+			<description>
+				The Forbidden Temple is sealed off from the outside world. To gain entry, you must find the
+				Temple Key. It is said to be hidden somewhere in the Enchanted Forest. Search for clues and
+				beware of the magical creatures that inhabit the forest!
+				</order>
+			<task>
+				<order>2</order>
+			 objective>Navigate the Temple's Chambers</objective>
+				<description>
+				Once you have obtained the Temple Key, make your way to the entrance of the Forbidden Temple.
+				The temple is known for its complex chambers filled with traps and puzzles. Use your wit and
+				skills to navigate through the treacherous paths and reach the inner sanctum.
+				</order>
+			<task>
+				<order>3</order>
+			 objective>Defeat the Guardian Beast</objective>
+				<description>
+				As you approach the inner sanctum, a fearsome Guardian Beast stands in your way. This creature
+				is fiercely protective of the amulet and will not let anyone pass without a fight. Prepare yourself
+				for a challenging battle against the Guardian Beast and prove your worth to claim the amulet.
+				</order>
+			<task>
+				<order>4</order>
+			 objective>Find the Lost Amulet</objective>
+				<description>After obtaining the Temple Key, you must find the lost Amulet in the
+				Enchanted Forest. If you succeed, it will be guarded by the guardian Beast and will present itself
+				for your inspection.
+				</order>
+			</task>
+	</tasks>
+
+```
+The output is an updated version of the XML data.

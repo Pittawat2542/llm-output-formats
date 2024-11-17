@@ -1,0 +1,39 @@
+{
+  "game": {
+    "id": "id",
+    "title": "Treasure Hunt",
+    "objective": "Find the lost treasure of Captain Jack.",
+    "description": "Captain Jack's treasure is said to be hidden on a remote island. Find the treasure and bring it back to me.",
+    "reward": "500 gold coins",
+    "quest-giver": "Blackbeard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "quest-generator": "Map",
+          "objective": "Find the map to the island.",
+          "description": "The map to the island is said to be hidden in the old church.",
+          "location": "Old Church"
+        },
+        {
+          "order": "2",
+          "objective": "Travel to the island.",
+          "description": "Once you have the map, you can use it to find the island.",
+          "location": "Remote Island"
+        },
+        {
+          "order": "3",
+          "objective": "Find the treasure in a cave on the island.",
+          "description": "The treasure's location is known to be a cave.",
+          "location": "Cave on Remote Island"
+        },
+        {
+          "order": "4",
+          "objective": "Return the treasure to Blackbeard.",
+          "description": "Bring the treasure back to Blackbeard's hideout.",
+          "location": "Blackbeard's Hideout"
+        }
+      ]
+    }
+  }
+}

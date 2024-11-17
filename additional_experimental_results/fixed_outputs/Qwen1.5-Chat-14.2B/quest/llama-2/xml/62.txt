@@ -1,0 +1,25 @@
+```xml
+<game xmlns="http://example.com/game">
+	<id>1</id>
+	<title>The Quest</title>
+	<objective>To find the lost treasure</objective>
+	<description>This is a quest to find the lost treasure</description>
+	<reward>A magic sword</reward>
+	<quest-giver>The King</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the lost treasure</objective>
+			<description>Find the lost treasure</description>
+			<location>The Lost Treasure</location>
+		</task>
+	</tasks>
+</game>
+```
+In this corrected version, I added a `xmlns` attribute to the root `<game>` element to provide a namespace (even though it's not strictly necessary here). The rest of the XML structure is already correct.

@@ -1,0 +1,18 @@
+```yaml
+# Output in YAML format with corrections
+game:
+  character:
+    age: "exact age or description"
+    background: "background story"
+    first_name: "first name"
+    id: "id"
+    last_name: "last name"
+    physical_appearance:
+      - eye_color: "eye color"
+        hair_color: "hair color"
+        height: "<height> in <weight>"  # Float value for height and weight
+    place_of_birth: "location"
+    role: "role of the character"
+    species: "species"
+```
+The YAML data has been corrected by adding missing colons, rearranging key-value pairs, and fixing spacing issues. The ages, last name, physical appearance values, and `place_of_birth` have also been reformatted for better readability.

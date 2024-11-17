@@ -1,0 +1,34 @@
+```yaml
+# Quest description
+# New keys added:
+- sorcerer_king_treasure: treasure_value
+- outer chamber_access: access_to_outer_chamber
+
+game:
+  description: quest_description
+  id: id
+  objective: quest_objective
+  quest_giver: quest_giver
+  reward: quest_reward
+  tasks:
+   - description: task_description
+    location: task_location
+    objective: taskobjective
+    order: task_order
+  title: quest_title
+
+# Quest details for sorcerer_king_treasure and outer chamber_access
+- Sorcerer King's Treasure:
+    - Description: The Sorcerer King's treasure is a powerful artifact that can grant immense magical abilities to its possessor. It is said to be hidden deep within the castle's underground chambers.
+      - Location: The entrance to the inner chamber, typically guarded by ancient stone doors.
+      - Objective: The objective of finding and retrieving the Sorcerer King's Treasure is to uncover its location and retrieve it for your kingdom.
+    - Reward: Upon defeating the obstacles guarding the treasure, you will receive a valuable reward that could significantly benefit your kingdom.
+
+- Outer Chamber Access:
+    - Description: Access to the outer chamber is granted upon completion of the quest. It is typically found at the end of the hallway leading into the inner chamber, guarded by a series of locked doors.
+      - Objective: The objective of unlocking the outer chamber is to gain access to the inner chamber and complete the quest.
+    - Reward: Upon successfully entering the outer chamber, you will be granted access to the hidden chambers within, where you may encounter additional tasks or rewards that are specific to the quest objectives. These could include finding additional artifacts, defeating new monsters, or encountering key characters who can provide further assistance in your quest.
+
+- Quest title
+  - Title: King of the Sorcerer King's Kingdom
+```

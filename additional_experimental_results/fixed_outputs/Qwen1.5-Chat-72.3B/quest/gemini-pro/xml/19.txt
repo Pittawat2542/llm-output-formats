@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>Ancient Forgotten Temple</title>
+	<objective>Retrieve the ancient relic hidden within the forgotten temple.</objective>
+	<description>Legends speak of an ancient temple lost to time. Locals claim it houses a relic with unimaginable powers. Find the temple and retrieve the relic.</description>
+	<reward>The ancient relic, experience, and reputation.</reward>
+	<quest-giver>Elder Bard</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Forgotten Temple.</objective>
+			<description>Venture into the heart of the forest to find the long-lost Forgotten Temple.</description>
+			<location>Deep Forest</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the temple's riddles and puzzles.</objective>
+			<description>Navigate through the temple's intricate challenges and ancient traps.</description>
+			<location>Forgotten Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the temple's guardian.</objective>
+			<description>Face the temple's powerful guardian to claim the relic.</description>
+			<location>Forgotten Temple</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Retrieve the ancient relic.</objective>
+			<description>Obtain the ancient relic from its resting place in the temple.</description>
+			<location>Forgotten Temple</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return to the Elder Bard.</objective>
+			<description>Report your success to the Elder Bard.</description>
+			<location>Bard's Cottage</location>
+		</task>
+	</tasks>
+</game>
+```

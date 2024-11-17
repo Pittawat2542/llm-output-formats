@@ -1,0 +1,21 @@
+The provided XML data has an unclosed `stats` element. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>23</id>
+		<name>Joe</name>
+		<description>Joe is a friendly and helpful person.</description>
+		<stats>
+			<hp>100</hp>
+			<mp>100</mp>
+			<atk>100</atk>
+			<def>100</def>
+			<spd>100</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+The issue has been fixed by closing the `stats` element with `/stats`.

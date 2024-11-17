@@ -1,0 +1,34 @@
+Template: 
+game:
+  character:
+    age: exact age or description if provided
+    background: background story of the character
+    first_name: first name if provided
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: data-color_hair_color
+      hair_color: data-color_data-color_hair_color
+      height: data-height
+      weight: data-weight
+    location_of_birth: location
+    role: role of the character
+    species: species
+
+```yaml
+character:
+  name: name of the character
+  age: exact age or description if provided
+    background: background story of the character
+    first_name: first name if provided
+    id: id
+    last_name: last name
+    physical_appearance:
+    - eye_color: data-color_hair_color
+      hair_color: data-color_data-color_hair_color
+      height: data-height
+      weight: data-weight
+    location_of_birth: location
+    role: role of the character
+    species: species
+```

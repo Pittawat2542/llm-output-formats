@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Defeat the dark sorcerer Xandros and put an end to his evil plans.",
+    "id": "Q001",
+    "objective": "Defeat Xandros in combat",
+    "quest_giver": "The village elder of Willowdale",
+    "reward": "A magical amulet granting +10 strength and +5 intelligence, and a chest containing 100 gold pieces",
+    "tasks": [
+      {
+        "description": "Gather information about Xandros' plans from the local tavern's patrons",
+        "location": "Willowdale Tavern",
+        "objective": "Overhear rumors or gossip about Xandros' plans",
+        "order": 1
+      },
+      {
+        "description": "Speak with the village's resident scholar to learn more about Xandros' weaknesses",
+        "location": "Village Library",
+        "objective": "Learn the location of Xandros' lair and his possible weaknesses",
+        "order": 2
+      },
+      {
+        "description": "Sneak into Xandros' lair and gather intel on his defenses",
+        "location": "Xandros' Lair (hidden location)",
+        "objective": "Gather information on the traps, guards, and layout of the lair",
+        "order": 3
+      }
+    ],
+    "title": "The Dark Sorcerer's Downfall"
+  }
+}

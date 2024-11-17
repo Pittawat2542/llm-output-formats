@@ -1,0 +1,21 @@
+ Here is the corrected XML data based on the provided template and original message:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<enemy>
+		<id>1</id>
+		<name>Orc</name>
+		<description>A fierce warrior from the mountains.</description>
+		<stats>
+			<hp>143</hp>
+			<mp>54</mp>
+			<atk>28</atk>
+			<def>14</def>
+			<spd>10</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+I added the `encoding="UTF-8"` attribute to the XML declaration for better compatibility with different systems.

@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title quest_title</title>
+	<objective quest_objective</objective>
+	<description quest_description</description>
+	<reward quest_reward</reward>
+	<!-- Fixed the key name to lowercase and added attribute values -->
+	<quest_giver quest_giver_name</quest_giver_name>
+	<tasks>
+		<task>
+			<order task_order="1">1</order>
+			<objective>task objective</objective>
+			<description task_description="task description"></description>
+			<location task_location="task location"></location>
+		</task>
+	</tasks>
+</game>
+```

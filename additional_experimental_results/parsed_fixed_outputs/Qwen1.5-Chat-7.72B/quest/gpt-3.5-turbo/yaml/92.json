@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "A thrilling adventure awaits you as you embark on a dangerous quest to rescue the stolen treasure of the kingdom.",
+    "id": "789012",
+    "objective": "Retrieve the stolen treasure and return it to the king.",
+    "quest_giver": "Queen Guinevere",
+    "reward": "1500 gold coins",
+    "tasks": [
+      {
+        "description": "Search for the hidden map in the old library.",
+        "location": "Mystic Library",
+        "objective": "Decode the map to reveal the castle's treasure location.",
+        "order": 1
+      },
+      {
+        "description": "Examine the crypts beneath the haunted castle for a possible lead.",
+        "location": "Haunted Crypts",
+        "objective": "Uncover an ancient artifact related to the stolen treasure.",
+        "order": 2
+      },
+      {
+        "description": "Track down the bandit's informer in the nearby village for more information.",
+        "location": "Villager's Market",
+        "objective": "Derive the bandits' next move and plan your ambush.",
+        "order": 3
+      }
+    ],
+    "title": "The Quest for the Lost Treasure"
+  }
+}

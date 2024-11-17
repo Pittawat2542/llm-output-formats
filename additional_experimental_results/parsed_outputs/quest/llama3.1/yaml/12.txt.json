@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "The ancient temple of the long-lost city of Zenith is said to contain a powerful artifact, hidden away for centuries. Many have attempted to retrieve it, but none have returned.",
+    "id": "Q001",
+    "objective": "Retrieve the Golden Chalice from the Temple of the Moon Goddess",
+    "quest_giver": "High Priestess Aria",
+    "reward": "100 gold coins and a magical amulet granting +10 intelligence",
+    "tasks": [
+      {
+        "description": "Speak with the village elder to gather information about the temple's location",
+        "location": "Village of Eldarath, Town Hall",
+        "objective": "Gather information about the temple's location and entrance",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous jungle to reach the temple",
+        "location": "Jungle of Zenith, Temple Entrance",
+        "objective": "Reach the temple without triggering its deadly traps",
+        "order": 2
+      },
+      {
+        "description": "Solve the ancient puzzles to unlock the chamber containing the Golden Chalice",
+        "location": "Temple of the Moon Goddess, Chamber of the Chalice",
+        "objective": "Unlock the chamber and retrieve the Golden Chalice",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Temple of Zenith"
+  }
+}

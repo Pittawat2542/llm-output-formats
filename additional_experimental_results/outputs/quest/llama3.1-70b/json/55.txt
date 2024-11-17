@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "SQ001",
+        "title": "The Lost City of Eldarath",
+        "objective": "Retrieve the ancient artifact from the Lost City of Eldarath.",
+        "description": "Legend has it that the Lost City of Eldarath holds an ancient artifact with immense power. However, the city is said to be cursed and many adventurers who ventured there never returned. Brave adventurer, will you take on this perilous quest?",
+        "reward": "1000 gold pieces and a magical amulet granting resistance to fire.",
+        "quest_giver": "Eriol the Sage",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Gather information about the Lost City of Eldarath from Eriol's ancient texts.",
+                "description": "Spend a day studying Eriol's collection of dusty tomes and scrolls in his library.",
+                "location": "Eriol's Tower, Library"
+            },
+            {
+                "order": 2,
+                "objective": "Explore the entrance to the Lost City and clear out any nearby threats.",
+                "description": "Make your way to the location marked on Eriol's map, then begin clearing out the entrance of the Lost City from any monsters or other dangers.",
+                "location": "Lost City Entrance"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the ancient artifact and escape the Lost City.",
+                "description": "Carefully navigate through traps and puzzles inside the Lost City to reach the artifact. Once obtained, make haste for the exit as the curse of Eldarath may begin to take hold.",
+                "location": "Lost City of Eldarath, Artifact Chamber"
+            }
+        ]
+    }
+}
+```

@@ -1,0 +1,18 @@
+```yaml
+game:
+  description: "Embark on a perilous journey to retrieve the fabled Golden Scepter, said to grant immense power to its wielder."
+  id: QS001
+  objective: Retrieve the Golden Scepter from the ancient ruins of Eldarath.
+  quest_giver: The enigmatic sorceress, Lyraea
+  reward: "A rare magical amulet granting +10 intelligence and a chest filled with gold coins (100)"
+  tasks:
+  - description: "Solve the puzzle of the ancient lock to access the Scepter Chamber"
+    location: Eldarath's Ancient Ruins, Temple of the Moon Goddess
+    objective: Unlock the chamber containing the Golden Scepter
+    order: 1
+  - description: "Defeat the fearsome Guardian of the Scepter, a powerful undead sorcerer"
+    location: Eldarath's Ancient Ruins, Scepter Chamber
+    objective: Defeat the guardian to claim the Scepter
+    order: 2
+  title: The Quest for the Golden Scepter
+```

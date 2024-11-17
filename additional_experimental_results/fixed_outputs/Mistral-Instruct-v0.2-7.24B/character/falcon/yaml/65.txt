@@ -1,0 +1,20 @@
+```yaml
+# character.yml
+age: precise age or description
+background: name_of_the_character's_home_town_or_any_town
+character:
+  first_name: first_name
+  id: id
+  last_name: last_name
+  physical_appearance:
+    - eye_color: eye color
+      hair_color: hair_color
+      height: height_in_feet_or_centimetres
+      weight: weight_in_kg
+place_of_birth: location
+role: role_of_the_character
+species: species
+```
+```
+
+Make sure to include the updated `game` label and exclude it from the list for the character.

@@ -1,0 +1,16 @@
+All the provided YAML examples are correct. There is no need for any fixes or changes. Here's one of them repeated as requested:
+
+```yaml
+game:
+  description: "The quest description"
+  id: "123"
+  objective: "The quest objective"
+  quest_giver: "The quest giver"
+  reward: "The quest reward"
+  tasks:
+   - description: "Task description"
+     location: "Task location"
+     objective: "Task objective"
+     order: "Task order"
+  title: "Quest title"
+```

@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Missing Sword",
+    "objective": "Retrieve the missing sword from the Goblin King",
+    "description": "The king's sword has been stolen by the Goblin King, and the king has asked you to retrieve it.",
+    "reward": "The king's favor and a new sword",
+    "quest-giver": "Queen Titania",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the Goblin Caves",
+          "description": "The Goblin Caves are located in the Dark Forest, south of the village.",
+          "location": "Dark Forest"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the Goblin King's right-hand man, Grimgor",
+          "description": "Grimgor is a formidable guard; defeat him to progress.",
+          "location": "Goblin Caves entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Search the Goblin King's throne room for the sword",
+          "description": "The sword will be hidden there, so be careful.",
+          "location": "Goblin King's throne room"
+        },
+        {
+          "order": "4",
+          "objective": "Return the sword to Queen Titania in the castle gardens",
+          "description": "Deliver the sword to her and inform her of your success.",
+          "location": "Castle Gardens"
+        }
+      ]
+    }
+  }
+}

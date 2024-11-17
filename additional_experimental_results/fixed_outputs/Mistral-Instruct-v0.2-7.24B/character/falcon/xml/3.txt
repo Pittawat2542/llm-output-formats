@@ -1,0 +1,42 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character id="id">
+		<first-name>First Name</first-name>
+		<last-name>Last Name</last-name>
+		<species>Species</species>
+		<age>Age</age>
+		<role>Role of the character</role>
+		<background>Background information</background>
+		<place-of-birth>Location</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>Eye color</eye-color>
+				<hair-color>Hair color</hair-color>
+				<height>Height in float value</height>
+				<weight>Weight in float value</weight>
+			</physical-appearance>
+		</physical-appearance>
+		<character>
+			<id>character_id</id>
+			<first-name>Character Name</first-name>
+			<last-name>Character Surname</last-name>
+			<species>Character Species</species>
+			<age>Character age or description</age>
+			<role>Character role of the character</role>
+			<background>Character background story</background>
+			<place-of-birth>Character location</place-of-birth>
+			<physical-appearance>
+				<eye-color>Character Eye color</eye-color>
+				<hair-color>Character Hair color</hair-color>
+				<height>Character Height in float value</height>
+				<weight>Character Weight in float value</weight>
+			</physical-appearance>
+		</character>
+	</character>
+</game>
+
+```
+
+Added the missing `<character>` tag for the second character.

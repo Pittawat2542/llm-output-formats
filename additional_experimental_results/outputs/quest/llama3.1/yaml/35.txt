@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: Explore the ancient ruins and uncover the secrets of a long-lost civilization.
+  id: 001
+  objective: Retrieve the fabled Sceptre of Light, said to hold the power to vanquish darkness.
+  quest_giver: High Priestess Aria, guardian of the temple's sacred knowledge.
+  reward: A magical amulet granting resistance to shadow-based attacks and a boost to intelligence stats.
+  tasks:
+  - description: Navigate through the treacherous jungle terrain to reach the entrance of the ancient ruins.
+    location: Jungle of Whispers, near the old stone bridge.
+    objective: Avoid deadly traps and hostile creatures while making your way through the dense foliage.
+    order: 1
+  - description: Solve the ancient puzzle locked mechanism to gain access to the inner sanctum.
+    location: Temple entrance, inside the ancient ruins.
+    objective: Use your wit and problem-solving skills to unlock the mysterious door.
+    order: 2
+  - description: Retrieve the Sceptre of Light from its pedestal, guarded by a fearsome dark entity.
+    location: Inner sanctum, within the heart of the ancient ruins.
+    objective: Defeat the dark entity and claim the sceptre before it falls into the wrong hands.
+    order: 3
+  title: The Lost Sceptre of Light
+```

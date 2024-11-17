@@ -1,0 +1,21 @@
+The provided XML data has a closing tag for `<stats>` that is not properly formatted. Here's the corrected XML:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>id</id>
+		<name>name</name>
+		<description>description</description>
+		<stats>
+			<hp>hp int value</hp>
+			<mp>mp int value</mp>
+			<atk>atk int value</atk>
+			<def>def int value</def>
+			<spd>spd int value</spd>
+		</stats>
+	</enemy>
+</game>
+```
+
+The only change made is to close the `<stats>` tag properly with `</stats>`.

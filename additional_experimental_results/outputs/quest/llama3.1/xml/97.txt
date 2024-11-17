@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost Sword of Light</title>
+	<objective>Retrieve the lost sword from the Dark Forest and bring it back to the village elder.</objective>
+	<description>A powerful sword has been lost in the Dark Forest, and the villagers are in need of a brave adventurer to retrieve it. The sword is said to be hidden within a cave deep within the forest, guarded by fearsome creatures.</description>
+	<reward>100 gold coins and the gratitude of the village elder</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Enter the Dark Forest and find the cave where the sword is hidden.</objective>
+			<description>You must navigate through the dense forest, avoiding traps and monsters along the way. The cave entrance is said to be hidden behind a waterfall.</description>
+			<location>Dark Forest, near the old oak tree</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the cave and find the sword.</objective>
+			<description>The cave is filled with treacherous terrain and deadly creatures. You must use your wits and bravery to overcome obstacles and reach the sword.</description>
+			<location>Cave of the Lost Sword, deep within the Dark Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return the sword to the village elder.</objective>
+			<description>You must return the sword to the village elder, who will reward you for your bravery and skill.</description>
+			<location>Village Elder's Hut, near the village center</location>
+		</task>
+	</tasks>
+</game>
+```

@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0"?> 
+<game>
+	<id>987654321</id>
+	<title>New Quest Title</title>
+	<objective>Challenge the Dragon</objective>
+	<description>A perilous quest to slay a dragon</description>
+	<reward>Valuable treasure and glory</reward>
+	<quest-giver>Oldwise Wizard</quest-giver>
+	<tasks>
+		<task order="1">
+			<objective>Find the entrance to the dragon's lair</objective>
+			<description>Near the mountain peak with the glowing crystal</description>
+			<location>Mountainside, Crystal glow</location>
+		</task>
+	</tasks>
+</game>
+```

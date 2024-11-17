@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>1</id>
+	<title>The Lost Tome</title>
+	<objective>Retrieve the lost tome from the ancient ruins.</objective>
+	<description>The ancient tome, known as the Book of Wisdom, holds secrets and knowledge of great importance. It was last seen in the ruins of the Old Empire, now a dangerous and desolate place. The Council of Mages has tasked you with retrieving the tome before it falls into the wrong hands.</description>
+	<reward>The Book of Wisdom and 1000 gold</reward>
+	<quest-giver>Archmage Alora</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Old Empire ruins in the Cursed Lands.</objective>
+			<description>The ruins of the Old Empire are located in the Cursed Lands, a dangerous and desolate region. Be prepared to face the horrors that dwell there.</description>
+			<location>Cursed Lands</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the secret entrance to the underground chamber.</objective>
+			<description>The tome is hidden in an underground chamber beneath the ruins. The entrance is well-hidden, so you will need to search carefully.</description>
+			<location>Old Empire ruins</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Defeat the guardian of the tome and retrieve it.</objective>
+			<description>The tome is guarded by a powerful creature. Be prepared for a difficult battle.</description>
+			<location>Underground chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the tome to Archmage Alora at the Council of Mages Tower.</objective>
+			<description>Once you have the tome, return to Archmage Alora at the Council of Mages Tower. She will be grateful for your help.</description>
+			<location>Council of Mages Tower</location>
+		</task>
+	</tasks>
+</game>
+```

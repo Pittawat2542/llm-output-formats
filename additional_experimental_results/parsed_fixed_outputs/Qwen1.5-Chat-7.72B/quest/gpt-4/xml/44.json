@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "001",
+    "title": "The Lost Sword",
+    "objective": "Retrieve the ancient sword",
+    "description": "The ancient sword of the kingdom was stolen by a fearsome dragon. The king has demanded its return. Venture into the dragon's lair, defeat the beast and bring back the sword for a hefty reward.",
+    "reward": "1000 Gold Coins, Knight Title",
+    "quest-giver": "King Arthur",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the dragon's lair",
+          "description": "Consult with the local villagers and gather information about the location of the dragon's lair.",
+          "location": "Camelot"
+        },
+        {
+          "order": "2",
+          "objective": "Defeat the dragon",
+          "description": "Challenge the dragon that stole the sword. Be prepared for a fierce fight.",
+          "location": "Dragon's Lair"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the sword",
+          "description": "Once the dragon is defeated, search its lair for the lost sword.",
+          "location": "Dragon's Lair"
+        }
+      ]
+    }
+  }
+}

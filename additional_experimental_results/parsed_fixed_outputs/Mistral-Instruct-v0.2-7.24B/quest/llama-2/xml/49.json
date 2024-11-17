@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure of El Dorado",
+    "objective": "Find the Lost Treasure of El Dorado",
+    "description": "Rumor has it that deep in the Amazon jungle lies the fabled treasure of El Dorado, said to be made entirely of gold. Adventurers from around the world have been drawn to its allure for centuries. Your task is to find and bring back a piece of this legendary treasure.",
+    "reward": "Gold coins, reputation",
+    "quest-giver": "Gonzalo Pizarro",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Speak with Don Ruy Diaz de Sandoval, the local historian in San Cristobal, to learn more about the location of El Dorado.",
+          "description": "Don Ruy Diaz de Sandoval is an expert on the history and legends of the Amazon jungle. He may hold valuable information regarding the whereabouts of El Dorado.",
+          "location": "San Cristobal, Spain"
+        },
+        {
+          "order": "2",
+          "objective": "Provision for the journey to the Amazon jungle by purchasing supplies and hiring a crew.",
+          "description": "You will need a strong and experienced crew, as well as adequate provisions for the long journey into the heart of the Amazon jungle.",
+          "location": "Seville, Spain"
+        },
+        {
+          "order": "3",
+          "objective": "Follow the map and clues provided by Don Ruy Diaz de Sandoval to reach El Dorado.",
+          "description": "With the help of Don Ruy Diaz de Sandoval's map and clues, you must navigate through the treacherous Amazon jungle to reach El Dorado.",
+          "location": "Amazon Jungle"
+        }
+      ]
+    }
+  }
+}

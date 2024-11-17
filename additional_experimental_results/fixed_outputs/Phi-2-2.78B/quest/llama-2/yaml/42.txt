@@ -1,0 +1,63 @@
+1. The code is missing the definition of the `Quest` class. You need to define it as follows:
+
+```python
+class Quest:
+    def __init__(self, id, description):
+        self.id = id
+        self.description = description
+        self.objective = None
+        self.quest_giver = None
+        self.reward = None
+        self.tasks = []
+        self.title = None
+
+    def add_task(self, task):
+        self.tasks.append(task)
+```
+2. The code is missing the `add_quest()` function which creates a new `Quest` object and returns it:
+
+```python
+def add_quest(game_data):
+    id = game_data['id']
+    description = game_data['description']
+    return Quest(id, description)
+```
+3. The code is missing the definition of the `Game` class which creates a new `Game` object and returns it:
+
+```python
+class Game:
+    def __init__(self):
+        self.quests = []
+
+    def add_quest(self, game_data):
+        id = game_data['id']
+        description = game_data['description']
+        return Quest(id, description)
+```
+4. The code is missing the definition of the `add_tasks()` function which adds a list of tasks to a quest object:
+
+```python
+def add_tasks(self, game_data):
+    quest = Game.get_quest_by_id(game_data['id'])
+    for task in game_data['tasks']:
+        task_description = task['description']
+        task_objective = task['objective']
+        quest.add_task({'description': task_description, 'objective': task_objective})
+```
+5. The code is missing the definition of the `get_game()`, `get_quest()`, and `get_tasks()` functions which return a list of quests and their tasks:
+
+```python
+def get_game(id):
+    return Game.all[id] if id in Game.all else None
+
+
+def get_quest(id):
+    return Quest.all[id] if id in Quest.all else None
+
+
+def get_tasks(id):
+    quest = Quest.get_quest_by_id(id)
+    if quest:
+        return [task for task in quest.tasks]
+```
+

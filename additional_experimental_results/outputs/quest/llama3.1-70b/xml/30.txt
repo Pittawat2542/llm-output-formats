@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Quest_001</id>
+	<title>The Lost Temple of the Moon Goddess</title>
+	<objective>Find and retrieve the ancient scroll hidden within the lost temple.</objective>
+	<description>Rumors have been circulating about a long-abandoned temple dedicated to the moon goddess, where an ancient scroll containing powerful magic lies hidden. The temple is said to be cursed, and many brave adventurers before you have attempted to find it but never returned. Your quest is to locate the temple, navigate its treacherous trials, and retrieve the ancient scroll.</description>
+	<reward>A magical amulet granting resistance to dark magic and 1000 gold pieces.</reward>
+	<quest-giver>High Priestess Elara of the Moon Goddess</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the temple's location from local villagers.</objective>
+			<description>Talk to the villagers in Oakwood and gather as much information as possible about the lost temple. They might share stories, maps, or clues that will help you on your quest.</description>
+			<location>Oakwood Village</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Navigate through the Dark Forest to reach the entrance of the temple.</objective>
+			<description>Beware of goblins, giant spiders, and treacherous terrain as you make your way through the dark forest. Keep an eye out for landmarks or ancient ruins that might indicate the direction to the temple.</description>
+			<location>Dark Forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Solve the trials within the temple to reach the inner sanctum where the scroll is kept.</objective>
+			<description>The temple is said to be filled with deadly traps and puzzles. Use your wits and any items you've collected on your journey to overcome these challenges and claim the ancient scroll.</description>
+			<location>Lost Temple of the Moon Goddess</location>
+		</task>
+	</tasks>
+</game>
+```

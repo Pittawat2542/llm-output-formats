@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>12345</id>
+    <title>Quest Adventure</title>
+    <objective>Find the Ancient Artifact</objective>
+    <description>A journey to救公主 awaits!</description>
+    <reward>Gold and a mystical amulet</reward>
+    <quest-giver>King Richard</quest-giver>
+    <tasks>
+        <task order="1">
+            <objective>Explore Forest East</objective>
+            <description>Follow the map to the entrance</description>
+            <location>Forest East Gate</location>
+        </task>
+        <task order="2">
+            <objective>Defeat Goblin Bandit</objective>
+            <description>A dangerous encounter awaits!</description>
+            <location>Troll's Den</location>
+        </task>
+    </tasks>
+</game>
+```

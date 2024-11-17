@@ -1,0 +1,80 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>quest objective</Objective>
+	Description>quest description</Description>
+	Reward>quest reward</Rewards>
+	Quest-Giver>Quest giver</Quest-Giver>
+	Tasks>
+		Task>
+			Order>task order</Order>
+		 Objective>objective</Objective>
+			Description>description</Description>
+		 location>location</location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+				Description>description</Description>
+			 Location>location</Location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+	</tasks>
+</game>
+```
+
+### Output in Markdown code block:
+```python
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 Objective>quest objective</Objective>
+	Description>quest description</Description>
+	Reward>quest reward</Rewards>
+	Quest-Giver>Quest giver</Quest-Giver>
+	Tasks>
+		Task>
+			Order>order</Order>
+		 Objective>objective</Objective>
+			Description>description</Description>
+		 location>location</location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+		Task>
+			Order>
+			 Order>order</Order>
+			 Objective>objective</Objective>
+			 Description>description</Description>
+			 Location>location</Location>
+	</tasks>
+</game>
+```

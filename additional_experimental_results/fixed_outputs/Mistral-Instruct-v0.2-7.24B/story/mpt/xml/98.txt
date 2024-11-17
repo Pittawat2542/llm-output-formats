@@ -1,0 +1,16 @@
+
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synosis>
+	<beginning>
+	<paragraph>The game begins in modern day San Francisco.</paragraph>
+	<paragraph>There are plenty of people living here. It's a city like any other, full of both good and bad inhabitants.</paragraph>
+	</beginning>
+	<ending>
+	The game ends here.
+	</ending>
+</game>
+```
+
+Changes made: Added `<paragraph>` tags to wrap the text in the `<beginning>` element, as XML does not allow direct text inside an empty tag.

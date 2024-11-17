@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple of the Moon Goddess",
+    "objective": "Retrieve the ancient scroll from the heart of the temple",
+    "description": "Legend has it that the temple holds the secrets of the moon goddess. The high priestess needs someone brave to retrieve an ancient scroll hidden within the temple.",
+    "reward": "Gold, experience points and a magical amulet granting resistance to darkness",
+    "quest_giver": "High Priestess Elara",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Clear the entrance of the temple from goblins",
+        "description": "Goblins have infested the entrance of the temple. Clear them out before proceeding.",
+        "location": "Temple Entrance, Jungle of Shadows"
+      },
+      {
+        "order": 2,
+        "objective": "Solve the mirror puzzle in the hall of illusions",
+        "description": "The mirrors in this room create a dizzying array of reflections. Use your wits to navigate through and unlock the door.",
+        "location": "Hall of Illusions, Temple Interior"
+      },
+      {
+        "order": 3,
+        "objective": "Defeat the shadow dragon guarding the scroll",
+        "description": "Deep within the temple lies a fearsome dragon born from darkness itself. You must vanquish it to claim the scroll.",
+        "location": "Chamber of the Moon, Temple Depths"
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,22 @@
+```yaml
+game:
+  description: 'An old wizard needs your assistance to gather ingredients for a magical potion.'
+  id: '123-abc'
+  objective: 'Gather all the listed ingredients, and return them to the wizard.'
+  quest_giver: 'Old Wizard'
+  reward: 'A magical amulet and 2000 gold coins.'
+  tasks:
+    - description: 'Retrieve a Dragon Feather from the Dragon\u27s Peak.'
+      location: 'Dragon\u27s Peak'
+      objective: 'Find and retrieve a Dragon Feather.'
+      order: '1'
+    - description: 'Collect Dew of Moonlight from the Lunar Grove at midnight.'
+      location: 'Lunar Grove'
+      objective: 'Collect Dew of Moonlight.'
+      order: '2'
+    - description: 'Procure a Shadow Orchid from the Dark Forest.'
+      location: 'Dark Forest'
+      objective: 'Find and collect a Shadow Orchid.'
+      order: '3'
+  title: 'Wizard's Potion Ingredients'
+```

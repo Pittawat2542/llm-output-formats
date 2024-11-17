@@ -1,0 +1,27 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <dialogues>
+        <dialogue>
+            <order>1</order>
+            <speaker>Player</speaker>
+            <text>Hello, I'm looking for a place to rest.</text>
+        </dialogue>
+        <dialogue>
+            <order>2</order>
+            <speaker>Innkeeper</speaker>
+            <text>We've got rooms available upstairs. What can I get for you?</text>
+        </dialogue>
+        <dialogue>
+            <order>3</order>
+            <speaker>Player</speaker>
+            <text>I'd like a room with two beds, please.</text>
+        </dialogue>
+        <dialogue>
+            <order>4</order>
+            <speaker>Innkeeper</speaker>
+            <text>That's 20 gold pieces per night. Would you like to pay in advance?</text>
+        </dialogue>
+    </dialogues>
+</game>
+```

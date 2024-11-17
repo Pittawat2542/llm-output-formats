@@ -1,0 +1,25 @@
+The correct YAML data is given between ```yaml and ``` in this case. Here is the corrected code block with the new values:
+
+```
+game:
+  description: Quest description
+  id: id
+  objective: quest objective
+  quest_giver: Elderly Sage
+  reward: Ancient Ring of Power
+  tasks:
+   - description: Gather information about the Lost City
+    location: Town Library
+    objective: Talk to the Librarian
+    order: 1
+   - description: Find a guide to accompany you
+    location: Inn
+    objective: Speak with the Innkeeper
+    order: 2
+   - description: Explore the Lost City and find the artifact
+    location: Lost City
+    objective: Search for the hidden chamber
+    order: 3
+
+title: Quest Title
+```

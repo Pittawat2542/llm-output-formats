@@ -1,0 +1,62 @@
+```markdown
+<?xml version="1.0" ?>
+<game>
+	<id>005</id>
+	<title>The Bookworm's Treasure</title>
+	<objective>Find a rare book called "The Book of Secrets".</objective>
+	<description>A famous author known as Octavia Marigold has gone missing. People are wondering what could've happened to her. A rumor was that she was working on a book called "The Book of Secrets" and that it might hold the key to finding her. A book collector by the name of Thaddeus Crane was the last one to see her. It is believed that he might have a lead to this book.</description>
+	<reward>Access to the Collector's Library and prestige points.</reward>
+	<quest-giver>Dr. Geraldine Booker, Head of the Town Library</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Talk to Thaddeus Crane.</objective>
+			<description>Head over to the Crane Estate and talk to Thaddeus Crane. Persuade him to share the information he has about Octavia Marigold and "The Book of Secrets".</description>
+			<location>Crane Estate</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Find the Hidden Room.</objective>
+			<description>After getting the information from Thaddeus Crane, find the secret room that leads to the study where Octavia Marigold was last seen.</description>
+			<location>Old Library</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Search the Study.</objective>
+			<description>Search the study of Octavia Marigold for clues about the book or its whereabouts.</description>
+			<location>Study</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the Book of Secrets.</objective>
+			<description>Look through the books and notes to find the Book of Secrets.</description>
+			<location>Study</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Return the Book of Secrets.</objective>
+			<description>Return the book to Dr. Geraldine Booker at the Town Library.</description>
+			<location>Town Library</location>
+		</task>
+		<task>
+			<order>6</order>
+			<objective>Find Octavia Marigold's diary.</objective>
+			<description>Search through Dr. Geraldine Booker's office to find Octavia Marigold's diary. It might contain clues about her whereabouts or the book she was working on.</description>
+			<location>Dr. Geraldine Booker's Office</location>
+		</task>
+		<task>
+			<order>7</order>
+			<objective>Find Octavia Marigold's old house.</objective>
+			<description>Search around the town and find out where Octavia Marigold used to live. It might lead to her current location or give more clues about the book she was working on.</description>
+			<location>Old houses in town</location>
+		</task>
+		<task>
+			<order>8</order>
+			<objective>Follow the clues.</objective>
+			<description>Based on the information you have gathered, follow the clues to find Octavia Marigold's current location and the book she was working on.</description>
+			<location>The final location of Octavia Marigold</location>
+		</task>
+	</tasks>
+</game>
+
+

@@ -1,0 +1,24 @@
+```xml
+<game>
+    <id>15</id>
+    <title>Quest of the Lost King</title>
+    <objective>Find the missing king</objective>
+    <description>The kingdom's生死存亡 depends on your discovery.</description>
+    <reward>100 gold coins</reward>
+    <quest-giver>King's Council</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Search the dungeons</objective>
+            <description>Track down clues within the castle's depths.</description>
+            <location>Dungeon complex</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Examine the surrounding forest</objective>
+            <description>The king may have ventured there for safety.</description>
+            <location>Forest edge</location>
+        </task>
+    </tasks>
+</game>
+```

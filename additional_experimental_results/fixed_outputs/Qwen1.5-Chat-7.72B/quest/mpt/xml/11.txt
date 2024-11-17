@@ -1,0 +1,20 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>new-id</id>
+    <title>New Quest Title</title>
+    <objective>New Quest Objective</objective>
+    <description>New Quest Description</description>
+    <reward>New Quest Reward</reward>
+    <quest-giver>New Quest Giver</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Task 1 Objective</objective>
+            <description>Task 1 Description</description>
+            <location>Task 1 Location</location>
+        </task>
+    </tasks>
+</game>
+```
+The XML has been corrected by adding the 'game' element, removing unnecessary '<task>' within it (as there's only one task), and updating the values with new ones for easier reference. The output is in the requested XML format.

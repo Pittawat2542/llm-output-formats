@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<game>
+    <id id="id">123456</id>
+    <title>Quest Title</title>
+    <objective objective="Obstacle 1">
+        <description>Description of Obstacle 1</description>
+    </objective>
+    <objective objective="Obstacle 2">
+        <description>Description of Obstacle 2</description>
+    </objective>
+    <description>Quest Description</description>
+    <reward reward="Reward for completing the quest">
+        <description>The reward for completing the quest</description>
+    </reward>
+    <quest-giver name="Giver Name">
+        <description>Name of Quest Giver</description>
+    </quest-giver>
+    <tasks>
+        <task order="Task 1">
+            <objective objective="Objective 1">
+                <description>Description of Objective 1</description>
+            </objective>
+            <description>Quest Description for Task 1</description>
+        </task>
+        <task order="Task 2">
+            <objective objective="Objective 2">
+                <description>Description of Objective 2</description>
+            </objective>
+            <description>Quest Description for Task 2</description>
+        </task>
+    </tasks>
+</game>
+
+# Input example
+```xml
+<game id="123456" title="Quest Title" objective="Obstacle 1">
+    <description>Description of Obstacle 1</description>
+</game>
+```
+# Output example
+```xml
+<?xml version="1.0"?>
+<game id="123456" title="Quest Title" objective="Obstacle 1">
+    <description>Description of Obstacle 1</description>
+</game>
+
+<task order="Task 1">
+    <objective objective="Objective 1">
+        <description>Description of Objective 1</description>
+    </objective>
+    <description>Quest Description for Task 1</description>
+</task>
+<task order="Task 2">
+    <objective objective="Objective 2">
+        <description>Description of Objective 2</description>
+    </objective>
+    <description>Quest Description for Task 2</description>
+</task>
+
+```

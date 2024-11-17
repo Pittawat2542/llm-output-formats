@@ -1,0 +1,43 @@
+Corrected XML data:
+```xml
+<game>
+	<character>
+			<id id="123456" /> <!-- Replace with the desired character ID -->
+			<first-name firstName="John" lastName="Doe" /> <!-- Replace with the desired character's first name -->
+			<last-name lastName="Smith" /> <!-- Replace with the desired character's last name -->
+			<species speciesId="Feline">Feline</species> <!-- Replace with the desired character's species, if applicable -->
+			<age ageValue="25" role="Lead Female">Age 25, Lead Female</age>
+			<role roleValue="Main Character">Main Character</role>
+			<background backgroundStory="The Wild West">Wild West</background>
+			place-of-birth locationName="Fort Mohave" /> <!-- Replace with the desired character's place of birth -->
+			physical-appearance physicalAppearanceValue="Blonde hair, blue eyes" /> <!-- Replace with the desired character's physical appearance, if applicable -->
+		</character>
+</game>
+```
+New values:
+- `Character` element replaced with `<game>`
+- `<ID>` element within `<character>` element with a unique ID value of `[123456]` to identify the desired character
+- `<firstName>` and `<lastName>` elements inside `<character>` with the desired character's first name and last name, respectively
+- `<species>` element inside `<character>` with the desired character's species ID if applicable (in this case, `Feline`)
+- `<age>` element within `<character>` with the desired character's age value, role, and description (in this case, `25` as a lead female, `"Main Character"` as the role, and "The Wild West" as the background story)
+- `<role>` element within `<character>` with the desired character's role or description
+- `<background>` element inside `<character>` with the desired character's background story if applicable (in this case, `"The Wild West"`)
+- `<place-of-birth>` element inside `<character>` with the desired character's place of birth name if applicable (in this case, `Fort Mohave`)
+- `<physical-appearance>` element within `<character>` with the desired character's physical appearance description, including eye color, hair color, height, and weight, if applicable (in this case, `"Blonde hair, blue eyes"`)
+
+XML in code block:
+```xml
+<game>
+	<character>
+			<id id="123456" /> <!-- Replace with the desired character ID -->
+			<first-name firstName="John" lastName="Doe" /> <!-- Replace with the desired character's first name -->
+			<last-name lastName="Smith" /> <!-- Replace with the desired character's last name -->
+			<species speciesId="Feline">Feline</species> <!-- Replace with the desired character's species, if applicable -->
+			<age ageValue="25" role="Lead Female">Age 25, Lead Female</age>
+			<role roleValue="Main Character">Main Character</role>
+			<background backgroundStory="The Wild West">Wild West</background>
+			place-of-birth locationName="Fort Mohave" /> <!-- Replace with the desired character's place of birth -->
+			physical-appearance physicalAppearanceValue="Blonde hair, blue eyes" /> <!-- Replace with the desired character's physical appearance, if applicable -->
+		</character>
+</game>
+```

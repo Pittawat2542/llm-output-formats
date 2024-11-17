@@ -1,0 +1,24 @@
+<!-- <game>
+	<character>
+		<id>1</id><first-name>John Doe</first-name><last-name>Doe</last-name><species>human</species><age>20 years old</age><role>hero</role><background>John was raised by his grandmother after his parents died in a tragic accident when he was just a baby. He grew up to be a kind and courageous person, always ready to help others.</background><place-of-birth>New York City</place-of-birth><physical-appearance><eye-color>blue eyes</eye-color><hair-color>blonde hair</hair-color><height>6'2\"</height><weight>180 pounds</weight></physical-appearance></character>
+	</character>
+</game>
+
+### Explanation:
+In order to fix the incorrect syntax, we need to close all the tags that are currently open. In this case, there is an unclosed tag for the id attribute on line 2. We can simply add a closing angle bracket after the id attribute to fix it.
+
+We also need to make sure that the attributes inside the character element have quotes around them when they contain spaces. This is important because otherwise, XML will interpret those spaces as special characters.
+
+In addition, we need to enclose some of the attributes inside double quotes to indicate that they are strings. For example, the species attribute should be enclosed in double quotes since it contains a space. We also need to make sure that the age and physical-appearance elements contain float values for height and weight respectively.
+
+Once all these corrections have been made, the corrected XML should look like this:
+
+```xml
+<!-- <game>
+	<character>
+		<id="1" first-name="John Doe" last-name="Doe" species="human" age="20 years old" role="hero" background="John was raised by his grandmother after his parents died in a tragic accident when he was just a baby. He grew up to be a kind and courageous person, always ready to help others." place-of-birth="New York City" physical-appearance="eye-color='blue eyes' hair-color='blonde hair' height='6'2''' weight='180 pounds'">
+</character>
+	</character>
+</game>
+```
+

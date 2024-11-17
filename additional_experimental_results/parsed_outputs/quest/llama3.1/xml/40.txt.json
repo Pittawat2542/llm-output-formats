@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The high priest has gone missing, and the only clue is a cryptic map leading to the lost temple. Your mission is to retrieve the artifact before it falls into the wrong hands.",
+    "reward": "1,000 gold coins, +10 reputation",
+    "quest-giver": "Holgar the Brave",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the lost temple.",
+          "description": "Search for any information about the temple's location. Ask around town and visit the local library to see if anyone knows anything about it.",
+          "location": "Docks of Brindlemark"
+        },
+        {
+          "order": "2",
+          "objective": "Retrieve the ancient artifact.",
+          "description": "Once inside the temple, search for a chest with the artifact. Be careful, as the temple is said to be filled with traps and puzzles.",
+          "location": "Lost Temple of Zorvath"
+        },
+        {
+          "order": "3",
+          "objective": "Return to Holgar the Brave.",
+          "description": "Once you have retrieved the artifact, return it to Holgar. He will reward you with gold and reputation points.",
+          "location": "Docks of Brindlemark"
+        }
+      ]
+    }
+  }
+}

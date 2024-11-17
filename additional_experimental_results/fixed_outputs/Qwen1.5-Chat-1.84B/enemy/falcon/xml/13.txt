@@ -1,0 +1,47 @@
+Corrected XML data:
+```xml
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				hp     100   def      30    atk       21    spd      19    speed      18
+				mp     20   atk       50    def       5    spd      7    speed      10
+				atk     25   def       50    mp       60    atk       25    spd      40    speed      30
+			</stats>
+			<enemy_battle - Game stats>
+			</enemy_battle>
+		</enemy>
+		<!-- rest of the game data remains the same -->
+	</game>
+```
+Output in XML format:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+			<id>id</id>
+			<name>name</name>
+			<description>description</description>
+			<stats>
+				hp     100   def      30    atk       21    spd      19    speed      18
+				mp     20   atk       50    def       5    spd      7    speed      10
+				atk     25   def       50    mp       60    atk       25   spd      40    speed      30
+			</stats>
+			<enemy_battle - Game stats>
+				<enemy_data>
+					<name>i-1</name>
+					<description>warrior</description>
+					<hp>100</hp>
+					<def>30</def>
+					<atk>21</atk>
+					<def>50</def>
+					<spd>19</spd>
+				</enemy_data>
+				<!-- rest of the enemy data remains the same -->
+			</enemy_battle>
+		</enemy>
+		<!-- rest of the game data remains the same -->
+	</game>
+```

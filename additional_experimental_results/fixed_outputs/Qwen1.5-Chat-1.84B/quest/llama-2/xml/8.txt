@@ -1,0 +1,108 @@
+XML data corrected:
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task>
+				<order>task order</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task>
+				<order>task order</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task>
+				<order>task order</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+	</tasks>
+</game>
+```
+XML output:
+```xml
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task order="1" objective="task objective" description="task description" location="task location">
+				<order>2</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task order="1" objective="task objective" description="task description" location="task location">
+				<order>2</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task order="1" objective="task objective" description="task description" location="task location">
+				<order>2</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+			<task order="1" objective="task objective" description="task description" location="task location">
+				<order>2</order>
+				<objective>task objective</objective>
+				<description>task description</description>
+			<location>task location</location>
+			</task>
+	</tasks>
+</game>
+```
+Markdown output:
+```markdown
+XML Data Corrected:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<Task Order="1" Objective="task objective" Description="task description" Location="task location">
+				<Order>2</Order>
+				<Objective>task objective</Objective>
+				>Description task description
+				<Location>task location</Location>
+			</Task>
+			<Task Order="1" Objective="task objective" Description="task description" Location="task location">
+				<Order>2</Order>
+				<Objective>task objective</Objective>
+				Description task description
+			_Location>task location</Location>
+			</Task>
+			<Task Order="1" Objective="task objective" Description="task description" Location="task location">
+				<Order>2</Order>
+				<Objective>task objective</Objective>
+			>Description task description
+			(Location>task location</Location>
+			</Task>
+	</tasks>
+</game>
+```

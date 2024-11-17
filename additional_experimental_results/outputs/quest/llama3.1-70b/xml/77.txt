@@ -1,0 +1,19 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>001</id>
+    <title>The Lost City of Eldarath</title>
+    <objective>Retrieve the ancient artifact from the Lost City of Eldarath.</objective>
+    <description>Rumors have been circulating about a long-abandoned city deep in the nearby forest, hidden away for centuries. The city is said to contain an ancient relic of immense power and value. Your task is to explore the ruins, navigate its treacherous paths, avoid deadly traps, and retrieve this artifact before it falls into the wrong hands.</description>
+    <reward>1000 gold pieces and a magical amulet granting resistance to poison.</reward>
+    <quest-giver>Elder Thorne, Sage of Willowdale</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Reach the entrance of the Lost City.</objective>
+            <description>Follow the forest path east from Willowdale until you come across a clearing with a large stone door. This is the entrance to the Lost City.</description>
+            <location>The entrance to the Lost City, in the heart of the nearby forest</location>
+        </task>
+    </tasks>
+</game>
+```

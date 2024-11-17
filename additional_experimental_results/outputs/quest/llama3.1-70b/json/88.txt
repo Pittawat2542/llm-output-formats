@@ -1,0 +1,32 @@
+```json
+{
+    "game": {
+        "id": "QST001",
+        "title": "The Lost City of Eldarath",
+        "objective": "Find the ancient scroll in the ruins of Eldarath",
+        "description": "Legend has it that the city of Eldarath holds the secrets of the ancient world. Retrieve the lost scroll and unlock its secrets.",
+        "reward": "1000 gold pieces, a magical amulet, and increased reputation among the scholars' guild",
+        "quest_giver": "Professor Thorne",
+        "tasks": [
+            {
+                "order": 1,
+                "objective": "Explore the ruins of Eldarath",
+                "description": "Make your way through the treacherous jungle and find the entrance to the ancient city.",
+                "location": "Eldarath Ruins (30.4567, -20.1234)"
+            },
+            {
+                "order": 2,
+                "objective": "Find the scroll chamber",
+                "description": "Navigate through the traps and puzzles within the ruins and find the chamber containing the ancient scroll.",
+                "location": "Eldarath Ruins (30.4567, -20.1234)"
+            },
+            {
+                "order": 3,
+                "objective": "Retrieve the scroll",
+                "description": "Carefully take the scroll from its pedestal and be prepared to face any guardians of the ancient relic.",
+                "location": "Eldarath Ruins (30.4567, -20.1234)"
+            }
+        ]
+    }
+}
+```

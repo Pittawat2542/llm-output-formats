@@ -1,0 +1,15 @@
+Here is the corrected YAML data in Markdown format:
+```yaml
+game
+  description: | Quest to find the lost amulet of the ancient king |
+  id: | questId |
+  objective: | Locate and retrieve the lost amulet |
+  quest giver: | Archmage Xylo |
+  reward: | Book of magic secrets |
+  tasks:
+   - description: | Task to find the lost amulet of the ancient king |
+    location: | taskLocation |
+    objective: | Task to locate and retrieve the lost amulet |
+    order: | taskOrder |
+  title: | The Lost Amulet
+```

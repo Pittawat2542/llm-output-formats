@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>01</id>
+	<title>The Lost Jewels of Zandar</title>
+	<objective>Retrieve the lost jewels stolen from the royal family of Zandar</objective>
+	<description>The royal family of Zandar has been robbed of their priceless jewels. The king has called upon adventurers to help retrieve them. The jewels are said to be hidden in a secret chamber deep within the Bandit's Cave, a dangerous lair filled with traps and monsters.</description>
+	<reward>A portion of the recovered jewels and the eternal gratitude of the royal family</reward>
+	<quest-giver>King Oberon of Zandar</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Travel to the Bandit's Cave located in the Dunrock Mountains</objective>
+			<description>The Bandit's Cave is a treacherous and dangerous place. Be prepared for a challenging journey and fierce enemies.</description>
+			<location>Dunrock Mountains</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Infiltrate the Bandit's Cave and locate the secret chamber where the jewels are hidden</objective>
+			<description>The cave is heavily guarded by bandits, so stealth and cunning will be required to infiltrate it and find the secret chamber.</description>
+			<location>Bandit's Cave</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Recover the lost jewels from the secret chamber</objective>
+			<description>Once the secret chamber is located, a puzzle must be solved to unlock it and retrieve the jewels.</description>
+			<location>Secret Chamber</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Return the jewels to King Oberon in Zandar</objective>
+			<description>Once the jewels are recovered, return to King Oberon in Zandar to claim your reward.</description>
+			<location>Zandar Castle</location>
+		</task>
+	</tasks>
+</game>
+```

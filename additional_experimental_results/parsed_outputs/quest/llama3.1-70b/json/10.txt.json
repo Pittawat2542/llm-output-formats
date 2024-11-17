@@ -1,0 +1,24 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple",
+    "objective": "Explore the ancient temple and retrieve the legendary artifact.",
+    "description": "A long-abandoned temple has been rediscovered, and rumors of a powerful artifact have drawn the attention of many adventurers. Brave the dangers within to claim the treasure.",
+    "reward": "1500 gold coins, +20 reputation",
+    "quest_giver": "Thorne Blackwood, local historian",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Enter the temple and reach the inner sanctum.",
+        "description": "Make your way through the overgrown jungle and navigate the treacherous temple traps to reach the heart of the ancient structure.",
+        "location": "The Lost Temple, Jungle Entrance"
+      },
+      {
+        "order": 2,
+        "objective": "Retrieve the artifact from the inner sanctum.",
+        "description": "Solve the puzzles and defeat the powerful entity guarding the treasure to claim it as your own.",
+        "location": "The Lost Temple, Inner Sanctum"
+      }
+    ]
+  }
+}

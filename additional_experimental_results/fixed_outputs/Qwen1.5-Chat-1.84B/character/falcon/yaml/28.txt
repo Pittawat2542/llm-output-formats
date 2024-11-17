@@ -1,0 +1,43 @@
+```yaml
+game:
+  character:
+    age: 35
+    background:
+      description of their upbringing
+    first_name: John
+    last_name: Doe
+    id: 12345678901011
+    physical_appearance:
+      eye_color: blue
+      hair_color: brown
+      height: 6ft
+      weight: 170lbs
+role: Roving Trader
+species: Human
+```
+The corrected YAML data with new values includes:
+
+  * New key 'physical_appearance' to store the physical appearance of the character.
+  * New value 'eye_color' to set the eye color for the character's physical appearance, which is blue in this case.
+  * New value 'hair_color' to set the hair color for the character's physical appearance, which is brown in this case.
+  * New value 'height' to set the height of the character in feet (6ft).
+  * New value 'weight' to set the weight of the character in pounds (170lbs).
+
+The YAML data now has the following structure:
+```
+game:
+  character:
+    age: 35
+    background:
+      description of their upbringing
+    first_name: John
+    last_name: Doe
+    id: 12345678901011
+    physical_appearance:
+      eye_color: blue
+      hair_color: brown
+      height: 6ft
+      weight: 170lbs
+role: Roving Trader
+species: Human
+```

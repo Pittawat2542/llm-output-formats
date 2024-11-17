@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": {
+      "@lang": "en",
+      "#text": "Find the ancient artifact hidden in the ruins."
+    },
+    "description": {
+      "@lang": "en",
+      "#text": "Embark on a journey through treacherous landscapes to uncover the secret location of the lost artifact and retrieve it."
+    },
+    "reward": "1000 experience points and a rare magical item",
+    "quest-giver": "Oracle of Delphi",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": {
+          "@lang": "en",
+          "#text": "Talk to the hermit in the forest"
+        },
+        "description": {
+          "@lang": "en",
+          "#text": "Locate the secluded hermit and gain information about the artifact's whereabouts."
+        },
+        "location": "The Enchanted Forest"
+      }
+    }
+  }
+}

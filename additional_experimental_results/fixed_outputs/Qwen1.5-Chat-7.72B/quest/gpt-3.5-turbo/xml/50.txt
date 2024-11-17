@@ -1,0 +1,31 @@
+```xml
+<game>
+	<id>12345</id>
+	<title>The Quest for the Amulet</title>
+	<objective>Uncover the Amulet's mysteries and deliver it to the High Council</objective>
+	<description>In the ancient city of Eldoria, you must unravel a series of trials to obtain the mystical Amulet. Success brings fame and a grand reward.</description>
+	<reward>5000 gold coins and a title of honor</reward>
+	<quest-giver>Ambassador Elara</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Discover the hidden entrance in the Library's archives</objective>
+			<description>A cryptic message points to a secret passage within the ancient library. Be cautious of陷阱 and ancient knowledge.</description>
+			<location>Library</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Solve the riddle of the Ancient Oracle's chamber</objective>
+			<description>The Oracle holds the key to the Amulet's location. You must decipher its cryptic prophecy.</description>
+			<location>AncientOracle'sChamber</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Battle the guards of the Sacred Altar</objective>
+			<description>The Amulet is guarded by a group of loyal warriors. Confront them with honor to claim it.</description>
+			<location>SacredAltar</location>
+		</task>
+	</tasks>
+</game>
+```
+The XML has been fixed, with new values for the `id`, `title`, and some task objectives. The structure is now well-formed, and all required elements are present.

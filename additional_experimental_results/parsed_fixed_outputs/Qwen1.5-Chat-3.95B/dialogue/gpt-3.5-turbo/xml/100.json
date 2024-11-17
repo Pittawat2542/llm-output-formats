@@ -1,0 +1,29 @@
+{
+  "game": {
+    "@xmlns": "http://www.game.xml",
+    "dialogues": {
+      "dialogue": [
+        {
+          "@order": "1",
+          "@speaker": "Player",
+          "@text": "Hey, how are you doing?"
+        },
+        {
+          "@order": "2",
+          "@speaker": "NPC",
+          "@text": "I'm great too. Just enjoying this beautiful day."
+        },
+        {
+          "@order": "3",
+          "@speaker": "Player",
+          "@text": "That's wonderful. Shall we go for a walk?"
+        },
+        {
+          "@order": "4",
+          "@speaker": "NPC",
+          "@text": "That's wonderful. Shall we go for a walk?"
+        }
+      ]
+    }
+  }
+}

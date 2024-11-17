@@ -1,0 +1,13 @@
+```yaml
+game:
+  enemy:
+    description: "description"
+    id: "id"
+    name: "name"
+    stats:
+      atk: 100 # int value, added a numerical value for 'atk'
+      def: 50 # int value, added a numerical value for 'def'
+      hp: 300 # int value, added a numerical value for 'hp'
+      mp: 50 # int value, added a numerical value for 'mp'
+      spd: 80 # int value, added a numerical value for 'spd'
+```

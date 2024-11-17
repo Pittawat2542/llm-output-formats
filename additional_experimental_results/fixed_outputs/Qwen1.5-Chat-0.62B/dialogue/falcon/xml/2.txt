@@ -1,0 +1,27 @@
+XML data provided is correct. There are no syntax errors and there is no missing values. Here's the corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				_order>dialogue order</order>
+				speaker>speaker name</speaker>
+				text>dialogue or narration</text>
+			-dialogue>
+	</dialogues>
+</game>
+```
+Markdown code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				_order>dialogue order</order>
+				speaker>Speaker name</speaker>
+				text>dialogue or narration</text>
+			-dialogue>
+	</dialogues>
+</game>
+```
+The original message is provided between ```xml and ```.

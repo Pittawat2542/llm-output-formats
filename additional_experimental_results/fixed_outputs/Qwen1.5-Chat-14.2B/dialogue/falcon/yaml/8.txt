@@ -1,0 +1,12 @@
+The original YAML is correct, but it seems to be missing a top-level key. Here's the fixed YAML with a new `messages` key added:
+
+```yaml
+game:
+  dialogues:
+    - order: dialogue order
+      speaker: speaker name
+      text: dialogue or narration
+
+messages:
+  - message_text: dialogue text
+```

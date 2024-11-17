@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "789012",
+    "title": "The Mysterious Temple Adventure",
+    "objective": "Uncover the treasure hidden in the ancient temple",
+    "description": "In a dense jungle, there lies an enigmatic temple believed to harbor a priceless artifact. Many expeditions have attempted the quest, but few succeeded. Are you ready to unravel its secrets?",
+    "reward": "Exquisite golden statue",
+    "quest-giver": "Explorer Emily Carter",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Discover the entrance to the temple by the hidden grove",
+          "description": "The map suggests a secret entrance behind a canopy of unusual plants. Search for the grove and look out for any clues or markers.",
+          "location": "Jungle Hidden Groove"
+        },
+        {
+          "order": "2",
+          "objective": "Obtain the temple key from the wise elder",
+          "description": "The elder holds the key,\u6362\u53d6 knowledge about the tribe's history. Show respect and learn their protocol to acquire it.",
+          "location": "Elder's Council Circle"
+        },
+        {
+          "order": "3",
+          "objective": "Overcome the temple's ancient traps",
+          "description": "The temple's defenses are intricate \u2013 be cautious of pressure plates and\u8f6c\u52a8 stones. Solve each puzzle to progress safely.",
+          "location": "Ancient Temple Ruins"
+        },
+        {
+          "order": "4",
+          "objective": "Find the treasure chamber in the depths of the temple",
+          "description": "The final challenge awaits, hidden behind a hidden room. Your wit and determination will determine if you can uncover the treasure.",
+          "location": "Treasure Chamber's Crypt"
+        }
+      ]
+    }
+  }
+}

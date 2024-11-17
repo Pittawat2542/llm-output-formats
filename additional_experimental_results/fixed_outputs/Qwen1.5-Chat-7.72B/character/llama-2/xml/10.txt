@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>12345</id>
+        <first-name>John Doe</first-name>
+        <last-name>Doe</last-name>
+        <species>Humans</species>
+        <age>30</age>
+        <role>Protagonist</role>
+        <background>A mysterious detective from New York City</background>
+        <place-of-birth>New York City</place-of-birth>
+        <physical-appearance>
+            <height>1.80</height>
+            <weight>75.0</weight>
+            <eye-color>Brown</eye-color>
+            <hair-color_Blond</hair-color> <!-- Added头发颜色的正确格式 -->
+        </physical-appearance>
+    </character>
+</game>
+```

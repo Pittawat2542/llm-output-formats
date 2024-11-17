@@ -1,0 +1,12 @@
+The YAML data you provided is correct. Here's the corrected YAML code:
+
+```yaml
+game:
+  dialogues:
+   - order: dialogue order
+    speaker: speaker name
+    text: dialogue or narration
+    message_text: "Hello, world!"
+```
+
+Note that I removed the incorrect syntax for scanning for the next token `:` at line 6 in the original YAML code. Also, I updated the values of `order`, `speaker`, and `text` to match the structure of the new YAML data.

@@ -1,0 +1,29 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>25</id>
+		<name>Mammon</name>
+		<description>The God of Greed</description>
+		<stats>
+			<hp>120</hp>
+			<mp>80</mp>
+			<atk>95</atk>
+			<def>75</def>
+			<spd>110</spd>
+		</stats>
+	</enemy>
+	<enemy id="26">
+		<name>Leviathan</name>
+		<description>The Sea Serpent</description>
+		<stats>
+			<hp>300</hp>
+			<mp>250</mp>
+			<atk>150</atk>
+			<def>175</def>
+			<spd>80</spd>
+		</stats>
+	</enemy>
+</game>
+```

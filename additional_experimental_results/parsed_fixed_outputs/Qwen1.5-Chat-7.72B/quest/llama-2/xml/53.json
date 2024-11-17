@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "15",
+    "title": "Quest of the Lost King",
+    "objective": "Find the missing king",
+    "description": "The kingdom's\u751f\u6b7b\u5b58\u4ea1 depends on your discovery.",
+    "reward": "100 gold coins",
+    "quest-giver": "King's Council",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Search the dungeons",
+          "description": "Track down clues within the castle's depths.",
+          "location": "Dungeon complex"
+        },
+        {
+          "order": "2",
+          "objective": "Examine the surrounding forest",
+          "description": "The king may have ventured there for safety.",
+          "location": "Forest edge"
+        }
+      ]
+    }
+  }
+}

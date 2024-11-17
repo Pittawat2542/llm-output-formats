@@ -1,0 +1,22 @@
+{
+  "game": {
+    "description": "Quest Description",
+    "id": "quest-id",
+    "objective": "Quest Objective",
+    "quest_giver": "Goddess of the Lake",
+    "reward": {
+      "type": "Gold Coins",
+      "quantity": 5
+    },
+    "tasks": [
+      {
+        "description": "Task Description",
+        "location": "North Pond",
+        "objective": "Find Golden Frogs",
+        "order": 1,
+        "time\u9650\u5236": "1 hour"
+      }
+    ],
+    "title": "Quest Title"
+  }
+}

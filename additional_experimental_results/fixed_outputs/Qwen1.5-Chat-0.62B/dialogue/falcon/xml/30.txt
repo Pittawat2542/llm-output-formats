@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				Speaker "player1", Text "Narrative or dialogue"
+				text "dialogue or narration"
+			 dialogs>
+			<!-- Add more dialogues here -->
+		</dialogues>
+	</game>
+</xml>
+```
+Here is the corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				Speaker "player1", Text "Narrative or dialogue"
+				text "dialogue or narration"
+			 dialogs>
+			<!-- Add more dialogues here -->
+		</dialogues>
+	</game>
+</xml>
+```
+The syntax has been corrected and the new values have been provided if needed. If there is no wrong, only return the XML in a code block (between ```xml and ```). The original message is provided between ```xml and ```.

@@ -1,0 +1,45 @@
+```xml
+<?xml version="1.0" encoding="utf-8" xmlns="http://www.w3.org/ns/2015/SC以外的什么什么">
+<game>
+	<id>1</id>
+	<title>Example Quest</title>
+	<objective>Collect 100 flowers</objective>
+	<description>Find flowers scattered around the woods</description>
+	<reward>Get rewarded with a beautiful bouquet</reward>
+	<quest-giver>Bert the Explorer's Guild</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+				objective>collect 10 flowers</objective>
+				<description>Gather 10 flower scattered around the woods</description>
+				<location>woodland near Bert the Explorer's Guild shop</location>
+			</task>
+			<task>
+				<order>2</order>
+				group id="floormaster">>
+					<objective>collect 20 flowers of one type</objective>
+					<description>Gather 20 flowers of one type</description>
+					<group name="floormaster">>
+						<location>woodland near Floormaster's cabin</location>
+					</group>
+				<task>
+			<task>
+				<order>3</order>
+				group id="greenkeeper">>
+					<objective>collect 30 flowers of one type and 5 flowers of another type</objective>
+					<description>Gather 30 flowers of one type and 5 flowers of another type</description>
+					<group name="greenkeeper">>
+						<location>woodland near Greenkeeper's cabin</location>
+					</group>
+				<task>
+			<task>
+				<order>4</order>
+				group id="farmer">>
+					<objective>collect 100 flowers of the seasonal variety that can be found</objective>
+					<description>Gather 100 flowers of the seasonal variety that can be found</description>
+					<group name="farmer">>
+						<location>woodland near Farmer's cabin</location>
+					</group>
+				<tasks>
+</game>
+```

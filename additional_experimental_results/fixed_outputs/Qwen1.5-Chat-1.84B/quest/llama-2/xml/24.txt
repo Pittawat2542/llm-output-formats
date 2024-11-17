@@ -1,0 +1,34 @@
+Corrected XML data:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task order="1" objective="task 1" description="task description 1" location="location 1">
+				<order>task order 2</order>
+				<objective>task objective 2</objective>
+				<description>task description 2</description>
+				<location>location 2</location>
+			</task>
+			<task order="3" objective="task 3" description="task description 3" location="location 3">
+				<order>task order 4</order>
+				<objective>task objective 4</objective>
+				<description>task description 4</description>
+				<location>location 4</location>
+			</task>
+	</tasks>
+</game>
+```
+
+New values added:
+
+- `order` attribute for tasks: The task order (integer) is set to 1, 2, and 3.
+- `objective` attribute for tasks: Each task has a unique objective identifier (`task objective`) that represents the goal of the task.
+- `description` attribute for tasks: Each task description includes a brief description of the task and its location.
+- `reward` attribute for quest: The reward for completing the quest is "quest reward".

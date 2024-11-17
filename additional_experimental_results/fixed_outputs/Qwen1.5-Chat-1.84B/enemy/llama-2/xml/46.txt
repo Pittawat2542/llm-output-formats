@@ -1,0 +1,41 @@
+Corrected XML data:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy id="id1" name="name1" description="description1" stats HP="50" MP="20" ATK="8" DEF="7" SPD="3">
+		<stats>
+			<hp int value="50"/>
+			<mp int value="20"/>
+			<atk int value="8"/>
+			<def int value="7"/>
+			<spd int value="3"/>
+		</stats>
+	</enemy>
+	<enemy id="id2" name="name2" description="description2" stats HP="45" MP="15" ATK="6" DEF="6" SPD="4">
+		<stats>
+			<hp int value="45"/>
+			<mp int value="15"/>
+			<atk int value="6"/>
+			<def int value="6"/>
+			<spd int value="4"/>
+		</stats>
+	</enemy>
+</game>
+```
+New values if needed:
+- `id1`: 1
+- `name1`: Name 1
+- `description1`: Description 1
+- `hp`: 50
+- `mp`: 20
+- `atk`: 8
+- `def`: 7
+- `spd`: 3
+- `id2`: 2
+- `name2`: Name 2
+- `description2`: Description 2
+- `hp`: 45
+- `mp`: 15
+- `atk`: 6
+- `def`: 6
+- `spd`: 4

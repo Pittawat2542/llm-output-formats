@@ -1,0 +1,32 @@
+```json
+{
+  "game": {
+    "id": "Q1",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The lost temple is hidden deep in the jungle, and the artifact inside is said to grant immense power. Find it before the rival expedition does.",
+    "reward": "100 gold coins, 1 level up, and a rare item",
+    "quest_giver": "Captain Jameson",
+    "tasks": [
+      {
+        "order": "1",
+        "objective": "Find the lost temple",
+        "description": "Use your map to navigate through the jungle and find the entrance to the lost temple.",
+        "location": "Jungle ( coordinates 43.234, -12.345 )"
+      },
+      {
+        "order": "2",
+        "objective": "Solve the ancient puzzle",
+        "description": " Inside the temple, you will find an ancient puzzle that needs to be solved in order to unlock the artifact room.",
+        "location": "Lost Temple ( coordinates 34.567, -78.901 )"
+      },
+      {
+        "order": "3",
+        "objective": "Retrieve the artifact",
+        "description": "Once you've solved the puzzle, retrieve the artifact and bring it back to Captain Jameson.",
+        "location": "Artifact Room, Lost Temple ( coordinates 43.234, -12.345 )"
+      }
+    ]
+  }
+}
+```

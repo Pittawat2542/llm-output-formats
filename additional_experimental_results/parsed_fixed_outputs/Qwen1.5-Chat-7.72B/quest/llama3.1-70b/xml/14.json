@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q001",
+    "title": "The Lost Artifact Quest",
+    "objective": "Retrieve the ancient artifact from the ruins of a long-forgotten city",
+    "description": "Rumors have it that an artifact of immense power lies hidden in the ruins. Overcome perilous challenges, evade dangers, and secure this treasure for yourself.",
+    "reward": "1000 gold pieces, magical amulet granting resistance to poison",
+    "quest-giver": "Thorne Blackwood, the village elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information on the ruins' location.",
+          "description": "Talk to inhabitants in surrounding areas for any clues about the ancient city's whereabouts.",
+          "location": "Village tavern, local market, and town square"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the jungle to reach the ruins.",
+          "description": "Be cautious in the dense jungle, facing threats from wildlife, plants, and hidden perils.",
+          "location": "Approximately 5 miles east of the village"
+        },
+        {
+          "order": "3",
+          "objective": "Overcome traps and puzzles within the ruins.",
+          "description": "Use your intellect to neutralize dangers, discover secret passageways, and unravel ancient riddles to reach the artifact's chamber.",
+          "location": "The hidden entrance to the inner sanctum of the ruins"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+```yaml
+---
+game:
+  dialogues:
+  - order: dialogue_order
+    speaker: speaker_name
+    text: |
+      Dialogue 1:
+        - This can be customized and moved around as needed
+        - Use appropriate text editor commands
+        - Markdown format for easy manipulation
+
+      Dialogue 2:
+        # Example YAML.d file content
+        lines: 8
+
+# Updated YAML code block
+```
+The fixed YAML data has the following changes:
+
+1. Removed backticks (`) from within strings, as they were causing the error.
+2. Indented the `game` key and its contents properly to conform to YAML syntax.
+3. Created a new dialogue with the specified `order`, `speaker`, and `text`.
+4. Added an example YAML.d file content under the dialogue with a comment explaining it. YAML itself does not support comments directly, but this can be used for documentation purposes.

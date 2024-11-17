@@ -1,0 +1,21 @@
+{
+  "game": {
+    "id": "123456789",
+    "title": "A quest for treasure",
+    "objective": "Find the lost treasure before sunset",
+    "description": "Help the villagers of Oaktown retrieve their stolen treasure",
+    "reward": "10 gold pieces",
+    "quest-giver": "King Arthur's Knights",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "objective": {
+          "@objective": "Find the map to the treasure",
+          "@description": "Help the villagers find their lost treasure before sunset. They have a map, but it is incomplete.",
+          "@location": "the village square",
+          "#text": "..."
+        }
+      }
+    }
+  }
+}

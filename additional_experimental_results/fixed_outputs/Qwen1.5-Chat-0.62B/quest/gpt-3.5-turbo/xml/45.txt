@@ -1,0 +1,47 @@
+Here's the updated code block:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Treasure</title>
+	 Objective: Find the hidden treasure of the ancient civilization.
+	 Description: Embark on an epic adventure to find the long-lost treasure of the ancient civilization.
+	 Reward: 1000 gold coins
+	 Quest-giver: Captain William
+	 Tasks:
+		 <task>
+				<order>1</order>
+			 Objective: Obtain a treasure map.
+				Description: Visit the old library and search for a clue on the location of the treasure map.
+			建筑材料: Library of Mysteries, Decoding Chamber, Enchanted Jungle.
+		 </task>
+		 <task>
+				<order>2</order>
+			 Objective: Decode the treasure map.
+				Description: Crack the ancient code to decipher the hidden message on the treasure map.
+			建筑材料: Decoding Chamber, Enchanted Jungle.
+		 </task>
+		 <task>
+				<order>3</order>
+			 Objective: Navigate through the treacherous jungle.
+			建筑材料: Library of Mysteries, Enchanted Jungle.
+		 </task>
+		 <task>
+				<order>4</order>
+			 Objective: Brave the dangers of the enchanted jungle and follow the map to the location of the treasure.
+			建筑材料: Enchanted Jungle, Library of Mysteries.
+		 </task>
+		 <task>
+				<order>5</order>
+			 Objective: Retrieve the treasure chest.
+			建筑材料: Sacred shrine, Port of Call.
+		 </task>
+		 <task>
+				<order>6</order>
+			 Objective: Reach the sacred shrine and unlock the hidden chamber to find the treasure chest.
+			建筑材料: Sacred Shrine, Port of Call.
+		 </task>
+	</tasks>
+</game>
+```
+The code should now run successfully.

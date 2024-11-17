@@ -1,0 +1,17 @@
+```yaml
+game:
+  character:
+    age: 16
+    background: "Adopted by the King of the North"
+    first_name: Eddard
+    id: 001
+    last_name: Stark
+    physical_appearance:
+      - eye_color: green
+        hair_color: brown
+        height: 6.3 # Fixed the float value to use a decimal point
+        weight: 210.0 lbs # Fixed the float value to use a decimal point
+    place_of_birth: Winterfell
+    role: Lord of Winterfell
+    species: Human
+```

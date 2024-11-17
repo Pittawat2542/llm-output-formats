@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://example.com/game.xsd">
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the artifact and return it to the village elder</objective>
+	<description>You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.</description>
+	<reward>5000 gold, Elder's blessing</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+			<trigger>
+				<order>1</order>
+				<objective>Cross the orc territory</objective>
+				<description>You need to sneak through the orc territory without being noticed.</description>
+			<location>Green Bone Orc Territory</location>
+			</trigger>
+			<trigger>
+				<order>2</order>
+				<objective>Solve the temple puzzle</objective>
+				<description>Once in the temple, you need to solve a series of puzzles to uncover the artifact</description>
+			<location>Hidden Temple</location>
+			</trigger>
+			<trigger>
+				<order>3</order>
+				<objective>Return the artifact</objective>
+				<description>Bring the artifact back to the village elder to complete your quest.</description>
+			<location>Village</location>
+			</trigger>
+		</tasks>
+</game>
+
+```
+Explanation:
+1. The `<game>` element has been moved to the root of the XML document, with an ID attribute.
+2. The `<id>` element contains a new value "123456" for the game's unique identifier.
+3. The `<title>` element now specifies the title of the game, which is "The Lost Artifact".
+4. The `<objective>` element has been added to specify the primary objective of the game, which is to find and return a lost artifact to a village elder.
+5. The `<description>` element provides more details about the quest, including its setting (a battle between orcs and humans) and objectives (solving puzzles in a hidden temple).
+6. A new `<reward>` element has been added with a value of 5000 gold and an ` Elder's blessing` attribute to indicate the reward for completing the quest.
+7. The `<quest-giver>` element specifies the character who will be completing the quest, which is "Village Elder".
+8. An additional `<task>` element is added with three triggers: a `trigger` element for crossing the orc territory (order 1), a `trigger` element for solving the temple puzzle (order 2), and another `trigger` element for returning the artifact (order 3). Each trigger has its own objective, description, location, and reward.
+9. The `<tasks>` element now contains a list of all the tasks that need to be completed in order to complete the quest.
+
+The resulting XML data is:
+```xml
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://example.com/game.xsd">
+	<id>123456</id>
+	<title>The Lost Artifact</title>
+	<objective>Find the artifact and return it to the village elder</objective>
+	<description>You need to find the artifact which was lost during the last orc attack on our village. You have to go through the orc territory and a series of puzzles in the hidden temple where the artifact is believed to be hidden.</description>
+	<reward>5000 gold, Elder's blessing</reward>
+	<quest-giver>Village Elder</quest-giver>
+	<tasks>
+			<trigger>
+				<order>1</order>
+				<objective>Cross the orc territory</objective>
+				<description>You need to sneak through the orc territory without being noticed.</description>
+			<location>Green Bone Orc Territory</location>
+			</trigger>
+			<trigger>
+				<order>2</order>
+				<objective>Solve the temple puzzle</objective>
+				<description>Once in the temple, you need to solve a series of puzzles to uncover the artifact</description>
+			<location>Hidden Temple</location>
+			</trigger>
+			<trigger>
+				<order>3</order>
+				<objective>Return the artifact</objective>
+				<description>Bring the artifact back to the village elder to complete your quest.</description>
+			<location>Village</location>
+			</trigger>
+		</tasks>
+</game>
+```

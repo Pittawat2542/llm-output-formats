@@ -1,0 +1,55 @@
+Here is a Python function that generates an enemy battle status and returns the output in XML format:
+
+```python
+import xml.etree.ElementTree as ET
+
+def generate_enemy_battle_status(enemy_id, enemy_name, description, hp, mp, atk, defense, spd):
+    root = ET.Element("game")
+    enemy = ET.SubElement(root, "enemy")
+
+    ET.SubElement(enemy, "id").text = str(enemy_id)
+    ET.SubElement(enemy, "name").text = enemy_name
+    ET.SubElement(enemy, "description").text = description
+
+    stats = ET.SubElement(enemy, "stats")
+    ET.SubElement(stats, "hp").text = str(hp)
+    ET.SubElement(stats, "mp").text = str(mp)
+    ET.SubElement(stats, "atk").text = str(atk)
+    ET.SubElement(stats, "def").text = str(defense)
+    ET.SubElement(stats, "spd").text = str(spd)
+
+    return ET.tostring(root, encoding="unicode")
+
+# Example usage
+enemy_id = 1
+enemy_name = "Goblin"
+description = "A weak but vicious goblin."
+hp = 100
+mp = 50
+atk = 20
+defense = 15
+spd = 30
+
+xml_output = generate_enemy_battle_status(enemy_id, enemy_name, description, hp, mp, atk, defense, spd)
+print(xml_output)
+```
+
+Output:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+    <enemy>
+        <id>1</id>
+        <name>Goblin</name>
+        <description>A weak but vicious goblin.</description>
+        <stats>
+            <hp>100</hp>
+            <mp>50</mp>
+            <atk>20</atk>
+            <def>15</def>
+            <spd>30</spd>
+        </stats>
+    </enemy>
+</game>
+```

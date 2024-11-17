@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<game>
+	<id>789012</id>
+	<title>The Mysterious Treasure</title>
+	<objective>Uncover the secrets behind the treasure</objective>
+	<description>In this quest, you will embark on a thrilling adventure to uncover the mysteries of an ancient treasure that has been hidden for centuries. Along the way, you will encounter numerous challenges and solve puzzles to unlock the clues that lead to the treasure's location.</description>
+	<reward>Ancient artifact and a chest containing valuable artifacts</reward>
+	<quest-giver>Master historian Dr. Emily Thompson</quest-giver>
+	<tasks>
+			<task>
+			<order>1</order>
+			<objective>Discover historical records</objective>
+			<description>Research the ancient civilization's history and gather information about the treasure's origins, including any clues that may be hidden within its records.</description>
+			<location>Ancient Records Museum</location>
+			</task>
+			<order>2</order>
+			<objective>Find the lost artifact</objective>
+			<description>Investigate the ancient artifacts on display at the museum and search for any signs of a lost treasure. Look for clues that may point to the location of the treasure.</description>
+			<location>Ancient Artifacts Museum</location>
+			</task>
+			<order>3</order>
+			<objective>Uncover hidden chambers</objective>
+			<description>Scavenger hunt through the museum's galleries and underground tunnels, searching for hidden chambers that may contain clues to the treasure's location.</description>
+			<location>Museum Halls</location>
+			</task>
+		<task>
+			<order>4</order>
+			<objective>Meet with local experts</objective>
+			<description>Interview experts in archaeology and historical studies, such as Dr. Thompson, who may have insights into the treasure's location or even its existence.</description>
+			<location>Expert Interviews</location>
+			</task>
+			<order>5</order>
+			<objective>Conduct a final examination</objective>
+			<description>Collect all the clues and evidence gathered throughout the quest, including historical records, lost artifacts, and expert interviews, and conduct a thorough examination to determine whether the treasure is indeed hidden.</description>
+			<location>Final Examination Room</location>
+			</task>
+	<tasks>
+</game>
+
+```

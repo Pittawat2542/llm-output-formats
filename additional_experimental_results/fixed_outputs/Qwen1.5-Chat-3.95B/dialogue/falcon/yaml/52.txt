@@ -1,0 +1,15 @@
+ YAML code block:
+```yaml
+game:
+  dialogues:
+    - return: character name
+      - order: YAML order
+      - text: dialogue or narration
+    character: character name
+    YAML: |
+      order: YAML order
+      speaker: |
+        name: { return: speaker name } 
+        []: YAML block of characters or words
+      ->: { return: YAML block of return text }    
+```

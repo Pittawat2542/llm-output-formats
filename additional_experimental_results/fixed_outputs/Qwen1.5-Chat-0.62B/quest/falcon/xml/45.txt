@@ -1,0 +1,81 @@
+The correct syntax for the given XML data is as follows:
+
+```
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	 objective>quest objective</objective>
+	 description>quest description</description>
+	 reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+			 Objective>objective</objective>
+				Description>description</description>
+			 location>location</location>
+			/task>
+	</tasks>
+	
+Original: <game>
+	<id>id</id>
+	<title>quest title</title>
+	 objective>quest objective</objective>
+	 description>quest description</description>
+	 reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>task order</order>
+			 Objective>objective</objective>
+				Description>description</description>
+			 location>location</location>
+			/task>
+		</tasks>
+	</game>
+```
+
+The new values for the attributes `id`, `title`, `objective`, `description`, `reward`, and `quest-giver` are provided in the code. The correct syntax for the given XML data is as follows:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective>Quest Objective</Objective>
+	 Description>Quest Description</Description>
+	 Reward>Quest Reward</ reward>
+	Quest-Giver>Quest Giver</Quest-Giver>
+	Tasks>
+			<task>
+				Order: Task Order
+			 Objective: Objective
+				Description: Description
+			 Location: Location
+			/task>
+		</tasks>
+	</game>
+```
+
+The correct syntax for the given XML data is as follows:
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective>Quest Objective</Objective>
+	 Description>Quest Description</Description>
+	 Reward>Quest Reward</ reward>
+	Quest-Giver>Quest Giver</Quest-Giver>
+	Tasks>
+			<task>
+			 Order: Task Order
+			 Objective: Objective
+				Description: Description
+			 Location: Location
+			/task>
+		</tasks>
+	</game>
+```
+
+The new values for the attributes `title`, `objective`, `description`, ` reward`, and `quest-giver` are provided in the code.

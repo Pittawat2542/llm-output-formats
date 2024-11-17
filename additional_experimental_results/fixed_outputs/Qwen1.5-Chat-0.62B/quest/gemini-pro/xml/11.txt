@@ -1,0 +1,343 @@
+The correct XML data is provided between ```xml` and ``````.
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>In Search of the Lost Amulet</title>
+	objective>Retrieve the lost amulet from the ruins.</objective>
+	description>The amulet is said to have magical powers and is hidden deep within the ruins.</description>
+	 reward>A magical amulet that grants the wearer enhanced strength and speed.</reward>
+	quest-giver>Jarl Balgruuf</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			Objective>Travel to Helgen and find the lost amulet.</objective>
+			 Objective>Discover the secret entrance to the amulet's hiding place.</objective>
+			 Objective>Enter the chamber that holds the amulet.</objective>
+				<description>The secret chamber contains the amulet.</description>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>2</order>
+			 Objective>Locate the secret entrance to the amulet's hiding place and navigate the hidden chambers within.</objective>
+			 Objective>Enter the chamber and discover its secrets.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>3</order>
+			 Objective>Retrieve the amulet from its resting place and make your way back to Whiterun.</objective>
+			 Objective>Enter the chamber and find the amulet within the hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>4</order>
+			 Objective>Find the amulet within the hidden chamber and return to Whiterun.</objective>
+			 Objective>Enter the chamber and find the amulet inside its hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>5</order>
+			 Objective>Unlock the secret room behind the chamber that holds the amulet.</objective>
+			 Objective>Enter the secret room and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>6</order>
+			 Objective>Discover the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find its secrets.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>7</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>8</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>9</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>10</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			</task>
+		</tasks>
+
+</game>
+```
+
+The correct syntax is provided between ```xml` and ``````.
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>In Search of the Lost Amulet</title>
+	Objective>Retrieve the lost amulet from the ruins.</objective>
+	description>The amulet is said to have magical powers and is hidden deep within the ruins.</description>
+	 reward>A magical amulet that grants the wearer enhanced strength and speed.</reward>
+	quest-giver>Jarl Balgruuf</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			 Objective>Travel to Helgen and find the lost amulet.</objective>
+			 Objective>Discover the secret entrance to the amulet's hiding place.</ objective>
+			Objective>Enter the chamber that holds the amulet.</object>
+				<description>The secret chamber contains the amulet.</description>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>2</order>
+			 Objective>Locate the secret entrance to the amulet's hiding place and navigate the hidden chambers within.</ objective>
+			 Objective>Enter the chamber and discover its secrets.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>3</order>
+			 Objective>Retrieve the amulet from its resting place and make your way back to Whiterun.</objective>
+			Objective>Enter the chamber and find the amulet within the hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>4</order>
+			 Objective>Find the amulet within the hidden chamber and return to Whiterun.</objective>
+			Objective>Enter the chamber and find the amulet inside its hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>5</order>
+			 Objective>Unlock the secret room behind the chamber that holds the amulet.</objective>
+			 Objective>Enter the secret room and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>6</order>
+			 Objective>Discover the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find its secrets.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>7</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>8</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>9</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>10</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>11</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>12</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			</task>
+		</tasks>
+
+</game>
+```
+
+The new values provided are:
+
+  * Quest-giver: Karl Balgruuf
+  * Tasks: Travel to Helgen, locate secret entrance, enter chamber and discover secrets
+  * Reward: A magical amulet that grants enhanced strength and speed.
+
+Output in Markdown code block:
+```yaml
+<?xml version="1.0" ?>
+<game>
+	<id>001</id>
+	<title>In Search of the Lost Amulet</title>
+	 Objective>Retrieve the lost amulet from the ruins.</objective>
+	description>The amulet is said to have magical powers and is hidden deep within the ruins.</description>
+	 reward:A magical amulet that grants the wearer enhanced strength and speed.
+	quest-giver:Carl Balgruuf
+	<title>Quests</title>
+	<tasks>
+			<task>
+				<order>1</order>
+			 Objective>Travel to Helgen and find the lost amulet.</objective>
+			 Objective>Discover the secret entrance to the amulet's hiding place.</objective>
+			 Objective>Enter the chamber that holds the amulet.
+				<description>The secret chamber contains the amulet.</description>
+			<task>
+				<order>2</order>
+			 Objective>Locate the secret entrance to the amulet's hiding place and navigate the hidden chambers within.</ objective>
+			 Objective>Enter the chamber and discover its secrets.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>3</order>
+			 Objective>Retrieve the amulet from its resting place and make your way back to Whiterun.</objective>
+			 Objective>Enter the chamber and find the amulet within the hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>4</order>
+			 Objective>Find the amulet within the hidden chamber and return to Whiterun.</objective>
+			 Objective>Enter the chamber and find the amulet inside its hidden chambers.</object>
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>5</order>
+			 Objective>Unlock the secret room behind the chamber that holds the amulet.</objective>
+			 Objective>Enter the secret room and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>6</order>
+			 Objective>Discover the hidden chamber behind the secret room that holds the amulet.</objective>
+			 Objective>Enter the hidden chamber and find its secrets.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>7</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>8</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>9</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>10</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>11</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>12</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</ objective>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>13</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>14</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>15</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>16</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>17</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>18</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>19</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>20</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>21</order>
+			 Objective>Unlock the hidden chamber behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>22</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>23</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>24</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>25</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>26</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>27</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>28</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>29</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>30</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>31</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>32</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>33</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>34</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find the amulet inside it.
+				Central Location: East of Whiterun, in the mountains.</description>
+			<task>
+				<order>35</order>
+			 Objective>Unlock the hidden room behind the secret room that holds the amulet.</object>
+			 Objective>Enter the hidden chamber and find

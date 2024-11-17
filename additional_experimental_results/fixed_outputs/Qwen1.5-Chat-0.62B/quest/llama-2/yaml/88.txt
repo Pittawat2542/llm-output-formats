@@ -1,0 +1,45 @@
+```
+game:
+  description: Quest description.
+  id: 1
+  objective: Quest objective.
+  quest_giver: Quest quest giver.
+  reward: Quest reward.
+  tasks:
+   - description: Task description.
+    location: Task location.
+    objective: Task objective.
+    order: 1
+  title: Quest title.
+```
+Here's the correct YAML data in a code block (between ```yaml and ```):
+```yaml
+game:
+  description: Quest description.
+  id: 1
+  objective: Quest objective.
+  quest_giver: Quest quest giver.
+  reward: Quest reward.
+  tasks:
+   - description: Task description.
+    location: Task location.
+    objective: Task objective.
+    order: 1
+  title: Quest title.
+```
+Output in YAML format and only the YAML in the Markdown code block:
+
+```yaml
+game:
+  description: Quest description.
+  id: 1
+  objective: Quest objective.
+  quest_giver: Quest quest giver.
+  reward: Quest reward.
+  tasks:
+   - description: Task description.
+    location: Task location.
+    objective: Task objective.
+    order: 1
+  title: Quest title.
+```

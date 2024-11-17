@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "123",
+    "title": "The Lost Treasure",
+    "objective": "Find the lost treasure hidden by the ancient pirate, Blackbeard.",
+    "description": "The legendary pirate, Blackbeard, is said to have hidden his vast treasure on a remote island. Many have searched for it, but none have been successful. Can you find the treasure and bring it back?",
+    "reward": "A chest filled with gold and jewels.",
+    "quest-giver": "Jack the Tavern Keeper",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to Tortuga Island.",
+          "description": "Tortuga Island is the last known location where Blackbeard was seen.",
+          "location": "Tortuga Island"
+        },
+        {
+          "order": "2",
+          "objective": "Find the secret map.",
+          "description": "The secret map is said to be hidden in a cave on Tortuga Island.",
+          "location": "Cave on Tortuga Island"
+        },
+        {
+          "order": "3",
+          "objective": "Follow the map to the treasure.",
+          "description": "The map will lead you to the treasure, but be careful. There are many dangers along the way.",
+          "location": "Treasure Island"
+        }
+      ]
+    }
+  }
+}

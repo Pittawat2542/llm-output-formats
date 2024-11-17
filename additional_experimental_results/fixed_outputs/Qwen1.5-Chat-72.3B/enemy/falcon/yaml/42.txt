@@ -1,0 +1,13 @@
+```yaml
+enemy:
+  description: description
+  id: id
+  name: name
+  stats:
+    atk: 50 # Assuming this should be an int value, original expression was invalid YAML
+    def: 0
+    hp: 800
+    mp: 40
+    spd: 0
+```
+In the fixed YAML data, I've corrected the syntax by adding a `stats` mapping to contain the enemy's statistical values. I also replaced the invalid expression for `atk` with a simple integer value, as YAML does not support mathematical expressions directly within scalar values. If the original `atk` value was meant to be a formula, you would need to handle that calculation in your application logic instead of storing it in the YAML.

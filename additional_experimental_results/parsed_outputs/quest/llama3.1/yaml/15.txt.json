@@ -1,0 +1,30 @@
+{
+  "game": {
+    "description": "Retrieve the ancient scroll from the long-abandoned ruin, hidden deep within the Dragon's Spine mountain range.",
+    "id": 1,
+    "objective": "Retrieve the Scroll of Eldrid",
+    "quest_giver": "Eilif Stonebeard, a grizzled dwarf miner",
+    "reward": "A map leading to a secret underground chamber containing a trove of precious gems and metals",
+    "tasks": [
+      {
+        "description": "Journey to the Dragon's Spine mountain range",
+        "location": "The dwarven settlement of Kragnir",
+        "objective": "Gather information about the ruin's location and any potential dangers that lie within",
+        "order": 1
+      },
+      {
+        "description": "Navigate through the treacherous mountain pass",
+        "location": "The narrow, winding path between the mountains' peaks",
+        "objective": "Avoid deadly traps and fend off packs of ferocious goblins",
+        "order": 2
+      },
+      {
+        "description": "Infiltrate the ancient ruin",
+        "location": "The long-abandoned temple hidden within the mountains",
+        "objective": "Locate and retrieve the Scroll of Eldrid, avoiding any powerful magical wards that protect it",
+        "order": 3
+      }
+    ],
+    "title": "The Lost Scroll of Eldrid"
+  }
+}

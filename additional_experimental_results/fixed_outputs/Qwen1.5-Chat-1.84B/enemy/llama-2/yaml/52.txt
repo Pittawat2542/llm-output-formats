@@ -1,0 +1,26 @@
+Game:
+  enemy:
+    description: Description of the enemy
+    id: ID
+    name: Name of the enemy
+    stats:
+      attack: Attack value (int)
+      defense: Defense value (int)
+      health: Health value (int)
+      mp: MP value (int)
+      speed: Speed value (int)
+
+## Examples
+```yaml
+game:
+  enemy:
+    description: Description of the enemy
+    id: ID
+    name: Name of the enemy
+    stats:
+      attack: 100
+      defense: 100
+      health: 100
+      mp: 100
+      speed: 100
+```

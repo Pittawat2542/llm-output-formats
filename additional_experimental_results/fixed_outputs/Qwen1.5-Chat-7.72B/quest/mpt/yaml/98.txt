@@ -1,0 +1,17 @@
+```yaml
+quest:
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+    - description: task description
+      location: task location
+      objective: task objective
+      order: task order
+  title: quest title
+
+# Optional description added for better understanding
+description: |
+  A brief introduction to the quest goes here if needed
+```

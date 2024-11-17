@@ -1,0 +1,49 @@
+The correct syntax for the YAML data is:
+
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the ending of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+Here are new values if needed:
+
+- `beginning`: the beginning of the game
+- `ending`: the end of the game
+- `synopsis`: game story synopsis
+- `title`: game title
+
+The output in YAML format is:
+```yaml
+game:
+  begining: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+```
+
+And here are new Markdown code blocks that display the output in YAML format and include the correct syntax:
+
+```markdown
+# Game Description
+## Beginnings
+
+The beginning of the game is a time when excitement and anticipation fill the air. The characters begin to explore the world, looking forward to what lies ahead.
+
+## Endings
+
+The end of the game is a time when the players have completed their journey and are ready to move on. The characters say goodbye to each other and prepare to head back home.
+
+# Summary
+## Game Story
+## A story that unfolds as the players progress through the game world.
+
+## Title
+## A title that describes the main theme of the game.
+
+```yaml
+# Error: incorrect_syntax: while scanning for the next token
+^
+```

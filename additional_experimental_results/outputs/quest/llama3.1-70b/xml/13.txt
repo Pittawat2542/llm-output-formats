@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>Q001</id>
+	<title>The Lost City of Eldarath</title>
+	<objective>Find the ancient artifacts hidden within the ruins of Eldarath.</objective>
+	<description>Rumors have been circulating about a long-abandoned city deep in the heart of the mystical forest, where ancient relics hold the key to unimaginable power. Brave adventurers are needed to explore the treacherous terrain and retrieve these artifacts before they fall into the wrong hands.</description>
+	<reward>1000 gold pieces and the blessing of the Forest Goddess</reward>
+	<quest-giver>Elara Moonwhisper, Druid of the Ancients</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Navigate through the treacherous paths of the mystical forest and reach the entrance of the Lost City.</objective>
+			<description>Beware of the deadly creatures that roam the forest, including giant spiders and venomous snakes. The path is fraught with peril, but the reward will be worth it.</description>
+			<location>The Entrance to the Lost City</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Retrieve the first artifact, the Starlight Crystal, from the ancient temple within the city.</objective>
+			<description>The temple is said to be filled with deadly traps and puzzles. Only those who are worthy will succeed in retrieving the crystal.</description>
+			<location>The Ancient Temple</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Return to Elara Moonwhisper with the Starlight Crystal and receive further instructions on how to proceed.</objective>
+			<description>Be prepared for a grand celebration, as your return will mark a significant milestone in the quest.</description>
+			<location>Elara's Glade</location>
+		</task>
+	</tasks>
+</game>
+```

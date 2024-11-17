@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>The Lost Artifact</title>
+	<objective>Find and retrieve the ancient artifact from the ruins.</objective>
+	<description>In this quest, you must explore the forgotten ruins to find the lost artifact and return it to the quest giver.</description>
+	<reward>1000 gold coins and a rare enchanted weapon</reward>
+	<quest-giver>NPC_Greymore</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Locate the ruins</objective>
+			<description>You must discover the entrance to the ruins hidden in the dense forest.</description>
+			<location>Forest of Shadows</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Defeat the Guardian</objective>
+			<description>A powerful ancient guardian protects the artifact. You must defeat it to proceed.</description>
+			<location>Ruins Interior</location>
+		</task>
+	</tasks>
+</game>
+```

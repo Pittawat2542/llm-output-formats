@@ -1,0 +1,91 @@
+```
+
+### Output format
+```yaml
+fixed:
+    game:
+        beginning: the beginning of the game
+        ending: the ending of the game
+        synopsis: game story synopsis
+        title: game title
+```
+
+Exercise 1: Convert a YAML file to JSON using the yaml module. Print out the resulting dictionary object.
+
+```python
+import yaml
+
+# Load YAML data into a Python dictionary
+with open('data.yml', 'r') as fh:
+    yaml_data = yaml.safe_load(fh)
+
+# Convert the dictionary to JSON format
+json_data = yaml_data['name']
+print(json_data)
+```
+
+Exercise 2: Load a YAML file into an object using the yaml module and access its attributes. Print out each attribute with its value.
+
+```python
+import yaml
+
+# Load YAML data into a Python dictionary
+with open('data.yml', 'r') as fh:
+    yaml_data = yaml.safe_load(fh)
+
+# Access the attributes of the dictionary object
+for key, value in yaml_data.items():
+    print(key + ":", value)
+```
+
+Exercise 3: Use the dump method of the yaml module to write a Python dictionary to a YAML file. The dictionary should contain information about your favorite books.
+
+```python
+import yaml
+
+# Define a dictionary with book information
+books = {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "genre": "Southern Gothic Fiction",
+}
+
+# Write the dictionary to a YAML file
+with open('books.yml', 'w') as fh:
+    yaml.dump(books, fh)
+```
+
+Exercise 4: Use the load method of the yaml module to read a YAML file and convert its data into a Python object. Print out each attribute with its value.
+
+```python
+import yaml
+
+# Load YAML data into a Python dictionary
+with open('books.yml', 'r') as fh:
+    yaml_data = yaml.safe_load(fh)
+
+# Access the attributes of the dictionary object
+for key, value in yaml_data.items():
+    print(key + ":", value)
+```
+
+Exercise 5: Use string formatting to create a custom YAML file that contains information about your favorite movies. The file should have at least four entries with attributes such as title, director, year, and rating.
+
+```python
+import yaml
+
+# Define movie data using string formatting
+movies = [
+    {"title": "The Godfather", "director": "Francis Ford Coppola", "year": 1972, "rating": 9.2},
+    {"title": "The Shawshank Redemption", "director": "Frank Darabont", "year": 1994, "rating": 9.3},
+    {"title": "Pulp Fiction", "director": "Quentin Tarantino", "year": 1994, "rating": 8.9},
+    {"title": "Forrest Gump", "director": "Robert Zemeckis", "year": 1994, "rating": 8.8},
+]
+
+# Write the movie data to a YAML file using string formatting
+with open('movies.yml', 'w') as fh:
+    for i, movie in enumerate(movies):
+        fh.write("{}: {}\n".format(i + 1, movie))
+```
+

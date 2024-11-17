@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "A map leads you to a forgotten temple deep in the jungle. Your mission is to explore the temple, overcome its challenges, and recover the lost artifact.",
+    "reward": "1000 experience points and a magical relic",
+    "quest-giver": "Guru Zara",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Enter the jungle temple",
+          "description": "Locate the entrance to the temple hidden among the dense vegetation.",
+          "location": "Jungle clearing, north of the village"
+        },
+        {
+          "order": "2",
+          "objective": "Decipher the hieroglyphs",
+          "description": "Solve the puzzles on the temple walls to unlock the inner chamber.",
+          "location": "Main chamber, temple interior"
+        },
+        {
+          "order": "3",
+          "objective": "Conquer the guardian",
+          "description": "Defeat the ancient protector of the artifact and claim your reward.",
+          "location": "Final chamber, deepest part of the temple"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+```
+game:
+  enemy:
+    description: "enemy's description"
+    id: "enemy_id"
+    name: "enemy_name"
+    stats:
+      atk: 50 # int value for attack
+      def: 30 # int value for defense
+      hp: 100 # int value for health
+      mp: 20 # int value for mana
+      spd: 40 # int value for speed
+```
+The YAML syntax in the fixed message is correct. The values provided have been updated where necessary (renaming variables to follow the snake_case naming convention and adding missing values). The output is now ready for use.

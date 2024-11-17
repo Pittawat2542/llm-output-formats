@@ -1,0 +1,15 @@
+```yaml
+game:
+  character:
+    age: Age or description of the character
+    background: Brief description of the character's background
+    first_name: First name of the character
+    id: Character identification code
+    last_name: Last name of the character
+    physical_appearance:
+      - eye_color: Eye color
+      - hair_color: Hair color
+      height: Height in feet or inches
+      weight: Weight in pounds
+    place_of_birth: Place and date of birth
+```

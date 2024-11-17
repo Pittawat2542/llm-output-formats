@@ -1,0 +1,19 @@
+The YAML data is missing a key value. The correct syntax should include the 'game' object with properties such as 'character'. Here's the updated YAML:
+```yaml
+game:
+  character:
+    name: name of the character
+    age: exact age or description
+    background: background story of the character
+    first_name: first name if provided
+    id: id of the character
+    last_name: last name
+    physical_appearance:
+    - eye_color: eye color
+      hair_color: data-color_hair_color
+      height: data-height
+      weight: data-weight
+    place_of_birth: location
+    role: role of the character
+    species: species
+```

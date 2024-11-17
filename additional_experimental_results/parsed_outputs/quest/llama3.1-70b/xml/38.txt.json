@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "Rumors have been circulating about a long-lost temple deep in the jungle, containing an ancient artifact of immense power. The locals are too afraid to venture near, but the promise of wealth and fame is too great to resist.",
+    "reward": "10,000 gold pieces and a magical amulet granting resistance to poison.",
+    "quest-giver": "Professor Thaddeus Wimpole",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost temple from the locals.",
+          "description": "Speak to the villagers and gather any information they may have about the lost temple. They may be unwilling to share, so be prepared to offer incentives.",
+          "location": "The Village of Oakwood"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate through the jungle and find the entrance to the lost temple.",
+          "description": "Make your way through the dense jungle, avoiding deadly creatures and treacherous terrain. The entrance to the temple is said to be hidden behind a waterfall.",
+          "location": "The Jungle of Shadows"
+        },
+        {
+          "order": "3",
+          "objective": "Retrievethe ancient artifact from the lost temple.",
+          "description": "Explore the ancient ruins, overcoming deadly traps and battling fearsome guardians. The artifact is said to be hidden in a treasure chamber deep within the temple.",
+          "location": "The Lost Temple"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>456</id>
+    <title>Quest of the Lost Amulet</title>
+    <objective>Find and return the stolen Amulet of the Sun to the Temple</objective>
+    <description>Cheek in at the local inn for a clue from the wise bard, then journey to the Whispering Mountains where you'll locate the artifact.</description>
+    <reward>1000 gold pieces and a magical enchanted sword</reward>
+    <quest-giver>Brilliant archaeologist Isabella</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Inn Clue Gathering</objective>
+            <description>Ask the bard at the Green Leaf Inn about a missing artifact related to the Amulet of the Sun.</description>
+            <location>Inn, Green Leaf</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Whispering Mountains Exploration</objective>
+            <description>Follow the map's markers through the Whispering Mountains until you find a hidden cave entrance.</description>
+            <location>Whispering Mountains Cave</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Artifact Retrieval</objective>
+            <description>Inside the cave, locate and retrieve the stolen Amulet of the Sun from the safe spot.</description>
+            <location>Whispering Mountains Cave Artifact Room</location>
+        </task>
+    </tasks>
+</game>
+```

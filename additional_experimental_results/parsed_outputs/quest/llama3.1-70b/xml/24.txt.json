@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QST001",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple",
+    "description": "Rumors have been circulating about a long-lost temple deep in the jungle, containing an ancient artifact of great power. Retrieve the artifact and bring it back to the village elder.",
+    "reward": "1000 gold pieces, a magical amulet, and the gratitude of the villagers",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about the lost temple from the village elder's journal",
+          "description": "Read through the village elder's journal to learn more about the location and layout of the lost temple.",
+          "location": "Village Elder's Hut"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the jungle and find the entrance to the lost temple",
+          "description": "Brave the dangers of the jungle and search for the hidden entrance to the lost temple.",
+          "location": "Jungle"
+        },
+        {
+          "order": "3",
+          "objective": "Navigate through the temple's traps and puzzles to reach the artifact",
+          "description": "Use your wits and reflexes to overcome the deadly traps and solve the ancient puzzles that guard the artifact.",
+          "location": "Lost Temple"
+        }
+      ]
+    }
+  }
+}

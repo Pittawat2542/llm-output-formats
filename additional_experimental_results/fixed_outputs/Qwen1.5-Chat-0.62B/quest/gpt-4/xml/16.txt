@@ -1,0 +1,30 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>G dragon Slayer</title>
+	 Objective: Defeat the mighty dragon terrorizing our land.
+	 Description: You've been chosen by the king to slay the dragon which has been causing chaos in our land. You will have to travel through treacherous terrains, conquer fearsome foes before you can face the dragon at the Heart of the volcano.
+	 Reward: Kingdom's highest honor and 5000 gold coins
+	 Quest-giver: King Arthur
+	 Tasks:
+		 <task>
+			 <order>1</order>
+			 Objective>Gather equipment</objective>
+			 Description: Visit the kingdom's blacksmith to gather necessary weapons and armors.
+			 Location: Royal Blacksmith (Forest of the Damned)
+		 </task>
+		 <task>
+			 <order>2</order>
+			 Objective>Fighting undead army</objective>
+			 Description:A undead army guards the way to the dragon's lair. Defeat them to move forward.
+			 Location: Forest of the Damned
+		 </task>
+		 <task>
+			 <order>3</order>
+			 Objective'Defeat the Dragon</objective>
+			 Description: Finally, defeat the dragon residing in Heart of the volcano.
+			 Location: Heart of the Volcano
+		 </task>
+	</tasks>
+</game>
+```

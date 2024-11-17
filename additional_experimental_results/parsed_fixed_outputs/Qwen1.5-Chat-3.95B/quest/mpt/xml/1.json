@@ -1,0 +1,22 @@
+{
+  "game": {
+    "@xmlns": "http://www.gamer.com/2014/",
+    "id": {
+      "@id": "id",
+      "#text": "id"
+    },
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "quest giver",
+    "tasks": {
+      "task": {
+        "order": "task order",
+        "objective": "task objective",
+        "description": "task description",
+        "location": "task location"
+      }
+    }
+  }
+}

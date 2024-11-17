@@ -1,0 +1,80 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+			<id>id</id>
+			<first-name>First Name</first-name>
+			<last-name>Last Name</last-name>
+			 species="Species"
+			age="exact age or description"
+			role="Role of the Character"
+			background="Background Story"
+			place-of-birth="Location"
+			physical-appearance>
+				eye-color="Eye Color"
+				hair-color="Hair Color"
+				height="Height in Float Value"
+			_weight="Weight in Float Value"
+			</physical-appearance>
+		</character>
+		<character>
+			<id>id</id>
+			<first-name>First Name</first-name>
+			<last-name>Last Name</last-name>
+			species="Species"
+			age="exact age or description"
+			role="Role of the Character"
+			background="Background Story"
+			place-of-birth="Location"
+			physical-appearance>
+				eye-color="Eye Color"
+				hair-color="Hair Color"
+				height="Height in Float Value"
+			_weight="Weight in Float Value"
+			</physical-appearance>
+		</character>
+		<character>
+			<id>id</id>
+			<first-name>First Name</first-name>
+			<last-name>Last Name</last-name>
+			species="Species"
+			age="exact age or description"
+			role="Role of the Character"
+			background="Background Story"
+			place-of-birth="Location"
+			physical-appearance>
+				eye-color="Eye Color"
+				hair-color="Hair Color"
+				height="Height in Float Value"
+			 weight="Weight in Float Value"
+			</physical-appearance>
+		</character>
+		<character>
+			<id>id</id>
+			<first-name>First Name</first-name>
+			<last-name>Last Name</last-name>
+			species="Species"
+			age="exact age or description"
+			role="Role of the Character"
+			background="Background Story"
+			place-of-birth="Location"
+			physical-appearance>
+				eye-color="Eye Color"
+				hair-color="Hair Color"
+				height="Height in Float Value"
+			 weight="Weight in Float Value"
+			</physical-appearance>
+		</character>
+		<game>
+			<title>Game</title>
+			<body>
+				<h2>Character 1</h2>
+				<p>The first name of the character is <strong>John Doe</strong>.</p>
+				<p>The last name of the character is <strong>Jane Smith</strong>.</p>
+				<p>The species of the character is <strong>Dog</strong>.</p>
+				<p>The age of the character is 25.</p>
+				<p>The role of the character in the game is a player who controls one of the characters and needs to defeat the other character in order to win the game.</p>
+			</body>
+		</game>
+</xml>
+```

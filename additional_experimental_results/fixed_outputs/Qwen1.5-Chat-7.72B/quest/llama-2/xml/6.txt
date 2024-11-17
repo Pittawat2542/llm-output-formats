@@ -1,0 +1,25 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456789</id>
+    <title>The quest for the golden apple</title>
+    <objective>Find the golden apple</objective>
+    <description>The golden apple is a magical artifact that can be used to cure all illnesses. It is rumored to be hidden somewhere in the kingdom.</description>
+    <reward>1000 gold coins</reward>
+    <quest-giver>The king</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Locate the hidden chest in the royal garden</objective>
+            <description>Catalogue the items inside and bring it to the king's castle.</description>
+            <location>Royal Garden</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Search the ancient library for a clue</objective>
+            <description>Uncover a map leading to the apple's location by deciphering an old tome.</description>
+            <location>Ancient Library</location>
+        </task>
+    </tasks>
+</game>
+```

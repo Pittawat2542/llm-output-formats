@@ -1,0 +1,49 @@
+1. The following are the valid examples of YAML data:
+
+```yaml
+game:
+    name: my_game
+    level: 1
+    score: 0
+    scoreboard:
+        - name: Bob
+            points: 20
+        - name: Jane
+            points: 15
+        - name: Jack
+            points: 10
+```
+
+2. The following are the invalid examples of YAML data:
+
+```yaml
+game:
+    name: my_game
+    level: 1
+    score: 0
+    scoreboard:
+        - name: Bob
+            points: 20
+    # extra line should not be there
+    - name: Jane
+            points: 15
+        - name: Jack
+            points: 10
+```
+
+3. The following is a valid YAML data with the key missing in an object and it will result in a KeyError:
+
+```yaml
+game:
+    name: my_game
+    level: 1
+    score: 0
+    scoreboard:
+        - name: Bob
+            points: 20
+        - name: Jane
+            points: 15
+    # key 'difficulty' missing in the game object
+```
+
+

@@ -1,0 +1,28 @@
+```yaml
+game:
+  description: Quest to obtain rare Glowstones for potions, including Healing potion.目标是找到并带回至少10块矿石给商人Jack。
+  id: mst-004
+  objective: 找到发光的裂谷，注意那里的危险生物。任务完成后返回商人处。
+  quest_giver: Jack the Trader
+  reward:
+    experience: 5000
+    gold_range: 1500-2500
+  tasks:
+  - description: 往塞尔布勒山以东走，进入发光裂谷。务必小心，那里充满危险。
+    location: 发光裂谷
+    objective: 进入裂谷并遵循矿石光芒
+    order: 1
+  - description: 在蜿蜒的隧道中战斗，跟随矿石的光芒前进。
+    location: 发光裂谷隧道
+    objective: 寻找并收集矿石
+    order: 2
+  - description: 从矿脉收集至少10块发光矿石，然后返回给商人。
+    location: 发光矿母脉
+    objective: 提供10块矿石
+    order: 3
+  - description: 将10块矿石交还给Jack the Trader以完成任务。
+    location: Jack the Trader
+    objective: 返还矿石
+    order: 4
+  title: 发光裂谷：一道耀眼的挑战
+```

@@ -1,0 +1,9 @@
+```yaml
+game:
+  begininning: the beginning of the game
+  ending: the end of the game
+  synopsis: A brief overview of the game's plot and story
+  title: GameTitle
+```
+
+The YAML syntax in Example 80 has been corrected. The `beginning` key was changed to `beginning` (misspelled), and a comma was added after `synopsis` to separate it from `title`. The `title` value now uses proper capitalization.

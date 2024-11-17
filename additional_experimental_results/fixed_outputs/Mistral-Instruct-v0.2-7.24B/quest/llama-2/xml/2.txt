@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>1</id>
+	<title>The Lost Temple</title>
+	<objective>Find the ancient artifact in the ruins of the lost temple.</objective>
+	<description>Long ago, there was a great civilization that worshiped the sun. However, they vanished without a trace, leaving behind only their magnificent temple. Rumors have it that within this temple lies an ancient artifact of immense power. You have been tasked with finding it.</description>
+	<reward>100 gold</reward>
+	<quest-giver>Elder Zoltar</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Speak to Elder Zoltar and accept the quest.</objective>
+			<description>You must first speak to Elder Zoltar, who will provide you with more information about the lost temple and the artifact.</description>
+			<location>Village center</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Gather information about the temple's location.</objective>
+			<description>There are rumors that the temple is located deep in the jungle, but no one knows for sure. You must gather as much information as you can from the locals before setting out on your journey.</description>
+			<location>Village library</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Prepare for the journey.</objective>
+			<description>The jungle is a dangerous place, filled with all kinds of creatures. Make sure you are well-equipped before setting out on your quest.</description>
+			<location>Village armorer</location>
+		</task>
+		<task>
+			<order>4</order>
+			<objective>Find the lost temple.</objective>
+			<description>Using the information you have gathered, navigate through the jungle and find the lost temple.</description>
+			<location>Jungle</location>
+		</task>
+		<task>
+			<order>5</order>
+			<objective>Retrieve the ancient artifact.</objective>
+			<description>Once you have reached the temple, find the ancient artifact and bring it back to Elder Zoltar.</description>
+			<location>Lost Temple</location>
+		</task>
+	</tasks>
+</game>
+```

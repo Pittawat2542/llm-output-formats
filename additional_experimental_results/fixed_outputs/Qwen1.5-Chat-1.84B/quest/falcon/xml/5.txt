@@ -1,0 +1,105 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objective>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>quest giver</quest-giver>
+	<tasks>
+			<task>
+				<order>Task 1</order>
+				<objective>Task 1 Objective</objective>
+				<description>Task 1 Description</description>
+				<location>Task 1 Location</location>
+			</task>
+				<order>Task 2</order>
+				<objective>Task 2 Objective</objective>
+				<description>Task 2 Description</description>
+				<location>Task 2 Location</location>
+			</task>
+				<order>Task 3</order>
+				<objective>Task 3 Objective</objective>
+				<description>Task 3 Description</description>
+				<location>Task 3 Location</location>
+			</task>
+		</tasks>
+	</game>
+```
+New values:
+- `id`: `1` (fixed)
+- `title`: "Quest - A Beginner's Guide"
+- `objective`: "Complete all tasks to reach the end goal within a certain time limit."
+- `description`: "Learn the basics of gameplay, collect rewards, and face challenges as you progress through this quest."
+- `reward`: "Completion bonus points" (added)
+- `quest-giver`: "Quest Giver" (fixed)
+- `giver_name`: "John Doe"
+- `order`: "Task 1" (fixed)
+- `objective`: "Complete the first objective to reach level 1."
+- `tasks`: 
+```xml
+<task>
+	<location>: Start Location</location>
+	<order: Level 1 Objective 1</order>
+	<description>Learn how to move and interact with basic objects.</description>
+	<location>Start Location</location>
+</task>
+
+<task>
+	<location>: Level 1 Objective 2</location>
+	<order: Level 1 Objective 2</order>
+	<description>Practice collecting items, solving puzzles, and defeating enemies.</description>
+	<location>Level 1 Objective 2</location>
+</task>
+
+<task>
+	<location>: Level 1 Objective 3</location>
+	<order: Level 1 Objective 3</order>
+	<description>Unlock new abilities, weapons, and items as you progress through the level.</description>
+	<location>Level 1 Objective 3</location>
+</task>
+
+<task>
+	<location>: Level 2 Objective 1</location>
+	<order: Level 2 Objective 1</order>
+	<description>Learn how to move faster, jump higher, and use special abilities.</description>
+	<location>Level 2 Objective 1</location>
+</task>
+
+<task>
+	<location>: Level 2 Objective 2</location>
+	<order: Level 2 Objective 2</order>
+	<description>Practice defeating stronger enemies and bosses using special weapons.</description>
+	<location>Level 2 Objective 2</location>
+</task>
+
+<task>
+	<location>: Level 2 Objective 3</location>
+	<order: Level 2 Objective 3</order>
+	<description>Unlock new abilities, weapons, and items as you progress through the level.</description>
+	<location>Level 2 Objective 3</location>
+</task>
+
+<task>
+	<location>: Level 3 Objective 1</location>
+	<order: Level 3 Objective 1</order>
+	<description>Learn how to move faster, jump higher, and use special abilities.</description>
+	<location>Level 3 Objective 1</location>
+</task>
+
+<task>
+	<location>: Level 3 Objective 2</location>
+	<order: Level 3 Objective 2</order>
+	<description>Practice defeating stronger enemies and bosses using special weapons.</description>
+	<location>Level 3Objective 2</location>
+</task>
+
+<task>
+	<location>: Level 3Objective 3</location>
+	<order: Level 3Objective 3</order>
+	<description>Unlock new abilities, weapons, and items as you progress through the level.</description>
+	<location>Level 3Objective 3</location>
+</task>
+```

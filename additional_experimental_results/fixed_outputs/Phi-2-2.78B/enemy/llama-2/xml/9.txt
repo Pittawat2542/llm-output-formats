@@ -1,0 +1,32 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy id="enemy_id">
+		<name "enemy_name">
+			<description "enemy_description">
+				<stats>
+					<hp integer value="enemy_hp"/>
+					<mp integer value="enemy_mp"/>
+					<atk integer value="enemy_atk"/>
+					<def integer value="enemy_def"/>
+					<spd integer value="enemy_spd"/>
+				</stats>
+			</description>
+		</name>
+	</id>
+	<player id="player_id">
+		<name "player_name">
+			<description "player_description">
+				<stats>
+					<hp integer value="player_hp"/>
+					<mp integer value="player_mp"/>
+					<atk integer value="player_atk"/>
+					<def integer value="player_def"/>
+					<spd integer value="player_spd"/>
+				</stats>
+			</description>
+		</name>
+	</id>
+</game>
+```
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+			<dialogue>
+				<order>dialogue order</order>
+				<speaker>player</speaker>
+				<text>Hi, how are you?</text>
+			</dialogue>
+				<order>2</order>
+				<speaker>npc</speaker>
+				<text>I'm good, thanks. How about you?</text>
+			</dialogue>
+				<order>3</order>
+				<speaker>player</speaker>
+				<text>I'm doing great!</text>
+			</dialogue>
+			<dialogue>
+				<order>4</order>
+				<speaker>NPC</speaker>
+				<text>You should try the new game coming out this week.</text>
+			</dialogue>
+			</dialogue>
+				<order>5</order>
+				<speaker>Player</speaker>
+				<text>I've heard about it. How much is it?</text>
+			</dialogue>
+			<dialogue>
+				<order>6</order>
+				<speaker>NPC</speaker>
+				<text>The price starts at $30.</text>
+			</dialogue>
+			<dialogue>
+				<order>7</order>
+				<speaker>Player</speaker>
+				<text>I think I'll pass on that for now. Thanks for the recommendation!</text>
+			</dialogue>
+			<dialogue>
+				<order>8</order>
+				<speaker>NPC</speaker>
+				<text>You're welcome! Have a great day!</text>
+			</dialogue>
+		</dialogues>
+	</game>
+</xml>
+```

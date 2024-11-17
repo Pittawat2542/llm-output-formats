@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<id>id</id>
+	<title>Quests: Your Character's Past</title>
+	<objective>Discover your character's past</objective>
+	<description>You have a memory of past events that have changed your life, but you don't know which event will be the most important.</description>
+	<reward type="experience">Quest experience points</reward>
+	<quest-giver>Guidekeeper</quest-giver>
+	<tasks>
+		<task id="1">
+			<order>1</order>
+			<objective>Investigate old family records</objective>
+			<description>Search through the archives in the local library for clues about your lineage.</description>
+			<location>Local Library</location>
+		</task>
+		<task id="2">
+			<order>2</order>
+			<objective>Visit the ancient temple</objective>
+			<description>Talk to the wise priest at the forgotten temple, seeking guidance about your past.</description>
+			<location>Ancient Temple</location>
+		</task>
+	</tasks>
+</game>
+```
+In this fixed XML, I added a missing `<reward>` element with a `type` attribute set to "experience" and provided a default value for the reward. Additionally, I included the missing `<quest-giver>` key with a value of "Guidekeeper". Lastly, I added the `<tasks>` element with two child `<task>` elements, each having unique IDs and filling in the necessary attributes.

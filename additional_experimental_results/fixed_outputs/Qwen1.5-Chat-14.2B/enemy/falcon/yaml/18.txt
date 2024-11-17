@@ -1,0 +1,17 @@
+The issue with the original YAML is that it has a leading `~` symbol before the `enemy:` key, which is not valid syntax. I have removed it and fixed the indentation for the `description` field. Here's the corrected YAML:
+
+```yaml
+game:
+  enemy:
+    description: [description]
+    id: [id]
+    name: [name]
+    stats:
+      atk: [atk]
+      def: [def]
+      hp: [hp]
+      mp: [mp]
+      spd: [spd]
+```
+
+Now, the YAML is in correct syntax.

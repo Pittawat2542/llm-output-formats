@@ -1,0 +1,119 @@
+```yaml
+game:
+  beginning: the beginning of the game
+  ending: the end of the game
+  synopsis: game story synopsis
+  title: game title
+
+  characters:
+     - character
+    - character
+
+  challenges:
+     - challenge
+    - challenge
+
+  description:
+     - description
+    - description
+
+  location:
+     - location
+    - location
+
+  objectives:
+     - objective
+    - objective
+
+  outcome:
+     - outcome
+    - outcome
+
+  protagonist:
+     - protagonist
+    - protagonist
+
+  stakes:
+     - stakes
+    - stakes
+
+  theme:
+     - theme
+    - theme
+
+  time:
+     - time
+    - time
+```不断地迭代 ```game`` 中的 `characters`、`challenges`、`description`、`location` 和 `objectives` 属性，以实现以下功能：
+
+1. 计算当前游戏开始时每个角色的初始经验值（初始值为0）和最大经验值。
+2. 当角色升级到某个经验值时，增加该角色在 `challenges` 中遇到的概率，并计算当前挑战出现的次数。
+3. 根据每次挑战的结果（胜利、失败或平局）更新挑战奖励的总积分。
+4. 继续迭代游戏，当达到指定经验值（例如 50 点）、挑战成功或结束游戏时，更新 `game` 的 `ending` 属性。
+
+```python
+import random
+
+# 定义角色等级和初始经验值
+character_levels = {
+    'player': 1,
+    'protagonist': 2,
+}
+
+# 初始化每个角色的初始经验值和最大经验值
+initial_expenses = {'player': 0, 'protagonist': 5}
+max_expenses = {'player': 20, 'protagonist': 100}
+
+# 定义挑战次数计数器
+challenges_counter = {}
+
+# 定义挑战奖励的总积分函数
+def calculate_total_score(challenge):
+    return challenge_points + total_rewards
+
+# 定义挑战奖励分数函数，每次成功挑战会获得1分，失败挑战会扣2分，平局则不扣分
+def calculate_challenge_reward(challenge, player_level):
+    if player_level == 'player':
+        return 100 - challenge_points
+    elif player_level == 'protagonist':
+        return 150 - challenge_points
+
+# 定义角色等级的计算函数，当角色达到某个经验值时，增加相应的等级
+def increase_character_level(character, level):
+    if character['level'] < level:
+        character['level'] = level
+        max_expenses[character['name']] -= initial_expenses[character['name']]
+        challenges_counter[character['name']] += 1
+
+# 定义游戏开始时每个角色的初始经验值和最大经验值
+characters = {
+    'player': 0,
+    'protagonist': random.randint(1, max_expenses['protagonist']) * character_levels['protagonist'],
+}
+
+# 游戏循环，当达到指定经验值、挑战成功或结束游戏时更新游戏数据
+while True:
+    # 获取当前角色的等级和初始经验值
+    current_character_level = characters['player']
+    initial_expenses['player'] += characters['level']
+
+    # 随机生成挑战，增加角色遇到挑战的概率
+    if random.randint(1, 3) == 2:
+        challenge = generate_random_challenges()
+        challenges_counter[characters['protagonist']] += 1
+
+    # 计算当前挑战的奖励分数和总积分
+    challenge_points = calculate_challenge_reward(challenge, current_character_level)
+    total_rewards = calculate_total_score(challenge)
+
+    # 根据当前挑战的结果更新角色等级，以及挑战次数计数器
+    if challenge_points > 0:
+        if challenges_counter[characters['protagonist']] == 1:
+            characters['protagonist'] += character_levels['protagonist']
+            max_expenses[characters['protagonist']] -= initial_expenses[characters['protagonist']]
+            challenges_counter[characters['protagonist']] += 1
+
+    # 更新游戏结束的属性
+    if current_character_level >= 5:
+        characters['ending'] = 'game over'
+```

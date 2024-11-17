@@ -1,0 +1,30 @@
+
+<xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>Hello there! How are you?</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speaker>NPC</speaker>
+			<text>I'm doing great, thank you. How about you?</text>
+			<new_value>4</new_value> # New value added
+		</dialogue>
+		<dialogue>
+			<order>3</order>
+			<speaker>Player</speaker>
+			<text>I'm good too. What have you been up to?</text>
+		</dialogue>
+		<dialogue>
+			<order>4</order>
+			<speaker>NPC</speaker>
+			<text>Oh, not much. Just working on some projects.</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+
+

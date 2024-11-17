@@ -1,0 +1,45 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>2</id>
+	<title>A Lost Friend</title>
+	<objective>Find your friend who has gone missing in the woods.</objective>
+	<description>Your friend, a young adventurer named Aerin, has gone missing in the woods. You must find her before it's too late.</description>
+	<reward>A special magical item that will help you on your journey.</reward>
+	<quest-giver>The village elder</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+				<objective>Talk to the villagers to gather information about Aerin's disappearance.</objective>
+				<description>Talk to the villagers in the village to see if they have any information about Aerin's disappearance. Some of them may have seen her heading into the woods, or they may know of any recent strange occurrences that could be related to her disappearance.</description>
+			</task>
+		<task>
+			<order>2</order>
+				<objective>Enter the woods and search for clues.</objective>
+				<description>Enter the woods and search for any clues that may lead you to Aerin. Look for footprints, signs of a struggle, or any other evidence that could help you determine what happened to her.</description>
+			</task>
+		<task>
+			<order>3</order>
+				<objective>Follow the clues to find Aerin.</objective>
+				<description>Follow the clues you find in the woods to try to find Aerin.</description>
+				<location>The woods</location>
+			</task>
+		<task>
+			<order>4</order>
+				<objective>Return to the village and report your findings.</objective>
+				<description>Report back to the villagers with any information you have gathered about Aerin's disappearance. This could help them come together to search for her more effectively, or it could lead them to other suspects in her disappearance.</description>
+			</task>
+		<task>
+			<order>5</order>
+				<objective>Use the magical item to try and locate Aerin.</objective>
+				<description>Use the special magical item you were given as a reward to help you find Aerin. This may involve using magic or other skills you have acquired on your journey to aid in her search.</description>
+			</task>
+		<task>
+			<order>6</order>
+				<objective>Search the nearby towns for any information about Aerin's disappearance.</objective>
+				<description>Visit the nearby towns and speak with any residents or officials who may have information about Aerin's whereabouts. This could provide you with new leads to follow, or it may confirm that she has not been seen recently.</description>
+			</task>
+	</tasks>
+</game>
+```
+

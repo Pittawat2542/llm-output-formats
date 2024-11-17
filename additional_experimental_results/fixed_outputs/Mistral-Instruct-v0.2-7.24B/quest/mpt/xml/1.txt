@@ -1,0 +1,27 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>id</id>
+	<title>quest title</title>
+	<objective>quest objective</objectative>
+	<description>quest description</description>
+	<reward>quest reward</reward>
+	<quest-giver>
+		<name>quest giver name</name>
+		<location>quest giver location</location>
+	</quest-giver>
+	<tasks>
+		<task>
+			<order>task order</order>
+			<objective>task objective</objective>
+			<description>task description</description>
+			<location>task location</location>
+		</task>
+	</tasks>
+</game>
+```
+
+Replace 'quest giver' with `<name>quest giver name</name><location>quest giver location</location>`.
+
+This provides a structure for the missing key and conforms to the XML schema.

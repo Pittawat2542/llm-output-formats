@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: exact_age_or_description
+    background: background_story
+    first_name: first_name
+    id: id_value
+    last_name: last_name
+    physical_appearance:
+      - eye_color: eye_color_value
+      - hair_color: hair_color_value
+      height: height_in_float
+      weight: weight_in_float
+    place_of_birth: location
+    role: role_of_the_character
+    species: species
+    origin: from_where_the_character_originated
+```

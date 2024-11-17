@@ -1,0 +1,23 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<title>game title</title>
+	<synopsis>{% include "story" %}</synopsis>
+</game>
+```
+
+New values:
+- `<beginning>` replaced with `{% include "beginning" %}` to specify a content block for the beginning of the game.
+- `<plot>` replaced with `{% include "plot" %}` to specify a content block for the plot.
+- `<ending>` replaced with `{% include "ending" %}` to specify a content block for the ending of the game.
+
+Output in XML format:
+```xml
+<game>
+	<title>game title</title>
+	<synopsis>{% include "story" %}</synopsis>
+</game>
+```
+
+The Markdown code block will remain unchanged, as it is only concerned with returning the XML data.

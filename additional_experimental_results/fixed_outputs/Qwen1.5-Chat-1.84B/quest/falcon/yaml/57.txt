@@ -1,0 +1,30 @@
+Title: Return Title in YAML format
+
+Updated YAML data:
+```yaml
+# In Markdown code block
+title: The Big Quest
+```
+
+Output:
+```yaml
+game:
+  id: 1234
+  objective: ''
+  quest_giver: {}
+  reward: quid pro quo
+  tasks:
+    - description: Task 1
+      location: Location A
+      objective: Objective A
+      order: 1
+    - description: Task 2
+      location: Location B
+      objective: Objective B
+      order: 2
+    - description: Task 3
+      location: Location C
+      objective: Objective C
+      order: 3
+  title: The Big Quest
+```

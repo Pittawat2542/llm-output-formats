@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "Q1234",
+    "title": "The Lost Temple",
+    "objective": "Retrieve the ancient artifact from the lost temple.",
+    "description": "The village elder has asked for your help in retrieving a powerful artifact that was left behind by an ancient civilization. The artifact is said to be hidden deep within the lost temple, and the village elder believes it holds the key to saving their dying crops.",
+    "reward": "500 gold pieces and the gratitude of the village elder",
+    "quest-giver": "Village Elder",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the lost temple",
+          "description": "The temple is said to be hidden behind a waterfall, and can only be accessed by swimming through the rapids.",
+          "location": "Jungle Island"
+        },
+        {
+          "order": "2",
+          "objective": "Navigate the temple's deadly traps",
+          "description": "The temple is said to be filled with deadly traps, and you will need all your wits about you to navigate them safely.",
+          "location": "Lost Temple"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the ancient artifact",
+          "description": "The artifact is said to be hidden in a treasure chest at the heart of the temple, and you will need to solve a puzzle to open it.",
+          "location": "Heart of the Temple"
+        }
+      ]
+    }
+  }
+}

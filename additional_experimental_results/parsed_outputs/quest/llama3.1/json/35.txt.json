@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "q101",
+    "title": "The Missing Scroll",
+    "objective": "Retrieve a lost scroll from the ancient ruins.",
+    "description": "A valuable scroll has gone missing from the library's archives. The player must navigate treacherous ruins to retrieve it before it falls into the wrong hands.",
+    "reward": "100 gold coins and 10 experience points",
+    "quest_giver": "Elara, the Librarian",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Find the entrance to the ancient ruins.",
+        "description": "Search the surrounding area for a hidden passage or secret door.",
+        "location": "The old oak tree in the center of the forest"
+      },
+      {
+        "order": 2,
+        "objective": "Navigate the trap-filled tunnels.",
+        "description": "Use your wits to avoid deadly traps and find a safe route through the ruins.",
+        "location": "The ancient ruin's central chamber"
+      },
+      {
+        "order": 3,
+        "objective": "Retrieve the scroll from the treasure chest.",
+        "description": "Solve the puzzle lock on the chest to claim your prize.",
+        "location": "The treasure room in the west wing of the ruins"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+```yaml
+### Example
+game:
+  description: "The quest description"
+  id: "QuestID123"
+  objective: "Complete the Quest Objective"
+  quest_giver: "Giant Oak"
+  reward: "Valuable Treasure"
+  tasks:
+  - description: "Track the Bandit at Dark Forest"
+    location: "DarkForestEdge"
+    objective: "Catch the Bandito"
+    order: "1"
+  - description: "Collect Golden Apples from Apple Grove"
+    location: "GreenAppleGrove"
+    objective: "5 Apples"
+    order: "2"
+  - description: "Defeat the Dragon at Fire Mountain's Summit"
+    location: "FireMountainsSummit"
+    objective: "Defeat Dragon"
+    order: "3"
+
+title: "The Quest: A Journey Through Time and Adventure"
+```
+In the fixed YAML code, I've made the following changes:
+
+1. Corrected quotes around descriptions to maintain YAML format.
+2. Removed backticks (`) from the beginning of the `bash` line (since it's not a shell command in this context).
+3. Added proper string values for `id`, `quest_giver`, and removed extra spaces.
+4. Changed `tasks` to an array with multiple items.
+5. Added new task entries with their respective descriptions, locations, objectives, and order numbers.

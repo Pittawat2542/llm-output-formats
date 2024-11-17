@@ -1,0 +1,18 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find and return the ancient artifact to quest giver.",
+    "description": "You've heard rumors that a lost artifact is hidden deep in the ruins of an old temple. Your mission is to find it and bring it back to the quest giver.",
+    "reward": "1000 gold coins and legendary equipment",
+    "quest-giver": "Arinthea, the Elder Wizard",
+    "tasks": {
+      "task": {
+        "order": "1",
+        "objective": "Explore the old temple ruins",
+        "description": "Make your way to the coordinates marked on the ancient map and search for any clues leading to the artifact.",
+        "location": "Temple of the Forgotten Gods"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've heard rumors that an invaluable artifact is buried within a long-forgotten ruin. It's time to set out on an adventure to uncover it and bring it back.",
+    "reward": "1000 gold coins and fame",
+    "quest-giver": "Gerald the Explorer",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the ruins",
+          "description": "You must find the coordinates or a map leading to the ancient ruins before you can begin your search.",
+          "location": "Town Library"
+        },
+        {
+          "order": "2",
+          "objective": "Enter the ruins safely",
+          "description": "The entrance is said to be guarded by traps. You need to disarm them or find a way around them.",
+          "location": "Ruins Entrance"
+        },
+        {
+          "order": "3",
+          "objective": "Discover the artifact's location",
+          "description": "You'll have to explore the ruins and decipher any clues or puzzles that lead to the artifact's hiding place.",
+          "location": "Ruins Interior"
+        }
+      ]
+    }
+  }
+}

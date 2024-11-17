@@ -1,0 +1,23 @@
+Corrected XML data:
+```xml
+<?xml version="1.0"?>
+<game>
+	<id id="id">id</id>
+	<title quest-title="">quest title</title>
+	<objective quest-objective="">quest objective</objective>
+	<description quest-description="">quest description</description>
+	<reward quest-reward="">quest reward</reward>
+	<quest-giver quest-giver-name="">quest giver name</quest-giver-name>
+	<tasks>
+		<trigger-task order="trigger-task-order">
+			<objective trigger-objective="">trigger objective</objective>
+			<location trigger-location="">trigger location</location>
+		</trigger-task>
+		<task task-order="task-order">
+			<objective task-objective="">task objective</objective>
+			<description task-description="">task description</description>
+			<location task-location="">task location</location>
+		</task>
+	</tasks>
+</game>
+```

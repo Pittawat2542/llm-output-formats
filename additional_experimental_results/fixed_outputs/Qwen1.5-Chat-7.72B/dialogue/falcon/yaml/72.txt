@@ -1,0 +1,24 @@
+```yaml
+dialogues:
+- name: Alice
+  order: dialogue_order
+  speaker: Alice
+  text: The day is sunny.
+- name: Bob
+  order: speaker_order_of_dialogue
+  speaker: Bob
+  text: This is a nice speech.
+
+```
+Output YAML format:
+
+```yaml
+dialogues:
+- name: Alice
+  order: dialogue_order
+  speaker: Alice
+  text: The day is sunny.
+- name: Bob
+  order: speaker_order_of_dialogue
+  speaker: Bob
+  text: This is a nice speech.```

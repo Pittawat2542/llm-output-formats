@@ -1,0 +1,67 @@
+XML data correctly provided, but it needs to be corrected for missing key 'quest_giver'. Here is the updated code:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+	 Objective: Quest Objective
+	 Description: Quest Description
+	 Reward: Quest Reward
+
+	 <tasks>
+			<!-- Add tasks here -->
+	 </tasks>
+
+	 <quest-giver>
+			<!-- Add quest giver here -->
+	 </quest-giver>
+
+	 <quest-givers>
+			<!-- Add quest-givers here -->
+	 </quest-givers>
+</game>
+```
+In the updated code, we have added a `<quest-giver>` tag and an `<quest-givers>` tag to represent the various quest givers. We also have added a new key 'quest_giver' to indicate that there is a quest giver available.
+Now, the correct XML data is:
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+Objective: Quest Objective
+Description: Quest Description
+ reward: Quest Reward
+
+	 <tasks>
+			<!-- Add tasks here -->
+	 </tasks>
+
+	 <quest-giver>
+			<!-- Add quest giver here -->
+	 </quest-giver>
+
+	 <quest-givers>
+			<!-- Add quest-givers here -->
+	 </quest-givers>
+</game>
+```
+The output in Markdown format is:
+```perl
+<?xml version="1.0" ?>
+<game>
+	<title>Quest Title</title>
+Objective: Quest Objective
+Description: Quest Description
+ reward: Quest Reward
+
+	 <tasks>
+			<!-- Add tasks here -->
+	 </tasks>
+
+	 <quest-giver>
+			<!-- Add quest giver here -->
+	 </quest-giver>
+
+	 <quest-givers>
+			<!-- Add quest-givers here -->
+	 </quest-givers>
+</game>
+```

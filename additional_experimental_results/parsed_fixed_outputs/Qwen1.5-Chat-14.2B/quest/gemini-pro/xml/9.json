@@ -1,0 +1,38 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Amulet",
+    "objective": "Find the lost amulet of the ancient king.",
+    "description": "The amulet was lost many years ago in a battle between the ancient king and a powerful sorcerer. It is said that the amulet contains great power, and whoever possesses it will be granted untold wealth and power.",
+    "reward": "The amulet itself, as well as a large sum of gold.",
+    "quest-giver": "The king",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the ancient ruins of the king's palace.",
+          "description": "The ruins are located deep in the forest, and are said to be haunted by the ghosts of the ancient king and his soldiers.",
+          "location": "The forest"
+        },
+        {
+          "order": "2",
+          "objective": "Find the secret entrance to the king's tomb.",
+          "description": "The entrance to the tomb is hidden somewhere within the ruins. It is said to be guarded by a powerful creature.",
+          "location": "The ruins"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the creature guarding the tomb.",
+          "description": "The creature is a powerful monster that will stop at nothing to protect the tomb.",
+          "location": "The tomb"
+        },
+        {
+          "order": "4",
+          "objective": "Find the amulet.",
+          "description": "The amulet is located somewhere within the tomb.",
+          "location": "The tomb"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+```
+<?xml version="1.0" ?>
+<game>
+	<id>Q123</id>
+	<title>The Missing Heirloom</title>
+	<objective>Retrieve the stolen family heirloom from the thief.</objective>
+	<description>The local lord's prized possession has been stolen, and it's up to you to retrieve it. The thief is said to be hiding in the nearby forest.</description>
+	<reward>100 gold pieces and a magical amulet</reward>
+	<quest-giver>Lord Edgar</quest-giver>
+	<tasks>
+		<task>
+			<order>1</order>
+			<objective>Gather information about the thief's identity.</objective>
+			<description>Speak to the villagers and gather any information they may have about the thief's appearance or whereabouts.</description>
+			<location>The local tavern</location>
+		</task>
+		<task>
+			<order>2</order>
+			<objective>Track down the thief in the forest.</objective>
+			<description>Follow the trail of clues and track down the thief to their hiding spot.</description>
+			<location>The nearby forest</location>
+		</task>
+		<task>
+			<order>3</order>
+			<objective>Retrieve the stolen heirloom.</objective>
+			<description>Confront the thief and retrieve the stolen family heirloom.</description>
+			<location>The thief's hideout</location>
+		</task>
+	</tasks>
+</game>
+```

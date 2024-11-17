@@ -1,0 +1,31 @@
+```yaml
+game:
+  quests:
+    - description: Return an item from an ancient forgotten temple located within a dark, misty forest.
+      id: introduction-id
+      objective: Introduce player to the ancient, forgotten temple.
+      quest_giver: guide
+      reward: player-gains-magic-item
+      location: player's location
+      objectives:
+        - successful-id | success rate [%.0f]%
+      order:
+        - objective: successful-id
+      tasks:
+        - description: Must checkout item at old shop
+          name: success-checkout
+
+    - description: Quest Information.
+      id: example-id
+      objective: Get quest-giver's keys.
+      quest_giver: quest-giver-name
+      reward: 500 gold coins
+      location: quest-giver's location
+      objectives:
+        - obtain-item: obtain quest giver's key
+      order:
+        - task: obtain-list-of-keys
+
+  title: Game Quest
+```
+In the fixed YAML, I've structured it according to the template provided and corrected the syntax issues. The quests are now organized under a `quests` list, and each quest has its own set of properties like `description`, `id`, `objective`, etc. The `tasks` are also formatted correctly with their own `description` and `name`.

@@ -1,0 +1,19 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Wizard's Quest",
+    "objective": "Find the Wizard's magic wand",
+    "description": "You will need to find the Wizard's magic wand to complete your quest",
+    "reward": "A magic wand",
+    "quest-giver": "The Wizard",
+    "tasks": {
+      "task": {
+        "@order": "1",
+        "order": "1",
+        "objective": "Find the Wizard's magic wand",
+        "description": "Task description: Locate the wand at The Wizard's house",
+        "location": "The Wizard's house"
+      }
+    }
+  }
+}

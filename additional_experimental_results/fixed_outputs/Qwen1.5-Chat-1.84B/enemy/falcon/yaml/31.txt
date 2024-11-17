@@ -1,0 +1,34 @@
+```
+game:
+  enemy:
+    description: Invasions - the foe has arrived!
+    id: "NPC123"
+    name: "NPC123"
+    stats:
+      atk: 10
+      def: 100
+        hp: 100
+      mp: 20
+      spd: 100
+```
+New values added:
+
+- `hp`: The enemy's remaining health, set to `100`.
+- `mp`: The enemy's maximum hit points, set to `20`.
+- `spd`: The enemy's movement speed, set to `100`.
+
+Updated YAML data with new values as per the requirements. Here's the updated YAML in Markdown code block:
+
+```yaml
+game:
+  enemy:
+    description: Invasions - the foe has arrived!
+    id: "NPC123"
+    name: "NPC123"
+    stats:
+      atk: 10
+      def: 100
+        hp: 100
+      mp: 20
+      spd: 100
+```

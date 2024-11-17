@@ -1,0 +1,19 @@
+```yaml
+game:
+  dialogues:
+  - order: 1
+    speaker: NPC
+    text: Welcome to our village. I'm the local blacksmith, Gorvoth.
+  - order: 2
+    speaker: Player
+    text: Greetings, good blacksmith. What brings you here today?
+  - order: 3
+    speaker: Gorvoth
+    text: Just hammering away at some metal for a customer. How about you? You're not from around here, are you?
+  - order: 4
+    speaker: Player
+    text: No, I'm just passing through. Looking for any work or quests in the area.
+  - order: 5
+    speaker: Gorvoth
+    text: Ah, well we do have a few jobs available if you're interested. A local farmer is looking for someone to clear out some goblin infestation near his farm.
+```

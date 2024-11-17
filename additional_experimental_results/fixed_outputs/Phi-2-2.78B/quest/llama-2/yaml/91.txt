@@ -1,0 +1,111 @@
+
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+   location: task location
+   objective: task objective
+   order: task order
+  title: quest title
+```
+
+
+### Exercises
+
+1. Create a task in YAML that requires the player to collect at least 10 items before they can proceed with their quest.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: item location 1, item location 2, ..., item location 10
+    objective: collect items
+  title: quest title
+```
+
+2. Add a condition that checks if the player's inventory contains at least 5 of the required items before allowing them to continue with their quest.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: item location 1, item location 2, ..., item location 10
+    objective: collect items
+    order: task order
+    conditions:
+      - if (player.inventory.contains(item1) && player.inventory.contains(item2) && ... && player.inventory.contains(item10)) {
+        continue; // allow the player to continue with their quest
+      } else {
+        alert("You need to collect at least 5 of the required items first!");
+        return false; // end the quest
+      }
+  title: quest title
+```
+
+3. Create a task that requires the player to speak to a certain NPC before they can proceed with their quest.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: NPC location
+    objective: speak to NPC
+    order: task order
+  title: quest title
+```
+
+4. Add a condition that checks if the player's dialogue options match the correct response from the NPC before allowing them to continue with their quest.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: NPC location
+    objective: speak to NPC
+    order: task order
+    conditions:
+      - if (player.speak(npc).match(correct_response)) {
+        continue; // allow the player to continue with their quest
+      } else {
+        alert("You said the wrong thing! Try again!");
+        return false; // end the quest
+      }
+  title: quest title
+```
+
+5. Create a task that requires the player to solve a riddle before they can proceed with their quest.
+```yaml
+game:
+  description: quest description
+  id: id
+  objective: quest objective
+  quest_giver: quest giver
+  reward: quest reward
+  tasks:
+  - description: task description
+    location: riddle location
+    objective: solve riddle
+    order: task order
+  title: quest title
+```

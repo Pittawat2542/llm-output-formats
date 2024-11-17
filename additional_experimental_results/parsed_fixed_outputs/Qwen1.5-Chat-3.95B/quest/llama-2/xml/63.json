@@ -1,0 +1,22 @@
+{
+  "game": {
+    "id": {
+      "@id": "1",
+      "#text": "quest title"
+    },
+    "title": "quest title",
+    "objective": "quest objective",
+    "description": "quest description",
+    "reward": "quest reward",
+    "quest-giver": "quest giver",
+    "tasks": {
+      "task": {
+        "@id": "1",
+        "@order": "1",
+        "@objective": "task objective",
+        "@description": "task description",
+        "@location": "task location"
+      }
+    }
+  }
+}

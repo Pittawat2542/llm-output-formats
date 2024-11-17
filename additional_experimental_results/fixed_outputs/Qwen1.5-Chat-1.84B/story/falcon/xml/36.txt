@@ -1,0 +1,16 @@
+```xml
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+	<title>game title</title>
+	<synopsis>game story synopsis</synopsis>
+	<beginning>The beginning of the game</beginning>
+	<ending>The ending of the game</endning>
+</game>
+```
+New values:
+- `xml version="1.0"`: The XML declaration specifying that it is a document type definition.
+- `<game>`: The root element of the XML tree representing a game.
+- `<title>`: A child element of the `<game>` element with the attribute `title`.
+- `<synopsis>`: Another child element of the `<game>` element with the attribute `synopsis`.
+- `<beginning>`: A child element of the `<game>` element with the attribute `beginning`.
+- `<ending>`: A child element of the `<game>` element with the attribute `ending`.

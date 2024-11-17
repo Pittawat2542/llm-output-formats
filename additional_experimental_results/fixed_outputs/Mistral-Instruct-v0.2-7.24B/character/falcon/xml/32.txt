@@ -1,0 +1,26 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<character>
+		<id>id</id>
+		<first-name>Character</first-name>
+		<last-name></last-name>
+		<species>x</species>
+		<age>x</age>
+		<role></role>
+		<background></background>
+		<place-of-birth>x</place-of-birth>
+		<physical-appearance>
+			<physical-appearance>
+				<eye-color>x</eye-color>
+				<hair-color>x</hair-color>
+				<height>x.0</height>
+				<weight>x.0</weight>
+			</physical-appearance>
+		</physical-appearance>
+		<game>Character</game>
+	</character>
+</game>
+```
+### Explanation:
+The error message states that the key 'game' is missing, and it should be added as a child element of the 'character' element. The other missing elements, such as 'last-name', 'role', and 'background', have been left empty for the user to fill in with appropriate values.

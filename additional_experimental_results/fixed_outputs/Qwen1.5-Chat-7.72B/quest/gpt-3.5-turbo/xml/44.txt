@@ -1,0 +1,43 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>123456</id>
+    <title>The Lost Treasure Quest</title>
+    <objective>Uncover Captain Jack's Hidden Treasure</objective>
+    <description>In this quest, you embark on an adventure to find the long-lost treasure. Follow the clues, solve puzzles, and conquer challenges at these locations:</description>
+    <reward>300 gold coins, a rare artifact, and the title of Treasure Hunter</reward>
+    <quest-giver>Captain Redbeard</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the first clue at the Old Lighthouse</objective>
+            <description>A broken stone near the entrance holds your first clue. Be ready!</description>
+            <location>Old Lighthouse</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Decipher the secret message at the Ancient Library</objective>
+            <description>Unravel the hidden message in an old book to advance.</description>
+            <location>Ancient Library</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Obtain the golden key at Crystal Falls cautiously</objective>
+            <description>The key lies guarded, be cautious of danger!</description>
+            <location>Crystal Falls</location>
+        </task>
+        <task>
+            <order>4</order>
+            <objective>Solve the final riddle at Haunted Hill Mansion</objective>
+            <description>The mansion's doors hold the answer to progress.</description>
+            <location>Abandoned Mansion</location>
+        </task>
+        <task>
+            <order>5</order>
+            <objective>Unearth the treasure at the Secret Island</objective>
+            <description>Beneath the palm tree, Captain Jack's prize awaits!</description>
+            <location>Secret Island</location>
+        </task>
+    </tasks>
+</game>
+```

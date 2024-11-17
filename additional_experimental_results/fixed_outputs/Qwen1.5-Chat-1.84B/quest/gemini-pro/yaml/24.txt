@@ -1,0 +1,24 @@
+game:
+  description: Obtain the sword of Narsil to defeat Sauron.
+  id: 1
+  objective: Obtain the sword of Narsil and use it to defeat Sauron and his army.
+  quest_giver: Elrond
+  reward: A powerful sword capable of defeating Sauron.
+  tasks:
+  - title: Retrieve the Sword of Narsil from Rivendell
+     description: Find the sword of Narsil in the ruins of Gondor's city, Rivendell. This task involves traveling to the location and searching for clues.
+     location: Rivendell
+     objective: Locate the sword of Narsil among the remains of the city.
+     order: 1
+   - title: Collect Shards of the Sword of Narsil from Rivendell
+     description: Collect the shards of the sword of Narsil that were scattered across Rivendell. These shards must be brought to Elrond in person.
+     location: Rivendell
+     objective: Collect the remaining shards of the sword and hand them over to Elrond.
+     order: 2
+   - title: Travel to Mordor and Obtain the Sword of Narsil
+     description: Journey to Mount Doom, where Sauron has存放 his army's weapons. Use the sword of Narsil to defeat the dragon that guards the entrance to Mount Doom.
+     location: Mordor
+     objective: Battle Sauron's army with the sword and defeat them using its magical powers.
+     order: 3
+  title: The Lord of the Rings: The Quest for the Sword of Narsil
+```

@@ -1,0 +1,18 @@
+```xml
+<game>
+    <id>12345</id>
+    <title>New Quest Title</title>
+    <objective>Update Quest Objective</objective>
+    <description>Lorem ipsum description updated</description>
+    <reward>Gold and experience</reward>
+    <quest-giver>John Doe</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the forest clearing</objective>
+            <description>Follow the path marked with a wooden sign</description>
+            <location>Northwest Forest边缘</location>
+        </task>
+    </tasks>
+</game>
+```

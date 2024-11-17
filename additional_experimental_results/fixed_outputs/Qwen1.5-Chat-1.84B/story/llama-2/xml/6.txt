@@ -1,0 +1,21 @@
+Corrected XML data:
+
+```
+<game>
+    <title>Game Title</title>
+    <synopsis>Game Story Synthesis</synopsis>
+    <beginning>-game beginning</beginning>
+    <ending>-game ending</ending>
+</game>
+```
+
+
+Output in XML format:
+```xml
+<game>
+    <title Game Title</title>
+    <synopsis Game Story Synthesis</synopsis>
+    <beginning game beginning</beginning>
+    <ending game ending</endings>
+</game>
+```

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<game>
+    <titleGame Title="game title">
+        <Synopsis>Synopsis of the game story.</Synopsis>
+        <Beginning>The beginning of the game.</Beginning>
+        <Ending>The ending of the game.</-ending>
+    </titleGame>
+</game>
+
+```xml
+<game>
+    <titleGame>
+        <Title>Title</Title>
+        <Synopsis>This is the synopsis of the game story.</Synopsis>
+        <Beginning>The beginning of the game.</Beginning>
+        <Ending>The ending of the game.</Ending>
+    </titleGame>
+</game>

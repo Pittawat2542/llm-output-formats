@@ -1,0 +1,18 @@
+```yaml
+game:
+  character:
+    age: 25 # Corrected the age value to a numeric one
+    background: "Grew up next to a magical forest. Spoke to animals and creatures. Always dreamed of exploring the unknown"
+    first_name: Lola
+    id: 123
+    last_name: Morgan
+    physical_appearance:
+      - eye_color: green
+        hair_color: brown # Changed 'red' to 'brown'
+        height: 180.5
+        weight: 65 # Added a decimal value for weight
+    place_of_birth: "Los Angeles, California"
+    role: hero # Removed the colon after role
+    species: human
+```
+The corrected YAML data is provided above. The age value was changed to 25, and the hair_color was updated from 'red' to 'brown'. Additionally, a decimal value (180.5) was added for weight. The role field no longer has a trailing colon.

@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "456",
+    "title": "The SunkenTreasure Hunt",
+    "objective": "Uncover the Sunken Treasures of Atlantis",
+    "description": "Embark on a quest to discover the long-lost artifacts in the depths of the underwater realm. Solve riddles, overcome obstacles, and conquer guardians to find the treasure.",
+    "reward": "Celestial Amulet and 5000 gold pieces",
+    "quest-giver": "Historian Emily Watson",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the Ancient Underwater Map",
+          "description": "Search for the map in Emily's library, where it's hidden among her research on Atlantis' secrets.",
+          "location": "Emily's Library"
+        },
+        {
+          "order": "2",
+          "objective": "Acquire the Seashell Key",
+          "description": "The key can be found in a hidden chamber near the coral reef. Use your diving skills to uncover its location.",
+          "location": "Coral Reef Hidden Chamber"
+        },
+        {
+          "order": "3",
+          "objective": "Defeat the Kraken Guardian",
+          "description": "The final challenge awaits you at the bottom of a dark abyss. Prepare for battle against the legendary Kraken.",
+          "location": "Kraken's Den"
+        }
+      ]
+    }
+  }
+}

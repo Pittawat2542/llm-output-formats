@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've heard rumors that a powerful artifact is buried deep within an abandoned temple. Your quest is to retrieve it and bring it back to the village elder.",
+    "reward": "1000 gold coins and fame",
+    "quest-giver": "Gnome Scholar",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Locate the entrance to the temple",
+          "description": "You need to find the hidden entrance to the ancient ruins. It's said to be marked by a large stone eagle.",
+          "location": "Jungle Clearing"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the temple's puzzle",
+          "description": "Solve the riddle on the inner chamber door to unlock the way to the artifact.",
+          "location": "Inner Temple Chamber"
+        }
+      ]
+    }
+  }
+}

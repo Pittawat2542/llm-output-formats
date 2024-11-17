@@ -1,0 +1,25 @@
+```yaml
+game:
+  description: Retrieve the legendary sword of light from the ancient ruins.
+  id: q001
+  objective: Bring back the sword of light to the village elder.
+  quest_giver: Village Elder
+  reward: 
+    gold: 1000
+    item: Sword of Light
+    xp: 500
+  tasks:
+  - description: Explore the entrance hall and find the first trial.
+    location: Ancient Ruins Entrance Hall
+    objective: Find the first trial chamber.
+    order: 1
+  - description: Solve the puzzle to unlock the door to the inner sanctum.
+    location: Ancient Ruins Inner Sanctum
+    objective: Unlock the door using the ancient artifact.
+    order: 2
+  - description: Defeat the dark sorcerer guarding the sword of light.
+    location: Ancient Ruins Dark Sorcerer's Lair
+    objective: Defeat the dark sorcerer in battle.
+    order: 3
+  title: The Quest for the Sword of Light
+```

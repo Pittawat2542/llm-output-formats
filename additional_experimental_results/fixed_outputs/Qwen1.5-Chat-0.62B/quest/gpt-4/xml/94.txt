@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<id>12345</id>
+	<title>Dragon's Breath</title>
+	 OBJECTIVE>Defeat the Dragon and collect its breath</objective>
+	 Description"As per the King's order, venture into the dark forests, seek the mighty dragon in its lair, defeat it and bring back its breath. Use caution and strategy, for the dragon is fierce and relentless.</description>
+	 rewardKing's Sword
+	Quest-Giver>King Aldren
+	tasks>
+		 <task>
+				<order>1</order>
+			 OBJECTIVE>Locate the dragon's lair</objective>
+				<divizer>Find clues in the forest leading to the dragon's lair.</divizer>
+				<divizer>Dance around the lair to reveal hidden obstacles and traps.</divizer>
+		 </task>
+		 <task>
+				<order>2</order>
+			 OBJECTIVE>Defeat the Dragon</objective>
+				<divizer>Engage the dragon in a ferocious battle, keep defences strong and aim for its weak spots.</divizer>
+				<divizer>Dragon's Lair</divizer>
+		 </task>
+		 <task>
+				<order>3</order>
+			OBJECTIVE>Collect the Dragon's Breath</objective>
+				<divizer>Once defeated, collect the dragon's breath in the magical urn provided by the King.</divizer>
+				<divizer>Dance around the lair to reveal hidden obstacles and traps.</divizer>
+		 </task>
+	</tasks>
+</game>
+```

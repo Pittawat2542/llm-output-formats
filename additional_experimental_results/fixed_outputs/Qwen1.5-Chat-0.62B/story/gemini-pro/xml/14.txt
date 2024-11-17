@@ -1,0 +1,37 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Beyond the Horizon</title>
+	<synopsis>Set against a post-apocalyptic landscape, Beyond the Horizon tells the tale of Anya, a courageous young woman searching for a glimmer of hope in a chaotic and unforgiving world. Facing endless hordes of mutated creatures and navigating treacherous lands, Anya is on a mission to uncover the secrets of the past and bring about a new dawn for humanity.</synopsis>
+</game>
+```
+New values: 
+```xml
+<beginning>
+	<title>Beyond the Horizon</title>
+	<synopsis>Set against a post-apocalyptic landscape, Beyond the Horizon tells the tale of Anya, a courageous young woman searching for a glimmer of hope in a chaotic and unforgiving world. facing endless hordes of mutated creatures and navigating treacherous lands, Anya is on a mission to uncover the secrets of the past and bring about a new dawn for humanity.</synopsis>
+</beginning>
+<ending>
+	<title>Beyond the Horizon</title>
+	<synopsis>Set against a post-apocalyptic landscape, Beyond the Horizon tells the tale of Anya, a courageous young woman searching for a glimmer of hope in a chaotic and unforgiving world. facing endless hordes of mutated creatures and navigating treacherous lands, Anya is on a mission to uncover the secrets of the past and bring about a new dawn for humanity.</synopsis>
+</ending>
+```
+Output: 
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<title>Beyond the Horizon</title>
+	<synopsis>Set against a post-apocalyptic landscape, Beyond the Horizon tells the tale of Anya, a courageous young woman searching for a glimmer of hope in a chaotic and unforgiving world. Facing endless hordes of mutated creatures and navigating treacherous lands, Anya is on a mission to uncover the secrets of the past and bring about a new dawn for humanity.</synopsis>
+</game>
+```
+Markdown code block:
+
+```python
+<?xml version="1.0" ?>
+<game>
+	<title>Beyond the Horizon</title>
+	<synopsis>Set against a post-apocalyptic landscape, Beyond the Horizon tells the tale of Anya, a courageous young woman searching for a glimmer of hope in a chaotic and unforgiving world. Facing endless hordes of mutated creatures and navigating treacherous lands, Anya is on a mission to uncover the secrets of the past and bring about a new dawn for humanity.</synopsis>
+</game>
+```
+Note: The original message provided between ```xml and ``` was not correct, and this fixed code block provides the corrected XML data.

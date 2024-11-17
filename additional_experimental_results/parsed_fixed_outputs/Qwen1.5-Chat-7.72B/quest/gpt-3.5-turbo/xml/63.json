@@ -1,0 +1,51 @@
+{
+  "game": {
+    "id": "1",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "In this quest, you must embark on a journey to find the long-lost treasure of the ancient kings. Gather clues, solve puzzles, and overcome challenges to reach the final destination where the treasure is hidden.",
+    "reward": "Ancient artifact and 1000 gold coins",
+    "quest-giver": "Captain Morgan",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "quest-giver": "Captain Morgan",
+          "objective": "Find the hidden map",
+          "description": "Your first task is to locate the hidden map that will guide you to the treasure. The map is said to be hidden within the forgotten ruins of an ancient temple.",
+          "location": "Ancient Temple Ruins"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the map",
+          "description": "Once you have obtained the map, you must decipher its ancient symbols and markings to reveal the true location of the treasure. Be prepared for a brain-teasing challenge!",
+          "location": "Player's Inventory"
+        },
+        {
+          "order": "3",
+          "objective": "Travel to the mysterious island",
+          "description": "The map leads you to a remote and mysterious island. You must set sail and navigate through treacherous waters to reach the island safely.",
+          "location": "Mysterious Island"
+        },
+        {
+          "order": "4",
+          "objective": "Overcome the island's guardians",
+          "description": "The treasure is heavily guarded by mythical creatures that inhabit the island. You must defeat or outsmart them to proceed further towards the treasure.",
+          "location": "Mysterious Island"
+        },
+        {
+          "order": "5",
+          "objective": "Uncover the final location",
+          "description": "After overcoming the challenges of the island, you will need to solve a series of riddles and puzzles to uncover the precise location of the hidden treasure.",
+          "location": "Treasure Chamber"
+        },
+        {
+          "order": "6",
+          "objective": "Retrieve the treasure",
+          "description": "Finally, you have reached the treasure chamber. Your ultimate task is to retrieve the valuable ancient artifact and the pile of gold coins that lie within. Congratulations!",
+          "location": "Treasure Chamber"
+        }
+      ]
+    }
+  }
+}

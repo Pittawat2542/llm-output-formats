@@ -1,0 +1,20 @@
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <id>new_id1234</id>
+    <title>NewQuestTitle</title>
+    <objective>Update quest objective here</objective>
+    <description>Updated quest description</description>
+    <reward>NewQuestReward</reward>
+    <quest-giver> QuestMaster </quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Complete the Forest Trail</objective>
+            <description>Follow the marked path through the woods</description>
+            <location>Forest Trail Start</location>
+        </task>
+    </tasks>
+</game>
+```
+The original XML had incorrect syntax, specifically missing closing tags for `<id>` and `<tasks>`. I've fixed them by adding `encoding="UTF-8"` attribute and replacing the old values with new ones where needed (id, title, objective, reward, quest-giver). Now the XML is well-formed and has the correct structure.

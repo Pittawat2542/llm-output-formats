@@ -1,0 +1,31 @@
+{
+  "game": {
+    "enemy": {
+      "id": "1",
+      "name": "Goblin",
+      "description": "A weak monster.",
+      "stats": {
+        "hp": {
+          "@integer": "100",
+          "#text": "100"
+        },
+        "mp": {
+          "@integer": "50",
+          "#text": "50"
+        },
+        "atk": {
+          "@integer": "20",
+          "#text": "20"
+        },
+        "def": {
+          "@integer": "15",
+          "#text": "15"
+        },
+        "spd": {
+          "@integer": "30",
+          "#text": "30"
+        }
+      }
+    }
+  }
+}

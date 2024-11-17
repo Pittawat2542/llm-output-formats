@@ -1,0 +1,19 @@
+
+```xml
+<?xml version="1.0" ?>
+<game>
+	<enemy>
+		<id>ID_VALUE</id>
+		<name>NAME</name>
+		<description>DESCRIPTION</description>
+		<stats>
+			<hp>HP_INT_VALUE</hp>
+			<mp>MP_INT_VALUE</mp>
+			<atk>ATK_INT_VALUE</atk>
+			<def>DEF_INT_VALUE</def>
+			<spd>SPD_INT_VALUE</spd>
+		</stats>
+	</enemy>
+</game>
+```
+Replace `ID_VALUE`, `NAME`, `DESCRIPTION`, `HP_INT_VALUE`, `MP_INT_VALUE`, `ATK_INT_VALUE`, `DEF_INT_VALUE`, and `SPD_INT_VALUE` with the correct values.

@@ -1,0 +1,12 @@
+```yaml
+game:
+  description: YAML output for query info
+  objectives:
+   - description: "There are objectives."
+     name: "An objective"
+     location: "Location of an objective"
+     tasks:
+      - name: "A desired task"
+        location: "Location of a desired task"
+        order: "Order of a desired task"
+```

@@ -1,0 +1,23 @@
+The YAML data is correct. The only issue is that the `tasks` field should have a separate `description` field rather than using it in the `tasks` list.
+```yaml
+game:
+  description: Obtain the sword of Narsil to defeat Sauron.
+  id: 1
+  objective: Obtain the sword of Narsil and use it to defeat Sauron and his army.
+  quest_giver: Elrond
+  reward: A powerful sword capable of defeating Sauron.
+  tasks:
+    - description: Return the shards of the sword of Narsil to Rivendell
+      location: Rivendell
+      objective: Find the shards of the sword of Narsil and bring them to Elrond.
+      order: 1
+    - description: Take the shards to Rivendell
+      location: The Lonely Mountain
+      objective: Take the shards to Rivendell and have them reforged.
+      order: 2
+    - description: Travel to Mordor and use the sword of Narsil to defeat Sauron.
+      location: Mordor
+      objective: Defeat Sauron and his army with the sword of Narsil.
+      order: 3
+  title: The Lord of the Rings: The Quest for the Sword of Narsil
+```

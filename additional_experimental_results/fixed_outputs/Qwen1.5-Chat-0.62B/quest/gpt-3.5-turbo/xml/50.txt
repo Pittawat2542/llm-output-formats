@@ -1,0 +1,65 @@
+The correct syntax for an XML document is `<?xml version="1.0"?>` followed by a closing tag like `</game>` and the rest of the content.
+
+Here's the corrected XML data:
+```
+<game>
+	<id>101</id>
+	<title>The Lost Artifact</title>
+	bjective>Retrieve the ancient artifact</objective>
+	<description>In the ancient ruins of a forgotten civilization, there lies a powerful artifact rumored to grant immense power to its possessor. You have been hired to retrieve this artifact and bring it back to the quest giver.</description>
+	<reward>1000 gold coins</reward>
+	<quest-giver>Professor Archibald</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			OBJECTive>Locate the entrance to the ruins</objective>
+				<dividend>Location of treasure</dividend>
+			化学品>
+					<item>Antique soap</item>
+				</化学品>
+			化学品>
+					<item>Cast Iron skillet</item>
+				</化学品>
+			<task>
+				<order>2</order>
+			 Objective>Find the key to unlock the inner chamber</objective>
+				Clothing>
+					<item>Salvage jacket</item>
+				</ Clothing>
+			化学品>
+					<item>Golden metal bracelet</item>
+				</化学品>
+			<task>
+				<order>3</order>
+			 Objective>Defeat the guardians protecting the artifact</objective>
+				Suit>
+					<item>Black leather dress</item>
+				</Suit>
+			化学品>
+					<item>Gold jewelry</item>
+				</化学品>
+			<task>
+				<order>4</order>
+			 Objective>Buried treasure</ objective>
+				Magician's tools>
+					<item>Aphonic voice box</item>
+				</ magician's tools>
+			<task>
+				<order>5</order>
+			 Objective>Find a way back to the quest giver</objective>
+				Safeguarded area>
+					<item>Map of lost item location</item>
+				</ Safeguarded area>
+			化学品>
+					<item>Sand</item>
+				</化学品>
+			<task>
+				<order>6</order>
+			 Objective>Report the discovery to the quest giver</objective>
+				Marketing materials>
+					<item>Report on successful retrieval of treasure</item>
+				</marketing materials>
+			</task>
+	</tasks>
+</game>
+```

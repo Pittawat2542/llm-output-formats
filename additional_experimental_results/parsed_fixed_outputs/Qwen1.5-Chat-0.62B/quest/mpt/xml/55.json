@@ -1,0 +1,18 @@
+{
+  "game": {
+    "title": "Quest Title",
+    "Tasks": {
+      "Task": [
+        {
+          "@Order": "task order",
+          "#text": "Objective: Task objective\n\t\t\t Description: Task description\n\t\t\t Location: Task location"
+        },
+        {
+          "@Order": "task order",
+          "#text": "Objective: Task objective\n\t\t\t Description: Task description\n\t\t\t Location: Task location"
+        }
+      ]
+    },
+    "#text": "Objective: Quest objective\n\tDescription: Quest description\n\tReward: Quest reward\n\tGiver: Quest giver"
+  }
+}

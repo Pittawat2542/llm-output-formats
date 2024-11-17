@@ -1,0 +1,24 @@
+{
+  "game": {
+    "dialogues": [
+      {
+        "name": "Alice",
+        "order": "dialogue order",
+        "dialogue": {
+          "order": "speaker order of dialogue",
+          "speaker": "Alice",
+          "text": "The day is sunny."
+        }
+      },
+      {
+        "name": "Bob",
+        "order": "dialogue order",
+        "dialogue": {
+          "order": "speech",
+          "speaker": "Bob",
+          "text": "This is a nice speech."
+        }
+      }
+    ]
+  }
+}

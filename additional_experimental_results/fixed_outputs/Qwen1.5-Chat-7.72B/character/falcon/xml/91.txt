@@ -1,0 +1,23 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <character>
+        <id>456</id>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+        <species>Human</species>
+        <age>30</age>
+        <role>Engineer</role>
+        <background>
+            Engineer by trade, John Doe was born in Hailsham, England and moved to London, UK at the age of 25. Seeking better opportunities, he found success as a professional engineer in the city.
+        </background>
+        <place-of-birth>Hailsham, England</place-of-birth>
+        <physical-appearance>
+            <eye-color>green</eye-color>
+            <hair-color>brown</hair-color>
+            <height>5.6</height>
+            <weight>140</weight> <!-- Corrected weight to a float value -->
+        </physical-appearance>
+    </character>
+</game>
+```

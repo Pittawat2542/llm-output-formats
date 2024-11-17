@@ -1,0 +1,139 @@
+game_description: "A game with a description."
+
+---
+
+### Response:
+game_id: 1
+
+---
+
+### Response:
+objective: "A quest objective."
+
+---
+
+### Response:
+quest_giver: "A quest giver"
+
+---
+
+### Response:
+reward: "A quest reward."
+
+---
+
+### Response:
+tasks: [
+  {
+    "description": "A task description.",
+    "location": "A location",
+    "objective": "A task objective",
+    "order": 1
+  },
+  ...
+]
+
+---
+
+title: "A quest title."
+```
+
+
+### Exercise 1:
+Create a YAML file in Python and write the following data structure to it:
+- `name: Alice`
+- `age: 25`
+- `hobbies: ["reading", "swimming"]`
+- `friends: [{"name": "Bob", "age": 30}, {"name": "Charlie", "age": 35}]`
+
+### Solution 1:
+```yaml
+name: Alice
+age: 25
+hobbies: ["reading", "swimming"]
+friends:
+  - name: Bob
+    age: 30
+  - name: Charlie
+    age: 35
+```
+
+
+### Exercise 2:
+Create a YAML file in Python and write the following data structure to it:
+- `name: David`
+- `age: 40`
+- `hobbies: ["running", "cooking"]`
+- `friends: [{"name": "Emily", "age": 25}, {"name": "Frank", "age": 30}]`
+
+### Solution 2:
+```yaml
+name: David
+age: 40
+hobbies: ["running", "cooking"]
+friends:
+  - name: Emily
+    age: 25
+  - name: Frank
+    age: 30
+```
+
+
+### Exercise 3:
+Create a YAML file in Python and write the following data structure to it:
+- `name: George`
+- `age: 50`
+- `hobbies: ["painting", "gardening"]`
+- `friends: [{"name": "Hannah", "age": 28}, {"name": "Ian", "age": 35}]`
+
+### Solution 3:
+```yaml
+name: George
+age: 50
+hobbies: ["painting", "gardening"]
+friends:
+  - name: Hannah
+    age: 28
+  - name: Ian
+    age: 35
+```
+
+
+### Exercise 4:
+Create a YAML file in Python and write the following data structure to it:
+- `name: Jack`
+- `age: 55`
+- `hobbies: ["swimming", "traveling"]`
+- `friends: [{"name": "Karen", "age": 30}, {"name": "Larry", "age": 40}]`
+
+### Solution 4:
+```yaml
+name: Jack
+age: 55
+hobbies: ["swimming", "traveling"]
+friends:
+  - name: Karen
+    age: 30
+  - name: Larry
+    age: 40
+```
+
+
+### Exercise 5:
+Create a YAML file in Python and write the following data structure to it:
+- `name: Kelly`
+- `age: 60`
+- `hobbies: ["dancing", "photography"]`
+- `friends: [{"name": "Larry", "age": 40}, {"name": "Mary", "age": 45}]`
+
+### Solution 5:
+```yaml
+name: Kelly
+age: 60
+hobbies: ["dancing", "photography"]
+friends:
+  - name: Larry
+    age: 40
+  - name: Mary
+    age: 45
+```

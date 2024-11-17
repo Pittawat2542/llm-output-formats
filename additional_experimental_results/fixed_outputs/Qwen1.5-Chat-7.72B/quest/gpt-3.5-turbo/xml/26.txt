@@ -1,0 +1,31 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+    <id>789012</id>
+    <title>The Quest for the Ancient Relic</title>
+    <objective>Uncover the relic's hidden powers and restore peace</objective>
+    <description>A century-old legend speaks of a mystical artifact that rests within the forgotten city. Your mission is to locate and unravel its mysteries, for it holds the key to restoring balance in our realm.</description>
+    <reward>1000 gold coins and a mystic amulet</reward>
+    <quest-giver>Elven Queen Galadriel</quest-giver>
+    <tasks>
+        <task>
+            <order>1</order>
+            <objective>Discover the map of the hidden city</objective>
+            <description>In the local library, seek out ancient maps hinting at the location of the ruins. Follow the cryptic clues to guide you.</description>
+            <location>Local library</location>
+        </task>
+        <task>
+            <order>2</order>
+            <objective>Solve the riddle of the city's guardians</objective>
+            <description>The guardians of the ancient city guard its secrets. Solve their puzzle to gain entry and continue your quest.</description>
+            <location>Hidden City entrance</location>
+        </task>
+        <task>
+            <order>3</order>
+            <objective>Battle the guardian in the temple chamber</objective>
+            <description>The artifact's resting place is guarded by an ancient guardian. Your skills will be tested as you defeat her to claim the relic.</description>
+            <location>Hidden City - Temple Chamber</location>
+        </task>
+    </tasks>
+</game>
+```

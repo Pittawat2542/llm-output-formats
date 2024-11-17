@@ -1,0 +1,75 @@
+The solution is a correct implementation of the problem statement and has no syntax errors. It is an example of how a web developer can use the `xml.etree.ElementTree` module to parse game data from XML files for further analysis. The program reads an input file containing game data in XML format, parses it using ElementTree, and stores each enemy's stats in a list of dictionaries. The program then prints out the name, description, and statistics of each enemy to the console.
+
+### Exercises:
+#### Exercise 1
+Create another class called "Enemy" that inherits from the `game_data` class. Override the `__init__()` method of the parent class with a new parameter called "level". The "level" parameter should be added to the initializer, and it represents the level of the enemy in the game.
+```python
+class Enemy(game_data):
+	def __init__(self, id: int, name: str, description: str, hp: int, mp: int, atk: int, def: int, spd: int, level: int = None) -> None:
+		super().__init__(id, name, description, hp, mp, atk, def, spd)
+		self.level = level
+```
+#### Exercise 2
+Create a function called "load_enemies" that reads the enemy data from an XML file and stores them as instances of the `Enemy` class in a list. The function should take the filename of the input file as its parameter and return the list of enemies.
+```python
+def load_enemies(filename: str) -> List[Enemy]:
+	with open(filename, 'r') as f:
+		xml = f.read()
+	root = ET.fromstring(xml)
+	enemies = []
+	for enemy in root.findall('enemy'):
+		id = int(enemy.attrib['id'])
+		name = enemy.find('name').text
+		description = enemy.find('description').text
+		hp = int(enemy.find('hp').text)
+		mp = int(enemy.find('mp').text)
+		atk = int(enemy.find('atk').text)
+		def_ = int(enemy.find('def').text)
+		spd = int(enemy.find('spd').text)
+		level = int(enemy.attrib['level']) if 'level' in enemy.attrib else None
+		enemies.append(Enemy(id, name, description, hp, mp, atk, def_, spd, level))
+	return enemies
+```
+#### Exercise 3
+Create a function called "save_enemies" that takes a list of `Enemy` objects and saves them to an XML file. The function should take the filename of the output file as its parameter. Use the `ET.ElementTree()` class to create an Element object representing the root element of the game data tree, then use the `Element.findall()` method to find all elements with the tag 'enemy'. For each enemy, add a new child element with the same tag and the attributes corresponding to its stats. Add the level attribute only if it is not None.
+```python
+def save_enemies(enemies: List[Enemy], filename: str) -> None:
+	root = ET.Element('game')
+	for enemy in enemies:
+		element = ET.SubElement(root, 'enemy', {'id': str(enemy.id), 'name': enemy.name, 'description': enemy.description})
+		if enemy.level is not None:
+			element.set('level', str(enemy.level))
+		for stat in ['hp', 'mp', 'atk', 'def', 'spd']:
+			ET.SubElement(element, stat).text = str(getattr(enemy, stat))
+	tree = ET.ElementTree(root)
+	tree.write(filename)
+```
+
+
+#### Exercise 4
+Create a function called "update_enemy" that takes an enemy object and updates its stats in the XML file by reading it from the file again. The function should take the filename of the input file as its parameter, update the enemy's stats with the new values, then write them back to the same file. Make sure to use the `ET.ElementTree()` class to load the updated enemy data and modify the root element of the game data tree accordingly.
+```python
+def update_enemy(filename: str, enemy: Enemy) -> None:
+	tree = ET.parse(filename)
+	root = tree.getroot()
+	for enemy in root.findall('enemy'):
+		if int(enemy.attrib['id']) == enemy.attrib['id']:
+			for stat in ['hp', 'mp', 'atk', 'def', 'spd']:
+				element = ET.SubElement(enemy, stat)
+				element.text = str(getattr(enemy, stat))
+	tree.write(filename)
+```
+
+
+#### Exercise 5
+Create a function called "delete_enemies" that takes the filename of an XML file containing game data as its parameter and deletes all enemy objects with level 0 from it. Use the `ET.ElementTree()` class to parse the input file, find all elements with the tag 'enemy', then use a list comprehension to filter out those with level 0. Finally, write the updated game data back to the same file using the `ET.ElementTree().write()` method.
+```python
+def delete_enemies(filename: str) -> None:
+	tree = ET.parse(filename)
+	root = tree.getroot()
+	for enemy in root.findall('enemy'):
+		if int(enemy.attrib['id']) == 0:
+			root.remove(enemy)
+	tree.write(filename)
+```
+

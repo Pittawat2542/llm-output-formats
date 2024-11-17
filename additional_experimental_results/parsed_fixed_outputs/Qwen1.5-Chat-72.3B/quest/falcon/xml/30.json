@@ -1,0 +1,26 @@
+{
+  "game": {
+    "id": "12345",
+    "title": "The Lost Artifact",
+    "objective": "Find the ancient artifact hidden in the ruins.",
+    "description": "You've received a map leading to an artifact of great power. Locate and retrieve it from the forgotten ruins.",
+    "reward": "100 experience points and a magical relic",
+    "quest-giver": "Guildmaster Thorne",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Travel to the ruins",
+          "description": "Follow the map to the location marked with an 'X'.",
+          "location": "Ruins of Eldarath"
+        },
+        {
+          "order": "2",
+          "objective": "Explore the ruins",
+          "description": "Carefully search the ruins for any clues to the artifact's location.",
+          "location": "Ruins interior"
+        }
+      ]
+    }
+  }
+}

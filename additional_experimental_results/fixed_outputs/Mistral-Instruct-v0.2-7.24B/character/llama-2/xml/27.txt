@@ -1,0 +1,38 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character id="char1">
+		<first-name>Tom</first-name>
+		<last-name>Sawyer</last-name>
+		<species>Human</species>
+		<age>16 years old</age>
+		<role>Protagonist</role>
+		<background>Orphaned at a young age, Tom lives in an abandoned house on the island. He is resourceful and adventurous.</background>
+		<place-of-birth>St. Petersburg, Russia</place-of-birth>
+		<physical-appearance>
+			<height>5.8 feet</height>
+			<weight>120 lbs</weight>
+		</physical-appearance>
+	</character>
+</game>
+```
+### Example 16
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+	<character id="char2">
+		<first-name>Jim</first-name>
+		<last-name>Gilligan</last-name>
+		<species>Human</species>
+		<age>Unknown</age>
+		<role>Protagonist</role>
+		<background>Stranded on the island with a group of castaways after their shipwreck. Jim is known for his idleness and love for coconuts.</background>
+		<place-of-birth>Unknown</place-of-birth>
+		<physical-appearance>
+			<height>5 feet 10 inches</height>
+			<weight>180 lbs</weight>
+		</physical-appearance>
+	</character>
+</game>
+```

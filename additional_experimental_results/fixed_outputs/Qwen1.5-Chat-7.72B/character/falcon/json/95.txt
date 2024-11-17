@@ -1,0 +1,24 @@
+```json
+{
+    "game": {
+        "character": {
+            "id": "id",
+            "first_name": "first name",
+            "last_name": "last name",
+            "species": "species",
+            "age": "35", // Corrected age value
+            "role": "角色名称", // Added role field with a new value
+            "background": "背景故事",
+            "place_of_birth": "地点",
+            "physical_appearance": [
+                {
+                    "eye_color": "eye color",
+                    "hair_color": "hair color",
+                    "height": 1.8,
+                    "weight": 120 // No change, already in float value
+                }
+            ]
+        }
+    }
+}
+```

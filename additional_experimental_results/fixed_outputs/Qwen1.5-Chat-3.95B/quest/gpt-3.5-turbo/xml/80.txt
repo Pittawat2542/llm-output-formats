@@ -1,0 +1,20 @@
+Here's the corrected XML data:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<game>
+	<id>123</id>
+	<title>The Lost Treasure</title>
+	<objective>Find the hidden treasure</objective>
+	<description>You have been chosen to embark on a quest to find the long-lost treasure of Captain Jack Sparrow. It is said to be buried on a remote island, guarded by treacherous traps and mythical creatures. Are you brave enough to take on this challenge and claim the treasure for yourself?</description>
+	<reward>1000 gold coins and a rare artifact</reward>
+	<quest-giver>Captain Morgan</quest-giver>
+	<tasks>
+			<task>
+				<order>1</order>
+			<objective>Find the hidden map</objective>
+				<description>Your first task is to find the hidden map that will lead you to the treasure. The map is said to be hidden deep within the ancient ruins of an abandoned temple.</description>
+				<location>Abandoned temple</location>
+			<-task>
+	<tasks>
+</game>
+```

@@ -1,0 +1,30 @@
+{
+  "game": {
+    "id": "G001",
+    "title": "The Missing Heirloom",
+    "objective": "Recover the stolen family heirloom from the bandits.",
+    "description": "Lady Elizabeth's grandmother's locket has been stolen by a group of bandits. She needs someone brave and trustworthy to retrieve it for her.",
+    "reward": "200 gold pieces and a blessing from Lady Elizabeth",
+    "quest_giver": "Lady Elizabeth",
+    "tasks": [
+      {
+        "order": 1,
+        "objective": "Talk to the local tavern owner about the bandits",
+        "description": "Ask around and gather information about the bandits' hideout.",
+        "location": "The Red Griffin Tavern"
+      },
+      {
+        "order": 2,
+        "objective": "Explore the abandoned mine",
+        "description": "Investigate the abandoned mine on the outskirts of town to see if it's connected to the bandits.",
+        "location": "Abandoned Mine"
+      },
+      {
+        "order": 3,
+        "objective": "Confront and retrieve the locket from the bandit leader",
+        "description": "Face off against the bandit leader and recover the stolen locket.",
+        "location": "Bandit Hideout"
+      }
+    ]
+  }
+}

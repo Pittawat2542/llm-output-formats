@@ -1,0 +1,18 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+	<dialogues>
+		<dialogue>
+			<order>1</order>
+			<speaker>Player</speaker>
+			<text>This is the first dialogue.</text>
+		</dialogue>
+		<dialogue>
+			<order>2</order>
+			<speakerNPC>NPC Name</speakerNPC>
+			<text>Hello, player!</text>
+		</dialogue>
+	</dialogues>
+</game>
+```
+In the fixed XML, I've corrected the syntax by replacing `lst` with appropriate tags (`order`, `speaker`, and `text`) and added values for completeness. The structure is now consistent with the template provided.

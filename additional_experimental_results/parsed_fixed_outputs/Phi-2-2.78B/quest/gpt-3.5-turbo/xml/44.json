@@ -1,0 +1,44 @@
+{
+  "game": {
+    "id": "123456",
+    "title": "The Lost Treasure",
+    "objective": "Find the hidden treasure",
+    "description": "In this quest, you will embark on an adventure to find the long-lost treasure of Captain Jack. Follow the clues, solve puzzles, and overcome challenges to uncover the treasure's whereabouts.",
+    "reward": "300 gold coins, a rare artifact, and the title of Treasure Hunter",
+    "quest-giver": "Captain Redbeard",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Find the first clue",
+          "description": "Your journey begins at the old lighthouse. Look for the broken stone near the entrance and you will find the first clue.",
+          "location": "Old Lighthouse"
+        },
+        {
+          "order": "2",
+          "objective": "Decode the secret message",
+          "description": "The clue you found leads to an ancient library. Use your knowledge of ancient languages to decipher the secret message hidden within an ancient book.",
+          "location": "Ancient Library"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the golden key",
+          "description": "To unlock the treasure's chamber, you need to find the golden key hidden within the treacherous cave of Crystal Falls. Be careful, for danger awaits!",
+          "location": "Crystal Falls"
+        },
+        {
+          "order": "4",
+          "objective": "Solve the final riddle",
+          "description": "Once you have the golden key, head to the abandoned mansion on Haunted Hill. Solve the riddle written on the mansion's doors to unlock the final clue.",
+          "location": "Abandoned Mansion"
+        },
+        {
+          "order": "5",
+          "objective": "Find the hidden treasure",
+          "description": "With all the clues in hand, make your way to the secret island mentioned in the final clue. There, buried beneath the lone palm tree, you will find the long-lost treasure of Captain Jack!",
+          "location": "Secret Island"
+        }
+      ]
+    }
+  }
+}

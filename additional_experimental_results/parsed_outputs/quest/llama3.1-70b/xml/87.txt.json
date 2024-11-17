@@ -1,0 +1,32 @@
+{
+  "game": {
+    "id": "QR001",
+    "title": "The Missing Heirloom",
+    "objective": "Retrieve the stolen family heirloom from the thief's hideout.",
+    "description": "Lady Regina's priceless locket has been stolen by a notorious thief known as \"The Fox.\" She needs your help to retrieve it before her birthday celebration tonight.",
+    "reward": "A reward of 100 gold pieces and Lady Regina's gratitude.",
+    "quest-giver": "Lady Regina",
+    "tasks": {
+      "task": [
+        {
+          "order": "1",
+          "objective": "Gather information about The Fox's hideout.",
+          "description": "Visit the local tavern and speak with the bartender, who has heard rumors about The Fox's whereabouts.",
+          "location": "The Red Griffin Tavern"
+        },
+        {
+          "order": "2",
+          "objective": "Infiltrate The Fox's hideout.",
+          "description": "Sneak into the abandoned windmill on the outskirts of town, where The Fox is said to be hiding.",
+          "location": "Abandoned Windmill"
+        },
+        {
+          "order": "3",
+          "objective": "Retrieve the stolen locket.",
+          "description": "Search the hideout for the locket and confront The Fox if necessary.",
+          "location": "The Fox's Hideout"
+        }
+      ]
+    }
+  }
+}

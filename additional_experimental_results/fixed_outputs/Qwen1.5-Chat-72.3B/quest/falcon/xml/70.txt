@@ -1,0 +1,21 @@
+```xml
+<?xml version="1.0" ?>
+<game>
+  <id>2</id>
+  <title>Return some text</title>
+  <objective>Do some text</objective>
+  <description>This is some description text.</description>
+  <reward>This is some reward text.</reward>
+  <quest-giver>Name of Quest Giver</quest-giver>
+  <tasks>
+    <task>
+      <order>1</order>
+      <objective>Task Objective</objective>
+      <description>Task Description</description>
+      <location>Task Location</location>
+    </task>
+  </tasks>
+</game>
+```
+
+The original XML had several issues, including incorrect syntax and use of non-XML elements. Here's a fixed version that adheres to the XML format and uses the template provided. Note that I've removed or replaced elements that didn't fit the game quest structure and added appropriate values where needed.

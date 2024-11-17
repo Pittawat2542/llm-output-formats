@@ -1,0 +1,19 @@
+```yaml
+game:
+  description: "Quest Description"
+  id: "quest_id"
+  objective: "Quest Objective"
+  quest_giver: "Quest Giver"
+  reward: "Quest Reward"
+  tasks:
+  - description: "Task Description"
+    location: "Task Location"
+    objective: "Task Objective"
+    order: "1"
+  title: "Quest Title"
+
+# Start of game information
+start_game:
+  - event: "Game Start"
+```
+The corrected YAML data is provided below. I removed the asterisks (`*`) from the start of the "Game Start" section and replaced them with a proper key, `start_game`. The indentation for the tasks has been fixed as well. Note that I've added a new value for `event` in the `start_game` section to replace the placeholder.
