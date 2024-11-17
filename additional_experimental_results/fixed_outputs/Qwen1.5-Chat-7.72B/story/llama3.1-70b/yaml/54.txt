@@ -1,9 +1,0 @@
-```yaml
-game:
-  beginning: In a world ravaged by climate disasters, humanity's last hope for survival lies in an underwater colony known as New Eden.
-  ending: The protagonist must choose between saving New Eden and risking everything to reclaim the surface after uncovering a plot to control remaining resources on Earth.
-  synopsis: |-
-    "Echoes of the Abyss" follows the journey of a young engineer who uncovers a hidden message from the past, setting them on a quest to unravel the mysteries behind humanity's downfall. As they navigate treacherous politics and confront dark secrets, they must decide the fate of New Eden.
-  title: Echoes of the Abyss
-```
-In the fixed YAML, I've corrected the syntax issues by wrapping the synopsis in a multi-line string (`|-`) and removing the extra quotes around the value for `ending`. The rest of the data is now valid YAML.

@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-   - order: 1
-     speaker: Character A
-     text: "Hello, how are you?"
-```
-The error was in the line where `speaker` was defined. It should be within a key-value pair under the `dialogues` list. I have corrected it by specifying `order` as well and using valid YAML keys for `speaker` and `text`. Now the YAML data is correctly formatted with a dialogue example.

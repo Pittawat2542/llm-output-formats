@@ -1,4 +1,0 @@
-```yaml
-game:
-  begin:<|raw|>the beginning of the game\ngame end:<|raw|>the ending of the game\nsynopsis: A captivating game story synopsis\ntitle: Game Title\ndescription: Detailed description of gameplay and features\n```
-This YAML code fixes the incorrect syntax by replacing backticks with the appropriate escape sequences for quotes in the `beginning` and `ending` fields. The content within angle brackets is now preserved as literal strings without being interpreted as tokens.

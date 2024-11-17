@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue_order
-    speaker: speaker_name
-    text: "Dialogue or narration"
-```
-The YAML code block is fixed by changing the single quote around `text` to double quotes and removing the extra backticks in the string. I've also removed the `-` before each dialogue item since they are not necessary in this format, and added a missing value for `order`.

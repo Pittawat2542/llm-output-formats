@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue_order
-    speaker: speaker_name
-    text: 'dialogue_text, for example "spoken"'
-```
-The YAML code block is corrected by removing the comma after `order` and adding quotes around `text` to make it a string value. The key completeness issue is resolved since the root of the result is now a dictionary with a single key `dialogues`.

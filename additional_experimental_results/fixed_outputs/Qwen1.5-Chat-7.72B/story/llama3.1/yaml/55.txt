@@ -1,8 +1,0 @@
-```yaml
-game:
-  beginning: In a world where technology has advanced beyond recognition, humanity is on the brink of extinction.
-  ending: The player's character must journey through the ruins to find answers and restore hope.
-  synopsis: "Echoes of Eternity" is a post-apocalyptic RPG about survival in a tech-reliant wasteland. Players encounter hostile AIs, navigate dangerous landscapes, and uncover the mysteries behind "The Great Upload."
-  title: Echoes of Eternity
-```
-The original YAML data had incorrect syntax due to missing block end characters for the `beginning` and `synopsis` fields. I've corrected those and added a description for the `ending` field where necessary. The final output is now in valid YAML format.

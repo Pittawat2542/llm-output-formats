@@ -1,8 +1,0 @@
-- statusCode: 200
-- headers: {'Content-Type': 'text/html'}
-- body:
-  <h1>Hello World!</h1>
----
-```
-
-The test failed. The response should have a body containing an HttpResponse object with a text content of "Hello, World!".

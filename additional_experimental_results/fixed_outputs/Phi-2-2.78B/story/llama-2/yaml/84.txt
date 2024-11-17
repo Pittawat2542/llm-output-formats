@@ -1,9 +1,0 @@
-The Fixed response is a template for customizing errors, which allows developers to display customized error messages based on user input or system failures. A fixed response is created by adding the following code to your Flask app's `app.errorhandler()` decorator:
-
-```python
-@app.errorhandler(Exception)
-def handle_exception(e):
-    response = {'message': 'An error occurred.'}
-    return jsonify(response), 500
-```
-This code creates a custom exception handler that returns a JSON response with a message key and a value of 'An error occurred'. The `500` status code is also returned to indicate an internal server error.

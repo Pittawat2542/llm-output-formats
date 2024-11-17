@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue_order
-    speaker: SpeakerName
-    text: "Dialogue or narration"
-```
-In the fixed YAML, I removed the extraneous `-` for the second dialogue entry and added a new value for `speaker` with a placeholder name `SpeakerName`. Since there's no specific speaker provided in the original template, this is a general assumption. If you have a specific speaker, replace `SpeakerName` with the actual name.

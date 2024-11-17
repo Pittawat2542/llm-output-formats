@@ -1,6 +1,0 @@
-
-The code has been fixed with the following changes:
-1. The `game_objects` object is created instead of `scene_object`.
-2. The `type()` function is used to check if the object is an instance of the class instead of `isinstance()`, which checks for inheritance and subclasses.
-3. The `__str__()` method is added to return a string representation of the object, including its type and attributes.
-```

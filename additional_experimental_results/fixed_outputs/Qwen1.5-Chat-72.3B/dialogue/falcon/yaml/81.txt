@@ -1,9 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: 1 # Added a numerical value for 'dialogue order'
-    speaker: John Doe # Provided a specific speaker name
-    text: This is a sample dialogue or narration.
-```
-
-In the original YAML, the structure was not nested correctly under `game` and lacked a list indicator `-` before each dialogue. I have fixed these issues and provided example values for `order`, `speaker`, and `text`.

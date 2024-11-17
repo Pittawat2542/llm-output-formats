@@ -1,8 +1,0 @@
-```yaml
-game:
-  beginning: "the beginning of the game"
-  ending: "the ending of the game"
-  synopsis: "game story synopsis"
-  title: "game title"
-```
-The issue was that single quotes (`'`) were used instead of double quotes (`"`), which is the correct syntax for string values in YAML. I've replaced the single quotes with double quotes to fix it.

@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue order
-    speaker: speaker name
-    text: dialogue or narration
-```
-The issue was that there was an unnecessary backtick (`) at the beginning of the YAML. I've removed it, and now the syntax is correct.

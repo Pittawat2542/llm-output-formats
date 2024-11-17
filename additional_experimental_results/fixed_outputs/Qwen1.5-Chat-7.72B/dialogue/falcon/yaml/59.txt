@@ -1,9 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue_order
-    speaker: speaker_name_1
-    text: "Player 1 has to act fast... to avoid an imminent crisis."
-    player2: "This is a do or die situation." # Added 'player2' key for the second dialogue
-```
-The YAML data has been corrected by adding newlines after the `-` indicators for block mapping, removing extra spaces, and providing values for both `order` and `text`. Also, I added `speaker_name_1` for the second dialogue under `player1` to make it a complete entry.

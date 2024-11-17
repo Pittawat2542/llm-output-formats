@@ -1,8 +1,0 @@
-```yaml
-game:
-  dialogues:
-  - order: dialogue order
-    speaker:
-      name: name
-```
-The issue was that the `speaker` key had a trailing `-`, which is not correct syntax. I removed the unnecessary hyphen, and now the YAML is valid.

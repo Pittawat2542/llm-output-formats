@@ -1,8 +1,0 @@
-The YAML data is incorrect. The syntax has errors and the values are missing. The original message contains invalid YAML syntax and cannot be fixed without additional information. Here's the error:
-Error: incorrect_syntax: while scanning for the next token
-found character '`' that cannot start any token
-  in "<unicode string>", line 16, column 1:
-     ```
-     ^
-The correct YAML data should be provided with new values and a corrected syntax. If there is nothing wrong, only return the YAML in a code block (between ```yaml and ```). The original message is provided between ```yaml and ```.
-Example:

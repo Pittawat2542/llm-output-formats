@@ -1,6 +1,0 @@
-1) The game starts with a welcome message that says `Welcome to the game!`, where `player` is the name of the player character.
-2) After this message, there will be dialogues that are triggered by different events in the game. These dialogues can include commands (e.g. `go east`, `open north door`), status updates (e.g. `You have 10 health points left`), and general conversation topics (e.g. `What's your name?`, `How did you get here?`, etc.).
-3) The dialogues can also include conditional logic, such as if-else statements or loops. For example, a player might be asked to choose between two different paths in the game: one leads to treasure, and the other leads to danger. You could use an `if` statement to determine which path is chosen based on the player's input.
-4) In some cases, you may want to add additional logic to the dialogues to handle errors or unexpected events. For example, if a player tries to open a locked door, you might want to display an error message and give them another chance to try.
-
-

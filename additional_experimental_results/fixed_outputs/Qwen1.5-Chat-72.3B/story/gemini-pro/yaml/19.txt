@@ -1,8 +1,0 @@
-```yaml
-game:
-  beginning: In a distant galaxy, amidst a raging cosmic storm, the game begins. The player takes on the role of Commander Nova, a fearless starship captain entrusted with a crucial mission - to save the universe from the clutches of the nefarious Dr. Maldor, who seeks to exploit a powerful and ancient energy source.
-  ending: The climax of the game arrives as Commander Nova confronts Dr. Maldor in an epic showdown that reverberates across the stars. The fate of the universe hangs in the balance, and the player's actions determine the ultimate outcome. Whether victorious or defeated, the journey will leave an indelible mark on the cosmos.
-  synopsis: "Stellar Odyssey" is an exhilarating adventure that traverses vibrant celestial landscapes, uncharted worlds, and treacherous battles. As Commander Nova, the player must navigate through cosmic storms, explore enigmatic planets, and engage in thrilling ship-to-ship combat. The goal is to unravel the mysteries of the ancient energy source, gather a diverse crew of skilled allies, and ultimately confront Dr. Maldor in a climactic clash of cosmic proportions.
-  title: Stellar Odyssey
-```
-The issue was due to an incorrect punctuation in the `beginning` field. I fixed it by replacing the colon (:) with a hyphen (-) to make it a valid YAML block scalar. The rest of the YAML data was correct, so no other changes were needed.
